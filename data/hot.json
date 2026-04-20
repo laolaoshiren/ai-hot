@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-20T14:22:47.233965",
+  "updated_at": "2026-04-20T14:49:30.230562",
   "total": 70,
   "hot_list": [
     {
@@ -199,14 +199,6 @@
       "published": "2026-04-20T09:00:00"
     },
     {
-      "name": "OpenAI’s existential questions",
-      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 8,
-      "published": "2026-04-19T21:24:06"
-    },
-    {
       "name": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
       "url": "https://36kr.com/p/3775059219792648?f=rss",
       "type": "news",
@@ -351,38 +343,6 @@
       "published": "2026-04-20T05:53:44"
     },
     {
-      "name": "36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具品牌获数千万元融资",
-      "url": "https://36kr.com/p/3774692365206280?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T04:56:41"
-    },
-    {
-      "name": "地产一哥业绩“大洗澡”，舍利润保现金流",
-      "url": "https://36kr.com/p/3774684111634953?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T04:47:30"
-    },
-    {
-      "name": "字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70%｜独家",
-      "url": "https://36kr.com/p/3774566936216064?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T03:05:06"
-    },
-    {
-      "name": "Cloud development platform Vercel was hacked",
-      "url": "https://www.theverge.com/tech/914723/vercel-hacked",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 7,
-      "published": "2026-04-19T19:54:52"
-    },
-    {
       "name": "Ollama 支持运行 DeepSeek-V3 本地推理",
       "url": "https://github.com/ollama/ollama",
       "type": "news",
@@ -397,6 +357,46 @@
       "source": "r/MachineLearning",
       "score": 6,
       "published": "2026-04-20T07:00:00"
+    },
+    {
+      "name": "《红色沙漠》动捕演员承认游戏剧情叙事薄弱，但其他方面足以弥补",
+      "url": "https://www.ithome.com/0/941/369.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:38:53"
+    },
+    {
+      "name": "亚马逊给老用户打定心针：Fire OS 系统仍将长期存在，未来还会发布新设备",
+      "url": "https://www.ithome.com/0/941/367.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:25:56"
+    },
+    {
+      "name": "绿联推出新款 45W 氮化镓单 USB-C 接口充电头：支持 PD 3.2 AVS，79 元",
+      "url": "https://www.ithome.com/0/941/366.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:25:33"
+    },
+    {
+      "name": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投影院等配置",
+      "url": "https://www.ithome.com/0/941/365.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:25:00"
+    },
+    {
+      "name": "华为 WATCH GT6 系列智能手表获鸿蒙 HarmonyOS 6.1.0.117 版本升级，新增微运动等功能",
+      "url": "https://www.ithome.com/0/941/364.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:18:06"
     },
     {
       "name": "消息称苹果 iOS 27 抛弃 iPhone 11 / Pro / Max 及 SE 2 等手机",
