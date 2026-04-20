@@ -1,5 +1,137 @@
 [
   {
+    "id": "9e953523311b",
+    "title": "苹果 watchOS 26.5 开发者预览版 Beta 3 发布",
+    "url": "https://www.ithome.com/0/941/379.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T17:18:18",
+    "summary": "【点此直达升级教程】IT之家 4 月 21 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.5 开发者预览版 Beta 3 更新（内部版本号：23T5558e），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？• 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。附苹果 iOS 历史固件下载大全：《苹果 iOS / ",
+    "collected_at": "2026-04-20T18:54:51.290709"
+  },
+  {
+    "id": "43482afdc89e",
+    "title": "苹果 visionOS 26.5 开发者预览版 Beta 3 发布",
+    "url": "https://www.ithome.com/0/941/378.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T17:18:17",
+    "summary": "IT之家 4 月 21 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 26.5 开发者预览版 Beta 3 更新（内部版本号：23O5458e），本次更新距离上次发布 Beta / RC 间隔 7 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。目前尚无关于具体更新内容的任何消息。通常来说，watchOS、tvOS 和 visionOS 的每个新测试版主要集中在 Bug 修复和性能改进上，至少首批测试版中没有发现任何新功能。附 visionOS 26 发布历史：2026-04-14：vision",
+    "collected_at": "2026-04-20T18:54:51.290813"
+  },
+  {
+    "id": "ebba9c4e9105",
+    "title": "苹果 macOS 26.5 开发者预览版 Beta 3 发布",
+    "url": "https://www.ithome.com/0/941/377.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T17:18:17",
+    "summary": "IT之家 4 月 21 日消息，苹果今日向 Mac 电脑用户推送了 macOS 26.5 开发者预览版 Beta 3 更新（内部版本号：25F5058e），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？• 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。附苹果 iOS 历史固件下载大全：《苹果 iOS / iPadOS / macOS 固件下",
+    "collected_at": "2026-04-20T18:54:51.290923"
+  },
+  {
+    "id": "01cd64c1065c",
+    "title": "苹果 iOS / iPadOS 26.5 开发者预览版 Beta 3 发布",
+    "url": "https://www.ithome.com/0/941/376.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T17:18:16",
+    "summary": "【点此直达升级教程】IT之家 4 月 21 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 26.5 开发者预览版 Beta 3 更新（内部版本号：23F5059e），本次更新距离上次发布 Beta / RC 间隔 7 天。如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？• 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。附苹果 iOS 历史固件下载大全：《苹果 ",
+    "collected_at": "2026-04-20T18:54:51.291036"
+  },
+  {
+    "id": "dd303cd7f30d",
+    "title": "Fortnite developers can make AI characters now — just don&#8217;t try to date them",
+    "url": "https://www.theverge.com/games/914963/fortnite-ai-characters-developers-conversations",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-20T16:58:39",
+    "summary": "Following last year's AI-powered Darth Vader in Fortnite that swore in a re-creation of James Earl Jones' voice, Epic Games is now letting Fortnite creators experiment with a new \"conversations\" tool to create AI-powered characters that players can talk and interact with. \"Instead of authoring dialo",
+    "collected_at": "2026-04-20T18:54:51.520277"
+  },
+  {
+    "id": "9c57fea75aae",
+    "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
+    "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T16:06:21",
+    "summary": "NSA is said to be using Anthropic's restricted Mythos AI model.",
+    "collected_at": "2026-04-20T18:54:51.357406"
+  },
+  {
+    "id": "ca62f5b70962",
+    "title": "猛士汽车 × 华为乾崑合作产品 / 渠道 / 生态升级：未来 2 年投放 4 款车型，新车 4 月 24 日亮相",
+    "url": "https://www.ithome.com/0/941/375.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T15:58:40",
+    "summary": "IT之家 4 月 20 日消息，今天上午，猛士汽车春季焕新发布会如期举行。猛士汽车官方表示，要从“造最强新能源越野车”全面转向“造最懂用户新能源越野车”。IT之家注意到，猛士汽车与华为乾崑的合作将在产品、渠道、生态等方面全面升级。在产品焕新方面，未来 2 年将陆续投放 4 款全新车型。同时，搭载顶级越野性能、融合华为乾崑顶尖智能技术的新车将于 4 月 24 日在北京车展首发亮相。在渠道方面，猛士汽车将和华为乾崑共创全新形象。目前猛士汽车 001 号武汉旗舰店已全面落成，门店采用了猛士 + 华为乾崑智驾双标识的设计方案，并提供改装工坊、全域道路救援等。在越野生态方面，猛士汽车已与 10 余家头部",
+    "collected_at": "2026-04-20T18:54:51.291070"
+  },
+  {
+    "id": "425815f82b9a",
+    "title": "支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”",
+    "url": "https://www.ithome.com/0/941/374.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T15:41:55",
+    "summary": "IT之家 4 月 20 日消息，在今天下午的华为 Pura 系列及全场景新品发布会上，华为终端 BG CEO 何刚正式发布了其今天佩戴的新品 —— 华为 AI 眼镜，定价 2499 元起。IT之家注意到，支付宝官方今日发文宣布，华为 AI 眼镜内置支付宝鸿蒙版 App，可以“看一下支付”：既支持看商家收款码支付也可以看“碰一下”收款设备支付用户绑定眼镜与支付宝账户，录入本人语音后，3 步操作可完成支付：用户本人佩戴华为 AI 眼镜，双击 AI 键或说一句“支付 10 元”用户看向商家收款码或“碰一下”设备，眼镜自动识别用户本人说一句“确认支付”或双击 AI 键即可完成付款据支付宝介绍，华为、R",
+    "collected_at": "2026-04-20T18:54:51.291107"
+  },
+  {
+    "id": "23195d5f10b1",
+    "title": "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
+    "url": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T15:30:19",
+    "summary": "The startup, co-founded by former U.S. Energy Secretary Rick Perry, has faced headwinds with its AI campus in Texas.",
+    "collected_at": "2026-04-20T18:54:51.357452"
+  },
+  {
+    "id": "055066f9d2cf",
+    "title": "微软公布 XGP 订阅第二批游戏阵容，《最终幻想 5》下月 5 日入库",
+    "url": "https://www.ithome.com/0/941/373.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T15:19:23",
+    "summary": "IT之家 4 月 20 日消息，微软官方公布了 XGP 订阅第二批游戏阵容，涵盖《最终幻想 5》《近日点》等作品。IT之家附各游戏上线时间表如下：《小小火箭实验室》（Little Rocket Lab）：4 月 21 日，此前已支持 Premium、现登陆 Ultimate / PC 档位《汤：被盗土豆的故事》（Sopa: Tale of the Stolen Potato）：4 月 21 日，此前已支持 Premium、现登陆 Ultimate / PC 档位《吸血鬼幸存者》（Vampire Crawlers: The Turbo Wildcard from Vampire Survivor",
+    "collected_at": "2026-04-20T18:54:51.291162"
+  },
+  {
+    "id": "7dc5b0fa2998",
+    "title": "微软发布《极限竞速：地平线 6》Xbox 限定外设，含无线手柄、耳机",
+    "url": "https://www.ithome.com/0/941/371.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T15:04:51",
+    "summary": "IT之家 4 月 20 日消息，微软今天公布《极限竞速：地平线 6》Xbox 限定版无线手柄、耳机，售价暂未出炉。IT之家注意到，《极限竞速：地平线 6》限定版 Xbox 无线手柄拥有半透明外壳、扳机，机身上带有贯穿赛道图案，Xbox 西瓜键配色方案也有更改，呈现亮眼的粉色和绿色；摇杆则是浓粉色。而 ABXY 键被刷上了粉色、黄色、蓝色等，电池仓盖上还印有 Horizon Festival 标志。同时，《极限竞速：地平线 6》限定版 Xbox 耳机支持空间音频技术，包括 Windows Sonic、Dolby Atmos 和 DTS Headphone:X 等。外观则延续了手柄同款的半透明美学",
+    "collected_at": "2026-04-20T18:54:51.291193"
+  },
+  {
+    "id": "aa074fb60fa7",
+    "title": "曝索尼 100-400mm f/4.5 GM 镜头五月发布，Alpha 7 R VI 相机采用 6700 万像素传感器",
+    "url": "https://www.ithome.com/0/941/370.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T14:50:58",
+    "summary": "IT之家 4 月 20 日消息，消息源 SonyAlpha Rumors 今日发文称，索尼将在 5 月推出 Alpha 7 R VI 全画幅无反相机、100-400mm f/4.5 GM 长焦镜头。IT之家从报道中获悉，目前消息人士称 100-400mm 镜头的最大光圈是 f/4.5，而非此前爆料人 HowToFly 所述的 f/4.0。后者过去几年一向比较可靠，不过这次误差了 1/3 档光圈，有一点点出入但问题不大。同时消息人士还向 SonyAlpha Rumors 展示了实拍样张，但碍于对方要求相关图片不便公开。目前可以确认，100-400mm f/4.5 GM 镜头的开关、快捷键被移到靠",
+    "collected_at": "2026-04-20T18:54:51.291226"
+  },
+  {
     "id": "dd04215e8b53",
     "title": "《红色沙漠》动捕演员承认游戏剧情叙事薄弱，但其他方面足以弥补",
     "url": "https://www.ithome.com/0/941/369.htm",

@@ -1,36 +1,38 @@
 {
-  "updated_at": "2026-04-20T14:49:30.232933",
+  "updated_at": "2026-04-20T18:55:45.133660",
   "date": "2026-04-20",
   "spotlight": {
-    "name": "MetaGPT",
-    "url": "https://github.com/FoundationAgents/MetaGPT",
-    "type": "project",
-    "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-    "stars": 67271,
-    "language": "Python"
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "type": "tool",
+    "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
+    "pricing": "个人免费 + Teams $12/月",
+    "category": "编程"
   },
   "alternates": [
     {
-      "name": "zai-org/GLM-5.1",
-      "url": "https://huggingface.co/zai-org/GLM-5.1",
-      "type": "model",
-      "description": "Pipeline: text-generation",
-      "likes": 1434
+      "name": "Codex (ChatGPT)",
+      "url": "https://chatgpt.com",
+      "type": "agent",
+      "description": "OpenAI 内置的编程智能体，可在沙盒中执行代码",
+      "pricing": "ChatGPT Pro $200/月",
+      "category": "编程 Agent"
     },
     {
-      "name": "ChatGPT-Next-Web",
-      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
-      "type": "project",
-      "description": "A cross-platform ChatGPT/Gemini UI",
-      "stars": 76000,
-      "language": "TypeScript"
+      "name": "Perplexity",
+      "url": "https://perplexity.ai",
+      "type": "tool",
+      "description": "AI 搜索引擎，实时联网回答问题",
+      "pricing": "免费 + Pro $20/月",
+      "category": "搜索"
     },
     {
-      "name": "black-forest-labs/FLUX.1-schnell",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
-      "type": "model",
-      "description": "Pipeline: text-to-image",
-      "likes": 4793
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "type": "tool",
+      "description": "开源图像生成模型，本地部署无限制",
+      "pricing": "开源免费",
+      "category": "绘画"
     }
   ]
 }
