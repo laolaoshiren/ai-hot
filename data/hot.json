@@ -1,0 +1,28 @@
+{
+  "updated_at": "2026-04-20T14:00:00+08:00",
+  "total": 10,
+  "hot_list": [
+    {"name": "DeepSeek-V3 开源", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "type": "project", "source": "github", "score": 40, "stars": 15000, "velocity": 520},
+    {"name": "Cursor 代码编辑器", "url": "https://github.com/getcursor/cursor", "type": "project", "source": "github", "score": 35, "stars": 25000, "velocity": 380},
+    {"name": "Ollama 本地运行大模型", "url": "https://github.com/ollama/ollama", "type": "project", "source": "github", "score": 32, "stars": 85000, "velocity": 350},
+    {"name": "ComfyUI 工作流引擎", "url": "https://github.com/comfyanonymous/ComfyUI", "type": "project", "source": "github", "score": 28, "stars": 55000, "velocity": 290},
+    {"name": "Dify LLM 应用平台", "url": "https://github.com/langgenius/dify", "type": "project", "source": "github", "score": 25, "stars": 50000, "velocity": 260},
+    {"name": "FLUX.1 图像生成模型", "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev", "type": "model", "source": "huggingface", "score": 22, "likes": 9200},
+    {"name": "LangChain Agent框架", "url": "https://github.com/langchain-ai/langchain", "type": "project", "source": "github", "score": 20, "stars": 92000, "velocity": 180},
+    {"name": "Qwen2.5 国产大模型", "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct", "type": "model", "source": "huggingface", "score": 18, "likes": 6200},
+    {"name": "vLLM 高性能推理引擎", "url": "https://github.com/vllm-project/vllm", "type": "project", "source": "github", "score": 15, "stars": 30000, "velocity": 150},
+    {"name": "Whisper 语音识别", "url": "https://github.com/openai/whisper", "type": "project", "source": "github", "score": 12, "stars": 68000, "velocity": 120}
+  ],
+  "top_10": [
+    {"name": "DeepSeek-V3 开源", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "type": "project", "source": "github", "score": 40},
+    {"name": "Cursor 代码编辑器", "url": "https://github.com/getcursor/cursor", "type": "project", "source": "github", "score": 35},
+    {"name": "Ollama 本地运行大模型", "url": "https://github.com/ollama/ollama", "type": "project", "source": "github", "score": 32},
+    {"name": "ComfyUI 工作流引擎", "url": "https://github.com/comfyanonymous/ComfyUI", "type": "project", "source": "github", "score": 28},
+    {"name": "Dify LLM 应用平台", "url": "https://github.com/langgenius/dify", "type": "project", "source": "github", "score": 25},
+    {"name": "FLUX.1 图像生成模型", "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev", "type": "model", "source": "huggingface", "score": 22},
+    {"name": "LangChain Agent框架", "url": "https://github.com/langchain-ai/langchain", "type": "project", "source": "github", "score": 20},
+    {"name": "Qwen2.5 国产大模型", "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct", "type": "model", "source": "huggingface", "score": 18},
+    {"name": "vLLM 高性能推理引擎", "url": "https://github.com/vllm-project/vllm", "type": "project", "source": "github", "score": 15},
+    {"name": "Whisper 语音识别", "url": "https://github.com/openai/whisper", "type": "project", "source": "github", "score": 12}
+  ]
+}

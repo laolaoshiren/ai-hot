@@ -1,0 +1,172 @@
+{{ define "main" }}
+
+<div class="grid">
+<div>
+    <!-- 搜索框 -->
+    <div style="margin-bottom:20px">
+        <input type="text" class="search-box" placeholder="🔍 搜索 AI 工具、模型、新闻... (Ctrl+K)" id="searchInput">
+    </div>
+
+    <!-- 今日热点 -->
+    <div class="card">
+        <div class="card-title">🔥 今日热点 <span class="hot-badge fire">每6h更新</span></div>
+        {{ $hot := site.Data.hot }}
+        {{ if $hot }}
+            {{ range $index, $item := $hot.top_10 }}
+            <div class="hot-item">
+                <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
+                <div class="hot-content">
+                    <div class="hot-title">
+                        <a href="{{ $item.url }}" target="_blank" rel="noopener">{{ $item.name }}</a>
+                        <span class="hot-badge">{{ $item.source }}</span>
+                    </div>
+                    {{ if $item.velocity }}
+                    <div class="hot-meta">📈 +{{ $item.velocity }} stars/天</div>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+        {{ else }}
+            <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">数据采集中...</div></div></div>
+        {{ end }}
+    </div>
+
+    <!-- 每日精选 -->
+    {{ $daily := site.Data.daily }}
+    {{ if $daily }}
+    <div class="spotlight">
+        <div style="font-size:13px;color:var(--text2);margin-bottom:8px">⭐ 今日精选 - {{ $daily.date }}</div>
+        <div class="spotlight-name">{{ $daily.spotlight.name }}</div>
+        <div class="spotlight-desc">{{ $daily.spotlight.description }}</div>
+        <a href="{{ $daily.spotlight.url }}" class="spotlight-btn" target="_blank">立即体验 →</a>
+    </div>
+    {{ end }}
+
+    <!-- 热度飙升 -->
+    <div class="card">
+        <div class="card-title">📈 热度飙升 <span class="hot-badge">GitHub Stars 加速度</span></div>
+        {{ $trending := site.Data.trending }}
+        {{ if $trending }}
+            {{ range first 10 $trending.top_risers }}
+            <div class="trend-item">
+                <div>
+                    <a href="{{ .url }}" target="_blank">{{ .display_name }}</a>
+                    <span style="color:var(--text3);font-size:12px;margin-left:6px">⭐ {{ .stars }}</span>
+                </div>
+                <div class="trend-up">↑{{ .velocity_per_day }}/天</div>
+            </div>
+            {{ end }}
+        {{ else }}
+            <div class="trend-item"><div style="color:var(--text3)">热度计算中...</div></div>
+        {{ end }}
+    </div>
+
+    <!-- 最新新闻 -->
+    <div class="card">
+        <div class="card-title">📰 AI 新闻</div>
+        {{ $news := site.Data.news }}
+        {{ if $news }}
+            {{ range first 10 $news }}
+            <div class="hot-item">
+                <div class="hot-content">
+                    <div class="hot-title">
+                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    </div>
+                    <div class="hot-meta">{{ .source }} · {{ .published }}</div>
+                </div>
+            </div>
+            {{ end }}
+        {{ else }}
+            <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">新闻采集中...</div></div></div>
+        {{ end }}
+    </div>
+</div>
+
+<!-- 侧边栏 -->
+<div>
+    <!-- 分类入口 -->
+    <div class="card">
+        <div class="card-title">📂 分类导航</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+            <a href="/models/" class="tag">🧠 AI模型</a>
+            <a href="/tools/" class="tag">🛠️ AI工具</a>
+            <a href="/agents/" class="tag">🤖 AI Agent</a>
+            <a href="/news/" class="tag">📰 AI新闻</a>
+            <a href="/providers/" class="tag">🏢 提供商</a>
+        </div>
+    </div>
+
+    <!-- 随机发现 -->
+    <div class="card">
+        <div class="card-title">🎲 随机发现</div>
+        <button class="random-btn" onclick="randomTool()">🎲 点我换个工具</button>
+        <div id="randomResult" style="margin-top:12px"></div>
+    </div>
+
+    <!-- 实时关键词 -->
+    <div class="card">
+        <div class="card-title">🔑 热搜关键词</div>
+        {{ $seo := site.Data.seo }}
+        {{ if $seo }}
+            <div style="display:flex;flex-wrap:wrap;gap:6px">
+                {{ range $seo.hot_keywords }}
+                <span class="tag" style="background:rgba(255,107,53,0.15);color:var(--accent)">{{ . }}</span>
+                {{ end }}
+                {{ range first 10 $seo.homepage_keywords }}
+                <span class="tag">{{ . }}</span>
+                {{ end }}
+            </div>
+        {{ end }}
+    </div>
+
+    <!-- 数据状态 -->
+    <div class="card">
+        <div class="card-title">📊 数据状态</div>
+        {{ $meta := site.Data.meta }}
+        {{ if $meta }}
+        <div style="font-size:13px;color:var(--text2)">
+            <p>🕐 最后更新: {{ $meta.last_update }}</p>
+            {{ $projects := site.Data.projects }}
+            {{ $models := site.Data.models }}
+            {{ $news := site.Data.news }}
+            {{ if $projects }}<p>🚀 项目: {{ len $projects }}</p>{{ end }}
+            {{ if $models }}<p>🧠 模型: {{ len $models }}</p>{{ end }}
+            {{ if $news }}<p>📰 新闻: {{ len $news }}</p>{{ end }}
+        </div>
+        {{ end }}
+    </div>
+
+    <!-- 更新日志 -->
+    <div class="card">
+        <div class="card-title">🕐 更新日志</div>
+        <div style="font-size:12px;color:var(--text3)">
+            <p>数据每6小时自动采集更新</p>
+            <p>08:00 / 14:00 / 20:00 / 02:00 (北京时间)</p>
+        </div>
+    </div>
+</div>
+</div>
+
+<script>
+function randomTool() {
+    const projects = {{ site.Data.projects | jsonify | safeJS }} || [];
+    const models = {{ site.Data.models | jsonify | safeJS }} || [];
+    const all = [...projects, ...models];
+    if(all.length === 0) return;
+    const item = all[Math.floor(Math.random() * all.length)];
+    document.getElementById('randomResult').innerHTML =
+        '<div style="padding:12px;background:var(--bg);border-radius:6px">' +
+        '<a href="' + (item.url||'#') + '" target="_blank" style="font-weight:600">' + (item.display_name||item.name) + '</a>' +
+        '<div style="font-size:12px;color:var(--text2);margin-top:4px">' + (item.description||'') + '</div></div>';
+}
+
+// Ctrl+K 搜索
+document.addEventListener('keydown', function(e) {
+    if((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault();
+        document.getElementById('searchInput').focus();
+    }
+});
+</script>
+
+{{ end }}

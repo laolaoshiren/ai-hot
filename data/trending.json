@@ -1,0 +1,13 @@
+{
+  "updated_at": "2026-04-20T14:00:00+08:00",
+  "rankings": [
+    {"id": "github-cursor", "name": "cursor-ai/cursor", "display_name": "Cursor", "url": "https://github.com/getcursor/cursor", "description": "The AI-first Code Editor", "stars": 25000, "prev_stars": 24620, "velocity_per_hour": 15.8, "velocity_per_day": 380, "language": "TypeScript", "tracked_at": "2026-04-20T14:00:00+08:00"},
+    {"id": "github-deepseek", "name": "deepseek-ai/DeepSeek-V3", "display_name": "DeepSeek-V3", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "description": "The strongest open-source model", "stars": 15000, "prev_stars": 14480, "velocity_per_hour": 21.7, "velocity_per_day": 520, "language": "Python", "tracked_at": "2026-04-20T14:00:00+08:00"},
+    {"id": "github-ollama", "name": "ollama/ollama", "display_name": "Ollama", "url": "https://github.com/ollama/ollama", "description": "Get up and running with LLMs locally", "stars": 85000, "prev_stars": 84650, "velocity_per_hour": 14.6, "velocity_per_day": 350, "language": "Go", "tracked_at": "2026-04-20T14:00:00+08:00"}
+  ],
+  "top_risers": [
+    {"id": "github-deepseek", "name": "deepseek-ai/DeepSeek-V3", "display_name": "DeepSeek-V3", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "description": "The strongest open-source model", "stars": 15000, "velocity_per_day": 520, "language": "Python"},
+    {"id": "github-cursor", "name": "cursor-ai/cursor", "display_name": "Cursor", "url": "https://github.com/getcursor/cursor", "description": "The AI-first Code Editor", "stars": 25000, "velocity_per_day": 380, "language": "TypeScript"},
+    {"id": "github-ollama", "name": "ollama/ollama", "display_name": "Ollama", "url": "https://github.com/ollama/ollama", "description": "Get up and running with LLMs locally", "stars": 85000, "velocity_per_day": 350, "language": "Go"}
+  ]
+}

@@ -1,0 +1,59 @@
+baseURL = "https://airebang.com/"
+languageCode = "zh-CN"
+title = "AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐"
+theme = ""
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+paginate = 20
+
+[params]
+  description = "AI热榜 - 中文AI世界实时热榜。收录1000+AI工具、AI模型、AI Agent，每6小时自动更新。AI工具排名、免费AI工具推荐、国产大模型对比、AI新闻一网打尽。"
+  keywords = "AI热榜, AI工具, AI导航, AI工具大全, AI工具推荐, 免费AI工具, AI写作, AI绘画, AI编程, 大模型, 国产大模型, AI Agent"
+  author = "AI热榜"
+
+[params.homepage]
+  showSpotlight = true
+  showTrending = true
+  showHotNews = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[[menu.main]]
+  name = "🔥 热榜"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "🧠 模型"
+  url = "/models/"
+  weight = 2
+
+[[menu.main]]
+  name = "🛠️ 工具"
+  url = "/tools/"
+  weight = 3
+
+[[menu.main]]
+  name = "🤖 Agent"
+  url = "/agents/"
+  weight = 4
+
+[[menu.main]]
+  name = "📰 新闻"
+  url = "/news/"
+  weight = 5
+
+[[menu.main]]
+  name = "🏢 提供商"
+  url = "/providers/"
+  weight = 6

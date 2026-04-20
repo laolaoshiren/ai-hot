@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-04-20T14:00:00+08:00",
+  "date": "2026-04-20",
+  "spotlight": {
+    "name": "DeepSeek-V3",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "type": "project",
+    "description": "DeepSeek-V3：最强开源大模型，性能媲美GPT-4，完全开源免费",
+    "stars": 15000,
+    "language": "Python"
+  },
+  "alternates": [
+    {"name": "Cursor", "url": "https://github.com/getcursor/cursor", "type": "project", "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI"},
+    {"name": "Ollama", "url": "https://github.com/ollama/ollama", "type": "project", "description": "本地运行 Llama、Mistral、Gemma 等大模型"},
+    {"name": "ComfyUI", "url": "https://github.com/comfyanonymous/ComfyUI", "type": "project", "description": "最强大的 Stable Diffusion 节点式工作流引擎"}
+  ]
+}

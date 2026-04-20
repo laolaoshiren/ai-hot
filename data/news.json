@@ -1,0 +1,7 @@
+[
+  {"id": "seed-1", "title": "DeepSeek-V3 正式开源：性能媲美 GPT-4o", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "source": "Hacker News", "lang": "en", "published": "2026-04-20T10:00:00", "summary": "DeepSeek releases V3 as fully open-source", "collected_at": "2026-04-20T14:00:00"},
+  {"id": "seed-2", "title": "Cursor Pro 发布新版 AI 编程功能", "url": "https://cursor.sh", "source": "Hacker News", "lang": "en", "published": "2026-04-20T09:00:00", "summary": "Cursor adds new AI-powered features", "collected_at": "2026-04-20T14:00:00"},
+  {"id": "seed-3", "title": "Ollama 支持运行 DeepSeek-V3 本地推理", "url": "https://github.com/ollama/ollama", "source": "r/LocalLLaMA", "lang": "en", "published": "2026-04-20T08:00:00", "summary": "Ollama adds DeepSeek-V3 support", "collected_at": "2026-04-20T14:00:00"},
+  {"id": "seed-4", "title": "ComfyUI 工作流：Flux + LoRA 最佳实践", "url": "https://github.com/comfyanonymous/ComfyUI", "source": "r/MachineLearning", "lang": "en", "published": "2026-04-20T07:00:00", "summary": "Best practices for Flux + LoRA in ComfyUI", "collected_at": "2026-04-20T14:00:00"},
+  {"id": "seed-5", "title": "国产大模型 API 价格战：谁是性价比之王？", "url": "https://36kr.com", "source": "36氪", "lang": "zh", "published": "2026-04-20T06:00:00", "summary": "国内大模型价格对比分析", "collected_at": "2026-04-20T14:00:00"}
+]

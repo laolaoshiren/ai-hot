@@ -1,0 +1,38 @@
+name: 6-Hour AI Data Aggregation
+
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run Aggregator
+        run: python scripts/aggregate.py
+
+      - name: Commit & Push
+        run: |
+          git config user.name "AI热榜 Bot"
+          git config user.email "bot@airebang.com"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes"
+          else
+            git commit -m "🔄 [auto] 数据更新 $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M')"
+            git push
+          fi

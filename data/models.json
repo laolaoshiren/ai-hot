@@ -1,0 +1,9 @@
+[
+  {"id": "hf-gpt2", "name": "openai-community/gpt2", "display_name": "GPT-2", "url": "https://huggingface.co/openai-community/gpt2", "author": "openai-community", "pipeline_tag": "text-generation", "likes": 12000, "downloads": 5000000, "source": "seed"},
+  {"id": "hf-llama3", "name": "meta-llama/Meta-Llama-3-8B", "display_name": "Llama-3-8B", "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B", "author": "meta-llama", "pipeline_tag": "text-generation", "likes": 8500, "downloads": 3200000, "source": "seed"},
+  {"id": "hf-qwen2", "name": "Qwen/Qwen2.5-72B-Instruct", "display_name": "Qwen2.5-72B", "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct", "author": "Qwen", "pipeline_tag": "text-generation", "likes": 6200, "downloads": 1800000, "source": "seed"},
+  {"id": "hf-deepseek-v3", "name": "deepseek-ai/DeepSeek-V3", "display_name": "DeepSeek-V3", "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3", "author": "deepseek-ai", "pipeline_tag": "text-generation", "likes": 5800, "downloads": 950000, "source": "seed"},
+  {"id": "hf-flux", "name": "black-forest-labs/FLUX.1-dev", "display_name": "FLUX.1", "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev", "author": "black-forest-labs", "pipeline_tag": "text-to-image", "likes": 9200, "downloads": 2100000, "source": "seed"},
+  {"id": "hf-sdxl", "name": "stabilityai/stable-diffusion-xl-base-1.0", "display_name": "SDXL", "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0", "author": "stabilityai", "pipeline_tag": "text-to-image", "likes": 7800, "downloads": 4500000, "source": "seed"},
+  {"id": "hf-whisper-large", "name": "openai/whisper-large-v3", "display_name": "Whisper Large V3", "url": "https://huggingface.co/openai/whisper-large-v3", "author": "openai", "pipeline_tag": "automatic-speech-recognition", "likes": 5500, "downloads": 2800000, "source": "seed"}
+]
