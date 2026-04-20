@@ -1,518 +1,548 @@
 {
-  "updated_at": "2026-04-20T14:22:47.233965",
-  "total": 70,
+  "updated_at": "2026-04-20T16:16:11.705711",
+  "total": 78,
   "hot_list": [
     {
-      "name": "black-forest-labs/FLUX.1-dev",
+      "name": "Stable Diffusion WebUI",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 142000",
+      "description": "Stable Diffusion Web UI"
+    },
+    {
+      "name": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "project",
+      "source": "GitHub",
+      "score": 30.666666666666668,
+      "detail": "⭐ 92000",
+      "description": "最流行的 LLM 应用开发框架"
+    },
+    {
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "开源免费",
+      "description": "本地运行大模型的最简单方式"
+    },
+    {
+      "name": "Dify",
+      "url": "https://dify.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "开源 + 云服务",
+      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用"
+    },
+    {
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + Pro $20/月",
+      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力"
+    },
+    {
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "开源 + 商业 API",
+      "description": "新一代开源图像生成模型，质量超越 SD"
+    },
+    {
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + 会员",
+      "description": "快手出品的 AI 视频生成工具，国产最强"
+    },
+    {
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + API 按量",
+      "description": "深度求索出品，国产最强开源大模型对话工具"
+    },
+    {
+      "name": "ChatGPT-Next-Web",
+      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
+      "type": "project",
+      "source": "GitHub",
+      "score": 25.333333333333332,
+      "detail": "⭐ 76000",
+      "description": "跨平台 ChatGPT/Gemini UI"
+    },
+    {
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "type": "project",
+      "source": "GitHub",
+      "score": 22.666666666666668,
+      "detail": "⭐ 68000",
+      "description": "OpenAI 开源语音识别"
+    },
+    {
+      "name": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing",
+      "type": "news",
+      "source": "Hacker News",
+      "score": 22,
+      "detail": "Hacker News · 1541分",
+      "description": ""
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "节点式 AI 绘画工作流引擎，最强可控性"
+    },
+    {
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "高性能 LLM 推理引擎，PagedAttention"
+    },
+    {
+      "name": "Continue",
+      "url": "https://continue.dev",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "开源 AI 编程助手，可接入任意 LLM"
+    },
+    {
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "微软出品的多 Agent 协作框架"
+    },
+    {
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "按 API 使用量计费",
+      "description": "OpenAI 官方终端编程助手，轻量快速"
+    },
+    {
+      "name": "CrewAI",
+      "url": "https://crewai.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源 + 企业版",
+      "description": "多 Agent 协作框架，简单易用"
+    },
+    {
+      "name": "Fish Speech",
+      "url": "https://github.com/fishaudio/fish-speech",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "开源 TTS 语音合成模型，中文效果好"
+    },
+    {
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "$10/月 个人 / $19/月 企业",
+      "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains"
+    },
+    {
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "按 API 使用量计费",
+      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程"
+    },
+    {
+      "name": "Codeium",
+      "url": "https://codeium.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "个人免费 + Teams $12/月",
+      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器"
+    },
+    {
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Pro $15/月",
+      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体"
+    },
+    {
+      "name": "Trae",
+      "url": "https://trae.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "字节跳动出品的 AI IDE，中文友好"
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://midjourney.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "$10/月 起",
+      "description": "最强 AI 绘画工具，生成质量极高"
+    },
+    {
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "开源图像生成模型，本地部署无限制"
+    },
+    {
+      "name": "DALL-E 3",
+      "url": "https://openai.com/dall-e-3",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "ChatGPT Plus 内含",
+      "description": "OpenAI 官方图像生成，ChatGPT Plus 内置"
+    },
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "$15/月 起",
+      "description": "专业 AI 视频生成和编辑平台"
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.art",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + 付费",
+      "description": "AI 视频生成工具，简单易用"
+    },
+    {
+      "name": "Sora",
+      "url": "https://sora.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "ChatGPT Pro $200/月",
+      "description": "OpenAI 视频生成模型，效果惊人"
+    },
+    {
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Plus $20/月",
+      "description": "最流行的 AI 对话工具，OpenAI 出品"
+    },
+    {
+      "name": "Claude",
+      "url": "https://claude.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Pro $20/月",
+      "description": "Anthropic 出品的 AI 对话工具，长文本能力强"
+    },
+    {
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Advanced $20/月",
+      "description": "Google 出品的 AI 对话工具，多模态能力强"
+    },
+    {
+      "name": "Kimi",
+      "url": "https://kimi.moonshot.cn",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + 会员",
+      "description": "月之暗面出品，超长上下文 AI 助手"
+    },
+    {
+      "name": "豆包",
+      "url": "https://www.doubao.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "字节跳动出品的 AI 助手，功能全面"
+    },
+    {
+      "name": "通义千问",
+      "url": "https://tongyi.aliyun.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + API 按量",
+      "description": "阿里巴巴出品的 AI 助手"
+    },
+    {
+      "name": "文心一言",
+      "url": "https://yiyan.baidu.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + API 按量",
+      "description": "百度出品的 AI 助手"
+    },
+    {
+      "name": "Perplexity",
+      "url": "https://perplexity.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Pro $20/月",
+      "description": "AI 搜索引擎，实时联网回答问题"
+    },
+    {
+      "name": "秘塔 AI 搜索",
+      "url": "https://metaso.cn",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "国产 AI 搜索引擎，中文体验优秀"
+    },
+    {
+      "name": "Gamma",
+      "url": "https://gamma.app",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Plus $10/月",
+      "description": "AI 一键生成 PPT/演示文稿"
+    },
+    {
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "Google 出品的 AI 笔记/知识管理工具"
+    },
+    {
+      "name": "Coze",
+      "url": "https://www.coze.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "字节跳动出品的 AI Bot 搭建平台"
+    },
+    {
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "本地大模型 GUI 工具，界面友好"
+    },
+    {
+      "name": "Suno",
+      "url": "https://suno.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Pro $10/月",
+      "description": "AI 音乐生成工具，输入文字生成歌曲"
+    },
+    {
+      "name": "PrivateGPT",
+      "url": "https://github.com/imartinez/privateGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 17.666666666666668,
+      "detail": "⭐ 53000",
+      "description": "私有化部署的 GPT 文档问答"
+    },
+    {
+      "name": "MetaGPT",
+      "url": "https://github.com/geekan/MetaGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 15.0,
+      "detail": "⭐ 45000",
+      "description": "多 Agent 软件公司模拟"
+    },
+    {
+      "name": "FLUX.1-dev",
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 12674,
+      "source": "HuggingFace",
+      "score": 12.674,
+      "detail": "❤️ 12674",
       "description": "text-to-image"
     },
     {
-      "name": "openai-community/gpt2",
+      "name": "LlamaIndex",
+      "url": "https://github.com/run-llama/llama_index",
+      "type": "project",
+      "source": "GitHub",
+      "score": 12.0,
+      "detail": "⭐ 36000",
+      "description": "LLM 应用数据框架"
+    },
+    {
+      "name": "GPT-2",
       "url": "https://huggingface.co/openai-community/gpt2",
       "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 12000,
+      "source": "HuggingFace",
+      "score": 12.0,
+      "detail": "❤️ 12000",
       "description": "text-generation"
-    },
-    {
-      "name": "black-forest-labs/FLUX.1-dev",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 9200,
-      "description": "text-to-image"
-    },
-    {
-      "name": "meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 8500,
-      "description": "text-generation"
-    },
-    {
-      "name": "stabilityai/stable-diffusion-xl-base-1.0",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 7800,
-      "description": "text-to-image"
-    },
-    {
-      "name": "stabilityai/stable-diffusion-xl-base-1.0",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 7648,
-      "description": "text-to-image"
-    },
-    {
-      "name": "CompVis/stable-diffusion-v1-4",
-      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 6998,
-      "description": "text-to-image"
-    },
-    {
-      "name": "Qwen/Qwen2.5-72B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 6200,
-      "description": "text-generation"
-    },
-    {
-      "name": "deepseek-ai/DeepSeek-V3",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 5800,
-      "description": "text-generation"
-    },
-    {
-      "name": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 5731,
-      "description": "text-generation"
-    },
-    {
-      "name": "openai/whisper-large-v3",
-      "url": "https://huggingface.co/openai/whisper-large-v3",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 5500,
-      "description": "automatic-speech-recognition"
-    },
-    {
-      "name": "black-forest-labs/FLUX.1-schnell",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 4793,
-      "description": "text-to-image"
-    },
-    {
-      "name": "openai/gpt-oss-120b",
-      "url": "https://huggingface.co/openai/gpt-oss-120b",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 4719,
-      "description": "text-generation"
-    },
-    {
-      "name": "Tongyi-MAI/Z-Image-Turbo",
-      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 4485,
-      "description": "text-to-image"
-    },
-    {
-      "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 2736,
-      "description": "image-text-to-text"
-    },
-    {
-      "name": "stabilityai/sdxl-turbo",
-      "url": "https://huggingface.co/stabilityai/sdxl-turbo",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 2560,
-      "description": "text-to-image"
-    },
-    {
-      "name": "google/gemma-4-31B-it",
-      "url": "https://huggingface.co/google/gemma-4-31B-it",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 2206,
-      "description": "image-text-to-text"
-    },
-    {
-      "name": "zai-org/GLM-5.1",
-      "url": "https://huggingface.co/zai-org/GLM-5.1",
-      "type": "model",
-      "source": "huggingface",
-      "score": 28.68,
-      "likes": 1434,
-      "description": "text-generation"
-    },
-    {
-      "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
-      "type": "model",
-      "source": "huggingface",
-      "score": 26.94,
-      "likes": 1347,
-      "description": "image-text-to-text"
-    },
-    {
-      "name": "Qwen/Qwen3.5-9B",
-      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
-      "type": "model",
-      "source": "huggingface",
-      "score": 26.3,
-      "likes": 1315,
-      "description": "image-text-to-text"
     },
     {
       "name": "DeepSeek-V3 正式开源：性能媲美 GPT-4o",
       "url": "https://github.com/deepseek-ai/DeepSeek-V3",
       "type": "news",
       "source": "Hacker News",
-      "score": 10,
-      "published": "2026-04-20T10:00:00"
+      "score": 12.0,
+      "detail": "Hacker News",
+      "description": ""
     },
     {
       "name": "Cursor Pro 发布新版 AI 编程功能",
       "url": "https://cursor.sh",
       "type": "news",
       "source": "Hacker News",
-      "score": 10,
-      "published": "2026-04-20T09:00:00"
-    },
-    {
-      "name": "OpenAI’s existential questions",
-      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 8,
-      "published": "2026-04-19T21:24:06"
-    },
-    {
-      "name": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
-      "url": "https://36kr.com/p/3775059219792648?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T14:14:13"
-    },
-    {
-      "name": "中国人民银行行长潘功胜会见国际金融机构负责人",
-      "url": "https://36kr.com/newsflashes/3775166152163848?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:57:35"
-    },
-    {
-      "name": "热门中概股美股盘前多数下跌，理想汽车��超1%",
-      "url": "https://36kr.com/newsflashes/3775164902228740?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:56:19"
-    },
-    {
-      "name": "美股大型科技股盘前普跌，英特尔跌超1%",
-      "url": "https://36kr.com/newsflashes/3775158077014790?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:49:23"
-    },
-    {
-      "name": "空悬企业时驾科技获头部车企MPV车型独家定点 | 早期项目",
-      "url": "https://36kr.com/p/3775008761004549?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:47:19"
-    },
-    {
-      "name": "江天化学：一季度净利润1288.71万元，同比增长1473.96%",
-      "url": "https://36kr.com/newsflashes/3775149468516873?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:40:37"
-    },
-    {
-      "name": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资",
-      "url": "https://36kr.com/newsflashes/3775144569029380?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:35:38"
-    },
-    {
-      "name": "泰和科技：一季度净利润8603.26万元，同比增长202.43%",
-      "url": "https://36kr.com/newsflashes/3775135252824583?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:26:10"
-    },
-    {
-      "name": "Strategy斥资25.4亿美元增持比特币，持仓量逾81万枚",
-      "url": "https://36kr.com/newsflashes/3775131688452609?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:22:32"
-    },
-    {
-      "name": "中国移动：一季度净利润293亿元，同比下降4.2%",
-      "url": "https://36kr.com/newsflashes/3775124235420161?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:14:57"
-    },
-    {
-      "name": "雪天盐业：一季度净利润1486.75万元，同比下降55.47%",
-      "url": "https://36kr.com/newsflashes/3775120181461512?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T12:10:50"
-    },
-    {
-      "name": "昊志机电：一季度净利润9093.37万元 同比增长483.54%",
-      "url": "https://36kr.com/newsflashes/3775109483234049?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T11:59:57"
-    },
-    {
-      "name": "营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏",
-      "url": "https://36kr.com/p/3774966004892416?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T09:45:58"
-    },
-    {
-      "name": "申根签证申请同比增长20%，VFS Global观察中国市场回暖｜最前线",
-      "url": "https://36kr.com/p/3774760404894216?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T09:40:05"
-    },
-    {
-      "name": "灵光把手搓应用做成「朋友圈」，一人应用时代来了",
-      "url": "https://36kr.com/p/3774865386144519?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T07:56:00"
-    },
-    {
-      "name": "启明头条 | 连接世界级的科学与顶级的投资者，首届S2S中国研讨会创业提案第二次征集进行中",
-      "url": "https://36kr.com/p/3774783568937478?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T07:01:15"
-    },
-    {
-      "name": "国产大模型 API 价格战：谁是性价比之王？",
-      "url": "https://36kr.com",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T06:00:00"
-    },
-    {
-      "name": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线",
-      "url": "https://36kr.com/p/3774625128481539?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T05:53:44"
-    },
-    {
-      "name": "36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具品牌获数千万元融资",
-      "url": "https://36kr.com/p/3774692365206280?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T04:56:41"
-    },
-    {
-      "name": "地产一哥业绩“大洗澡”，舍利润保现金流",
-      "url": "https://36kr.com/p/3774684111634953?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T04:47:30"
-    },
-    {
-      "name": "字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70%｜独家",
-      "url": "https://36kr.com/p/3774566936216064?f=rss",
-      "type": "news",
-      "source": "36氪",
-      "score": 7,
-      "published": "2026-04-20T03:05:06"
-    },
-    {
-      "name": "Cloud development platform Vercel was hacked",
-      "url": "https://www.theverge.com/tech/914723/vercel-hacked",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 7,
-      "published": "2026-04-19T19:54:52"
-    },
-    {
-      "name": "Ollama 支持运行 DeepSeek-V3 本地推理",
-      "url": "https://github.com/ollama/ollama",
-      "type": "news",
-      "source": "r/LocalLLaMA",
-      "score": 6,
-      "published": "2026-04-20T08:00:00"
-    },
-    {
-      "name": "ComfyUI 工作流：Flux + LoRA 最佳实践",
-      "url": "https://github.com/comfyanonymous/ComfyUI",
-      "type": "news",
-      "source": "r/MachineLearning",
-      "score": 6,
-      "published": "2026-04-20T07:00:00"
-    },
-    {
-      "name": "消息称苹果 iOS 27 抛弃 iPhone 11 / Pro / Max 及 SE 2 等手机",
-      "url": "https://www.ithome.com/0/941/363.htm",
-      "type": "news",
-      "source": "IT之家",
-      "score": 5,
-      "published": "2026-04-20T14:11:54"
-    },
-    {
-      "name": "因 X 平台涉嫌传播多项不当内容，法国检方传唤埃隆 · 马斯克",
-      "url": "https://www.ithome.com/0/941/362.htm",
-      "type": "news",
-      "source": "IT之家",
-      "score": 5,
-      "published": "2026-04-20T14:05:23"
-    },
-    {
-      "name": "韶音 OpenFit Pro 开放式耳机发售：同向双振膜超级单元结构，黑白双色可选，1948 元",
-      "url": "https://www.ithome.com/0/941/361.htm",
-      "type": "news",
-      "source": "IT之家",
-      "score": 5,
-      "published": "2026-04-20T14:02:32"
+      "score": 12.0,
+      "detail": "Hacker News",
+      "description": ""
     }
   ],
   "top_10": [
     {
-      "name": "black-forest-labs/FLUX.1-dev",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 12674,
-      "description": "text-to-image"
+      "name": "Stable Diffusion WebUI",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 142000",
+      "description": "Stable Diffusion Web UI"
     },
     {
-      "name": "openai-community/gpt2",
-      "url": "https://huggingface.co/openai-community/gpt2",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 12000,
-      "description": "text-generation"
+      "name": "LangChain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "project",
+      "source": "GitHub",
+      "score": 30.666666666666668,
+      "detail": "⭐ 92000",
+      "description": "最流行的 LLM 应用开发框架"
     },
     {
-      "name": "black-forest-labs/FLUX.1-dev",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "type": "model",
-      "source": "huggingface",
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "type": "tool",
+      "source": "精选",
       "score": 30,
-      "likes": 9200,
-      "description": "text-to-image"
+      "detail": "开源免费",
+      "description": "本地运行大模型的最简单方式"
     },
     {
-      "name": "meta-llama/Meta-Llama-3-8B",
-      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-      "type": "model",
-      "source": "huggingface",
+      "name": "Dify",
+      "url": "https://dify.ai",
+      "type": "tool",
+      "source": "精选",
       "score": 30,
-      "likes": 8500,
-      "description": "text-generation"
+      "detail": "开源 + 云服务",
+      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用"
     },
     {
-      "name": "stabilityai/stable-diffusion-xl-base-1.0",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "type": "model",
-      "source": "huggingface",
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "type": "tool",
+      "source": "精选",
       "score": 30,
-      "likes": 7800,
-      "description": "text-to-image"
+      "detail": "免费 + Pro $20/月",
+      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力"
     },
     {
-      "name": "stabilityai/stable-diffusion-xl-base-1.0",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "type": "model",
-      "source": "huggingface",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
+      "type": "tool",
+      "source": "精选",
       "score": 30,
-      "likes": 7648,
-      "description": "text-to-image"
+      "detail": "开源 + 商业 API",
+      "description": "新一代开源图像生成模型，质量超越 SD"
     },
     {
-      "name": "CompVis/stable-diffusion-v1-4",
-      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
-      "type": "model",
-      "source": "huggingface",
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
+      "type": "tool",
+      "source": "精选",
       "score": 30,
-      "likes": 6998,
-      "description": "text-to-image"
+      "detail": "免费 + 会员",
+      "description": "快手出品的 AI 视频生成工具，国产最强"
     },
     {
-      "name": "Qwen/Qwen2.5-72B-Instruct",
-      "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
-      "type": "model",
-      "source": "huggingface",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "type": "tool",
+      "source": "精选",
       "score": 30,
-      "likes": 6200,
-      "description": "text-generation"
+      "detail": "免费 + API 按量",
+      "description": "深度求索出品，国产最强开源大模型对话工具"
     },
     {
-      "name": "deepseek-ai/DeepSeek-V3",
-      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 5800,
-      "description": "text-generation"
+      "name": "ChatGPT-Next-Web",
+      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
+      "type": "project",
+      "source": "GitHub",
+      "score": 25.333333333333332,
+      "detail": "⭐ 76000",
+      "description": "跨平台 ChatGPT/Gemini UI"
     },
     {
-      "name": "meta-llama/Llama-3.1-8B-Instruct",
-      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-      "type": "model",
-      "source": "huggingface",
-      "score": 30,
-      "likes": 5731,
-      "description": "text-generation"
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
+      "type": "project",
+      "source": "GitHub",
+      "score": 22.666666666666668,
+      "detail": "⭐ 68000",
+      "description": "OpenAI 开源语音识别"
     }
   ]
 }
