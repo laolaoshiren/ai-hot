@@ -3,23 +3,37 @@
     <div class="card-title">{{ .Title }}</div>
     {{ .Content }}
     
-    {{ $dataKey := .Data.Singular }}
-    {{ $data := index site.Data $dataKey }}
+    {{ $slug := .RelPermalink }}
+    {{ $data := false }}
+    
+    {{ if in $slug "/models/" }}
+        {{ $data = site.Data.models }}
+    {{ else if in $slug "/tools/" }}
+        {{ $data = site.Data.tools }}
+    {{ else if in $slug "/agents/" }}
+        {{ $data = site.Data.agents }}
+    {{ else if in $slug "/news/" }}
+        {{ $data = site.Data.news }}
+    {{ else if in $slug "/providers/" }}
+        {{ $data = site.Data.providers }}
+    {{ end }}
+    
     {{ if $data }}
         {{ range $data }}
         <div class="hot-item">
             <div class="hot-content">
                 <div class="hot-title">
-                    <a href="{{ .url }}" target="_blank">{{ .display_name | default .name }}</a>
+                    <a href="{{ .url }}" target="_blank">{{ .display_name | default .name | default .title }}</a>
                     {{ if .stars }}<span class="hot-badge">⭐ {{ .stars }}</span>{{ end }}
                     {{ if .likes }}<span class="hot-badge">❤️ {{ .likes }}</span>{{ end }}
+                    {{ if .source }}<span class="hot-badge">{{ .source }}</span>{{ end }}
                 </div>
-                <div class="hot-meta">{{ .description }}</div>
+                <div class="hot-meta">{{ .description | default .summary | default "" }}</div>
             </div>
         </div>
         {{ end }}
     {{ else }}
-        <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">数据采集中...</div></div></div>
+        <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">数据采集中，6小时后自动更新...</div></div></div>
     {{ end }}
 </div>
 {{ end }}
