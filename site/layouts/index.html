@@ -20,9 +20,7 @@
                         <a href="{{ $item.url }}" target="_blank" rel="noopener">{{ $item.name }}</a>
                         <span class="hot-badge">{{ $item.source }}</span>
                     </div>
-                    {{ if $item.velocity }}
-                    <div class="hot-meta">📈 +{{ $item.velocity }} stars/天</div>
-                    {{ end }}
+                    {{ if $item.detail }}<div class="hot-meta">{{ $item.detail }}</div>{{ end }}
                 </div>
             </div>
             {{ end }}
@@ -38,46 +36,47 @@
         <div style="font-size:13px;color:var(--text2);margin-bottom:8px">⭐ 今日精选 - {{ $daily.date }}</div>
         <div class="spotlight-name">{{ $daily.spotlight.name }}</div>
         <div class="spotlight-desc">{{ $daily.spotlight.description }}</div>
+        {{ if $daily.spotlight.pricing }}<div class="hot-meta" style="margin-top:6px">💰 {{ $daily.spotlight.pricing }}</div>{{ end }}
         <a href="{{ $daily.spotlight.url }}" class="spotlight-btn" target="_blank">立即体验 →</a>
     </div>
     {{ end }}
 
     <!-- 热度飙升 -->
     <div class="card">
-        <div class="card-title">📈 热度飙升 <span class="hot-badge">GitHub Stars 加速度</span></div>
+        <div class="card-title">📈 热度飙升</div>
         {{ $trending := site.Data.trending }}
         {{ if $trending }}
-            {{ range first 10 $trending.top_risers }}
+            {{ range first 8 $trending.top_risers }}
             <div class="trend-item">
                 <div>
                     <a href="{{ .url }}" target="_blank">{{ .display_name }}</a>
-                    <span style="color:var(--text3);font-size:12px;margin-left:6px">⭐ {{ .stars }}</span>
+                    <span style="color:var(--text3);font-size:12px;margin-left:6px">{{ .description }}</span>
                 </div>
                 <div class="trend-up">↑{{ .velocity_per_day }}/天</div>
             </div>
             {{ end }}
-        {{ else }}
-            <div class="trend-item"><div style="color:var(--text3)">热度计算中...</div></div>
         {{ end }}
     </div>
 
-    <!-- 最新新闻 -->
+    <!-- 最新新闻 (穿插显示，不按来源堆积) -->
     <div class="card">
         <div class="card-title">📰 AI 新闻</div>
         {{ $news := site.Data.news }}
         {{ if $news }}
-            {{ range first 10 $news }}
+            {{ range first 12 $news }}
             <div class="hot-item">
                 <div class="hot-content">
                     <div class="hot-title">
                         <a href="{{ .url }}" target="_blank">{{ .title }}</a>
                     </div>
-                    <div class="hot-meta">{{ .source }} · {{ .published }}</div>
+                    <div class="hot-meta">
+                        {{ .source }}
+                        {{ if .published }} · {{ slicestr .published 0 16 }}{{ end }}
+                    </div>
+                    {{ if .summary }}<div class="hot-meta" style="margin-top:2px;color:var(--text3)">{{ .summary }}</div>{{ end }}
                 </div>
             </div>
             {{ end }}
-        {{ else }}
-            <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">新闻采集中...</div></div></div>
         {{ end }}
     </div>
 </div>
@@ -88,11 +87,11 @@
     <div class="card">
         <div class="card-title">📂 分类导航</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
-            <a href="{{ relURL "/models/" }}" class="tag">🧠 AI模型</a>
-            <a href="{{ relURL "/tools/" }}" class="tag">🛠️ AI工具</a>
-            <a href="{{ relURL "/agents/" }}" class="tag">🤖 AI Agent</a>
-            <a href="{{ relURL "/news/" }}" class="tag">📰 AI新闻</a>
-            <a href="{{ relURL "/providers/" }}" class="tag">🏢 提供商</a>
+            <a href="{{ relURL "/tools/" }}" class="tag">🛠️ AI工具 ({{ len site.Data.tools }})</a>
+            <a href="{{ relURL "/models/" }}" class="tag">🧠 AI模型 ({{ len site.Data.models }})</a>
+            <a href="{{ relURL "/agents/" }}" class="tag">🤖 AI Agent ({{ len site.Data.agents }})</a>
+            <a href="{{ relURL "/news/" }}" class="tag">📰 AI新闻 ({{ len site.Data.news }})</a>
+            <a href="{{ relURL "/providers/" }}" class="tag">🏢 提供商 ({{ len site.Data.providers }})</a>
         </div>
     </div>
 
@@ -112,36 +111,25 @@
                 {{ range $seo.hot_keywords }}
                 <span class="tag" style="background:rgba(255,107,53,0.15);color:var(--accent)">{{ . }}</span>
                 {{ end }}
-                {{ range first 10 $seo.homepage_keywords }}
+                {{ range first 8 $seo.homepage_keywords }}
                 <span class="tag">{{ . }}</span>
                 {{ end }}
             </div>
         {{ end }}
     </div>
 
-    <!-- 数据状态 -->
+    <!-- 更新日志 -->
     <div class="card">
-        <div class="card-title">📊 数据状态</div>
+        <div class="card-title">🕐 更新状态</div>
         {{ $meta := site.Data.meta }}
         {{ if $meta }}
         <div style="font-size:13px;color:var(--text2)">
-            <p>🕐 最后更新: {{ $meta.last_update }}</p>
-            {{ $projects := site.Data.projects }}
-            {{ $models := site.Data.models }}
-            {{ $news := site.Data.news }}
-            {{ if $projects }}<p>🚀 项目: {{ len $projects }}</p>{{ end }}
-            {{ if $models }}<p>🧠 模型: {{ len $models }}</p>{{ end }}
-            {{ if $news }}<p>📰 新闻: {{ len $news }}</p>{{ end }}
+            <p>🕐 {{ $meta.last_update }}</p>
         </div>
         {{ end }}
-    </div>
-
-    <!-- 更新日志 -->
-    <div class="card">
-        <div class="card-title">🕐 更新日志</div>
-        <div style="font-size:12px;color:var(--text3)">
-            <p>数据每6小时自动采集更新</p>
-            <p>08:00 / 14:00 / 20:00 / 02:00 (北京时间)</p>
+        <div style="font-size:12px;color:var(--text3);margin-top:8px">
+            <p>每6小时自动更新</p>
+            <p>08:00 / 14:00 / 20:00 / 02:00</p>
         </div>
     </div>
 </div>
@@ -149,18 +137,23 @@
 
 <script>
 function randomTool() {
-    const projects = {{ site.Data.projects | jsonify | safeJS }} || [];
+    const tools = {{ site.Data.tools | jsonify | safeJS }} || [];
     const models = {{ site.Data.models | jsonify | safeJS }} || [];
-    const all = [...projects, ...models];
+    const agents = {{ site.Data.agents | jsonify | safeJS }} || [];
+    const all = [...tools, ...models, ...agents];
     if(all.length === 0) return;
     const item = all[Math.floor(Math.random() * all.length)];
+    const name = item.display_name || item.name;
+    const desc = item.description || '';
+    const price = item.pricing || '';
     document.getElementById('randomResult').innerHTML =
         '<div style="padding:12px;background:var(--bg);border-radius:6px">' +
-        '<a href="' + (item.url||'#') + '" target="_blank" style="font-weight:600">' + (item.display_name||item.name) + '</a>' +
-        '<div style="font-size:12px;color:var(--text2);margin-top:4px">' + (item.description||'') + '</div></div>';
+        '<a href="' + (item.url||'#') + '" target="_blank" style="font-weight:600">' + name + '</a>' +
+        (desc ? '<div style="font-size:12px;color:var(--text2);margin-top:4px">' + desc + '</div>' : '') +
+        (price ? '<div style="font-size:11px;color:var(--accent);margin-top:2px">💰 ' + price + '</div>' : '') +
+        '</div>';
 }
 
-// Ctrl+K 搜索
 document.addEventListener('keydown', function(e) {
     if((e.ctrlKey || e.metaKey) && e.key === 'k') {
         e.preventDefault();

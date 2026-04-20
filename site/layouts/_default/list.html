@@ -1,39 +1,114 @@
 {{ define "main" }}
+<div style="margin-bottom:20px">
+    <a href="{{ relURL "/" }}" style="color:var(--text2);font-size:13px">← 返回热榜</a>
+</div>
+
+{{ $slug := .RelPermalink }}
+
+<!-- 模型页 -->
+{{ if in $slug "/models/" }}
 <div class="card">
-    <div class="card-title">{{ .Title }}</div>
-    {{ .Content }}
-    
-    {{ $slug := .RelPermalink }}
-    {{ $data := false }}
-    
-    {{ if in $slug "/models/" }}
-        {{ $data = site.Data.models }}
-    {{ else if in $slug "/tools/" }}
-        {{ $data = site.Data.tools }}
-    {{ else if in $slug "/agents/" }}
-        {{ $data = site.Data.agents }}
-    {{ else if in $slug "/news/" }}
-        {{ $data = site.Data.news }}
-    {{ else if in $slug "/providers/" }}
-        {{ $data = site.Data.providers }}
-    {{ end }}
-    
-    {{ if $data }}
-        {{ range $data }}
-        <div class="hot-item">
-            <div class="hot-content">
-                <div class="hot-title">
-                    <a href="{{ .url }}" target="_blank">{{ .display_name | default .name | default .title }}</a>
-                    {{ if .stars }}<span class="hot-badge">⭐ {{ .stars }}</span>{{ end }}
-                    {{ if .likes }}<span class="hot-badge">❤️ {{ .likes }}</span>{{ end }}
-                    {{ if .source }}<span class="hot-badge">{{ .source }}</span>{{ end }}
-                </div>
-                <div class="hot-meta">{{ .description | default .summary | default "" }}</div>
+    <div class="card-title">🧠 AI 模型 <span class="hot-badge">{{ len site.Data.models }} 个</span></div>
+    {{ range site.Data.models }}
+    <div class="hot-item">
+        <div class="hot-content">
+            <div class="hot-title">
+                <a href="{{ .url }}" target="_blank">{{ .display_name | default .name }}</a>
+                {{ if .likes }}<span class="hot-badge">❤️ {{ .likes }}</span>{{ end }}
+                {{ if .pipeline_tag }}<span class="hot-badge">{{ .pipeline_tag }}</span>{{ end }}
             </div>
+            <div class="hot-meta">{{ .author }}</div>
         </div>
-        {{ end }}
-    {{ else }}
-        <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">数据采集中，6小时后自动更新...</div></div></div>
+    </div>
     {{ end }}
 </div>
+
+<!-- 工具页 -->
+{{ else if in $slug "/tools/" }}
+{{/* 按分类分组 */}}
+{{ $categories := dict "编程" "🛠️" "绘画" "🎨" "视频" "🎬" "对话" "💬" "搜索" "🔍" "写作" "✍️" "办公" "📊" "Agent" "🤖" "本地模型" "💻" "推理引擎" "⚡" "语音" "🎤" "音乐" "🎵" }}
+{{ range $cat, $emoji := $categories }}
+{{ $tools := where site.Data.tools "category" $cat }}
+{{ if gt (len $tools) 0 }}
+<div class="card">
+    <div class="card-title">{{ $emoji }} {{ $cat }} <span class="hot-badge">{{ len $tools }} 个</span></div>
+    {{ range $tools }}
+    <div class="hot-item">
+        <div class="hot-content">
+            <div class="hot-title">
+                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                {{ if .trending }}<span class="hot-badge fire">🔥 热门</span>{{ end }}
+                {{ if .free_quota }}<span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">{{ .free_quota }}</span>{{ end }}
+            </div>
+            <div class="hot-meta">{{ .description }}</div>
+            <div class="hot-meta" style="color:var(--accent)">💰 {{ .pricing }}</div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
+
+<!-- Agent 页 -->
+{{ else if in $slug "/agents/" }}
+{{ $types := dict "编程 Agent" "🛠️" "研究 Agent" "📚" "自动化 Agent" "⚡" "多 Agent" "👥" "效率 Agent" "🚀" }}
+{{ range $type, $emoji := $types }}
+{{ $agents := where site.Data.agents "type" $type }}
+{{ if gt (len $agents) 0 }}
+<div class="card">
+    <div class="card-title">{{ $emoji }} {{ $type }} <span class="hot-badge">{{ len $agents }} 个</span></div>
+    {{ range $agents }}
+    <div class="hot-item">
+        <div class="hot-content">
+            <div class="hot-title">
+                <a href="https://{{ .url }}" target="_blank">{{ .name }}</a>
+                {{ if .trending }}<span class="hot-badge fire">🔥 热门</span>{{ end }}
+            </div>
+            <div class="hot-meta">{{ .description }}</div>
+            <div class="hot-meta" style="color:var(--accent)">💰 {{ .pricing }}</div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+{{ end }}
+
+<!-- 新闻页 -->
+{{ else if in $slug "/news/" }}
+<div class="card">
+    <div class="card-title">📰 AI 新闻 <span class="hot-badge">{{ len site.Data.news }} 条</span></div>
+    {{ range site.Data.news }}
+    <div class="hot-item">
+        <div class="hot-content">
+            <div class="hot-title">
+                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                <span class="hot-badge">{{ .source }}</span>
+            </div>
+            {{ if .published }}<div class="hot-meta">{{ slicestr .published 0 16 }}</div>{{ end }}
+            {{ if .summary }}<div class="hot-meta" style="color:var(--text3)">{{ .summary }}</div>{{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<!-- 提供商页 -->
+{{ else if in $slug "/providers/" }}
+<div class="card">
+    <div class="card-title">🏢 AI 提供商 <span class="hot-badge">{{ len site.Data.providers }} 家</span></div>
+    {{ range site.Data.providers }}
+    <div class="hot-item">
+        <div class="hot-content">
+            <div class="hot-title">
+                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                {{ if .trending }}<span class="hot-badge fire">🔥 热门</span>{{ end }}
+                {{ if eq .chinese_access "直接访问" }}<span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">国内可用</span>{{ end }}
+            </div>
+            <div class="hot-meta">{{ .models }}</div>
+            {{ if .free_tier }}<div class="hot-meta" style="color:var(--green)">🎁 {{ .free_tier }}</div>{{ end }}
+        </div>
+    </div>
+    {{ end }}
+</div>
+{{ end }}
+
 {{ end }}

@@ -1,1 +1,15 @@
-[]
+[
+  {"id": "devin", "name": "Devin", "url": "https://devin.ai", "description": "全球首个 AI 软件工程师，能独立完成编程任务", "type": "编程 Agent", "pricing": "$500/月", "difficulty": 2, "trending": true},
+  {"id": "codex-agent", "name": "Codex (ChatGPT)", "url": "https://chatgpt.com", "description": "OpenAI 内置的编程智能体，可在沙盒中执行代码", "type": "编程 Agent", "pricing": "ChatGPT Pro $200/月", "difficulty": 1, "trending": true},
+  {"id": "claude-code-agent", "name": "Claude Code", "url": "https://docs.anthropic.com/en/docs/claude-code", "description": "Anthropic CLI 编程智能体，终端内全自主编程", "type": "编程 Agent", "pricing": "API 按量", "difficulty": 2, "trending": true},
+  {"id": "cursor-agent", "name": "Cursor Agent", "url": "https://cursor.sh", "description": "Cursor 内置的 Agent 模式，后台自主完成任务", "type": "编程 Agent", "pricing": "Pro $20/月", "difficulty": 1},
+  {"id": "swe-agent", "name": "SWE-Agent", "url": "https://github.com/princeton-nlp/SWE-agent", "description": "普林斯顿开源的软件工程 Agent", "type": "编程 Agent", "pricing": "开源免费", "difficulty": 3},
+  {"id": "gpt-researcher", "name": "GPT Researcher", "url": "https://github.com/assafelovic/gpt-researcher", "description": "AI 研究助手，自动搜索+分析+生成报告", "type": "研究 Agent", "pricing": "开源 + API 费用", "difficulty": 2, "trending": true},
+  {"id": "storm", "name": "STORM", "url": "https://github.com/stanford-oval/storm", "description": "斯坦福出品的 AI 知识文章生成器", "type": "研究 Agent", "pricing": "开源免费", "difficulty": 2},
+  {"id": "autogpt", "name": "AutoGPT", "url": "https://github.com/Significant-Gravitas/AutoGPT", "description": "最早爆火的自主 AI Agent 框架", "type": "自动化 Agent", "pricing": "开源免费", "difficulty": 3},
+  {"id": "babyagi", "name": "BabyAGI", "url": "https://github.com/yoheinakajima/babyagi", "description": "轻量级自主 AI Agent 框架", "type": "自动化 Agent", "pricing": "开源免费", "difficulty": 3},
+  {"id": "agentgpt", "name": "AgentGPT", "url": "https://agentgpt.reworkd.ai", "description": "浏览器内直接使用的 AI Agent 平台", "type": "自动化 Agent", "pricing": "免费 + Pro", "free_quota": "基础版免费", "difficulty": 1},
+  {"id": "metagpt", "name": "MetaGPT", "url": "github.com/geekan/MetaGPT", "description": "多 Agent 软件公司模拟，一个 Agent 扮演不同角色", "type": "多 Agent", "pricing": "开源免费", "difficulty": 3},
+  {"id": "chatdev", "name": "ChatDev", "url": "https://github.com/OpenBMB/ChatDev", "description": "清华出品，模拟软件开发公司的多 Agent 框架", "type": "多 Agent", "pricing": "开源免费", "difficulty": 3},
+  {"id": "fabric-agent", "name": "Fabric", "url": "https://github.com/danielmiessler/fabric", "description": "AI 增强人类能力的框架，内置海量 Prompt 模板", "type": "效率 Agent", "pricing": "开源免费", "difficulty": 2}
+]
