@@ -5,6 +5,7 @@
     <!-- 搜索框 -->
     <div style="margin-bottom:20px">
         <input type="text" class="search-box" placeholder="🔍 搜索 AI 工具、模型、新闻... (Ctrl+K)" id="searchInput">
+        <div id="searchResults"></div>
     </div>
 
     <!-- 今日热点 -->
@@ -165,10 +166,112 @@ function randomTool() {
         '</div>';
 }
 
+// 搜索功能
+const searchData = {
+    tools: {{ site.Data.tools | jsonify | safeJS }} || [],
+    models: {{ site.Data.models | jsonify | safeJS }} || [],
+    agents: {{ site.Data.agents | jsonify | safeJS }} || [],
+    news: {{ site.Data.news | jsonify | safeJS }} || []
+};
+
+function searchAll(query) {
+    if (!query || query.trim().length === 0) return [];
+    const q = query.toLowerCase().trim();
+    const results = [];
+
+    // 搜索工具
+    searchData.tools.forEach(item => {
+        const text = [item.name, item.description, item.category, item.pricing, ...(item.tags || [])].join(' ').toLowerCase();
+        if (text.includes(q)) {
+            results.push({ type: 'tool', emoji: '🛠️', name: item.name, desc: item.description, url: item.url, price: item.pricing });
+        }
+    });
+
+    // 搜索模型
+    searchData.models.forEach(item => {
+        const text = [item.name, item.display_name, item.author, item.pipeline_tag].join(' ').toLowerCase();
+        if (text.includes(q)) {
+            results.push({ type: 'model', emoji: '🧠', name: item.display_name || item.name, desc: item.author + ' · ' + (item.pipeline_tag || ''), url: item.url });
+        }
+    });
+
+    // 搜索Agent
+    searchData.agents.forEach(item => {
+        const text = [item.name, item.description, item.type, item.pricing].join(' ').toLowerCase();
+        if (text.includes(q)) {
+            results.push({ type: 'agent', emoji: '🤖', name: item.name, desc: item.description, url: 'https://' + item.url, price: item.pricing });
+        }
+    });
+
+    // 搜索新闻（限制前5条）
+    let newsCount = 0;
+    searchData.news.forEach(item => {
+        if (newsCount >= 5) return;
+        const text = [item.title, item.summary, item.source].join(' ').toLowerCase();
+        if (text.includes(q)) {
+            results.push({ type: 'news', emoji: '📰', name: item.title, desc: item.source + ' · ' + (item.published || '').slice(0, 10), url: item.url });
+            newsCount++;
+        }
+    });
+
+    return results.slice(0, 20); // 最多显示20条
+}
+
+function renderSearchResults(results) {
+    const container = document.getElementById('searchResults');
+    if (!results || results.length === 0) {
+        container.innerHTML = '';
+        container.style.display = 'none';
+        return;
+    }
+
+    let html = '<div style="background:var(--bg2);border:1px solid var(--border);border-radius:8px;margin-top:8px;max-height:400px;overflow-y:auto">';
+    html += '<div style="padding:8px 12px;font-size:12px;color:var(--text3);border-bottom:1px solid var(--border)">找到 ' + results.length + ' 个结果</div>';
+
+    results.forEach(item => {
+        html += '<a href="' + item.url + '" target="_blank" style="display:block;padding:10px 12px;border-bottom:1px solid var(--border);text-decoration:none;color:inherit">';
+        html += '<div style="display:flex;align-items:center;gap:8px">';
+        html += '<span>' + item.emoji + '</span>';
+        html += '<div style="flex:1;min-width:0">';
+        html += '<div style="font-size:14px;font-weight:500;color:var(--blue)">' + item.name + '</div>';
+        if (item.desc) html += '<div style="font-size:12px;color:var(--text2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis">' + item.desc + '</div>';
+        html += '</div>';
+        if (item.price) html += '<span style="font-size:11px;color:var(--accent)">' + item.price + '</span>';
+        html += '</div></a>';
+    });
+
+    html += '</div>';
+    container.innerHTML = html;
+    container.style.display = 'block';
+}
+
+// 搜索输入事件
+let searchTimeout;
+document.getElementById('searchInput').addEventListener('input', function(e) {
+    clearTimeout(searchTimeout);
+    const query = e.target.value;
+    searchTimeout = setTimeout(() => {
+        const results = searchAll(query);
+        renderSearchResults(results);
+    }, 200); // 200ms 防抖
+});
+
+// 点击其他地方关闭搜索结果
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('#searchInput') && !e.target.closest('#searchResults')) {
+        document.getElementById('searchResults').style.display = 'none';
+    }
+});
+
+// Ctrl+K 聚焦搜索框
 document.addEventListener('keydown', function(e) {
     if((e.ctrlKey || e.metaKey) && e.key === 'k') {
         e.preventDefault();
         document.getElementById('searchInput').focus();
+    }
+    if(e.key === 'Escape') {
+        document.getElementById('searchResults').style.display = 'none';
+        document.getElementById('searchInput').blur();
     }
 });
 </script>
