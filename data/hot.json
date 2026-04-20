@@ -1,28 +1,518 @@
 {
-  "updated_at": "2026-04-20T14:00:00+08:00",
-  "total": 10,
+  "updated_at": "2026-04-20T14:22:47.233965",
+  "total": 70,
   "hot_list": [
-    {"name": "DeepSeek-V3 开源", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "type": "project", "source": "github", "score": 40, "stars": 15000, "velocity": 520},
-    {"name": "Cursor 代码编辑器", "url": "https://github.com/getcursor/cursor", "type": "project", "source": "github", "score": 35, "stars": 25000, "velocity": 380},
-    {"name": "Ollama 本地运行大模型", "url": "https://github.com/ollama/ollama", "type": "project", "source": "github", "score": 32, "stars": 85000, "velocity": 350},
-    {"name": "ComfyUI 工作流引擎", "url": "https://github.com/comfyanonymous/ComfyUI", "type": "project", "source": "github", "score": 28, "stars": 55000, "velocity": 290},
-    {"name": "Dify LLM 应用平台", "url": "https://github.com/langgenius/dify", "type": "project", "source": "github", "score": 25, "stars": 50000, "velocity": 260},
-    {"name": "FLUX.1 图像生成模型", "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev", "type": "model", "source": "huggingface", "score": 22, "likes": 9200},
-    {"name": "LangChain Agent框架", "url": "https://github.com/langchain-ai/langchain", "type": "project", "source": "github", "score": 20, "stars": 92000, "velocity": 180},
-    {"name": "Qwen2.5 国产大模型", "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct", "type": "model", "source": "huggingface", "score": 18, "likes": 6200},
-    {"name": "vLLM 高性能推理引擎", "url": "https://github.com/vllm-project/vllm", "type": "project", "source": "github", "score": 15, "stars": 30000, "velocity": 150},
-    {"name": "Whisper 语音识别", "url": "https://github.com/openai/whisper", "type": "project", "source": "github", "score": 12, "stars": 68000, "velocity": 120}
+    {
+      "name": "black-forest-labs/FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 12674,
+      "description": "text-to-image"
+    },
+    {
+      "name": "openai-community/gpt2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 12000,
+      "description": "text-generation"
+    },
+    {
+      "name": "black-forest-labs/FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 9200,
+      "description": "text-to-image"
+    },
+    {
+      "name": "meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 8500,
+      "description": "text-generation"
+    },
+    {
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 7800,
+      "description": "text-to-image"
+    },
+    {
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 7648,
+      "description": "text-to-image"
+    },
+    {
+      "name": "CompVis/stable-diffusion-v1-4",
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 6998,
+      "description": "text-to-image"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 6200,
+      "description": "text-generation"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 5800,
+      "description": "text-generation"
+    },
+    {
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 5731,
+      "description": "text-generation"
+    },
+    {
+      "name": "openai/whisper-large-v3",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 5500,
+      "description": "automatic-speech-recognition"
+    },
+    {
+      "name": "black-forest-labs/FLUX.1-schnell",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 4793,
+      "description": "text-to-image"
+    },
+    {
+      "name": "openai/gpt-oss-120b",
+      "url": "https://huggingface.co/openai/gpt-oss-120b",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 4719,
+      "description": "text-generation"
+    },
+    {
+      "name": "Tongyi-MAI/Z-Image-Turbo",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 4485,
+      "description": "text-to-image"
+    },
+    {
+      "name": "Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "url": "https://huggingface.co/Jackrong/Qwen3.5-27B-Claude-4.6-Opus-Reasoning-Distilled",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 2736,
+      "description": "image-text-to-text"
+    },
+    {
+      "name": "stabilityai/sdxl-turbo",
+      "url": "https://huggingface.co/stabilityai/sdxl-turbo",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 2560,
+      "description": "text-to-image"
+    },
+    {
+      "name": "google/gemma-4-31B-it",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 2206,
+      "description": "image-text-to-text"
+    },
+    {
+      "name": "zai-org/GLM-5.1",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "type": "model",
+      "source": "huggingface",
+      "score": 28.68,
+      "likes": 1434,
+      "description": "text-generation"
+    },
+    {
+      "name": "HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "url": "https://huggingface.co/HauhauCS/Qwen3.5-35B-A3B-Uncensored-HauhauCS-Aggressive",
+      "type": "model",
+      "source": "huggingface",
+      "score": 26.94,
+      "likes": 1347,
+      "description": "image-text-to-text"
+    },
+    {
+      "name": "Qwen/Qwen3.5-9B",
+      "url": "https://huggingface.co/Qwen/Qwen3.5-9B",
+      "type": "model",
+      "source": "huggingface",
+      "score": 26.3,
+      "likes": 1315,
+      "description": "image-text-to-text"
+    },
+    {
+      "name": "DeepSeek-V3 正式开源：性能媲美 GPT-4o",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "type": "news",
+      "source": "Hacker News",
+      "score": 10,
+      "published": "2026-04-20T10:00:00"
+    },
+    {
+      "name": "Cursor Pro 发布新版 AI 编程功能",
+      "url": "https://cursor.sh",
+      "type": "news",
+      "source": "Hacker News",
+      "score": 10,
+      "published": "2026-04-20T09:00:00"
+    },
+    {
+      "name": "OpenAI’s existential questions",
+      "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 8,
+      "published": "2026-04-19T21:24:06"
+    },
+    {
+      "name": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
+      "url": "https://36kr.com/p/3775059219792648?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T14:14:13"
+    },
+    {
+      "name": "中国人民银行行长潘功胜会见国际金融机构负责人",
+      "url": "https://36kr.com/newsflashes/3775166152163848?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:57:35"
+    },
+    {
+      "name": "热门中概股美股盘前多数下跌，理想汽车��超1%",
+      "url": "https://36kr.com/newsflashes/3775164902228740?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:56:19"
+    },
+    {
+      "name": "美股大型科技股盘前普跌，英特尔跌超1%",
+      "url": "https://36kr.com/newsflashes/3775158077014790?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:49:23"
+    },
+    {
+      "name": "空悬企业时驾科技获头部车企MPV车型独家定点 | 早期项目",
+      "url": "https://36kr.com/p/3775008761004549?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:47:19"
+    },
+    {
+      "name": "江天化学：一季度净利润1288.71万元，同比增长1473.96%",
+      "url": "https://36kr.com/newsflashes/3775149468516873?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:40:37"
+    },
+    {
+      "name": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资",
+      "url": "https://36kr.com/newsflashes/3775144569029380?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:35:38"
+    },
+    {
+      "name": "泰和科技：一季度净利润8603.26万元，同比增长202.43%",
+      "url": "https://36kr.com/newsflashes/3775135252824583?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:26:10"
+    },
+    {
+      "name": "Strategy斥资25.4亿美元增持比特币，持仓量逾81万枚",
+      "url": "https://36kr.com/newsflashes/3775131688452609?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:22:32"
+    },
+    {
+      "name": "中国移动：一季度净利润293亿元，同比下降4.2%",
+      "url": "https://36kr.com/newsflashes/3775124235420161?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:14:57"
+    },
+    {
+      "name": "雪天盐业：一季度净利润1486.75万元，同比下降55.47%",
+      "url": "https://36kr.com/newsflashes/3775120181461512?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T12:10:50"
+    },
+    {
+      "name": "昊志机电：一季度净利润9093.37万元 同比增长483.54%",
+      "url": "https://36kr.com/newsflashes/3775109483234049?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T11:59:57"
+    },
+    {
+      "name": "营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏",
+      "url": "https://36kr.com/p/3774966004892416?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T09:45:58"
+    },
+    {
+      "name": "申根签证申请同比增长20%，VFS Global观察中国市场回暖｜最前线",
+      "url": "https://36kr.com/p/3774760404894216?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T09:40:05"
+    },
+    {
+      "name": "灵光把手搓应用做成「朋友圈」，一人应用时代来了",
+      "url": "https://36kr.com/p/3774865386144519?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T07:56:00"
+    },
+    {
+      "name": "启明头条 | 连接世界级的科学与顶级的投资者，首届S2S中国研讨会创业提案第二次征集进行中",
+      "url": "https://36kr.com/p/3774783568937478?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T07:01:15"
+    },
+    {
+      "name": "国产大模型 API 价格战：谁是性价比之王？",
+      "url": "https://36kr.com",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T06:00:00"
+    },
+    {
+      "name": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线",
+      "url": "https://36kr.com/p/3774625128481539?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T05:53:44"
+    },
+    {
+      "name": "36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具品牌获数千万元融资",
+      "url": "https://36kr.com/p/3774692365206280?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T04:56:41"
+    },
+    {
+      "name": "地产一哥业绩“大洗澡”，舍利润保现金流",
+      "url": "https://36kr.com/p/3774684111634953?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T04:47:30"
+    },
+    {
+      "name": "字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70%｜独家",
+      "url": "https://36kr.com/p/3774566936216064?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 7,
+      "published": "2026-04-20T03:05:06"
+    },
+    {
+      "name": "Cloud development platform Vercel was hacked",
+      "url": "https://www.theverge.com/tech/914723/vercel-hacked",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 7,
+      "published": "2026-04-19T19:54:52"
+    },
+    {
+      "name": "Ollama 支持运行 DeepSeek-V3 本地推理",
+      "url": "https://github.com/ollama/ollama",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 6,
+      "published": "2026-04-20T08:00:00"
+    },
+    {
+      "name": "ComfyUI 工作流：Flux + LoRA 最佳实践",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "type": "news",
+      "source": "r/MachineLearning",
+      "score": 6,
+      "published": "2026-04-20T07:00:00"
+    },
+    {
+      "name": "消息称苹果 iOS 27 抛弃 iPhone 11 / Pro / Max 及 SE 2 等手机",
+      "url": "https://www.ithome.com/0/941/363.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:11:54"
+    },
+    {
+      "name": "因 X 平台涉嫌传播多项不当内容，法国检方传唤埃隆 · 马斯克",
+      "url": "https://www.ithome.com/0/941/362.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:05:23"
+    },
+    {
+      "name": "韶音 OpenFit Pro 开放式耳机发售：同向双振膜超级单元结构，黑白双色可选，1948 元",
+      "url": "https://www.ithome.com/0/941/361.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 5,
+      "published": "2026-04-20T14:02:32"
+    }
   ],
   "top_10": [
-    {"name": "DeepSeek-V3 开源", "url": "https://github.com/deepseek-ai/DeepSeek-V3", "type": "project", "source": "github", "score": 40},
-    {"name": "Cursor 代码编辑器", "url": "https://github.com/getcursor/cursor", "type": "project", "source": "github", "score": 35},
-    {"name": "Ollama 本地运行大模型", "url": "https://github.com/ollama/ollama", "type": "project", "source": "github", "score": 32},
-    {"name": "ComfyUI 工作流引擎", "url": "https://github.com/comfyanonymous/ComfyUI", "type": "project", "source": "github", "score": 28},
-    {"name": "Dify LLM 应用平台", "url": "https://github.com/langgenius/dify", "type": "project", "source": "github", "score": 25},
-    {"name": "FLUX.1 图像生成模型", "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev", "type": "model", "source": "huggingface", "score": 22},
-    {"name": "LangChain Agent框架", "url": "https://github.com/langchain-ai/langchain", "type": "project", "source": "github", "score": 20},
-    {"name": "Qwen2.5 国产大模型", "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct", "type": "model", "source": "huggingface", "score": 18},
-    {"name": "vLLM 高性能推理引擎", "url": "https://github.com/vllm-project/vllm", "type": "project", "source": "github", "score": 15},
-    {"name": "Whisper 语音识别", "url": "https://github.com/openai/whisper", "type": "project", "source": "github", "score": 12}
+    {
+      "name": "black-forest-labs/FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 12674,
+      "description": "text-to-image"
+    },
+    {
+      "name": "openai-community/gpt2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 12000,
+      "description": "text-generation"
+    },
+    {
+      "name": "black-forest-labs/FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 9200,
+      "description": "text-to-image"
+    },
+    {
+      "name": "meta-llama/Meta-Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 8500,
+      "description": "text-generation"
+    },
+    {
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 7800,
+      "description": "text-to-image"
+    },
+    {
+      "name": "stabilityai/stable-diffusion-xl-base-1.0",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 7648,
+      "description": "text-to-image"
+    },
+    {
+      "name": "CompVis/stable-diffusion-v1-4",
+      "url": "https://huggingface.co/CompVis/stable-diffusion-v1-4",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 6998,
+      "description": "text-to-image"
+    },
+    {
+      "name": "Qwen/Qwen2.5-72B-Instruct",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 6200,
+      "description": "text-generation"
+    },
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 5800,
+      "description": "text-generation"
+    },
+    {
+      "name": "meta-llama/Llama-3.1-8B-Instruct",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "type": "model",
+      "source": "huggingface",
+      "score": 30,
+      "likes": 5731,
+      "description": "text-generation"
+    }
   ]
 }
