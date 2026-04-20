@@ -32,19 +32,24 @@
 {{ if gt (len $tools) 0 }}
 <div class="card">
     <div class="card-title">{{ $emoji }} {{ $cat }} <span class="hot-badge">{{ len $tools }} 个</span></div>
-    {{ range $tools }}
-    <div class="hot-item">
-        <div class="hot-content">
-            <div class="hot-title">
-                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-                {{ if .trending }}<span class="hot-badge fire">🔥 热门</span>{{ end }}
-                {{ if .free_quota }}<span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">{{ .free_quota }}</span>{{ end }}
+    <div class="tools-grid">
+        {{ range $tools }}
+        <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
+            <div class="tool-header">
+                <div class="tool-icon">{{ $emoji }}</div>
+                <div class="tool-name">{{ .name }}</div>
             </div>
-            <div class="hot-meta">{{ .description }}</div>
-            <div class="hot-meta" style="color:var(--accent)">💰 {{ .pricing }}</div>
-        </div>
+            <div class="tool-desc">{{ .description }}</div>
+            <div class="tool-footer">
+                <div class="tool-tags">
+                    {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
+                    {{ if .free_quota }}<span class="tool-tag free">{{ .free_quota }}</span>{{ end }}
+                </div>
+                <div class="tool-price">💰 {{ .pricing }}</div>
+            </div>
+        </a>
+        {{ end }}
     </div>
-    {{ end }}
 </div>
 {{ end }}
 {{ end }}
@@ -57,18 +62,24 @@
 {{ if gt (len $agents) 0 }}
 <div class="card">
     <div class="card-title">{{ $emoji }} {{ $type }} <span class="hot-badge">{{ len $agents }} 个</span></div>
-    {{ range $agents }}
-    <div class="hot-item">
-        <div class="hot-content">
-            <div class="hot-title">
-                <a href="https://{{ .url }}" target="_blank">{{ .name }}</a>
-                {{ if .trending }}<span class="hot-badge fire">🔥 热门</span>{{ end }}
+    <div class="tools-grid">
+        {{ range $agents }}
+        <a href="https://{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
+            <div class="tool-header">
+                <div class="tool-icon">{{ $emoji }}</div>
+                <div class="tool-name">{{ .name }}</div>
             </div>
-            <div class="hot-meta">{{ .description }}</div>
-            <div class="hot-meta" style="color:var(--accent)">💰 {{ .pricing }}</div>
-        </div>
+            <div class="tool-desc">{{ .description }}</div>
+            <div class="tool-footer">
+                <div class="tool-tags">
+                    {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
+                    {{ if .free_quota }}<span class="tool-tag free">{{ .free_quota }}</span>{{ end }}
+                </div>
+                <div class="tool-price">💰 {{ .pricing }}</div>
+            </div>
+        </a>
+        {{ end }}
     </div>
-    {{ end }}
 </div>
 {{ end }}
 {{ end }}
@@ -95,19 +106,24 @@
 {{ else if in $slug "/providers/" }}
 <div class="card">
     <div class="card-title">🏢 AI 提供商 <span class="hot-badge">{{ len site.Data.providers }} 家</span></div>
-    {{ range site.Data.providers }}
-    <div class="hot-item">
-        <div class="hot-content">
-            <div class="hot-title">
-                <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-                {{ if .trending }}<span class="hot-badge fire">🔥 热门</span>{{ end }}
-                {{ if eq .chinese_access "直接访问" }}<span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">国内可用</span>{{ end }}
+    <div class="tools-grid">
+        {{ range site.Data.providers }}
+        <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
+            <div class="tool-header">
+                <div class="tool-icon">🏢</div>
+                <div class="tool-name">{{ .name }}</div>
             </div>
-            <div class="hot-meta">{{ .models }}</div>
-            {{ if .free_tier }}<div class="hot-meta" style="color:var(--green)">🎁 {{ .free_tier }}</div>{{ end }}
-        </div>
+            <div class="tool-desc">{{ .models }}</div>
+            <div class="tool-footer">
+                <div class="tool-tags">
+                    {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
+                    {{ if eq .chinese_access "直接访问" }}<span class="tool-tag free">国内可用</span>{{ end }}
+                </div>
+                {{ if .free_tier }}<div class="tool-price">🎁 {{ .free_tier }}</div>{{ end }}
+            </div>
+        </a>
+        {{ end }}
     </div>
-    {{ end }}
 </div>
 {{ end }}
 
