@@ -1,7 +1,6 @@
 baseURL = "https://airebang.com/"
 languageCode = "zh-CN"
 title = "AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐"
-theme = ""
 defaultContentLanguage = "zh"
 hasCJKLanguage = true
 paginate = 20
