@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="card">
+    <div class="card-title">{{ .Title }}</div>
+    {{ .Content }}
+    
+    {{ $dataKey := .Data.Singular }}
+    {{ $data := index site.Data $dataKey }}
+    {{ if $data }}
+        {{ range $data }}
+        <div class="hot-item">
+            <div class="hot-content">
+                <div class="hot-title">
+                    <a href="{{ .url }}" target="_blank">{{ .display_name | default .name }}</a>
+                    {{ if .stars }}<span class="hot-badge">⭐ {{ .stars }}</span>{{ end }}
+                    {{ if .likes }}<span class="hot-badge">❤️ {{ .likes }}</span>{{ end }}
+                </div>
+                <div class="hot-meta">{{ .description }}</div>
+            </div>
+        </div>
+        {{ end }}
+    {{ else }}
+        <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">数据采集中...</div></div></div>
+    {{ end }}
+</div>
+{{ end }}

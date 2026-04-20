@@ -1,0 +1,36 @@
+{
+  "updated_at": "2026-04-20T14:22:47.235220",
+  "date": "2026-04-20",
+  "spotlight": {
+    "name": "MetaGPT",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "type": "project",
+    "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
+    "stars": 67271,
+    "language": "Python"
+  },
+  "alternates": [
+    {
+      "name": "zai-org/GLM-5.1",
+      "url": "https://huggingface.co/zai-org/GLM-5.1",
+      "type": "model",
+      "description": "Pipeline: text-generation",
+      "likes": 1434
+    },
+    {
+      "name": "ChatGPT-Next-Web",
+      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
+      "type": "project",
+      "description": "A cross-platform ChatGPT/Gemini UI",
+      "stars": 76000,
+      "language": "TypeScript"
+    },
+    {
+      "name": "black-forest-labs/FLUX.1-schnell",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "type": "model",
+      "description": "Pipeline: text-to-image",
+      "likes": 4793
+    }
+  ]
+}
