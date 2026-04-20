@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-AI热榜 - 主聚合器
-每6小时运行一次，采集全网AI数据
+AI热榜 - 主聚合器 v3.0
+每6小时运行一次，采集+AI增强
 """
 
 import os
@@ -13,6 +13,7 @@ sys.path.insert(0, os.path.dirname(__file__))
 
 from news_rss import collect_rss_news
 from news_api import collect_api_news
+from news_interleave import interleave_news
 from github_discover import discover_github_projects
 from github_trending import track_github_trending
 from huggingface_discover import discover_hf_models
@@ -20,47 +21,73 @@ from keyword_collector import collect_keywords
 from trending_scorer import compute_trending
 from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
+from ai_enhance import summarize_news, generate_daily_briefing, score_tools
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 
 def main():
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    print(f"🚀 AI热榜数据采集开始 - {now}")
+    print(f"🚀 AI热榜数据采集 v3.0 - {now}")
     print("=" * 50)
 
-    steps = [
-        ("📰 RSS新闻采集", collect_rss_news),
-        ("📰 API新闻采集", collect_api_news),
-        ("🔍 GitHub项目发现", discover_github_projects),
-        ("📈 GitHub热度追踪", track_github_trending),
-        ("🤗 HuggingFace模型发现", discover_hf_models),
-        ("🔑 关键词采集", collect_keywords),
+    # Phase 1: 数据采集
+    print("\n📡 Phase 1: 数据采集")
+    steps_collect = [
+        ("📰 RSS新闻", collect_rss_news),
+        ("📰 API新闻", collect_api_news),
+        ("🔀 新闻穿插", interleave_news),
+        ("🔍 GitHub项目", discover_github_projects),
+        ("📈 GitHub热度", track_github_trending),
+        ("🤗 HF模型", discover_hf_models),
+        ("🔑 关键词", collect_keywords),
+    ]
+
+    # Phase 2: 数据处理
+    print("\n⚙️ Phase 2: 数据处理")
+    steps_process = [
         ("🔥 热点评分", compute_trending),
         ("⭐ 每日精选", select_daily_spotlight),
-        ("🔗 快速链接检查", quick_check),
+        ("🔗 链接检查", quick_check),
+    ]
+
+    # Phase 3: AI 增强
+    print("\n🤖 Phase 3: AI 增强")
+    steps_ai = [
+        ("📝 新闻摘要", summarize_news),
+        ("📰 每日快报", generate_daily_briefing),
+        ("⭐ 工具评分", score_tools),
+    ]
+
+    all_steps = [
+        ("📡 数据采集", steps_collect),
+        ("⚙️ 数据处理", steps_process),
+        ("🤖 AI 增强", steps_ai),
     ]
 
     results = {}
-    for name, func in steps:
-        try:
-            print(f"\n{name}...")
-            result = func()
-            results[name] = "✅"
-            print(f"  完成: {result}")
-        except Exception as e:
-            results[name] = f"❌ {e}"
-            print(f"  失败: {e}")
+    for phase_name, phase_steps in all_steps:
+        for name, func in phase_steps:
+            try:
+                print(f"  {name}...")
+                result = func()
+                results[name] = f"✅ {result}"
+                print(f"    → {result}")
+            except Exception as e:
+                results[name] = f"❌ {e}"
+                print(f"    → ❌ {e}")
 
+    # 汇总
     print("\n" + "=" * 50)
-    print("📊 采集结果汇总:")
-    for name, status in results.items():
-        print(f"  {name}: {status}")
+    success = sum(1 for v in results.values() if v.startswith("✅"))
+    fail = sum(1 for v in results.values() if v.startswith("❌"))
+    print(f"📊 结果: {success} 成功 / {fail} 失败 / {len(results)} 总计")
 
-    # 写入更新时间戳
+    # 写入元数据
     meta = {
         "last_update": now,
-        "results": results
+        "version": "3.0",
+        "results": results,
     }
     with open(os.path.join(DATA_DIR, "meta.json"), "w") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)

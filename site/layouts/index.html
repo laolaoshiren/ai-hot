@@ -29,6 +29,16 @@
         {{ end }}
     </div>
 
+    <!-- 每日 AI 快报 -->
+    {{ $briefing := site.Data.briefing }}
+    {{ if $briefing }}
+    <div class="card" style="border-left:3px solid var(--accent)">
+        <div class="card-title">🤖 每日 AI 快报 <span class="hot-badge fire">AI 生成</span></div>
+        <div style="font-size:14px;line-height:1.8;color:var(--text2)">{{ $briefing.content }}</div>
+        <div style="font-size:11px;color:var(--text3);margin-top:8px">基于 {{ $briefing.news_count }} 条新闻 · {{ $briefing.date }}</div>
+    </div>
+    {{ end }}
+
     <!-- 每日精选 -->
     {{ $daily := site.Data.daily }}
     {{ if $daily }}
@@ -73,7 +83,8 @@
                         {{ .source }}
                         {{ if .published }} · {{ slicestr .published 0 16 }}{{ end }}
                     </div>
-                    {{ if .summary }}<div class="hot-meta" style="margin-top:2px;color:var(--text3)">{{ .summary }}</div>{{ end }}
+                    {{ if .ai_summary }}<div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
+                    {{ else if .summary }}<div class="hot-meta" style="color:var(--text3)">{{ .summary }}</div>{{ end }}
                 </div>
             </div>
             {{ end }}
