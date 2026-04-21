@@ -133,6 +133,10 @@ function renderCompare() {
         { label: '🎁 免费额度', key: 'free_quota' },
         { label: '📂 分类', key: 'category' },
         { label: '📝 简介', key: 'description' },
+        { label: '✅ 优点', key: 'pros', format: v => (v||[]).map(p => '<span style="display:inline-block;padding:2px 8px;background:rgba(34,197,94,0.1);border-radius:8px;font-size:11px;color:var(--green);margin:2px">' + p + '</span>').join(' ') || '—' },
+        { label: '❌ 缺点', key: 'cons', format: v => (v||[]).map(c => '<span style="display:inline-block;padding:2px 8px;background:rgba(239,68,68,0.1);border-radius:8px;font-size:11px;color:var(--red);margin:2px">' + c + '</span>').join(' ') || '—' },
+        { label: '👥 适用人群', key: 'best_for', format: v => (v||[]).map(b => '<span style="display:inline-block;padding:2px 8px;background:rgba(168,85,247,0.1);border-radius:8px;font-size:11px;color:var(--purple);margin:2px">' + b + '</span>').join(' ') || '—' },
+        { label: '💡 适用场景', key: 'use_cases' },
         { label: '🏷️ 标签', key: 'tags', format: v => (v||[]).map(t => '<span class="tag">' + t + '</span>').join(' ') },
         { label: '🔗 官网', key: 'url', format: (v, t) => v ? '<a href="' + v + '" target="_blank" style="color:var(--accent)">' + t.name + ' →</a>' : '' },
     ];

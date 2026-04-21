@@ -72,6 +72,37 @@ function renderDetail(result) {
 
     if (data.use_cases) html += '<div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--blue)"><div style="font-size:12px;color:var(--text3);margin-bottom:4px">💡 适用场景</div><div style="font-size:14px;color:var(--text2)">' + data.use_cases + '</div></div>';
 
+    // 优缺点展示
+    if (data.pros && data.pros.length > 0) {
+        html += '<div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--green)">';
+        html += '<div style="font-size:12px;color:var(--text3);margin-bottom:8px">✅ 优点</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:6px">';
+        data.pros.forEach(p => {
+            html += '<span style="padding:4px 10px;background:rgba(34,197,94,0.1);border-radius:12px;font-size:13px;color:var(--green)">' + p + '</span>';
+        });
+        html += '</div></div>';
+    }
+
+    if (data.cons && data.cons.length > 0) {
+        html += '<div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--red)">';
+        html += '<div style="font-size:12px;color:var(--text3);margin-bottom:8px">❌ 缺点</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:6px">';
+        data.cons.forEach(c => {
+            html += '<span style="padding:4px 10px;background:rgba(239,68,68,0.1);border-radius:12px;font-size:13px;color:var(--red)">' + c + '</span>';
+        });
+        html += '</div></div>';
+    }
+
+    if (data.best_for && data.best_for.length > 0) {
+        html += '<div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--purple)">';
+        html += '<div style="font-size:12px;color:var(--text3);margin-bottom:8px">👥 最佳适用人群</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:6px">';
+        data.best_for.forEach(b => {
+            html += '<span style="padding:4px 10px;background:rgba(168,85,247,0.1);border-radius:12px;font-size:13px;color:var(--purple)">' + b + '</span>';
+        });
+        html += '</div></div>';
+    }
+
     html += '<div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px">';
     if (pricing) html += '<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">💰 价格</div><div style="font-size:14px;color:var(--accent);font-weight:600">' + pricing + '</div></div>';
     if (freeQuota) html += '<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">🎁 免费额度</div><div style="font-size:14px;color:var(--green);font-weight:600">' + freeQuota + '</div></div>';
@@ -86,6 +117,20 @@ function renderDetail(result) {
     }
 
     if (url) html += '<a href="' + (type === 'agent' ? 'https://' : '') + url + '" target="_blank" class="spotlight-btn" style="display:inline-block">访问 ' + name + ' →</a>';
+
+    // 替代品推荐
+    if (data.alternatives && data.alternatives.length > 0) {
+        html += '<div style="margin-top:16px;padding-top:16px;border-top:1px solid var(--border)">';
+        html += '<div style="font-size:12px;color:var(--text3);margin-bottom:8px">🔄 替代方案</div>';
+        html += '<div style="display:flex;flex-wrap:wrap;gap:8px">';
+        data.alternatives.forEach(alt => {
+            const altTool = allTools.find(t => t.id === alt);
+            if (altTool) {
+                html += '<a href="?id=' + alt + '" style="padding:6px 12px;background:var(--bg3);border-radius:8px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">' + altTool.name + '</a>';
+            }
+        });
+        html += '</div></div>';
+    }
 
     html += '</div>';
     el.innerHTML = html;

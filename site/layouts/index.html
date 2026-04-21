@@ -136,6 +136,32 @@
         <div id="randomResult" style="margin-top:12px"></div>
     </div>
 
+    <!-- 每日签到 -->
+    <div class="card" style="border-left:3px solid var(--green)">
+        <div class="card-title">📅 每日签到</div>
+        <div id="checkinStatus" style="margin-bottom:12px">
+            <button id="checkinBtn" onclick="dailyCheckin()" style="width:100%;padding:12px;background:var(--accent);border:none;border-radius:8px;color:white;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.2s">
+                ✅ 点击签到
+            </button>
+        </div>
+        <div style="display:flex;gap:12px;font-size:12px;color:var(--text3)">
+            <div>🔥 连续签到: <span id="checkinStreak" style="color:var(--accent);font-weight:600">0</span> 天</div>
+            <div>📊 总签到: <span id="totalCheckins" style="color:var(--green);font-weight:600">0</span> 天</div>
+        </div>
+        <div id="checkinReward" style="margin-top:8px;font-size:12px;color:var(--green);display:none"></div>
+    </div>
+
+    <!-- 分享功能 -->
+    <div class="card">
+        <div class="card-title">📢 分享给朋友</div>
+        <div style="display:flex;gap:8px;flex-wrap:wrap">
+            <button onclick="shareToWeixin()" style="padding:8px 16px;background:#07C160;border:none;border-radius:6px;color:white;font-size:12px;cursor:pointer">微信</button>
+            <button onclick="shareToWeibo()" style="padding:8px 16px;background:#E6162D;border:none;border-radius:6px;color:white;font-size:12px;cursor:pointer">微博</button>
+            <button onclick="shareToTwitter()" style="padding:8px 16px;background:#1DA1F2;border:none;border-radius:6px;color:white;font-size:12px;cursor:pointer">Twitter</button>
+            <button onclick="copyLink()" style="padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text2);font-size:12px;cursor:pointer">📋 复制链接</button>
+        </div>
+    </div>
+
     <!-- 新收录 -->
     <div class="card">
         <div class="card-title">🆕 新收录</div>
@@ -396,6 +422,103 @@ document.getElementById('searchInput').addEventListener('keydown', function(e) {
             + '📰 每6小时自动更新，数据开源透明';
     }
 })();
+
+// 每日签到系统
+function dailyCheckin() {
+    const key = 'aihot_checkin';
+    const today = new Date().toISOString().slice(0, 10);
+    let data = JSON.parse(localStorage.getItem(key) || '{"streak":0,"last":"","total":0,"history":[]}');
+    
+    if (data.last === today) {
+        document.getElementById('checkinReward').textContent = '⏰ 今天已经签到过了';
+        document.getElementById('checkinReward').style.display = 'block';
+        document.getElementById('checkinReward').style.color = 'var(--text3)';
+        return;
+    }
+    
+    // 计算连续签到
+    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
+    if (data.last === yesterday) {
+        data.streak++;
+    } else {
+        data.streak = 1;
+    }
+    
+    data.last = today;
+    data.total++;
+    if (!data.history) data.history = [];
+    data.history.push(today);
+    
+    localStorage.setItem(key, JSON.stringify(data));
+    updateCheckinUI();
+    
+    // 显示奖励
+    let reward = '';
+    if (data.streak === 7) reward = '🎉 连续签到7天！解锁「坚持达人」称号';
+    else if (data.streak === 30) reward = '🏆 连续签到30天！解锁「AI探索者」称号';
+    else if (data.streak === 100) reward = '👑 连续签到100天！解锁「传奇用户」称号';
+    else if (data.streak % 10 === 0) reward = '🔥 连续签到' + data.streak + '天！继续加油！';
+    else reward = '✅ 签到成功！连续签到 ' + data.streak + ' 天';
+    
+    document.getElementById('checkinReward').textContent = reward;
+    document.getElementById('checkinReward').style.display = 'block';
+    document.getElementById('checkinReward').style.color = 'var(--green)';
+    
+    // 按钮反馈
+    const btn = document.getElementById('checkinBtn');
+    btn.textContent = '✅ 已签到';
+    btn.style.background = 'var(--green)';
+    btn.disabled = true;
+}
+
+function updateCheckinUI() {
+    const key = 'aihot_checkin';
+    const today = new Date().toISOString().slice(0, 10);
+    let data = JSON.parse(localStorage.getItem(key) || '{"streak":0,"last":"","total":0}');
+    
+    document.getElementById('checkinStreak').textContent = data.streak || 0;
+    document.getElementById('totalCheckins').textContent = data.total || 0;
+    
+    if (data.last === today) {
+        const btn = document.getElementById('checkinBtn');
+        btn.textContent = '✅ 已签到';
+        btn.style.background = 'var(--green)';
+        btn.disabled = true;
+    }
+}
+
+// 初始化签到状态
+updateCheckinUI();
+
+// 分享功能
+function shareToWeixin() {
+    const url = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent('AI热榜 - 每6小时更新的中文AI工具导航站');
+    // 微信分享需要使用微信JS-SDK，这里提供复制链接的方式
+    copyLink();
+    alert('链接已复制，请在微信中粘贴分享给朋友！');
+}
+
+function shareToWeibo() {
+    const url = encodeURIComponent(window.location.href);
+    const title = encodeURIComponent('发现一个超棒的AI工具导航站 - AI热榜！每6小时更新，涵盖AI模型、工具、Agent、新闻。');
+    window.open('https://service.weibo.com/share/share.php?url=' + url + '&title=' + title, '_blank');
+}
+
+function shareToTwitter() {
+    const url = encodeURIComponent(window.location.href);
+    const text = encodeURIComponent('发现一个超棒的AI工具导航站 - AI热榜！每6小时自动更新，涵盖AI模型、工具、Agent、新闻。#AI #人工智能');
+    window.open('https://twitter.com/intent/tweet?url=' + url + '&text=' + text, '_blank');
+}
+
+function copyLink() {
+    navigator.clipboard.writeText(window.location.href).then(() => {
+        const btn = event.target;
+        const originalText = btn.textContent;
+        btn.textContent = '✅ 已复制';
+        setTimeout(() => btn.textContent = originalText, 2000);
+    });
+}
 </script>
 
 {{ end }}

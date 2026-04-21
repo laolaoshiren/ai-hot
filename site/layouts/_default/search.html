@@ -4,8 +4,10 @@
 </div>
 
 <!-- 搜索框 -->
-<div style="margin-bottom:24px">
-    <input type="text" class="search-box" placeholder="🔍 搜索 AI 工具、模型、Agent、新闻... (Ctrl+K)" id="searchInput" style="font-size:16px;padding:14px 18px">
+<div style="margin-bottom:24px;position:relative">
+    <input type="text" class="search-box" placeholder="🔍 搜索 AI 工具、模型、Agent、新闻... (Ctrl+K)" id="searchInput" style="font-size:16px;padding:14px 18px" autocomplete="off">
+    <!-- 搜索建议下拉框 -->
+    <div id="searchSuggestions" style="display:none;position:absolute;top:100%;left:0;right:0;background:var(--bg2);border:1px solid var(--border);border-radius:8px;margin-top:4px;max-height:300px;overflow-y:auto;z-index:1000;box-shadow:0 4px 12px rgba(0,0,0,0.3)"></div>
 </div>
 
 <!-- 热门搜索 -->
@@ -24,6 +26,17 @@
 </div>
 
 <!-- 搜索结果 -->
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px">
+    <div id="searchResultsCount"></div>
+    <div style="display:flex;gap:8px">
+        <select id="sortSelect" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:6px;color:var(--text1);font-size:13px">
+            <option value="relevance">按相关度</option>
+            <option value="hot">按热度</option>
+            <option value="time">按时间</option>
+            <option value="name">按名称</option>
+        </select>
+    </div>
+</div>
 <div id="searchResults"></div>
 
 <script>
@@ -74,34 +87,245 @@ function renderHistory() {
 }
 renderHistory();
 
+// 高亮搜索关键词
+function highlightText(text, query) {
+    if (!text || !query) return text;
+    const regex = new RegExp(`(${query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+    return text.replace(regex, '<mark style="background:var(--accent);color:white;padding:0 2px;border-radius:2px">$1</mark>');
+}
+
+// 搜索建议/自动补全
+function getSuggestions(query) {
+    if (!query || query.trim().length < 2) return [];
+    const q = query.toLowerCase().trim();
+    const suggestions = [];
+    
+    // 从工具中获取建议
+    searchData.tools.forEach(item => {
+        if (item.name.toLowerCase().includes(q)) {
+            suggestions.push({
+                text: item.name,
+                type: 'tool',
+                icon: '🛠️',
+                category: item.category
+            });
+        }
+    });
+    
+    // 从模型中获取建议
+    searchData.models.forEach(item => {
+        const name = item.display_name || item.name;
+        if (name.toLowerCase().includes(q)) {
+            suggestions.push({
+                text: name,
+                type: 'model',
+                icon: '🧠',
+                category: item.pipeline_tag || '模型'
+            });
+        }
+    });
+    
+    // 从Agent中获取建议
+    searchData.agents.forEach(item => {
+        if (item.name.toLowerCase().includes(q)) {
+            suggestions.push({
+                text: item.name,
+                type: 'agent',
+                icon: '🤖',
+                category: 'Agent'
+            });
+        }
+    });
+    
+    // 去重并限制数量
+    const uniqueSuggestions = [];
+    const seen = new Set();
+    for (const s of suggestions) {
+        if (!seen.has(s.text)) {
+            seen.add(s.text);
+            uniqueSuggestions.push(s);
+        }
+        if (uniqueSuggestions.length >= 8) break;
+    }
+    
+    return uniqueSuggestions;
+}
+
+function showSuggestions(suggestions) {
+    const container = document.getElementById('searchSuggestions');
+    if (suggestions.length === 0) {
+        container.style.display = 'none';
+        return;
+    }
+    
+    let html = '';
+    suggestions.forEach((s, i) => {
+        html += `<div class="suggestion-item" data-index="${i}" style="padding:10px 16px;cursor:pointer;display:flex;align-items:center;gap:10px;border-bottom:1px solid var(--border);transition:background 0.2s">
+            <span style="font-size:16px">${s.icon}</span>
+            <div style="flex:1">
+                <div style="font-size:14px;color:var(--text1)">${highlightText(s.text, document.getElementById('searchInput').value)}</div>
+                <div style="font-size:12px;color:var(--text3)">${s.category}</div>
+            </div>
+            <span style="font-size:12px;color:var(--text3)">${s.type}</span>
+        </div>`;
+    });
+    
+    container.innerHTML = html;
+    container.style.display = 'block';
+    
+    // 添加点击事件
+    container.querySelectorAll('.suggestion-item').forEach(item => {
+        item.onmouseenter = () => item.style.background = 'var(--bg3)';
+        item.onmouseleave = () => item.style.background = 'transparent';
+        item.onclick = () => {
+            const index = parseInt(item.dataset.index);
+            document.getElementById('searchInput').value = suggestions[index].text;
+            doSearch(suggestions[index].text);
+            container.style.display = 'none';
+        };
+    });
+}
+
+function hideSuggestions() {
+    document.getElementById('searchSuggestions').style.display = 'none';
+}
+
+// 键盘导航
+let selectedIndex = -1;
+function navigateSuggestions(direction) {
+    const suggestions = document.querySelectorAll('.suggestion-item');
+    if (suggestions.length === 0) return;
+    
+    // 移除之前的选中状态
+    suggestions.forEach(s => s.style.background = 'transparent');
+    
+    // 更新索引
+    if (direction === 'down') {
+        selectedIndex = (selectedIndex + 1) % suggestions.length;
+    } else {
+        selectedIndex = selectedIndex <= 0 ? suggestions.length - 1 : selectedIndex - 1;
+    }
+    
+    // 添加选中状态
+    suggestions[selectedIndex].style.background = 'var(--bg3)';
+    suggestions[selectedIndex].scrollIntoView({ block: 'nearest' });
+}
+
 // 搜索逻辑
-function searchAll(query) {
+function searchAll(query, sortBy = 'relevance') {
     if (!query || query.trim().length === 0) return { tools: [], models: [], agents: [], news: [] };
     const q = query.toLowerCase().trim();
     const results = { tools: [], models: [], agents: [], news: [] };
 
     searchData.tools.forEach(item => {
         const text = [item.name, item.description, item.category, item.pricing, ...(item.tags||[])].join(' ').toLowerCase();
-        if (text.includes(q)) results.tools.push(item);
+        if (text.includes(q)) {
+            // 计算相关度分数
+            let score = 0;
+            if (item.name.toLowerCase().includes(q)) score += 10;
+            if (item.description && item.description.toLowerCase().includes(q)) score += 5;
+            if (item.category && item.category.toLowerCase().includes(q)) score += 3;
+            
+            results.tools.push({
+                ...item,
+                _score: score,
+                _type: 'tool'
+            });
+        }
     });
+    
     searchData.models.forEach(item => {
         const text = [item.name, item.display_name, item.author, item.pipeline_tag].join(' ').toLowerCase();
-        if (text.includes(q)) results.models.push(item);
+        if (text.includes(q)) {
+            let score = 0;
+            const name = item.display_name || item.name;
+            if (name.toLowerCase().includes(q)) score += 10;
+            if (item.author && item.author.toLowerCase().includes(q)) score += 5;
+            
+            results.models.push({
+                ...item,
+                _score: score,
+                _type: 'model'
+            });
+        }
     });
+    
     searchData.agents.forEach(item => {
         const text = [item.name, item.description, item.type, item.pricing].join(' ').toLowerCase();
-        if (text.includes(q)) results.agents.push(item);
+        if (text.includes(q)) {
+            let score = 0;
+            if (item.name.toLowerCase().includes(q)) score += 10;
+            if (item.description && item.description.toLowerCase().includes(q)) score += 5;
+            
+            results.agents.push({
+                ...item,
+                _score: score,
+                _type: 'agent'
+            });
+        }
     });
+    
     searchData.news.forEach(item => {
         const text = [item.title, item.summary, item.source].join(' ').toLowerCase();
-        if (text.includes(q)) results.news.push(item);
+        if (text.includes(q)) {
+            let score = 0;
+            if (item.title.toLowerCase().includes(q)) score += 10;
+            if (item.summary && item.summary.toLowerCase().includes(q)) score += 5;
+            
+            results.news.push({
+                ...item,
+                _score: score,
+                _type: 'news'
+            });
+        }
     });
+    
+    // 排序函数
+    const sortFunctions = {
+        relevance: (a, b) => b._score - a._score,
+        hot: (a, b) => {
+            // 工具和模型按热度排序
+            if (a._type === 'tool' && b._type === 'tool') {
+                return (b.stars || 0) - (a.stars || 0);
+            }
+            if (a._type === 'model' && b._type === 'model') {
+                return (b.likes || 0) - (a.likes || 0);
+            }
+            // 新闻按发布时间排序
+            if (a._type === 'news' && b._type === 'news') {
+                return (b.published || '').localeCompare(a.published || '');
+            }
+            return 0;
+        },
+        time: (a, b) => {
+            // 新闻按时间排序
+            if (a._type === 'news' && b._type === 'news') {
+                return (b.published || '').localeCompare(a.published || '');
+            }
+            // 其他类型按相关度排序
+            return b._score - a._score;
+        },
+        name: (a, b) => {
+            const nameA = a.name || a.display_name || a.title || '';
+            const nameB = b.name || b.display_name || b.title || '';
+            return nameA.localeCompare(nameB);
+        }
+    };
+    
+    // 应用排序
+    const sortFn = sortFunctions[sortBy] || sortFunctions.relevance;
+    results.tools.sort(sortFn);
+    results.models.sort(sortFn);
+    results.agents.sort(sortFn);
+    results.news.sort(sortFn);
+    
     return results;
 }
 
 function doSearch(query) {
     if (!query || query.trim().length === 0) {
         document.getElementById('searchResults').innerHTML = '';
+        document.getElementById('searchResultsCount').innerHTML = '';
         document.getElementById('hotSearch').style.display = '';
         document.getElementById('searchHistory').style.display = getHistory().length ? '' : 'none';
         return;
@@ -110,16 +334,22 @@ function doSearch(query) {
     document.getElementById('hotSearch').style.display = 'none';
     document.getElementById('searchHistory').style.display = 'none';
 
-    const r = searchAll(query);
+    const sortBy = document.getElementById('sortSelect').value;
+    const r = searchAll(query, sortBy);
     const total = r.tools.length + r.models.length + r.agents.length + r.news.length;
-    let html = '<div style="font-size:14px;color:var(--text2);margin-bottom:16px">找到 <strong style="color:var(--accent)">' + total + '</strong> 个结果</div>';
+    
+    document.getElementById('searchResultsCount').innerHTML = '找到 <strong style="color:var(--accent)">' + total + '</strong> 个结果';
+    
+    let html = '';
 
     if (r.tools.length > 0) {
         html += '<div class="card"><div class="card-title">🛠️ AI工具 <span class="hot-badge">' + r.tools.length + '</span></div><div class="tools-grid">';
         r.tools.slice(0, 12).forEach(t => {
+            const highlightedName = highlightText(t.name, query);
+            const highlightedDesc = highlightText(t.description || '', query);
             html += '<a href="' + t.url + '" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">'
-                + '<div class="tool-header"><div class="tool-icon">🛠️</div><div class="tool-name">' + t.name + '</div></div>'
-                + '<div class="tool-desc">' + (t.description||'') + '</div>'
+                + '<div class="tool-header"><div class="tool-icon">🛠️</div><div class="tool-name">' + highlightedName + '</div></div>'
+                + '<div class="tool-desc">' + highlightedDesc + '</div>'
                 + '<div class="tool-footer"><div class="tool-price">💰 ' + (t.pricing||'') + '</div></div></a>';
         });
         html += '</div></div>';
@@ -128,9 +358,12 @@ function doSearch(query) {
     if (r.models.length > 0) {
         html += '<div class="card"><div class="card-title">🧠 AI模型 <span class="hot-badge">' + r.models.length + '</span></div><div class="tools-grid">';
         r.models.slice(0, 12).forEach(m => {
+            const highlightedName = highlightText(m.display_name || m.name, query);
+            const highlightedAuthor = highlightText(m.author || '', query);
+            const highlightedTag = highlightText(m.pipeline_tag || '', query);
             html += '<a href="' + m.url + '" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">'
-                + '<div class="tool-header"><div class="tool-icon">🧠</div><div class="tool-name">' + (m.display_name||m.name) + '</div></div>'
-                + '<div class="tool-desc">' + (m.author||'') + ' · ' + (m.pipeline_tag||'') + '</div>'
+                + '<div class="tool-header"><div class="tool-icon">🧠</div><div class="tool-name">' + highlightedName + '</div></div>'
+                + '<div class="tool-desc">' + highlightedAuthor + ' · ' + highlightedTag + '</div>'
                 + (m.likes ? '<div class="tool-footer"><span class="tool-tag free">❤️ ' + m.likes + '</span></div>' : '')
                 + '</a>';
         });
@@ -140,9 +373,11 @@ function doSearch(query) {
     if (r.agents.length > 0) {
         html += '<div class="card"><div class="card-title">🤖 AI Agent <span class="hot-badge">' + r.agents.length + '</span></div><div class="tools-grid">';
         r.agents.forEach(a => {
+            const highlightedName = highlightText(a.name, query);
+            const highlightedDesc = highlightText(a.description || '', query);
             html += '<a href="https://' + a.url + '" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">'
-                + '<div class="tool-header"><div class="tool-icon">🤖</div><div class="tool-name">' + a.name + '</div></div>'
-                + '<div class="tool-desc">' + (a.description||'') + '</div>'
+                + '<div class="tool-header"><div class="tool-icon">🤖</div><div class="tool-name">' + highlightedName + '</div></div>'
+                + '<div class="tool-desc">' + highlightedDesc + '</div>'
                 + '<div class="tool-footer"><div class="tool-price">💰 ' + (a.pricing||'') + '</div></div></a>';
         });
         html += '</div></div>';
@@ -151,11 +386,13 @@ function doSearch(query) {
     if (r.news.length > 0) {
         html += '<div class="card"><div class="card-title">📰 AI新闻 <span class="hot-badge">' + r.news.length + '</span></div>';
         r.news.slice(0, 10).forEach(n => {
+            const highlightedTitle = highlightText(n.title, query);
+            const highlightedSummary = highlightText(n.ai_summary || '', query);
             html += '<div class="hot-item"><div class="hot-content"><div class="hot-title">'
-                + '<a href="' + n.url + '" target="_blank">' + n.title + '</a>'
+                + '<a href="' + n.url + '" target="_blank">' + highlightedTitle + '</a>'
                 + '<span class="hot-badge">' + n.source + '</span></div>'
                 + (n.published ? '<div class="hot-meta">' + n.published.slice(0,16) + '</div>' : '')
-                + (n.ai_summary ? '<div class="hot-meta" style="color:var(--accent)">🤖 ' + n.ai_summary + '</div>' : '')
+                + (n.ai_summary ? '<div class="hot-meta" style="color:var(--accent)">🤖 ' + highlightedSummary + '</div>' : '')
                 + '</div></div>';
         });
         html += '</div>';
@@ -172,12 +409,68 @@ function doSearch(query) {
 let searchTimeout;
 document.getElementById('searchInput').addEventListener('input', function(e) {
     clearTimeout(searchTimeout);
-    searchTimeout = setTimeout(() => doSearch(e.target.value), 300);
+    const query = e.target.value;
+    
+    // 显示搜索建议
+    if (query.length >= 2) {
+        const suggestions = getSuggestions(query);
+        showSuggestions(suggestions);
+        selectedIndex = -1;
+    } else {
+        hideSuggestions();
+    }
+    
+    // 延迟搜索
+    searchTimeout = setTimeout(() => doSearch(query), 300);
 });
 
-// 回车立即搜索
+// 键盘事件
 document.getElementById('searchInput').addEventListener('keydown', function(e) {
-    if (e.key === 'Enter') { clearTimeout(searchTimeout); doSearch(e.target.value); }
+    const suggestions = document.querySelectorAll('.suggestion-item');
+    
+    if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (suggestions.length > 0) {
+            navigateSuggestions('down');
+        }
+    } else if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (suggestions.length > 0) {
+            navigateSuggestions('up');
+        }
+    } else if (e.key === 'Enter') {
+        e.preventDefault();
+        clearTimeout(searchTimeout);
+        
+        // 如果有选中的建议，使用它
+        if (selectedIndex >= 0 && suggestions[selectedIndex]) {
+            const suggestionText = suggestions[selectedIndex].querySelector('div > div').textContent;
+            document.getElementById('searchInput').value = suggestionText;
+            doSearch(suggestionText);
+            hideSuggestions();
+        } else {
+            // 否则直接搜索
+            doSearch(e.target.value);
+            hideSuggestions();
+        }
+    } else if (e.key === 'Escape') {
+        hideSuggestions();
+    }
+});
+
+// 点击其他地方隐藏建议
+document.addEventListener('click', function(e) {
+    if (!e.target.closest('#searchInput') && !e.target.closest('#searchSuggestions')) {
+        hideSuggestions();
+    }
+});
+
+// 排序选择器事件
+document.getElementById('sortSelect').addEventListener('change', function() {
+    const query = document.getElementById('searchInput').value;
+    if (query) {
+        doSearch(query);
+    }
 });
 
 // URL 参数 ?q=xxx
