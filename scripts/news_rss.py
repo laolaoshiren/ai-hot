@@ -17,12 +17,24 @@ DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
 # AI 专用 RSS 源
 RSS_SOURCES = [
+    # 中文 AI 专用源 (Priority 1)
     {"name": "机器之心", "url": "https://www.jiqizhixin.com/feed", "lang": "zh", "priority": 1, "ai_only": True},
     {"name": "量子位", "url": "https://www.qbitai.com/feed", "lang": "zh", "priority": 1, "ai_only": True},
     {"name": "新智元", "url": "https://www.xinzhiyuan.com/feed", "lang": "zh", "priority": 1, "ai_only": True},
+    
+    # 英文 AI 专用源 (Priority 1)
     {"name": "TechCrunch AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "lang": "en", "priority": 1, "ai_only": True},
     {"name": "The Verge AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "lang": "en", "priority": 1, "ai_only": True},
+    
+    # 综合科技源 (Priority 2, 需 AI 关键词过滤)
     {"name": "MIT Tech Review", "url": "https://www.technologyreview.com/feed/", "lang": "en", "priority": 2, "ai_only": False},
+    {"name": "Ars Technica AI", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "lang": "en", "priority": 2, "ai_only": False},
+    {"name": "VentureBeat AI", "url": "https://venturebeat.com/category/ai/feed/", "lang": "en", "priority": 2, "ai_only": True},
+    {"name": "Hacker News AI", "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+%22artificial+intelligence%22+OR+%22machine+learning%22&points=100", "lang": "en", "priority": 2, "ai_only": True},
+    
+    # 中文综合源 (Priority 3, 需 AI 关键词过滤)
+    {"name": "36氪", "url": "https://36kr.com/feed", "lang": "zh", "priority": 3, "ai_only": False},
+    {"name": "InfoQ AI", "url": "https://www.infoq.cn/feed", "lang": "zh", "priority": 3, "ai_only": False},
 ]
 
 # AI 关键词白名单（用于过滤非 AI 专用源）
