@@ -51,8 +51,15 @@
                         {{ .source }}
                         {{ if .published }} · {{ slicestr .published 0 16 }}{{ end }}
                     </div>
-                    {{ if .ai_summary }}<div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
-                    {{ else if .summary }}<div class="hot-meta" style="color:var(--text3)">{{ .summary }}</div>{{ end }}
+                    {{ if .ai_summary }}
+                        {{ if gt (len .ai_summary) 50 }}
+                        <div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
+                        {{ else if .summary }}
+                        <div class="hot-meta" style="color:var(--text3)">{{ slicestr .summary 0 100 }}...</div>
+                        {{ end }}
+                    {{ else if .summary }}
+                    <div class="hot-meta" style="color:var(--text3)">{{ slicestr .summary 0 100 }}...</div>
+                    {{ end }}
                 </div>
             </div>
             {{ end }}
@@ -167,16 +174,21 @@
         <div class="card-title">🆕 新收录</div>
         {{ $tools := site.Data.tools }}
         {{ if $tools }}
-            {{ range first 5 $tools }}
-            {{ if .trending }}
-            <div class="trend-item">
-                <div style="min-width:0;flex:1">
-                    <a href="{{ relURL "/tool/" }}?id={{ .id }}">{{ .name }}</a>
-                    <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
+            {{ $count := 0 }}
+            {{ range $tools }}
+                {{ if and (lt $count 5) .trending }}
+                <div class="trend-item">
+                    <div style="min-width:0;flex:1">
+                        <a href="{{ relURL "/tool/" }}?id={{ .id }}">{{ .name }}</a>
+                        <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
+                    </div>
+                    <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
                 </div>
-                <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
-            </div>
+                {{ $count = add $count 1 }}
+                {{ end }}
             {{ end }}
+            {{ if eq $count 0 }}
+            <div style="color:var(--text3);font-size:13px;padding:12px 0">暂无新收录工具</div>
             {{ end }}
         {{ end }}
     </div>
