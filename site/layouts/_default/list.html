@@ -205,19 +205,60 @@
 {{ else if in $slug "/news/" }}
 <div class="card">
     <div class="card-title">📰 AI 新闻 <span class="hot-badge">{{ len site.Data.news }} 条</span></div>
-    {{ range site.Data.news }}
-    <div class="hot-item">
+    <div id="newsList">
+    {{ range $index, $item := site.Data.news }}
+    <div class="hot-item news-item" data-page="{{ div $index 10 }}">
         <div class="hot-content">
             <div class="hot-title">
-                <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                <span class="hot-badge">{{ .source }}</span>
+                <a href="{{ $item.url }}" target="_blank">{{ $item.title }}</a>
+                <span class="hot-badge">{{ $item.source }}</span>
             </div>
-            {{ if .published }}<div class="hot-meta">{{ slicestr .published 0 16 }}</div>{{ end }}
-            {{ if .summary }}<div class="hot-meta" style="color:var(--text3)">{{ .summary }}</div>{{ end }}
+            {{ if $item.published }}<div class="hot-meta">{{ slicestr $item.published 0 16 }}</div>{{ end }}
+            {{ if $item.ai_summary }}<div class="hot-meta" style="color:var(--accent)">🤖 {{ $item.ai_summary }}</div>
+            {{ else if $item.summary }}<div class="hot-meta" style="color:var(--text3)">{{ $item.summary }}</div>{{ end }}
         </div>
     </div>
     {{ end }}
+    </div>
+    <div id="newsPagination" style="display:flex;align-items:center;justify-content:center;gap:12px;margin-top:20px;padding-top:16px;border-top:1px solid var(--border)">
+        <button id="prevPage" onclick="newsPage(-1)" style="padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;font-size:13px">← 上一页</button>
+        <span id="pageInfo" style="font-size:13px;color:var(--text2)"></span>
+        <button id="nextPage" onclick="newsPage(1)" style="padding:8px 16px;background:var(--bg3);border:1px solid var(--border);border-radius:6px;color:var(--text2);cursor:pointer;font-size:13px">下一页 →</button>
+    </div>
 </div>
+<script>
+(function(){
+    const items = document.querySelectorAll('.news-item');
+    const perPage = 10;
+    const totalPages = Math.ceil(items.length / perPage);
+    let current = 0;
+
+    function show(p) {
+        items.forEach(el => {
+            el.style.display = parseInt(el.dataset.page) === p ? '' : 'none';
+        });
+        document.getElementById('pageInfo').textContent = (p+1) + ' / ' + totalPages;
+        document.getElementById('prevPage').disabled = p === 0;
+        document.getElementById('prevPage').style.opacity = p === 0 ? '0.4' : '1';
+        document.getElementById('nextPage').disabled = p === totalPages - 1;
+        document.getElementById('nextPage').style.opacity = p === totalPages - 1 ? '0.4' : '1';
+        current = p;
+    }
+
+    window.newsPage = function(dir) {
+        const next = current + dir;
+        if (next >= 0 && next < totalPages) {
+            show(next);
+            document.querySelector('.card').scrollIntoView({behavior:'smooth', block:'start'});
+        }
+    };
+
+    // 解析URL参数 ?p=2
+    const params = new URLSearchParams(location.search);
+    const startPage = Math.min(Math.max(0, parseInt(params.get('p')||'1')-1), totalPages-1);
+    show(startPage);
+})();
+</script>
 
 <!-- 提供商页 -->
 {{ else if in $slug "/providers/" }}
