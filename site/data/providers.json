@@ -1,16 +1,284 @@
 [
-  {"id": "openai", "name": "OpenAI", "url": "https://openai.com", "models": ["GPT-4o", "GPT-4o-mini", "o1", "o3-mini", "DALL-E 3", "Whisper", "Sora"], "pricing_url": "https://openai.com/api/pricing/", "free_tier": "GPT-4o-mini 免费（ChatGPT）", "api_available": true, "chinese_access": "需要代理"},
-  {"id": "anthropic", "name": "Anthropic", "url": "https://anthropic.com", "models": ["Claude 3.5 Sonnet", "Claude 3.5 Haiku", "Claude 3 Opus"], "pricing_url": "https://anthropic.com/pricing", "free_tier": "Claude.ai 有限免费", "api_available": true, "chinese_access": "需要代理，限制严格"},
-  {"id": "google", "name": "Google AI", "url": "https://ai.google.dev", "models": ["Gemini 1.5 Pro", "Gemini 1.5 Flash", "Gemini 2.0"], "pricing_url": "https://ai.google.dev/pricing", "free_tier": "Gemini Flash 免费", "api_available": true, "chinese_access": "需要代理"},
-  {"id": "deepseek", "name": "深度求索 DeepSeek", "url": "https://deepseek.com", "models": ["DeepSeek-V3", "DeepSeek-R1", "DeepSeek-Coder"], "pricing_url": "https://platform.deepseek.com/api-docs/pricing", "free_tier": "对话免费", "api_available": true, "chinese_access": "直接访问", "trending": true},
-  {"id": "moonshot", "name": "月之暗面 Moonshot", "url": "https://moonshot.cn", "models": ["Kimi", "moonshot-v1"], "pricing_url": "https://platform.moonshot.cn/docs/pricing", "free_tier": "Kimi 对话免费", "api_available": true, "chinese_access": "直接访问"},
-  {"id": "zhipu", "name": "智谱 AI", "url": "https://zhipuai.cn", "models": ["GLM-4", "GLM-4V", "CogView", "CogVideo"], "pricing_url": "https://open.bigmodel.cn/dev/howuse/pricing", "free_tier": "新用户赠送额度", "api_available": true, "chinese_access": "直接访问"},
-  {"id": "baichuan", "name": "百川智能", "url": "https://baichuan-ai.com", "models": ["Baichuan 4", "Baichuan 3 Turbo"], "pricing_url": "https://platform.baichuan-ai.com/price", "free_tier": "新用户赠送额度", "api_available": true, "chinese_access": "直接访问"},
-  {"id": "bytedance", "name": "字节跳动（豆包）", "url": "https://www.doubao.com", "models": ["豆包", "云雀"], "pricing_url": "https://www.volcengine.com/docs/82379/1099320", "free_tier": "豆包完全免费", "api_available": true, "chinese_access": "直接访问"},
-  {"id": "alibaba", "name": "阿里云（通义）", "url": "https://tongyi.aliyun.com", "models": ["通义千问", "Qwen2.5", "QwQ"], "pricing_url": "https://help.aliyun.com/zh/model-studio/getting-started/models", "free_tier": "通义千问免费", "api_available": true, "chinese_access": "直接访问"},
-  {"id": "baidu", "name": "百度（文心）", "url": "https://yiyan.baidu.com", "models": ["文心一言 4.0", "ERNIE 4.0", "ERNIE 3.5"], "pricing_url": "https://cloud.baidu.com/doc/WENXINWORKSHOP/s/hlrk4akp7", "free_tier": "文心一言免费", "api_available": true, "chinese_access": "直接访问"},
-  {"id": "huggingface", "name": "HuggingFace", "url": "https://huggingface.co", "models": ["开源模型平台"], "pricing_url": "https://huggingface.co/pricing", "free_tier": "开源模型免费下载", "api_available": true, "chinese_access": "可访问（较慢）"},
-  {"id": "meta", "name": "Meta AI", "url": "https://ai.meta.com", "models": ["Llama 3.1", "Llama 3.2", "Llama 3.3"], "pricing_url": "", "free_tier": "开源模型免费", "api_available": false, "chinese_access": "通过第三方 API"},
-  {"id": "mistral", "name": "Mistral AI", "url": "https://mistral.ai", "models": ["Mistral Large", "Mistral Small", "Mixtral"], "pricing_url": "https://mistral.ai/pricing/", "free_tier": "Le Chat 免费", "api_available": true, "chinese_access": "需要代理"},
-  {"id": "groq", "name": "Groq", "url": "https://groq.com", "models": ["Llama 3 (Groq)", "Mixtral (Groq)"], "pricing_url": "https://groq.com/pricing/", "free_tier": "免费层 30 RPM", "api_available": true, "chinese_access": "需要代理"}
+  {
+    "id": "openai",
+    "name": "OpenAI",
+    "url": "https://openai.com",
+    "logo": "🟢",
+    "models": [
+      "GPT-4o",
+      "GPT-4.1",
+      "o3",
+      "o4-mini"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "anthropic",
+    "name": "Anthropic",
+    "url": "https://anthropic.com",
+    "logo": "🟠",
+    "models": [
+      "Claude Opus 4",
+      "Claude Sonnet 4",
+      "Claude Haiku"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "google",
+    "name": "Google AI",
+    "url": "https://ai.google.dev",
+    "logo": "🔵",
+    "models": [
+      "Gemini 2.5 Pro",
+      "Gemini 2.5 Flash"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://deepseek.com",
+    "logo": "🟣",
+    "models": [
+      "DeepSeek-V3",
+      "DeepSeek-R1"
+    ],
+    "type": "国产",
+    "pricing": "超低价",
+    "api": true
+  },
+  {
+    "id": "alibaba",
+    "name": "阿里云 通义",
+    "url": "https://tongyi.aliyun.com",
+    "logo": "🟤",
+    "models": [
+      "Qwen3",
+      "QwQ-32B"
+    ],
+    "type": "国产",
+    "pricing": "免费额度+按量",
+    "api": true
+  },
+  {
+    "id": "baidu",
+    "name": "百度 文心",
+    "url": "https://yiyan.baidu.com",
+    "logo": "🔴",
+    "models": [
+      "ERNIE 4.5"
+    ],
+    "type": "国产",
+    "pricing": "免费额度+按量",
+    "api": true
+  },
+  {
+    "id": "bytedance",
+    "name": "字节 豆包",
+    "url": "https://www.doubao.com",
+    "logo": "🟢",
+    "models": [
+      "Doubao-Pro"
+    ],
+    "type": "国产",
+    "pricing": "免费额度",
+    "api": true
+  },
+  {
+    "id": "tencent",
+    "name": "腾讯 混元",
+    "url": "https://hunyuan.tencent.com",
+    "logo": "🔵",
+    "models": [
+      "Hunyuan-T1"
+    ],
+    "type": "国产",
+    "pricing": "免费额度+按量",
+    "api": true
+  },
+  {
+    "id": "moonshot",
+    "name": "月之暗面 Kimi",
+    "url": "https://kimi.moonshot.cn",
+    "logo": "🌙",
+    "models": [
+      "Kimi K2"
+    ],
+    "type": "国产",
+    "pricing": "免费额度",
+    "api": true
+  },
+  {
+    "id": "zhipu",
+    "name": "智谱 GLM",
+    "url": "https://open.bigmodel.cn",
+    "logo": "💚",
+    "models": [
+      "GLM-4-Plus",
+      "GLM-Z1"
+    ],
+    "type": "国产",
+    "pricing": "免费额度+按量",
+    "api": true
+  },
+  {
+    "id": "minimax",
+    "name": "MiniMax",
+    "url": "https://minimaxi.com",
+    "logo": "💜",
+    "models": [
+      "MiniMax-Text-01"
+    ],
+    "type": "国产",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "mistral",
+    "name": "Mistral AI",
+    "url": "https://mistral.ai",
+    "logo": "🟠",
+    "models": [
+      "Mistral Large",
+      "Codestral"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "meta",
+    "name": "Meta Llama",
+    "url": "https://llama.meta.com",
+    "logo": "🔵",
+    "models": [
+      "Llama 4 Scout",
+      "Llama 4 Maverick"
+    ],
+    "type": "国际",
+    "pricing": "开源免费",
+    "api": false
+  },
+  {
+    "id": "xai",
+    "name": "xAI Grok",
+    "url": "https://x.ai",
+    "logo": "⬛",
+    "models": [
+      "Grok 3"
+    ],
+    "type": "国际",
+    "pricing": "X Premium+",
+    "api": true
+  },
+  {
+    "id": "nvidia",
+    "name": "NVIDIA NIM",
+    "url": "https://build.nvidia.com",
+    "logo": "🟢",
+    "models": [
+      "Llama 3.1 NIM",
+      "Mistral NIM"
+    ],
+    "type": "国际",
+    "pricing": "免费额度",
+    "api": true
+  },
+  {
+    "id": "aws-bedrock",
+    "name": "AWS Bedrock",
+    "url": "https://aws.amazon.com/bedrock",
+    "logo": "🟠",
+    "models": [
+      "Claude",
+      "Llama",
+      "Titan"
+    ],
+    "type": "云平台",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "azure-openai",
+    "name": "Azure OpenAI",
+    "url": "https://azure.microsoft.com/products/ai-services/openai-service",
+    "logo": "🔵",
+    "models": [
+      "GPT-4o",
+      "GPT-4.1"
+    ],
+    "type": "云平台",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "url": "https://openrouter.ai",
+    "logo": "🔀",
+    "models": [
+      "200+ 模型"
+    ],
+    "type": "聚合",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "together",
+    "name": "Together AI",
+    "url": "https://together.ai",
+    "logo": "🤝",
+    "models": [
+      "开源模型集群"
+    ],
+    "type": "聚合",
+    "pricing": "按量计费",
+    "api": true
+  },
+  {
+    "id": "groq",
+    "name": "Groq",
+    "url": "https://groq.com",
+    "logo": "⚡",
+    "models": [
+      "Llama",
+      "Mixtral",
+      "Gemma"
+    ],
+    "type": "国际",
+    "pricing": "免费额度",
+    "api": true
+  },
+  {
+    "id": "siliconflow",
+    "name": "硅基流动",
+    "url": "https://siliconflow.cn",
+    "logo": "💎",
+    "models": [
+      "开源模型集群"
+    ],
+    "type": "国产聚合",
+    "pricing": "超低价/免费",
+    "api": true
+  },
+  {
+    "id": "volcengine",
+    "name": "火山引擎",
+    "url": "https://www.volcengine.com/product/ark",
+    "logo": "🌋",
+    "models": [
+      "Doubao",
+      "自定义模型"
+    ],
+    "type": "云平台",
+    "pricing": "按量计费",
+    "api": true
+  }
 ]
