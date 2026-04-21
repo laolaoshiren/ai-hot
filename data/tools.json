@@ -15,7 +15,8 @@
     ],
     "stars": null,
     "trending": true,
-    "featured": true
+    "featured": true,
+    "use_cases": "代码补全、多文件重构、Bug修复、代码解释"
   },
   {
     "id": "github-copilot",
@@ -32,7 +33,8 @@
       "#copilot"
     ],
     "stars": null,
-    "featured": true
+    "featured": true,
+    "use_cases": "代码补全、函数生成、测试编写、文档生成"
   },
   {
     "id": "claude-code",
@@ -48,7 +50,8 @@
       "#cli",
       "#anthropic"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "终端编程、代码重构、PR生成、自动化开发"
   },
   {
     "id": "codex-cli",
@@ -96,7 +99,8 @@
       "#opensource",
       "#custom-llm"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "VS Code/JetBrains AI助手、自定义模型、私有部署"
   },
   {
     "id": "windsurf",
@@ -145,7 +149,8 @@
       "#art",
       "#discord"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "商业插画、概念设计、产品渲染、艺术创作"
   },
   {
     "id": "stable-diffusion",
@@ -161,7 +166,8 @@
       "#opensource",
       "#local"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "本地图像生成、ControlNet、LoRA训练"
   },
   {
     "id": "flux",
@@ -178,7 +184,8 @@
       "#new"
     ],
     "trending": true,
-    "featured": true
+    "featured": true,
+    "use_cases": "开源图像生成、本地部署、商业应用"
   },
   {
     "id": "comfyui",
@@ -194,7 +201,8 @@
       "#workflow",
       "#opensource"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "复杂图像工作流、批量生成、自定义pipeline"
   },
   {
     "id": "dalle3",
@@ -242,7 +250,8 @@
       "#video",
       "#professional"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "视频生成、视频编辑、绿幕抠图、运动跟踪"
   },
   {
     "id": "pika",
@@ -288,7 +297,8 @@
       "#openai",
       "#popular"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "写作、翻译、编程、分析、学习、创意"
   },
   {
     "id": "claude",
@@ -304,7 +314,8 @@
       "#anthropic",
       "#long-context"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "长文档分析、代码生成、学术写作、数据分析"
   },
   {
     "id": "gemini",
@@ -338,7 +349,8 @@
       "#free"
     ],
     "trending": true,
-    "featured": true
+    "featured": true,
+    "use_cases": "中文对话、代码生成、数学推理、开源部署"
   },
   {
     "id": "kimi",
@@ -354,7 +366,8 @@
       "#chinese",
       "#long-context"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "长文档阅读、PDF分析、超长对话、文件理解"
   },
   {
     "id": "豆包",
@@ -418,7 +431,8 @@
       "#search",
       "#realtime"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "实时搜索、研究问答、事实核查、信息汇总"
   },
   {
     "id": "秘塔搜索",
@@ -465,7 +479,8 @@
       "#productivity",
       "#notion"
     ],
-    "featured": false
+    "featured": false,
+    "use_cases": "文档写作、会议纪要、知识库、项目管理"
   },
   {
     "id": "gamma",
@@ -481,7 +496,8 @@
       "#presentation",
       "#free"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "PPT自动生成、演示文稿、报告制作"
   },
   {
     "id": "aippt",
@@ -513,7 +529,8 @@
       "#free",
       "#rag"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "笔记整理、知识管理、文档问答、学习辅助"
   },
   {
     "id": "dify",
@@ -530,7 +547,8 @@
       "#opensource"
     ],
     "trending": true,
-    "featured": true
+    "featured": true,
+    "use_cases": "AI应用搭建、工作流编排、知识库问答、Agent开发"
   },
   {
     "id": "coze",
@@ -613,7 +631,8 @@
       "#llm"
     ],
     "trending": true,
-    "featured": true
+    "featured": true,
+    "use_cases": "本地模型运行、离线使用、隐私保护、开发测试"
   },
   {
     "id": "lmstudio",
@@ -692,7 +711,8 @@
       "#music",
       "#generation"
     ],
-    "featured": true
+    "featured": true,
+    "use_cases": "歌曲创作、背景音乐、短视频配乐、音乐灵感"
   },
   {
     "id": "udio",
@@ -723,7 +743,8 @@
     "url": "https://aider.chat",
     "trending": true,
     "featured": true,
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "use_cases": "终端编程、Git集成、多文件编辑、代码审查"
   },
   {
     "id": "tabnine",
@@ -780,7 +801,8 @@
     ],
     "url": "https://supermaven.com",
     "trending": true,
-    "free_quota": "个人免费"
+    "free_quota": "个人免费",
+    "use_cases": "极速代码补全、低延迟、IDE集成"
   },
   {
     "id": "codestral",
@@ -1019,7 +1041,8 @@
     ],
     "url": "https://leonardo.ai",
     "trending": true,
-    "free_quota": "每日150张免费"
+    "free_quota": "每日150张免费",
+    "use_cases": "游戏素材、角色设计、产品图、概念艺术"
   },
   {
     "id": "ideogram",
@@ -1076,7 +1099,8 @@
     ],
     "url": "https://jimeng.jianying.com",
     "trending": true,
-    "free_quota": "每日免费额度"
+    "free_quota": "每日免费额度",
+    "use_cases": "中文AI绘画、国风创作、商业海报"
   },
   {
     "id": "哩布哩布",
@@ -1259,7 +1283,8 @@
     ],
     "url": "https://elevenlabs.io",
     "trending": true,
-    "free_quota": "每月10000字符免费"
+    "free_quota": "每月10000字符免费",
+    "use_cases": "视频配音、有声书、播客、语音克隆"
   },
   {
     "id": "azure-tts",
@@ -1359,7 +1384,8 @@
     ],
     "url": "https://agpt.co",
     "trending": true,
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "use_cases": "自主任务执行、网络搜索、文件操作、自动化"
   },
   {
     "id": "babyagi",
@@ -1486,7 +1512,8 @@
     ],
     "url": "https://github.com/sgl-project/sglang",
     "trending": true,
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "use_cases": "高性能推理、API服务、模型部署"
   },
   {
     "id": "doubao-seedance",
