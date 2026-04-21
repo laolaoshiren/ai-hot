@@ -48,7 +48,19 @@
         /* Main */
         main { padding: 24px 0; }
         .grid { display: grid; grid-template-columns: 1fr 340px; gap: 24px; }
-        @media (max-width: 768px) { .grid { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { 
+            .grid { grid-template-columns: 1fr; }
+            .tools-grid { grid-template-columns: 1fr; }
+            .header-inner { flex-direction: column; gap: 12px; }
+            nav { flex-wrap: wrap; justify-content: center; }
+            .logo { font-size: 20px; }
+            .card { padding: 16px; }
+            .container { padding: 0 12px; }
+        }
+        
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .tools-grid { grid-template-columns: repeat(2, 1fr); }
+        }
 
         /* Cards */
         .card {

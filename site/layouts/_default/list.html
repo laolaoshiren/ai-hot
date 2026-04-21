@@ -7,21 +7,80 @@
 
 <!-- 模型页 -->
 {{ if in $slug "/models/" }}
-<div class="card">
-    <div class="card-title">🧠 AI 模型 <span class="hot-badge">{{ len site.Data.models }} 个</span></div>
-    {{ range site.Data.models }}
-    <div class="hot-item">
-        <div class="hot-content">
-            <div class="hot-title">
-                <a href="{{ .url }}" target="_blank">{{ .display_name | default .name }}</a>
-                {{ if .likes }}<span class="hot-badge">❤️ {{ .likes }}</span>{{ end }}
-                {{ if .pipeline_tag }}<span class="hot-badge">{{ .pipeline_tag }}</span>{{ end }}
-            </div>
-            <div class="hot-meta">{{ .author }}</div>
-        </div>
-    </div>
+{{/* 按 pipeline_tag 分组 */}}
+{{ $model_categories := dict 
+    "text-generation" "📝 文本生成" 
+    "text-to-image" "🎨 图像生成" 
+    "image-to-video" "🎬 视频生成" 
+    "video-to-video" "🎬 视频处理"
+    "automatic-speech-recognition" "🎤 语音识别" 
+    "text-to-speech" "🔊 语音合成" 
+    "image-text-to-text" "👁️ 多模态" 
+    "any-to-any" "🌐 任意到任意"
+    "image-to-3d" "🧊 3D 生成"
+    "translation" "🌐 翻译"
+}}
+{{ $other_models := slice }}
+{{ range site.Data.models }}
+    {{ $tag := .pipeline_tag | default "" }}
+    {{ $found := false }}
+    {{ range $key, $emoji := $model_categories }}
+        {{ if eq $tag $key }}
+            {{ $found = true }}
+        {{ end }}
     {{ end }}
+    {{ if not $found }}
+        {{ $other_models = $other_models | append . }}
+    {{ end }}
+{{ end }}
+
+{{ range $tag, $emoji := $model_categories }}
+{{ $models := where site.Data.models "pipeline_tag" $tag }}
+{{ if gt (len $models) 0 }}
+<div class="card">
+    <div class="card-title">{{ $emoji }} <span class="hot-badge">{{ len $models }} 个</span></div>
+    <div class="tools-grid">
+        {{ range $models }}
+        <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
+            <div class="tool-header">
+                <div class="tool-icon">{{ $emoji }}</div>
+                <div class="tool-name">{{ .display_name | default .name }}</div>
+            </div>
+            <div class="tool-desc">{{ .author }}</div>
+            <div class="tool-footer">
+                <div class="tool-tags">
+                    {{ if .likes }}<span class="tool-tag free">❤️ {{ .likes }}</span>{{ end }}
+                </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
 </div>
+{{ end }}
+{{ end }}
+
+{{ if gt (len $other_models) 0 }}
+<div class="card">
+    <div class="card-title">🌐 其他 <span class="hot-badge">{{ len $other_models }} 个</span></div>
+    <div class="tools-grid">
+        {{ range $other_models }}
+        <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
+            <div class="tool-header">
+                <div class="tool-icon">🌐</div>
+                <div class="tool-name">{{ .display_name | default .name }}</div>
+            </div>
+            <div class="tool-desc">{{ .author }}</div>
+            <div class="tool-footer">
+                <div class="tool-tags">
+                    {{ if .likes }}<span class="tool-tag free">❤️ {{ .likes }}</span>{{ end }}
+                    {{ if .pipeline_tag }}<span class="tool-tag">{{ .pipeline_tag }}</span>{{ end }}
+                </div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
 
 <!-- 工具页 -->
 {{ else if in $slug "/tools/" }}

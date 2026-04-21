@@ -55,16 +55,28 @@
     <!-- 热度飙升 -->
     <div class="card">
         <div class="card-title">📈 热度飙升</div>
-        {{ $trending := site.Data.trending }}
-        {{ if $trending }}
-            {{ range first 8 $trending.top_risers }}
-            <div class="trend-item">
-                <div>
-                    <a href="{{ .url }}" target="_blank">{{ .display_name }}</a>
-                    <span style="color:var(--text3);font-size:12px;margin-left:6px">{{ .description }}</span>
+        {{ $tools := site.Data.tools }}
+        {{ if $tools }}
+            {{ $trending_tools := slice }}
+            {{ range $tools }}
+                {{ if .trending }}
+                    {{ $trending_tools = $trending_tools | append . }}
+                {{ end }}
+            {{ end }}
+            {{ if gt (len $trending_tools) 0 }}
+                {{ range first 5 $trending_tools }}
+                <div class="trend-item">
+                    <div>
+                        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                        <span style="color:var(--text3);font-size:12px;margin-left:6px">{{ .description }}</span>
+                    </div>
+                    <div class="trend-up">🔥 热门</div>
                 </div>
-                <div class="trend-up">↑{{ .velocity_per_day }}/天</div>
-            </div>
+                {{ end }}
+            {{ else }}
+                <div class="trend-item">
+                    <div style="color:var(--text3)">暂无热度飙升数据</div>
+                </div>
             {{ end }}
         {{ end }}
     </div>
