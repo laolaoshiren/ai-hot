@@ -1,46 +1,3333 @@
 [
-  {"id": "cursor", "name": "Cursor", "url": "https://cursor.sh", "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力", "category": "编程", "pricing": "免费 + Pro $20/月", "free_quota": "2000 次补全 + 50 次高级请求/月", "difficulty": 1, "tags": ["#coding", "#ide", "#copilot"], "stars": null, "trending": true, "featured": true},
-  {"id": "github-copilot", "name": "GitHub Copilot", "url": "https://github.com/features/copilot", "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains", "category": "编程", "pricing": "$10/月 个人 / $19/月 企业", "free_quota": "学生/开源维护者免费", "difficulty": 1, "tags": ["#coding", "#github", "#copilot"], "stars": null, "featured": true},
-  {"id": "claude-code", "name": "Claude Code", "url": "https://docs.anthropic.com/en/docs/claude-code", "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程", "category": "编程", "pricing": "按 API 使用量计费", "free_quota": "无免费额度", "difficulty": 2, "tags": ["#coding", "#cli", "#anthropic"], "featured": true},
-  {"id": "codex-cli", "name": "Codex CLI", "url": "https://github.com/openai/codex", "description": "OpenAI 官方终端编程助手，轻量快速", "category": "编程", "pricing": "按 API 使用量计费", "free_quota": "ChatGPT Plus 用户可用", "difficulty": 2, "tags": ["#coding", "#cli", "#openai"], "featured": true},
-  {"id": "codeium", "name": "Codeium", "url": "https://codeium.com", "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器", "category": "编程", "pricing": "个人免费 + Teams $12/月", "free_quota": "个人永久免费", "difficulty": 1, "tags": ["#coding", "#free", "#autocomplete"], "featured": true},
-  {"id": "continue", "name": "Continue", "url": "https://continue.dev", "description": "开源 AI 编程助手，可接入任意 LLM", "category": "编程", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 2, "tags": ["#coding", "#opensource", "#custom-llm"], "featured": true},
-  {"id": "windsurf", "name": "Windsurf", "url": "https://codeium.com/windsurf", "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体", "category": "编程", "pricing": "免费 + Pro $15/月", "free_quota": "有限免费", "difficulty": 1, "tags": ["#coding", "#ide", "#agent"], "featured": true},
-  {"id": "trae", "name": "Trae", "url": "https://trae.ai", "description": "字节跳动出品的 AI IDE，中文友好", "category": "编程", "pricing": "免费", "free_quota": "目前完全免费", "difficulty": 1, "tags": ["#coding", "#ide", "#chinese", "#free"], "featured": true},
-  {"id": "midjourney", "name": "Midjourney", "url": "https://midjourney.com", "description": "最强 AI 绘画工具，生成质量极高", "category": "绘画", "pricing": "$10/月 起", "free_quota": "无免费额度", "difficulty": 2, "tags": ["#image", "#art", "#discord"], "featured": true},
-  {"id": "stable-diffusion", "name": "Stable Diffusion", "url": "https://stability.ai", "description": "开源图像生成模型，本地部署无限制", "category": "绘画", "pricing": "开源免费", "free_quota": "完全免费（本地）", "difficulty": 3, "tags": ["#image", "#opensource", "#local"], "featured": true},
-  {"id": "flux", "name": "FLUX", "url": "https://blackforestlabs.ai", "description": "新一代开源图像生成模型，质量超越 SD", "category": "绘画", "pricing": "开源 + 商业 API", "free_quota": "开源版免费", "difficulty": 3, "tags": ["#image", "#opensource", "#new"], "trending": true, "featured": true},
-  {"id": "comfyui", "name": "ComfyUI", "url": "https://github.com/comfyanonymous/ComfyUI", "description": "节点式 AI 绘画工作流引擎，最强可控性", "category": "绘画", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 3, "tags": ["#image", "#workflow", "#opensource"], "featured": true},
-  {"id": "dalle3", "name": "DALL-E 3", "url": "https://openai.com/dall-e-3", "description": "OpenAI 官方图像生成，ChatGPT Plus 内置", "category": "绘画", "pricing": "ChatGPT Plus 内含", "free_quota": "ChatGPT 免费版有限额度", "difficulty": 1, "tags": ["#image", "#openai", "#chatgpt"], "featured": true},
-  {"id": "可灵", "name": "可灵 AI", "url": "https://klingai.com", "description": "快手出品的 AI 视频生成工具，国产最强", "category": "视频", "pricing": "免费 + 会员", "free_quota": "每日免费额度", "difficulty": 1, "tags": ["#video", "#chinese", "#free"], "trending": true, "featured": true},
-  {"id": "runway", "name": "Runway", "url": "https://runwayml.com", "description": "专业 AI 视频生成和编辑平台", "category": "视频", "pricing": "$15/月 起", "free_quota": "125 积分免费", "difficulty": 2, "tags": ["#video", "#professional"], "featured": true},
-  {"id": "pika", "name": "Pika", "url": "https://pika.art", "description": "AI 视频生成工具，简单易用", "category": "视频", "pricing": "免费 + 付费", "free_quota": "每日免费额度", "difficulty": 1, "tags": ["#video", "#easy"], "featured": true},
-  {"id": "sora", "name": "Sora", "url": "https://sora.com", "description": "OpenAI 视频生成模型，效果惊人", "category": "视频", "pricing": "ChatGPT Pro $200/月", "free_quota": "无免费额度", "difficulty": 1, "tags": ["#video", "#openai"], "featured": true},
-  {"id": "chatgpt", "name": "ChatGPT", "url": "https://chat.openai.com", "description": "最流行的 AI 对话工具，OpenAI 出品", "category": "对话", "pricing": "免费 + Plus $20/月", "free_quota": "GPT-4o-mini 免费", "difficulty": 1, "tags": ["#chat", "#openai", "#popular"], "featured": true},
-  {"id": "claude", "name": "Claude", "url": "https://claude.ai", "description": "Anthropic 出品的 AI 对话工具，长文本能力强", "category": "对话", "pricing": "免费 + Pro $20/月", "free_quota": "有限免费额度", "difficulty": 1, "tags": ["#chat", "#anthropic", "#long-context"], "featured": true},
-  {"id": "gemini", "name": "Gemini", "url": "https://gemini.google.com", "description": "Google 出品的 AI 对话工具，多模态能力强", "category": "对话", "pricing": "免费 + Advanced $20/月", "free_quota": "Gemini 1.5 Flash 免费", "difficulty": 1, "tags": ["#chat", "#google", "#multimodal"], "featured": true},
-  {"id": "deepseek", "name": "DeepSeek", "url": "https://chat.deepseek.com", "description": "深度求索出品，国产最强开源大模型对话工具", "category": "对话", "pricing": "免费 + API 按量", "free_quota": "对话免费", "difficulty": 1, "tags": ["#chat", "#chinese", "#opensource", "#free"], "trending": true, "featured": true},
-  {"id": "kimi", "name": "Kimi", "url": "https://kimi.moonshot.cn", "description": "月之暗面出品，超长上下文 AI 助手", "category": "对话", "pricing": "免费 + 会员", "free_quota": "基础版免费", "difficulty": 1, "tags": ["#chat", "#chinese", "#long-context"], "featured": true},
-  {"id": "豆包", "name": "豆包", "url": "https://www.doubao.com", "description": "字节跳动出品的 AI 助手，功能全面", "category": "对话", "pricing": "免费", "free_quota": "完全免费", "difficulty": 1, "tags": ["#chat", "#chinese", "#free", "#bytedance"], "featured": true},
-  {"id": "通义千问", "name": "通义千问", "url": "https://tongyi.aliyun.com", "description": "阿里巴巴出品的 AI 助手", "category": "对话", "pricing": "免费 + API 按量", "free_quota": "对话免费", "difficulty": 1, "tags": ["#chat", "#chinese", "#alibaba"], "featured": true},
-  {"id": "文心一言", "name": "文心一言", "url": "https://yiyan.baidu.com", "description": "百度出品的 AI 助手", "category": "对话", "pricing": "免费 + API 按量", "free_quota": "对话免费", "difficulty": 1, "tags": ["#chat", "#chinese", "#baidu"], "featured": true},
-  {"id": "perplexity", "name": "Perplexity", "url": "https://perplexity.ai", "description": "AI 搜索引擎，实时联网回答问题", "category": "搜索", "pricing": "免费 + Pro $20/月", "free_quota": "基础搜索免费", "difficulty": 1, "tags": ["#search", "#realtime"], "featured": true},
-  {"id": "秘塔搜索", "name": "秘塔 AI 搜索", "url": "https://metaso.cn", "description": "国产 AI 搜索引擎，中文体验优秀", "category": "搜索", "pricing": "免费", "free_quota": "完全免费", "difficulty": 1, "tags": ["#search", "#chinese", "#free"], "featured": true},
-  {"id": "jasper", "name": "Jasper", "url": "https://jasper.ai", "description": "专业 AI 写作和营销内容生成平台", "category": "写作", "pricing": "$49/月 起", "free_quota": "7 天免费试用", "difficulty": 1, "tags": ["#writing", "#marketing"], "featured": false},
-  {"id": "notion-ai", "name": "Notion AI", "url": "https://notion.so", "description": "Notion 内置 AI 助手，写作+整理+总结", "category": "写作", "pricing": "Notion +$10/月 AI 附加", "free_quota": "Notion 免费版含有限 AI", "difficulty": 1, "tags": ["#writing", "#productivity", "#notion"], "featured": false},
-  {"id": "gamma", "name": "Gamma", "url": "https://gamma.app", "description": "AI 一键生成 PPT/演示文稿", "category": "办公", "pricing": "免费 + Plus $10/月", "free_quota": "10 次免费生成", "difficulty": 1, "tags": ["#ppt", "#presentation", "#free"], "featured": true},
-  {"id": "aippt", "name": "AiPPT", "url": "https://aippt.cn", "description": "国产 AI PPT 生成工具，模板丰富", "category": "办公", "pricing": "免费 + 会员", "free_quota": "有限免费", "difficulty": 1, "tags": ["#ppt", "#chinese"], "featured": false},
-  {"id": "notebooklm", "name": "NotebookLM", "url": "https://notebooklm.google.com", "description": "Google 出品的 AI 笔记/知识管理工具", "category": "办公", "pricing": "免费", "free_quota": "完全免费", "difficulty": 1, "tags": ["#notes", "#google", "#free", "#rag"], "featured": true},
-  {"id": "dify", "name": "Dify", "url": "https://dify.ai", "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用", "category": "Agent", "pricing": "开源 + 云服务", "free_quota": "自部署免费", "difficulty": 2, "tags": ["#agent", "#platform", "#opensource"], "trending": true, "featured": true},
-  {"id": "coze", "name": "Coze", "url": "https://www.coze.com", "description": "字节跳动出品的 AI Bot 搭建平台", "category": "Agent", "pricing": "免费", "free_quota": "完全免费", "difficulty": 1, "tags": ["#agent", "#chinese", "#free", "#bytedance"], "featured": true},
-  {"id": "langchain", "name": "LangChain", "url": "https://langchain.com", "description": "最流行的 LLM 应用开发框架", "category": "Agent", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 3, "tags": ["#agent", "#framework", "#opensource", "#python"], "featured": true},
-  {"id": "autogen", "name": "AutoGen", "url": "https://github.com/microsoft/autogen", "description": "微软出品的多 Agent 协作框架", "category": "Agent", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 3, "tags": ["#agent", "#multi-agent", "#microsoft"], "featured": true},
-  {"id": "crewai", "name": "CrewAI", "url": "https://crewai.com", "description": "多 Agent 协作框架，简单易用", "category": "Agent", "pricing": "开源 + 企业版", "free_quota": "开源版免费", "difficulty": 2, "tags": ["#agent", "#multi-agent", "#easy"], "featured": true},
-  {"id": "ollama", "name": "Ollama", "url": "https://ollama.com", "description": "本地运行大模型的最简单方式", "category": "本地模型", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 2, "tags": ["#local", "#opensource", "#llm"], "trending": true, "featured": true},
-  {"id": "lmstudio", "name": "LM Studio", "url": "https://lmstudio.ai", "description": "本地大模型 GUI 工具，界面友好", "category": "本地模型", "pricing": "免费", "free_quota": "完全免费", "difficulty": 1, "tags": ["#local", "#gui", "#free"], "featured": true},
-  {"id": "vllm", "name": "vLLM", "url": "https://github.com/vllm-project/vllm", "description": "高性能 LLM 推理引擎，PagedAttention", "category": "推理引擎", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 3, "tags": ["#inference", "#opensource", "#performance"], "featured": true},
-  {"id": "whisper", "name": "Whisper", "url": "https://github.com/openai/whisper", "description": "OpenAI 开源语音识别模型", "category": "语音", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 2, "tags": ["#speech", "#opensource", "#openai"], "featured": true},
-  {"id": "fish-speech", "name": "Fish Speech", "url": "https://github.com/fishaudio/fish-speech", "description": "开源 TTS 语音合成模型，中文效果好", "category": "语音", "pricing": "开源免费", "free_quota": "完全免费", "difficulty": 2, "tags": ["#tts", "#opensource", "#chinese"], "featured": true},
-  {"id": "suno", "name": "Suno", "url": "https://suno.com", "description": "AI 音乐生成工具，输入文字生成歌曲", "category": "音乐", "pricing": "免费 + Pro $10/月", "free_quota": "每日 5 首免费", "difficulty": 1, "tags": ["#music", "#generation"], "featured": true},
-  {"id": "udio", "name": "Udio", "url": "https://udio.com", "description": "AI 音乐生成工具，音质出色", "category": "音乐", "pricing": "免费 + 付费", "free_quota": "每日免费额度", "difficulty": 1, "tags": ["#music", "#generation"], "featured": false}
+  {
+    "id": "cursor",
+    "name": "Cursor",
+    "url": "https://cursor.sh",
+    "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
+    "category": "编程",
+    "pricing": "免费 + Pro $20/月",
+    "free_quota": "2000 次补全 + 50 次高级请求/月",
+    "difficulty": 1,
+    "tags": [
+      "#coding",
+      "#ide",
+      "#copilot"
+    ],
+    "stars": null,
+    "trending": true,
+    "featured": true,
+    "use_cases": "代码补全、多文件重构、Bug修复、代码解释",
+    "pros": [
+      "AI代码补全智能",
+      "基于VS Code，生态丰富",
+      "支持多模型切换",
+      "中文友好"
+    ],
+    "cons": [
+      "高级功能需付费",
+      "偶有延迟",
+      "隐私顾虑"
+    ],
+    "best_for": [
+      "个人开发者",
+      "小团队",
+      "全栈工程师"
+    ],
+    "alternatives": [
+      "copilot",
+      "codeium",
+      "tabnine"
+    ]
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains",
+    "category": "编程",
+    "pricing": "$10/月 个人 / $19/月 企业",
+    "free_quota": "学生/开源维护者免费",
+    "difficulty": 1,
+    "tags": [
+      "#coding",
+      "#github",
+      "#copilot"
+    ],
+    "stars": null,
+    "featured": true,
+    "use_cases": "代码补全、函数生成、测试编写、文档生成",
+    "pros": [
+      "代码补全准确",
+      "支持多语言",
+      "IDE集成好",
+      "学习能力强"
+    ],
+    "cons": [
+      "需要付费",
+      "隐私问题",
+      "有时生成重复代码"
+    ],
+    "best_for": [
+      "专业开发者",
+      "企业团队",
+      "开源贡献者"
+    ],
+    "alternatives": [
+      "cursor",
+      "codeium",
+      "tabnine"
+    ]
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+    "category": "编程",
+    "pricing": "按 API 使用量计费",
+    "free_quota": "无免费额度",
+    "difficulty": 2,
+    "tags": [
+      "#coding",
+      "#cli",
+      "#anthropic"
+    ],
+    "featured": true,
+    "use_cases": "终端编程、代码重构、PR生成、自动化开发"
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
+    "description": "OpenAI 官方终端编程助手，轻量快速",
+    "category": "编程",
+    "pricing": "按 API 使用量计费",
+    "free_quota": "ChatGPT Plus 用户可用",
+    "difficulty": 2,
+    "tags": [
+      "#coding",
+      "#cli",
+      "#openai"
+    ],
+    "featured": true
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
+    "category": "编程",
+    "pricing": "个人免费 + Teams $12/月",
+    "free_quota": "个人永久免费",
+    "difficulty": 1,
+    "tags": [
+      "#coding",
+      "#free",
+      "#autocomplete"
+    ],
+    "featured": true
+  },
+  {
+    "id": "continue",
+    "name": "Continue",
+    "url": "https://continue.dev",
+    "description": "开源 AI 编程助手，可接入任意 LLM",
+    "category": "编程",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 2,
+    "tags": [
+      "#coding",
+      "#opensource",
+      "#custom-llm"
+    ],
+    "featured": true,
+    "use_cases": "VS Code/JetBrains AI助手、自定义模型、私有部署"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
+    "category": "编程",
+    "pricing": "免费 + Pro $15/月",
+    "free_quota": "有限免费",
+    "difficulty": 1,
+    "tags": [
+      "#coding",
+      "#ide",
+      "#agent"
+    ],
+    "featured": true
+  },
+  {
+    "id": "trae",
+    "name": "Trae",
+    "url": "https://trae.ai",
+    "description": "字节跳动出品的 AI IDE，中文友好",
+    "category": "编程",
+    "pricing": "免费",
+    "free_quota": "目前完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#coding",
+      "#ide",
+      "#chinese",
+      "#free"
+    ],
+    "featured": true
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "description": "最强 AI 绘画工具，生成质量极高",
+    "category": "绘画",
+    "pricing": "$10/月 起",
+    "free_quota": "无免费额度",
+    "difficulty": 2,
+    "tags": [
+      "#image",
+      "#art",
+      "#discord"
+    ],
+    "featured": true,
+    "use_cases": "商业插画、概念设计、产品渲染、艺术创作",
+    "pros": [
+      "图像质量极高",
+      "艺术风格多样",
+      "社区活跃",
+      "持续更新"
+    ],
+    "cons": [
+      "需要Discord使用",
+      "无免费额度",
+      "中文提示词支持弱"
+    ],
+    "best_for": [
+      "设计师",
+      "艺术家",
+      "内容创作者"
+    ],
+    "alternatives": [
+      "dalle3",
+      "stable-diffusion",
+      "adobe-firefly"
+    ]
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "url": "https://stability.ai",
+    "description": "开源图像生成模型，本地部署无限制",
+    "category": "绘画",
+    "pricing": "开源免费",
+    "free_quota": "完全免费（本地）",
+    "difficulty": 3,
+    "tags": [
+      "#image",
+      "#opensource",
+      "#local"
+    ],
+    "featured": true,
+    "use_cases": "本地图像生成、ControlNet、LoRA训练",
+    "pros": [
+      "完全开源免费",
+      "可本地部署",
+      "模型生态丰富",
+      "高度可定制"
+    ],
+    "cons": [
+      "需要GPU",
+      "配置复杂",
+      "出图质量参差不齐"
+    ],
+    "best_for": [
+      "技术用户",
+      "研究人员",
+      "独立开发者"
+    ],
+    "alternatives": [
+      "midjourney",
+      "dalle3",
+      "comfyui"
+    ]
+  },
+  {
+    "id": "flux",
+    "name": "FLUX",
+    "url": "https://blackforestlabs.ai",
+    "description": "新一代开源图像生成模型，质量超越 SD",
+    "category": "绘画",
+    "pricing": "开源 + 商业 API",
+    "free_quota": "开源版免费",
+    "difficulty": 3,
+    "tags": [
+      "#image",
+      "#opensource",
+      "#new"
+    ],
+    "trending": true,
+    "featured": true,
+    "use_cases": "开源图像生成、本地部署、商业应用"
+  },
+  {
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "description": "节点式 AI 绘画工作流引擎，最强可控性",
+    "category": "绘画",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 3,
+    "tags": [
+      "#image",
+      "#workflow",
+      "#opensource"
+    ],
+    "featured": true,
+    "use_cases": "复杂图像工作流、批量生成、自定义pipeline",
+    "pros": [
+      "节点式工作流",
+      "高度灵活",
+      "社区活跃",
+      "免费开源"
+    ],
+    "cons": [
+      "学习曲线陡",
+      "需要技术基础",
+      "界面不直观"
+    ],
+    "best_for": [
+      "高级用户",
+      "AI艺术家",
+      "研究人员"
+    ],
+    "alternatives": [
+      "stable-diffusion-webui",
+      "fooocus",
+      "automatic1111"
+    ]
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "description": "OpenAI 官方图像生成，ChatGPT Plus 内置",
+    "category": "绘画",
+    "pricing": "ChatGPT Plus 内含",
+    "free_quota": "ChatGPT 免费版有限额度",
+    "difficulty": 1,
+    "tags": [
+      "#image",
+      "#openai",
+      "#chatgpt"
+    ],
+    "featured": true,
+    "pros": [
+      "与ChatGPT集成",
+      "文字渲染准确",
+      "理解力强",
+      "使用简单"
+    ],
+    "cons": [
+      "需要ChatGPT Plus",
+      "风格有限",
+      "分辨率受限"
+    ],
+    "best_for": [
+      "内容创作者",
+      "营销人员",
+      "普通用户"
+    ],
+    "alternatives": [
+      "midjourney",
+      "stable-diffusion",
+      "adobe-firefly"
+    ]
+  },
+  {
+    "id": "可灵",
+    "name": "可灵 AI",
+    "url": "https://klingai.com",
+    "description": "快手出品的 AI 视频生成工具，国产最强",
+    "category": "视频",
+    "pricing": "免费 + 会员",
+    "free_quota": "每日免费额度",
+    "difficulty": 1,
+    "tags": [
+      "#video",
+      "#chinese",
+      "#free"
+    ],
+    "trending": true,
+    "featured": true
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "url": "https://runwayml.com",
+    "description": "专业 AI 视频生成和编辑平台",
+    "category": "视频",
+    "pricing": "$15/月 起",
+    "free_quota": "125 积分免费",
+    "difficulty": 2,
+    "tags": [
+      "#video",
+      "#professional"
+    ],
+    "featured": true,
+    "use_cases": "视频生成、视频编辑、绿幕抠图、运动跟踪"
+  },
+  {
+    "id": "pika",
+    "name": "Pika",
+    "url": "https://pika.art",
+    "description": "AI 视频生成工具，简单易用",
+    "category": "视频",
+    "pricing": "免费 + 付费",
+    "free_quota": "每日免费额度",
+    "difficulty": 1,
+    "tags": [
+      "#video",
+      "#easy"
+    ],
+    "featured": true
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "description": "OpenAI 视频生成模型，效果惊人",
+    "category": "视频",
+    "pricing": "ChatGPT Pro $200/月",
+    "free_quota": "无免费额度",
+    "difficulty": 1,
+    "tags": [
+      "#video",
+      "#openai"
+    ],
+    "featured": true
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "description": "最流行的 AI 对话工具，OpenAI 出品",
+    "category": "对话",
+    "pricing": "免费 + Plus $20/月",
+    "free_quota": "GPT-4o-mini 免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#openai",
+      "#popular"
+    ],
+    "featured": true,
+    "use_cases": "写作、翻译、编程、分析、学习、创意",
+    "pros": [
+      "对话能力强大",
+      "支持多模态",
+      "插件生态丰富",
+      "中文支持好"
+    ],
+    "cons": [
+      "需要科学上网",
+      "高级版价格高",
+      "有时会编造信息"
+    ],
+    "best_for": [
+      "内容创作者",
+      "学生",
+      "企业用户"
+    ],
+    "alternatives": [
+      "claude",
+      "gemini",
+      "kimi"
+    ]
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
+    "category": "对话",
+    "pricing": "免费 + Pro $20/月",
+    "free_quota": "有限免费额度",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#anthropic",
+      "#long-context"
+    ],
+    "featured": true,
+    "use_cases": "长文档分析、代码生成、学术写作、数据分析",
+    "pros": [
+      "长文本处理能力强",
+      "安全性高",
+      "代码能力优秀",
+      "分析能力强"
+    ],
+    "cons": [
+      "需要科学上网",
+      "免费额度有限",
+      "多模态能力弱于GPT-4V"
+    ],
+    "best_for": [
+      "开发者",
+      "研究人员",
+      "文档处理"
+    ],
+    "alternatives": [
+      "chatgpt",
+      "gemini",
+      "deepseek"
+    ]
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "url": "https://gemini.google.com",
+    "description": "Google 出品的 AI 对话工具，多模态能力强",
+    "category": "对话",
+    "pricing": "免费 + Advanced $20/月",
+    "free_quota": "Gemini 1.5 Flash 免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#google",
+      "#multimodal"
+    ],
+    "featured": true
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
+    "description": "深度求索出品，国产最强开源大模型对话工具",
+    "category": "对话",
+    "pricing": "免费 + API 按量",
+    "free_quota": "对话免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#opensource",
+      "#free"
+    ],
+    "trending": true,
+    "featured": true,
+    "use_cases": "中文对话、代码生成、数学推理、开源部署",
+    "pros": [
+      "中文能力突出",
+      "完全免费",
+      "代码能力强",
+      "开源模型"
+    ],
+    "cons": [
+      "知名度较低",
+      "插件生态弱",
+      "多模态能力有限"
+    ],
+    "best_for": [
+      "中文用户",
+      "开发者",
+      "研究人员"
+    ],
+    "alternatives": [
+      "chatgpt",
+      "claude",
+      "kimi"
+    ]
+  },
+  {
+    "id": "kimi",
+    "name": "Kimi",
+    "url": "https://kimi.moonshot.cn",
+    "description": "月之暗面出品，超长上下文 AI 助手",
+    "category": "对话",
+    "pricing": "免费 + 会员",
+    "free_quota": "基础版免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#long-context"
+    ],
+    "featured": true,
+    "use_cases": "长文档阅读、PDF分析、超长对话、文件理解",
+    "pros": [
+      "超长文本支持",
+      "中文理解优秀",
+      "搜索能力强",
+      "免费使用"
+    ],
+    "cons": [
+      "国际知名度低",
+      "代码能力一般",
+      "插件少"
+    ],
+    "best_for": [
+      "文档处理",
+      "中文用户",
+      "研究人员"
+    ],
+    "alternatives": [
+      "claude",
+      "chatgpt",
+      "deepseek"
+    ]
+  },
+  {
+    "id": "豆包",
+    "name": "豆包",
+    "url": "https://www.doubao.com",
+    "description": "字节跳动出品的 AI 助手，功能全面",
+    "category": "对话",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#free",
+      "#bytedance"
+    ],
+    "featured": true
+  },
+  {
+    "id": "通义千问",
+    "name": "通义千问",
+    "url": "https://tongyi.aliyun.com",
+    "description": "阿里巴巴出品的 AI 助手",
+    "category": "对话",
+    "pricing": "免费 + API 按量",
+    "free_quota": "对话免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#alibaba"
+    ],
+    "featured": true
+  },
+  {
+    "id": "文心一言",
+    "name": "文心一言",
+    "url": "https://yiyan.baidu.com",
+    "description": "百度出品的 AI 助手",
+    "category": "对话",
+    "pricing": "免费 + API 按量",
+    "free_quota": "对话免费",
+    "difficulty": 1,
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#baidu"
+    ],
+    "featured": true
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "url": "https://perplexity.ai",
+    "description": "AI 搜索引擎，实时联网回答问题",
+    "category": "搜索",
+    "pricing": "免费 + Pro $20/月",
+    "free_quota": "基础搜索免费",
+    "difficulty": 1,
+    "tags": [
+      "#search",
+      "#realtime"
+    ],
+    "featured": true,
+    "use_cases": "实时搜索、研究问答、事实核查、信息汇总",
+    "pros": [
+      "实时搜索+AI",
+      "信息来源标注",
+      "研究能力强",
+      "免费版够用"
+    ],
+    "cons": [
+      "中文内容有限",
+      "深度分析弱于ChatGPT",
+      "偶有错误引用"
+    ],
+    "best_for": [
+      "研究人员",
+      "学生",
+      "信息检索"
+    ],
+    "alternatives": [
+      "chatgpt",
+      "claude",
+      "bing-copilot"
+    ]
+  },
+  {
+    "id": "秘塔搜索",
+    "name": "秘塔 AI 搜索",
+    "url": "https://metaso.cn",
+    "description": "国产 AI 搜索引擎，中文体验优秀",
+    "category": "搜索",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#search",
+      "#chinese",
+      "#free"
+    ],
+    "featured": true
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "url": "https://jasper.ai",
+    "description": "专业 AI 写作和营销内容生成平台",
+    "category": "营销",
+    "pricing": "$49/月 起",
+    "free_quota": "7 天免费试用",
+    "difficulty": 1,
+    "tags": [
+      "#writing",
+      "#marketing"
+    ],
+    "featured": false
+  },
+  {
+    "id": "notion-ai",
+    "name": "Notion AI",
+    "url": "https://notion.so",
+    "description": "Notion 内置 AI 助手，写作+整理+总结",
+    "category": "写作",
+    "pricing": "Notion +$10/月 AI 附加",
+    "free_quota": "Notion 免费版含有限 AI",
+    "difficulty": 1,
+    "tags": [
+      "#writing",
+      "#productivity",
+      "#notion"
+    ],
+    "featured": false,
+    "use_cases": "文档写作、会议纪要、知识库、项目管理",
+    "pros": [
+      "与Notion深度集成",
+      "写作辅助强大",
+      "总结归纳优秀",
+      "操作简单"
+    ],
+    "cons": [
+      "需订阅Notion",
+      "中文能力一般",
+      "功能相对单一"
+    ],
+    "best_for": [
+      "知识工作者",
+      "团队协作",
+      "文档管理"
+    ],
+    "alternatives": [
+      "chatgpt",
+      "claude",
+      "grammarly"
+    ]
+  },
+  {
+    "id": "gamma",
+    "name": "Gamma",
+    "url": "https://gamma.app",
+    "description": "AI 一键生成 PPT/演示文稿",
+    "category": "办公",
+    "pricing": "免费 + Plus $10/月",
+    "free_quota": "10 次免费生成",
+    "difficulty": 1,
+    "tags": [
+      "#ppt",
+      "#presentation",
+      "#free"
+    ],
+    "featured": true,
+    "use_cases": "PPT自动生成、演示文稿、报告制作"
+  },
+  {
+    "id": "aippt",
+    "name": "AiPPT",
+    "url": "https://aippt.cn",
+    "description": "国产 AI PPT 生成工具，模板丰富",
+    "category": "办公",
+    "pricing": "免费 + 会员",
+    "free_quota": "有限免费",
+    "difficulty": 1,
+    "tags": [
+      "#ppt",
+      "#chinese"
+    ],
+    "featured": false
+  },
+  {
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com",
+    "description": "Google 出品的 AI 笔记/知识管理工具",
+    "category": "办公",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#notes",
+      "#google",
+      "#free",
+      "#rag"
+    ],
+    "featured": true,
+    "use_cases": "笔记整理、知识管理、文档问答、学习辅助"
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "url": "https://dify.ai",
+    "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
+    "category": "Agent",
+    "pricing": "开源 + 云服务",
+    "free_quota": "自部署免费",
+    "difficulty": 2,
+    "tags": [
+      "#agent",
+      "#platform",
+      "#opensource"
+    ],
+    "trending": true,
+    "featured": true,
+    "use_cases": "AI应用搭建、工作流编排、知识库问答、Agent开发",
+    "pros": [
+      "开源可控",
+      "功能全面",
+      "RAG支持好",
+      "部署灵活"
+    ],
+    "cons": [
+      "需要技术基础",
+      "配置复杂",
+      "社区支持有限"
+    ],
+    "best_for": [
+      "开发者",
+      "企业用户",
+      "技术团队"
+    ],
+    "alternatives": [
+      "coze",
+      "langchain",
+      "fastgpt"
+    ]
+  },
+  {
+    "id": "coze",
+    "name": "Coze",
+    "url": "https://www.coze.com",
+    "description": "字节跳动出品的 AI Bot 搭建平台",
+    "category": "Agent",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#agent",
+      "#chinese",
+      "#free",
+      "#bytedance"
+    ],
+    "featured": true,
+    "pros": [
+      "无需编程",
+      "集成多种模型",
+      "支持知识库",
+      "免费使用"
+    ],
+    "cons": [
+      "功能有限制",
+      "稳定性一般",
+      "中文文档少"
+    ],
+    "best_for": [
+      "非技术用户",
+      "快速原型",
+      "小型项目"
+    ],
+    "alternatives": [
+      "dify",
+      "langchain",
+      "botpress"
+    ]
+  },
+  {
+    "id": "langchain",
+    "name": "LangChain",
+    "url": "https://langchain.com",
+    "description": "最流行的 LLM 应用开发框架",
+    "category": "Agent",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 3,
+    "tags": [
+      "#agent",
+      "#framework",
+      "#opensource",
+      "#python"
+    ],
+    "featured": true
+  },
+  {
+    "id": "autogen",
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "微软出品的多 Agent 协作框架",
+    "category": "Agent",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 3,
+    "tags": [
+      "#agent",
+      "#multi-agent",
+      "#microsoft"
+    ],
+    "featured": true
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "url": "https://crewai.com",
+    "description": "多 Agent 协作框架，简单易用",
+    "category": "Agent",
+    "pricing": "开源 + 企业版",
+    "free_quota": "开源版免费",
+    "difficulty": 2,
+    "tags": [
+      "#agent",
+      "#multi-agent",
+      "#easy"
+    ],
+    "featured": true
+  },
+  {
+    "id": "ollama",
+    "name": "Ollama",
+    "url": "https://ollama.com",
+    "description": "本地运行大模型的最简单方式",
+    "category": "本地模型",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 2,
+    "tags": [
+      "#local",
+      "#opensource",
+      "#llm"
+    ],
+    "trending": true,
+    "featured": true,
+    "use_cases": "本地模型运行、离线使用、隐私保护、开发测试",
+    "pros": [
+      "本地运行",
+      "完全隐私",
+      "支持多种模型",
+      "简单易用"
+    ],
+    "cons": [
+      "需要硬件配置",
+      "模型选择有限",
+      "无云端同步"
+    ],
+    "best_for": [
+      "隐私敏感用户",
+      "技术爱好者",
+      "离线场景"
+    ],
+    "alternatives": [
+      "lmstudio",
+      "gpt4all",
+      "jan"
+    ]
+  },
+  {
+    "id": "lmstudio",
+    "name": "LM Studio",
+    "url": "https://lmstudio.ai",
+    "description": "本地大模型 GUI 工具，界面友好",
+    "category": "本地模型",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#local",
+      "#gui",
+      "#free"
+    ],
+    "featured": true
+  },
+  {
+    "id": "vllm",
+    "name": "vLLM",
+    "url": "https://github.com/vllm-project/vllm",
+    "description": "高性能 LLM 推理引擎，PagedAttention",
+    "category": "推理引擎",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 3,
+    "tags": [
+      "#inference",
+      "#opensource",
+      "#performance"
+    ],
+    "featured": true
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "url": "https://github.com/openai/whisper",
+    "description": "OpenAI 开源语音识别模型",
+    "category": "语音",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 2,
+    "tags": [
+      "#speech",
+      "#opensource",
+      "#openai"
+    ],
+    "featured": true
+  },
+  {
+    "id": "fish-speech",
+    "name": "Fish Speech",
+    "url": "https://github.com/fishaudio/fish-speech",
+    "description": "开源 TTS 语音合成模型，中文效果好",
+    "category": "语音",
+    "pricing": "开源免费",
+    "free_quota": "完全免费",
+    "difficulty": 2,
+    "tags": [
+      "#tts",
+      "#opensource",
+      "#chinese"
+    ],
+    "featured": true
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "url": "https://suno.com",
+    "description": "AI 音乐生成工具，输入文字生成歌曲",
+    "category": "音乐",
+    "pricing": "免费 + Pro $10/月",
+    "free_quota": "每日 5 首免费",
+    "difficulty": 1,
+    "tags": [
+      "#music",
+      "#generation"
+    ],
+    "featured": true,
+    "use_cases": "歌曲创作、背景音乐、短视频配乐、音乐灵感"
+  },
+  {
+    "id": "udio",
+    "name": "Udio",
+    "url": "https://udio.com",
+    "description": "AI 音乐生成工具，音质出色",
+    "category": "音乐",
+    "pricing": "免费 + 付费",
+    "free_quota": "每日免费额度",
+    "difficulty": 1,
+    "tags": [
+      "#music",
+      "#generation"
+    ],
+    "featured": false
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "description": "终端内的AI结对编程工具，支持多文件编辑",
+    "category": "编程",
+    "pricing": "开源免费",
+    "tags": [
+      "#coding",
+      "#terminal",
+      "#opensource"
+    ],
+    "url": "https://aider.chat",
+    "trending": true,
+    "featured": true,
+    "free_quota": "完全免费",
+    "use_cases": "终端编程、Git集成、多文件编辑、代码审查"
+  },
+  {
+    "id": "tabnine",
+    "name": "Tabnine",
+    "description": "本地AI代码补全，注重隐私",
+    "category": "编程",
+    "pricing": "免费 + Pro $12/月",
+    "tags": [
+      "#coding",
+      "#privacy",
+      "#autocomplete"
+    ],
+    "url": "https://tabnine.com",
+    "free_quota": "基础补全免费"
+  },
+  {
+    "id": "replit-ai",
+    "name": "Replit AI",
+    "description": "在线IDE内置AI编程助手",
+    "category": "编程",
+    "pricing": "免费 + Core $25/月",
+    "tags": [
+      "#coding",
+      "#online",
+      "#ide"
+    ],
+    "url": "https://replit.com",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "sourcegraph-cody",
+    "name": "Sourcegraph Cody",
+    "description": "理解整个代码库的AI编程助手",
+    "category": "编程",
+    "pricing": "免费 + Pro $9/月",
+    "tags": [
+      "#coding",
+      "#codebase",
+      "#enterprise"
+    ],
+    "url": "https://sourcegraph.com/cody",
+    "free_quota": "个人免费"
+  },
+  {
+    "id": "supermaven",
+    "name": "Supermaven",
+    "description": "超低延迟AI代码补全，速度极快",
+    "category": "编程",
+    "pricing": "免费 + Pro $10/月",
+    "tags": [
+      "#coding",
+      "#fast",
+      "#autocomplete"
+    ],
+    "url": "https://supermaven.com",
+    "trending": true,
+    "free_quota": "个人免费",
+    "use_cases": "极速代码补全、低延迟、IDE集成"
+  },
+  {
+    "id": "codestral",
+    "name": "Codestral",
+    "description": "Mistral出品的代码生成模型",
+    "category": "编程",
+    "pricing": "API按量",
+    "tags": [
+      "#coding",
+      "#model",
+      "#mistral"
+    ],
+    "url": "https://mistral.ai",
+    "free_quota": "API免费额度"
+  },
+  {
+    "id": "glm-4",
+    "name": "智谱清言",
+    "description": "智谱AI出品，GLM-4大模型对话工具",
+    "category": "对话",
+    "pricing": "免费 + API按量",
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#glm"
+    ],
+    "url": "https://chatglm.cn",
+    "free_quota": "对话免费"
+  },
+  {
+    "id": "baichuan",
+    "name": "百小应",
+    "description": "百川智能出品的AI助手",
+    "category": "对话",
+    "pricing": "免费",
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://ying.baichuan-ai.com",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "yiyan",
+    "name": "文心一言",
+    "description": "百度出品的AI对话工具",
+    "category": "对话",
+    "pricing": "免费 + API按量",
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#baidu"
+    ],
+    "url": "https://yiyan.baidu.com",
+    "free_quota": "对话免费"
+  },
+  {
+    "id": "tongyi",
+    "name": "通义千问",
+    "description": "阿里巴巴出品的AI助手",
+    "category": "对话",
+    "pricing": "免费 + API按量",
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#alibaba"
+    ],
+    "url": "https://tongyi.aliyun.com",
+    "free_quota": "对话免费"
+  },
+  {
+    "id": "doubao",
+    "name": "豆包",
+    "description": "字节跳动出品的AI助手，功能全面",
+    "category": "对话",
+    "pricing": "免费",
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://www.doubao.com",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "hailuo",
+    "name": "海螺AI",
+    "description": "MiniMax出品的AI对话工具",
+    "category": "对话",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#chat",
+      "#chinese",
+      "#minimax"
+    ],
+    "url": "https://hailuoai.com",
+    "free_quota": "基础免费"
+  },
+  {
+    "id": "pi-ai",
+    "name": "Pi",
+    "description": "Inflection AI出品的情感陪伴AI",
+    "category": "对话",
+    "pricing": "免费",
+    "tags": [
+      "#chat",
+      "#companion",
+      "#emotional"
+    ],
+    "url": "https://pi.ai",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "you-com",
+    "name": "You.com",
+    "description": "注重隐私的AI搜索引擎",
+    "category": "对话",
+    "pricing": "免费 + Pro $15/月",
+    "tags": [
+      "#chat",
+      "#search",
+      "#privacy"
+    ],
+    "url": "https://you.com",
+    "free_quota": "基础搜索免费"
+  },
+  {
+    "id": "phind",
+    "name": "Phind",
+    "description": "面向开发者的AI搜索引擎",
+    "category": "对话",
+    "pricing": "免费 + Pro $15/月",
+    "tags": [
+      "#chat",
+      "#search",
+      "#developer"
+    ],
+    "url": "https://phind.com",
+    "free_quota": "基础搜索免费"
+  },
+  {
+    "id": "grammarly",
+    "name": "Grammarly",
+    "description": "AI写作助手，语法检查+改写优化",
+    "category": "写作",
+    "pricing": "免费 + Premium $12/月",
+    "tags": [
+      "#writing",
+      "#grammar",
+      "#english"
+    ],
+    "url": "https://grammarly.com",
+    "free_quota": "基础语法检查免费",
+    "pros": [
+      "语法检查精准",
+      "多平台支持",
+      "写作风格建议",
+      "实时反馈"
+    ],
+    "cons": [
+      "高级功能收费",
+      "中文支持弱",
+      "有时过度纠正"
+    ],
+    "best_for": [
+      "英文写作者",
+      "学生",
+      "商务人士"
+    ],
+    "alternatives": [
+      "chatgpt",
+      "notion-ai",
+      "quillbot"
+    ]
+  },
+  {
+    "id": "writesonic",
+    "name": "Writesonic",
+    "description": "AI写作和内容生成平台",
+    "category": "写作",
+    "pricing": "免费 + Pro $20/月",
+    "tags": [
+      "#writing",
+      "#content",
+      "#marketing"
+    ],
+    "url": "https://writesonic.com",
+    "free_quota": "免费试用"
+  },
+  {
+    "id": "copy-ai",
+    "name": "Copy.ai",
+    "description": "AI营销文案生成工具",
+    "category": "营销",
+    "pricing": "免费 + Pro $49/月",
+    "tags": [
+      "#writing",
+      "#marketing",
+      "#copywriting"
+    ],
+    "url": "https://copy.ai",
+    "free_quota": "免费2000字/月"
+  },
+  {
+    "id": "quillbot",
+    "name": "QuillBot",
+    "description": "AI改写和语法检查工具",
+    "category": "写作",
+    "pricing": "免费 + Premium $10/月",
+    "tags": [
+      "#writing",
+      "#paraphrase",
+      "#grammar"
+    ],
+    "url": "https://quillbot.com",
+    "free_quota": "基础改写免费"
+  },
+  {
+    "id": "秘塔写作猫",
+    "name": "秘塔写作猫",
+    "description": "国产AI写作助手，中文优化",
+    "category": "写作",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#writing",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://xiezuocat.com",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "火山写作",
+    "name": "火山写作",
+    "description": "字节跳动出品的AI写作工具",
+    "category": "写作",
+    "pricing": "免费",
+    "tags": [
+      "#writing",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://writingo.net",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "leonardo-ai",
+    "name": "Leonardo AI",
+    "description": "专业AI图像生成和编辑平台",
+    "category": "绘画",
+    "pricing": "免费 + Pro $12/月",
+    "tags": [
+      "#image",
+      "#generation",
+      "#professional"
+    ],
+    "url": "https://leonardo.ai",
+    "trending": true,
+    "free_quota": "每日150张免费",
+    "use_cases": "游戏素材、角色设计、产品图、概念艺术"
+  },
+  {
+    "id": "ideogram",
+    "name": "Ideogram",
+    "description": "擅长文字渲染的AI图像生成",
+    "category": "绘画",
+    "pricing": "免费 + Plus $8/月",
+    "tags": [
+      "#image",
+      "#text",
+      "#generation"
+    ],
+    "url": "https://ideogram.ai",
+    "free_quota": "每日25张免费"
+  },
+  {
+    "id": "playground-ai",
+    "name": "Playground AI",
+    "description": "免费AI图像生成平台",
+    "category": "绘画",
+    "pricing": "免费 + Pro $15/月",
+    "tags": [
+      "#image",
+      "#free",
+      "#generation"
+    ],
+    "url": "https://playground.com",
+    "free_quota": "每日500张免费"
+  },
+  {
+    "id": "firefly",
+    "name": "Adobe Firefly",
+    "description": "Adobe出品的AI图像生成",
+    "category": "设计",
+    "pricing": "免费 + Creative Cloud",
+    "tags": [
+      "#image",
+      "#adobe",
+      "#professional"
+    ],
+    "url": "https://firefly.adobe.com",
+    "free_quota": "每月25张免费"
+  },
+  {
+    "id": "dreamina",
+    "name": "即梦AI",
+    "description": "字节跳动出品的AI绘画工具",
+    "category": "绘画",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#image",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://jimeng.jianying.com",
+    "trending": true,
+    "free_quota": "每日免费额度",
+    "use_cases": "中文AI绘画、国风创作、商业海报"
+  },
+  {
+    "id": "哩布哩布",
+    "name": "哩布哩布AI",
+    "description": "国内最大AI绘画社区",
+    "category": "绘画",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#image",
+      "#chinese",
+      "#community"
+    ],
+    "url": "https://liblib.ai",
+    "free_quota": "每日免费额度"
+  },
+  {
+    "id": "minimax-video",
+    "name": "MiniMax视频",
+    "description": "MiniMax出品的AI视频生成",
+    "category": "视频",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#video",
+      "#generation",
+      "#minimax"
+    ],
+    "url": "https://hailuoai.com",
+    "free_quota": "每日免费额度"
+  },
+  {
+    "id": "luma-dream",
+    "name": "Luma Dream Machine",
+    "description": "Luma AI出品的视频生成工具",
+    "category": "视频",
+    "pricing": "免费 + Pro $29/月",
+    "tags": [
+      "#video",
+      "#generation",
+      "#luma"
+    ],
+    "url": "https://lumalabs.ai/dream-machine",
+    "free_quota": "每月30次免费"
+  },
+  {
+    "id": "vidu",
+    "name": "Vidu",
+    "description": "生数科技出品的AI视频生成",
+    "category": "视频",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#video",
+      "#chinese",
+      "#generation"
+    ],
+    "url": "https://www.vidu.com",
+    "free_quota": "免费试用"
+  },
+  {
+    "id": "beautiful-ai",
+    "name": "Beautiful.ai",
+    "description": "AI自动排版PPT工具",
+    "category": "办公",
+    "pricing": "免费 + Pro $12/月",
+    "tags": [
+      "#ppt",
+      "#design",
+      "#auto"
+    ],
+    "url": "https://beautiful.ai",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "tome",
+    "name": "Tome",
+    "description": "AI驱动的演示文稿生成",
+    "category": "办公",
+    "pricing": "免费 + Pro $10/月",
+    "tags": [
+      "#ppt",
+      "#presentation",
+      "#ai"
+    ],
+    "url": "https://tome.app",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "slides-ai",
+    "name": "SlidesAI",
+    "description": "Google Slides的AI插件",
+    "category": "办公",
+    "pricing": "免费 + Pro $10/月",
+    "tags": [
+      "#ppt",
+      "#google",
+      "#plugin"
+    ],
+    "url": "https://slidesai.io",
+    "free_quota": "每月3次免费"
+  },
+  {
+    "id": "通义效率",
+    "name": "通义效率",
+    "description": "阿里出品的AI办公效率工具",
+    "category": "办公",
+    "pricing": "免费",
+    "tags": [
+      "#office",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://tongyi.aliyun.com/xiaolv",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "wps-ai",
+    "name": "WPS AI",
+    "description": "WPS内置AI助手",
+    "category": "办公",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#office",
+      "#chinese",
+      "#wps"
+    ],
+    "url": "https://ai.wps.cn",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "kagi",
+    "name": "Kagi",
+    "description": "付费无广告AI搜索引擎",
+    "category": "搜索",
+    "pricing": "$10/月起",
+    "tags": [
+      "#search",
+      "#premium",
+      "#no-ads"
+    ],
+    "url": "https://kagi.com",
+    "free_quota": "无免费"
+  },
+  {
+    "id": "天工AI搜索",
+    "name": "天工AI搜索",
+    "description": "昆仑万维出品的AI搜索引擎",
+    "category": "搜索",
+    "pricing": "免费",
+    "tags": [
+      "#search",
+      "#chinese",
+      "#free"
+    ],
+    "url": "https://www.tiangong.cn",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "博查AI",
+    "name": "博查AI搜索",
+    "description": "AI驱动的知识搜索引擎",
+    "category": "搜索",
+    "pricing": "免费",
+    "tags": [
+      "#search",
+      "#chinese",
+      "#knowledge"
+    ],
+    "url": "https://bochaai.com",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "description": "最逼真的AI语音合成",
+    "category": "语音",
+    "pricing": "免费 + Pro $5/月",
+    "tags": [
+      "#tts",
+      "#realistic",
+      "#voice"
+    ],
+    "url": "https://elevenlabs.io",
+    "trending": true,
+    "free_quota": "每月10000字符免费",
+    "use_cases": "视频配音、有声书、播客、语音克隆",
+    "pros": [
+      "语音质量极高",
+      "多语言支持",
+      "声音克隆",
+      "API稳定"
+    ],
+    "cons": [
+      "价格较贵",
+      "中文支持一般",
+      "有使用限制"
+    ],
+    "best_for": [
+      "播客制作",
+      "有声书",
+      "视频配音"
+    ],
+    "alternatives": [
+      "azure-tts",
+      "google-tts",
+      "fish-audio"
+    ]
+  },
+  {
+    "id": "azure-tts",
+    "name": "Azure TTS",
+    "description": "微软Azure语音合成服务",
+    "category": "语音",
+    "pricing": "按量计费",
+    "tags": [
+      "#tts",
+      "#microsoft",
+      "#api"
+    ],
+    "url": "https://azure.microsoft.com/ai",
+    "free_quota": "每月50万字符免费"
+  },
+  {
+    "id": "coqui-ai",
+    "name": "Coqui AI",
+    "description": "开源语音克隆和合成",
+    "category": "语音",
+    "pricing": "开源免费",
+    "tags": [
+      "#tts",
+      "#opensource",
+      "#clone"
+    ],
+    "url": "https://coqui.ai",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "chat-tts",
+    "name": "ChatTTS",
+    "description": "开源对话式语音合成模型",
+    "category": "语音",
+    "pricing": "开源免费",
+    "tags": [
+      "#tts",
+      "#opensource",
+      "#chinese"
+    ],
+    "url": "https://github.com/2noise/ChatTTS",
+    "trending": true,
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "musicfy",
+    "name": "Musicfy",
+    "description": "AI音乐生成和声音克隆",
+    "category": "音乐",
+    "pricing": "免费 + Pro $9/月",
+    "tags": [
+      "#music",
+      "#clone",
+      "#generation"
+    ],
+    "url": "https://musicfy.lol",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "aiva",
+    "name": "AIVA",
+    "description": "AI作曲助手，专业级音乐生成",
+    "category": "音乐",
+    "pricing": "免费 + Pro $15/月",
+    "tags": [
+      "#music",
+      "#composition",
+      "#professional"
+    ],
+    "url": "https://aiva.ai",
+    "free_quota": "免费下载3首/月"
+  },
+  {
+    "id": "mubert",
+    "name": "Mubert",
+    "description": "AI生成免版权背景音乐",
+    "category": "音乐",
+    "pricing": "免费 + Pro $14/月",
+    "tags": [
+      "#music",
+      "#background",
+      "#royalty-free"
+    ],
+    "url": "https://mubert.com",
+    "free_quota": "基础功能免费"
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "description": "自主执行任务的AI Agent",
+    "category": "Agent",
+    "pricing": "开源免费",
+    "tags": [
+      "#agent",
+      "#autonomous",
+      "#gpt"
+    ],
+    "url": "https://agpt.co",
+    "trending": true,
+    "free_quota": "完全免费",
+    "use_cases": "自主任务执行、网络搜索、文件操作、自动化"
+  },
+  {
+    "id": "babyagi",
+    "name": "BabyAGI",
+    "description": "任务驱动的自主AI Agent",
+    "category": "Agent",
+    "pricing": "开源免费",
+    "tags": [
+      "#agent",
+      "#autonomous",
+      "#task"
+    ],
+    "url": "https://github.com/yoheinakajima/babyagi",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "description": "多Agent软件公司模拟",
+    "category": "Agent",
+    "pricing": "开源免费",
+    "tags": [
+      "#agent",
+      "#multi",
+      "#software"
+    ],
+    "url": "https://github.com/geekan/MetaGPT",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "gpt4all",
+    "name": "GPT4All",
+    "description": "本地运行大模型的桌面应用",
+    "category": "本地模型",
+    "pricing": "开源免费",
+    "tags": [
+      "#local",
+      "#desktop",
+      "#opensource"
+    ],
+    "url": "https://gpt4all.io",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "jan-ai",
+    "name": "Jan",
+    "description": "本地运行AI的桌面应用",
+    "category": "本地模型",
+    "pricing": "开源免费",
+    "tags": [
+      "#local",
+      "#desktop",
+      "#chat"
+    ],
+    "url": "https://jan.ai",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "text-generation-webui",
+    "name": "text-generation-webui",
+    "description": "本地大模型Web界面",
+    "category": "本地模型",
+    "pricing": "开源免费",
+    "tags": [
+      "#local",
+      "#webui",
+      "#advanced"
+    ],
+    "url": "https://github.com/oobabooga/text-generation-webui",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "koboldcpp",
+    "name": "KoboldCpp",
+    "description": "本地运行GGUF模型的轻量工具",
+    "category": "本地模型",
+    "pricing": "开源免费",
+    "tags": [
+      "#local",
+      "#gguf",
+      "#lightweight"
+    ],
+    "url": "https://github.com/LostRuins/koboldcpp",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "tensorrt-llm",
+    "name": "TensorRT-LLM",
+    "description": "NVIDIA出品的高性能LLM推理引擎",
+    "category": "推理引擎",
+    "pricing": "开源免费",
+    "tags": [
+      "#inference",
+      "#nvidia",
+      "#performance"
+    ],
+    "url": "https://github.com/NVIDIA/TensorRT-LLM",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "tgi",
+    "name": "Text Generation Inference",
+    "description": "HuggingFace出品的推理服务器",
+    "category": "推理引擎",
+    "pricing": "开源免费",
+    "tags": [
+      "#inference",
+      "#huggingface",
+      "#server"
+    ],
+    "url": "https://github.com/huggingface/text-generation-inference",
+    "free_quota": "完全免费"
+  },
+  {
+    "id": "sglang",
+    "name": "SGLang",
+    "description": "高性能LLM推理和服务框架",
+    "category": "推理引擎",
+    "pricing": "开源免费",
+    "tags": [
+      "#inference",
+      "#performance",
+      "#serving"
+    ],
+    "url": "https://github.com/sgl-project/sglang",
+    "trending": true,
+    "free_quota": "完全免费",
+    "use_cases": "高性能推理、API服务、模型部署"
+  },
+  {
+    "id": "doubao-seedance",
+    "name": "豆包·即梦",
+    "description": "字节跳动出品的AI视频生成工具",
+    "category": "视频",
+    "pricing": "免费 + 会员",
+    "tags": [
+      "#video",
+      "#chinese",
+      "#doubao"
+    ],
+    "url": "https://jimeng.jianying.com",
+    "free_quota": "每日免费额度"
+  },
+  {
+    "name": "Duolingo Max",
+    "url": "https://duolingo.com",
+    "description": "AI驱动的语言学习平台，提供个性化课程和实时对话练习",
+    "category": "教育",
+    "pricing": "免费 + Super $7/月",
+    "free_quota": "基础课程免费",
+    "difficulty": 1,
+    "tags": [
+      "#education",
+      "#language",
+      "#learning"
+    ],
+    "use_cases": "语言学习、口语练习、语法纠正",
+    "id": "duolingo-max",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Khan Academy AI",
+    "url": "https://khanacademy.org",
+    "description": "AI导师提供个性化数学、科学学习路径",
+    "category": "教育",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#education",
+      "#math",
+      "#science"
+    ],
+    "use_cases": "数学学习、科学教育、个性化辅导",
+    "id": "khan-academy-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Socratic by Google",
+    "url": "https://socratic.org",
+    "description": "拍照搜题AI，支持数学、科学、文学等学科",
+    "category": "教育",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#education",
+      "#homework",
+      "#tutor"
+    ],
+    "use_cases": "作业辅导、概念解释、学习辅助",
+    "id": "socratic-by-google",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Quizlet AI",
+    "url": "https://quizlet.com",
+    "description": "AI生成闪卡和学习材料，智能复习系统",
+    "category": "教育",
+    "pricing": "免费 + Plus $8/月",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#education",
+      "#flashcards",
+      "#study"
+    ],
+    "use_cases": "记忆训练、考试准备、知识巩固",
+    "id": "quizlet-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Photomath",
+    "url": "https://photomath.com",
+    "description": "拍照解数学题，提供详细解题步骤",
+    "category": "教育",
+    "pricing": "免费 + Plus $10/月",
+    "free_quota": "基础解题免费",
+    "difficulty": 1,
+    "tags": [
+      "#education",
+      "#math",
+      "#solver"
+    ],
+    "use_cases": "数学解题、步骤学习、作业帮助",
+    "id": "photomath",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Elsa Speak",
+    "url": "https://elsaspeak.com",
+    "description": "AI英语口语教练，实时发音纠正",
+    "category": "教育",
+    "pricing": "免费 + Pro $12/月",
+    "free_quota": "每日基础练习",
+    "difficulty": 1,
+    "tags": [
+      "#education",
+      "#english",
+      "#speaking"
+    ],
+    "use_cases": "英语口语、发音纠正、流利度提升",
+    "id": "elsa-speak",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Century Tech",
+    "url": "https://century.tech",
+    "description": "AI个性化学习平台，为学校和企业提供定制课程",
+    "category": "教育",
+    "pricing": "企业定价",
+    "free_quota": "学校免费试用",
+    "difficulty": 2,
+    "tags": [
+      "#education",
+      "#enterprise",
+      "#adaptive"
+    ],
+    "use_cases": "企业培训、学校教育、个性化学习",
+    "id": "century-tech",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Gradescope",
+    "url": "https://gradescope.com",
+    "description": "AI辅助作业批改和评分系统",
+    "category": "教育",
+    "pricing": "学校定价",
+    "free_quota": "教师免费",
+    "difficulty": 2,
+    "tags": [
+      "#education",
+      "#grading",
+      "#assessment"
+    ],
+    "use_cases": "作业批改、考试评分、教学反馈",
+    "id": "gradescope",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Ada Health",
+    "url": "https://ada.com",
+    "description": "AI症状检查器，提供健康评估和建议",
+    "category": "健康",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#health",
+      "#symptom",
+      "#diagnosis"
+    ],
+    "use_cases": "症状检查、健康评估、医疗建议",
+    "id": "ada-health",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Babylon Health",
+    "url": "https://babylonhealth.com",
+    "description": "AI医生咨询，24/7在线健康服务",
+    "category": "健康",
+    "pricing": "订阅制",
+    "free_quota": "基础咨询免费",
+    "difficulty": 1,
+    "tags": [
+      "#health",
+      "#telemedicine",
+      "#consultation"
+    ],
+    "use_cases": "在线问诊、健康监测、医疗咨询",
+    "id": "babylon-health",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Woebot",
+    "url": "https://woebot.io",
+    "description": "AI心理健康聊天机器人，提供CBT疗法",
+    "category": "健康",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#health",
+      "#mental",
+      "#therapy"
+    ],
+    "use_cases": "心理健康、情绪管理、压力缓解",
+    "id": "woebot",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Your.MD",
+    "url": "https://your.md",
+    "description": "AI健康助手，提供个性化健康信息",
+    "category": "健康",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#health",
+      "#information",
+      "#wellness"
+    ],
+    "use_cases": "健康信息、疾病预防、生活方式建议",
+    "id": "your-md",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Fitbit AI",
+    "url": "https://fitbit.com",
+    "description": "AI健康数据分析，睡眠和运动建议",
+    "category": "健康",
+    "pricing": "设备+订阅",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#health",
+      "#fitness",
+      "#wearable"
+    ],
+    "use_cases": "运动监测、睡眠分析、健康数据",
+    "id": "fitbit-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Tempus",
+    "url": "https://tempus.com",
+    "description": "AI驱动的精准医疗和癌症治疗分析",
+    "category": "健康",
+    "pricing": "企业定价",
+    "free_quota": "研究机构合作",
+    "difficulty": 3,
+    "tags": [
+      "#health",
+      "#precision",
+      "#oncology"
+    ],
+    "use_cases": "癌症治疗、精准医疗、基因分析",
+    "id": "tempus",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "DoNotPay",
+    "url": "https://donotpay.com",
+    "description": "AI律师，自动处理罚单、取消订阅等法律事务",
+    "category": "法律",
+    "pricing": "订阅制",
+    "free_quota": "首次免费",
+    "difficulty": 1,
+    "tags": [
+      "#legal",
+      "#consumer",
+      "#automation"
+    ],
+    "use_cases": "罚单申诉、订阅取消、消费者权益",
+    "id": "donotpay",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "LawGeex",
+    "url": "https://lawgeex.com",
+    "description": "AI合同审查平台，自动识别风险条款",
+    "category": "法律",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#legal",
+      "#contract",
+      "#review"
+    ],
+    "use_cases": "合同审查、风险识别、法律合规",
+    "id": "lawgeex",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Kira Systems",
+    "url": "https://kirasystems.com",
+    "description": "AI合同分析，提取关键条款和义务",
+    "category": "法律",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#legal",
+      "#analysis",
+      "#extraction"
+    ],
+    "use_cases": "合同分析、条款提取、尽职调查",
+    "id": "kira-systems",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "CaseText",
+    "url": "https://casetext.com",
+    "description": "AI法律研究助手，快速找到相关案例",
+    "category": "法律",
+    "pricing": "订阅制",
+    "free_quota": "免费试用",
+    "difficulty": 2,
+    "tags": [
+      "#legal",
+      "#research",
+      "#cases"
+    ],
+    "use_cases": "法律研究、案例查找、判例分析",
+    "id": "casetext",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Juro",
+    "url": "https://juro.com",
+    "description": "AI合同管理平台，自动化合同生命周期",
+    "category": "法律",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#legal",
+      "#management",
+      "#lifecycle"
+    ],
+    "use_cases": "合同管理、审批流程、电子签名",
+    "id": "juro",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Luminance",
+    "url": "https://luminance.com",
+    "description": "AI法律文档分析，识别异常和风险",
+    "category": "法律",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#legal",
+      "#document",
+      "#risk"
+    ],
+    "use_cases": "文档审查、风险识别、合规检查",
+    "id": "luminance",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Wealthfront",
+    "url": "https://wealthfront.com",
+    "description": "AI理财顾问，自动化投资组合管理",
+    "category": "金融",
+    "pricing": "0.25%管理费",
+    "free_quota": "首$5000免费",
+    "difficulty": 1,
+    "tags": [
+      "#finance",
+      "#investment",
+      "#robo-advisor"
+    ],
+    "use_cases": "投资管理、理财规划、资产配置",
+    "id": "wealthfront",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Betterment",
+    "url": "https://betterment.com",
+    "description": "AI驱动的投资平台，个性化投资建议",
+    "category": "金融",
+    "pricing": "0.25%管理费",
+    "free_quota": "基础账户免费",
+    "difficulty": 1,
+    "tags": [
+      "#finance",
+      "#investment",
+      "#automation"
+    ],
+    "use_cases": "自动化投资、退休规划、税务优化",
+    "id": "betterment",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Kavout",
+    "url": "https://kavout.com",
+    "description": "AI股票评分系统，Kai Score量化分析",
+    "category": "金融",
+    "pricing": "订阅制",
+    "free_quota": "基础评分免费",
+    "difficulty": 2,
+    "tags": [
+      "#finance",
+      "#stocks",
+      "#analysis"
+    ],
+    "use_cases": "股票分析、量化投资、市场预测",
+    "id": "kavout",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Upstart",
+    "url": "https://upstart.com",
+    "description": "AI贷款平台，使用AI评估信用风险",
+    "category": "金融",
+    "pricing": "贷款利率",
+    "free_quota": "免费评估",
+    "difficulty": 1,
+    "tags": [
+      "#finance",
+      "#lending",
+      "#credit"
+    ],
+    "use_cases": "个人贷款、信用评估、风险定价",
+    "id": "upstart",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "AlphaSense",
+    "url": "https://alpha-sense.com",
+    "description": "AI市场情报平台，分析财报和新闻",
+    "category": "金融",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#finance",
+      "#intelligence",
+      "#research"
+    ],
+    "use_cases": "市场研究、财报分析、投资决策",
+    "id": "alphasense",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Sentieo",
+    "url": "https://sentieo.com",
+    "description": "AI金融研究平台，文档搜索和分析",
+    "category": "金融",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#finance",
+      "#research",
+      "#document"
+    ],
+    "use_cases": "金融研究、文档分析、信息提取",
+    "id": "sentieo",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Kensho",
+    "url": "https://kensho.com",
+    "description": "AI金融数据分析，为机构投资者提供洞察",
+    "category": "金融",
+    "pricing": "企业定价",
+    "free_quota": "企业合作",
+    "difficulty": 3,
+    "tags": [
+      "#finance",
+      "#analytics",
+      "#institutional"
+    ],
+    "use_cases": "金融分析、风险建模、市场预测",
+    "id": "kensho",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Zest AI",
+    "url": "https://zest.ai",
+    "description": "AI信用风险建模，公平透明的贷款决策",
+    "category": "金融",
+    "pricing": "企业定价",
+    "free_quota": "企业合作",
+    "difficulty": 2,
+    "tags": [
+      "#finance",
+      "#credit",
+      "#fairness"
+    ],
+    "use_cases": "信用评分、风险建模、公平借贷",
+    "id": "zest-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Canva AI",
+    "url": "https://canva.com",
+    "description": "AI设计助手，模板和智能设计建议",
+    "category": "设计",
+    "pricing": "免费 + Pro $13/月",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#design",
+      "#template",
+      "#graphics"
+    ],
+    "use_cases": "平面设计、社交媒体、演示文稿",
+    "id": "canva-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Figma AI",
+    "url": "https://figma.com",
+    "description": "AI设计工具，智能布局和设计系统",
+    "category": "设计",
+    "pricing": "免费 + Professional $15/月",
+    "free_quota": "3个项目免费",
+    "difficulty": 2,
+    "tags": [
+      "#design",
+      "#ui",
+      "#prototyping"
+    ],
+    "use_cases": "UI设计、原型制作、设计协作",
+    "id": "figma-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Adobe Firefly",
+    "url": "https://firefly.adobe.com",
+    "description": "Adobe的AI图像生成，与Creative Cloud集成",
+    "category": "设计",
+    "pricing": "订阅制",
+    "free_quota": "每月25积分",
+    "difficulty": 2,
+    "tags": [
+      "#design",
+      "#adobe",
+      "#generation"
+    ],
+    "use_cases": "图像生成、创意设计、内容创作",
+    "id": "adobe-firefly",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "description": "OpenAI的图像生成模型，高质量创意图像",
+    "category": "绘画",
+    "pricing": "按使用量计费",
+    "free_quota": "ChatGPT Plus包含",
+    "difficulty": 1,
+    "tags": [
+      "#design",
+      "#openai",
+      "#generation"
+    ],
+    "use_cases": "图像生成、创意可视化、内容创作",
+    "id": "dall-e-3",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Runway ML",
+    "url": "https://runwayml.com",
+    "description": "AI创意工具套件，视频和图像编辑",
+    "category": "设计",
+    "pricing": "订阅制 $15-35/月",
+    "free_quota": "有限免费试用",
+    "difficulty": 2,
+    "tags": [
+      "#design",
+      "#video",
+      "#editing"
+    ],
+    "use_cases": "视频编辑、特效制作、创意内容",
+    "id": "runway-ml",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Looka",
+    "url": "https://looka.com",
+    "description": "AI标志设计，几分钟创建专业品牌",
+    "category": "设计",
+    "pricing": "一次性 $20-65",
+    "free_quota": "免费预览",
+    "difficulty": 1,
+    "tags": [
+      "#design",
+      "#logo",
+      "#branding"
+    ],
+    "use_cases": "标志设计、品牌创建、视觉识别",
+    "id": "looka",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "MarketMuse",
+    "url": "https://marketmuse.com",
+    "description": "AI内容策略平台，优化SEO和内容规划",
+    "category": "营销",
+    "pricing": "订阅制 $149+/月",
+    "free_quota": "有限免费分析",
+    "difficulty": 2,
+    "tags": [
+      "#marketing",
+      "#seo",
+      "#content-strategy"
+    ],
+    "use_cases": "SEO优化、内容规划、竞争分析",
+    "id": "marketmuse",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Persado",
+    "url": "https://persado.com",
+    "description": "AI营销语言优化，生成高转化文案",
+    "category": "营销",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#marketing",
+      "#language",
+      "#conversion"
+    ],
+    "use_cases": "文案优化、转化提升、情感分析",
+    "id": "persado",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Phrasee",
+    "url": "https://phrasee.co",
+    "description": "AI邮件营销优化，提升打开率和点击率",
+    "category": "营销",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#marketing",
+      "#email",
+      "#optimization"
+    ],
+    "use_cases": "邮件营销、标题优化、A/B测试",
+    "id": "phrasee",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Albert AI",
+    "url": "https://albert.ai",
+    "description": "AI数字营销平台，自动化广告投放",
+    "category": "营销",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#marketing",
+      "#advertising",
+      "#automation"
+    ],
+    "use_cases": "广告投放、营销自动化、预算优化",
+    "id": "albert-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Intercom AI",
+    "url": "https://intercom.com",
+    "description": "AI客服机器人，自动回答常见问题",
+    "category": "客服",
+    "pricing": "订阅制 $74+/月",
+    "free_quota": "14天免费试用",
+    "difficulty": 2,
+    "tags": [
+      "#customer-service",
+      "#chatbot",
+      "#support"
+    ],
+    "use_cases": "客户支持、问题解答、工单管理",
+    "id": "intercom-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Zendesk AI",
+    "url": "https://zendesk.com",
+    "description": "AI客服解决方案，智能路由和回复",
+    "category": "客服",
+    "pricing": "订阅制 $49+/月",
+    "free_quota": "14天免费试用",
+    "difficulty": 2,
+    "tags": [
+      "#customer-service",
+      "#automation",
+      "#routing"
+    ],
+    "use_cases": "客服自动化、工单分类、智能回复",
+    "id": "zendesk-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Drift",
+    "url": "https://drift.com",
+    "description": "AI对话营销，实时聊天和销售自动化",
+    "category": "客服",
+    "pricing": "企业定价",
+    "free_quota": "基础聊天免费",
+    "difficulty": 2,
+    "tags": [
+      "#customer-service",
+      "#sales",
+      "#chat"
+    ],
+    "use_cases": "销售支持、实时聊天、潜在客户开发",
+    "id": "drift",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Ada",
+    "url": "https://ada.cx",
+    "description": "AI客服平台，无需编码的聊天机器人",
+    "category": "客服",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#customer-service",
+      "#no-code",
+      "#automation"
+    ],
+    "use_cases": "客服自动化、多渠道支持、问题解决",
+    "id": "ada",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Freshdesk AI",
+    "url": "https://freshdesk.com",
+    "description": "AI帮助台软件，智能工单管理",
+    "category": "客服",
+    "pricing": "免费 + 订阅制",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#customer-service",
+      "#helpdesk",
+      "#tickets"
+    ],
+    "use_cases": "工单管理、客户支持、团队协作",
+    "id": "freshdesk-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Kustomer",
+    "url": "https://kustomer.com",
+    "description": "AI驱动的CRM和客服平台",
+    "category": "客服",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#customer-service",
+      "#crm",
+      "#omnichannel"
+    ],
+    "use_cases": "客户关系、全渠道支持、数据分析",
+    "id": "kustomer",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Tableau AI",
+    "url": "https://tableau.com",
+    "description": "AI增强的数据可视化，自然语言查询",
+    "category": "数据分析",
+    "pricing": "订阅制 $70+/月",
+    "free_quota": "Tableau Public免费",
+    "difficulty": 2,
+    "tags": [
+      "#data",
+      "#visualization",
+      "#analytics"
+    ],
+    "use_cases": "数据可视化、商业智能、报表分析",
+    "id": "tableau-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Power BI AI",
+    "url": "https://powerbi.microsoft.com",
+    "description": "微软的AI商业分析工具，智能洞察",
+    "category": "数据分析",
+    "pricing": "免费 + Pro $10/月",
+    "free_quota": "基础功能免费",
+    "difficulty": 2,
+    "tags": [
+      "#data",
+      "#microsoft",
+      "#business-intelligence"
+    ],
+    "use_cases": "数据分析、商业智能、报表制作",
+    "id": "power-bi-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Alteryx",
+    "url": "https://alteryx.com",
+    "description": "AI数据分析平台，自动化数据准备和分析",
+    "category": "数据分析",
+    "pricing": "订阅制 $5000+/年",
+    "free_quota": "免费试用",
+    "difficulty": 3,
+    "tags": [
+      "#data",
+      "#automation",
+      "#preparation"
+    ],
+    "use_cases": "数据准备、分析自动化、工作流优化",
+    "id": "alteryx",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "DataRobot",
+    "url": "https://datarobot.com",
+    "description": "AI机器学习平台，自动化模型构建",
+    "category": "数据分析",
+    "pricing": "企业定价",
+    "free_qty": "企业试用",
+    "difficulty": 3,
+    "tags": [
+      "#data",
+      "#machine-learning",
+      "#autoML"
+    ],
+    "use_cases": "机器学习、预测建模、自动化分析",
+    "id": "datarobot",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "H2O.ai",
+    "url": "https://h2o.ai",
+    "description": "开源AI平台，自动化机器学习",
+    "category": "数据分析",
+    "pricing": "开源 + 企业版",
+    "free_quota": "开源免费",
+    "difficulty": 3,
+    "tags": [
+      "#data",
+      "#open-source",
+      "#machine-learning"
+    ],
+    "use_cases": "机器学习、预测分析、开源AI",
+    "id": "h2o-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Sisense",
+    "url": "https://sisense.com",
+    "description": "AI驱动的商业分析平台，嵌入式分析",
+    "category": "数据分析",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#data",
+      "#embedded",
+      "#analytics"
+    ],
+    "use_cases": "嵌入式分析、商业智能、数据产品",
+    "id": "sisense",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Qlik Sense",
+    "url": "https://qlik.com",
+    "description": "AI增强的数据发现和可视化",
+    "category": "数据分析",
+    "pricing": "订阅制 $30+/月",
+    "free_quota": "免费个人版",
+    "difficulty": 2,
+    "tags": [
+      "#data",
+      "#discovery",
+      "#visualization"
+    ],
+    "use_cases": "数据发现、可视化分析、关联分析",
+    "id": "qlik-sense",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "ThoughtSpot",
+    "url": "https://thoughtspot.com",
+    "description": "AI搜索驱动的分析，自然语言查询",
+    "category": "数据分析",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#data",
+      "#search",
+      "#natural-language"
+    ],
+    "use_cases": "搜索分析、自然语言查询、自助分析",
+    "id": "thoughtspot",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "DeepL",
+    "url": "https://deepl.com",
+    "description": "高质量AI翻译，支持30+语言",
+    "category": "翻译",
+    "pricing": "免费 + Pro $7/月",
+    "free_quota": "每月50万字符",
+    "difficulty": 1,
+    "tags": [
+      "#translation",
+      "#language",
+      "#quality"
+    ],
+    "use_cases": "文档翻译、网页翻译、专业翻译",
+    "id": "deepl",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Google Translate",
+    "url": "https://translate.google.com",
+    "description": "谷歌AI翻译，支持100+语言",
+    "category": "翻译",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#translation",
+      "#google",
+      "#multilingual"
+    ],
+    "use_cases": "实时翻译、网页翻译、多语言交流",
+    "id": "google-translate",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Microsoft Translator",
+    "url": "https://translator.microsoft.com",
+    "description": "微软AI翻译，集成Office和Edge",
+    "category": "翻译",
+    "pricing": "免费 + API计费",
+    "free_quota": "每月200万字符",
+    "difficulty": 1,
+    "tags": [
+      "#translation",
+      "#microsoft",
+      "#integration"
+    ],
+    "use_cases": "文档翻译、API集成、实时翻译",
+    "id": "microsoft-translator",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Smartling",
+    "url": "https://smartling.com",
+    "description": "AI本地化平台，自动化翻译管理",
+    "category": "翻译",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#translation",
+      "#localization",
+      "#management"
+    ],
+    "use_cases": "网站本地化、内容翻译、多语言管理",
+    "id": "smartling",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Lilt",
+    "url": "https://lilt.com",
+    "description": "AI辅助翻译，人机协作提高效率",
+    "category": "翻译",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#translation",
+      "#human-ai",
+      "#collaboration"
+    ],
+    "use_cases": "专业翻译、人机协作、翻译记忆",
+    "id": "lilt",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Unbabel",
+    "url": "https://unbabel.com",
+    "description": "AI翻译+人工校对，客服翻译解决方案",
+    "category": "翻译",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#translation",
+      "#customer-service",
+      "#hybrid"
+    ],
+    "use_cases": "客服翻译、多语言支持、质量保证",
+    "id": "unbabel",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Otter.ai",
+    "url": "https://otter.ai",
+    "description": "AI会议记录，实时转录和摘要",
+    "category": "会议",
+    "pricing": "免费 + Pro $17/月",
+    "free_quota": "每月600分钟",
+    "difficulty": 1,
+    "tags": [
+      "#meeting",
+      "#transcription",
+      "#notes"
+    ],
+    "use_cases": "会议记录、访谈转录、笔记整理",
+    "id": "otter-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Fireflies.ai",
+    "url": "https://fireflies.ai",
+    "description": "AI会议助手，自动记录和分析对话",
+    "category": "会议",
+    "pricing": "免费 + Pro $10/月",
+    "free_quota": "有限免费存储",
+    "difficulty": 1,
+    "tags": [
+      "#meeting",
+      "#recording",
+      "#analysis"
+    ],
+    "use_cases": "会议分析、销售通话、团队协作",
+    "id": "fireflies-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Grain",
+    "url": "https://grain.com",
+    "description": "AI视频会议工具，自动剪辑和分享亮点",
+    "category": "会议",
+    "pricing": "免费 + Pro $15/月",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#meeting",
+      "#video",
+      "#highlights"
+    ],
+    "use_cases": "会议剪辑、亮点分享、知识管理",
+    "id": "grain",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Fathom",
+    "url": "https://fathom.video",
+    "description": "AI会议记录，自动总结行动项",
+    "category": "会议",
+    "pricing": "免费",
+    "free_quota": "完全免费",
+    "difficulty": 1,
+    "tags": [
+      "#meeting",
+      "#action-items",
+      "#summary"
+    ],
+    "use_cases": "会议总结、行动项跟踪、团队同步",
+    "id": "fathom",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Avoma",
+    "url": "https://avoma.com",
+    "description": "AI会议助手，销售通话分析和辅导",
+    "category": "会议",
+    "pricing": "订阅制 $17+/月",
+    "free_quota": "14天免费试用",
+    "difficulty": 2,
+    "tags": [
+      "#meeting",
+      "#sales",
+      "#coaching"
+    ],
+    "use_cases": "销售分析、通话辅导、客户洞察",
+    "id": "avoma",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Chorus.ai",
+    "url": "https://chorus.ai",
+    "description": "AI对话智能平台，销售团队优化",
+    "category": "会议",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#meeting",
+      "#conversation-intelligence",
+      "#sales"
+    ],
+    "use_cases": "销售优化、对话分析、团队培训",
+    "id": "chorus-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Resume.io",
+    "url": "https://resume.io",
+    "description": "AI简历构建器，专业模板和优化建议",
+    "category": "简历",
+    "pricing": "免费 + Pro $3/月",
+    "free_quota": "基础模板免费",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#cv",
+      "#templates"
+    ],
+    "use_cases": "简历制作、求职申请、职业发展",
+    "id": "resume-io",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Kickresume",
+    "url": "https://kickresume.com",
+    "description": "AI简历和求职信生成，个性化建议",
+    "category": "简历",
+    "pricing": "免费 + Pro $5/月",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#cover-letter",
+      "#ai"
+    ],
+    "use_cases": "简历优化、求职信撰写、面试准备",
+    "id": "kickresume",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Jobscan",
+    "url": "https://jobscan.co",
+    "description": "AI简历优化，匹配职位描述关键词",
+    "category": "简历",
+    "pricing": "免费 + Pro $50/月",
+    "free_quota": "每月5次扫描",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#optimization",
+      "#keywords"
+    ],
+    "use_cases": "简历优化、ATS兼容、关键词匹配",
+    "id": "jobscan",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Teal",
+    "url": "https://tealhq.com",
+    "description": "AI职业发展平台，简历和求职跟踪",
+    "category": "简历",
+    "pricing": "免费 + Pro $9/周",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#career",
+      "#tracking"
+    ],
+    "use_cases": "求职跟踪、简历管理、职业规划",
+    "id": "teal",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Rezi",
+    "url": "https://rezi.ai",
+    "description": "AI简历构建器，ATS优化和内容建议",
+    "category": "简历",
+    "pricing": "免费 + Pro $3/月",
+    "free_quota": "基础功能免费",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#ats",
+      "#optimization"
+    ],
+    "use_cases": "ATS优化、内容建议、简历评分",
+    "id": "rezi",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Zety",
+    "url": "https://zety.com",
+    "description": "AI简历制作工具，专家建议和模板",
+    "category": "简历",
+    "pricing": "免费 + Pro $6/月",
+    "free_quota": "创建免费",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#builder",
+      "#expert"
+    ],
+    "use_cases": "简历创建、专家建议、模板选择",
+    "id": "zety",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Shopify AI",
+    "url": "https://shopify.com",
+    "description": "AI电商助手，产品描述和营销文案",
+    "category": "电商",
+    "pricing": "订阅制 $29+/月",
+    "free_quota": "14天免费试用",
+    "difficulty": 1,
+    "tags": [
+      "#ecommerce",
+      "#store",
+      "#marketing"
+    ],
+    "use_cases": "电商建站、产品描述、营销自动化",
+    "id": "shopify-ai",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Klaviyo",
+    "url": "https://klaviyo.com",
+    "description": "AI邮件营销平台，电商自动化",
+    "category": "电商",
+    "pricing": "免费 + 按联系人计费",
+    "free_quota": "250联系人免费",
+    "difficulty": 2,
+    "tags": [
+      "#ecommerce",
+      "#email",
+      "#automation"
+    ],
+    "use_cases": "邮件营销、客户分群、销售自动化",
+    "id": "klaviyo",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Dynamic Yield",
+    "url": "https://dynamicyield.com",
+    "description": "AI个性化平台，电商体验优化",
+    "category": "电商",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 3,
+    "tags": [
+      "#ecommerce",
+      "#personalization",
+      "#optimization"
+    ],
+    "use_cases": "个性化推荐、A/B测试、用户体验",
+    "id": "dynamic-yield",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Bloomreach",
+    "url": "https://bloomreach.com",
+    "description": "AI电商搜索和 merchandising",
+    "category": "电商",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#ecommerce",
+      "#search",
+      "#merchandising"
+    ],
+    "use_cases": "商品搜索、产品发现、 merchandising",
+    "id": "bloomreach",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Nosto",
+    "url": "https://nosto.com",
+    "description": "AI电商个性化，产品推荐和营销",
+    "category": "电商",
+    "pricing": "企业定价",
+    "free_quota": "企业试用",
+    "difficulty": 2,
+    "tags": [
+      "#ecommerce",
+      "#recommendation",
+      "#personalization"
+    ],
+    "use_cases": "产品推荐、个性化营销、购物车优化",
+    "id": "nosto",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  },
+  {
+    "name": "Clerk.io",
+    "url": "https://clerk.io",
+    "description": "AI电商搜索和推荐引擎",
+    "category": "电商",
+    "pricing": "按使用量计费",
+    "free_quota": "每月1000次免费",
+    "difficulty": 2,
+    "tags": [
+      "#ecommerce",
+      "#search",
+      "#recommendations"
+    ],
+    "use_cases": "商品搜索、产品推荐、个性化展示",
+    "id": "clerk-io",
+    "stars": null,
+    "trending": false,
+    "featured": false
+  }
 ]

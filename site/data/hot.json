@@ -1,503 +1,582 @@
 {
-  "updated_at": "2026-04-21T08:16:26.015720",
-  "total": 45,
+  "updated_at": "2026-04-21T07:27:25.483367",
+  "total": 95,
   "hot_list": [
     {
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 162004",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "name": "prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 160205",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+    },
+    {
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 159656",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "name": "langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 147160",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "name": "dify",
+      "url": "https://github.com/langgenius/dify",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 138502",
+      "description": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 134202",
+      "description": "The agent engineering platform"
+    },
+    {
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 132833",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 111085",
+      "description": "🔥 The API to search, scrape, and interact with the web for AI"
+    },
+    {
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 104965",
+      "description": "The agent that grows with you"
+    },
+    {
+      "name": "pytorch",
+      "url": "https://github.com/pytorch/pytorch",
+      "type": "project",
+      "source": "GitHub",
+      "score": 39.964349999999996,
+      "detail": "⭐ 99287",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration"
+    },
+    {
+      "name": "LLMs-from-scratch",
+      "url": "https://github.com/rasbt/LLMs-from-scratch",
+      "type": "project",
+      "source": "GitHub",
+      "score": 39.5572,
+      "detail": "⭐ 91144",
+      "description": "Implement a ChatGPT-like LLM in PyTorch from scratch, step by step"
+    },
+    {
+      "name": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "type": "project",
+      "source": "GitHub",
+      "score": 39.44475,
+      "detail": "⭐ 88895",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
+    },
+    {
+      "id": "cursor",
       "name": "Cursor",
       "url": "https://cursor.sh",
       "type": "tool",
       "source": "精选",
-      "score": 50,
+      "score": 30,
       "detail": "免费 + Pro $20/月",
       "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力"
     },
     {
+      "id": "flux",
       "name": "FLUX",
       "url": "https://blackforestlabs.ai",
       "type": "tool",
       "source": "精选",
-      "score": 50,
+      "score": 30,
       "detail": "开源 + 商业 API",
       "description": "新一代开源图像生成模型，质量超越 SD"
     },
     {
+      "id": "可灵",
       "name": "可灵 AI",
       "url": "https://klingai.com",
       "type": "tool",
       "source": "精选",
-      "score": 50,
+      "score": 30,
       "detail": "免费 + 会员",
       "description": "快手出品的 AI 视频生成工具，国产最强"
     },
     {
+      "id": "deepseek",
       "name": "DeepSeek",
       "url": "https://chat.deepseek.com",
       "type": "tool",
       "source": "精选",
-      "score": 50,
+      "score": 30,
       "detail": "免费 + API 按量",
       "description": "深度求索出品，国产最强开源大模型对话工具"
     },
     {
+      "id": "dify",
       "name": "Dify",
       "url": "https://dify.ai",
       "type": "tool",
       "source": "精选",
-      "score": 50,
+      "score": 30,
       "detail": "开源 + 云服务",
       "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用"
     },
     {
+      "id": "ollama",
       "name": "Ollama",
       "url": "https://ollama.com",
       "type": "tool",
       "source": "精选",
-      "score": 50,
+      "score": 30,
       "detail": "开源免费",
       "description": "本地运行大模型的最简单方式"
     },
     {
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "开源免费",
+      "description": "终端内的AI结对编程工具，支持多文件编辑"
+    },
+    {
+      "id": "supermaven",
+      "name": "Supermaven",
+      "url": "https://supermaven.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + Pro $10/月",
+      "description": "超低延迟AI代码补全，速度极快"
+    },
+    {
+      "id": "leonardo-ai",
+      "name": "Leonardo AI",
+      "url": "https://leonardo.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + Pro $12/月",
+      "description": "专业AI图像生成和编辑平台"
+    },
+    {
+      "id": "dreamina",
+      "name": "即梦AI",
+      "url": "https://jimeng.jianying.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + 会员",
+      "description": "字节跳动出品的AI绘画工具"
+    },
+    {
+      "id": "elevenlabs",
+      "name": "ElevenLabs",
+      "url": "https://elevenlabs.io",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "免费 + Pro $5/月",
+      "description": "最逼真的AI语音合成"
+    },
+    {
+      "id": "chat-tts",
+      "name": "ChatTTS",
+      "url": "https://github.com/2noise/ChatTTS",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "开源免费",
+      "description": "开源对话式语音合成模型"
+    },
+    {
+      "id": "sglang",
+      "name": "SGLang",
+      "url": "https://github.com/sgl-project/sglang",
+      "type": "tool",
+      "source": "精选",
+      "score": 30,
+      "detail": "开源免费",
+      "description": "高性能LLM推理和服务框架"
+    },
+    {
+      "name": "Project Glasswing: Securing critical software for the AI era",
+      "url": "https://www.anthropic.com/glasswing",
+      "type": "news",
+      "source": "Hacker News",
+      "score": 22,
+      "detail": "Hacker News · 1541分",
+      "description": ""
+    },
+    {
+      "id": "github-copilot",
       "name": "GitHub Copilot",
       "url": "https://github.com/features/copilot",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "$10/月 个人 / $19/月 企业",
       "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains"
     },
     {
+      "id": "claude-code",
       "name": "Claude Code",
       "url": "https://docs.anthropic.com/en/docs/claude-code",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "按 API 使用量计费",
       "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程"
     },
     {
+      "id": "codex-cli",
       "name": "Codex CLI",
       "url": "https://github.com/openai/codex",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "按 API 使用量计费",
       "description": "OpenAI 官方终端编程助手，轻量快速"
     },
     {
+      "id": "codeium",
       "name": "Codeium",
       "url": "https://codeium.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "个人免费 + Teams $12/月",
       "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器"
     },
     {
+      "id": "continue",
       "name": "Continue",
       "url": "https://continue.dev",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "开源免费",
       "description": "开源 AI 编程助手，可接入任意 LLM"
     },
     {
+      "id": "windsurf",
       "name": "Windsurf",
       "url": "https://codeium.com/windsurf",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + Pro $15/月",
       "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体"
     },
     {
+      "id": "trae",
       "name": "Trae",
       "url": "https://trae.ai",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费",
       "description": "字节跳动出品的 AI IDE，中文友好"
     },
     {
+      "id": "midjourney",
       "name": "Midjourney",
       "url": "https://midjourney.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "$10/月 起",
       "description": "最强 AI 绘画工具，生成质量极高"
     },
     {
+      "id": "stable-diffusion",
       "name": "Stable Diffusion",
       "url": "https://stability.ai",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "开源免费",
       "description": "开源图像生成模型，本地部署无限制"
     },
     {
+      "id": "comfyui",
       "name": "ComfyUI",
       "url": "https://github.com/comfyanonymous/ComfyUI",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "开源免费",
       "description": "节点式 AI 绘画工作流引擎，最强可控性"
     },
     {
+      "id": "dalle3",
       "name": "DALL-E 3",
       "url": "https://openai.com/dall-e-3",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "ChatGPT Plus 内含",
       "description": "OpenAI 官方图像生成，ChatGPT Plus 内置"
     },
     {
+      "id": "runway",
       "name": "Runway",
       "url": "https://runwayml.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "$15/月 起",
       "description": "专业 AI 视频生成和编辑平台"
     },
     {
+      "id": "pika",
       "name": "Pika",
       "url": "https://pika.art",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + 付费",
       "description": "AI 视频生成工具，简单易用"
     },
     {
+      "id": "sora",
       "name": "Sora",
       "url": "https://sora.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "ChatGPT Pro $200/月",
       "description": "OpenAI 视频生成模型，效果惊人"
     },
     {
+      "id": "chatgpt",
       "name": "ChatGPT",
       "url": "https://chat.openai.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + Plus $20/月",
       "description": "最流行的 AI 对话工具，OpenAI 出品"
     },
     {
+      "id": "claude",
       "name": "Claude",
       "url": "https://claude.ai",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + Pro $20/月",
       "description": "Anthropic 出品的 AI 对话工具，长文本能力强"
     },
     {
+      "id": "gemini",
       "name": "Gemini",
       "url": "https://gemini.google.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + Advanced $20/月",
       "description": "Google 出品的 AI 对话工具，多模态能力强"
     },
     {
+      "id": "kimi",
       "name": "Kimi",
       "url": "https://kimi.moonshot.cn",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + 会员",
       "description": "月之暗面出品，超长上下文 AI 助手"
     },
     {
+      "id": "豆包",
       "name": "豆包",
       "url": "https://www.doubao.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费",
       "description": "字节跳动出品的 AI 助手，功能全面"
     },
     {
+      "id": "通义千问",
       "name": "通义千问",
       "url": "https://tongyi.aliyun.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + API 按量",
       "description": "阿里巴巴出品的 AI 助手"
     },
     {
+      "id": "文心一言",
       "name": "文心一言",
       "url": "https://yiyan.baidu.com",
       "type": "tool",
       "source": "精选",
-      "score": 40,
+      "score": 20,
       "detail": "免费 + API 按量",
       "description": "百度出品的 AI 助手"
-    },
-    {
-      "name": "Perplexity",
-      "url": "https://perplexity.ai",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费 + Pro $20/月",
-      "description": "AI 搜索引擎，实时联网回答问题"
-    },
-    {
-      "name": "秘塔 AI 搜索",
-      "url": "https://metaso.cn",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费",
-      "description": "国产 AI 搜索引擎，中文体验优秀"
-    },
-    {
-      "name": "Gamma",
-      "url": "https://gamma.app",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费 + Plus $10/月",
-      "description": "AI 一键生成 PPT/演示文稿"
-    },
-    {
-      "name": "NotebookLM",
-      "url": "https://notebooklm.google.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费",
-      "description": "Google 出品的 AI 笔记/知识管理工具"
-    },
-    {
-      "name": "Coze",
-      "url": "https://www.coze.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费",
-      "description": "字节跳动出品的 AI Bot 搭建平台"
-    },
-    {
-      "name": "LangChain",
-      "url": "https://langchain.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "开源免费",
-      "description": "最流行的 LLM 应用开发框架"
-    },
-    {
-      "name": "AutoGen",
-      "url": "https://github.com/microsoft/autogen",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "开源免费",
-      "description": "微软出品的多 Agent 协作框架"
-    },
-    {
-      "name": "CrewAI",
-      "url": "https://crewai.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "开源 + 企业版",
-      "description": "多 Agent 协作框架，简单易用"
-    },
-    {
-      "name": "LM Studio",
-      "url": "https://lmstudio.ai",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费",
-      "description": "本地大模型 GUI 工具，界面友好"
-    },
-    {
-      "name": "vLLM",
-      "url": "https://github.com/vllm-project/vllm",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "开源免费",
-      "description": "高性能 LLM 推理引擎，PagedAttention"
-    },
-    {
-      "name": "Whisper",
-      "url": "https://github.com/openai/whisper",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "开源免费",
-      "description": "OpenAI 开源语音识别模型"
-    },
-    {
-      "name": "Fish Speech",
-      "url": "https://github.com/fishaudio/fish-speech",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "开源免费",
-      "description": "开源 TTS 语音合成模型，中文效果好"
-    },
-    {
-      "name": "Suno",
-      "url": "https://suno.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 40,
-      "detail": "免费 + Pro $10/月",
-      "description": "AI 音乐生成工具，输入文字生成歌曲"
-    },
-    {
-      "name": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
-      "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 30,
-      "detail": "TechCrunch AI",
-      "description": ""
-    },
-    {
-      "name": "Silicon Valley has forgotten what normal people want",
-      "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 30,
-      "detail": "The Verge AI",
-      "description": ""
-    },
-    {
-      "name": "Google rolls out Gemini in Chrome in 7 new countries",
-      "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 30,
-      "detail": "TechCrunch AI",
-      "description": ""
-    },
-    {
-      "name": "Fortnite developers can make AI characters now — just don&#8217;t try to date them",
-      "url": "https://www.theverge.com/games/914963/fortnite-ai-characters-developers-conversations",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 30,
-      "detail": "The Verge AI",
-      "description": ""
-    },
-    {
-      "name": "It’s not just one thing — it’s another thing",
-      "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 30,
-      "detail": "TechCrunch AI",
-      "description": ""
     }
   ],
   "top_10": [
     {
-      "name": "Cursor",
-      "url": "https://cursor.sh",
-      "type": "tool",
-      "source": "精选",
-      "score": 50,
-      "detail": "免费 + Pro $20/月",
-      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力"
-    },
-    {
-      "name": "FLUX",
-      "url": "https://blackforestlabs.ai",
-      "type": "tool",
-      "source": "精选",
-      "score": 50,
-      "detail": "开源 + 商业 API",
-      "description": "新一代开源图像生成模型，质量超越 SD"
-    },
-    {
-      "name": "可灵 AI",
-      "url": "https://klingai.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 50,
-      "detail": "免费 + 会员",
-      "description": "快手出品的 AI 视频生成工具，国产最强"
-    },
-    {
-      "name": "DeepSeek",
-      "url": "https://chat.deepseek.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 50,
-      "detail": "免费 + API 按量",
-      "description": "深度求索出品，国产最强开源大模型对话工具"
-    },
-    {
-      "name": "Dify",
-      "url": "https://dify.ai",
-      "type": "tool",
-      "source": "精选",
-      "score": 50,
-      "detail": "开源 + 云服务",
-      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用"
-    },
-    {
-      "name": "Ollama",
-      "url": "https://ollama.com",
-      "type": "tool",
-      "source": "精选",
-      "score": 50,
-      "detail": "开源免费",
-      "description": "本地运行大模型的最简单方式"
-    },
-    {
-      "name": "GitHub Copilot",
-      "url": "https://github.com/features/copilot",
-      "type": "tool",
-      "source": "精选",
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "type": "project",
+      "source": "GitHub",
       "score": 40,
-      "detail": "$10/月 个人 / $19/月 企业",
-      "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains"
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone"
     },
     {
-      "name": "Claude Code",
-      "url": "https://docs.anthropic.com/en/docs/claude-code",
-      "type": "tool",
-      "source": "精选",
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "type": "project",
+      "source": "GitHub",
       "score": 40,
-      "detail": "按 API 使用量计费",
-      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程"
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
     },
     {
-      "name": "Codex CLI",
-      "url": "https://github.com/openai/codex",
-      "type": "tool",
-      "source": "精选",
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "type": "project",
+      "source": "GitHub",
       "score": 40,
-      "detail": "按 API 使用量计费",
-      "description": "OpenAI 官方终端编程助手，轻量快速"
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     },
     {
-      "name": "Codeium",
-      "url": "https://codeium.com",
-      "type": "tool",
-      "source": "精选",
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "type": "project",
+      "source": "GitHub",
       "score": 40,
-      "detail": "个人免费 + Teams $12/月",
-      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器"
+      "detail": "⭐ 162004",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
+    },
+    {
+      "name": "prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 160205",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
+    },
+    {
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 159656",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "name": "langflow",
+      "url": "https://github.com/langflow-ai/langflow",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 147160",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
+    },
+    {
+      "name": "dify",
+      "url": "https://github.com/langgenius/dify",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 138502",
+      "description": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 134202",
+      "description": "The agent engineering platform"
+    },
+    {
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "type": "project",
+      "source": "GitHub",
+      "score": 40,
+      "detail": "⭐ 132833",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
     }
   ]
 }
