@@ -12,6 +12,8 @@
     <meta property="og:url" content="{{ .Permalink }}">
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <link rel="apple-touch-icon" href="/favicon.png">
     <style>
         :root {
             --bg: #0d1117; --bg2: #161b22; --bg3: #21262d;
@@ -39,7 +41,8 @@
             display: flex; align-items: center; justify-content: space-between;
             padding: 24px 0;
         }
-        .logo { font-size: 24px; font-weight: 800; color: var(--accent); }
+        .logo { font-size: 24px; font-weight: 800; color: var(--accent); display: flex; align-items: center; gap: 10px; }
+        .logo img { width: 36px; height: 36px; border-radius: 8px; }
         .logo span { color: var(--text); font-weight: 400; font-size: 14px; margin-left: 8px; }
         nav { display: flex; gap: 24px; }
         nav a { color: var(--text2); font-size: 16px; font-weight: 500; }
@@ -253,7 +256,7 @@
     <header>
         <div class="container header-inner">
             <div>
-                <div class="logo">🔥 AI热榜 <span>每6小时更新</span></div>
+                <div class="logo"><img src="/logos/logo.png" alt="AI热榜"> AI热榜 <span>每6小时更新</span></div>
             </div>
             <nav>
                 {{ range .Site.Menus.main }}
