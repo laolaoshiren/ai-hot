@@ -286,6 +286,14 @@ document.addEventListener('keydown', function(e) {
         document.getElementById('searchInput').blur();
     }
 });
+
+// 回车跳转搜索页
+document.getElementById('searchInput').addEventListener('keydown', function(e) {
+    if (e.key === 'Enter') {
+        const q = e.target.value.trim();
+        if (q) window.location.href = '{{ relURL "/search/" }}?q=' + encodeURIComponent(q);
+    }
+});
 </script>
 
 {{ end }}
