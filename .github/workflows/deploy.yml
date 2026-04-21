@@ -26,7 +26,7 @@ jobs:
           extended: true
 
       - name: Sync data to Hugo
-        run: cp -r data/ site/data/
+        run: cp -r data/* site/data/
 
       - name: Build
         working-directory: site
