@@ -15,7 +15,7 @@
         <div class="card-title">🔥 今日热点 <span class="hot-badge fire">每6h更新</span></div>
         {{ $hot := site.Data.hot }}
         {{ if $hot }}
-            {{ range $index, $item := $hot.top_10 }}
+            {{ range $index, $item := $hot.top_20 }}
             <div class="hot-item">
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
@@ -25,9 +25,11 @@
                         {{ else }}
                         <a href="{{ $item.url }}" target="_blank" rel="noopener">{{ $item.name }}</a>
                         {{ end }}
+                        {{ if $item.type_label }}<span class="hot-badge" style="background:rgba(99,102,241,0.15);color:#818cf8">{{ $item.type_label }}</span>{{ end }}
                         <span class="hot-badge">{{ $item.source }}</span>
                     </div>
                     {{ if $item.detail }}<div class="hot-meta">{{ $item.detail }}</div>{{ end }}
+                    {{ if and $item.description (gt (len $item.description) 10) }}<div class="hot-meta" style="color:var(--text3)">{{ slicestr $item.description 0 60 }}{{ if gt (len $item.description) 60 }}...{{ end }}</div>{{ end }}
                 </div>
             </div>
             {{ end }}
