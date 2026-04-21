@@ -3208,5 +3208,23 @@
     "stars": null,
     "trending": false,
     "featured": false
+  },
+  {
+    "id": "codeburn",
+    "name": "CodeBurn",
+    "url": "https://github.com/getagentseal/codeburn",
+    "description": "AI 编码成本可视化仪表盘，实时追踪 Claude Code/Codex/Cursor 的 token 消耗和费用",
+    "category": "编程",
+    "pricing": "免费",
+    "free_quota": "完全免费开源",
+    "difficulty": 2,
+    "trending": true,
+    "tags": [
+      "编码",
+      "成本",
+      "监控"
+    ],
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22"
   }
 ]

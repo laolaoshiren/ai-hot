@@ -449,5 +449,70 @@
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
     "icon": "🔐"
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "Google 开源的终端 AI Agent，直接在命令行调用 Gemini 模型完成编码、文件操作等任务",
+    "type": "编程 Agent",
+    "pricing": "免费",
+    "difficulty": 1,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🔮"
+  },
+  {
+    "id": "mempalace",
+    "name": "MemPalace",
+    "url": "https://github.com/MemPalace/mempalace",
+    "description": "最强开源 AI 记忆系统，号称性能超越 Mem0 等方案，且完全免费开源",
+    "type": "平台 Agent",
+    "pricing": "免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🏰"
+  },
+  {
+    "id": "openmythos",
+    "name": "OpenMythos",
+    "url": "https://github.com/kyegomez/OpenMythos",
+    "description": "Claude Mythos 架构的开源复现版，基于公开研究论文还原 Anthropic 最新模型设计",
+    "type": "研究 Agent",
+    "pricing": "免费",
+    "difficulty": 3,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🧠"
+  },
+  {
+    "id": "graphify",
+    "name": "Graphify",
+    "url": "https://github.com/safishamsi/graphify",
+    "description": "将代码、文档、论文自动构建为可查询知识图谱，兼容 Claude Code/Cursor/Gemini CLI 等10+工具",
+    "type": "编程 Agent",
+    "pricing": "免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🌐"
+  },
+  {
+    "id": "browser-harness",
+    "name": "Browser Harness",
+    "url": "https://github.com/browser-use/browser-harness",
+    "description": "browser-use 团队发布的自愈式浏览器代理，LLM 可自动修复浏览器执行错误",
+    "type": "浏览器 Agent",
+    "pricing": "免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🤖"
   }
 ]

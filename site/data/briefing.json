@@ -1,14 +1,13 @@
 {
-  "date": "2026-04-21",
-  "headline": "Anthropic 发布 Claude Design 引爆设计圈，Claude 封号潮引发行业震动",
-  "content": "【AI热榜 4月21日日报】\n\n今日AI领域大事不断：\n\n1️⃣ Anthropic 发布 Claude Design，可通过自然语言指令直接生成高保真 UI 设计，直击 Figma 等传统设计工具。同时 Claude 大规模封号风波持续发酵，300万用户企业服务中断引发集体维权。\n\n2️⃣ Opus 4.7 正式发布，Claude Code 之父分享心得：模型升级只是开始，开发方式变革才是关键。Anthropic 内部同时推进百余产品原型，新模型 Mythos 表现断层领先。\n\n3️⃣ 开源方面，Google Gemini CLI 以 10 万 Star 登顶，Karpathy 开源 Autoresearch 让单 GPU 自动做研究，Browser-Use 8.9 万 Star 领跑浏览器自动化。\n\n4️⃣ 具身智能赛道迎来最大单轮融资，前华为百度高管联手造可量产机器人。理想汽车与高德合作首发汽车出行 AI Agent。",
-  "news_count": 15,
-  "generated_at": "2026-04-21T23:10:00",
-  "top_stories": [
-    "Anthropic 发布 Claude Design：一句话生成 UI",
-    "Claude 封号潮失控：300 万用户断供",
-    "Opus 4.7 发布，Claude Code 之父传授心法",
-    "Gemini CLI 开源：10 万 Star",
-    "具身智能最大单轮融资"
+  "updated_at": "2026-04-22T00:06:52",
+  "date": "2026-04-22",
+  "title": "AI热榜日报 - 2026年04月22日",
+  "content": "今日AI领域重磅消息不断：Anthropic 新模型 Mythos 表现断层领先，内部同时推进超百款产品原型；Opus 4.7 正式发布，Claude Code 创始人分享 AI 编码心法；Claude 大规模封号风波持续，300万用户企业服务中断引发维权；开源社区5天复现 Mythos 架构获6000星；Google Gemini CLI 突破10万星里程碑；具身智能赛道获史上最大单轮融资。整体来看，Anthropic 生态动作密集，开源社区跟进速度惊人。",
+  "highlights": [
+    "🧠 Anthropic Mythos 模型断层领先，100个产品原型同时推进",
+    "🔥 Opus 4.7 发布，Claude Code 之父分享开发心法",
+    "🚨 Claude 封号潮持续，300万企业用户受影响",
+    "💻 开源 OpenMythos 5天6000星，社区复现速度惊人",
+    "🏭 中国具身智能获史上最大单轮融资"
   ]
 }
