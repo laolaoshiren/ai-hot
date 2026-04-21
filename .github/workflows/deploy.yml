@@ -32,6 +32,9 @@ jobs:
         working-directory: site
         run: hugo --minify
 
+      - name: Create CNAME
+        run: echo "aihot.bt199.com" > site/public/CNAME
+
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
         with:
