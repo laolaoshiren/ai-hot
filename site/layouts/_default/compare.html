@@ -1,0 +1,166 @@
+{{ define "main" }}
+<div style="margin-bottom:20px">
+    <a href="{{ relURL "/" }}" style="color:var(--text2);font-size:13px">← 返回热榜</a>
+</div>
+
+<div class="card" style="border-left:3px solid var(--accent)">
+    <div class="card-title">⚔️ AI 工具对比</div>
+    <div style="font-size:14px;color:var(--text2);margin-bottom:16px">选择 2-4 个工具进行并排对比</div>
+
+    <!-- 工具选择器 -->
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px" id="selectors">
+        <div class="compare-slot" data-slot="0">
+            <input type="text" class="search-box compare-input" placeholder="🔍 选择第1个工具..." data-slot="0" style="font-size:13px;padding:10px 12px">
+            <div class="compare-dropdown" data-slot="0"></div>
+        </div>
+        <div class="compare-slot" data-slot="1">
+            <input type="text" class="search-box compare-input" placeholder="🔍 选择第2个工具..." data-slot="1" style="font-size:13px;padding:10px 12px">
+            <div class="compare-dropdown" data-slot="1"></div>
+        </div>
+    </div>
+    <button onclick="addSlot()" id="addSlotBtn" style="padding:8px 16px;background:var(--bg3);border:1px dashed var(--border);border-radius:6px;color:var(--text3);cursor:pointer;font-size:13px">+ 添加第3个</button>
+
+    <!-- 热门对比 -->
+    <div style="margin-top:20px;padding-top:16px;border-top:1px solid var(--border)">
+        <div style="font-size:13px;color:var(--text3);margin-bottom:8px">🔥 热门对比</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+            <button onclick="loadPreset('cursor','github-copilot','claude-code')" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:12px;font-size:12px;color:var(--text2);cursor:pointer">Cursor vs Copilot vs Claude Code</button>
+            <button onclick="loadPreset('chatgpt','claude','deepseek')" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:12px;font-size:12px;color:var(--text2);cursor:pointer">ChatGPT vs Claude vs DeepSeek</button>
+            <button onclick="loadPreset('midjourney','flux','stable-diffusion')" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:12px;font-size:12px;color:var(--text2);cursor:pointer">Midjourney vs FLUX vs SD</button>
+            <button onclick="loadPreset('suno','udio')" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:12px;font-size:12px;color:var(--text2);cursor:pointer">Suno vs Udio</button>
+        </div>
+    </div>
+</div>
+
+<!-- 对比结果 -->
+<div id="compareResult" style="display:none"></div>
+
+<style>
+.compare-slot { position:relative; flex:1; min-width:200px; }
+.compare-dropdown { display:none; position:absolute; top:100%; left:0; right:0; background:var(--bg2); border:1px solid var(--border); border-radius:8px; max-height:200px; overflow-y:auto; z-index:200; margin-top:4px; }
+.compare-dropdown.show { display:block; }
+.compare-dropdown-item { padding:10px 12px; cursor:pointer; font-size:13px; border-bottom:1px solid var(--border); }
+.compare-dropdown-item:hover { background:var(--bg3); }
+.compare-dropdown-item:last-child { border-bottom:none; }
+.compare-table { width:100%; border-collapse:collapse; }
+.compare-table th, .compare-table td { padding:12px 16px; text-align:left; border-bottom:1px solid var(--border); font-size:13px; vertical-align:top; }
+.compare-table th { color:var(--text3); font-weight:500; width:100px; background:var(--bg3); }
+.compare-table td { color:var(--text2); }
+.compare-table tr:last-child th, .compare-table tr:last-child td { border-bottom:none; }
+</style>
+
+<script>
+const allTools = {{ site.Data.tools | jsonify | safeJS }} || [];
+let selected = [null, null];
+let slotCount = 2;
+
+function addSlot() {
+    if (slotCount >= 4) return;
+    const container = document.getElementById('selectors');
+    const slot = document.createElement('div');
+    slot.className = 'compare-slot';
+    slot.dataset.slot = slotCount;
+    slot.innerHTML = '<input type="text" class="search-box compare-input" placeholder="🔍 选择第' + (slotCount+1) + '个工具..." data-slot="' + slotCount + '" style="font-size:13px;padding:10px 12px">'
+        + '<div class="compare-dropdown" data-slot="' + slotCount + '"></div>';
+    container.appendChild(slot);
+    selected.push(null);
+    slotCount++;
+    bindInputs();
+    if (slotCount >= 4) document.getElementById('addSlotBtn').style.display = 'none';
+}
+
+function bindInputs() {
+    document.querySelectorAll('.compare-input').forEach(input => {
+        input.oninput = function() { showDropdown(parseInt(this.dataset.slot), this.value); };
+        input.onfocus = function() { if (this.value) showDropdown(parseInt(this.dataset.slot), this.value); };
+    });
+    document.addEventListener('click', function(e) {
+        if (!e.target.closest('.compare-slot')) {
+            document.querySelectorAll('.compare-dropdown').forEach(d => d.classList.remove('show'));
+        }
+    });
+}
+
+function showDropdown(slot, query) {
+    const dropdown = document.querySelector('.compare-dropdown[data-slot="' + slot + '"]');
+    if (!query || query.length < 1) { dropdown.classList.remove('show'); return; }
+    const q = query.toLowerCase();
+    const matches = allTools.filter(t => {
+        const text = [t.name, t.description, t.category, ...(t.tags||[])].join(' ').toLowerCase();
+        return text.includes(q);
+    }).slice(0, 8);
+
+    if (matches.length === 0) { dropdown.classList.remove('show'); return; }
+    dropdown.innerHTML = matches.map(t => '<div class="compare-dropdown-item" onclick="selectTool(' + slot + ',\'' + t.id + '\')">' + t.name + ' <span style="color:var(--text3);font-size:11px">' + (t.category||'') + ' · ' + (t.pricing||'') + '</span></div>').join('');
+    dropdown.classList.add('show');
+}
+
+function selectTool(slot, id) {
+    const tool = allTools.find(t => t.id === id);
+    if (!tool) return;
+    selected[slot] = tool;
+    const input = document.querySelector('.compare-input[data-slot="' + slot + '"]');
+    input.value = tool.name;
+    document.querySelector('.compare-dropdown[data-slot="' + slot + '"]').classList.remove('show');
+    renderCompare();
+}
+
+function loadPreset(...ids) {
+    // 重置
+    while (slotCount > 2) {
+        document.querySelector('.compare-slot[data-slot="' + (slotCount-1) + '"]').remove();
+        slotCount--;
+    }
+    selected = [null, null];
+    document.getElementById('addSlotBtn').style.display = '';
+
+    // 添加需要的槽位
+    while (slotCount < ids.length) addSlot();
+
+    // 填充
+    ids.forEach((id, i) => selectTool(i, id));
+}
+
+function renderCompare() {
+    const tools = selected.filter(Boolean);
+    if (tools.length < 2) {
+        document.getElementById('compareResult').style.display = 'none';
+        return;
+    }
+
+    const rows = [
+        { label: '💰 价格', key: 'pricing' },
+        { label: '🎁 免费额度', key: 'free_quota' },
+        { label: '📂 分类', key: 'category' },
+        { label: '📝 简介', key: 'description' },
+        { label: '🏷️ 标签', key: 'tags', format: v => (v||[]).map(t => '<span class="tag">' + t + '</span>').join(' ') },
+        { label: '🔗 官网', key: 'url', format: (v, t) => v ? '<a href="' + v + '" target="_blank" style="color:var(--accent)">' + t.name + ' →</a>' : '' },
+    ];
+
+    let html = '<div class="card" style="overflow-x:auto"><table class="compare-table">';
+    html += '<tr><th></th>' + tools.map(t => '<td style="font-size:16px;font-weight:700;color:var(--text)">' + t.name + (t.trending ? ' 🔥' : '') + '</td>').join('') + '</tr>';
+    rows.forEach(row => {
+        html += '<tr><th>' + row.label + '</th>';
+        tools.forEach(t => {
+            const val = row.format ? row.format(t[row.key], t) : (t[row.key] || '—');
+            html += '<td>' + val + '</td>';
+        });
+        html += '</tr>';
+    });
+    html += '</table></div>';
+
+    document.getElementById('compareResult').innerHTML = html;
+    document.getElementById('compareResult').style.display = '';
+}
+
+// URL参数 ?a=cursor&b=copilot
+const params = new URLSearchParams(location.search);
+const a = params.get('a'), b = params.get('b'), c = params.get('c'), d = params.get('d');
+if (a) { selectTool(0, a); }
+if (b) { selectTool(1, b); }
+if (c) { addSlot(); selectTool(2, c); }
+if (d) { addSlot(); selectTool(3, d); }
+
+bindInputs();
+</script>
+{{ end }}
