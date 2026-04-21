@@ -8,7 +8,8 @@
     "priority": 1,
     "published": "2026-04-20T23:10:27",
     "summary": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
-    "collected_at": "2026-04-21T00:06:24.320217"
+    "collected_at": "2026-04-21T00:06:24.320217",
+    "ai_summary": "亚马逊再投50亿美元给Anthropic，Anthropic承诺在AWS上消费1000亿美元，形成深度绑定合作。"
   },
   {
     "id": "e751673f562b",
@@ -19,7 +20,8 @@
     "priority": 1,
     "published": "2026-04-20T20:30:00",
     "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Kno",
-    "collected_at": "2026-04-21T00:06:29.957746"
+    "collected_at": "2026-04-21T00:06:29.957746",
+    "ai_summary": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。"
   },
   {
     "id": "22ed5bdd3a5d",
@@ -30,7 +32,8 @@
     "priority": 1,
     "published": "2026-04-20T22:00:00",
     "summary": "Google is rolling out Gemini in Chrome in Australia, Indonesia, Japan, the Philippines, Singapore, South Korea, and Vietnam. The company is rolling this feature out to both desktop and iOS in all of these countries except Japan.",
-    "collected_at": "2026-04-21T00:06:24.320234"
+    "collected_at": "2026-04-21T00:06:24.320234",
+    "ai_summary": "谷歌将Gemini AI功能扩展至Chrome浏览器，在亚太七国桌面和iOS端同步上线。"
   },
   {
     "id": "dd303cd7f30d",
@@ -53,7 +56,8 @@
     "priority": 1,
     "published": "2026-04-20T19:37:07",
     "summary": "This sentence construction (\"It's not just this — it's that\") has become so common in AI-generated writing that it's no longer just a clue that a piece of writing may be synthetic — it's almost a guarantee.",
-    "collected_at": "2026-04-21T00:06:24.320250"
+    "collected_at": "2026-04-21T00:06:24.320250",
+    "ai_summary": "AI写作中「不仅是X更是Y」句式泛滥，已成识别AI生成内容的标志性特征。"
   },
   {
     "id": "425815f82b9a",
@@ -133,7 +137,8 @@
     "priority": 1,
     "published": "2026-04-20T13:00:10",
     "summary": "把多Agent协同玩明白了",
-    "collected_at": "2026-04-21T00:04:56.901767"
+    "collected_at": "2026-04-21T00:04:56.901767",
+    "ai_summary": "JiuwenClaw开启「协调工程」时代，实现多Agent智能体协同工作的新范式。"
   },
   {
     "id": "d87f91e76e0e",
@@ -221,7 +226,8 @@
     "priority": 1,
     "published": "2026-04-20T09:50:21",
     "summary": "发布AI高静本Plus",
-    "collected_at": "2026-04-21T00:04:56.901778"
+    "collected_at": "2026-04-21T00:04:56.901778",
+    "ai_summary": "英特尔发布AI高静本Plus，用「外卖」比喻CPU性能瓶颈，强调静音与算力兼顾。"
   },
   {
     "id": "seed-2",
@@ -243,7 +249,8 @@
     "priority": 1,
     "published": "2026-04-20T09:33:35",
     "summary": "",
-    "collected_at": "2026-04-21T00:04:56.901784"
+    "collected_at": "2026-04-21T00:04:56.901784",
+    "ai_summary": "ATEC2026发起具身智能「图灵测试」，用真实场景检验机器人在复杂环境中的表现。"
   },
   {
     "id": "c85e7467381d",
@@ -265,7 +272,8 @@
     "priority": 1,
     "published": "2026-04-20T08:59:05",
     "summary": "实现 \" 千人千面 \"",
-    "collected_at": "2026-04-21T00:04:56.901794"
+    "collected_at": "2026-04-21T00:04:56.901794",
+    "ai_summary": "阿里发布Wan2.7-Image图像模型，人类偏好盲测评分国内第一，支持千人千面个性化生成。"
   },
   {
     "id": "seed-3",
@@ -287,7 +295,8 @@
     "priority": 1,
     "published": "2026-04-20T08:40:22",
     "summary": "“小白”开发者也能快速接入支付",
-    "collected_at": "2026-04-21T00:04:56.901801"
+    "collected_at": "2026-04-21T00:04:56.901801",
+    "ai_summary": "国内三大AI平台集成支付宝支付Skill，小白开发者也能快速实现商业化变现。"
   },
   {
     "id": "seed-5",
@@ -309,7 +318,8 @@
     "priority": 1,
     "published": "2026-04-20T07:59:51",
     "summary": "整合了公开研究和目前对Claude Mythos架构的主流推测",
-    "collected_at": "2026-04-21T00:04:56.901808"
+    "collected_at": "2026-04-21T00:04:56.901808",
+    "ai_summary": "22岁开发者逆向工程开源Mythos架构，融合MoE与注意力机制借鉴DeepSeek。"
   },
   {
     "id": "2114c02a3b14",
@@ -331,7 +341,8 @@
     "priority": 1,
     "published": "2026-04-20T07:55:03",
     "summary": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。",
-    "collected_at": "2026-04-21T00:04:56.901820"
+    "collected_at": "2026-04-21T00:04:56.901820",
+    "ai_summary": "全球最大规模含触觉全模态数据集Daimon Infinit发布，吸引谷歌及多所高校参与。"
   },
   {
     "id": "fb6de9fb193e",
@@ -353,7 +364,8 @@
     "priority": 1,
     "published": "2026-04-20T05:34:32",
     "summary": "苏度发布具身模型#Sudo R1",
-    "collected_at": "2026-04-21T00:04:56.901828"
+    "collected_at": "2026-04-21T00:04:56.901828",
+    "ai_summary": "苏度科技发布具身模型Sudo R1，零真机数据训练实现98%首次抓取成功率。"
   },
   {
     "id": "1652f2ab0793",
@@ -408,7 +420,8 @@
     "priority": 1,
     "published": "2026-04-19T10:19:45",
     "summary": "超长上下文福音",
-    "collected_at": "2026-04-21T00:04:56.901835"
+    "collected_at": "2026-04-21T00:04:56.901835",
+    "ai_summary": "Kimi新论文将KVCache机制商业化，为超长上下文推理开辟新商业模式。"
   },
   {
     "id": "07e3823e1999",
@@ -430,7 +443,8 @@
     "priority": 1,
     "published": "2026-04-19T10:13:54",
     "summary": "当行业在底层基础设施上开始成型，局面就会迅速收敛",
-    "collected_at": "2026-04-21T00:04:56.901841"
+    "collected_at": "2026-04-21T00:04:56.901841",
+    "ai_summary": "高德发布全栈具身技术体系，横扫15项SOTA，面向AGI布局机器人基础设施。"
   },
   {
     "id": "3217ffdbbdca",
