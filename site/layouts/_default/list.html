@@ -34,7 +34,7 @@
 }}
 
 <!-- 分类快速导航 -->
-<div class="category-nav" style="position:sticky;top:60px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
+<div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
         {{ range $tag, $emoji := $model_categories }}
         {{ $count := len (where site.Data.models "pipeline_tag" $tag) }}
@@ -120,7 +120,7 @@
 {{ $categories := dict "编程" "🛠️" "绘画" "🎨" "视频" "🎬" "对话" "💬" "搜索" "🔍" "写作" "✍️" "办公" "📊" "Agent" "🤖" "本地模型" "💻" "推理引擎" "⚡" "语音" "🎤" "音乐" "🎵" }}
 
 <!-- 分类快速导航 -->
-<div class="category-nav" style="position:sticky;top:60px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
+<div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
         {{ range $cat, $emoji := $categories }}
         <a href="#cat-{{ $cat }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
@@ -163,7 +163,7 @@
 {{ $types := dict "编程 Agent" "🛠️" "研究 Agent" "📚" "自动化 Agent" "⚡" "多 Agent" "👥" "效率 Agent" "🚀" }}
 
 <!-- 分类快速导航 -->
-<div class="category-nav" style="position:sticky;top:60px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
+<div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
         {{ range $type, $emoji := $types }}
         <a href="#agent-{{ $type }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
