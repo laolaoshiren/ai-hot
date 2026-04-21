@@ -20,24 +20,28 @@
     "image-to-3d" "🧊 3D 生成"
     "translation" "🌐 翻译"
 }}
-{{ $other_models := slice }}
-{{ range site.Data.models }}
-    {{ $tag := .pipeline_tag | default "" }}
-    {{ $found := false }}
-    {{ range $key, $emoji := $model_categories }}
-        {{ if eq $tag $key }}
-            {{ $found = true }}
+
+<!-- 分类快速导航 -->
+<div class="category-nav" style="position:sticky;top:60px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+        {{ range $tag, $emoji := $model_categories }}
+        {{ $count := len (where site.Data.models "pipeline_tag" $tag) }}
+        {{ if gt $count 0 }}
+        <a href="#model-{{ $tag }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
+            {{ $emoji }} {{ $count }}
+        </a>
         {{ end }}
-    {{ end }}
-    {{ if not $found }}
-        {{ $other_models = $other_models | append . }}
-    {{ end }}
-{{ end }}
+        {{ end }}
+        <a href="#model-other" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
+            🌐 其他
+        </a>
+    </div>
+</div>
 
 {{ range $tag, $emoji := $model_categories }}
 {{ $models := where site.Data.models "pipeline_tag" $tag }}
 {{ if gt (len $models) 0 }}
-<div class="card">
+<div class="card" id="model-{{ $tag }}">
     <div class="card-title">{{ $emoji }} <span class="hot-badge">{{ len $models }} 个</span></div>
     <div class="tools-grid">
         {{ range $models }}
@@ -59,8 +63,22 @@
 {{ end }}
 {{ end }}
 
+{{ $other_models := slice }}
+{{ range site.Data.models }}
+    {{ $tag := .pipeline_tag | default "" }}
+    {{ $found := false }}
+    {{ range $key, $emoji := $model_categories }}
+        {{ if eq $tag $key }}
+            {{ $found = true }}
+        {{ end }}
+    {{ end }}
+    {{ if not $found }}
+        {{ $other_models = $other_models | append . }}
+    {{ end }}
+{{ end }}
+
 {{ if gt (len $other_models) 0 }}
-<div class="card">
+<div class="card" id="model-other">
     <div class="card-title">🌐 其他 <span class="hot-badge">{{ len $other_models }} 个</span></div>
     <div class="tools-grid">
         {{ range $other_models }}
@@ -129,10 +147,22 @@
 <!-- Agent 页 -->
 {{ else if in $slug "/agents/" }}
 {{ $types := dict "编程 Agent" "🛠️" "研究 Agent" "📚" "自动化 Agent" "⚡" "多 Agent" "👥" "效率 Agent" "🚀" }}
+
+<!-- 分类快速导航 -->
+<div class="category-nav" style="position:sticky;top:60px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+        {{ range $type, $emoji := $types }}
+        <a href="#agent-{{ $type }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
+            {{ $emoji }} {{ $type }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+
 {{ range $type, $emoji := $types }}
 {{ $agents := where site.Data.agents "type" $type }}
 {{ if gt (len $agents) 0 }}
-<div class="card">
+<div class="card" id="agent-{{ $type }}">
     <div class="card-title">{{ $emoji }} {{ $type }} <span class="hot-badge">{{ len $agents }} 个</span></div>
     <div class="tools-grid">
         {{ range $agents }}
