@@ -345,5 +345,44 @@
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
     "icon": "🔮"
+  },
+  {
+    "id": "pydantic-ai",
+    "name": "PydanticAI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "🐍"
+  },
+  {
+    "id": "voltagent",
+    "name": "VoltAgent",
+    "url": "https://github.com/panchagnulavishal/voltagent",
+    "description": "开源 TypeScript AI Agent 工程平台，支持多 Agent 编排和可视化工作流",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "⚡"
+  },
+  {
+    "id": "tabby",
+    "name": "Tabby",
+    "url": "https://github.com/TabbyML/tabby",
+    "description": "自托管 AI 代码助手，支持代码补全、问答，数据不出服务器，企业友好",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "🏷️"
   }
 ]
