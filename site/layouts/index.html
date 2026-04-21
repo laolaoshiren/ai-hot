@@ -11,27 +11,26 @@
     </div>
 
     <!-- 今日热点 -->
-    <div class="card">
+    <div class="card" style="border-color:var(--accent)">
         <div class="card-title">🔥 今日热点 <span class="hot-badge fire">每6h更新</span></div>
         {{ $hot := site.Data.hot }}
         {{ if $hot }}
-            {{ range $index, $item := $hot.top_20 }}
-            <div class="hot-item">
+            {{ $items := $hot.items }}
+            {{ if not $items }}{{ $items = $hot.top_20 }}{{ end }}
+            {{ if not $items }}{{ $items = $hot.hot_list }}{{ end }}
+            {{ range $index, $item := $items }}
+            <a href="{{ $item.url }}" target="_blank" rel="noopener" class="hot-item" style="text-decoration:none;color:inherit">
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
-                    <div class="hot-title">
-                        {{ if and $item.id (eq $item.type "tool") }}
-                        <a href="{{ relURL "/tool/" }}?id={{ $item.id }}" target="_blank">{{ $item.name }}</a>
-                        {{ else }}
-                        <a href="{{ $item.url }}" target="_blank" rel="noopener">{{ $item.name }}</a>
-                        {{ end }}
-                        {{ if $item.type_label }}<span class="hot-badge" style="background:rgba(99,102,241,0.15);color:#818cf8">{{ $item.type_label }}</span>{{ end }}
-                        <span class="hot-badge">{{ $item.source }}</span>
+                    <div class="hot-title">{{ $item.title }}</div>
+                    {{ with $item.subtitle }}<div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.5">{{ . }}</div>{{ end }}
+                    <div class="hot-meta" style="margin-top:6px">
+                        {{ with $item.source }}<span class="hot-badge">{{ . }}</span>{{ end }}
+                        {{ with $item.time }}<span style="color:var(--text3);margin-left:4px">{{ . }}</span>{{ end }}
+                        {{ range $item.tags }}<span class="hot-badge" style="background:rgba(255,107,53,0.12);color:var(--accent);margin-left:4px">{{ . }}</span>{{ end }}
                     </div>
-                    {{ if $item.detail }}<div class="hot-meta">{{ $item.detail }}</div>{{ end }}
-                    {{ with $item.description }}<div class="hot-meta" style="color:var(--text3)">{{ . | truncate 60 "..." }}</div>{{ end }}
                 </div>
-            </div>
+            </a>
             {{ end }}
         {{ else }}
             <div class="hot-item"><div class="hot-content"><div class="hot-title" style="color:var(--text3)">数据采集中...</div></div></div>

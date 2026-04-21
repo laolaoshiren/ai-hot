@@ -20,7 +20,7 @@ from github_trending import track_github_trending
 from huggingface_discover import discover_hf_models
 from keyword_collector import collect_keywords
 from agent_discover import discover_agents
-from trending_scorer import compute_trending
+# from trending_scorer import compute_trending  # 已由Hermes定时任务接管
 from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
 from ai_enhance import summarize_news, generate_daily_briefing, score_tools
@@ -67,7 +67,7 @@ def main():
     # Phase 2: 数据处理
     print("\n⚙️ Phase 2: 数据处理")
     steps_process = [
-        ("🔥 热点评分", compute_trending),
+        ("🔥 保留热点", lambda: "由Hermes定时任务生成"),
         ("⭐ 每日精选", select_daily_spotlight),
         ("🔗 链接检查", quick_check),
     ]
