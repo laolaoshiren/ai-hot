@@ -90,7 +90,7 @@
   {
     "id": "open-deep-research",
     "name": "Open Deep Research",
-    "url": "https://github.com/huggingface/open-deep-research",
+    "url": "https://github.com/huggingface/smolagents",
     "description": "HuggingFace开源的深度研究Agent",
     "type": "研究 Agent",
     "pricing": "开源免费",
@@ -287,5 +287,41 @@
     "type": "研究 Agent",
     "pricing": "免费",
     "difficulty": 1
+  },
+  {
+    "id": "flowise",
+    "name": "Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
+    "type": "平台 Agent",
+    "pricing": "开源 + Cloud",
+    "difficulty": 1,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21"
+  },
+  {
+    "id": "goose",
+    "name": "Goose",
+    "url": "https://github.com/aaif-goose/goose",
+    "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21"
+  },
+  {
+    "id": "plandex",
+    "name": "Plandex",
+    "url": "https://github.com/plandex-ai/plandex",
+    "description": "面向大型项目的开源AI编码Agent，终端内全自主开发",
+    "type": "编程 Agent",
+    "pricing": "开源 + API费用",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21"
   }
 ]

@@ -364,22 +364,6 @@
     "featured": true
   },
   {
-    "id": "runway",
-    "name": "Runway",
-    "url": "https://runwayml.com",
-    "description": "专业 AI 视频生成和编辑平台",
-    "category": "视频",
-    "pricing": "$15/月 起",
-    "free_quota": "125 积分免费",
-    "difficulty": 2,
-    "tags": [
-      "#video",
-      "#professional"
-    ],
-    "featured": true,
-    "use_cases": "视频生成、视频编辑、绿幕抠图、运动跟踪"
-  },
-  {
     "id": "pika",
     "name": "Pika",
     "url": "https://pika.art",
@@ -1162,48 +1146,6 @@
     "free_quota": "完全免费"
   },
   {
-    "id": "yiyan",
-    "name": "文心一言",
-    "description": "百度出品的AI对话工具",
-    "category": "对话",
-    "pricing": "免费 + API按量",
-    "tags": [
-      "#chat",
-      "#chinese",
-      "#baidu"
-    ],
-    "url": "https://yiyan.baidu.com",
-    "free_quota": "对话免费"
-  },
-  {
-    "id": "tongyi",
-    "name": "通义千问",
-    "description": "阿里巴巴出品的AI助手",
-    "category": "对话",
-    "pricing": "免费 + API按量",
-    "tags": [
-      "#chat",
-      "#chinese",
-      "#alibaba"
-    ],
-    "url": "https://tongyi.aliyun.com",
-    "free_quota": "对话免费"
-  },
-  {
-    "id": "doubao",
-    "name": "豆包",
-    "description": "字节跳动出品的AI助手，功能全面",
-    "category": "对话",
-    "pricing": "免费",
-    "tags": [
-      "#chat",
-      "#chinese",
-      "#free"
-    ],
-    "url": "https://www.doubao.com",
-    "free_quota": "完全免费"
-  },
-  {
     "id": "hailuo",
     "name": "海螺AI",
     "description": "MiniMax出品的AI对话工具",
@@ -1409,36 +1351,6 @@
     "free_quota": "每日500张免费"
   },
   {
-    "id": "firefly",
-    "name": "Adobe Firefly",
-    "description": "Adobe出品的AI图像生成",
-    "category": "设计",
-    "pricing": "免费 + Creative Cloud",
-    "tags": [
-      "#image",
-      "#adobe",
-      "#professional"
-    ],
-    "url": "https://firefly.adobe.com",
-    "free_quota": "每月25张免费"
-  },
-  {
-    "id": "dreamina",
-    "name": "即梦AI",
-    "description": "字节跳动出品的AI绘画工具",
-    "category": "绘画",
-    "pricing": "免费 + 会员",
-    "tags": [
-      "#image",
-      "#chinese",
-      "#free"
-    ],
-    "url": "https://jimeng.jianying.com",
-    "trending": true,
-    "free_quota": "每日免费额度",
-    "use_cases": "中文AI绘画、国风创作、商业海报"
-  },
-  {
     "id": "哩布哩布",
     "name": "哩布哩布AI",
     "description": "国内最大AI绘画社区",
@@ -1450,20 +1362,6 @@
       "#community"
     ],
     "url": "https://liblib.ai",
-    "free_quota": "每日免费额度"
-  },
-  {
-    "id": "minimax-video",
-    "name": "MiniMax视频",
-    "description": "MiniMax出品的AI视频生成",
-    "category": "视频",
-    "pricing": "免费 + 会员",
-    "tags": [
-      "#video",
-      "#generation",
-      "#minimax"
-    ],
-    "url": "https://hailuoai.com",
     "free_quota": "每日免费额度"
   },
   {
@@ -1553,7 +1451,7 @@
   {
     "id": "wps-ai",
     "name": "WPS AI",
-    "description": "WPS内置AI助手",
+    "description": "WPS办公套件内置AI助手，支持文档写作和表格处理",
     "category": "办公",
     "pricing": "免费 + 会员",
     "tags": [
@@ -1660,7 +1558,7 @@
   {
     "id": "coqui-ai",
     "name": "Coqui AI",
-    "description": "开源语音克隆和合成",
+    "description": "开源语音克隆和TTS合成工具，支持多语言",
     "category": "语音",
     "pricing": "开源免费",
     "tags": [
@@ -2471,25 +2369,6 @@
     ],
     "use_cases": "图像生成、创意设计、内容创作",
     "id": "adobe-firefly",
-    "stars": null,
-    "trending": false,
-    "featured": false
-  },
-  {
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "description": "OpenAI的图像生成模型，高质量创意图像",
-    "category": "绘画",
-    "pricing": "按使用量计费",
-    "free_quota": "ChatGPT Plus包含",
-    "difficulty": 1,
-    "tags": [
-      "#design",
-      "#openai",
-      "#generation"
-    ],
-    "use_cases": "图像生成、创意可视化、内容创作",
-    "id": "dall-e-3",
     "stars": null,
     "trending": false,
     "featured": false
