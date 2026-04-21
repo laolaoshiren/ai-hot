@@ -7,17 +7,19 @@
     "type": "助手 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🦞"
   },
   {
     "id": "hermes-agent",
     "name": "Hermes Agent",
-    "url": "https://github.com/anthropics/hermes-agent",
-    "description": "全功能AI Agent框架，集成Claude/GPT，支持Telegram/Discord/CLI多平台",
+    "url": "https://github.com/hermes-ai/hermes",
+    "description": "全功能AI Agent框架，支持多模型多平台，内置持久记忆和技能系统",
     "type": "助手 Agent",
     "pricing": "开源 + API费用",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🤖"
   },
   {
     "id": "claude-code",
@@ -27,7 +29,8 @@
     "type": "编程 Agent",
     "pricing": "API按量",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🟠"
   },
   {
     "id": "cursor-agent",
@@ -37,7 +40,8 @@
     "type": "编程 Agent",
     "pricing": "Pro $20/月",
     "difficulty": 1,
-    "trending": true
+    "trending": true,
+    "icon": "⌨️"
   },
   {
     "id": "codex-agent",
@@ -47,7 +51,8 @@
     "type": "编程 Agent",
     "pricing": "ChatGPT Pro $200/月",
     "difficulty": 1,
-    "trending": true
+    "trending": true,
+    "icon": "🟢"
   },
   {
     "id": "devin",
@@ -57,7 +62,8 @@
     "type": "编程 Agent",
     "pricing": "$500/月",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🧑‍💻"
   },
   {
     "id": "swe-agent",
@@ -66,7 +72,8 @@
     "description": "普林斯顿开源的软件工程Agent",
     "type": "编程 Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "🔬"
   },
   {
     "id": "gpt-researcher",
@@ -76,7 +83,8 @@
     "type": "研究 Agent",
     "pricing": "开源 + API费用",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🔍"
   },
   {
     "id": "storm",
@@ -85,17 +93,19 @@
     "description": "斯坦福出品的AI知识文章生成器",
     "type": "研究 Agent",
     "pricing": "开源免费",
-    "difficulty": 2
+    "difficulty": 2,
+    "icon": "🌪️"
   },
   {
     "id": "open-deep-research",
-    "name": "Open Deep Research",
+    "name": "SmolAgents",
     "url": "https://github.com/huggingface/smolagents",
-    "description": "HuggingFace开源的深度研究Agent",
+    "description": "HuggingFace轻量级AI Agent框架，代码优先",
     "type": "研究 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🤗"
   },
   {
     "id": "autogpt",
@@ -104,7 +114,8 @@
     "description": "最早爆火的自主AI Agent框架",
     "type": "自动化 Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "🚀"
   },
   {
     "id": "babyagi",
@@ -113,7 +124,8 @@
     "description": "轻量级自主AI Agent框架",
     "type": "自动化 Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "👶"
   },
   {
     "id": "agentgpt",
@@ -122,7 +134,8 @@
     "description": "浏览器内直接使用的AI Agent平台",
     "type": "自动化 Agent",
     "pricing": "免费 + Pro",
-    "difficulty": 1
+    "difficulty": 1,
+    "icon": "🤖"
   },
   {
     "id": "superagi",
@@ -131,7 +144,8 @@
     "description": "开发者优先的开源自主AI Agent框架",
     "type": "自动化 Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "⚡"
   },
   {
     "id": "crewai",
@@ -141,7 +155,8 @@
     "type": "多Agent",
     "pricing": "开源 + Pro",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "👥"
   },
   {
     "id": "metagpt",
@@ -150,7 +165,8 @@
     "description": "多Agent软件公司模拟，一个Agent扮演不同角色",
     "type": "多Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "🏢"
   },
   {
     "id": "chatdev",
@@ -159,7 +175,8 @@
     "description": "清华出品，模拟软件开发公司的多Agent框架",
     "type": "多Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "💬"
   },
   {
     "id": "autogen",
@@ -169,7 +186,8 @@
     "type": "多Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🔄"
   },
   {
     "id": "langgraph",
@@ -179,7 +197,8 @@
     "type": "多Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🔗"
   },
   {
     "id": "browser-use",
@@ -189,26 +208,18 @@
     "type": "浏览器 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
-  },
-  {
-    "id": "computer-use",
-    "name": "Computer Use",
-    "url": "https://github.com/anthropics/anthropic-quickstarts",
-    "description": "Anthropic官方的电脑操控Agent",
-    "type": "浏览器 Agent",
-    "pricing": "API按量",
-    "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "🌐"
   },
   {
     "id": "webvoyager",
     "name": "WebVoyager",
-    "url": "https://github.com/nicehuster/WebVoyager",
-    "description": "基于视觉的网页浏览Agent",
+    "url": "https://github.com/AI4WA/WebVoyager",
+    "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
     "type": "浏览器 Agent",
     "pricing": "开源免费",
-    "difficulty": 3
+    "difficulty": 3,
+    "icon": "🗺️"
   },
   {
     "id": "fabric",
@@ -217,17 +228,19 @@
     "description": "AI增强人类能力的框架，内置海量Prompt模板",
     "type": "效率 Agent",
     "pricing": "开源免费",
-    "difficulty": 2
+    "difficulty": 2,
+    "icon": "🧵"
   },
   {
     "id": "aider",
     "name": "Aider",
-    "url": "https://github.com/paul-gauthier/aider",
+    "url": "https://github.com/Aider-AI/aider",
     "description": "终端AI结对编程工具，支持多模型",
     "type": "编程 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "💻"
   },
   {
     "id": "opencode",
@@ -237,7 +250,8 @@
     "type": "编程 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "📝"
   },
   {
     "id": "dify",
@@ -247,7 +261,8 @@
     "type": "平台 Agent",
     "pricing": "开源 + Cloud",
     "difficulty": 1,
-    "trending": true
+    "trending": true,
+    "icon": "🏗️"
   },
   {
     "id": "coze",
@@ -257,7 +272,8 @@
     "type": "平台 Agent",
     "pricing": "免费 + Pro",
     "difficulty": 1,
-    "trending": true
+    "trending": true,
+    "icon": "🎯"
   },
   {
     "id": "n8n-ai",
@@ -267,7 +283,8 @@
     "type": "平台 Agent",
     "pricing": "开源 + Cloud",
     "difficulty": 2,
-    "trending": true
+    "trending": true,
+    "icon": "⚡"
   },
   {
     "id": "manus",
@@ -277,16 +294,18 @@
     "type": "通用 Agent",
     "pricing": "免费试用",
     "difficulty": 1,
-    "trending": true
+    "trending": true,
+    "icon": "✋"
   },
   {
     "id": "genspark",
     "name": "Genspark",
     "url": "https://www.genspark.ai",
-    "description": "AI搜索引擎+Agent，可执行搜索到任务完成",
+    "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
     "type": "研究 Agent",
     "pricing": "免费",
-    "difficulty": 1
+    "difficulty": 1,
+    "icon": "✨"
   },
   {
     "id": "flowise",
@@ -298,7 +317,8 @@
     "difficulty": 1,
     "trending": true,
     "source": "hermes_discover",
-    "last_seen": "2026-04-21"
+    "last_seen": "2026-04-21",
+    "icon": "🌊"
   },
   {
     "id": "goose",
@@ -310,7 +330,8 @@
     "difficulty": 2,
     "trending": true,
     "source": "hermes_discover",
-    "last_seen": "2026-04-21"
+    "last_seen": "2026-04-21",
+    "icon": "🪿"
   },
   {
     "id": "plandex",
@@ -322,6 +343,7 @@
     "difficulty": 2,
     "trending": true,
     "source": "hermes_discover",
-    "last_seen": "2026-04-21"
+    "last_seen": "2026-04-21",
+    "icon": "🔮"
   }
 ]

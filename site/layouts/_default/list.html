@@ -141,7 +141,7 @@
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
                 <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" alt="" style="width:32px;height:32px;border-radius:6px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <div class="tool-icon" style="display:none">{{ $emoji }}</div>
+                <div class="tool-icon" style="display:none">{{ with .icon }}{{ . }}{{ else }}{{ $emoji }}{{ end }}</div>
                 <div class="tool-name">{{ .name }}</div>
             </div>
             <div class="tool-desc">{{ .description }}</div>
@@ -184,7 +184,7 @@
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
                 <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" alt="" style="width:32px;height:32px;border-radius:6px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
-                <div class="tool-icon" style="display:none">{{ $emoji }}</div>
+                <div class="tool-icon" style="display:none">{{ with .icon }}{{ . }}{{ else }}{{ $emoji }}{{ end }}</div>
                 <div class="tool-name">{{ .name }}</div>
             </div>
             <div class="tool-desc">{{ .description }}</div>
