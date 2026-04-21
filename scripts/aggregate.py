@@ -19,6 +19,7 @@ from github_discover import discover_github_projects
 from github_trending import track_github_trending
 from huggingface_discover import discover_hf_models
 from keyword_collector import collect_keywords
+from agent_discover import discover_agents
 from trending_scorer import compute_trending
 from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
@@ -60,6 +61,7 @@ def main():
         ("📈 GitHub热度", track_github_trending),
         ("🤗 HF模型", discover_hf_models),
         ("🔑 关键词", collect_keywords),
+        ("🤖 Agent发现", discover_agents),
     ]
 
     # Phase 2: 数据处理

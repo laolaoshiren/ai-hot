@@ -1,15 +1,291 @@
 [
-  {"id": "devin", "name": "Devin", "url": "https://devin.ai", "description": "全球首个 AI 软件工程师，能独立完成编程任务", "type": "编程 Agent", "pricing": "$500/月", "difficulty": 2, "trending": true},
-  {"id": "codex-agent", "name": "Codex (ChatGPT)", "url": "https://chatgpt.com", "description": "OpenAI 内置的编程智能体，可在沙盒中执行代码", "type": "编程 Agent", "pricing": "ChatGPT Pro $200/月", "difficulty": 1, "trending": true},
-  {"id": "claude-code-agent", "name": "Claude Code", "url": "https://docs.anthropic.com/en/docs/claude-code", "description": "Anthropic CLI 编程智能体，终端内全自主编程", "type": "编程 Agent", "pricing": "API 按量", "difficulty": 2, "trending": true},
-  {"id": "cursor-agent", "name": "Cursor Agent", "url": "https://cursor.sh", "description": "Cursor 内置的 Agent 模式，后台自主完成任务", "type": "编程 Agent", "pricing": "Pro $20/月", "difficulty": 1},
-  {"id": "swe-agent", "name": "SWE-Agent", "url": "https://github.com/princeton-nlp/SWE-agent", "description": "普林斯顿开源的软件工程 Agent", "type": "编程 Agent", "pricing": "开源免费", "difficulty": 3},
-  {"id": "gpt-researcher", "name": "GPT Researcher", "url": "https://github.com/assafelovic/gpt-researcher", "description": "AI 研究助手，自动搜索+分析+生成报告", "type": "研究 Agent", "pricing": "开源 + API 费用", "difficulty": 2, "trending": true},
-  {"id": "storm", "name": "STORM", "url": "https://github.com/stanford-oval/storm", "description": "斯坦福出品的 AI 知识文章生成器", "type": "研究 Agent", "pricing": "开源免费", "difficulty": 2},
-  {"id": "autogpt", "name": "AutoGPT", "url": "https://github.com/Significant-Gravitas/AutoGPT", "description": "最早爆火的自主 AI Agent 框架", "type": "自动化 Agent", "pricing": "开源免费", "difficulty": 3},
-  {"id": "babyagi", "name": "BabyAGI", "url": "https://github.com/yoheinakajima/babyagi", "description": "轻量级自主 AI Agent 框架", "type": "自动化 Agent", "pricing": "开源免费", "difficulty": 3},
-  {"id": "agentgpt", "name": "AgentGPT", "url": "https://agentgpt.reworkd.ai", "description": "浏览器内直接使用的 AI Agent 平台", "type": "自动化 Agent", "pricing": "免费 + Pro", "free_quota": "基础版免费", "difficulty": 1},
-  {"id": "metagpt", "name": "MetaGPT", "url": "github.com/geekan/MetaGPT", "description": "多 Agent 软件公司模拟，一个 Agent 扮演不同角色", "type": "多 Agent", "pricing": "开源免费", "difficulty": 3},
-  {"id": "chatdev", "name": "ChatDev", "url": "https://github.com/OpenBMB/ChatDev", "description": "清华出品，模拟软件开发公司的多 Agent 框架", "type": "多 Agent", "pricing": "开源免费", "difficulty": 3},
-  {"id": "fabric-agent", "name": "Fabric", "url": "https://github.com/danielmiessler/fabric", "description": "AI 增强人类能力的框架，内置海量 Prompt 模板", "type": "效率 Agent", "pricing": "开源免费", "difficulty": 2}
+  {
+    "id": "openclaw",
+    "name": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
+    "type": "助手 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "hermes-agent",
+    "name": "Hermes Agent",
+    "url": "https://github.com/anthropics/hermes-agent",
+    "description": "全功能AI Agent框架，集成Claude/GPT，支持Telegram/Discord/CLI多平台",
+    "type": "助手 Agent",
+    "pricing": "开源 + API费用",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "description": "Anthropic CLI编程智能体，终端内全自主编程",
+    "type": "编程 Agent",
+    "pricing": "API按量",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "cursor-agent",
+    "name": "Cursor Agent",
+    "url": "https://cursor.sh",
+    "description": "Cursor内置Agent模式，后台自主完成复杂编码任务",
+    "type": "编程 Agent",
+    "pricing": "Pro $20/月",
+    "difficulty": 1,
+    "trending": true
+  },
+  {
+    "id": "codex-agent",
+    "name": "Codex (ChatGPT)",
+    "url": "https://chatgpt.com",
+    "description": "OpenAI内置编程智能体，可在沙盒中执行代码",
+    "type": "编程 Agent",
+    "pricing": "ChatGPT Pro $200/月",
+    "difficulty": 1,
+    "trending": true
+  },
+  {
+    "id": "devin",
+    "name": "Devin",
+    "url": "https://devin.ai",
+    "description": "全球首个AI软件工程师，能独立完成编程任务",
+    "type": "编程 Agent",
+    "pricing": "$500/月",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "swe-agent",
+    "name": "SWE-Agent",
+    "url": "https://github.com/princeton-nlp/SWE-agent",
+    "description": "普林斯顿开源的软件工程Agent",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "gpt-researcher",
+    "name": "GPT Researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "description": "AI研究助手，自动搜索+分析+生成报告",
+    "type": "研究 Agent",
+    "pricing": "开源 + API费用",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "storm",
+    "name": "STORM",
+    "url": "https://github.com/stanford-oval/storm",
+    "description": "斯坦福出品的AI知识文章生成器",
+    "type": "研究 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2
+  },
+  {
+    "id": "open-deep-research",
+    "name": "Open Deep Research",
+    "url": "https://github.com/huggingface/open-deep-research",
+    "description": "HuggingFace开源的深度研究Agent",
+    "type": "研究 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "autogpt",
+    "name": "AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "description": "最早爆火的自主AI Agent框架",
+    "type": "自动化 Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "babyagi",
+    "name": "BabyAGI",
+    "url": "https://github.com/yoheinakajima/babyagi",
+    "description": "轻量级自主AI Agent框架",
+    "type": "自动化 Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "agentgpt",
+    "name": "AgentGPT",
+    "url": "https://agentgpt.reworkd.ai",
+    "description": "浏览器内直接使用的AI Agent平台",
+    "type": "自动化 Agent",
+    "pricing": "免费 + Pro",
+    "difficulty": 1
+  },
+  {
+    "id": "superagi",
+    "name": "SuperAGI",
+    "url": "https://github.com/TransformerOptimus/SuperAGI",
+    "description": "开发者优先的开源自主AI Agent框架",
+    "type": "自动化 Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "crewai",
+    "name": "CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "角色扮演式多Agent协作框架，Agent可分工合作",
+    "type": "多Agent",
+    "pricing": "开源 + Pro",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "metagpt",
+    "name": "MetaGPT",
+    "url": "https://github.com/geekan/MetaGPT",
+    "description": "多Agent软件公司模拟，一个Agent扮演不同角色",
+    "type": "多Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "chatdev",
+    "name": "ChatDev",
+    "url": "https://github.com/OpenBMB/ChatDev",
+    "description": "清华出品，模拟软件开发公司的多Agent框架",
+    "type": "多Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "autogen",
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "微软多Agent对话框架，支持复杂任务协作",
+    "type": "多Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "langgraph",
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "description": "LangChain出品的有状态Agent编排框架",
+    "type": "多Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "browser-use",
+    "name": "Browser Use",
+    "url": "https://github.com/browser-use/browser-use",
+    "description": "让AI控制浏览器的Agent框架，Python实现",
+    "type": "浏览器 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "computer-use",
+    "name": "Computer Use",
+    "url": "https://github.com/anthropics/anthropic-quickstarts",
+    "description": "Anthropic官方的电脑操控Agent",
+    "type": "浏览器 Agent",
+    "pricing": "API按量",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "webvoyager",
+    "name": "WebVoyager",
+    "url": "https://github.com/nicehuster/WebVoyager",
+    "description": "基于视觉的网页浏览Agent",
+    "type": "浏览器 Agent",
+    "pricing": "开源免费",
+    "difficulty": 3
+  },
+  {
+    "id": "fabric",
+    "name": "Fabric",
+    "url": "https://github.com/danielmiessler/fabric",
+    "description": "AI增强人类能力的框架，内置海量Prompt模板",
+    "type": "效率 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "url": "https://github.com/paul-gauthier/aider",
+    "description": "终端AI结对编程工具，支持多模型",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "opencode",
+    "name": "OpenCode",
+    "url": "https://github.com/opencode-ai/opencode",
+    "description": "终端AI编码助手，支持多模型多Provider",
+    "type": "编程 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "dify",
+    "name": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "开源LLM应用开发平台，可视化构建AI Agent",
+    "type": "平台 Agent",
+    "pricing": "开源 + Cloud",
+    "difficulty": 1,
+    "trending": true
+  },
+  {
+    "id": "coze",
+    "name": "Coze",
+    "url": "https://www.coze.com",
+    "description": "字节跳动AI Bot构建平台，无代码创建Agent",
+    "type": "平台 Agent",
+    "pricing": "免费 + Pro",
+    "difficulty": 1,
+    "trending": true
+  },
+  {
+    "id": "n8n-ai",
+    "name": "n8n",
+    "url": "https://n8n.io",
+    "description": "工作流自动化平台，集成AI Agent能力",
+    "type": "平台 Agent",
+    "pricing": "开源 + Cloud",
+    "difficulty": 2,
+    "trending": true
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "url": "https://manus.im",
+    "description": "通用AI Agent，能自主完成复杂任务链",
+    "type": "通用 Agent",
+    "pricing": "免费试用",
+    "difficulty": 1,
+    "trending": true
+  },
+  {
+    "id": "genspark",
+    "name": "Genspark",
+    "url": "https://www.genspark.ai",
+    "description": "AI搜索引擎+Agent，可执行搜索到任务完成",
+    "type": "研究 Agent",
+    "pricing": "免费",
+    "difficulty": 1
+  }
 ]
