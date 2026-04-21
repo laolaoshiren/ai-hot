@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-04-22T00:06:52",
-  "date": "2026-04-22",
-  "title": "AI热榜日报 - 2026年04月22日",
-  "content": "今日AI领域重磅消息不断：Anthropic 新模型 Mythos 表现断层领先，内部同时推进超百款产品原型；Opus 4.7 正式发布，Claude Code 创始人分享 AI 编码心法；Claude 大规模封号风波持续，300万用户企业服务中断引发维权；开源社区5天复现 Mythos 架构获6000星；Google Gemini CLI 突破10万星里程碑；具身智能赛道获史上最大单轮融资。整体来看，Anthropic 生态动作密集，开源社区跟进速度惊人。",
-  "highlights": [
-    "🧠 Anthropic Mythos 模型断层领先，100个产品原型同时推进",
-    "🔥 Opus 4.7 发布，Claude Code 之父分享开发心法",
-    "🚨 Claude 封号潮持续，300万企业用户受影响",
-    "💻 开源 OpenMythos 5天6000星，社区复现速度惊人",
-    "🏭 中国具身智能获史上最大单轮融资"
-  ]
+  "date": "2026-04-21",
+  "content": "今日共收录 20 条 AI 新闻，主要来源：InfoQ AI, The Verge AI, TechCrunch AI, MIT Tech Review, 量子位, Hacker News AI",
+  "news_count": 20,
+  "sources": {
+    "InfoQ AI": 5,
+    "The Verge AI": 6,
+    "TechCrunch AI": 6,
+    "MIT Tech Review": 1,
+    "量子位": 1,
+    "Hacker News AI": 1
+  }
 }
