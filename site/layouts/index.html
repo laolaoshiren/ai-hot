@@ -18,7 +18,7 @@
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
                     <div class="hot-title">
-                        <a href="{{ $item.url }}" target="_blank" rel="noopener">{{ $item.name }}</a>
+                        <a href="{{ relURL "/tool/" }}?id={{ $item.id }}" target="_blank">{{ $item.name }}</a>
                         <span class="hot-badge">{{ $item.source }}</span>
                     </div>
                     {{ if $item.detail }}<div class="hot-meta">{{ $item.detail }}</div>{{ end }}
@@ -74,7 +74,7 @@
         <div class="spotlight-name">{{ $daily.spotlight.name }}</div>
         <div class="spotlight-desc">{{ $daily.spotlight.description }}</div>
         {{ if $daily.spotlight.pricing }}<div class="hot-meta" style="margin-top:6px">💰 {{ $daily.spotlight.pricing }}</div>{{ end }}
-        <a href="{{ $daily.spotlight.url }}" class="spotlight-btn" target="_blank">立即体验 →</a>
+        <a href="{{ relURL "/tool/" }}?id={{ $daily.spotlight.id }}" class="spotlight-btn" target="_blank">立即体验 →</a>
     </div>
     {{ end }}
 
@@ -93,7 +93,7 @@
                 {{ range first 5 $trending_tools }}
                 <div class="trend-item">
                     <div style="min-width:0;flex:1">
-                        <a href="{{ .url }}" target="_blank">{{ .name }}</a>
+                        <a href="{{ relURL "/tool/" }}?id={{ .id }}">{{ .name }}</a>
                         <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
                     </div>
                     <div class="trend-up">🔥</div>

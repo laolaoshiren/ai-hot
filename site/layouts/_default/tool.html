@@ -1,0 +1,127 @@
+{{ define "main" }}
+<div style="margin-bottom:20px">
+    <a href="{{ relURL "/" }}" style="color:var(--text2);font-size:13px">← 返回热榜</a>
+</div>
+
+<div id="toolDetail">
+    <div class="card" style="text-align:center;padding:40px">
+        <div style="font-size:48px;margin-bottom:12px">🔍</div>
+        <div style="color:var(--text2)">加载中...</div>
+    </div>
+</div>
+
+<!-- 同类推荐 -->
+<div id="relatedTools" style="display:none">
+    <div class="card">
+        <div class="card-title">🔗 同类推荐</div>
+        <div class="tools-grid" id="relatedGrid"></div>
+    </div>
+</div>
+
+<script>
+const allTools = {{ site.Data.tools | jsonify | safeJS }} || [];
+const allModels = {{ site.Data.models | jsonify | safeJS }} || [];
+const allAgents = {{ site.Data.agents | jsonify | safeJS }} || [];
+
+function findTool(id) {
+    // 搜索工具
+    let tool = allTools.find(t => t.id === id || t.name.toLowerCase().replace(/[^a-z0-9]/g, '-') === id);
+    if (tool) return { type: 'tool', data: tool };
+    // 搜索模型
+    let model = allModels.find(m => m.name === id || (m.display_name||'').toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]/g, '-') === id);
+    if (model) return { type: 'model', data: model };
+    // 搜索Agent
+    let agent = allAgents.find(a => a.id === id || a.name.toLowerCase().replace(/[^a-z0-9]/g, '-') === id);
+    if (agent) return { type: 'agent', data: agent };
+    return null;
+}
+
+function renderDetail(result) {
+    const el = document.getElementById('toolDetail');
+    if (!result) {
+        el.innerHTML = '<div class="card" style="text-align:center;padding:40px"><div style="font-size:48px;margin-bottom:12px">😕</div><div style="color:var(--text2)">找不到这个工具</div><a href="/" style="color:var(--accent);font-size:14px;margin-top:12px;display:inline-block">返回首页</a></div>';
+        return;
+    }
+
+    const { type, data } = result;
+    const emoji = type === 'tool' ? '🛠️' : type === 'model' ? '🧠' : '🤖';
+    const name = data.display_name || data.name;
+    const desc = data.description || '';
+    const url = data.url || '';
+    const pricing = data.pricing || '';
+    const category = data.category || data.pipeline_tag || data.type || '';
+    const tags = data.tags || [];
+    const freeQuota = data.free_quota || '';
+    const trending = data.trending || false;
+    const author = data.author || '';
+    const likes = data.likes || '';
+
+    document.title = name + ' | AI热榜';
+
+    let html = '<div class="card" style="border-left:3px solid var(--accent)">';
+    html += '<div style="display:flex;align-items:center;gap:16px;margin-bottom:16px">';
+    html += '<div style="width:56px;height:56px;background:var(--bg3);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;flex-shrink:0">' + emoji + '</div>';
+    html += '<div style="min-width:0;flex:1">';
+    html += '<div style="font-size:24px;font-weight:700;word-break:break-word">' + name + '</div>';
+    if (author) html += '<div style="font-size:14px;color:var(--text2);margin-top:2px">by ' + author + '</div>';
+    html += '</div></div>';
+
+    if (trending) html += '<div style="margin-bottom:12px"><span class="hot-badge fire">🔥 热门</span></div>';
+
+    if (desc) html += '<div style="font-size:15px;color:var(--text2);line-height:1.7;margin-bottom:16px">' + desc + '</div>';
+
+    html += '<div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px">';
+    if (pricing) html += '<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">💰 价格</div><div style="font-size:14px;color:var(--accent);font-weight:600">' + pricing + '</div></div>';
+    if (freeQuota) html += '<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">🎁 免费额度</div><div style="font-size:14px;color:var(--green);font-weight:600">' + freeQuota + '</div></div>';
+    if (category) html += '<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">📂 分类</div><div style="font-size:14px;color:var(--text)">' + category + '</div></div>';
+    if (likes) html += '<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">❤️ 热度</div><div style="font-size:14px;color:var(--text)">' + likes + '</div></div>';
+    html += '</div>';
+
+    if (tags.length > 0) {
+        html += '<div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px">';
+        tags.forEach(t => { html += '<span class="tag">' + t + '</span>'; });
+        html += '</div>';
+    }
+
+    if (url) html += '<a href="' + (type === 'agent' ? 'https://' : '') + url + '" target="_blank" class="spotlight-btn" style="display:inline-block">访问 ' + name + ' →</a>';
+
+    html += '</div>';
+    el.innerHTML = html;
+
+    // 同类推荐
+    const related = document.getElementById('relatedTools');
+    const grid = document.getElementById('relatedGrid');
+    let sameCat = [];
+    if (type === 'tool') {
+        sameCat = allTools.filter(t => t.category === data.category && t.id !== data.id).slice(0, 4);
+    } else if (type === 'model') {
+        sameCat = allModels.filter(m => m.pipeline_tag === data.pipeline_tag && m.name !== data.name).slice(0, 4);
+    } else {
+        sameCat = allAgents.filter(a => a.type === data.type && a.id !== data.id).slice(0, 4);
+    }
+
+    if (sameCat.length > 0) {
+        related.style.display = '';
+        grid.innerHTML = sameCat.map(t => {
+            const tName = t.display_name || t.name;
+            const tId = t.id || t.name.toLowerCase().replace(/[^a-z0-9]/g, '-');
+            const tEmoji = type === 'tool' ? '🛠️' : type === 'model' ? '🧠' : '🤖';
+            return '<a href="?id=' + encodeURIComponent(tId) + '" class="tool-card" style="text-decoration:none;color:inherit">'
+                + '<div class="tool-header"><div class="tool-icon">' + tEmoji + '</div><div class="tool-name">' + tName + '</div></div>'
+                + '<div class="tool-desc">' + (t.description || t.author || '') + '</div>'
+                + (t.pricing ? '<div class="tool-footer"><div class="tool-price">💰 ' + t.pricing + '</div></div>' : '')
+                + '</a>';
+        }).join('');
+    }
+}
+
+// 从URL读取参数
+const params = new URLSearchParams(location.search);
+const id = params.get('id');
+if (id) {
+    renderDetail(findTool(id));
+} else {
+    renderDetail(null);
+}
+</script>
+{{ end }}
