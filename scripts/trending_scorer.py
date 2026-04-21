@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""热度评分 v3 - 多源聚合，GitHub/工具优先"""
+"""热度评分 v4 - 智能评分，优先新项目和活跃项目"""
 
 import os
 import json
@@ -7,11 +7,26 @@ from datetime import datetime
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 
+# AI 相关关键词（用于识别 AI 项目）
+AI_KEYWORDS = [
+    "ai", "artificial intelligence", "machine learning", "deep learning", "llm",
+    "gpt", "chatgpt", "claude", "gemini", "llama", "transformer", "diffusion",
+    "generative", "aigc", "agi", "agent", "neural", "nlp", "vision", "speech",
+    "stable diffusion", "midjourney", "dall-e", "sora", "whisper",
+    "tensorflow", "pytorch", "keras", "scikit", "huggingface",
+]
+
+def is_ai_project(item):
+    """判断是否为 AI 相关项目"""
+    name = item.get("name", "") or ""
+    desc = item.get("description", "") or ""
+    text = (name + " " + desc).lower()
+    return any(kw in text for kw in AI_KEYWORDS)
 
 def compute_trending():
     hot_items = []
 
-    # 1. GitHub 热度飙升
+    # 1. GitHub 热度飙升（优先，权重最高）
     trending_path = os.path.join(DATA_DIR, "trending.json")
     if os.path.exists(trending_path):
         with open(trending_path) as f:
@@ -19,30 +34,58 @@ def compute_trending():
         for item in trending.get("top_risers", []):
             v = item.get("velocity_per_day", 0)
             if v > 0:
+                # 活跃度越高，分数越高
+                base_score = min(v / 2, 60)  # 最高60分
+                # AI 项目加分
+                if is_ai_project(item):
+                    base_score += 15
                 hot_items.append({
                     "name": item.get("display_name") or item.get("name", ""),
                     "url": item.get("url", ""),
                     "type": "project",
                     "source": "GitHub",
-                    "score": min(v / 5, 50),
+                    "score": base_score,
                     "detail": f"⭐ {item.get('stars', 0)} (+{v:.0f}/天)",
                     "description": item.get("description", ""),
                 })
 
-    # 2. GitHub 项目 stars 排名
+    # 2. GitHub 项目 stars 排名（只取有活跃度的项目）
     projects_path = os.path.join(DATA_DIR, "projects.json")
     if os.path.exists(projects_path):
         with open(projects_path) as f:
             projects = json.load(f)
-        for p in projects[:30]:
+        
+        # 只取有近期更新的项目
+        active_projects = []
+        for p in projects:
+            updated = p.get("updated_at", "")
+            if updated:
+                try:
+                    update_date = datetime.fromisoformat(updated.replace("Z", "+00:00"))
+                    days_ago = (datetime.now() - update_date.replace(tzinfo=None)).days
+                    if days_ago < 30:  # 只取30天内有更新的项目
+                        activity_score = 20
+                        # AI 项目加分
+                        if is_ai_project(p):
+                            activity_score += 15
+                        active_projects.append((p, activity_score))
+                except:
+                    pass
+        
+        # 按活跃度排序
+        active_projects.sort(key=lambda x: x[1], reverse=True)
+        
+        for p, activity_score in active_projects[:15]:
             s = p.get("stars", 0)
             if s > 1000:
+                # 基础分 = stars 权重（很低） + 活跃度
+                base_score = min(s / 20000, 5) + activity_score
                 hot_items.append({
                     "name": p.get("display_name") or p.get("name", ""),
                     "url": p.get("url", ""),
                     "type": "project",
                     "source": "GitHub",
-                    "score": min(s / 3000, 35),
+                    "score": base_score,
                     "detail": f"⭐ {s}",
                     "description": p.get("description", ""),
                 })
