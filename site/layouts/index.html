@@ -30,12 +30,38 @@
         {{ end }}
     </div>
 
+    <!-- 最新新闻 (穿插显示，不按来源堆积) -->
+    <div class="card">
+        <div class="card-title">📰 AI 新闻</div>
+        {{ $news := site.Data.news }}
+        {{ if $news }}
+            {{ range first 12 $news }}
+            <div class="hot-item">
+                <div class="hot-content">
+                    <div class="hot-title">
+                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                    </div>
+                    <div class="hot-meta">
+                        {{ .source }}
+                        {{ if .published }} · {{ slicestr .published 0 16 }}{{ end }}
+                    </div>
+                    {{ if .ai_summary }}<div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
+                    {{ else if .summary }}<div class="hot-meta" style="color:var(--text3)">{{ .summary }}</div>{{ end }}
+                </div>
+            </div>
+            {{ end }}
+        {{ end }}
+    </div>
+</div>
+
+<!-- 侧边栏 -->
+<div>
     <!-- 每日 AI 快报 -->
     {{ $briefing := site.Data.briefing }}
     {{ if $briefing }}
     <div class="card" style="border-left:3px solid var(--accent)">
         <div class="card-title">🤖 每日 AI 快报 <span class="hot-badge fire">AI 生成</span></div>
-        <div style="font-size:14px;line-height:1.8;color:var(--text2)">{{ $briefing.content }}</div>
+        <div style="font-size:13px;line-height:1.7;color:var(--text2)">{{ $briefing.content }}</div>
         <div style="font-size:11px;color:var(--text3);margin-top:8px">基于 {{ $briefing.news_count }} 条新闻 · {{ $briefing.date }}</div>
     </div>
     {{ end }}
@@ -66,47 +92,21 @@
             {{ if gt (len $trending_tools) 0 }}
                 {{ range first 5 $trending_tools }}
                 <div class="trend-item">
-                    <div>
+                    <div style="min-width:0;flex:1">
                         <a href="{{ .url }}" target="_blank">{{ .name }}</a>
-                        <span style="color:var(--text3);font-size:12px;margin-left:6px">{{ .description }}</span>
+                        <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
                     </div>
-                    <div class="trend-up">🔥 热门</div>
+                    <div class="trend-up">🔥</div>
                 </div>
                 {{ end }}
             {{ else }}
                 <div class="trend-item">
-                    <div style="color:var(--text3)">暂无热度飙升数据</div>
+                    <div style="color:var(--text3);font-size:13px">暂无数据</div>
                 </div>
             {{ end }}
         {{ end }}
     </div>
 
-    <!-- 最新新闻 (穿插显示，不按来源堆积) -->
-    <div class="card">
-        <div class="card-title">📰 AI 新闻</div>
-        {{ $news := site.Data.news }}
-        {{ if $news }}
-            {{ range first 12 $news }}
-            <div class="hot-item">
-                <div class="hot-content">
-                    <div class="hot-title">
-                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
-                    </div>
-                    <div class="hot-meta">
-                        {{ .source }}
-                        {{ if .published }} · {{ slicestr .published 0 16 }}{{ end }}
-                    </div>
-                    {{ if .ai_summary }}<div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
-                    {{ else if .summary }}<div class="hot-meta" style="color:var(--text3)">{{ .summary }}</div>{{ end }}
-                </div>
-            </div>
-            {{ end }}
-        {{ end }}
-    </div>
-</div>
-
-<!-- 侧边栏 -->
-<div>
     <!-- 分类入口 -->
     <div class="card">
         <div class="card-title">📂 分类导航</div>
