@@ -51,16 +51,16 @@
                     </div>
                     <div class="hot-meta">
                         {{ .source }}
-                        {{ if .published }} · {{ replace .published "T" " " | slicestr 0 16 }}{{ end }}
+                        {{ with .published }} · {{ replace . "T" " " | truncate 16 "" }}{{ end }}
                     </div>
                     {{ if .ai_summary }}
                         {{ if gt (len .ai_summary) 50 }}
                         <div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
                         {{ else if .summary }}
-                        <div class="hot-meta" style="color:var(--text3)">{{ slicestr .summary 0 100 }}...</div>
+                        <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
                         {{ end }}
                     {{ else if .summary }}
-                    <div class="hot-meta" style="color:var(--text3)">{{ slicestr .summary 0 100 }}...</div>
+                    <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
                     {{ end }}
                 </div>
             </div>
