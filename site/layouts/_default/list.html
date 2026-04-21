@@ -9,16 +9,28 @@
 {{ if in $slug "/models/" }}
 {{/* 按 pipeline_tag 分组 */}}
 {{ $model_categories := dict 
-    "text-generation" "📝 文本生成" 
-    "text-to-image" "🎨 图像生成" 
-    "image-to-video" "🎬 视频生成" 
-    "video-to-video" "🎬 视频处理"
-    "automatic-speech-recognition" "🎤 语音识别" 
-    "text-to-speech" "🔊 语音合成" 
-    "image-text-to-text" "👁️ 多模态" 
-    "any-to-any" "🌐 任意到任意"
-    "image-to-3d" "🧊 3D 生成"
-    "translation" "🌐 翻译"
+    "text-generation" "📝" 
+    "text-to-image" "🎨" 
+    "image-to-video" "🎬" 
+    "video-to-video" "🎬"
+    "automatic-speech-recognition" "🎤" 
+    "text-to-speech" "🔊" 
+    "image-text-to-text" "👁️" 
+    "any-to-any" "🌐"
+    "image-to-3d" "🧊"
+    "translation" "🌐"
+}}
+{{ $model_names := dict 
+    "text-generation" "文本生成" 
+    "text-to-image" "图像生成" 
+    "image-to-video" "视频生成" 
+    "video-to-video" "视频处理"
+    "automatic-speech-recognition" "语音识别" 
+    "text-to-speech" "语音合成" 
+    "image-text-to-text" "多模态" 
+    "any-to-any" "任意到任意"
+    "image-to-3d" "3D 生成"
+    "translation" "翻译"
 }}
 
 <!-- 分类快速导航 -->
@@ -27,8 +39,9 @@
         {{ range $tag, $emoji := $model_categories }}
         {{ $count := len (where site.Data.models "pipeline_tag" $tag) }}
         {{ if gt $count 0 }}
+        {{ $name := index $model_names $tag }}
         <a href="#model-{{ $tag }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
-            {{ $emoji }} {{ $count }}
+            {{ $emoji }} {{ $name }} {{ $count }}
         </a>
         {{ end }}
         {{ end }}
@@ -41,8 +54,9 @@
 {{ range $tag, $emoji := $model_categories }}
 {{ $models := where site.Data.models "pipeline_tag" $tag }}
 {{ if gt (len $models) 0 }}
+{{ $name := index $model_names $tag }}
 <div class="card" id="model-{{ $tag }}">
-    <div class="card-title">{{ $emoji }} <span class="hot-badge">{{ len $models }} 个</span></div>
+    <div class="card-title">{{ $emoji }} {{ $name }} <span class="hot-badge">{{ len $models }} 个</span></div>
     <div class="tools-grid">
         {{ range $models }}
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
