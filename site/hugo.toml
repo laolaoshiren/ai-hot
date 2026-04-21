@@ -56,3 +56,13 @@ paginate = 20
   name = "🏢 提供商"
   url = "/providers/"
   weight = 6
+
+[[menu.main]]
+  name = "🔍 搜索"
+  url = "/search/"
+  weight = 7
+
+[[menu.main]]
+  name = "⚔️ 对比"
+  url = "/compare/"
+  weight = 8
