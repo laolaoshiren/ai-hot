@@ -2,14 +2,14 @@
 
 > 中文AI世界实时热榜，每6小时自动更新
 
-[![网站](https://img.shields.io/badge/网站-AI热榜-brightgreen)](https://laolaoshiren.github.io/ai-hot/)
+[![网站](https://img.shields.io/badge/网站-AI热榜-brightgreen)](https://aihot.bt199.com/)
 [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](#)
-[![工具](https://img.shields.io/badge/工具-45+-orange)](#)
-[![模型](https://img.shields.io/badge/模型-7+-lightgrey)](#)
+[![工具](https://img.shields.io/badge/工具-176+-orange)](#)
+[![模型](https://img.shields.io/badge/模型-62+-lightgrey)](#)
 [![Agent](https://img.shields.io/badge/Agent-13+-purple)](#)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-🌐 **网站**: https://laolaoshiren.github.io/ai-hot/
+🌐 **网站**: https://aihot.bt199.com/
 
 ---
 

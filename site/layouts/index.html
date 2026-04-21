@@ -49,7 +49,7 @@
                     </div>
                     <div class="hot-meta">
                         {{ .source }}
-                        {{ if .published }} · {{ slicestr .published 0 16 }}{{ end }}
+                        {{ if .published }} · {{ replace .published "T" " " | slicestr 0 16 }}{{ end }}
                     </div>
                     {{ if .ai_summary }}
                         {{ if gt (len .ai_summary) 50 }}

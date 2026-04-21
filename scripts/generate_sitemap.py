@@ -9,7 +9,7 @@ from datetime import datetime
 
 DATA_DIR = "/root/ai-hot/data"
 SITE_DIR = "/root/ai-hot/site/static"
-BASE_URL = "https://laolaoshiren.github.io/ai-hot"
+BASE_URL = "https://aihot.bt199.com"
 
 def generate_sitemap():
     urls = []

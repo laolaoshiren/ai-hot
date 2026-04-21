@@ -214,7 +214,7 @@
                 <a href="{{ $item.url }}" target="_blank">{{ $item.title }}</a>
                 <span class="hot-badge">{{ $item.source }}</span>
             </div>
-            {{ if $item.published }}<div class="hot-meta">{{ slicestr $item.published 0 16 }}</div>{{ end }}
+            {{ if $item.published }}<div class="hot-meta">{{ replace $item.published "T" " " | slicestr 0 16 }}</div>{{ end }}
             {{ if $item.ai_summary }}<div class="hot-meta" style="color:var(--accent)">🤖 {{ $item.ai_summary }}</div>
             {{ else if $item.summary }}<div class="hot-meta" style="color:var(--text3)">{{ $item.summary }}</div>{{ end }}
         </div>

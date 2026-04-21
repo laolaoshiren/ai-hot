@@ -391,7 +391,7 @@ function doSearch(query) {
             html += '<div class="hot-item"><div class="hot-content"><div class="hot-title">'
                 + '<a href="' + n.url + '" target="_blank">' + highlightedTitle + '</a>'
                 + '<span class="hot-badge">' + n.source + '</span></div>'
-                + (n.published ? '<div class="hot-meta">' + n.published.slice(0,16) + '</div>' : '')
+                + (n.published ? '<div class="hot-meta">' + n.published.replace('T', ' ').slice(0,16) + '</div>' : '')
                 + (n.ai_summary ? '<div class="hot-meta" style="color:var(--accent)">🤖 ' + highlightedSummary + '</div>' : '')
                 + '</div></div>';
         });

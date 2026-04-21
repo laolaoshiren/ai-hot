@@ -1,6 +1,6 @@
 # 🚀 AI热榜 v4.0 开发完成报告
 
-**部署地址**: https://laolaoshiren.github.io/ai-hot/  
+**部署地址**: https://aihot.bt199.com/  
 **部署时间**: 2026-04-21  
 **部署状态**: ✅ 成功 (HTTP 200)
 
