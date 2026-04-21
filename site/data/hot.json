@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-21T10:49:47.842809",
-  "total": 35,
+  "updated_at": "2026-04-21T11:01:31.351925",
+  "total": 41,
   "hot_list": [
     {
       "id": "cursor",
@@ -94,6 +94,70 @@
       "score": 50,
       "detail": "免费 + Pro $10/月",
       "description": "超低延迟AI代码补全，速度极快",
+      "category": "编程"
+    },
+    {
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.89572,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.67212,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.39056,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.24008,
+      "detail": "⭐ 162004",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.2041,
+      "detail": "⭐ 160205",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "category": "编程"
+    },
+    {
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.19312,
+      "detail": "⭐ 159656",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
       "category": "编程"
     },
     {
@@ -454,6 +518,50 @@
       "type_label": "🛠️ 工具"
     },
     {
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.89572,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.67212,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.39056,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.24008,
+      "detail": "⭐ 162004",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
       "name": "FLUX.1-dev",
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "type": "model",
@@ -544,7 +652,7 @@
   ],
   "type_stats": {
     "tool": 6,
-    "project": 0,
+    "project": 4,
     "news": 5,
     "model": 3
   }

@@ -75,19 +75,24 @@ def compute_trending():
         with open(trending_path) as f:
             trending = json.load(f)
         
-        for item in trending.get("top_risers", [])[:6]:
-            v = item.get("velocity_per_day", 0)
-            if v > 100:  # 只要活跃度高的
-                hot_items.append({
-                    "name": item.get("display_name") or item.get("name", ""),
-                    "url": item.get("url", ""),
-                    "type": "project",
-                    "source": "GitHub",
-                    "score": 40 + min(v / 100, 20),
-                    "detail": f"⭐ {item.get('stars', 0)} (+{v:.0f}/天)",
-                    "description": item.get("description", ""),
-                    "category": "编程",
-                })
+        # 使用rankings字段，取stars最高的项目
+        rankings = trending.get("rankings", [])
+        if rankings:
+            # 按stars排序，取前6个
+            top_projects = sorted(rankings, key=lambda x: x.get("stars", 0), reverse=True)[:6]
+            for item in top_projects:
+                stars = item.get("stars", 0)
+                if stars > 10000:  # 只要高star项目
+                    hot_items.append({
+                        "name": item.get("display_name") or item.get("name", ""),
+                        "url": item.get("url", ""),
+                        "type": "project",
+                        "source": "GitHub",
+                        "score": 40 + min(stars / 50000, 20),  # stars越高分数越高
+                        "detail": f"⭐ {stars}",
+                        "description": item.get("description", ""),
+                        "category": "编程",
+                    })
     
     # 3. 新闻热度（精选最新的）
     news_path = os.path.join(DATA_DIR, "news.json")
