@@ -362,7 +362,7 @@
   {
     "id": "voltagent",
     "name": "VoltAgent",
-    "url": "https://github.com/panchagnulavishal/voltagent",
+    "url": "https://github.com/VoltAgent/voltagent",
     "description": "开源 TypeScript AI Agent 工程平台，支持多 Agent 编排和可视化工作流",
     "type": "编程 Agent",
     "pricing": "开源免费",
@@ -384,5 +384,70 @@
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
     "icon": "🏷️"
+  },
+  {
+    "id": "opencli",
+    "name": "OpenCLI",
+    "url": "https://github.com/jackwener/OpenCLI",
+    "description": "通用 CLI 中心和 AI 原生运行时，将任何网站和工具变成你的命令行",
+    "type": "自动化 Agent",
+    "pricing": "免费开源",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "⚡"
+  },
+  {
+    "id": "inkos",
+    "name": "Inkos",
+    "url": "https://github.com/Narcooo/inkos",
+    "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
+    "type": "创作 Agent",
+    "pricing": "免费开源",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "✍️"
+  },
+  {
+    "id": "openmontage",
+    "name": "OpenMontage",
+    "url": "https://github.com/calesthio/OpenMontage",
+    "description": "全球首个开源 Agent 视频制作系统，12 条流水线 52 个工具覆盖全流程",
+    "type": "创作 Agent",
+    "pricing": "免费开源",
+    "difficulty": 3,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "🎬"
+  },
+  {
+    "id": "wecom-cli",
+    "name": "WeCom CLI",
+    "url": "https://github.com/WecomTeam/wecom-cli",
+    "description": "企业微信命令行工具，让人类和 AI Agent 都能在终端中操作企业微信",
+    "type": "自动化 Agent",
+    "pricing": "免费开源",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "💼"
+  },
+  {
+    "id": "onecli",
+    "name": "OneCLI",
+    "url": "https://github.com/onecli/onecli",
+    "description": "开源凭证保险库，让 AI Agent 安全访问各类服务，无需暴露 API 密钥",
+    "type": "安全 Agent",
+    "pricing": "免费开源",
+    "difficulty": 2,
+    "trending": true,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-21",
+    "icon": "🔐"
   }
 ]

@@ -1,67 +1,67 @@
 {
-  "updated_at": "2026-04-21T22:59:21",
+  "updated_at": "2026-04-21T23:10:00",
   "generated_by": "hermes_ai",
   "items": [
     {
       "rank": 1,
-      "title": "🎨 Anthropic 发布 Claude Design：一句话生成完整 UI",
-      "subtitle": "Claude 全新 Design 模式，输入自然语言描述即可生成高质量 UI 设计稿，设计师群体震动",
-      "url": "https://www.anthropic.com",
+      "title": "🔥 Anthropic 发布 Claude Design：一句话生成完整 UI 设计",
+      "subtitle": "Claude Design 可通过自然语言指令直接生成高保真 UI，挑战 Figma 等传统设计工具",
+      "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
+      "source": "InfoQ",
+      "time": "3小时前",
       "tags": [
         "重磅",
-        "新功能"
+        "新产品"
       ]
     },
     {
       "rank": 2,
-      "title": "⚡ Opus 4.7 来了：Claude Code 之父分享最佳实践",
-      "subtitle": "Anthropic 发布 Opus 4.7，Claude Code 作者亲授使用心得：模型升级只是开始，开发方式才是关键",
-      "url": "https://www.anthropic.com",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "新模型",
-        "编程"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "💻 Gemini CLI：把 Gemini 直接装进终端",
-      "subtitle": "Google 开源 AI Agent，102K Stars，可直接在命令行中调用 Gemini 完成编码、分析等任务",
+      "title": "💻 Google Gemini CLI 开源：终端直接调用 Gemini 做 AI Agent",
+      "subtitle": "谷歌开源命令行 AI Agent，10万+ Star，将 Gemini 能力带入开发者终端",
       "url": "https://github.com/google-gemini/gemini-cli",
       "type": "project",
       "source": "GitHub",
-      "time": "热门",
+      "time": "今日",
       "tags": [
         "开源",
         "Agent"
       ]
     },
     {
-      "rank": 4,
-      "title": "🔥 Claude 封号潮失控：300 万企业用户一夜断供",
-      "subtitle": "Anthropic 大规模封号无预警、无理由、无回应，受害企业被迫抱团维权，社区一片哗然",
-      "url": "https://www.anthropic.com",
+      "rank": 3,
+      "title": "🚨 Claude 封号潮失控：300 万用户企业一夜断供",
+      "subtitle": "Anthropic 大规模无理由封号引发集体维权，企业客户被迫寻找替代方案",
+      "url": "https://www.infoq.cn/article/ho3Qjql4dzSwA1loVMMY",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
+      "source": "InfoQ",
+      "time": "5小时前",
       "tags": [
         "争议",
         "行业"
       ]
     },
     {
+      "rank": 4,
+      "title": "🧠 Opus 4.7 正式发布：Claude Code 之父传授 AI 编码心法",
+      "subtitle": "Anthropic 最新旗舰模型，开发者分享关键心得：模型升级只是开始，开发方式才是关键",
+      "url": "https://www.infoq.cn/article/YWH4w3Y4fstITE34RFUa",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "6小时前",
+      "tags": [
+        "新模型",
+        "重磅"
+      ]
+    },
+    {
       "rank": 5,
-      "title": "🤖 mem0：为 AI Agent 打造通用记忆层",
-      "subtitle": "53K Stars 开源项目，让 Agent 拥有持久记忆能力，支持跨会话、跨应用的记忆管理",
-      "url": "https://github.com/mem0ai/mem0",
+      "title": "🌐 Browser-Use：让 AI Agent 自动操控网页，8.9 万 Star",
+      "subtitle": "最流行的浏览器自动化 Agent 框架，让 AI 替你完成在线任务",
+      "url": "https://github.com/browser-use/browser-use",
       "type": "project",
       "source": "GitHub",
-      "time": "热门",
+      "time": "今日",
       "tags": [
         "开源",
         "Agent"
@@ -69,103 +69,103 @@
     },
     {
       "rank": 6,
-      "title": "💰 中国具身智能最大单轮融资！前华为百度高管联手创业",
-      "subtitle": "打造能真正干活、可量产的机器人，具身智能赛道迎来重量级玩家",
-      "url": "https://www.infoq.cn",
+      "title": "🤖 Anthropic 内部同时跑 100 个产品原型，新模型 Mythos 断层领先",
+      "subtitle": "爆料：Anthropic 正在疯狂迭代，Mythos 模型表现远超预期，团队对 skills 效果也感到意外",
+      "url": "https://www.infoq.cn/article/KlrsHcFeBKWu9RW85u0a",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
+      "source": "InfoQ",
+      "time": "4小时前",
+      "tags": [
+        "独家",
+        "内幕"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "🚀 Karpathy 开源 Autoresearch：单 GPU 自动做 AI 研究，7.5 万 Star",
+      "subtitle": "Andrej Karpathy 最新力作，AI Agent 在单卡上自动跑研究实验和训练",
+      "url": "https://github.com/karpathy/autoresearch",
+      "type": "project",
+      "source": "GitHub",
+      "time": "今日",
+      "tags": [
+        "重磅",
+        "开源"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "🚗 理想汽车首发高德汽车出行 AI Agent",
+      "subtitle": "理想汽车与高德合作，打造首个汽车出行 AI Agent，支持多轮对话和个性化导航",
+      "url": "https://36kr.com/newsflashes/3776210798199556",
+      "type": "news",
+      "source": "36氪",
+      "time": "8小时前",
+      "tags": [
+        "AI应用",
+        "汽车"
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "🧠 quant.cpp：纯 C 实现 7 倍上下文长度 LLM 推理，零依赖",
+      "subtitle": "量子位出品，无损 KV 缓存压缩技术让 LLM 推理上下文暴增 7 倍",
+      "url": "https://github.com/quantumaikr/quant.cpp",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "新项目",
+        "推理优化"
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "💬 Yelp AI 聊天机器人重大升级：搜索推荐体验焕然一新",
+      "subtitle": "Yelp 大幅增强 AI 助手能力，搜索和商户推荐体验显著提升",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915626/yelp-ai-assistant-chatbot-major-upgrade",
+      "type": "news",
+      "source": "The Verge",
+      "time": "6小时前",
+      "tags": [
+        "AI应用",
+        "产品"
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "🏗️ 中国具身智能最大单轮融资：前华为百度高管联手造机器人",
+      "subtitle": "前华为、百度高管联手创业，打造可量产的干活机器人，获赛道最大单轮融资",
+      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "5小时前",
       "tags": [
         "融资",
         "机器人"
       ]
     },
     {
-      "rank": 7,
-      "title": "🌐 browser-use：让 AI 轻松操控任何网站",
-      "subtitle": "89K Stars，最流行的浏览器自动化框架，AI Agent 一键操作网页，零门槛实现 RPA",
-      "url": "https://github.com/browser-use/browser-use",
-      "type": "project",
-      "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "开源",
-        "自动化"
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "🧠 Anthropic 内部揭秘：100 个原型并行，Mythos 模型断层领先",
-      "subtitle": "新模型 Mythos 效果惊人，连内部 Skills 功能都好到让团队意外，Anthropic 到底在发生什么？",
-      "url": "https://www.infoq.cn",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "深度",
-        "模型"
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "📚 100+ LLM 应用合集：从 RAG 到 Agent 全覆盖",
-      "subtitle": "106K Stars 宝藏仓库，包含 100+ 可运行的 AI Agent 和 RAG 应用，clone 即用",
-      "url": "https://github.com/NirDiamant/awesome-llm-apps",
-      "type": "project",
-      "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "学习",
-        "合集"
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "🚗 高德 ABot-World：世界模型破解具身智能泛化难题",
-      "subtitle": "物理优先 + VLA 闭环进化，实现零样本泛化，机器人不再只会实验室里的动作",
-      "url": "https://www.qbitai.com",
-      "type": "news",
-      "source": "量子位",
-      "time": "今天",
-      "tags": [
-        "前沿",
-        "机器人"
-      ]
-    },
-    {
-      "rank": 11,
-      "title": "🚗 理想汽车 × 高德：首发汽车出行 AI Agent",
-      "subtitle": "理想汽车联合高德地图推出首个汽车场景 AI Agent，导航、车控、服务一站搞定",
-      "url": "https://36kr.com",
-      "type": "news",
-      "source": "36氪",
-      "time": "今天",
-      "tags": [
-        "应用",
-        "汽车"
-      ]
-    },
-    {
       "rank": 12,
-      "title": "💸 autoresearch：单卡 GPU 跑通 AI 科研 Agent",
-      "subtitle": "75K Stars，用 AI Agent 自动化科研流程，从文献综述到实验设计全自动",
-      "url": "https://github.com/overmind-ai/autoresearch",
+      "title": "📚 Mem0：AI Agent 的通用记忆层，5.3 万 Star",
+      "subtitle": "为 AI Agent 提供持久化记忆能力，支持多轮对话上下文管理和跨会话记忆",
+      "url": "https://github.com/mem0ai/mem0",
       "type": "project",
       "source": "GitHub",
-      "time": "热门",
+      "time": "今日",
       "tags": [
         "开源",
-        "科研"
+        "记忆"
       ]
     },
     {
       "rank": 13,
-      "title": "⚡ Agent 杀入软件研发一线！60+ 专家拆解 AI 落地困局",
-      "subtitle": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 Agent 在工程中的真实落地路径",
-      "url": "https://www.qbitai.com",
+      "title": "🌍 Agent 正杀入研发一线！60+ 专家拆解 AI 落地困局",
+      "subtitle": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 Agent 在软件工程中的落地",
+      "url": "https://www.qbitai.com/2026/04/403859.html",
       "type": "news",
       "source": "量子位",
-      "time": "今天",
+      "time": "今日",
       "tags": [
         "行业",
         "Agent"
@@ -173,232 +173,186 @@
     },
     {
       "rank": 14,
-      "title": "🍎 库克正式卸任苹果 CEO",
-      "subtitle": "执掌苹果 14 年后，Tim Cook 卸任 CEO，苹果 AI 战略或将迎来新篇章",
-      "url": "https://36kr.com",
-      "type": "news",
-      "source": "36氪",
-      "time": "今天",
+      "title": "🤖 OpenMantis：轻量多平台 AI Agent 聊天框架",
+      "subtitle": "连接多个 LLM 到飞书等平台，4 月新发布的轻量级多 Agent 框架",
+      "url": "https://github.com/LiangNiang/OpenMantis",
+      "type": "project",
+      "source": "GitHub",
+      "time": "10天前",
       "tags": [
-        "重磅",
-        "科技巨头"
+        "新项目",
+        "多平台"
       ]
     },
     {
       "rank": 15,
-      "title": "🐉 小米上线 PC 版 AI 助手「龙虾」",
-      "subtitle": "Xiaomi miclaw 开启 PC、Mac、有屏音箱多终端封测，小米 AI 生态全面铺开",
-      "url": "https://www.qbitai.com",
+      "title": "💡 AI 提效 20%，程序员加班却更狠：老板的生产力尺子歪了？",
+      "subtitle": "AI 提升开发效率 20% 但加班反而更多，企业以 AI 产出衡量生产力引发行业反思",
+      "url": "https://www.infoq.cn/article/EejvvufwVGEusllYFHgH",
       "type": "news",
-      "source": "量子位",
-      "time": "今天",
+      "source": "InfoQ",
+      "time": "今日",
       "tags": [
-        "新品",
-        "小米"
+        "观点",
+        "行业"
       ]
     }
   ],
   "top_20": [
     {
-      "rank": 1,
-      "title": "🎨 Anthropic 发布 Claude Design：一句话生成完整 UI",
-      "subtitle": "Claude 全新 Design 模式，输入自然语言描述即可生成高质量 UI 设计稿，设计师群体震动",
-      "url": "https://www.anthropic.com",
+      "name": "🔥 Anthropic 发布 Claude Design：一句话生成完整 UI 设计",
+      "detail": "Claude Design 可通过自然语言指令直接生成高保真 UI，挑战 Figma 等传统设计工具",
+      "description": "Claude Design 可通过自然语言指令直接生成高保真 UI，挑战 Figma 等传统设计工具",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "重磅",
-        "新功能"
-      ]
+      "type_label": "📰 新闻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm",
+      "score": 95
     },
     {
-      "rank": 2,
-      "title": "⚡ Opus 4.7 来了：Claude Code 之父分享最佳实践",
-      "subtitle": "Anthropic 发布 Opus 4.7，Claude Code 作者亲授使用心得：模型升级只是开始，开发方式才是关键",
-      "url": "https://www.anthropic.com",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "新模型",
-        "编程"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "💻 Gemini CLI：把 Gemini 直接装进终端",
-      "subtitle": "Google 开源 AI Agent，102K Stars，可直接在命令行中调用 Gemini 完成编码、分析等任务",
+      "name": "💻 Google Gemini CLI 开源：终端直接调用 Gemini 做 AI Agent",
+      "detail": "谷歌开源命令行 AI Agent，10万+ Star，将 Gemini 能力带入开发者终端",
+      "description": "谷歌开源命令行 AI Agent，10万+ Star，将 Gemini 能力带入开发者终端",
+      "type": "project",
+      "type_label": "💻 项目",
+      "source": "GitHub",
       "url": "https://github.com/google-gemini/gemini-cli",
-      "type": "project",
-      "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "开源",
-        "Agent"
-      ]
+      "score": 90
     },
     {
-      "rank": 4,
-      "title": "🔥 Claude 封号潮失控：300 万企业用户一夜断供",
-      "subtitle": "Anthropic 大规模封号无预警、无理由、无回应，受害企业被迫抱团维权，社区一片哗然",
-      "url": "https://www.anthropic.com",
+      "name": "🚨 Claude 封号潮失控：300 万用户企业一夜断供",
+      "detail": "Anthropic 大规模无理由封号引发集体维权，企业客户被迫寻找替代方案",
+      "description": "Anthropic 大规模无理由封号引发集体维权，企业客户被迫寻找替代方案",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "争议",
-        "行业"
-      ]
+      "type_label": "📰 新闻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/ho3Qjql4dzSwA1loVMMY",
+      "score": 85
     },
     {
-      "rank": 5,
-      "title": "🤖 mem0：为 AI Agent 打造通用记忆层",
-      "subtitle": "53K Stars 开源项目，让 Agent 拥有持久记忆能力，支持跨会话、跨应用的记忆管理",
-      "url": "https://github.com/mem0ai/mem0",
-      "type": "project",
-      "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "开源",
-        "Agent"
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "💰 中国具身智能最大单轮融资！前华为百度高管联手创业",
-      "subtitle": "打造能真正干活、可量产的机器人，具身智能赛道迎来重量级玩家",
-      "url": "https://www.infoq.cn",
+      "name": "🧠 Opus 4.7 正式发布：Claude Code 之父传授 AI 编码心法",
+      "detail": "Anthropic 最新旗舰模型，开发者分享关键心得：模型升级只是开始，开发方式才是关键",
+      "description": "Anthropic 最新旗舰模型，开发者分享关键心得：模型升级只是开始，开发方式才是关键",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "融资",
-        "机器人"
-      ]
+      "type_label": "📰 新闻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/YWH4w3Y4fstITE34RFUa",
+      "score": 80
     },
     {
-      "rank": 7,
-      "title": "🌐 browser-use：让 AI 轻松操控任何网站",
-      "subtitle": "89K Stars，最流行的浏览器自动化框架，AI Agent 一键操作网页，零门槛实现 RPA",
+      "name": "🌐 Browser-Use：让 AI Agent 自动操控网页，8.9 万 Star",
+      "detail": "最流行的浏览器自动化 Agent 框架，让 AI 替你完成在线任务",
+      "description": "最流行的浏览器自动化 Agent 框架，让 AI 替你完成在线任务",
+      "type": "project",
+      "type_label": "💻 项目",
+      "source": "GitHub",
       "url": "https://github.com/browser-use/browser-use",
+      "score": 75
+    },
+    {
+      "name": "🤖 Anthropic 内部同时跑 100 个产品原型，新模型 Mythos 断层领先",
+      "detail": "爆料：Anthropic 正在疯狂迭代，Mythos 模型表现远超预期，团队对 skills 效果也感到意外",
+      "description": "爆料：Anthropic 正在疯狂迭代，Mythos 模型表现远超预期，团队对 skills 效果也感到意外",
+      "type": "news",
+      "type_label": "📰 新闻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/KlrsHcFeBKWu9RW85u0a",
+      "score": 70
+    },
+    {
+      "name": "🚀 Karpathy 开源 Autoresearch：单 GPU 自动做 AI 研究，7.5 万 Star",
+      "detail": "Andrej Karpathy 最新力作，AI Agent 在单卡上自动跑研究实验和训练",
+      "description": "Andrej Karpathy 最新力作，AI Agent 在单卡上自动跑研究实验和训练",
       "type": "project",
+      "type_label": "💻 项目",
       "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "开源",
-        "自动化"
-      ]
+      "url": "https://github.com/karpathy/autoresearch",
+      "score": 65
     },
     {
-      "rank": 8,
-      "title": "🧠 Anthropic 内部揭秘：100 个原型并行，Mythos 模型断层领先",
-      "subtitle": "新模型 Mythos 效果惊人，连内部 Skills 功能都好到让团队意外，Anthropic 到底在发生什么？",
-      "url": "https://www.infoq.cn",
+      "name": "🚗 理想汽车首发高德汽车出行 AI Agent",
+      "detail": "理想汽车与高德合作，打造首个汽车出行 AI Agent，支持多轮对话和个性化导航",
+      "description": "理想汽车与高德合作，打造首个汽车出行 AI Agent，支持多轮对话和个性化导航",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "今天",
-      "tags": [
-        "深度",
-        "模型"
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "📚 100+ LLM 应用合集：从 RAG 到 Agent 全覆盖",
-      "subtitle": "106K Stars 宝藏仓库，包含 100+ 可运行的 AI Agent 和 RAG 应用，clone 即用",
-      "url": "https://github.com/NirDiamant/awesome-llm-apps",
-      "type": "project",
-      "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "学习",
-        "合集"
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "🚗 高德 ABot-World：世界模型破解具身智能泛化难题",
-      "subtitle": "物理优先 + VLA 闭环进化，实现零样本泛化，机器人不再只会实验室里的动作",
-      "url": "https://www.qbitai.com",
-      "type": "news",
-      "source": "量子位",
-      "time": "今天",
-      "tags": [
-        "前沿",
-        "机器人"
-      ]
-    },
-    {
-      "rank": 11,
-      "title": "🚗 理想汽车 × 高德：首发汽车出行 AI Agent",
-      "subtitle": "理想汽车联合高德地图推出首个汽车场景 AI Agent，导航、车控、服务一站搞定",
-      "url": "https://36kr.com",
-      "type": "news",
+      "type_label": "📰 新闻",
       "source": "36氪",
-      "time": "今天",
-      "tags": [
-        "应用",
-        "汽车"
-      ]
+      "url": "https://36kr.com/newsflashes/3776210798199556",
+      "score": 60
     },
     {
-      "rank": 12,
-      "title": "💸 autoresearch：单卡 GPU 跑通 AI 科研 Agent",
-      "subtitle": "75K Stars，用 AI Agent 自动化科研流程，从文献综述到实验设计全自动",
-      "url": "https://github.com/overmind-ai/autoresearch",
+      "name": "🧠 quant.cpp：纯 C 实现 7 倍上下文长度 LLM 推理，零依赖",
+      "detail": "量子位出品，无损 KV 缓存压缩技术让 LLM 推理上下文暴增 7 倍",
+      "description": "量子位出品，无损 KV 缓存压缩技术让 LLM 推理上下文暴增 7 倍",
       "type": "project",
+      "type_label": "💻 项目",
       "source": "GitHub",
-      "time": "热门",
-      "tags": [
-        "开源",
-        "科研"
-      ]
+      "url": "https://github.com/quantumaikr/quant.cpp",
+      "score": 55
     },
     {
-      "rank": 13,
-      "title": "⚡ Agent 杀入软件研发一线！60+ 专家拆解 AI 落地困局",
-      "subtitle": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 Agent 在工程中的真实落地路径",
-      "url": "https://www.qbitai.com",
+      "name": "💬 Yelp AI 聊天机器人重大升级：搜索推荐体验焕然一新",
+      "detail": "Yelp 大幅增强 AI 助手能力，搜索和商户推荐体验显著提升",
+      "description": "Yelp 大幅增强 AI 助手能力，搜索和商户推荐体验显著提升",
       "type": "news",
+      "type_label": "📰 新闻",
+      "source": "The Verge",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915626/yelp-ai-assistant-chatbot-major-upgrade",
+      "score": 50
+    },
+    {
+      "name": "🏗️ 中国具身智能最大单轮融资：前华为百度高管联手造机器人",
+      "detail": "前华为、百度高管联手创业，打造可量产的干活机器人，获赛道最大单轮融资",
+      "description": "前华为、百度高管联手创业，打造可量产的干活机器人，获赛道最大单轮融资",
+      "type": "news",
+      "type_label": "📰 新闻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ",
+      "score": 45
+    },
+    {
+      "name": "📚 Mem0：AI Agent 的通用记忆层，5.3 万 Star",
+      "detail": "为 AI Agent 提供持久化记忆能力，支持多轮对话上下文管理和跨会话记忆",
+      "description": "为 AI Agent 提供持久化记忆能力，支持多轮对话上下文管理和跨会话记忆",
+      "type": "project",
+      "type_label": "💻 项目",
+      "source": "GitHub",
+      "url": "https://github.com/mem0ai/mem0",
+      "score": 40
+    },
+    {
+      "name": "🌍 Agent 正杀入研发一线！60+ 专家拆解 AI 落地困局",
+      "detail": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 Agent 在软件工程中的落地",
+      "description": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 Agent 在软件工程中的落地",
+      "type": "news",
+      "type_label": "📰 新闻",
       "source": "量子位",
-      "time": "今天",
-      "tags": [
-        "行业",
-        "Agent"
-      ]
+      "url": "https://www.qbitai.com/2026/04/403859.html",
+      "score": 35
     },
     {
-      "rank": 14,
-      "title": "🍎 库克正式卸任苹果 CEO",
-      "subtitle": "执掌苹果 14 年后，Tim Cook 卸任 CEO，苹果 AI 战略或将迎来新篇章",
-      "url": "https://36kr.com",
-      "type": "news",
-      "source": "36氪",
-      "time": "今天",
-      "tags": [
-        "重磅",
-        "科技巨头"
-      ]
+      "name": "🤖 OpenMantis：轻量多平台 AI Agent 聊天框架",
+      "detail": "连接多个 LLM 到飞书等平台，4 月新发布的轻量级多 Agent 框架",
+      "description": "连接多个 LLM 到飞书等平台，4 月新发布的轻量级多 Agent 框架",
+      "type": "project",
+      "type_label": "💻 项目",
+      "source": "GitHub",
+      "url": "https://github.com/LiangNiang/OpenMantis",
+      "score": 30
     },
     {
-      "rank": 15,
-      "title": "🐉 小米上线 PC 版 AI 助手「龙虾」",
-      "subtitle": "Xiaomi miclaw 开启 PC、Mac、有屏音箱多终端封测，小米 AI 生态全面铺开",
-      "url": "https://www.qbitai.com",
+      "name": "💡 AI 提效 20%，程序员加班却更狠：老板的生产力尺子歪了？",
+      "detail": "AI 提升开发效率 20% 但加班反而更多，企业以 AI 产出衡量生产力引发行业反思",
+      "description": "AI 提升开发效率 20% 但加班反而更多，企业以 AI 产出衡量生产力引发行业反思",
       "type": "news",
-      "source": "量子位",
-      "time": "今天",
-      "tags": [
-        "新品",
-        "小米"
-      ]
+      "type_label": "📰 新闻",
+      "source": "InfoQ",
+      "url": "https://www.infoq.cn/article/EejvvufwVGEusllYFHgH",
+      "score": 25
     }
   ],
   "total": 15,
   "type_stats": {
-    "news": 10,
-    "project": 4,
-    "tool": 1
+    "news": 9,
+    "project": 6
   }
 }
