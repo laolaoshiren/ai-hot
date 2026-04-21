@@ -126,6 +126,31 @@
         <div id="randomResult" style="margin-top:12px"></div>
     </div>
 
+    <!-- 新收录 -->
+    <div class="card">
+        <div class="card-title">🆕 新收录</div>
+        {{ $tools := site.Data.tools }}
+        {{ if $tools }}
+            {{ range first 5 $tools }}
+            {{ if .trending }}
+            <div class="trend-item">
+                <div style="min-width:0;flex:1">
+                    <a href="{{ relURL "/tool/" }}?id={{ .id }}">{{ .name }}</a>
+                    <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
+                </div>
+                <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
+            </div>
+            {{ end }}
+            {{ end }}
+        {{ end }}
+    </div>
+
+    <!-- 本周变化 -->
+    <div class="card" id="weeklyDigest" style="display:none;border-left:3px solid var(--green)">
+        <div class="card-title">📊 本周摘要</div>
+        <div id="weeklyContent" style="font-size:13px;color:var(--text2);line-height:1.8"></div>
+    </div>
+
     <!-- 实时关键词 -->
     <div class="card">
         <div class="card-title">🔑 热搜关键词</div>
@@ -294,6 +319,73 @@ document.getElementById('searchInput').addEventListener('keydown', function(e) {
         if (q) window.location.href = '{{ relURL "/search/" }}?q=' + encodeURIComponent(q);
     }
 });
+
+// 连续访问里程碑
+(function(){
+    const key = 'aihot_streak';
+    const today = new Date().toISOString().slice(0,10);
+    let data = JSON.parse(localStorage.getItem(key) || '{"streak":0,"last":"","milestones":[]}');
+    let milestone = '';
+
+    if(data.last !== today) {
+        const yesterday = new Date(Date.now()-86400000).toISOString().slice(0,10);
+        if(data.last === yesterday) { data.streak++; }
+        else { data.streak = 1; }
+        data.last = today;
+        localStorage.setItem(key, JSON.stringify(data));
+    }
+
+    // 里程碑
+    const ms = [3, 7, 14, 30, 60, 100];
+    for (const m of ms) {
+        if (data.streak === m && !(data.milestones||[]).includes(m)) {
+            milestone = '🎉 恭喜！连续访问 ' + m + ' 天！';
+            if (!data.milestones) data.milestones = [];
+            data.milestones.push(m);
+            localStorage.setItem(key, JSON.stringify(data));
+            break;
+        }
+    }
+
+    const el = document.getElementById('streak');
+    if(data.streak > 0) {
+        let text = '🔥 连续访问 ' + data.streak + ' 天';
+        if (data.streak >= 100) text = '👑 ' + text + ' 传奇用户';
+        else if (data.streak >= 30) text = '💎 ' + text + ' 核心用户';
+        else if (data.streak >= 7) text = '⭐ ' + text;
+        el.textContent = text;
+    }
+
+    if (milestone) {
+        const div = document.createElement('div');
+        div.style.cssText = 'position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:var(--bg2);border:2px solid var(--accent);border-radius:12px;padding:32px 48px;z-index:9999;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.5)';
+        div.innerHTML = '<div style="font-size:48px;margin-bottom:12px">🎉</div><div style="font-size:20px;font-weight:700;color:var(--accent);margin-bottom:8px">' + milestone + '</div><div style="font-size:13px;color:var(--text2);margin-bottom:16px">感谢你的持续关注！</div><button onclick="this.parentElement.remove()" style="padding:8px 24px;background:var(--accent);border:none;border-radius:6px;color:#fff;cursor:pointer;font-size:14px">继续探索 →</button>';
+        document.body.appendChild(div);
+        setTimeout(() => div.remove(), 5000);
+    }
+})();
+
+// 本周摘要
+(function(){
+    const tools = {{ site.Data.tools | jsonify | safeJS }} || [];
+    const models = {{ site.Data.models | jsonify | safeJS }} || [];
+    const news = {{ site.Data.news | jsonify | safeJS }} || [];
+
+    const trending = tools.filter(t => t.trending).length;
+    const freeTools = tools.filter(t => t.free_quota && t.free_quota.includes('免费')).length;
+    const el = document.getElementById('weeklyDigest');
+    const content = document.getElementById('weeklyContent');
+
+    if (tools.length > 0) {
+        el.style.display = '';
+        content.innerHTML = '📊 收录 <strong style="color:var(--accent)">' + tools.length + '</strong> 个 AI 工具 · '
+            + '<strong style="color:var(--accent)">' + models.length + '</strong> 个模型 · '
+            + '<strong style="color:var(--accent)">' + news.length + '</strong> 条新闻<br>'
+            + '🔥 其中 <strong>' + trending + '</strong> 个热门工具 · '
+            + '🎁 <strong>' + freeTools + '</strong> 个有免费额度<br>'
+            + '📰 每6小时自动更新，数据开源透明';
+    }
+})();
 </script>
 
 {{ end }}
