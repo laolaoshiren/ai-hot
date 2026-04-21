@@ -13,8 +13,8 @@
   {
     "id": "hermes-agent",
     "name": "Hermes Agent",
-    "url": "https://github.com/hermes-ai/hermes",
-    "description": "全功能AI Agent框架，支持多模型多平台，内置持久记忆和技能系统",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "description": "Nous Research 开源 AI Agent 框架，支持 Telegram/Discord/CLI，内置记忆和技能系统",
     "type": "助手 Agent",
     "pricing": "开源 + API费用",
     "difficulty": 2,
