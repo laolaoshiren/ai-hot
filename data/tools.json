@@ -37,7 +37,8 @@
       "copilot",
       "codeium",
       "tabnine"
-    ]
+    ],
+    "score": 40
   },
   {
     "id": "github-copilot",
@@ -76,7 +77,8 @@
       "cursor",
       "codeium",
       "tabnine"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "claude-code",
@@ -93,7 +95,8 @@
       "#anthropic"
     ],
     "featured": true,
-    "use_cases": "终端编程、代码重构、PR生成、自动化开发"
+    "use_cases": "终端编程、代码重构、PR生成、自动化开发",
+    "score": 70
   },
   {
     "id": "codex-cli",
@@ -109,7 +112,8 @@
       "#cli",
       "#openai"
     ],
-    "featured": true
+    "featured": true,
+    "score": 50
   },
   {
     "id": "codeium",
@@ -125,7 +129,8 @@
       "#free",
       "#autocomplete"
     ],
-    "featured": true
+    "featured": true,
+    "score": 60
   },
   {
     "id": "continue",
@@ -142,7 +147,8 @@
       "#custom-llm"
     ],
     "featured": true,
-    "use_cases": "VS Code/JetBrains AI助手、自定义模型、私有部署"
+    "use_cases": "VS Code/JetBrains AI助手、自定义模型、私有部署",
+    "score": 80
   },
   {
     "id": "windsurf",
@@ -158,7 +164,8 @@
       "#ide",
       "#agent"
     ],
-    "featured": true
+    "featured": true,
+    "score": 60
   },
   {
     "id": "trae",
@@ -175,7 +182,8 @@
       "#chinese",
       "#free"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "midjourney",
@@ -213,7 +221,8 @@
       "dalle3",
       "stable-diffusion",
       "adobe-firefly"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "stable-diffusion",
@@ -251,7 +260,8 @@
       "midjourney",
       "dalle3",
       "comfyui"
-    ]
+    ],
+    "score": 80
   },
   {
     "id": "flux",
@@ -269,7 +279,8 @@
     ],
     "trending": true,
     "featured": true,
-    "use_cases": "开源图像生成、本地部署、商业应用"
+    "use_cases": "开源图像生成、本地部署、商业应用",
+    "score": 70
   },
   {
     "id": "comfyui",
@@ -307,7 +318,8 @@
       "stable-diffusion-webui",
       "fooocus",
       "automatic1111"
-    ]
+    ],
+    "score": 80
   },
   {
     "id": "dalle3",
@@ -344,7 +356,8 @@
       "midjourney",
       "stable-diffusion",
       "adobe-firefly"
-    ]
+    ],
+    "score": 70
   },
   {
     "id": "可灵",
@@ -361,7 +374,8 @@
       "#free"
     ],
     "trending": true,
-    "featured": true
+    "featured": true,
+    "score": 70
   },
   {
     "id": "pika",
@@ -376,7 +390,8 @@
       "#video",
       "#easy"
     ],
-    "featured": true
+    "featured": true,
+    "score": 70
   },
   {
     "id": "sora",
@@ -391,7 +406,8 @@
       "#video",
       "#openai"
     ],
-    "featured": true
+    "featured": true,
+    "score": 60
   },
   {
     "id": "chatgpt",
@@ -429,7 +445,8 @@
       "claude",
       "gemini",
       "kimi"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "claude",
@@ -467,7 +484,8 @@
       "chatgpt",
       "gemini",
       "deepseek"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "gemini",
@@ -483,7 +501,8 @@
       "#google",
       "#multimodal"
     ],
-    "featured": true
+    "featured": true,
+    "score": 60
   },
   {
     "id": "deepseek",
@@ -523,7 +542,8 @@
       "chatgpt",
       "claude",
       "kimi"
-    ]
+    ],
+    "score": 70
   },
   {
     "id": "kimi",
@@ -561,7 +581,8 @@
       "claude",
       "chatgpt",
       "deepseek"
-    ]
+    ],
+    "score": 70
   },
   {
     "id": "豆包",
@@ -578,7 +599,8 @@
       "#free",
       "#bytedance"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "通义千问",
@@ -594,7 +616,8 @@
       "#chinese",
       "#alibaba"
     ],
-    "featured": true
+    "featured": true,
+    "score": 70
   },
   {
     "id": "文心一言",
@@ -610,7 +633,8 @@
       "#chinese",
       "#baidu"
     ],
-    "featured": true
+    "featured": true,
+    "score": 70
   },
   {
     "id": "perplexity",
@@ -647,7 +671,8 @@
       "chatgpt",
       "claude",
       "bing-copilot"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "秘塔搜索",
@@ -663,7 +688,8 @@
       "#chinese",
       "#free"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "jasper",
@@ -678,7 +704,8 @@
       "#writing",
       "#marketing"
     ],
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "id": "notion-ai",
@@ -716,7 +743,8 @@
       "chatgpt",
       "claude",
       "grammarly"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "gamma",
@@ -733,7 +761,8 @@
       "#free"
     ],
     "featured": true,
-    "use_cases": "PPT自动生成、演示文稿、报告制作"
+    "use_cases": "PPT自动生成、演示文稿、报告制作",
+    "score": 60
   },
   {
     "id": "aippt",
@@ -748,7 +777,8 @@
       "#ppt",
       "#chinese"
     ],
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "id": "notebooklm",
@@ -766,7 +796,8 @@
       "#rag"
     ],
     "featured": true,
-    "use_cases": "笔记整理、知识管理、文档问答、学习辅助"
+    "use_cases": "笔记整理、知识管理、文档问答、学习辅助",
+    "score": 80
   },
   {
     "id": "dify",
@@ -805,7 +836,8 @@
       "coze",
       "langchain",
       "fastgpt"
-    ]
+    ],
+    "score": 70
   },
   {
     "id": "coze",
@@ -843,7 +875,8 @@
       "dify",
       "langchain",
       "botpress"
-    ]
+    ],
+    "score": 80
   },
   {
     "id": "langchain",
@@ -860,7 +893,8 @@
       "#opensource",
       "#python"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "autogen",
@@ -876,7 +910,8 @@
       "#multi-agent",
       "#microsoft"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "crewai",
@@ -892,7 +927,8 @@
       "#multi-agent",
       "#easy"
     ],
-    "featured": true
+    "featured": true,
+    "score": 70
   },
   {
     "id": "ollama",
@@ -931,7 +967,8 @@
       "lmstudio",
       "gpt4all",
       "jan"
-    ]
+    ],
+    "score": 80
   },
   {
     "id": "lmstudio",
@@ -947,7 +984,8 @@
       "#gui",
       "#free"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "vllm",
@@ -963,7 +1001,8 @@
       "#opensource",
       "#performance"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "whisper",
@@ -979,7 +1018,8 @@
       "#opensource",
       "#openai"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "fish-speech",
@@ -995,7 +1035,8 @@
       "#opensource",
       "#chinese"
     ],
-    "featured": true
+    "featured": true,
+    "score": 80
   },
   {
     "id": "suno",
@@ -1011,7 +1052,8 @@
       "#generation"
     ],
     "featured": true,
-    "use_cases": "歌曲创作、背景音乐、短视频配乐、音乐灵感"
+    "use_cases": "歌曲创作、背景音乐、短视频配乐、音乐灵感",
+    "score": 60
   },
   {
     "id": "udio",
@@ -1026,7 +1068,8 @@
       "#music",
       "#generation"
     ],
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "id": "aider",
@@ -1043,7 +1086,8 @@
     "trending": true,
     "featured": true,
     "free_quota": "完全免费",
-    "use_cases": "终端编程、Git集成、多文件编辑、代码审查"
+    "use_cases": "终端编程、Git集成、多文件编辑、代码审查",
+    "score": 80
   },
   {
     "id": "tabnine",
@@ -1057,7 +1101,8 @@
       "#autocomplete"
     ],
     "url": "https://tabnine.com",
-    "free_quota": "基础补全免费"
+    "free_quota": "基础补全免费",
+    "score": 60
   },
   {
     "id": "replit-ai",
@@ -1071,7 +1116,8 @@
       "#ide"
     ],
     "url": "https://replit.com",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 60
   },
   {
     "id": "sourcegraph-cody",
@@ -1085,7 +1131,8 @@
       "#enterprise"
     ],
     "url": "https://sourcegraph.com/cody",
-    "free_quota": "个人免费"
+    "free_quota": "个人免费",
+    "score": 60
   },
   {
     "id": "supermaven",
@@ -1101,7 +1148,8 @@
     "url": "https://supermaven.com",
     "trending": true,
     "free_quota": "个人免费",
-    "use_cases": "极速代码补全、低延迟、IDE集成"
+    "use_cases": "极速代码补全、低延迟、IDE集成",
+    "score": 60
   },
   {
     "id": "codestral",
@@ -1115,7 +1163,8 @@
       "#mistral"
     ],
     "url": "https://mistral.ai",
-    "free_quota": "API免费额度"
+    "free_quota": "API免费额度",
+    "score": 70
   },
   {
     "id": "glm-4",
@@ -1129,7 +1178,8 @@
       "#glm"
     ],
     "url": "https://chatglm.cn",
-    "free_quota": "对话免费"
+    "free_quota": "对话免费",
+    "score": 70
   },
   {
     "id": "baichuan",
@@ -1143,7 +1193,8 @@
       "#free"
     ],
     "url": "https://ying.baichuan-ai.com",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "hailuo",
@@ -1157,7 +1208,8 @@
       "#minimax"
     ],
     "url": "https://hailuoai.com",
-    "free_quota": "基础免费"
+    "free_quota": "基础免费",
+    "score": 70
   },
   {
     "id": "pi-ai",
@@ -1171,7 +1223,8 @@
       "#emotional"
     ],
     "url": "https://pi.ai",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "you-com",
@@ -1185,7 +1238,8 @@
       "#privacy"
     ],
     "url": "https://you.com",
-    "free_quota": "基础搜索免费"
+    "free_quota": "基础搜索免费",
+    "score": 60
   },
   {
     "id": "phind",
@@ -1199,7 +1253,8 @@
       "#developer"
     ],
     "url": "https://phind.com",
-    "free_quota": "基础搜索免费"
+    "free_quota": "基础搜索免费",
+    "score": 60
   },
   {
     "id": "grammarly",
@@ -1234,7 +1289,8 @@
       "chatgpt",
       "notion-ai",
       "quillbot"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "writesonic",
@@ -1248,7 +1304,8 @@
       "#marketing"
     ],
     "url": "https://writesonic.com",
-    "free_quota": "免费试用"
+    "free_quota": "免费试用",
+    "score": 60
   },
   {
     "id": "copy-ai",
@@ -1262,7 +1319,8 @@
       "#copywriting"
     ],
     "url": "https://copy.ai",
-    "free_quota": "免费2000字/月"
+    "free_quota": "免费2000字/月",
+    "score": 60
   },
   {
     "id": "quillbot",
@@ -1276,7 +1334,8 @@
       "#grammar"
     ],
     "url": "https://quillbot.com",
-    "free_quota": "基础改写免费"
+    "free_quota": "基础改写免费",
+    "score": 60
   },
   {
     "id": "秘塔写作猫",
@@ -1290,7 +1349,8 @@
       "#free"
     ],
     "url": "https://xiezuocat.com",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 70
   },
   {
     "id": "火山写作",
@@ -1304,7 +1364,8 @@
       "#free"
     ],
     "url": "https://writingo.net",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "leonardo-ai",
@@ -1320,7 +1381,8 @@
     "url": "https://leonardo.ai",
     "trending": true,
     "free_quota": "每日150张免费",
-    "use_cases": "游戏素材、角色设计、产品图、概念艺术"
+    "use_cases": "游戏素材、角色设计、产品图、概念艺术",
+    "score": 60
   },
   {
     "id": "ideogram",
@@ -1334,7 +1396,8 @@
       "#generation"
     ],
     "url": "https://ideogram.ai",
-    "free_quota": "每日25张免费"
+    "free_quota": "每日25张免费",
+    "score": 60
   },
   {
     "id": "playground-ai",
@@ -1348,7 +1411,8 @@
       "#generation"
     ],
     "url": "https://playground.com",
-    "free_quota": "每日500张免费"
+    "free_quota": "每日500张免费",
+    "score": 60
   },
   {
     "id": "哩布哩布",
@@ -1362,7 +1426,8 @@
       "#community"
     ],
     "url": "https://liblib.ai",
-    "free_quota": "每日免费额度"
+    "free_quota": "每日免费额度",
+    "score": 70
   },
   {
     "id": "luma-dream",
@@ -1376,7 +1441,8 @@
       "#luma"
     ],
     "url": "https://lumalabs.ai/dream-machine",
-    "free_quota": "每月30次免费"
+    "free_quota": "每月30次免费",
+    "score": 60
   },
   {
     "id": "vidu",
@@ -1390,7 +1456,8 @@
       "#generation"
     ],
     "url": "https://www.vidu.com",
-    "free_quota": "免费试用"
+    "free_quota": "免费试用",
+    "score": 70
   },
   {
     "id": "beautiful-ai",
@@ -1404,7 +1471,8 @@
       "#auto"
     ],
     "url": "https://beautiful.ai",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 60
   },
   {
     "id": "tome",
@@ -1418,7 +1486,8 @@
       "#ai"
     ],
     "url": "https://tome.app",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 60
   },
   {
     "id": "slides-ai",
@@ -1432,7 +1501,8 @@
       "#plugin"
     ],
     "url": "https://slidesai.io",
-    "free_quota": "每月3次免费"
+    "free_quota": "每月3次免费",
+    "score": 60
   },
   {
     "id": "通义效率",
@@ -1446,7 +1516,8 @@
       "#free"
     ],
     "url": "https://tongyi.aliyun.com/xiaolv",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "wps-ai",
@@ -1460,7 +1531,8 @@
       "#wps"
     ],
     "url": "https://ai.wps.cn",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 70
   },
   {
     "id": "kagi",
@@ -1474,7 +1546,8 @@
       "#no-ads"
     ],
     "url": "https://kagi.com",
-    "free_quota": "无免费"
+    "free_quota": "无免费",
+    "score": 60
   },
   {
     "id": "天工AI搜索",
@@ -1488,7 +1561,8 @@
       "#free"
     ],
     "url": "https://www.tiangong.cn",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "博查AI",
@@ -1502,7 +1576,8 @@
       "#knowledge"
     ],
     "url": "https://bochaai.com",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "elevenlabs",
@@ -1539,7 +1614,8 @@
       "azure-tts",
       "google-tts",
       "fish-audio"
-    ]
+    ],
+    "score": 60
   },
   {
     "id": "azure-tts",
@@ -1553,7 +1629,8 @@
       "#api"
     ],
     "url": "https://azure.microsoft.com/ai",
-    "free_quota": "每月50万字符免费"
+    "free_quota": "每月50万字符免费",
+    "score": 70
   },
   {
     "id": "coqui-ai",
@@ -1567,7 +1644,8 @@
       "#clone"
     ],
     "url": "https://coqui.ai",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "chat-tts",
@@ -1582,7 +1660,8 @@
     ],
     "url": "https://github.com/2noise/ChatTTS",
     "trending": true,
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "musicfy",
@@ -1596,7 +1675,8 @@
       "#generation"
     ],
     "url": "https://musicfy.lol",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 60
   },
   {
     "id": "aiva",
@@ -1610,7 +1690,8 @@
       "#professional"
     ],
     "url": "https://aiva.ai",
-    "free_quota": "免费下载3首/月"
+    "free_quota": "免费下载3首/月",
+    "score": 60
   },
   {
     "id": "mubert",
@@ -1624,7 +1705,8 @@
       "#royalty-free"
     ],
     "url": "https://mubert.com",
-    "free_quota": "基础功能免费"
+    "free_quota": "基础功能免费",
+    "score": 60
   },
   {
     "id": "autogpt",
@@ -1640,7 +1722,8 @@
     "url": "https://agpt.co",
     "trending": true,
     "free_quota": "完全免费",
-    "use_cases": "自主任务执行、网络搜索、文件操作、自动化"
+    "use_cases": "自主任务执行、网络搜索、文件操作、自动化",
+    "score": 80
   },
   {
     "id": "babyagi",
@@ -1654,7 +1737,8 @@
       "#task"
     ],
     "url": "https://github.com/yoheinakajima/babyagi",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "metagpt",
@@ -1668,7 +1752,8 @@
       "#software"
     ],
     "url": "https://github.com/geekan/MetaGPT",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "gpt4all",
@@ -1682,7 +1767,8 @@
       "#opensource"
     ],
     "url": "https://gpt4all.io",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "jan-ai",
@@ -1696,7 +1782,8 @@
       "#chat"
     ],
     "url": "https://jan.ai",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "text-generation-webui",
@@ -1710,7 +1797,8 @@
       "#advanced"
     ],
     "url": "https://github.com/oobabooga/text-generation-webui",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "koboldcpp",
@@ -1724,7 +1812,8 @@
       "#lightweight"
     ],
     "url": "https://github.com/LostRuins/koboldcpp",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "tensorrt-llm",
@@ -1738,7 +1827,8 @@
       "#performance"
     ],
     "url": "https://github.com/NVIDIA/TensorRT-LLM",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "tgi",
@@ -1752,7 +1842,8 @@
       "#server"
     ],
     "url": "https://github.com/huggingface/text-generation-inference",
-    "free_quota": "完全免费"
+    "free_quota": "完全免费",
+    "score": 80
   },
   {
     "id": "sglang",
@@ -1768,7 +1859,8 @@
     "url": "https://github.com/sgl-project/sglang",
     "trending": true,
     "free_quota": "完全免费",
-    "use_cases": "高性能推理、API服务、模型部署"
+    "use_cases": "高性能推理、API服务、模型部署",
+    "score": 80
   },
   {
     "id": "doubao-seedance",
@@ -1782,7 +1874,8 @@
       "#doubao"
     ],
     "url": "https://jimeng.jianying.com",
-    "free_quota": "每日免费额度"
+    "free_quota": "每日免费额度",
+    "score": 70
   },
   {
     "name": "Duolingo Max",
@@ -1801,7 +1894,8 @@
     "id": "duolingo-max",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Khan Academy AI",
@@ -1820,7 +1914,8 @@
     "id": "khan-academy-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Socratic by Google",
@@ -1839,7 +1934,8 @@
     "id": "socratic-by-google",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Quizlet AI",
@@ -1858,7 +1954,8 @@
     "id": "quizlet-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Photomath",
@@ -1877,7 +1974,8 @@
     "id": "photomath",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Elsa Speak",
@@ -1896,7 +1994,8 @@
     "id": "elsa-speak",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 40
   },
   {
     "name": "Century Tech",
@@ -1915,7 +2014,8 @@
     "id": "century-tech",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Gradescope",
@@ -1934,7 +2034,8 @@
     "id": "gradescope",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Ada Health",
@@ -1953,7 +2054,8 @@
     "id": "ada-health",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Babylon Health",
@@ -1972,7 +2074,8 @@
     "id": "babylon-health",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Woebot",
@@ -1991,7 +2094,8 @@
     "id": "woebot",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Your.MD",
@@ -2010,7 +2114,8 @@
     "id": "your-md",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Fitbit AI",
@@ -2029,7 +2134,8 @@
     "id": "fitbit-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Tempus",
@@ -2048,7 +2154,8 @@
     "id": "tempus",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "DoNotPay",
@@ -2067,7 +2174,8 @@
     "id": "donotpay",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "LawGeex",
@@ -2086,7 +2194,8 @@
     "id": "lawgeex",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Kira Systems",
@@ -2105,7 +2214,8 @@
     "id": "kira-systems",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "CaseText",
@@ -2124,7 +2234,8 @@
     "id": "casetext",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Juro",
@@ -2143,7 +2254,8 @@
     "id": "juro",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Luminance",
@@ -2162,7 +2274,8 @@
     "id": "luminance",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Wealthfront",
@@ -2181,7 +2294,8 @@
     "id": "wealthfront",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Betterment",
@@ -2200,7 +2314,8 @@
     "id": "betterment",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Kavout",
@@ -2219,7 +2334,8 @@
     "id": "kavout",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Upstart",
@@ -2238,7 +2354,8 @@
     "id": "upstart",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "AlphaSense",
@@ -2257,7 +2374,8 @@
     "id": "alphasense",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Sentieo",
@@ -2276,7 +2394,8 @@
     "id": "sentieo",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Kensho",
@@ -2295,7 +2414,8 @@
     "id": "kensho",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Zest AI",
@@ -2314,7 +2434,8 @@
     "id": "zest-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Canva AI",
@@ -2333,7 +2454,8 @@
     "id": "canva-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Figma AI",
@@ -2352,7 +2474,8 @@
     "id": "figma-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Adobe Firefly",
@@ -2371,7 +2494,8 @@
     "id": "adobe-firefly",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Runway ML",
@@ -2390,7 +2514,8 @@
     "id": "runway-ml",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Looka",
@@ -2409,7 +2534,8 @@
     "id": "looka",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "MarketMuse",
@@ -2428,7 +2554,8 @@
     "id": "marketmuse",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Persado",
@@ -2447,7 +2574,8 @@
     "id": "persado",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Phrasee",
@@ -2466,7 +2594,8 @@
     "id": "phrasee",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Albert AI",
@@ -2485,7 +2614,8 @@
     "id": "albert-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Intercom AI",
@@ -2504,7 +2634,8 @@
     "id": "intercom-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Zendesk AI",
@@ -2523,7 +2654,8 @@
     "id": "zendesk-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Drift",
@@ -2542,7 +2674,8 @@
     "id": "drift",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Ada",
@@ -2561,7 +2694,8 @@
     "id": "ada",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Freshdesk AI",
@@ -2580,7 +2714,8 @@
     "id": "freshdesk-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Kustomer",
@@ -2599,7 +2734,8 @@
     "id": "kustomer",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Tableau AI",
@@ -2618,7 +2754,8 @@
     "id": "tableau-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Power BI AI",
@@ -2637,7 +2774,8 @@
     "id": "power-bi-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Alteryx",
@@ -2656,7 +2794,8 @@
     "id": "alteryx",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "DataRobot",
@@ -2675,7 +2814,8 @@
     "id": "datarobot",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "H2O.ai",
@@ -2694,7 +2834,8 @@
     "id": "h2o-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Sisense",
@@ -2713,7 +2854,8 @@
     "id": "sisense",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Qlik Sense",
@@ -2732,7 +2874,8 @@
     "id": "qlik-sense",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "ThoughtSpot",
@@ -2751,7 +2894,8 @@
     "id": "thoughtspot",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "DeepL",
@@ -2770,7 +2914,8 @@
     "id": "deepl",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 40
   },
   {
     "name": "Google Translate",
@@ -2789,7 +2934,8 @@
     "id": "google-translate",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Microsoft Translator",
@@ -2808,7 +2954,8 @@
     "id": "microsoft-translator",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Smartling",
@@ -2827,7 +2974,8 @@
     "id": "smartling",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Lilt",
@@ -2846,7 +2994,8 @@
     "id": "lilt",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Unbabel",
@@ -2865,7 +3014,8 @@
     "id": "unbabel",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Otter.ai",
@@ -2884,7 +3034,8 @@
     "id": "otter-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 40
   },
   {
     "name": "Fireflies.ai",
@@ -2903,7 +3054,8 @@
     "id": "fireflies-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Grain",
@@ -2922,7 +3074,8 @@
     "id": "grain",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Fathom",
@@ -2941,7 +3094,8 @@
     "id": "fathom",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 80
   },
   {
     "name": "Avoma",
@@ -2960,7 +3114,8 @@
     "id": "avoma",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Chorus.ai",
@@ -2979,7 +3134,8 @@
     "id": "chorus-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Resume.io",
@@ -2998,7 +3154,8 @@
     "id": "resume-io",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Kickresume",
@@ -3017,7 +3174,8 @@
     "id": "kickresume",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Jobscan",
@@ -3036,7 +3194,8 @@
     "id": "jobscan",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 40
   },
   {
     "name": "Teal",
@@ -3055,7 +3214,8 @@
     "id": "teal",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Rezi",
@@ -3074,7 +3234,8 @@
     "id": "rezi",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Zety",
@@ -3093,7 +3254,8 @@
     "id": "zety",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Shopify AI",
@@ -3112,7 +3274,8 @@
     "id": "shopify-ai",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 60
   },
   {
     "name": "Klaviyo",
@@ -3131,7 +3294,8 @@
     "id": "klaviyo",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "name": "Dynamic Yield",
@@ -3150,7 +3314,8 @@
     "id": "dynamic-yield",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Bloomreach",
@@ -3169,7 +3334,8 @@
     "id": "bloomreach",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Nosto",
@@ -3188,7 +3354,8 @@
     "id": "nosto",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 50
   },
   {
     "name": "Clerk.io",
@@ -3207,7 +3374,8 @@
     "id": "clerk-io",
     "stars": null,
     "trending": false,
-    "featured": false
+    "featured": false,
+    "score": 70
   },
   {
     "id": "codeburn",
@@ -3225,6 +3393,7 @@
       "监控"
     ],
     "source": "hermes_discover",
-    "last_seen": "2026-04-22"
+    "last_seen": "2026-04-22",
+    "score": 80
   }
 ]
