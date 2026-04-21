@@ -181,7 +181,7 @@
   {
     "id": "nvidia",
     "name": "NVIDIA NIM",
-    "url": "https://build.nvidia.com",
+    "url": "https://build.nvidia.com/explore/reasoning",
     "logo": "🟢",
     "models": [
       "Llama 3.1 NIM",
@@ -208,7 +208,7 @@
   {
     "id": "azure-openai",
     "name": "Azure OpenAI",
-    "url": "https://azure.microsoft.com/products/ai-services/openai-service",
+    "url": "https://azure.microsoft.com/en-us/products/ai-services/openai-service",
     "logo": "🔵",
     "models": [
       "GPT-4o",
