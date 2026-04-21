@@ -31,12 +31,13 @@
 
         /* Header */
         header {
-            background: var(--bg2); border-bottom: 1px solid var(--border);
+            background: var(--bg2); border-bottom: 2px solid var(--border);
             position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.3);
         }
         .header-inner {
             display: flex; align-items: center; justify-content: space-between;
-            padding: 20px 0;
+            padding: 24px 0;
         }
         .logo { font-size: 24px; font-weight: 800; color: var(--accent); }
         .logo span { color: var(--text); font-weight: 400; font-size: 14px; margin-left: 8px; }
@@ -46,7 +47,7 @@
         .streak { color: var(--accent); font-size: 13px; }
 
         /* Main */
-        main { padding: 24px 0; margin-top: 24px; }
+        main { padding: 24px 0; margin-top: 32px; }
         .grid { display: grid; grid-template-columns: 1fr 340px; gap: 24px; }
         @media (max-width: 768px) { 
             .grid { grid-template-columns: 1fr; }
