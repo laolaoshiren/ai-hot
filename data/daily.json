@@ -1,38 +1,42 @@
 {
-  "updated_at": "2026-04-21T00:07:18.894265",
+  "updated_at": "2026-04-21T07:27:25.486082",
   "date": "2026-04-21",
   "spotlight": {
-    "name": "Continue",
-    "url": "https://continue.dev",
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
     "type": "tool",
-    "description": "开源 AI 编程助手，可接入任意 LLM",
-    "pricing": "开源免费",
+    "description": "OpenAI 官方终端编程助手，轻量快速",
+    "pricing": "按 API 使用量计费",
     "category": "编程"
   },
   "alternates": [
     {
-      "name": "Claude Code",
-      "url": "https://docs.anthropic.com/en/docs/claude-code",
-      "type": "agent",
-      "description": "Anthropic CLI 编程智能体，终端内全自主编程",
-      "pricing": "API 按量",
-      "category": "编程 Agent"
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "type": "tool",
+      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "pricing": "开源免费",
+      "category": "编程"
     },
     {
-      "name": "秘塔 AI 搜索",
-      "url": "https://metaso.cn",
+      "id": "通义千问",
+      "name": "通义千问",
+      "url": "https://tongyi.aliyun.com",
       "type": "tool",
-      "description": "国产 AI 搜索引擎，中文体验优秀",
-      "pricing": "免费",
-      "category": "搜索"
+      "description": "阿里巴巴出品的 AI 助手",
+      "pricing": "免费 + API 按量",
+      "category": "对话"
     },
     {
-      "name": "FLUX",
-      "url": "https://blackforestlabs.ai",
+      "id": "windsurf",
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
       "type": "tool",
-      "description": "新一代开源图像生成模型，质量超越 SD",
-      "pricing": "开源 + 商业 API",
-      "category": "绘画"
+      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
+      "pricing": "免费 + Pro $15/月",
+      "category": "编程"
     }
   ]
 }
