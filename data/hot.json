@@ -1,133 +1,7 @@
 {
-  "updated_at": "2026-04-20T18:55:45.132520",
-  "total": 108,
+  "updated_at": "2026-04-21T00:07:18.893639",
+  "total": 97,
   "hot_list": [
-    {
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 104965 (+2930/天)",
-      "description": "The agent that grows with you"
-    },
-    {
-      "name": "everything-claude-code",
-      "url": "https://github.com/affaan-m/everything-claude-code",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 162004 (+982/天)",
-      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
-    },
-    {
-      "name": "career-ops",
-      "url": "https://github.com/santifer/career-ops",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 36873 (+632/天)",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
-    },
-    {
-      "name": "TrendRadar",
-      "url": "https://github.com/sansan0/TrendRadar",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 52905 (+497/天)",
-      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。"
-    },
-    {
-      "name": "paperless-ngx",
-      "url": "https://github.com/paperless-ngx/paperless-ngx",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 39314 (+491/天)",
-      "description": "A community-supported supercharged document management system: scan, index and archive all your documents"
-    },
-    {
-      "name": "mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 48439 (+368/天)",
-      "description": "The best-benchmarked open-source AI memory system. And it's free."
-    },
-    {
-      "name": "firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 111085 (+363/天)",
-      "description": "🔥 The API to search, scrape, and interact with the web for AI"
-    },
-    {
-      "name": "browser-use",
-      "url": "https://github.com/browser-use/browser-use",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 88895 (+281/天)",
-      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
-    },
-    {
-      "name": "learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 55124 (+257/天)",
-      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1"
-    },
-    {
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "type": "project",
-      "source": "GitHub",
-      "score": 49.12,
-      "detail": "⭐ 51949 (+246/天)",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
-    },
-    {
-      "name": "deer-flow",
-      "url": "https://github.com/bytedance/deer-flow",
-      "type": "project",
-      "source": "GitHub",
-      "score": 45.62,
-      "detail": "⭐ 62955 (+228/天)",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours."
-    },
-    {
-      "name": "dify",
-      "url": "https://github.com/langgenius/dify",
-      "type": "project",
-      "source": "GitHub",
-      "score": 42.1,
-      "detail": "⭐ 138502 (+210/天)",
-      "description": "Production-ready platform for agentic workflow development."
-    },
-    {
-      "name": "open-webui",
-      "url": "https://github.com/open-webui/open-webui",
-      "type": "project",
-      "source": "GitHub",
-      "score": 42.1,
-      "detail": "⭐ 132833 (+210/天)",
-      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
-    },
-    {
-      "name": "langchain",
-      "url": "https://github.com/langchain-ai/langchain",
-      "type": "project",
-      "source": "GitHub",
-      "score": 35,
-      "detail": "⭐ 134202",
-      "description": "The agent engineering platform"
-    },
     {
       "name": "tensorflow",
       "url": "https://github.com/tensorflow/tensorflow",
@@ -154,6 +28,15 @@
       "score": 35,
       "detail": "⭐ 169528",
       "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
+    },
+    {
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 162004",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
       "name": "prompts.chat",
@@ -190,6 +73,51 @@
       "score": 35,
       "detail": "⭐ 142000",
       "description": "Stable Diffusion Web UI"
+    },
+    {
+      "name": "dify",
+      "url": "https://github.com/langgenius/dify",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 138502",
+      "description": "Production-ready platform for agentic workflow development."
+    },
+    {
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 134202",
+      "description": "The agent engineering platform"
+    },
+    {
+      "name": "open-webui",
+      "url": "https://github.com/open-webui/open-webui",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 132833",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "name": "firecrawl",
+      "url": "https://github.com/firecrawl/firecrawl",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 111085",
+      "description": "🔥 The API to search, scrape, and interact with the web for AI"
+    },
+    {
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "type": "project",
+      "source": "GitHub",
+      "score": 34.98833333333334,
+      "detail": "⭐ 104965",
+      "description": "The agent that grows with you"
     },
     {
       "name": "pytorch",
@@ -271,6 +199,15 @@
       "score": 30,
       "detail": "开源 + 云服务",
       "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用"
+    },
+    {
+      "name": "browser-use",
+      "url": "https://github.com/browser-use/browser-use",
+      "type": "project",
+      "source": "GitHub",
+      "score": 29.631666666666668,
+      "detail": "⭐ 88895",
+      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
     },
     {
       "name": "ML-For-Beginners",
@@ -372,24 +309,6 @@
       "description": "Unified Efficient Fine-Tuning of 100+ LLMs & VLMs (ACL 2024)"
     },
     {
-      "name": "context7",
-      "url": "https://github.com/upstash/context7",
-      "type": "project",
-      "source": "GitHub",
-      "score": 23.4,
-      "detail": "⭐ 53253 (+117/天)",
-      "description": "Context7 Platform -- Up-to-date code documentation for LLMs and AI code editors"
-    },
-    {
-      "name": "nanobot",
-      "url": "https://github.com/HKUDS/nanobot",
-      "type": "project",
-      "source": "GitHub",
-      "score": 23.4,
-      "detail": "⭐ 40212 (+117/天)",
-      "description": "\"🐈 nanobot: The Ultra-Lightweight Personal AI Agent\""
-    },
-    {
       "name": "Whisper",
       "url": "https://github.com/openai/whisper",
       "type": "project",
@@ -397,33 +316,6 @@
       "score": 22.666666666666668,
       "detail": "⭐ 68000",
       "description": "OpenAI 开源语音识别"
-    },
-    {
-      "name": "OpenBB",
-      "url": "https://github.com/OpenBB-finance/OpenBB",
-      "type": "project",
-      "source": "GitHub",
-      "score": 22.22,
-      "detail": "⭐ 66167 (+111/天)",
-      "description": "Financial data platform for analysts, quants and AI agents."
-    },
-    {
-      "name": "unsloth",
-      "url": "https://github.com/unslothai/unsloth",
-      "type": "project",
-      "source": "GitHub",
-      "score": 22.22,
-      "detail": "⭐ 62291 (+111/天)",
-      "description": "Web UI for training and running open models like Gemma 4, Qwen3.5, DeepSeek, gpt-oss locally."
-    },
-    {
-      "name": "LightRAG",
-      "url": "https://github.com/HKUDS/LightRAG",
-      "type": "project",
-      "source": "GitHub",
-      "score": 22.22,
-      "detail": "⭐ 33909 (+111/天)",
-      "description": "[EMNLP2025] \"LightRAG: Simple and Fast Retrieval-Augmented Generation\""
     },
     {
       "name": "Project Glasswing: Securing critical software for the AI era",
@@ -435,15 +327,6 @@
       "description": ""
     },
     {
-      "name": "mem0",
-      "url": "https://github.com/mem0ai/mem0",
-      "type": "project",
-      "source": "GitHub",
-      "score": 21.06,
-      "detail": "⭐ 53616 (+105/天)",
-      "description": "Universal memory layer for AI Agents"
-    },
-    {
       "name": "GitHub Copilot",
       "url": "https://github.com/features/copilot",
       "type": "tool",
@@ -451,98 +334,215 @@
       "score": 20,
       "detail": "$10/月 个人 / $19/月 企业",
       "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains"
+    },
+    {
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "按 API 使用量计费",
+      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程"
+    },
+    {
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "按 API 使用量计费",
+      "description": "OpenAI 官方终端编程助手，轻量快速"
+    },
+    {
+      "name": "Codeium",
+      "url": "https://codeium.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "个人免费 + Teams $12/月",
+      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器"
+    },
+    {
+      "name": "Continue",
+      "url": "https://continue.dev",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "开源 AI 编程助手，可接入任意 LLM"
+    },
+    {
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + Pro $15/月",
+      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体"
+    },
+    {
+      "name": "Trae",
+      "url": "https://trae.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费",
+      "description": "字节跳动出品的 AI IDE，中文友好"
+    },
+    {
+      "name": "Midjourney",
+      "url": "https://midjourney.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "$10/月 起",
+      "description": "最强 AI 绘画工具，生成质量极高"
+    },
+    {
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "开源图像生成模型，本地部署无限制"
+    },
+    {
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "开源免费",
+      "description": "节点式 AI 绘画工作流引擎，最强可控性"
+    },
+    {
+      "name": "DALL-E 3",
+      "url": "https://openai.com/dall-e-3",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "ChatGPT Plus 内含",
+      "description": "OpenAI 官方图像生成，ChatGPT Plus 内置"
+    },
+    {
+      "name": "Runway",
+      "url": "https://runwayml.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "$15/月 起",
+      "description": "专业 AI 视频生成和编辑平台"
+    },
+    {
+      "name": "Pika",
+      "url": "https://pika.art",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "免费 + 付费",
+      "description": "AI 视频生成工具，简单易用"
+    },
+    {
+      "name": "Sora",
+      "url": "https://sora.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 20,
+      "detail": "ChatGPT Pro $200/月",
+      "description": "OpenAI 视频生成模型，效果惊人"
     }
   ],
   "top_10": [
     {
-      "name": "hermes-agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 104965 (+2930/天)",
-      "description": "The agent that grows with you"
+      "score": 35,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone"
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters."
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "type": "project",
+      "source": "GitHub",
+      "score": 35,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models."
     },
     {
       "name": "everything-claude-code",
       "url": "https://github.com/affaan-m/everything-claude-code",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 162004 (+982/天)",
+      "score": 35,
+      "detail": "⭐ 162004",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond."
     },
     {
-      "name": "career-ops",
-      "url": "https://github.com/santifer/career-ops",
+      "name": "prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 36873 (+632/天)",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing."
+      "score": 35,
+      "detail": "⭐ 160205",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy."
     },
     {
-      "name": "TrendRadar",
-      "url": "https://github.com/sansan0/TrendRadar",
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 52905 (+497/天)",
-      "description": "⭐AI-driven public opinion & trend monitor with multi-platform aggregation, RSS, and smart alerts.🎯 告别信息过载，你的 AI 舆情监控助手与热点筛选工具！聚合多平台热点 +  RSS 订阅，支持关键词精准筛选。AI 智能筛选新闻 + AI 翻译 +  AI 分析简报直推手机，也支持接入 MCP 架构，赋能 AI 自然语言对话分析、情感洞察与趋势预测等。支持 Docker ，数据本地/云端自持。集成微信/飞书/钉钉/Telegram/邮件/ntfy/bark/slack 等渠道智能推送。"
+      "score": 35,
+      "detail": "⭐ 159656",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
     },
     {
-      "name": "paperless-ngx",
-      "url": "https://github.com/paperless-ngx/paperless-ngx",
+      "name": "langflow",
+      "url": "https://github.com/langflow-ai/langflow",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 39314 (+491/天)",
-      "description": "A community-supported supercharged document management system: scan, index and archive all your documents"
+      "score": 35,
+      "detail": "⭐ 147160",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows."
     },
     {
-      "name": "mempalace",
-      "url": "https://github.com/MemPalace/mempalace",
+      "name": "Stable Diffusion WebUI",
+      "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 48439 (+368/天)",
-      "description": "The best-benchmarked open-source AI memory system. And it's free."
+      "score": 35,
+      "detail": "⭐ 142000",
+      "description": "Stable Diffusion Web UI"
     },
     {
-      "name": "firecrawl",
-      "url": "https://github.com/firecrawl/firecrawl",
+      "name": "dify",
+      "url": "https://github.com/langgenius/dify",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 111085 (+363/天)",
-      "description": "🔥 The API to search, scrape, and interact with the web for AI"
+      "score": 35,
+      "detail": "⭐ 138502",
+      "description": "Production-ready platform for agentic workflow development."
     },
     {
-      "name": "browser-use",
-      "url": "https://github.com/browser-use/browser-use",
+      "name": "langchain",
+      "url": "https://github.com/langchain-ai/langchain",
       "type": "project",
       "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 88895 (+281/天)",
-      "description": "🌐 Make websites accessible for AI agents. Automate tasks online with ease."
-    },
-    {
-      "name": "learn-claude-code",
-      "url": "https://github.com/shareAI-lab/learn-claude-code",
-      "type": "project",
-      "source": "GitHub",
-      "score": 50,
-      "detail": "⭐ 55124 (+257/天)",
-      "description": "Bash is all you need -  A nano claude code–like 「agent harness」, built from 0 to 1"
-    },
-    {
-      "name": "TradingAgents",
-      "url": "https://github.com/TauricResearch/TradingAgents",
-      "type": "project",
-      "source": "GitHub",
-      "score": 49.12,
-      "detail": "⭐ 51949 (+246/天)",
-      "description": "TradingAgents: Multi-Agents LLM Financial Trading Framework"
+      "score": 35,
+      "detail": "⭐ 134202",
+      "description": "The agent engineering platform"
     }
   ]
 }

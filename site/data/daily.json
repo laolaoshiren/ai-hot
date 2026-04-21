@@ -1,36 +1,38 @@
 {
-  "updated_at": "2026-04-20T14:49:30.232933",
-  "date": "2026-04-20",
+  "updated_at": "2026-04-21T00:07:18.894265",
+  "date": "2026-04-21",
   "spotlight": {
-    "name": "MetaGPT",
-    "url": "https://github.com/FoundationAgents/MetaGPT",
-    "type": "project",
-    "description": "🌟 The Multi-Agent Framework: First AI Software Company, Towards Natural Language Programming",
-    "stars": 67271,
-    "language": "Python"
+    "name": "Continue",
+    "url": "https://continue.dev",
+    "type": "tool",
+    "description": "开源 AI 编程助手，可接入任意 LLM",
+    "pricing": "开源免费",
+    "category": "编程"
   },
   "alternates": [
     {
-      "name": "zai-org/GLM-5.1",
-      "url": "https://huggingface.co/zai-org/GLM-5.1",
-      "type": "model",
-      "description": "Pipeline: text-generation",
-      "likes": 1434
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "type": "agent",
+      "description": "Anthropic CLI 编程智能体，终端内全自主编程",
+      "pricing": "API 按量",
+      "category": "编程 Agent"
     },
     {
-      "name": "ChatGPT-Next-Web",
-      "url": "https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web",
-      "type": "project",
-      "description": "A cross-platform ChatGPT/Gemini UI",
-      "stars": 76000,
-      "language": "TypeScript"
+      "name": "秘塔 AI 搜索",
+      "url": "https://metaso.cn",
+      "type": "tool",
+      "description": "国产 AI 搜索引擎，中文体验优秀",
+      "pricing": "免费",
+      "category": "搜索"
     },
     {
-      "name": "black-forest-labs/FLUX.1-schnell",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
-      "type": "model",
-      "description": "Pipeline: text-to-image",
-      "likes": 4793
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
+      "type": "tool",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "pricing": "开源 + 商业 API",
+      "category": "绘画"
     }
   ]
 }

@@ -1,51 +1,36 @@
 [
   {
-    "id": "9e953523311b",
-    "title": "苹果 watchOS 26.5 开发者预览版 Beta 3 发布",
-    "url": "https://www.ithome.com/0/941/379.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T17:18:18",
-    "summary": "【点此直达升级教程】IT之家 4 月 21 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.5 开发者预览版 Beta 3 更新（内部版本号：23T5558e），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？• 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。附苹果 iOS 历史固件下载大全：《苹果 iOS / ",
-    "collected_at": "2026-04-20T18:54:51.290709",
-    "ai_summary": "苹果发布 watchOS 26.5 第三个测试版，继续推进可穿戴设备系统更新。"
+    "id": "ad8b96a4b1a5",
+    "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+    "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T23:10:27",
+    "summary": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
+    "collected_at": "2026-04-21T00:06:24.320217"
   },
   {
-    "id": "43482afdc89e",
-    "title": "苹果 visionOS 26.5 开发者预览版 Beta 3 发布",
-    "url": "https://www.ithome.com/0/941/378.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T17:18:17",
-    "summary": "IT之家 4 月 21 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 26.5 开发者预览版 Beta 3 更新（内部版本号：23O5458e），本次更新距离上次发布 Beta / RC 间隔 7 天。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。目前尚无关于具体更新内容的任何消息。通常来说，watchOS、tvOS 和 visionOS 的每个新测试版主要集中在 Bug 修复和性能改进上，至少首批测试版中没有发现任何新功能。附 visionOS 26 发布历史：2026-04-14：vision",
-    "collected_at": "2026-04-20T18:54:51.290813",
-    "ai_summary": "Apple Vision Pro 系统更新至第三个测试版，持续优化空间计算体验。"
+    "id": "e751673f562b",
+    "title": "Silicon Valley has forgotten what normal people want",
+    "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T20:30:00",
+    "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Kno",
+    "collected_at": "2026-04-21T00:06:29.957746"
   },
   {
-    "id": "ebba9c4e9105",
-    "title": "苹果 macOS 26.5 开发者预览版 Beta 3 发布",
-    "url": "https://www.ithome.com/0/941/377.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T17:18:17",
-    "summary": "IT之家 4 月 21 日消息，苹果今日向 Mac 电脑用户推送了 macOS 26.5 开发者预览版 Beta 3 更新（内部版本号：25F5058e），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？• 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。附苹果 iOS 历史固件下载大全：《苹果 iOS / iPadOS / macOS 固件下",
-    "collected_at": "2026-04-20T18:54:51.290923",
-    "ai_summary": "macOS 26.5 进入第三轮测试，预计带来性能和安全改进。"
-  },
-  {
-    "id": "01cd64c1065c",
-    "title": "苹果 iOS / iPadOS 26.5 开发者预览版 Beta 3 发布",
-    "url": "https://www.ithome.com/0/941/376.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T17:18:16",
-    "summary": "【点此直达升级教程】IT之家 4 月 21 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 26.5 开发者预览版 Beta 3 更新（内部版本号：23F5059e），本次更新距离上次发布 Beta / RC 间隔 7 天。如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？• 公开测试版：需注册 Apple Beta 版软件计划，之后通过【设置】【通用】【软件更新】【Beta 版更新】来升级；• 开发预览版：需登录注册苹果开发者计划，之后通过【设置】【通用】【软件更新】来升级。附苹果 iOS 历史固件下载大全：《苹果 ",
-    "collected_at": "2026-04-20T18:54:51.291036",
-    "ai_summary": "iOS/iPadOS 26.5 第三测试版发布，为正式版做最后准备。"
+    "id": "22ed5bdd3a5d",
+    "title": "Google rolls out Gemini in Chrome in 7 new countries",
+    "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T22:00:00",
+    "summary": "Google is rolling out Gemini in Chrome in Australia, Indonesia, Japan, the Philippines, Singapore, South Korea, and Vietnam. The company is rolling this feature out to both desktop and iOS in all of these countries except Japan.",
+    "collected_at": "2026-04-21T00:06:24.320234"
   },
   {
     "id": "dd303cd7f30d",
@@ -60,28 +45,15 @@
     "ai_summary": "AI领域新动态：Fortnite developers can make A。"
   },
   {
-    "id": "9c57fea75aae",
-    "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
-    "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
+    "id": "5ce42f9f60d6",
+    "title": "It’s not just one thing — it’s another thing",
+    "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
     "source": "TechCrunch AI",
     "lang": "en",
     "priority": 1,
-    "published": "2026-04-20T16:06:21",
-    "summary": "NSA is said to be using Anthropic's restricted Mythos AI model.",
-    "collected_at": "2026-04-20T18:54:51.357406",
-    "ai_summary": "NSA spies are reportedly using Anthropic。"
-  },
-  {
-    "id": "ca62f5b70962",
-    "title": "猛士汽车 × 华为乾崑合作产品 / 渠道 / 生态升级：未来 2 年投放 4 款车型，新车 4 月 24 日亮相",
-    "url": "https://www.ithome.com/0/941/375.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T15:58:40",
-    "summary": "IT之家 4 月 20 日消息，今天上午，猛士汽车春季焕新发布会如期举行。猛士汽车官方表示，要从“造最强新能源越野车”全面转向“造最懂用户新能源越野车”。IT之家注意到，猛士汽车与华为乾崑的合作将在产品、渠道、生态等方面全面升级。在产品焕新方面，未来 2 年将陆续投放 4 款全新车型。同时，搭载顶级越野性能、融合华为乾崑顶尖智能技术的新车将于 4 月 24 日在北京车展首发亮相。在渠道方面，猛士汽车将和华为乾崑共创全新形象。目前猛士汽车 001 号武汉旗舰店已全面落成，门店采用了猛士 + 华为乾崑智驾双标识的设计方案，并提供改装工坊、全域道路救援等。在越野生态方面，猛士汽车已与 10 余家头部",
-    "collected_at": "2026-04-20T18:54:51.291070",
-    "ai_summary": "猛士汽车 × 华为乾崑合作产品 / 渠道 / 生态升级：未来 2 年投放 4 款。"
+    "published": "2026-04-20T19:37:07",
+    "summary": "This sentence construction (\"It's not just this — it's that\") has become so common in AI-generated writing that it's no longer just a clue that a piece of writing may be synthetic — it's almost a guarantee.",
+    "collected_at": "2026-04-21T00:06:24.320250"
   },
   {
     "id": "425815f82b9a",
@@ -96,118 +68,16 @@
     "ai_summary": "AI领域新动态：支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”。"
   },
   {
-    "id": "23195d5f10b1",
-    "title": "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
-    "url": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
+    "id": "9c57fea75aae",
+    "title": "NSA spies are reportedly using Anthropic’s Mythos, despite Pentagon feud",
+    "url": "https://techcrunch.com/2026/04/20/nsa-spies-are-reportedly-using-anthropics-mythos-despite-pentagon-feud/",
     "source": "TechCrunch AI",
     "lang": "en",
     "priority": 1,
-    "published": "2026-04-20T15:30:19",
-    "summary": "The startup, co-founded by former U.S. Energy Secretary Rick Perry, has faced headwinds with its AI campus in Texas.",
-    "collected_at": "2026-04-20T18:54:51.357452",
-    "ai_summary": "AI领域新动态：CEO and CFO suddenly depart AI。"
-  },
-  {
-    "id": "055066f9d2cf",
-    "title": "微软公布 XGP 订阅第二批游戏阵容，《最终幻想 5》下月 5 日入库",
-    "url": "https://www.ithome.com/0/941/373.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T15:19:23",
-    "summary": "IT之家 4 月 20 日消息，微软官方公布了 XGP 订阅第二批游戏阵容，涵盖《最终幻想 5》《近日点》等作品。IT之家附各游戏上线时间表如下：《小小火箭实验室》（Little Rocket Lab）：4 月 21 日，此前已支持 Premium、现登陆 Ultimate / PC 档位《汤：被盗土豆的故事》（Sopa: Tale of the Stolen Potato）：4 月 21 日，此前已支持 Premium、现登陆 Ultimate / PC 档位《吸血鬼幸存者》（Vampire Crawlers: The Turbo Wildcard from Vampire Survivor",
-    "collected_at": "2026-04-20T18:54:51.291162",
-    "ai_summary": "微软公布 XGP 订阅第二批游戏阵容，《最终幻想 5》下月 5 日入库。"
-  },
-  {
-    "id": "7dc5b0fa2998",
-    "title": "微软发布《极限竞速：地平线 6》Xbox 限定外设，含无线手柄、耳机",
-    "url": "https://www.ithome.com/0/941/371.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T15:04:51",
-    "summary": "IT之家 4 月 20 日消息，微软今天公布《极限竞速：地平线 6》Xbox 限定版无线手柄、耳机，售价暂未出炉。IT之家注意到，《极限竞速：地平线 6》限定版 Xbox 无线手柄拥有半透明外壳、扳机，机身上带有贯穿赛道图案，Xbox 西瓜键配色方案也有更改，呈现亮眼的粉色和绿色；摇杆则是浓粉色。而 ABXY 键被刷上了粉色、黄色、蓝色等，电池仓盖上还印有 Horizon Festival 标志。同时，《极限竞速：地平线 6》限定版 Xbox 耳机支持空间音频技术，包括 Windows Sonic、Dolby Atmos 和 DTS Headphone:X 等。外观则延续了手柄同款的半透明美学",
-    "collected_at": "2026-04-20T18:54:51.291193",
-    "ai_summary": "新品发布：微软发布《极限竞速：地平线 6》Xbox 限定外设，含无线手。"
-  },
-  {
-    "id": "aa074fb60fa7",
-    "title": "曝索尼 100-400mm f/4.5 GM 镜头五月发布，Alpha 7 R VI 相机采用 6700 万像素传感器",
-    "url": "https://www.ithome.com/0/941/370.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T14:50:58",
-    "summary": "IT之家 4 月 20 日消息，消息源 SonyAlpha Rumors 今日发文称，索尼将在 5 月推出 Alpha 7 R VI 全画幅无反相机、100-400mm f/4.5 GM 长焦镜头。IT之家从报道中获悉，目前消息人士称 100-400mm 镜头的最大光圈是 f/4.5，而非此前爆料人 HowToFly 所述的 f/4.0。后者过去几年一向比较可靠，不过这次误差了 1/3 档光圈，有一点点出入但问题不大。同时消息人士还向 SonyAlpha Rumors 展示了实拍样张，但碍于对方要求相关图片不便公开。目前可以确认，100-400mm f/4.5 GM 镜头的开关、快捷键被移到靠",
-    "collected_at": "2026-04-20T18:54:51.291226",
-    "ai_summary": "新品发布：曝索尼 100-400mm f/4.5 GM 镜头五月发布，。"
-  },
-  {
-    "id": "dd04215e8b53",
-    "title": "《红色沙漠》动捕演员承认游戏剧情叙事薄弱，但其他方面足以弥补",
-    "url": "https://www.ithome.com/0/941/369.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:38:53",
-    "summary": "IT之家 4 月 20 日消息，据游戏媒体 Insider Gaming 今天报道，《红色沙漠》游戏 3 月中旬上线，发售至今已有一个多月，凭借庞大的开放世界和丰富的探索内容给玩家留下深刻印象。但不少玩家上手后发现其剧情表现相对薄弱且缺乏深度。<img s",
-    "collected_at": "2026-04-20T14:48:39.625196",
-    "ai_summary": "《红色沙漠》动捕演员承认游戏剧情叙事薄弱，但其他方面足以弥补。"
-  },
-  {
-    "id": "82ff13b62a37",
-    "title": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
-    "url": "https://36kr.com/p/3775059219792648?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T14:14:13",
-    "summary": "大公司： 天齐锂业：一季度净利润同比预增1530.31%—1818.01% 36氪获悉，天齐锂业披露业绩预告，预计2026年一季度归属于上市公司股东的净利润为17亿元—20亿元，同比增长1530.31%—1818.01%。 盛屯矿业：一季度净利润10.2亿元，同比增长250.4%</s",
-    "collected_at": "2026-04-20T14:21:35.406197",
-    "ai_summary": "AI领域新动态：氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润。"
-  },
-  {
-    "id": "482e13dd3439",
-    "title": "亚马逊给老用户打定心针：Fire OS 系统仍将长期存在，未来还会发布新设备",
-    "url": "https://www.ithome.com/0/941/367.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:25:56",
-    "summary": "IT之家 4 月 20 日消息，据德媒 Golem 今天报道，亚马逊计划，未来所有新发布的 Fire TV Stick 电视棒都将运行 Vega OS 自研系统，并且目前没有计划为老设备推送 Vega ，引发老用户担心原有的 Fire OS 是否被抛弃。<img class=\"no-alt",
-    "collected_at": "2026-04-20T14:48:39.625234",
-    "ai_summary": "新品发布：亚马逊给老用户打定心针：Fire OS 系统仍将长期存在，未。"
-  },
-  {
-    "id": "8585feb4f1a9",
-    "title": "中国人民银行行长潘功胜会见国际金融机构负责人",
-    "url": "https://36kr.com/newsflashes/3775166152163848?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:57:35",
-    "summary": "36氪获悉，据中国人民银行消息，2026年4月16日至17日，中国人民银行行长潘功胜在出席国际货币基金组织/世界银行年会期间分别会见了国际货币基金组织总裁格奥尔基耶娃、世界银行行长彭安杰等国际金融机构负责人，就中国和全球经济形势、中国和国际金融机构的合作等问题交换了意见。中国人民银行副行长宣昌能参加会见。",
-    "collected_at": "2026-04-20T14:21:35.406243",
-    "ai_summary": "中国人民银行行长潘功胜会见国际金融机构负责人。"
-  },
-  {
-    "id": "105fb04c016a",
-    "title": "绿联推出新款 45W 氮化镓单 USB-C 接口充电头：支持 PD 3.2 AVS，79 元",
-    "url": "https://www.ithome.com/0/941/366.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:25:33",
-    "summary": "IT之家 4 月 20 日消息，绿联旗下新款指尖湃 45W 充电头现已在京东上架，该充电头支持 PD 3.2 协议，具备 SPR AVS 电压档位，定价为 99 元，首发价 79 元。<img src=\"https://img.ithome.com/newsuploadfiles/2026",
-    "collected_at": "2026-04-20T14:48:39.625251",
-    "ai_summary": "绿联推出新款 45W 氮化镓单 USB-C 接口充电头：支持 PD 3.2 AV。"
-  },
-  {
-    "id": "16a4546ac03c",
-    "title": "热门中概股美股盘前多数下跌，理想汽车��超1%",
-    "url": "https://36kr.com/newsflashes/3775164902228740?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:56:19",
-    "summary": "36氪获悉，热门中概股美股盘前多数下跌，截至发稿，京东、拼多多、微博、哔哩哔哩、蔚来、小鹏集团跌超1%；理想汽车涨超1%，爱奇艺涨0.71%。",
-    "collected_at": "2026-04-20T14:21:35.406246",
-    "ai_summary": "热门中概股美股盘前多数下跌，理想汽车��超1%。"
+    "published": "2026-04-20T16:06:21",
+    "summary": "NSA is said to be using Anthropic's restricted Mythos AI model.",
+    "collected_at": "2026-04-20T18:54:51.357406",
+    "ai_summary": "NSA spies are reportedly using Anthropic。"
   },
   {
     "id": "927f0bedcd28",
@@ -221,103 +91,27 @@
     "ai_summary": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投。"
   },
   {
-    "id": "fa8cabe8b813",
-    "title": "美股大型科技股盘前普跌，英特尔跌超1%",
-    "url": "https://36kr.com/newsflashes/3775158077014790?f=rss",
+    "id": "23195d5f10b1",
+    "title": "CEO and CFO suddenly depart AI nuclear power upstart Fermi",
+    "url": "https://techcrunch.com/2026/04/20/fermi-ceo-and-cfo-depart-texas-nuclear-power-ai/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T15:30:19",
+    "summary": "The startup, co-founded by former U.S. Energy Secretary Rick Perry, has faced headwinds with its AI campus in Texas.",
+    "collected_at": "2026-04-20T18:54:51.357452",
+    "ai_summary": "AI领域新动态：CEO and CFO suddenly depart AI。"
+  },
+  {
+    "id": "82ff13b62a37",
+    "title": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
+    "url": "https://36kr.com/p/3775059219792648?f=rss",
     "source": "36氪",
     "lang": "zh",
-    "published": "2026-04-20T12:49:23",
-    "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，英特尔跌超1%，Meta跌0.74%，英伟达跌0.64%，谷歌跌0.6%，亚马逊跌0.58%，微软跌0.46%，特斯拉跌0.23%，苹果跌0.08%，奈飞跌0.07%。",
-    "collected_at": "2026-04-20T14:21:35.406251",
-    "ai_summary": "美股大型科技股盘前普跌，英特尔跌超1%。"
-  },
-  {
-    "id": "e822266213b2",
-    "title": "华为 WATCH GT6 系列智能手表获鸿蒙 HarmonyOS 6.1.0.117 版本升级，新增微运动等功能",
-    "url": "https://www.ithome.com/0/941/364.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:18:06",
-    "summary": "IT之家 4 月 20 日消息，在今日的华为 Pura 系列及全场景新品发布会上，华为公布了鸿蒙 HarmonyOS 6.1 升级计划。新版本已开启陆续推送，覆盖手机、平板、电脑、手表等设备。<p style=\"text-align: center;\"",
-    "collected_at": "2026-04-20T14:48:39.625273",
-    "ai_summary": "华为 WATCH GT6 系列智能手表获鸿蒙 HarmonyOS 6.1.0.1。"
-  },
-  {
-    "id": "da988df0b88f",
-    "title": "空悬企业时驾科技获头部车企MPV车型独家定点 | 早期项目",
-    "url": "https://36kr.com/p/3775008761004549?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:47:19",
-    "summary": "36氪获悉，国产空气悬架供应商时科技，已拿下某头部车企MPV车型的独家定点，项目将在今年四季度SOP（交付）。36氪了解到，这款车定位中大型MPV市场，是中国MPV界的标杆车型。 时驾科技创始人乌伟民告诉36氪：“企业花了很大精力打入这款车的供应链，因为MPV最突出的卖点之一就是舒适性，这款车尤甚。空悬对用户体验的主要影响正体现在舒适性上，因而拿下这款车的独家定点，意味着时",
-    "collected_at": "2026-04-20T14:21:35.406204",
-    "ai_summary": "空悬企业时驾科技获头部车企MPV车型独家定点 | 早期项目。"
-  },
-  {
-    "id": "58ee73f28ecf",
-    "title": "消息称苹果 iOS 27 抛弃 iPhone 11 / Pro / Max 及 SE 2 等手机",
-    "url": "https://www.ithome.com/0/941/363.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:11:54",
-    "summary": "IT之家 4 月 20 日消息，博主 @刹那数码 发文，透露苹果 iOS 27 将不再支持 iPhone 11 / Pro / Max 及 iPhone SE 2，而“iPhone 12 还能再战”。<img class=\"no-alt-img\" src=\"https://img.ithome.com/newsupload",
-    "collected_at": "2026-04-20T14:21:35.059814",
-    "ai_summary": "消息称苹果 iOS 27 抛弃 iPhone 11 / Pro / Max 及 。"
-  },
-  {
-    "id": "1afb42dc9571",
-    "title": "江天化学：一季度净利润1288.71万元，同比增长1473.96%",
-    "url": "https://36kr.com/newsflashes/3775149468516873?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:40:37",
-    "summary": "36氪获悉，江天化学披露一季报，公司2026年一季度实现营业收入3.87亿元，同比增长10.54%；归属于上市公司股东的净利润1288.71万元，同比增长1473.96%。",
-    "collected_at": "2026-04-20T14:21:35.406254",
-    "ai_summary": "江天化学：一季度净利润1288.71万元，同比增长1473.96%。"
-  },
-  {
-    "id": "9e3c770ad0e1",
-    "title": "因 X 平台涉嫌传播多项不当内容，法国检方传唤埃隆 · 马斯克",
-    "url": "https://www.ithome.com/0/941/362.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:05:23",
-    "summary": "IT之家 4 月 20 日消息，据《卫报》今天报道，因社交媒体 X 平台涉嫌传播儿童性虐待、深度伪造（deepfake）等不当内容，埃隆 · 马斯克已被法国检察机关传唤。IT之家在此援引《卫报》，巴黎检方透露，埃隆 · 马斯克及 X 平台前 CEO 琳达 · 雅克里诺今天被要求参加“自愿面谈”。与此同时，平台其他员工也将在本周陆续以证人身份接受",
-    "collected_at": "2026-04-20T14:21:35.059822",
-    "ai_summary": "因 X 平台涉嫌传播多项不当内容，法国检方传唤埃隆 · 马斯克。"
-  },
-  {
-    "id": "3aa502a817b6",
-    "title": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资",
-    "url": "https://36kr.com/newsflashes/3775144569029380?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:35:38",
-    "summary": "36氪获悉，4月20日下午，广东省委财经委员会召开会议。会议指出，投资对经济增长起关键作用，做好当前和今后一个时期的经济工作，稳投资要继续加力。重大项目是稳投资、优结构的重要载体，要强化走在前、作示范、挑大梁的责任担当，树立大抓项目促发展的鲜明导向，把重大项目的储备布局建设牢牢抓在手上，加快见效成势，更好牵引带动投资回稳向好。要谋深做实基础设施项目，系统推进交通、能源、水利等重点项目建设，推动已纳",
-    "collected_at": "2026-04-20T14:21:35.406258",
-    "ai_summary": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资。"
-  },
-  {
-    "id": "26ca0b370f3f",
-    "title": "韶音 OpenFit Pro 开放式耳机发售：同向双振膜超级单元结构，黑白双色可选，1948 元",
-    "url": "https://www.ithome.com/0/941/361.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:02:32",
-    "summary": "IT之家 4 月 20 日消息，韶音旗下 OpenFit Pro 开放式耳机目前已在天猫发售，定价为 1998 元，首发价 1948 元。<img class=\"not-source\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/1",
-    "collected_at": "2026-04-20T14:21:35.059827",
-    "ai_summary": "韶音 OpenFit Pro 开放式耳机发售：同向双振膜超级单元结构，黑白双色可。"
-  },
-  {
-    "id": "8110dce696ef",
-    "title": "泰和科技：一季度净利润8603.26万元，同比增长202.43%",
-    "url": "https://36kr.com/newsflashes/3775135252824583?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:26:10",
-    "summary": "36氪获悉，泰和科技披露一季报，公司2026年一季度实现营业收入7.3亿元，同比增长11.66%；归属于上市公司股东的净利润8603.26万元，同比增长202.43%。",
-    "collected_at": "2026-04-20T14:21:35.406262",
-    "ai_summary": "泰和科技：一季度净利润8603.26万元，同比增长202.43%。"
+    "published": "2026-04-20T14:14:13",
+    "summary": "大公司： 天齐锂业：一季度净利润同比预增1530.31%—1818.01% 36氪获悉，天齐锂业披露业绩预告，预计2026年一季度归属于上市公司股东的净利润为17亿元—20亿元，同比增长1530.31%—1818.01%。 盛屯矿业：一季度净利润10.2亿元，同比增长250.4%</s",
+    "collected_at": "2026-04-20T14:21:35.406197",
+    "ai_summary": "AI领域新动态：氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润。"
   },
   {
     "id": "5b7ac6dc804a",
@@ -331,103 +125,15 @@
     "ai_summary": "AI领域新动态：WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华。"
   },
   {
-    "id": "8b4ca66ad56b",
-    "title": "Strategy斥资25.4亿美元增持比特币，持仓量逾81万枚",
-    "url": "https://36kr.com/newsflashes/3775131688452609?f=rss",
-    "source": "36氪",
+    "id": "625092ff84ad",
+    "title": "继Harness之后，“龙虾”JiuwenClaw率先开启“Coordination Engineering”时代",
+    "url": "https://www.qbitai.com/2026/04/403751.html",
+    "source": "量子位",
     "lang": "zh",
-    "published": "2026-04-20T12:22:32",
-    "summary": "4月20日，比特币持仓大户Strategy宣布，于2026年4月13日至4月19日期间购买34164枚比特币，总购入价格25.4亿美元，平均购入价格为74395美元。截至2026年4月19日，Strategy总共持有815061枚比特币，总购入价格615.6亿美元，平均购入价格为75527美元。（界面）",
-    "collected_at": "2026-04-20T14:21:35.406265",
-    "ai_summary": "Strategy斥资25.4亿美元增持比特币，持仓量逾81万枚。"
-  },
-  {
-    "id": "a5f0dacb9b34",
-    "title": "《艾尔登法环》真人电影 2028 年 3 月 3 日北美上映：宫崎英高指导，IMAX 格式拍摄",
-    "url": "https://www.ithome.com/0/941/359.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:51:56",
-    "summary": "IT之家 4 月 20 日消息，制片厂 A24 今日表示，《艾尔登法环》真人电影将于 2028 年 3 月 3 日北美上映，采用 IMAX 格式拍摄，目前已进入制作阶段。<img src=\"https://img.ithome.com/newsuploadfiles/2026/4/7822",
-    "collected_at": "2026-04-20T14:21:35.059850",
-    "ai_summary": "《艾尔登法环》真人电影 2028 年 3 月 3 日北美上映：宫崎英高指导，IM。"
-  },
-  {
-    "id": "46c67f98cf02",
-    "title": "中国移动：一季度净利润293亿元，同比下降4.2%",
-    "url": "https://36kr.com/newsflashes/3775124235420161?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:14:57",
-    "summary": "36氪获悉，中国移动披露一季报，公司2026年一季度实现营业收入2665亿元，同比增长1%；归属于母公司股东的净利润293亿元，同比下降4.2%。基本每股收益1.36元。",
-    "collected_at": "2026-04-20T14:21:35.406269",
-    "ai_summary": "中国移动：一季度净利润293亿元，同比下降4.2%。"
-  },
-  {
-    "id": "4c05f623ed43",
-    "title": "飞牛官宣与 OPPO 达成深度生态合作，将打造手机与私有云生态",
-    "url": "https://www.ithome.com/0/941/358.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:45:09",
-    "summary": "IT之家 4 月 20 日消息，飞牛 fnOS 官方今日宣布，与 OPPO 达成深度生态合作。官方预热海报显示，双方将“共建手机私有云生态”。<img class=\"no-alt-img\" src=\"https://img.ithome.com/newsuploadfiles/2026/4",
-    "collected_at": "2026-04-20T14:21:35.059854",
-    "ai_summary": "飞牛官宣与 OPPO 达成深度生态合作，将打造手机与私有云生态。"
-  },
-  {
-    "id": "1273afe8a26b",
-    "title": "雪天盐业：一季度净利润1486.75万元，同比下降55.47%",
-    "url": "https://36kr.com/newsflashes/3775120181461512?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:10:50",
-    "summary": "36氪获悉，雪天盐业披露一季报，公司2026年一季度实现营业收入13.01亿元，同比下降2.12%；归属于上市公司股东的净利润1486.75万元，同比下降55.47%。基本每股收益0.0091元。",
-    "collected_at": "2026-04-20T14:21:35.406273",
-    "ai_summary": "雪天盐业：一季度净利润1486.75万元，同比下降55.47%。"
-  },
-  {
-    "id": "a6568f770b94",
-    "title": "中国移动 2026 年第一季度营收 2665 亿元：净利润 293 亿元，同比下降 4.2%",
-    "url": "https://www.ithome.com/0/941/357.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:43:07",
-    "summary": "IT之家 4 月 20 日消息，中国移动今晚发布了 2026 年一季度报告，IT之家汇总主要数据如下：主要会计数据营业收入：2665 亿元，同比增长 1.0%营业收入中的主营业务收入：2199 亿元，同比下降 1.1%",
-    "collected_at": "2026-04-20T14:21:35.059863",
-    "ai_summary": "中国移动 2026 年第一季度营收 2665 亿元：净利润 293 亿元，同比下。"
-  },
-  {
-    "id": "f2c49cd52da1",
-    "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
-    "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "published": "2026-04-20T12:10:00",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. No one’s sure if synthetic mirror life will kill u",
-    "collected_at": "2026-04-20T14:21:48.707729",
-    "ai_summary": "AI领域新动态：The Download: murderous ‘mirro。"
-  },
-  {
-    "id": "d0ef8c9f3cb0",
-    "title": "北京越野 BJ81“战术方盒子”SUV 亮相，8 月 1 日上市",
-    "url": "https://www.ithome.com/0/941/355.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:32:52",
-    "summary": "IT之家 4 月 20 日消息，在今天进行的 2026 北汽集团创新产品品鉴会上，北京越野旗下 SUV 北京 81“战术方盒子”亮相，新车将在 4 月 24 日的北京车展上迎来全面展示，8 月 1 日正式上市。据官方介绍，该车引入 BIP（Build in Public）共创模式，号称由上万名越野爱好者共同参与、打磨而成，把用户零散的想法、苛刻",
-    "collected_at": "2026-04-20T14:21:35.059868",
-    "ai_summary": "北京越野 BJ81“战术方盒子”SUV 亮相，8 月 1 日上市。"
-  },
-  {
-    "id": "e2ed7062f657",
-    "title": "昊志机电：一季度净利润9093.37万元 同比增长483.54%",
-    "url": "https://36kr.com/newsflashes/3775109483234049?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T11:59:57",
-    "summary": "36氪获悉，昊志机电披露一季报，公司2026年一季度实现营业收入4.96亿元，同比增长72.88%；归属于上市公司股东的净利润9093.37万元，同比增长483.54%。",
-    "collected_at": "2026-04-20T14:21:35.406276",
-    "ai_summary": "昊志机电：一季度净利润9093.37万元 同比增长483.54%。"
+    "priority": 1,
+    "published": "2026-04-20T13:00:10",
+    "summary": "把多Agent协同玩明白了",
+    "collected_at": "2026-04-21T00:04:56.901767"
   },
   {
     "id": "d87f91e76e0e",
@@ -441,213 +147,15 @@
     "ai_summary": "AI领域新动态：曝安卓第三方桌面 Nova Launcher 将添加 AI 。"
   },
   {
-    "id": "seed-1",
-    "title": "DeepSeek-V3 正式开源：性能媲美 GPT-4o",
-    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-04-20T10:00:00",
-    "summary": "DeepSeek releases V3 as fully open-source",
-    "collected_at": "2026-04-20T14:00:00",
-    "ai_summary": "DeepSeek-V3 正式开源：性能媲美 GPT-4o。"
-  },
-  {
-    "id": "29cfe185950a",
-    "title": "极氪官方回应网友“西楚霸王代言新公路之王”呼声：建议很好，期待接下来跟何润东有更多互动",
-    "url": "https://www.ithome.com/0/941/353.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:20:20",
-    "summary": "IT之家 4 月 20 日消息，华语影视男演员、歌手、导演何润东凭借着自己所饰演过的西楚霸王项羽、飞将吕布等硬汉形象近期再度“翻红”。在 2026 苏超联赛现场，何润东更是再度 COS 了一把项羽，为宿迁队主场加油。<a class=\"ithome_super_player\" contenteditable=\"false\"",
-    "collected_at": "2026-04-20T14:21:35.059876",
-    "ai_summary": "极氪官方回应网友“西楚霸王代言新公路之王”呼声：建议很好，期待接下来跟何润东有更。"
-  },
-  {
-    "id": "337000087609",
-    "title": "Colossal Biosciences said it cloned red wolves. Is it for real?",
-    "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "published": "2026-04-20T10:00:00",
-    "summary": "If you want to capture something wolflike, it’s best to embark before dawn. So on a morning this January, with the eastern horizon still pink-hued, I drove with two young scientists into a blanket of",
-    "collected_at": "2026-04-20T14:21:48.707736",
-    "ai_summary": "AI领域新动态：Colossal Biosciences said it c。"
-  },
-  {
-    "id": "bb84b85c9399",
-    "title": "九州风神玄冰 600 性能版单塔散热器上架：解热能力达 260W、六热管设计，109 元",
-    "url": "https://www.ithome.com/0/941/351.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:16:44",
-    "summary": "IT之家 4 月 20 日消息，九州风神现已在京东上架玄冰 600 性能版单塔散热器，其解热能力达 260W，定价为 109 元。<img src=\"https://img.ithome.com/newsuploadfiles/2026/4/795e60d8-048e-4e07-b073-",
-    "collected_at": "2026-04-20T14:21:35.059879",
-    "ai_summary": "九州风神玄冰 600 性能版单塔散热器上架：解热能力达 260W、六热管设计，1。"
-  },
-  {
-    "id": "d1767de9464a",
-    "title": "营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏",
-    "url": "https://36kr.com/p/3774966004892416?f=rss",
+    "id": "fa8cabe8b813",
+    "title": "美股大型科技股盘前普跌，英特尔跌超1%",
+    "url": "https://36kr.com/newsflashes/3775158077014790?f=rss",
     "source": "36氪",
     "lang": "zh",
-    "published": "2026-04-20T09:45:58",
-    "summary": "文丨贝果树 编辑丨果脯 发售初期，《生化危机9：安魂曲》曾以9.5的用户评分登顶Metacritic“用户评分游戏”的榜单。 <img src=\"https://img.36krcdn.com/hsossms/20260420/v2_c2cc72d9b9e44a05ba2235783acf617",
-    "collected_at": "2026-04-20T14:21:35.406209",
-    "ai_summary": "营销情怀、剧情不通，为什么《安魂曲》依旧好评如潮？| 36氪游戏。"
-  },
-  {
-    "id": "b7402bb8bafb",
-    "title": "微软将对 Win11 系统 UI 进行重大更新，力求彻底淘汰旧版界面",
-    "url": "https://www.ithome.com/0/941/350.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:09:25",
-    "summary": "IT之家 4 月 20 日消息，据科技媒体 Windows Latest 今天报道，微软 Windows 系统一直缺乏统一的设计语言，不过这很大程度上是由系统架构决定的。同时，微软也一直没有长期坚持单一设计理念，往往是出一个系统换一套设计框架。不过这种情况可能很快会有所改善，微软已经确定调整 Win11 系统的所有设计元素，包括很少出现的“安装 Windows",
-    "collected_at": "2026-04-20T14:21:35.059884",
-    "ai_summary": "微软将对 Win11 系统 UI 进行重大更新，力求彻底淘汰旧版界面。"
-  },
-  {
-    "id": "8d119e102e61",
-    "title": "申根签证申请同比增长20%，VFS Global观察中国市场回暖｜最前线",
-    "url": "https://36kr.com/p/3774760404894216?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T09:40:05",
-    "summary": "随着全球出境游持续修复，签证申请这一长期被视为“前置流程”的环节，正在被重新放回旅行产业链的核心位置。 近期，全球最大的政府和外交使团签证及护照外包服务商VFS Global（威孚仕）在中国市场释放出多个关键信号：一方面，2026年出行旺季已明显提前，申请需求快速回升；另一方面，中国申请人对签证服务的期待，正从单一的效率导向转向“效率+体验”的复合型需求。<",
-    "collected_at": "2026-04-20T14:21:35.406213",
-    "ai_summary": "申根签证申请同比增长20%，VFS Global观察中国市场回暖｜最前线。"
-  },
-  {
-    "id": "ac32eb3bfd41",
-    "title": "惠普推出 2026 款 HyperX 暗影精灵 MAX 游戏本：可选 LCD / OLED 版本、至高搭载 U9 290HX Plus + RTX5090",
-    "url": "https://www.ithome.com/0/941/349.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:07:53",
-    "summary": "IT之家 4 月 20 日消息，在目前正在进行的惠普发布会中，惠普推出了 2026 款 HyperX 暗影精灵 MAX 16 英寸游戏本，定价将于 4 月 27 日公布。<img src=\"https://img.ithome.com/newsuploadfiles/20",
-    "collected_at": "2026-04-20T14:21:35.059888",
-    "ai_summary": "惠普推出 2026 款 HyperX 暗影精灵 MAX 游戏本：可选 LCD /。"
-  },
-  {
-    "id": "seed-2",
-    "title": "Cursor Pro 发布新版 AI 编程功能",
-    "url": "https://cursor.sh",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-04-20T09:00:00",
-    "summary": "Cursor adds new AI-powered features",
-    "collected_at": "2026-04-20T14:00:00",
-    "ai_summary": "AI领域新动态：Cursor Pro 发布新版 AI 编程功能。"
-  },
-  {
-    "id": "fc716e449423",
-    "title": "惠普推出 2026 款 HyperX 暗影精灵 PRO 系列游戏本 15/16 英寸，提供 U9 290HX Plus/R9-9955HX 版",
-    "url": "https://www.ithome.com/0/941/348.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:07:41",
-    "summary": "IT之家 4 月 20 日消息，惠普在今天的发布会中公布了 2026 款 HyperX 暗影精灵 PRO 系列游戏本，提供 15 英寸和 16 英寸款可选，价格将于 4 月 27 日公布，IT之家整理产品信息如下：暗影精灵 PRO 15 英寸款Ultra 7 255H",
-    "collected_at": "2026-04-20T14:21:35.059892",
-    "ai_summary": "惠普推出 2026 款 HyperX 暗影精灵 PRO 系列游戏本 15/16 。"
-  },
-  {
-    "id": "c85e7467381d",
-    "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
-    "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "published": "2026-04-20T09:00:00",
-    "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier thi",
-    "collected_at": "2026-04-20T14:21:48.707741",
-    "ai_summary": "AI领域新动态：Chinese tech workers are start。"
-  },
-  {
-    "id": "eac6dba845de",
-    "title": "双持党的胜利：华为 Pura X Max 横阔折手机支持微信平板模式登录",
-    "url": "https://www.ithome.com/0/941/340.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T12:59:42",
-    "summary": "IT之家 4 月 20 日消息，在今天的华为 Pura 系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东正式发布行业首款横向阔折叠手机 —— Pura X Max，售价 10999 元起。<img class=\"no-alt-img\" src=\"ht",
-    "collected_at": "2026-04-20T14:21:35.059896",
-    "ai_summary": "双持党的胜利：华为 Pura X Max 横阔折手机支持微信平板模式登录。"
-  },
-  {
-    "id": "seed-3",
-    "title": "Ollama 支持运行 DeepSeek-V3 本地推理",
-    "url": "https://github.com/ollama/ollama",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-20T08:00:00",
-    "summary": "Ollama adds DeepSeek-V3 support",
-    "collected_at": "2026-04-20T14:00:00",
-    "ai_summary": "Ollama 支持运行 DeepSeek-V3 本地推理。"
-  },
-  {
-    "id": "6c97d2355dfa",
-    "title": "山灵 SM1.3R 流媒体数播解码一体机发售：采用昆仑 Pro R2R 解码阵列，8998 元",
-    "url": "https://www.ithome.com/0/941/339.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T12:59:18",
-    "summary": "IT之家 4 月 20 日消息，山灵 SM1.3R 流媒体数播解码一体机现已在京东开售，新机主打昆仑 Pro R2R 解码阵列，配备 Rockchip 处理器、安卓 12 操作系统，到手价 8998 元</",
-    "collected_at": "2026-04-20T14:21:35.059900",
-    "ai_summary": "山灵 SM1.3R 流媒体数播解码一体机发售：采用昆仑 Pro R2R 解码阵列。"
-  },
-  {
-    "id": "73d6010bd37a",
-    "title": "灵光把手搓应用做成「朋友圈」，一人应用时代来了",
-    "url": "https://36kr.com/p/3774865386144519?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T07:56:00",
-    "summary": "最近，你的朋友圈被SBTI测试刷屏了吗？ 某天深夜，微信突然被一串串神秘代码占据。“装死者”、“送钱者”、“伪人”、“吗喽”，大家纷纷晒起自己开出的奇葩人格，朋友圈更是被晒“SEXY尤物”的截图刷了屏。 而真相是，这个突然爆火的小测试不是什么大厂有预谋的营销，只是一位03年女孩用四五天时间手搓出来的小应用——创作者@Q肉儿串儿（B站ID）学的是金融，和编程",
-    "collected_at": "2026-04-20T14:21:35.406217",
-    "ai_summary": "灵光把手搓应用做成「朋友圈」，一人应用时代来了。"
-  },
-  {
-    "id": "0e90ba4fc2f3",
-    "title": "深蓝 S07 华为乾崑激光版上市：定位长续航智能中型 SUV，限时优惠价 15.99 万元起",
-    "url": "https://www.ithome.com/0/941/338.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T12:47:55",
-    "summary": "IT之家 4 月 20 日消息，深蓝 S07 华为乾崑激光版今天上市，新车定位长续航智能中型 SUV，升级华为乾崑 ADS 4 Pro 辅助驾驶系统。<img src=\"https://img.ithome.com/newsuploadfiles/2026/4/e92bd90d-8139-",
-    "collected_at": "2026-04-20T14:21:35.059903",
-    "ai_summary": "深蓝 S07 华为乾崑激光版上市：定位长续航智能中型 SUV，限时优惠价 15.。"
-  },
-  {
-    "id": "c7dd8c0af7ee",
-    "title": "启明头条 | 连接世界级的科学与顶级的投资者，首届S2S中国研讨会创业提案第二次征集进行中",
-    "url": "https://36kr.com/p/3774783568937478?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T07:01:15",
-    "summary": "由全球顶尖的风险投资机构RA Capital Management与启明创投联合主办的首届S2S（Science2Startup）中国研讨会将于2026年10月15日在浙江杭州隆重举行。作为生物科技领域的顶级创业赛事，日前，首届S2S中国研讨会面向中国顶尖高校及研究机构的创业提案的第二次征集（https://www.s2schina.com/",
-    "collected_at": "2026-04-20T14:21:35.406221",
-    "ai_summary": "启明头条 | 连接世界级的科学与顶级的投资者，首届S2S中国研讨会创业提案第二次。"
-  },
-  {
-    "id": "223d80379985",
-    "title": "129 / 149 元，华为无线鼠标 3 标准版 / 轻音版上架预售",
-    "url": "https://www.ithome.com/0/941/337.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T12:47:12",
-    "summary": "IT之家 4 月 20 日消息，华为无线鼠标 3 标准版 / 轻音版目前已在京东上架预售，新品支持星闪连接，前者定价为 129 元，后者定价为 149 元。<",
-    "collected_at": "2026-04-20T14:21:35.059907",
-    "ai_summary": "129 / 149 元，华为无线鼠标 3 标准版 / 轻音版上架预售。"
-  },
-  {
-    "id": "seed-4",
-    "title": "ComfyUI 工作流：Flux + LoRA 最佳实践",
-    "url": "https://github.com/comfyanonymous/ComfyUI",
-    "source": "r/MachineLearning",
-    "lang": "en",
-    "published": "2026-04-20T07:00:00",
-    "summary": "Best practices for Flux + LoRA in ComfyUI",
-    "collected_at": "2026-04-20T14:00:00",
-    "ai_summary": "ComfyUI 工作流：Flux + LoRA 最佳实践。"
+    "published": "2026-04-20T12:49:23",
+    "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，英特尔跌超1%，Meta跌0.74%，英伟达跌0.64%，谷歌跌0.6%，亚马逊跌0.58%，微软跌0.46%，特斯拉跌0.23%，苹果跌0.08%，奈飞跌0.07%。",
+    "collected_at": "2026-04-20T14:21:35.406251",
+    "ai_summary": "美股大型科技股盘前普跌，英特尔跌超1%。"
   },
   {
     "id": "aa6cf6a09f1c",
@@ -661,6 +169,127 @@
     "ai_summary": "AI领域新动态：华硕 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版。"
   },
   {
+    "id": "3aa502a817b6",
+    "title": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资",
+    "url": "https://36kr.com/newsflashes/3775144569029380?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "published": "2026-04-20T12:35:38",
+    "summary": "36氪获悉，4月20日下午，广东省委财经委员会召开会议。会议指出，投资对经济增长起关键作用，做好当前和今后一个时期的经济工作，稳投资要继续加力。重大项目是稳投资、优结构的重要载体，要强化走在前、作示范、挑大梁的责任担当，树立大抓项目促发展的鲜明导向，把重大项目的储备布局建设牢牢抓在手上，加快见效成势，更好牵引带动投资回稳向好。要谋深做实基础设施项目，系统推进交通、能源、水利等重点项目建设，推动已纳",
+    "collected_at": "2026-04-20T14:21:35.406258",
+    "ai_summary": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资。"
+  },
+  {
+    "id": "f2c49cd52da1",
+    "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
+    "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "published": "2026-04-20T12:10:00",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. No one’s sure if synthetic mirror life will kill u",
+    "collected_at": "2026-04-20T14:21:48.707729",
+    "ai_summary": "AI领域新动态：The Download: murderous ‘mirro。"
+  },
+  {
+    "id": "seed-1",
+    "title": "DeepSeek-V3 正式开源：性能媲美 GPT-4o",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "source": "Hacker News",
+    "lang": "en",
+    "published": "2026-04-20T10:00:00",
+    "summary": "DeepSeek releases V3 as fully open-source",
+    "collected_at": "2026-04-20T14:00:00",
+    "ai_summary": "DeepSeek-V3 正式开源：性能媲美 GPT-4o。"
+  },
+  {
+    "id": "337000087609",
+    "title": "Colossal Biosciences said it cloned red wolves. Is it for real?",
+    "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "published": "2026-04-20T10:00:00",
+    "summary": "If you want to capture something wolflike, it’s best to embark before dawn. So on a morning this January, with the eastern horizon still pink-hued, I drove with two young scientists into a blanket of",
+    "collected_at": "2026-04-20T14:21:48.707736",
+    "ai_summary": "AI领域新动态：Colossal Biosciences said it c。"
+  },
+  {
+    "id": "382a2bac3946",
+    "title": "英特尔：CPU的痛就像送外卖",
+    "url": "https://www.qbitai.com/2026/04/403757.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T09:50:21",
+    "summary": "发布AI高静本Plus",
+    "collected_at": "2026-04-21T00:04:56.901778"
+  },
+  {
+    "id": "seed-2",
+    "title": "Cursor Pro 发布新版 AI 编程功能",
+    "url": "https://cursor.sh",
+    "source": "Hacker News",
+    "lang": "en",
+    "published": "2026-04-20T09:00:00",
+    "summary": "Cursor adds new AI-powered features",
+    "collected_at": "2026-04-20T14:00:00",
+    "ai_summary": "AI领域新动态：Cursor Pro 发布新版 AI 编程功能。"
+  },
+  {
+    "id": "a385b3878d2c",
+    "title": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
+    "url": "https://www.qbitai.com/2026/04/403753.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T09:33:35",
+    "summary": "",
+    "collected_at": "2026-04-21T00:04:56.901784"
+  },
+  {
+    "id": "c85e7467381d",
+    "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
+    "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "published": "2026-04-20T09:00:00",
+    "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier thi",
+    "collected_at": "2026-04-20T14:21:48.707741",
+    "ai_summary": "AI领域新动态：Chinese tech workers are start。"
+  },
+  {
+    "id": "5664902bd462",
+    "title": "阿里发布Wan2.7-Image，人类偏好盲测评分国内第一",
+    "url": "https://www.qbitai.com/2026/04/403733.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T08:59:05",
+    "summary": "实现 \" 千人千面 \"",
+    "collected_at": "2026-04-21T00:04:56.901794"
+  },
+  {
+    "id": "seed-3",
+    "title": "Ollama 支持运行 DeepSeek-V3 本地推理",
+    "url": "https://github.com/ollama/ollama",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-20T08:00:00",
+    "summary": "Ollama adds DeepSeek-V3 support",
+    "collected_at": "2026-04-20T14:00:00",
+    "ai_summary": "Ollama 支持运行 DeepSeek-V3 本地推理。"
+  },
+  {
+    "id": "e6bf44917bf9",
+    "title": "国内三大头部AI 工具平台上架支付宝支付集成Skill，助“好想法”轻松“收到钱”",
+    "url": "https://www.qbitai.com/2026/04/403729.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T08:40:22",
+    "summary": "“小白”开发者也能快速接入支付",
+    "collected_at": "2026-04-21T00:04:56.901801"
+  },
+  {
     "id": "seed-5",
     "title": "国产大模型 API 价格战：谁是性价比之王？",
     "url": "https://36kr.com",
@@ -672,15 +301,15 @@
     "ai_summary": "国产大模型 API 价格战：谁是性价比之王？。"
   },
   {
-    "id": "afdbe0405e11",
-    "title": "首款路由器“龙虾”：中兴问天 BE7200 Pro+ 开启 Co-Claw 功能公测",
-    "url": "https://www.ithome.com/0/941/335.htm",
-    "source": "IT之家",
+    "id": "f1b1218a0edf",
+    "title": "Mythos架构被22岁小伙“逆推”开源了！MoE和注意力借鉴DeepSeek",
+    "url": "https://www.qbitai.com/2026/04/403708.html",
+    "source": "量子位",
     "lang": "zh",
-    "published": "2026-04-20T12:36:11",
-    "summary": "IT之家 4 月 20 日消息，中兴智慧家庭今日宣布推出 Co-Claw 功能，并在问天 BE7200 Pro+ 上开启公测。<img alt=\"图片\" src=\"https://img.ithome.com/newsuploadfiles/2026/4/6a23192e-9a77-4320-952c-7ff5f55c27",
-    "collected_at": "2026-04-20T14:21:35.059915",
-    "ai_summary": "首款路由器“龙虾”：中兴问天 BE7200 Pro+ 开启 Co-Claw 功能。"
+    "priority": 1,
+    "published": "2026-04-20T07:59:51",
+    "summary": "整合了公开研究和目前对Claude Mythos架构的主流推测",
+    "collected_at": "2026-04-21T00:04:56.901808"
   },
   {
     "id": "2114c02a3b14",
@@ -694,15 +323,15 @@
     "ai_summary": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线。"
   },
   {
-    "id": "e0862fe09092",
-    "title": "OpenAI’s existential questions",
-    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-19T21:24:06",
-    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
-    "collected_at": "2026-04-20T14:21:41.906140",
-    "ai_summary": "AI领域新动态：OpenAI’s existential questions。"
+    "id": "70f60a2ea010",
+    "title": "全球最大规模含触觉数据集，凭什么吸引谷歌和众多高校的加入？",
+    "url": "https://www.qbitai.com/2026/04/403701.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T07:55:03",
+    "summary": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。",
+    "collected_at": "2026-04-21T00:04:56.901820"
   },
   {
     "id": "fb6de9fb193e",
@@ -716,37 +345,15 @@
     "ai_summary": "AI领域新动态：36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具。"
   },
   {
-    "id": "14b4d3c07b74",
-    "title": "Cloud development platform Vercel was hacked",
-    "url": "https://www.theverge.com/tech/914723/vercel-hacked",
-    "source": "The Verge AI",
-    "lang": "en",
-    "published": "2026-04-19T19:54:52",
-    "summary": "Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to be a member of ShinyHunters, which was b",
-    "collected_at": "2026-04-20T14:21:47.960872",
-    "ai_summary": "Cloud development platform Vercel was ha。"
-  },
-  {
-    "id": "10fb125b3239",
-    "title": "地产一哥业绩“大洗澡”，舍利润保现金流",
-    "url": "https://36kr.com/p/3774684111634953?f=rss",
-    "source": "36氪",
+    "id": "810c2798ad98",
+    "title": "20亿美金苏度科技具身首秀即大招！0真机数据，zero-shot，跑出98%首次抓取成功率",
+    "url": "https://www.qbitai.com/2026/04/403543.html",
+    "source": "量子位",
     "lang": "zh",
-    "published": "2026-04-20T04:47:30",
-    "summary": "地产行业持续下行，即使第一梯队阵营也承受了巨大压力。从销售巅峰期连续下降五年之后，连龙头上市房企，也必须在“保利润”和“保现金流”之间二选一。 4月17日晚间，连续三年销售额稳居行业第一的保利发展公布了2025年成绩单： 全年销售额2530亿元，连续三年稳居行业第一； 营业收入3081.44亿元，同比微降1.13%",
-    "collected_at": "2026-04-20T14:21:35.406234",
-    "ai_summary": "地产一哥业绩“大洗澡”，舍利润保现金流。"
-  },
-  {
-    "id": "e0ab883c55c6",
-    "title": "The 12-month window",
-    "url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-19T19:30:00",
-    "summary": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.",
-    "collected_at": "2026-04-20T14:21:41.906147",
-    "ai_summary": "The 12-month window。"
+    "priority": 1,
+    "published": "2026-04-20T05:34:32",
+    "summary": "苏度发布具身模型#Sudo R1",
+    "collected_at": "2026-04-21T00:04:56.901828"
   },
   {
     "id": "1652f2ab0793",
@@ -760,6 +367,50 @@
     "ai_summary": "AI领域新动态：字节跳动2025年海外营收占比创新高，AI投入致公司净利大降。"
   },
   {
+    "id": "e0862fe09092",
+    "title": "OpenAI’s existential questions",
+    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "published": "2026-04-19T21:24:06",
+    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+    "collected_at": "2026-04-20T14:21:41.906140",
+    "ai_summary": "AI领域新动态：OpenAI’s existential questions。"
+  },
+  {
+    "id": "14b4d3c07b74",
+    "title": "Cloud development platform Vercel was hacked",
+    "url": "https://www.theverge.com/tech/914723/vercel-hacked",
+    "source": "The Verge AI",
+    "lang": "en",
+    "published": "2026-04-19T19:54:52",
+    "summary": "Vercel, a major development platform that hosts and deploys web apps, was compromised, and the hackers are attempting to sell stolen data. A person claiming to be a member of ShinyHunters, which was b",
+    "collected_at": "2026-04-20T14:21:47.960872",
+    "ai_summary": "Cloud development platform Vercel was ha。"
+  },
+  {
+    "id": "e0ab883c55c6",
+    "title": "The 12-month window",
+    "url": "https://techcrunch.com/2026/04/19/the-12-month-window/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "published": "2026-04-19T19:30:00",
+    "summary": "A lot of AI startups exist partly because the foundation models haven't expanded into their category yet. As many jokingly acknowledge, that won't last forever.",
+    "collected_at": "2026-04-20T14:21:41.906147",
+    "ai_summary": "The 12-month window。"
+  },
+  {
+    "id": "2462ef12bfcc",
+    "title": "Kimi新论文：把KVCache玩成新商业模式了",
+    "url": "https://www.qbitai.com/2026/04/403528.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-19T10:19:45",
+    "summary": "超长上下文福音",
+    "collected_at": "2026-04-21T00:04:56.901835"
+  },
+  {
     "id": "07e3823e1999",
     "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
     "url": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
@@ -771,15 +422,15 @@
     "ai_summary": "Palantir posts mini-manifesto denouncing。"
   },
   {
-    "id": "8bc307ae958c",
-    "title": "The RAM shortage could last years",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
-    "source": "The Verge AI",
-    "lang": "en",
-    "published": "2026-04-18T21:08:45",
-    "summary": "According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages cou",
-    "collected_at": "2026-04-20T14:21:47.960880",
-    "ai_summary": "The RAM shortage could last years。"
+    "id": "34dec81faeb4",
+    "title": "横扫全球15项SOTA！高德首个面向AGI的全栈具身技术体系大公开",
+    "url": "https://www.qbitai.com/2026/04/403226.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-19T10:13:54",
+    "summary": "当行业在底层基础设施上开始成型，局面就会迅速收敛",
+    "collected_at": "2026-04-21T00:04:56.901841"
   },
   {
     "id": "3217ffdbbdca",
@@ -793,15 +444,15 @@
     "ai_summary": "TechCrunch Mobility: Uber enters its ass。"
   },
   {
-    "id": "2a7a2a6a52b2",
-    "title": "OpenAI’s former Sora boss is leaving",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+    "id": "8bc307ae958c",
+    "title": "The RAM shortage could last years",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T21:13:25",
-    "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as",
-    "collected_at": "2026-04-20T14:21:47.960885",
-    "ai_summary": "AI领域新动态：OpenAI’s former Sora boss is l。"
+    "published": "2026-04-18T21:08:45",
+    "summary": "According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages cou",
+    "collected_at": "2026-04-20T14:21:47.960880",
+    "ai_summary": "The RAM shortage could last years。"
   },
   {
     "id": "31e6d9ab3cdd",
@@ -815,15 +466,15 @@
     "ai_summary": "Tesla brings its robotaxi service to Dal。"
   },
   {
-    "id": "caee19127fda",
-    "title": "Should you stare into Sam Altman&#8217;s orb before your next date?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
+    "id": "2a7a2a6a52b2",
+    "title": "OpenAI’s former Sora boss is leaving",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T20:42:47",
-    "summary": "Tinder users who prove they're a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, wh",
-    "collected_at": "2026-04-20T14:21:47.960890",
-    "ai_summary": "Should you stare into Sam Altman&#8217;s。"
+    "published": "2026-04-17T21:13:25",
+    "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as",
+    "collected_at": "2026-04-20T14:21:47.960885",
+    "ai_summary": "AI领域新动态：OpenAI’s former Sora boss is l。"
   },
   {
     "id": "64b801fb6aaa",
@@ -837,15 +488,15 @@
     "ai_summary": "AI领域新动态：AI chip startup Cerebras files。"
   },
   {
-    "id": "491f2962c0f8",
-    "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
+    "id": "caee19127fda",
+    "title": "Should you stare into Sam Altman&#8217;s orb before your next date?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T20:14:21",
-    "summary": "The Trump administration has spent nearly two months fighting with AI company Anthropic. It's dubbed the company a \"RADICAL LEFT, WOKE COMPANY\" full of \"Leftwing nut jobs\" and a menace to national sec",
-    "collected_at": "2026-04-20T14:21:47.960894",
-    "ai_summary": "Anthropic’s new cybersecurity model coul。"
+    "published": "2026-04-17T20:42:47",
+    "summary": "Tinder users who prove they're a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, wh",
+    "collected_at": "2026-04-20T14:21:47.960890",
+    "ai_summary": "Should you stare into Sam Altman&#8217;s。"
   },
   {
     "id": "bd8a430d3e86",
@@ -859,15 +510,15 @@
     "ai_summary": "Anthropic’s relationship with the Trump 。"
   },
   {
-    "id": "378b2eab7e1e",
-    "title": "This charming gadget writes bad AI poetry",
-    "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
+    "id": "491f2962c0f8",
+    "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T17:30:00",
-    "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably",
-    "collected_at": "2026-04-20T14:21:47.960899",
-    "ai_summary": "AI领域新动态：This charming gadget writes ba。"
+    "published": "2026-04-17T20:14:21",
+    "summary": "The Trump administration has spent nearly two months fighting with AI company Anthropic. It's dubbed the company a \"RADICAL LEFT, WOKE COMPANY\" full of \"Leftwing nut jobs\" and a menace to national sec",
+    "collected_at": "2026-04-20T14:21:47.960894",
+    "ai_summary": "Anthropic’s new cybersecurity model coul。"
   },
   {
     "id": "81c41bfd13ef",
@@ -881,15 +532,15 @@
     "ai_summary": "AI领域新动态：The App Store is booming again。"
   },
   {
-    "id": "4ef79fe76929",
-    "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+    "id": "378b2eab7e1e",
+    "title": "This charming gadget writes bad AI poetry",
+    "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T15:46:37",
-    "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"e",
-    "collected_at": "2026-04-20T14:21:47.960903",
-    "ai_summary": "AI领域新动态：Dairy Queen is putting an AI c。"
+    "published": "2026-04-17T17:30:00",
+    "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably",
+    "collected_at": "2026-04-20T14:21:47.960899",
+    "ai_summary": "AI领域新动态：This charming gadget writes ba。"
   },
   {
     "id": "bcf8911a707f",
@@ -903,15 +554,15 @@
     "ai_summary": "Sam Altman’s project World looks to scal。"
   },
   {
-    "id": "7d6b96dd099f",
-    "title": "Pie Day 2026",
-    "url": "https://www.technologyreview.com/2026/04/17/1136121/pie-day-links/",
-    "source": "MIT Tech Review",
+    "id": "4ef79fe76929",
+    "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+    "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T14:07:41",
-    "summary": "Ellie’s Pi Day post: https://mitadmissions.org/blogs/entry/pi-day-2026-food-institute/ How Ellie orchestrated the baking of 30 pies: https://mitadmissions.org/blogs/entry/behind-the-scenes-of-thirty-p",
-    "collected_at": "2026-04-20T14:21:48.707745",
-    "ai_summary": "Pie Day 2026。"
+    "published": "2026-04-17T15:46:37",
+    "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"e",
+    "collected_at": "2026-04-20T14:21:47.960903",
+    "ai_summary": "AI领域新动态：Dairy Queen is putting an AI c。"
   },
   {
     "id": "2b4064f2417f",
@@ -991,15 +642,15 @@
     "ai_summary": "AI领域新动态：Tokenmaxxing, OpenAI’s shoppin。"
   },
   {
-    "id": "b9386d206584",
-    "title": "How robots learn: A brief, contemporary history",
-    "url": "https://www.technologyreview.com/2026/04/17/1135416/how-robots-learn-brief-contemporary-history/",
-    "source": "MIT Tech Review",
+    "id": "92ec85da286b",
+    "title": "OpenAI’s big Codex update is a direct shot at Claude Code",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+    "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T10:00:00",
-    "summary": "Roboticists used to dream big but build small. They’d hope to match or exceed the extraordinary complexity of the human body, and then they’d spend their career refining robotic arms for auto plants.",
-    "collected_at": "2026-04-20T14:21:48.707759",
-    "ai_summary": "How robots learn: A brief, contemporary 。"
+    "published": "2026-04-16T17:00:00",
+    "summary": "OpenAI is beefing up its agentic coding and development system, Codex, with a suite of updates that let it use your computer, generate images, and remember from past experiences. The package of update",
+    "collected_at": "2026-04-20T14:21:47.960911",
+    "ai_summary": "AI领域新动态：OpenAI’s big Codex update is a。"
   },
   {
     "id": "9ec149dfbc1d",
@@ -1013,15 +664,15 @@
     "ai_summary": "Anthropic launches Claude Design, a new 。"
   },
   {
-    "id": "92ec85da286b",
-    "title": "OpenAI’s big Codex update is a direct shot at Claude Code",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
+    "id": "c80371d9dd9f",
+    "title": "Google’s AI Mode update lets you open links without leaving the page",
+    "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
     "source": "The Verge AI",
     "lang": "en",
     "published": "2026-04-16T17:00:00",
-    "summary": "OpenAI is beefing up its agentic coding and development system, Codex, with a suite of updates that let it use your computer, generate images, and remember from past experiences. The package of update",
-    "collected_at": "2026-04-20T14:21:47.960911",
-    "ai_summary": "AI领域新动态：OpenAI’s big Codex update is a。"
+    "summary": "Google is upgrading AI Mode in Chrome with a new feature that will allow you to open links to sources alongside your chat. Now, instead of automatically opening a new tab, clicking a source will open",
+    "collected_at": "2026-04-20T14:21:47.960916",
+    "ai_summary": "AI领域新动态：Google’s AI Mode update lets y。"
   },
   {
     "id": "360444e845a5",
@@ -1035,15 +686,15 @@
     "ai_summary": "Are we tokenmaxxing our way to nowhere?。"
   },
   {
-    "id": "c80371d9dd9f",
-    "title": "Google’s AI Mode update lets you open links without leaving the page",
-    "url": "https://www.theverge.com/tech/913109/google-ai-mode-tabs-sources",
-    "source": "The Verge AI",
+    "id": "e099d86f31c1",
+    "title": "Making AI operational in constrained public sector environments",
+    "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+    "source": "MIT Tech Review",
     "lang": "en",
-    "published": "2026-04-16T17:00:00",
-    "summary": "Google is upgrading AI Mode in Chrome with a new feature that will allow you to open links to sources alongside your chat. Now, instead of automatically opening a new tab, clicking a source will open",
-    "collected_at": "2026-04-20T14:21:47.960916",
-    "ai_summary": "AI领域新动态：Google’s AI Mode update lets y。"
+    "published": "2026-04-16T13:00:00",
+    "summary": "The AI boom has hit across industries, and public sector organizations are facing pressure to accelerate adoption. At the same time, government institutions face distinct constraints around security,",
+    "collected_at": "2026-04-20T14:21:48.707763",
+    "ai_summary": "AI领域新动态：Making AI operational in const。"
   },
   {
     "id": "04229a2656b6",
@@ -1057,15 +708,15 @@
     "ai_summary": "AI领域新动态：Factory hits $1.5B valuation t。"
   },
   {
-    "id": "e099d86f31c1",
-    "title": "Making AI operational in constrained public sector environments",
-    "url": "https://www.technologyreview.com/2026/04/16/1135216/making-ai-operational-in-constrained-public-sector-environments/",
+    "id": "0498919b410f",
+    "title": "Treating enterprise AI as an operating layer",
+    "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
     "source": "MIT Tech Review",
     "lang": "en",
     "published": "2026-04-16T13:00:00",
-    "summary": "The AI boom has hit across industries, and public sector organizations are facing pressure to accelerate adoption. At the same time, government institutions face distinct constraints around security,",
-    "collected_at": "2026-04-20T14:21:48.707763",
-    "ai_summary": "AI领域新动态：Making AI operational in const。"
+    "summary": "There’s a fault line running through enterprise AI, and it’s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks—GPT versus Gemini, reasoning",
+    "collected_at": "2026-04-20T14:21:48.707767",
+    "ai_summary": "AI领域新动态：Treating enterprise AI as an o。"
   },
   {
     "id": "02b113e7cb50",
@@ -1079,28 +730,6 @@
     "ai_summary": "AI领域新动态：Luma launches AI-powered produ。"
   },
   {
-    "id": "0498919b410f",
-    "title": "Treating enterprise AI as an operating layer",
-    "url": "https://www.technologyreview.com/2026/04/16/1135554/treating-enterprise-ai-as-an-operating-layer/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "published": "2026-04-16T13:00:00",
-    "summary": "There’s a fault line running through enterprise AI, and it’s not the one getting the most attention. The public conversation still tracks foundation models and benchmarks—GPT versus Gemini, reasoning",
-    "collected_at": "2026-04-20T14:21:48.707767",
-    "ai_summary": "AI领域新动态：Treating enterprise AI as an o。"
-  },
-  {
-    "id": "99528b3e1858",
-    "title": "Upscale AI in talks to raise at $2B valuation, says report",
-    "url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-16T20:41:13",
-    "summary": "AI infrastructure company Upscale AI is reportedly in talks to raise its third funding round since launching just seven months ago.",
-    "collected_at": "2026-04-20T14:21:41.906207",
-    "ai_summary": "AI领域新动态：Upscale AI in talks to raise a。"
-  },
-  {
     "id": "e75847195301",
     "title": "The Download: cyberscammers’ banking bypasses, and carbon removal troubles",
     "url": "https://www.technologyreview.com/2026/04/16/1136034/the-download-cyberscammers-banking-bypasses-microsoft-carbon-removal-troubles/",
@@ -1112,15 +741,15 @@
     "ai_summary": "The Download: cyberscammers’ banking byp。"
   },
   {
-    "id": "3050cb1e6e14",
-    "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
-    "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+    "id": "99528b3e1858",
+    "title": "Upscale AI in talks to raise at $2B valuation, says report",
+    "url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T20:26:44",
-    "summary": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
-    "collected_at": "2026-04-20T14:21:41.906210",
-    "ai_summary": "AI领域新动态：Physical Intelligence, a hot r。"
+    "published": "2026-04-16T20:41:13",
+    "summary": "AI infrastructure company Upscale AI is reportedly in talks to raise its third funding round since launching just seven months ago.",
+    "collected_at": "2026-04-20T14:21:41.906207",
+    "ai_summary": "AI领域新动态：Upscale AI in talks to raise a。"
   },
   {
     "id": "hn-47679121",
@@ -1135,15 +764,15 @@
     "ai_summary": "AI领域新动态：Project Glasswing: Securing cr。"
   },
   {
-    "id": "18597a1a3e06",
-    "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
-    "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+    "id": "3050cb1e6e14",
+    "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
+    "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T19:18:41",
-    "summary": "OpenAI's agentic coding tool has gotten a major makeover, with a variety of new powers and abilities.",
-    "collected_at": "2026-04-20T14:21:41.906214",
-    "ai_summary": "AI领域新动态：OpenAI takes aim at Anthropic 。"
+    "published": "2026-04-16T20:26:44",
+    "summary": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
+    "collected_at": "2026-04-20T14:21:41.906210",
+    "ai_summary": "AI领域新动态：Physical Intelligence, a hot r。"
   },
   {
     "id": "hn-47363754",
@@ -1156,6 +785,17 @@
     "collected_at": "2026-04-20T14:21:50.873870",
     "summary": "",
     "ai_summary": "AI领域新动态：Can I run AI locally?。"
+  },
+  {
+    "id": "18597a1a3e06",
+    "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
+    "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "published": "2026-04-16T19:18:41",
+    "summary": "OpenAI's agentic coding tool has gotten a major makeover, with a variety of new powers and abilities.",
+    "collected_at": "2026-04-20T14:21:41.906214",
+    "ai_summary": "AI领域新动态：OpenAI takes aim at Anthropic 。"
   },
   {
     "id": "hn-47340079",

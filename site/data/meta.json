@@ -1,8 +1,8 @@
 {
-  "last_update": "2026-04-20 14:00:00",
+  "last_update": "2026-04-20 18:54:46",
   "results": {
     "📰 RSS新闻采集": "✅",
-    "📰 API新闻采集": "✅",
+    "📰 API新闻采集": "❌ '<' not supported between instances of 'str' and 'int'",
     "🔍 GitHub项目发现": "✅",
     "📈 GitHub热度追踪": "✅",
     "🤗 HuggingFace模型发现": "✅",

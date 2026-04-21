@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-AI热榜 - 主聚合器 v3.0
+AI热榜 - 主聚合器 v3.1
 每6小时运行一次，采集+AI增强
 """
 
 import os
 import sys
 import json
+import shutil
 from datetime import datetime
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -24,6 +25,23 @@ from link_checker import quick_check
 from ai_enhance import summarize_news, generate_daily_briefing, score_tools
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
+SITE_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
+
+
+def sync_to_site():
+    """同步数据到 Hugo site/data 目录"""
+    if not os.path.exists(SITE_DATA_DIR):
+        os.makedirs(SITE_DATA_DIR)
+    
+    count = 0
+    for filename in os.listdir(DATA_DIR):
+        if filename.endswith(".json"):
+            src = os.path.join(DATA_DIR, filename)
+            dst = os.path.join(SITE_DATA_DIR, filename)
+            shutil.copy2(src, dst)
+            count += 1
+    
+    return f"同步 {count} 个文件到 site/data/"
 
 
 def main():
@@ -59,10 +77,17 @@ def main():
         ("⭐ 工具评分", score_tools),
     ]
 
+    # Phase 4: 同步部署
+    print("\n🚀 Phase 4: 同步部署")
+    steps_deploy = [
+        ("📦 同步数据", sync_to_site),
+    ]
+
     all_steps = [
         ("📡 数据采集", steps_collect),
         ("⚙️ 数据处理", steps_process),
         ("🤖 AI 增强", steps_ai),
+        ("🚀 同步部署", steps_deploy),
     ]
 
     results = {}

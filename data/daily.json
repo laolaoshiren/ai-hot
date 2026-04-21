@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-04-20T18:55:45.133660",
-  "date": "2026-04-20",
+  "updated_at": "2026-04-21T00:07:18.894265",
+  "date": "2026-04-21",
   "spotlight": {
-    "name": "Codeium",
-    "url": "https://codeium.com",
+    "name": "Continue",
+    "url": "https://continue.dev",
     "type": "tool",
-    "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
-    "pricing": "个人免费 + Teams $12/月",
+    "description": "开源 AI 编程助手，可接入任意 LLM",
+    "pricing": "开源免费",
     "category": "编程"
   },
   "alternates": [
     {
-      "name": "Codex (ChatGPT)",
-      "url": "https://chatgpt.com",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
       "type": "agent",
-      "description": "OpenAI 内置的编程智能体，可在沙盒中执行代码",
-      "pricing": "ChatGPT Pro $200/月",
+      "description": "Anthropic CLI 编程智能体，终端内全自主编程",
+      "pricing": "API 按量",
       "category": "编程 Agent"
     },
     {
-      "name": "Perplexity",
-      "url": "https://perplexity.ai",
+      "name": "秘塔 AI 搜索",
+      "url": "https://metaso.cn",
       "type": "tool",
-      "description": "AI 搜索引擎，实时联网回答问题",
-      "pricing": "免费 + Pro $20/月",
+      "description": "国产 AI 搜索引擎，中文体验优秀",
+      "pricing": "免费",
       "category": "搜索"
     },
     {
-      "name": "Stable Diffusion",
-      "url": "https://stability.ai",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
       "type": "tool",
-      "description": "开源图像生成模型，本地部署无限制",
-      "pricing": "开源免费",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "pricing": "开源 + 商业 API",
       "category": "绘画"
     }
   ]

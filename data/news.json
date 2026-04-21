@@ -1,5 +1,38 @@
 [
   {
+    "id": "ad8b96a4b1a5",
+    "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
+    "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T23:10:27",
+    "summary": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
+    "collected_at": "2026-04-21T00:06:24.320217"
+  },
+  {
+    "id": "e751673f562b",
+    "title": "Silicon Valley has forgotten what normal people want",
+    "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T20:30:00",
+    "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Kno",
+    "collected_at": "2026-04-21T00:06:29.957746"
+  },
+  {
+    "id": "22ed5bdd3a5d",
+    "title": "Google rolls out Gemini in Chrome in 7 new countries",
+    "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T22:00:00",
+    "summary": "Google is rolling out Gemini in Chrome in Australia, Indonesia, Japan, the Philippines, Singapore, South Korea, and Vietnam. The company is rolling this feature out to both desktop and iOS in all of these countries except Japan.",
+    "collected_at": "2026-04-21T00:06:24.320234"
+  },
+  {
     "id": "dd303cd7f30d",
     "title": "Fortnite developers can make AI characters now — just don&#8217;t try to date them",
     "url": "https://www.theverge.com/games/914963/fortnite-ai-characters-developers-conversations",
@@ -10,6 +43,29 @@
     "summary": "Following last year's AI-powered Darth Vader in Fortnite that swore in a re-creation of James Earl Jones' voice, Epic Games is now letting Fortnite creators experiment with a new \"conversations\" tool to create AI-powered characters that players can talk and interact with. \"Instead of authoring dialo",
     "collected_at": "2026-04-20T18:54:51.520277",
     "ai_summary": "AI领域新动态：Fortnite developers can make A。"
+  },
+  {
+    "id": "5ce42f9f60d6",
+    "title": "It’s not just one thing — it’s another thing",
+    "url": "https://techcrunch.com/2026/04/20/ai-writing-its-not-just-this-its-that-barrons/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T19:37:07",
+    "summary": "This sentence construction (\"It's not just this — it's that\") has become so common in AI-generated writing that it's no longer just a clue that a piece of writing may be synthetic — it's almost a guarantee.",
+    "collected_at": "2026-04-21T00:06:24.320250"
+  },
+  {
+    "id": "425815f82b9a",
+    "title": "支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”",
+    "url": "https://www.ithome.com/0/941/374.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T15:41:55",
+    "summary": "IT之家 4 月 20 日消息，在今天下午的华为 Pura 系列及全场景新品发布会上，华为终端 BG CEO 何刚正式发布了其今天佩戴的新品 —— 华为 AI 眼镜，定价 2499 元起。IT之家注意到，支付宝官方今日发文宣布，华为 AI 眼镜内置支付宝鸿蒙版 App，可以“看一下支付”：既支持看商家收款码支付也可以看“碰一下”收款设备支付用户绑定眼镜与支付宝账户，录入本人语音后，3 步操作可完成支付：用户本人佩戴华为 AI 眼镜，双击 AI 键或说一句“支付 10 元”用户看向商家收款码或“碰一下”设备，眼镜自动识别用户本人说一句“确认支付”或双击 AI 键即可完成付款据支付宝介绍，华为、R",
+    "collected_at": "2026-04-20T18:54:51.291107",
+    "ai_summary": "AI领域新动态：支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”。"
   },
   {
     "id": "9c57fea75aae",
@@ -24,16 +80,15 @@
     "ai_summary": "NSA spies are reportedly using Anthropic。"
   },
   {
-    "id": "425815f82b9a",
-    "title": "支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”",
-    "url": "https://www.ithome.com/0/941/374.htm",
+    "id": "927f0bedcd28",
+    "title": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投影院等配置",
+    "url": "https://www.ithome.com/0/941/365.htm",
     "source": "IT之家",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T15:41:55",
-    "summary": "IT之家 4 月 20 日消息，在今天下午的华为 Pura 系列及全场景新品发布会上，华为终端 BG CEO 何刚正式发布了其今天佩戴的新品 —— 华为 AI 眼镜，定价 2499 元起。IT之家注意到，支付宝官方今日发文宣布，华为 AI 眼镜内置支付宝鸿蒙版 App，可以“看一下支付”：既支持看商家收款码支付也可以看“碰一下”收款设备支付用户绑定眼镜与支付宝账户，录入本人语音后，3 步操作可完成支付：用户本人佩戴华为 AI 眼镜，双击 AI 键或说一句“支付 10 元”用户看向商家收款码或“碰一下”设备，眼镜自动识别用户本人说一句“确认支付”或双击 AI 键即可完成付款据支付宝介绍，华为、R",
-    "collected_at": "2026-04-20T18:54:51.291107",
-    "ai_summary": "AI领域新动态：支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”。"
+    "published": "2026-04-20T14:25:00",
+    "summary": "IT之家 4 月 20 日消息，鸿蒙智行 AITO 汽车官方微博刚刚宣布，全新一代问界 M9 系列汽车行业首发双百万像素全彩智慧投影大灯、手握祥云创新门把手设计、创新一镜双投影院等配置。双百万像素全彩智慧投影大灯<img class=\"no-alt-img\" src=\"https://img.ithome",
+    "collected_at": "2026-04-20T14:48:39.625262",
+    "ai_summary": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投。"
   },
   {
     "id": "23195d5f10b1",
@@ -59,15 +114,37 @@
     "ai_summary": "AI领域新动态：氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润。"
   },
   {
-    "id": "927f0bedcd28",
-    "title": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投影院等配置",
-    "url": "https://www.ithome.com/0/941/365.htm",
+    "id": "5b7ac6dc804a",
+    "title": "WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华为小艺大模型加持，预售价 499 元",
+    "url": "https://www.ithome.com/0/941/360.htm",
     "source": "IT之家",
     "lang": "zh",
-    "published": "2026-04-20T14:25:00",
-    "summary": "IT之家 4 月 20 日消息，鸿蒙智行 AITO 汽车官方微博刚刚宣布，全新一代问界 M9 系列汽车行业首发双百万像素全彩智慧投影大灯、手握祥云创新门把手设计、创新一镜双投影院等配置。双百万像素全彩智慧投影大灯<img class=\"no-alt-img\" src=\"https://img.ithome",
-    "collected_at": "2026-04-20T14:48:39.625262",
-    "ai_summary": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投。"
+    "published": "2026-04-20T13:59:40",
+    "summary": "IT之家 4 月 20 日消息，WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版今日官宣上市，支持 Wi-Fi / 蜂窝网络，新品预售价 499 元，将在 4 月 25 日正式开售。<img src=\"https://img.ithome.com/newsuploadfiles/202",
+    "collected_at": "2026-04-20T14:21:35.059846",
+    "ai_summary": "AI领域新动态：WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华。"
+  },
+  {
+    "id": "625092ff84ad",
+    "title": "继Harness之后，“龙虾”JiuwenClaw率先开启“Coordination Engineering”时代",
+    "url": "https://www.qbitai.com/2026/04/403751.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T13:00:10",
+    "summary": "把多Agent协同玩明白了",
+    "collected_at": "2026-04-21T00:04:56.901767"
+  },
+  {
+    "id": "d87f91e76e0e",
+    "title": "曝安卓第三方桌面 Nova Launcher 将添加 AI 助手，是否近期上线仍存变数",
+    "url": "https://www.ithome.com/0/941/354.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "published": "2026-04-20T13:26:13",
+    "summary": "IT之家 4 月 20 日消息，科技媒体 Android Authority 今天发布博文，对安卓系统第三方桌面 Nova Launcher v8.6.8 测试版进行 APK 拆包，显示该桌面未来或将添加 AI 助手，需要读取短信、GPS 定位、通话记录等深层权限才能启用。<img src",
+    "collected_at": "2026-04-20T14:21:35.059872",
+    "ai_summary": "AI领域新动态：曝安卓第三方桌面 Nova Launcher 将添加 AI 。"
   },
   {
     "id": "fa8cabe8b813",
@@ -81,6 +158,17 @@
     "ai_summary": "美股大型科技股盘前普跌，英特尔跌超1%。"
   },
   {
+    "id": "aa6cf6a09f1c",
+    "title": "华硕 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本：5GHz 5T5R 天线设计，1399 元",
+    "url": "https://www.ithome.com/0/941/336.htm",
+    "source": "IT之家",
+    "lang": "zh",
+    "published": "2026-04-20T12:36:55",
+    "summary": "IT之家 4 月 20 日消息，华硕现已为其 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本，定价为 1399 元，首单补贴后到手价低至 1115 元，4 月 27 日首销。<img src=\"https://img.ithome.com/newsuploadfiles/2026",
+    "collected_at": "2026-04-20T14:21:35.059911",
+    "ai_summary": "AI领域新动态：华硕 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版。"
+  },
+  {
     "id": "3aa502a817b6",
     "title": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资",
     "url": "https://36kr.com/newsflashes/3775144569029380?f=rss",
@@ -92,17 +180,6 @@
     "ai_summary": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资。"
   },
   {
-    "id": "5b7ac6dc804a",
-    "title": "WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华为小艺大模型加持，预售价 499 元",
-    "url": "https://www.ithome.com/0/941/360.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:59:40",
-    "summary": "IT之家 4 月 20 日消息，WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版今日官宣上市，支持 Wi-Fi / 蜂窝网络，新品预售价 499 元，将在 4 月 25 日正式开售。<img src=\"https://img.ithome.com/newsuploadfiles/202",
-    "collected_at": "2026-04-20T14:21:35.059846",
-    "ai_summary": "AI领域新动态：WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华。"
-  },
-  {
     "id": "f2c49cd52da1",
     "title": "The Download: murderous ‘mirror’ bacteria, and Chinese workers fighting AI doubles",
     "url": "https://www.technologyreview.com/2026/04/20/1136154/the-download-murderous-mirror-bacteria-chinese-workers-fight-ai-agents/",
@@ -112,17 +189,6 @@
     "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. No one’s sure if synthetic mirror life will kill u",
     "collected_at": "2026-04-20T14:21:48.707729",
     "ai_summary": "AI领域新动态：The Download: murderous ‘mirro。"
-  },
-  {
-    "id": "d87f91e76e0e",
-    "title": "曝安卓第三方桌面 Nova Launcher 将添加 AI 助手，是否近期上线仍存变数",
-    "url": "https://www.ithome.com/0/941/354.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T13:26:13",
-    "summary": "IT之家 4 月 20 日消息，科技媒体 Android Authority 今天发布博文，对安卓系统第三方桌面 Nova Launcher v8.6.8 测试版进行 APK 拆包，显示该桌面未来或将添加 AI 助手，需要读取短信、GPS 定位、通话记录等深层权限才能启用。<img src",
-    "collected_at": "2026-04-20T14:21:35.059872",
-    "ai_summary": "AI领域新动态：曝安卓第三方桌面 Nova Launcher 将添加 AI 。"
   },
   {
     "id": "seed-1",
@@ -147,6 +213,17 @@
     "ai_summary": "AI领域新动态：Colossal Biosciences said it c。"
   },
   {
+    "id": "382a2bac3946",
+    "title": "英特尔：CPU的痛就像送外卖",
+    "url": "https://www.qbitai.com/2026/04/403757.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T09:50:21",
+    "summary": "发布AI高静本Plus",
+    "collected_at": "2026-04-21T00:04:56.901778"
+  },
+  {
     "id": "seed-2",
     "title": "Cursor Pro 发布新版 AI 编程功能",
     "url": "https://cursor.sh",
@@ -156,6 +233,17 @@
     "summary": "Cursor adds new AI-powered features",
     "collected_at": "2026-04-20T14:00:00",
     "ai_summary": "AI领域新动态：Cursor Pro 发布新版 AI 编程功能。"
+  },
+  {
+    "id": "a385b3878d2c",
+    "title": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
+    "url": "https://www.qbitai.com/2026/04/403753.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T09:33:35",
+    "summary": "",
+    "collected_at": "2026-04-21T00:04:56.901784"
   },
   {
     "id": "c85e7467381d",
@@ -169,6 +257,17 @@
     "ai_summary": "AI领域新动态：Chinese tech workers are start。"
   },
   {
+    "id": "5664902bd462",
+    "title": "阿里发布Wan2.7-Image，人类偏好盲测评分国内第一",
+    "url": "https://www.qbitai.com/2026/04/403733.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T08:59:05",
+    "summary": "实现 \" 千人千面 \"",
+    "collected_at": "2026-04-21T00:04:56.901794"
+  },
+  {
     "id": "seed-3",
     "title": "Ollama 支持运行 DeepSeek-V3 本地推理",
     "url": "https://github.com/ollama/ollama",
@@ -180,15 +279,15 @@
     "ai_summary": "Ollama 支持运行 DeepSeek-V3 本地推理。"
   },
   {
-    "id": "aa6cf6a09f1c",
-    "title": "华硕 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本：5GHz 5T5R 天线设计，1399 元",
-    "url": "https://www.ithome.com/0/941/336.htm",
-    "source": "IT之家",
+    "id": "e6bf44917bf9",
+    "title": "国内三大头部AI 工具平台上架支付宝支付集成Skill，助“好想法”轻松“收到钱”",
+    "url": "https://www.qbitai.com/2026/04/403729.html",
+    "source": "量子位",
     "lang": "zh",
-    "published": "2026-04-20T12:36:55",
-    "summary": "IT之家 4 月 20 日消息，华硕现已为其 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本，定价为 1399 元，首单补贴后到手价低至 1115 元，4 月 27 日首销。<img src=\"https://img.ithome.com/newsuploadfiles/2026",
-    "collected_at": "2026-04-20T14:21:35.059911",
-    "ai_summary": "AI领域新动态：华硕 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版。"
+    "priority": 1,
+    "published": "2026-04-20T08:40:22",
+    "summary": "“小白”开发者也能快速接入支付",
+    "collected_at": "2026-04-21T00:04:56.901801"
   },
   {
     "id": "seed-5",
@@ -202,6 +301,17 @@
     "ai_summary": "国产大模型 API 价格战：谁是性价比之王？。"
   },
   {
+    "id": "f1b1218a0edf",
+    "title": "Mythos架构被22岁小伙“逆推”开源了！MoE和注意力借鉴DeepSeek",
+    "url": "https://www.qbitai.com/2026/04/403708.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T07:59:51",
+    "summary": "整合了公开研究和目前对Claude Mythos架构的主流推测",
+    "collected_at": "2026-04-21T00:04:56.901808"
+  },
+  {
     "id": "2114c02a3b14",
     "title": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线",
     "url": "https://36kr.com/p/3774625128481539?f=rss",
@@ -213,15 +323,15 @@
     "ai_summary": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线。"
   },
   {
-    "id": "e0862fe09092",
-    "title": "OpenAI’s existential questions",
-    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-19T21:24:06",
-    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
-    "collected_at": "2026-04-20T14:21:41.906140",
-    "ai_summary": "AI领域新动态：OpenAI’s existential questions。"
+    "id": "70f60a2ea010",
+    "title": "全球最大规模含触觉数据集，凭什么吸引谷歌和众多高校的加入？",
+    "url": "https://www.qbitai.com/2026/04/403701.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T07:55:03",
+    "summary": "联合发布全球最大规模含触觉全模态物理世界数据集 Daimon Infinit。",
+    "collected_at": "2026-04-21T00:04:56.901820"
   },
   {
     "id": "fb6de9fb193e",
@@ -233,6 +343,39 @@
     "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京灵机天赐科技有限责任公司（下称“灵机天赐”）于过去一年内完成两轮数千万元人民币融资，天使轮由德联资本领投，小恐龙基金和瑞昇基金跟投，Pre-A轮由Implic Capital领投，两轮融资均由探奇资本担任公司独家财务顾问。 灵机天赐CEO杨冰长期从事",
     "collected_at": "2026-04-20T14:21:35.406229",
     "ai_summary": "AI领域新动态：36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具。"
+  },
+  {
+    "id": "810c2798ad98",
+    "title": "20亿美金苏度科技具身首秀即大招！0真机数据，zero-shot，跑出98%首次抓取成功率",
+    "url": "https://www.qbitai.com/2026/04/403543.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-20T05:34:32",
+    "summary": "苏度发布具身模型#Sudo R1",
+    "collected_at": "2026-04-21T00:04:56.901828"
+  },
+  {
+    "id": "1652f2ab0793",
+    "title": "字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70%｜独家",
+    "url": "https://36kr.com/p/3774566936216064?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "published": "2026-04-20T03:05:06",
+    "summary": "文｜李小霞 编辑｜乔芊 杨轩 36氪独家从知情人士处获悉，字节跳动2025年海外营收增长近50%，远超约20%的国内营收增幅，海外业务营收占比也从2024年的25%提升至超三成，创下新高。 TikTok电商业务是字节跳动海外营收增长的主要动力。据悉，TikTok Shop",
+    "collected_at": "2026-04-20T14:21:35.406239",
+    "ai_summary": "AI领域新动态：字节跳动2025年海外营收占比创新高，AI投入致公司净利大降。"
+  },
+  {
+    "id": "e0862fe09092",
+    "title": "OpenAI’s existential questions",
+    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "published": "2026-04-19T21:24:06",
+    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+    "collected_at": "2026-04-20T14:21:41.906140",
+    "ai_summary": "AI领域新动态：OpenAI’s existential questions。"
   },
   {
     "id": "14b4d3c07b74",
@@ -257,15 +400,15 @@
     "ai_summary": "The 12-month window。"
   },
   {
-    "id": "1652f2ab0793",
-    "title": "字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70%｜独家",
-    "url": "https://36kr.com/p/3774566936216064?f=rss",
-    "source": "36氪",
+    "id": "2462ef12bfcc",
+    "title": "Kimi新论文：把KVCache玩成新商业模式了",
+    "url": "https://www.qbitai.com/2026/04/403528.html",
+    "source": "量子位",
     "lang": "zh",
-    "published": "2026-04-20T03:05:06",
-    "summary": "文｜李小霞 编辑｜乔芊 杨轩 36氪独家从知情人士处获悉，字节跳动2025年海外营收增长近50%，远超约20%的国内营收增幅，海外业务营收占比也从2024年的25%提升至超三成，创下新高。 TikTok电商业务是字节跳动海外营收增长的主要动力。据悉，TikTok Shop",
-    "collected_at": "2026-04-20T14:21:35.406239",
-    "ai_summary": "AI领域新动态：字节跳动2025年海外营收占比创新高，AI投入致公司净利大降。"
+    "priority": 1,
+    "published": "2026-04-19T10:19:45",
+    "summary": "超长上下文福音",
+    "collected_at": "2026-04-21T00:04:56.901835"
   },
   {
     "id": "07e3823e1999",
@@ -279,15 +422,15 @@
     "ai_summary": "Palantir posts mini-manifesto denouncing。"
   },
   {
-    "id": "8bc307ae958c",
-    "title": "The RAM shortage could last years",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
-    "source": "The Verge AI",
-    "lang": "en",
-    "published": "2026-04-18T21:08:45",
-    "summary": "According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages cou",
-    "collected_at": "2026-04-20T14:21:47.960880",
-    "ai_summary": "The RAM shortage could last years。"
+    "id": "34dec81faeb4",
+    "title": "横扫全球15项SOTA！高德首个面向AGI的全栈具身技术体系大公开",
+    "url": "https://www.qbitai.com/2026/04/403226.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-19T10:13:54",
+    "summary": "当行业在底层基础设施上开始成型，局面就会迅速收敛",
+    "collected_at": "2026-04-21T00:04:56.901841"
   },
   {
     "id": "3217ffdbbdca",
@@ -301,15 +444,15 @@
     "ai_summary": "TechCrunch Mobility: Uber enters its ass。"
   },
   {
-    "id": "2a7a2a6a52b2",
-    "title": "OpenAI’s former Sora boss is leaving",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
+    "id": "8bc307ae958c",
+    "title": "The RAM shortage could last years",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T21:13:25",
-    "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as",
-    "collected_at": "2026-04-20T14:21:47.960885",
-    "ai_summary": "AI领域新动态：OpenAI’s former Sora boss is l。"
+    "published": "2026-04-18T21:08:45",
+    "summary": "According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages cou",
+    "collected_at": "2026-04-20T14:21:47.960880",
+    "ai_summary": "The RAM shortage could last years。"
   },
   {
     "id": "31e6d9ab3cdd",
@@ -323,15 +466,15 @@
     "ai_summary": "Tesla brings its robotaxi service to Dal。"
   },
   {
-    "id": "caee19127fda",
-    "title": "Should you stare into Sam Altman&#8217;s orb before your next date?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
+    "id": "2a7a2a6a52b2",
+    "title": "OpenAI’s former Sora boss is leaving",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T20:42:47",
-    "summary": "Tinder users who prove they're a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, wh",
-    "collected_at": "2026-04-20T14:21:47.960890",
-    "ai_summary": "Should you stare into Sam Altman&#8217;s。"
+    "published": "2026-04-17T21:13:25",
+    "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as",
+    "collected_at": "2026-04-20T14:21:47.960885",
+    "ai_summary": "AI领域新动态：OpenAI’s former Sora boss is l。"
   },
   {
     "id": "64b801fb6aaa",
@@ -345,15 +488,15 @@
     "ai_summary": "AI领域新动态：AI chip startup Cerebras files。"
   },
   {
-    "id": "491f2962c0f8",
-    "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
+    "id": "caee19127fda",
+    "title": "Should you stare into Sam Altman&#8217;s orb before your next date?",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T20:14:21",
-    "summary": "The Trump administration has spent nearly two months fighting with AI company Anthropic. It's dubbed the company a \"RADICAL LEFT, WOKE COMPANY\" full of \"Leftwing nut jobs\" and a menace to national sec",
-    "collected_at": "2026-04-20T14:21:47.960894",
-    "ai_summary": "Anthropic’s new cybersecurity model coul。"
+    "published": "2026-04-17T20:42:47",
+    "summary": "Tinder users who prove they're a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, wh",
+    "collected_at": "2026-04-20T14:21:47.960890",
+    "ai_summary": "Should you stare into Sam Altman&#8217;s。"
   },
   {
     "id": "bd8a430d3e86",
@@ -367,15 +510,15 @@
     "ai_summary": "Anthropic’s relationship with the Trump 。"
   },
   {
-    "id": "378b2eab7e1e",
-    "title": "This charming gadget writes bad AI poetry",
-    "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
+    "id": "491f2962c0f8",
+    "title": "Anthropic’s new cybersecurity model could get it back in the government’s good graces",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914229/tides-turning-anthropic-trump-administration-cybersecurity-mythos-preview",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T17:30:00",
-    "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably",
-    "collected_at": "2026-04-20T14:21:47.960899",
-    "ai_summary": "AI领域新动态：This charming gadget writes ba。"
+    "published": "2026-04-17T20:14:21",
+    "summary": "The Trump administration has spent nearly two months fighting with AI company Anthropic. It's dubbed the company a \"RADICAL LEFT, WOKE COMPANY\" full of \"Leftwing nut jobs\" and a menace to national sec",
+    "collected_at": "2026-04-20T14:21:47.960894",
+    "ai_summary": "Anthropic’s new cybersecurity model coul。"
   },
   {
     "id": "81c41bfd13ef",
@@ -389,15 +532,15 @@
     "ai_summary": "AI领域新动态：The App Store is booming again。"
   },
   {
-    "id": "4ef79fe76929",
-    "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+    "id": "378b2eab7e1e",
+    "title": "This charming gadget writes bad AI poetry",
+    "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T15:46:37",
-    "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"e",
-    "collected_at": "2026-04-20T14:21:47.960903",
-    "ai_summary": "AI领域新动态：Dairy Queen is putting an AI c。"
+    "published": "2026-04-17T17:30:00",
+    "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably",
+    "collected_at": "2026-04-20T14:21:47.960899",
+    "ai_summary": "AI领域新动态：This charming gadget writes ba。"
   },
   {
     "id": "bcf8911a707f",
@@ -409,6 +552,17 @@
     "summary": "World, which has raised eyebrows (but also a lot of interest) with its Orb-centered anonymous verification project, is looking to expand its influence via a bevy of new partnerships.",
     "collected_at": "2026-04-20T14:21:41.906174",
     "ai_summary": "Sam Altman’s project World looks to scal。"
+  },
+  {
+    "id": "4ef79fe76929",
+    "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
+    "source": "The Verge AI",
+    "lang": "en",
+    "published": "2026-04-17T15:46:37",
+    "summary": "Dairy Queen is becoming the latest fast food chain to get in on AI, as it's bringing a chatbot to dozens of its drive-thrus across the US and Canada. It aims to help speed up drive-thru service and \"e",
+    "collected_at": "2026-04-20T14:21:47.960903",
+    "ai_summary": "AI领域新动态：Dairy Queen is putting an AI c。"
   },
   {
     "id": "2b4064f2417f",
@@ -488,17 +642,6 @@
     "ai_summary": "AI领域新动态：Tokenmaxxing, OpenAI’s shoppin。"
   },
   {
-    "id": "9ec149dfbc1d",
-    "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
-    "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-17T15:00:00",
-    "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
-    "collected_at": "2026-04-20T14:21:41.906192",
-    "ai_summary": "Anthropic launches Claude Design, a new 。"
-  },
-  {
     "id": "92ec85da286b",
     "title": "OpenAI’s big Codex update is a direct shot at Claude Code",
     "url": "https://www.theverge.com/ai-artificial-intelligence/913034/openai-codex-updates-use-macos",
@@ -510,15 +653,15 @@
     "ai_summary": "AI领域新动态：OpenAI’s big Codex update is a。"
   },
   {
-    "id": "360444e845a5",
-    "title": "Are we tokenmaxxing our way to nowhere?",
-    "url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
+    "id": "9ec149dfbc1d",
+    "title": "Anthropic launches Claude Design, a new product for creating quick visuals",
+    "url": "https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-17T13:00:00",
-    "summary": "The gap between AI insiders and everyone else&#160;is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from&#160;financ",
-    "collected_at": "2026-04-20T14:21:41.906196",
-    "ai_summary": "Are we tokenmaxxing our way to nowhere?。"
+    "published": "2026-04-17T15:00:00",
+    "summary": "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.",
+    "collected_at": "2026-04-20T14:21:41.906192",
+    "ai_summary": "Anthropic launches Claude Design, a new 。"
   },
   {
     "id": "c80371d9dd9f",
@@ -532,15 +675,15 @@
     "ai_summary": "AI领域新动态：Google’s AI Mode update lets y。"
   },
   {
-    "id": "04229a2656b6",
-    "title": "Factory hits $1.5B valuation to build AI coding for enterprises",
-    "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
+    "id": "360444e845a5",
+    "title": "Are we tokenmaxxing our way to nowhere?",
+    "url": "https://techcrunch.com/video/are-we-tokenmaxxing-our-way-to-nowhere/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T22:55:30",
-    "summary": "The three-year-old startup raised $150 million led by Khosla Ventures.",
-    "collected_at": "2026-04-20T14:21:41.906199",
-    "ai_summary": "AI领域新动态：Factory hits $1.5B valuation t。"
+    "published": "2026-04-17T13:00:00",
+    "summary": "The gap between AI insiders and everyone else&#160;is widening, and the spending, suspicion, and even new vocabulary are starting to show it. While OpenAI is busy buying up everything from&#160;financ",
+    "collected_at": "2026-04-20T14:21:41.906196",
+    "ai_summary": "Are we tokenmaxxing our way to nowhere?。"
   },
   {
     "id": "e099d86f31c1",
@@ -554,15 +697,15 @@
     "ai_summary": "AI领域新动态：Making AI operational in const。"
   },
   {
-    "id": "02b113e7cb50",
-    "title": "Luma launches AI-powered production studio with faith-focused Wonder Project",
-    "url": "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
+    "id": "04229a2656b6",
+    "title": "Factory hits $1.5B valuation to build AI coding for enterprises",
+    "url": "https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T21:58:08",
-    "summary": "The studio's first project will be about Moses and star Academy Award-winner Ben Kingsley, to be released this spring on Prime Video.",
-    "collected_at": "2026-04-20T14:21:41.906203",
-    "ai_summary": "AI领域新动态：Luma launches AI-powered produ。"
+    "published": "2026-04-16T22:55:30",
+    "summary": "The three-year-old startup raised $150 million led by Khosla Ventures.",
+    "collected_at": "2026-04-20T14:21:41.906199",
+    "ai_summary": "AI领域新动态：Factory hits $1.5B valuation t。"
   },
   {
     "id": "0498919b410f",
@@ -576,15 +719,15 @@
     "ai_summary": "AI领域新动态：Treating enterprise AI as an o。"
   },
   {
-    "id": "99528b3e1858",
-    "title": "Upscale AI in talks to raise at $2B valuation, says report",
-    "url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
+    "id": "02b113e7cb50",
+    "title": "Luma launches AI-powered production studio with faith-focused Wonder Project",
+    "url": "https://techcrunch.com/2026/04/16/luma-launches-ai-powered-production-studio-with-faith-focused-wonder-project/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T20:41:13",
-    "summary": "AI infrastructure company Upscale AI is reportedly in talks to raise its third funding round since launching just seven months ago.",
-    "collected_at": "2026-04-20T14:21:41.906207",
-    "ai_summary": "AI领域新动态：Upscale AI in talks to raise a。"
+    "published": "2026-04-16T21:58:08",
+    "summary": "The studio's first project will be about Moses and star Academy Award-winner Ben Kingsley, to be released this spring on Prime Video.",
+    "collected_at": "2026-04-20T14:21:41.906203",
+    "ai_summary": "AI领域新动态：Luma launches AI-powered produ。"
   },
   {
     "id": "e75847195301",
@@ -598,15 +741,15 @@
     "ai_summary": "The Download: cyberscammers’ banking byp。"
   },
   {
-    "id": "3050cb1e6e14",
-    "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
-    "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
+    "id": "99528b3e1858",
+    "title": "Upscale AI in talks to raise at $2B valuation, says report",
+    "url": "https://techcrunch.com/2026/04/16/upscale-ai-in-talks-to-raise-at-2b-valuation-says-report/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T20:26:44",
-    "summary": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
-    "collected_at": "2026-04-20T14:21:41.906210",
-    "ai_summary": "AI领域新动态：Physical Intelligence, a hot r。"
+    "published": "2026-04-16T20:41:13",
+    "summary": "AI infrastructure company Upscale AI is reportedly in talks to raise its third funding round since launching just seven months ago.",
+    "collected_at": "2026-04-20T14:21:41.906207",
+    "ai_summary": "AI领域新动态：Upscale AI in talks to raise a。"
   },
   {
     "id": "hn-47679121",
@@ -621,15 +764,15 @@
     "ai_summary": "AI领域新动态：Project Glasswing: Securing cr。"
   },
   {
-    "id": "18597a1a3e06",
-    "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
-    "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+    "id": "3050cb1e6e14",
+    "title": "Physical Intelligence, a hot robotics startup, says its new robot brain can figure out tasks it was never taught",
+    "url": "https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-16T19:18:41",
-    "summary": "OpenAI's agentic coding tool has gotten a major makeover, with a variety of new powers and abilities.",
-    "collected_at": "2026-04-20T14:21:41.906214",
-    "ai_summary": "AI领域新动态：OpenAI takes aim at Anthropic 。"
+    "published": "2026-04-16T20:26:44",
+    "summary": "The new model, called π0.7, represents what the company describes as an early but meaningful step toward the long-sought goal of a general-purpose robot brain.",
+    "collected_at": "2026-04-20T14:21:41.906210",
+    "ai_summary": "AI领域新动态：Physical Intelligence, a hot r。"
   },
   {
     "id": "hn-47363754",
@@ -642,6 +785,17 @@
     "collected_at": "2026-04-20T14:21:50.873870",
     "summary": "",
     "ai_summary": "AI领域新动态：Can I run AI locally?。"
+  },
+  {
+    "id": "18597a1a3e06",
+    "title": "OpenAI takes aim at Anthropic with beefed-up Codex that gives it more power over your desktop",
+    "url": "https://techcrunch.com/2026/04/16/openai-takes-aim-at-anthropic-with-beefed-up-codex-that-gives-it-more-power-over-your-desktop/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "published": "2026-04-16T19:18:41",
+    "summary": "OpenAI's agentic coding tool has gotten a major makeover, with a variety of new powers and abilities.",
+    "collected_at": "2026-04-20T14:21:41.906214",
+    "ai_summary": "AI领域新动态：OpenAI takes aim at Anthropic 。"
   },
   {
     "id": "hn-47340079",
