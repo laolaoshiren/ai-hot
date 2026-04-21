@@ -1,5 +1,71 @@
 [
   {
+    "id": "eefe3d821e12",
+    "title": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+    "url": "https://www.infoq.cn/article/fKc0YsLc9aDjzk1V81oW?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-21T19:59:47",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-21T13:07:41.907915"
+  },
+  {
+    "id": "a224803feccd",
+    "title": "The Download: turning down human noise, and LA’s stunning subway upgrade",
+    "url": "https://www.technologyreview.com/2026/04/21/1136246/the-download-human-noise-la-subway-upgrade/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T12:10:00",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The noise we make is hurting animals. Can we learn to shut up? As human society has expanded, animals have started struggling to hear one another. For",
+    "collected_at": "2026-04-21T13:07:30.054343"
+  },
+  {
+    "id": "d946104eff7e",
+    "title": "中国具身智能最高单轮融资出炉！前华为、百度高管联手创业，打造真干活、真量产的机器人",
+    "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-21T17:37:50",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-21T13:07:41.907945"
+  },
+  {
+    "id": "534c41abb2b5",
+    "title": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动｜首波嘉宾官宣",
+    "url": "https://www.qbitai.com/2026/04/404096.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T12:02:52",
+    "summary": "欢迎报名，北京线下见！",
+    "collected_at": "2026-04-21T13:05:15.134490"
+  },
+  {
+    "id": "c3e4637e390d",
+    "title": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+    "url": "https://www.infoq.cn/article/2bUZm9d80lzXWSHxqqYG?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-21T17:29:37",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-21T13:07:41.907966"
+  },
+  {
+    "id": "f5db886a8b45",
+    "title": "Yelp is making its AI chatbot way more useful",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/915626/yelp-ai-assistant-chatbot-major-upgrade",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T11:00:00",
+    "summary": "Yelp is giving its chatbot assistant a major upgrade, turning the platform into something closer to a digital concierge with a suite of new features designed for \"getting things done.\" The move, one of several AI-focused updates in recent months, is part of a broader industry push to make AI more re",
+    "collected_at": "2026-04-21T13:07:29.936309"
+  },
+  {
     "id": "b3c9c0a2e0a3",
     "title": "构建可信数据智能体的上下文层 ｜ 技术趋势",
     "url": "https://www.infoq.cn/article/QyXUMEdTVvStcoE1bBZK?utm_source=rss&utm_medium=article",
@@ -12,16 +78,15 @@
     "ai_summary": "探讨构建可信数据智能体所需的上下文层架构，强调数据治理与智能体协同的技术趋势。"
   },
   {
-    "id": "94e760ec8c27",
-    "title": "A股三大指数集体收涨，中国移动涨超3%",
-    "url": "https://36kr.com/newsflashes/3776231689683718?f=rss",
-    "source": "36氪",
+    "id": "a64c1765ac88",
+    "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
+    "url": "https://www.qbitai.com/2026/04/404086.html",
+    "source": "量子位",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T07:01:31",
-    "summary": "36氪获悉，A股三大指数集体收涨，沪指涨0.07%，深成指涨0.1%，创业板指涨0.31%；电信、石油化工、煤炭板块领涨，岳阳兴长涨停，兖矿能源涨超4%，中国移动涨超3%；AI算力、服务器、稳定币概念跌幅居前，英维克跌停，翠微股份跌超4%，寒武纪跌超3%。",
-    "collected_at": "2026-04-21T07:26:28.826212",
-    "ai_summary": "A股三大指数收涨，电信石化煤炭领涨，AI算力概念股逆势下跌。"
+    "priority": 1,
+    "published": "2026-04-21T08:45:58",
+    "summary": "高精渲染引擎，解决\"数据稀缺\"",
+    "collected_at": "2026-04-21T13:05:15.134508"
   },
   {
     "id": "d5c19f9f7a21",
@@ -36,16 +101,15 @@
     "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。"
   },
   {
-    "id": "bd6ce7c06e11",
-    "title": "理想汽车宣布首发高德汽车出行AI Agent",
-    "url": "https://36kr.com/newsflashes/3776210798199556?f=rss",
-    "source": "36氪",
+    "id": "d3f7b3a9b8ea",
+    "title": "ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态",
+    "url": "https://www.qbitai.com/2026/04/404082.html",
+    "source": "量子位",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T06:40:16",
-    "summary": "4月20日，理想汽车称，将首发高德汽车出行AI Agent。双方合作内容将包括“精准理解复杂出行指令”“多轮对话灵活调整路线”“定制专属个性化导航方案”“智能规划长途补能路径”等。前一日，高德官方发布一则产品宣传片，对外展示了其在出行场景的主动理解模糊和复杂意图的能力。",
-    "collected_at": "2026-04-21T07:26:28.826288",
-    "ai_summary": "理想汽车与高德合作，将首发汽车出行AI Agent，支持多轮对话和个性化导航。"
+    "priority": 1,
+    "published": "2026-04-21T08:31:55",
+    "summary": "深挖人工智能与数字安全领域创新成果",
+    "collected_at": "2026-04-21T13:05:15.134521"
   },
   {
     "id": "14f356866e9c",
@@ -60,16 +124,16 @@
     "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。"
   },
   {
-    "id": "54c89e1d367c",
-    "title": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
-    "url": "https://www.qbitai.com/2026/04/403867.html",
-    "source": "量子位",
+    "id": "94e760ec8c27",
+    "title": "A股三大指数集体收涨，中国移动涨超3%",
+    "url": "https://36kr.com/newsflashes/3776231689683718?f=rss",
+    "source": "36氪",
     "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T04:57:31",
-    "summary": "于3月6日上线并开启小范围封测。",
-    "collected_at": "2026-04-21T07:24:06.343166",
-    "ai_summary": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。"
+    "priority": 3,
+    "published": "2026-04-21T07:01:31",
+    "summary": "36氪获悉，A股三大指数集体收涨，沪指涨0.07%，深成指涨0.1%，创业板指涨0.31%；电信、石油化工、煤炭板块领涨，岳阳兴长涨停，兖矿能源涨超4%，中国移动涨超3%；AI算力、服务器、稳定币概念跌幅居前，英维克跌停，翠微股份跌超4%，寒武纪跌超3%。",
+    "collected_at": "2026-04-21T07:26:28.826212",
+    "ai_summary": "A股三大指数收涨，电信石化煤炭领涨，AI算力概念股逆势下跌。"
   },
   {
     "id": "002dcd93fd33",
@@ -84,16 +148,16 @@
     "ai_summary": "QCon 2026北京站聚焦AI重塑软件工程，展示AI在开发流程中的最新应用。"
   },
   {
-    "id": "cdac8ff3a4ae",
-    "title": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
-    "url": "https://www.qbitai.com/2026/04/403859.html",
-    "source": "量子位",
+    "id": "bd6ce7c06e11",
+    "title": "理想汽车宣布首发高德汽车出行AI Agent",
+    "url": "https://36kr.com/newsflashes/3776210798199556?f=rss",
+    "source": "36氪",
     "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T04:54:43",
-    "summary": "当代码可以被生成，程序员还能做些什么？",
-    "collected_at": "2026-04-21T07:24:06.343187",
-    "ai_summary": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。"
+    "priority": 3,
+    "published": "2026-04-21T06:40:16",
+    "summary": "4月20日，理想汽车称，将首发高德汽车出行AI Agent。双方合作内容将包括“精准理解复杂出行指令”“多轮对话灵活调整路线”“定制专属个性化导航方案”“智能规划长途补能路径”等。前一日，高德官方发布一则产品宣传片，对外展示了其在出行场景的主动理解模糊和复杂意图的能力。",
+    "collected_at": "2026-04-21T07:26:28.826288",
+    "ai_summary": "理想汽车与高德合作，将首发汽车出行AI Agent，支持多轮对话和个性化导航。"
   },
   {
     "id": "cfafda58af12",
@@ -108,16 +172,15 @@
     "ai_summary": "Anthropic内部同时推进百余产品原型，新模型Mythos表现断层领先引发关注。"
   },
   {
-    "id": "a40b2dd62b3f",
-    "title": "技术深度揭秘｜云知声U1-OCR架构升级 + API 开放，重构 OCR 3.0 时代",
-    "url": "https://www.qbitai.com/2026/04/403836.html",
+    "id": "8dde80975b62",
+    "title": "都让让！赛博女娲蒸馏一切，让乔布斯马斯克集体给你打工",
+    "url": "https://www.qbitai.com/2026/04/403871.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T04:50:16",
-    "summary": "采用Token 计费模式",
-    "collected_at": "2026-04-21T07:24:06.343207",
-    "ai_summary": "云知声发布U1-OCR架构升级方案，采用Token计费模式开放API，推动OCR 3.0技术普及。"
+    "published": "2026-04-21T06:26:50",
+    "summary": "上线一周破万星",
+    "collected_at": "2026-04-21T13:05:15.134534"
   },
   {
     "id": "d2bab11dbf10",
@@ -132,16 +195,15 @@
     "ai_summary": "Claude Code桌面版体验遭吐槽，Anthropic在AI编码工具落地中面临用户体验挑战。"
   },
   {
-    "id": "8ced0b305398",
-    "title": "奇世智能CheeChips完成天使轮融资，专注AI+母婴智能硬件生态｜最前线",
-    "url": "https://36kr.com/p/3774891479712514?f=rss",
-    "source": "36氪",
+    "id": "79a51ee8db3f",
+    "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
+    "url": "https://www.qbitai.com/2026/04/403872.html",
+    "source": "量子位",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T04:45:02",
-    "summary": "专注于AI+母婴智能生态的奇世智能CheeChips正式宣布完成天使轮融资。 本轮资金近半数将被投入技术研发，用于AI模型迭代、新产品原型打磨与专利布局；30%用于引进顶尖人才、扩充研发与运营团队；剩余25%投入市场调研、品牌建设与用户需求挖掘。 奇世智能推出了家用AI模拟全彩胎儿记录仪，这款硬件能够记录全孕期胎儿成长，改变准妈妈们的孕期体验，让孕期不再是母亲一个人的感受，而成为一个能与家人分享的，有意义的、连续的内容。 家用AI模拟全彩胎儿记录仪 该公司目前已规划59款全新品类智能母婴产品，明确各产品硬件与算法技术路线，已完成数款demo原型机开发，正处于产品打磨与迭代优化的阶段。 奇世智能",
-    "collected_at": "2026-04-21T07:26:28.824841",
-    "ai_summary": "奇世智能完成天使轮融资，专注AI母婴智能硬件生态，资金将用于技术研发与人才引进。"
+    "priority": 1,
+    "published": "2026-04-21T06:19:22",
+    "summary": "不做Robotaxi，专攻机场的L4公司要IPO了",
+    "collected_at": "2026-04-21T13:05:15.134545"
   },
   {
     "id": "c608c13b9389",
@@ -156,16 +218,16 @@
     "ai_summary": "Opus 4.7发布，Claude Code开发者分享心得：模型升级背后更关键的是开发方式变革。"
   },
   {
-    "id": "5d09a2af9cf7",
-    "title": "天立启鸣AI研究院院长刘志毅，入选2025福布斯中国科创人物",
-    "url": "https://www.qbitai.com/2026/04/403825.html",
+    "id": "54c89e1d367c",
+    "title": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
+    "url": "https://www.qbitai.com/2026/04/403867.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T04:33:09",
-    "summary": "教育+AI引领智能时代新范式",
-    "collected_at": "2026-04-21T07:24:06.343224",
-    "ai_summary": "天立启鸣AI研究院院长刘志毅入选福布斯中国科创人物，教育AI引领新时代。"
+    "published": "2026-04-21T04:57:31",
+    "summary": "于3月6日上线并开启小范围封测。",
+    "collected_at": "2026-04-21T07:24:06.343166",
+    "ai_summary": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。"
   },
   {
     "id": "d49d1f89bfb5",
@@ -180,16 +242,40 @@
     "ai_summary": "AI提效20%却让程序员加班更严重，企业以AI产出衡量生产力引发行业反思。"
   },
   {
-    "id": "d8a93848c4e3",
-    "title": "K型分化，如何破局？| 第20届中国投资年会·年度峰会即将启幕",
-    "url": "https://www.qbitai.com/2026/04/403822.html",
+    "id": "cdac8ff3a4ae",
+    "title": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
+    "url": "https://www.qbitai.com/2026/04/403859.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T03:11:15",
-    "summary": "见证行业20年的演进。",
-    "collected_at": "2026-04-21T07:24:06.343239",
-    "ai_summary": "第20届中国投资年会即将启幕，探讨K型经济分化下的产业投资策略与破局之道。"
+    "published": "2026-04-21T04:54:43",
+    "summary": "当代码可以被生成，程序员还能做些什么？",
+    "collected_at": "2026-04-21T07:24:06.343187",
+    "ai_summary": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。"
+  },
+  {
+    "id": "8ced0b305398",
+    "title": "奇世智能CheeChips完成天使轮融资，专注AI+母婴智能硬件生态｜最前线",
+    "url": "https://36kr.com/p/3774891479712514?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-21T04:45:02",
+    "summary": "专注于AI+母婴智能生态的奇世智能CheeChips正式宣布完成天使轮融资。 本轮资金近半数将被投入技术研发，用于AI模型迭代、新产品原型打磨与专利布局；30%用于引进顶尖人才、扩充研发与运营团队；剩余25%投入市场调研、品牌建设与用户需求挖掘。 奇世智能推出了家用AI模拟全彩胎儿记录仪，这款硬件能够记录全孕期胎儿成长，改变准妈妈们的孕期体验，让孕期不再是母亲一个人的感受，而成为一个能与家人分享的，有意义的、连续的内容。 家用AI模拟全彩胎儿记录仪 该公司目前已规划59款全新品类智能母婴产品，明确各产品硬件与算法技术路线，已完成数款demo原型机开发，正处于产品打磨与迭代优化的阶段。 奇世智能",
+    "collected_at": "2026-04-21T07:26:28.824841",
+    "ai_summary": "奇世智能完成天使轮融资，专注AI母婴智能硬件生态，资金将用于技术研发与人才引进。"
+  },
+  {
+    "id": "a40b2dd62b3f",
+    "title": "技术深度揭秘｜云知声U1-OCR架构升级 + API 开放，重构 OCR 3.0 时代",
+    "url": "https://www.qbitai.com/2026/04/403836.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T04:50:16",
+    "summary": "采用Token 计费模式",
+    "collected_at": "2026-04-21T07:24:06.343207",
+    "ai_summary": "云知声发布U1-OCR架构升级方案，采用Token计费模式开放API，推动OCR 3.0技术普及。"
   },
   {
     "id": "24ccc16920f1",
@@ -204,16 +290,16 @@
     "ai_summary": "智能锂电园林公司完成数千万元融资，出货量破万台，硬氪独家报道。"
   },
   {
-    "id": "a7590acd3d7b",
-    "title": "这次，库克真的要卸任苹果CEO了！",
-    "url": "https://www.qbitai.com/2026/04/403790.html",
+    "id": "5d09a2af9cf7",
+    "title": "天立启鸣AI研究院院长刘志毅，入选2025福布斯中国科创人物",
+    "url": "https://www.qbitai.com/2026/04/403825.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T00:14:04",
-    "summary": "库克公开告别信出炉",
-    "collected_at": "2026-04-21T07:24:06.343254",
-    "ai_summary": "苹果CEO库克或将卸任，标志着这家科技巨头可能迎来管理层重大变动。"
+    "published": "2026-04-21T04:33:09",
+    "summary": "教育+AI引领智能时代新范式",
+    "collected_at": "2026-04-21T07:24:06.343224",
+    "ai_summary": "天立启鸣AI研究院院长刘志毅入选福布斯中国科创人物，教育AI引领新时代。"
   },
   {
     "id": "4556fec8d0f0",
@@ -228,16 +314,16 @@
     "ai_summary": "Eight Sleep CTO专访：被马斯克追捧的AI床垫进入中国，订阅模式面临本土化挑战。"
   },
   {
-    "id": "37d1903cea51",
-    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
-    "url": "https://www.qbitai.com/2026/04/403777.html",
+    "id": "d8a93848c4e3",
+    "title": "K型分化，如何破局？| 第20届中国投资年会·年度峰会即将启幕",
+    "url": "https://www.qbitai.com/2026/04/403822.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T00:06:39",
-    "summary": "重塑具身世界模型评价方式",
-    "collected_at": "2026-04-21T07:24:06.343275",
-    "ai_summary": "跨维智能DexWorldModel在世界模型榜单登顶，证明机器人执行才是AI真正考场。"
+    "published": "2026-04-21T03:11:15",
+    "summary": "见证行业20年的演进。",
+    "collected_at": "2026-04-21T07:24:06.343239",
+    "ai_summary": "第20届中国投资年会即将启幕，探讨K型经济分化下的产业投资策略与破局之道。"
   },
   {
     "id": "aecd58a5aec4",
@@ -252,6 +338,18 @@
     "ai_summary": "库克或将卸任苹果CEO；爱奇艺回应AI艺人库争议；日本地震修正为7.7级。"
   },
   {
+    "id": "a7590acd3d7b",
+    "title": "这次，库克真的要卸任苹果CEO了！",
+    "url": "https://www.qbitai.com/2026/04/403790.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T00:14:04",
+    "summary": "库克公开告别信出炉",
+    "collected_at": "2026-04-21T07:24:06.343254",
+    "ai_summary": "苹果CEO库克或将卸任，标志着这家科技巨头可能迎来管理层重大变动。"
+  },
+  {
     "id": "ad8b96a4b1a5",
     "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
     "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
@@ -264,16 +362,16 @@
     "ai_summary": "亚马逊再投50亿美元给Anthropic，Anthropic承诺在AWS上消费1000亿美元，形成深度绑定合作。"
   },
   {
-    "id": "e751673f562b",
-    "title": "Silicon Valley has forgotten what normal people want",
-    "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
-    "source": "The Verge AI",
-    "lang": "en",
+    "id": "37d1903cea51",
+    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
+    "url": "https://www.qbitai.com/2026/04/403777.html",
+    "source": "量子位",
+    "lang": "zh",
     "priority": 1,
-    "published": "2026-04-20T20:30:00",
-    "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Kno",
-    "collected_at": "2026-04-21T00:06:29.957746",
-    "ai_summary": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。"
+    "published": "2026-04-21T00:06:39",
+    "summary": "重塑具身世界模型评价方式",
+    "collected_at": "2026-04-21T07:24:06.343275",
+    "ai_summary": "跨维智能DexWorldModel在世界模型榜单登顶，证明机器人执行才是AI真正考场。"
   },
   {
     "id": "22ed5bdd3a5d",
@@ -288,16 +386,16 @@
     "ai_summary": "谷歌将Gemini AI功能扩展至Chrome浏览器，在亚太七国桌面和iOS端同步上线。"
   },
   {
-    "id": "12e14479259a",
-    "title": "AI 时代的中欧产业重构与合作：建交 51 周年新起点，共探双向共赢新路径",
-    "url": "https://www.infoq.cn/article/DbItbFaOU2trizVYJam2?utm_source=rss&utm_medium=article",
-    "source": "InfoQ AI",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T18:01:44",
-    "summary": "点击查看原文>",
-    "collected_at": "2026-04-21T07:26:30.181182",
-    "ai_summary": "中欧建交51周年之际，探讨AI时代产业重构与双向合作新机遇。"
+    "id": "e751673f562b",
+    "title": "Silicon Valley has forgotten what normal people want",
+    "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-20T20:30:00",
+    "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Kno",
+    "collected_at": "2026-04-21T00:06:29.957746",
+    "ai_summary": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。"
   },
   {
     "id": "5ce42f9f60d6",
@@ -310,6 +408,18 @@
     "summary": "This sentence construction (\"It's not just this — it's that\") has become so common in AI-generated writing that it's no longer just a clue that a piece of writing may be synthetic — it's almost a guarantee.",
     "collected_at": "2026-04-21T00:06:24.320250",
     "ai_summary": "AI写作中「不仅是X更是Y」句式泛滥，已成识别AI生成内容的标志性特征。"
+  },
+  {
+    "id": "12e14479259a",
+    "title": "AI 时代的中欧产业重构与合作：建交 51 周年新起点，共探双向共赢新路径",
+    "url": "https://www.infoq.cn/article/DbItbFaOU2trizVYJam2?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-20T18:01:44",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-21T07:26:30.181182",
+    "ai_summary": "中欧建交51周年之际，探讨AI时代产业重构与双向合作新机遇。"
   },
   {
     "id": "dd303cd7f30d",

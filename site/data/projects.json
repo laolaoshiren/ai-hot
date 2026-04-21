@@ -4314,6 +4314,27 @@
     "collected_at": "2026-04-21T00:06:36.068963"
   },
   {
+    "id": "github-1201077733",
+    "name": "yongquantan/dependency-guard",
+    "display_name": "dependency-guard",
+    "url": "https://github.com/yongquantan/dependency-guard",
+    "description": "Supply chain security runtime for AI coding agents",
+    "stars": 7,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "claude-code-plugin"
+    ],
+    "created_at": "2026-04-04T07:15:35Z",
+    "updated_at": "2026-04-21T10:52:04Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-04-21T13:07:43.659008"
+  },
+  {
     "id": "github-1213064866",
     "name": "abbosaliboev/free-ai-bible",
     "display_name": "free-ai-bible",

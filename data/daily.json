@@ -1,34 +1,16 @@
 {
-  "updated_at": "2026-04-21T07:27:25.486082",
+  "updated_at": "2026-04-21T13:08:32.304644",
   "date": "2026-04-21",
   "spotlight": {
-    "id": "codex-cli",
-    "name": "Codex CLI",
-    "url": "https://github.com/openai/codex",
+    "id": "aider",
+    "name": "Aider",
+    "url": "https://aider.chat",
     "type": "tool",
-    "description": "OpenAI 官方终端编程助手，轻量快速",
-    "pricing": "按 API 使用量计费",
+    "description": "终端内的AI结对编程工具，支持多文件编辑",
+    "pricing": "开源免费",
     "category": "编程"
   },
   "alternates": [
-    {
-      "id": "aider",
-      "name": "Aider",
-      "url": "https://aider.chat",
-      "type": "tool",
-      "description": "终端内的AI结对编程工具，支持多文件编辑",
-      "pricing": "开源免费",
-      "category": "编程"
-    },
-    {
-      "id": "通义千问",
-      "name": "通义千问",
-      "url": "https://tongyi.aliyun.com",
-      "type": "tool",
-      "description": "阿里巴巴出品的 AI 助手",
-      "pricing": "免费 + API 按量",
-      "category": "对话"
-    },
     {
       "id": "windsurf",
       "name": "Windsurf",
@@ -37,6 +19,23 @@
       "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
       "pricing": "免费 + Pro $15/月",
       "category": "编程"
+    },
+    {
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "type": "agent",
+      "description": "Anthropic CLI编程智能体，终端内全自主编程",
+      "pricing": "API按量",
+      "category": "编程 Agent"
+    },
+    {
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
+      "type": "tool",
+      "description": "开源图像生成模型，本地部署无限制",
+      "pricing": "开源免费",
+      "category": "绘画"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-21T11:01:31.351925",
-  "total": 41,
+  "updated_at": "2026-04-21T13:08:32.303135",
+  "total": 40,
   "hot_list": [
     {
       "id": "cursor",
@@ -165,8 +165,8 @@
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "type": "model",
       "source": "HuggingFace",
-      "score": 42.674,
-      "detail": "❤️ 12674",
+      "score": 42.685,
+      "detail": "❤️ 12685",
       "description": "text-to-image",
       "category": "模型",
       "type_label": "🧠 模型"
@@ -201,16 +201,6 @@
       "score": 38.5,
       "detail": "❤️ 8500",
       "description": "text-generation",
-      "category": "模型"
-    },
-    {
-      "name": "SDXL",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "type": "model",
-      "source": "HuggingFace",
-      "score": 37.8,
-      "detail": "❤️ 7800",
-      "description": "text-to-image",
       "category": "模型"
     },
     {
@@ -313,27 +303,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "name": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
-      "url": "https://www.qbitai.com/2026/04/403867.html",
-      "type": "news",
-      "source": "量子位",
-      "score": 13,
-      "detail": "2026-04-21",
-      "description": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。",
-      "category": "资讯",
-      "type_label": "📰 新闻"
-    },
-    {
-      "name": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
-      "url": "https://www.qbitai.com/2026/04/403859.html",
-      "type": "news",
-      "source": "量子位",
-      "score": 13,
-      "detail": "2026-04-21",
-      "description": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。",
-      "category": "资讯"
-    },
-    {
       "name": "Silicon Valley has forgotten what normal people want",
       "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
       "type": "news",
@@ -341,37 +310,8 @@
       "score": 13,
       "detail": "2026-04-20",
       "description": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。",
-      "category": "资讯"
-    },
-    {
-      "name": "Fortnite developers can make AI characters now — just don&#8217;t try to date them",
-      "url": "https://www.theverge.com/games/914963/fortnite-ai-characters-developers-conversations",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-04-20",
-      "description": "AI领域新动态：Fortnite developers can make A。",
-      "category": "资讯"
-    },
-    {
-      "name": "构建可信数据智能体的上下文层 ｜ 技术趋势",
-      "url": "https://www.infoq.cn/article/QyXUMEdTVvStcoE1bBZK?utm_source=rss&utm_medium=article",
-      "type": "news",
-      "source": "InfoQ AI",
-      "score": 12,
-      "detail": "2026-04-21",
-      "description": "探讨构建可信数据智能体所需的上下文层架构，强调数据治理与智能体协同的技术趋势。",
-      "category": "资讯"
-    },
-    {
-      "name": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了",
-      "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm?utm_source=rss&utm_medium=article",
-      "type": "news",
-      "source": "InfoQ AI",
-      "score": 12,
-      "detail": "2026-04-21",
-      "description": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。",
-      "category": "资讯"
+      "category": "资讯",
+      "type_label": "📰 新闻"
     },
     {
       "name": "DeepSeek-V3 正式开源：性能媲美 GPT-4o",
@@ -404,6 +344,36 @@
       "category": "资讯"
     },
     {
+      "name": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动｜首波嘉宾官宣",
+      "url": "https://www.qbitai.com/2026/04/404096.html",
+      "type": "news",
+      "source": "量子位",
+      "score": 8,
+      "detail": "2026-04-21",
+      "description": "欢迎报名，北京线下见！",
+      "category": "资讯"
+    },
+    {
+      "name": "Yelp is making its AI chatbot way more useful",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/915626/yelp-ai-assistant-chatbot-major-upgrade",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 8,
+      "detail": "2026-04-21",
+      "description": "Yelp is giving its chatbot assistant a major upgra",
+      "category": "资讯"
+    },
+    {
+      "name": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
+      "url": "https://www.qbitai.com/2026/04/404086.html",
+      "type": "news",
+      "source": "量子位",
+      "score": 8,
+      "detail": "2026-04-21",
+      "description": "高精渲染引擎，解决\"数据稀缺\"",
+      "category": "资讯"
+    },
+    {
       "name": "A股三大指数集体收涨，中国移动涨超3%",
       "url": "https://36kr.com/newsflashes/3776231689683718?f=rss",
       "type": "news",
@@ -424,13 +394,33 @@
       "category": "资讯"
     },
     {
-      "name": "Colossal Biosciences said it cloned red wolves. Is it for real?",
-      "url": "https://www.technologyreview.com/2026/04/20/1135222/red-wolves-colossal-biosciences-clones/",
+      "name": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "url": "https://www.infoq.cn/article/fKc0YsLc9aDjzk1V81oW?utm_source=rss&utm_medium=article",
+      "type": "news",
+      "source": "InfoQ AI",
+      "score": 7,
+      "detail": "2026-04-21",
+      "description": "点击查看原文>",
+      "category": "资讯"
+    },
+    {
+      "name": "中国具身智能最高单轮融资出炉！前华为、百度高管联手创业，打造真干活、真量产的机器人",
+      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ?utm_source=rss&utm_medium=article",
+      "type": "news",
+      "source": "InfoQ AI",
+      "score": 7,
+      "detail": "2026-04-21",
+      "description": "点击查看原文>",
+      "category": "资讯"
+    },
+    {
+      "name": "The Download: turning down human noise, and LA’s stunning subway upgrade",
+      "url": "https://www.technologyreview.com/2026/04/21/1136246/the-download-human-noise-la-subway-upgrade/",
       "type": "news",
       "source": "MIT Tech Review",
-      "score": 8,
-      "detail": "2026-04-20",
-      "description": "AI领域新动态：Colossal Biosciences said it c。",
+      "score": 3,
+      "detail": "2026-04-21",
+      "description": "This is today&#8217;s edition of The Download, our",
       "category": "资讯"
     },
     {
@@ -566,8 +556,8 @@
       "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
       "type": "model",
       "source": "HuggingFace",
-      "score": 42.674,
-      "detail": "❤️ 12674",
+      "score": 42.685,
+      "detail": "❤️ 12685",
       "description": "text-to-image",
       "category": "模型",
       "type_label": "🧠 模型"
@@ -639,13 +629,13 @@
       "type_label": "📰 新闻"
     },
     {
-      "name": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
-      "url": "https://www.qbitai.com/2026/04/403867.html",
+      "name": "Silicon Valley has forgotten what normal people want",
+      "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
       "type": "news",
-      "source": "量子位",
+      "source": "The Verge AI",
       "score": 13,
-      "detail": "2026-04-21",
-      "description": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。",
+      "detail": "2026-04-20",
+      "description": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。",
       "category": "资讯",
       "type_label": "📰 新闻"
     }
