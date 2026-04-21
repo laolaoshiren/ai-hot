@@ -86,16 +86,29 @@
 {{ else if in $slug "/tools/" }}
 {{/* 按分类分组 */}}
 {{ $categories := dict "编程" "🛠️" "绘画" "🎨" "视频" "🎬" "对话" "💬" "搜索" "🔍" "写作" "✍️" "办公" "📊" "Agent" "🤖" "本地模型" "💻" "推理引擎" "⚡" "语音" "🎤" "音乐" "🎵" }}
+
+<!-- 分类快速导航 -->
+<div class="category-nav" style="position:sticky;top:60px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+        {{ range $cat, $emoji := $categories }}
+        <a href="#cat-{{ $cat }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
+            {{ $emoji }} {{ $cat }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+
 {{ range $cat, $emoji := $categories }}
 {{ $tools := where site.Data.tools "category" $cat }}
 {{ if gt (len $tools) 0 }}
-<div class="card">
+<div class="card" id="cat-{{ $cat }}">
     <div class="card-title">{{ $emoji }} {{ $cat }} <span class="hot-badge">{{ len $tools }} 个</span></div>
     <div class="tools-grid">
         {{ range $tools }}
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
-                <div class="tool-icon">{{ $emoji }}</div>
+                <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" alt="" style="width:32px;height:32px;border-radius:6px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <div class="tool-icon" style="display:none">{{ $emoji }}</div>
                 <div class="tool-name">{{ .name }}</div>
             </div>
             <div class="tool-desc">{{ .description }}</div>
@@ -125,7 +138,8 @@
         {{ range $agents }}
         <a href="https://{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
-                <div class="tool-icon">{{ $emoji }}</div>
+                <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" alt="" style="width:32px;height:32px;border-radius:6px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <div class="tool-icon" style="display:none">{{ $emoji }}</div>
                 <div class="tool-name">{{ .name }}</div>
             </div>
             <div class="tool-desc">{{ .description }}</div>
@@ -169,7 +183,8 @@
         {{ range site.Data.providers }}
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
-                <div class="tool-icon">🏢</div>
+                <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" alt="" style="width:32px;height:32px;border-radius:6px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                <div class="tool-icon" style="display:none">🏢</div>
                 <div class="tool-name">{{ .name }}</div>
             </div>
             <div class="tool-desc">{{ .models }}</div>

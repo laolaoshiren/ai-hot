@@ -225,6 +225,21 @@
             color: var(--text); font-size: 14px; outline: none;
         }
         .search-box:focus { border-color: var(--accent); }
+        
+        /* 分类导航 */
+        .category-tag:hover {
+            background: var(--accent) !important;
+            color: #fff !important;
+            border-color: var(--accent) !important;
+        }
+        .category-tag:active {
+            transform: scale(0.95);
+        }
+        
+        /* 平滑滚动 */
+        html {
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 <body>
