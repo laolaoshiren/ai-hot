@@ -29,7 +29,7 @@
                         <span class="hot-badge">{{ $item.source }}</span>
                     </div>
                     {{ if $item.detail }}<div class="hot-meta">{{ $item.detail }}</div>{{ end }}
-                    {{ if $item.description }}<div class="hot-meta" style="color:var(--text3)">{{ if gt (len $item.description) 60 }}{{ slicestr $item.description 0 60 }}...{{ else }}{{ $item.description }}{{ end }}</div>{{ end }}
+                    {{ with $item.description }}<div class="hot-meta" style="color:var(--text3)">{{ . | truncate 60 "..." }}</div>{{ end }}
                 </div>
             </div>
             {{ end }}
