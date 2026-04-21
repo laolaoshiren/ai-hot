@@ -19,6 +19,7 @@ def select_daily_spotlight():
         for t in tools:
             if t.get("featured"):
                 candidates.append({
+                    "id": t.get("id", ""),
                     "name": t["name"],
                     "url": t.get("url", ""),
                     "type": "tool",

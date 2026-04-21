@@ -143,6 +143,7 @@ def compute_trending():
             if t.get("trending") or t.get("featured"):
                 score = 30 if t.get("trending") else 20
                 hot_items.append({
+                    "id": t.get("id", ""),
                     "name": t["name"],
                     "url": t.get("url", ""),
                     "type": "tool",

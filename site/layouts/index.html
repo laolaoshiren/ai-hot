@@ -18,7 +18,11 @@
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
                     <div class="hot-title">
+                        {{ if and $item.id (eq $item.type "tool") }}
                         <a href="{{ relURL "/tool/" }}?id={{ $item.id }}" target="_blank">{{ $item.name }}</a>
+                        {{ else }}
+                        <a href="{{ $item.url }}" target="_blank" rel="noopener">{{ $item.name }}</a>
+                        {{ end }}
                         <span class="hot-badge">{{ $item.source }}</span>
                     </div>
                     {{ if $item.detail }}<div class="hot-meta">{{ $item.detail }}</div>{{ end }}
@@ -74,7 +78,11 @@
         <div class="spotlight-name">{{ $daily.spotlight.name }}</div>
         <div class="spotlight-desc">{{ $daily.spotlight.description }}</div>
         {{ if $daily.spotlight.pricing }}<div class="hot-meta" style="margin-top:6px">💰 {{ $daily.spotlight.pricing }}</div>{{ end }}
+        {{ if $daily.spotlight.id }}
         <a href="{{ relURL "/tool/" }}?id={{ $daily.spotlight.id }}" class="spotlight-btn" target="_blank">立即体验 →</a>
+        {{ else }}
+        <a href="{{ $daily.spotlight.url }}" class="spotlight-btn" target="_blank">立即体验 →</a>
+        {{ end }}
     </div>
     {{ end }}
 
