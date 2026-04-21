@@ -1,213 +1,162 @@
 {
-  "updated_at": "2026-04-22T00:05:15",
+  "updated_at": "2026-04-22T06:15:00",
   "generated_by": "hermes_ai",
   "items": [
     {
       "rank": 1,
-      "title": "🧠 Anthropic 新模型 Mythos 断层领先：100个产品原型同时推进",
-      "subtitle": "Anthropic 内部正秘密研发超百款产品原型，新模型 Mythos 在基准测试中表现远超预期，连内部团队都感到意外",
-      "url": "https://www.infoq.cn/article/KlrsHcFeBKWu9RW85u0a",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "11小时前",
-      "tags": [
-        "重磅",
-        "新模型",
-        "Anthropic"
-      ]
-    },
-    {
-      "rank": 2,
-      "title": "🔥 Opus 4.7 正式发布：Claude Code 之父分享 AI 编码心法",
-      "subtitle": "Anthropic 发布 Opus 4.7 模型，Claude Code 创始人指出模型升级只是开始，AI原生开发方式才是关键变革",
-      "url": "https://www.infoq.cn/article/YWH4w3Y4fstITE34RFUa",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "12小时前",
-      "tags": [
-        "新模型",
-        "编程"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "💻 OpenMythos：Claude Mythos 架构开源复现，5天狂揽6000星",
-      "subtitle": "开源社区从零重建 Mythos 架构，基于公开研究论文还原 Anthropic 最新模型设计，GitHub 4天内突破6000星",
-      "url": "https://github.com/kyegomez/OpenMythos",
-      "type": "project",
-      "source": "GitHub",
-      "time": "3天前",
-      "tags": [
-        "开源",
-        "新模型",
-        "热门"
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "🚨 Claude 封号潮失控：300万用户企业一夜断供，受害者抱团反抗",
-      "subtitle": "Claude 大规模封号风波持续发酵，企业用户服务无理由中断引发集体维权，AI服务稳定性成行业焦点",
-      "url": "https://www.infoq.cn/article/ho3Qjql4dzSwA1loVMMY",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "13小时前",
-      "tags": [
-        "争议",
-        "行业"
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "🏗️ MemPalace：最强开源 AI 记忆系统，4月上线即获4.8万星",
-      "subtitle": "全新开源 AI 记忆方案，号称性能最强且完全免费，上线半月 GitHub 星标近5万，挑战 Mem0 等老牌方案",
-      "url": "https://github.com/MemPalace/mempalace",
-      "type": "project",
-      "source": "GitHub",
-      "time": "2周前",
-      "tags": [
-        "开源",
-        "记忆",
-        "热门"
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "🎨 Anthropic 推出 Claude Design：一句话生成完整 UI 设计稿",
-      "subtitle": "Claude Design 让设计师只需一句自然语言描述即可生成高保真 UI 原型，挑战 Figma 等传统设计工具工作流",
+      "title": "🎨 Anthropic 发布 Claude Design：一句话生成完整 UI",
+      "subtitle": "Anthropic 推出 Claude Design 功能，用户只需自然语言描述即可自动生成高保真 UI 设计稿，挑战 Figma 等传统设计工具",
       "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm",
       "type": "news",
       "source": "InfoQ AI",
-      "time": "14小时前",
-      "tags": [
-        "设计",
-        "新产品"
-      ]
+      "time": "10小时前",
+      "tags": ["重磅", "新功能"]
+    },
+    {
+      "rank": 2,
+      "title": "💻 Claude Code GitHub 破 11.6 万星：终端里的 AI 编码搭档",
+      "subtitle": "Anthropic 官方终端编码工具，理解代码库、执行常规任务、处理 Git 工作流，用自然语言加速开发",
+      "url": "https://github.com/anthropics/claude-code",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": ["热门项目", "Agent"]
+    },
+    {
+      "rank": 3,
+      "title": "🧠 Opus 4.7 正式发布：Claude Code 之父分享模型使用心法",
+      "subtitle": "Anthropic 最新旗舰模型 Opus 4.7 上线，Claude Code 开发者分享实战心得：模型升级只是开始，开发方式才是关键",
+      "url": "https://www.infoq.cn/article/YWH4w3Y4fstITE34RFUa",
+      "type": "news",
+      "source": "InfoQ AI",
+      "time": "21小时前",
+      "tags": ["新模型", "深度"]
+    },
+    {
+      "rank": 4,
+      "title": "🔧 Everything Claude Code：16.3 万星的 AI 编码工具大全",
+      "subtitle": "涵盖 Claude Code、Cursor、Codex 等主流 AI 编码工具的系统提示词、内部工具和模型配置，Agent 开发必备参考",
+      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": ["热门项目", "工具集合"]
+    },
+    {
+      "rank": 5,
+      "title": "⚠️ Claude 封号潮失控：300 万用户企业一夜断供",
+      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由、无回应的封禁策略引发企业用户集体维权，AI 服务稳定性引担忧",
+      "url": "https://www.infoq.cn/article/ho3Qjql4dzSwA1loVMMY",
+      "type": "news",
+      "source": "InfoQ AI",
+      "time": "16小时前",
+      "tags": ["争议", "行业"]
+    },
+    {
+      "rank": 6,
+      "title": "🚀 Karpathy 新作 autoresearch：7.5 万星的自动研究 Agent",
+      "subtitle": "Andrej Karpathy 推出 autoresearch，AI Agent 自动在单 GPU 上进行 nanochat 训练研究，自动化 AI 研究新范式",
+      "url": "https://github.com/karpathy/autoresearch",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期发布",
+      "tags": ["新项目", "研究"]
     },
     {
       "rank": 7,
-      "title": "🤖 Browser Harness：browser-use 团队发布自愈式浏览器代理",
-      "subtitle": "browser-use 团队新作，让 LLM 能自动修复浏览器执行中的错误，完成任意网页任务，上线4天破4000星",
-      "url": "https://github.com/browser-use/browser-harness",
-      "type": "project",
-      "source": "GitHub",
-      "time": "4天前",
-      "tags": [
-        "浏览器",
-        "Agent",
-        "新开源"
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "📊 CodeBurn：AI 编码成本可视化仪表盘，支持 Claude Code/Codex/Cursor",
-      "subtitle": "交互式 TUI 工具，实时追踪 Claude Code、Codex、Cursor 的 token 消耗和费用，帮助开发者掌控 AI 编码成本",
-      "url": "https://github.com/getagentseal/codeburn",
-      "type": "project",
-      "source": "GitHub",
-      "time": "8天前",
-      "tags": [
-        "工具",
-        "编程",
-        "新开源"
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "🏭 中国具身智能最大单轮融资：前华为百度高管联手造可量产机器人",
-      "subtitle": "前华为、百度高管联手创业，打造真正能干活、能量产的具身智能机器人，获赛道史上最大单轮融资",
-      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "10小时前",
-      "tags": [
-        "融资",
-        "具身智能"
-      ]
-    },
-    {
-      "rank": 10,
-      "title": "🌐 Graphify：将代码文档秒变知识图谱，支持10+ AI编码工具",
-      "subtitle": "兼容 Claude Code、Cursor、Gemini CLI 等主流 AI 编码工具，自动将任意代码/文档/论文构建为可查询知识图谱",
-      "url": "https://github.com/safishamsi/graphify",
-      "type": "project",
-      "source": "GitHub",
-      "time": "2周前",
-      "tags": [
-        "知识图谱",
-        "编程",
-        "新开源"
-      ]
-    },
-    {
-      "rank": 11,
-      "title": "🚗 理想汽车首发高德汽车出行 AI Agent：支持多轮对话导航",
-      "subtitle": "理想汽车与高德深度合作，推出汽车出行专属 AI Agent，支持自然语言多轮对话和个性化路线推荐",
-      "url": "https://36kr.com/newsflashes/3776210798199556",
-      "type": "news",
-      "source": "36氪",
-      "time": "21小时前",
-      "tags": [
-        "汽车",
-        "Agent"
-      ]
-    },
-    {
-      "rank": 12,
-      "title": "🦾 高德 ABot-World：物理优先世界模型破解机器人零样本泛化",
-      "subtitle": "高德发布具身智能世界模型 ABot-World，结合物理引擎和 VLA 闭环，实现机器人未见场景的零样本迁移",
-      "url": "https://www.qbitai.com/2026/04/404086.html",
-      "type": "news",
-      "source": "量子位",
-      "time": "19小时前",
-      "tags": [
-        "具身智能",
-        "世界模型"
-      ]
-    },
-    {
-      "rank": 13,
-      "title": "💡 AI 编码提效 20%，程序员加班却更狠：老板的尺子歪了？",
-      "subtitle": "企业用 AI 产出来衡量生产力，程序员实际工作时间反而增加，AI 提效悖论引发行业深度反思",
+      "title": "📊 AI 提效 20%，程序员加班却越来越狠？",
+      "subtitle": "AI 编码工具让开发效率提升 20%，但企业用 AI 产出衡量生产力，程序员反而加班更严重，行业反思量尺歪了",
       "url": "https://www.infoq.cn/article/EejvvufwVGEusllYFHgH",
       "type": "news",
       "source": "InfoQ AI",
-      "time": "15小时前",
-      "tags": [
-        "行业",
-        "思考"
-      ]
+      "time": "21小时前",
+      "tags": ["深度", "行业"]
     },
     {
-      "rank": 14,
-      "title": "🔮 Gemini CLI 突破10万星：Google 终端 AI Agent 成新宠",
-      "subtitle": "Google 开源 Gemini CLI 让开发者在终端直接调用 Gemini 模型做 AI Agent，GitHub 星标突破10万大关",
+      "rank": 8,
+      "title": "📋 OpenSpec：4.1 万星的 AI 编码规范驱动开发框架",
+      "subtitle": "Fission AI 推出 Spec-driven Development 框架，用规范驱动 AI 编码助手，让 Cursor、Claude Code 写出更靠谱的代码",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期发布",
+      "tags": ["新项目", "开发工具"]
+    },
+    {
+      "rank": 9,
+      "title": "🔬 Anthropic 内部揭秘：100 个产品原型同时跑，新模型 Mythos 断层领先",
+      "subtitle": "Anthropic 同时推进百余产品原型，内部新模型 Mythos 表现远超预期，连 Skills 效果都好到团队意外",
+      "url": "https://www.infoq.cn/article/KlrsHcFeBKWu9RW85u0a",
+      "type": "news",
+      "source": "InfoQ AI",
+      "time": "21小时前",
+      "tags": ["独家", "行业"]
+    },
+    {
+      "rank": 10,
+      "title": "🤖 Gemini CLI：10.2 万星的 Google 终端 AI 助手",
+      "subtitle": "Google 官方开源的终端 AI 工具，将 Gemini 模型能力直接带入命令行，与 Claude Code 正面竞争",
       "url": "https://github.com/google-gemini/gemini-cli",
       "type": "project",
       "source": "GitHub",
-      "time": "持续热门",
-      "tags": [
-        "Agent",
-        "编程",
-        "Google"
-      ]
+      "time": "持续更新",
+      "tags": ["热门项目", "Agent"]
+    },
+    {
+      "rank": 11,
+      "title": "💰 中国具身智能最大单轮融资诞生！前华为百度高管联手创业",
+      "subtitle": "前华为、百度高管联合创办的机器人公司获具身智能赛道最大单轮融资，目标打造可量产的真干活机器人",
+      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ",
+      "type": "news",
+      "source": "InfoQ AI",
+      "time": "12小时前",
+      "tags": ["融资", "机器人"]
+    },
+    {
+      "rank": 12,
+      "title": "🧠 Mem0：5.3 万星的 AI Agent 记忆层",
+      "subtitle": "为 AI Agent 提供通用持久记忆能力，支持跨会话、跨用户的智能记忆管理，Agent 基础设施新星",
+      "url": "https://github.com/mem0ai/mem0",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": ["基础设施", "Agent"]
+    },
+    {
+      "rank": 13,
+      "title": "🔥 Agent 正杀入软件研发一线！60 位专家拆解 AI 落地困局",
+      "subtitle": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 AI Agent 在软件研发中的实际落地挑战与解决方案",
+      "url": "https://www.qbitai.com/2026/04/403859.html",
+      "type": "news",
+      "source": "量子位",
+      "time": "1天前",
+      "tags": ["趋势", "Agent"]
+    },
+    {
+      "rank": 14,
+      "title": "💻 Garry Tan 的 Claude Code 工具栈：7.9 万星的 CEO 配置方案",
+      "subtitle": "YC 总裁 Garry Tan 公开他的 Claude Code 配置：23 个工具覆盖 CEO、设计师、工程经理、QA 等角色",
+      "url": "https://github.com/garrytan/gstack",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期热门",
+      "tags": ["实用配置", "Agent"]
     },
     {
       "rank": 15,
-      "title": "🎉 2026 中国 AIGC 产业峰会 5月20日举办，首波嘉宾阵容官宣",
-      "subtitle": "国内最大 AIGC 行业峰会即将开幕，首波嘉宾阵容已公布，聚焦 AI 应用落地和产业融合趋势",
-      "url": "https://www.qbitai.com/2026/04/404096.html",
+      "title": "🍎 库克或将卸任苹果 CEO：科技巨头迎管理层重大变动",
+      "subtitle": "苹果 CEO 蒂姆·库克或将卸任，标志着这家市值最高的科技公司可能迎来管理层重大变革，AI 战略走向成焦点",
+      "url": "https://www.qbitai.com/2026/04/403790.html",
       "type": "news",
       "source": "量子位",
-      "time": "16小时前",
-      "tags": [
-        "活动",
-        "行业"
-      ]
+      "time": "1天前",
+      "tags": ["重磅", "大公司"]
     }
   ],
+  "top_20": [],
   "total": 15,
   "type_stats": {
-    "news": 10,
-    "project": 5
+    "news": 9,
+    "project": 6
   }
 }
