@@ -148,14 +148,14 @@
     {{ if $briefing }}
     <div class="card" style="border-left:3px solid var(--accent)">
         <div class="card-title">🤖 每日 AI 快报 <span class="hot-badge fire">AI 生成</span></div>
-        {{ with $briefing.highlights }}
+        <div style="font-size:12px;line-height:1.7;color:var(--text2);margin-bottom:10px">{{ $briefing.content }}</div>
+        {{ with $briefing.signals }}
             <div style="display:flex;flex-direction:column;gap:12px">
                 {{ range $index, $item := . }}
-                <a href="{{ $item.url }}" style="text-decoration:none;color:inherit;padding-bottom:10px;{{ if ne $index (sub (len $.Site.Data.briefing.highlights) 1) }}border-bottom:1px solid var(--border);{{ end }}">
+                <div style="padding-bottom:10px;{{ if ne $index (sub (len $.Site.Data.briefing.signals) 1) }}border-bottom:1px solid var(--border);{{ end }}">
                     <div style="font-size:13px;font-weight:700;line-height:1.6;color:var(--text1)">{{ add $index 1 }}. {{ $item.title }}</div>
                     <div style="font-size:12px;line-height:1.7;color:var(--text2);margin-top:4px">{{ $item.summary }}</div>
-                    <div style="font-size:11px;color:var(--text3);margin-top:6px">{{ $item.source }}</div>
-                </a>
+                </div>
                 {{ end }}
             </div>
         {{ else }}

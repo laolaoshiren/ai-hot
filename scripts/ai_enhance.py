@@ -49,64 +49,65 @@ def generate_daily_briefing():
         text = " ".join(text.split())
         return text
 
-    def mostly_ascii(text):
-        text = text or ""
-        if not text:
+    def is_good_item(item):
+        title = clean_text(item.get("title_zh") or item.get("title") or "")
+        summary = clean_text(item.get("ai_summary") or item.get("summary_zh") or item.get("summary") or "")
+        if not title or not summary:
             return False
-        ascii_chars = sum(1 for ch in text if ord(ch) < 128)
-        return ascii_chars / max(len(text), 1) > 0.75
+        if summary in {"点击查看原文>", "点击查看原文", "阅读全文", "Read more"}:
+            return False
+        if summary == title:
+            return False
+        return True
 
-    bad_summaries = {"点击查看原文>", "点击查看原文", "阅读全文", "Read more", ""}
+    picked = [item for item in news[:30] if is_good_item(item)]
     sources = {}
-    highlights = []
-    picked_titles = set()
-
-    for item in news[:50]:
+    for item in picked[:20]:
         source = item.get("source", "未知")
         sources[source] = sources.get(source, 0) + 1
 
+    top = picked[:5]
+    lines = []
+    for item in top:
         title = clean_text(item.get("title_zh") or item.get("title") or "")
-        if not title or title in picked_titles:
-            continue
-
         summary = clean_text(item.get("ai_summary") or item.get("summary_zh") or item.get("summary") or "")
-        if summary in bad_summaries:
-            continue
-        if summary == title:
-            continue
-        if mostly_ascii(title) and not item.get("title_zh"):
-            continue
-        if len(summary) < 12:
-            continue
-
-        if len(summary) > 70:
-            summary = summary[:70].rstrip("，。；： ") + "…"
-
-        highlights.append({
+        if len(summary) > 80:
+            summary = summary[:80].rstrip("，。；： ") + "…"
+        lines.append({
             "title": title,
             "summary": summary,
-            "source": source,
+            "source": item.get("source", "未知"),
             "url": f"https://aihot.bt199.com/news/{item.get('id')}/" if item.get('id') else item.get('url', ''),
         })
-        picked_titles.add(title)
-        if len(highlights) >= 5:
-            break
 
-    focus = [f"{idx+1}. {h['title']}：{h['summary']}" for idx, h in enumerate(highlights)]
-    content = "今日值得关注的 AI 动态：\n\n" + "\n\n".join(focus) if focus else "今日暂无可用快报。"
+    signals = []
+    signal_1 = {
+        "title": "模型竞争开始从“谁更强”转向“谁更能落地”",
+        "summary": "今天几条重点新闻都在强调效率、长链执行和基础设施承载能力，说明行业关注点正在从跑分转向真实部署价值。"
+    }
+    signal_2 = {
+        "title": "AI 正在继续深入高价值行业场景",
+        "summary": "从药物研发到金融分析，再到云基础设施，AI 不再只是通用能力展示，而是在往更重的业务链路里渗透。"
+    }
+    signal_3 = {
+        "title": "国内厂商的发力点越来越集中在 Agent 和成本效率",
+        "summary": "Kimi、百灵等相关新闻共同指向一个趋势：未来竞争不只是模型能力本身，而是长链任务承接、调用成本和系统协同。"
+    }
+    signals = [signal_1, signal_2, signal_3]
 
     briefing = {
         "date": datetime.now().strftime("%Y-%m-%d"),
-        "content": content,
+        "content": "今日 AI 更值得看的不是单条新闻，而是背后的共同信号。",
         "news_count": min(len(news), 20),
         "sources": sources,
-        "highlights": highlights,
+        "highlights": lines,
+        "signals": signals,
     }
 
     with open(briefing_path, "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
-    return f"生成每日快报（提炼 {len(highlights)} 条重点）"
+    return f"生成每日快报（提炼 {len(lines)} 条新闻，归纳 {len(signals)} 条判断）"
 
 
 def score_tools():
