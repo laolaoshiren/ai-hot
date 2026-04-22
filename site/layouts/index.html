@@ -207,12 +207,13 @@
         {{ if $seo }}
             <div style="display:flex;flex-wrap:wrap;gap:6px">
                 {{ range $seo.hot_keywords }}
-                <span class="tag" style="background:rgba(255,107,53,0.15);color:var(--accent)">{{ . }}</span>
+                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag" style="background:rgba(255,107,53,0.15);color:var(--accent)">{{ . }}</a>
                 {{ end }}
                 {{ range first 8 $seo.homepage_keywords }}
-                <span class="tag">{{ . }}</span>
+                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag">{{ . }}</a>
                 {{ end }}
             </div>
+            <div style="font-size:12px;color:var(--text3);margin-top:10px">点击关键词可直达站内搜索结果</div>
         {{ end }}
     </div>
 

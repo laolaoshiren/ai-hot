@@ -150,10 +150,15 @@ def collect_keywords():
         reverse=True
     )[:100]
 
+    # 如果微博/知乎没有抓到可用热点，就回退到百度下拉中的高频真实搜索词
+    display_hot_kws = hot_kws[:10]
+    if not display_hot_kws:
+        display_hot_kws = [item[0] for item in top_kws[:10]]
+
     output = {
         "updated_at": now,
         "total_keywords": len(existing),
-        "hot_keywords": hot_kws[:30],
+        "hot_keywords": display_hot_kws,
         "top_suggestions": top_kws,
         "keywords": existing,
     }
@@ -165,10 +170,14 @@ def collect_keywords():
     seo_data = {
         "updated_at": now,
         "homepage_keywords": [item[0] for item in top_kws[:20]],
-        "hot_keywords": hot_kws[:10],
+        "hot_keywords": display_hot_kws,
     }
     seo_path = os.path.join(DATA_DIR, "seo.json")
     with open(seo_path, "w", encoding="utf-8") as f:
         json.dump(seo_data, f, ensure_ascii=False, indent=2)
 
-    return f"{len(all_keywords)} 个新关键词 (总计 {len(existing)}, 热点 {len(hot_kws)})"
+    return f"{len(all_keywords)} 个新关键词 (总计 {len(existing)}, 热点展示 {len(display_hot_kws)})"
+
+
+if __name__ == "__main__":
+    print(collect_keywords())
