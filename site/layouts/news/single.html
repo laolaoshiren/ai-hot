@@ -37,6 +37,12 @@
     <div style="font-size:18px;line-height:1.9;color:var(--text1);margin:0 0 26px;font-weight:700;padding:16px 18px;border-radius:16px;background:rgba(255,255,255,.03)">⚡ 一句话看懂：{{ $intro }}</div>
     {{ end }}
 
+    {{ with .Params.cover_image }}
+    <div style="margin:0 0 24px">
+        <img src="{{ . }}" alt="{{ $displayTitle }} 配图" style="width:100%;border-radius:18px;border:1px solid var(--border);display:block">
+    </div>
+    {{ end }}
+
     <div class="news-article-body" style="font-size:17px;line-height:2;color:var(--text1)">
         {{ .Content }}
     </div>

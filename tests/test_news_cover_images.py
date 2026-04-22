@@ -1,0 +1,95 @@
+import unittest
+from datetime import datetime, timedelta
+
+from scripts.generate_news_cover_images import (
+    build_image_prompt,
+    choose_insert_position,
+    insert_image_into_body,
+    is_cover_worthy,
+    is_image_acceptable,
+    select_front_page_news_ids,
+    select_recent_cover_candidates,
+)
+
+
+class NewsCoverImageTests(unittest.TestCase):
+    def test_select_front_page_news_ids_limits_to_eight(self):
+        news = [
+            {
+                "id": str(i),
+                "source": "TechCrunch AI",
+                "title": f"title {i}",
+                "summary": "这是一篇适合生成配图的文章摘要，信息完整，主题明确，适合制作新闻头图。",
+                "content_text": "x" * 1200,
+            }
+            for i in range(12)
+        ]
+        ids = select_front_page_news_ids(news)
+        self.assertEqual(len(ids), 8)
+        self.assertEqual(ids[0], "0")
+        self.assertEqual(ids[-1], "7")
+
+    def test_is_cover_worthy_filters_low_information_or_event_articles(self):
+        self.assertFalse(is_cover_worthy({
+            "id": "a",
+            "source": "InfoQ AI",
+            "title": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
+            "summary": "点击查看原文>",
+            "content_text": "",
+        }))
+        self.assertTrue(is_cover_worthy({
+            "id": "b",
+            "source": "TechCrunch AI",
+            "title": "AI 已能批量提出候选药物，10x Science 想先解决怎么筛出真有用的分子",
+            "summary": "药物发现的瓶颈正在从生成候选转向验证候选，文章信息充足。",
+            "content_text": "10x Science 试图用 AI 和质谱分析帮助研究团队理解复杂分子结构。" * 40,
+        }))
+
+    def test_build_image_prompt_includes_article_specific_constraints(self):
+        article = {
+            "title_zh": "AI 已能批量提出候选药物，10x Science 想先解决怎么筛出真有用的分子",
+            "ai_summary": "药物发现的瓶颈正在从生成候选转向验证候选",
+            "content_text": "10x Science 试图用 AI 和质谱分析帮助研究团队理解复杂分子结构。",
+        }
+        prompt = build_image_prompt(article)
+        self.assertIn("质谱", prompt)
+        self.assertIn("药物发现", prompt)
+        self.assertIn("不要机器人头像", prompt)
+        self.assertIn("不是宣传海报", prompt)
+        self.assertIn("最好 0 到 8 个字", prompt)
+
+
+    def test_select_recent_cover_candidates_only_keeps_recent_and_worthy_articles(self):
+        now = datetime(2026, 4, 22, 18, 0, 0)
+        recent_good = {
+            "id": "recent-good",
+            "source": "TechCrunch AI",
+            "published": "2026-04-22T16:30:00",
+            "title": "AI 已能批量提出候选药物，10x Science 想先解决怎么筛出真有用的分子",
+            "summary": "药物发现的瓶颈正在从生成候选转向验证候选，文章信息充足，适合做头图。",
+            "content_text": "10x Science 试图用 AI 和质谱分析帮助研究团队理解复杂分子结构。" * 40,
+        }
+        old_good = dict(recent_good, id="old-good", published="2026-04-22T09:30:00")
+        recent_bad = dict(recent_good, id="recent-bad", title="高能研讨会｜端侧 AI 正在重写实时感知效率上限", summary="点击查看原文>", content_text="")
+        ids = [x["id"] for x in select_recent_cover_candidates([recent_good, old_good, recent_bad], now=now, hours=6)]
+        self.assertEqual(ids, ["recent-good"])
+
+    def test_choose_insert_position_returns_head_mid_or_tail(self):
+        body = "第一段。\n\n第二段。\n\n第三段。\n\n第四段。"
+        self.assertIn(choose_insert_position(body, seed="a"), {"head", "mid", "tail"})
+        self.assertIn(choose_insert_position(body, seed="b"), {"head", "mid", "tail"})
+
+    def test_insert_image_into_body_inserts_markdown_image(self):
+        body = "第一段。\n\n第二段。\n\n第三段。\n\n第四段。"
+        updated = insert_image_into_body(body, "/news-images/x.png", "测试配图", seed="abc")
+        self.assertIn("![测试配图](/news-images/x.png)", updated)
+
+    def test_is_image_acceptable_rejects_generic_ai_poster_text(self):
+        bad = "这是一张泛AI海报，主体是机器人头像和未来城市，大标题写着通用人工智能加速到来。"
+        good = "这是一张实验室场景配图，包含分子结构、质谱峰图和分析界面，几乎没有多余文字。"
+        self.assertFalse(is_image_acceptable(bad, "药物发现 + 质谱分析"))
+        self.assertTrue(is_image_acceptable(good, "药物发现 + 质谱分析"))
+
+
+if __name__ == '__main__':
+    unittest.main()

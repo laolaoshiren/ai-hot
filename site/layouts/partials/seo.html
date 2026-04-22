@@ -13,6 +13,8 @@
 
 {{ $canonical := .Permalink }}
 {{ with .Params.canonical }}{{ $canonical = . }}{{ end }}
+{{ $ogImage := "https://aihot.bt199.com/favicon.png" }}
+{{ with .Params.cover_image }}{{ $ogImage = printf "https://aihot.bt199.com%s" . }}{{ end }}
 
 <title>{{ $fullTitle }}</title>
 <meta name="description" content="{{ $description }}">
@@ -21,7 +23,9 @@
 <meta property="og:description" content="{{ $description }}">
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ $canonical }}">
+<meta property="og:image" content="{{ $ogImage }}">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ $ogImage }}">
 <link rel="canonical" href="{{ $canonical }}">
 
 {{ $pageType := .Type }}
