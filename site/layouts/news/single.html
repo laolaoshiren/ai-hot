@@ -9,87 +9,48 @@
     <a href="{{ relURL "/news/" }}" style="color:var(--accent);font-size:14px;margin-top:12px;display:inline-block">返回新闻列表</a>
 </div>
 {{ else }}
-<div style="margin-bottom:20px">
-    <a href="{{ relURL "/news/" }}" style="color:var(--text2);font-size:13px">← 返回新闻列表</a>
-</div>
-
 {{ $displayTitle := or .Title .Params.name $article.title_zh $article.title }}
 {{ $titleEn := or .Params.title_en $article.title }}
 {{ $intro := or .Params.intro .Params.ai_summary .Params.summary_zh .Params.summary }}
-{{ $coreSummary := or .Params.ai_summary .Params.summary_zh .Params.summary }}
-{{ $takeaways := .Params.takeaways }}
-{{ $content := .Content }}
+{{ $summary := or .Params.summary_zh .Params.ai_summary .Params.summary }}
+
+<div style="margin-bottom:20px">
+    <a href="{{ relURL "/news/" }}" style="color:var(--text2);font-size:13px">← 返回新闻列表</a>
+</div>
 
 <nav style="font-size:12px;color:var(--text3);margin-bottom:14px">
     <a href="{{ relURL "/" }}">首页</a> / <a href="{{ relURL "/news/" }}">AI新闻</a> / <span>{{ $displayTitle }}</span>
 </nav>
 
-<div class="card" style="border-left:3px solid var(--accent)">
-    <div style="margin-bottom:18px">
-        <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px">
-            <span class="hot-badge">{{ $article.source }}</span>
-            {{ with $article.published }}<span class="tool-tag">🕒 {{ replace . "T" " " | truncate 16 "" }}</span>{{ end }}
-            {{ if eq $article.lang "en" }}<span class="tool-tag">🌍 英文原文</span>{{ else }}<span class="tool-tag">🈶 中文内容</span>{{ end }}
-            {{ range first 4 ($article.tags | default slice) }}<span class="tool-tag">{{ . }}</span>{{ end }}
-        </div>
-        <h1 style="font-size:30px;line-height:1.35;margin-bottom:10px">{{ $displayTitle }}</h1>
-        {{ if and $titleEn $displayTitle (ne $titleEn $displayTitle) }}
-        <div style="font-size:14px;color:var(--text3);line-height:1.7">原始标题：{{ $titleEn }}</div>
-        {{ end }}
+<article class="card" style="border-left:3px solid var(--accent)">
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+        <span class="hot-badge">{{ $article.source }}</span>
+        {{ with $article.published }}<span class="tool-tag">🕒 {{ replace . "T" " " | truncate 16 "" }}</span>{{ end }}
+        {{ if eq $article.lang "en" }}<span class="tool-tag">🌍 英文原文</span>{{ end }}
     </div>
+
+    <h1 style="font-size:30px;line-height:1.35;margin-bottom:10px">{{ $displayTitle }}</h1>
+    {{ if and $titleEn $displayTitle (ne $titleEn $displayTitle) }}
+    <div style="font-size:14px;color:var(--text3);margin-bottom:14px">原始标题：{{ $titleEn }}</div>
+    {{ end }}
 
     {{ if $intro }}
-    <div style="margin-bottom:16px;padding:16px 18px;background:linear-gradient(135deg,rgba(255,107,53,0.08),rgba(99,102,241,0.06));border-radius:12px;border:1px solid rgba(255,107,53,0.18)">
-        <div style="font-size:12px;color:var(--text3);margin-bottom:6px">⚡ 一句话看懂</div>
-        <div style="font-size:16px;color:var(--text1);line-height:1.85">{{ $intro }}</div>
-    </div>
+    <div style="font-size:18px;line-height:1.9;color:var(--text1);margin-bottom:18px;font-weight:600">{{ $intro }}</div>
     {{ end }}
 
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:12px;margin-bottom:18px">
-        <div style="padding:14px 16px;background:var(--bg);border-radius:10px;border-left:3px solid var(--green)">
-            <div style="font-size:12px;color:var(--text3);margin-bottom:6px">📌 核心结论</div>
-            <div style="font-size:14px;color:var(--text2);line-height:1.8">{{ $coreSummary }}</div>
-        </div>
-        <div style="padding:14px 16px;background:var(--bg);border-radius:10px;border-left:3px solid var(--blue)">
-            <div style="font-size:12px;color:var(--text3);margin-bottom:6px">🎯 为什么值得看</div>
-            <div style="font-size:14px;color:var(--text2);line-height:1.8">先在站内快速看完重点，再决定是否跳去原文，不用一上来就被外站带走。</div>
-        </div>
-    </div>
-
-    {{ if $takeaways }}
-    <div style="margin-bottom:18px;padding:14px 16px;background:var(--bg);border-radius:10px;border-left:3px solid #a855f7">
-        <div style="font-size:13px;color:var(--text3);margin-bottom:10px">🧠 三个重点</div>
-        <div style="display:flex;flex-direction:column;gap:8px">
-            {{ range first 3 $takeaways }}
-            <div style="font-size:14px;color:var(--text2);line-height:1.8">• {{ . }}</div>
-            {{ end }}
-        </div>
-    </div>
+    {{ if $summary }}
+    <div style="font-size:15px;line-height:1.95;color:var(--text2);margin-bottom:22px">{{ $summary }}</div>
     {{ end }}
 
-    {{ if $content }}
-    <div style="margin-bottom:18px">
-        <div style="font-size:13px;color:var(--text3);margin-bottom:10px">📰 正文摘录</div>
-        <div style="padding:16px 18px;background:var(--bg);border-radius:12px;border:1px solid var(--border);font-size:15px;color:var(--text2);line-height:1.95;max-height:900px;overflow:hidden;position:relative">
-            {{ $content }}
-            <div style="position:absolute;left:0;right:0;bottom:0;height:120px;background:linear-gradient(to bottom,rgba(13,17,23,0),rgba(13,17,23,0.96))"></div>
-        </div>
-        <div style="font-size:12px;color:var(--text3);margin-top:10px">这里只保留站内快读版摘录，不整段铺满，避免页面像采集站。</div>
+    <div style="font-size:16px;line-height:2;color:var(--text1)">
+        {{ .Content }}
     </div>
-    {{ end }}
-
-    <div style="margin-top:10px;padding-top:14px;border-top:1px solid var(--border);display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between">
-        <div style="font-size:12px;color:var(--text3)">来源：{{ $article.source }}{{ with $article.published }} · {{ replace . "T" " " | truncate 16 "" }}{{ end }}</div>
-        {{ if $article.url }}
-        <a href="{{ $article.url }}" target="_blank" rel="noopener" style="font-size:12px;color:var(--text3);text-decoration:none">原文链接 ↗</a>
-        {{ end }}
-    </div>
-</div>
+</article>
 
 {{ $related := first 6 (where (where site.Data.news "id" "ne" $article.id) "source" $article.source) }}
 {{ if gt (len $related) 0 }}
 <div class="card">
-    <div class="card-title">🔗 相关阅读</div>
+    <div class="card-title">相关阅读</div>
     <div style="display:flex;flex-direction:column;gap:12px">
         {{ range $related }}
         <a href="{{ relURL "/news/" }}{{ .id }}/" style="text-decoration:none;color:inherit;padding:12px 14px;background:var(--bg3);border:1px solid var(--border);border-radius:10px;display:block">
