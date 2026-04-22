@@ -267,21 +267,33 @@
 {{ else if in $slug "/providers/" }}
 <div class="card">
     <div class="card-title">🏢 AI 提供商 <span class="hot-badge">{{ len site.Data.providers }} 家</span></div>
+    <div class="hot-meta" style="margin-bottom:16px">优先展示各家最新模型动态，数据来源为 OpenRouter 实时索引 + 站内人工补充</div>
     <div class="tools-grid">
         {{ range site.Data.providers }}
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
                 <img src="https://www.google.com/s2/favicons?domain={{ .url }}&sz=32" alt="" style="width:32px;height:32px;border-radius:6px" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
                 <div class="tool-icon" style="display:none">🏢</div>
-                <div class="tool-name">{{ .name }}</div>
-            </div>
-            <div class="tool-desc">{{ .models }}</div>
-            <div class="tool-footer">
-                <div class="tool-tags">
-                    {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
-                    {{ if eq .chinese_access "直接访问" }}<span class="tool-tag free">国内可用</span>{{ end }}
+                <div>
+                    <div class="tool-name">{{ .name }}</div>
+                    <div class="hot-meta" style="font-size:12px;margin-top:2px">{{ .type }}{{ if .last_updated }} · 最近上新 {{ .last_updated }}{{ end }}</div>
                 </div>
-                {{ if .free_tier }}<div class="tool-price">🎁 {{ .free_tier }}</div>{{ end }}
+            </div>
+            <div class="tool-desc">{{ with .live_summary }}{{ . }}{{ else }}{{ .pricing }}{{ end }}</div>
+            {{ if .latest_models }}
+            <div class="tool-tags" style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px">
+                {{ range first 3 .latest_models }}
+                <span class="tool-tag">{{ . }}</span>
+                {{ end }}
+            </div>
+            {{ end }}
+            <div class="tool-footer" style="margin-top:12px;align-items:flex-start;gap:8px;flex-direction:column">
+                <div class="tool-tags">
+                    <span class="tool-tag free">{{ if .model_count }}{{ .model_count }} 个模型{{ else }}手工维护{{ end }}</span>
+                    {{ if .source }}<span class="tool-tag">{{ if eq .source "openrouter" }}OpenRouter{{ else }}站内数据{{ end }}</span>{{ end }}
+                    {{ range first 3 .modalities }}<span class="tool-tag">{{ . }}</span>{{ end }}
+                </div>
+                <div class="tool-price">💰 {{ .pricing }}</div>
             </div>
         </a>
         {{ end }}

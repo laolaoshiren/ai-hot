@@ -12,7 +12,20 @@
     ],
     "type": "国际",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "GPT-5.4 Image 2",
+      "GPT-5.4 Nano",
+      "GPT-5.4 Mini"
+    ],
+    "model_count": 62,
+    "last_updated": "2026-04-21",
+    "modalities": [
+      "多模态",
+      "音频"
+    ],
+    "live_summary": "OpenRouter 已收录 62 个相关模型，最近更新为 GPT-5.4 Image 2"
   },
   {
     "id": "anthropic",
@@ -26,7 +39,19 @@
     ],
     "type": "国际",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Claude Opus 4.7",
+      "Claude Opus 4.6 (Fast)",
+      "Claude Sonnet 4.6"
+    ],
+    "model_count": 14,
+    "last_updated": "2026-04-16",
+    "modalities": [
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 14 个相关模型，最近更新为 Claude Opus 4.7"
   },
   {
     "id": "google",
@@ -39,7 +64,21 @@
     ],
     "type": "国际",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Gemma 4 26B A4B (free)",
+      "Gemma 4 26B A4B",
+      "Gemma 4 31B (free)"
+    ],
+    "model_count": 31,
+    "last_updated": "2026-04-03",
+    "modalities": [
+      "视频",
+      "音频",
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 31 个相关模型，最近更新为 Gemma 4 26B A4B (free)"
   },
   {
     "id": "deepseek",
@@ -52,7 +91,19 @@
     ],
     "type": "国产",
     "pricing": "超低价",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "DeepSeek V3.2 Speciale",
+      "DeepSeek V3.2",
+      "DeepSeek V3.2 Exp"
+    ],
+    "model_count": 11,
+    "last_updated": "2025-12-01",
+    "modalities": [
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 11 个相关模型，最近更新为 DeepSeek V3.2 Speciale"
   },
   {
     "id": "alibaba",
@@ -65,7 +116,19 @@
     ],
     "type": "国产",
     "pricing": "免费额度+按量",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Qwen3.6 Plus",
+      "Qwen3.5-9B",
+      "Qwen3.5-35B-A3B"
+    ],
+    "model_count": 48,
+    "last_updated": "2026-04-02",
+    "modalities": [
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 48 个相关模型，最近更新为 Qwen3.6 Plus"
   },
   {
     "id": "baidu",
@@ -77,7 +140,20 @@
     ],
     "type": "国产",
     "pricing": "免费额度+按量",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "ERNIE 4.5 21B A3B Thinking",
+      "ERNIE 4.5 21B A3B",
+      "ERNIE 4.5 VL 28B A3B"
+    ],
+    "model_count": 5,
+    "last_updated": "2025-10-09",
+    "modalities": [
+      "文本",
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 5 个相关模型，最近更新为 ERNIE 4.5 21B A3B Thinking"
   },
   {
     "id": "bytedance",
@@ -89,7 +165,20 @@
     ],
     "type": "国产",
     "pricing": "免费额度",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Seed-2.0-Lite",
+      "Seed-2.0-Mini",
+      "Seed 1.6 Flash"
+    ],
+    "model_count": 5,
+    "last_updated": "2026-03-10",
+    "modalities": [
+      "视频",
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 5 个相关模型，最近更新为 Seed-2.0-Lite"
   },
   {
     "id": "tencent",
@@ -101,7 +190,17 @@
     ],
     "type": "国产",
     "pricing": "免费额度+按量",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Tencent: Hunyuan A13B Instruct"
+    ],
+    "model_count": 1,
+    "last_updated": "2025-07-08",
+    "modalities": [
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 1 个相关模型，最近更新为 Tencent: Hunyuan A13B Instruct"
   },
   {
     "id": "moonshot",
@@ -113,7 +212,20 @@
     ],
     "type": "国产",
     "pricing": "免费额度",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Kimi K2.6",
+      "Kimi K2.5",
+      "Kimi K2 Thinking"
+    ],
+    "model_count": 5,
+    "last_updated": "2026-04-20",
+    "modalities": [
+      "多模态",
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 5 个相关模型，最近更新为 Kimi K2.6"
   },
   {
     "id": "zhipu",
@@ -126,7 +238,20 @@
     ],
     "type": "国产",
     "pricing": "免费额度+按量",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "GLM 5.1",
+      "GLM 5V Turbo",
+      "GLM 5 Turbo"
+    ],
+    "model_count": 13,
+    "last_updated": "2026-04-07",
+    "modalities": [
+      "文本",
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 13 个相关模型，最近更新为 GLM 5.1"
   },
   {
     "id": "minimax",
@@ -138,7 +263,20 @@
     ],
     "type": "国产",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "MiniMax M2.7",
+      "MiniMax M2.5 (free)",
+      "MiniMax M2.5"
+    ],
+    "model_count": 8,
+    "last_updated": "2026-03-18",
+    "modalities": [
+      "文本",
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 8 个相关模型，最近更新为 MiniMax M2.7"
   },
   {
     "id": "mistral",
@@ -151,7 +289,21 @@
     ],
     "type": "国际",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Mistral Small 4",
+      "Mistral Small Creative",
+      "Devstral 2 2512"
+    ],
+    "model_count": 25,
+    "last_updated": "2026-03-16",
+    "modalities": [
+      "多模态",
+      "文本",
+      "音频"
+    ],
+    "live_summary": "OpenRouter 已收录 25 个相关模型，最近更新为 Mistral Small 4"
   },
   {
     "id": "meta",
@@ -164,7 +316,20 @@
     ],
     "type": "国际",
     "pricing": "开源免费",
-    "api": false
+    "api": false,
+    "source": "openrouter",
+    "latest_models": [
+      "Llama Guard 4 12B",
+      "Llama 4 Maverick",
+      "Llama 4 Scout"
+    ],
+    "model_count": 14,
+    "last_updated": "2025-04-30",
+    "modalities": [
+      "多模态",
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 14 个相关模型，最近更新为 Llama Guard 4 12B"
   },
   {
     "id": "xai",
@@ -176,7 +341,20 @@
     ],
     "type": "国际",
     "pricing": "X Premium+",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Grok 4.20 Multi-Agent",
+      "Grok 4.20",
+      "Grok 4.1 Fast"
+    ],
+    "model_count": 10,
+    "last_updated": "2026-03-31",
+    "modalities": [
+      "多模态",
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 10 个相关模型，最近更新为 Grok 4.20 Multi-Agent"
   },
   {
     "id": "nvidia",
@@ -189,7 +367,20 @@
     ],
     "type": "国际",
     "pricing": "免费额度",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Nemotron 3 Super (free)",
+      "Nemotron 3 Super",
+      "Nemotron 3 Nano 30B A3B (free)"
+    ],
+    "model_count": 10,
+    "last_updated": "2026-03-11",
+    "modalities": [
+      "文本",
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 10 个相关模型，最近更新为 Nemotron 3 Super (free)"
   },
   {
     "id": "aws-bedrock",
@@ -203,7 +394,17 @@
     ],
     "type": "云平台",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "Claude",
+      "Llama",
+      "Titan"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "azure-openai",
@@ -216,7 +417,16 @@
     ],
     "type": "云平台",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "GPT-4o",
+      "GPT-4.1"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "openrouter",
@@ -228,7 +438,21 @@
     ],
     "type": "聚合",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "openrouter",
+    "latest_models": [
+      "Pareto Code Router",
+      "Free Models Router",
+      "Body Builder (beta)"
+    ],
+    "model_count": 4,
+    "last_updated": "2026-04-21",
+    "modalities": [
+      "文本",
+      "多模态",
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 4 个相关模型，最近更新为 Pareto Code Router"
   },
   {
     "id": "together",
@@ -240,7 +464,15 @@
     ],
     "type": "聚合",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "开源模型集群"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "groq",
@@ -254,7 +486,17 @@
     ],
     "type": "国际",
     "pricing": "免费额度",
-    "api": true
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "Llama",
+      "Mixtral",
+      "Gemma"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "siliconflow",
@@ -266,7 +508,15 @@
     ],
     "type": "国产聚合",
     "pricing": "超低价/免费",
-    "api": true
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "开源模型集群"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "volcengine",
@@ -279,6 +529,15 @@
     ],
     "type": "云平台",
     "pricing": "按量计费",
-    "api": true
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "Doubao",
+      "自定义模型"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]

@@ -25,6 +25,7 @@ from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
 from ai_enhance import summarize_news, generate_daily_briefing, score_tools
 from generate_sitemap import generate_sitemap
+from openrouter_providers import update_providers
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 SITE_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
@@ -68,6 +69,7 @@ def main():
     print("\n⚙️ Phase 2: 数据处理")
     steps_process = [
         ("🔥 保留热点", lambda: "由Hermes定时任务生成"),
+        ("🏢 提供商更新", update_providers),
         ("⭐ 每日精选", select_daily_spotlight),
         ("🔗 链接检查", quick_check),
     ]
