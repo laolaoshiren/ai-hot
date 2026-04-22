@@ -1,5 +1,104 @@
 [
   {
+    "id": "8ac4a3644148",
+    "title": "LG人工智能研究院与英伟达同意加强AI合作",
+    "url": "https://36kr.com/newsflashes/3777321625225219?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T01:30:15",
+    "summary": "LG当地时间4月21日宣布，LG人工智能研究院和英伟达已同意加强技术联盟，以扩展Exaone人工智能生态系统。双方将结合LG的Exaone模型和英伟达的Nemotron生态系统，共同开发人工智能模型。（界面）",
+    "collected_at": "2026-04-22T01:53:29.585402"
+  },
+  {
+    "id": "b23181db2bbe",
+    "title": "Meta will record employees’ keystrokes and use it to train its AI models",
+    "url": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T23:45:21",
+    "summary": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models.",
+    "collected_at": "2026-04-22T01:53:11.906184"
+  },
+  {
+    "id": "3101b2eb692d",
+    "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+    "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T22:45:37",
+    "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or pay a fee of $10 billion. Buying this startup that's focused on AI coding could help xAI's tools com",
+    "collected_at": "2026-04-22T01:53:11.966611"
+  },
+  {
+    "id": "cd78e201d885",
+    "title": "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims",
+    "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T23:26:45",
+    "summary": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.",
+    "collected_at": "2026-04-22T01:53:11.906212"
+  },
+  {
+    "id": "e84c955a8ab0",
+    "title": "Roundtables: Unveiling The 10 Things That Matter in AI Right Now",
+    "url": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T22:09:25",
+    "summary": "Listen to the session or watch below Watch a special edition of Roundtables simulcast live from EmTech AI, MIT Technology Review’s signature conference for AI leadership. Subscribers got an exclusive first look at a new list capturing 10 key technologies, emerging trends, bold ideas, and powerful mo",
+    "collected_at": "2026-04-22T01:53:12.068168"
+  },
+  {
+    "id": "b55747f6d2e5",
+    "title": "SpaceX is working with Cursor and has an option to buy the startup for $60 billion",
+    "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T22:58:22",
+    "summary": "Only Elon would do this before an IPO.",
+    "collected_at": "2026-04-22T01:53:11.906229"
+  },
+  {
+    "id": "4df7f721afea",
+    "title": "A natural protein may protect the GI tract from infection",
+    "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "Embedded in the body’s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bac",
+    "collected_at": "2026-04-22T01:53:12.068306"
+  },
+  {
+    "id": "a521d11c49f0",
+    "title": "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield",
+    "url": "https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T20:23:24",
+    "summary": "Apple's top job comes with almost unrivaled power and money, but it comes with plenty of baggage, too.",
+    "collected_at": "2026-04-22T01:53:11.906251"
+  },
+  {
+    "id": "3348e376f438",
+    "title": "This tool could show how consciousness works",
+    "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "How does the physical matter in our brains translate into thoughts, sensations, and emotions? It’s hard to explore that question without neurosurgery. But in a recent paper, MIT philosopher Matthias Michel, Lincoln Lab researcher Daniel Freeman, and colleagues outline a strategy for doing so with an",
+    "collected_at": "2026-04-22T01:53:12.068359"
+  },
+  {
     "id": "eefe3d821e12",
     "title": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
     "url": "https://www.infoq.cn/article/fKc0YsLc9aDjzk1V81oW?utm_source=rss&utm_medium=article",
@@ -10,6 +109,39 @@
     "summary": "点击查看原文>",
     "collected_at": "2026-04-21T13:07:41.907915",
     "ai_summary": "多模态AI应用成为标配，本周AI应用生态持续繁荣"
+  },
+  {
+    "id": "d18fefd2213f",
+    "title": "AI at MIT",
+    "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "At&#160;MIT, AI has become so pervasive that you can almost find your way into it without meaning to. Take Sili Deng, an associate professor of mechanical engineering. Deng says she still doesn’t know whether she’d have gone all in on artificial intelligence had it not been for the covid pandemic. S",
+    "collected_at": "2026-04-22T01:53:12.068646"
+  },
+  {
+    "id": "6c61749c78a4",
+    "title": "AI research lab NeoCognition lands $40M seed to build agents that learn like humans",
+    "url": "https://techcrunch.com/2026/04/21/ai-research-lab-neocognition-lands-40m-seed-to-build-agents-that-learn-like-humans/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T19:11:29",
+    "summary": "Founded by an OSU researcher, the startup is developing AI agents that can become experts in any domain.",
+    "collected_at": "2026-04-22T01:53:11.906269"
+  },
+  {
+    "id": "8c2dfa318184",
+    "title": "Inventor recalls eye imaging breakthrough",
+    "url": "https://www.technologyreview.com/2026/04/21/1134945/inventor-recalls-eye-imaging-breakthrough/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "If you’ve been to an eye doctor and had an image taken of the inside of your eye, chances are good it was done with optical coherence tomography (OCT)—a technology invented by clinician-scientist David Huang ’85, SM ’89, PhD ’93, and now used in 40 million procedures per year.&#160; OCT is a noninva",
+    "collected_at": "2026-04-22T01:53:12.068700"
   },
   {
     "id": "314fefba7e73",
@@ -71,6 +203,17 @@
     "summary": "Remember when Framework made the first laptop where you can easily upgrade its entire internal video card in three minutes flat? The company's getting into the external graphics game, too. As promised last August, you'll be able to turn the Framework Laptop 16's GPU modules into external ones instea",
     "collected_at": "2026-04-21T19:03:08.055221",
     "ai_summary": "AI领域最新动态：Framework’s first eGPUs turn i"
+  },
+  {
+    "id": "e53fd54bdec2",
+    "title": "Meta to start capturing employee mouse movements, keystrokes for AI training",
+    "url": "https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T17:40:39",
+    "summary": "Alt link: https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... Comments URL: https://news.ycombinator.com/item?id=47851948 Points: 332 # Comments: 286",
+    "collected_at": "2026-04-22T01:53:28.418932"
   },
   {
     "id": "d946104eff7e",
