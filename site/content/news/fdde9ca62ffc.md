@@ -19,9 +19,7 @@ intro = "AI领域最新动态：Sam Altman throws shade at Ant"
 ai_summary = "AI领域最新动态：Sam Altman throws shade at Ant"
 summary = "The AI industry's mudslinging continues."
 summary_zh = ""
-brief = "一句话看懂：AI领域最新动态：Sam Altman throws shade at Ant
-
-内容摘要：The AI industry's mudslinging continues."
+brief = "一句话看懂：AI领域最新动态：Sam Altman throws shade at Ant 内容摘要：The AI industry's mudslinging continues."
 tags = []
 takeaways = ["AI领域最新动态：Sam Altman throws shade at Ant", "这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["AI领域最新动态：Sam Altman throws shade at Ant", "这条内
 
 AI领域最新动态：Sam Altman throws shade at Ant
 
-一句话看懂：AI领域最新动态：Sam Altman throws shade at Ant
-
-内容摘要：The AI industry's mudslinging continues.
+一句话看懂：AI领域最新动态：Sam Altman throws shade at Ant 内容摘要：The AI industry's mudslinging continues.
 
 ## 这条新闻值得关注什么
 

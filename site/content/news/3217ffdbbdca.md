@@ -19,9 +19,7 @@ intro = "TechCrunch Mobility: Uber enters its ass。"
 ai_summary = "TechCrunch Mobility: Uber enters its ass。"
 summary = "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
 summary_zh = ""
-brief = "一句话看懂：TechCrunch Mobility: Uber enters its ass。
-
-内容摘要：Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
+brief = "一句话看懂：TechCrunch Mobility: Uber enters its ass。 内容摘要：Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part."
 tags = []
 takeaways = ["TechCrunch Mobility: Uber enters its ass。", "这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["TechCrunch Mobility: Uber enters its ass。", "这条内容来自 
 
 TechCrunch Mobility: Uber enters its ass。
 
-一句话看懂：TechCrunch Mobility: Uber enters its ass。
-
-内容摘要：Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.
+一句话看懂：TechCrunch Mobility: Uber enters its ass。 内容摘要：Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.
 
 ## 这条新闻值得关注什么
 

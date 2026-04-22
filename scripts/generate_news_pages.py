@@ -46,8 +46,15 @@ def build_keywords(item):
     return ', '.join(seen)
 
 
+def single_line(text: str) -> str:
+    text = '' if text is None else str(text)
+    text = text.replace('\r', ' ').replace('\n', ' ')
+    text = re.sub(r'\s+', ' ', text).strip()
+    return text
+
+
 def clean_summary(text: str) -> str:
-    text = (text or '').strip()
+    text = single_line(text)
     if text in {'点击查看原文>', '点击查看原文', '阅读全文', 'Read more'}:
         return ''
     return text
@@ -110,11 +117,11 @@ def build_page(item):
     summary = clean_summary(item.get('summary') or '')
     lang = item.get('lang', '')
     tags = item.get('tags') or []
-    intro = build_intro(item, title_zh, source)
-    brief = build_brief(item, title_zh)
-    takeaways = build_takeaways(item)
-    seo_title = f'{title_zh}｜AI资讯解读 - AI热榜'
-    seo_description = intro[:120] if intro else f'{title_zh}：AI热榜整理的中文快读版，帮你快速了解这条 AI 新闻的重点。'
+    intro = single_line(build_intro(item, title_zh, source))
+    brief = single_line(build_brief(item, title_zh))
+    takeaways = [single_line(x) for x in build_takeaways(item)]
+    seo_title = single_line(f'{title_zh}｜AI资讯解读 - AI热榜')
+    seo_description = single_line(intro[:120] if intro else f'{title_zh}：AI热榜整理的中文快读版，帮你快速了解这条 AI 新闻的重点。')
 
     lines = [
         '+++',

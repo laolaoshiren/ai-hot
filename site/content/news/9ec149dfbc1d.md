@@ -19,9 +19,7 @@ intro = "Anthropic launches Claude Design, a new 。"
 ai_summary = "Anthropic launches Claude Design, a new 。"
 summary = "The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily."
 summary_zh = ""
-brief = "一句话看懂：Anthropic launches Claude Design, a new 。
-
-内容摘要：The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily."
+brief = "一句话看懂：Anthropic launches Claude Design, a new 。 内容摘要：The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily."
 tags = []
 takeaways = ["Anthropic launches Claude Design, a new 。", "这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["Anthropic launches Claude Design, a new 。", "这条内容来自 
 
 Anthropic launches Claude Design, a new 。
 
-一句话看懂：Anthropic launches Claude Design, a new 。
-
-内容摘要：The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.
+一句话看懂：Anthropic launches Claude Design, a new 。 内容摘要：The company says Claude Design is intended to help people like founders and product managers without a design background share their ideas more easily.
 
 ## 这条新闻值得关注什么
 

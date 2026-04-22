@@ -19,9 +19,7 @@ intro = "AI领域最新动态：A Roblox cheat and one AI tool"
 ai_summary = "AI领域最新动态：A Roblox cheat and one AI tool"
 summary = "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148"
 summary_zh = ""
-brief = "一句话看懂：AI领域最新动态：A Roblox cheat and one AI tool
-
-内容摘要：Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148"
+brief = "一句话看懂：AI领域最新动态：A Roblox cheat and one AI tool 内容摘要：Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148"
 tags = []
 takeaways = ["AI领域最新动态：A Roblox cheat and one AI tool", "这条内容来自 Hacker News AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["AI领域最新动态：A Roblox cheat and one AI tool", "这条内
 
 AI领域最新动态：A Roblox cheat and one AI tool
 
-一句话看懂：AI领域最新动态：A Roblox cheat and one AI tool
-
-内容摘要：Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148
+一句话看懂：AI领域最新动态：A Roblox cheat and one AI tool 内容摘要：Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148
 
 ## 这条新闻值得关注什么
 

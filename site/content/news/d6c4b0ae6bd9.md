@@ -19,9 +19,7 @@ intro = "The Download: bad news for inn。"
 ai_summary = "The Download: bad news for inn。"
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The problem with thinking you’re part Neanderthal"
 summary_zh = ""
-brief = "一句话看懂：The Download: bad news for inn。
-
-内容摘要：This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The problem with thinking you’re part Neanderthal"
+brief = "一句话看懂：The Download: bad news for inn。 内容摘要：This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The problem with thinking you’re part Neanderthal"
 tags = []
 takeaways = ["The Download: bad news for inn。", "这条内容来自 MIT Tech Review，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["The Download: bad news for inn。", "这条内容来自 MIT Tech R
 
 The Download: bad news for inn。
 
-一句话看懂：The Download: bad news for inn。
-
-内容摘要：This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The problem with thinking you’re part Neanderthal
+一句话看懂：The Download: bad news for inn。 内容摘要：This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The problem with thinking you’re part Neanderthal
 
 ## 这条新闻值得关注什么
 

@@ -19,9 +19,7 @@ intro = "Cursor Pro 发布新版 AI 编程功能。"
 ai_summary = "Cursor Pro 发布新版 AI 编程功能。"
 summary = "Cursor adds new AI-powered features"
 summary_zh = ""
-brief = "一句话看懂：Cursor Pro 发布新版 AI 编程功能。
-
-内容摘要：Cursor adds new AI-powered features"
+brief = "一句话看懂：Cursor Pro 发布新版 AI 编程功能。 内容摘要：Cursor adds new AI-powered features"
 tags = []
 takeaways = ["Cursor Pro 发布新版 AI 编程功能。", "这条内容来自 Hacker News，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["Cursor Pro 发布新版 AI 编程功能。", "这条内容来自 H
 
 Cursor Pro 发布新版 AI 编程功能。
 
-一句话看懂：Cursor Pro 发布新版 AI 编程功能。
-
-内容摘要：Cursor adds new AI-powered features
+一句话看懂：Cursor Pro 发布新版 AI 编程功能。 内容摘要：Cursor adds new AI-powered features
 
 ## 这条新闻值得关注什么
 

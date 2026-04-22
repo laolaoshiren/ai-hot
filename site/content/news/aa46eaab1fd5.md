@@ -19,9 +19,7 @@ intro = "AI领域最新动态：AI Resistance: some recent ant"
 ai_summary = "AI领域最新动态：AI Resistance: some recent ant"
 summary = "Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400"
 summary_zh = ""
-brief = "一句话看懂：AI领域最新动态：AI Resistance: some recent ant
-
-内容摘要：Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400"
+brief = "一句话看懂：AI领域最新动态：AI Resistance: some recent ant 内容摘要：Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400"
 tags = []
 takeaways = ["AI领域最新动态：AI Resistance: some recent ant", "这条内容来自 Hacker News AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
 +++
@@ -30,9 +28,7 @@ takeaways = ["AI领域最新动态：AI Resistance: some recent ant", "这条内
 
 AI领域最新动态：AI Resistance: some recent ant
 
-一句话看懂：AI领域最新动态：AI Resistance: some recent ant
-
-内容摘要：Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400
+一句话看懂：AI领域最新动态：AI Resistance: some recent ant 内容摘要：Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400
 
 ## 这条新闻值得关注什么
 
