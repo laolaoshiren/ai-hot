@@ -4447,6 +4447,26 @@
     "collected_at": "2026-04-22T13:10:19.128701"
   },
   {
+    "id": "github-1215185173",
+    "name": "lucidrains/pseudo-projector",
+    "display_name": "pseudo-projector",
+    "url": "https://github.com/lucidrains/pseudo-projector",
+    "description": "Implementation of the pseudo projector proposed by Vitaly Bulgakov at Mass General Brigham",
+    "stars": 7,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "multigrid"
+    ],
+    "created_at": "2026-04-19T15:38:27Z",
+    "updated_at": "2026-04-22T17:26:37Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-04-22T19:04:15.283889"
+  },
+  {
     "id": "github-1213064866",
     "name": "abbosaliboev/free-ai-bible",
     "display_name": "free-ai-bible",
