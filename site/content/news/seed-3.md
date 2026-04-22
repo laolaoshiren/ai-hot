@@ -19,23 +19,15 @@ intro = "Ollama 增加 DeepSeek-V3 支持"
 ai_summary = ""
 summary = "Ollama adds DeepSeek-V3 support"
 summary_zh = "Ollama 增加 DeepSeek-V3 支持"
-brief = "中文摘要：Ollama 增加 DeepSeek-V3 支持"
 tags = []
-takeaways = ["Ollama 增加 DeepSeek-V3 支持", "这条内容来自 r/LocalLLaMA，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。"]
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
 Ollama 增加 DeepSeek-V3 支持
 
-中文摘要：Ollama 增加 DeepSeek-V3 支持
+## 🔗 原始来源
 
-## 这条新闻值得关注什么
-
-- Ollama 增加 DeepSeek-V3 支持
-- 这条内容来自 r/LocalLLaMA，适合拿来快速判断它是否值得继续深挖。
-- 如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。
-## 继续阅读
-
-如果你要核对原始表述、上下文细节或完整报道，请查看文末原文链接。
+如果你要核对细节，可以再看原文：
+[r/LocalLLaMA原文链接](https://github.com/ollama/ollama)
 

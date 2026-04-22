@@ -19,23 +19,15 @@ intro = "Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-…"
 ai_summary = "Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-…"
 summary = "Alt link: https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... Comments URL: https://news.ycombinator.com/item?id=47851948 Points: 332 # Comments: 286"
 summary_zh = "Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... 评论网址：https://news.ycombinator.com/item?id=4785194…"
-brief = "一句话看懂：Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-… 中文摘要：Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... 评论网址：https://news.ycombinator.com/item?id=4785194…"
 tags = []
-takeaways = ["Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-…", "这条内容来自 Hacker News AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。"]
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
 Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-…
 
-一句话看懂：Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-… 中文摘要：Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... 评论网址：https://news.ycombinator.com/item?id=4785194…
+## 🔗 原始来源
 
-## 这条新闻值得关注什么
-
-- Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-…
-- 这条内容来自 Hacker News AI，适合拿来快速判断它是否值得继续深挖。
-- 如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。
-## 继续阅读
-
-如果你要核对原始表述、上下文细节或完整报道，请查看文末原文链接。
+如果你要核对细节，可以再看原文：
+[Hacker News AI原文链接](https://www.reuters.com/sustainability/boards-policy-regulation/meta-start-capturing-employee-mouse-movements-keystrokes-ai-training-data-2026-04-21/)
 

@@ -19,23 +19,36 @@ intro = "人工智能行业的诽谤仍在继续"
 ai_summary = "人工智能行业的诽谤仍在继续"
 summary = "The AI industry's mudslinging continues."
 summary_zh = "人工智能行业的诽谤仍在继续"
-brief = "一句话看懂：人工智能行业的诽谤仍在继续"
 tags = []
-takeaways = ["人工智能行业的诽谤仍在继续", "这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。"]
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-人工智能行业的诽谤仍在继续
+OpenAI and Anthropic continue to take swipes at each other.
 
-一句话看懂：人工智能行业的诽谤仍在继续
+This week, during a podcast appearance, OpenAI CEO Sam Altman called out his competitor’s new cybersecurity model, noting that the company was using fear to make its product sound more impressive than it actually is.
+Anthropic
+announced
+Mythos earlier this month, releasing the model to a small cohort of enterprise customers.
 
-## 这条新闻值得关注什么
+The company has claimed that Mythos is too powerful to be released to the public out of concern that cybercriminals will weaponize it.
 
-- 人工智能行业的诽谤仍在继续
-- 这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。
-- 如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。
-## 继续阅读
+Critics have said
+this rhetoric is overblown
+.
+During
+an appearance
+on the podcast Core Memory, Altman implied that Anthropic’s “fear-based marketing” was a good way to keep AI in the hands of a small and exclusive elite.
 
-如果你要核对原始表述、上下文细节或完整报道，请查看文末原文链接。
+“There are people in the world who, for a long time, have wanted to keep AI in the hands of a smaller group of people,” he said.
+
+“You can justify that in a lot of different ways.”
+“It is clearly incredible marketing to say, ‘We have built a bomb, we are about to drop it on your head.
+
+We will sell you a bomb shelter for $100 million,’” he added.
+
+## 🔗 原始来源
+
+如果你要核对细节，可以再看原文：
+[TechCrunch AI原文链接](https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/)
 
