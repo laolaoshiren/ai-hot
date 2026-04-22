@@ -1,12 +1,14 @@
 # 🔥 AI热榜
 
-> GitHub 上的首页简化版：先看内容，再点进网站看完整版。
+> GitHub 只放首页摘要，**完整版请直接去网站看**：热点更全、搜索更强、导航更完整。
 
 [![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-87-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-52-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-151-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
 🕐 **最近更新**：2026-04-22 15:15:18
+
+**立即进入：** [首页完整版](https://aihot.bt199.com/) · [搜索 AI 工具 / 模型 / 新闻](https://aihot.bt199.com/search/) · [查看全部工具](https://aihot.bt199.com/tools/) · [查看模型榜](https://aihot.bt199.com/models/) · [查看 Agent 专区](https://aihot.bt199.com/agents/)
 
 ---
 
@@ -52,6 +54,8 @@
    - 将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文
    - `GitHub · 近期 · 编程 / 知识图谱`
 
+👉 [去网站看完整热点与实时更新 →](https://aihot.bt199.com/)
+
 ## 🤖 每日 AI 快报
 
 今日AI热点速递：
@@ -78,11 +82,15 @@
 - 中国具身智能最大单轮融资，前华为百度高管联手创业
 - Karpathy 开源 autoresearch，单卡自动搞研究
 
+👉 [去网站看完整 AI 日报与更多快报 →](https://aihot.bt199.com/news/)
+
 ## ⭐ 今日精选
 
 **[文心一言](https://aihot.bt199.com/tools/文心一言/)**
 - 百度出品的 AI 助手
 - `免费 + API 按量`
+
+👉 [去网站直接体验更多精选工具 →](https://aihot.bt199.com/tools/)
 
 ## 📈 热度飙升
 
@@ -92,6 +100,8 @@
 - [DeepSeek](https://aihot.bt199.com/tools/deepseek/)：深度求索出品，国产最强开源大模型对话工具
 - [Dify](https://aihot.bt199.com/tools/dify/)：开源 LLM 应用开发平台，可视化搭建 AI 应用
 
+👉 [去网站看完整热度飙升榜单 →](https://aihot.bt199.com/tools/)
+
 ## 🛠️ 值得先看的工具
 
 - [Cursor](https://aihot.bt199.com/tools/cursor/)：AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力 · `免费 + Pro $20/月`
@@ -100,6 +110,8 @@
 - [Codex CLI](https://aihot.bt199.com/tools/codex-cli/)：OpenAI 官方终端编程助手，轻量快速 · `按 API 使用量计费`
 - [Codeium](https://aihot.bt199.com/tools/codeium/)：免费 AI 代码补全和聊天，支持 70+ 编辑器 · `个人免费 + Teams $12/月`
 - [Continue](https://aihot.bt199.com/tools/continue/)：开源 AI 编程助手，可接入任意 LLM · `开源免费`
+
+👉 [去网站看更多工具详情、对比和相关推荐 →](https://aihot.bt199.com/tools/)
 
 ## 📂 分类入口
 
@@ -111,9 +123,13 @@
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
 
+👉 [去网站按分类深挖完整内容 →](https://aihot.bt199.com/)
+
 ## 🔑 热搜关键词
 
 [ai绘画](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB) · [豆包](https://aihot.bt199.com/search/?q=%E8%B1%86%E5%8C%85) · [ai工具软件排名前十](https://aihot.bt199.com/search/?q=ai%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81) · [ai网站](https://aihot.bt199.com/search/?q=ai%E7%BD%91%E7%AB%99) · [ai写作](https://aihot.bt199.com/search/?q=ai%E5%86%99%E4%BD%9C) · [ai绘画免费图生图](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB%E5%85%8D%E8%B4%B9%E5%9B%BE%E7%94%9F%E5%9B%BE) · [ai绘画软件](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB%E8%BD%AF%E4%BB%B6) · [ai绘画网站](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB%E7%BD%91%E7%AB%99)
+
+👉 [去网站直接搜索这些关键词 →](https://aihot.bt199.com/search/)
 
 ## 🌐 这个 README 是干嘛的
 
@@ -125,11 +141,19 @@
 
 ## 🚀 继续浏览
 
+### 第一次来，建议从这里开始
 - [打开首页完整版](https://aihot.bt199.com/)
+- [直接搜索你想要的 AI 工具 / 模型 / 新闻](https://aihot.bt199.com/search/)
 - [查看全部工具](https://aihot.bt199.com/tools/)
+
+### 已经熟悉 AI 热榜，直接走深入口
 - [查看模型榜](https://aihot.bt199.com/models/)
 - [查看 Agent 专区](https://aihot.bt199.com/agents/)
 - [查看最新新闻](https://aihot.bt199.com/news/)
+- [查看提供商](https://aihot.bt199.com/providers/)
+- [工具对比](https://aihot.bt199.com/compare/)
+
+> **一句话：GitHub 看摘要，网站看完整版。**
 
 ---
 
