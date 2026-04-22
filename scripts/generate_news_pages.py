@@ -158,10 +158,12 @@ def build_page(item):
     source = item.get('source', '')
     published = item.get('published', '')
     url = item.get('url', '')
-    ai_summary = (item.get('ai_summary') or '').strip()
+    ai_summary = clean_summary(item.get('ai_summary') or '')
     summary_zh = clean_summary(item.get('summary_zh') or '')
     summary = clean_summary(item.get('summary') or '')
     lang = item.get('lang', '')
+    if str(lang).lower() == 'en' and looks_bad_en_summary(ai_summary):
+        ai_summary = ''
     tags = item.get('tags') or []
     intro = single_line(build_intro(item, title_zh, source))
     brief = single_line(build_brief(item, title_zh))
