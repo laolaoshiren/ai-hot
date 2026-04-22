@@ -64,12 +64,20 @@ def generate_sitemap():
         if tool_id:
             tool_urls.append(build_url(f'/tools/{tool_id}/', '0.7', 'weekly', today))
 
+    news_urls = []
+    news = json.loads((DATA_DIR / 'news.json').read_text(encoding='utf-8'))
+    for item in news:
+        news_id = item.get('id')
+        if news_id:
+            news_urls.append(build_url(f'/news/{news_id}/', '0.7', 'daily', today))
+
     write_sitemap('sitemap-pages.xml', page_urls)
     write_sitemap('sitemap-tools.xml', tool_urls)
+    write_sitemap('sitemap-news.xml', news_urls)
 
     index_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     index_xml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    for name in ['sitemap-pages.xml', 'sitemap-tools.xml']:
+    for name in ['sitemap-pages.xml', 'sitemap-tools.xml', 'sitemap-news.xml']:
         index_xml += '  <sitemap>\n'
         index_xml += f'    <loc>{BASE_URL}/{name}</loc>\n'
         index_xml += f'    <lastmod>{today}</lastmod>\n'
@@ -79,8 +87,9 @@ def generate_sitemap():
 
     print(f'  ✓ 页面 sitemap: {len(page_urls)} 个URL')
     print(f'  ✓ 工具 sitemap: {len(tool_urls)} 个URL')
-    print(f'\n✅ 生成 sitemap 索引: {len(page_urls) + len(tool_urls)} 个URL')
-    return len(page_urls) + len(tool_urls)
+    print(f'  ✓ 新闻 sitemap: {len(news_urls)} 个URL')
+    print(f'\n✅ 生成 sitemap 索引: {len(page_urls) + len(tool_urls) + len(news_urls)} 个URL')
+    return len(page_urls) + len(tool_urls) + len(news_urls)
 
 
 if __name__ == '__main__':

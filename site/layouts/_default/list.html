@@ -221,7 +221,7 @@
     <div class="hot-item news-item" data-page="{{ div $index 10 }}">
         <div class="hot-content">
             <div class="hot-title">
-                <a href="{{ $item.url }}" target="_blank">{{ with $item.title_zh }}{{ . }}{{ else }}{{ $item.title }}{{ end }}</a>
+                <a href="{{ relURL "/news/" }}{{ $item.id }}/">{{ with $item.title_zh }}{{ . }}{{ else }}{{ $item.title }}{{ end }}</a>
                 <span class="hot-badge">{{ $item.source }}</span>
             </div>
             {{ with $item.published }}<div class="hot-meta">{{ replace . "T" " " | truncate 16 "" }}</div>{{ end }}

@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+"""根据 data/news.json 生成站内可收录的新闻文章页。"""
+
+from pathlib import Path
+import json
+import re
+
+ROOT = Path('/root/ai-hot')
+NEWS_JSON = ROOT / 'data' / 'news.json'
+CONTENT_DIR = ROOT / 'site' / 'content' / 'news'
+GENERATED_MARKER = '<!-- AUTO-GENERATED: news page -->\n'
+
+
+def esc(value: str) -> str:
+    value = '' if value is None else str(value)
+    return value.replace('\\', '\\\\').replace('"', '\\"')
+
+
+def slugify(value: str) -> str:
+    value = (value or '').strip().lower()
+    value = re.sub(r'[^a-z0-9\u4e00-\u9fff]+', '-', value)
+    value = re.sub(r'-+', '-', value).strip('-')
+    return value or 'news'
+
+
+def toml_array(items):
+    if not items:
+        return '[]'
+    return '[' + ', '.join(f'"{esc(x)}"' for x in items) + ']'
+
+
+def build_keywords(item):
+    parts = [
+        item.get('title_zh') or item.get('title', ''),
+        item.get('source', ''),
+        'AI新闻',
+        'AI资讯',
+        'AI热榜',
+    ]
+    parts.extend((item.get('tags') or [])[:6])
+    seen = []
+    for part in parts:
+        part = (part or '').strip()
+        if part and part not in seen:
+            seen.append(part)
+    return ', '.join(seen)
+
+
+def clean_summary(text: str) -> str:
+    text = (text or '').strip()
+    if text in {'点击查看原文>', '点击查看原文', '阅读全文', 'Read more'}:
+        return ''
+    return text
+
+
+def build_intro(item, title_zh, source):
+    ai_summary = (item.get('ai_summary') or '').strip()
+    summary_zh = clean_summary(item.get('summary_zh') or '')
+    summary = clean_summary(item.get('summary') or '')
+    if ai_summary:
+        return ai_summary
+    if summary_zh:
+        return summary_zh
+    if summary:
+        return summary
+    return f'{title_zh}。这篇内容由 AI热榜整理为站内快读版，方便先用中文快速看懂，再按需查看原始来源。'
+
+
+def build_brief(item, title_zh):
+    pieces = []
+    ai_summary = (item.get('ai_summary') or '').strip()
+    summary_zh = clean_summary(item.get('summary_zh') or '')
+    summary = clean_summary(item.get('summary') or '')
+
+    if ai_summary:
+        pieces.append(f'一句话看懂：{ai_summary}')
+    if summary_zh and summary_zh != ai_summary:
+        pieces.append(f'中文摘要：{summary_zh}')
+    elif summary and summary != ai_summary:
+        pieces.append(f'内容摘要：{summary}')
+
+    if not pieces:
+        pieces.append(f'{title_zh} 是近期值得关注的一条 AI 动态，建议先看下方重点，再决定是否继续读原文。')
+    return '\n\n'.join(pieces)
+
+
+def build_takeaways(item):
+    title_zh = item.get('title_zh') or item.get('title', '')
+    source = item.get('source', '原始来源')
+    ai_summary = (item.get('ai_summary') or '').strip()
+    summary_zh = clean_summary(item.get('summary_zh') or '')
+    summary = clean_summary(item.get('summary') or '')
+
+    takeaway_1 = ai_summary or summary_zh or summary or f'{title_zh} 是这条新闻的核心信息。'
+    takeaway_2 = f'这条内容来自 {source}，适合拿来快速判断它是否值得继续深挖。'
+    takeaway_3 = '如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。'
+    return [takeaway_1, takeaway_2, takeaway_3]
+
+
+def build_page(item):
+    news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
+    slug = item.get('slug') or news_id
+    title = item.get('title') or slug
+    title_zh = item.get('title_zh') or title
+    source = item.get('source', '')
+    published = item.get('published', '')
+    url = item.get('url', '')
+    ai_summary = (item.get('ai_summary') or '').strip()
+    summary_zh = clean_summary(item.get('summary_zh') or '')
+    summary = clean_summary(item.get('summary') or '')
+    lang = item.get('lang', '')
+    tags = item.get('tags') or []
+    intro = build_intro(item, title_zh, source)
+    brief = build_brief(item, title_zh)
+    takeaways = build_takeaways(item)
+    seo_title = f'{title_zh}｜AI资讯解读 - AI热榜'
+    seo_description = intro[:120] if intro else f'{title_zh}：AI热榜整理的中文快读版，帮你快速了解这条 AI 新闻的重点。'
+
+    lines = [
+        '+++',
+        f'title = "{esc(title_zh)}"',
+        f'description = "{esc(seo_description)}"',
+        f'seo_title = "{esc(seo_title)}"',
+        f'seo_description = "{esc(seo_description)}"',
+        f'seo_keywords = "{esc(build_keywords(item))}"',
+        f'slug = "{esc(slug)}"',
+        'type = "news"',
+        '',
+        '[params]',
+        f'id = "{esc(news_id)}"',
+        f'name = "{esc(title_zh)}"',
+        f'title_en = "{esc(title)}"',
+        f'original_url = "{esc(url)}"',
+        f'source = "{esc(source)}"',
+        f'published = "{esc(published)}"',
+        f'lang = "{esc(lang)}"',
+        f'intro = "{esc(intro)}"',
+        f'ai_summary = "{esc(ai_summary)}"',
+        f'summary = "{esc(summary)}"',
+        f'summary_zh = "{esc(summary_zh)}"',
+        f'brief = "{esc(brief)}"',
+        f'tags = {toml_array(tags)}',
+        f'takeaways = {toml_array(takeaways)}',
+        '+++',
+        '',
+        GENERATED_MARKER.rstrip(),
+        '',
+        intro,
+        '',
+        brief,
+        '',
+        '## 这条新闻值得关注什么',
+        '',
+    ]
+
+    for tip in takeaways:
+        lines.append(f'- {tip}')
+    lines.extend([
+        '',
+        '## 继续阅读',
+        '',
+        '如果你要核对原始表述、上下文细节或完整报道，请查看文末原文链接。',
+        '',
+    ])
+    return '\n'.join(lines) + '\n'
+
+
+def generate_news_pages():
+    news = json.loads(NEWS_JSON.read_text(encoding='utf-8'))
+    CONTENT_DIR.mkdir(parents=True, exist_ok=True)
+
+    keep = {'_index.md'}
+    generated = 0
+    for item in news:
+        news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
+        slug = item.get('slug') or news_id
+        path = CONTENT_DIR / f'{slug}.md'
+        path.write_text(build_page({**item, 'slug': slug}), encoding='utf-8')
+        keep.add(path.name)
+        generated += 1
+
+    for path in CONTENT_DIR.glob('*.md'):
+        if path.name not in keep:
+            text = path.read_text(encoding='utf-8', errors='ignore')
+            if GENERATED_MARKER in text:
+                path.unlink()
+
+    return f'生成 {generated} 个站内新闻页'
+
+
+if __name__ == '__main__':
+    print(generate_news_pages())
