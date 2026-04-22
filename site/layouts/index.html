@@ -251,12 +251,14 @@
         <div class="card-title">🆕 新收录</div>
         {{ $tools := site.Data.tools }}
         {{ if $tools }}
-            {{ $recentTools := first 5 (reverse $tools) }}
-            {{ range $recentTools }}
+            {{ $totalTools := len $tools }}
+            {{ range seq 1 5 }}
+            {{ if le . $totalTools }}
+            {{ $tool := index $tools (sub $totalTools .) }}
             <div class="trend-item">
                 <div style="min-width:0;flex:1">
-                    <a href="{{ relURL "/tools/" }}{{ .id }}/">{{ .name }}</a>
-                    <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
+                    <a href="{{ relURL "/tools/" }}{{ $tool.id }}/">{{ $tool.name }}</a>
+                    <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ $tool.description }}</div>
                 </div>
                 <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
             </div>
