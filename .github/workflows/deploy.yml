@@ -25,6 +25,26 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Refresh meta timestamp (Asia/Shanghai)
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+
+          meta_path = Path('data/meta.json')
+          meta = {}
+          if meta_path.exists():
+              meta = json.loads(meta_path.read_text(encoding='utf-8'))
+          meta['last_update'] = datetime.now(ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d %H:%M:%S')
+          meta.setdefault('version', '3.0')
+          results = meta.get('results') or {}
+          results['网站部署'] = f"✅ GitHub Pages 发布 {meta['last_update']}"
+          meta['results'] = results
+          meta_path.write_text(json.dumps(meta, ensure_ascii=False, indent=2), encoding='utf-8')
+          PY
+
       - name: Sync data to Hugo
         run: cp -r data/* site/data/
 
