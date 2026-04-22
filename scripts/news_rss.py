@@ -45,12 +45,14 @@ NON_AI_KEYWORDS = [
     "美食", "菜谱", "烹饪", "餐厅", "外卖",
     "旅游", "酒店", "机票", "签证", "景点",
     "游戏攻略", "游戏评测", "手游", "网游", "电竞",
-    "健康养生", "医疗", "药品", "保健品", "中医",
+    "健康养生", "药品", "保健品", "中医",
     "房产", "装修", "家具", "家电",
     "股票", "基金", "理财", "保险",
     "体育", "足球", "篮球", "网球", "奥运",
     "娱乐", "明星", "八卦", "综艺", "电影",
     "时尚", "服装", "穿搭", "潮流",
+    "感染", "肠胃", "胃肠", "蛋白质", "肿瘤", "癌症", "细胞治疗", "疫苗",
+    "约会", "Tinder", "Airbnb", "诗歌相机", "Poetry Camera", "鞋公司", "Allbirds",
     # 财经新闻
     "A股", "B股", "港股", "美股", "股市", "涨跌", "涨幅", "跌幅",
     "沪指", "深成指", "创业板指", "三大指数", "集体收涨", "集体收跌",
@@ -84,29 +86,26 @@ AI_KEYWORDS_EN = [
 
 def is_ai_related(title, summary, source_config):
     """检查新闻是否与 AI 相关"""
-    # AI 专用源直接通过
-    if source_config.get("ai_only", False):
-        return True
-
-    # 非 AI 专用源需要关键词匹配
     text = (title + " " + summary).upper()
-    
-    # 1. 先检查黑名单，如果包含非AI关键词则直接过滤
+
+    # 1. 黑名单优先，任何来源都先过滤明显无关内容
     for keyword in NON_AI_KEYWORDS:
         if keyword.upper() in text:
             return False
-    
-    # 2. 检查白名单（AI关键词）
-    # 检查中文关键词
+
+    # 2. AI 专用源仍需最基本AI关键词确认，避免漏进奇怪周边新闻
+    if source_config.get("ai_only", False):
+        return any(kw.upper() in text for kw in AI_KEYWORDS_ZH + AI_KEYWORDS_EN)
+
+    # 3. 非 AI 专用源需要关键词匹配
     for kw in AI_KEYWORDS_ZH:
         if kw.upper() in text:
             return True
-    
-    # 检查英文关键词
+
     for kw in AI_KEYWORDS_EN:
         if kw.upper() in text:
             return True
-    
+
     return False
 
 

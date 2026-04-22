@@ -33,6 +33,9 @@ PROVIDER_PREFIX_MAP = {
     'volcengine': [],
 }
 
+PLATFORM_IDS = {'aws-bedrock', 'azure-openai', 'together', 'groq', 'siliconflow', 'volcengine', 'openrouter'}
+MODEL_AUTHOR_IDS = {'openai', 'anthropic', 'google', 'deepseek', 'alibaba', 'baidu', 'bytedance', 'tencent', 'moonshot', 'zhipu', 'minimax', 'mistral', 'meta', 'xai', 'nvidia'}
+
 
 def fetch_openrouter_models():
     req = urllib.request.Request(OPENROUTER_MODELS_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -53,7 +56,7 @@ def clean_model_name(name):
     prefixes = [
         'OpenAI: ', 'Anthropic: ', 'Google: ', 'DeepSeek: ', 'Qwen: ', 'Baidu: ',
         'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Mistral: ',
-        'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: '
+        'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: ', 'Tencent: '
     ]
     for p in prefixes:
         if out.startswith(p):
@@ -88,7 +91,28 @@ def derive_modalities(models):
     return labels[:4]
 
 
+def classify_provider(provider):
+    pid = provider.get('id')
+    if pid in PLATFORM_IDS:
+        return 'platform'
+    if pid in MODEL_AUTHOR_IDS:
+        return 'model_author'
+    return 'manual'
+
+
 def summarize_provider(provider, matched_models):
+    provider_kind = classify_provider(provider)
+    provider['provider_kind'] = provider_kind
+
+    if provider_kind == 'platform':
+        provider['source'] = 'manual'
+        provider['latest_models'] = provider.get('models', [])[:3]
+        provider['model_count'] = 0
+        provider['last_updated'] = ''
+        provider['modalities'] = []
+        provider['live_summary'] = '平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者'
+        return provider
+
     if not matched_models:
         provider['source'] = 'manual'
         provider['latest_models'] = provider.get('models', [])[:3]
@@ -107,7 +131,7 @@ def summarize_provider(provider, matched_models):
     provider['model_count'] = len(matched_models)
     provider['last_updated'] = ts_to_date(latest[0].get('created'))
     provider['modalities'] = derive_modalities(matched_models)
-    provider['live_summary'] = f"OpenRouter 已收录 {len(matched_models)} 个相关模型，最近更新为 {latest_names[0]}"
+    provider['live_summary'] = f"OpenRouter 已收录 {len(matched_models)} 个该作者/厂商相关模型，最近更新为 {latest_names[0]}"
     return provider
 
 
@@ -130,14 +154,14 @@ def update_providers():
         for prefix in prefixes:
             matched.extend(by_prefix.get(prefix, []))
         summarize_provider(provider, matched)
-        if matched:
+        if matched and provider.get('source') == 'openrouter':
             live_count += 1
         updated.append(provider)
 
     with open(PROVIDERS_PATH, 'w', encoding='utf-8') as f:
         json.dump(updated, f, ensure_ascii=False, indent=2)
 
-    return f'更新 {len(updated)} 家提供商，其中 {live_count} 家接入 OpenRouter 实时数据'
+    return f'更新 {len(updated)} 家提供商，其中 {live_count} 家为模型作者型实时索引'
 
 
 if __name__ == '__main__':

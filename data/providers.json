@@ -25,7 +25,8 @@
       "多模态",
       "音频"
     ],
-    "live_summary": "OpenRouter 已收录 62 个相关模型，最近更新为 GPT-5.4 Image 2"
+    "live_summary": "OpenRouter 已收录 62 个该作者/厂商相关模型，最近更新为 GPT-5.4 Image 2",
+    "provider_kind": "model_author"
   },
   {
     "id": "anthropic",
@@ -51,7 +52,8 @@
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 14 个相关模型，最近更新为 Claude Opus 4.7"
+    "live_summary": "OpenRouter 已收录 14 个该作者/厂商相关模型，最近更新为 Claude Opus 4.7",
+    "provider_kind": "model_author"
   },
   {
     "id": "google",
@@ -78,7 +80,8 @@
       "音频",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 31 个相关模型，最近更新为 Gemma 4 26B A4B (free)"
+    "live_summary": "OpenRouter 已收录 31 个该作者/厂商相关模型，最近更新为 Gemma 4 26B A4B (free)",
+    "provider_kind": "model_author"
   },
   {
     "id": "deepseek",
@@ -103,7 +106,8 @@
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 11 个相关模型，最近更新为 DeepSeek V3.2 Speciale"
+    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 DeepSeek V3.2 Speciale",
+    "provider_kind": "model_author"
   },
   {
     "id": "alibaba",
@@ -128,7 +132,8 @@
     "modalities": [
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 48 个相关模型，最近更新为 Qwen3.6 Plus"
+    "live_summary": "OpenRouter 已收录 48 个该作者/厂商相关模型，最近更新为 Qwen3.6 Plus",
+    "provider_kind": "model_author"
   },
   {
     "id": "baidu",
@@ -153,7 +158,8 @@
       "文本",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 5 个相关模型，最近更新为 ERNIE 4.5 21B A3B Thinking"
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 ERNIE 4.5 21B A3B Thinking",
+    "provider_kind": "model_author"
   },
   {
     "id": "bytedance",
@@ -178,7 +184,8 @@
       "视频",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 5 个相关模型，最近更新为 Seed-2.0-Lite"
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Seed-2.0-Lite",
+    "provider_kind": "model_author"
   },
   {
     "id": "tencent",
@@ -193,14 +200,15 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Tencent: Hunyuan A13B Instruct"
+      "Hunyuan A13B Instruct"
     ],
     "model_count": 1,
     "last_updated": "2025-07-08",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 1 个相关模型，最近更新为 Tencent: Hunyuan A13B Instruct"
+    "live_summary": "OpenRouter 已收录 1 个该作者/厂商相关模型，最近更新为 Hunyuan A13B Instruct",
+    "provider_kind": "model_author"
   },
   {
     "id": "moonshot",
@@ -225,7 +233,8 @@
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 5 个相关模型，最近更新为 Kimi K2.6"
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Kimi K2.6",
+    "provider_kind": "model_author"
   },
   {
     "id": "zhipu",
@@ -251,7 +260,8 @@
       "文本",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 13 个相关模型，最近更新为 GLM 5.1"
+    "live_summary": "OpenRouter 已收录 13 个该作者/厂商相关模型，最近更新为 GLM 5.1",
+    "provider_kind": "model_author"
   },
   {
     "id": "minimax",
@@ -276,7 +286,8 @@
       "文本",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 8 个相关模型，最近更新为 MiniMax M2.7"
+    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 MiniMax M2.7",
+    "provider_kind": "model_author"
   },
   {
     "id": "mistral",
@@ -303,7 +314,8 @@
       "文本",
       "音频"
     ],
-    "live_summary": "OpenRouter 已收录 25 个相关模型，最近更新为 Mistral Small 4"
+    "live_summary": "OpenRouter 已收录 25 个该作者/厂商相关模型，最近更新为 Mistral Small 4",
+    "provider_kind": "model_author"
   },
   {
     "id": "meta",
@@ -329,7 +341,8 @@
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 14 个相关模型，最近更新为 Llama Guard 4 12B"
+    "live_summary": "OpenRouter 已收录 14 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
+    "provider_kind": "model_author"
   },
   {
     "id": "xai",
@@ -354,7 +367,8 @@
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 10 个相关模型，最近更新为 Grok 4.20 Multi-Agent"
+    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Grok 4.20 Multi-Agent",
+    "provider_kind": "model_author"
   },
   {
     "id": "nvidia",
@@ -380,7 +394,8 @@
       "文本",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 10 个相关模型，最近更新为 Nemotron 3 Super (free)"
+    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Nemotron 3 Super (free)",
+    "provider_kind": "model_author"
   },
   {
     "id": "aws-bedrock",
@@ -404,7 +419,8 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "站内手工维护，待补充实时模型索引"
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   },
   {
     "id": "azure-openai",
@@ -426,7 +442,8 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "站内手工维护，待补充实时模型索引"
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   },
   {
     "id": "openrouter",
@@ -439,20 +456,15 @@
     "type": "聚合",
     "pricing": "按量计费",
     "api": true,
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
-      "Pareto Code Router",
-      "Free Models Router",
-      "Body Builder (beta)"
+      "200+ 模型"
     ],
-    "model_count": 4,
-    "last_updated": "2026-04-21",
-    "modalities": [
-      "文本",
-      "多模态",
-      "视频"
-    ],
-    "live_summary": "OpenRouter 已收录 4 个相关模型，最近更新为 Pareto Code Router"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   },
   {
     "id": "together",
@@ -472,7 +484,8 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "站内手工维护，待补充实时模型索引"
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   },
   {
     "id": "groq",
@@ -496,7 +509,8 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "站内手工维护，待补充实时模型索引"
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   },
   {
     "id": "siliconflow",
@@ -516,7 +530,8 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "站内手工维护，待补充实时模型索引"
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   },
   {
     "id": "volcengine",
@@ -538,6 +553,7 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "站内手工维护，待补充实时模型索引"
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
   }
 ]
