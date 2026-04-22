@@ -66,7 +66,7 @@ def generate_daily_briefing():
         source = item.get("source", "未知")
         sources[source] = sources.get(source, 0) + 1
 
-    summary_line = "⚡ 今天 AI 的主线已经很清楚：行业竞争正在从“模型更强”转向“谁更能真正落地”——一边是药物、金融、云基础设施这些高价值场景继续被 AI 渗透，另一边是 Kimi、百灵这类产品把重点放在 Agent 承接能力、成本效率和系统级交付上。"
+    summary_line = "今天 AI 的主线已经很清楚：行业竞争正在从“模型更强”转向“谁更能真正落地”——一边是药物、金融、云基础设施这些高价值场景继续被 AI 渗透，另一边是 Kimi、百灵这类产品把重点放在 Agent 承接能力、成本效率和系统级交付上。"
 
     briefing = {
         "date": datetime.now().strftime("%Y-%m-%d"),
