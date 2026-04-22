@@ -6,6 +6,7 @@ from __future__ import annotations
 import json
 import math
 import os
+import re
 from datetime import datetime, timedelta
 from typing import Any, Dict, Iterable, List, Optional
 
@@ -161,18 +162,30 @@ def score_model_candidate(item: Dict[str, Any]) -> float:
     return (likes * 1.5 + math.sqrt(downloads + 1) * 2.5 + openrouter_bonus) * age_factor
 
 
+def clean_intro(text: str, limit: int = 42) -> str:
+    text = re.sub(r"\s+", " ", (text or "").strip())
+    text = re.sub(r"^[^\w\u4e00-\u9fff]+", "", text)
+    if not text:
+        return "最近值得关注的一条新线"
+    if len(text) > limit:
+        text = text[: limit - 1].rstrip() + "…"
+    return text
+
+
 def build_reason(item: Dict[str, Any]) -> str:
-    kind = item.get("type")
-    window_days = int(item.get("window_days") or 7)
-    if kind in {"project", "tool", "agent"}:
-        stars = int(item.get("stars") or 0)
-        label = {"project": "项目", "tool": "工具", "agent": "Agent"}[kind]
-        return f"近{window_days}天新冒头，当前 GitHub ⭐ {stars:,}，是最近升温最快的{label}之一"
-    likes = int(item.get("likes") or 0)
-    downloads = int(item.get("downloads") or 0)
-    if item.get("openrouter_available"):
-        return f"近{window_days}天内的新模型线，已进 OpenRouter，可用性和讨论度都在抬头"
-    return f"近{window_days}天内的新模型线，社区 ❤️ {likes:,} / 下载 {downloads:,}，热度抬升明显"
+    description = clean_intro(item.get("description") or "")
+    if description and description != "最近值得关注的一条新线":
+        return description
+    name = item.get("name") or ""
+    if item.get("type") == "model":
+        if item.get("openrouter_available"):
+            return f"{name} 已进入 OpenRouter，可直接关注可用性与讨论度"
+        return f"{name} 是最近值得关注的新模型线"
+    if item.get("type") == "agent":
+        return f"{name} 是最近讨论度较高的 Agent 方向代表"
+    if item.get("type") == "tool":
+        return f"{name} 是最近被频繁提到的工具代表"
+    return f"{name} 是最近值得点开的开源项目"
 
 
 def normalize_project(item: Dict[str, Any], now_dt: datetime, preferred_days: int) -> Optional[Dict[str, Any]]:
@@ -344,26 +357,108 @@ def build_rising_candidates(
     filtered = [item for item in candidates if int(item.get("window_days") or 0) <= active_window]
     filtered = sorted(filtered, key=lambda x: x.get("score", 0), reverse=True)[:candidate_limit]
 
-    type_counts = {}
+    def with_reason(items: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        result = []
+        for item in items:
+            enriched = dict(item)
+            enriched["reason"] = build_reason(enriched)
+            result.append(enriched)
+        return result
+
+    def pick_fallback(kind: str) -> Optional[Dict[str, Any]]:
+        if kind == "agent":
+            pool = []
+            for row in agents:
+                stars = int(row.get("stars") or 0)
+                if stars < MIN_GITHUB_STARS:
+                    continue
+                url = str(row.get("url") or "")
+                if "github.com" not in url:
+                    continue
+                pool.append({
+                    "id": row.get("id"),
+                    "name": row.get("name"),
+                    "url": url,
+                    "description": row.get("description") or "",
+                    "type": "agent",
+                    "stars": stars,
+                    "score": stars,
+                    "window_days": active_window,
+                })
+            pool.sort(key=lambda x: x.get("score", 0), reverse=True)
+            return pool[0] if pool else None
+        if kind == "model":
+            pool = []
+            for row in models:
+                item = normalize_model(row, now_dt, preferred_days)
+                if not item:
+                    continue
+                item["score"] = score_model_candidate(item)
+                pool.append(item)
+            pool.sort(key=lambda x: x.get("score", 0), reverse=True)
+            return pool[0] if pool else None
+        if kind == "project":
+            pool = []
+            for row in projects:
+                stars = int(row.get("stars") or 0)
+                if stars < MIN_GITHUB_STARS:
+                    continue
+                pool.append({
+                    "id": row.get("id"),
+                    "name": row.get("display_name") or row.get("name"),
+                    "url": row.get("url"),
+                    "description": row.get("description") or "",
+                    "type": "project",
+                    "stars": stars,
+                    "score": stars,
+                    "window_days": active_window,
+                })
+            pool.sort(key=lambda x: x.get("score", 0), reverse=True)
+            return pool[0] if pool else None
+        return None
+
     final_items = []
+    used_keys = set()
+    required_types = ["project", "model", "agent"]
+    for required_type in required_types:
+        preferred = next((item for item in filtered if item.get("type") == required_type), None)
+        if not preferred:
+            preferred = pick_fallback(required_type)
+        if preferred:
+            key = (preferred.get("type"), preferred.get("url") or preferred.get("name"))
+            if key not in used_keys:
+                used_keys.add(key)
+                final_items.append(preferred)
+
+    type_counts = {}
+    for item in final_items:
+        item_type = item.get("type")
+        type_counts[item_type] = type_counts.get(item_type, 0) + 1
+
     for item in filtered:
+        key = (item.get("type"), item.get("url") or item.get("name"))
+        if key in used_keys:
+            continue
         item_type = item.get("type")
         if type_counts.get(item_type, 0) >= 2:
             continue
+        used_keys.add(key)
         type_counts[item_type] = type_counts.get(item_type, 0) + 1
-        item["reason"] = build_reason(item)
         final_items.append(item)
         if len(final_items) >= display_limit:
             break
 
     if len(final_items) < display_limit:
         for item in filtered:
-            if item in final_items:
+            key = (item.get("type"), item.get("url") or item.get("name"))
+            if key in used_keys:
                 continue
-            item["reason"] = build_reason(item)
+            used_keys.add(key)
             final_items.append(item)
             if len(final_items) >= display_limit:
                 break
+
+    final_items = with_reason(final_items[:display_limit])
 
     return {
         "updated_at": now_dt.isoformat(),

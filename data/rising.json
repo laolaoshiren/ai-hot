@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T17:49:23.484566+00:00",
+  "updated_at": "2026-04-22T18:02:50.215296+00:00",
   "window_days": 30,
   "candidate_count": 4,
   "items": [
@@ -13,19 +13,7 @@
       "created_at": "2026-04-05T01:12:07Z",
       "window_days": 30,
       "score": 6383.586025684339,
-      "reason": "近30天新冒头，当前 GitHub ⭐ 48,439，是最近升温最快的项目之一"
-    },
-    {
-      "id": "github-1201476594",
-      "name": "career-ops",
-      "url": "https://github.com/santifer/career-ops",
-      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
-      "type": "project",
-      "stars": 36873,
-      "created_at": "2026-04-04T18:21:18Z",
-      "window_days": 30,
-      "score": 5300.118718215167,
-      "reason": "近30天新冒头，当前 GitHub ⭐ 36,873，是最近升温最快的项目之一"
+      "reason": "The best-benchmarked open-source AI memor…"
     },
     {
       "id": "hf-zai-org--GLM-5.1",
@@ -38,8 +26,31 @@
       "created_at": "2026-04-03T09:28:47.000Z",
       "window_days": 30,
       "openrouter_available": false,
-      "score": 4864.810466817629,
-      "reason": "近30天内的新模型线，社区 ❤️ 1,451 / 下载 147,738，热度抬升明显"
+      "score": 4862.463844772562,
+      "reason": "zai-org"
+    },
+    {
+      "id": "openclaw",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
+      "type": "agent",
+      "stars": 362093,
+      "score": 362093,
+      "window_days": 30,
+      "reason": "你的个人AI助手，跨平台、全功能。Any OS, Any Platform"
+    },
+    {
+      "id": "github-1201476594",
+      "name": "career-ops",
+      "url": "https://github.com/santifer/career-ops",
+      "description": "AI-powered job search system built on Claude Code. 14 skill modes, Go dashboard, PDF generation, batch processing.",
+      "type": "project",
+      "stars": 36873,
+      "created_at": "2026-04-04T18:21:18Z",
+      "window_days": 30,
+      "score": 5300.118718215167,
+      "reason": "AI-powered job search system built on Cla…"
     },
     {
       "id": "github-1190778303",
@@ -50,8 +61,8 @@
       "stars": 2800,
       "created_at": "2026-03-24T15:58:22Z",
       "window_days": 30,
-      "score": 751.5471084574899,
-      "reason": "近30天新冒头，当前 GitHub ⭐ 2,800，是最近升温最快的项目之一"
+      "score": 751.305851118168,
+      "reason": "Curated list of the best truly open-sourc…"
     }
   ]
 }

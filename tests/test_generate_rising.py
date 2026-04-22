@@ -94,19 +94,20 @@ class GenerateRisingTests(unittest.TestCase):
                 "url": "https://github.com/princeton-nlp/SWE-agent",
                 "description": "软件工程 Agent",
                 "stars": 19030,
-                "created_at": "2026-04-19T00:00:00Z",
+                "created_at": "2026-03-19T00:00:00Z",
             }
         ]
         models = [
             {
                 "id": "m1",
-                "display_name": "Gemini 3.1 Flash Image",
-                "name": "google/gemini-3.1-flash-image-preview",
-                "url": "https://openrouter.ai/google/gemini-3.1-flash-image-preview",
+                "display_name": "Gemini 3.1 Pro Image",
+                "name": "google/gemini-3.1-pro-image-preview",
+                "url": "https://openrouter.ai/google/gemini-3.1-pro-image-preview",
                 "created_at": "2026-04-21T00:00:00Z",
-                "likes": 0,
-                "downloads": 0,
+                "likes": 300,
+                "downloads": 50000,
                 "source": "openrouter",
+                "provider": "Google"
             },
             {
                 "id": "m2",
@@ -133,9 +134,12 @@ class GenerateRisingTests(unittest.TestCase):
 
         self.assertEqual(rising["window_days"], 7)
         self.assertLessEqual(len(rising["items"]), 5)
-        self.assertGreaterEqual(len(rising["items"]), 1)
-        self.assertTrue({item["type"] for item in rising["items"]}.issubset({"project", "tool", "agent", "model"}))
+        self.assertGreaterEqual(len(rising["items"]), 3)
+        item_types = {item["type"] for item in rising["items"]}
+        self.assertTrue(item_types.issubset({"project", "tool", "agent", "model"}))
+        self.assertTrue({"project", "model", "agent"}.issubset(item_types))
         self.assertTrue(all(item["reason"] for item in rising["items"]))
+        self.assertTrue(all("近7天" not in item["reason"] and "近30天" not in item["reason"] for item in rising["items"]))
 
 
 if __name__ == "__main__":
