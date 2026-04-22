@@ -1,13 +1,13 @@
 {
-  "date": "2026年04月22日",
-  "updated_at": "2026-04-22T10:11:33",
-  "title": "2026年04月22日 AI 日报",
-  "content": "今日AI热点速递：\n\n1. 【重磅】OpenAI 发布 ChatGPT Images 2.0，文字渲染能力大幅提升，设计师直呼「够用了」。新模型在图像中文字生成方面取得突破性进展。\n\n2. 【争议】Anthropic Claude 大规模封号风波持续，300万用户企业服务中断，无理由无回应，受害者被迫抱团维权。\n\n3. 【新品】Anthropic 推出 Claude Design，一句话生成完整 UI 界面，传统设计工具面临颠覆，设计师圈震动。\n\n4. 【融资】中国具身智能赛道最大单轮融资出炉，前华为百度高管联手创业，打造可量产的真干活机器人。\n\n5. 【开源】Karpathy 新作 autoresearch（75K star）让 AI 在单 GPU 上自动运行深度学习研究，Agent 能力再进化。\n\n6. 【治理】MIT 发文探讨 Agent 优先的治理与安全架构，随着 AI Agent 深入企业工作流，安全框架正在从「人工优先」转向「Agent 优先」。\n\n7. 【监管】YouTube 扩展 AI 深度伪造检测至名人肖像保护，平台加强肖像权保护力度。",
-  "highlights": [
-    "OpenAI 发布 ChatGPT Images 2.0，文字渲染质量飞跃",
-    "Claude 封号潮失控，300万用户受影响",
-    "Claude Design 一句话生成 UI，设计圈变天",
-    "中国具身智能最大单轮融资，前华为百度高管联手创业",
-    "Karpathy 开源 autoresearch，单卡自动搞研究"
-  ]
+  "date": "2026-04-22",
+  "content": "今日共收录 20 条 AI 新闻，主要来源：InfoQ AI, TechCrunch AI, 36氪, MIT Tech Review, 量子位, The Verge AI",
+  "news_count": 20,
+  "sources": {
+    "InfoQ AI": 7,
+    "TechCrunch AI": 4,
+    "36氪": 2,
+    "MIT Tech Review": 4,
+    "量子位": 2,
+    "The Verge AI": 1
+  }
 }

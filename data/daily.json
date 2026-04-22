@@ -1,40 +1,41 @@
 {
-  "updated_at": "2026-04-22T01:54:13.271458",
+  "updated_at": "2026-04-22T13:11:01.843451",
   "date": "2026-04-22",
   "spotlight": {
-    "id": "文心一言",
-    "name": "文心一言",
-    "url": "https://yiyan.baidu.com",
+    "id": "kimi",
+    "name": "Kimi",
+    "url": "https://kimi.moonshot.cn",
     "type": "tool",
-    "description": "百度出品的 AI 助手",
-    "pricing": "免费 + API 按量",
+    "description": "月之暗面出品，超长上下文 AI 助手",
+    "pricing": "免费 + 会员",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "WebVoyager",
-      "url": "https://github.com/MinorJerry/WebVoyager",
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
       "type": "agent",
-      "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
+      "description": "微软多Agent对话框架，支持复杂任务协作",
       "pricing": "开源免费",
-      "category": "浏览器 Agent"
+      "category": "多 Agent"
     },
     {
-      "id": "midjourney",
-      "name": "Midjourney",
-      "url": "https://midjourney.com",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
       "type": "tool",
-      "description": "最强 AI 绘画工具，生成质量极高",
-      "pricing": "$10/月 起",
-      "category": "绘画"
+      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+      "pricing": "按 API 使用量计费",
+      "category": "编程"
     },
     {
-      "name": "Devin",
-      "url": "https://devin.ai",
-      "type": "agent",
-      "description": "全球首个AI软件工程师，能独立完成编程任务",
-      "pricing": "$500/月",
-      "category": "编程 Agent"
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "type": "tool",
+      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "pricing": "开源免费",
+      "category": "编程"
     }
   ]
 }

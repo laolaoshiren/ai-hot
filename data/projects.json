@@ -2927,6 +2927,27 @@
     "collected_at": "2026-04-20T18:54:56.792212"
   },
   {
+    "id": "github-607013954",
+    "name": "GreyDGL/PentestGPT",
+    "display_name": "PentestGPT",
+    "url": "https://github.com/GreyDGL/PentestGPT",
+    "description": "Automated Penetration Testing Agentic Framework Powered by Large Language Models",
+    "stars": 12745,
+    "forks": 2182,
+    "language": "Python",
+    "topics": [
+      "large-language-models",
+      "llm",
+      "penetration-testing",
+      "python"
+    ],
+    "created_at": "2023-02-27T06:01:53Z",
+    "updated_at": "2026-04-22T13:09:50Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-04-22T13:10:24.499527"
+  },
+  {
     "id": "github-636787031",
     "name": "eugeneyan/open-llms",
     "display_name": "open-llms",
@@ -3107,6 +3128,43 @@
     "license": "MIT",
     "source": "github-search",
     "collected_at": "2026-04-20T18:54:55.937621"
+  },
+  {
+    "id": "github-1147063571",
+    "name": "EvoMap/evolver",
+    "display_name": "evolver",
+    "url": "https://github.com/EvoMap/evolver",
+    "description": "The GEP-powered self-evolving engine for AI agents. Auditable evolution with Genes, Capsules, and Events. | evomap.ai",
+    "stars": 6470,
+    "forks": 628,
+    "language": "JavaScript",
+    "topics": [
+      "a2a",
+      "agent-evolution",
+      "agent-framework",
+      "agent-protocol",
+      "ai-agent",
+      "auditable-ai",
+      "autonomous-agent",
+      "cli",
+      "evomap",
+      "gep",
+      "llm-agent",
+      "mcp",
+      "memory-system",
+      "nodejs",
+      "prompt-engineering",
+      "prompt-governance",
+      "self-evolution",
+      "self-evolving",
+      "skill-library",
+      "skills"
+    ],
+    "created_at": "2026-02-01T05:59:24Z",
+    "updated_at": "2026-04-22T12:59:35Z",
+    "license": "GPL-3.0",
+    "source": "github-search",
+    "collected_at": "2026-04-22T13:10:21.897651"
   },
   {
     "id": "github-1028832403",
@@ -4367,6 +4425,26 @@
     "license": "MIT",
     "source": "github-search",
     "collected_at": "2026-04-21T13:07:43.659008"
+  },
+  {
+    "id": "github-1213726114",
+    "name": "EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence",
+    "display_name": "Python-Programming-Basics-For-Artificial-Intelligence",
+    "url": "https://github.com/EimanTahir027/Python-Programming-Basics-For-Artificial-Intelligence",
+    "description": "This Python folder is a structured learning workspace that documents my progress from beginner to more advanced programming concepts through daily practice projects.",
+    "stars": 7,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "programming",
+      "python3"
+    ],
+    "created_at": "2026-04-17T17:38:11Z",
+    "updated_at": "2026-04-22T03:30:36Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-04-22T13:10:19.128701"
   },
   {
     "id": "github-1213064866",
