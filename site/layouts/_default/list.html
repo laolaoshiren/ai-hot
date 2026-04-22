@@ -77,6 +77,23 @@
     </div>
 </div>
 
+{{ $githubTools := where site.Data.tools "stars" "ne" nil }}
+{{ $hotGithubTools := first 5 (sort $githubTools "stars" "desc") }}
+{{ if gt (len $hotGithubTools) 0 }}
+<div class="card" style="margin-bottom:16px;border-left:3px solid var(--accent)">
+    <div class="card-title">🔥 GitHub 热门项目</div>
+    <div class="hot-meta" style="margin-bottom:12px">如果你想先看社区最认可的一批开源项目，先从这里点。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+        {{ range $hotGithubTools }}
+        <a href="{{ .url }}" target="_blank" class="tag" style="text-decoration:none">
+            {{ .name }} · ⭐ {{ if ge .stars 100000 }}{{ printf "%.0fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
+
 <!-- 分类快速导航 -->
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
@@ -134,6 +151,21 @@
     </div>
 </div>
 
+{{ $hotGithubAgents := first 5 (sort (where site.Data.agents "stars" "ne" nil) "stars" "desc") }}
+{{ if gt (len $hotGithubAgents) 0 }}
+<div class="card" style="margin-bottom:16px;border-left:3px solid var(--accent)">
+    <div class="card-title">🔥 GitHub 热门项目</div>
+    <div class="hot-meta" style="margin-bottom:12px">如果你想直接看现在最热门的一批 Agent 项目，就先从这里点。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px">
+        {{ range $hotGithubAgents }}
+        <a href="{{ .url }}" target="_blank" class="tag" style="text-decoration:none">
+            {{ .name }} · ⭐ {{ if ge .stars 100000 }}{{ printf "%.0fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+
 <!-- 分类快速导航 -->
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
@@ -168,7 +200,7 @@
             <div class="tool-footer">
                 <div class="tool-tags">
                     {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
-                    {{ if .stars }}<span class="tool-tag">⭐ {{ if ge .stars 100000 }}{{ div .stars 1000 }}K{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}</span>{{ end }}
+                    {{ if .stars }}<span class="tool-tag">⭐ {{ if ge .stars 100000 }}{{ printf "%.0fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}</span>{{ end }}
                     {{ if .free_quota }}<span class="tool-tag free">{{ .free_quota }}</span>{{ end }}
                 </div>
                 <div class="tool-price">💰 {{ .pricing }}</div>
