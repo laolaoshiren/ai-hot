@@ -35,12 +35,25 @@ def enrich_hot_data():
     items = hot.get('items') or hot.get('top_20') or hot.get('hot_list') or []
     matched = 0
 
+    special_rules = [
+        (lambda title: 'claude design' in title.lower(), 'd5c19f9f7a21'),
+        (lambda title: 'youtube' in title.lower() and ('伪造' in title or 'likeness' in title.lower()), '2d537bc7c412'),
+        (lambda title: '选举' in title or 'election' in title.lower() or '政治应用' in title, '314fefba7e73'),
+        (lambda title: 'john ternus' in title.lower(), '7faac906f243'),
+    ]
+    news_by_id = {n.get('id'): n for n in news if n.get('id')}
+
     for item in items:
         if item.get('type') != 'news':
             continue
         candidate = None
+        raw_title = str(item.get('title') or '')
+        for matcher, forced_id in special_rules:
+            if matcher(raw_title) and forced_id in news_by_id:
+                candidate = news_by_id[forced_id]
+                break
         url = str(item.get('url', '')).rstrip('/')
-        if url:
+        if url and not candidate:
             candidate = by_url.get(url)
         if not candidate:
             item_title = norm(item.get('title'))
