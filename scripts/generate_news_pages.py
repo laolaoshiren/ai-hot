@@ -161,6 +161,7 @@ def build_page(item):
     ai_summary = clean_summary(item.get('ai_summary') or '')
     summary_zh = clean_summary(item.get('summary_zh') or '')
     summary = clean_summary(item.get('summary') or '')
+    content_text = single_line(item.get('content_text') or '').replace('. ', '.\n\n').replace('。', '。\n\n')
     lang = item.get('lang', '')
     if str(lang).lower() == 'en' and looks_bad_en_summary(ai_summary):
         ai_summary = ''
@@ -210,8 +211,17 @@ def build_page(item):
 
     for tip in takeaways:
         lines.append(f'- {tip}')
+
+    if content_text:
+        lines.extend([
+            '',
+            '## 正文摘录',
+            '',
+            content_text,
+            '',
+        ])
+
     lines.extend([
-        '',
         '## 继续阅读',
         '',
         '如果你要核对原始表述、上下文细节或完整报道，请查看文末原文链接。',
