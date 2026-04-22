@@ -9,6 +9,7 @@ ROOT = Path('/root/ai-hot')
 README = ROOT / 'README.md'
 HOT = ROOT / 'data' / 'hot.json'
 BRIEFING = ROOT / 'data' / 'briefing.json'
+RISING = ROOT / 'data' / 'rising.json'
 
 
 def update_readme_links():
@@ -18,6 +19,7 @@ def update_readme_links():
     text = README.read_text(encoding='utf-8')
     hot = json.loads(HOT.read_text(encoding='utf-8'))
     briefing = json.loads(BRIEFING.read_text(encoding='utf-8')) if BRIEFING.exists() else {}
+    rising = json.loads(RISING.read_text(encoding='utf-8')) if RISING.exists() else {}
     items = hot.get('items') or hot.get('top_20') or hot.get('hot_list') or []
 
     text = re.sub(r'🕐 \*\*最近更新\*\*：.*', f'🕐 **最近更新**：{datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S")}', text)
@@ -44,8 +46,16 @@ def update_readme_links():
 
     text = re.sub(r'## 🤖 每日 AI 快报[\s\S]*?👉 \[去网站看完整 AI 日报与更多快报 →\]\(https://aihot.bt199.com/news/\)', briefing_block, text)
 
+    rising_items = rising.get('items') or []
+    rising_lines = []
+    for item in rising_items[:5]:
+        rising_lines.append(f"- [{item.get('name','未命名')}]({item.get('url','https://aihot.bt199.com/')})：{item.get('reason','最近值得关注')}")
+    rising_window = rising.get('window_days', 7)
+    rising_block = f"## 📈 热度飙升\n\n" + "\n".join(rising_lines) + f"\n\n👉 [去网站看完整热度飙升榜单 →](https://aihot.bt199.com/)"
+    text = re.sub(r'## 📈 热度飙升[\s\S]*?👉 \[去网站看完整热度飙升榜单 →\]\(https://aihot.bt199.com/tools/\)', rising_block, text)
+
     README.write_text(text + "\n", encoding='utf-8')
-    return 'README 热点链接与 AI 简报已刷新'
+    return 'README 热点链接、AI 简报与热度飙升已刷新'
 
 
 if __name__ == '__main__':

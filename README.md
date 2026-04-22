@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-23 01:24:46
+🕐 **最近更新**：2026-04-23 02:08:22
 
 **立即进入：** [首页完整版](https://aihot.bt199.com/) · [搜索 AI 工具 / 模型 / 新闻](https://aihot.bt199.com/search/) · [查看全部工具](https://aihot.bt199.com/tools/) · [查看模型榜](https://aihot.bt199.com/models/) · [查看 Agent 专区](https://aihot.bt199.com/agents/)
 
@@ -74,13 +74,13 @@
 
 ## 📈 热度飙升
 
-- [Cursor](https://aihot.bt199.com/tools/cursor/)：AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力
-- [FLUX](https://aihot.bt199.com/tools/flux/)：新一代开源图像生成模型，质量超越 SD
-- [可灵 AI](https://aihot.bt199.com/tools/可灵/)：快手出品的 AI 视频生成工具，国产最强
-- [DeepSeek](https://aihot.bt199.com/tools/deepseek/)：深度求索出品，国产最强开源大模型对话工具
-- [Dify](https://aihot.bt199.com/tools/dify/)：开源 LLM 应用开发平台，可视化搭建 AI 应用
+- [mempalace](https://github.com/MemPalace/mempalace)：最近值得点开的开源 AI 项目
+- [GLM-5.1](https://huggingface.co/zai-org/GLM-5.1)：智谱新一代通用模型线，近期关注度明显抬头
+- [OpenClaw](https://github.com/openclaw/openclaw)：你的个人AI助手，跨平台、全功能。Any OS, Any Platform
+- [career-ops](https://github.com/santifer/career-ops)：基于 Claude Code 的求职自动化工作流系统
+- [awesome-opensource-ai](https://github.com/alvinreal/awesome-opensource-ai)：最近值得点开的开源 AI 项目
 
-👉 [去网站看完整热度飙升榜单 →](https://aihot.bt199.com/tools/)
+👉 [去网站看完整热度飙升榜单 →](https://aihot.bt199.com/)
 
 ## 🛠️ 值得先看的工具
 

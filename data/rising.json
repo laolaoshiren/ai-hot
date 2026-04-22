@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-22T18:02:50.215296+00:00",
+  "updated_at": "2026-04-22T18:08:22.195383+00:00",
   "window_days": 30,
   "candidate_count": 4,
   "items": [
@@ -13,7 +13,7 @@
       "created_at": "2026-04-05T01:12:07Z",
       "window_days": 30,
       "score": 6383.586025684339,
-      "reason": "The best-benchmarked open-source AI memor…"
+      "reason": "最近值得点开的开源 AI 项目"
     },
     {
       "id": "hf-zai-org--GLM-5.1",
@@ -26,8 +26,8 @@
       "created_at": "2026-04-03T09:28:47.000Z",
       "window_days": 30,
       "openrouter_available": false,
-      "score": 4862.463844772562,
-      "reason": "zai-org"
+      "score": 4861.49883697228,
+      "reason": "智谱新一代通用模型线，近期关注度明显抬头"
     },
     {
       "id": "openclaw",
@@ -50,7 +50,7 @@
       "created_at": "2026-04-04T18:21:18Z",
       "window_days": 30,
       "score": 5300.118718215167,
-      "reason": "AI-powered job search system built on Cla…"
+      "reason": "基于 Claude Code 的求职自动化工作流系统"
     },
     {
       "id": "github-1190778303",
@@ -61,8 +61,8 @@
       "stars": 2800,
       "created_at": "2026-03-24T15:58:22Z",
       "window_days": 30,
-      "score": 751.305851118168,
-      "reason": "Curated list of the best truly open-sourc…"
+      "score": 751.2066155988913,
+      "reason": "最近值得点开的开源 AI 项目"
     }
   ]
 }

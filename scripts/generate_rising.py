@@ -172,20 +172,56 @@ def clean_intro(text: str, limit: int = 42) -> str:
     return text
 
 
+def localize_intro(name: str, description: str, kind: str, openrouter_available: bool = False) -> str:
+    text = clean_intro(description)
+    lower = text.lower()
+
+    if any(ch >= '\u4e00' and ch <= '\u9fff' for ch in text):
+        return text
+
+    if kind == 'project':
+        if 'memory system' in lower:
+            return '开源 AI 记忆系统，主打长期记忆与效果验证'
+        if 'job search system' in lower:
+            return '基于 Claude Code 的求职自动化工作流系统'
+        if 'curated list' in lower and 'open-source ai' in lower:
+            return '精选开源 AI 项目、模型与工具导航合集'
+        if 'agent' in lower:
+            return '最近讨论度很高的开源 AI 项目'
+        return '最近值得点开的开源 AI 项目'
+
+    if kind == 'agent':
+        if 'research' in lower:
+            return '面向研究与信息整理的 Agent 代表项目'
+        if 'coding' in lower or 'software' in lower:
+            return '面向开发任务的 Agent 代表项目'
+        return '最近值得关注的 Agent 项目'
+
+    if kind == 'model':
+        if openrouter_available:
+            return '已进入 OpenRouter 的新模型线，值得直接上手'
+        if name.lower().startswith('glm'):
+            return '智谱新一代通用模型线，近期关注度明显抬头'
+        if 'flux' in name.lower():
+            return '近期讨论度很高的图像模型新线'
+        return '最近值得关注的新模型线'
+
+    if kind == 'tool':
+        if 'code editor' in lower:
+            return '面向开发者的 AI 编码工具代表'
+        return '最近被频繁提到的工具代表'
+
+    return text if text != '最近值得关注的一条新线' else '最近值得关注的一条新线'
+
+
 def build_reason(item: Dict[str, Any]) -> str:
-    description = clean_intro(item.get("description") or "")
-    if description and description != "最近值得关注的一条新线":
-        return description
     name = item.get("name") or ""
-    if item.get("type") == "model":
-        if item.get("openrouter_available"):
-            return f"{name} 已进入 OpenRouter，可直接关注可用性与讨论度"
-        return f"{name} 是最近值得关注的新模型线"
-    if item.get("type") == "agent":
-        return f"{name} 是最近讨论度较高的 Agent 方向代表"
-    if item.get("type") == "tool":
-        return f"{name} 是最近被频繁提到的工具代表"
-    return f"{name} 是最近值得点开的开源项目"
+    return localize_intro(
+        name=name,
+        description=item.get("description") or "",
+        kind=item.get("type") or "",
+        openrouter_available=bool(item.get("openrouter_available")),
+    )
 
 
 def normalize_project(item: Dict[str, Any], now_dt: datetime, preferred_days: int) -> Optional[Dict[str, Any]]:
