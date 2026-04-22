@@ -5,6 +5,7 @@ import os
 import json
 from datetime import datetime
 
+
 from news_rss import strip_html, is_ai_related
 
 try:
@@ -14,6 +15,28 @@ except ImportError:
     import requests
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
+
+
+def normalize_published(value):
+    if value is None:
+        return ''
+    if isinstance(value, (int, float)):
+        try:
+            return datetime.fromtimestamp(value).isoformat()
+        except Exception:
+            return str(value)
+    text = str(value).strip()
+    if text.isdigit():
+        try:
+            return datetime.fromtimestamp(int(text)).isoformat()
+        except Exception:
+            return text
+    return text
+
+
+def sort_key(item):
+    value = normalize_published(item.get("published") or "")
+    return value
 
 
 def collect_hn():
@@ -93,7 +116,7 @@ def collect_v2ex():
                     "url": topic.get("url", ""),
                     "source": "V2EX",
                     "lang": "zh",
-                    "published": topic.get("created", ""),
+                    "published": normalize_published(topic.get("created", "")),
                     "summary": summary,
                     "collected_at": datetime.now().isoformat(),
                 })
@@ -134,7 +157,10 @@ def collect_api_news():
         combined.append(item)
         seen_ids.add(item_id)
 
-    combined.sort(key=lambda x: x.get("published") or "", reverse=True)
+    for item in combined:
+        item["published"] = normalize_published(item.get("published") or "")
+
+    combined.sort(key=sort_key, reverse=True)
     combined = combined[:500]
 
     with open(news_path, "w", encoding="utf-8") as f:

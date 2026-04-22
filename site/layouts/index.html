@@ -43,7 +43,7 @@
             {{ $itemUrlNorm := replaceRE "/$" "" $itemUrl }}
             {{ $itemTitleNorm := lower ($item.title | default "") }}
             {{ $matchedNews := dict }}
-            {{ if eq $item.type "news" }}
+            {{ if and (eq $item.type "news") (not $item.news_id) }}
                 {{ if $itemUrl }}
                     {{ $byUrl := where $newsData "url" $itemUrl }}
                     {{ if gt (len $byUrl) 0 }}
@@ -69,7 +69,11 @@
             {{ $hotHref := $item.url }}
             {{ $hotTarget := "_blank" }}
             {{ $hotRel := "noopener" }}
-            {{ if $matchedNews.id }}
+            {{ if $item.news_id }}
+                {{ $hotHref = printf "/news/%s/" $item.news_id | relURL }}
+                {{ $hotTarget = "_self" }}
+                {{ $hotRel = "" }}
+            {{ else if $matchedNews.id }}
                 {{ $hotHref = printf "/news/%s/" $matchedNews.id | relURL }}
                 {{ $hotTarget = "_self" }}
                 {{ $hotRel = "" }}
@@ -78,15 +82,15 @@
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
                     <div class="hot-title">{{ $item.title }}</div>
-                    {{ if and $matchedNews.id (or $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary) }}
-                    <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.6">⚡ {{ or $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary }}</div>
+                    {{ if or $item.ai_summary (and $matchedNews.id (or $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary)) }}
+                    <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.6">⚡ {{ or $item.ai_summary $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary }}</div>
                     {{ else if $item.subtitle }}
                     <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.5">{{ $item.subtitle }}</div>
                     {{ end }}
                     <div class="hot-meta" style="margin-top:6px">
                         {{ with $item.source }}<span class="hot-badge">{{ . }}</span>{{ end }}
                         {{ with $item.time }}<span style="color:var(--text3);margin-left:4px">{{ . }}</span>{{ end }}
-                        {{ if $matchedNews.id }}<span class="hot-badge" style="background:rgba(255,107,53,0.12);color:var(--accent);margin-left:4px">站内文章</span>{{ end }}
+                        {{ if or $item.news_id $matchedNews.id }}<span class="hot-badge" style="background:rgba(255,107,53,0.12);color:var(--accent);margin-left:4px">站内文章</span>{{ end }}
                         {{ range $item.tags }}<span class="hot-badge" style="background:rgba(255,107,53,0.12);color:var(--accent);margin-left:4px">{{ . }}</span>{{ end }}
                     </div>
                 </div>

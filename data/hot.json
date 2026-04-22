@@ -14,7 +14,11 @@
         "重磅",
         "图像生成",
         "OpenAI"
-      ]
+      ],
+      "news_id": "0c88065d42e6",
+      "internal_url": "https://aihot.bt199.com/news/0c88065d42e6/",
+      "ai_summary": "ChatGPT Images 2.0 是 OpenAI 的最新图像生成模型，展示了过去几年人工智能功能的发展程度",
+      "title_zh": "ChatGPT 的新 Images 2.0 模型在生成文本方面出奇地好"
     },
     {
       "rank": 2,
@@ -42,7 +46,11 @@
         "重磅",
         "Anthropic",
         "争议"
-      ]
+      ],
+      "news_id": "14f356866e9c",
+      "internal_url": "https://aihot.bt199.com/news/14f356866e9c/",
+      "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。",
+      "title_zh": "Claude封号潮失控！300 万用户企业一夜断供，无理由、无回应，受害者被迫抱团反抗"
     },
     {
       "rank": 4,
@@ -69,7 +77,11 @@
         "新品",
         "设计",
         "Anthropic"
-      ]
+      ],
+      "news_id": "d5c19f9f7a21",
+      "internal_url": "https://aihot.bt199.com/news/d5c19f9f7a21/",
+      "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。",
+      "title_zh": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了"
     },
     {
       "rank": 6,
@@ -124,7 +136,11 @@
         "安全",
         "Agent",
         "治理"
-      ]
+      ],
+      "news_id": "729e3b49eaa0",
+      "internal_url": "https://aihot.bt199.com/news/729e3b49eaa0/",
+      "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变",
+      "title_zh": "构建 Agent 优先的治理与安全架构"
     },
     {
       "rank": 10,
@@ -163,7 +179,11 @@
       "tags": [
         "游戏",
         "创意"
-      ]
+      ],
+      "news_id": "92ce862f8036",
+      "internal_url": "https://aihot.bt199.com/news/92ce862f8036/",
+      "ai_summary": "Latitude发布Voyage平台，让用户用自然语言创建AI驱动的互动游戏",
+      "title_zh": "AI Dungeon 创始人推出 Voyage：AI 原生互动故事创作平台"
     },
     {
       "rank": 13,
@@ -203,7 +223,11 @@
       "tags": [
         "Apple",
         "战略"
-      ]
+      ],
+      "news_id": "7faac906f243",
+      "internal_url": "https://aihot.bt199.com/news/7faac906f243/",
+      "ai_summary": "不到一年前，苹果公司因在其年度 WWDC 活动上缺乏人工智能公告而成为头条新闻。十个月后，该公司宣布硬件高管约翰·特纳斯…",
+      "title_zh": "John Ternus 的第一个大问题是人工智能"
     }
   ],
   "total": 15,
@@ -425,7 +449,11 @@
         "重磅",
         "图像生成",
         "OpenAI"
-      ]
+      ],
+      "news_id": "0c88065d42e6",
+      "internal_url": "https://aihot.bt199.com/news/0c88065d42e6/",
+      "ai_summary": "ChatGPT Images 2.0 是 OpenAI 的最新图像生成模型，展示了过去几年人工智能功能的发展程度",
+      "title_zh": "ChatGPT 的新 Images 2.0 模型在生成文本方面出奇地好"
     },
     {
       "rank": 2,
@@ -453,7 +481,11 @@
         "重磅",
         "Anthropic",
         "争议"
-      ]
+      ],
+      "news_id": "14f356866e9c",
+      "internal_url": "https://aihot.bt199.com/news/14f356866e9c/",
+      "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。",
+      "title_zh": "Claude封号潮失控！300 万用户企业一夜断供，无理由、无回应，受害者被迫抱团反抗"
     },
     {
       "rank": 4,
@@ -480,7 +512,11 @@
         "新品",
         "设计",
         "Anthropic"
-      ]
+      ],
+      "news_id": "d5c19f9f7a21",
+      "internal_url": "https://aihot.bt199.com/news/d5c19f9f7a21/",
+      "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。",
+      "title_zh": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了"
     },
     {
       "rank": 6,
@@ -535,7 +571,11 @@
         "安全",
         "Agent",
         "治理"
-      ]
+      ],
+      "news_id": "729e3b49eaa0",
+      "internal_url": "https://aihot.bt199.com/news/729e3b49eaa0/",
+      "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变",
+      "title_zh": "构建 Agent 优先的治理与安全架构"
     },
     {
       "rank": 10,
@@ -574,7 +614,11 @@
       "tags": [
         "游戏",
         "创意"
-      ]
+      ],
+      "news_id": "92ce862f8036",
+      "internal_url": "https://aihot.bt199.com/news/92ce862f8036/",
+      "ai_summary": "Latitude发布Voyage平台，让用户用自然语言创建AI驱动的互动游戏",
+      "title_zh": "AI Dungeon 创始人推出 Voyage：AI 原生互动故事创作平台"
     },
     {
       "rank": 13,
@@ -614,7 +658,11 @@
       "tags": [
         "Apple",
         "战略"
-      ]
+      ],
+      "news_id": "7faac906f243",
+      "internal_url": "https://aihot.bt199.com/news/7faac906f243/",
+      "ai_summary": "不到一年前，苹果公司因在其年度 WWDC 活动上缺乏人工智能公告而成为头条新闻。十个月后，该公司宣布硬件高管约翰·特纳斯…",
+      "title_zh": "John Ternus 的第一个大问题是人工智能"
     }
   ],
   "type_stats": {

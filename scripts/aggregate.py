@@ -33,6 +33,8 @@ from generate_news_pages import generate_news_pages
 from news_content_extract import extract_news_content
 from news_article_enhance import enhance_news
 from openrouter_providers import update_providers
+from enrich_hot_data import enrich_hot_data
+from update_readme_links import update_readme_links
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 SITE_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
@@ -96,6 +98,7 @@ def main():
     print("\n⚙️ Phase 2: 数据处理")
     steps_process = [
         ("🔥 保留热点", lambda: "由Hermes定时任务生成"),
+        ("🔗 热点新闻站内化", enrich_hot_data),
         ("🧹 模型精简", refine_models),
         ("🏆 模型精选榜", generate_curated_models),
         ("🏢 提供商更新", update_providers),
@@ -120,6 +123,7 @@ def main():
         ("📰 生成新闻静态页", generate_news_pages),
         ("📦 同步数据", sync_to_site),
         ("🗺️ 生成Sitemap", generate_sitemap),
+        ("📘 更新README", update_readme_links),
     ]
 
     all_steps = [
