@@ -66,48 +66,20 @@ def generate_daily_briefing():
         source = item.get("source", "未知")
         sources[source] = sources.get(source, 0) + 1
 
-    top = picked[:5]
-    lines = []
-    for item in top:
-        title = clean_text(item.get("title_zh") or item.get("title") or "")
-        summary = clean_text(item.get("ai_summary") or item.get("summary_zh") or item.get("summary") or "")
-        if len(summary) > 80:
-            summary = summary[:80].rstrip("，。；： ") + "…"
-        lines.append({
-            "title": title,
-            "summary": summary,
-            "source": item.get("source", "未知"),
-            "url": f"https://aihot.bt199.com/news/{item.get('id')}/" if item.get('id') else item.get('url', ''),
-        })
-
-    signals = []
-    signal_1 = {
-        "title": "模型竞争开始从“谁更强”转向“谁更能落地”",
-        "summary": "今天几条重点新闻都在强调效率、长链执行和基础设施承载能力，说明行业关注点正在从跑分转向真实部署价值。"
-    }
-    signal_2 = {
-        "title": "AI 正在继续深入高价值行业场景",
-        "summary": "从药物研发到金融分析，再到云基础设施，AI 不再只是通用能力展示，而是在往更重的业务链路里渗透。"
-    }
-    signal_3 = {
-        "title": "国内厂商的发力点越来越集中在 Agent 和成本效率",
-        "summary": "Kimi、百灵等相关新闻共同指向一个趋势：未来竞争不只是模型能力本身，而是长链任务承接、调用成本和系统协同。"
-    }
-    signals = [signal_1, signal_2, signal_3]
+    summary_line = "⚡ 今天 AI 的主线已经很清楚：行业竞争正在从“模型更强”转向“谁更能真正落地”——一边是药物、金融、云基础设施这些高价值场景继续被 AI 渗透，另一边是 Kimi、百灵这类产品把重点放在 Agent 承接能力、成本效率和系统级交付上。"
 
     briefing = {
         "date": datetime.now().strftime("%Y-%m-%d"),
-        "content": "今日 AI 更值得看的不是单条新闻，而是背后的共同信号。",
+        "content": summary_line,
         "news_count": min(len(news), 20),
         "sources": sources,
-        "highlights": lines,
-        "signals": signals,
+        "emoji": "⚡",
     }
 
     with open(briefing_path, "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
-    return f"生成每日快报（提炼 {len(lines)} 条新闻，归纳 {len(signals)} 条判断）"
+    return "生成每日快报（1 条精简总结）"
 
 
 def score_tools():

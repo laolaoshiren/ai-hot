@@ -1,6 +1,6 @@
 {
   "date": "2026-04-22",
-  "content": "今日 AI 更值得看的不是单条新闻，而是背后的共同信号。",
+  "content": "⚡ 今天 AI 的主线已经很清楚：行业竞争正在从“模型更强”转向“谁更能真正落地”——一边是药物、金融、云基础设施这些高价值场景继续被 AI 渗透，另一边是 Kimi、百灵这类产品把重点放在 Agent 承接能力、成本效率和系统级交付上。",
   "news_count": 20,
   "sources": {
     "TechCrunch AI": 4,
@@ -10,50 +10,5 @@
     "量子位": 3,
     "The Verge AI": 1
   },
-  "highlights": [
-    {
-      "title": "AI 已能批量提出候选药物，10x Science 想先解决“怎么筛出真有用的分子”",
-      "summary": "药物发现的瓶颈正在从“生成候选”转向“验证候选”，10x Science 想用 AI + 质谱分析补上这一段。",
-      "source": "TechCrunch AI",
-      "url": "https://aihot.bt199.com/news/23dd20ec4376/"
-    },
-    {
-      "title": "谷歌云AI使用量达到每分钟160亿Tokens",
-      "summary": "谷歌表示，通过客户直接使用API，现在每分钟处理超过160亿Tokens，高于上季度的100亿个。（财联社）",
-      "source": "36氪",
-      "url": "https://aihot.bt199.com/news/f31cf4652724/"
-    },
-    {
-      "title": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "summary": "Kimi K2.6 的真正看点，不是跑分，而是它在 Agent 长链执行上的系统承载能力。",
-      "source": "InfoQ AI",
-      "url": "https://aihot.bt199.com/news/08ac11fc1cdb/"
-    },
-    {
-      "title": "谷歌云发布用于人工智能的新型TPU芯片",
-      "summary": "4月22日，谷歌云发布最新一代张量处理单元（TPU），旨在提升人工智能计算服务的速度和效率。全新TPU系列将推出两个版本：TPU 8t用于创建AI软件，TPU…",
-      "source": "36氪",
-      "url": "https://aihot.bt199.com/news/1d6cf28191fb/"
-    },
-    {
-      "title": "百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力",
-      "summary": "蚂蚁发布 Ling-2.6-flash，主打更低 token 消耗下的 Agent 任务能力和推理效率。",
-      "source": "InfoQ AI",
-      "url": "https://aihot.bt199.com/news/62f1d3326d78/"
-    }
-  ],
-  "signals": [
-    {
-      "title": "模型竞争开始从“谁更强”转向“谁更能落地”",
-      "summary": "今天几条重点新闻都在强调效率、长链执行和基础设施承载能力，说明行业关注点正在从跑分转向真实部署价值。"
-    },
-    {
-      "title": "AI 正在继续深入高价值行业场景",
-      "summary": "从药物研发到金融分析，再到云基础设施，AI 不再只是通用能力展示，而是在往更重的业务链路里渗透。"
-    },
-    {
-      "title": "国内厂商的发力点越来越集中在 Agent 和成本效率",
-      "summary": "Kimi、百灵等相关新闻共同指向一个趋势：未来竞争不只是模型能力本身，而是长链任务承接、调用成本和系统协同。"
-    }
-  ]
+  "emoji": "⚡"
 }

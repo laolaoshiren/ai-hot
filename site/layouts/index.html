@@ -146,22 +146,15 @@
     <!-- 每日 AI 快报 -->
     {{ $briefing := site.Data.briefing }}
     {{ if $briefing }}
-    <div class="card" style="border-left:3px solid var(--accent)">
+    <div class="card" style="border-left:3px solid var(--accent);background:linear-gradient(180deg,rgba(255,107,53,.06),rgba(255,255,255,0))">
         <div class="card-title">🤖 每日 AI 快报 <span class="hot-badge fire">AI 生成</span></div>
-        <div style="font-size:12px;line-height:1.7;color:var(--text2);margin-bottom:10px">{{ $briefing.content }}</div>
-        {{ with $briefing.signals }}
-            <div style="display:flex;flex-direction:column;gap:12px">
-                {{ range $index, $item := . }}
-                <div style="padding-bottom:10px;{{ if ne $index (sub (len $.Site.Data.briefing.signals) 1) }}border-bottom:1px solid var(--border);{{ end }}">
-                    <div style="font-size:13px;font-weight:700;line-height:1.6;color:var(--text1)">{{ add $index 1 }}. {{ $item.title }}</div>
-                    <div style="font-size:12px;line-height:1.7;color:var(--text2);margin-top:4px">{{ $item.summary }}</div>
-                </div>
-                {{ end }}
-            </div>
-        {{ else }}
-            <div style="font-size:13px;line-height:1.7;color:var(--text2)">{{ $briefing.content }}</div>
-        {{ end }}
-        <div style="font-size:11px;color:var(--text3);margin-top:10px">基于 {{ $briefing.news_count }} 条新闻 · {{ $briefing.date }}</div>
+        <div style="font-size:16px;line-height:1.95;color:var(--text1);font-weight:700;padding:14px 16px;border-radius:14px;background:rgba(255,255,255,.03)">
+            {{ with $briefing.emoji }}{{ . }} {{ end }}{{ $briefing.content }}
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px;font-size:11px;color:var(--text3)">
+            <span>基于 {{ $briefing.news_count }} 条新闻 · {{ $briefing.date }}</span>
+            <a href="{{ relURL "/news/" }}" style="color:var(--accent);text-decoration:none">查看新闻 →</a>
+        </div>
     </div>
     {{ end }}
 
