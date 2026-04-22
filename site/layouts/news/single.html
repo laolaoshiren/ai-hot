@@ -12,7 +12,6 @@
 {{ $displayTitle := or .Title .Params.name $article.title_zh $article.title }}
 {{ $titleEn := or .Params.title_en $article.title }}
 {{ $intro := or .Params.intro .Params.ai_summary .Params.summary_zh .Params.summary }}
-{{ $summary := or .Params.summary_zh .Params.ai_summary .Params.summary }}
 
 <div style="margin-bottom:20px">
     <a href="{{ relURL "/news/" }}" style="color:var(--text2);font-size:13px">← 返回新闻列表</a>
@@ -35,31 +34,12 @@
     {{ end }}
 
     {{ if $intro }}
-    <div style="font-size:18px;line-height:1.9;color:var(--text1);margin-bottom:18px;font-weight:600">{{ $intro }}</div>
-    {{ end }}
-
-    {{ if $summary }}
-    <div style="font-size:15px;line-height:1.95;color:var(--text2);margin-bottom:22px">{{ $summary }}</div>
+    <div style="font-size:18px;line-height:1.9;color:var(--text1);margin-bottom:22px;font-weight:600">⚡ {{ $intro }}</div>
     {{ end }}
 
     <div style="font-size:16px;line-height:2;color:var(--text1)">
         {{ .Content }}
     </div>
 </article>
-
-{{ $related := first 6 (where (where site.Data.news "id" "ne" $article.id) "source" $article.source) }}
-{{ if gt (len $related) 0 }}
-<div class="card">
-    <div class="card-title">相关阅读</div>
-    <div style="display:flex;flex-direction:column;gap:12px">
-        {{ range $related }}
-        <a href="{{ relURL "/news/" }}{{ .id }}/" style="text-decoration:none;color:inherit;padding:12px 14px;background:var(--bg3);border:1px solid var(--border);border-radius:10px;display:block">
-            <div style="font-size:15px;font-weight:600;color:var(--text1);line-height:1.6">{{ with .title_zh }}{{ . }}{{ else }}{{ .title }}{{ end }}</div>
-            <div style="font-size:12px;color:var(--text3);margin-top:6px">{{ .source }}{{ with .published }} · {{ replace . "T" " " | truncate 16 "" }}{{ end }}</div>
-        </a>
-        {{ end }}
-    </div>
-</div>
-{{ end }}
 {{ end }}
 {{ end }}
