@@ -105,7 +105,7 @@
             <div class="tool-footer">
                 <div class="tool-tags">
                     {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
-                    {{ if .stars }}<span class="tool-tag">⭐ {{ if ge .stars 100000 }}{{ div .stars 1000 }}K{{ else if ge .stars 10000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}</span>{{ end }}
+                    {{ if .stars }}<span class="tool-tag">⭐ {{ if ge .stars 100000 }}{{ printf "%.0fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}</span>{{ end }}
                     {{ if .free_quota }}<span class="tool-tag free">{{ .free_quota }}</span>{{ end }}
                 </div>
                 <div class="tool-price">💰 {{ .pricing }}</div>
