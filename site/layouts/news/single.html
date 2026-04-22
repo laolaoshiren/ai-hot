@@ -33,7 +33,7 @@
         {{ end }}
     </div>
 
-    {{ $intro := or .Params.intro .Params.ai_summary .Params.summary_zh .Params.summary $article.ai_summary $article.summary_zh $article.summary }}
+    {{ $intro := or .Params.intro .Params.ai_summary .Params.summary_zh .Params.summary }}
     {{ if $intro }}
     <div style="margin-bottom:16px;padding:14px 16px;background:linear-gradient(135deg,rgba(255,107,53,0.08),rgba(99,102,241,0.06));border-radius:10px;border:1px solid rgba(255,107,53,0.18)">
         <div style="font-size:12px;color:var(--text3);margin-bottom:6px">⚡ 一句话导读</div>
@@ -41,7 +41,7 @@
     </div>
     {{ end }}
 
-    {{ $coreSummary := or .Params.ai_summary .Params.summary_zh .Params.summary $article.ai_summary $article.summary_zh $article.summary }}
+    {{ $coreSummary := or .Params.ai_summary .Params.summary_zh .Params.summary }}
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:18px">
         <div style="padding:12px 14px;background:var(--bg);border-radius:8px;border-left:3px solid var(--green)">
             <div style="font-size:12px;color:var(--text3);margin-bottom:6px">📌 核心结论</div>
