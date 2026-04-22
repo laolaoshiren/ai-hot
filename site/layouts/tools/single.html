@@ -1,0 +1,97 @@
+{{ define "main" }}
+{{ $toolId := .Params.id }}
+{{ $tools := site.Data.tools }}
+{{ $tool := index (where $tools "id" $toolId) 0 }}
+{{ if not $tool }}
+<div class="card" style="text-align:center;padding:40px">
+    <div style="font-size:48px;margin-bottom:12px">😕</div>
+    <div style="color:var(--text2)">找不到这个工具</div>
+    <a href="{{ relURL "/tools/" }}" style="color:var(--accent);font-size:14px;margin-top:12px;display:inline-block">返回工具列表</a>
+</div>
+{{ else }}
+<div style="margin-bottom:20px">
+    <a href="{{ relURL "/tools/" }}" style="color:var(--text2);font-size:13px">← 返回工具列表</a>
+</div>
+
+<nav style="font-size:12px;color:var(--text3);margin-bottom:14px">
+    <a href="{{ relURL "/" }}">首页</a> / <a href="{{ relURL "/tools/" }}">AI工具</a> / <span>{{ $tool.name }}</span>
+</nav>
+
+<div class="card" style="border-left:3px solid var(--accent)">
+    <div style="display:flex;align-items:center;gap:16px;margin-bottom:16px">
+        <div style="width:56px;height:56px;background:var(--bg3);border-radius:12px;display:flex;align-items:center;justify-content:center;font-size:28px;flex-shrink:0">🛠️</div>
+        <div style="min-width:0;flex:1">
+            <h1 style="font-size:28px;line-height:1.3">{{ $tool.name }}</h1>
+            <div style="font-size:14px;color:var(--text2);margin-top:4px">{{ $tool.category }}{{ if $tool.trending }} · 热门工具{{ end }}</div>
+        </div>
+    </div>
+
+    {{ if $tool.trending }}<div style="margin-bottom:12px"><span class="hot-badge fire">🔥 热门</span></div>{{ end }}
+    <div style="font-size:15px;color:var(--text2);line-height:1.8;margin-bottom:16px">{{ $tool.description }}</div>
+
+    {{ if $tool.use_cases }}
+    <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--blue)">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:4px">💡 适用场景</div>
+        <div style="font-size:14px;color:var(--text2)">{{ $tool.use_cases }}</div>
+    </div>
+    {{ end }}
+
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-bottom:16px">
+        {{ if $tool.pricing }}<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">💰 价格</div><div style="font-size:14px;color:var(--accent);font-weight:600">{{ $tool.pricing }}</div></div>{{ end }}
+        {{ if $tool.free_quota }}<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">🎁 免费额度</div><div style="font-size:14px;color:var(--green);font-weight:600">{{ $tool.free_quota }}</div></div>{{ end }}
+        {{ if $tool.category }}<div style="padding:8px 16px;background:var(--bg3);border-radius:8px"><div style="font-size:11px;color:var(--text3)">📂 分类</div><div style="font-size:14px;color:var(--text)">{{ $tool.category }}</div></div>{{ end }}
+    </div>
+
+    {{ if $tool.tags }}
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px">
+        {{ range $tool.tags }}<span class="tag">{{ . }}</span>{{ end }}
+    </div>
+    {{ end }}
+
+    {{ if $tool.pros }}
+    <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--green)">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:8px">✅ 优点</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px">{{ range $tool.pros }}<span style="padding:4px 10px;background:rgba(34,197,94,0.1);border-radius:12px;font-size:13px;color:var(--green)">{{ . }}</span>{{ end }}</div>
+    </div>
+    {{ end }}
+
+    {{ if $tool.cons }}
+    <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--red)">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:8px">❌ 缺点</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px">{{ range $tool.cons }}<span style="padding:4px 10px;background:rgba(239,68,68,0.1);border-radius:12px;font-size:13px;color:var(--red)">{{ . }}</span>{{ end }}</div>
+    </div>
+    {{ end }}
+
+    {{ if $tool.best_for }}
+    <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid #a855f7">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:8px">👥 最适合谁</div>
+        <div style="display:flex;flex-wrap:wrap;gap:6px">{{ range $tool.best_for }}<span style="padding:4px 10px;background:rgba(168,85,247,0.1);border-radius:12px;font-size:13px;color:#a855f7">{{ . }}</span>{{ end }}</div>
+    </div>
+    {{ end }}
+
+    {{ if $tool.url }}<a href="{{ $tool.url }}" target="_blank" rel="noopener" class="spotlight-btn" style="display:inline-block">访问 {{ $tool.name }} →</a>{{ end }}
+</div>
+
+{{ $related := first 6 (where (where site.Data.tools "category" $tool.category) "id" "ne" $tool.id) }}
+{{ if gt (len $related) 0 }}
+<div class="card">
+    <div class="card-title">🔗 同类推荐</div>
+    <div class="tools-grid">
+        {{ range $related }}
+        <a href="{{ relURL "/tools/" }}{{ .id }}/" class="tool-card" style="text-decoration:none;color:inherit">
+            <div class="tool-header">
+                <div class="tool-icon">🛠️</div>
+                <div class="tool-name">{{ .name }}</div>
+            </div>
+            <div class="tool-desc">{{ .description }}</div>
+            <div class="tool-footer">
+                <div class="tool-tags">{{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}</div>
+                <div class="tool-price">💰 {{ .pricing }}</div>
+            </div>
+        </a>
+        {{ end }}
+    </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}

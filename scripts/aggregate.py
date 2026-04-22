@@ -28,6 +28,7 @@ from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
 from ai_enhance import summarize_news, generate_daily_briefing, score_tools
 from generate_sitemap import generate_sitemap
+from generate_tool_pages import generate_tool_pages
 from openrouter_providers import update_providers
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -110,6 +111,7 @@ def main():
     # Phase 4: 同步部署
     print("\n🚀 Phase 4: 同步部署")
     steps_deploy = [
+        ("🧱 生成工具静态页", generate_tool_pages),
         ("📦 同步数据", sync_to_site),
         ("🗺️ 生成Sitemap", generate_sitemap),
     ]

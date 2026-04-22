@@ -46,9 +46,10 @@ const searchData = {
     agents: {{ site.Data.agents | jsonify | safeJS }} || [],
     news: {{ site.Data.news | jsonify | safeJS }} || []
 };
+const seoData = {{ site.Data.seo | jsonify | safeJS }} || {};
 
 // 热门搜索词
-const hotKeywords = ['Cursor', 'ChatGPT', 'DeepSeek', 'Claude', 'Midjourney', 'FLUX', 'Ollama', 'AI编程', 'AI绘画', 'AI视频', '开源模型', '免费AI'];
+const hotKeywords = (seoData.hot_keywords && seoData.hot_keywords.length ? seoData.hot_keywords : ['Cursor', 'ChatGPT', 'DeepSeek', 'Claude', 'Midjourney', 'FLUX', 'Ollama', 'AI编程', 'AI绘画', 'AI视频', '开源模型', '免费AI']).slice(0, 12);
 const hotTagsEl = document.getElementById('hotTags');
 hotKeywords.forEach(kw => {
     const btn = document.createElement('button');
@@ -347,7 +348,7 @@ function doSearch(query) {
         r.tools.slice(0, 12).forEach(t => {
             const highlightedName = highlightText(t.name, query);
             const highlightedDesc = highlightText(t.description || '', query);
-            html += '<a href="' + t.url + '" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">'
+            html += '<a href="{{ relURL "/tools/" }}' + encodeURIComponent(t.id) + '/" class="tool-card" style="text-decoration:none;color:inherit">'
                 + '<div class="tool-header"><div class="tool-icon">🛠️</div><div class="tool-name">' + highlightedName + '</div></div>'
                 + '<div class="tool-desc">' + highlightedDesc + '</div>'
                 + '<div class="tool-footer"><div class="tool-price">💰 ' + (t.pricing||'') + '</div></div></a>';

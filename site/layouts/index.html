@@ -89,7 +89,7 @@
         <div class="spotlight-desc">{{ $daily.spotlight.description }}</div>
         {{ if $daily.spotlight.pricing }}<div class="hot-meta" style="margin-top:6px">💰 {{ $daily.spotlight.pricing }}</div>{{ end }}
         {{ if $daily.spotlight.id }}
-        <a href="{{ relURL "/tool/" }}?id={{ $daily.spotlight.id }}" class="spotlight-btn" target="_blank">立即体验 →</a>
+        <a href="{{ relURL "/tools/" }}{{ $daily.spotlight.id }}/" class="spotlight-btn">立即体验 →</a>
         {{ else }}
         <a href="{{ $daily.spotlight.url }}" class="spotlight-btn" target="_blank">立即体验 →</a>
         {{ end }}
@@ -111,7 +111,7 @@
                 {{ range first 5 $trending_tools }}
                 <div class="trend-item">
                     <div style="min-width:0;flex:1">
-                        <a href="{{ relURL "/tool/" }}?id={{ .id }}">{{ .name }}</a>
+                        <a href="{{ relURL "/tools/" }}{{ .id }}/">{{ .name }}</a>
                         <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
                     </div>
                     <div class="trend-up">🔥</div>
@@ -180,7 +180,7 @@
                 {{ if and (lt $count 5) .trending }}
                 <div class="trend-item">
                     <div style="min-width:0;flex:1">
-                        <a href="{{ relURL "/tool/" }}?id={{ .id }}">{{ .name }}</a>
+                        <a href="{{ relURL "/tools/" }}{{ .id }}/">{{ .name }}</a>
                         <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
                     </div>
                     <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
@@ -270,7 +270,7 @@ function searchAll(query) {
     searchData.tools.forEach(item => {
         const text = [item.name, item.description, item.category, item.pricing, ...(item.tags || [])].join(' ').toLowerCase();
         if (text.includes(q)) {
-            results.push({ type: 'tool', emoji: '🛠️', name: item.name, desc: item.description, url: item.url, price: item.pricing });
+            results.push({ type: 'tool', emoji: '🛠️', name: item.name, desc: item.description, url: '{{ relURL "/tools/" }}' + encodeURIComponent(item.id) + '/', price: item.pricing });
         }
     });
 

@@ -1,0 +1,79 @@
+{{ $siteTitle := .Site.Title }}
+{{ $pageTitle := .Title }}
+{{ with .Params.seo_title }}{{ $pageTitle = . }}{{ end }}
+{{ $fullTitle := printf "%s | AI热榜" $pageTitle }}
+{{ if in $pageTitle "AI热榜" }}{{ $fullTitle = $pageTitle }}{{ end }}
+
+{{ $description := .Site.Params.description }}
+{{ with .Description }}{{ $description = . }}{{ end }}
+{{ with .Params.seo_description }}{{ $description = . }}{{ end }}
+
+{{ $keywords := .Site.Params.keywords }}
+{{ with .Params.seo_keywords }}{{ $keywords = . }}{{ end }}
+
+{{ $canonical := .Permalink }}
+{{ with .Params.canonical }}{{ $canonical = . }}{{ end }}
+
+<title>{{ $fullTitle }}</title>
+<meta name="description" content="{{ $description }}">
+<meta name="keywords" content="{{ $keywords }}">
+<meta property="og:title" content="{{ $fullTitle }}">
+<meta property="og:description" content="{{ $description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ $canonical }}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="canonical" href="{{ $canonical }}">
+
+{{ $pageType := .Type }}
+{{ if eq $pageType "tools" }}{{ $pageType = "SoftwareApplication" }}{{ else if or (eq .RelPermalink "/") (eq .Kind "home") }}{{ $pageType = "WebSite" }}{{ else if eq .Kind "section" }}{{ $pageType = "CollectionPage" }}{{ else }}{{ $pageType = "WebPage" }}{{ end }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{{ $pageType }}",
+  "name": {{ $pageTitle | jsonify | safeJS }},
+  "headline": {{ $pageTitle | jsonify | safeJS }},
+  "description": {{ $description | jsonify | safeJS }},
+  "url": {{ $canonical | jsonify | safeJS }},
+  "inLanguage": "zh-CN",
+  "publisher": {
+    "@type": "Organization",
+    "name": "AI热榜",
+    "url": "https://aihot.bt199.com/"
+  }{{ with .Params.id }},
+  "applicationCategory": {{ $.Params.category | default "AI工具" | jsonify | safeJS }},
+  "operatingSystem": "Web",
+  "offers": {
+    "@type": "Offer",
+    "price": {{ $.Params.pricing | default "" | jsonify | safeJS }},
+    "priceCurrency": "CNY"
+  }
+  {{ end }}
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://aihot.bt199.com/"
+    }{{ if and (ne .RelPermalink "/") .Section }},
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ .Section | jsonify | safeJS }},
+      "item": {{ (printf "https://aihot.bt199.com/%s/" .Section) | jsonify | safeJS }}
+    }{{ end }}{{ if and (ne .RelPermalink "/") (ne .Kind "section") }},
+    {
+      "@type": "ListItem",
+      "position": {{ if .Section }}3{{ else }}2{{ end }},
+      "name": {{ $pageTitle | jsonify | safeJS }},
+      "item": {{ $canonical | jsonify | safeJS }}
+    }{{ end }}
+  ]
+}
+</script>

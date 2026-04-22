@@ -1,60 +1,34 @@
 #!/usr/bin/env python3
-"""
-生成 sitemap.xml
-"""
+"""生成 sitemap.xml（含静态工具详情页）"""
 
 import json
-import os
+from pathlib import Path
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
-DATA_DIR = "/root/ai-hot/data"
-SITE_DIR = "/root/ai-hot/site/static"
-BASE_URL = "https://aihot.bt199.com"
+ROOT = Path('/root/ai-hot')
+DATA_DIR = ROOT / 'data'
+SITE_DIR = ROOT / 'site' / 'static'
+BASE_URL = 'https://aihot.bt199.com'
+SH_TZ = ZoneInfo('Asia/Shanghai')
 
-def generate_sitemap():
-    urls = []
-    today = datetime.now().strftime("%Y-%m-%d")
-    
-    # 主要页面
-    pages = [
-        {"loc": "/", "priority": "1.0", "changefreq": "daily"},
-        {"loc": "/search/", "priority": "0.8", "changefreq": "weekly"},
-        {"loc": "/compare/", "priority": "0.8", "changefreq": "weekly"},
-        {"loc": "/tools/", "priority": "0.9", "changefreq": "daily"},
-        {"loc": "/models/", "priority": "0.9", "changefreq": "daily"},
-        {"loc": "/agents/", "priority": "0.8", "changefreq": "weekly"},
-        {"loc": "/news/", "priority": "0.8", "changefreq": "daily"},
-        {"loc": "/providers/", "priority": "0.7", "changefreq": "weekly"},
-    ]
-    
-    for page in pages:
-        urls.append({
-            "loc": BASE_URL + page["loc"],
-            "lastmod": today,
-            "changefreq": page["changefreq"],
-            "priority": page["priority"]
-        })
-    
-    # 工具详情页
-    try:
-        with open(f"{DATA_DIR}/tools.json", "r") as f:
-            tools = json.load(f)
-        for tool in tools:
-            if tool.get("id"):
-                urls.append({
-                    "loc": f"{BASE_URL}/tool/?id={tool['id']}",
-                    "lastmod": today,
-                    "changefreq": "weekly",
-                    "priority": "0.7"
-                })
-        print(f"  ✓ 添加 {len(tools)} 个工具页面")
-    except Exception as e:
-        print(f"  ⚠️ 读取tools.json失败: {e}")
-    
-    # 生成XML
+
+def today_str():
+    return datetime.now(SH_TZ).strftime('%Y-%m-%d')
+
+
+def build_url(loc: str, priority: str, changefreq: str, lastmod: str):
+    return {
+        'loc': BASE_URL + loc,
+        'lastmod': lastmod,
+        'changefreq': changefreq,
+        'priority': priority,
+    }
+
+
+def write_sitemap(filename: str, urls):
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
     xml += '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    
     for url in urls:
         xml += '  <url>\n'
         xml += f'    <loc>{url["loc"]}</loc>\n'
@@ -62,19 +36,52 @@ def generate_sitemap():
         xml += f'    <changefreq>{url["changefreq"]}</changefreq>\n'
         xml += f'    <priority>{url["priority"]}</priority>\n'
         xml += '  </url>\n'
-    
     xml += '</urlset>'
-    
-    # 保存
-    output_path = f"{SITE_DIR}/sitemap.xml"
-    with open(output_path, "w", encoding="utf-8") as f:
-        f.write(xml)
-    
-    print(f"\n✅ 生成 sitemap.xml: {len(urls)} 个URL")
-    print(f"   保存到: {output_path}")
-    
-    return len(urls)
+    out = SITE_DIR / filename
+    out.write_text(xml, encoding='utf-8')
+    return out
 
 
-if __name__ == "__main__":
-    generate_sitemap()
+def generate_sitemap():
+    today = today_str()
+    SITE_DIR.mkdir(parents=True, exist_ok=True)
+
+    page_urls = [
+        build_url('/', '1.0', 'daily', today),
+        build_url('/search/', '0.8', 'weekly', today),
+        build_url('/compare/', '0.8', 'weekly', today),
+        build_url('/tools/', '0.9', 'daily', today),
+        build_url('/models/', '0.9', 'daily', today),
+        build_url('/agents/', '0.8', 'weekly', today),
+        build_url('/news/', '0.8', 'daily', today),
+        build_url('/providers/', '0.7', 'weekly', today),
+    ]
+
+    tool_urls = []
+    tools = json.loads((DATA_DIR / 'tools.json').read_text(encoding='utf-8'))
+    for tool in tools:
+        tool_id = tool.get('id')
+        if tool_id:
+            tool_urls.append(build_url(f'/tools/{tool_id}/', '0.7', 'weekly', today))
+
+    write_sitemap('sitemap-pages.xml', page_urls)
+    write_sitemap('sitemap-tools.xml', tool_urls)
+
+    index_xml = '<?xml version="1.0" encoding="UTF-8"?>\n'
+    index_xml += '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    for name in ['sitemap-pages.xml', 'sitemap-tools.xml']:
+        index_xml += '  <sitemap>\n'
+        index_xml += f'    <loc>{BASE_URL}/{name}</loc>\n'
+        index_xml += f'    <lastmod>{today}</lastmod>\n'
+        index_xml += '  </sitemap>\n'
+    index_xml += '</sitemapindex>'
+    (SITE_DIR / 'sitemap.xml').write_text(index_xml, encoding='utf-8')
+
+    print(f'  ✓ 页面 sitemap: {len(page_urls)} 个URL')
+    print(f'  ✓ 工具 sitemap: {len(tool_urls)} 个URL')
+    print(f'\n✅ 生成 sitemap 索引: {len(page_urls) + len(tool_urls)} 个URL')
+    return len(page_urls) + len(tool_urls)
+
+
+if __name__ == '__main__':
+    print(generate_sitemap())
