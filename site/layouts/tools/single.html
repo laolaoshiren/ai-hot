@@ -29,10 +29,61 @@
     {{ if $tool.trending }}<div style="margin-bottom:12px"><span class="hot-badge fire">🔥 热门</span></div>{{ end }}
     <div style="font-size:15px;color:var(--text2);line-height:1.8;margin-bottom:16px">{{ $tool.description }}</div>
 
+    <div style="margin-bottom:16px;padding:14px 16px;background:linear-gradient(135deg,rgba(255,107,53,0.08),rgba(99,102,241,0.06));border-radius:10px;border:1px solid rgba(255,107,53,0.18)">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:6px">🎯 一句话判断</div>
+        <div style="font-size:15px;color:var(--text1);line-height:1.8">
+            {{ if eq $tool.id "cursor" }}如果你想要 <strong>最像 VS Code、上手最快、AI 编程体验最均衡</strong> 的工具，Cursor 仍然是最稳的起点。
+            {{ else if eq $tool.id "claude-code" }}如果你更偏向 <strong>终端流、重度开发、自动改代码和跑任务</strong>，Claude Code 更像给工程师用的 CLI Agent。
+            {{ else if eq $tool.id "deepseek" }}如果你主要是 <strong>中文场景、想低成本甚至免费高频使用</strong>，DeepSeek 是很值得先试的国产主力。
+            {{ else if eq $tool.id "chatgpt" }}如果你想要 <strong>综合能力最均衡、生态最成熟、默认最省心</strong> 的 AI 助手，ChatGPT 依然是通用首选之一。
+            {{ else if eq $tool.id "claude" }}如果你最看重 <strong>长文档处理、严肃写作、分析质量</strong>，Claude 往往比通用聊天工具更稳。
+            {{ else if eq $tool.id "kimi" }}如果你经常要读 <strong>超长文档、PDF、网页资料</strong>，Kimi 对中文用户非常友好。
+            {{ else if eq $tool.id "豆包" }}如果你想找 <strong>免费、中文顺手、直接就能用</strong> 的 AI 助手，豆包很适合当日常入口。
+            {{ else if eq $tool.id "dify" }}如果你不是只想聊天，而是想 <strong>搭工作流、知识库、Agent 应用</strong>，Dify 是最值得先看的平台之一。
+            {{ else if eq $tool.id "midjourney" }}如果你追求 <strong>商业级审美和最稳的出图质感</strong>，Midjourney 仍然是高端生图首选。
+            {{ else if eq $tool.id "flux" }}如果你想要 <strong>开源、可本地部署、效果又足够强</strong> 的生图方案，FLUX 是现在最值得重点看的方向。
+            {{ else }}如果你想找一款适合 <strong>{{ $tool.category }}</strong> 场景的工具，这个产品值得优先纳入候选清单。{{ end }}
+        </div>
+    </div>
+
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px;margin-bottom:16px">
+        <div style="padding:12px 14px;background:var(--bg);border-radius:8px;border-left:3px solid var(--green)">
+            <div style="font-size:12px;color:var(--text3);margin-bottom:6px">✅ 适合谁</div>
+            <div style="font-size:14px;color:var(--text2);line-height:1.7">
+                {{ if $tool.best_for }}{{ delimit $tool.best_for " / " }}{{ else if eq $tool.id "claude-code" }}终端开发者 / 重度工程师 / 自动化开发用户{{ else if eq $tool.id "豆包" }}中文日常用户 / 新手 / 免费优先用户{{ else if eq $tool.id "flux" }}技术用户 / 本地部署玩家 / 开源偏好者{{ else }}{{ $tool.category }}场景用户{{ end }}
+            </div>
+        </div>
+        <div style="padding:12px 14px;background:var(--bg);border-radius:8px;border-left:3px solid var(--red)">
+            <div style="font-size:12px;color:var(--text3);margin-bottom:6px">⚠️ 不适合谁</div>
+            <div style="font-size:14px;color:var(--text2);line-height:1.7">
+                {{ if eq $tool.id "cursor" }}极度在意隐私、且不接受云端 AI 代码处理的团队{{ else if eq $tool.id "claude-code" }}只想点点按钮、不熟悉终端的新手{{ else if eq $tool.id "deepseek" }}必须依赖最强多模态和全球插件生态的用户{{ else if eq $tool.id "chatgpt" }}完全不想付费、且只想要中文本土化体验的用户{{ else if eq $tool.id "claude" }}强依赖图片/语音/视频全能体验的用户{{ else if eq $tool.id "kimi" }}主要追求国际生态和重度编程代理能力的用户{{ else if eq $tool.id "豆包" }}需要最强长文档严肃分析和海外工具生态的用户{{ else if eq $tool.id "dify" }}完全没有技术背景、只想马上开箱聊天的用户{{ else if eq $tool.id "midjourney" }}预算有限、且不想折腾 Discord 的用户{{ else if eq $tool.id "flux" }}不愿折腾部署、只想开箱即用的普通用户{{ else }}如果你只想要完全相反的使用方式，这个工具可能不是首选。{{ end }}
+            </div>
+        </div>
+    </div>
+
     {{ if $tool.use_cases }}
     <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid var(--blue)">
         <div style="font-size:12px;color:var(--text3);margin-bottom:4px">💡 适用场景</div>
         <div style="font-size:14px;color:var(--text2)">{{ $tool.use_cases }}</div>
+    </div>
+    {{ end }}
+
+    <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid #a855f7">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:4px">🧭 如果你犹豫，先这么选</div>
+        <div style="font-size:14px;color:var(--text2);line-height:1.8">
+            {{ if eq $tool.category "编程" }}想要最省心就先试它；如果你想横向比较，可以直接去看同类推荐里的其他编程工具。{{ else if eq $tool.category "对话" }}如果你主要是日常问答和写作，就先上手试一轮；如果你更在意中文、价格或长文档，再看下方同类推荐。{{ else if eq $tool.category "绘画" }}如果你最看重出图质量，可以先体验；如果你更看重开源和可控性，再去比较替代方案。{{ else }}先按你的主要场景试 10 分钟，再决定是否深入投入。{{ end }}
+        </div>
+    </div>
+
+    {{ if $tool.alternatives }}
+    <div style="margin-bottom:16px;padding:12px 16px;background:var(--bg);border-radius:8px;border-left:3px solid #f59e0b">
+        <div style="font-size:12px;color:var(--text3);margin-bottom:8px">🔄 常见替代方案</div>
+        <div style="display:flex;flex-wrap:wrap;gap:8px">
+            {{ range $tool.alternatives }}
+                {{ $alt := index (where site.Data.tools "id" .) 0 }}
+                {{ if $alt }}<a href="{{ relURL "/tools/" }}{{ $alt.id }}/" class="tag" style="text-decoration:none">{{ $alt.name }}</a>{{ end }}
+            {{ end }}
+        </div>
     </div>
     {{ end }}
 
@@ -69,7 +120,14 @@
     </div>
     {{ end }}
 
-    {{ if $tool.url }}<a href="{{ $tool.url }}" target="_blank" rel="noopener" class="spotlight-btn" style="display:inline-block">访问 {{ $tool.name }} →</a>{{ end }}
+    <div style="display:flex;flex-wrap:wrap;gap:10px">
+        {{ if $tool.url }}<a href="{{ $tool.url }}" target="_blank" rel="noopener" class="spotlight-btn" style="display:inline-block">访问 {{ $tool.name }} →</a>{{ end }}
+        {{ if $tool.alternatives }}
+            {{ $firstAlt := index $tool.alternatives 0 }}
+            {{ $altTool := index (where site.Data.tools "id" $firstAlt) 0 }}
+            {{ if $altTool }}<a href="{{ relURL "/tools/" }}{{ $altTool.id }}/" class="spotlight-btn" style="display:inline-block;background:var(--bg3);color:var(--text1)">先看替代方案：{{ $altTool.name }} →</a>{{ end }}
+        {{ end }}
+    </div>
 </div>
 
 {{ $related := first 6 (where (where site.Data.tools "category" $tool.category) "id" "ne" $tool.id) }}

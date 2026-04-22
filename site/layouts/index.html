@@ -63,7 +63,11 @@
         {{ if $news }}
             {{ $count := 0 }}
             {{ range $news }}
-                {{ if and (lt $count 10) (or (eq .source "机器之心") (eq .source "量子位") (eq .source "新智元") (eq .source "TechCrunch AI") (eq .source "The Verge AI") (eq .source "MIT Tech Review") (eq .source "VentureBeat AI") (eq .source "InfoQ AI")) }}
+                {{ $title := lower .title }}
+                {{ $summary := lower .summary }}
+                {{ $mustReadSource := or (eq .source "机器之心") (eq .source "量子位") (eq .source "新智元") (eq .source "TechCrunch AI") (eq .source "The Verge AI") (eq .source "MIT Tech Review") (eq .source "VentureBeat AI") (eq .source "InfoQ AI") }}
+                {{ $noise := or (in $title "大会") (in $title "开幕") (in $title "峰会") (in $title "论坛") (in $title "学者") (in $title "实习生") (in $title "招聘") (in $title "品牌") (in $title "发布会") (in $summary "大会") (in $summary "峰会") (in $summary "论坛") (in $summary "学者") (in $summary "实习生") (in $summary "招聘") }}
+                {{ if and (lt $count 8) $mustReadSource (not $noise) }}
                 <div class="hot-item">
                     <div class="hot-content">
                         <div class="hot-title">
@@ -88,6 +92,7 @@
                 {{ end }}
             {{ end }}
         {{ end }}
+        <div style="margin-top:12px"><a href="{{ relURL "/news/" }}" class="tag" style="text-decoration:none">查看更多 AI 新闻 →</a></div>
     </div>
 </div>
 

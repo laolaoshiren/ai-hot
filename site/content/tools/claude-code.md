@@ -19,11 +19,11 @@ trending = false
 featured = true
 use_cases = "终端编程、代码重构、PR生成、自动化开发"
 score = 70
-tags = ["#coding", "#cli", "#anthropic"]
-pros = []
-cons = []
-best_for = []
-alternatives = []
+tags = ["#coding", "#cli", "#anthropic", "#agent"]
+pros = ["终端内直接工作，不跳出开发环境", "适合大仓库与真实工程任务", "改代码、解释代码、跑任务一体化", "和 Anthropic 模型能力结合紧密"]
+cons = ["没有免费额度", "对终端用户更友好，新手门槛更高", "重度使用时成本需要关注"]
+best_for = ["终端开发者", "重度工程师", "习惯 CLI 工作流的用户"]
+alternatives = ["cursor", "codex-cli", "aider"]
 +++
 
 <!-- AUTO-GENERATED: tool page -->
