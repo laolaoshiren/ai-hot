@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-22T05:26:31.950671",
-  "total": 30,
+  "updated_at": "2026-04-22T05:43:09.819723",
+  "total": 29,
   "categories": [
     {
       "id": "top",
       "name": "🔥 顶级通用大模型",
       "subtitle": "现在最值得关注、综合能力最强的一线模型",
-      "count": 6
+      "count": 5
     },
     {
       "id": "coding",
@@ -24,7 +24,13 @@
       "id": "image",
       "name": "🎨 图像生成主力",
       "subtitle": "当前最常用、效果最稳的一线生图模型",
-      "count": 4
+      "count": 2
+    },
+    {
+      "id": "video",
+      "name": "🎬 视频生成主力",
+      "subtitle": "当下最值得关注的视频生成模型与工作流主力",
+      "count": 2
     },
     {
       "id": "open",
@@ -82,22 +88,6 @@
       "badge": "热点与推理",
       "why": "新一代旗舰之一，热度高、讨论度强",
       "meta": "2000K 上下文",
-      "tags": [
-        "多模态",
-        "文本",
-        "图像"
-      ]
-    },
-    {
-      "category": "top",
-      "source": "OpenRouter",
-      "name": "Kimi K2.6",
-      "provider": "MoonshotAI",
-      "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
-      "freshness": "2026-04-20",
-      "badge": "中文一线",
-      "why": "中文场景和长文本能力很强，近期热度很高",
-      "meta": "262K 上下文",
       "tags": [
         "多模态",
         "文本",
@@ -183,22 +173,6 @@
     },
     {
       "category": "coding",
-      "source": "OpenRouter",
-      "name": "Kimi K2.6",
-      "provider": "MoonshotAI",
-      "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
-      "freshness": "2026-04-20",
-      "badge": "中文编程",
-      "why": "中文理解和长上下文协作体验强",
-      "meta": "262K 上下文",
-      "tags": [
-        "多模态",
-        "文本",
-        "图像"
-      ]
-    },
-    {
-      "category": "coding",
       "source": "HuggingFace",
       "name": "Qwen3-Coder-Next",
       "provider": "Qwen",
@@ -209,6 +183,20 @@
       "meta": "❤️ 1317",
       "tags": [
         "文本"
+      ]
+    },
+    {
+      "category": "coding",
+      "source": "HuggingFace",
+      "name": "Kimi-K2.6",
+      "provider": "moonshotai",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "freshness": "2026-04-14",
+      "badge": "中文代码协作",
+      "why": "中文理解、长上下文协作和最近热度都很强",
+      "meta": "❤️ 599",
+      "tags": [
+        "多模态"
       ]
     },
     {
@@ -230,6 +218,22 @@
     {
       "category": "multimodal",
       "source": "OpenRouter",
+      "name": "GPT-5 Image",
+      "provider": "OpenAI",
+      "url": "https://openrouter.ai/openai/gpt-5-image",
+      "freshness": "2025-10-14",
+      "badge": "GPT 图像主力",
+      "why": "OpenAI 新一代 GPT 图像模型，应该出现在模型页主榜中",
+      "meta": "400K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "multimodal",
+      "source": "OpenRouter",
       "name": "GLM 5V Turbo",
       "provider": "Z.ai",
       "url": "https://openrouter.ai/z-ai/glm-5v-turbo",
@@ -242,22 +246,6 @@
         "文本",
         "图像",
         "视频"
-      ]
-    },
-    {
-      "category": "multimodal",
-      "source": "OpenRouter",
-      "name": "Kimi K2.6",
-      "provider": "MoonshotAI",
-      "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
-      "freshness": "2026-04-20",
-      "badge": "长文档看图",
-      "why": "图文结合与长文理解都很强",
-      "meta": "262K 上下文",
-      "tags": [
-        "多模态",
-        "文本",
-        "图像"
       ]
     },
     {
@@ -290,58 +278,63 @@
     },
     {
       "category": "image",
-      "source": "HuggingFace",
-      "name": "FLUX.1-dev",
-      "provider": "black-forest-labs",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-      "freshness": "2024-07-31",
-      "badge": "生图旗舰",
-      "why": "现阶段最常被提及的开源一线生图模型之一",
-      "meta": "❤️ 12685",
+      "source": "OpenRouter",
+      "name": "GPT-5.4 Image 2",
+      "provider": "OpenAI",
+      "url": "https://openrouter.ai/openai/gpt-5.4-image-2",
+      "freshness": "2026-04-21",
+      "badge": "最新 GPT 图像",
+      "why": "最新一代 GPT 图像模型，文字渲染和综合生成能力都很强",
+      "meta": "272K 上下文",
       "tags": [
-        "图像生成"
+        "多模态",
+        "文本",
+        "图像"
       ]
     },
     {
       "category": "image",
-      "source": "HuggingFace",
-      "name": "FLUX.1-schnell",
-      "provider": "black-forest-labs",
-      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
-      "freshness": "2024-07-31",
-      "badge": "速度优先",
-      "why": "在速度和质量之间很平衡",
-      "meta": "❤️ 4799",
+      "source": "OpenRouter",
+      "name": "GPT-5 Image",
+      "provider": "OpenAI",
+      "url": "https://openrouter.ai/openai/gpt-5-image",
+      "freshness": "2025-10-14",
+      "badge": "GPT Image 主力",
+      "why": "OpenAI 图像生成主力模型，模型页不该缺席",
+      "meta": "400K 上下文",
       "tags": [
-        "图像生成"
+        "多模态",
+        "文本",
+        "图像"
       ]
     },
     {
-      "category": "image",
-      "source": "HuggingFace",
-      "name": "SDXL",
-      "provider": "stabilityai",
-      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-      "freshness": "",
-      "badge": "经典主力",
-      "why": "SDXL 仍是大量工作流的稳定底座",
-      "meta": "❤️ 7800",
+      "category": "video",
+      "source": "官方补充",
+      "name": "Seedance 2.0",
+      "provider": "ByteDance Seed",
+      "url": "https://seed.bytedance.com/en/seedance2_0",
+      "freshness": "2026-04-22",
+      "badge": "最新视频王炸",
+      "why": "字节最新视频模型，当前就该放进视频主榜",
+      "meta": "官方发布",
       "tags": [
-        "图像生成"
+        "视频生成",
+        "原生音频"
       ]
     },
     {
-      "category": "image",
+      "category": "video",
       "source": "HuggingFace",
-      "name": "Z-Image-Turbo",
-      "provider": "Tongyi-MAI",
-      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
-      "freshness": "2025-11-25",
-      "badge": "国产生图",
-      "why": "国产图像模型里热度较高的一支",
-      "meta": "❤️ 4488",
+      "name": "LTX-2.3",
+      "provider": "Lightricks",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "freshness": "2026-03-04",
+      "badge": "视频生成新锐",
+      "why": "视频方向里热度较高，值得盯着看",
+      "meta": "❤️ 1021",
       "tags": [
-        "图像生成"
+        "视频生成"
       ]
     },
     {

@@ -16,6 +16,7 @@ CATEGORY_ORDER = [
     ('coding', '💻 编程最强模型', '写代码、改代码、做 Agent 开发最常用的一批模型'),
     ('multimodal', '👁️ 多模态主力模型', '图文理解、视觉问答、复杂输入处理的主力模型'),
     ('image', '🎨 图像生成主力', '当前最常用、效果最稳的一线生图模型'),
+    ('video', '🎬 视频生成主力', '当下最值得关注的视频生成模型与工作流主力'),
     ('open', '🌍 开源旗舰模型', '社区采用度高、真正有人用的开源主力模型'),
     ('watch', '🧪 值得关注的新锐模型', '还在快速爬升、值得盯着看的新一代模型'),
 ]
@@ -25,7 +26,6 @@ CURATED_ITEMS = [
     {'category': 'top', 'source': 'openrouter', 'id': 'openai/gpt-5.4', 'label': '综合王者', 'why': '当前一线通用能力标杆，推理、写作、执行力都很强'},
     {'category': 'top', 'source': 'openrouter', 'id': 'anthropic/claude-opus-4.7', 'label': '长文与复杂任务', 'why': '复杂任务稳定性强，长上下文和专业写作很能打'},
     {'category': 'top', 'source': 'openrouter', 'id': 'x-ai/grok-4.20', 'label': '热点与推理', 'why': '新一代旗舰之一，热度高、讨论度强'},
-    {'category': 'top', 'source': 'openrouter', 'id': 'moonshotai/kimi-k2.6', 'label': '中文一线', 'why': '中文场景和长文本能力很强，近期热度很高'},
     {'category': 'top', 'source': 'openrouter', 'id': 'z-ai/glm-5.1', 'label': '国产主力', 'why': '国产新一代通用模型代表，更新积极'},
     {'category': 'top', 'source': 'openrouter', 'id': 'deepseek/deepseek-v3.2', 'label': '高性价比', 'why': '推理/代码/成本平衡优秀，采用度高'},
 
@@ -33,21 +33,25 @@ CURATED_ITEMS = [
     {'category': 'coding', 'source': 'openrouter', 'id': 'openai/gpt-5.4-pro', 'label': '重度编码', 'why': '复杂工程任务和严肃编程场景很强'},
     {'category': 'coding', 'source': 'openrouter', 'id': 'anthropic/claude-sonnet-4.6', 'label': '开发者高频', 'why': 'Claude Code 生态热门底座，真实开发采用广'},
     {'category': 'coding', 'source': 'openrouter', 'id': 'qwen/qwen3.6-plus', 'label': '国产编码主力', 'why': '代码与通用兼顾，近期更新快'},
-    {'category': 'coding', 'source': 'openrouter', 'id': 'moonshotai/kimi-k2.6', 'label': '中文编程', 'why': '中文理解和长上下文协作体验强'},
     {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3-Coder-Next', 'label': '开源代码旗舰', 'why': '开源阵营里实用度高，开发者关注度高'},
+    {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K2.6', 'label': '中文代码协作', 'why': '中文理解、长上下文协作和最近热度都很强'},
 
     # 多模态
     {'category': 'multimodal', 'source': 'openrouter', 'id': 'openai/gpt-5.4-image-2', 'label': '图文一体', 'why': '理解图像、生成图像、处理复杂多模态工作流'},
+    {'category': 'multimodal', 'source': 'openrouter', 'id': 'openai/gpt-5-image', 'label': 'GPT 图像主力', 'why': 'OpenAI 新一代 GPT 图像模型，应该出现在模型页主榜中'},
     {'category': 'multimodal', 'source': 'openrouter', 'id': 'z-ai/glm-5v-turbo', 'label': '视觉国产主力', 'why': '国产视觉多模态里很值得关注'},
-    {'category': 'multimodal', 'source': 'openrouter', 'id': 'moonshotai/kimi-k2.6', 'label': '长文档看图', 'why': '图文结合与长文理解都很强'},
     {'category': 'multimodal', 'source': 'huggingface', 'url': 'https://huggingface.co/google/gemma-4-31B-it', 'label': '开源多模态热门', 'why': 'Google 阵营近期开源关注度很高'},
     {'category': 'multimodal', 'source': 'huggingface', 'url': 'https://huggingface.co/tencent/HY-Embodied-0.5', 'label': '具身方向', 'why': '具身智能方向里值得盯的代表模型'},
 
     # 图像生成
-    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-dev', 'label': '生图旗舰', 'why': '现阶段最常被提及的开源一线生图模型之一'},
-    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-schnell', 'label': '速度优先', 'why': '在速度和质量之间很平衡'},
-    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0', 'label': '经典主力', 'why': 'SDXL 仍是大量工作流的稳定底座'},
-    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/Tongyi-MAI/Z-Image-Turbo', 'label': '国产生图', 'why': '国产图像模型里热度较高的一支'},
+    {'category': 'image', 'source': 'openrouter', 'id': 'openai/gpt-5.4-image-2', 'label': '最新 GPT 图像', 'why': '最新一代 GPT 图像模型，文字渲染和综合生成能力都很强'},
+    {'category': 'image', 'source': 'openrouter', 'id': 'openai/gpt-5-image', 'label': 'GPT Image 主力', 'why': 'OpenAI 图像生成主力模型，模型页不该缺席'},
+    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.2-dev', 'label': '最新旗舰', 'why': 'Black Forest Labs 新一代主力生图模型，比 FLUX.1 更该被放在前面'},
+    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev', 'label': '编辑工作流主力', 'why': 'Kontext 系列更贴近当前图像编辑与工作流场景，实用性高'},
+
+    # 视频生成
+    {'category': 'video', 'source': 'manual', 'name': 'Seedance 2.0', 'provider': 'ByteDance Seed', 'url': 'https://seed.bytedance.com/en/seedance2_0', 'freshness': '2026-04-22', 'badge': '最新视频王炸', 'why': '字节最新视频模型，当前就该放进视频主榜', 'meta': '官方发布', 'tags': ['视频生成', '原生音频']},
+    {'category': 'video', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.3', 'label': '视频生成新锐', 'why': '视频方向里热度较高，值得盯着看'},
 
     # 开源旗舰
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen2.5-72B-Instruct', 'label': '开源通用王者', 'why': '采用广、能力稳、社区影响力大'},
@@ -64,6 +68,16 @@ CURATED_ITEMS = [
     {'category': 'watch', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.3', 'label': '视频生成新锐', 'why': '视频方向里热度较高，值得盯着看'},
 ]
 
+BANNED_HF_AUTHORS = {
+    'alwaysgood', 'apocalypseparty', 'quixiai', 'mats-10-sprint-cs-jb', 'flwrlabs', 'rta-ailabs', 'z-lab'
+}
+
+MIN_HF_LIKES = 300
+
+OPENROUTER_ALLOWED_IDS = {item['id'] for item in CURATED_ITEMS if item['source'] == 'openrouter'}
+HF_ALLOWED_URLS = {item['url'] for item in CURATED_ITEMS if item['source'] == 'huggingface'}
+
+
 
 def fetch_openrouter_models():
     req = urllib.request.Request(OPENROUTER_URL, headers={'User-Agent': 'Mozilla/5.0'})
@@ -74,7 +88,22 @@ def fetch_openrouter_models():
 def load_local_models():
     with open(MODELS_PATH, 'r', encoding='utf-8') as f:
         items = json.load(f)
-    return {m.get('url'): m for m in items}
+
+    filtered = []
+    for m in items:
+        author = (m.get('author') or '').lower()
+        likes = m.get('likes', 0) or 0
+        url = m.get('url')
+        if url in HF_ALLOWED_URLS:
+            filtered.append(m)
+            continue
+        if author in BANNED_HF_AUTHORS:
+            continue
+        if likes < MIN_HF_LIKES:
+            continue
+        filtered.append(m)
+
+    return {m.get('url'): m for m in filtered}
 
 
 def fmt_date(ts):
@@ -131,6 +160,20 @@ def build_item(spec, openrouter_map, hf_map):
             'why': spec['why'],
             'meta': f"{model.get('context_length', 0)//1000}K 上下文" if model.get('context_length') else '商用主力模型',
             'tags': modalities_from_or(model),
+        }
+
+    if spec['source'] == 'manual':
+        return {
+            'category': spec['category'],
+            'source': '官方补充',
+            'name': spec['name'],
+            'provider': spec['provider'],
+            'url': spec['url'],
+            'freshness': spec.get('freshness', ''),
+            'badge': spec['badge'],
+            'why': spec['why'],
+            'meta': spec.get('meta', '官方发布'),
+            'tags': spec.get('tags', []),
         }
 
     hf = hf_map[spec['url']]
