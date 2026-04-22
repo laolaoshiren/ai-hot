@@ -33,8 +33,8 @@ RSS_SOURCES = [
     {"name": "Hacker News AI", "url": "https://hnrss.org/newest?q=AI+OR+LLM+OR+GPT+OR+%22artificial+intelligence%22+OR+%22machine+learning%22&points=100", "lang": "en", "priority": 2, "ai_only": True},
     
     # 中文综合源 (Priority 3, 需 AI 关键词过滤)
-    {"name": "36氪", "url": "https://36kr.com/feed", "lang": "zh", "priority": 3, "ai_only": False},
-    {"name": "InfoQ AI", "url": "https://www.infoq.cn/feed", "lang": "zh", "priority": 3, "ai_only": False},
+    {"name": "36氪", "url": "https://36kr.com/feed", "lang": "zh", "priority": 4, "ai_only": False},
+    {"name": "InfoQ AI", "url": "https://www.infoq.cn/feed", "lang": "zh", "priority": 3, "ai_only": True},
 ]
 
 # AI 关键词白名单（用于过滤非 AI 专用源）

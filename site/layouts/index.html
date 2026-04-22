@@ -5,9 +5,28 @@
 <div class="grid">
 <div>
     <!-- 搜索框 -->
-    <div style="margin-bottom:32px">
+    <div style="margin-bottom:20px">
         <input type="text" class="search-box" placeholder="🔍 搜索 AI 工具、模型、新闻... (Ctrl+K)" id="searchInput">
         <div id="searchResults"></div>
+    </div>
+
+    <!-- 新用户路径引导 -->
+    <div class="card" style="margin-bottom:24px;background:linear-gradient(135deg,rgba(255,107,53,0.08),rgba(99,102,241,0.06));border-color:rgba(255,107,53,0.25)">
+        <div class="card-title">🧭 先从哪看？</div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px">
+            <a href="{{ relURL "/tools/" }}" style="text-decoration:none;color:inherit;padding:14px;border:1px solid var(--border);border-radius:10px;background:var(--bg2)">
+                <div style="font-weight:700;color:var(--text1);margin-bottom:6px">我是新手，先找能直接用的工具</div>
+                <div style="font-size:13px;color:var(--text2)">从工具库开始，看热门、免费、国内可直接用的 AI 工具</div>
+            </a>
+            <a href="{{ relURL "/models/" }}" style="text-decoration:none;color:inherit;padding:14px;border:1px solid var(--border);border-radius:10px;background:var(--bg2)">
+                <div style="font-weight:700;color:var(--text1);margin-bottom:6px">我想看现在最强的大模型</div>
+                <div style="font-size:13px;color:var(--text2)">直接看模型精选榜，优先看顶级通用、编程最强、多模态主力</div>
+            </a>
+            <a href="{{ relURL "/agents/" }}" style="text-decoration:none;color:inherit;padding:14px;border:1px solid var(--border);border-radius:10px;background:var(--bg2)">
+                <div style="font-weight:700;color:var(--text1);margin-bottom:6px">我想找 Agent / 自动化能力</div>
+                <div style="font-size:13px;color:var(--text2)">去 Agent 区看编程 Agent、浏览器 Agent、多 Agent 框架</div>
+            </a>
+        </div>
     </div>
 
     <!-- 今日热点 -->
@@ -42,27 +61,31 @@
         <div class="card-title">📰 AI 新闻</div>
         {{ $news := site.Data.news }}
         {{ if $news }}
-            {{ range first 12 $news }}
-            <div class="hot-item">
-                <div class="hot-content">
-                    <div class="hot-title">
-                        <a href="{{ .url }}" target="_blank">{{ with .title_zh }}{{ . }}{{ else }}{{ .title }}{{ end }}</a>
-                    </div>
-                    <div class="hot-meta">
-                        {{ .source }}
-                        {{ with .published }} · {{ replace . "T" " " | truncate 16 "" }}{{ end }}
-                    </div>
-                    {{ if .ai_summary }}
-                        {{ if gt (len .ai_summary) 50 }}
-                        <div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
+            {{ $count := 0 }}
+            {{ range $news }}
+                {{ if and (lt $count 10) (or (eq .source "机器之心") (eq .source "量子位") (eq .source "新智元") (eq .source "TechCrunch AI") (eq .source "The Verge AI") (eq .source "MIT Tech Review") (eq .source "VentureBeat AI") (eq .source "InfoQ AI")) }}
+                <div class="hot-item">
+                    <div class="hot-content">
+                        <div class="hot-title">
+                            <a href="{{ .url }}" target="_blank">{{ with .title_zh }}{{ . }}{{ else }}{{ .title }}{{ end }}</a>
+                        </div>
+                        <div class="hot-meta">
+                            {{ .source }}
+                            {{ with .published }} · {{ replace . "T" " " | truncate 16 "" }}{{ end }}
+                        </div>
+                        {{ if .ai_summary }}
+                            {{ if gt (len .ai_summary) 50 }}
+                            <div class="hot-meta" style="color:var(--accent);margin-top:2px">🤖 {{ .ai_summary }}</div>
+                            {{ else if .summary }}
+                            <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
+                            {{ end }}
                         {{ else if .summary }}
                         <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
                         {{ end }}
-                    {{ else if .summary }}
-                    <div class="hot-meta" style="color:var(--text3)">{{ .summary | truncate 100 "..." }}</div>
-                    {{ end }}
+                    </div>
                 </div>
-            </div>
+                {{ $count = add $count 1 }}
+                {{ end }}
             {{ end }}
         {{ end }}
     </div>

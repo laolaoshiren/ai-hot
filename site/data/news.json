@@ -1,5 +1,71 @@
 [
   {
+    "id": "08ac11fc1cdb",
+    "title": "在AK大神爆火的任务里，摸清国产AI真实水平",
+    "url": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T16:31:23",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-22T08:45:28.908474"
+  },
+  {
+    "id": "b5e53f676ac0",
+    "title": "国产多模态Agent拿下医学分割SOTA！不用改模型、不加token",
+    "url": "https://www.qbitai.com/2026/04/404604.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-22T07:17:04",
+    "summary": "已被CVPR 2026接收",
+    "collected_at": "2026-04-22T08:45:22.556703"
+  },
+  {
+    "id": "62f1d3326d78",
+    "title": "百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力",
+    "url": "https://www.infoq.cn/article/haZgR6XNQhh7r448wxPP?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T15:48:37",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-22T08:45:28.908496"
+  },
+  {
+    "id": "d455ccefdf37",
+    "title": "这些人读个博一年能挣几十万？2026苹果学者名单公布了",
+    "url": "https://www.qbitai.com/2026/04/404481.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-22T07:10:55",
+    "summary": "苹果版「顶尖AI人才计划」",
+    "collected_at": "2026-04-22T08:45:22.556734"
+  },
+  {
+    "id": "4c8418ac17c0",
+    "title": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
+    "url": "https://www.infoq.cn/article/PGUEKqa88emfLiIL1Mwz?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T14:43:36",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-22T08:45:28.908512"
+  },
+  {
+    "id": "a2ce36d10ffd",
+    "title": "大厂AI抢人大战，从实习生开始",
+    "url": "https://www.qbitai.com/2026/04/404470.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-22T06:59:15",
+    "summary": "",
+    "collected_at": "2026-04-22T08:45:22.556746"
+  },
+  {
     "id": "ee26631ad0db",
     "title": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
     "url": "https://www.infoq.cn/article/SCh9qpVmgQ1ObT3eVR17?utm_source=rss&utm_medium=article",
@@ -11,15 +77,15 @@
     "collected_at": "2026-04-22T06:06:45.899923"
   },
   {
-    "id": "8778f21f35d4",
-    "title": "具微科技两个月狂揽4轮数亿元融资，产业资本“天团”强势入局 | 36氪首发",
-    "url": "https://36kr.com/p/3777491215913736?f=rss",
-    "source": "36氪",
+    "id": "cd254dd6e790",
+    "title": "全球首个世界统一模型发布，机器人家庭成员来了！",
+    "url": "https://www.qbitai.com/2026/04/404446.html",
+    "source": "量子位",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-22T05:48:39",
-    "summary": "36氪获悉，全域移动智能机器人公司杭州具微科技有限公司（下简称「具微科技」）近期完成A+++轮融资。本轮融资由滨州国投、魏桥集团、滨州化工联合领投，和达控股、德诺资本跟投，其中滨州国投连续追投。资金将重点用于核心技术的持续深度研发，以及全国范围内特种应用场景的规模化落地与商业化推进。 具微科技2025年初成立于杭州，专注于轮式四足机器人研发与应用，打造具备全地形自主作业能力的“全域移动智能体”，为强磁场、爆破、极寒等特种场景提供智能化解决方案，产品具备负载量大、续航时长等优势。 2026年开年，具微科技曾在30天连续完成3轮A轮融资，连续获得产业龙头上市公司、国有产业平台与市场化机构投资。其中",
-    "collected_at": "2026-04-22T06:06:45.662507"
+    "priority": 1,
+    "published": "2026-04-22T05:49:56",
+    "summary": "首个世界统一模型，来了",
+    "collected_at": "2026-04-22T08:45:22.556763"
   },
   {
     "id": "867781edbf71",
@@ -33,15 +99,15 @@
     "collected_at": "2026-04-22T06:06:45.899987"
   },
   {
-    "id": "d15c093edd0f",
-    "title": "萤石发布搭“星辰世界模型”的蒸汽洗地机",
-    "url": "https://36kr.com/newsflashes/3777526407713797?f=rss",
+    "id": "8778f21f35d4",
+    "title": "具微科技两个月狂揽4轮数亿元融资，产业资本“天团”强势入局 | 36氪首发",
+    "url": "https://36kr.com/p/3777491215913736?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 3,
-    "published": "2026-04-22T04:58:34",
-    "summary": "36氪获悉，萤石发布多款AI硬件，在家庭智能中枢层面，萤石推出了搭载蓝海大模型2.0的EZVIZ AI CoreX，旨在成为家庭的本地“智慧大脑”。在细分产品线上，AI随身拍Pika定位为儿童首台AI设备，具备双摄与智能问答功能；此外，萤石还发布了AI双擎蒸汽洗地机器人，旗舰款星辰10 Master搭载了可理解家庭环境的“萤石星辰世界模型”，实现感知决策一体化的自主清洁。",
-    "collected_at": "2026-04-22T06:06:45.663405"
+    "published": "2026-04-22T05:48:39",
+    "summary": "36氪获悉，全域移动智能机器人公司杭州具微科技有限公司（下简称「具微科技」）近期完成A+++轮融资。本轮融资由滨州国投、魏桥集团、滨州化工联合领投，和达控股、德诺资本跟投，其中滨州国投连续追投。资金将重点用于核心技术的持续深度研发，以及全国范围内特种应用场景的规模化落地与商业化推进。 具微科技2025年初成立于杭州，专注于轮式四足机器人研发与应用，打造具备全地形自主作业能力的“全域移动智能体”，为强磁场、爆破、极寒等特种场景提供智能化解决方案，产品具备负载量大、续航时长等优势。 2026年开年，具微科技曾在30天连续完成3轮A轮融资，连续获得产业龙头上市公司、国有产业平台与市场化机构投资。其中",
+    "collected_at": "2026-04-22T06:06:45.662507"
   },
   {
     "id": "4bad8ec7540f",
@@ -55,15 +121,15 @@
     "collected_at": "2026-04-22T06:06:35.454488"
   },
   {
-    "id": "8ac4a3644148",
-    "title": "LG人工智能研究院与英伟达同意加强AI合作",
-    "url": "https://36kr.com/newsflashes/3777321625225219?f=rss",
+    "id": "d15c093edd0f",
+    "title": "萤石发布搭“星辰世界模型”的蒸汽洗地机",
+    "url": "https://36kr.com/newsflashes/3777526407713797?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 3,
-    "published": "2026-04-22T01:30:15",
-    "summary": "LG当地时间4月21日宣布，LG人工智能研究院和英伟达已同意加强技术联盟，以扩展Exaone人工智能生态系统。双方将结合LG的Exaone模型和英伟达的Nemotron生态系统，共同开发人工智能模型。（界面）",
-    "collected_at": "2026-04-22T01:53:29.585402"
+    "published": "2026-04-22T04:58:34",
+    "summary": "36氪获悉，萤石发布多款AI硬件，在家庭智能中枢层面，萤石推出了搭载蓝海大模型2.0的EZVIZ AI CoreX，旨在成为家庭的本地“智慧大脑”。在细分产品线上，AI随身拍Pika定位为儿童首台AI设备，具备双摄与智能问答功能；此外，萤石还发布了AI双擎蒸汽洗地机器人，旗舰款星辰10 Master搭载了可理解家庭环境的“萤石星辰世界模型”，实现感知决策一体化的自主清洁。",
+    "collected_at": "2026-04-22T06:06:45.663405"
   },
   {
     "id": "544e1fc5931a",
@@ -77,15 +143,15 @@
     "collected_at": "2026-04-22T06:06:35.454506"
   },
   {
-    "id": "b23181db2bbe",
-    "title": "Meta will record employees’ keystrokes and use it to train its AI models",
-    "url": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-21T23:45:21",
-    "summary": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models.",
-    "collected_at": "2026-04-22T01:53:11.906184"
+    "id": "8ac4a3644148",
+    "title": "LG人工智能研究院与英伟达同意加强AI合作",
+    "url": "https://36kr.com/newsflashes/3777321625225219?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T01:30:15",
+    "summary": "LG当地时间4月21日宣布，LG人工智能研究院和英伟达已同意加强技术联盟，以扩展Exaone人工智能生态系统。双方将结合LG的Exaone模型和英伟达的Nemotron生态系统，共同开发人工智能模型。（界面）",
+    "collected_at": "2026-04-22T01:53:29.585402"
   },
   {
     "id": "58c2e0e0499e",
@@ -99,15 +165,15 @@
     "collected_at": "2026-04-22T06:06:35.454538"
   },
   {
-    "id": "cd78e201d885",
-    "title": "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims",
-    "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+    "id": "b23181db2bbe",
+    "title": "Meta will record employees’ keystrokes and use it to train its AI models",
+    "url": "https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/",
     "source": "TechCrunch AI",
     "lang": "en",
     "priority": 1,
-    "published": "2026-04-21T23:26:45",
-    "summary": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.",
-    "collected_at": "2026-04-22T01:53:11.906212"
+    "published": "2026-04-21T23:45:21",
+    "summary": "Meta says that it has a new internal tool that is converting mouse movements and button clicks into data that can train its AI models.",
+    "collected_at": "2026-04-22T01:53:11.906184"
   },
   {
     "id": "3101b2eb692d",
@@ -121,6 +187,17 @@
     "collected_at": "2026-04-22T01:53:11.966611"
   },
   {
+    "id": "cd78e201d885",
+    "title": "Unauthorized group has gained access to Anthropic’s exclusive cyber tool Mythos, report claims",
+    "url": "https://techcrunch.com/2026/04/21/unauthorized-group-has-gained-access-to-anthropics-exclusive-cyber-tool-mythos-report-claims/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T23:26:45",
+    "summary": "Anthropic told TechCrunch it is investigating the claims, but maintains that there is no evidence that its systems have been impacted.",
+    "collected_at": "2026-04-22T01:53:11.906212"
+  },
+  {
     "id": "e84c955a8ab0",
     "title": "Roundtables: Unveiling The 10 Things That Matter in AI Right Now",
     "url": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/",
@@ -130,6 +207,28 @@
     "published": "2026-04-21T22:09:25",
     "summary": "Listen to the session or watch below Watch a special edition of Roundtables simulcast live from EmTech AI, MIT Technology Review’s signature conference for AI leadership. Subscribers got an exclusive first look at a new list capturing 10 key technologies, emerging trends, bold ideas, and powerful mo",
     "collected_at": "2026-04-22T01:53:12.068168"
+  },
+  {
+    "id": "b55747f6d2e5",
+    "title": "SpaceX is working with Cursor and has an option to buy the startup for $60B",
+    "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T22:58:22",
+    "summary": "The move could shore up weaknesses at each company, but it also reveals them. Neither Cursor nor xAI has proprietary models that can match the leading offerings from Anthropic and OpenAI — the same companies now competing directly with Cursor for the developer market.",
+    "collected_at": "2026-04-22T08:45:24.517691"
+  },
+  {
+    "id": "4df7f721afea",
+    "title": "A natural protein may protect the GI tract from infection",
+    "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "Embedded in the body’s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bac",
+    "collected_at": "2026-04-22T01:53:12.068306"
   },
   {
     "id": "eefe3d821e12",
@@ -144,15 +243,15 @@
     "ai_summary": "多模态AI应用成为标配，本周AI应用生态持续繁荣"
   },
   {
-    "id": "4df7f721afea",
-    "title": "A natural protein may protect the GI tract from infection",
-    "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
+    "id": "3348e376f438",
+    "title": "This tool could show how consciousness works",
+    "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
     "source": "MIT Tech Review",
     "lang": "en",
     "priority": 2,
     "published": "2026-04-21T21:00:00",
-    "summary": "Embedded in the body’s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bac",
-    "collected_at": "2026-04-22T01:53:12.068306"
+    "summary": "How does the physical matter in our brains translate into thoughts, sensations, and emotions? It’s hard to explore that question without neurosurgery. But in a recent paper, MIT philosopher Matthias Michel, Lincoln Lab researcher Daniel Freeman, and colleagues outline a strategy for doing so with an",
+    "collected_at": "2026-04-22T01:53:12.068359"
   },
   {
     "id": "6c61749c78a4",
@@ -166,15 +265,15 @@
     "collected_at": "2026-04-22T01:53:11.906269"
   },
   {
-    "id": "3348e376f438",
-    "title": "This tool could show how consciousness works",
-    "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
+    "id": "d18fefd2213f",
+    "title": "AI at MIT",
+    "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
     "source": "MIT Tech Review",
     "lang": "en",
     "priority": 2,
     "published": "2026-04-21T21:00:00",
-    "summary": "How does the physical matter in our brains translate into thoughts, sensations, and emotions? It’s hard to explore that question without neurosurgery. But in a recent paper, MIT philosopher Matthias Michel, Lincoln Lab researcher Daniel Freeman, and colleagues outline a strategy for doing so with an",
-    "collected_at": "2026-04-22T01:53:12.068359"
+    "summary": "At&#160;MIT, AI has become so pervasive that you can almost find your way into it without meaning to. Take Sili Deng, an associate professor of mechanical engineering. Deng says she still doesn’t know whether she’d have gone all in on artificial intelligence had it not been for the covid pandemic. S",
+    "collected_at": "2026-04-22T01:53:12.068646"
   },
   {
     "id": "314fefba7e73",
@@ -190,15 +289,15 @@
     "ai_summary": "调查显示多数美国人担忧AI在选举中的应用，信任危机加剧"
   },
   {
-    "id": "d18fefd2213f",
-    "title": "AI at MIT",
-    "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
+    "id": "8c2dfa318184",
+    "title": "Inventor recalls eye imaging breakthrough",
+    "url": "https://www.technologyreview.com/2026/04/21/1134945/inventor-recalls-eye-imaging-breakthrough/",
     "source": "MIT Tech Review",
     "lang": "en",
     "priority": 2,
     "published": "2026-04-21T21:00:00",
-    "summary": "At&#160;MIT, AI has become so pervasive that you can almost find your way into it without meaning to. Take Sili Deng, an associate professor of mechanical engineering. Deng says she still doesn’t know whether she’d have gone all in on artificial intelligence had it not been for the covid pandemic. S",
-    "collected_at": "2026-04-22T01:53:12.068646"
+    "summary": "If you’ve been to an eye doctor and had an image taken of the inside of your eye, chances are good it was done with optical coherence tomography (OCT)—a technology invented by clinician-scientist David Huang ’85, SM ’89, PhD ’93, and now used in 40 million procedures per year.&#160; OCT is a noninva",
+    "collected_at": "2026-04-22T01:53:12.068700"
   },
   {
     "id": "0c88065d42e6",
@@ -211,17 +310,6 @@
     "summary": "ChatGPT Images 2.0, the newest image generation model from OpenAI, shows just how much AI capabilities have evolved over the last few years.",
     "collected_at": "2026-04-21T19:03:07.999959",
     "ai_summary": "AI领域最新动态：ChatGPT’s new Images 2.0 model"
-  },
-  {
-    "id": "8c2dfa318184",
-    "title": "Inventor recalls eye imaging breakthrough",
-    "url": "https://www.technologyreview.com/2026/04/21/1134945/inventor-recalls-eye-imaging-breakthrough/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-21T21:00:00",
-    "summary": "If you’ve been to an eye doctor and had an image taken of the inside of your eye, chances are good it was done with optical coherence tomography (OCT)—a technology invented by clinician-scientist David Huang ’85, SM ’89, PhD ’93, and now used in 40 million procedures per year.&#160; OCT is a noninva",
-    "collected_at": "2026-04-22T01:53:12.068700"
   },
   {
     "id": "dfa2e3606ed8",

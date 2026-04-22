@@ -376,7 +376,7 @@ function doSearch(query) {
         r.agents.forEach(a => {
             const highlightedName = highlightText(a.name, query);
             const highlightedDesc = highlightText(a.description || '', query);
-            html += '<a href="https://' + a.url + '" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">'
+            html += '<a href="' + a.url + '" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">'
                 + '<div class="tool-header"><div class="tool-icon">🤖</div><div class="tool-name">' + highlightedName + '</div></div>'
                 + '<div class="tool-desc">' + highlightedDesc + '</div>'
                 + '<div class="tool-footer"><div class="tool-price">💰 ' + (a.pricing||'') + '</div></div></a>';

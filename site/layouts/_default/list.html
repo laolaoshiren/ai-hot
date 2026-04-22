@@ -13,6 +13,11 @@
 <div class="card" style="margin-bottom:16px">
     <div class="card-title">🧠 AI 模型精选 <span class="hot-badge">{{ $curated.total }} 个</span></div>
     <div class="hot-meta">不是模型垃圾堆，而是按实用性、热度、用户采用度筛出来的前沿主力模型。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
+        <span class="tool-tag hot">新手先看：🔥 顶级通用大模型</span>
+        <span class="tool-tag">开发者先看：💻 编程最强模型</span>
+        <span class="tool-tag">想看视觉能力：👁️ 多模态主力模型</span>
+    </div>
 </div>
 
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
@@ -61,6 +66,16 @@
 {{/* 按分类分组 */}}
 {{ $categories := dict "编程" "🛠️" "绘画" "🎨" "视频" "🎬" "对话" "💬" "搜索" "🔍" "写作" "✍️" "办公" "📊" "Agent" "🤖" "本地模型" "💻" "推理引擎" "⚡" "语音" "🎤" "音乐" "🎵" }}
 
+<div class="card" style="margin-bottom:16px">
+    <div class="card-title">🛠️ AI 工具导航 <span class="hot-badge">{{ len site.Data.tools }} 个</span></div>
+    <div class="hot-meta">不是所有工具都值得先点，先按你的目标切入会更快。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
+        <span class="tool-tag hot">新手先看：💬 对话 / 🛠️ 编程</span>
+        <span class="tool-tag">想白嫖先看：带免费额度的工具</span>
+        <span class="tool-tag">想出内容先看：🎨 绘画 / 🎬 视频 / ✍️ 写作</span>
+    </div>
+</div>
+
 <!-- 分类快速导航 -->
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
@@ -104,6 +119,16 @@
 <!-- Agent 页 -->
 {{ else if in $slug "/agents/" }}
 {{ $types := dict "编程 Agent" "🛠️" "研究 Agent" "📚" "自动化 Agent" "⚡" "多 Agent" "👥" "效率 Agent" "🚀" "助手 Agent" "🤖" "浏览器 Agent" "🌐" "平台 Agent" "🏗️" "通用 Agent" "⭐" "创作 Agent" "✍️" "安全 Agent" "🔒" }}
+
+<div class="card" style="margin-bottom:16px">
+    <div class="card-title">🤖 AI Agent 导航 <span class="hot-badge">{{ len site.Data.agents }} 个</span></div>
+    <div class="hot-meta">如果你不是做研究，先别被数量吓到，按任务类型挑会更高效。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
+        <span class="tool-tag hot">开发者先看：🛠️ 编程 Agent</span>
+        <span class="tool-tag">想自动化工作流：⚡ 自动化 Agent</span>
+        <span class="tool-tag">想让 AI 上网页：🌐 浏览器 Agent</span>
+    </div>
+</div>
 
 <!-- 分类快速导航 -->
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
