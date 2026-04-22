@@ -1,103 +1,192 @@
 # 🔥 AI热榜
 
-> 中文AI世界实时热榜，每6小时自动更新
+> 面向中文用户的 AI 工具 / 模型 / Agent / 新闻导航站。**网站 + GitHub 双向信息流**，每 6 小时自动更新。
 
 [![网站](https://img.shields.io/badge/网站-AI热榜-brightgreen)](https://aihot.bt199.com/)
-[![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](#)
-[![工具](https://img.shields.io/badge/工具-176+-orange)](#)
-[![模型](https://img.shields.io/badge/模型-62+-lightgrey)](#)
-[![Agent](https://img.shields.io/badge/Agent-13+-purple)](#)
+[![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/)
+[![工具](https://img.shields.io/badge/工具-171+-orange)](https://aihot.bt199.com/tools/)
+[![模型](https://img.shields.io/badge/模型-87+-lightgrey)](https://aihot.bt199.com/models/)
+[![Agent](https://img.shields.io/badge/Agent-52+-purple)](https://aihot.bt199.com/agents/)
+[![新闻](https://img.shields.io/badge/新闻-151+-red)](https://aihot.bt199.com/news/)
 [![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
 
-🌐 **网站**: https://aihot.bt199.com/
+🌐 **在线网站**：https://aihot.bt199.com/  
+📦 **GitHub 仓库**：https://github.com/laolaoshiren/ai-hot
 
 ---
 
-## 🛠️ 收录工具（精选 45+）
+## 项目定位
 
-### 编程
-| 工具 | 说明 | 价格 |
-|------|------|------|
-| [Cursor](https://cursor.sh) | AI-first 代码编辑器 | 免费 + Pro $20/月 |
-| [GitHub Copilot](https://github.com/features/copilot) | GitHub 官方 AI 编程助手 | $10/月 |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | Anthropic CLI 编程助手 | API 按量 |
-| [Codex CLI](https://github.com/openai/codex) | OpenAI 终端编程助手 | API 按量 |
-| [Codeium](https://codeium.com) | 免费 AI 代码补全 | 个人免费 |
-| [Continue](https://continue.dev) | 开源 AI 编程助手 | 开源免费 |
-| [Windsurf](https://codeium.com/windsurf) | Codeium 出品 AI IDE | 免费 + Pro $15/月 |
-| [Trae](https://trae.ai) | 字节跳动 AI IDE | 免费 |
+AI热榜不是单纯的“静态导航页”，而是一个持续滚动更新的 AI 信息入口：
 
-### 对话
-| 工具 | 说明 | 价格 |
-|------|------|------|
-| [ChatGPT](https://chat.openai.com) | 最流行的 AI 对话 | 免费 + $20/月 |
-| [Claude](https://claude.ai) | 长文本能力强 | 免费 + $20/月 |
-| [Gemini](https://gemini.google.com) | Google 多模态 | 免费 + $20/月 |
-| [DeepSeek](https://chat.deepseek.com) | 国产最强开源 | 免费 |
-| [Kimi](https://kimi.moonshot.cn) | 超长上下文 | 免费 |
-| [豆包](https://www.doubao.com) | 字节跳动，完全免费 | 免费 |
-| [通义千问](https://tongyi.aliyun.com) | 阿里巴巴 | 免费 |
-| [文心一言](https://yiyan.baidu.com) | 百度 | 免费 |
+- **网站端**：给中文用户直接看结果、找工具、看模型、追新闻
+- **GitHub 端**：作为公开的数据源、更新源、开发记录、协作入口
 
-### 绘画 / 视频 / 搜索 / 更多...
-完整列表请访问 [网站](https://laolaoshiren.github.io/ai-hot/tools/)
+也就是说，这个项目从一开始就是：
+
+> **GitHub 负责沉淀与公开，网站负责分发与触达。**
+
+现在两边已经打通：
+- GitHub 上的数据和代码更新，会驱动网站更新
+- 网站上的重要栏目和内容结构，也会反向推动 GitHub 持续整理与维护
 
 ---
 
-## 🤖 Agent 专区
+## 现在网站上有什么
 
-| Agent | 类型 | 价格 |
-|-------|------|------|
-| [Devin](https://devin.ai) | 编程 Agent | $500/月 |
-| [Codex (ChatGPT)](https://chatgpt.com) | 编程 Agent | Pro $200/月 |
-| [Claude Code](https://docs.anthropic.com/en/docs/claude-code) | 编程 Agent | API 按量 |
-| [Dify](https://dify.ai) | Agent 平台 | 开源 |
-| [Coze](https://www.coze.com) | Bot 搭建 | 免费 |
-| [LangChain](https://langchain.com) | 开发框架 | 开源 |
-| [AutoGen](https://github.com/microsoft/autogen) | 多 Agent | 开源 |
-| [CrewAI](https://crewai.com) | 多 Agent | 开源 |
+### 核心栏目
+- [🔥 今日热点](https://aihot.bt199.com/)
+- [🛠️ AI工具](https://aihot.bt199.com/tools/)
+- [🧠 AI模型](https://aihot.bt199.com/models/)
+- [🤖 AI Agent](https://aihot.bt199.com/agents/)
+- [📰 AI新闻](https://aihot.bt199.com/news/)
+- [🏢 AI提供商](https://aihot.bt199.com/providers/)
+- [🔍 全站搜索](https://aihot.bt199.com/search/)
+- [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 
----
-
-## 🏢 AI 提供商（国内可用标注）
-
-| 提供商 | 代表模型 | 国内访问 |
-|--------|----------|----------|
-| [DeepSeek](https://deepseek.com) | DeepSeek-V3, R1 | ✅ 直接访问 |
-| [月之暗面](https://moonshot.cn) | Kimi | ✅ 直接访问 |
-| [智谱 AI](https://zhipuai.cn) | GLM-4 | ✅ 直接访问 |
-| [字节跳动](https://www.doubao.com) | 豆包 | ✅ 直接访问 |
-| [阿里云](https://tongyi.aliyun.com) | 通义千问 | ✅ 直接访问 |
-| [百度](https://yiyan.baidu.com) | 文心一言 | ✅ 直接访问 |
-| [百川智能](https://baichuan-ai.com) | Baichuan 4 | ✅ 直接访问 |
-| [OpenAI](https://openai.com) | GPT-4o | ❌ 需代理 |
-| [Anthropic](https://anthropic.com) | Claude | ❌ 需代理 |
-| [Google](https://ai.google.dev) | Gemini | ❌ 需代理 |
+### 代表能力
+- 工具 / 模型 / Agent / 新闻统一导航
+- 面向中文用户的人话筛选与排序
+- 工具静态详情页（利于 SEO 与分享）
+- 首页热搜关键词可点击直达站内搜索
+- Providers / Models 分栏，不再语义混乱
+- 首页底部显示中国时间的最近更新时间
 
 ---
 
-## 📊 数据来源
+## 当前数据规模
 
-| 类型 | 来源 | 更新频率 |
-|------|------|----------|
-| 新闻 | 机器之心 / 36氪 / IT之家 / TechCrunch / The Verge / MIT Tech Review | 每6h |
-| 社区 | Hacker News / Reddit (ML, LocalLLaMA) / V2EX | 每6h |
-| 项目 | GitHub Search API / GitHub Trending | 每6h |
-| 模型 | HuggingFace API | 每6h |
-| 关键词 | 百度下拉词 / 微博热搜 / 知乎热榜 | 每6h |
+截至当前仓库版本：
 
-## 🔧 技术架构
+- **工具**：171+
+- **模型**：87+
+- **精选模型榜**：34+
+- **Agent**：52+
+- **新闻**：151+
+- **提供商**：22+
+- **项目**：166+
 
+说明：
+- 网站展示内容会持续变化
+- GitHub 中的数据是当前版本的公开沉淀
+- 线上站点可能因缓存出现几分钟延迟，但 GitHub 提交始终是第一手变更记录
+
+---
+
+## GitHub 和网站的双向信息流怎么运作
+
+### GitHub → 网站
+- `data/*.json`：原始/生成数据源
+- `site/data/*.json`：Hugo 实际读取的数据
+- `site/layouts/`：网站页面模板
+- Push 到 `main` 后，GitHub Actions 自动构建并部署到 Pages
+
+### 网站 → GitHub
+网站不是“孤立成品”，而是反过来指导 GitHub 更新：
+- 首页/栏目页暴露脏数据 → 回到 GitHub 修数据规则
+- SEO 表现不够 → 回到 GitHub 补静态详情页 / sitemap / 结构化数据
+- 用户体验发现问题 → 回到 GitHub 调整模板与信息结构
+
+所以这个仓库不只是存代码，也是：
+- **公开路线图**
+- **内容更新源**
+- **线上问题修复记录**
+- **项目可信背书**
+
+---
+
+## 项目结构
+
+```text
+ai-hot/
+├── data/                  # 原始/生成数据（Git 跟踪）
+├── site/
+│   ├── content/           # Hugo 内容页（含静态工具详情页）
+│   ├── data/              # Hugo 构建读取的数据
+│   ├── layouts/           # 页面模板
+│   └── static/            # 静态资源、sitemap、robots 等
+├── scripts/               # 数据采集、清洗、生成、SEO、部署脚本
+├── .github/workflows/     # GitHub Actions 工作流
+└── docs/                  # 阶段性报告与开发文档
 ```
-GitHub Actions (每6h定时) → Python 采集脚本 → JSON 数据
-        ↓
-    Hugo 静态生成 → GitHub Pages 部署
+
+---
+
+## 自动化更新机制
+
+### GitHub Actions
+- **6-Hour AI Data Aggregation**
+  - 每 6 小时自动采集/更新数据
+- **Deploy to GitHub Pages**
+  - push 到 `main` 后自动部署网站
+
+### 主要流程
+```text
+数据采集/清洗 → 写入 data/*.json → 同步到 site/data/ → Hugo 构建 → GitHub Pages 发布
 ```
 
-## 📝 贡献
+### 当前关键特性
+- 首页更新时间强制使用 **中国时间（Asia/Shanghai）**
+- 工具详情页已升级为静态路由：
+  - `/tools/cursor/`
+  - `/tools/claude-code/`
+  - `/tools/deepseek/`
+- sitemap 已升级为索引模式：
+  - `/sitemap.xml`
+  - `/sitemap-pages.xml`
+  - `/sitemap-tools.xml`
 
-通过 [Issues](https://github.com/laolaoshiren/ai-hot/issues) 提交新工具！
+---
 
-## 📄 许可证
+## GitHub 侧目前重点维护什么
+
+接下来 GitHub 侧会重点承担这些工作：
+
+1. **README 持续更新**
+   - 保持和网站栏目、数据规模、能力一致
+2. **数据质量维护**
+   - 清理脏新闻、过时模型、错误链接
+3. **文档化沉淀**
+   - 把重要设计决策、结构演进、SEO 改造沉淀到仓库
+4. **对外协作入口**
+   - 通过 Issues / PR 接收建议与修正
+5. **双向信息流强化**
+   - 让 GitHub 不只是代码仓库，而是网站的公开后台与说明书
+
+---
+
+## 关键页面入口
+
+### 网站入口
+- [首页](https://aihot.bt199.com/)
+- [工具库](https://aihot.bt199.com/tools/)
+- [模型榜](https://aihot.bt199.com/models/)
+- [Agent](https://aihot.bt199.com/agents/)
+- [新闻](https://aihot.bt199.com/news/)
+- [提供商](https://aihot.bt199.com/providers/)
+
+### GitHub 文档入口
+- [开发文档目录](./docs/)
+- [V4 完成报告](./docs/V4_COMPLETE_REPORT.md)
+- [V4 开发计划](./docs/V4_DEVELOPMENT_PLAN.md)
+- [V3 开发指南](./docs/V3_DEVELOPMENT_GUIDE.md)
+
+---
+
+## 贡献方式
+
+欢迎通过以下方式参与：
+
+- 提交新工具 / 新模型 / 新 Agent 线索
+- 报告错误链接、脏数据、过时信息
+- 提建议：栏目结构、SEO、GitHub 展示、数据源
+- 提交 PR 改进仓库与网站
+
+👉 Issues：
+https://github.com/laolaoshiren/ai-hot/issues
+
+---
+
+## 许可证
 
 [MIT](LICENSE)
