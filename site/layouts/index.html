@@ -41,7 +41,7 @@
             {{ range $index, $item := $items }}
             {{ $itemUrl := $item.url | default "" }}
             {{ $itemUrlNorm := replaceRE "/$" "" $itemUrl }}
-            {{ $itemTitleNorm := lower (replaceRE "[[:space:]“”‘’'"\-—：:！!？?，,、·（）()\[\]{}]+" "" ($item.title | default "")) }}
+            {{ $itemTitleNorm := lower ($item.title | default "") }}
             {{ $matchedNews := dict }}
             {{ if eq $item.type "news" }}
                 {{ if $itemUrl }}
@@ -58,8 +58,8 @@
                 {{ end }}
                 {{ if and (not ($matchedNews.id)) $itemTitleNorm }}
                     {{ range $newsData }}
-                        {{ $newsTitleZhNorm := lower (replaceRE "[[:space:]“”‘’'"\-—：:！!？?，,、·（）()\[\]{}]+" "" (.title_zh | default "")) }}
-                        {{ $newsTitleNorm := lower (replaceRE "[[:space:]“”‘’'"\-—：:！!？?，,、·（）()\[\]{}]+" "" (.title | default "")) }}
+                        {{ $newsTitleZhNorm := lower (.title_zh | default "") }}
+                        {{ $newsTitleNorm := lower (.title | default "") }}
                         {{ if and (not ($matchedNews.id)) (or (and $newsTitleZhNorm (or (in $itemTitleNorm $newsTitleZhNorm) (in $newsTitleZhNorm $itemTitleNorm))) (and $newsTitleNorm (or (in $itemTitleNorm $newsTitleNorm) (in $newsTitleNorm $itemTitleNorm)))) }}
                             {{ $matchedNews = . }}
                         {{ end }}
