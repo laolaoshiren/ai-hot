@@ -7,107 +7,48 @@
 
 <!-- 模型页 -->
 {{ if in $slug "/models/" }}
-<h1 style="font-size:1px;color:transparent;position:absolute;pointer-events:none">AI模型库 - {{ len site.Data.models }}个开源AI模型按类型分类</h1>
-{{/* 按 pipeline_tag 分组 */}}
-{{ $model_categories := dict 
-    "text-generation" "📝" 
-    "text-to-image" "🎨" 
-    "image-to-video" "🎬" 
-    "video-to-video" "🎬"
-    "automatic-speech-recognition" "🎤" 
-    "text-to-speech" "🔊" 
-    "image-text-to-text" "👁️" 
-    "any-to-any" "🌐"
-    "image-to-3d" "🧊"
-    "translation" "🌐"
-}}
-{{ $model_names := dict 
-    "text-generation" "文本生成" 
-    "text-to-image" "图像生成" 
-    "image-to-video" "视频生成" 
-    "video-to-video" "视频处理"
-    "automatic-speech-recognition" "语音识别" 
-    "text-to-speech" "语音合成" 
-    "image-text-to-text" "多模态" 
-    "any-to-any" "任意到任意"
-    "image-to-3d" "3D 生成"
-    "translation" "翻译"
-}}
+{{ $curated := site.Data.models_curated }}
+<h1 style="font-size:1px;color:transparent;position:absolute;pointer-events:none">AI模型精选 - {{ $curated.total }}个最前沿、最热门、最实用模型</h1>
 
-<!-- 分类快速导航 -->
+<div class="card" style="margin-bottom:16px">
+    <div class="card-title">🧠 AI 模型精选 <span class="hot-badge">{{ $curated.total }} 个</span></div>
+    <div class="hot-meta">不是模型垃圾堆，而是按实用性、热度、用户采用度筛出来的前沿主力模型。</div>
+</div>
+
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
-        {{ range $tag, $emoji := $model_categories }}
-        {{ $count := len (where site.Data.models "pipeline_tag" $tag) }}
-        {{ if gt $count 0 }}
-        {{ $name := index $model_names $tag }}
-        <a href="#model-{{ $tag }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
-            {{ $emoji }} {{ $name }} {{ $count }}
-        </a>
-        {{ end }}
-        {{ end }}
-        <a href="#model-other" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
-            🌐 其他
-        </a>
-    </div>
-</div>
-
-{{ range $tag, $emoji := $model_categories }}
-{{ $models := where site.Data.models "pipeline_tag" $tag }}
-{{ if gt (len $models) 0 }}
-{{ $name := index $model_names $tag }}
-<div class="card" id="model-{{ $tag }}">
-    <div class="card-title">{{ $emoji }} {{ $name }} <span class="hot-badge">{{ len $models }} 个</span></div>
-    <div class="tools-grid">
-        {{ range $models }}
-        <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
-            <div class="tool-header">
-                <div class="tool-icon">{{ $emoji }}</div>
-                <div class="tool-name">{{ .display_name | default .name }}</div>
-            </div>
-            <div class="tool-desc">{{ .author }}</div>
-            <div class="tool-footer">
-                <div class="tool-tags">
-                    {{ if .likes }}<span class="tool-tag free">❤️ {{ .likes }}</span>{{ end }}
-                </div>
-            </div>
+        {{ range $curated.categories }}
+        <a href="#model-{{ .id }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
+            {{ .name }} {{ .count }}
         </a>
         {{ end }}
     </div>
 </div>
-{{ end }}
-{{ end }}
 
-{{ $other_models := slice }}
-{{ range site.Data.models }}
-    {{ $tag := .pipeline_tag | default "" }}
-    {{ $found := false }}
-    {{ range $key, $emoji := $model_categories }}
-        {{ if eq $tag $key }}
-            {{ $found = true }}
-        {{ end }}
-    {{ end }}
-    {{ if not $found }}
-        {{ $other_models = $other_models | append . }}
-    {{ end }}
-{{ end }}
-
-{{ if gt (len $other_models) 0 }}
-<div class="card" id="model-other">
-    <div class="card-title">🌐 其他 <span class="hot-badge">{{ len $other_models }} 个</span></div>
+{{ range $curated.categories }}
+{{ $catId := .id }}
+<div class="card" id="model-{{ .id }}">
+    <div class="card-title">{{ .name }} <span class="hot-badge">{{ .count }} 个</span></div>
+    <div class="hot-meta" style="margin-bottom:14px">{{ .subtitle }}</div>
     <div class="tools-grid">
-        {{ range $other_models }}
+        {{ range where $curated.items "category" $catId }}
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
-                <div class="tool-icon">🌐</div>
-                <div class="tool-name">{{ .display_name | default .name }}</div>
-            </div>
-            <div class="tool-desc">{{ .author }}</div>
-            <div class="tool-footer">
-                <div class="tool-tags">
-                    {{ if .likes }}<span class="tool-tag free">❤️ {{ .likes }}</span>{{ end }}
-                    {{ if .pipeline_tag }}<span class="tool-tag">{{ .pipeline_tag }}</span>{{ end }}
+                <div class="tool-icon">{{ if eq .source "OpenRouter" }}⚡{{ else }}🌍{{ end }}</div>
+                <div>
+                    <div class="tool-name">{{ .name }}</div>
+                    <div class="hot-meta" style="font-size:12px;margin-top:2px">{{ .provider }}{{ if .freshness }} · {{ .freshness }}{{ end }}</div>
                 </div>
+            </div>
+            <div class="tool-desc">{{ .why }}</div>
+            <div class="tool-tags" style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px">
+                <span class="tool-tag hot">{{ .badge }}</span>
+                <span class="tool-tag">{{ .source }}</span>
+                {{ range .tags }}<span class="tool-tag">{{ . }}</span>{{ end }}
+            </div>
+            <div class="tool-footer" style="margin-top:12px">
+                <div class="tool-tags"></div>
+                <div class="tool-price">{{ .meta }}</div>
             </div>
         </a>
         {{ end }}

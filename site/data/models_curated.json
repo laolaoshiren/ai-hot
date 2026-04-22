@@ -1,0 +1,490 @@
+{
+  "updated_at": "2026-04-22T05:26:31.950671",
+  "total": 30,
+  "categories": [
+    {
+      "id": "top",
+      "name": "🔥 顶级通用大模型",
+      "subtitle": "现在最值得关注、综合能力最强的一线模型",
+      "count": 6
+    },
+    {
+      "id": "coding",
+      "name": "💻 编程最强模型",
+      "subtitle": "写代码、改代码、做 Agent 开发最常用的一批模型",
+      "count": 5
+    },
+    {
+      "id": "multimodal",
+      "name": "👁️ 多模态主力模型",
+      "subtitle": "图文理解、视觉问答、复杂输入处理的主力模型",
+      "count": 5
+    },
+    {
+      "id": "image",
+      "name": "🎨 图像生成主力",
+      "subtitle": "当前最常用、效果最稳的一线生图模型",
+      "count": 4
+    },
+    {
+      "id": "open",
+      "name": "🌍 开源旗舰模型",
+      "subtitle": "社区采用度高、真正有人用的开源主力模型",
+      "count": 5
+    },
+    {
+      "id": "watch",
+      "name": "🧪 值得关注的新锐模型",
+      "subtitle": "还在快速爬升、值得盯着看的新一代模型",
+      "count": 5
+    }
+  ],
+  "items": [
+    {
+      "category": "top",
+      "source": "OpenRouter",
+      "name": "GPT-5.4",
+      "provider": "OpenAI",
+      "url": "https://openrouter.ai/openai/gpt-5.4",
+      "freshness": "2026-03-05",
+      "badge": "综合王者",
+      "why": "当前一线通用能力标杆，推理、写作、执行力都很强",
+      "meta": "1050K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "top",
+      "source": "OpenRouter",
+      "name": "Claude Opus 4.7",
+      "provider": "Anthropic",
+      "url": "https://openrouter.ai/anthropic/claude-opus-4.7",
+      "freshness": "2026-04-16",
+      "badge": "长文与复杂任务",
+      "why": "复杂任务稳定性强，长上下文和专业写作很能打",
+      "meta": "1000K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "top",
+      "source": "OpenRouter",
+      "name": "Grok 4.20",
+      "provider": "xAI",
+      "url": "https://openrouter.ai/x-ai/grok-4.20",
+      "freshness": "2026-03-31",
+      "badge": "热点与推理",
+      "why": "新一代旗舰之一，热度高、讨论度强",
+      "meta": "2000K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "top",
+      "source": "OpenRouter",
+      "name": "Kimi K2.6",
+      "provider": "MoonshotAI",
+      "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
+      "freshness": "2026-04-20",
+      "badge": "中文一线",
+      "why": "中文场景和长文本能力很强，近期热度很高",
+      "meta": "262K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "top",
+      "source": "OpenRouter",
+      "name": "GLM 5.1",
+      "provider": "Z.ai",
+      "url": "https://openrouter.ai/z-ai/glm-5.1",
+      "freshness": "2026-04-07",
+      "badge": "国产主力",
+      "why": "国产新一代通用模型代表，更新积极",
+      "meta": "202K 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "top",
+      "source": "OpenRouter",
+      "name": "DeepSeek V3.2",
+      "provider": "DeepSeek",
+      "url": "https://openrouter.ai/deepseek/deepseek-v3.2",
+      "freshness": "2025-12-01",
+      "badge": "高性价比",
+      "why": "推理/代码/成本平衡优秀，采用度高",
+      "meta": "131K 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "coding",
+      "source": "OpenRouter",
+      "name": "GPT-5.4 Pro",
+      "provider": "OpenAI",
+      "url": "https://openrouter.ai/openai/gpt-5.4-pro",
+      "freshness": "2026-03-05",
+      "badge": "重度编码",
+      "why": "复杂工程任务和严肃编程场景很强",
+      "meta": "1050K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "coding",
+      "source": "OpenRouter",
+      "name": "Claude Sonnet 4.6",
+      "provider": "Anthropic",
+      "url": "https://openrouter.ai/anthropic/claude-sonnet-4.6",
+      "freshness": "2026-02-17",
+      "badge": "开发者高频",
+      "why": "Claude Code 生态热门底座，真实开发采用广",
+      "meta": "1000K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "coding",
+      "source": "OpenRouter",
+      "name": "Qwen3.6 Plus",
+      "provider": "Qwen",
+      "url": "https://openrouter.ai/qwen/qwen3.6-plus",
+      "freshness": "2026-04-02",
+      "badge": "国产编码主力",
+      "why": "代码与通用兼顾，近期更新快",
+      "meta": "1000K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像",
+        "视频"
+      ]
+    },
+    {
+      "category": "coding",
+      "source": "OpenRouter",
+      "name": "Kimi K2.6",
+      "provider": "MoonshotAI",
+      "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
+      "freshness": "2026-04-20",
+      "badge": "中文编程",
+      "why": "中文理解和长上下文协作体验强",
+      "meta": "262K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "coding",
+      "source": "HuggingFace",
+      "name": "Qwen3-Coder-Next",
+      "provider": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen3-Coder-Next",
+      "freshness": "2026-01-30",
+      "badge": "开源代码旗舰",
+      "why": "开源阵营里实用度高，开发者关注度高",
+      "meta": "❤️ 1317",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "multimodal",
+      "source": "OpenRouter",
+      "name": "GPT-5.4 Image 2",
+      "provider": "OpenAI",
+      "url": "https://openrouter.ai/openai/gpt-5.4-image-2",
+      "freshness": "2026-04-21",
+      "badge": "图文一体",
+      "why": "理解图像、生成图像、处理复杂多模态工作流",
+      "meta": "272K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "multimodal",
+      "source": "OpenRouter",
+      "name": "GLM 5V Turbo",
+      "provider": "Z.ai",
+      "url": "https://openrouter.ai/z-ai/glm-5v-turbo",
+      "freshness": "2026-04-01",
+      "badge": "视觉国产主力",
+      "why": "国产视觉多模态里很值得关注",
+      "meta": "202K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像",
+        "视频"
+      ]
+    },
+    {
+      "category": "multimodal",
+      "source": "OpenRouter",
+      "name": "Kimi K2.6",
+      "provider": "MoonshotAI",
+      "url": "https://openrouter.ai/moonshotai/kimi-k2.6",
+      "freshness": "2026-04-20",
+      "badge": "长文档看图",
+      "why": "图文结合与长文理解都很强",
+      "meta": "262K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "multimodal",
+      "source": "HuggingFace",
+      "name": "gemma-4-31B-it",
+      "provider": "google",
+      "url": "https://huggingface.co/google/gemma-4-31B-it",
+      "freshness": "2026-03-11",
+      "badge": "开源多模态热门",
+      "why": "Google 阵营近期开源关注度很高",
+      "meta": "❤️ 2237",
+      "tags": [
+        "多模态"
+      ]
+    },
+    {
+      "category": "multimodal",
+      "source": "HuggingFace",
+      "name": "HY-Embodied-0.5",
+      "provider": "tencent",
+      "url": "https://huggingface.co/tencent/HY-Embodied-0.5",
+      "freshness": "2026-04-02",
+      "badge": "具身方向",
+      "why": "具身智能方向里值得盯的代表模型",
+      "meta": "❤️ 892",
+      "tags": [
+        "多模态"
+      ]
+    },
+    {
+      "category": "image",
+      "source": "HuggingFace",
+      "name": "FLUX.1-dev",
+      "provider": "black-forest-labs",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "freshness": "2024-07-31",
+      "badge": "生图旗舰",
+      "why": "现阶段最常被提及的开源一线生图模型之一",
+      "meta": "❤️ 12685",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
+      "category": "image",
+      "source": "HuggingFace",
+      "name": "FLUX.1-schnell",
+      "provider": "black-forest-labs",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
+      "freshness": "2024-07-31",
+      "badge": "速度优先",
+      "why": "在速度和质量之间很平衡",
+      "meta": "❤️ 4799",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
+      "category": "image",
+      "source": "HuggingFace",
+      "name": "SDXL",
+      "provider": "stabilityai",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "freshness": "",
+      "badge": "经典主力",
+      "why": "SDXL 仍是大量工作流的稳定底座",
+      "meta": "❤️ 7800",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
+      "category": "image",
+      "source": "HuggingFace",
+      "name": "Z-Image-Turbo",
+      "provider": "Tongyi-MAI",
+      "url": "https://huggingface.co/Tongyi-MAI/Z-Image-Turbo",
+      "freshness": "2025-11-25",
+      "badge": "国产生图",
+      "why": "国产图像模型里热度较高的一支",
+      "meta": "❤️ 4488",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
+      "category": "open",
+      "source": "HuggingFace",
+      "name": "Qwen2.5-72B",
+      "provider": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
+      "freshness": "",
+      "badge": "开源通用王者",
+      "why": "采用广、能力稳、社区影响力大",
+      "meta": "❤️ 6200",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "open",
+      "source": "HuggingFace",
+      "name": "DeepSeek-V3",
+      "provider": "deepseek-ai",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
+      "freshness": "",
+      "badge": "开源推理主力",
+      "why": "开源通用模型里非常有代表性",
+      "meta": "❤️ 5800",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "open",
+      "source": "HuggingFace",
+      "name": "Llama-3.1-8B-Instruct",
+      "provider": "meta-llama",
+      "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
+      "freshness": "2024-07-18",
+      "badge": "生态基座",
+      "why": "Llama 生态广，真实使用面极大",
+      "meta": "❤️ 5738",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "open",
+      "source": "HuggingFace",
+      "name": "Whisper Large V3",
+      "provider": "openai",
+      "url": "https://huggingface.co/openai/whisper-large-v3",
+      "freshness": "",
+      "badge": "语音识别标杆",
+      "why": "ASR 领域真正长期被广泛采用的主力",
+      "meta": "❤️ 5500",
+      "tags": [
+        "语音识别"
+      ]
+    },
+    {
+      "category": "open",
+      "source": "HuggingFace",
+      "name": "Kimi-K2.6",
+      "provider": "moonshotai",
+      "url": "https://huggingface.co/moonshotai/Kimi-K2.6",
+      "freshness": "2026-04-14",
+      "badge": "开源新热门",
+      "why": "近期讨论度与关注度都很高",
+      "meta": "❤️ 599",
+      "tags": [
+        "多模态"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "MiniMax M2.7",
+      "provider": "MiniMax",
+      "url": "https://openrouter.ai/minimax/minimax-m2.7",
+      "freshness": "2026-03-18",
+      "badge": "新锐国产",
+      "why": "近期迭代积极，值得持续跟踪",
+      "meta": "196K 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "Mistral Small 4",
+      "provider": "Mistral",
+      "url": "https://openrouter.ai/mistralai/mistral-small-2603",
+      "freshness": "2026-03-16",
+      "badge": "轻量强者",
+      "why": "轻量级模型里很能打",
+      "meta": "262K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "Nemotron 3 Super",
+      "provider": "NVIDIA",
+      "url": "https://openrouter.ai/nvidia/nemotron-3-super-120b-a12b",
+      "freshness": "2026-03-11",
+      "badge": "NVIDIA 新动向",
+      "why": "大厂新模型线，值得长期观察",
+      "meta": "262K 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "HuggingFace",
+      "name": "Qwen3.6-35B-A3B",
+      "provider": "Qwen",
+      "url": "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+      "freshness": "2026-04-15",
+      "badge": "Qwen 新代际",
+      "why": "Qwen 新代际开源模型，热度上升中",
+      "meta": "❤️ 1099",
+      "tags": [
+        "多模态"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "HuggingFace",
+      "name": "LTX-2.3",
+      "provider": "Lightricks",
+      "url": "https://huggingface.co/Lightricks/LTX-2.3",
+      "freshness": "2026-03-04",
+      "badge": "视频生成新锐",
+      "why": "视频方向里热度较高，值得盯着看",
+      "meta": "❤️ 1021",
+      "tags": [
+        "视频生成"
+      ]
+    }
+  ]
+}
