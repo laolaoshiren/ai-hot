@@ -1,0 +1,57 @@
+[
+  {
+    "type": "助手 Agent",
+    "max_stars": 362093,
+    "count": 2
+  },
+  {
+    "type": "自动化 Agent",
+    "max_stars": 183662,
+    "count": 8
+  },
+  {
+    "type": "平台 Agent",
+    "max_stars": 138737,
+    "count": 6
+  },
+  {
+    "type": "编程 Agent",
+    "max_stars": 102078,
+    "count": 14
+  },
+  {
+    "type": "浏览器 Agent",
+    "max_stars": 89383,
+    "count": 3
+  },
+  {
+    "type": "研究 Agent",
+    "max_stars": 75443,
+    "count": 6
+  },
+  {
+    "type": "多 Agent",
+    "max_stars": 67327,
+    "count": 8
+  },
+  {
+    "type": "效率 Agent",
+    "max_stars": 40771,
+    "count": 1
+  },
+  {
+    "type": "创作 Agent",
+    "max_stars": 4767,
+    "count": 2
+  },
+  {
+    "type": "安全 Agent",
+    "max_stars": 1850,
+    "count": 1
+  },
+  {
+    "type": "通用 Agent",
+    "max_stars": 0,
+    "count": 1
+  }
+]

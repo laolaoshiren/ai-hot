@@ -105,6 +105,7 @@
             <div class="tool-footer">
                 <div class="tool-tags">
                     {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
+                    {{ if .stars }}<span class="tool-tag">⭐ {{ if ge .stars 100000 }}{{ div .stars 1000 }}K{{ else if ge .stars 10000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}</span>{{ end }}
                     {{ if .free_quota }}<span class="tool-tag free">{{ .free_quota }}</span>{{ end }}
                 </div>
                 <div class="tool-price">💰 {{ .pricing }}</div>
@@ -119,6 +120,7 @@
 <!-- Agent 页 -->
 {{ else if in $slug "/agents/" }}
 {{ $types := dict "编程 Agent" "🛠️" "研究 Agent" "📚" "自动化 Agent" "⚡" "多 Agent" "👥" "效率 Agent" "🚀" "助手 Agent" "🤖" "浏览器 Agent" "🌐" "平台 Agent" "🏗️" "通用 Agent" "⭐" "创作 Agent" "✍️" "安全 Agent" "🔒" }}
+{{ $sortedTypeItems := site.Data.agent_type_order }}
 
 <div class="card" style="margin-bottom:16px">
     <div class="card-title">🤖 AI Agent 导航 <span class="hot-badge">{{ len site.Data.agents }} 个</span></div>
@@ -133,7 +135,9 @@
 <!-- 分类快速导航 -->
 <div class="category-nav" style="position:sticky;top:100px;z-index:50;background:var(--bg);padding:12px 0;margin-bottom:16px;border-bottom:1px solid var(--border)">
     <div style="display:flex;flex-wrap:wrap;gap:8px">
-        {{ range $type, $emoji := $types }}
+        {{ range $sortedTypeItems }}
+        {{ $type := .type }}
+        {{ $emoji := index $types $type }}
         <a href="#agent-{{ $type }}" class="category-tag" style="padding:6px 12px;background:var(--bg2);border:1px solid var(--border);border-radius:16px;font-size:13px;color:var(--text2);text-decoration:none;transition:all 0.2s">
             {{ $emoji }} {{ $type }}
         </a>
@@ -141,13 +145,16 @@
     </div>
 </div>
 
-{{ range $type, $emoji := $types }}
+{{ range $sortedTypeItems }}
+{{ $type := .type }}
+{{ $emoji := index $types $type }}
 {{ $agents := where site.Data.agents "type" $type }}
 {{ if gt (len $agents) 0 }}
+{{ $sortedAgents := sort $agents "stars" "desc" }}
 <div class="card" id="agent-{{ $type }}">
     <div class="card-title">{{ $emoji }} {{ $type }} <span class="hot-badge">{{ len $agents }} 个</span></div>
     <div class="tools-grid">
-        {{ range $agents }}
+        {{ range $sortedAgents }}
         <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
             <div class="tool-header">
                 {{ $iconPath := printf "/icons/%s.png" .id }}
@@ -159,6 +166,7 @@
             <div class="tool-footer">
                 <div class="tool-tags">
                     {{ if .trending }}<span class="tool-tag hot">🔥 热门</span>{{ end }}
+                    {{ if .stars }}<span class="tool-tag">⭐ {{ if ge .stars 100000 }}{{ div .stars 1000 }}K{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}</span>{{ end }}
                     {{ if .free_quota }}<span class="tool-tag free">{{ .free_quota }}</span>{{ end }}
                 </div>
                 <div class="tool-price">💰 {{ .pricing }}</div>

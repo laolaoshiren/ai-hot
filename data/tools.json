@@ -113,7 +113,8 @@
       "#openai"
     ],
     "featured": true,
-    "score": 50
+    "score": 50,
+    "stars": 76914
   },
   {
     "id": "codeium",
@@ -319,7 +320,8 @@
       "fooocus",
       "automatic1111"
     ],
-    "score": 80
+    "score": 80,
+    "stars": 109593
   },
   {
     "id": "dalle3",
@@ -911,7 +913,8 @@
       "#microsoft"
     ],
     "featured": true,
-    "score": 80
+    "score": 80,
+    "stars": 57319
   },
   {
     "id": "crewai",
@@ -1002,7 +1005,8 @@
       "#performance"
     ],
     "featured": true,
-    "score": 80
+    "score": 80,
+    "stars": 77664
   },
   {
     "id": "whisper",
@@ -1019,7 +1023,8 @@
       "#openai"
     ],
     "featured": true,
-    "score": 80
+    "score": 80,
+    "stars": 98183
   },
   {
     "id": "fish-speech",
@@ -1036,7 +1041,8 @@
       "#chinese"
     ],
     "featured": true,
-    "score": 80
+    "score": 80,
+    "stars": 29869
   },
   {
     "id": "suno",
@@ -1661,7 +1667,8 @@
     "url": "https://github.com/2noise/ChatTTS",
     "trending": true,
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 39137
   },
   {
     "id": "musicfy",
@@ -1738,7 +1745,8 @@
     ],
     "url": "https://github.com/yoheinakajima/babyagi",
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 22235
   },
   {
     "id": "metagpt",
@@ -1753,7 +1761,8 @@
     ],
     "url": "https://github.com/geekan/MetaGPT",
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 67327
   },
   {
     "id": "gpt4all",
@@ -1798,7 +1807,8 @@
     ],
     "url": "https://github.com/oobabooga/text-generation-webui",
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 46842
   },
   {
     "id": "koboldcpp",
@@ -1813,7 +1823,8 @@
     ],
     "url": "https://github.com/LostRuins/koboldcpp",
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 10243
   },
   {
     "id": "tensorrt-llm",
@@ -1828,7 +1839,8 @@
     ],
     "url": "https://github.com/NVIDIA/TensorRT-LLM",
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 13448
   },
   {
     "id": "tgi",
@@ -1843,7 +1855,8 @@
     ],
     "url": "https://github.com/huggingface/text-generation-inference",
     "free_quota": "完全免费",
-    "score": 80
+    "score": 80,
+    "stars": 10842
   },
   {
     "id": "sglang",
@@ -1860,7 +1873,8 @@
     "trending": true,
     "free_quota": "完全免费",
     "use_cases": "高性能推理、API服务、模型部署",
-    "score": 80
+    "score": 80,
+    "stars": 26247
   },
   {
     "id": "doubao-seedance",
@@ -3394,7 +3408,8 @@
     ],
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "score": 80
+    "score": 80,
+    "stars": 3296
   },
   {
     "id": "quotio",
@@ -3417,7 +3432,8 @@
     "trending": false,
     "featured": false,
     "source": "hermes_discover",
-    "last_seen": "2026-04-22"
+    "last_seen": "2026-04-22",
+    "stars": 4307
   },
   {
     "id": "9router",
@@ -3440,6 +3456,7 @@
     "trending": false,
     "featured": false,
     "source": "hermes_discover",
-    "last_seen": "2026-04-22"
+    "last_seen": "2026-04-22",
+    "stars": 2870
   }
 ]

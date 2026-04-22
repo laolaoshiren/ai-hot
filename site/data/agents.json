@@ -8,7 +8,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "🦞"
+    "icon": "🦞",
+    "stars": 362093
   },
   {
     "id": "hermes-agent",
@@ -19,7 +20,8 @@
     "pricing": "开源 + API费用",
     "difficulty": 2,
     "trending": true,
-    "icon": "🤖"
+    "icon": "🤖",
+    "stars": 109378
   },
   {
     "id": "claude-code",
@@ -73,7 +75,8 @@
     "type": "编程 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "🔬"
+    "icon": "🔬",
+    "stars": 19030
   },
   {
     "id": "gpt-researcher",
@@ -84,7 +87,8 @@
     "pricing": "开源 + API费用",
     "difficulty": 2,
     "trending": true,
-    "icon": "🔍"
+    "icon": "🔍",
+    "stars": 26601
   },
   {
     "id": "storm",
@@ -94,7 +98,8 @@
     "type": "研究 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "icon": "🌪️"
+    "icon": "🌪️",
+    "stars": 28100
   },
   {
     "id": "open-deep-research",
@@ -105,7 +110,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "🤗"
+    "icon": "🤗",
+    "stars": 26805
   },
   {
     "id": "autogpt",
@@ -115,7 +121,8 @@
     "type": "自动化 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "🚀"
+    "icon": "🚀",
+    "stars": 183662
   },
   {
     "id": "babyagi",
@@ -125,7 +132,8 @@
     "type": "自动化 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "👶"
+    "icon": "👶",
+    "stars": 22235
   },
   {
     "id": "agentgpt",
@@ -145,7 +153,8 @@
     "type": "自动化 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "⚡"
+    "icon": "⚡",
+    "stars": 17473
   },
   {
     "id": "crewai",
@@ -156,7 +165,8 @@
     "pricing": "开源 + Pro",
     "difficulty": 2,
     "trending": true,
-    "icon": "👥"
+    "icon": "👥",
+    "stars": 49499
   },
   {
     "id": "metagpt",
@@ -166,7 +176,8 @@
     "type": "多 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "🏢"
+    "icon": "🏢",
+    "stars": 67327
   },
   {
     "id": "chatdev",
@@ -176,7 +187,8 @@
     "type": "多 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "💬"
+    "icon": "💬",
+    "stars": 32811
   },
   {
     "id": "autogen",
@@ -187,7 +199,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "🔄"
+    "icon": "🔄",
+    "stars": 57319
   },
   {
     "id": "langgraph",
@@ -198,7 +211,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "🔗"
+    "icon": "🔗",
+    "stars": 29966
   },
   {
     "id": "browser-use",
@@ -209,7 +223,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "🌐"
+    "icon": "🌐",
+    "stars": 89383
   },
   {
     "id": "webvoyager",
@@ -219,7 +234,8 @@
     "type": "浏览器 Agent",
     "pricing": "开源免费",
     "difficulty": 3,
-    "icon": "🗺️"
+    "icon": "🗺️",
+    "stars": 1075
   },
   {
     "id": "fabric",
@@ -229,7 +245,8 @@
     "type": "效率 Agent",
     "pricing": "开源免费",
     "difficulty": 2,
-    "icon": "🧵"
+    "icon": "🧵",
+    "stars": 40771
   },
   {
     "id": "aider",
@@ -240,7 +257,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "💻"
+    "icon": "💻",
+    "stars": 43688
   },
   {
     "id": "opencode",
@@ -251,7 +269,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "trending": true,
-    "icon": "📝"
+    "icon": "📝",
+    "stars": 12134
   },
   {
     "id": "dify",
@@ -262,7 +281,8 @@
     "pricing": "开源 + Cloud",
     "difficulty": 1,
     "trending": true,
-    "icon": "🏗️"
+    "icon": "🏗️",
+    "stars": 138737
   },
   {
     "id": "coze",
@@ -318,7 +338,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🌊"
+    "icon": "🌊",
+    "stars": 52145
   },
   {
     "id": "goose",
@@ -331,7 +352,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🪿"
+    "icon": "🪿",
+    "stars": 42982
   },
   {
     "id": "plandex",
@@ -344,7 +366,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🔮"
+    "icon": "🔮",
+    "stars": 15275
   },
   {
     "id": "pydantic-ai",
@@ -357,7 +380,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🐍"
+    "icon": "🐍",
+    "stars": 16547
   },
   {
     "id": "voltagent",
@@ -370,7 +394,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "⚡"
+    "icon": "⚡",
+    "stars": 8402
   },
   {
     "id": "tabby",
@@ -383,7 +408,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🏷️"
+    "icon": "🏷️",
+    "stars": 33442
   },
   {
     "id": "opencli",
@@ -396,7 +422,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "⚡"
+    "icon": "⚡",
+    "stars": 16762
   },
   {
     "id": "inkos",
@@ -409,7 +436,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "✍️"
+    "icon": "✍️",
+    "stars": 4767
   },
   {
     "id": "openmontage",
@@ -422,7 +450,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🎬"
+    "icon": "🎬",
+    "stars": 2951
   },
   {
     "id": "wecom-cli",
@@ -435,7 +464,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "💼"
+    "icon": "💼",
+    "stars": 1775
   },
   {
     "id": "onecli",
@@ -448,7 +478,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-21",
-    "icon": "🔐"
+    "icon": "🔐",
+    "stars": 1850
   },
   {
     "id": "gemini-cli",
@@ -461,7 +492,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🔮"
+    "icon": "🔮",
+    "stars": 102078
   },
   {
     "id": "mempalace",
@@ -474,7 +506,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🏰"
+    "icon": "🏰",
+    "stars": 48883
   },
   {
     "id": "openmythos",
@@ -487,7 +520,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🧠"
+    "icon": "🧠",
+    "stars": 8024
   },
   {
     "id": "graphify",
@@ -500,7 +534,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🌐"
+    "icon": "🌐",
+    "stars": 32623
   },
   {
     "id": "browser-harness",
@@ -513,7 +548,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🤖"
+    "icon": "🤖",
+    "stars": 4671
   },
   {
     "id": "autoresearch",
@@ -526,7 +562,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🔬"
+    "icon": "🔬",
+    "stars": 75443
   },
   {
     "id": "crucix",
@@ -539,7 +576,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🔍"
+    "icon": "🔍",
+    "stars": 8944
   },
   {
     "id": "agency-agents-zh",
@@ -552,7 +590,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🎭"
+    "icon": "🎭",
+    "stars": 7542
   },
   {
     "id": "hyperframes",
@@ -565,7 +604,8 @@
     "trending": true,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🎬"
+    "icon": "🎬",
+    "stars": 8952
   },
   {
     "id": "camel",
@@ -578,7 +618,8 @@
     "trending": false,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🐫"
+    "icon": "🐫",
+    "stars": 16753
   },
   {
     "id": "mindsearch",
@@ -591,7 +632,8 @@
     "trending": false,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🔍"
+    "icon": "🔍",
+    "stars": 6848
   },
   {
     "id": "agentuniverse",
@@ -604,6 +646,7 @@
     "trending": false,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "icon": "🌌"
+    "icon": "🌌",
+    "stars": 2206
   }
 ]
