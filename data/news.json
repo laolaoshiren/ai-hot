@@ -7,7 +7,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-22T16:31:23",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-22T08:45:28.908474"
   },
   {
@@ -29,7 +29,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-22T15:48:37",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-22T08:45:28.908496"
   },
   {
@@ -51,7 +51,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-22T14:43:36",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-22T08:45:28.908512"
   },
   {
@@ -73,7 +73,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-22T12:00:00",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-22T06:06:45.899923"
   },
   {
@@ -95,7 +95,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-22T10:00:00",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-22T06:06:45.899987"
   },
   {
@@ -238,7 +238,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T19:59:47",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T13:07:41.907915",
     "ai_summary": "多模态AI应用成为标配，本周AI应用生态持续繁荣"
   },
@@ -309,7 +309,7 @@
     "published": "2026-04-21T19:00:00",
     "summary": "ChatGPT Images 2.0, the newest image generation model from OpenAI, shows just how much AI capabilities have evolved over the last few years.",
     "collected_at": "2026-04-21T19:03:07.999959",
-    "ai_summary": "AI领域最新动态：ChatGPT’s new Images 2.0 model"
+    "ai_summary": ""
   },
   {
     "id": "dfa2e3606ed8",
@@ -321,7 +321,7 @@
     "published": "2026-04-21T19:00:00",
     "summary": "OpenAI is rolling out the latest version of its AI-powered image generator with new \"thinking capabilities,\" allowing it to search the web to help it create multiple images from a single prompt. In a blog post, OpenAI says ChatGPT Images 2.0 can now create more \"sophisticated\" images, with improveme",
     "collected_at": "2026-04-21T19:03:08.055190",
-    "ai_summary": "AI领域最新动态：OpenAI’s updated image generat"
+    "ai_summary": ""
   },
   {
     "id": "fdde9ca62ffc",
@@ -333,7 +333,7 @@
     "published": "2026-04-21T18:51:52",
     "summary": "The AI industry's mudslinging continues.",
     "collected_at": "2026-04-21T19:03:07.999984",
-    "ai_summary": "AI领域最新动态：Sam Altman throws shade at Ant"
+    "ai_summary": ""
   },
   {
     "id": "b6c07df5df83",
@@ -345,7 +345,7 @@
     "published": "2026-04-21T18:07:24",
     "summary": "Remember when Framework made the first laptop where you can easily upgrade its entire internal video card in three minutes flat? The company's getting into the external graphics game, too. As promised last August, you'll be able to turn the Framework Laptop 16's GPU modules into external ones instea",
     "collected_at": "2026-04-21T19:03:08.055221",
-    "ai_summary": "AI领域最新动态：Framework’s first eGPUs turn i"
+    "ai_summary": ""
   },
   {
     "id": "e53fd54bdec2",
@@ -366,7 +366,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T17:37:50",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T13:07:41.907945",
     "ai_summary": "前华为百度高管联手打造可量产机器人，获具身智能赛道最大单轮融资"
   },
@@ -391,7 +391,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T17:29:37",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T13:07:41.907966",
     "ai_summary": "AI时代数据治理关键：数据目录能力成为企业智能化基石"
   },
@@ -442,7 +442,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T15:06:43",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.180921",
     "ai_summary": "探讨构建可信数据智能体所需的上下文层架构，强调数据治理与智能体协同的技术趋势。"
   },
@@ -467,7 +467,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T14:14:32",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.180995",
     "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。"
   },
@@ -507,7 +507,7 @@
     "published": "2026-04-21T13:37:55",
     "summary": "Less than a year ago, Apple made headlines for a lack of AI announcements at its annual WWDC event. Ten months later, the company has announced that hardware executive John Ternus will succeed longtime CEO Tim Cook as chief executive - and the official release doesn't mention AI once. Ternus, curren",
     "collected_at": "2026-04-21T19:03:08.055306",
-    "ai_summary": "AI领域最新动态：John Ternus’ first big problem"
+    "ai_summary": ""
   },
   {
     "id": "14f356866e9c",
@@ -517,7 +517,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T13:19:20",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181013",
     "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。"
   },
@@ -580,7 +580,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T09:26:01",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181092",
     "ai_summary": "QCon 2026北京站聚焦AI重塑软件工程，展示AI在开发流程中的最新应用。"
   },
@@ -604,7 +604,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T09:19:20",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181116",
     "ai_summary": "Anthropic内部同时推进百余产品原型，新模型Mythos表现断层领先引发关注。"
   },
@@ -628,7 +628,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T09:12:03",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181134",
     "ai_summary": "Claude Code桌面版体验遭吐槽，Anthropic在AI编码工具落地中面临用户体验挑战。"
   },
@@ -642,7 +642,7 @@
     "published": "2026-04-21T06:58:08",
     "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 109 # Comments: 121",
     "collected_at": "2026-04-21T19:03:10.472904",
-    "ai_summary": "AI领域最新动态：Less human AI agents, please"
+    "ai_summary": ""
   },
   {
     "id": "c608c13b9389",
@@ -652,7 +652,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T09:02:51",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181151",
     "ai_summary": "Opus 4.7发布，Claude Code开发者分享心得：模型升级背后更关键的是开发方式变革。"
   },
@@ -676,7 +676,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-21T08:57:18",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181167",
     "ai_summary": "AI提效20%却让程序员加班更严重，企业以AI产出衡量生产力引发行业反思。"
   },
@@ -714,7 +714,7 @@
     "published": "2026-04-21T04:12:12",
     "summary": "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148",
     "collected_at": "2026-04-21T19:03:10.472927",
-    "ai_summary": "AI领域最新动态：A Roblox cheat and one AI tool"
+    "ai_summary": ""
   },
   {
     "id": "4556fec8d0f0",
@@ -786,7 +786,7 @@
     "published": "2026-04-20T20:19:13",
     "summary": "Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400",
     "collected_at": "2026-04-21T19:03:10.472949",
-    "ai_summary": "AI领域最新动态：AI Resistance: some recent ant"
+    "ai_summary": ""
   },
   {
     "id": "5ce42f9f60d6",
@@ -808,7 +808,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-20T18:01:44",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181182",
     "ai_summary": "中欧建交51周年之际，探讨AI时代产业重构与双向合作新机遇。"
   },
@@ -832,7 +832,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-20T16:43:54",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181219",
     "ai_summary": "零门槛AI生成赛道迎来新玩家'灵珠'平台，正式开启首次内测。"
   },
@@ -856,7 +856,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-20T16:00:00",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181235",
     "ai_summary": "揭秘混元大模型如何赋能SQL自动调优，为企业级数据库性能优化提供AI方案。"
   },
@@ -882,7 +882,7 @@
     "published": "2026-04-20T15:41:02",
     "summary": "Article URL: https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/ Comments URL: https://news.ycombinator.com/item?id=47835928 Points: 356 # Comments: 377",
     "collected_at": "2026-04-21T19:03:10.472970",
-    "ai_summary": "AI领域最新动态：Deezer says 44% of songs uploa"
+    "ai_summary": ""
   },
   {
     "id": "4138cace1a29",
@@ -892,7 +892,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-20T15:33:24",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181251",
     "ai_summary": "揭秘TDSQL-C如何利用AI实现Serverless架构下的智能化弹性伸缩。"
   },
@@ -918,7 +918,7 @@
     "published": "2026-04-20T15:07:04",
     "summary": "Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered the Nash bargaining sol",
     "collected_at": "2026-04-21T19:03:10.473050",
-    "ai_summary": "AI领域最新动态：Show HN: Mediator.ai – Using N"
+    "ai_summary": ""
   },
   {
     "id": "82ff13b62a37",
@@ -939,7 +939,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-20T14:07:02",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181268",
     "ai_summary": "4万Star开源项目因AI代码挖掘担忧突然闭源，开源社区引发争议。"
   },
@@ -962,7 +962,7 @@
     "lang": "zh",
     "priority": 3,
     "published": "2026-04-20T13:33:15",
-    "summary": "点击查看原文>",
+    "summary": "",
     "collected_at": "2026-04-21T07:26:30.181285",
     "ai_summary": "AI周报：DeepSeek V4本周发布、宇树H1半马退赛、钉钉禁写文档、Hermes Agent否认抄袭。"
   },
@@ -1010,7 +1010,7 @@
     "published": "2026-04-20T12:23:39",
     "summary": "Article URL: https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8 Comments URL: https://news.ycombinator.com/item?id=47833247 Points: 588 # Comments: 130",
     "collected_at": "2026-04-21T19:03:10.473071",
-    "ai_summary": "AI领域最新动态：Atlassian enables default data"
+    "ai_summary": ""
   },
   {
     "id": "f2c49cd52da1",
@@ -1159,7 +1159,7 @@
     "published": "2026-04-20T02:41:50",
     "summary": "Article URL: https://www.thatprivacyguy.com/blog/anthropic-spyware/ Comments URL: https://news.ycombinator.com/item?id=47829800 Points: 109 # Comments: 32",
     "collected_at": "2026-04-21T19:03:10.473091",
-    "ai_summary": "AI领域最新动态：Anthropic installed a spyware "
+    "ai_summary": ""
   },
   {
     "id": "1652f2ab0793",
@@ -1766,7 +1766,7 @@
     "points": 2544,
     "collected_at": "2026-04-20T14:21:50.873848",
     "summary": "Airfoil",
-    "ai_summary": "Airfoil。"
+    "ai_summary": ""
   },
   {
     "id": "hn-38544729",

@@ -19,22 +19,22 @@ intro = "DeepSeek-V3 正式开源：性能媲美 GPT-4o。"
 ai_summary = "DeepSeek-V3 正式开源：性能媲美 GPT-4o。"
 summary = "DeepSeek releases V3 as fully open-source"
 summary_zh = ""
-brief = "一句话看懂：DeepSeek-V3 正式开源：性能媲美 GPT-4o。 内容摘要：DeepSeek releases V3 as fully open-source"
+brief = "一句话看懂：DeepSeek-V3 正式开源：性能媲美 GPT-4o。"
 tags = []
-takeaways = ["DeepSeek-V3 正式开源：性能媲美 GPT-4o。", "这条内容来自 Hacker News，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。"]
+takeaways = ["DeepSeek-V3 正式开源：性能媲美 GPT-4o。", "这条内容来自 Hacker News，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。"]
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
 DeepSeek-V3 正式开源：性能媲美 GPT-4o。
 
-一句话看懂：DeepSeek-V3 正式开源：性能媲美 GPT-4o。 内容摘要：DeepSeek releases V3 as fully open-source
+一句话看懂：DeepSeek-V3 正式开源：性能媲美 GPT-4o。
 
 ## 这条新闻值得关注什么
 
 - DeepSeek-V3 正式开源：性能媲美 GPT-4o。
 - 这条内容来自 Hacker News，适合拿来快速判断它是否值得继续深挖。
-- 如果你只想节省时间，可以先看本站整理的中文摘要；如果你要核对细节，再去看原文。
+- 如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。
 
 ## 继续阅读
 
