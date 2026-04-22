@@ -14,7 +14,7 @@
 
 ## 🔥 今日热点
 
-1. [🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升](https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/)
+1. [🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升](https://aihot.bt199.com/news/0c88065d42e6/)
    - ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」
    - `TechCrunch · 5小时前 · 重磅 / 图像生成 / OpenAI`
 
@@ -22,7 +22,7 @@
    - Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star
    - `GitHub · 近期 · Agent / 研究 / Karpathy`
 
-3. [🚫 Claude 封号潮失控！300万用户企业一夜断供](https://www.infoq.cn/article/claude-account-ban-wave)
+3. [🚫 Claude 封号潮失控！300万用户企业一夜断供](https://aihot.bt199.com/news/14f356866e9c/)
    - Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权
    - `InfoQ · 11小时前 · 重磅 / Anthropic / 争议`
 
@@ -30,7 +30,7 @@
    - 让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势
    - `GitHub · 近期 · 编程 / 最佳实践`
 
-5. [🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面](https://www.infoq.cn/article/claude-design-ui-generation)
+5. [🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面](https://aihot.bt199.com/news/d5c19f9f7a21/)
    - 自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动
    - `InfoQ · 10小时前 · 新品 / 设计 / Anthropic`
 
@@ -46,7 +46,7 @@
    - 为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互
    - `GitHub · 持续更新 · Agent / 记忆 / 基础设施`
 
-9. [🔒 MIT：构建 Agent 优先的治理与安全架构](https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/)
+9. [🔒 MIT：构建 Agent 优先的治理与安全架构](https://aihot.bt199.com/news/729e3b49eaa0/)
    - 随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」
    - `MIT Tech Review · 12小时前 · 安全 / Agent / 治理`
 
