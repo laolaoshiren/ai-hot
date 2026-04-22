@@ -30,6 +30,8 @@ from ai_enhance import summarize_news, generate_daily_briefing, score_tools
 from generate_sitemap import generate_sitemap
 from generate_tool_pages import generate_tool_pages
 from generate_news_pages import generate_news_pages
+from news_content_extract import extract_news_content
+from news_article_enhance import enhance_news
 from openrouter_providers import update_providers
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
@@ -105,6 +107,8 @@ def main():
     print("\n🤖 Phase 3: AI 增强")
     steps_ai = [
         ("📝 新闻摘要", summarize_news),
+        ("📄 正文抽取", extract_news_content),
+        ("✍️ 新闻文章增强", enhance_news),
         ("📰 每日快报", generate_daily_briefing),
         ("⭐ 工具评分", score_tools),
     ]

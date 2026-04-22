@@ -1,38 +1,38 @@
 +++
-title = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’"
-description = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’。这篇内容来自 TechCrunch AI，AI热榜已整理成站内中文快读版，"
-seo_title = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’｜AI资讯解读 - AI热榜"
-seo_description = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’。这篇内容来自 TechCrunch AI，AI热榜已整理成站内中文快读版，"
-seo_keywords = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’, TechCrunch AI, AI新闻, AI资讯, AI热榜"
+title = "Sam Altman 对 Anthropic 的网络模型 Mythos 表示不满：“基于恐惧的营销”"
+description = "人工智能行业的诽谤仍在继续"
+seo_title = "Sam Altman 对 Anthropic 的网络模型 Mythos 表示不满：“基于恐惧的营销”｜AI资讯解读 - AI热榜"
+seo_description = "人工智能行业的诽谤仍在继续"
+seo_keywords = "Sam Altman 对 Anthropic 的网络模型 Mythos 表示不满：“基于恐惧的营销”, TechCrunch AI, AI新闻, AI资讯, AI热榜"
 slug = "fdde9ca62ffc"
 type = "news"
 
 [params]
 id = "fdde9ca62ffc"
-name = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’"
+name = "Sam Altman 对 Anthropic 的网络模型 Mythos 表示不满：“基于恐惧的营销”"
 title_en = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’"
 original_url = "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/"
 source = "TechCrunch AI"
 published = "2026-04-21T18:51:52"
 lang = "en"
-intro = "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’。这篇内容来自 TechCrunch AI，AI热榜已整理成站内中文快读版，方便先快速抓重点，再按需查看原始来源。"
-ai_summary = ""
+intro = "人工智能行业的诽谤仍在继续"
+ai_summary = "人工智能行业的诽谤仍在继续"
 summary = "The AI industry's mudslinging continues."
-summary_zh = ""
-brief = "中文快读：这是一篇英文来源的 AI 新闻，本站当前先提供中文导读框架与重点提炼，方便快速理解。"
+summary_zh = "人工智能行业的诽谤仍在继续"
+brief = "一句话看懂：人工智能行业的诽谤仍在继续"
 tags = []
-takeaways = ["Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’ 是这条新闻的核心信息。", "这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。"]
+takeaways = ["人工智能行业的诽谤仍在继续", "这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。", "如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。"]
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’。这篇内容来自 TechCrunch AI，AI热榜已整理成站内中文快读版，方便先快速抓重点，再按需查看原始来源。
+人工智能行业的诽谤仍在继续
 
-中文快读：这是一篇英文来源的 AI 新闻，本站当前先提供中文导读框架与重点提炼，方便快速理解。
+一句话看懂：人工智能行业的诽谤仍在继续
 
 ## 这条新闻值得关注什么
 
-- Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’ 是这条新闻的核心信息。
+- 人工智能行业的诽谤仍在继续
 - 这条内容来自 TechCrunch AI，适合拿来快速判断它是否值得继续深挖。
 - 如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。
 ## 继续阅读
