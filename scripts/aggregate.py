@@ -18,6 +18,7 @@ from news_interleave import interleave_news
 from github_discover import discover_github_projects
 from github_trending import track_github_trending
 from huggingface_discover import discover_hf_models
+from refine_models import refine_models
 from keyword_collector import collect_keywords
 from agent_discover import discover_agents
 # from trending_scorer import compute_trending  # 已由Hermes定时任务接管
@@ -69,6 +70,7 @@ def main():
     print("\n⚙️ Phase 2: 数据处理")
     steps_process = [
         ("🔥 保留热点", lambda: "由Hermes定时任务生成"),
+        ("🧹 模型精简", refine_models),
         ("🏢 提供商更新", update_providers),
         ("⭐ 每日精选", select_daily_spotlight),
         ("🔗 链接检查", quick_check),
