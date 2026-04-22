@@ -161,17 +161,23 @@ def build_page(item):
     ai_summary = clean_summary(item.get('ai_summary') or '')
     summary_zh = clean_summary(item.get('summary_zh') or '')
     summary = clean_summary(item.get('summary') or '')
-    content_text = item.get('content_excerpt') or item.get('content_text') or ''
-    content_text = single_line(content_text).replace('. ', '.\n\n').replace('。', '。\n\n')
     lang = item.get('lang', '')
     if str(lang).lower() == 'en' and looks_bad_en_summary(ai_summary):
         ai_summary = ''
     tags = item.get('tags') or []
     intro = single_line(build_intro(item, title_zh, source))
-    brief = single_line(build_brief(item, title_zh))
-    takeaways = [single_line(x) for x in build_takeaways(item)]
     seo_title = single_line(f'{title_zh}｜AI资讯解读 - AI热榜')
     seo_description = single_line(intro[:120] if intro else f'{title_zh}：AI热榜整理的中文快读版，帮你快速了解这条 AI 新闻的重点。')
+
+    raw_body = item.get('rewrite_body') or item.get('article_body') or item.get('content_rewrite') or item.get('content_excerpt') or item.get('content_text') or ''
+    raw_body = str(raw_body or '').replace('\r', '\n')
+    raw_body = re.sub(r'\n{3,}', '\n\n', raw_body).strip()
+    if not raw_body:
+        raw_body = intro
+
+    if '\n\n' not in raw_body:
+        raw_body = raw_body.replace('。', '。\n\n').replace('！', '！\n\n').replace('？', '？\n\n').replace('. ', '.\n\n')
+        raw_body = re.sub(r'\n{3,}', '\n\n', raw_body).strip()
 
     lines = [
         '+++',
@@ -195,39 +201,19 @@ def build_page(item):
         f'ai_summary = "{esc(ai_summary)}"',
         f'summary = "{esc(summary)}"',
         f'summary_zh = "{esc(summary_zh)}"',
-        f'brief = "{esc(brief)}"',
         f'tags = {toml_array(tags)}',
-        f'takeaways = {toml_array(takeaways)}',
         '+++',
         '',
         GENERATED_MARKER.rstrip(),
         '',
-        intro,
+        raw_body,
         '',
-        brief,
+        '## 🔗 原始来源',
         '',
-        '## 这条新闻值得关注什么',
+        '如果你要核对细节，可以再看原文：',
+        f'[{source or "原文链接"}原文链接]({url})' if url else '原文链接暂不可用。',
         '',
     ]
-
-    for tip in takeaways:
-        lines.append(f'- {tip}')
-
-    if content_text:
-        lines.extend([
-            '',
-            '## 正文摘录',
-            '',
-            content_text,
-            '',
-        ])
-
-    lines.extend([
-        '## 继续阅读',
-        '',
-        '如果你要核对原始表述、上下文细节或完整报道，请查看文末原文链接。',
-        '',
-    ])
     return '\n'.join(lines) + '\n'
 
 

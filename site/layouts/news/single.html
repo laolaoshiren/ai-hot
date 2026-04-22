@@ -21,25 +21,40 @@
     <a href="{{ relURL "/" }}">首页</a> / <a href="{{ relURL "/news/" }}">AI新闻</a> / <span>{{ $displayTitle }}</span>
 </nav>
 
-<article class="card" style="border-left:3px solid var(--accent)">
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:12px">
+<article class="card news-article-card" style="border-left:3px solid var(--accent)">
+    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px;align-items:center">
         <span class="hot-badge">{{ $article.source }}</span>
-        {{ with $article.published }}<span class="tool-tag">🕒 {{ replace . "T" " " | truncate 16 "" }}</span>{{ end }}
+        {{ with $article.published }}<span class="tool-tag">🗓️ {{ replace . "T" " " | truncate 16 "" }}</span>{{ end }}
         {{ if eq $article.lang "en" }}<span class="tool-tag">🌍 英文原文</span>{{ end }}
     </div>
 
-    <h1 style="font-size:30px;line-height:1.35;margin-bottom:10px">{{ $displayTitle }}</h1>
+    <h1 style="font-size:32px;line-height:1.35;margin-bottom:12px">{{ $displayTitle }}</h1>
     {{ if and $titleEn $displayTitle (ne $titleEn $displayTitle) }}
-    <div style="font-size:14px;color:var(--text3);margin-bottom:14px">原始标题：{{ $titleEn }}</div>
+    <div style="font-size:14px;color:var(--text3);margin-bottom:16px">原始标题：{{ $titleEn }}</div>
     {{ end }}
 
     {{ if $intro }}
-    <div style="font-size:18px;line-height:1.9;color:var(--text1);margin-bottom:22px;font-weight:600">⚡ {{ $intro }}</div>
+    <div style="font-size:18px;line-height:1.9;color:var(--text1);margin:0 0 26px;font-weight:700;padding:16px 18px;border-radius:16px;background:rgba(255,255,255,.03)">⚡ 一句话看懂：{{ $intro }}</div>
     {{ end }}
 
-    <div style="font-size:16px;line-height:2;color:var(--text1)">
+    <div class="news-article-body" style="font-size:17px;line-height:2;color:var(--text1)">
         {{ .Content }}
     </div>
 </article>
+
+<style>
+.news-article-card{padding:28px 26px}
+.news-article-body h2{font-size:18px;line-height:1.5;margin:28px 0 12px;font-weight:700}
+.news-article-body p{margin:0 0 18px;color:var(--text1)}
+.news-article-body ul{margin:0 0 20px 1.2em}
+.news-article-body li{margin:0 0 10px}
+.news-article-body strong{color:#fff}
+.news-article-body a{color:var(--accent)}
+.news-article-body blockquote{margin:18px 0;padding:14px 16px;border-left:3px solid var(--accent);background:rgba(255,255,255,.03);border-radius:12px;color:var(--text2)}
+@media (max-width: 768px){
+  .news-article-card{padding:22px 18px}
+  .news-article-body{font-size:16px!important;line-height:1.9!important}
+}
+</style>
 {{ end }}
 {{ end }}
