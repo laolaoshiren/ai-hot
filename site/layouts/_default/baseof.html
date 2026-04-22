@@ -209,6 +209,33 @@
             text-align: center; padding: 40px 0; color: var(--text3);
             font-size: 13px; border-top: 1px solid var(--border);
         }
+        .footer-links {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .footer-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: var(--bg2);
+            color: var(--text2);
+            text-decoration: none;
+            transition: all .2s ease;
+        }
+        .footer-link:hover {
+            color: var(--accent);
+            border-color: var(--accent);
+            background: rgba(0, 102, 255, 0.06);
+        }
+        .footer-link-label {
+            color: var(--text3);
+        }
 
         /* Random button */
         .random-btn {
@@ -266,6 +293,10 @@
     <footer>
         <div class="container">
             <p>🔥 AI热榜 — 每6小时自动更新的中文AI导航站</p>
+            <div class="footer-links">
+                <span class="footer-link-label">友情链接</span>
+                <a class="footer-link" href="https://claude-skills.bt199.com/" target="_blank" rel="noopener noreferrer">🧠 Claude Code Skills 中文站</a>
+            </div>
         </div>
     </footer>
 
