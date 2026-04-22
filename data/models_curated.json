@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-22T05:43:09.819723",
-  "total": 29,
+  "updated_at": "2026-04-22T06:05:49.496523",
+  "total": 34,
   "categories": [
     {
       "id": "top",
@@ -24,13 +24,13 @@
       "id": "image",
       "name": "🎨 图像生成主力",
       "subtitle": "当前最常用、效果最稳的一线生图模型",
-      "count": 2
+      "count": 5
     },
     {
       "id": "video",
       "name": "🎬 视频生成主力",
       "subtitle": "当下最值得关注的视频生成模型与工作流主力",
-      "count": 2
+      "count": 4
     },
     {
       "id": "open",
@@ -309,6 +309,48 @@
       ]
     },
     {
+      "category": "image",
+      "source": "HuggingFace",
+      "name": "FLUX.1-dev",
+      "provider": "black-forest-labs",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "freshness": "2024-07-31",
+      "badge": "开源生图旗舰",
+      "why": "FLUX.1-dev 仍是国内用户最熟、最常用的一线开源生图主力",
+      "meta": "❤️ 12685",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
+      "category": "image",
+      "source": "官方补充",
+      "name": "Gemini 3 Pro Image",
+      "provider": "Google",
+      "url": "https://openrouter.ai/google/gemini-3-pro-image-preview",
+      "freshness": "2026-04-22",
+      "badge": "谷歌图像新主力",
+      "why": "Google 最新图像生成方向主力，国内用户视角不能缺这条线",
+      "meta": "OpenRouter 预览模型",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
+      "category": "image",
+      "source": "官方补充",
+      "name": "Gemini 3.1 Flash Image",
+      "provider": "Google",
+      "url": "https://openrouter.ai/google/gemini-3.1-flash-image-preview",
+      "freshness": "2026-04-22",
+      "badge": "轻量图像快模",
+      "why": "适合轻量快速出图与产品化场景，是当前值得关注的新线",
+      "meta": "OpenRouter 预览模型",
+      "tags": [
+        "图像生成"
+      ]
+    },
+    {
       "category": "video",
       "source": "官方补充",
       "name": "Seedance 2.0",
@@ -321,6 +363,34 @@
       "tags": [
         "视频生成",
         "原生音频"
+      ]
+    },
+    {
+      "category": "video",
+      "source": "官方补充",
+      "name": "Kling AI",
+      "provider": "快手可灵",
+      "url": "https://app.klingai.com/global/",
+      "freshness": "2026-04-22",
+      "badge": "国内视频主力",
+      "why": "国内用户实际使用面很大，视频生成主榜必须有可灵",
+      "meta": "官网可用",
+      "tags": [
+        "视频生成"
+      ]
+    },
+    {
+      "category": "video",
+      "source": "官方补充",
+      "name": "Runway Gen-4",
+      "provider": "Runway",
+      "url": "https://runwayml.com/research/introducing-gen-4/",
+      "freshness": "2026-04-22",
+      "badge": "国际视频主力",
+      "why": "国际视频生成标杆之一，行业心智很强",
+      "meta": "官方发布",
+      "tags": [
+        "视频生成"
       ]
     },
     {

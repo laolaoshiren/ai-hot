@@ -1,5 +1,60 @@
 [
   {
+    "id": "ee26631ad0db",
+    "title": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+    "url": "https://www.infoq.cn/article/SCh9qpVmgQ1ObT3eVR17?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T12:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-22T06:06:45.899923"
+  },
+  {
+    "id": "8778f21f35d4",
+    "title": "具微科技两个月狂揽4轮数亿元融资，产业资本“天团”强势入局 | 36氪首发",
+    "url": "https://36kr.com/p/3777491215913736?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T05:48:39",
+    "summary": "36氪获悉，全域移动智能机器人公司杭州具微科技有限公司（下简称「具微科技」）近期完成A+++轮融资。本轮融资由滨州国投、魏桥集团、滨州化工联合领投，和达控股、德诺资本跟投，其中滨州国投连续追投。资金将重点用于核心技术的持续深度研发，以及全国范围内特种应用场景的规模化落地与商业化推进。 具微科技2025年初成立于杭州，专注于轮式四足机器人研发与应用，打造具备全地形自主作业能力的“全域移动智能体”，为强磁场、爆破、极寒等特种场景提供智能化解决方案，产品具备负载量大、续航时长等优势。 2026年开年，具微科技曾在30天连续完成3轮A轮融资，连续获得产业龙头上市公司、国有产业平台与市场化机构投资。其中",
+    "collected_at": "2026-04-22T06:06:45.662507"
+  },
+  {
+    "id": "867781edbf71",
+    "title": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
+    "url": "https://www.infoq.cn/article/kqX8oCFVhIJG2pXR7dix?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T10:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-22T06:06:45.899987"
+  },
+  {
+    "id": "d15c093edd0f",
+    "title": "萤石发布搭“星辰世界模型”的蒸汽洗地机",
+    "url": "https://36kr.com/newsflashes/3777526407713797?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-22T04:58:34",
+    "summary": "36氪获悉，萤石发布多款AI硬件，在家庭智能中枢层面，萤石推出了搭载蓝海大模型2.0的EZVIZ AI CoreX，旨在成为家庭的本地“智慧大脑”。在细分产品线上，AI随身拍Pika定位为儿童首台AI设备，具备双摄与智能问答功能；此外，萤石还发布了AI双擎蒸汽洗地机器人，旗舰款星辰10 Master搭载了可理解家庭环境的“萤石星辰世界模型”，实现感知决策一体化的自主清洁。",
+    "collected_at": "2026-04-22T06:06:45.663405"
+  },
+  {
+    "id": "4bad8ec7540f",
+    "title": "从GPU到Token：AI基础设施竞争逻辑重构",
+    "url": "https://www.qbitai.com/2026/04/404440.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-22T04:48:03",
+    "summary": "商汤大装置已实践三年",
+    "collected_at": "2026-04-22T06:06:35.454488"
+  },
+  {
     "id": "8ac4a3644148",
     "title": "LG人工智能研究院与英伟达同意加强AI合作",
     "url": "https://36kr.com/newsflashes/3777321625225219?f=rss",
@@ -9,6 +64,17 @@
     "published": "2026-04-22T01:30:15",
     "summary": "LG当地时间4月21日宣布，LG人工智能研究院和英伟达已同意加强技术联盟，以扩展Exaone人工智能生态系统。双方将结合LG的Exaone模型和英伟达的Nemotron生态系统，共同开发人工智能模型。（界面）",
     "collected_at": "2026-04-22T01:53:29.585402"
+  },
+  {
+    "id": "544e1fc5931a",
+    "title": "2026萤石品牌新品发布会：驭智向前锚定长期主义，AI驱动多点开花",
+    "url": "https://www.qbitai.com/2026/04/404420.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-22T04:12:45",
+    "summary": "发布安全白皮书与全系AI新品",
+    "collected_at": "2026-04-22T06:06:35.454506"
   },
   {
     "id": "b23181db2bbe",
@@ -22,15 +88,15 @@
     "collected_at": "2026-04-22T01:53:11.906184"
   },
   {
-    "id": "3101b2eb692d",
-    "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
-    "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
-    "source": "The Verge AI",
-    "lang": "en",
+    "id": "58c2e0e0499e",
+    "title": "单Agent时代结束，AI们开始组团上班",
+    "url": "https://www.qbitai.com/2026/04/404130.html",
+    "source": "量子位",
+    "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T22:45:37",
-    "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or pay a fee of $10 billion. Buying this startup that's focused on AI coding could help xAI's tools com",
-    "collected_at": "2026-04-22T01:53:11.966611"
+    "published": "2026-04-22T01:36:29",
+    "summary": "Kimi K2.6来了！",
+    "collected_at": "2026-04-22T06:06:35.454538"
   },
   {
     "id": "cd78e201d885",
@@ -44,6 +110,17 @@
     "collected_at": "2026-04-22T01:53:11.906212"
   },
   {
+    "id": "3101b2eb692d",
+    "title": "SpaceX cuts a deal to maybe buy Cursor for $60 billion",
+    "url": "https://www.theverge.com/science/916427/spacex-cursor-potential-deal-acquisition",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T22:45:37",
+    "summary": "With an IPO looming for Elon Musk's SpaceX / xAI / X combo platter of companies, SpaceX has announced an odd arrangement to either acquire the automated programming platform Cursor for $60 billion or pay a fee of $10 billion. Buying this startup that's focused on AI coding could help xAI's tools com",
+    "collected_at": "2026-04-22T01:53:11.966611"
+  },
+  {
     "id": "e84c955a8ab0",
     "title": "Roundtables: Unveiling The 10 Things That Matter in AI Right Now",
     "url": "https://www.technologyreview.com/2026/04/21/1135486/roundtables-unveiling-the-10-things-that-matter-in-ai-right-now/",
@@ -53,50 +130,6 @@
     "published": "2026-04-21T22:09:25",
     "summary": "Listen to the session or watch below Watch a special edition of Roundtables simulcast live from EmTech AI, MIT Technology Review’s signature conference for AI leadership. Subscribers got an exclusive first look at a new list capturing 10 key technologies, emerging trends, bold ideas, and powerful mo",
     "collected_at": "2026-04-22T01:53:12.068168"
-  },
-  {
-    "id": "b55747f6d2e5",
-    "title": "SpaceX is working with Cursor and has an option to buy the startup for $60 billion",
-    "url": "https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-21T22:58:22",
-    "summary": "Only Elon would do this before an IPO.",
-    "collected_at": "2026-04-22T01:53:11.906229"
-  },
-  {
-    "id": "4df7f721afea",
-    "title": "A natural protein may protect the GI tract from infection",
-    "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-21T21:00:00",
-    "summary": "Embedded in the body’s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bac",
-    "collected_at": "2026-04-22T01:53:12.068306"
-  },
-  {
-    "id": "a521d11c49f0",
-    "title": "Apple’s John Ternus will run one of the world’s most powerful companies; the job is a minefield",
-    "url": "https://techcrunch.com/2026/04/21/apples-john-ternus-will-run-one-of-the-worlds-most-powerful-companies-the-job-is-a-minefield/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-21T20:23:24",
-    "summary": "Apple's top job comes with almost unrivaled power and money, but it comes with plenty of baggage, too.",
-    "collected_at": "2026-04-22T01:53:11.906251"
-  },
-  {
-    "id": "3348e376f438",
-    "title": "This tool could show how consciousness works",
-    "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
-    "source": "MIT Tech Review",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-21T21:00:00",
-    "summary": "How does the physical matter in our brains translate into thoughts, sensations, and emotions? It’s hard to explore that question without neurosurgery. But in a recent paper, MIT philosopher Matthias Michel, Lincoln Lab researcher Daniel Freeman, and colleagues outline a strategy for doing so with an",
-    "collected_at": "2026-04-22T01:53:12.068359"
   },
   {
     "id": "eefe3d821e12",
@@ -111,15 +144,15 @@
     "ai_summary": "多模态AI应用成为标配，本周AI应用生态持续繁荣"
   },
   {
-    "id": "d18fefd2213f",
-    "title": "AI at MIT",
-    "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
+    "id": "4df7f721afea",
+    "title": "A natural protein may protect the GI tract from infection",
+    "url": "https://www.technologyreview.com/2026/04/21/1134858/a-natural-protein-may-protect-the-gi-tract-from-infection/",
     "source": "MIT Tech Review",
     "lang": "en",
     "priority": 2,
     "published": "2026-04-21T21:00:00",
-    "summary": "At&#160;MIT, AI has become so pervasive that you can almost find your way into it without meaning to. Take Sili Deng, an associate professor of mechanical engineering. Deng says she still doesn’t know whether she’d have gone all in on artificial intelligence had it not been for the covid pandemic. S",
-    "collected_at": "2026-04-22T01:53:12.068646"
+    "summary": "Embedded in the body’s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bac",
+    "collected_at": "2026-04-22T01:53:12.068306"
   },
   {
     "id": "6c61749c78a4",
@@ -133,15 +166,15 @@
     "collected_at": "2026-04-22T01:53:11.906269"
   },
   {
-    "id": "8c2dfa318184",
-    "title": "Inventor recalls eye imaging breakthrough",
-    "url": "https://www.technologyreview.com/2026/04/21/1134945/inventor-recalls-eye-imaging-breakthrough/",
+    "id": "3348e376f438",
+    "title": "This tool could show how consciousness works",
+    "url": "https://www.technologyreview.com/2026/04/21/1134862/this-tool-could-show-how-consciousness-works/",
     "source": "MIT Tech Review",
     "lang": "en",
     "priority": 2,
     "published": "2026-04-21T21:00:00",
-    "summary": "If you’ve been to an eye doctor and had an image taken of the inside of your eye, chances are good it was done with optical coherence tomography (OCT)—a technology invented by clinician-scientist David Huang ’85, SM ’89, PhD ’93, and now used in 40 million procedures per year.&#160; OCT is a noninva",
-    "collected_at": "2026-04-22T01:53:12.068700"
+    "summary": "How does the physical matter in our brains translate into thoughts, sensations, and emotions? It’s hard to explore that question without neurosurgery. But in a recent paper, MIT philosopher Matthias Michel, Lincoln Lab researcher Daniel Freeman, and colleagues outline a strategy for doing so with an",
+    "collected_at": "2026-04-22T01:53:12.068359"
   },
   {
     "id": "314fefba7e73",
@@ -157,6 +190,17 @@
     "ai_summary": "调查显示多数美国人担忧AI在选举中的应用，信任危机加剧"
   },
   {
+    "id": "d18fefd2213f",
+    "title": "AI at MIT",
+    "url": "https://www.technologyreview.com/2026/04/21/1134938/ai-at-mit/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "At&#160;MIT, AI has become so pervasive that you can almost find your way into it without meaning to. Take Sili Deng, an associate professor of mechanical engineering. Deng says she still doesn’t know whether she’d have gone all in on artificial intelligence had it not been for the covid pandemic. S",
+    "collected_at": "2026-04-22T01:53:12.068646"
+  },
+  {
     "id": "0c88065d42e6",
     "title": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text",
     "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
@@ -167,6 +211,17 @@
     "summary": "ChatGPT Images 2.0, the newest image generation model from OpenAI, shows just how much AI capabilities have evolved over the last few years.",
     "collected_at": "2026-04-21T19:03:07.999959",
     "ai_summary": "AI领域最新动态：ChatGPT’s new Images 2.0 model"
+  },
+  {
+    "id": "8c2dfa318184",
+    "title": "Inventor recalls eye imaging breakthrough",
+    "url": "https://www.technologyreview.com/2026/04/21/1134945/inventor-recalls-eye-imaging-breakthrough/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T21:00:00",
+    "summary": "If you’ve been to an eye doctor and had an image taken of the inside of your eye, chances are good it was done with optical coherence tomography (OCT)—a technology invented by clinician-scientist David Huang ’85, SM ’89, PhD ’93, and now used in 40 million procedures per year.&#160; OCT is a noninva",
+    "collected_at": "2026-04-22T01:53:12.068700"
   },
   {
     "id": "dfa2e3606ed8",
@@ -235,7 +290,7 @@
     "lang": "en",
     "priority": 1,
     "published": "2026-04-21T17:30:24",
-    "summary": "YouTube is expanding its AI deepfake monitoring feature to Hollywood - meaning some celebrity AI videos could soon disappear. The platform's likeness detection feature searches YouTube for AI deepfake content and flags it for public figures enrolled in the program. Public figures can use it to keep ",
+    "summary": "YouTube is expanding its AI deepfake monitoring feature to Hollywood - meaning some celebrity AI videos could soon disappear. The platform's likeness detection feature searches YouTube for AI deepfake content and flags it for public figures enrolled in the program. Public figures can use it to keep",
     "collected_at": "2026-04-21T19:03:08.055251",
     "title_zh": "YouTube 扩展AI深度伪造检测：名人可主动请求删除伪造视频",
     "ai_summary": "YouTube为名人提供AI深度伪造视频检测和删除请求功能"
@@ -264,19 +319,6 @@
     "collected_at": "2026-04-21T19:03:08.144181",
     "title_zh": "构建 Agent 优先的治理与安全架构",
     "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变"
-  },
-  {
-    "id": "f17ab9e9e109",
-    "title": "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says",
-    "url": "https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-21T17:11:01",
-    "summary": "The photo deletion comes after an FTC settlement with Clarifai. The company had asked OkCupid — whose executives had invested in Clarifai — to share data in 2014, according to court documents.",
-    "collected_at": "2026-04-21T19:03:08.000010",
-    "title_zh": "Clarifai 删除 OkCupid 提供的300万张面部识别训练照片",
-    "ai_summary": "FTC和解后Clarifai删除约会平台提供的面部识别训练数据"
   },
   {
     "id": "1e2f94a62ac7",
@@ -330,15 +372,16 @@
     "ai_summary": "Bond利用AI帮助用户建立线下社交关系，对抗社交媒体孤立"
   },
   {
-    "id": "46a1554c6f32",
-    "title": "前小鹏汽车自动驾驶一号位李力耘出任众擎CTO，加速打造具身大脑",
-    "url": "https://www.qbitai.com/2026/04/404124.html",
-    "source": "量子位",
+    "id": "d5c19f9f7a21",
+    "title": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了",
+    "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
     "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T14:21:13",
-    "summary": "通过将自动驾驶领域成熟的“工业化AI”打法、高效的数据飞轮与极强的工程部署能力引入具身赛道，众擎加速打造原生多模态驱动、大小脑与神经末梢协同的全集成架构。",
-    "collected_at": "2026-04-21T19:00:52.143703"
+    "priority": 3,
+    "published": "2026-04-21T14:14:32",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-21T07:26:30.180995",
+    "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。"
   },
   {
     "id": "2d537bc7c412",
@@ -352,18 +395,6 @@
     "collected_at": "2026-04-21T19:03:08.000070",
     "title_zh": "YouTube AI 肖像检测技术扩展至名人保护",
     "ai_summary": "YouTube将AI深度伪造检测范围扩大到名人肖像保护领域"
-  },
-  {
-    "id": "d5c19f9f7a21",
-    "title": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了",
-    "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm?utm_source=rss&utm_medium=article",
-    "source": "InfoQ AI",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T14:14:32",
-    "summary": "点击查看原文>",
-    "collected_at": "2026-04-21T07:26:30.180995",
-    "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。"
   },
   {
     "id": "ceeac7e45646",
@@ -514,16 +545,16 @@
     "ai_summary": "Claude Code桌面版体验遭吐槽，Anthropic在AI编码工具落地中面临用户体验挑战。"
   },
   {
-    "id": "94e760ec8c27",
-    "title": "A股三大指数集体收涨，中国移动涨超3%",
-    "url": "https://36kr.com/newsflashes/3776231689683718?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T07:01:31",
-    "summary": "36氪获悉，A股三大指数集体收涨，沪指涨0.07%，深成指涨0.1%，创业板指涨0.31%；电信、石油化工、煤炭板块领涨，岳阳兴长涨停，兖矿能源涨超4%，中国移动涨超3%；AI算力、服务器、稳定币概念跌幅居前，英维克跌停，翠微股份跌超4%，寒武纪跌超3%。",
-    "collected_at": "2026-04-21T07:26:28.826212",
-    "ai_summary": "A股三大指数收涨，电信石化煤炭领涨，AI算力概念股逆势下跌。"
+    "id": "20f6e3aa2500",
+    "title": "Less human AI agents, please",
+    "url": "https://nial.se/blog/less-human-ai-agents-please/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T06:58:08",
+    "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 109 # Comments: 121",
+    "collected_at": "2026-04-21T19:03:10.472904",
+    "ai_summary": "AI领域最新动态：Less human AI agents, please"
   },
   {
     "id": "c608c13b9389",
@@ -538,16 +569,16 @@
     "ai_summary": "Opus 4.7发布，Claude Code开发者分享心得：模型升级背后更关键的是开发方式变革。"
   },
   {
-    "id": "20f6e3aa2500",
-    "title": "Less human AI agents, please",
-    "url": "https://nial.se/blog/less-human-ai-agents-please/",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-21T06:58:08",
-    "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 109 # Comments: 121",
-    "collected_at": "2026-04-21T19:03:10.472904",
-    "ai_summary": "AI领域最新动态：Less human AI agents, please"
+    "id": "cdac8ff3a4ae",
+    "title": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
+    "url": "https://www.qbitai.com/2026/04/403859.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T04:54:43",
+    "summary": "当代码可以被生成，程序员还能做些什么？",
+    "collected_at": "2026-04-21T07:24:06.343187",
+    "ai_summary": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。"
   },
   {
     "id": "d49d1f89bfb5",
@@ -562,30 +593,6 @@
     "ai_summary": "AI提效20%却让程序员加班更严重，企业以AI产出衡量生产力引发行业反思。"
   },
   {
-    "id": "bd6ce7c06e11",
-    "title": "理想汽车宣布首发高德汽车出行AI Agent",
-    "url": "https://36kr.com/newsflashes/3776210798199556?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T06:40:16",
-    "summary": "4月20日，理想汽车称，将首发高德汽车出行AI Agent。双方合作内容将包括“精准理解复杂出行指令”“多轮对话灵活调整路线”“定制专属个性化导航方案”“智能规划长途补能路径”等。前一日，高德官方发布一则产品宣传片，对外展示了其在出行场景的主动理解模糊和复杂意图的能力。",
-    "collected_at": "2026-04-21T07:26:28.826288",
-    "ai_summary": "理想汽车与高德合作，将首发汽车出行AI Agent，支持多轮对话和个性化导航。"
-  },
-  {
-    "id": "8dde80975b62",
-    "title": "都让让！赛博女娲蒸馏一切，让乔布斯马斯克集体给你打工",
-    "url": "https://www.qbitai.com/2026/04/403871.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T06:26:50",
-    "summary": "上线一周破万星",
-    "collected_at": "2026-04-21T13:05:15.134534",
-    "ai_summary": "AI蒸馏技术让虚拟名人成为你的AI员工，赛博女娲引发热议"
-  },
-  {
     "id": "8ced0b305398",
     "title": "奇世智能CheeChips完成天使轮融资，专注AI+母婴智能硬件生态｜最前线",
     "url": "https://36kr.com/p/3774891479712514?f=rss",
@@ -596,102 +603,6 @@
     "summary": "专注于AI+母婴智能生态的奇世智能CheeChips正式宣布完成天使轮融资。 本轮资金近半数将被投入技术研发，用于AI模型迭代、新产品原型打磨与专利布局；30%用于引进顶尖人才、扩充研发与运营团队；剩余25%投入市场调研、品牌建设与用户需求挖掘。 奇世智能推出了家用AI模拟全彩胎儿记录仪，这款硬件能够记录全孕期胎儿成长，改变准妈妈们的孕期体验，让孕期不再是母亲一个人的感受，而成为一个能与家人分享的，有意义的、连续的内容。 家用AI模拟全彩胎儿记录仪 该公司目前已规划59款全新品类智能母婴产品，明确各产品硬件与算法技术路线，已完成数款demo原型机开发，正处于产品打磨与迭代优化的阶段。 奇世智能",
     "collected_at": "2026-04-21T07:26:28.824841",
     "ai_summary": "奇世智能完成天使轮融资，专注AI母婴智能硬件生态，资金将用于技术研发与人才引进。"
-  },
-  {
-    "id": "79a51ee8db3f",
-    "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
-    "url": "https://www.qbitai.com/2026/04/403872.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T06:19:22",
-    "summary": "不做Robotaxi，专攻机场的L4公司要IPO了",
-    "collected_at": "2026-04-21T13:05:15.134545",
-    "ai_summary": "自动驾驶公司冲刺港股IPO，机场无人驾驶商业化提速"
-  },
-  {
-    "id": "ebe8ea3b94bc",
-    "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
-    "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
-    "source": "Hacker News AI",
-    "lang": "en",
-    "priority": 2,
-    "published": "2026-04-21T04:12:12",
-    "summary": "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148",
-    "collected_at": "2026-04-21T19:03:10.472927",
-    "ai_summary": "AI领域最新动态：A Roblox cheat and one AI tool"
-  },
-  {
-    "id": "54c89e1d367c",
-    "title": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
-    "url": "https://www.qbitai.com/2026/04/403867.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T04:57:31",
-    "summary": "于3月6日上线并开启小范围封测。",
-    "collected_at": "2026-04-21T07:24:06.343166",
-    "ai_summary": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。"
-  },
-  {
-    "id": "24ccc16920f1",
-    "title": "智能锂电园林公司完成数千万元融资，出货量破万台｜硬氪首发",
-    "url": "https://36kr.com/p/3774707915440897?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T01:31:55",
-    "summary": "作者｜黄楠 编辑｜袁斯来 硬氪获悉，劳尼克斯科技（南京）有限公司（以下简称“劳尼克斯”）近日完成数千万元融资，投资方为苏州天空工场、宜宾高新前沿科技产业基金、翼朴资本。资金将重点投向核心产品研发迭代、人才团队扩容升级，同时全力支撑海外市场的布局拓展与本地化落地。 劳尼克斯核心团队成员来自智能硬件、消费机器人与园林工具等相关领域的头部企业。其产品矩阵涵盖割草机、打草机、修枝机、链锯等多种动力工具，并配套电池包、充电器等电动配件方案，采取20V、40V、60V全电压平台策略，覆盖从中小庭院到高端大宅的全场景需求。 自今年1月大规模出货以来，劳尼克斯产品单月销售额实现连续增长、单月已突破千万元，出货",
-    "collected_at": "2026-04-21T07:26:28.824950",
-    "ai_summary": "智能锂电园林公司完成数千万元融资，出货量破万台，硬氪独家报道。"
-  },
-  {
-    "id": "cdac8ff3a4ae",
-    "title": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
-    "url": "https://www.qbitai.com/2026/04/403859.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T04:54:43",
-    "summary": "当代码可以被生成，程序员还能做些什么？",
-    "collected_at": "2026-04-21T07:24:06.343187",
-    "ai_summary": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。"
-  },
-  {
-    "id": "4556fec8d0f0",
-    "title": "专访Eight Sleep CTO：被马斯克们买爆的AI床垫，进中国先砍一刀订阅费",
-    "url": "https://36kr.com/p/3775892441301511?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T01:17:02",
-    "summary": "作者丨欧雪 编辑丨袁斯来 在海外风行几年，估值破15亿美元后，AI睡眠系统独角兽Eight Sleep终于决定进入中国。 4月，他们在深圳南山INNO100全球创新旗舰店正式发布了售价19999元起的Pod 5智能深眠系统，通过微信小程序、京东、天猫等渠道销售。前所未有地，Eight Sleep为中国普通版用户免除了199美元的软件订阅费——起码在这一点上，Eight Sleep还是很懂得中国市场。 Eight Sleep不是头一天和中国市场打交道。 2015年，Eight Sleep还在开发第一款产品时，CTO Massimo Bassi就频繁往返于深圳和惠州的工厂之间。全球的床垫和消费电子",
-    "collected_at": "2026-04-21T07:26:28.825193",
-    "ai_summary": "Eight Sleep CTO专访：被马斯克追捧的AI床垫进入中国，订阅模式面临本土化挑战。"
-  },
-  {
-    "id": "a40b2dd62b3f",
-    "title": "技术深度揭秘｜云知声U1-OCR架构升级 + API 开放，重构 OCR 3.0 时代",
-    "url": "https://www.qbitai.com/2026/04/403836.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T04:50:16",
-    "summary": "采用Token 计费模式",
-    "collected_at": "2026-04-21T07:24:06.343207",
-    "ai_summary": "云知声发布U1-OCR架构升级方案，采用Token计费模式开放API，推动OCR 3.0技术普及。"
-  },
-  {
-    "id": "aecd58a5aec4",
-    "title": "8点1氪丨库克将不再担任苹果CEO；爱奇艺回应AI艺人库争议：入驻仅代表有接洽意愿；日本修正震级为7.7级",
-    "url": "https://36kr.com/p/3775833331286530?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T00:19:48",
-    "summary": "今日热点导览 美关税退款系统上线 字节跳动2025年海外营收占比创新高，AI投入致公司净利大降70% “五一”临近航班遭取消？航空公司：优先签转，保障旅客顺利成行 贵州茅台盘中股价反超源杰科技，重新成为A股“一哥” TOP 3大新闻 苹果公司宣布特纳斯将接替库克担任CEO 当地时间4月20日，美国苹果公司宣布任命内部高管、长期负责硬件业务的约翰·特纳斯为该公司下一任首席执行官，接替自2011年以来一直执掌公司的蒂姆·库克。苹果公司表示，库克将转任执行董事长。（央视新闻） 爱奇艺：入驻纳逗Pro艺人库仅代表有接洽意愿，具体项目、具体角色需要单独商谈授权 36氪获悉，4月20日，爱奇艺表示有超百名",
-    "collected_at": "2026-04-21T07:26:28.825423",
-    "ai_summary": "库克或将卸任苹果CEO；爱奇艺回应AI艺人库争议；日本地震修正为7.7级。"
   },
   {
     "id": "5d09a2af9cf7",
@@ -706,6 +617,42 @@
     "ai_summary": "天立启鸣AI研究院院长刘志毅入选福布斯中国科创人物，教育AI引领新时代。"
   },
   {
+    "id": "ebe8ea3b94bc",
+    "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+    "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T04:12:12",
+    "summary": "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148",
+    "collected_at": "2026-04-21T19:03:10.472927",
+    "ai_summary": "AI领域最新动态：A Roblox cheat and one AI tool"
+  },
+  {
+    "id": "4556fec8d0f0",
+    "title": "专访Eight Sleep CTO：被马斯克们买爆的AI床垫，进中国先砍一刀订阅费",
+    "url": "https://36kr.com/p/3775892441301511?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-21T01:17:02",
+    "summary": "作者丨欧雪 编辑丨袁斯来 在海外风行几年，估值破15亿美元后，AI睡眠系统独角兽Eight Sleep终于决定进入中国。 4月，他们在深圳南山INNO100全球创新旗舰店正式发布了售价19999元起的Pod 5智能深眠系统，通过微信小程序、京东、天猫等渠道销售。前所未有地，Eight Sleep为中国普通版用户免除了199美元的软件订阅费——起码在这一点上，Eight Sleep还是很懂得中国市场。 Eight Sleep不是头一天和中国市场打交道。 2015年，Eight Sleep还在开发第一款产品时，CTO Massimo Bassi就频繁往返于深圳和惠州的工厂之间。全球的床垫和消费电子",
+    "collected_at": "2026-04-21T07:26:28.825193",
+    "ai_summary": "Eight Sleep CTO专访：被马斯克追捧的AI床垫进入中国，订阅模式面临本土化挑战。"
+  },
+  {
+    "id": "37d1903cea51",
+    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
+    "url": "https://www.qbitai.com/2026/04/403777.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T00:06:39",
+    "summary": "重塑具身世界模型评价方式",
+    "collected_at": "2026-04-21T07:24:06.343275",
+    "ai_summary": "跨维智能DexWorldModel在世界模型榜单登顶，证明机器人执行才是AI真正考场。"
+  },
+  {
     "id": "ad8b96a4b1a5",
     "title": "Anthropic takes $5B from Amazon and pledges $100B in cloud spending in return",
     "url": "https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/",
@@ -716,42 +663,6 @@
     "summary": "Amazon has made another circular AI deal: It's investing another $5 billion in Anthropic. Anthropic has agreed to spend $100 billion on AWS in return.",
     "collected_at": "2026-04-21T00:06:24.320217",
     "ai_summary": "亚马逊再投50亿美元给Anthropic，Anthropic承诺在AWS上消费1000亿美元，形成深度绑定合作。"
-  },
-  {
-    "id": "d8a93848c4e3",
-    "title": "K型分化，如何破局？| 第20届中国投资年会·年度峰会即将启幕",
-    "url": "https://www.qbitai.com/2026/04/403822.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T03:11:15",
-    "summary": "见证行业20年的演进。",
-    "collected_at": "2026-04-21T07:24:06.343239",
-    "ai_summary": "第20届中国投资年会即将启幕，探讨K型经济分化下的产业投资策略与破局之道。"
-  },
-  {
-    "id": "22ed5bdd3a5d",
-    "title": "Google rolls out Gemini in Chrome in 7 new countries",
-    "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-20T22:00:00",
-    "summary": "Google is rolling out Gemini in Chrome in Australia, Indonesia, Japan, the Philippines, Singapore, South Korea, and Vietnam. The company is rolling this feature out to both desktop and iOS in all of these countries except Japan.",
-    "collected_at": "2026-04-21T00:06:24.320234",
-    "ai_summary": "谷歌将Gemini AI功能扩展至Chrome浏览器，在亚太七国桌面和iOS端同步上线。"
-  },
-  {
-    "id": "a7590acd3d7b",
-    "title": "这次，库克真的要卸任苹果CEO了！",
-    "url": "https://www.qbitai.com/2026/04/403790.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T00:14:04",
-    "summary": "库克公开告别信出炉",
-    "collected_at": "2026-04-21T07:24:06.343254",
-    "ai_summary": "苹果CEO库克或将卸任，标志着这家科技巨头可能迎来管理层重大变动。"
   },
   {
     "id": "e751673f562b",
@@ -766,16 +677,16 @@
     "ai_summary": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。"
   },
   {
-    "id": "37d1903cea51",
-    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
-    "url": "https://www.qbitai.com/2026/04/403777.html",
-    "source": "量子位",
-    "lang": "zh",
+    "id": "22ed5bdd3a5d",
+    "title": "Google rolls out Gemini in Chrome in 7 new countries",
+    "url": "https://techcrunch.com/2026/04/20/google-rolls-out-gemini-in-chrome-in-seven-new-countries/",
+    "source": "TechCrunch AI",
+    "lang": "en",
     "priority": 1,
-    "published": "2026-04-21T00:06:39",
-    "summary": "重塑具身世界模型评价方式",
-    "collected_at": "2026-04-21T07:24:06.343275",
-    "ai_summary": "跨维智能DexWorldModel在世界模型榜单登顶，证明机器人执行才是AI真正考场。"
+    "published": "2026-04-20T22:00:00",
+    "summary": "Google is rolling out Gemini in Chrome in Australia, Indonesia, Japan, the Philippines, Singapore, South Korea, and Vietnam. The company is rolling this feature out to both desktop and iOS in all of these countries except Japan.",
+    "collected_at": "2026-04-21T00:06:24.320234",
+    "ai_summary": "谷歌将Gemini AI功能扩展至Chrome浏览器，在亚太七国桌面和iOS端同步上线。"
   },
   {
     "id": "aa46eaab1fd5",
@@ -922,17 +833,6 @@
     "ai_summary": "AI领域最新动态：Show HN: Mediator.ai – Using N"
   },
   {
-    "id": "927f0bedcd28",
-    "title": "鸿蒙智行全新一代问界 M9 汽车官宣行业首发双百万像素全彩智慧投影大灯、一镜双投影院等配置",
-    "url": "https://www.ithome.com/0/941/365.htm",
-    "source": "IT之家",
-    "lang": "zh",
-    "published": "2026-04-20T14:25:00",
-    "summary": "IT之家 4 月 20 日消息，鸿蒙智行 AITO 汽车官方微博刚刚宣布，全新一代问界 M9 系列汽车行业首发双百万像素全彩智慧投影大灯、手握祥云创新门把手设计、创新一镜双投影院等配置。双百万像素全彩智慧投影大灯<img class=\"no-alt-img\" src=\"https://img.ithome",
-    "collected_at": "2026-04-20T14:48:39.625262",
-    "ai_summary": "问界M9汽车官宣行业首发双百万像素全彩智慧投影大灯等新配置。"
-  },
-  {
     "id": "82ff13b62a37",
     "title": "氪星晚报 ｜华为发布首款鸿蒙AI眼镜；天齐锂业：一季度净利润同比预增1530.31%—1818.01%",
     "url": "https://36kr.com/p/3775059219792648?f=rss",
@@ -1002,17 +902,6 @@
     "ai_summary": "JiuwenClaw开启「协调工程」时代，实现多Agent智能体协同工作的新范式。"
   },
   {
-    "id": "fa8cabe8b813",
-    "title": "美股大型科技股盘前普跌，英特尔跌超1%",
-    "url": "https://36kr.com/newsflashes/3775158077014790?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:49:23",
-    "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，英特尔跌超1%，Meta跌0.74%，英伟达跌0.64%，谷歌跌0.6%，亚马逊跌0.58%，微软跌0.46%，特斯拉跌0.23%，苹果跌0.08%，奈飞跌0.07%。",
-    "collected_at": "2026-04-20T14:21:35.406251",
-    "ai_summary": "美股大型科技股盘前普跌，英特尔跌超1%。"
-  },
-  {
     "id": "aa6cf6a09f1c",
     "title": "华硕 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本：5GHz 5T5R 天线设计，1399 元",
     "url": "https://www.ithome.com/0/941/336.htm",
@@ -1022,17 +911,6 @@
     "summary": "IT之家 4 月 20 日消息，华硕现已为其 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本，定价为 1399 元，首单补贴后到手价低至 1115 元，4 月 27 日首销。<img src=\"https://img.ithome.com/newsuploadfiles/2026",
     "collected_at": "2026-04-20T14:21:35.059911",
     "ai_summary": "华硕ROG魔盒Air Wi-Fi 7路由器新增黑色版本，定价1399元。"
-  },
-  {
-    "id": "3aa502a817b6",
-    "title": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资",
-    "url": "https://36kr.com/newsflashes/3775144569029380?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T12:35:38",
-    "summary": "36氪获悉，4月20日下午，广东省委财经委员会召开会议。会议指出，投资对经济增长起关键作用，做好当前和今后一个时期的经济工作，稳投资要继续加力。重大项目是稳投资、优结构的重要载体，要强化走在前、作示范、挑大梁的责任担当，树立大抓项目促发展的鲜明导向，把重大项目的储备布局建设牢牢抓在手上，加快见效成势，更好牵引带动投资回稳向好。要谋深做实基础设施项目，系统推进交通、能源、水利等重点项目建设，推动已纳",
-    "collected_at": "2026-04-20T14:21:35.406258",
-    "ai_summary": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资。"
   },
   {
     "id": "87eef7e7813a",
@@ -1080,16 +958,16 @@
     "ai_summary": "Colossal Biosciences said it c。"
   },
   {
-    "id": "382a2bac3946",
-    "title": "英特尔：CPU的痛就像送外卖",
-    "url": "https://www.qbitai.com/2026/04/403757.html",
+    "id": "a385b3878d2c",
+    "title": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
+    "url": "https://www.qbitai.com/2026/04/403753.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-20T09:50:21",
-    "summary": "发布AI高静本Plus",
-    "collected_at": "2026-04-21T00:04:56.901778",
-    "ai_summary": "英特尔发布AI高静本Plus，用「外卖」比喻CPU性能瓶颈，强调静音与算力兼顾。"
+    "published": "2026-04-20T09:33:35",
+    "summary": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
+    "collected_at": "2026-04-21T00:04:56.901784",
+    "ai_summary": "ATEC2026发起具身智能「图灵测试」，用真实场景检验机器人在复杂环境中的表现。"
   },
   {
     "id": "seed-2",
@@ -1103,18 +981,6 @@
     "ai_summary": "Cursor Pro 发布新版 AI 编程功能。"
   },
   {
-    "id": "a385b3878d2c",
-    "title": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
-    "url": "https://www.qbitai.com/2026/04/403753.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-20T09:33:35",
-    "summary": "谁能通过真实世界考验？ATEC2026发起具身智能“图灵测试”",
-    "collected_at": "2026-04-21T00:04:56.901784",
-    "ai_summary": "ATEC2026发起具身智能「图灵测试」，用真实场景检验机器人在复杂环境中的表现。"
-  },
-  {
     "id": "c85e7467381d",
     "title": "Chinese tech workers are starting to train their AI doubles–and pushing back",
     "url": "https://www.technologyreview.com/2026/04/20/1136149/chinese-tech-workers-ai-colleagues/",
@@ -1124,29 +990,6 @@
     "summary": "Tech workers in China are being instructed by their bosses to train AI agents to replace them—and it’s prompting a wave of soul-searching among otherwise enthusiastic early adopters.&#160; Earlier thi",
     "collected_at": "2026-04-20T14:21:48.707741",
     "ai_summary": "Chinese tech workers are start。"
-  },
-  {
-    "id": "5664902bd462",
-    "title": "阿里发布Wan2.7-Image，人类偏好盲测评分国内第一",
-    "url": "https://www.qbitai.com/2026/04/403733.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-20T08:59:05",
-    "summary": "实现 \" 千人千面 \"",
-    "collected_at": "2026-04-21T00:04:56.901794",
-    "ai_summary": "阿里发布Wan2.7-Image图像模型，人类偏好盲测评分国内第一，支持千人千面个性化生成。"
-  },
-  {
-    "id": "seed-3",
-    "title": "Ollama 支持运行 DeepSeek-V3 本地推理",
-    "url": "https://github.com/ollama/ollama",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-20T08:00:00",
-    "summary": "Ollama adds DeepSeek-V3 support",
-    "collected_at": "2026-04-20T14:00:00",
-    "ai_summary": "Ollama 支持运行 DeepSeek-V3 本地推理。"
   },
   {
     "id": "e6bf44917bf9",
@@ -1161,16 +1004,15 @@
     "ai_summary": "国内三大AI平台集成支付宝支付Skill，小白开发者也能快速实现商业化变现。"
   },
   {
-    "id": "73d6010bd37a",
-    "title": "灵光把手搓应用做成「朋友圈」，一人应用时代来了",
-    "url": "https://36kr.com/p/3774865386144519?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-20T07:56:00",
-    "summary": "最近，你的朋友圈被SBTI测试刷屏了吗？ 某天深夜，微信突然被一串串神秘代码占据。“装死者”、“送钱者”、“伪人”、“吗喽”，大家纷纷晒起自己开出的奇葩人格，朋友圈更是被晒“SEXY尤物”的截图刷了屏。 而真相是，这个突然爆火的小测试不是什么大厂有预谋的营销，只是一位03年女孩用四五天时间手搓出来的小应用——创作者@Q肉儿串儿（B站ID）学的是金融，和编程完全不沾边，她搓这个小应用的初衷,只是为了通过一套整活的人格测试，劝她那嗜酒如命的朋友戒酒。 时代变了，年轻人搞抽象的媒介正在迭代。过去是发疯文学、表情包或短视频，如今，在AI抹平技术门槛、0代码基础也能手搓应用的时代，“手搓应用”成了年轻人",
-    "collected_at": "2026-04-21T07:26:28.826019",
-    "ai_summary": "「灵光」平台将应用开发做成社交分享模式，推动一人应用时代到来。"
+    "id": "seed-3",
+    "title": "Ollama 支持运行 DeepSeek-V3 本地推理",
+    "url": "https://github.com/ollama/ollama",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-20T08:00:00",
+    "summary": "Ollama adds DeepSeek-V3 support",
+    "collected_at": "2026-04-20T14:00:00",
+    "ai_summary": "Ollama 支持运行 DeepSeek-V3 本地推理。"
   },
   {
     "id": "f1b1218a0edf",
@@ -1185,15 +1027,16 @@
     "ai_summary": "22岁开发者逆向工程开源Mythos架构，融合MoE与注意力机制借鉴DeepSeek。"
   },
   {
-    "id": "seed-5",
-    "title": "国产大模型 API 价格战：谁是性价比之王？",
-    "url": "https://36kr.com",
+    "id": "73d6010bd37a",
+    "title": "灵光把手搓应用做成「朋友圈」，一人应用时代来了",
+    "url": "https://36kr.com/p/3774865386144519?f=rss",
     "source": "36氪",
     "lang": "zh",
-    "published": "2026-04-20T06:00:00",
-    "summary": "国内大模型价格对比分析",
-    "collected_at": "2026-04-20T14:00:00",
-    "ai_summary": "国产大模型 API 价格战：谁是性价比之王？。"
+    "priority": 3,
+    "published": "2026-04-20T07:56:00",
+    "summary": "最近，你的朋友圈被SBTI测试刷屏了吗？ 某天深夜，微信突然被一串串神秘代码占据。“装死者”、“送钱者”、“伪人”、“吗喽”，大家纷纷晒起自己开出的奇葩人格，朋友圈更是被晒“SEXY尤物”的截图刷了屏。 而真相是，这个突然爆火的小测试不是什么大厂有预谋的营销，只是一位03年女孩用四五天时间手搓出来的小应用——创作者@Q肉儿串儿（B站ID）学的是金融，和编程完全不沾边，她搓这个小应用的初衷,只是为了通过一套整活的人格测试，劝她那嗜酒如命的朋友戒酒。 时代变了，年轻人搞抽象的媒介正在迭代。过去是发疯文学、表情包或短视频，如今，在AI抹平技术门槛、0代码基础也能手搓应用的时代，“手搓应用”成了年轻人",
+    "collected_at": "2026-04-21T07:26:28.826019",
+    "ai_summary": "「灵光」平台将应用开发做成社交分享模式，推动一人应用时代到来。"
   },
   {
     "id": "70f60a2ea010",
@@ -1208,38 +1051,15 @@
     "ai_summary": "全球最大规模含触觉全模态数据集Daimon Infinit发布，吸引谷歌及多所高校参与。"
   },
   {
-    "id": "2114c02a3b14",
-    "title": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线",
-    "url": "https://36kr.com/p/3774625128481539?f=rss",
+    "id": "seed-5",
+    "title": "国产大模型 API 价格战：谁是性价比之王？",
+    "url": "https://36kr.com",
     "source": "36氪",
     "lang": "zh",
-    "published": "2026-04-20T05:53:44",
-    "summary": "在护发市场逐步从“修饰效果”转向“长期修护”的背景下，近日，雅诗兰黛集团（Estée Lauder Companies）旗下护发品牌艾梵达（Aveda）在上海研发中心发布以“微酵科技”为核心的新一轮产品与技术方向，并借此强化其在高端沙龙护发赛道的差异化定位。 此次对外展示围绕一款名为“奇迹水光油”（Miraculous Oil High-Shine Hair Concent",
-    "collected_at": "2026-04-20T14:21:35.406225",
-    "ai_summary": "艾梵达Aveda押注“微酵护发”，雅诗兰黛集团加码高端护发赛道｜最前线。"
-  },
-  {
-    "id": "810c2798ad98",
-    "title": "20亿美金苏度科技具身首秀即大招！0真机数据，zero-shot，跑出98%首次抓取成功率",
-    "url": "https://www.qbitai.com/2026/04/403543.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-20T05:34:32",
-    "summary": "苏度发布具身模型#Sudo R1",
-    "collected_at": "2026-04-21T00:04:56.901828",
-    "ai_summary": "苏度科技发布具身模型Sudo R1，零真机数据训练实现98%首次抓取成功率。"
-  },
-  {
-    "id": "fb6de9fb193e",
-    "title": "36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具品牌获数千万元融资",
-    "url": "https://36kr.com/p/3774692365206280?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "published": "2026-04-20T04:56:41",
-    "summary": "作者 | 乔钰杰 编辑 | 袁斯来 硬氪获悉，北京灵机天赐科技有限责任公司（下称“灵机天赐”）于过去一年内完成两轮数千万元人民币融资，天使轮由德联资本领投，小恐龙基金和瑞昇基金跟投，Pre-A轮由Implic Capital领投，两轮融资均由探奇资本担任公司独家财务顾问。 灵机天赐CEO杨冰长期从事",
-    "collected_at": "2026-04-20T14:21:35.406229",
-    "ai_summary": "36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具。"
+    "published": "2026-04-20T06:00:00",
+    "summary": "国内大模型价格对比分析",
+    "collected_at": "2026-04-20T14:00:00",
+    "ai_summary": "国产大模型 API 价格战：谁是性价比之王？。"
   },
   {
     "id": "1b369ae19455",
@@ -1310,15 +1130,15 @@
     "ai_summary": "Kimi新论文将KVCache机制商业化，为超长上下文推理开辟新商业模式。"
   },
   {
-    "id": "07e3823e1999",
-    "title": "Palantir posts mini-manifesto denouncing inclusivity and ‘regressive’ cultures",
-    "url": "https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/",
+    "id": "3217ffdbbdca",
+    "title": "TechCrunch Mobility: Uber enters its assetmaxxing era",
+    "url": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-19T16:30:00",
-    "summary": "Palantir's ideological bent has come under more scrutiny as it's worked with ICE and positioned itself as a defender of \"the West.\"",
-    "collected_at": "2026-04-20T14:21:41.906151",
-    "ai_summary": "Palantir posts mini-manifesto denouncing。"
+    "published": "2026-04-19T16:01:00",
+    "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
+    "collected_at": "2026-04-20T14:21:41.906155",
+    "ai_summary": "TechCrunch Mobility: Uber enters its ass。"
   },
   {
     "id": "34dec81faeb4",
@@ -1333,17 +1153,6 @@
     "ai_summary": "高德发布全栈具身技术体系，横扫15项SOTA，面向AGI布局机器人基础设施。"
   },
   {
-    "id": "3217ffdbbdca",
-    "title": "TechCrunch Mobility: Uber enters its assetmaxxing era",
-    "url": "https://techcrunch.com/2026/04/19/techcrunch-mobility-uber-enters-its-assetmaxxing-era/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-19T16:01:00",
-    "summary": "Welcome back to TechCrunch Mobility, your hub for the future of transportation and now, more than ever, how AI is playing a part.",
-    "collected_at": "2026-04-20T14:21:41.906155",
-    "ai_summary": "TechCrunch Mobility: Uber enters its ass。"
-  },
-  {
     "id": "8bc307ae958c",
     "title": "The RAM shortage could last years",
     "url": "https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years",
@@ -1353,28 +1162,6 @@
     "summary": "According to Nikkei Asia, even as suppliers ramp up DRAM production, manufacturers are only expected to meet 60 percent of demand by the end of 2027. SK Group chairman has even said that shortages cou",
     "collected_at": "2026-04-20T14:21:47.960880",
     "ai_summary": "The RAM shortage could last years。"
-  },
-  {
-    "id": "31e6d9ab3cdd",
-    "title": "Tesla brings its robotaxi service to Dallas and Houston",
-    "url": "https://techcrunch.com/2026/04/18/tesla-brings-its-robotaxi-service-to-dallas-and-houston/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-18T21:37:15",
-    "summary": "The company now offers robotaxi service in three cities, all of them in Texas, after launching in Austin last year and starting to offer rides without safety drivers in January 2026.",
-    "collected_at": "2026-04-20T14:21:41.906158",
-    "ai_summary": "Tesla brings its robotaxi service to Dal。"
-  },
-  {
-    "id": "2a7a2a6a52b2",
-    "title": "OpenAI’s former Sora boss is leaving",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
-    "source": "The Verge AI",
-    "lang": "en",
-    "published": "2026-04-17T21:13:25",
-    "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as",
-    "collected_at": "2026-04-20T14:21:47.960885",
-    "ai_summary": "OpenAI’s former Sora boss is l。"
   },
   {
     "id": "64b801fb6aaa",
@@ -1388,15 +1175,15 @@
     "ai_summary": "AI chip startup Cerebras files。"
   },
   {
-    "id": "caee19127fda",
-    "title": "Should you stare into Sam Altman&#8217;s orb before your next date?",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/914385/world-id-tinder-identity-verifying-orb",
+    "id": "2a7a2a6a52b2",
+    "title": "OpenAI’s former Sora boss is leaving",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing",
     "source": "The Verge AI",
     "lang": "en",
-    "published": "2026-04-17T20:42:47",
-    "summary": "Tinder users who prove they're a real person by visiting an identity-verifying orb will soon be able to get five free boosts in the app - and it's just the latest service to embrace the orb. World, wh",
-    "collected_at": "2026-04-20T14:21:47.960890",
-    "ai_summary": "Should you stare into Sam Altman&#8217;s。"
+    "published": "2026-04-17T21:13:25",
+    "summary": "Last month, OpenAI gave up on its Sora video generation tool, and on Friday, the Sora team's leader, Bill Peebles, announced that he is leaving the company. OpenAI has been shifting its priorities as",
+    "collected_at": "2026-04-20T14:21:47.960885",
+    "ai_summary": "OpenAI’s former Sora boss is l。"
   },
   {
     "id": "bd8a430d3e86",
@@ -1432,28 +1219,6 @@
     "ai_summary": "The App Store is booming again。"
   },
   {
-    "id": "378b2eab7e1e",
-    "title": "This charming gadget writes bad AI poetry",
-    "url": "https://www.theverge.com/gadgets/913981/poetry-camera-ai-hands-on",
-    "source": "The Verge AI",
-    "lang": "en",
-    "published": "2026-04-17T17:30:00",
-    "summary": "I've never been as charmed and frustrated by one gadget as I have with the Poetry Camera. It's a delightful object. White and cherry red with a color-matched woven strap, it looks playful and adorably",
-    "collected_at": "2026-04-20T14:21:47.960899",
-    "ai_summary": "This charming gadget writes ba。"
-  },
-  {
-    "id": "bcf8911a707f",
-    "title": "Sam Altman’s project World looks to scale its human verification empire. First stop: Tinder.",
-    "url": "https://techcrunch.com/2026/04/17/sam-altmans-project-world-looks-to-scale-its-human-verification-empire-first-stop-tinder/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-17T22:34:02",
-    "summary": "World, which has raised eyebrows (but also a lot of interest) with its Orb-centered anonymous verification project, is looking to expand its influence via a bevy of new partnerships.",
-    "collected_at": "2026-04-20T14:21:41.906174",
-    "ai_summary": "Sam Altman’s project World looks to scal。"
-  },
-  {
     "id": "4ef79fe76929",
     "title": "Dairy Queen is putting an AI chatbot in its drive-thrus",
     "url": "https://www.theverge.com/ai-artificial-intelligence/913928/dairy-queen-ai-drive-thru-presto",
@@ -1476,28 +1241,6 @@
     "ai_summary": "Kevin Weil and Bill Peebles ex。"
   },
   {
-    "id": "a0c80801fcb9",
-    "title": "The ‘AI is inevitable’ trap",
-    "url": "https://www.theverge.com/podcast/913792/ai-divide-sam-altman-vergecast",
-    "source": "The Verge AI",
-    "lang": "en",
-    "published": "2026-04-17T13:24:34",
-    "summary": "In the latest sign of AI silly season, Allbirds, the shoe company, told the world it was now an AI company and briefly managed to septuple its stock price. The Newbird AI story is really just one of a",
-    "collected_at": "2026-04-20T14:21:47.960907",
-    "ai_summary": "The ‘AI is inevitable’ trap。"
-  },
-  {
-    "id": "18d30f5d748d",
-    "title": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges",
-    "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
-    "source": "TechCrunch AI",
-    "lang": "en",
-    "published": "2026-04-17T19:17:26",
-    "summary": "Returning backers a16z and Thrive are expected to lead the round.",
-    "collected_at": "2026-04-20T14:21:41.906181",
-    "ai_summary": "Sources: Cursor in talks to ra。"
-  },
-  {
     "id": "d6c4b0ae6bd9",
     "title": "The Download: bad news for inner Neanderthals, and AI warfare’s human illusion",
     "url": "https://www.technologyreview.com/2026/04/17/1136112/the-download-inner-neanderthal-ai-war-human-in-the-loop/",
@@ -1509,15 +1252,15 @@
     "ai_summary": "The Download: bad news for inn。"
   },
   {
-    "id": "573fe90601e9",
-    "title": "‘Tokenmaxxing’ is making developers less productive than they think",
-    "url": "https://techcrunch.com/2026/04/17/tokenmaxxing-is-making-developers-less-productive-than-they-think/",
+    "id": "18d30f5d748d",
+    "title": "Sources: Cursor in talks to raise $2B+ at $50B valuation as enterprise growth surges",
+    "url": "https://techcrunch.com/2026/04/17/sources-cursor-in-talks-to-raise-2b-at-50b-valuation-as-enterprise-growth-surges/",
     "source": "TechCrunch AI",
     "lang": "en",
-    "published": "2026-04-17T18:42:45",
-    "summary": "There's a lot more code — but it's a lot more expensive and requires a lot more rewriting.",
-    "collected_at": "2026-04-20T14:21:41.906185",
-    "ai_summary": "‘Tokenmaxxing’ is making developers less。"
+    "published": "2026-04-17T19:17:26",
+    "summary": "Returning backers a16z and Thrive are expected to lead the round.",
+    "collected_at": "2026-04-20T14:21:41.906181",
+    "ai_summary": "Sources: Cursor in talks to ra。"
   },
   {
     "id": "538b46a49af4",
@@ -1972,18 +1715,6 @@
     "collected_at": "2026-04-20T14:21:50.873872",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "ai_summary": "Contra Wirecutter on the IKEA 。"
-  },
-  {
-    "id": "hn-21408178",
-    "title": "I Accidentally Uncovered a Nationwide Scam on Airbnb",
-    "url": "https://www.vice.com/en_us/article/43k7z3/nationwide-fake-host-scam-on-airbnb",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2019-10-31T12:56:56Z",
-    "points": 1324,
-    "collected_at": "2026-04-20T14:21:50.873880",
-    "summary": "I Accidentally Uncovered a Nationwide Scam on Airbnb",
-    "ai_summary": "I Accidentally Uncovered a Nat。"
   },
   {
     "id": "hn-18249755",

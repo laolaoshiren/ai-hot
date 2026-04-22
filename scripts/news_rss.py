@@ -52,7 +52,7 @@ NON_AI_KEYWORDS = [
     "娱乐", "明星", "八卦", "综艺", "电影",
     "时尚", "服装", "穿搭", "潮流",
     "感染", "肠胃", "胃肠", "蛋白质", "肿瘤", "癌症", "细胞治疗", "疫苗",
-    "约会", "Tinder", "Airbnb", "诗歌相机", "Poetry Camera", "鞋公司", "Allbirds",
+    "约会", "Tinder", "Airbnb", "诗歌相机", "Poetry Camera", "鞋公司", "Allbirds", "OkCupid",
     # 财经新闻
     "A股", "B股", "港股", "美股", "股市", "涨跌", "涨幅", "跌幅",
     "沪指", "深成指", "创业板指", "三大指数", "集体收涨", "集体收跌",
@@ -183,20 +183,44 @@ def collect_rss_news():
     existing_ids = {n["id"] for n in existing}
     new_items = [n for n in all_news if n["id"] not in existing_ids]
 
-    # 合并
-    combined = existing + new_items
+    # 合并后重新按最新规则清洗一次，避免旧脏数据残留
+    combined = []
+    seen_ids = set()
+    source_map = {s["name"]: s for s in RSS_SOURCES}
+    recleaned_count = 0
+
+    for item in existing + new_items:
+        if item.get("id") in seen_ids:
+            continue
+        title = strip_html(item.get("title", ""))
+        summary = strip_html(item.get("summary", ""))
+        source_conf = source_map.get(item.get("source"), {"ai_only": False})
+        if not is_ai_related(title, summary, source_conf):
+            recleaned_count += 1
+            continue
+        item["title"] = title
+        item["summary"] = summary
+        combined.append(item)
+        seen_ids.add(item.get("id"))
 
     # 按发布时间排序，中文优先
     combined.sort(key=lambda x: (
-        0 if x.get("lang") == "zh" else 1,  # 中文优先
-        x.get("published") or ""  # 时间倒序
+        0 if x.get("lang") == "zh" else 1,
+        x.get("published") or ""
     ), reverse=False)
     combined.sort(key=lambda x: x.get("published") or "", reverse=True)
 
     # 保留最近3天的
     combined = combined[:300]
 
+    if recleaned_count > 0:
+        print(f"  🧹 依据新规则额外清理 {recleaned_count} 条旧脏新闻")
+
     with open(news_path, "w", encoding="utf-8") as f:
         json.dump(combined, f, ensure_ascii=False, indent=2)
 
     return f"{len(new_items)} 条新新闻 (总计 {len(combined)})"
+
+
+if __name__ == "__main__":
+    print(collect_rss_news())

@@ -46,12 +46,18 @@ CURATED_ITEMS = [
     # 图像生成
     {'category': 'image', 'source': 'openrouter', 'id': 'openai/gpt-5.4-image-2', 'label': '最新 GPT 图像', 'why': '最新一代 GPT 图像模型，文字渲染和综合生成能力都很强'},
     {'category': 'image', 'source': 'openrouter', 'id': 'openai/gpt-5-image', 'label': 'GPT Image 主力', 'why': 'OpenAI 图像生成主力模型，模型页不该缺席'},
-    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.2-dev', 'label': '最新旗舰', 'why': 'Black Forest Labs 新一代主力生图模型，比 FLUX.1 更该被放在前面'},
+    {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-dev', 'label': '开源生图旗舰', 'why': 'FLUX.1-dev 仍是国内用户最熟、最常用的一线开源生图主力'},
     {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev', 'label': '编辑工作流主力', 'why': 'Kontext 系列更贴近当前图像编辑与工作流场景，实用性高'},
+    {'category': 'image', 'source': 'manual', 'name': 'Gemini 3 Pro Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3-pro-image-preview', 'freshness': '2026-04-22', 'badge': '谷歌图像新主力', 'why': 'Google 最新图像生成方向主力，国内用户视角不能缺这条线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
+    {'category': 'image', 'source': 'manual', 'name': 'Gemini 3.1 Flash Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3.1-flash-image-preview', 'freshness': '2026-04-22', 'badge': '轻量图像快模', 'why': '适合轻量快速出图与产品化场景，是当前值得关注的新线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
 
     # 视频生成
     {'category': 'video', 'source': 'manual', 'name': 'Seedance 2.0', 'provider': 'ByteDance Seed', 'url': 'https://seed.bytedance.com/en/seedance2_0', 'freshness': '2026-04-22', 'badge': '最新视频王炸', 'why': '字节最新视频模型，当前就该放进视频主榜', 'meta': '官方发布', 'tags': ['视频生成', '原生音频']},
+    {'category': 'video', 'source': 'manual', 'name': 'Kling AI', 'provider': '快手可灵', 'url': 'https://app.klingai.com/global/', 'freshness': '2026-04-22', 'badge': '国内视频主力', 'why': '国内用户实际使用面很大，视频生成主榜必须有可灵', 'meta': '官网可用', 'tags': ['视频生成']},
+    {'category': 'video', 'source': 'manual', 'name': 'Runway Gen-4', 'provider': 'Runway', 'url': 'https://runwayml.com/research/introducing-gen-4/', 'freshness': '2026-04-22', 'badge': '国际视频主力', 'why': '国际视频生成标杆之一，行业心智很强', 'meta': '官方发布', 'tags': ['视频生成']},
     {'category': 'video', 'source': 'huggingface', 'url': 'https://huggingface.co/Lightricks/LTX-2.3', 'label': '视频生成新锐', 'why': '视频方向里热度较高，值得盯着看'},
+
+    # 开源旗舰
 
     # 开源旗舰
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen2.5-72B-Instruct', 'label': '开源通用王者', 'why': '采用广、能力稳、社区影响力大'},

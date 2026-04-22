@@ -208,10 +208,11 @@
 {{ else if in $slug "/providers/" }}
 <div class="card">
     <div class="card-title">🏢 AI 提供商 <span class="hot-badge">{{ len site.Data.providers }} 家</span></div>
-    <div class="hot-meta" style="margin-bottom:16px">区分“模型作者型提供商”和“平台/聚合型提供商”，避免把平台误写成某个模型作者。</div>
+    <div class="hot-meta" style="margin-bottom:16px">按国内用户视角拆成两类：看作者页时关注“最近发了什么模型”，看平台页时关注“能接什么、覆盖什么场景”。</div>
 
     <div class="card" style="padding:16px;margin-bottom:16px;background:var(--bg3)">
         <div class="card-title">🧠 模型作者型提供商</div>
+        <div class="hot-meta" style="margin-bottom:12px">重点看这家最近上新了什么模型、是否还在一线、覆盖哪些模态。</div>
         <div class="tools-grid">
             {{ range where site.Data.providers "provider_kind" "model_author" }}
             <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
@@ -247,6 +248,7 @@
 
     <div class="card" style="padding:16px;margin-bottom:0;background:var(--bg3)">
         <div class="card-title">🏗️ 平台 / 聚合型提供商</div>
+        <div class="hot-meta" style="margin-bottom:12px">重点看可调用能力、接入生态和适合什么场景，不把它误当成单一模型作者。</div>
         <div class="tools-grid">
             {{ range where site.Data.providers "provider_kind" "platform" }}
             <a href="{{ .url }}" target="_blank" class="tool-card" style="text-decoration:none;color:inherit">
@@ -259,7 +261,13 @@
                     </div>
                 </div>
                 <div class="tool-desc">{{ with .live_summary }}{{ . }}{{ else }}{{ .pricing }}{{ end }}</div>
-                {{ if .models }}
+                {{ if .latest_models }}
+                <div class="tool-tags" style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px">
+                    {{ range first 3 .latest_models }}
+                    <span class="tool-tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+                {{ else if .models }}
                 <div class="tool-tags" style="margin-top:10px;display:flex;flex-wrap:wrap;gap:6px">
                     {{ range first 3 .models }}
                     <span class="tool-tag">{{ . }}</span>
@@ -269,7 +277,9 @@
                 <div class="tool-footer" style="margin-top:12px;align-items:flex-start;gap:8px;flex-direction:column">
                     <div class="tool-tags">
                         <span class="tool-tag free">平台 / 聚合</span>
-                        <span class="tool-tag">站内整理</span>
+                        <span class="tool-tag">接入能力视角</span>
+                        {{ if .api }}<span class="tool-tag">API</span>{{ end }}
+                        {{ if .free_tier }}<span class="tool-tag">免费层</span>{{ end }}
                     </div>
                     <div class="tool-price">💰 {{ .pricing }}</div>
                 </div>

@@ -34,7 +34,10 @@ PROVIDER_PREFIX_MAP = {
 }
 
 PLATFORM_IDS = {'aws-bedrock', 'azure-openai', 'together', 'groq', 'siliconflow', 'volcengine', 'openrouter'}
-MODEL_AUTHOR_IDS = {'openai', 'anthropic', 'google', 'deepseek', 'alibaba', 'baidu', 'bytedance', 'tencent', 'moonshot', 'zhipu', 'minimax', 'mistral', 'meta', 'xai', 'nvidia'}
+MODEL_AUTHOR_IDS = {
+    'openai', 'anthropic', 'google', 'deepseek', 'alibaba', 'baidu', 'bytedance',
+    'tencent', 'moonshot', 'zhipu', 'minimax', 'mistral', 'meta', 'xai', 'nvidia'
+}
 
 
 def fetch_openrouter_models():
