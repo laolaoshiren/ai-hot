@@ -1,160 +1,622 @@
 {
-  "updated_at": "2026-04-22T06:15:00",
+  "updated_at": "2026-04-22T10:07:40",
   "generated_by": "hermes_ai",
   "items": [
     {
       "rank": 1,
-      "title": "🎨 Anthropic 发布 Claude Design：一句话生成完整 UI",
-      "subtitle": "Anthropic 推出 Claude Design 功能，用户只需自然语言描述即可自动生成高保真 UI 设计稿，挑战 Figma 等传统设计工具",
-      "url": "https://www.infoq.cn/article/TH0QVHpvVGZ7VP3hAEmm",
+      "title": "🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升",
+      "subtitle": "ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "10小时前",
-      "tags": ["重磅", "新功能"]
+      "source": "TechCrunch",
+      "time": "5小时前",
+      "tags": [
+        "重磅",
+        "图像生成",
+        "OpenAI"
+      ]
     },
     {
       "rank": 2,
-      "title": "💻 Claude Code GitHub 破 11.6 万星：终端里的 AI 编码搭档",
-      "subtitle": "Anthropic 官方终端编码工具，理解代码库、执行常规任务、处理 Git 工作流，用自然语言加速开发",
-      "url": "https://github.com/anthropics/claude-code",
-      "type": "project",
-      "source": "GitHub",
-      "time": "持续更新",
-      "tags": ["热门项目", "Agent"]
-    },
-    {
-      "rank": 3,
-      "title": "🧠 Opus 4.7 正式发布：Claude Code 之父分享模型使用心法",
-      "subtitle": "Anthropic 最新旗舰模型 Opus 4.7 上线，Claude Code 开发者分享实战心得：模型升级只是开始，开发方式才是关键",
-      "url": "https://www.infoq.cn/article/YWH4w3Y4fstITE34RFUa",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "21小时前",
-      "tags": ["新模型", "深度"]
-    },
-    {
-      "rank": 4,
-      "title": "🔧 Everything Claude Code：16.3 万星的 AI 编码工具大全",
-      "subtitle": "涵盖 Claude Code、Cursor、Codex 等主流 AI 编码工具的系统提示词、内部工具和模型配置，Agent 开发必备参考",
-      "url": "https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools",
-      "type": "project",
-      "source": "GitHub",
-      "time": "持续更新",
-      "tags": ["热门项目", "工具集合"]
-    },
-    {
-      "rank": 5,
-      "title": "⚠️ Claude 封号潮失控：300 万用户企业一夜断供",
-      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由、无回应的封禁策略引发企业用户集体维权，AI 服务稳定性引担忧",
-      "url": "https://www.infoq.cn/article/ho3Qjql4dzSwA1loVMMY",
-      "type": "news",
-      "source": "InfoQ AI",
-      "time": "16小时前",
-      "tags": ["争议", "行业"]
-    },
-    {
-      "rank": 6,
-      "title": "🚀 Karpathy 新作 autoresearch：7.5 万星的自动研究 Agent",
-      "subtitle": "Andrej Karpathy 推出 autoresearch，AI Agent 自动在单 GPU 上进行 nanochat 训练研究，自动化 AI 研究新范式",
+      "title": "🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent",
+      "subtitle": "Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star",
       "url": "https://github.com/karpathy/autoresearch",
       "type": "project",
       "source": "GitHub",
-      "time": "近期发布",
-      "tags": ["新项目", "研究"]
+      "time": "近期",
+      "tags": [
+        "Agent",
+        "研究",
+        "Karpathy"
+      ]
     },
     {
-      "rank": 7,
-      "title": "📊 AI 提效 20%，程序员加班却越来越狠？",
-      "subtitle": "AI 编码工具让开发效率提升 20%，但企业用 AI 产出衡量生产力，程序员反而加班更严重，行业反思量尺歪了",
-      "url": "https://www.infoq.cn/article/EejvvufwVGEusllYFHgH",
+      "rank": 3,
+      "title": "🚫 Claude 封号潮失控！300万用户企业一夜断供",
+      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权",
+      "url": "https://www.infoq.cn/article/claude-account-ban-wave",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "21小时前",
-      "tags": ["深度", "行业"]
+      "source": "InfoQ",
+      "time": "11小时前",
+      "tags": [
+        "重磅",
+        "Anthropic",
+        "争议"
+      ]
     },
     {
-      "rank": 8,
-      "title": "📋 OpenSpec：4.1 万星的 AI 编码规范驱动开发框架",
-      "subtitle": "Fission AI 推出 Spec-driven Development 框架，用规范驱动 AI 编码助手，让 Cursor、Claude Code 写出更靠谱的代码",
+      "rank": 4,
+      "title": "💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式",
+      "subtitle": "让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势",
       "url": "https://github.com/Fission-AI/OpenSpec",
       "type": "project",
       "source": "GitHub",
-      "time": "近期发布",
-      "tags": ["新项目", "开发工具"]
+      "time": "近期",
+      "tags": [
+        "编程",
+        "最佳实践"
+      ]
     },
     {
-      "rank": 9,
-      "title": "🔬 Anthropic 内部揭秘：100 个产品原型同时跑，新模型 Mythos 断层领先",
-      "subtitle": "Anthropic 同时推进百余产品原型，内部新模型 Mythos 表现远超预期，连 Skills 效果都好到团队意外",
-      "url": "https://www.infoq.cn/article/KlrsHcFeBKWu9RW85u0a",
+      "rank": 5,
+      "title": "🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面",
+      "subtitle": "自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动",
+      "url": "https://www.infoq.cn/article/claude-design-ui-generation",
       "type": "news",
-      "source": "InfoQ AI",
-      "time": "21小时前",
-      "tags": ["独家", "行业"]
+      "source": "InfoQ",
+      "time": "10小时前",
+      "tags": [
+        "新品",
+        "设计",
+        "Anthropic"
+      ]
     },
     {
-      "rank": 10,
-      "title": "🤖 Gemini CLI：10.2 万星的 Google 终端 AI 助手",
-      "subtitle": "Google 官方开源的终端 AI 工具，将 Gemini 模型能力直接带入命令行，与 Claude Code 正面竞争",
-      "url": "https://github.com/google-gemini/gemini-cli",
+      "rank": 6,
+      "title": "🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫",
+      "subtitle": "开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取",
+      "url": "https://github.com/unclecode/crawl4ai",
       "type": "project",
       "source": "GitHub",
       "time": "持续更新",
-      "tags": ["热门项目", "Agent"]
+      "tags": [
+        "数据",
+        "开源"
+      ]
     },
     {
-      "rank": 11,
-      "title": "💰 中国具身智能最大单轮融资诞生！前华为百度高管联手创业",
-      "subtitle": "前华为、百度高管联合创办的机器人公司获具身智能赛道最大单轮融资，目标打造可量产的真干活机器人",
-      "url": "https://www.infoq.cn/article/aqYPpJBPlvaJDQDCNlrJ",
+      "rank": 7,
+      "title": "🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业",
+      "subtitle": "打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速",
+      "url": "https://www.infoq.cn/article/china-embodied-ai-largest-funding",
       "type": "news",
-      "source": "InfoQ AI",
+      "source": "InfoQ",
       "time": "12小时前",
-      "tags": ["融资", "机器人"]
+      "tags": [
+        "融资",
+        "机器人",
+        "中国"
+      ]
     },
     {
-      "rank": 12,
-      "title": "🧠 Mem0：5.3 万星的 AI Agent 记忆层",
-      "subtitle": "为 AI Agent 提供通用持久记忆能力，支持跨会话、跨用户的智能记忆管理，Agent 基础设施新星",
+      "rank": 8,
+      "title": "🧩 mem0：53K star 的 AI Agent 通用记忆层",
+      "subtitle": "为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互",
       "url": "https://github.com/mem0ai/mem0",
       "type": "project",
       "source": "GitHub",
       "time": "持续更新",
-      "tags": ["基础设施", "Agent"]
+      "tags": [
+        "Agent",
+        "记忆",
+        "基础设施"
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "🔒 MIT：构建 Agent 优先的治理与安全架构",
+      "subtitle": "随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」",
+      "url": "https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "time": "12小时前",
+      "tags": [
+        "安全",
+        "Agent",
+        "治理"
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "🕸️ graphify：把代码库变成 AI 可查询的知识图谱",
+      "subtitle": "将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文",
+      "url": "https://github.com/safishamsi/graphify",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "知识图谱"
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "👁️ YouTube 扩展 AI 深度伪造检测至名人肖像保护",
+      "subtitle": "明星可主动发现并请求删除 AI 深度伪造视频，平台加强肖像权保护力度",
+      "url": "https://techcrunch.com/2026/04/21/youtube-expands-ai-likeness-detection-celebrities/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "10小时前",
+      "tags": [
+        "监管",
+        "深度伪造"
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "🎮 AI Dungeon 创始人推出 Voyage：AI 原生游戏创作平台",
+      "subtitle": "让玩家用自然语言创建和分享 AI 驱动的互动故事，游戏创作门槛降至零",
+      "url": "https://techcrunch.com/2026/04/21/ai-dungeon-maker-latitude-unveils-voyage/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "8小时前",
+      "tags": [
+        "游戏",
+        "创意"
+      ]
     },
     {
       "rank": 13,
-      "title": "🔥 Agent 正杀入软件研发一线！60 位专家拆解 AI 落地困局",
-      "subtitle": "2026 奇点智能技术大会收官，全球超 60 位技术专家深度探讨 AI Agent 在软件研发中的实际落地挑战与解决方案",
-      "url": "https://www.qbitai.com/2026/04/403859.html",
-      "type": "news",
-      "source": "量子位",
-      "time": "1天前",
-      "tags": ["趋势", "Agent"]
+      "title": "📖 context-engineering-intro：AI 编程助手的上下文工程指南",
+      "subtitle": "从 Vibe Coding 到 Context Engineering 的范式转变，让 Claude Code 真正理解你的需求",
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "最佳实践",
+        "Claude"
+      ]
     },
     {
       "rank": 14,
-      "title": "💻 Garry Tan 的 Claude Code 工具栈：7.9 万星的 CEO 配置方案",
-      "subtitle": "YC 总裁 Garry Tan 公开他的 Claude Code 配置：23 个工具覆盖 CEO、设计师、工程经理、QA 等角色",
-      "url": "https://github.com/garrytan/gstack",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期热门",
-      "tags": ["实用配置", "Agent"]
+      "title": "🗳️ AI 与选举：美国民众对 AI 政治应用的信任危机",
+      "subtitle": "调查显示多数美国人担忧 AI 在选举中的角色，信任度持续走低",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/election-backlash",
+      "type": "news",
+      "source": "The Verge",
+      "time": "5小时前",
+      "tags": [
+        "社会",
+        "选举"
+      ]
     },
     {
       "rank": 15,
-      "title": "🍎 库克或将卸任苹果 CEO：科技巨头迎管理层重大变动",
-      "subtitle": "苹果 CEO 蒂姆·库克或将卸任，标志着这家市值最高的科技公司可能迎来管理层重大变革，AI 战略走向成焦点",
-      "url": "https://www.qbitai.com/2026/04/403790.html",
+      "title": "🍎 Apple AI 负责人 John Ternus 面临首个重大挑战",
+      "subtitle": "上任不到一年就面临 AI 落后压力，Apple 内部 AI 战略或将迎来重大调整",
+      "url": "https://www.theverge.com/2026/04/21/john-ternus-apple-ai-challenge",
       "type": "news",
-      "source": "量子位",
-      "time": "1天前",
-      "tags": ["重磅", "大公司"]
+      "source": "The Verge",
+      "time": "11小时前",
+      "tags": [
+        "Apple",
+        "战略"
+      ]
     }
   ],
-  "top_20": [],
   "total": 15,
+  "hot_list": [
+    {
+      "rank": 1,
+      "title": "🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升",
+      "subtitle": "ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "5小时前",
+      "tags": [
+        "重磅",
+        "图像生成",
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent",
+      "subtitle": "Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star",
+      "url": "https://github.com/karpathy/autoresearch",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "Agent",
+        "研究",
+        "Karpathy"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "🚫 Claude 封号潮失控！300万用户企业一夜断供",
+      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权",
+      "url": "https://www.infoq.cn/article/claude-account-ban-wave",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "11小时前",
+      "tags": [
+        "重磅",
+        "Anthropic",
+        "争议"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式",
+      "subtitle": "让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "最佳实践"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面",
+      "subtitle": "自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动",
+      "url": "https://www.infoq.cn/article/claude-design-ui-generation",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "10小时前",
+      "tags": [
+        "新品",
+        "设计",
+        "Anthropic"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫",
+      "subtitle": "开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": [
+        "数据",
+        "开源"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业",
+      "subtitle": "打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速",
+      "url": "https://www.infoq.cn/article/china-embodied-ai-largest-funding",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "12小时前",
+      "tags": [
+        "融资",
+        "机器人",
+        "中国"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "🧩 mem0：53K star 的 AI Agent 通用记忆层",
+      "subtitle": "为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互",
+      "url": "https://github.com/mem0ai/mem0",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": [
+        "Agent",
+        "记忆",
+        "基础设施"
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "🔒 MIT：构建 Agent 优先的治理与安全架构",
+      "subtitle": "随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」",
+      "url": "https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "time": "12小时前",
+      "tags": [
+        "安全",
+        "Agent",
+        "治理"
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "🕸️ graphify：把代码库变成 AI 可查询的知识图谱",
+      "subtitle": "将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文",
+      "url": "https://github.com/safishamsi/graphify",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "知识图谱"
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "👁️ YouTube 扩展 AI 深度伪造检测至名人肖像保护",
+      "subtitle": "明星可主动发现并请求删除 AI 深度伪造视频，平台加强肖像权保护力度",
+      "url": "https://techcrunch.com/2026/04/21/youtube-expands-ai-likeness-detection-celebrities/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "10小时前",
+      "tags": [
+        "监管",
+        "深度伪造"
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "🎮 AI Dungeon 创始人推出 Voyage：AI 原生游戏创作平台",
+      "subtitle": "让玩家用自然语言创建和分享 AI 驱动的互动故事，游戏创作门槛降至零",
+      "url": "https://techcrunch.com/2026/04/21/ai-dungeon-maker-latitude-unveils-voyage/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "8小时前",
+      "tags": [
+        "游戏",
+        "创意"
+      ]
+    },
+    {
+      "rank": 13,
+      "title": "📖 context-engineering-intro：AI 编程助手的上下文工程指南",
+      "subtitle": "从 Vibe Coding 到 Context Engineering 的范式转变，让 Claude Code 真正理解你的需求",
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "最佳实践",
+        "Claude"
+      ]
+    },
+    {
+      "rank": 14,
+      "title": "🗳️ AI 与选举：美国民众对 AI 政治应用的信任危机",
+      "subtitle": "调查显示多数美国人担忧 AI 在选举中的角色，信任度持续走低",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/election-backlash",
+      "type": "news",
+      "source": "The Verge",
+      "time": "5小时前",
+      "tags": [
+        "社会",
+        "选举"
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "🍎 Apple AI 负责人 John Ternus 面临首个重大挑战",
+      "subtitle": "上任不到一年就面临 AI 落后压力，Apple 内部 AI 战略或将迎来重大调整",
+      "url": "https://www.theverge.com/2026/04/21/john-ternus-apple-ai-challenge",
+      "type": "news",
+      "source": "The Verge",
+      "time": "11小时前",
+      "tags": [
+        "Apple",
+        "战略"
+      ]
+    }
+  ],
+  "top_20": [
+    {
+      "rank": 1,
+      "title": "🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升",
+      "subtitle": "ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」",
+      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "5小时前",
+      "tags": [
+        "重磅",
+        "图像生成",
+        "OpenAI"
+      ]
+    },
+    {
+      "rank": 2,
+      "title": "🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent",
+      "subtitle": "Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star",
+      "url": "https://github.com/karpathy/autoresearch",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "Agent",
+        "研究",
+        "Karpathy"
+      ]
+    },
+    {
+      "rank": 3,
+      "title": "🚫 Claude 封号潮失控！300万用户企业一夜断供",
+      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权",
+      "url": "https://www.infoq.cn/article/claude-account-ban-wave",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "11小时前",
+      "tags": [
+        "重磅",
+        "Anthropic",
+        "争议"
+      ]
+    },
+    {
+      "rank": 4,
+      "title": "💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式",
+      "subtitle": "让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势",
+      "url": "https://github.com/Fission-AI/OpenSpec",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "最佳实践"
+      ]
+    },
+    {
+      "rank": 5,
+      "title": "🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面",
+      "subtitle": "自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动",
+      "url": "https://www.infoq.cn/article/claude-design-ui-generation",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "10小时前",
+      "tags": [
+        "新品",
+        "设计",
+        "Anthropic"
+      ]
+    },
+    {
+      "rank": 6,
+      "title": "🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫",
+      "subtitle": "开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取",
+      "url": "https://github.com/unclecode/crawl4ai",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": [
+        "数据",
+        "开源"
+      ]
+    },
+    {
+      "rank": 7,
+      "title": "🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业",
+      "subtitle": "打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速",
+      "url": "https://www.infoq.cn/article/china-embodied-ai-largest-funding",
+      "type": "news",
+      "source": "InfoQ",
+      "time": "12小时前",
+      "tags": [
+        "融资",
+        "机器人",
+        "中国"
+      ]
+    },
+    {
+      "rank": 8,
+      "title": "🧩 mem0：53K star 的 AI Agent 通用记忆层",
+      "subtitle": "为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互",
+      "url": "https://github.com/mem0ai/mem0",
+      "type": "project",
+      "source": "GitHub",
+      "time": "持续更新",
+      "tags": [
+        "Agent",
+        "记忆",
+        "基础设施"
+      ]
+    },
+    {
+      "rank": 9,
+      "title": "🔒 MIT：构建 Agent 优先的治理与安全架构",
+      "subtitle": "随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」",
+      "url": "https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "time": "12小时前",
+      "tags": [
+        "安全",
+        "Agent",
+        "治理"
+      ]
+    },
+    {
+      "rank": 10,
+      "title": "🕸️ graphify：把代码库变成 AI 可查询的知识图谱",
+      "subtitle": "将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文",
+      "url": "https://github.com/safishamsi/graphify",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "知识图谱"
+      ]
+    },
+    {
+      "rank": 11,
+      "title": "👁️ YouTube 扩展 AI 深度伪造检测至名人肖像保护",
+      "subtitle": "明星可主动发现并请求删除 AI 深度伪造视频，平台加强肖像权保护力度",
+      "url": "https://techcrunch.com/2026/04/21/youtube-expands-ai-likeness-detection-celebrities/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "10小时前",
+      "tags": [
+        "监管",
+        "深度伪造"
+      ]
+    },
+    {
+      "rank": 12,
+      "title": "🎮 AI Dungeon 创始人推出 Voyage：AI 原生游戏创作平台",
+      "subtitle": "让玩家用自然语言创建和分享 AI 驱动的互动故事，游戏创作门槛降至零",
+      "url": "https://techcrunch.com/2026/04/21/ai-dungeon-maker-latitude-unveils-voyage/",
+      "type": "news",
+      "source": "TechCrunch",
+      "time": "8小时前",
+      "tags": [
+        "游戏",
+        "创意"
+      ]
+    },
+    {
+      "rank": 13,
+      "title": "📖 context-engineering-intro：AI 编程助手的上下文工程指南",
+      "subtitle": "从 Vibe Coding 到 Context Engineering 的范式转变，让 Claude Code 真正理解你的需求",
+      "url": "https://github.com/coleam00/context-engineering-intro",
+      "type": "project",
+      "source": "GitHub",
+      "time": "近期",
+      "tags": [
+        "编程",
+        "最佳实践",
+        "Claude"
+      ]
+    },
+    {
+      "rank": 14,
+      "title": "🗳️ AI 与选举：美国民众对 AI 政治应用的信任危机",
+      "subtitle": "调查显示多数美国人担忧 AI 在选举中的角色，信任度持续走低",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/election-backlash",
+      "type": "news",
+      "source": "The Verge",
+      "time": "5小时前",
+      "tags": [
+        "社会",
+        "选举"
+      ]
+    },
+    {
+      "rank": 15,
+      "title": "🍎 Apple AI 负责人 John Ternus 面临首个重大挑战",
+      "subtitle": "上任不到一年就面临 AI 落后压力，Apple 内部 AI 战略或将迎来重大调整",
+      "url": "https://www.theverge.com/2026/04/21/john-ternus-apple-ai-challenge",
+      "type": "news",
+      "source": "The Verge",
+      "time": "11小时前",
+      "tags": [
+        "Apple",
+        "战略"
+      ]
+    }
+  ],
   "type_stats": {
     "news": 9,
     "project": 6

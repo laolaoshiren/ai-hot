@@ -566,5 +566,44 @@
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
     "icon": "🎬"
+  },
+  {
+    "id": "camel",
+    "name": "CAMEL",
+    "url": "https://github.com/camel-ai/camel",
+    "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
+    "type": "多 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": false,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🐫"
+  },
+  {
+    "id": "mindsearch",
+    "name": "MindSearch",
+    "url": "https://github.com/InternLM/MindSearch",
+    "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
+    "type": "多 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": false,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🔍"
+  },
+  {
+    "id": "agentuniverse",
+    "name": "agentUniverse",
+    "url": "https://github.com/agentuniverse-ai/agentUniverse",
+    "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
+    "type": "多 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "trending": false,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22",
+    "icon": "🌌"
   }
 ]

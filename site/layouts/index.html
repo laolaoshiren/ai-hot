@@ -46,7 +46,7 @@
             <div class="hot-item">
                 <div class="hot-content">
                     <div class="hot-title">
-                        <a href="{{ .url }}" target="_blank">{{ .title }}</a>
+                        <a href="{{ .url }}" target="_blank">{{ with .title_zh }}{{ . }}{{ else }}{{ .title }}{{ end }}</a>
                     </div>
                     <div class="hot-meta">
                         {{ .source }}

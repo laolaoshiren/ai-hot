@@ -1,29 +1,13 @@
 {
-  "updated_at": "2026-04-22T06:20:05",
-  "date": "2026-04-22",
-  "title": "AI热榜日报 - 2026年04月22日",
-  "content": "今日AI领域重磅消息不断：Anthropic 新模型 Mythos 表现断层领先，内部同时推进超百款产品原型；Opus 4.7 正式发布，Claude Code 创始人分享 AI 编码心法；Claude 大规模封号风波持续，300万用户企业服务中断引发维权；开源社区5天复现 Mythos 架构获6000星；Google Gemini CLI 突破10万星里程碑；具身智能赛道获史上最大单轮融资。整体来看，Anthropic 生态动作密集，开源社区跟进速度惊人。",
+  "date": "2026年04月22日",
+  "updated_at": "2026-04-22T10:11:33",
+  "title": "2026年04月22日 AI 日报",
+  "content": "今日AI热点速递：\n\n1. 【重磅】OpenAI 发布 ChatGPT Images 2.0，文字渲染能力大幅提升，设计师直呼「够用了」。新模型在图像中文字生成方面取得突破性进展。\n\n2. 【争议】Anthropic Claude 大规模封号风波持续，300万用户企业服务中断，无理由无回应，受害者被迫抱团维权。\n\n3. 【新品】Anthropic 推出 Claude Design，一句话生成完整 UI 界面，传统设计工具面临颠覆，设计师圈震动。\n\n4. 【融资】中国具身智能赛道最大单轮融资出炉，前华为百度高管联手创业，打造可量产的真干活机器人。\n\n5. 【开源】Karpathy 新作 autoresearch（75K star）让 AI 在单 GPU 上自动运行深度学习研究，Agent 能力再进化。\n\n6. 【治理】MIT 发文探讨 Agent 优先的治理与安全架构，随着 AI Agent 深入企业工作流，安全框架正在从「人工优先」转向「Agent 优先」。\n\n7. 【监管】YouTube 扩展 AI 深度伪造检测至名人肖像保护，平台加强肖像权保护力度。",
   "highlights": [
-    "🧠 Anthropic Mythos 模型断层领先，100个产品原型同时推进",
-    "🔥 Opus 4.7 发布，Claude Code 之父分享开发心法",
-    "🚨 Claude 封号潮持续，300万企业用户受影响",
-    "💻 开源 OpenMythos 5天6000星，社区复现速度惊人",
-    "🏭 中国具身智能获史上最大单轮融资"
-  ],
-  "briefings": [
-    {
-      "date": "2026-04-22",
-      "title": "📰 AI热榜日报 | 2026-04-22",
-      "content": "今日AI领域重磅不断！Anthropic连放大招：Claude Design正式发布，一句话即可生成完整UI设计稿，设计圈面临大变局；同时旗下最新旗舰模型Opus 4.7上线，开发者分享模型升级背后的关键是开发方式变革。然而Anthropic也遭遇信任危机，Claude大规模封号风波持续发酵，300万用户企业一夜断供引发集体维权。融资方面，中国具身智能赛道诞生最大单轮融资，前华为百度高管联手打造可量产机器人。汽车AI领域也有突破，理想汽车宣布首发高德汽车出行AI Agent，多轮对话与个性化导航即将落地。",
-      "updated_at": "2026-04-22T06:20:05",
-      "source": "hermes_ai",
-      "key_topics": [
-        "Claude Design",
-        "Opus 4.7",
-        "Claude封号",
-        "具身智能融资",
-        "汽车AI Agent"
-      ]
-    }
+    "OpenAI 发布 ChatGPT Images 2.0，文字渲染质量飞跃",
+    "Claude 封号潮失控，300万用户受影响",
+    "Claude Design 一句话生成 UI，设计圈变天",
+    "中国具身智能最大单轮融资，前华为百度高管联手创业",
+    "Karpathy 开源 autoresearch，单卡自动搞研究"
   ]
 }

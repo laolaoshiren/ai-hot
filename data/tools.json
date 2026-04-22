@@ -3395,5 +3395,51 @@
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
     "score": 80
+  },
+  {
+    "id": "quotio",
+    "name": "Quotio",
+    "url": "https://github.com/nguyenphutrong/quotio",
+    "description": "macOS菜单栏应用，统一管理Claude/Gemini/OpenAI等AI订阅，实时配额追踪和智能故障转移",
+    "category": "效率",
+    "pricing": "开源免费",
+    "free_quota": "N/A",
+    "difficulty": 2,
+    "tags": [
+      "订阅管理",
+      "macOS",
+      "多模型"
+    ],
+    "use_cases": [
+      "AI订阅管理",
+      "配额监控"
+    ],
+    "trending": false,
+    "featured": false,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22"
+  },
+  {
+    "id": "9router",
+    "name": "9Router",
+    "url": "https://github.com/decolua/9router",
+    "description": "连接所有AI编程工具到40+AI提供商和100+模型的统一路由器，支持Claude Code、Cursor、Copilot等",
+    "category": "编程",
+    "pricing": "开源免费",
+    "free_quota": "N/A",
+    "difficulty": 2,
+    "tags": [
+      "路由器",
+      "多模型",
+      "编程工具"
+    ],
+    "use_cases": [
+      "AI工具统一接入",
+      "模型路由"
+    ],
+    "trending": false,
+    "featured": false,
+    "source": "hermes_discover",
+    "last_seen": "2026-04-22"
   }
 ]

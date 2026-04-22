@@ -20,7 +20,9 @@
     "priority": 1,
     "published": "2026-04-21T19:00:05",
     "summary": "Ask Americans how they feel about AI and most say they have concerns. Communities have mounted resistance to data center projects, stalling them across the US. On social media, anger at AI companies and executives is unrestrained - sometimes to the point of condoning violence. But look at the issues",
-    "collected_at": "2026-04-21T19:03:08.055154"
+    "collected_at": "2026-04-21T19:03:08.055154",
+    "title_zh": "AI 引发选举领域反弹：民众信任度持续走低",
+    "ai_summary": "调查显示多数美国人担忧AI在选举中的应用，信任危机加剧"
   },
   {
     "id": "0c88065d42e6",
@@ -31,7 +33,8 @@
     "priority": 1,
     "published": "2026-04-21T19:00:00",
     "summary": "ChatGPT Images 2.0, the newest image generation model from OpenAI, shows just how much AI capabilities have evolved over the last few years.",
-    "collected_at": "2026-04-21T19:03:07.999959"
+    "collected_at": "2026-04-21T19:03:07.999959",
+    "ai_summary": "AI领域最新动态：ChatGPT’s new Images 2.0 model"
   },
   {
     "id": "dfa2e3606ed8",
@@ -42,7 +45,8 @@
     "priority": 1,
     "published": "2026-04-21T19:00:00",
     "summary": "OpenAI is rolling out the latest version of its AI-powered image generator with new \"thinking capabilities,\" allowing it to search the web to help it create multiple images from a single prompt. In a blog post, OpenAI says ChatGPT Images 2.0 can now create more \"sophisticated\" images, with improveme",
-    "collected_at": "2026-04-21T19:03:08.055190"
+    "collected_at": "2026-04-21T19:03:08.055190",
+    "ai_summary": "AI领域最新动态：OpenAI’s updated image generat"
   },
   {
     "id": "fdde9ca62ffc",
@@ -53,7 +57,8 @@
     "priority": 1,
     "published": "2026-04-21T18:51:52",
     "summary": "The AI industry's mudslinging continues.",
-    "collected_at": "2026-04-21T19:03:07.999984"
+    "collected_at": "2026-04-21T19:03:07.999984",
+    "ai_summary": "AI领域最新动态：Sam Altman throws shade at Ant"
   },
   {
     "id": "b6c07df5df83",
@@ -64,7 +69,8 @@
     "priority": 1,
     "published": "2026-04-21T18:07:24",
     "summary": "Remember when Framework made the first laptop where you can easily upgrade its entire internal video card in three minutes flat? The company's getting into the external graphics game, too. As promised last August, you'll be able to turn the Framework Laptop 16's GPU modules into external ones instea",
-    "collected_at": "2026-04-21T19:03:08.055221"
+    "collected_at": "2026-04-21T19:03:08.055221",
+    "ai_summary": "AI领域最新动态：Framework’s first eGPUs turn i"
   },
   {
     "id": "d946104eff7e",
@@ -87,7 +93,9 @@
     "priority": 1,
     "published": "2026-04-21T17:30:24",
     "summary": "YouTube is expanding its AI deepfake monitoring feature to Hollywood - meaning some celebrity AI videos could soon disappear. The platform's likeness detection feature searches YouTube for AI deepfake content and flags it for public figures enrolled in the program. Public figures can use it to keep ",
-    "collected_at": "2026-04-21T19:03:08.055251"
+    "collected_at": "2026-04-21T19:03:08.055251",
+    "title_zh": "YouTube 扩展AI深度伪造检测：名人可主动请求删除伪造视频",
+    "ai_summary": "YouTube为名人提供AI深度伪造视频检测和删除请求功能"
   },
   {
     "id": "c3e4637e390d",
@@ -110,7 +118,9 @@
     "priority": 2,
     "published": "2026-04-21T17:22:54",
     "summary": "As AI agents increasingly work alongside humans across organizations, companies could be inadvertently opening a new attack surface. Insecure agents can be manipulated to access sensitive systems and proprietary data, increasing enterprise risk. In some modern enterprises, non-human identities (NHI)",
-    "collected_at": "2026-04-21T19:03:08.144181"
+    "collected_at": "2026-04-21T19:03:08.144181",
+    "title_zh": "构建 Agent 优先的治理与安全架构",
+    "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变"
   },
   {
     "id": "f17ab9e9e109",
@@ -121,7 +131,9 @@
     "priority": 1,
     "published": "2026-04-21T17:11:01",
     "summary": "The photo deletion comes after an FTC settlement with Clarifai. The company had asked OkCupid — whose executives had invested in Clarifai — to share data in 2014, according to court documents.",
-    "collected_at": "2026-04-21T19:03:08.000010"
+    "collected_at": "2026-04-21T19:03:08.000010",
+    "title_zh": "Clarifai 删除 OkCupid 提供的300万张面部识别训练照片",
+    "ai_summary": "FTC和解后Clarifai删除约会平台提供的面部识别训练数据"
   },
   {
     "id": "1e2f94a62ac7",
@@ -132,7 +144,9 @@
     "priority": 1,
     "published": "2026-04-21T16:19:40",
     "summary": "Venti iced coffee, light skim milk. That's what I get at Starbucks. It is what I have gotten at Starbucks every time I've been to Starbucks for as long as I can remember, other than a brief love affair with the caffe misto a few years ago. In person, my brain barely needs to activate [&#8230;]",
-    "collected_at": "2026-04-21T19:03:08.055278"
+    "collected_at": "2026-04-21T19:03:08.055278",
+    "title_zh": "用星巴克 ChatGPT 点咖啡？一场咖啡噩梦的亲身体验",
+    "ai_summary": "实测星巴克ChatGPT点单功能，AI理解能力仍有明显不足"
   },
   {
     "id": "92ce862f8036",
@@ -143,7 +157,9 @@
     "priority": 1,
     "published": "2026-04-21T16:00:00",
     "summary": "Latitude's new AI-native platform, Voyage, aims to help gamers create their very own role-playing game.",
-    "collected_at": "2026-04-21T19:03:08.000030"
+    "collected_at": "2026-04-21T19:03:08.000030",
+    "title_zh": "AI Dungeon 创始人推出 Voyage：AI 原生互动故事创作平台",
+    "ai_summary": "Latitude发布Voyage平台，让用户用自然语言创建AI驱动的互动游戏"
   },
   {
     "id": "b3c9c0a2e0a3",
@@ -166,7 +182,9 @@
     "priority": 1,
     "published": "2026-04-21T15:24:29",
     "summary": "Bond wants you to get off the couch and get back into the real world, its creator says. The new platform's AI system is designed to motivate users to do things away from the app.",
-    "collected_at": "2026-04-21T19:03:08.000052"
+    "collected_at": "2026-04-21T19:03:08.000052",
+    "title_zh": "社交平台 Bond：用 AI 帮你摆脱沙发、重返线下社交",
+    "ai_summary": "Bond利用AI帮助用户建立线下社交关系，对抗社交媒体孤立"
   },
   {
     "id": "46a1554c6f32",
@@ -188,7 +206,9 @@
     "priority": 1,
     "published": "2026-04-21T15:02:06",
     "summary": "YouTube is expanding its AI likeness detection tool to celebrities, giving talent and their reps a way to find and remove deepfakes.",
-    "collected_at": "2026-04-21T19:03:08.000070"
+    "collected_at": "2026-04-21T19:03:08.000070",
+    "title_zh": "YouTube AI 肖像检测技术扩展至名人保护",
+    "ai_summary": "YouTube将AI深度伪造检测范围扩大到名人肖像保护领域"
   },
   {
     "id": "d5c19f9f7a21",
@@ -211,7 +231,9 @@
     "priority": 2,
     "published": "2026-04-21T14:11:53",
     "summary": "Hi, I’m Jakub, a solo founder based in Warsaw.I’ve been building GoModel since December with a couple of contributors. It's an open-source AI gateway that sits between your app and model providers like OpenAI, Anthropic or others.I built it for my startup to solve a few problems: - track AI usage an",
-    "collected_at": "2026-04-21T19:03:10.472875"
+    "collected_at": "2026-04-21T19:03:10.472875",
+    "title_zh": "GoModel：Go 语言开源 AI 网关项目",
+    "ai_summary": "用Go语言编写的轻量级AI API网关，支持多模型路由"
   },
   {
     "id": "7faac906f243",
@@ -222,7 +244,8 @@
     "priority": 1,
     "published": "2026-04-21T13:37:55",
     "summary": "Less than a year ago, Apple made headlines for a lack of AI announcements at its annual WWDC event. Ten months later, the company has announced that hardware executive John Ternus will succeed longtime CEO Tim Cook as chief executive - and the official release doesn't mention AI once. Ternus, curren",
-    "collected_at": "2026-04-21T19:03:08.055306"
+    "collected_at": "2026-04-21T19:03:08.055306",
+    "ai_summary": "AI领域最新动态：John Ternus’ first big problem"
   },
   {
     "id": "14f356866e9c",
@@ -245,7 +268,9 @@
     "priority": 1,
     "published": "2026-04-21T13:00:00",
     "summary": "AI music startup GRAI says fans want to remix tracks, not generate songs from scratch.",
-    "collected_at": "2026-04-21T19:03:08.000092"
+    "collected_at": "2026-04-21T19:03:08.000092",
+    "title_zh": "GRAI：AI 让音乐更社交化，而非取代艺术家",
+    "ai_summary": "AI音乐创业公司GRAI认为粉丝更想混音创作而非被动听歌"
   },
   {
     "id": "a224803feccd",
@@ -257,7 +282,8 @@
     "published": "2026-04-21T12:10:00",
     "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The noise we make is hurting animals. Can we learn to shut up? As human society has expanded, animals have started struggling to hear one another. For",
     "collected_at": "2026-04-21T13:07:30.054343",
-    "ai_summary": "MIT科技评论每日速递：降低人类噪声污染、洛杉矶地铁升级等科技要闻"
+    "ai_summary": "MIT科技评论每日速递：降低人类噪声污染、洛杉矶地铁升级等科技要闻",
+    "title_zh": "MIT 每日速递：降低人类噪声污染、洛杉矶地铁惊艳升级"
   },
   {
     "id": "534c41abb2b5",
@@ -281,7 +307,8 @@
     "published": "2026-04-21T11:00:00",
     "summary": "Yelp is giving its chatbot assistant a major upgrade, turning the platform into something closer to a digital concierge with a suite of new features designed for \"getting things done.\" The move, one of several AI-focused updates in recent months, is part of a broader industry push to make AI more re",
     "collected_at": "2026-04-21T13:07:29.936309",
-    "ai_summary": "Yelp大幅升级AI聊天机器人，搜索和推荐体验显著提升"
+    "ai_summary": "Yelp大幅升级AI聊天机器人，搜索和推荐体验显著提升",
+    "title_zh": "Yelp 大幅升级 AI 聊天机器人：搜索推荐体验质的飞跃"
   },
   {
     "id": "002dcd93fd33",
@@ -376,7 +403,8 @@
     "priority": 2,
     "published": "2026-04-21T06:58:08",
     "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 109 # Comments: 121",
-    "collected_at": "2026-04-21T19:03:10.472904"
+    "collected_at": "2026-04-21T19:03:10.472904",
+    "ai_summary": "AI领域最新动态：Less human AI agents, please"
   },
   {
     "id": "d49d1f89bfb5",
@@ -447,7 +475,8 @@
     "priority": 2,
     "published": "2026-04-21T04:12:12",
     "summary": "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148",
-    "collected_at": "2026-04-21T19:03:10.472927"
+    "collected_at": "2026-04-21T19:03:10.472927",
+    "ai_summary": "AI领域最新动态：A Roblox cheat and one AI tool"
   },
   {
     "id": "54c89e1d367c",
@@ -614,7 +643,8 @@
     "priority": 2,
     "published": "2026-04-20T20:19:13",
     "summary": "Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400",
-    "collected_at": "2026-04-21T19:03:10.472949"
+    "collected_at": "2026-04-21T19:03:10.472949",
+    "ai_summary": "AI领域最新动态：AI Resistance: some recent ant"
   },
   {
     "id": "5ce42f9f60d6",
@@ -709,7 +739,8 @@
     "priority": 2,
     "published": "2026-04-20T15:41:02",
     "summary": "Article URL: https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/ Comments URL: https://news.ycombinator.com/item?id=47835928 Points: 356 # Comments: 377",
-    "collected_at": "2026-04-21T19:03:10.472970"
+    "collected_at": "2026-04-21T19:03:10.472970",
+    "ai_summary": "AI领域最新动态：Deezer says 44% of songs uploa"
   },
   {
     "id": "4138cace1a29",
@@ -744,7 +775,8 @@
     "priority": 2,
     "published": "2026-04-20T15:07:04",
     "summary": "Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered the Nash bargaining sol",
-    "collected_at": "2026-04-21T19:03:10.473050"
+    "collected_at": "2026-04-21T19:03:10.473050",
+    "ai_summary": "AI领域最新动态：Show HN: Mediator.ai – Using N"
   },
   {
     "id": "927f0bedcd28",
@@ -868,7 +900,8 @@
     "priority": 2,
     "published": "2026-04-20T12:23:39",
     "summary": "Article URL: https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8 Comments URL: https://news.ycombinator.com/item?id=47833247 Points: 588 # Comments: 130",
-    "collected_at": "2026-04-21T19:03:10.473071"
+    "collected_at": "2026-04-21T19:03:10.473071",
+    "ai_summary": "AI领域最新动态：Atlassian enables default data"
   },
   {
     "id": "f2c49cd52da1",
@@ -1074,7 +1107,8 @@
     "priority": 2,
     "published": "2026-04-20T02:41:50",
     "summary": "Article URL: https://www.thatprivacyguy.com/blog/anthropic-spyware/ Comments URL: https://news.ycombinator.com/item?id=47829800 Points: 109 # Comments: 32",
-    "collected_at": "2026-04-21T19:03:10.473091"
+    "collected_at": "2026-04-21T19:03:10.473091",
+    "ai_summary": "AI领域最新动态：Anthropic installed a spyware "
   },
   {
     "id": "1652f2ab0793",

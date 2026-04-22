@@ -12,16 +12,65 @@
     "ai_summary": "多模态AI应用成为标配，本周AI应用生态持续繁荣"
   },
   {
-    "id": "a224803feccd",
-    "title": "The Download: turning down human noise, and LA’s stunning subway upgrade",
-    "url": "https://www.technologyreview.com/2026/04/21/1136246/the-download-human-noise-la-subway-upgrade/",
-    "source": "MIT Tech Review",
+    "id": "314fefba7e73",
+    "title": "AI backlash is coming for elections",
+    "url": "https://www.theverge.com/policy/916210/ai-midterm-elections-data-centers-jobs",
+    "source": "The Verge AI",
     "lang": "en",
-    "priority": 2,
-    "published": "2026-04-21T12:10:00",
-    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The noise we make is hurting animals. Can we learn to shut up? As human society has expanded, animals have started struggling to hear one another. For",
-    "collected_at": "2026-04-21T13:07:30.054343",
-    "ai_summary": "MIT科技评论每日速递：降低人类噪声污染、洛杉矶地铁升级等科技要闻"
+    "priority": 1,
+    "published": "2026-04-21T19:00:05",
+    "summary": "Ask Americans how they feel about AI and most say they have concerns. Communities have mounted resistance to data center projects, stalling them across the US. On social media, anger at AI companies and executives is unrestrained - sometimes to the point of condoning violence. But look at the issues",
+    "collected_at": "2026-04-21T19:03:08.055154",
+    "title_zh": "AI 引发选举领域反弹：民众信任度持续走低",
+    "ai_summary": "调查显示多数美国人担忧AI在选举中的应用，信任危机加剧"
+  },
+  {
+    "id": "0c88065d42e6",
+    "title": "ChatGPT’s new Images 2.0 model is surprisingly good at generating text",
+    "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T19:00:00",
+    "summary": "ChatGPT Images 2.0, the newest image generation model from OpenAI, shows just how much AI capabilities have evolved over the last few years.",
+    "collected_at": "2026-04-21T19:03:07.999959",
+    "ai_summary": "AI领域最新动态：ChatGPT’s new Images 2.0 model"
+  },
+  {
+    "id": "dfa2e3606ed8",
+    "title": "OpenAI’s updated image generator can now pull information from the web",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/916166/openai-chatgpt-images-2",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T19:00:00",
+    "summary": "OpenAI is rolling out the latest version of its AI-powered image generator with new \"thinking capabilities,\" allowing it to search the web to help it create multiple images from a single prompt. In a blog post, OpenAI says ChatGPT Images 2.0 can now create more \"sophisticated\" images, with improveme",
+    "collected_at": "2026-04-21T19:03:08.055190",
+    "ai_summary": "AI领域最新动态：OpenAI’s updated image generat"
+  },
+  {
+    "id": "fdde9ca62ffc",
+    "title": "Sam Altman throws shade at Anthropic’s cyber model, Mythos: ‘fear-based marketing’",
+    "url": "https://techcrunch.com/2026/04/21/sam-altman-throws-shade-at-anthropics-cyber-model-mythos-fear-based-marketing/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T18:51:52",
+    "summary": "The AI industry's mudslinging continues.",
+    "collected_at": "2026-04-21T19:03:07.999984",
+    "ai_summary": "AI领域最新动态：Sam Altman throws shade at Ant"
+  },
+  {
+    "id": "b6c07df5df83",
+    "title": "Framework’s first eGPUs turn its laptop into a desktop PC",
+    "url": "https://www.theverge.com/gadgets/915328/framework-oculink-egpu-dev-kit-laptop-16",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T18:07:24",
+    "summary": "Remember when Framework made the first laptop where you can easily upgrade its entire internal video card in three minutes flat? The company's getting into the external graphics game, too. As promised last August, you'll be able to turn the Framework Laptop 16's GPU modules into external ones instea",
+    "collected_at": "2026-04-21T19:03:08.055221",
+    "ai_summary": "AI领域最新动态：Framework’s first eGPUs turn i"
   },
   {
     "id": "d946104eff7e",
@@ -36,16 +85,17 @@
     "ai_summary": "前华为百度高管联手打造可量产机器人，获具身智能赛道最大单轮融资"
   },
   {
-    "id": "534c41abb2b5",
-    "title": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动｜首波嘉宾官宣",
-    "url": "https://www.qbitai.com/2026/04/404096.html",
-    "source": "量子位",
-    "lang": "zh",
+    "id": "80710e409ac8",
+    "title": "Celebrities will be able to find and request removal of AI deepfakes on YouTube",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/915872/celebrities-will-be-able-to-find-and-request-removal-of-ai-deepfakes-on-youtube",
+    "source": "The Verge AI",
+    "lang": "en",
     "priority": 1,
-    "published": "2026-04-21T12:02:52",
-    "summary": "欢迎报名，北京线下见！",
-    "collected_at": "2026-04-21T13:05:15.134490",
-    "ai_summary": "2026中国AIGC产业峰会将于5月20日举办，首波嘉宾阵容官宣"
+    "published": "2026-04-21T17:30:24",
+    "summary": "YouTube is expanding its AI deepfake monitoring feature to Hollywood - meaning some celebrity AI videos could soon disappear. The platform's likeness detection feature searches YouTube for AI deepfake content and flags it for public figures enrolled in the program. Public figures can use it to keep ",
+    "collected_at": "2026-04-21T19:03:08.055251",
+    "title_zh": "YouTube 扩展AI深度伪造检测：名人可主动请求删除伪造视频",
+    "ai_summary": "YouTube为名人提供AI深度伪造视频检测和删除请求功能"
   },
   {
     "id": "c3e4637e390d",
@@ -60,16 +110,56 @@
     "ai_summary": "AI时代数据治理关键：数据目录能力成为企业智能化基石"
   },
   {
-    "id": "f5db886a8b45",
-    "title": "Yelp is making its AI chatbot way more useful",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/915626/yelp-ai-assistant-chatbot-major-upgrade",
+    "id": "729e3b49eaa0",
+    "title": "Building agent-first governance and security",
+    "url": "https://www.technologyreview.com/2026/04/21/1136158/building-agent-first-governance-and-security/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T17:22:54",
+    "summary": "As AI agents increasingly work alongside humans across organizations, companies could be inadvertently opening a new attack surface. Insecure agents can be manipulated to access sensitive systems and proprietary data, increasing enterprise risk. In some modern enterprises, non-human identities (NHI)",
+    "collected_at": "2026-04-21T19:03:08.144181",
+    "title_zh": "构建 Agent 优先的治理与安全架构",
+    "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变"
+  },
+  {
+    "id": "f17ab9e9e109",
+    "title": "Clarifai deletes 3 million photos that OkCupid provided to train facial recognition AI, report says",
+    "url": "https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T17:11:01",
+    "summary": "The photo deletion comes after an FTC settlement with Clarifai. The company had asked OkCupid — whose executives had invested in Clarifai — to share data in 2014, according to court documents.",
+    "collected_at": "2026-04-21T19:03:08.000010",
+    "title_zh": "Clarifai 删除 OkCupid 提供的300万张面部识别训练照片",
+    "ai_summary": "FTC和解后Clarifai删除约会平台提供的面部识别训练数据"
+  },
+  {
+    "id": "1e2f94a62ac7",
+    "title": "Ordering with the Starbucks ChatGPT app was a true coffee nightmare",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/915821/starbucks-chatgpt-app-testing",
     "source": "The Verge AI",
     "lang": "en",
     "priority": 1,
-    "published": "2026-04-21T11:00:00",
-    "summary": "Yelp is giving its chatbot assistant a major upgrade, turning the platform into something closer to a digital concierge with a suite of new features designed for \"getting things done.\" The move, one of several AI-focused updates in recent months, is part of a broader industry push to make AI more re",
-    "collected_at": "2026-04-21T13:07:29.936309",
-    "ai_summary": "Yelp大幅升级AI聊天机器人，搜索和推荐体验显著提升"
+    "published": "2026-04-21T16:19:40",
+    "summary": "Venti iced coffee, light skim milk. That's what I get at Starbucks. It is what I have gotten at Starbucks every time I've been to Starbucks for as long as I can remember, other than a brief love affair with the caffe misto a few years ago. In person, my brain barely needs to activate [&#8230;]",
+    "collected_at": "2026-04-21T19:03:08.055278",
+    "title_zh": "用星巴克 ChatGPT 点咖啡？一场咖啡噩梦的亲身体验",
+    "ai_summary": "实测星巴克ChatGPT点单功能，AI理解能力仍有明显不足"
+  },
+  {
+    "id": "92ce862f8036",
+    "title": "AI Dungeon maker Latitude unveils Voyage, a platform for creating AI-powered RPGs",
+    "url": "https://techcrunch.com/2026/04/21/voyage-is-an-ai-rpg-platform-for-creating-custom-gaming-worlds-with-ai-generated-npc-interactions/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T16:00:00",
+    "summary": "Latitude's new AI-native platform, Voyage, aims to help gamers create their very own role-playing game.",
+    "collected_at": "2026-04-21T19:03:08.000030",
+    "title_zh": "AI Dungeon 创始人推出 Voyage：AI 原生互动故事创作平台",
+    "ai_summary": "Latitude发布Voyage平台，让用户用自然语言创建AI驱动的互动游戏"
   },
   {
     "id": "b3c9c0a2e0a3",
@@ -84,16 +174,41 @@
     "ai_summary": "探讨构建可信数据智能体所需的上下文层架构，强调数据治理与智能体协同的技术趋势。"
   },
   {
-    "id": "a64c1765ac88",
-    "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
-    "url": "https://www.qbitai.com/2026/04/404086.html",
+    "id": "d3cb509cceb0",
+    "title": "Bond, a new social media platform, wants to use AI to help you kick your doomscrolling habit",
+    "url": "https://techcrunch.com/2026/04/21/bond-social-media-platform-ai-memories-kick-doomscrolling-habit/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T15:24:29",
+    "summary": "Bond wants you to get off the couch and get back into the real world, its creator says. The new platform's AI system is designed to motivate users to do things away from the app.",
+    "collected_at": "2026-04-21T19:03:08.000052",
+    "title_zh": "社交平台 Bond：用 AI 帮你摆脱沙发、重返线下社交",
+    "ai_summary": "Bond利用AI帮助用户建立线下社交关系，对抗社交媒体孤立"
+  },
+  {
+    "id": "46a1554c6f32",
+    "title": "前小鹏汽车自动驾驶一号位李力耘出任众擎CTO，加速打造具身大脑",
+    "url": "https://www.qbitai.com/2026/04/404124.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T08:45:58",
-    "summary": "高精渲染引擎，解决\"数据稀缺\"",
-    "collected_at": "2026-04-21T13:05:15.134508",
-    "ai_summary": "高德ABot-World以物理优先+VLA闭环破解机器人零样本泛化难题"
+    "published": "2026-04-21T14:21:13",
+    "summary": "通过将自动驾驶领域成熟的“工业化AI”打法、高效的数据飞轮与极强的工程部署能力引入具身赛道，众擎加速打造原生多模态驱动、大小脑与神经末梢协同的全集成架构。",
+    "collected_at": "2026-04-21T19:00:52.143703"
+  },
+  {
+    "id": "2d537bc7c412",
+    "title": "YouTube expands its AI likeness detection technology to celebrities",
+    "url": "https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T15:02:06",
+    "summary": "YouTube is expanding its AI likeness detection tool to celebrities, giving talent and their reps a way to find and remove deepfakes.",
+    "collected_at": "2026-04-21T19:03:08.000070",
+    "title_zh": "YouTube AI 肖像检测技术扩展至名人保护",
+    "ai_summary": "YouTube将AI深度伪造检测范围扩大到名人肖像保护领域"
   },
   {
     "id": "d5c19f9f7a21",
@@ -108,16 +223,29 @@
     "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。"
   },
   {
-    "id": "d3f7b3a9b8ea",
-    "title": "ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态",
-    "url": "https://www.qbitai.com/2026/04/404082.html",
-    "source": "量子位",
-    "lang": "zh",
+    "id": "ceeac7e45646",
+    "title": "Show HN: GoModel – an open-source AI gateway in Go",
+    "url": "https://github.com/ENTERPILOT/GOModel/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T14:11:53",
+    "summary": "Hi, I’m Jakub, a solo founder based in Warsaw.I’ve been building GoModel since December with a couple of contributors. It's an open-source AI gateway that sits between your app and model providers like OpenAI, Anthropic or others.I built it for my startup to solve a few problems: - track AI usage an",
+    "collected_at": "2026-04-21T19:03:10.472875",
+    "title_zh": "GoModel：Go 语言开源 AI 网关项目",
+    "ai_summary": "用Go语言编写的轻量级AI API网关，支持多模型路由"
+  },
+  {
+    "id": "7faac906f243",
+    "title": "John Ternus’ first big problem is AI",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/915662/john-ternus-apple-ceo-tim-cook-ai-problem-siri",
+    "source": "The Verge AI",
+    "lang": "en",
     "priority": 1,
-    "published": "2026-04-21T08:31:55",
-    "summary": "深挖人工智能与数字安全领域创新成果",
-    "collected_at": "2026-04-21T13:05:15.134521",
-    "ai_summary": "ISC.AI 2026在北京启动，聚焦智能体赛道共建AI创新生态"
+    "published": "2026-04-21T13:37:55",
+    "summary": "Less than a year ago, Apple made headlines for a lack of AI announcements at its annual WWDC event. Ten months later, the company has announced that hardware executive John Ternus will succeed longtime CEO Tim Cook as chief executive - and the official release doesn't mention AI once. Ternus, curren",
+    "collected_at": "2026-04-21T19:03:08.055306",
+    "ai_summary": "AI领域最新动态：John Ternus’ first big problem"
   },
   {
     "id": "14f356866e9c",
@@ -132,16 +260,55 @@
     "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。"
   },
   {
-    "id": "94e760ec8c27",
-    "title": "A股三大指数集体收涨，中国移动涨超3%",
-    "url": "https://36kr.com/newsflashes/3776231689683718?f=rss",
-    "source": "36氪",
+    "id": "1c1798db541e",
+    "title": "GRAI believes AI can make music more social, not replace artists",
+    "url": "https://techcrunch.com/2026/04/21/grai-believes-ai-can-make-music-more-social-not-replace-artists/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T13:00:00",
+    "summary": "AI music startup GRAI says fans want to remix tracks, not generate songs from scratch.",
+    "collected_at": "2026-04-21T19:03:08.000092",
+    "title_zh": "GRAI：AI 让音乐更社交化，而非取代艺术家",
+    "ai_summary": "AI音乐创业公司GRAI认为粉丝更想混音创作而非被动听歌"
+  },
+  {
+    "id": "a224803feccd",
+    "title": "The Download: turning down human noise, and LA’s stunning subway upgrade",
+    "url": "https://www.technologyreview.com/2026/04/21/1136246/the-download-human-noise-la-subway-upgrade/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T12:10:00",
+    "summary": "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. The noise we make is hurting animals. Can we learn to shut up? As human society has expanded, animals have started struggling to hear one another. For",
+    "collected_at": "2026-04-21T13:07:30.054343",
+    "ai_summary": "MIT科技评论每日速递：降低人类噪声污染、洛杉矶地铁升级等科技要闻",
+    "title_zh": "MIT 每日速递：降低人类噪声污染、洛杉矶地铁惊艳升级"
+  },
+  {
+    "id": "534c41abb2b5",
+    "title": "5月20日，马上AI起来！中国AIGC产业峰会报名已启动｜首波嘉宾官宣",
+    "url": "https://www.qbitai.com/2026/04/404096.html",
+    "source": "量子位",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T07:01:31",
-    "summary": "36氪获悉，A股三大指数集体收涨，沪指涨0.07%，深成指涨0.1%，创业板指涨0.31%；电信、石油化工、煤炭板块领涨，岳阳兴长涨停，兖矿能源涨超4%，中国移动涨超3%；AI算力、服务器、稳定币概念跌幅居前，英维克跌停，翠微股份跌超4%，寒武纪跌超3%。",
-    "collected_at": "2026-04-21T07:26:28.826212",
-    "ai_summary": "A股三大指数收涨，电信石化煤炭领涨，AI算力概念股逆势下跌。"
+    "priority": 1,
+    "published": "2026-04-21T12:02:52",
+    "summary": "欢迎报名，北京线下见！",
+    "collected_at": "2026-04-21T13:05:15.134490",
+    "ai_summary": "2026中国AIGC产业峰会将于5月20日举办，首波嘉宾阵容官宣"
+  },
+  {
+    "id": "f5db886a8b45",
+    "title": "Yelp is making its AI chatbot way more useful",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/915626/yelp-ai-assistant-chatbot-major-upgrade",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-21T11:00:00",
+    "summary": "Yelp is giving its chatbot assistant a major upgrade, turning the platform into something closer to a digital concierge with a suite of new features designed for \"getting things done.\" The move, one of several AI-focused updates in recent months, is part of a broader industry push to make AI more re",
+    "collected_at": "2026-04-21T13:07:29.936309",
+    "ai_summary": "Yelp大幅升级AI聊天机器人，搜索和推荐体验显著提升",
+    "title_zh": "Yelp 大幅升级 AI 聊天机器人：搜索推荐体验质的飞跃"
   },
   {
     "id": "002dcd93fd33",
@@ -156,16 +323,16 @@
     "ai_summary": "QCon 2026北京站聚焦AI重塑软件工程，展示AI在开发流程中的最新应用。"
   },
   {
-    "id": "bd6ce7c06e11",
-    "title": "理想汽车宣布首发高德汽车出行AI Agent",
-    "url": "https://36kr.com/newsflashes/3776210798199556?f=rss",
-    "source": "36氪",
+    "id": "a64c1765ac88",
+    "title": "物理优先+VLA闭环进化：高德ABot-World世界模型，破解具身智能零样本泛化难题",
+    "url": "https://www.qbitai.com/2026/04/404086.html",
+    "source": "量子位",
     "lang": "zh",
-    "priority": 3,
-    "published": "2026-04-21T06:40:16",
-    "summary": "4月20日，理想汽车称，将首发高德汽车出行AI Agent。双方合作内容将包括“精准理解复杂出行指令”“多轮对话灵活调整路线”“定制专属个性化导航方案”“智能规划长途补能路径”等。前一日，高德官方发布一则产品宣传片，对外展示了其在出行场景的主动理解模糊和复杂意图的能力。",
-    "collected_at": "2026-04-21T07:26:28.826288",
-    "ai_summary": "理想汽车与高德合作，将首发汽车出行AI Agent，支持多轮对话和个性化导航。"
+    "priority": 1,
+    "published": "2026-04-21T08:45:58",
+    "summary": "高精渲染引擎，解决\"数据稀缺\"",
+    "collected_at": "2026-04-21T13:05:15.134508",
+    "ai_summary": "高德ABot-World以物理优先+VLA闭环破解机器人零样本泛化难题"
   },
   {
     "id": "cfafda58af12",
@@ -180,16 +347,16 @@
     "ai_summary": "Anthropic内部同时推进百余产品原型，新模型Mythos表现断层领先引发关注。"
   },
   {
-    "id": "8dde80975b62",
-    "title": "都让让！赛博女娲蒸馏一切，让乔布斯马斯克集体给你打工",
-    "url": "https://www.qbitai.com/2026/04/403871.html",
+    "id": "d3f7b3a9b8ea",
+    "title": "ISC.AI 2026创新独角兽沙盒大赛在京启动 聚焦智能体 共筑AI创新生态",
+    "url": "https://www.qbitai.com/2026/04/404082.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T06:26:50",
-    "summary": "上线一周破万星",
-    "collected_at": "2026-04-21T13:05:15.134534",
-    "ai_summary": "AI蒸馏技术让虚拟名人成为你的AI员工，赛博女娲引发热议"
+    "published": "2026-04-21T08:31:55",
+    "summary": "深挖人工智能与数字安全领域创新成果",
+    "collected_at": "2026-04-21T13:05:15.134521",
+    "ai_summary": "ISC.AI 2026在北京启动，聚焦智能体赛道共建AI创新生态"
   },
   {
     "id": "d2bab11dbf10",
@@ -204,16 +371,16 @@
     "ai_summary": "Claude Code桌面版体验遭吐槽，Anthropic在AI编码工具落地中面临用户体验挑战。"
   },
   {
-    "id": "79a51ee8db3f",
-    "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
-    "url": "https://www.qbitai.com/2026/04/403872.html",
-    "source": "量子位",
+    "id": "94e760ec8c27",
+    "title": "A股三大指数集体收涨，中国移动涨超3%",
+    "url": "https://36kr.com/newsflashes/3776231689683718?f=rss",
+    "source": "36氪",
     "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T06:19:22",
-    "summary": "不做Robotaxi，专攻机场的L4公司要IPO了",
-    "collected_at": "2026-04-21T13:05:15.134545",
-    "ai_summary": "自动驾驶公司冲刺港股IPO，机场无人驾驶商业化提速"
+    "priority": 3,
+    "published": "2026-04-21T07:01:31",
+    "summary": "36氪获悉，A股三大指数集体收涨，沪指涨0.07%，深成指涨0.1%，创业板指涨0.31%；电信、石油化工、煤炭板块领涨，岳阳兴长涨停，兖矿能源涨超4%，中国移动涨超3%；AI算力、服务器、稳定币概念跌幅居前，英维克跌停，翠微股份跌超4%，寒武纪跌超3%。",
+    "collected_at": "2026-04-21T07:26:28.826212",
+    "ai_summary": "A股三大指数收涨，电信石化煤炭领涨，AI算力概念股逆势下跌。"
   },
   {
     "id": "c608c13b9389",
@@ -228,16 +395,16 @@
     "ai_summary": "Opus 4.7发布，Claude Code开发者分享心得：模型升级背后更关键的是开发方式变革。"
   },
   {
-    "id": "54c89e1d367c",
-    "title": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
-    "url": "https://www.qbitai.com/2026/04/403867.html",
-    "source": "量子位",
-    "lang": "zh",
-    "priority": 1,
-    "published": "2026-04-21T04:57:31",
-    "summary": "于3月6日上线并开启小范围封测。",
-    "collected_at": "2026-04-21T07:24:06.343166",
-    "ai_summary": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。"
+    "id": "20f6e3aa2500",
+    "title": "Less human AI agents, please",
+    "url": "https://nial.se/blog/less-human-ai-agents-please/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T06:58:08",
+    "summary": "Article URL: https://nial.se/blog/less-human-ai-agents-please/ Comments URL: https://news.ycombinator.com/item?id=47845429 Points: 109 # Comments: 121",
+    "collected_at": "2026-04-21T19:03:10.472904",
+    "ai_summary": "AI领域最新动态：Less human AI agents, please"
   },
   {
     "id": "d49d1f89bfb5",
@@ -252,16 +419,28 @@
     "ai_summary": "AI提效20%却让程序员加班更严重，企业以AI产出衡量生产力引发行业反思。"
   },
   {
-    "id": "cdac8ff3a4ae",
-    "title": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
-    "url": "https://www.qbitai.com/2026/04/403859.html",
+    "id": "bd6ce7c06e11",
+    "title": "理想汽车宣布首发高德汽车出行AI Agent",
+    "url": "https://36kr.com/newsflashes/3776210798199556?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-21T06:40:16",
+    "summary": "4月20日，理想汽车称，将首发高德汽车出行AI Agent。双方合作内容将包括“精准理解复杂出行指令”“多轮对话灵活调整路线”“定制专属个性化导航方案”“智能规划长途补能路径”等。前一日，高德官方发布一则产品宣传片，对外展示了其在出行场景的主动理解模糊和复杂意图的能力。",
+    "collected_at": "2026-04-21T07:26:28.826288",
+    "ai_summary": "理想汽车与高德合作，将首发汽车出行AI Agent，支持多轮对话和个性化导航。"
+  },
+  {
+    "id": "8dde80975b62",
+    "title": "都让让！赛博女娲蒸馏一切，让乔布斯马斯克集体给你打工",
+    "url": "https://www.qbitai.com/2026/04/403871.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T04:54:43",
-    "summary": "当代码可以被生成，程序员还能做些什么？",
-    "collected_at": "2026-04-21T07:24:06.343187",
-    "ai_summary": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。"
+    "published": "2026-04-21T06:26:50",
+    "summary": "上线一周破万星",
+    "collected_at": "2026-04-21T13:05:15.134534",
+    "ai_summary": "AI蒸馏技术让虚拟名人成为你的AI员工，赛博女娲引发热议"
   },
   {
     "id": "8ced0b305398",
@@ -276,16 +455,40 @@
     "ai_summary": "奇世智能完成天使轮融资，专注AI母婴智能硬件生态，资金将用于技术研发与人才引进。"
   },
   {
-    "id": "a40b2dd62b3f",
-    "title": "技术深度揭秘｜云知声U1-OCR架构升级 + API 开放，重构 OCR 3.0 时代",
-    "url": "https://www.qbitai.com/2026/04/403836.html",
+    "id": "79a51ee8db3f",
+    "title": "把人类驾驶员赶出机场，复旦大牛校友要港股IPO了",
+    "url": "https://www.qbitai.com/2026/04/403872.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T04:50:16",
-    "summary": "采用Token 计费模式",
-    "collected_at": "2026-04-21T07:24:06.343207",
-    "ai_summary": "云知声发布U1-OCR架构升级方案，采用Token计费模式开放API，推动OCR 3.0技术普及。"
+    "published": "2026-04-21T06:19:22",
+    "summary": "不做Robotaxi，专攻机场的L4公司要IPO了",
+    "collected_at": "2026-04-21T13:05:15.134545",
+    "ai_summary": "自动驾驶公司冲刺港股IPO，机场无人驾驶商业化提速"
+  },
+  {
+    "id": "ebe8ea3b94bc",
+    "title": "A Roblox cheat and one AI tool brought down Vercel's platform",
+    "url": "https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-21T04:12:12",
+    "summary": "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148",
+    "collected_at": "2026-04-21T19:03:10.472927",
+    "ai_summary": "AI领域最新动态：A Roblox cheat and one AI tool"
+  },
+  {
+    "id": "54c89e1d367c",
+    "title": "小米宣布上线PC版龙虾，Xiaomi miclaw正式开启PC、Mac、有屏音箱多终端封测",
+    "url": "https://www.qbitai.com/2026/04/403867.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T04:57:31",
+    "summary": "于3月6日上线并开启小范围封测。",
+    "collected_at": "2026-04-21T07:24:06.343166",
+    "ai_summary": "小米宣布Xiaomi miclaw开启PC、Mac和有屏音箱多终端封测，扩展智能助手生态。"
   },
   {
     "id": "24ccc16920f1",
@@ -300,16 +503,16 @@
     "ai_summary": "智能锂电园林公司完成数千万元融资，出货量破万台，硬氪独家报道。"
   },
   {
-    "id": "5d09a2af9cf7",
-    "title": "天立启鸣AI研究院院长刘志毅，入选2025福布斯中国科创人物",
-    "url": "https://www.qbitai.com/2026/04/403825.html",
+    "id": "cdac8ff3a4ae",
+    "title": "Agent正杀入软件研发一线！全球超60位技术专家拆解AI落地困局，2026奇点智能技术大会收官",
+    "url": "https://www.qbitai.com/2026/04/403859.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T04:33:09",
-    "summary": "教育+AI引领智能时代新范式",
-    "collected_at": "2026-04-21T07:24:06.343224",
-    "ai_summary": "天立启鸣AI研究院院长刘志毅入选福布斯中国科创人物，教育AI引领新时代。"
+    "published": "2026-04-21T04:54:43",
+    "summary": "当代码可以被生成，程序员还能做些什么？",
+    "collected_at": "2026-04-21T07:24:06.343187",
+    "ai_summary": "2026奇点智能技术大会探讨AI Agent在软件研发中的应用，60余位专家解析落地挑战。"
   },
   {
     "id": "4556fec8d0f0",
@@ -324,16 +527,16 @@
     "ai_summary": "Eight Sleep CTO专访：被马斯克追捧的AI床垫进入中国，订阅模式面临本土化挑战。"
   },
   {
-    "id": "d8a93848c4e3",
-    "title": "K型分化，如何破局？| 第20届中国投资年会·年度峰会即将启幕",
-    "url": "https://www.qbitai.com/2026/04/403822.html",
+    "id": "a40b2dd62b3f",
+    "title": "技术深度揭秘｜云知声U1-OCR架构升级 + API 开放，重构 OCR 3.0 时代",
+    "url": "https://www.qbitai.com/2026/04/403836.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T03:11:15",
-    "summary": "见证行业20年的演进。",
-    "collected_at": "2026-04-21T07:24:06.343239",
-    "ai_summary": "第20届中国投资年会即将启幕，探讨K型经济分化下的产业投资策略与破局之道。"
+    "published": "2026-04-21T04:50:16",
+    "summary": "采用Token 计费模式",
+    "collected_at": "2026-04-21T07:24:06.343207",
+    "ai_summary": "云知声发布U1-OCR架构升级方案，采用Token计费模式开放API，推动OCR 3.0技术普及。"
   },
   {
     "id": "aecd58a5aec4",
@@ -348,16 +551,16 @@
     "ai_summary": "库克或将卸任苹果CEO；爱奇艺回应AI艺人库争议；日本地震修正为7.7级。"
   },
   {
-    "id": "a7590acd3d7b",
-    "title": "这次，库克真的要卸任苹果CEO了！",
-    "url": "https://www.qbitai.com/2026/04/403790.html",
+    "id": "5d09a2af9cf7",
+    "title": "天立启鸣AI研究院院长刘志毅，入选2025福布斯中国科创人物",
+    "url": "https://www.qbitai.com/2026/04/403825.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T00:14:04",
-    "summary": "库克公开告别信出炉",
-    "collected_at": "2026-04-21T07:24:06.343254",
-    "ai_summary": "苹果CEO库克或将卸任，标志着这家科技巨头可能迎来管理层重大变动。"
+    "published": "2026-04-21T04:33:09",
+    "summary": "教育+AI引领智能时代新范式",
+    "collected_at": "2026-04-21T07:24:06.343224",
+    "ai_summary": "天立启鸣AI研究院院长刘志毅入选福布斯中国科创人物，教育AI引领新时代。"
   },
   {
     "id": "ad8b96a4b1a5",
@@ -372,16 +575,16 @@
     "ai_summary": "亚马逊再投50亿美元给Anthropic，Anthropic承诺在AWS上消费1000亿美元，形成深度绑定合作。"
   },
   {
-    "id": "37d1903cea51",
-    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
-    "url": "https://www.qbitai.com/2026/04/403777.html",
+    "id": "d8a93848c4e3",
+    "title": "K型分化，如何破局？| 第20届中国投资年会·年度峰会即将启幕",
+    "url": "https://www.qbitai.com/2026/04/403822.html",
     "source": "量子位",
     "lang": "zh",
     "priority": 1,
-    "published": "2026-04-21T00:06:39",
-    "summary": "重塑具身世界模型评价方式",
-    "collected_at": "2026-04-21T07:24:06.343275",
-    "ai_summary": "跨维智能DexWorldModel在世界模型榜单登顶，证明机器人执行才是AI真正考场。"
+    "published": "2026-04-21T03:11:15",
+    "summary": "见证行业20年的演进。",
+    "collected_at": "2026-04-21T07:24:06.343239",
+    "ai_summary": "第20届中国投资年会即将启幕，探讨K型经济分化下的产业投资策略与破局之道。"
   },
   {
     "id": "22ed5bdd3a5d",
@@ -396,6 +599,18 @@
     "ai_summary": "谷歌将Gemini AI功能扩展至Chrome浏览器，在亚太七国桌面和iOS端同步上线。"
   },
   {
+    "id": "a7590acd3d7b",
+    "title": "这次，库克真的要卸任苹果CEO了！",
+    "url": "https://www.qbitai.com/2026/04/403790.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T00:14:04",
+    "summary": "库克公开告别信出炉",
+    "collected_at": "2026-04-21T07:24:06.343254",
+    "ai_summary": "苹果CEO库克或将卸任，标志着这家科技巨头可能迎来管理层重大变动。"
+  },
+  {
     "id": "e751673f562b",
     "title": "Silicon Valley has forgotten what normal people want",
     "url": "https://www.theverge.com/tldr/915176/nft-metaverse-ai-weirdos",
@@ -406,6 +621,30 @@
     "summary": "One of the most mortifying things about knowing a lot of techies is listening to them tell me excitedly about some very important discovery that they believe they have made. Recently, I ran into an acquaintance of mine, who began talking my ear off about an amazing discovery he'd made with LLMs. Kno",
     "collected_at": "2026-04-21T00:06:29.957746",
     "ai_summary": "硅谷科技圈沉迷AI炒作，却忽视普通用户真正需求，呼吁回归产品本质。"
+  },
+  {
+    "id": "37d1903cea51",
+    "title": "跨维智能DexWorldModel斩获榜首，世界模型真正的考场在机器人执行里",
+    "url": "https://www.qbitai.com/2026/04/403777.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-21T00:06:39",
+    "summary": "重塑具身世界模型评价方式",
+    "collected_at": "2026-04-21T07:24:06.343275",
+    "ai_summary": "跨维智能DexWorldModel在世界模型榜单登顶，证明机器人执行才是AI真正考场。"
+  },
+  {
+    "id": "aa46eaab1fd5",
+    "title": "AI Resistance: some recent anti-AI stuff that’s worth discussing",
+    "url": "https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-20T20:19:13",
+    "summary": "Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400",
+    "collected_at": "2026-04-21T19:03:10.472949",
+    "ai_summary": "AI领域最新动态：AI Resistance: some recent ant"
   },
   {
     "id": "5ce42f9f60d6",
@@ -492,6 +731,18 @@
     "ai_summary": "支付宝官宣华为AI眼镜支持鸿蒙版「看一下支付」功能。"
   },
   {
+    "id": "52c388807458",
+    "title": "Deezer says 44% of songs uploaded to its platform daily are AI-generated",
+    "url": "https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-20T15:41:02",
+    "summary": "Article URL: https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/ Comments URL: https://news.ycombinator.com/item?id=47835928 Points: 356 # Comments: 377",
+    "collected_at": "2026-04-21T19:03:10.472970",
+    "ai_summary": "AI领域最新动态：Deezer says 44% of songs uploa"
+  },
+  {
     "id": "4138cace1a29",
     "title": "TDSQL-C 核心技术突破：AI 加持下的 Serverless 智能化弹性四层架构解析",
     "url": "https://www.infoq.cn/video/qyTsCKj32wUD8Dmy3xWr?utm_source=rss&utm_medium=article",
@@ -514,6 +765,18 @@
     "summary": "The startup, co-founded by former U.S. Energy Secretary Rick Perry, has faced headwinds with its AI campus in Texas.",
     "collected_at": "2026-04-20T18:54:51.357452",
     "ai_summary": "AI核电初创Fermi CEO和CFO突然离职，得州项目遇阻。"
+  },
+  {
+    "id": "9451d07ce7b2",
+    "title": "Show HN: Mediator.ai – Using Nash bargaining and LLMs to systematize fairness",
+    "url": "https://mediator.ai/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-20T15:07:04",
+    "summary": "Eight years ago, my then-fiancée and I decided to get a prenup, so we hired a local mediator. The meetings were useful, but I felt there was no systematic process to produce a final agreement. So I started to think about this problem, and after a bit of research, I discovered the Nash bargaining sol",
+    "collected_at": "2026-04-21T19:03:10.473050",
+    "ai_summary": "AI领域最新动态：Show HN: Mediator.ai – Using N"
   },
   {
     "id": "927f0bedcd28",
@@ -627,6 +890,18 @@
     "summary": "36氪获悉，4月20日下午，广东省委财经委员会召开会议。会议指出，投资对经济增长起关键作用，做好当前和今后一个时期的经济工作，稳投资要继续加力。重大项目是稳投资、优结构的重要载体，要强化走在前、作示范、挑大梁的责任担当，树立大抓项目促发展的鲜明导向，把重大项目的储备布局建设牢牢抓在手上，加快见效成势，更好牵引带动投资回稳向好。要谋深做实基础设施项目，系统推进交通、能源、水利等重点项目建设，推动已纳",
     "collected_at": "2026-04-20T14:21:35.406258",
     "ai_summary": "广东：要用好产业引导基金，加大对集成电路、具身智能、算电协同等领域的投资。"
+  },
+  {
+    "id": "87eef7e7813a",
+    "title": "Atlassian enables default data collection to train AI",
+    "url": "https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-20T12:23:39",
+    "summary": "Article URL: https://letsdatascience.com/news/atlassian-enables-default-data-collection-to-train-ai-f71343d8 Comments URL: https://news.ycombinator.com/item?id=47833247 Points: 588 # Comments: 130",
+    "collected_at": "2026-04-21T19:03:10.473071",
+    "ai_summary": "AI领域最新动态：Atlassian enables default data"
   },
   {
     "id": "f2c49cd52da1",
@@ -824,15 +1099,16 @@
     "ai_summary": "36氪首发 | 首创“玩偶+主机”模式，多智能体儿童AI玩具。"
   },
   {
-    "id": "e0862fe09092",
-    "title": "OpenAI’s existential questions",
-    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
-    "source": "TechCrunch AI",
+    "id": "1b369ae19455",
+    "title": "Anthropic installed a spyware bridge on my machine?",
+    "url": "https://www.thatprivacyguy.com/blog/anthropic-spyware/",
+    "source": "Hacker News AI",
     "lang": "en",
-    "published": "2026-04-19T21:24:06",
-    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
-    "collected_at": "2026-04-20T14:21:41.906140",
-    "ai_summary": "OpenAI’s existential questions。"
+    "priority": 2,
+    "published": "2026-04-20T02:41:50",
+    "summary": "Article URL: https://www.thatprivacyguy.com/blog/anthropic-spyware/ Comments URL: https://news.ycombinator.com/item?id=47829800 Points: 109 # Comments: 32",
+    "collected_at": "2026-04-21T19:03:10.473091",
+    "ai_summary": "AI领域最新动态：Anthropic installed a spyware "
   },
   {
     "id": "1652f2ab0793",
@@ -844,6 +1120,17 @@
     "summary": "文｜李小霞 编辑｜乔芊 杨轩 36氪独家从知情人士处获悉，字节跳动2025年海外营收增长近50%，远超约20%的国内营收增幅，海外业务营收占比也从2024年的25%提升至超三成，创下新高。 TikTok电商业务是字节跳动海外营收增长的主要动力。据悉，TikTok Shop",
     "collected_at": "2026-04-20T14:21:35.406239",
     "ai_summary": "字节跳动2025年海外营收占比创新高，AI投入致公司净利大降。"
+  },
+  {
+    "id": "e0862fe09092",
+    "title": "OpenAI’s existential questions",
+    "url": "https://techcrunch.com/2026/04/19/openais-existential-questions/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "published": "2026-04-19T21:24:06",
+    "summary": "On the latest episode of Equity, we discuss OpenAI's latest acquisitions and whether they address \"two big existential problems\" for the company.",
+    "collected_at": "2026-04-20T14:21:41.906140",
+    "ai_summary": "OpenAI’s existential questions。"
   },
   {
     "id": "14b4d3c07b74",
