@@ -49,6 +49,21 @@ def sync_to_site():
     return f"同步 {count} 个文件到 site/data/"
 
 
+def write_meta(now, results):
+    meta = {
+        "last_update": now,
+        "version": "3.0",
+        "results": results,
+    }
+    meta_path = os.path.join(DATA_DIR, "meta.json")
+    with open(meta_path, "w", encoding="utf-8") as f:
+        json.dump(meta, f, ensure_ascii=False, indent=2)
+
+    if not os.path.exists(SITE_DATA_DIR):
+        os.makedirs(SITE_DATA_DIR)
+    shutil.copy2(meta_path, os.path.join(SITE_DATA_DIR, "meta.json"))
+
+
 def main():
     now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"🚀 AI热榜数据采集 v3.0 - {now}")
@@ -118,16 +133,11 @@ def main():
     fail = sum(1 for v in results.values() if v.startswith("❌"))
     print(f"📊 结果: {success} 成功 / {fail} 失败 / {len(results)} 总计")
 
-    # 写入元数据
-    meta = {
-        "last_update": now,
-        "version": "3.0",
-        "results": results,
-    }
-    with open(os.path.join(DATA_DIR, "meta.json"), "w") as f:
-        json.dump(meta, f, ensure_ascii=False, indent=2)
+    # 写入元数据（同时同步到 site/data，确保首页更新时间立即可见）
+    finish_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    write_meta(finish_time, results)
 
-    print(f"\n✅ 采集流程结束 - {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print(f"\n✅ 采集流程结束 - {finish_time}")
 
 
 if __name__ == "__main__":

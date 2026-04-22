@@ -1,22 +1,7 @@
 {
-  "last_update": "2026-04-22 01:50:55",
+  "last_update": "2026-04-22 06:21:59",
   "version": "3.0",
   "results": {
-    "📰 RSS新闻": "✅ 13 条新新闻 (总计 174)",
-    "📰 API新闻": "❌ '<' not supported between instances of 'str' and 'int'",
-    "🔀 新闻穿插": "✅ 穿插完成: 174 条, Top20 来源分布: {'36氪': 1, 'TechCrunch AI': 7, 'The Verge AI': 4, 'MIT Tech Review': 5, 'InfoQ AI': 2, 'Hacker News AI': 1}",
-    "🔍 GitHub项目": "✅ 1 个新项目 (总计 166)",
-    "📈 GitHub热度": "✅ 追踪 166 个项目, 0 个热度飙升",
-    "🤗 HF模型": "✅ 51 个新模型 (总计 305)",
-    "🔑 关键词": "✅ 269 个新关键词 (总计 316, 热点 0)",
-    "🤖 Agent发现": "✅ 无新发现，当前 49 个Agent",
-    "🔥 保留热点": "✅ 由Hermes定时任务生成",
-    "⭐ 每日精选": "✅ 今日精选: 文心一言 (tool)",
-    "🔗 链接检查": "✅ 检查完成, 6 个坏链",
-    "📝 新闻摘要": "✅ 更新 0 条新闻摘要",
-    "📰 每日快报": "✅ 生成每日快报（20 条新闻）",
-    "⭐ 工具评分": "✅ 更新 169 个工具评分",
-    "📦 同步数据": "✅ 同步 14 个文件到 site/data/",
-    "🗺️ 生成Sitemap": "❌ [Errno 13] Permission denied: '/root/ai-hot/site/static/sitemap.xml'"
+    "手动更新": "✅ 首页更新时间已修复 2026-04-22 06:21:59"
   }
 }
