@@ -44,25 +44,41 @@ def generate_daily_briefing():
     with open(news_path, "r", encoding="utf-8") as f:
         news = json.load(f)
 
-    recent_news = news[:20]
+    def clean_text(text):
+        text = str(text or "").replace("\n", " ").strip()
+        text = " ".join(text.split())
+        return text
+
+    def mostly_ascii(text):
+        text = text or ""
+        if not text:
+            return False
+        ascii_chars = sum(1 for ch in text if ord(ch) < 128)
+        return ascii_chars / max(len(text), 1) > 0.75
+
+    bad_summaries = {"点击查看原文>", "点击查看原文", "阅读全文", "Read more", ""}
     sources = {}
     highlights = []
     picked_titles = set()
-    bad_summaries = {"点击查看原文>", "点击查看原文", "阅读全文", "Read more", ""}
-    for item in recent_news:
+
+    for item in news[:50]:
         source = item.get("source", "未知")
         sources[source] = sources.get(source, 0) + 1
 
-        title = item.get("title_zh") or item.get("title") or ""
+        title = clean_text(item.get("title_zh") or item.get("title") or "")
         if not title or title in picked_titles:
             continue
 
-        summary = item.get("ai_summary") or item.get("summary_zh") or item.get("summary") or ""
-        summary = str(summary).replace("\n", " ").strip()
+        summary = clean_text(item.get("ai_summary") or item.get("summary_zh") or item.get("summary") or "")
         if summary in bad_summaries:
-            summary = ""
-        if not summary:
-            summary = title
+            continue
+        if summary == title:
+            continue
+        if mostly_ascii(title) and not item.get("title_zh"):
+            continue
+        if len(summary) < 12:
+            continue
+
         if len(summary) > 70:
             summary = summary[:70].rstrip("，。；： ") + "…"
 
@@ -77,12 +93,12 @@ def generate_daily_briefing():
             break
 
     focus = [f"{idx+1}. {h['title']}：{h['summary']}" for idx, h in enumerate(highlights)]
-    content = "今日值得关注的 AI 动态：\n\n" + "\n\n".join(focus) if focus else f"今日共收录 {len(recent_news)} 条 AI 新闻。"
+    content = "今日值得关注的 AI 动态：\n\n" + "\n\n".join(focus) if focus else "今日暂无可用快报。"
 
     briefing = {
         "date": datetime.now().strftime("%Y-%m-%d"),
         "content": content,
-        "news_count": len(recent_news),
+        "news_count": min(len(news), 20),
         "sources": sources,
         "highlights": highlights,
     }
@@ -90,7 +106,7 @@ def generate_daily_briefing():
     with open(briefing_path, "w", encoding="utf-8") as f:
         json.dump(briefing, f, ensure_ascii=False, indent=2)
 
-    return f"生成每日快报（{len(recent_news)} 条新闻，提炼 {len(highlights)} 条重点）"
+    return f"生成每日快报（提炼 {len(highlights)} 条重点）"
 
 
 def score_tools():

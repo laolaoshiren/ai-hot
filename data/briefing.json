@@ -1,30 +1,18 @@
 {
   "date": "2026-04-22",
-  "content": "今日值得关注的 AI 动态：\n\n1. 高能研讨会｜端侧 AI 正在重写实时感知效率上限：高能研讨会｜端侧 AI 正在重写实时感知效率上限\n\n2. AI is spitting out more potential drugs than ever. This start-up wants to figure out which ones matter.：10x Science has raised a $4.8 million seed round to help pharmaceutica…\n\n3. 金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践：金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践\n\n4. 谷歌云AI使用量达到每分钟160亿Tokens：谷歌表示，通过客户直接使用API，现在每分钟处理超过160亿Tokens，高于上季度的100亿个。（财联社）\n\n5. 在AK大神爆火的任务里，摸清国产AI真实水平：Kimi K2.6 的真正看点，不是跑分，而是它在 Agent 长链执行上的系统承载能力。",
+  "content": "今日值得关注的 AI 动态：\n\n1. AI 已能批量提出候选药物，10x Science 想先解决“怎么筛出真有用的分子”：药物发现的瓶颈正在从“生成候选”转向“验证候选”，10x Science 想用 AI + 质谱分析补上这一段。\n\n2. 谷歌云AI使用量达到每分钟160亿Tokens：谷歌表示，通过客户直接使用API，现在每分钟处理超过160亿Tokens，高于上季度的100亿个。（财联社）\n\n3. 在AK大神爆火的任务里，摸清国产AI真实水平：Kimi K2.6 的真正看点，不是跑分，而是它在 Agent 长链执行上的系统承载能力。\n\n4. 谷歌云发布用于人工智能的新型TPU芯片：4月22日，谷歌云发布最新一代张量处理单元（TPU），旨在提升人工智能计算服务的速度和效率。全新TPU系列将推出两个版本：TPU 8t用于创…\n\n5. 百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力：蚂蚁发布 Ling-2.6-flash，主打更低 token 消耗下的 Agent 任务能力和推理效率。",
   "news_count": 20,
   "sources": {
-    "InfoQ AI": 3,
+    "InfoQ AI": 4,
     "TechCrunch AI": 1,
-    "36氪": 1
+    "36氪": 2
   },
   "highlights": [
     {
-      "title": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "summary": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "source": "InfoQ AI",
-      "url": "https://aihot.bt199.com/news/7a9b70440e6e/"
-    },
-    {
-      "title": "AI is spitting out more potential drugs than ever. This start-up wants to figure out which ones matter.",
-      "summary": "10x Science has raised a $4.8 million seed round to help pharmaceutica…",
+      "title": "AI 已能批量提出候选药物，10x Science 想先解决“怎么筛出真有用的分子”",
+      "summary": "药物发现的瓶颈正在从“生成候选”转向“验证候选”，10x Science 想用 AI + 质谱分析补上这一段。",
       "source": "TechCrunch AI",
       "url": "https://aihot.bt199.com/news/23dd20ec4376/"
-    },
-    {
-      "title": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
-      "summary": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
-      "source": "InfoQ AI",
-      "url": "https://aihot.bt199.com/news/6c675e87f2f0/"
     },
     {
       "title": "谷歌云AI使用量达到每分钟160亿Tokens",
@@ -37,6 +25,18 @@
       "summary": "Kimi K2.6 的真正看点，不是跑分，而是它在 Agent 长链执行上的系统承载能力。",
       "source": "InfoQ AI",
       "url": "https://aihot.bt199.com/news/08ac11fc1cdb/"
+    },
+    {
+      "title": "谷歌云发布用于人工智能的新型TPU芯片",
+      "summary": "4月22日，谷歌云发布最新一代张量处理单元（TPU），旨在提升人工智能计算服务的速度和效率。全新TPU系列将推出两个版本：TPU 8t用于创…",
+      "source": "36氪",
+      "url": "https://aihot.bt199.com/news/1d6cf28191fb/"
+    },
+    {
+      "title": "百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力",
+      "summary": "蚂蚁发布 Ling-2.6-flash，主打更低 token 消耗下的 Agent 任务能力和推理效率。",
+      "source": "InfoQ AI",
+      "url": "https://aihot.bt199.com/news/62f1d3326d78/"
     }
   ]
 }
