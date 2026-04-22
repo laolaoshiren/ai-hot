@@ -144,8 +144,15 @@
     "content_source": "trafilatura",
     "content_chars": 1345,
     "content_excerpt": "4 月 22 日，蚂蚁百灵正式推出 Ling-2.6-flash —— 一款总参数量 104B、激活参数 7.4B 的 Instruct 模型。该模型主打“Token 效率（Token Efficiency）”，在保持竞争力智能水平的同时，更快、更省以及更适合大规模真实应用。\n据权威三方评测 Artificial Analysis 数据，Ling-2.6-flash 展现了突出的 Token Efficiency 优势，以 15M output tokens 实现了 26 分的 Intelligence Index，在保持较强智能水平的同时，将输出消耗控制在相对更低的位置。相比部分依赖更长输出换取更高分数的模型，Ling-2.6-flash 在“智能表现”与“输出成本”之间取得了更优平衡。\n对于开发者和企业场景而言，这种效率优势意味着更低的推理开销、更快的首字响应、更短的整体生成时延，以及更流畅的交互体验，满足在真实部署环境下对速度、成本与体验的综合要求。\nLing-2.6-flash 沿用了 Ling 2.5 的混合线性架构设计，这种高度稀疏化的 MoE 架构在硬件表现上优势明显。\n在 4 卡 H20 条件下推理速度最快可达到 340 tokens/s\nPrefill 吞吐达到 Nemotron-3-Super 的 2.2 倍\n在 Output Speed 测评中，Ling-2.6-flash 以 215 tokens/s 的稳定输出速度位列同参数级别模型的第一梯队\n从 Token 消耗来看，Ling-2.6-flash 的智效比显著提升。\n在 Artificial Analysis 完整测评中，Ling-2.6-flash 总消耗为 15M tokens\nNemotron-3-Super 等模型达到或超过 110M tokens",
-    "ai_summary": "蚂蚁发布 Ling-2.6-flash，主打更低 token 消耗下的 Agent 任务能力和推理效率。",
-    "summary_zh": "百灵 Ling-2.6-flash 是一款 104B 总参数、7.4B 激活参数的稀疏 MoE 模型，重点强调 Token Efficiency。它在保持 Agent 基准成绩的同时，把输出 token 消耗压到同类模型的大约十分之一，更适合真实业务里的低成本、高吞吐部署。"
+    "ai_summary": "Ling-2.6-flash 主打的不是参数噱头，而是用更少 token 跑出可用的 Agent 能力。",
+    "summary_zh": "蚂蚁百灵推出 Ling-2.6-flash，强调在保持 Agent 任务能力的同时，把输出 token 消耗压到同类模型的大约十分之一。相比继续靠更长回答堆分数，这款模型更像是在回应企业真实需求：成本、时延、吞吐和可规模化部署，才是能否落地的关键。",
+    "title_zh": "蚂蚁发布 Ling-2.6-flash：把大模型竞争点从“更强”拉回“更省”",
+    "takeaways": [
+      "模型评分继续重要，但企业更关心同样效果下要花多少 token、多久能返回结果。",
+      "Ling-2.6-flash 的卖点是智效比，即性能和推理成本之间的平衡。",
+      "如果低消耗 Agent 模型跑通，价格战和部署效率会成为下一阶段国内模型竞争焦点。"
+    ],
+    "rewrite_body": "蚂蚁这次发布 Ling-2.6-flash，最值得看的不是“又一个百亿级模型”，而是它试图把大模型竞争从一味追求更强，拉回到真实业务更在意的那几个指标：成本、速度和吞吐。\n\n按照官方给出的数据，这款模型在多项 Agent 相关评测中保持了较强表现，但把总 token 消耗压到了部分同类模型的大约十分之一。换句话说，它想证明一件事：模型不一定要靠输出更长、推理更重，才能拿到足够好的任务结果。\n\n这背后反映的是行业评价标准的变化。过去很多模型更新更像“刷榜比赛”，比谁在基准上再高几分；但真正进入企业部署后，第一响应时间、并发能力、单次调用成本和整体推理开销，往往比极限分数更重要。\n\n所以 Ling-2.6-flash 的意义，不只是蚂蚁又发了一款新模型，而是它把“Token Efficiency”明确提到了台前。对于开发者和企业来说，这类模型如果足够稳定，意味着更低的 API 成本、更容易的大规模调用，以及把 Agent 从演示环境推向高频业务流程的可能性。\n\n接下来国内模型竞争很可能会继续分化：一类产品继续追求更强的上限，另一类则更强调智效比和商业可用性。Ling-2.6-flash 明显站在后者这一边。"
   },
   {
     "id": "10f96a9703c4",
@@ -200,15 +207,15 @@
     "content_source": "trafilatura",
     "content_chars": 5847,
     "content_excerpt": "AI’s biggest impact in science is Google DeepMind’s use of a deep learning model to predict the complex structures of proteins — the molecules that drive virtually every process in living cells.\nBut as AI models continue to spit out more candidates for potential treatments, there’s an emerging bottleneck: actually characterizing all those candidates in practice, for testing and mass production.\nThat’s the goal of 10x Science, a startup founded in December 2025 that announced a $4.8 million seed round today, led by Initialized Capital and with backing from Y Combinator, Civilization Ventures, and Founder Factor. Its three founders are David Roberts and Andrew Reiter, experienced biochemists, and Vishnu Tejas, a serial founder with expertise in computer science and AI models.\n“When biopharma tries to create a drug candidate, they have all of these really nice prediction tools,” Roberts told TechCrunch. “You can add as many candidates as you want to the top of the funnel, but they all have to pass through this characterization process. Everything needs to be measured.”\nUnderstanding the structure of proteins is key for researchers developing biologic drugs, which are produced in living cells and use sophisticated design to specifically target diseases and conditions. For example, they can be designed to target specific cells, like Keytruda, a popular drug sold by Merck that helps the immune system identify and attack cancers.\n10x’s three founders worked together in the Stanford lab of Nobel laureate Dr. Carolyn Bertozzi, where they studied the interactions between cancer cells and the immune system, and were frustrated by their inability to understand precisely what was happening on a molecular level.\nThe most accurate way to assess molecules is through a complex technique called mass spectrometry, a way of determining their atomic structure by measuring them in an electric field. The relatively new technique generates complex data that requires significant expertise to interpret, and analyzing it takes up a lot of time.\n10x’s platform combines deterministic algorithms rooted in chemistry and biology with AI agents that can interpret that data. The team had to do significant work to train the models on spectrometry data and make its analyses traceable, a key requirement for a tool that will be used to help companies achieve regulatory compliance.\nMatthew Crawford is a scientist at Rilas Technologies, a firm that runs chemical analyses for other companies — saving clients like biotech startups from having to invest several million dollars in their own spectrometry equipment and the experts to operate it. Crawford has been using the 10x Science platform for several weeks and says it is speeding up his work.\nCrawford said the model surprised him with its ability to explain its conclusions, find the right data for analyses on its own, and adapt to evaluating different kinds of molecules. While some AI tools he has experimented with in the past over-promised or suffered accuracy issues, he says this one makes reasonable assumptions, something he attributes to the deep domain expertise of its creators.",
-    "title_zh": "AI 已能批量提出候选药物，10x Science 想先解决“怎么筛出真有用的分子”",
-    "summary_zh": "随着蛋白质结构预测和生成模型不断吐出更多候选分子，药物研发的新难题变成了：实验上到底该优先验证谁。10x Science 拿到 480 万美元种子轮融资，试图把质谱分析和 AI 代理结合起来，帮助研究团队更快理解复杂分子结构，缩短生物药研发中的表征环节。",
-    "ai_summary": "药物发现的瓶颈正在从“生成候选”转向“验证候选”，10x Science 想用 AI + 质谱分析补上这一段。",
+    "title_zh": "10x Science获种子轮融资：AI 已经能批量设计药物，下一步是把分子真正“看明白”",
+    "summary_zh": "随着生成式模型不断提出更多候选分子，生物医药研发的瓶颈开始从“找得到”转向“验得快”。10x Science 想把质谱分析、化学生物学算法和 AI 代理结合起来，帮助研究人员更快判断哪些复杂分子值得推进到后续实验与生产环节。",
+    "ai_summary": "候选药物越生成越多，真正卡住研发进度的反而是分子表征和验证。",
     "takeaways": [
-      "AI 在药物研发中的瓶颈已经从“不会找”转向“来不及验证”。",
-      "10x Science 选择切入的是表征和分析环节，而不是继续卷候选分子生成。",
-      "如果这类工具成熟，生物医药公司筛选候选药物的效率会明显提升。"
+      "AI 已把药物发现前端的候选生成效率拉高，但实验表征和筛选能力没有同步跟上。",
+      "10x Science 的切入点不是再造一个药物生成模型，而是解决复杂分子如何被准确解析和比较。",
+      "如果这类工具成熟，药企和实验室能更快淘汰无效候选，把资源集中到真正可推进的分子上。"
     ],
-    "rewrite_body": "AI 在药物发现里的明星故事，过去几年主要集中在“能预测什么”和“能生成什么”。但候选分子越来越多之后，产业里的新瓶颈反而变成了更传统也更麻烦的一步：这些分子到底是什么结构、值不值得继续做、能不能进入后续测试和量产。10x Science 想解决的，正是这一段经常被忽视的中间环节。\n\n按照报道，这家公司把重点放在质谱分析上。质谱本来就是理解分子结构的高精度手段，但数据复杂、解读门槛高、耗时也长，往往卡住研发效率。10x 的做法不是用纯黑箱模型直接给答案，而是把化学和生物学里的确定性算法，与能解释数据的 AI 代理结合起来，目标是让分析结果既更快，也更容易追溯。对药企和监管合规来说，这种“可解释”属性比单纯提速更关键。\n\n这家公司由斯坦福相关研究背景的团队创立，也拿到了 Initialized Capital、Y Combinator 等机构支持。融资额不算夸张，但方向很明确：当行业都在追求更会生成的模型时，他们选择补足后端实验与验证流程。这个切口听上去没有那么炫，却更贴近真实产业痛点。\n\n为什么值得看？因为它提醒市场，AI 在科学领域真正有价值的地方，不一定总是提出更多假设，而是帮助研究人员更快、更可靠地判断哪些假设值得继续投入。谁能把“生成更多候选”变成“筛出更少但更靠谱的候选”，谁就更接近实际商业价值。"
+    "rewrite_body": "AI 在药物研发里的能力，已经不只停留在“帮你想到更多候选分子”。现在更现实的问题是：候选越来越多，但实验团队没有同等速度去判断这些分子到底值不值得继续做。\n\n10x Science 的创业方向，正是补上这段经常被忽略的中间环节。团队希望把质谱分析这类高门槛实验手段，与化学、生物学规则算法以及 AI 代理结合起来，帮助研究人员更快读懂复杂分子结构，缩短从“模型给出答案”到“实验确认可行”的时间。\n\n这家公司由几位有生物化学背景的创始人创办，刚拿到 480 万美元种子轮融资。它的判断很直接：生成模型会继续把药物候选的供给推高，真正稀缺的将不是“点子”，而是高质量的表征、解释与验证流程。\n\n这也是这条新闻值得看的地方。过去大家更关注 AI 能不能设计出新分子；现在行业开始面对下一道硬问题——当候选规模爆炸后，实验体系、分析工具和生产准备能否跟上。如果不能，研发瓶颈只会从前端转移到后端。\n\n从这个角度看，10x Science 不是在和大模型药物平台做同一件事，而是在为它们补基础设施。谁能更快把“生成出来的候选”变成“被验证过、可推进的分子”，谁才更接近真实的产业价值。"
   },
   {
     "id": "f31cf4652724",
@@ -264,8 +271,15 @@
     "content_source": "readability",
     "content_chars": 1574,
     "content_excerpt": "LinkedIn\n推出认知记忆智能体（Cognitive Memory Agent，CMA）\n，作为其生成式 AI 技术栈的组成部分，旨在构建具备状态感知与上下文理解能力的 AI 系统，使其能够在交互过程中留存并复用知识。该系统主要用于支撑招聘助手（Hiring Assistant）等应用，解决了大语言模型工作流中的一个核心问题：缺乏状态记忆，进而导致无法跨会话保持连贯交互。\nCMA 充当应用智能体与底层语言模型之间的共享记忆基础设施层。应用智能体无需通过重复提示词来重建上下文，而是通过这套专用系统来实现记忆的持久化存储、检索与更新。这既实现了跨会话连贯的交互，减少了冗余推理，也能在用户上下文持续变化的生产环境中提供更优质的个性化体验。\n会话记忆层示意图（来源：\nLinkedIn 博客文章\n）\n该架构将记忆划分为三个不同层级。情景记忆（Episodic memory）用于捕获交互历史与对话事件，让智能体能够回忆过往的交流内容。语义记忆（Semantic memory）存储从交互中提炼出来的结构化知识，支持对用户、实体及偏好等持久化信息进行推理。程序记忆（Procedural memory）对已习得的工作流程与行为模式进行编码，帮助智能体优化任务执行策略。三层记忆协同作用，使智能体的行为从单次响应升级为长期自适应演进。\nLinkedIn 工程师\nXiaofeng Wang",
-    "ai_summary": "LinkedIn 的认知记忆智能体，核心是在多智能体系统里补上“跨会话记忆”这块基础设施。",
-    "summary_zh": "LinkedIn 推出的 Cognitive Memory Agent 不是一个普通聊天功能，而是一层面向智能体系统的共享记忆底座。它把情景记忆、语义记忆和程序记忆拆开管理，让招聘助手等应用可以跨会话保留上下文、复用用户知识，并支撑多智能体之间更稳定的一致协作。"
+    "ai_summary": "没有记忆层，智能体再会推理，也很难在真实业务里持续协作。",
+    "summary_zh": "LinkedIn 公开了其 Cognitive Memory Agent 设计，试图为招聘助手等多智能体应用补上一层共享记忆基础设施。系统把情景记忆、语义记忆和程序记忆拆开管理，让智能体能够跨会话保留上下文、共享状态并逐步适应用户，而不是每轮都从零开始。",
+    "title_zh": "LinkedIn拆解智能体记忆系统：想让 AI 真正跨会话工作，记忆层得先补齐",
+    "takeaways": [
+      "生产级智能体的关键难题正在从“会不会生成”转向“能不能记住并持续更新状态”。",
+      "LinkedIn 采用共享记忆底座，而不是让每个 Agent 各自带一份上下文，有助于减少冗余和保持一致性。",
+      "真正难做的部分不是存下来，而是何时提取、如何压缩、怎样处理过期和冲突信息。"
+    ],
+    "rewrite_body": "LinkedIn 公开这套认知记忆智能体架构，核心不是再造一个更会回答问题的 AI，而是回答一个更现实的问题：如果智能体要在招聘、推荐或办公流程里长期工作，它到底靠什么“记住你”？\n\n这家公司给出的答案是单独做一层记忆基础设施。它把记忆拆成三类：记录交互过程的情景记忆、沉淀用户与实体知识的语义记忆，以及编码工作流程的程序记忆。这样一来，智能体不必每次都靠提示词临时回忆上下文，而是能跨会话复用状态、共享知识，并在多智能体协作时保持一致。\n\n这条新闻值得看，是因为很多 Agent 产品现在看起来很聪明，真正落地时却经常败在“下一轮就忘”“多人协作各说各话”这类基础问题上。记忆层做不好，模型再强也只是一次性的生成器。\n\nLinkedIn 的方案也提醒外界：构建生产级智能体，难点已经明显从模型能力往系统能力迁移。该存什么、什么时候检索、如何给旧信息降权、怎样避免状态冲突，这些都更像数据库和分布式系统问题，而不只是提示词技巧。\n\n如果说 2024 年大家卷的是大模型本身，2026 年开始，越来越多真正有价值的差异化，可能会出现在记忆、上下文管理和 Agent 基础设施这些“看不见但决定体验”的底层层。"
   },
   {
     "id": "a242752b786c",
@@ -352,15 +366,15 @@
     "content_source": "trafilatura",
     "content_chars": 3370,
     "content_excerpt": "Former OpenAI executive Mira Murati’s startup, Thinking Machines Lab, has signed a new multi-billion-dollar agreement to expand its use of Google Cloud’s AI infrastructure, including systems powered by Nvidia’s latest GPUs, TechCrunch has exclusively learned.\nThe deal is valued in the single-digit billions, according to a source familiar with the matter, and includes access to Google’s latest AI systems built atop Nvidia’s new GB300 chips, alongside infrastructure services to support model training and deployment.\nGoogle has been actively striking a number of cloud deals with AI developers as it aims to wrap together its AI computing offerings with other cloud services like storage, a Kubernetes engine, and Spanner, its database product. Earlier this month, Anthropic signed an agreement with Google and Broadcom for multiple gigawatts of tensor processing unit (TPUs) capacity (these are Google’s custom-designed AI chips for machine learning workloads).\nBut the competition is fierce. Just this week, Anthropic also signed a new agreement with Amazon to secure up to 5 gigawatts of capacity for training and deploying Claude.\nEarlier this year, Thinking Machines partnered with Nvidia in a deal that included an investment from the chipmaker. But this is the first time the lab has struck a deal with a cloud services provider. The deal is not exclusive, so Thinking Machines may use multiple cloud providers over time, but it’s still a sign that Google is looking to lock in fast-growing frontier labs early.\nMurati left her job as OpenAI’s chief technologist and founded Thinking Machines in February 2025. The company, which soon afterwards raised a $2 billion seed round at a $12 billion valuation, has remained highly secretive, but launched its first product in October. Dubbed Tinker, it’s a tool that automates the creation of custom frontier AI models.\nWednesday’s deal provided some insight into what Thinking Machines is developing. In a press release, Google noted that it can support the startup’s reinforcement learning workloads, which Tinker’s architecture relies on. Reinforcement learning is a training approach that has underpinned recent breakthroughs at labs, including DeepMind and OpenAI, and the scale of the Google Cloud deal reflects how computationally expensive that work can get.\nThinking Machines is among the first Google Cloud customers to access its GB300-powered systems, which offer a 2X improvement in training and serving speed compared to prior-generation GPUs, per Google.\n“Google Cloud got us running at record speed with the reliability we demand,” Myle Ott, a founding researcher at Thinking Machines, said in a statement.",
-    "title_zh": "Google 继续押注 Mira Murati 新公司，Thinking Machines 再拿下数十亿美元云算力协议",
-    "summary_zh": "TechCrunch 独家称，Mira Murati 创办的 Thinking Machines Lab 已与 Google Cloud 签署新的数十亿美元协议，获得基于 Nvidia GB300 的 AI 基础设施支持。对 Google 来说，这不只是卖云资源，更是在抢先绑定仍处于高速扩张期的前沿实验室。",
-    "ai_summary": "Thinking Machines Lab 与 Google Cloud 签下新的数十亿美元级协议，反映前沿模型竞争正在演变成云算力争夺战。",
+    "title_zh": "Google再签下Thinking Machines：前沿模型竞争正在变成云算力争夺战",
+    "summary_zh": "TechCrunch 独家称，Mira Murati 创办的 Thinking Machines Lab 与 Google Cloud 达成新的数十亿美元协议，将使用基于 Nvidia GB300 的 AI 基础设施训练和部署模型。对 Google 而言，这不只是卖云，更是在 OpenAI、Anthropic 之外提前绑定下一批前沿模型玩家。",
+    "ai_summary": "Google 与 Thinking Machines 加深合作，说明前沿实验室已成云厂商必争资源。",
     "takeaways": [
-      "大型云厂商竞争的重点，正从卖通用算力转向绑定头部前沿实验室。",
-      "Thinking Machines 的高额基础设施投入，侧面说明其训练路线很可能高度依赖强化学习。",
-      "算力合同正在成为衡量 AI 创业公司真实野心和资源级别的重要信号。"
+      "云厂商争夺的不再只是企业客户，而是能持续消耗超大规模算力的前沿模型实验室。",
+      "Thinking Machines 仍处于高保密和高速扩张阶段，但已经足以让 Google 提前下重注。",
+      "算力、数据库和云平台服务正在被打包成一体化筹码，成为新一轮模型竞争的基础设施层。"
     ],
-    "rewrite_body": "Mira Murati 离开 OpenAI 后创办的 Thinking Machines Lab 一直很神秘，但这笔新交易至少揭开了它的一角：公司已经和 Google Cloud 签下一份数十亿美元级别的协议，获得由 Nvidia 最新 GB300 芯片驱动的 AI 基础设施支持。对一家成立时间并不长的前沿实验室来说，这样的合同规模本身就是信号，说明它的模型训练和部署计划并不是小打小闹。\n\n从 Google 的角度看，这也不是一笔普通云业务。过去一年，云厂商争抢 AI 公司早已不只是卖服务器，而是在尽可能早地绑定最有潜力的模型实验室，把算力、存储、数据库和平台服务一起打包，形成更深的依赖关系。Anthropic、Amazon、Google、Broadcom 之间近期密集出现的大额协议，本质上都说明，前沿模型竞争已经升级成基础设施联盟竞争。\n\n报道里还有一个关键细节：Google 的公告特别提到，它的系统可以支持 Thinking Machines 所需的强化学习负载。这意味着这家公司的产品路线，很可能不是简单堆参数，而是会在训练后阶段和策略优化上投入大量算力。也正因为如此，基础设施合同才会迅速拉到数十亿美元量级。\n\n这条新闻值得关注，不只是因为 Murati 的明星创业背景，而是它再一次证明，AI 创业公司的真实实力越来越体现在“能拿到多少长期算力”上。模型能力当然重要，但在今天，谁能稳定锁住先进芯片、云平台和训练资源，往往才更接近下一轮竞争的入场券。"
+    "rewrite_body": "Google Cloud 又拿下一笔重量级 AI 基础设施订单。根据 TechCrunch 独家消息，OpenAI 前 CTO Mira Murati 创办的 Thinking Machines Lab，已经与 Google 签下新的数十亿美元级协议，使用基于 Nvidia GB300 的系统来支撑模型训练与部署。\n\n表面看，这是一笔云服务合同；但放在当前行业格局里，它更像是一场“提前锁客户”的资源战。前沿模型实验室还没完全公开产品路线，云厂商就已经开始争抢它们未来几年的算力、存储和训练体系入口。\n\nThinking Machines 之所以值得关注，不只是因为 Murati 的个人背景，还因为它代表了新一批前沿 AI 公司：融资大、保密强、产品少，但一旦扩张，消耗的基础设施规模会非常惊人。Google 现在愿意给出多亿美元乃至数十亿美元级支持，说明这类客户已经被视为长期战略资产。\n\n这条新闻更重要的信号是，AI 竞争正在进一步下沉到基础设施层。过去大家比的是模型谁更强，现在则越来越像“谁先把最重要的实验室绑定到自己云上”。算力供应、集群部署、数据库和工程托管能力，正在成为与模型本身同样关键的护城河。\n\n对 Google 来说，这既是扩张云收入，也是防守。Anthropic、OpenAI、xAI、Amazon、Microsoft 都在围绕同一批前沿实验室展开资源竞逐。谁能更早进入这些公司的训练栈，谁就更可能在下一轮模型浪潮里占据主动。"
   },
   {
     "id": "2b392b39fba6",
@@ -427,15 +441,15 @@
     "content_source": "trafilatura",
     "content_chars": 2853,
     "content_excerpt": "Anthropic’s Mythos AI model, a powerful cybersecurity tool that the company said could be dangerous in the wrong hands, has been accessed by a “small group of unauthorized users,” Bloomberg reports. An unnamed member of the group, identified only as “a third-party contractor for Anthropic,” told the publication that members of a private online forum got into Mythos via a mix of tactics, utilizing the contractor’s access and “commonly used internet sleuthing tools.”\nAnthropic’s most dangerous AI model just fell into the wrong hands\nA Discord group has had access to the Mythos model for two weeks.\nA Discord group has had access to the Mythos model for two weeks.\nThe Claude Mythos Preview is a new general-purpose model that’s capable of identifying and exploiting vulnerabilities “in every major operating system and every major web browser when directed by a user to do so,” according to Anthropic. Official access to the model is limited to a handful of companies through the Project Glasswing initiative, including Nvidia, Google, Amazon Web Services, Apple, and Microsoft. Governments are also eyeing the technology. Anthropic currently has no plans to release the model publicly due to concerns that it could be weaponized.\n“We’re investigating a report claiming unauthorized access to Claude Mythos Preview through one of our third-party vendor environments,” an Anthropic spokesperson said in a statement to Bloomberg. Anthropic currently has no evidence that the unauthorized access is impacting the company’s systems or goes beyond the third-party vendor’s environment.\nThe model was reportedly accessed illicitly on April 7th, the same day that Anthropic announced it was releasing Mythos to a limited number of companies for testing. The group that gained the unauthorized access has not been publicly identified, though Bloomberg reports that its members are part of a Discord channel that seeks out information about unreleased AI models.\nThe group accessed Mythos by using knowledge of Anthropic’s other model formats obtained from a recent Mercor data breach to make “an educated guess” about its online location. Members have been using Mythos regularly since gaining access — providing screenshots and a live demonstration of the model as evidence to Bloomberg — though reportedly not for cybersecurity purposes in an attempt to avoid detection by Anthropic. Other unreleased Anthropic AI models have also been accessed by the group, according to Bloomberg.\nMost Popular\n- Anthropic’s most dangerous AI model just fell into the wrong hands",
-    "title_zh": "Anthropic 高风险网络安全模型 Mythos 疑似遭未授权访问",
-    "summary_zh": "据彭博与 The Verge 报道，Anthropic 的 Mythos Preview 是一款具备高强度漏洞发现与利用能力的网络安全模型，原本仅面向极少数合作机构测试。但现在有消息称，一个未授权群体通过第三方承包商环境接触到了该模型，且已持续使用约两周。",
-    "ai_summary": "Anthropic 原本只向少数合作方开放的高风险网络模型被曝遭外部群体接触，暴露了前沿模型管控的现实漏洞。",
+    "title_zh": "Anthropic高风险安全模型 Mythos 疑遭未授权访问，前沿模型管控被戳出漏洞",
+    "summary_zh": "据彭博和 The Verge 报道，Anthropic 仅向少数合作方开放测试的网络安全模型 Mythos，疑似通过第三方承包商环境被未授权群体接触并持续使用。事件暴露出高风险模型即便不公开发布，也可能在供应链、外包和灰色测试链路中出现实际泄露面。",
+    "ai_summary": "最危险的模型不一定先公开发布，可能先在供应链和测试环境里失守。",
     "takeaways": [
-      "这次问题不只是“模型泄露”，而是高风险能力的访问边界并没有想象中牢固。",
-      "Anthropic 强调暂无证据显示核心系统受影响，但第三方环境成了明显薄弱点。",
-      "越是限制发布的前沿模型，越需要把供应链和外包权限一并纳入安全设计。"
+      "Mythos 的敏感性不在“会聊天”，而在它具备漏洞发现和利用能力，天然更适合被滥用。",
+      "Anthropic 没有公开发布模型，并不等于风险消失；第三方环境同样可能成为突破口。",
+      "前沿模型安全接下来拼的不是发布声明，而是访问控制、供应链审计和隔离执行能力。"
     ],
-    "rewrite_body": "Anthropic 一直把 Mythos 包装成一款不适合公开发布的高风险网络安全模型，因为它具备在主流操作系统和浏览器中发现并利用漏洞的能力。也正因为如此，这次“未授权用户已接触该模型”的消息格外敏感：问题不只是有人提前看到了新模型，而是本来就被视为可能被武器化的能力，访问边界并没有外界想得那么牢。\n\n报道显示，接触 Mythos 的并不是公开客户，而是一群通过第三方承包商环境和公开信息探查手段摸到入口的人。Anthropic 目前的口径是，正在调查事件，暂时没有证据表明其核心系统受影响，问题似乎局限在第三方供应商环境内。即便如此，这已经足以说明，前沿模型的安全不只是主服务器和权重文件的问题，外围协作链路同样决定了真实风险。\n\n更值得警惕的是时间点。未经授权的访问据称发生在 Anthropic 刚宣布向少数企业开放 Mythos 测试的当天，这意味着只要模型开始进入真实合作网络，攻击面就会迅速扩大。限制发布、白名单接入和政策表述，本身并不能替代端到端的权限治理。\n\n这条新闻之所以重要，是因为它提前暴露了一个行业共性难题：当模型能力本身具有双用途甚至高风险属性时，安全工作必须覆盖承包商、测试环境、调用接口和协作流程，而不能只停留在“我们不会公开发布”。越强的模型，越考验的不只是研发速度，而是访问控制到底有多严。"
+    "rewrite_body": "Anthropic 这次遇到的不是普通舆情，而是高风险模型治理里的真实压力测试。根据彭博与 The Verge 报道，原本只向极少数合作伙伴开放的网络安全模型 Mythos，疑似通过第三方承包商环境被未授权群体接触，并且已经使用了一段时间。\n\n这件事之所以敏感，在于 Mythos 不是通用聊天模型，而是具备漏洞识别和利用能力的高危网络安全工具。Anthropic 之所以没有公开发布它，就是担心模型被直接拿去做攻击用途。现在的问题变成：即便企业决定“不公开”，是否也真的能把它关在可控范围内？\n\n从报道披露的路径看，风险并不一定来自核心系统被攻破，更可能来自合作方环境、承包商权限和外围运维链路。对前沿模型公司来说，这是一种更难处理的安全现实：真正的薄弱点，往往不在模型本身，而在围绕模型搭起来的访问体系。\n\n这条新闻值得关注，不只是因为 Anthropic 遇到了麻烦，更因为它把“模型安全”从抽象原则拉回到了工程层面。高风险能力模型未来会越来越多，谁能做的不只是能力评测和道德声明，而是把权限分层、供应链隔离、日志追踪和第三方审计做扎实，谁才有资格说自己具备管控能力。\n\n简单说，前沿模型真正危险的时刻，不一定是正式上线那天，而可能是它还在灰度测试、供应链交付和外包环境流转的时候。"
   },
   {
     "id": "b5e53f676ac0",
@@ -626,15 +640,15 @@
     "content_source": "readability",
     "content_chars": 2954,
     "content_excerpt": "单Agent时代结束，AI们开始组团上班\n克雷西\n2026-04-22\n09:36:29\n来源：\n量子位\n克雷西 发自 凹非寺\n量子位 | 公众号 QbitAI\n现在，大模型的密集更新实在是让人看得眼花缭乱，但整体看来，方向也无非那么几个——更大、更强、更快。\n但是，Kimi这次的更新，走的方向不太一样。",
-    "title_zh": "Kimi K2.6 把多 Agent 协作推到实用层：一次任务并行交付报告、表格和 PPT",
-    "ai_summary": "月之暗面这次不再只卷单模型能力，而是把重点放在多 Agent 协作与长链路交付，试图让 AI 像团队一样干活。",
-    "summary_zh": "量子位实测显示，Kimi 最新发布的 K2.6 在代码能力提升之外，把“Agent 集群”推到了更实用的阶段：最多支持 300 个子 Agent 并行、4000 个协作步骤，能围绕一条需求同时拆解任务、分工执行，并产出报告、表格和 PPT 等不同格式结果。",
+    "title_zh": "Kimi K2.6把重点从“更强模型”推向“更多Agent协作”",
+    "ai_summary": "Kimi 这次的看点不是又赢了几个榜，而是把多 Agent 并行交付做到了可演示的产品层。",
+    "summary_zh": "量子位实测显示，Kimi K2.6 除了继续提升代码和前端生成能力，更关键的变化是把“Agent 集群”从概念推进到可见的协作流程：一次任务中可拆成多个子 Agent 并行调研、撰写、制表和生成 PPT。相比单轮问答，这更接近企业真正想买的交付能力。",
     "takeaways": [
-      "K2.6 的看点不是参数升级本身，而是多 Agent 协作开始形成完整工作流。",
-      "系统能把复杂任务拆给不同角色并行推进，明显超出单对话窗口的工作方式。",
-      "如果交付质量稳定，这类产品会把 AI 从聊天工具推向“项目型生产工具”。"
+      "这次升级的核心不是单点 benchmark，而是把复杂任务拆解、并行执行和多格式交付串起来。",
+      "如果多 Agent 协作能稳定跑通，模型价值会从“回答问题”转向“直接完成工作包”。",
+      "真正的门槛会从参数规模转向调度框架、容错机制和长链路执行稳定性。"
     ],
-    "rewrite_body": "月之暗面这次给 Kimi K2.6 加的，不只是常规意义上的“更强模型”，而是一套更像团队协作的工作方式。按照量子位的实测描述，K2.6 最多可以调度 300 个子 Agent、跑完 4000 个协作步骤，重点不在多开几个线程，而在于它能把一个复杂任务拆成多个子问题，再让不同角色并行推进，最后合并成交付件。\n\n文章给出的测试案例很有代表性：围绕“2026 年国内 AI 编程助手”这一个主题，系统同时产出完整调研报告、结构化对比表和可汇报的 PPT。这里真正值得看的，不是字数有多长，而是不同格式内容是否能一起生成、彼此是否一致、引用和结论能不能对上。如果这些都成立，那它已经不是传统意义上的问答助手，而更像一个项目执行系统。\n\n从产品演进看，Kimi 团队显然在把重心从“单模型更聪明”转向“多模型如何协作”。K2 是基座能力，Thinking 强调推理，而 K2.5、K2.6 则开始把分工、调度、纠错和交付管理做成产品能力。这意味着厂商不再只比模型会不会答，而是在比谁能把一项复杂工作真正推进到结果。\n\n当然，多 Agent 方向真正成立的前提仍然是稳定性：拆得再细、并行再多，如果最后经不起核对，就还是演示多于生产。但从这次披露的能力边界来看，国内模型厂商已经不满足于做更好的聊天窗口，而是在争夺下一代 AI 工作界面的定义权。"
+    "rewrite_body": "Kimi K2.6 的重要性，不在于它又刷新了几项模型榜单，而在于月之暗面开始把重点从“单个模型更聪明”转向“多名 Agent 如何一起干活”。\n\n按照量子位的实测，这一版最值得看的能力是 Agent 集群：用户给出一个复杂需求后，系统会先拆解任务，再让不同子 Agent 分头去做调研、结构化整理、报告撰写、表格生成和 PPT 组织，最后把多种格式的结果一起交付出来。\n\n这件事听起来像产品包装，但它对应的其实是一个很现实的行业变化。企业真正需要的从来不只是更会聊天的模型，而是能把一项长链任务稳定推进下去、并最终交付可用产物的系统。谁能把“拆任务、调资源、纠错误、整结果”这一整套流程做顺，谁就更接近真实生产力工具。\n\n所以 K2.6 的信号，不是“大模型更能答题了”，而是国产厂商开始在 Agent 编排层正面竞争。后面的胜负，可能也不再只看单模型参数和推理分数，而要看协作框架、观察面板、失败恢复和多角色分工这些更偏系统工程的能力。\n\n如果这类能力继续成熟，未来用户购买的就不再是一只会回答问题的 AI，而更像是一支能围绕目标自动分工、并行推进、最后交付成果的小团队。"
   },
   {
     "id": "cd78e201d885",
