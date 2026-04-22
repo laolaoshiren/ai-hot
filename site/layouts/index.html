@@ -176,30 +176,28 @@
 
     <!-- 热度飙升 -->
     <div class="card">
-        <div class="card-title">📈 热度飙升</div>
-        {{ $tools := site.Data.tools }}
-        {{ if $tools }}
-            {{ $trending_tools := slice }}
-            {{ range $tools }}
-                {{ if .trending }}
-                    {{ $trending_tools = $trending_tools | append . }}
-                {{ end }}
-            {{ end }}
-            {{ if gt (len $trending_tools) 0 }}
-                {{ range first 5 $trending_tools }}
-                <div class="trend-item">
-                    <div style="min-width:0;flex:1">
-                        <a href="{{ relURL "/tools/" }}{{ .id }}/">{{ .name }}</a>
-                        <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
+        {{ $rising := site.Data.rising }}
+        <div class="card-title">📈 热度飙升{{ with $rising.window_days }} <span class="hot-badge">近{{ . }}天</span>{{ end }}</div>
+        {{ if and $rising $rising.items }}
+            {{ range $rising.items }}
+            {{ $href := .url }}
+            {{ if and (eq .type "tool") .id }}{{ $href = printf "/tools/%s/" .id | relURL }}{{ end }}
+            {{ if and (eq .type "agent") .id }}{{ $href = printf "/agents/%s/" .id | relURL }}{{ end }}
+            <div class="trend-item" style="align-items:flex-start">
+                <div style="min-width:0;flex:1">
+                    <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap">
+                        <a href="{{ $href }}"{{ if not (or (eq .type "tool") (eq .type "agent")) }} target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+                        <span class="hot-badge" style="background:rgba(255,107,53,0.12);color:var(--accent)">{{ if eq .type "project" }}项目{{ else if eq .type "tool" }}工具{{ else if eq .type "agent" }}Agent{{ else }}模型{{ end }}</span>
                     </div>
-                    <div class="trend-up">🔥</div>
+                    <div style="color:var(--text2);font-size:11px;margin-top:4px;line-height:1.6">{{ .reason }}</div>
                 </div>
-                {{ end }}
-            {{ else }}
-                <div class="trend-item">
-                    <div style="color:var(--text3);font-size:13px">暂无数据</div>
-                </div>
+                <div class="trend-up">🔥</div>
+            </div>
             {{ end }}
+        {{ else }}
+            <div class="trend-item">
+                <div style="color:var(--text3);font-size:13px">暂无热度飙升数据</div>
+            </div>
         {{ end }}
     </div>
 
@@ -253,22 +251,18 @@
         <div class="card-title">🆕 新收录</div>
         {{ $tools := site.Data.tools }}
         {{ if $tools }}
-            {{ $count := 0 }}
-            {{ range $tools }}
-                {{ if and (lt $count 5) .trending }}
-                <div class="trend-item">
-                    <div style="min-width:0;flex:1">
-                        <a href="{{ relURL "/tools/" }}{{ .id }}/">{{ .name }}</a>
-                        <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
-                    </div>
-                    <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
+            {{ $recentTools := first 5 (reverse $tools) }}
+            {{ range $recentTools }}
+            <div class="trend-item">
+                <div style="min-width:0;flex:1">
+                    <a href="{{ relURL "/tools/" }}{{ .id }}/">{{ .name }}</a>
+                    <div style="color:var(--text3);font-size:11px;margin-top:2px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">{{ .description }}</div>
                 </div>
-                {{ $count = add $count 1 }}
-                {{ end }}
+                <span class="hot-badge" style="background:rgba(63,185,80,0.15);color:var(--green)">NEW</span>
+            </div>
             {{ end }}
-            {{ if eq $count 0 }}
+        {{ else }}
             <div style="color:var(--text3);font-size:13px;padding:12px 0">暂无新收录工具</div>
-            {{ end }}
         {{ end }}
     </div>
 

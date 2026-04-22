@@ -21,6 +21,7 @@ from github_trending import track_github_trending
 from huggingface_discover import discover_hf_models
 from refine_models import refine_models
 from generate_curated_models import generate_curated_models
+from generate_rising import generate_rising
 from keyword_collector import collect_keywords
 from agent_discover import discover_agents
 # from trending_scorer import compute_trending  # 已由Hermes定时任务接管
@@ -101,6 +102,7 @@ def main():
         ("🔗 热点新闻站内化", enrich_hot_data),
         ("🧹 模型精简", refine_models),
         ("🏆 模型精选榜", generate_curated_models),
+        ("📈 热度飙升", generate_rising),
         ("🏢 提供商更新", update_providers),
         ("⭐ 每日精选", select_daily_spotlight),
         ("🔗 链接检查", quick_check),
