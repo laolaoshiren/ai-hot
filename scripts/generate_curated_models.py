@@ -152,6 +152,17 @@ def modalities_from_or(model):
     return out[:4]
 
 
+def format_context_meta(context_length):
+    if not context_length:
+        return '商用主力模型'
+    if context_length >= 1_000_000:
+        m = context_length / 1_000_000
+        if abs(m - round(m)) < 1e-9:
+            return f"{int(round(m))}M 上下文"
+        return f"{m:.1f}M 上下文"
+    return f"{context_length // 1000}K 上下文"
+
+
 def build_item(spec, openrouter_map, hf_map):
     if spec['source'] == 'openrouter':
         model = openrouter_map[spec['id']]
@@ -164,7 +175,7 @@ def build_item(spec, openrouter_map, hf_map):
             'freshness': fmt_date(model.get('created')),
             'badge': spec['label'],
             'why': spec['why'],
-            'meta': f"{model.get('context_length', 0)//1000}K 上下文" if model.get('context_length') else '商用主力模型',
+            'meta': format_context_meta(model.get('context_length')),
             'tags': modalities_from_or(model),
         }
 
