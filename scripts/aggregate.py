@@ -9,6 +9,7 @@ import sys
 import json
 import shutil
 from datetime import datetime
+from zoneinfo import ZoneInfo
 
 sys.path.insert(0, os.path.dirname(__file__))
 
@@ -31,6 +32,11 @@ from openrouter_providers import update_providers
 
 DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "data")
 SITE_DATA_DIR = os.path.join(os.path.dirname(__file__), "..", "site", "data")
+SH_TZ = ZoneInfo("Asia/Shanghai")
+
+
+def sh_now():
+    return datetime.now(SH_TZ)
 
 
 def sync_to_site():
@@ -65,7 +71,7 @@ def write_meta(now, results):
 
 
 def main():
-    now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    now = sh_now().strftime("%Y-%m-%d %H:%M:%S")
     print(f"🚀 AI热榜数据采集 v3.0 - {now}")
     print("=" * 50)
 
@@ -134,7 +140,7 @@ def main():
     print(f"📊 结果: {success} 成功 / {fail} 失败 / {len(results)} 总计")
 
     # 写入元数据（同时同步到 site/data，确保首页更新时间立即可见）
-    finish_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+    finish_time = sh_now().strftime('%Y-%m-%d %H:%M:%S')
     write_meta(finish_time, results)
 
     print(f"\n✅ 采集流程结束 - {finish_time}")
