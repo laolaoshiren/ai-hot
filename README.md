@@ -1,192 +1,136 @@
 # 🔥 AI热榜
 
-> 面向中文用户的 AI 工具 / 模型 / Agent / 新闻导航站。**网站 + GitHub 双向信息流**，每 6 小时自动更新。
+> GitHub 上的首页简化版：先看内容，再点进网站看完整版。
 
-[![网站](https://img.shields.io/badge/网站-AI热榜-brightgreen)](https://aihot.bt199.com/)
-[![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/)
-[![工具](https://img.shields.io/badge/工具-171+-orange)](https://aihot.bt199.com/tools/)
-[![模型](https://img.shields.io/badge/模型-87+-lightgrey)](https://aihot.bt199.com/models/)
-[![Agent](https://img.shields.io/badge/Agent-52+-purple)](https://aihot.bt199.com/agents/)
-[![新闻](https://img.shields.io/badge/新闻-151+-red)](https://aihot.bt199.com/news/)
-[![License](https://img.shields.io/badge/License-MIT-lightgrey)](LICENSE)
+[![网站](https://img.shields.io/badge/在线阅读-AI热榜-brightgreen)](https://aihot.bt199.com/) [![更新频率](https://img.shields.io/badge/更新频率-每6小时-blue)](https://aihot.bt199.com/) [![工具](https://img.shields.io/badge/工具-171-orange)](https://aihot.bt199.com/tools/) [![模型](https://img.shields.io/badge/模型-87-lightgrey)](https://aihot.bt199.com/models/) [![Agent](https://img.shields.io/badge/Agent-52-purple)](https://aihot.bt199.com/agents/) [![新闻](https://img.shields.io/badge/新闻-151-red)](https://aihot.bt199.com/news/)
 
 🌐 **在线网站**：https://aihot.bt199.com/  
-📦 **GitHub 仓库**：https://github.com/laolaoshiren/ai-hot
+🔍 **站内搜索**：https://aihot.bt199.com/search/  
+🕐 **最近更新**：2026-04-22 15:15:18
 
 ---
 
-## 项目定位
+## 🔥 今日热点
 
-AI热榜不是单纯的“静态导航页”，而是一个持续滚动更新的 AI 信息入口：
+1. [🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升](https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/)
+   - ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」
+   - `TechCrunch · 5小时前 · 重磅 / 图像生成 / OpenAI`
 
-- **网站端**：给中文用户直接看结果、找工具、看模型、追新闻
-- **GitHub 端**：作为公开的数据源、更新源、开发记录、协作入口
+2. [🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent](https://github.com/karpathy/autoresearch)
+   - Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star
+   - `GitHub · 近期 · Agent / 研究 / Karpathy`
 
-也就是说，这个项目从一开始就是：
+3. [🚫 Claude 封号潮失控！300万用户企业一夜断供](https://www.infoq.cn/article/claude-account-ban-wave)
+   - Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权
+   - `InfoQ · 11小时前 · 重磅 / Anthropic / 争议`
 
-> **GitHub 负责沉淀与公开，网站负责分发与触达。**
+4. [💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式](https://github.com/Fission-AI/OpenSpec)
+   - 让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势
+   - `GitHub · 近期 · 编程 / 最佳实践`
 
-现在两边已经打通：
-- GitHub 上的数据和代码更新，会驱动网站更新
-- 网站上的重要栏目和内容结构，也会反向推动 GitHub 持续整理与维护
+5. [🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面](https://www.infoq.cn/article/claude-design-ui-generation)
+   - 自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动
+   - `InfoQ · 10小时前 · 新品 / 设计 / Anthropic`
 
----
+6. [🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫](https://github.com/unclecode/crawl4ai)
+   - 开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取
+   - `GitHub · 持续更新 · 数据 / 开源`
 
-## 现在网站上有什么
+7. [🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业](https://www.infoq.cn/article/china-embodied-ai-largest-funding)
+   - 打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速
+   - `InfoQ · 12小时前 · 融资 / 机器人 / 中国`
 
-### 核心栏目
-- [🔥 今日热点](https://aihot.bt199.com/)
-- [🛠️ AI工具](https://aihot.bt199.com/tools/)
-- [🧠 AI模型](https://aihot.bt199.com/models/)
-- [🤖 AI Agent](https://aihot.bt199.com/agents/)
-- [📰 AI新闻](https://aihot.bt199.com/news/)
-- [🏢 AI提供商](https://aihot.bt199.com/providers/)
-- [🔍 全站搜索](https://aihot.bt199.com/search/)
+8. [🧩 mem0：53K star 的 AI Agent 通用记忆层](https://github.com/mem0ai/mem0)
+   - 为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互
+   - `GitHub · 持续更新 · Agent / 记忆 / 基础设施`
+
+9. [🔒 MIT：构建 Agent 优先的治理与安全架构](https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/)
+   - 随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」
+   - `MIT Tech Review · 12小时前 · 安全 / Agent / 治理`
+
+10. [🕸️ graphify：把代码库变成 AI 可查询的知识图谱](https://github.com/safishamsi/graphify)
+   - 将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文
+   - `GitHub · 近期 · 编程 / 知识图谱`
+
+## 🤖 每日 AI 快报
+
+今日AI热点速递：
+
+1. 【重磅】OpenAI 发布 ChatGPT Images 2.0，文字渲染能力大幅提升，设计师直呼「够用了」。新模型在图像中文字生成方面取得突破性进展。
+
+2. 【争议】Anthropic Claude 大规模封号风波持续，300万用户企业服务中断，无理由无回应，受害者被迫抱团维权。
+
+3. 【新品】Anthropic 推出 Claude Design，一句话生成完整 UI 界面，传统设计工具面临颠覆，设计师圈震动。
+
+4. 【融资】中国具身智能赛道最大单轮融资出炉，前华为百度高管联手创业，打造可量产的真干活机器人。
+
+5. 【开源】Karpathy 新作 autoresearch（75K star）让 AI 在单 GPU 上自动运行深度学习研究，Agent 能力再进化。
+
+6. 【治理】MIT 发文探讨 Agent 优先的治理与安全架构，随着 AI Agent 深入企业工作流，安全框架正在从「人工优先」转向「Agent 优先」。
+
+7. 【监管】YouTube 扩展 AI 深度伪造检测至名人肖像保护，平台加强肖像权保护力度。
+
+### 今日重点
+
+- OpenAI 发布 ChatGPT Images 2.0，文字渲染质量飞跃
+- Claude 封号潮失控，300万用户受影响
+- Claude Design 一句话生成 UI，设计圈变天
+- 中国具身智能最大单轮融资，前华为百度高管联手创业
+- Karpathy 开源 autoresearch，单卡自动搞研究
+
+## ⭐ 今日精选
+
+**[文心一言](https://aihot.bt199.com/tools/文心一言/)**
+- 百度出品的 AI 助手
+- `免费 + API 按量`
+
+## 📈 热度飙升
+
+- [Cursor](https://aihot.bt199.com/tools/cursor/)：AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力
+- [FLUX](https://aihot.bt199.com/tools/flux/)：新一代开源图像生成模型，质量超越 SD
+- [可灵 AI](https://aihot.bt199.com/tools/可灵/)：快手出品的 AI 视频生成工具，国产最强
+- [DeepSeek](https://aihot.bt199.com/tools/deepseek/)：深度求索出品，国产最强开源大模型对话工具
+- [Dify](https://aihot.bt199.com/tools/dify/)：开源 LLM 应用开发平台，可视化搭建 AI 应用
+
+## 🛠️ 值得先看的工具
+
+- [Cursor](https://aihot.bt199.com/tools/cursor/)：AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力 · `免费 + Pro $20/月`
+- [GitHub Copilot](https://aihot.bt199.com/tools/github-copilot/)：GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains · `$10/月 个人 / $19/月 企业`
+- [Claude Code](https://aihot.bt199.com/tools/claude-code/)：Anthropic 官方 CLI 编程助手，终端内直接 AI 编程 · `按 API 使用量计费`
+- [Codex CLI](https://aihot.bt199.com/tools/codex-cli/)：OpenAI 官方终端编程助手，轻量快速 · `按 API 使用量计费`
+- [Codeium](https://aihot.bt199.com/tools/codeium/)：免费 AI 代码补全和聊天，支持 70+ 编辑器 · `个人免费 + Teams $12/月`
+- [Continue](https://aihot.bt199.com/tools/continue/)：开源 AI 编程助手，可接入任意 LLM · `开源免费`
+
+## 📂 分类入口
+
+- [🛠️ AI工具（171）](https://aihot.bt199.com/tools/)
+- [🧠 AI模型（87）](https://aihot.bt199.com/models/)
+- [🤖 AI Agent（52）](https://aihot.bt199.com/agents/)
+- [📰 AI新闻（151）](https://aihot.bt199.com/news/)
+- [🏢 AI提供商（22）](https://aihot.bt199.com/providers/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
+- [🔍 全站搜索](https://aihot.bt199.com/search/)
 
-### 代表能力
-- 工具 / 模型 / Agent / 新闻统一导航
-- 面向中文用户的人话筛选与排序
-- 工具静态详情页（利于 SEO 与分享）
-- 首页热搜关键词可点击直达站内搜索
-- Providers / Models 分栏，不再语义混乱
-- 首页底部显示中国时间的最近更新时间
+## 🔑 热搜关键词
 
----
+[ai绘画](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB) · [豆包](https://aihot.bt199.com/search/?q=%E8%B1%86%E5%8C%85) · [ai工具软件排名前十](https://aihot.bt199.com/search/?q=ai%E5%B7%A5%E5%85%B7%E8%BD%AF%E4%BB%B6%E6%8E%92%E5%90%8D%E5%89%8D%E5%8D%81) · [ai网站](https://aihot.bt199.com/search/?q=ai%E7%BD%91%E7%AB%99) · [ai写作](https://aihot.bt199.com/search/?q=ai%E5%86%99%E4%BD%9C) · [ai绘画免费图生图](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB%E5%85%8D%E8%B4%B9%E5%9B%BE%E7%94%9F%E5%9B%BE) · [ai绘画软件](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB%E8%BD%AF%E4%BB%B6) · [ai绘画网站](https://aihot.bt199.com/search/?q=ai%E7%BB%98%E7%94%BB%E7%BD%91%E7%AB%99)
 
-## 当前数据规模
+## 🌐 这个 README 是干嘛的
 
-截至当前仓库版本：
+它不是部署说明书，而是 **https://aihot.bt199.com/ 的 GitHub 简化版**：
 
-- **工具**：171+
-- **模型**：87+
-- **精选模型榜**：34+
-- **Agent**：52+
-- **新闻**：151+
-- **提供商**：22+
-- **项目**：166+
+- 在 GitHub 里先看重点内容
+- 想继续深挖，再点进网站完整浏览
+- 仓库本身也承担内容入口，而不只是代码托管
 
-说明：
-- 网站展示内容会持续变化
-- GitHub 中的数据是当前版本的公开沉淀
-- 线上站点可能因缓存出现几分钟延迟，但 GitHub 提交始终是第一手变更记录
+## 🚀 继续浏览
+
+- [打开首页完整版](https://aihot.bt199.com/)
+- [查看全部工具](https://aihot.bt199.com/tools/)
+- [查看模型榜](https://aihot.bt199.com/models/)
+- [查看 Agent 专区](https://aihot.bt199.com/agents/)
+- [查看最新新闻](https://aihot.bt199.com/news/)
 
 ---
 
-## GitHub 和网站的双向信息流怎么运作
-
-### GitHub → 网站
-- `data/*.json`：原始/生成数据源
-- `site/data/*.json`：Hugo 实际读取的数据
-- `site/layouts/`：网站页面模板
-- Push 到 `main` 后，GitHub Actions 自动构建并部署到 Pages
-
-### 网站 → GitHub
-网站不是“孤立成品”，而是反过来指导 GitHub 更新：
-- 首页/栏目页暴露脏数据 → 回到 GitHub 修数据规则
-- SEO 表现不够 → 回到 GitHub 补静态详情页 / sitemap / 结构化数据
-- 用户体验发现问题 → 回到 GitHub 调整模板与信息结构
-
-所以这个仓库不只是存代码，也是：
-- **公开路线图**
-- **内容更新源**
-- **线上问题修复记录**
-- **项目可信背书**
-
----
-
-## 项目结构
-
-```text
-ai-hot/
-├── data/                  # 原始/生成数据（Git 跟踪）
-├── site/
-│   ├── content/           # Hugo 内容页（含静态工具详情页）
-│   ├── data/              # Hugo 构建读取的数据
-│   ├── layouts/           # 页面模板
-│   └── static/            # 静态资源、sitemap、robots 等
-├── scripts/               # 数据采集、清洗、生成、SEO、部署脚本
-├── .github/workflows/     # GitHub Actions 工作流
-└── docs/                  # 阶段性报告与开发文档
-```
-
----
-
-## 自动化更新机制
-
-### GitHub Actions
-- **6-Hour AI Data Aggregation**
-  - 每 6 小时自动采集/更新数据
-- **Deploy to GitHub Pages**
-  - push 到 `main` 后自动部署网站
-
-### 主要流程
-```text
-数据采集/清洗 → 写入 data/*.json → 同步到 site/data/ → Hugo 构建 → GitHub Pages 发布
-```
-
-### 当前关键特性
-- 首页更新时间强制使用 **中国时间（Asia/Shanghai）**
-- 工具详情页已升级为静态路由：
-  - `/tools/cursor/`
-  - `/tools/claude-code/`
-  - `/tools/deepseek/`
-- sitemap 已升级为索引模式：
-  - `/sitemap.xml`
-  - `/sitemap-pages.xml`
-  - `/sitemap-tools.xml`
-
----
-
-## GitHub 侧目前重点维护什么
-
-接下来 GitHub 侧会重点承担这些工作：
-
-1. **README 持续更新**
-   - 保持和网站栏目、数据规模、能力一致
-2. **数据质量维护**
-   - 清理脏新闻、过时模型、错误链接
-3. **文档化沉淀**
-   - 把重要设计决策、结构演进、SEO 改造沉淀到仓库
-4. **对外协作入口**
-   - 通过 Issues / PR 接收建议与修正
-5. **双向信息流强化**
-   - 让 GitHub 不只是代码仓库，而是网站的公开后台与说明书
-
----
-
-## 关键页面入口
-
-### 网站入口
-- [首页](https://aihot.bt199.com/)
-- [工具库](https://aihot.bt199.com/tools/)
-- [模型榜](https://aihot.bt199.com/models/)
-- [Agent](https://aihot.bt199.com/agents/)
-- [新闻](https://aihot.bt199.com/news/)
-- [提供商](https://aihot.bt199.com/providers/)
-
-### GitHub 文档入口
-- [开发文档目录](./docs/)
-- [V4 完成报告](./docs/V4_COMPLETE_REPORT.md)
-- [V4 开发计划](./docs/V4_DEVELOPMENT_PLAN.md)
-- [V3 开发指南](./docs/V3_DEVELOPMENT_GUIDE.md)
-
----
-
-## 贡献方式
-
-欢迎通过以下方式参与：
-
-- 提交新工具 / 新模型 / 新 Agent 线索
-- 报告错误链接、脏数据、过时信息
-- 提建议：栏目结构、SEO、GitHub 展示、数据源
-- 提交 PR 改进仓库与网站
-
-👉 Issues：
-https://github.com/laolaoshiren/ai-hot/issues
-
----
-
-## 许可证
-
-[MIT](LICENSE)
+MIT License
