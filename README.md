@@ -100,6 +100,7 @@
 - [🤖 AI Agent（52）](https://aihot.bt199.com/agents/)
 - [📰 AI新闻（151）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（22）](https://aihot.bt199.com/providers/)
+- 提供商直达：[硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
 

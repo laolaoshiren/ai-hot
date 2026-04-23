@@ -398,6 +398,50 @@
     "provider_kind": "model_author"
   },
   {
+    "id": "siliconflow",
+    "name": "硅基流动",
+    "url": "https://cloud.siliconflow.cn/i/Ngl1oB14",
+    "logo": "💎",
+    "models": [
+      "开源模型集群"
+    ],
+    "type": "国产聚合",
+    "pricing": "超低价/免费",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "开源模型集群"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
+  },
+  {
+    "id": "volcengine",
+    "name": "火山引擎",
+    "url": "https://volcengine.com/L/A3Cm9GB_3J4/",
+    "logo": "🌋",
+    "models": [
+      "Doubao",
+      "自定义模型"
+    ],
+    "type": "云平台",
+    "pricing": "按量计费",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "Doubao",
+      "自定义模型"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
+    "provider_kind": "platform"
+  },
+  {
     "id": "aws-bedrock",
     "name": "AWS Bedrock",
     "url": "https://aws.amazon.com/bedrock",
@@ -505,50 +549,6 @@
       "Llama",
       "Mixtral",
       "Gemma"
-    ],
-    "model_count": 0,
-    "last_updated": "",
-    "modalities": [],
-    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
-    "provider_kind": "platform"
-  },
-  {
-    "id": "siliconflow",
-    "name": "硅基流动",
-    "url": "https://cloud.siliconflow.cn/i/Ngl1oB14",
-    "logo": "💎",
-    "models": [
-      "开源模型集群"
-    ],
-    "type": "国产聚合",
-    "pricing": "超低价/免费",
-    "api": true,
-    "source": "manual",
-    "latest_models": [
-      "开源模型集群"
-    ],
-    "model_count": 0,
-    "last_updated": "",
-    "modalities": [],
-    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
-    "provider_kind": "platform"
-  },
-  {
-    "id": "volcengine",
-    "name": "火山引擎",
-    "url": "https://volcengine.com/L/A3Cm9GB_3J4/",
-    "logo": "🌋",
-    "models": [
-      "Doubao",
-      "自定义模型"
-    ],
-    "type": "云平台",
-    "pricing": "按量计费",
-    "api": true,
-    "source": "manual",
-    "latest_models": [
-      "Doubao",
-      "自定义模型"
     ],
     "model_count": 0,
     "last_updated": "",
