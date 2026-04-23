@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import argparse
 import hashlib
 import json
 import os
@@ -14,10 +15,8 @@ ROOT = Path('/root/ai-hot')
 DATA_NEWS = ROOT / 'data' / 'news.json'
 CONTENT_DIR = ROOT / 'site' / 'content' / 'news'
 STATIC_IMG_DIR = ROOT / 'site' / 'static' / 'news-images'
-CHATGPT_SCRIPT = Path('/tmp/chatgpt_gen.js')
+CHATGPT_SCRIPT = ROOT / 'scripts' / 'chatgpt_gen.js'
 CHATGPT_COOKIES = Path('/tmp/chatgpt_cookies.json')
-DEFAULT_DEBUG = Path('/tmp/chatgpt_debug.png')
-DEFAULT_OUTPUT = Path('/tmp/chatgpt_image.png')
 RECENT_HOURS = 6
 MAX_CONCURRENCY = 3
 FRONT_PAGE_LIMIT = 8
@@ -262,5 +261,36 @@ def generate_news_cover_images(limit: int = FRONT_PAGE_LIMIT, hours: int = RECEN
     return {'candidates': candidates, 'results': results, 'summary': f'最近{hours}小时候选 {len(candidates)} 篇，raw 生成 {generated} 篇，跳过 {skipped} 篇'}
 
 
+def main():
+    parser = argparse.ArgumentParser()
+    sub = parser.add_subparsers(dest='command', required=False)
+
+    raw = sub.add_parser('raw')
+    raw.add_argument('--hours', type=int, default=RECENT_HOURS)
+    raw.add_argument('--limit', type=int, default=FRONT_PAGE_LIMIT)
+    raw.add_argument('--concurrency', type=int, default=1)
+    raw.add_argument('--output', type=str, default='')
+
+    apply = sub.add_parser('apply')
+    apply.add_argument('--id', required=True)
+    apply.add_argument('--raw-image', required=True)
+    apply.add_argument('--title', required=True)
+
+    args = parser.parse_args()
+    command = args.command or 'raw'
+
+    if command == 'raw':
+        result = generate_news_cover_images(limit=args.limit, hours=args.hours, concurrency=args.concurrency)
+        if args.output:
+            Path(args.output).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        return
+
+    if command == 'apply':
+        applied = apply_article_image(args.id, args.raw_image, args.title)
+        print(json.dumps({'id': args.id, 'applied_image': applied}, ensure_ascii=False))
+        return
+
+
 if __name__ == '__main__':
-    print(generate_news_cover_images())
+    main()
