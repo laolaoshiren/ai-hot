@@ -233,6 +233,7 @@ def process_article_without_qa(item):
 def apply_article_image(item_id: str, raw_image_path: str, title: str):
     md_path = CONTENT_DIR / f'{item_id}.md'
     target = STATIC_IMG_DIR / f'{item_id}.png'
+    target.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(raw_image_path, target)
     rel_image = f'/news-images/{item_id}.png'
     patch_frontmatter_cover_image(md_path, rel_image)
