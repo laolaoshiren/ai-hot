@@ -56,7 +56,7 @@ class NewsCoverImageTests(unittest.TestCase):
         self.assertIn("药物发现", prompt)
         self.assertIn("不要机器人头像", prompt)
         self.assertIn("不是宣传海报", prompt)
-        self.assertIn("最好 0 到 8 个字", prompt)
+        self.assertIn("默认生成“无文字图片”", prompt)
 
 
     def test_select_recent_cover_candidates_only_keeps_recent_and_worthy_articles(self):

@@ -128,26 +128,26 @@ def build_image_prompt(article):
     title = clean_text(article.get('title_zh') or article.get('title') or '')
     intro = clean_text(article.get('ai_summary') or article.get('summary_zh') or article.get('summary') or '')
     content = clean_text(article.get('content_text') or article.get('content_excerpt') or '')[:900]
-    return f'''为 AI 新闻文章生成一张网站头图，16:9 横版，中文科技媒体封面风格，精致、克制、专业。
+    return f'''为 AI 新闻文章生成一张网站配图，16:9 横版，严肃科技媒体头图风格。
 
 文章标题：{title}
 文章摘要：{intro}
 文章关键信息：{content}
 
 必须遵守：
-1. 这是一张“文章头图”，不是宣传海报，不是品牌广告，不是招商图。
-2. 不要机器人头像、机械人脸、数字地球、蓝色光束城市、悬浮大芯片、通用 AI 海报模板。
-3. 不要大段文字，不要口号，不要“AI赋能千行百业”“未来已来”“通用人工智能加速到来”这类空话。
-4. 只允许极少量中文文字，最好 0 到 8 个字；如果加字，只能是围绕文章主题的简短中文标签，必须自然、清晰、无错别字。
-5. 画面必须围绕文章真实主题选元素：
-   - 药物发现 / 分子 / 质谱 / 生物医药：实验室、分子结构、质谱峰图、分析界面、样本瓶
-   - AI 芯片 / 算力：芯片实物感、主板、电路、数据面板，但不要夸张海报
-   - 模型 / Agent / 编程：代码界面、工作流、开发者桌面、推理结构图
-   - 企业产品 / 融资 / 平台：产品界面、团队协作、业务场景，避免空洞概念图
-6. 风格参考：严肃科技媒体专题配图、商业杂志头图、现代编辑插画。不要廉价宣传海报感。
-7. 构图干净，信息密度中等，适合放在新闻正文顶部。
-8. 中文必须正确、清晰、可读；如果做不到，就不要放文字。
-9. 重点是“主题准确”，宁可少字，也不要跑题。'''
+1. 默认生成“无文字图片”。除非绝对必要，否则不要在画面里放任何中文、英文标题、口号、品牌字样。
+2. 这是一张新闻配图，不是宣传海报，不是品牌 KV，不是发布会主视觉，不是招商图。
+3. 不要机器人头像、机械人脸、数字地球、蓝色光束城市、悬浮芯片、抽象未来感大海报。
+4. 不要出现 GPT-4o、OpenAI、Claude、Gemini、Ling、Kimi 等与文章不匹配的模型名或品牌字样。
+5. 画面只围绕文章主题本身选元素：
+   - 药物发现 / 分子 / 质谱 / 生物医药：实验室、分子结构、质谱峰图、分析终端、样本瓶
+   - 模型 / Agent / 编程 / 评测：开发者桌面、工作流面板、任务节点、代码界面、结构图
+   - AI 芯片 / 算力：芯片实物、主板、电路、机房局部、监控面板
+   - 企业产品 / 平台 / 融资：产品界面、业务场景、团队协作，不要空洞概念图
+6. 整体风格克制、编辑感、媒体感，不要营销味，不要夸张大字报。
+7. 构图干净，适合作为正文中的插图或文章头图。
+8. 如果模型无法稳定生成正确文字，那就彻底不要文字。
+9. 重点只有一个：主题准确，宁可朴素，也不要跑题。'''
 
 
 def patch_frontmatter_cover_image(path: Path, rel_image: str):
@@ -199,6 +199,7 @@ def generate_one_image(item):
     env = os.environ.copy()
     env['CHATGPT_OUT'] = str(output_path)
     env['CHATGPT_DEBUG_OUT'] = str(debug_path)
+    env['NODE_PATH'] = '/tmp/node_modules'
     cmd = f'node {CHATGPT_SCRIPT} "$(cat {prompt_path})"'
     result = subprocess.run(cmd, shell=True, cwd='/tmp', capture_output=True, text=True, timeout=240, env=env)
     return result, output_path, debug_path, prompt_path
