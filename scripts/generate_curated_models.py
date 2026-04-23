@@ -68,6 +68,7 @@ CURATED_ITEMS = [
 
     # 新锐关注
     {'category': 'watch', 'source': 'openrouter', 'id': 'minimax/minimax-m2.7', 'label': '新锐国产', 'why': '近期迭代积极，值得持续跟踪'},
+    {'category': 'watch', 'source': 'openrouter', 'id': 'xiaomi/mimo-32b', 'label': '小米 MiMo', 'why': 'OpenRouter 上热度和实力都不该缺席，国产新锐里必须补上'},
     {'category': 'watch', 'source': 'openrouter', 'id': 'mistralai/mistral-small-2603', 'label': '轻量强者', 'why': '轻量级模型里很能打'},
     {'category': 'watch', 'source': 'openrouter', 'id': 'nvidia/nemotron-3-super-120b-a12b', 'label': 'NVIDIA 新动向', 'why': '大厂新模型线，值得长期观察'},
     {'category': 'watch', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3.6-35B-A3B', 'label': 'Qwen 新代际', 'why': 'Qwen 新代际开源模型，热度上升中'},
@@ -119,13 +120,58 @@ def fmt_date(ts):
 
 
 def clean_name(name):
-    prefixes = ['OpenAI: ', 'Anthropic: ', 'Google: ', 'DeepSeek: ', 'Qwen: ', 'Baidu: ', 'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Mistral: ', 'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: ']
+    prefixes = ['OpenAI: ', 'Anthropic: ', 'Google: ', 'DeepSeek: ', 'Qwen: ', 'Baidu: ', 'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Xiaomi: ', 'Mistral: ', 'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: ']
     out = name or ''
     for p in prefixes:
         if out.startswith(p):
             out = out[len(p):]
             break
     return out.replace('  ', ' ').strip()
+
+
+def provider_label_from_model(model):
+    name = model.get('name') or ''
+    if ':' in name:
+        return name.split(':', 1)[0].strip()
+    model_id = model.get('id') or ''
+    prefix = model_id.split('/')[0] if '/' in model_id else model_id
+    return prefix.replace('-', ' ').title()
+
+
+def build_auto_discovery_specs(openrouter_map):
+    specs = []
+    for model_id, model in openrouter_map.items():
+        low = f"{model_id} {(model.get('name') or '')}".lower()
+        if 'xiaomi/' in model_id or 'mimo' in low:
+            specs.append({
+                'category': 'watch',
+                'source': 'openrouter',
+                'id': model_id,
+                'label': '自动发现',
+                'why': '从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单',
+            })
+    specs.sort(key=lambda x: openrouter_map[x['id']].get('created', 0), reverse=True)
+    dedup = []
+    seen = set()
+    for spec in specs:
+        if spec['id'] in seen:
+            continue
+        seen.add(spec['id'])
+        dedup.append(spec)
+    return dedup
+
+
+def merge_curated_items(base_items, auto_items):
+    merged = list(base_items)
+    existing_or_ids = {item.get('id') for item in base_items if item.get('source') == 'openrouter'}
+    existing_urls = {item.get('url') for item in base_items if item.get('source') == 'huggingface'}
+    for item in auto_items:
+        if item.get('source') == 'openrouter' and item.get('id') in existing_or_ids:
+            continue
+        if item.get('source') == 'huggingface' and item.get('url') in existing_urls:
+            continue
+        merged.append(item)
+    return merged
 
 
 def modalities_from_or(model):
@@ -226,8 +272,10 @@ def generate_curated_models():
     openrouter_map = fetch_openrouter_models()
     hf_map = load_local_models()
 
+    curated_specs = merge_curated_items(CURATED_ITEMS, build_auto_discovery_specs(openrouter_map))
+
     items = []
-    for spec in CURATED_ITEMS:
+    for spec in curated_specs:
         try:
             items.append(build_item(spec, openrouter_map, hf_map))
         except KeyError:

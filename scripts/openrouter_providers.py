@@ -20,6 +20,7 @@ PROVIDER_PREFIX_MAP = {
     'moonshot': ['moonshotai'],
     'zhipu': ['z-ai'],
     'minimax': ['minimax'],
+    'xiaomi': ['xiaomi'],
     'mistral': ['mistralai'],
     'meta': ['meta-llama'],
     'xai': ['x-ai'],
@@ -36,7 +37,7 @@ PROVIDER_PREFIX_MAP = {
 PLATFORM_IDS = {'aws-bedrock', 'azure-openai', 'together', 'groq', 'siliconflow', 'volcengine', 'openrouter'}
 MODEL_AUTHOR_IDS = {
     'openai', 'anthropic', 'google', 'deepseek', 'alibaba', 'baidu', 'bytedance',
-    'tencent', 'moonshot', 'zhipu', 'minimax', 'mistral', 'meta', 'xai', 'nvidia'
+    'tencent', 'moonshot', 'zhipu', 'minimax', 'xiaomi', 'mistral', 'meta', 'xai', 'nvidia'
 }
 
 
@@ -58,7 +59,7 @@ def clean_model_name(name):
     out = name
     prefixes = [
         'OpenAI: ', 'Anthropic: ', 'Google: ', 'DeepSeek: ', 'Qwen: ', 'Baidu: ',
-        'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Mistral: ',
+        'ByteDance Seed: ', 'MoonshotAI: ', 'Z.ai: ', 'MiniMax: ', 'Xiaomi: ', 'Mistral: ',
         'Meta: ', 'xAI: ', 'NVIDIA: ', 'Amazon: ', 'Tencent: '
     ]
     for p in prefixes:
@@ -138,6 +139,54 @@ def summarize_provider(provider, matched_models):
     return provider
 
 
+def infer_provider_candidates(models):
+    by_prefix = {}
+    for model in models:
+        model_id = model.get('id', '')
+        prefix = model_id.split('/')[0] if '/' in model_id else model_id
+        if prefix:
+            by_prefix.setdefault(prefix, []).append(model)
+
+    candidates = []
+    for prefix, matched in by_prefix.items():
+        if len(matched) < 2:
+            continue
+        latest = sorted(matched, key=lambda x: x.get('created', 0), reverse=True)
+        name = (latest[0].get('name') or prefix).split(':')[0].strip() or prefix.title()
+        provider = {
+            'id': prefix,
+            'name': name,
+            'url': f'https://openrouter.ai/{prefix}',
+            'logo': '🆕',
+            'models': [clean_model_name(m.get('name') or m.get('id')) for m in latest[:3]],
+            'type': '国产' if prefix in {'xiaomi', 'qwen', 'minimax', 'z-ai', 'moonshotai', 'deepseek', 'baidu', 'bytedance-seed', 'tencent'} else '国际',
+            'pricing': '按量计费',
+            'api': True,
+        }
+        candidates.append(summarize_provider(provider, matched))
+    return candidates
+
+
+def merge_provider_records(existing, inferred):
+    merged = {p.get('id'): p for p in existing}
+    known_prefix_to_id = {}
+    for provider_id, prefixes in PROVIDER_PREFIX_MAP.items():
+        for prefix in prefixes:
+            known_prefix_to_id[prefix] = provider_id
+    for provider in inferred:
+        target_id = known_prefix_to_id.get(provider.get('id'), provider.get('id'))
+        if target_id in merged:
+            continue
+        provider = dict(provider)
+        provider['id'] = target_id
+        if target_id == 'xiaomi':
+            provider['name'] = '小米 MiMo'
+            provider['logo'] = '🟠'
+            provider['url'] = 'https://openrouter.ai/xiaomi'
+        merged[target_id] = provider
+    return list(merged.values())
+
+
 def update_providers():
     with open(PROVIDERS_PATH, 'r', encoding='utf-8') as f:
         providers = json.load(f)
@@ -161,10 +210,13 @@ def update_providers():
             live_count += 1
         updated.append(provider)
 
+    inferred = infer_provider_candidates(models)
+    updated = merge_provider_records(updated, inferred)
+
     with open(PROVIDERS_PATH, 'w', encoding='utf-8') as f:
         json.dump(updated, f, ensure_ascii=False, indent=2)
 
-    return f'更新 {len(updated)} 家提供商，其中 {live_count} 家为模型作者型实时索引'
+    return f'更新 {len(updated)} 家提供商，其中 {live_count} 家为模型作者型实时索引，自动补充 {len(inferred)} 家候选提供商'
 
 
 if __name__ == '__main__':
