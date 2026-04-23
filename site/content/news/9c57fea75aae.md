@@ -20,12 +20,27 @@ ai_summary = "据报道NSA情报人员在使用Anthropic的Mythos模型，尽管
 summary = "NSA is said to be using Anthropic's restricted Mythos AI model."
 summary_zh = "据说 NSA 正在使用 Anthropic 的受限 Mythos AI 模型"
 tags = []
-list_page = 12
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-据报道NSA情报人员在使用Anthropic的Mythos模型，尽管与五角大楼存在分歧。
+The National Security Agency is said to be using Mythos Preview, Anthropic’s recently announced model that it withheld from public release,
+Axios reports
+.
+
+The news comes weeks after the NSA’s parent agency, the Department of Defense, labeled Anthropic a “
+supply-chain risk
+,” after the company refused to allow Pentagon officials unrestricted access to its model’s full capabilities.
+Anthropic announced Mythos earlier this month as a frontier model designed for cybersecurity tasks, but claimed the model was too capable of offensive cyberattacks to be released publicly.
+
+As a result, the AI firm limited access to Mythos to around 40 organizations, of which it has publicly named
+only a dozen
+.
+The NSA appears to be among the undisclosed recipients, and is said to be using Mythos primarily for scanning environments for exploitable vulnerabilities.
+
+The U.K.’s AI Security Institute has also
+confirmed it has access
 
 ## 🔗 原始来源
 
