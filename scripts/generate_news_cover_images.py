@@ -20,6 +20,7 @@ CHATGPT_COOKIES = Path('/tmp/chatgpt_cookies.json')
 RECENT_HOURS = 6
 MAX_CONCURRENCY = 3
 FRONT_PAGE_LIMIT = 8
+COVER_IMAGE_FEATURE_ENABLED = os.environ.get('AI_HOT_NEWS_COVER_ENABLED', '').lower() in {'1', 'true', 'yes', 'on'}
 MUST_READ_SOURCES = {
     '机器之心', '量子位', '新智元', 'TechCrunch AI', 'The Verge AI', 'MIT Tech Review', 'VentureBeat AI', 'InfoQ AI'
 }
@@ -127,12 +128,26 @@ def is_image_acceptable(analysis_text: str, article_hint: str):
 def build_image_prompt(article):
     title = clean_text(article.get('title_zh') or article.get('title') or '')
     intro = clean_text(article.get('ai_summary') or article.get('summary_zh') or article.get('summary') or '')
-    content = clean_text(article.get('content_text') or article.get('content_excerpt') or '')[:900]
-    return f'''为 AI 新闻文章生成一张网站配图，16:9 横版，严肃科技媒体头图风格。
+    summary_zh = clean_text(article.get('summary_zh') or '')
+    rewrite_body = clean_text(article.get('rewrite_body') or '')[:1200]
+    content = clean_text(article.get('content_text') or article.get('content_excerpt') or '')[:2200]
+    takeaways = article.get('takeaways') or []
+    takeaway_text = '；'.join(clean_text(x) for x in takeaways if clean_text(x))[:500]
+    return f'''为下面这篇 AI 新闻文章生成一张网站配图，16:9 横版，严肃科技媒体头图风格。
+
+请一次性完整理解以上全部信息后再出图，不要只抓一个词，不要忽略正文，不要把它做成泛 AI 海报。
 
 文章标题：{title}
-文章摘要：{intro}
-文章关键信息：{content}
+文章一句话摘要：{intro}
+文章扩展摘要：{summary_zh}
+文章核心要点：{takeaway_text}
+文章改写正文提炼：{rewrite_body}
+文章正文关键信息：{content}
+
+你要先真正理解这篇文章到底在讲什么，再决定画面主体。优先从文章里提取“谁 / 在做什么 / 为了解决什么问题 / 用到了什么关键对象或场景 / 最应该出现什么视觉元素”。
+
+如果文章讲的是具体公司、平台、实验室、芯片、工作流、评测体系、产品界面、分子结构、质谱分析、云基础设施，就优先画这些真正和正文对应的对象与场景。
+不要偷懒退化成机器人头像、抽象蓝光城市、科幻大脑、悬浮芯片海报、通用 AI 宣传图。
 
 必须遵守：
 1. 默认生成“无文字图片”。除非绝对必要，否则不要在画面里放任何中文、英文标题、口号、品牌字样。
@@ -142,7 +157,7 @@ def build_image_prompt(article):
 5. 画面只围绕文章主题本身选元素：
    - 药物发现 / 分子 / 质谱 / 生物医药：实验室、分子结构、质谱峰图、分析终端、样本瓶
    - 模型 / Agent / 编程 / 评测：开发者桌面、工作流面板、任务节点、代码界面、结构图
-   - AI 芯片 / 算力：芯片实物、主板、电路、机房局部、监控面板
+   - AI 芯片 / 算力 / 云基础设施：芯片实物、服务器机架、机房局部、监控面板、云平台控制台
    - 企业产品 / 平台 / 融资：产品界面、业务场景、团队协作，不要空洞概念图
 6. 整体风格克制、编辑感、媒体感，不要营销味，不要夸张大字报。
 7. 构图干净，适合作为正文中的插图或文章头图。
@@ -297,6 +312,13 @@ def main():
 
     args = parser.parse_args()
     command = args.command or 'raw'
+
+    if not COVER_IMAGE_FEATURE_ENABLED and command in {'raw', 'apply', 'retry'}:
+        print(json.dumps({
+            'status': 'disabled',
+            'reason': 'news cover image generation is temporarily disabled due to API limits'
+        }, ensure_ascii=False))
+        return
 
     if command == 'raw':
         result = generate_news_cover_images(limit=args.limit, hours=args.hours, concurrency=args.concurrency)

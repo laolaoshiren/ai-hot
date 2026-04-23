@@ -49,14 +49,24 @@ class NewsCoverImageTests(unittest.TestCase):
         article = {
             "title_zh": "AI 已能批量提出候选药物，10x Science 想先解决怎么筛出真有用的分子",
             "ai_summary": "药物发现的瓶颈正在从生成候选转向验证候选",
-            "content_text": "10x Science 试图用 AI 和质谱分析帮助研究团队理解复杂分子结构。",
+            "summary_zh": "10x Science 想把质谱分析、化学生物学算法和 AI 代理结合起来，帮助研究人员更快判断哪些复杂分子值得推进。",
+            "rewrite_body": "团队希望把质谱分析这类高门槛实验手段，与化学、生物学规则算法以及 AI 代理结合起来，帮助研究人员更快读懂复杂分子结构。",
+            "takeaways": [
+                "候选药物越来越多，真正稀缺的是高质量表征与验证流程。",
+                "这家公司解决的不是生成更多分子，而是更快筛掉无效候选。"
+            ],
+            "content_text": "10x Science 试图用 AI 和质谱分析帮助研究团队理解复杂分子结构。" * 20,
         }
         prompt = build_image_prompt(article)
         self.assertIn("质谱", prompt)
         self.assertIn("药物发现", prompt)
+        self.assertIn("高门槛实验手段", prompt)
+        self.assertIn("高质量表征与验证流程", prompt)
         self.assertIn("不要机器人头像", prompt)
         self.assertIn("不是宣传海报", prompt)
         self.assertIn("默认生成“无文字图片”", prompt)
+        self.assertIn("文章正文关键信息", prompt)
+        self.assertIn("请一次性完整理解以上全部信息后再出图", prompt)
 
 
     def test_select_recent_cover_candidates_only_keeps_recent_and_worthy_articles(self):
