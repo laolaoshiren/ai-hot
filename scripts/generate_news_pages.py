@@ -150,7 +150,7 @@ def build_takeaways(item):
     return [takeaway_1, takeaway_2, takeaway_3]
 
 
-def build_page(item):
+def build_page(item, list_page=1):
     news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
     slug = item.get('slug') or news_id
     title = item.get('title') or slug
@@ -202,6 +202,7 @@ def build_page(item):
         f'summary = "{esc(summary)}"',
         f'summary_zh = "{esc(summary_zh)}"',
         f'tags = {toml_array(tags)}',
+        f'list_page = {int(list_page)}',
         '+++',
         '',
         GENERATED_MARKER.rstrip(),
@@ -223,11 +224,11 @@ def generate_news_pages():
 
     keep = {'_index.md'}
     generated = 0
-    for item in news:
+    for index, item in enumerate(news):
         news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
         slug = item.get('slug') or news_id
         path = CONTENT_DIR / f'{slug}.md'
-        path.write_text(build_page({**item, 'slug': slug}), encoding='utf-8')
+        path.write_text(build_page({**item, 'slug': slug}, list_page=(index // 10) + 1), encoding='utf-8')
         keep.add(path.name)
         generated += 1
 
