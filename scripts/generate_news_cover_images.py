@@ -239,6 +239,20 @@ def apply_article_image(item_id: str, raw_image_path: str, title: str):
     return str(target)
 
 
+def load_news_map():
+    news = json.loads(DATA_NEWS.read_text(encoding='utf-8'))
+    return {item.get('id'): item for item in news if item.get('id')}
+
+
+def retry_one_image(item_id: str):
+    item = load_news_map().get(item_id)
+    if not item:
+        raise SystemExit(f'news id not found: {item_id}')
+    result = process_article_without_qa(item)
+    print(json.dumps(result, ensure_ascii=False))
+    return result
+
+
 def generate_news_cover_images(limit: int = FRONT_PAGE_LIMIT, hours: int = RECENT_HOURS, concurrency: int = 1):
     if not DATA_NEWS.exists():
         return 'news.json 不存在'
@@ -276,6 +290,9 @@ def main():
     apply.add_argument('--raw-image', required=True)
     apply.add_argument('--title', required=True)
 
+    retry = sub.add_parser('retry')
+    retry.add_argument('--id', required=True)
+
     args = parser.parse_args()
     command = args.command or 'raw'
 
@@ -289,6 +306,10 @@ def main():
     if command == 'apply':
         applied = apply_article_image(args.id, args.raw_image, args.title)
         print(json.dumps({'id': args.id, 'applied_image': applied}, ensure_ascii=False))
+        return
+
+    if command == 'retry':
+        retry_one_image(args.id)
         return
 
 
