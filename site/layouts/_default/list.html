@@ -66,13 +66,15 @@
 {{/* 按分类分组 */}}
 {{ $categories := dict "编程" "🛠️" "绘画" "🎨" "视频" "🎬" "对话" "💬" "搜索" "🔍" "写作" "✍️" "办公" "📊" "Agent" "🤖" "本地模型" "💻" "推理引擎" "⚡" "语音" "🎤" "音乐" "🎵" }}
 
-<div class="card" style="margin-bottom:16px">
-    <div class="card-title">🛠️ AI 工具导航 <span class="hot-badge">{{ len site.Data.tools }} 个</span></div>
-    <div class="hot-meta">不是所有工具都值得先点，先按你的目标切入会更快。</div>
-    <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px">
+<div class="card" style="margin-bottom:12px;padding:14px 16px">
+    <div class="card-title" style="margin-bottom:6px">🛠️ AI 工具导航 <span class="hot-badge">{{ len site.Data.tools }} 个</span></div>
+    <div class="hot-meta" style="margin-bottom:8px">不是所有工具都值得先点，先按你的目标切入会更快。</div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;line-height:1.45">
         <span class="tool-tag hot">新手先看：💬 对话 / 🛠️ 编程</span>
         <span class="tool-tag">想白嫖先看：带免费额度的工具</span>
         <span class="tool-tag">想出内容先看：🎨 绘画 / 🎬 视频 / ✍️ 写作</span>
+    </div>
+    <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:6px;line-height:1.45">
         <span class="tool-tag">按热度看：优先看带 ⭐ 的 GitHub 项目</span>
     </div>
 </div>
@@ -80,10 +82,10 @@
 {{ $githubTools := where site.Data.tools "stars" "ne" nil }}
 {{ $hotGithubTools := first 5 (sort $githubTools "stars" "desc") }}
 {{ if gt (len $hotGithubTools) 0 }}
-<div class="card" style="margin-bottom:16px;border-left:3px solid var(--accent)">
-    <div class="card-title">🔥 GitHub 热门项目</div>
-    <div class="hot-meta" style="margin-bottom:12px">如果你想先看社区最认可的一批开源项目，先从这里点。</div>
-    <div style="display:flex;flex-wrap:wrap;gap:8px">
+<div class="card" style="margin-bottom:12px;border-left:3px solid var(--accent);padding:12px 16px">
+    <div style="display:flex;flex-wrap:wrap;align-items:center;gap:8px">
+        <div class="card-title" style="margin:0">🔥 GitHub 热门项目</div>
+        <div class="hot-meta" style="margin:0">如果你想先看社区最认可的一批开源项目，先从这里点。</div>
         {{ range $hotGithubTools }}
         <a href="{{ .url }}" target="_blank" class="tag" style="text-decoration:none">
             {{ .name }} · ⭐ {{ if ge .stars 100000 }}{{ printf "%.0fK" (div (float .stars) 1000.0) }}{{ else if ge .stars 1000 }}{{ printf "%.1fK" (div (float .stars) 1000.0) }}{{ else }}{{ .stars }}{{ end }}
