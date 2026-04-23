@@ -4494,6 +4494,27 @@
     "collected_at": "2026-04-21T00:06:36.068975"
   },
   {
+    "id": "github-1213407629",
+    "name": "xcc6219/Auto-Read-Paper",
+    "display_name": "Auto-Read-Paper",
+    "url": "https://github.com/xcc6219/Auto-Read-Paper",
+    "description": "Automatic search for papers and auto read paper. Utilize AI to obtain the latest research direction papers every day, summarize and generalize each paper, and automatically send several of the most valuable papers to the email.",
+    "stars": 6,
+    "forks": 6,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "automatic-reading-of-papers",
+      "large-language-model",
+      "multi-agent"
+    ],
+    "created_at": "2026-04-17T10:51:07Z",
+    "updated_at": "2026-04-21T18:57:32Z",
+    "license": "AGPL-3.0",
+    "source": "github-search",
+    "collected_at": "2026-04-23T01:57:00.571356"
+  },
+  {
     "id": "github-copilot",
     "name": "features/copilot",
     "display_name": "GitHub Copilot",

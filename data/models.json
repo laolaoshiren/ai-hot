@@ -3231,6 +3231,37 @@
     "collected_at": "2026-04-22T13:10:24.612431"
   },
   {
+    "id": "hf-HauhauCS--Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "name": "HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "display_name": "Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "url": "https://huggingface.co/HauhauCS/Qwen3.6-27B-Uncensored-HauhauCS-Aggressive",
+    "author": "HauhauCS",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 54,
+    "downloads": 0,
+    "tags": [
+      "gguf",
+      "uncensored",
+      "qwen3.6",
+      "vision",
+      "multimodal",
+      "image-text-to-text",
+      "en",
+      "zh",
+      "multilingual",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:quantized:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "imatrix",
+      "conversational"
+    ],
+    "created_at": "2026-04-22T17:47:49.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-23T01:57:03.951642"
+  },
+  {
     "id": "hf-YTan2000--Qwen3.6-35B-A3B-TQ3_4S",
     "name": "YTan2000/Qwen3.6-35B-A3B-TQ3_4S",
     "display_name": "Qwen3.6-35B-A3B-TQ3_4S",
@@ -6724,5 +6755,922 @@
     "created_at": "2026-04-22T18:51:58.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-22T19:04:20.352657"
+  },
+  {
+    "id": "hf-asher577--exp_warmup25_beta325_l0_0.01_no_kl_no_topk",
+    "name": "asher577/exp_warmup25_beta325_l0_0.01_no_kl_no_topk",
+    "display_name": "exp_warmup25_beta325_l0_0.01_no_kl_no_topk",
+    "url": "https://huggingface.co/asher577/exp_warmup25_beta325_l0_0.01_no_kl_no_topk",
+    "author": "asher577",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:56:58.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996352"
+  },
+  {
+    "id": "hf-annieamorim--mbert-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "name": "annieamorim/mbert-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "display_name": "mbert-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/mbert-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:56:56.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996365"
+  },
+  {
+    "id": "hf-ajtaltarabukin2022--distillgptNsH2",
+    "name": "ajtaltarabukin2022/distillgptNsH2",
+    "display_name": "distillgptNsH2",
+    "url": "https://huggingface.co/ajtaltarabukin2022/distillgptNsH2",
+    "author": "ajtaltarabukin2022",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:56:54.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996369"
+  },
+  {
+    "id": "hf-joni3--mmproj-ocr-qwen3.5-0.8b-Q8_0",
+    "name": "joni3/mmproj-ocr-qwen3.5-0.8b-Q8_0",
+    "display_name": "mmproj-ocr-qwen3.5-0.8b-Q8_0",
+    "url": "https://huggingface.co/joni3/mmproj-ocr-qwen3.5-0.8b-Q8_0",
+    "author": "joni3",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:56:31.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996372"
+  },
+  {
+    "id": "hf-qjuu--pick_toy_unmovable_50_new",
+    "name": "qjuu/pick_toy_unmovable_50_new",
+    "display_name": "pick_toy_unmovable_50_new",
+    "url": "https://huggingface.co/qjuu/pick_toy_unmovable_50_new",
+    "author": "qjuu",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:56:17.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996375"
+  },
+  {
+    "id": "hf-jaehyunkang--rby1-7d-cj-rtc6-nosd",
+    "name": "jaehyunkang/rby1-7d-cj-rtc6-nosd",
+    "display_name": "rby1-7d-cj-rtc6-nosd",
+    "url": "https://huggingface.co/jaehyunkang/rby1-7d-cj-rtc6-nosd",
+    "author": "jaehyunkang",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "RLDX_1",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:55:40.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996378"
+  },
+  {
+    "id": "hf-Hxbzbb7272--hggyyu",
+    "name": "Hxbzbb7272/hggyyu",
+    "display_name": "hggyyu",
+    "url": "https://huggingface.co/Hxbzbb7272/hggyyu",
+    "author": "Hxbzbb7272",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:55:11.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996381"
+  },
+  {
+    "id": "hf-duanyu027--gemma4-31b-0422-merged",
+    "name": "duanyu027/gemma4-31b-0422-merged",
+    "display_name": "gemma4-31b-0422-merged",
+    "url": "https://huggingface.co/duanyu027/gemma4-31b-0422-merged",
+    "author": "duanyu027",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:55:08.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996383"
+  },
+  {
+    "id": "hf-annieamorim--mbert-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "name": "annieamorim/mbert-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "display_name": "mbert-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/mbert-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "bert",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:54:35.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996386"
+  },
+  {
+    "id": "hf-omar-ah--hit-small-uav-tracker",
+    "name": "omar-ah/hit-small-uav-tracker",
+    "display_name": "hit-small-uav-tracker",
+    "url": "https://huggingface.co/omar-ah/hit-small-uav-tracker",
+    "author": "omar-ah",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "arxiv:2308.06904",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:54:10.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996389"
+  },
+  {
+    "id": "hf-rlodhi--smolvla_screw_placing_5000",
+    "name": "rlodhi/smolvla_screw_placing_5000",
+    "display_name": "smolvla_screw_placing_5000",
+    "url": "https://huggingface.co/rlodhi/smolvla_screw_placing_5000",
+    "author": "rlodhi",
+    "pipeline_tag": "robotics",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "smolvla",
+      "dataset:rlodhi/screw_placing",
+      "arxiv:2506.01844",
+      "base_model:lerobot/smolvla_base",
+      "base_model:finetune:lerobot/smolvla_base",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:53:05.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996392"
+  },
+  {
+    "id": "hf-lcooperl--VER-2_8B-R32_Merged",
+    "name": "lcooperl/VER-2_8B-R32_Merged",
+    "display_name": "VER-2_8B-R32_Merged",
+    "url": "https://huggingface.co/lcooperl/VER-2_8B-R32_Merged",
+    "author": "lcooperl",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:52:37.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996394"
+  },
+  {
+    "id": "hf-ijinyu1113--contrastive_l1.0_layer11_s150000_seed42_v3_nopaired",
+    "name": "ijinyu1113/contrastive_l1.0_layer11_s150000_seed42_v3_nopaired",
+    "display_name": "contrastive_l1.0_layer11_s150000_seed42_v3_nopaired",
+    "url": "https://huggingface.co/ijinyu1113/contrastive_l1.0_layer11_s150000_seed42_v3_nopaired",
+    "author": "ijinyu1113",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:51:25.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996397"
+  },
+  {
+    "id": "hf-ijinyu1113--contrastive_l1.0_layer11_s150000_seed1_v3_nopaired",
+    "name": "ijinyu1113/contrastive_l1.0_layer11_s150000_seed1_v3_nopaired",
+    "display_name": "contrastive_l1.0_layer11_s150000_seed1_v3_nopaired",
+    "url": "https://huggingface.co/ijinyu1113/contrastive_l1.0_layer11_s150000_seed1_v3_nopaired",
+    "author": "ijinyu1113",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:51:25.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996400"
+  },
+  {
+    "id": "hf-anima5445544524--v19_asuka_rui_mahou_shoujo_raita",
+    "name": "anima5445544524/v19_asuka_rui_mahou_shoujo_raita",
+    "display_name": "v19_asuka_rui_mahou_shoujo_raita",
+    "url": "https://huggingface.co/anima5445544524/v19_asuka_rui_mahou_shoujo_raita",
+    "author": "anima5445544524",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "tensorboard",
+      "safetensors",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:51:09.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996402"
+  },
+  {
+    "id": "hf-annieamorim--albertina-base-hatebr-checkpoint-1280-hate-speech-prov-v1",
+    "name": "annieamorim/albertina-base-hatebr-checkpoint-1280-hate-speech-prov-v1",
+    "display_name": "albertina-base-hatebr-checkpoint-1280-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/albertina-base-hatebr-checkpoint-1280-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "deberta",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:50:27.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996405"
+  },
+  {
+    "id": "hf-peterxyz--forecasting-sft-qwen3-8b-v2",
+    "name": "peterxyz/forecasting-sft-qwen3-8b-v2",
+    "display_name": "forecasting-sft-qwen3-8b-v2",
+    "url": "https://huggingface.co/peterxyz/forecasting-sft-qwen3-8b-v2",
+    "author": "peterxyz",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:50:07.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996407"
+  },
+  {
+    "id": "hf-EsBekuCuy--CreaNoV",
+    "name": "EsBekuCuy/CreaNoV",
+    "display_name": "CreaNoV",
+    "url": "https://huggingface.co/EsBekuCuy/CreaNoV",
+    "author": "EsBekuCuy",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:49:11.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996410"
+  },
+  {
+    "id": "hf-benkolligs--sarm-folding-repo",
+    "name": "benkolligs/sarm-folding-repo",
+    "display_name": "sarm-folding-repo",
+    "url": "https://huggingface.co/benkolligs/sarm-folding-repo",
+    "author": "benkolligs",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:48:57.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996412"
+  },
+  {
+    "id": "hf-visaebench--deit-vitb16-saes",
+    "name": "visaebench/deit-vitb16-saes",
+    "display_name": "deit-vitb16-saes",
+    "url": "https://huggingface.co/visaebench/deit-vitb16-saes",
+    "author": "visaebench",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:48:19.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996415"
+  },
+  {
+    "id": "hf-zzq1zh--tc-ijepa-cifar100",
+    "name": "zzq1zh/tc-ijepa-cifar100",
+    "display_name": "tc-ijepa-cifar100",
+    "url": "https://huggingface.co/zzq1zh/tc-ijepa-cifar100",
+    "author": "zzq1zh",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:48:04.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996417"
+  },
+  {
+    "id": "hf-visaebench--mae-vitb16-saes",
+    "name": "visaebench/mae-vitb16-saes",
+    "display_name": "mae-vitb16-saes",
+    "url": "https://huggingface.co/visaebench/mae-vitb16-saes",
+    "author": "visaebench",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:48:01.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996420"
+  },
+  {
+    "id": "hf-visaebench--siglip-vitb16-saes",
+    "name": "visaebench/siglip-vitb16-saes",
+    "display_name": "siglip-vitb16-saes",
+    "url": "https://huggingface.co/visaebench/siglip-vitb16-saes",
+    "author": "visaebench",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:47:34.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996423"
+  },
+  {
+    "id": "hf-annieamorim--albertina-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "name": "annieamorim/albertina-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "display_name": "albertina-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/albertina-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "deberta",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:47:18.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996426"
+  },
+  {
+    "id": "hf-visaebench--clip-vitb16-saes",
+    "name": "visaebench/clip-vitb16-saes",
+    "display_name": "clip-vitb16-saes",
+    "url": "https://huggingface.co/visaebench/clip-vitb16-saes",
+    "author": "visaebench",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:47:17.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996428"
+  },
+  {
+    "id": "hf-visaebench--dinov2-vitb14-saes",
+    "name": "visaebench/dinov2-vitb14-saes",
+    "display_name": "dinov2-vitb14-saes",
+    "url": "https://huggingface.co/visaebench/dinov2-vitb14-saes",
+    "author": "visaebench",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:46:42.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996431"
+  },
+  {
+    "id": "hf-chrischarts8--qwen36-fhir-compiler",
+    "name": "chrischarts8/qwen36-fhir-compiler",
+    "display_name": "qwen36-fhir-compiler",
+    "url": "https://huggingface.co/chrischarts8/qwen36-fhir-compiler",
+    "author": "chrischarts8",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:45:22.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996433"
+  },
+  {
+    "id": "hf-mrClumsy1207--pilot-32k-best-path-accepted-only",
+    "name": "mrClumsy1207/pilot-32k-best-path-accepted-only",
+    "display_name": "pilot-32k-best-path-accepted-only",
+    "url": "https://huggingface.co/mrClumsy1207/pilot-32k-best-path-accepted-only",
+    "author": "mrClumsy1207",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:45:03.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996436"
+  },
+  {
+    "id": "hf-annieamorim--albertina-base-hatebr-checkpoint-768-hate-speech-prov-v1",
+    "name": "annieamorim/albertina-base-hatebr-checkpoint-768-hate-speech-prov-v1",
+    "display_name": "albertina-base-hatebr-checkpoint-768-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/albertina-base-hatebr-checkpoint-768-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "deberta",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:44:44.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996439"
+  },
+  {
+    "id": "hf-Caiyun-Weather--HREPNet",
+    "name": "Caiyun-Weather/HREPNet",
+    "display_name": "HREPNet",
+    "url": "https://huggingface.co/Caiyun-Weather/HREPNet",
+    "author": "Caiyun-Weather",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:44:11.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996441"
+  },
+  {
+    "id": "hf-Justin-lee--code-qwen2.5-coder-3b",
+    "name": "Justin-lee/code-qwen2.5-coder-3b",
+    "display_name": "code-qwen2.5-coder-3b",
+    "url": "https://huggingface.co/Justin-lee/code-qwen2.5-coder-3b",
+    "author": "Justin-lee",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:44:02.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996444"
+  },
+  {
+    "id": "hf-avizurlo--act_bear_ball_bowl_v1",
+    "name": "avizurlo/act_bear_ball_bowl_v1",
+    "display_name": "act_bear_ball_bowl_v1",
+    "url": "https://huggingface.co/avizurlo/act_bear_ball_bowl_v1",
+    "author": "avizurlo",
+    "pipeline_tag": "robotics",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "lerobot",
+      "safetensors",
+      "robotics",
+      "act",
+      "dataset:avizurlo/so101_bear_ball_bowl",
+      "arxiv:2304.13705",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:42:57.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996446"
+  },
+  {
+    "id": "hf-zAnonymousWizard--dancing-loras",
+    "name": "zAnonymousWizard/dancing-loras",
+    "display_name": "dancing-loras",
+    "url": "https://huggingface.co/zAnonymousWizard/dancing-loras",
+    "author": "zAnonymousWizard",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:42:54.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996448"
+  },
+  {
+    "id": "hf-g4me--QwenRolina-1.7B-base-LR1e5-b32g2gc8-order-batch-filtered",
+    "name": "g4me/QwenRolina-1.7B-base-LR1e5-b32g2gc8-order-batch-filtered",
+    "display_name": "QwenRolina-1.7B-base-LR1e5-b32g2gc8-order-batch-filtered",
+    "url": "https://huggingface.co/g4me/QwenRolina-1.7B-base-LR1e5-b32g2gc8-order-batch-filtered",
+    "author": "g4me",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:42:33.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996451"
+  },
+  {
+    "id": "hf-NovaCorp--Very_Dangerous-v3-3.2-1B",
+    "name": "NovaCorp/Very_Dangerous-v3-3.2-1B",
+    "display_name": "Very_Dangerous-v3-3.2-1B",
+    "url": "https://huggingface.co/NovaCorp/Very_Dangerous-v3-3.2-1B",
+    "author": "NovaCorp",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "llama",
+      "text-generation",
+      "danger",
+      "volatile",
+      "not-for-all-audiences",
+      "en",
+      "es",
+      "base_model:NovaCorp/Very_Dangerous-v2-3.2-1B",
+      "base_model:finetune:NovaCorp/Very_Dangerous-v2-3.2-1B",
+      "license:llama3.2",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:42:27.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996453"
+  },
+  {
+    "id": "hf-nkshirsa--phd-research-os-brain",
+    "name": "nkshirsa/phd-research-os-brain",
+    "display_name": "phd-research-os-brain",
+    "url": "https://huggingface.co/nkshirsa/phd-research-os-brain",
+    "author": "nkshirsa",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "scientific-research",
+      "claim-extraction",
+      "epistemic-classification",
+      "contradiction-detection",
+      "structured-output",
+      "research-assistant",
+      "phd-tools",
+      "text-generation",
+      "en",
+      "dataset:nkshirsa/phd-research-os-sft-data",
+      "arxiv:2401.00579",
+      "base_model:Qwen/Qwen2.5-3B-Instruct",
+      "base_model:finetune:Qwen/Qwen2.5-3B-Instruct",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:42:22.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996456"
+  },
+  {
+    "id": "hf-annieamorim--albertina-base-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "name": "annieamorim/albertina-base-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "display_name": "albertina-base-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/albertina-base-hatebr-checkpoint-512-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "deberta",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:42:20.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996458"
+  },
+  {
+    "id": "hf-nebulette--nette",
+    "name": "nebulette/nette",
+    "display_name": "nette",
+    "url": "https://huggingface.co/nebulette/nette",
+    "author": "nebulette",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:41:21.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996461"
+  },
+  {
+    "id": "hf-annieamorim--albertina-base-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "name": "annieamorim/albertina-base-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "display_name": "albertina-base-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/albertina-base-hatebr-checkpoint-256-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "deberta",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:39:55.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996463"
+  },
+  {
+    "id": "hf-Jpedro2004--gpt2-samsum-lora",
+    "name": "Jpedro2004/gpt2-samsum-lora",
+    "display_name": "gpt2-samsum-lora",
+    "url": "https://huggingface.co/Jpedro2004/gpt2-samsum-lora",
+    "author": "Jpedro2004",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "arxiv:1910.09700",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:39:48.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996465"
+  },
+  {
+    "id": "hf-Aneesha--act-configs",
+    "name": "Aneesha/act-configs",
+    "display_name": "act-configs",
+    "url": "https://huggingface.co/Aneesha/act-configs",
+    "author": "Aneesha",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:39:09.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996468"
+  },
+  {
+    "id": "hf-ijinyu1113--contrastive_l1.0_layer1_s150000_seed123_v3_nopaired",
+    "name": "ijinyu1113/contrastive_l1.0_layer1_s150000_seed123_v3_nopaired",
+    "display_name": "contrastive_l1.0_layer1_s150000_seed123_v3_nopaired",
+    "url": "https://huggingface.co/ijinyu1113/contrastive_l1.0_layer1_s150000_seed123_v3_nopaired",
+    "author": "ijinyu1113",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:38:16.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996471"
+  },
+  {
+    "id": "hf-Cheesemaster5000--Cheeseland",
+    "name": "Cheesemaster5000/Cheeseland",
+    "display_name": "Cheeseland",
+    "url": "https://huggingface.co/Cheesemaster5000/Cheeseland",
+    "author": "Cheesemaster5000",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "en",
+      "dataset:TeichAI/claude-4.5-opus-high-reasoning-250x",
+      "base_model:hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "base_model:finetune:hesamation/Qwen3.6-35B-A3B-Claude-4.6-Opus-Reasoning-Distilled-GGUF",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:38:13.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996473"
+  },
+  {
+    "id": "hf-SaFD-00--gemma-4-e4b-ac-world-model-stage1-lora-epoch1",
+    "name": "SaFD-00/gemma-4-e4b-ac-world-model-stage1-lora-epoch1",
+    "display_name": "gemma-4-e4b-ac-world-model-stage1-lora-epoch1",
+    "url": "https://huggingface.co/SaFD-00/gemma-4-e4b-ac-world-model-stage1-lora-epoch1",
+    "author": "SaFD-00",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:36:57.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996476"
+  },
+  {
+    "id": "hf-knightnemo--nanowm-b2-dino-wm-pusht-100k",
+    "name": "knightnemo/nanowm-b2-dino-wm-pusht-100k",
+    "display_name": "nanowm-b2-dino-wm-pusht-100k",
+    "url": "https://huggingface.co/knightnemo/nanowm-b2-dino-wm-pusht-100k",
+    "author": "knightnemo",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:36:28.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996478"
+  },
+  {
+    "id": "hf-haanjack--K-EXAONE-236B-A23B-MXFP4",
+    "name": "haanjack/K-EXAONE-236B-A23B-MXFP4",
+    "display_name": "K-EXAONE-236B-A23B-MXFP4",
+    "url": "https://huggingface.co/haanjack/K-EXAONE-236B-A23B-MXFP4",
+    "author": "haanjack",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "exaone_moe",
+      "text-generation",
+      "quantization",
+      "mxfp4",
+      "amd",
+      "quark",
+      "rocm",
+      "quanto",
+      "conversational",
+      "base_model:LGAI-EXAONE/K-EXAONE-236B-A23B",
+      "base_model:quantized:LGAI-EXAONE/K-EXAONE-236B-A23B",
+      "license:other",
+      "endpoints_compatible",
+      "8-bit",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:35:58.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996481"
+  },
+  {
+    "id": "hf-lkjiop8--reasoning-expert-v3",
+    "name": "lkjiop8/reasoning-expert-v3",
+    "display_name": "reasoning-expert-v3",
+    "url": "https://huggingface.co/lkjiop8/reasoning-expert-v3",
+    "author": "lkjiop8",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "text-generation-inference",
+      "unsloth",
+      "qwen3_5",
+      "trl",
+      "en",
+      "base_model:unsloth/Qwen3.5-27B",
+      "base_model:finetune:unsloth/Qwen3.5-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:35:51.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996483"
+  },
+  {
+    "id": "hf-annieamorim--twhin-bert-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "name": "annieamorim/twhin-bert-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "display_name": "twhin-bert-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "url": "https://huggingface.co/annieamorim/twhin-bert-base-hatebr-checkpoint-1024-hate-speech-prov-v1",
+    "author": "annieamorim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "bert",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:35:14.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996486"
+  },
+  {
+    "id": "hf-LuciferMrng--neurogolf-2026",
+    "name": "LuciferMrng/neurogolf-2026",
+    "display_name": "neurogolf-2026",
+    "url": "https://huggingface.co/LuciferMrng/neurogolf-2026",
+    "author": "LuciferMrng",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:34:04.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996488"
+  },
+  {
+    "id": "hf-pinkmustard--kanana_sft_adapt",
+    "name": "pinkmustard/kanana_sft_adapt",
+    "display_name": "kanana_sft_adapt",
+    "url": "https://huggingface.co/pinkmustard/kanana_sft_adapt",
+    "author": "pinkmustard",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "peft",
+      "safetensors",
+      "base_model:adapter:kakaocorp/kanana-1.5-8b-instruct-2505",
+      "lora",
+      "transformers",
+      "text-generation",
+      "arxiv:1910.09700",
+      "base_model:kakaocorp/kanana-1.5-8b-instruct-2505",
+      "region:us"
+    ],
+    "created_at": "2026-04-23T01:32:51.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-23T01:57:03.996490"
   }
 ]

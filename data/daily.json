@@ -1,41 +1,40 @@
 {
-  "updated_at": "2026-04-22T19:04:59.427806",
-  "date": "2026-04-22",
+  "updated_at": "2026-04-23T01:57:51.680738",
+  "date": "2026-04-23",
   "spotlight": {
-    "id": "kimi",
-    "name": "Kimi",
-    "url": "https://kimi.moonshot.cn",
+    "id": "豆包",
+    "name": "豆包",
+    "url": "https://www.doubao.com",
     "type": "tool",
-    "description": "月之暗面出品，超长上下文 AI 助手",
-    "pricing": "免费 + 会员",
+    "description": "字节跳动出品的 AI 助手，功能全面",
+    "pricing": "免费",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "AutoGen",
-      "url": "https://github.com/microsoft/autogen",
+      "name": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
       "type": "agent",
-      "description": "微软多Agent对话框架，支持复杂任务协作",
+      "description": "LangChain出品的有状态Agent编排框架",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "id": "claude-code",
-      "name": "Claude Code",
-      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
       "type": "tool",
-      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+      "description": "OpenAI 官方终端编程助手，轻量快速",
       "pricing": "按 API 使用量计费",
       "category": "编程"
     },
     {
-      "id": "aider",
-      "name": "Aider",
-      "url": "https://aider.chat",
-      "type": "tool",
-      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "type": "agent",
+      "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
       "pricing": "开源免费",
-      "category": "编程"
+      "category": "助手 Agent"
     }
   ]
 }
