@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://stephvee.ca/blog/artificial%20intelligence/
 summary = "Article URL: https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-growing/ Comments URL: https://news.ycombinator.com/item?id=47839951 Points: 374 # Comments: 400"
 summary_zh = "文章网址：https://stephvee.ca/blog/artificial%20intelligence/ai-resistance-is-forming/ 评论网址：https://news.ycombinator.com/item…"
 tags = []
-list_page = 9
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

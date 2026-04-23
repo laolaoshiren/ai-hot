@@ -20,7 +20,7 @@ ai_summary = "2026奇点智能技术大会探讨AI Agent在软件研发中的应
 summary = "当代码可以被生成，程序员还能做些什么？"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->
