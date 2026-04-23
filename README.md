@@ -8,6 +8,8 @@
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
 🕐 **最近更新**：2026-04-23 02:08:22
 
+**提供商直达：** [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
+
 **立即进入：** [首页完整版](https://aihot.bt199.com/) · [搜索 AI 工具 / 模型 / 新闻](https://aihot.bt199.com/search/) · [查看全部工具](https://aihot.bt199.com/tools/) · [查看模型榜](https://aihot.bt199.com/models/) · [查看 Agent 专区](https://aihot.bt199.com/agents/)
 
 ---
@@ -100,7 +102,6 @@
 - [🤖 AI Agent（52）](https://aihot.bt199.com/agents/)
 - [📰 AI新闻（151）](https://aihot.bt199.com/news/)
 - [🏢 AI提供商（22）](https://aihot.bt199.com/providers/)
-- 提供商直达：[硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
 - [⚔️ 工具对比](https://aihot.bt199.com/compare/)
 - [🔍 全站搜索](https://aihot.bt199.com/search/)
 
