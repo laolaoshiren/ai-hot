@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-23T13:09:59.419996+00:00",
+  "updated_at": "2026-04-23T19:02:30.894931+00:00",
   "window_days": 30,
-  "candidate_count": 4,
+  "candidate_count": 3,
   "items": [
     {
       "id": "github-1201656210",
@@ -26,7 +26,7 @@
       "created_at": "2026-04-03T09:28:47.000Z",
       "window_days": 30,
       "openrouter_available": false,
-      "score": 4670.259846919317,
+      "score": 4614.2104002847245,
       "reason": "智谱新一代通用模型线，近期关注度明显抬头"
     },
     {
@@ -51,18 +51,6 @@
       "window_days": 30,
       "score": 5300.118718215167,
       "reason": "基于 Claude Code 的求职自动化工作流系统"
-    },
-    {
-      "id": "github-1190778303",
-      "name": "awesome-opensource-ai",
-      "url": "https://github.com/alvinreal/awesome-opensource-ai",
-      "description": "Curated list of the best truly open-source AI projects, models, tools, and infrastructure.",
-      "type": "project",
-      "stars": 2800,
-      "created_at": "2026-03-24T15:58:22Z",
-      "window_days": 30,
-      "score": 731.2772535750703,
-      "reason": "最近值得点开的开源 AI 项目"
     }
   ]
 }

@@ -200,14 +200,15 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Hy3 preview (free)",
       "Hunyuan A13B Instruct"
     ],
-    "model_count": 1,
-    "last_updated": "2025-07-08",
+    "model_count": 2,
+    "last_updated": "2026-04-22",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 1 个该作者/厂商相关模型，最近更新为 Hunyuan A13B Instruct",
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Hy3 preview (free)",
     "provider_kind": "model_author"
   },
   {
@@ -598,19 +599,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Arcee AI: Trinity Large Thinking",
       "Arcee AI: Trinity Large Preview",
       "Arcee AI: Trinity Mini"
     ],
-    "model_count": 7,
-    "last_updated": "2026-04-01",
-    "modalities": [
-      "文本",
-      "多模态"
-    ],
-    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Arcee AI: Trinity Large Thinking"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "rekaai",
@@ -625,18 +623,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Reka Edge",
       "Reka Flash 3"
     ],
-    "model_count": 2,
-    "last_updated": "2026-03-20",
-    "modalities": [
-      "视频",
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Reka Edge"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "liquid",
@@ -652,18 +647,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "LiquidAI: LFM2-24B-A2B",
       "LiquidAI: LFM2.5-1.2B-Thinking (free)",
       "LiquidAI: LFM2.5-1.2B-Instruct (free)"
     ],
-    "model_count": 3,
-    "last_updated": "2026-02-25",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 3 个该作者/厂商相关模型，最近更新为 LiquidAI: LFM2-24B-A2B"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "aion-labs",
@@ -679,18 +672,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "AionLabs: Aion-2.0",
       "AionLabs: Aion-1.0",
       "AionLabs: Aion-1.0-Mini"
     ],
-    "model_count": 4,
-    "last_updated": "2026-02-23",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 AionLabs: Aion-2.0"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "allenai",
@@ -705,17 +696,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "AllenAI: Olmo 3.1 32B Instruct",
       "AllenAI: Olmo 3 32B Think"
     ],
-    "model_count": 2,
-    "last_updated": "2026-01-06",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 AllenAI: Olmo 3.1 32B Instruct"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "relace",
@@ -730,17 +719,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Relace: Relace Search",
       "Relace: Relace Apply 3"
     ],
-    "model_count": 2,
-    "last_updated": "2025-12-08",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Relace: Relace Search"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "amazon",
@@ -756,20 +743,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Nova 2 Lite",
       "Nova Premier 1.0",
       "Nova Lite 1.0"
     ],
-    "model_count": 5,
-    "last_updated": "2025-12-02",
-    "modalities": [
-      "视频",
-      "多模态",
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Nova 2 Lite"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "perplexity",
@@ -785,19 +768,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Perplexity: Sonar Pro Search",
       "Perplexity: Sonar Reasoning Pro",
       "Perplexity: Sonar Pro"
     ],
-    "model_count": 5,
-    "last_updated": "2025-10-30",
-    "modalities": [
-      "多模态",
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Perplexity: Sonar Pro Search"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "thedrummer",
@@ -813,18 +793,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "TheDrummer: Cydonia 24B V4.1",
       "TheDrummer: Skyfall 36B V2",
       "TheDrummer: UnslopNemo 12B"
     ],
-    "model_count": 4,
-    "last_updated": "2025-09-27",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 TheDrummer: Cydonia 24B V4.1"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "nousresearch",
@@ -840,18 +818,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Nous: Hermes 4 70B",
       "Nous: Hermes 4 405B",
       "Nous: Hermes 3 70B Instruct"
     ],
-    "model_count": 6,
-    "last_updated": "2025-08-26",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 Nous: Hermes 4 70B"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "morph",
@@ -866,17 +842,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Morph: Morph V3 Large",
       "Morph: Morph V3 Fast"
     ],
-    "model_count": 2,
-    "last_updated": "2025-07-07",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Morph: Morph V3 Large"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "cohere",
@@ -892,18 +866,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Cohere: Command A",
       "Cohere: Command R7B (12-2024)",
       "Cohere: Command R+ (08-2024)"
     ],
-    "model_count": 4,
-    "last_updated": "2025-03-13",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 Cohere: Command A"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "microsoft",
@@ -918,17 +890,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Microsoft: Phi 4",
       "WizardLM-2 8x22B"
     ],
-    "model_count": 2,
-    "last_updated": "2025-01-10",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Microsoft: Phi 4"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "sao10k",
@@ -944,18 +914,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Sao10K: Llama 3.1 70B Hanami x1",
       "Sao10K: Llama 3.3 Euryale 70B",
       "Sao10K: Llama 3.1 Euryale 70B v2.2"
     ],
-    "model_count": 5,
-    "last_updated": "2025-01-08",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Sao10K: Llama 3.1 70B Hanami x1"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "inflection",
@@ -970,16 +938,39 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Inflection: Inflection 3 Productivity",
       "Inflection: Inflection 3 Pi"
     ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "inclusionai",
+    "name": "inclusionAI",
+    "url": "https://openrouter.ai/inclusionai",
+    "logo": "🆕",
+    "models": [
+      "inclusionAI: Ling-2.6-1T (free)",
+      "inclusionAI: Ling-2.6-flash (free)"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "inclusionAI: Ling-2.6-1T (free)",
+      "inclusionAI: Ling-2.6-flash (free)"
+    ],
     "model_count": 2,
-    "last_updated": "2024-10-11",
+    "last_updated": "2026-04-23",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Inflection: Inflection 3 Productivity"
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 inclusionAI: Ling-2.6-1T (free)"
   }
 ]
