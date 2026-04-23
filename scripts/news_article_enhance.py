@@ -7,7 +7,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parents[1]
 NEWS_PATH = ROOT / 'data' / 'news.json'
 
 AD_PATTERNS = [

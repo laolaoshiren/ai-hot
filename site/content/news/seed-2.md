@@ -20,6 +20,7 @@ ai_summary = "Cursor 增加了新的人工智能功能"
 summary = "Cursor adds new AI-powered features"
 summary_zh = "Cursor 增加了新的人工智能功能"
 tags = []
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

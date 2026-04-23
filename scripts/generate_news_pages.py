@@ -5,7 +5,7 @@ from pathlib import Path
 import json
 import re
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parents[1]
 NEWS_JSON = ROOT / 'data' / 'news.json'
 CONTENT_DIR = ROOT / 'site' / 'content' / 'news'
 GENERATED_MARKER = '<!-- AUTO-GENERATED: news page -->\n'

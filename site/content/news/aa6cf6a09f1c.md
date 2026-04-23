@@ -20,6 +20,7 @@ ai_summary = "华硕ROG魔盒Air Wi-Fi 7路由器新增黑色版本，定价1399
 summary = "IT之家 4 月 20 日消息，华硕现已为其 ROG 魔盒 Air Wi-Fi 7 路由器新增黑色版本，定价为 1399 元，首单补贴后到手价低至 1115 元，4 月 27 日首销。<img src=\"https://img.ithome.com/newsuploadfiles/2026"
 summary_zh = ""
 tags = []
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

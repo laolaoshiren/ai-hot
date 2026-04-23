@@ -11,7 +11,7 @@ import trafilatura
 from readability import Document
 from bs4 import BeautifulSoup
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / 'data'
 NEWS_PATH = DATA_DIR / 'news.json'
 

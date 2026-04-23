@@ -20,6 +20,7 @@ ai_summary = "AI 抢人已经卷到实习生，但真正稀缺的不是高薪 of
 summary = "大厂AI抢人大战，从实习生开始"
 summary_zh = "文章以京东开源图像编辑模型 JoyAI-Image-Edit 为切口，讨论头部大厂 AI 实习岗位的真实分化：表面上年薪百万的实习机会越来越多，但多数岗位仍偏边缘化。真正稀缺的，是能从 0 到 1 参与模型核心模块研发、而不是只做数据清洗和杂活的研究型实习机会。"
 tags = []
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->
