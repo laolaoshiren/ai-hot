@@ -221,7 +221,7 @@
     <div class="hot-item news-item" data-page="{{ div $index 10 }}">
         <div class="hot-content">
             <div class="hot-title">
-                <a href="{{ relURL "/news/" }}{{ $item.id }}/">{{ with $item.title_zh }}{{ . }}{{ else }}{{ $item.title }}{{ end }}</a>
+                <a href="{{ relURL "/news/" }}{{ $item.id }}/?p={{ add (div $index 10) 1 }}">{{ with $item.title_zh }}{{ . }}{{ else }}{{ $item.title }}{{ end }}</a>
                 <span class="hot-badge">{{ $item.source }}</span>
             </div>
             {{ with $item.published }}<div class="hot-meta">{{ replace . "T" " " | truncate 16 "" }}</div>{{ end }}
@@ -253,6 +253,9 @@
         document.getElementById('prevPage').style.opacity = p === 0 ? '0.4' : '1';
         document.getElementById('nextPage').disabled = p === totalPages - 1;
         document.getElementById('nextPage').style.opacity = p === totalPages - 1 ? '0.4' : '1';
+        const params = new URLSearchParams(location.search);
+        params.set('p', String(p + 1));
+        history.replaceState(null, '', `${location.pathname}?${params.toString()}`);
         current = p;
     }
 
