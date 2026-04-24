@@ -20,15 +20,24 @@ CATEGORY_MAP = {
 
 # 来源权重
 SOURCE_WEIGHTS = {
-    "Hacker News": 12,
     "机器之心": 10,
     "36氪": 8,
     "TechCrunch AI": 10,
     "The Verge AI": 8,
     "量子位": 8,
     "InfoQ AI": 7,
+    "MIT Tech Review": 8,
+    "Ars Technica AI": 6,
+    "VentureBeat AI": 7,
     "IT之家": 5,
 }
+
+TRUSTED_NEWS_SOURCES = set(SOURCE_WEIGHTS.keys())
+NOISY_NEWS_SOURCES = {"Hacker News AI", "r/LocalLLaMA", "r/MachineLearning", "r/artificial", "V2EX"}
+BAD_DESC_PATTERNS = (
+    '点击查看原文', '文章网址：', '评论网址：', 'reddit.com/', 'v2ex.com/', '![图片', '```',
+    'i hope they include it', 'deepseek v4 人'
+)
 
 BREAKING_MODEL_KEYWORDS = {
     'gpt-5.5': 18,
@@ -111,31 +120,47 @@ def compute_trending():
         source_counts = {}
         for n in news:
             src = n.get("source", "other")
+            if src in NOISY_NEWS_SOURCES or src not in TRUSTED_NEWS_SOURCES:
+                continue
             source_counts[src] = source_counts.get(src, 0) + 1
             if source_counts[src] > 2:
                 continue
-            
+
+            raw_title = n.get("title_zh") or n.get("title") or ""
+            ai_summary = n.get("ai_summary", "") or ""
+            summary_zh = n.get("summary_zh", "") or ""
+            summary = n.get("summary", "") or ""
+            desc = ai_summary or summary_zh or summary
+            low_blob = f"{raw_title} {desc}".lower()
+            if any(p in low_blob for p in BAD_DESC_PATTERNS):
+                continue
+
             weight = SOURCE_WEIGHTS.get(src, 3)
-            ai_summary = n.get("ai_summary", "")
             title_low = (n.get("title", "") + ' ' + n.get("title_zh", "")).lower()
-            
-            # 有AI摘要的新闻加分
-            if ai_summary and len(ai_summary) > 30:
+
+            if desc and len(desc) > 30:
                 weight += 5
 
             for kw, bonus in BREAKING_MODEL_KEYWORDS.items():
                 if kw in title_low:
                     weight += bonus
-            
+
             hot_items.append({
-                "name": n.get("title", ""),
+                "title": raw_title,
+                "name": raw_title,
+                "title_zh": n.get("title_zh") or n.get("title") or raw_title,
                 "url": n.get("url", ""),
                 "type": "news",
                 "source": src,
                 "score": weight,
                 "detail": n.get("published", "")[:10],
-                "description": ai_summary or n.get("summary", "")[:50],
+                "time": n.get("published", "")[:10],
+                "description": desc[:120],
+                "subtitle": desc[:120],
+                "ai_summary": desc[:120],
                 "category": "资讯",
+                "news_id": n.get("id"),
+                "internal_url": f"https://aihot.bt199.com/news/{n.get('id')}/" if n.get("id") else "",
             })
     
     # 4. HuggingFace 热门模型
@@ -177,18 +202,26 @@ def compute_trending():
             normal.append(item)
     ranked = breaking + normal
     
-    # 确保混合：每个类型至少有代表
+    # 首页今日热点优先展示新闻大事件，工具/项目后置
     final_list = []
     type_counts = {"tool": 0, "project": 0, "news": 0, "model": 0}
-    max_per_type = {"tool": 4, "project": 3, "news": 8, "model": 3}
-    
-    # 第一轮：按分数排序，但限制每类型数量
-    for item in ranked:
+    max_per_type = {"tool": 4, "project": 3, "news": 10, "model": 3}
+
+    news_first = [x for x in ranked if x.get('type') == 'news']
+    others = [x for x in ranked if x.get('type') != 'news']
+
+    for item in news_first:
+        if len(final_list) >= 8:
+            break
+        final_list.append(item)
+        type_counts['news'] += 1
+
+    for item in others + news_first[8:]:
         item_type = item.get("type", "other")
         if type_counts.get(item_type, 0) < max_per_type.get(item_type, 10):
             final_list.append(item)
             type_counts[item_type] = type_counts.get(item_type, 0) + 1
-        
+
         if len(final_list) >= 20:  # 显示20条
             break
     

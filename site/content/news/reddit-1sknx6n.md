@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "We're back with another Best Local LLMs Megathread! *We have continued feasting in the months since the previous thread with the much anticipated release of the Qwen3.5 and Gemma4 series. If that wasn't enough, we are having some scarcely believable moments with GLM-5.1 boasting SOTA level performan"
 summary_zh = ""
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

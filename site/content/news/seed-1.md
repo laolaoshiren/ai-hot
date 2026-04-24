@@ -20,7 +20,7 @@ ai_summary = "DeepSeek 发布完全开源的 V3"
 summary = "DeepSeek releases V3 as fully open-source"
 summary_zh = "DeepSeek 发布完全开源的 V3"
 tags = []
-list_page = 21
+list_page = 22
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -12,6 +12,21 @@ BRIEFING = ROOT / 'data' / 'briefing.json'
 RISING = ROOT / 'data' / 'rising.json'
 
 
+def _clean_hot_summary(item):
+    text = (item.get('ai_summary') or item.get('subtitle') or item.get('description') or '').strip()
+    text = re.sub(r'\s+', ' ', text)
+    return text[:80]
+
+
+def _format_hot_meta(item):
+    source = item.get('source', '')
+    time = item.get('time') or item.get('detail') or ''
+    tags = item.get('tags') or []
+    tags_text = ' / '.join(tags[:3])
+    parts = [x for x in [source, time, tags_text] if x]
+    return ' · '.join(parts)
+
+
 def update_readme_links():
     if not README.exists() or not HOT.exists():
         return '缺少 README.md 或 hot.json'
@@ -24,20 +39,21 @@ def update_readme_links():
 
     text = re.sub(r'🕐 \*\*最近更新\*\*：.*', f'🕐 **最近更新**：{datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S")}', text)
 
-    lines = text.splitlines()
-    for idx, line in enumerate(lines):
-        m = re.match(r'^(\d+)\. \[(.*?)\]\((.*?)\)$', line)
-        if not m:
-            continue
-        rank = int(m.group(1))
-        if rank < 1 or rank > len(items):
-            continue
-        item = items[rank - 1]
+    hot_lines = ['## 🔥 今日热点', '']
+    for rank, item in enumerate(items[:10], start=1):
         target = item.get('internal_url') if item.get('type') == 'news' and item.get('internal_url') else item.get('url')
-        title = item.get('title_zh') or item.get('title') or item.get('name') or m.group(2)
-        lines[idx] = f'{rank}. [{title}]({target})'
+        title = item.get('title_zh') or item.get('title') or item.get('name') or '未命名'
+        summary_line = _clean_hot_summary(item)
+        meta_line = _format_hot_meta(item)
+        hot_lines.append(f'{rank}. [{title}]({target})')
+        if summary_line:
+            hot_lines.append(f'   - {summary_line}')
+        if meta_line:
+            hot_lines.append(f'   - `{meta_line}`')
+        hot_lines.append('')
 
-    text = "\n".join(lines)
+    hot_block = '\n'.join(hot_lines).rstrip()
+    text = re.sub(r'## 🔥 今日热点[\s\S]*?(?=\n## )', hot_block + '\n\n', text, count=1)
 
     summary = briefing.get('content', '').strip()
     emoji = briefing.get('emoji', '⚡')

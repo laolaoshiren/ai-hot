@@ -20,7 +20,7 @@ ai_summary = "大家好 - 我正在参与一个完全基于历史数据训练模
 summary = "Hey all - I'm engaged in a project training a model entirely on historical data, which I've [posted about before on this subreddit.](https://www.reddit.com/r/LocalLLaMA/comments/1s4gga8/comment/ocrwkmt/?context=3) My last training run was done using Nanochat, and while that was very successful for p"
 summary_zh = "大家好 - 我正在参与一个完全基于历史数据训练模型的项目，我之前已经在这个 subreddit 上发布过该模型"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

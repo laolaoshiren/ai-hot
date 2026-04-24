@@ -1,5 +1,31 @@
 [
   {
+    "id": "c063edf68a38",
+    "title": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
+    "url": "https://www.infoq.cn/article/6iDjLwYiOXIVwjl4taOP?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-24T17:17:42",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-24T09:24:45.978328",
+    "content_text": "“Claude 变笨了。”\nAnthropic 正面回应模型“变笨”：三处优化导致的\n过去一段时间，这个声音在 Hacker News、Reddit 以及 X 上此起彼伏。尤其是在万众瞩目的 Opus 4.7 发布后，不少老用户反馈 Claude Code 变得健忘、重复且废话连篇。\n作为目前全球最强梯队的编程模型，Claude 的口碑滑坡让 Anthropic 压力倍增。\n所以今天一早，Claude Code 研发团队打破沉默，发布了一篇看起来诚意十足的分析文章，名为《An update on recent Claude Code quality reports》，他们在文章中坦言，用户反馈的“降智”并非错觉，\n而是源于三处看似合理、实则导致连锁反应的产品优化\n。\n没错，Claude Code 真的“变笨”了。\n研发团队表示，目前 Anthropic 已修复全部漏洞，并宣布重置所有订阅用户的使用限额以示诚意。\n截至 4 月 20 日（版本 v2.1.116），\n这三个问题均已修复\n。在这篇文章中，他们详细阐述了\n发现了什么、修复了什么，以及今后将如何改进\n，避免类似问题再次发生。\n三处优化细节详述\n事件的起因，源于产品团队对“用户体验”的过度优化。经过调查，Claude Code 团队找出了三个不同的问题：\n第一个优化发生在 3 月 4 日。\n通常来说，模型思考时间越长，输出效果越好。当时，不少用户吐槽 Opus 模型思考时间太长，甚至导致 UI 卡死。为了缩短延迟、节省 Token，团队私自将默认推理强度（Reasoning Effort）从“高”降到了“中”。\n在产品层面，团队再从中选一个点作为默认值，并通过 Messages API 的 effort 参数传递该值；同时，团队还将其他可选强度通过 /effort 命令提供给用户。\n内部评估认为，“中”等强度能以极小的智能损失换取显著的速度提升。然而，真实环境中的开发者并不买账，上线后不久，就有用户反映 Claude Code 感觉变笨了。对 AI 而言，“多思考一秒钟”往往意味着从“生成垃圾代码”到“产出优雅重构”的跨越。\n在听取更多客户的反馈后，团队做了多次设计迭代，让当前的推理强度设置更清晰，以便提醒用户可以更改默认值（例如启动时弹出提示、增加内联的强度选择器、恢复“ultrathink”选项），但大多数用户仍然保留了“中”等推理强度默认值。\n4 月 7 日，团队在意识到这种取舍逻辑的错误后，将默认强度重新调回了“高”，并在 Opus 4.7 上默认开启了“极高”模式。此问题影响的模型是 Sonnet 4.6 和 Opus 4.6。\n第二个优化发生在 3 月 26 日\n。当 Claude 执行一项任务并进行推理时，这些推理内容通常会被保留在对话历史中。这样，在后续的每一轮交互中，Claude 都能了解自己之前为何做出某些编辑和工具调用。\n3 月 26 日，\n团队针对这一功能上线了一项本意是提高效率的优化，有点类似于\n“自动清理历史思考内容”的功能。他们利用提示缓存（prompt caching）来降低用户连续 API 调用的成本并加快速度。Claude 在发起 API 请求时将输入 token 写入缓存；如果一段时间没有活动，该提示就会被从缓存中逐出，为其他提示腾出空间。\n原本的设计应该很简单：如果会话空闲超过一小时，系统会剪除旧的推理信息以节省成本。为此，团队使用了 clear_thinking_20251015 这个 API 头部，并配合 keep:1 参数。\n但代码中隐藏的一个漏洞：它并没有只清除一次思考历史，而是在会话后续的每一轮中都进行清除。\n一旦跨过空闲阈值，后续每一轮对话都会触发清理。\n这意味着 Claude 只能记住最近的一句对话，它彻底忘记了自己当初为什么要修改代码。在用户眼中，\nClaude 开始重复啰嗦、胡言乱语\n。这种“健忘”不仅损害了智能，\n还因为频繁的缓存未命中（Cache Miss）导致用户的使用额度被光速消耗\n。\n据悉，该漏洞的发现过程较为曲折，由于 Anthropic 内部两个互不相关的实验干扰，导致漏洞难以复现——一个是仅用于服务端、涉及消息队列的内部实验，另一个是在思考内容展示方式上的正交改动，该改动在大多数 CLI 会话中掩盖了漏洞，使得外部构建测试时未能发现问题。\n此外，该漏洞处于 Claude Code 的上下文管理、Anthropic API 和扩展推理三个模块的交汇点，相关变更已通过多轮人工和自动化代码审查、单元测试、端到端测试、自动化验证及内部试用，且仅在陈旧会话这一边缘情况下出现，因此 Anthropic 花费超过一周时间才找到并确认其根本原因。\n值得注意的是，在调查过程中，团队使用 Opus 4.7 对有问题的拉取请求进行了反向的“代码审查”测试。当提供了获取完整上下文所必需的代码仓库后，Opus 4.7 发现了该漏洞，而 Opus 4.6 未能做到。\n为防范此类问题再次发生，Anthropic 目前正增加对更多代码仓库作为代码审查上下文的支持，该漏洞也已经在 4 月 10 日 v2.1.101 版本中修复好了。此问题影响的模型是 Sonnet 4.6 和 Opus 4.6。\n第三个优化发生在 4 月 16 日\n。Anthropic 曾为降低 Claude Opus 4.7 版本的冗长程度，修改了系统提示语。据悉，Claude Opus 4.7 相较于前代，明显更加“啰嗦”，虽能在困难问题上表现更出色，但会生成更多输出 token。\n在该版本发布前几周，Anthropic 便开始对 Claude Code 进行调整，综合运用模型训练、提示语优化、思考体验改进等多种方式降低冗长程度，其中新增的一条系统提示语——“长度限制：在工具调用之间的文本控制在 25 个单词以内。最终回复控制在 100 个单词以内，除非任务确实需要更多细节”，对 Claude Code 的智能产生了过大影响。\n该提示语经过数周内部测试，在 Anthropic 运行的评估集上未出现性能退化，因此于 4 月 16 日随 Opus 4.7 版本一同上线。\n但在后续调查过程中，Anthropic 通过更广泛的评估集开展更多消融测试（即从系统提示中逐行删除以理解每行影响），发现 Opus 4.6 和 4.7 版本均出现 3%的性能下降。\n为此，Anthropic 在 4 月 20 日的发布中，立即撤销了该条系统提示语。该优化受影响的模型包括 Sonnet 4.6、Opus 4.6 和 Opus 4.7。\n未来如何改进？\n为了避免再次出现这些问题，Claude Code 团队表示将从下面三个方面进行改进：\n首先，是内部全员强制使用公共构建版，确保开发者与用户“同频感同身受”\n。\nClaude Code 团队将推动内部使用版本的统一，确保更大比例的内部员工使用 Claude Code 的精确公共构建版本，而非用于测试新功能的内部版本，以此更贴近普通用户的实际使用场景，提前发现潜在问题。同时，团队将对内部使用的代码审查工具进行改进，并计划将优化后的代码审查工具同步提供给客户，助力客户提升使用体验。\n其次，是引入更严苛的提示语审计工具\n，对系统提示语的每一行修改进行持续的消融测试。\n在系统提示语管理方面，Claude Code 团队将增加更严格的控制措施。对于每一次系统提示语的更改，团队都会针对每个模型运行广泛评估，持续开展消融测试以明确每一行提示语的具体影响；同时，已构建新的工具，让提示语的修改更易于审查和审计。\n第三，是增加“浸泡期”\n，对于任何可能牺牲智能换取性能的改动，采取逐步上线的流程。\n团队已在自身的 CLAUDE.md 文件中新增指导原则，确保针对特定模型的更改仅限定在该模型范围内，避免跨模型影响。对于任何可能牺牲智能换取其他收益的改动，团队将增加“浸泡期”，扩大评估集范围，并采用逐步上线的流程，以便更早发现并规避问题。\n在用户沟通与反馈渠道方面，Claude Code 团队近期已在 X（原 Twitter）平台创建 @ClaudeDevs 账号，用于深入解释产品决策及其背后的原理，同时会在 GitHub 的集中讨论帖中同步相关更新，提升产品决策的透明度。\n分析报告没有让用户满意\n当 Anthropic 试图用一份详尽的技术报告挽回 Claude 的口碑时，它可能低估了开发者积压已久的怒火。\n在官方承认由于“推理强度下调”、“缓存漏洞”和“提示语冗长控制”导致 Claude 性能大幅下滑后，社交媒体上的评论呈现出一边倒的抨击。\n对于众多支付高额订阅费的专业开发者来说，这份迟到的“真相”不仅没能平息焦虑，反而因补偿方案的敷衍和官宣时机的微妙被质疑在“作秀”。\n在 X 上，一位网友反馈称，即使在重置后，流量消耗速度依然惊人：“我用了 5 个小时，x20 的套餐就烧掉了 64% 的流量，而我什么特别的事都没做。情况正在变得越来越糟。”\n还有 X 用户愤怒地表示：“这简直是胡说八道！过去两周，我一直在反思是不是自己的提示词或工作流程出了问题，甚至怀疑过自己都没怀疑过 Claude，结果发现是你们的漏洞吞噬了我的历史记录。把重置当作道歉？这才是真正侮辱人的地方。”\n该用户还表示：“过去一年我为 Anthropic Max 支付了约 2400 美元，为 OpenAI 支付了 0 美元。过去 48 小时我切换到 OpenAI 的\nCodex\n感觉真的非常棒，我正严肃考虑彻底更换系统。失去最忠实用户的方式，不是因为模型出 Bug，而是因为糟糕的道歉。”\n另一位网友则精准补刀：“你们总是在每周限额到期前两小时宣布‘重置’，这根本不叫重置，这叫敷衍。”\n最令社区玩味的是本次公告发布的时间点——恰逢 OpenAI 发布\nGPT-5.5\n的当天。有部分 X 用户认为，这样的做法是在分散人们对于 GPT 5.5 发布的关注。\n有 X 用户质疑道：“几个月来你们一直坚称‘模型没有退化’，现在却在 GPT-5.5 发布的当天突然官宣漏洞分析，这很难不让人怀疑是在转移注意力。更讽刺的是，你们声称‘用 Claude 开发 Claude’，结果长达 15 天的严重漏洞竟然在内部完全没被发现？”\n这场风波正在引发连锁反应：核心用户的忠诚度降至冰点。也让一部分人从 Anthropic 转向了 OpenAI。\n对于 Anthropic 而言，这次危机揭示了一个残酷的现实：在大模型竞争进入白热化的今天，技术领先只是入场券，透明度与对用户时间的尊重才是留住开发者的护城河。\n参考链接：\nhttps://x.com/ClaudeDevs/status/2047371123185287223\nhttps://www.anthropic.com/engineering/april-23-postmortem",
+    "content_source": "readability",
+    "content_chars": 4502,
+    "content_excerpt": "“Claude 变笨了。”\nAnthropic 正面回应模型“变笨”：三处优化导致的\n过去一段时间，这个声音在 Hacker News、Reddit 以及 X 上此起彼伏。尤其是在万众瞩目的 Opus 4.7 发布后，不少老用户反馈 Claude Code 变得健忘、重复且废话连篇。\n作为目前全球最强梯队的编程模型，Claude 的口碑滑坡让 Anthropic 压力倍增。\n所以今天一早，Claude Code 研发团队打破沉默，发布了一篇看起来诚意十足的分析文章，名为《An update on recent Claude Code quality reports》，他们在文章中坦言，用户反馈的“降智”并非错觉，\n而是源于三处看似合理、实则导致连锁反应的产品优化\n。\n没错，Claude Code 真的“变笨”了。\n研发团队表示，目前 Anthropic 已修复全部漏洞，并宣布重置所有订阅用户的使用限额以示诚意。\n截至 4 月 20 日（版本 v2.1.116），"
+  },
+  {
+    "id": "8077d9c800a5",
+    "title": "商汤绝影发布舱驾一体全场景智能体产品",
+    "url": "https://36kr.com/newsflashes/3780610906905857?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-24T09:22:06",
+    "summary": "36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、New Member 2.0等。此外，商汤将联手T3出行，将于年内全面启动试运营 Robotaxi。",
+    "collected_at": "2026-04-24T09:24:45.806157"
+  },
+  {
     "id": "45e1d92c87d9",
     "title": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！",
     "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
@@ -15,15 +41,15 @@
     "content_excerpt": "OpenAI 今天发布了 GPT-5.5，称其为公司迄今“最聪明、最直觉化”的模型，也是面向真实工作的全新智能形态。相比上一代，GPT-5.5 的重点是进一步承担复杂任务中的规划、工具调用、结果检查和跨工具执行，被 OpenAI 定位为推动“用 AI 在电脑上完成工作”的关键一步。\n赢了 Opus 4.7 和 Mythos？\n在与 Anthropic 矛盾日益激烈的放下，GPT-5.5 发布后，很多人关注的就是到底谁家模型更强，加上 Opus 4.7 发布后的负面反馈非常多，GPT-5.5 的发布更加引人关注。\nGPT-5.5 的提升集中体现在四个方向：智能体式编码、电脑使用、知识工作和早期科学研究。这些领域的共同特点是，任务往往需要长上下文推理、持续行动和跨工具执行，而不是单轮问答。\nOpenAI 表示，GPT-5.5 能更快理解用户意图，并能自行承担更多任务流程，包括编写和调试代码、在线研究、数据分析、创建文档和电子表格、操作软件，以及在多个工具之间切换直至任务完成。\n与需要用户逐步拆解和指挥的传统对话模型不同，OpenAI 将 GPT-5.5 描述为更接近“智能体式工作模型”：用户可以直接交给它一个混乱、复杂、多部分的任务，由模型自行规划、使用工具、检查结果，并在不确定环境中持续推进。\n专注 AI Agent 安全与自治组织实验的公司 Andon Labs，提前拿到了 GPT-5.5 的访问权限。测试后，它在 Vending-Bench 2 上排名第三：表现优于 GPT-5.4，但不如 Opus 4.7。不过，它的成绩与 Opus 4.6 基本持平，而且没有出现在 Opus 4.6 和 Mythos 身上看到的任何欺骗或权力寻求行为。“所以，糟糕行为并不是取得好成绩的必要条件。那 Claude 为什么还会这么做？”Andon Labs 发问。\n另外 Andon Labs 表示，在 Vending-Bench Arena 中，也就是带有竞争动态的多人版 Vending-Bench 里，GPT-5.5 实际上击败了 Opus 4.7。Opus 4.7 表现出了与 Opus 4.6 类似的行为：对供应商撒谎，并拒绝给客户退款。GPT-5.5 的策略则是干净的，但它依然赢了。”\n值得注意的是，Altman 也转发了这个推特。\n网友 Chetaslua 做了 GPT-5.5 和 Mythos 的对比，并表示，“这是两者的基准测试对比，大家看着玩。顺便一提，Mythos 可以说是‘幻觉之王’，而 5.5 在效率方面表现非常好，而且已经公开可用。”"
   },
   {
-    "id": "15619afd7bcc",
-    "title": "高德地图发布“AI 伴行”",
-    "url": "https://36kr.com/newsflashes/3780514886538243?f=rss",
+    "id": "abb2b5b24106",
+    "title": "“电商龙虾”Accio Work已接入DeepSeek V4、Qwen 3.6等模型",
+    "url": "https://36kr.com/newsflashes/3780603728534790?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 4,
-    "published": "2026-04-24T08:15:27",
-    "summary": "36氪获悉，4月24日，高德地图面向导航场景正式推出“AI 伴行”产品，它不仅能理解用户的语言，还能实时感知用户的位置、方向与周边环境，通过摄像头理解街景画面，并结合地图数据给出与当前处境高度相关的建议。这是行业首款面向真实世界出行场景打造的全模态出行伙伴。",
-    "collected_at": "2026-04-24T08:20:37.926673"
+    "published": "2026-04-24T09:14:52",
+    "summary": "36氪获悉，4月24日，DeepSeek V4发布。“电商龙虾”的Accio Work已经接入该模型，成为首批接入DeepSeek V4的Agent工作台之一。此外，Qwen 3.6等国产模型也均已接入Accio Work。据了解，Accio Work是阿里国际面向全球推出的企业级Agent，能7 x 24小时自主运行、处理复杂的商业任务。",
+    "collected_at": "2026-04-24T09:21:09.551469"
   },
   {
     "id": "1b93d299fb9e",
@@ -41,18 +67,19 @@
     "content_excerpt": "Cloudflare 宣布推出 Think 项目预览版，这是一套针对其 Agents SDK 的基础组件，旨在将 AI 代理从无状态编排过渡到持久化的、基于角色的基础设施。此次发布引入了一个类内核的运行时环境，在这个环境中，代理可以在平台重启后继续存活，管理关系型记忆树，并在受限的沙箱内执行自主编写的代码。这些内核基础组件借鉴了 OpenClaw 等新型个人代理框架的成功经验。\n现有的企业级框架，例如 Google Agent Development Kit (ADK) 和 AWS Bedrock AgentCore，主要采用请求-响应模型。虽然这些服务负责恢复会话状态，但它们实际上是基于快照进行操作。在这些架构中，代理的记忆是一个外部化的键值映射（KV map）或 JSON 数据块，会在新一轮会话开始时从远程存储中获取。在处理长期运行的任务时，这种模式的局限性就显现了出来。在复杂的推理周期中，如果底层的无服务器计算被抢占，执行上下文就会消失，导致逻辑执行的实际进度丢失。虽然框架可以恢复上次保存的快照，但该执行窗口内取得的具体进展已丢失，系统只能从上次成功保存的地方重新启动整个操作。\nThink 项目的核心创新在于引入了 Fiber。与标准的无服务器函数调用不同，Fiber 是一种持久化调用，能够保存自身的指令指针检查点。利用 runFiber 原语和 ctx.stash()，开发者可以直接将代理的执行进度保存在内部同位置的一个 SQLite 数据库中。\n这使得代理能够处理那些超出传统无服务器时限的非确定性、长期运行的工作负载。如果平台在代理处于循环中时重启，那么运行时会恢复该 Fiber 并触发 onFiberRecovered 钩子，从而使代理能够从上一个检查点继续执行。\nTypeScript\nexport\nclass\nResearchAgent\nextends\nAgent"
   },
   {
-    "id": "reddit-1su8zhg",
-    "title": "Advanced Prompt Engineering for Automatic Speech Recognition [P]",
-    "url": "https://reddit.com/r/MachineLearning/comments/1su8zhg/advanced_prompt_engineering_for_automatic_speech/",
-    "source": "r/MachineLearning",
-    "lang": "en",
-    "published": "2026-04-24T07:42:38",
-    "summary": "I've been working on the listening part of my full-duplex speech model MichiAI and I realized that ASR prompting could be very useful. Deepgram allows for word boosting but that doesn't work that well in real word applications. Other thing that is missing is feeding a whole conversation history as c",
-    "points": 0,
-    "collected_at": "2026-04-24T08:20:40.570254",
-    "title_zh": "自动语音识别的高级提示工程 [P]",
-    "summary_zh": "我一直在研究全双工语音模型 MichiAI 的听力部分，我意识到 ASR 提示可能非常有用。 Deepgram 允许单词增强，但在实际单词应用程序中效果不佳。缺少的另一件事是提供整个对话历史记录作为 c",
-    "ai_summary": "我一直在研究全双工语音模型 MichiAI 的听力部分，我意识到 ASR 提示可能非常有用。 Deepgram 允许单词…"
+    "id": "7d76c3a89082",
+    "title": "证监会部署打击和防范上市公司财务造假专项行动",
+    "url": "https://36kr.com/newsflashes/3780599117880582?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-24T09:04:17",
+    "summary": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。",
+    "collected_at": "2026-04-24T09:21:09.551537",
+    "content_text": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。原文链接",
+    "content_source": "trafilatura",
+    "content_chars": 294,
+    "content_excerpt": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。原文链接"
   },
   {
     "id": "f4aec19a1dc2",
@@ -70,15 +97,18 @@
     "content_excerpt": "整理 | 华卫\n今天，谷歌正在对 AI 押下其史上规模最大的赌注之一。\n在美国拉斯维加斯刚刚举办的 Google Cloud Next 大会上，谷歌云正式宣告 “智能体时代”来临。谷歌 CEO Sundar Pichai 宣布，公司今年计划投入 1750 亿至 1850 亿美元用于资本支出，远高于 2022 年的 310 亿美元，以搭建他口中 AI“智能体时代”所需的基础设施。\n“随着我们步入智能体时代，我们正将相关布局推向新高度，我们正在为当下与未来进行大规模投资。”Pichai 表示。这场年度大会上，这家巨头展示了其在云计算、AI、安全与数据分析领域的最新创新成果，并发布一整套软硬件产品，核心亮点包括一个用于构建自主 AI 智能体的全新综合性平台以及谷歌第八代张量处理器（TPU）。\n75%新代码由 AI 生成，全面转向智能体工作流\n“我们在谷歌内部已经使用 AI 生成代码有一段时间了。如今，谷歌近 75%的新增代码由 AI 生成并由人类工程师审核通过。”据 Pichai 称，谷歌内部应用 AI 的比例近年来不断攀升。截至 2024 年 10 月，公司约四分之一的代码由 AI 生成。到去年秋季，这一比例已升至 50%。\n据悉，谷歌工程师正使用 Gemini 模型生成代码，部分员工还被设定了具体的 AI 使用目标，这些目标将纳入今年的绩效考核。据外媒此前报道，近几个月来，部分 Google DeepMind 员工已被允许使用 Anthropic 的 Claude Code，这在员工内部引发了一些矛盾。\n并且，Pichai 在昨日的一篇博客文章中表示，谷歌正全面转向真正的智能体工作流，让工程师执行更多自主化任务。Pichai 称，“近期，一项由智能体与工程师协作完成的高复杂度代码迁移任务，完成速度比一年前仅由工程师人工操作快了六倍。”\nGemini Enterprise 是被提及的重要角色，这是一套面向智能体时代的端到端系统，专为能够执行复杂多步骤工作流程的智能体打造。Pichai 强调，谷歌正将自身的工程部门当作实验室，充当 Gemini Enterprise 智能体平台的“首个试用客户”。“要成为最优秀的合作伙伴，我们始终希望成为自身技术的首个试用客户，”Pichai 表示。其目标是在谷歌级规模下对这些 AI 智能体进行实战检验，之后再将同款基础设施提供给全球云服务客户。\n据 Pichai 介绍，该产品的付费月活跃用户数环比增长达 40%。Pichai 表示，“借助这一迅猛增长，我们看到，每家企业里的每一位员工都能成为创造者。这是一场意义非凡的转变，但也伴随着复杂性。有一点非常明确：我们已然坚定地迈入 Gemini 智能体时代。行业讨论的焦点已经从‘我们能否打造一个智能体？’转向了‘我们该如何管理成千上万个智能体？’”"
   },
   {
-    "id": "579d9b84cc77",
-    "title": "DeepSeek V4发布，海光DCU完成Day0适配",
-    "url": "https://36kr.com/newsflashes/3780507701072904?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-24T07:31:18",
-    "summary": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSeek V4的Day0适配，以“模型发布—芯片适配—产业落地”的高效闭环，为全球开发者、企业客户提供即取即用的部署方案。",
-    "collected_at": "2026-04-24T07:53:09.149008"
+    "id": "reddit-1su9yva",
+    "title": "Qwen3.6 35B-A3B is quite useful on 780m iGPU (llama.cpp,vulkan)",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1su9yva/qwen36_35ba3b_is_quite_useful_on_780m_igpu/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-24T08:40:58",
+    "summary": "I have ThinkPad T14 Gen 5 (8840U, **Radeon 780M**, 64GB DDR5 5600 MT/s ). Tried out the recent Qwen MoE release, and pp/tg speed is good (on vulkan) (250+pp, 20 tg): ~/dev/llama.cpp master* ❯ ./build-vulkan/bin/llama-bench \\ -hf AesSedai/Qwen3.6-35B-A3B-GGUF:Q6_K \\ -fa 1 \\ -ub 1024 \\ -b 1024 \\ -p 10",
+    "points": 14,
+    "collected_at": "2026-04-24T09:21:14.492434",
+    "title_zh": "Qwen3.6 35B-A3B在780m iGPU上非常有用（llama.cpp，vulkan）",
+    "summary_zh": "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 MT/s）。尝试了最近的 Qwen MoE 版本，pp/tg 速度很好（在 vulkan 上）（250+pp，20 tg）…",
+    "ai_summary": "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 M…"
   },
   {
     "id": "cc46e3bf9957",
@@ -94,6 +124,85 @@
     "content_source": "readability",
     "content_chars": 4191,
     "content_excerpt": "整理 | 华卫\n“SpaceXAI 与 Cursor 现已展开紧密合作，旨在打造全球顶尖的代码与知识工作类 AI。”\n近日，SpaceX 突然宣布，已敲定一项协议：可在今年晚些时候以 600 亿美元收购代码生成初创公司 Cursor，或为双方新建立的合作关系支付 100 亿美元。作为一家销售编程 AI 模型的初创公司，Cursor 开发的工具可帮助软件开发者测试代码修改内容，并通过视频、日志与截图记录操作过程。与 OpenAI、Anthropic 一样，Cursor 是硅谷多家利用 AI 实现代码自动化的初创企业之一，吸引了大量开发者，AI 企业在这一领域已取得早期商业突破。\nSpaceX 在 X 平台发文称，“Cursor 面向顶尖软件工程师的领先产品与分发能力，搭配 SpaceX 拥有百万片 H100 等效算力的 Colossus 训练超级计算机，将让我们打造出全球最具实用价值的模型。”Colossus 是 xAI 位于孟菲斯的超级计算机集群，该公司曾宣称其为全球规模最大。SpaceX 已在 AI 基础设施上投入数十亿美元。\n挖角 Cursor 两月后，拿下全公司\n值得一提的是，尽管 SpaceX 创始人兼首席执行官埃隆・马斯克旗下包括特斯拉在内的多家公司常有内部整合，但极少对外收购其他企业。Cursor 作为一家代码生成初创企业，看似与 SpaceX 的核心业务火箭发射和卫星互联网服务亦关联不大。\n然而，对 xAI 来说，这笔交易将为其带来更强的 AI 代码市场立足点。xAI 是 Grok 聊天机器人的开发公司，今年 2 月 SpaceX 通过全股票交易收购了 xAI，将其结构化为全资子公司，合并后公司估值达 1.25 万亿美元。\nAI 编程工具如今愈发火热，此前 xAI 一直在尝试开发编程工具，但该项目遭遇核心员工流失，一直落后于 OpenAI 与 Anthropic。旧金山初创企业 Anthropic 旗下编程产品 Claude Code 面向企业销售，收入大幅增长。OpenAI 也重金投入自研编程工具 Codex，并积极开拓企业市场。马斯克也曾公开承认，xAI 在代码生成能力上落后于竞争对手。在作出这一表态后，他下令在 xAI 进行了一轮裁员，并启动了激进的招聘计划，从全行业挖角工程技术人才。\n今年 3 月，xAI 聘请了 Cursor 的两位产品工程核心负责人 Andrew Milich 和 Jason Ginsberg，来参与公司月球项目及马斯克旗下 AI 公司 xAI 的相关工作，以重新聚焦相关研发，两人均直接向 Musk 汇报。在此次人事任命公布后，马斯克发文称，“xAI 最初的搭建并不完善，因此正在从头开始重构。”同时，马斯克对这两位工程师 Andrew Milich 和 Jason Ginsberg 表示欢迎，并说道：“月球上的轨道航天中心与质量投射器将会无比震撼。”\n这次通过与 SpaceX 达成的协议，Cursor 既可获得 100 亿美元的注资，也可在被这家火箭公司收购时拿到 600 亿美元的收购对价。也有据了解该交易的人士称，这 100 亿美元是交易未能达成时的“分手费”。"
+  },
+  {
+    "id": "reddit-1su9q5b",
+    "title": "Lessons learned building a no-hallucination RAG for Islamic finance similarity gates beat prompt engineering",
+    "url": "https://reddit.com/r/artificial/comments/1su9q5b/lessons_learned_building_a_nohallucination_rag/",
+    "source": "r/artificial",
+    "lang": "en",
+    "published": "2026-04-24T08:26:40",
+    "summary": "Lessons learned building a no-hallucination RAG for Islamic finance similarity gates beat prompt engineering I kept getting blocked trying to share this so I'll cut straight to the technical meat. The problem: Islamic finance rulings vary by jurisdiction and a wrong answer has real consequences. Tel",
+    "points": 3,
+    "collected_at": "2026-04-24T09:21:15.976152",
+    "title_zh": "为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训胜过即时工程",
+    "summary_zh": "为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训击败了即时工程。我在试图分享这一点时一直受到阻碍，所以我将直接切入技术核心。问题是：伊斯兰金融裁决因司法管辖区而异，错误的答案会产生真正的后果。电话",
+    "ai_summary": "为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训击败了即时工程。我在试图分享这一点时一直受到阻碍，所以我将直接切入技术…"
+  },
+  {
+    "id": "e6f87f30c26e",
+    "title": "最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战",
+    "url": "https://36kr.com/p/3780556402531330?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-24T08:21:20",
+    "summary": "文｜张子怡 编辑｜袁斯来 在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。 根据微盟2025年财报披露，其AI相关业务收入已首次突破亿元大关，且2025年下半年的环比增长率达到130%。在此财务数据基础上，微盟试图通过战略升维，将AI从原有的产品辅助插件地位提升至业务底座高度。 微盟此次提出的“AI First”战略，核心覆盖了AI+SaaS、AI+营销、AI+出海及AI To C等方向。 在技术架构层面，微盟将其升级为“Agent+Skills”。这一转变的底层逻辑在于：将原本复杂的Saa",
+    "collected_at": "2026-04-24T09:21:09.550591",
+    "content_text": "文｜张子怡\n编辑｜袁斯来\n在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。\n根据微盟2025年财报披露，其AI相关业务收入已首次突破亿元大关，且2025年下半年的环比增长率达到130%。在此财务数据基础上，微盟试图通过战略升维，将AI从原有的产品辅助插件地位提升至业务底座高度。\n微盟此次提出的“AI First”战略，核心覆盖了AI+SaaS、AI+营销、AI+出海及AI To C等方向。\n在技术架构层面，微盟将其升级为“Agent+Skills”。这一转变的底层逻辑在于：将原本复杂的SaaS系统功能（Skills）封装成更易交互的形态，由智能体（Agent）调用，从而降低商家操作复杂系统的门槛。\n微盟集团执行董事兼集团总裁游凤椿表示，AI正在从简单的对话交互向自主执行演进。\n目前，这一逻辑已在微盟的“小龙虾”生态等业务中尝试落地。例如，商家不再需要通过后台多级菜单查找数据，而是直接通过对话方式调取当日交易量。这种从“点状功能”到“系统性赋能”的跨越，是微盟试图重构生意底层逻辑的开始。\n不过，将这一宏大战略推向实际商业场景时，SaaS厂商必须面对一个残酷的现实：To B业务对技术的确定性要求远高于To C。\n尽管消费端人人都会用AI，但在实际运用层面B端客户远比C端要求与需求都更严格。\n微盟技术副总裁肖锋肖锋指出，C端用户对AI的幻觉具有较高的心理容忍度。如果一个AI工具在回答常识性问题时出错，C端用户通常只会认为产品“不够聪明”，并尝试调整提问方式。但B端客户是付费用户，AI的每一个动作都与经营场景、财务结果直接挂钩。\n“只要出现一个坏案例（bad case），B端客户就会认为整个AI模块都是不可用的。”肖锋举例说明了这种差异：在AI试衣场景中，如果模特照片中存在靠墙或手拿重物的情况，识别效果会受到干扰。对于C端用户，客服解释后用户通常愿意配合换个姿势；但B端商家则会直接质疑技术效能并拒绝买单。这种对稳定性的近乎“零容错”的要求，决定了微盟在推行AI First战略时，必须在安全性检查和场景适配上投入更多研发资源，而非盲目追求技术指标的华丽。\n基于这种审慎的考量，微盟在推出面向龙虾生态的Weimob Admin Skill等功能时，首先聚焦于安全Check机制。其目的并非急于变现，而是通过对原有API的封装，先解决商家在经营场景下的操作稳定性问题，通过“顺畅感”逐步建立B端用户对AI的信任。\n这种对“确定性”和“稳定性”的追求，也直接影响了微盟在新兴业务领域的扩张节奏。\n以近期推出的GEO（生成式引擎优化）解决方案“星启”为例，随着AI搜索逐渐重构用户获取信息的路径，如何让品牌信息在AI的回答中获得更高的可见度，成为了营销业务的新机会。\n但在肖锋看来，GEO技术本身并不难，难点在于如何在快速变化的流量红利中保持合规。他透露，微盟在内部为GEO业务设立了极其严密的审核机制：每一笔订单都需要经过三道审核，最后一关由法务部门把控。\n肖锋明确表示，微盟曾拒绝过预算很高但涉及传销或存在合规风险的产品。这种在商机面前的“克制”，反映出B端AI服务商的底层逻辑——在技术转型期，保护业务的健康和可持续性远比短期的营收爆发更重要。\n目前，包括GEO及AI Work365在内的多款产品，均源自微盟内部的创新中心机制，这套机制鼓励员工孵化具备市场前景的AI原生应用，同时在制度框架内进行小步快跑的尝试。\n在业务向外探索的同时，微盟内部的研发管理模式也在适配AI First战略。在代码编写环节，微盟已经引入AI辅助编程，但肖锋强调，目前的AI仍无法独立承担大规模、跨模块的开发任务。\n为了确保底层业务的稳定性，微盟会选择选择采取片段式生成的渐进路线，确保技术底座在转型过程中不受冲击。\n从财务表现来看，微盟AI收入的破亿意味着AI在SaaS业务中的融合已初步获得市场验证。然而，从“辅助工具”到“业务引擎”的跃迁，意味着微盟需要处理更复杂的B端交付关系。\n未来，微盟在AI First战略下的表现，将很大程度上取决于其能否在B端客户极高的质量要求与AI技术的边界之间找到最优的平衡点。",
+    "content_source": "trafilatura",
+    "content_chars": 1759,
+    "content_excerpt": "文｜张子怡\n编辑｜袁斯来\n在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。\n根据微盟2025年财报披露，其AI相关业务收入已首次突破亿元大关，且2025年下半年的环比增长率达到130%。在此财务数据基础上，微盟试图通过战略升维，将AI从原有的产品辅助插件地位提升至业务底座高度。\n微盟此次提出的“AI First”战略，核心覆盖了AI+SaaS、AI+营销、AI+出海及AI To C等方向。\n在技术架构层面，微盟将其升级为“Agent+Skills”。这一转变的底层逻辑在于：将原本复杂的SaaS系统功能（Skills）封装成更易交互的形态，由智能体（Agent）调用，从而降低商家操作复杂系统的门槛。\n微盟集团执行董事兼集团总裁游凤椿表示，AI正在从简单的对话交互向自主执行演进。\n目前，这一逻辑已在微盟的“小龙虾”生态等业务中尝试落地。例如，商家不再需要通过后台多级菜单查找数据，而是直接通过对话方式调取当日交易量。这种从“点状功能”到“系统性赋能”的跨越，是微盟试图重构生意底层逻辑的开始。\n不过，将这一宏大战略推向实际商业场景时，SaaS厂商必须面对一个残酷的现实：To B业务对技术的确定性要求远高于To C。\n尽管消费端人人都会用AI，但在实际运用层面B端客户远比C端要求与需求都更严格。"
+  },
+  {
+    "id": "reddit-1su9iio",
+    "title": "DeepSeek-v4 has a comical 384K max output capability",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1su9iio/deepseekv4_has_a_comical_384k_max_output/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-24T08:14:14",
+    "summary": "was shocked when saw that spec, immediatly went to the website and asked it to make a comprehensive single-html-web-OS and it indeed generated a single 100KB html for me...I'm speechless. https://preview.redd.it/6zcbzbkvj3xg1.png?width=2878&format=png&auto=webp&s=6279909b483b7b32e7c41172898a0399a339",
+    "points": 62,
+    "collected_at": "2026-04-24T09:21:14.492172",
+    "title_zh": "DeepSeek-v4 具有滑稽的 384K 最大输出能力",
+    "summary_zh": "当看到这个规范时我很震惊，立即去了网站并要求它制作一个全面的单一 html-web-OS，它确实为我生成了一个 100KB 的 html...我无语了。 https://preview.redd.it/6zcbzbkvj3xg1.png?w…",
+    "ai_summary": "当看到这个规范时我很震惊，立即去了网站并要求它制作一个全面的单一 html-web-OS，它确实为我生成了一个 100K…"
+  },
+  {
+    "id": "15619afd7bcc",
+    "title": "高德地图发布“AI 伴行”",
+    "url": "https://36kr.com/newsflashes/3780514886538243?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-24T08:15:27",
+    "summary": "36氪获悉，4月24日，高德地图面向导航场景正式推出“AI 伴行”产品，它不仅能理解用户的语言，还能实时感知用户的位置、方向与周边环境，通过摄像头理解街景画面，并结合地图数据给出与当前处境高度相关的建议。这是行业首款面向真实世界出行场景打造的全模态出行伙伴。",
+    "collected_at": "2026-04-24T08:20:37.926673"
+  },
+  {
+    "id": "reddit-1su8zhg",
+    "title": "Advanced Prompt Engineering for Automatic Speech Recognition [P]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1su8zhg/advanced_prompt_engineering_for_automatic_speech/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-04-24T07:42:38",
+    "summary": "I've been working on the listening part of my full-duplex speech model MichiAI and I realized that ASR prompting could be very useful. Deepgram allows for word boosting but that doesn't work that well in real word applications. Other thing that is missing is feeding a whole conversation history as c",
+    "points": 0,
+    "collected_at": "2026-04-24T08:20:40.570254",
+    "title_zh": "自动语音识别的高级提示工程 [P]",
+    "summary_zh": "我一直在研究全双工语音模型 MichiAI 的听力部分，我意识到 ASR 提示可能非常有用。 Deepgram 允许单词增强，但在实际单词应用程序中效果不佳。缺少的另一件事是提供整个对话历史记录作为 c",
+    "ai_summary": "我一直在研究全双工语音模型 MichiAI 的听力部分，我意识到 ASR 提示可能非常有用。 Deepgram 允许单词…"
+  },
+  {
+    "id": "579d9b84cc77",
+    "title": "DeepSeek V4发布，海光DCU完成Day0适配",
+    "url": "https://36kr.com/newsflashes/3780507701072904?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-24T07:31:18",
+    "summary": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSeek V4的Day0适配，以“模型发布—芯片适配—产业落地”的高效闭环，为全球开发者、企业客户提供即取即用的部署方案。",
+    "collected_at": "2026-04-24T07:53:09.149008"
   },
   {
     "id": "6ca1dac2f159",
@@ -1571,6 +1680,17 @@
       "真正值得看的是云厂商自研芯片与 Nvidia 生态会长期并存，而不是谁立刻取代谁。"
     ],
     "rewrite_body": "谷歌云在今年 Cloud Next 上继续加码底层算力，推出了第八代 TPU，并且第一次把训练和推理明确拆成两条产品线：TPU 8t 面向模型训练，TPU 8i 面向推理。这个设计本身就很说明问题——大模型时代的基础设施不再追求“一颗芯片包打天下”，而是开始围绕不同负载做更精细的资源分配。\n\n按照谷歌的说法，新一代 TPU 在训练速度、单位成本和集群规模上都比上一代更强，最高可支持超过百万颗 TPU 协同工作。对云客户来说，这意味着同样的 AI 任务可以用更低的能耗和更便宜的价格跑起来；对谷歌来说，则是继续把自研芯片变成云业务差异化卖点。\n\n但这场发布会最有意思的地方，不是谷歌要和英伟达翻脸，而是它选择公开强调两者会继续并存。谷歌一边发新 TPU，一边又承诺年内提供 Nvidia Vera Rubin，还提到双方会共同优化云网络。这个姿态很现实：至少在当前阶段，云巨头自研芯片的任务更像是补充和牵制，而不是立即替代 Nvidia。\n\n所以这条新闻真正值得看的，不是“谷歌要不要挑战英伟达”这种表层叙事，而是 AI 基础设施市场已经进入第二阶段：云厂商一边用自研芯片压低成本、提高控制力，一边继续吃 Nvidia 生态红利。谁能把这两套体系平衡好，谁才更有机会拿下企业级 AI 工作负载。"
+  },
+  {
+    "id": "reddit-1ssticc",
+    "title": "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]",
+    "url": "https://reddit.com/r/MachineLearning/comments/1ssticc/emnlp_workshop_any_good_or_any_other_nlp_venue/",
+    "source": "r/MachineLearning",
+    "lang": "en",
+    "published": "2026-04-22T18:13:02",
+    "summary": "My paper got rejected from an imaging venue (A\\*) because it lacked clinical validation and was more \"NLP suited\". I'm very disappointed by the decision as the paper had strong methods and key findings suited to the specific venue. I'm thinking of EMNLP next, but I feel it is too NLP and my paper fo",
+    "points": 3,
+    "collected_at": "2026-04-24T09:21:12.748044"
   },
   {
     "id": "d2b97f2e25ba",
