@@ -4,12 +4,13 @@
   "news_count": 20,
   "sources": {
     "The Verge AI": 2,
-    "36氪": 9,
+    "InfoQ AI": 5,
+    "36氪": 6,
+    "量子位": 2,
     "MIT Tech Review": 1,
-    "r/artificial": 2,
-    "r/LocalLLaMA": 3,
-    "r/MachineLearning": 2,
-    "量子位": 1
+    "r/artificial": 1,
+    "r/LocalLLaMA": 2,
+    "r/MachineLearning": 1
   },
   "emoji": "⚡"
 }

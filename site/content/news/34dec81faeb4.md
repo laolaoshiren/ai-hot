@@ -20,7 +20,7 @@ ai_summary = "高德发布全栈具身技术体系，横扫15项SOTA，面向AGI
 summary = "当行业在底层基础设施上开始成型，局面就会迅速收敛"
 summary_zh = ""
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

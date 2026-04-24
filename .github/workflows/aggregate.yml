@@ -22,8 +22,14 @@ jobs:
       - name: Install deps
         run: pip install -r scripts/requirements.txt
 
+      - name: Run Regression Tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+
       - name: Run Aggregator
         run: python scripts/aggregate.py
+
+      - name: Run Regression Tests After Aggregation
+        run: python -m unittest discover -s tests -p 'test_*.py'
 
       - name: Commit & Push
         run: |

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Ollama adds DeepSeek-V3 support"
 summary_zh = "Ollama 增加 DeepSeek-V3 支持"
 tags = []
-list_page = 23
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

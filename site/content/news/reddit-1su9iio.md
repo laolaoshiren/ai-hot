@@ -20,7 +20,7 @@ ai_summary = "当看到这个规范时我很震惊，立即去了网站并要求
 summary = "was shocked when saw that spec, immediatly went to the website and asked it to make a comprehensive single-html-web-OS and it indeed generated a single 100KB html for me...I'm speechless. https://preview.redd.it/6zcbzbkvj3xg1.png?width=2878&format=png&auto=webp&s=6279909b483b7b32e7c41172898a0399a339"
 summary_zh = "当看到这个规范时我很震惊，立即去了网站并要求它制作一个全面的单一 html-web-OS，它确实为我生成了一个 100KB 的 html...我无语了。 https://preview.redd.it/6zcbzbkvj3xg1.png?w…"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->
