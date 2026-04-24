@@ -20,7 +20,7 @@ ai_summary = "嵌入人体粘膜表面的称为凝集素的蛋白质与细胞表
 summary = "Embedded in the body’s mucosal surfaces, proteins called lectins bind to sugars found on cell surfaces. A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bac"
 summary_zh = "嵌入人体粘膜表面的称为凝集素的蛋白质与细胞表面的糖结合。由麻省理工学院化学教授 Laura Kiessling 领导的团队发现，一种这样的蛋白质——intelectin-2，既有助于强化粘膜屏障，又能提供广谱保护，抵御有害细菌"
 tags = []
-list_page = 9
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->

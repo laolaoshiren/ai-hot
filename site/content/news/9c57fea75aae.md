@@ -20,7 +20,7 @@ ai_summary = "据报道NSA情报人员在使用Anthropic的Mythos模型，尽管
 summary = "NSA is said to be using Anthropic's restricted Mythos AI model."
 summary_zh = "据说 NSA 正在使用 Anthropic 的受限 Mythos AI 模型"
 tags = []
-list_page = 13
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

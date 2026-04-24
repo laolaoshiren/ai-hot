@@ -20,7 +20,7 @@ ai_summary = "Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-
 summary = "Alt link: https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... Comments URL: https://news.ycombinator.com/item?id=47851948 Points: 332 # Comments: 286"
 summary_zh = "Alt 链接：https://tech.yahoo.com/ai/meta-ai/articles/exclusive-meta-st... 评论网址：https://news.ycombinator.com/item?id=4785194…"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

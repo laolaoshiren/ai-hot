@@ -20,12 +20,21 @@ ai_summary = "DeepSeek 发布完全开源的 V3"
 summary = "DeepSeek releases V3 as fully open-source"
 summary_zh = "DeepSeek 发布完全开源的 V3"
 tags = []
-list_page = 15
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-DeepSeek 发布完全开源的 V3
+Introduction
+Model Summary
+Model Downloads
+Evaluation Results
+Chat Website & API Platform
+How to Run Locally
+License
+Citation
+Contact
+We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.
 
 ## 🔗 原始来源
 

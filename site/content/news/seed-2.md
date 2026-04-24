@@ -20,12 +20,29 @@ ai_summary = "Cursor 增加了新的人工智能功能"
 summary = "Cursor adds new AI-powered features"
 summary_zh = "Cursor 增加了新的人工智能功能"
 tags = []
-list_page = 15
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-Cursor 增加了新的人工智能功能
+This element contains an interactive demo for sighted users showing multiple Cursor interfaces: Cursor Desktop interface, Cursor CLI interface.
+
+The interface is displayed over a subtle, solid brand background.
+Cursor Desktop
+http://localhost:3000
+Acme Labs
+Software creation is changing.
+
+We are a group of researchers, engineers, and technologists inventing at the edge of what's useful and possible.
+This element contains an interactive demo for sighted users.
+
+It's a demonstration of Cursor's IDE showing AI-powered coding assistance features.
+
+The interface is displayed over a subtle, solid brand background.
+Cursor
+Plansfeature-prd.md
+Mission Control Interface
+A grid view of all open windows as scaled previews, allowing quick selection to bring any window to front.
 
 ## 🔗 原始来源
 

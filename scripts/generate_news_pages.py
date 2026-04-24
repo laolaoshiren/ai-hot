@@ -85,7 +85,9 @@ def looks_bad_en_summary(text: str) -> bool:
 
 
 def zh_fast_read_fallback(title_zh, source):
-    return f'{title_zh}。这篇内容来自 {source}，AI热榜已整理成站内中文快读版，方便先快速抓重点，再按需查看原始来源。'
+    if source:
+        return f'{title_zh}。这条新闻来自 {source}，站内页优先帮你快速抓住核心变化与影响。'
+    return f'{title_zh}。这条新闻的站内页优先帮你快速抓住核心变化与影响。'
 
 
 def build_intro(item, title_zh, source):
@@ -104,50 +106,6 @@ def build_intro(item, title_zh, source):
     if summary:
         return summary
     return zh_fast_read_fallback(title_zh, source)
-
-
-def build_brief(item, title_zh):
-    pieces = []
-    ai_summary = clean_summary(item.get('ai_summary') or '')
-    summary_zh = clean_summary(item.get('summary_zh') or '')
-    summary = clean_summary(item.get('summary') or '')
-    lang = (item.get('lang') or '').lower()
-    if lang == 'en' and looks_bad_en_summary(ai_summary):
-        ai_summary = ''
-
-    if ai_summary:
-        pieces.append(f'一句话看懂：{ai_summary}')
-    if summary_zh and summary_zh != ai_summary:
-        pieces.append(f'中文摘要：{summary_zh}')
-    elif summary and summary != ai_summary and lang != 'en':
-        pieces.append(f'内容摘要：{summary}')
-
-    if lang == 'en' and not pieces:
-        pieces.append('中文快读：这是一篇英文来源的 AI 新闻，本站当前先提供中文导读框架与重点提炼，方便快速理解。')
-    if not pieces:
-        pieces.append(f'{title_zh} 是近期值得关注的一条 AI 动态，建议先看下方重点，再决定是否继续读原文。')
-    return '\n\n'.join(pieces)
-
-
-def build_takeaways(item):
-    title_zh = item.get('title_zh') or item.get('title', '')
-    source = item.get('source', '原始来源')
-    ai_summary = clean_summary(item.get('ai_summary') or '')
-    summary_zh = clean_summary(item.get('summary_zh') or '')
-    summary = clean_summary(item.get('summary') or '')
-    lang = (item.get('lang') or '').lower()
-    if lang == 'en' and looks_bad_en_summary(ai_summary):
-        ai_summary = ''
-
-    takeaway_1 = ai_summary or summary_zh
-    if not takeaway_1 and lang != 'en':
-        takeaway_1 = summary
-    if not takeaway_1:
-        takeaway_1 = f'{title_zh} 是这条新闻的核心信息。'
-
-    takeaway_2 = f'这条内容来自 {source}，适合拿来快速判断它是否值得继续深挖。'
-    takeaway_3 = '如果你只想节省时间，可以先看本站整理的中文导读；如果你要核对细节，再去看原文。'
-    return [takeaway_1, takeaway_2, takeaway_3]
 
 
 def build_page(item, list_page=1):
