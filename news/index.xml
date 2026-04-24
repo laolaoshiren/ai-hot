@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📰 AI新闻 on AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐</title><link>https://aihot.bt199.com/news/</link><description>Recent content in 📰 AI新闻 on AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐</description><generator>Hugo</generator><language>zh-CN</language><atom:link href="https://aihot.bt199.com/news/index.xml" rel="self" type="application/rss+xml"/><item><title>“开源已死”？怕被 OpenAI 和 Mythos 把代码挖成筛子，4 万 Star 项目突然闭源！</title><link>https://aihot.bt199.com/news/2fea804c79c7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/2fea804c79c7/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📰 AI新闻 on AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐</title><link>https://aihot.bt199.com/news/</link><description>Recent content in 📰 AI新闻 on AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐</description><generator>Hugo</generator><language>zh-CN</language><atom:link href="https://aihot.bt199.com/news/index.xml" rel="self" type="application/rss+xml"/><item><title>“电商龙虾”Accio Work已接入DeepSeek V4、Qwen 3.6等模型</title><link>https://aihot.bt199.com/news/abb2b5b24106/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/abb2b5b24106/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;36氪获悉，4月24日，DeepSeek V4发布。&lt;/p&gt;
+&lt;p&gt;“电商龙虾”的Accio Work已经接入该模型，成为首批接入DeepSeek V4的Agent工作台之一。&lt;/p&gt;</description></item><item><title>“开源已死”？怕被 OpenAI 和 Mythos 把代码挖成筛子，4 万 Star 项目突然闭源！</title><link>https://aihot.bt199.com/news/2fea804c79c7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/2fea804c79c7/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;整理｜华卫
 “开源已死，我们从未想过自己会说出这样的话。&lt;/p&gt;
 &lt;p&gt;”
@@ -235,7 +237,11 @@ Contact
 We present DeepSeek-V3, a strong Mixture-of-Experts (MoE) language model with 671B total parameters with 37B activated for each token.&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://github.com/deepseek-ai/DeepSeek-V3"&gt;Hacker News原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DeepSeek-V4 中尚无多模态。但我会等。</title><link>https://aihot.bt199.com/news/reddit-1su5l9i/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su5l9i/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://github.com/deepseek-ai/DeepSeek-V3"&gt;Hacker News原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DeepSeek-v4 具有滑稽的 384K 最大输出能力</title><link>https://aihot.bt199.com/news/reddit-1su9iio/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su9iio/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;当看到这个规范时我很震惊，立即去了网站并要求它制作一个全面的单一 html-web-OS，它确实为我生成了一个 100K…&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://reddit.com/r/LocalLLaMA/comments/1su9iio/deepseekv4_has_a_comical_384k_max_output/"&gt;r/LocalLLaMA原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DeepSeek-V4 中尚无多模态。但我会等。</title><link>https://aihot.bt199.com/news/reddit-1su5l9i/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su5l9i/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;我希望他们将其包含在下一个 v4 版本中。&lt;/p&gt;
 &lt;p&gt;来源：[DeepSeek_V4_Technical_Report](ht…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -257,7 +263,12 @@ DeepSeek-V4-Flash&lt;/p&gt;
 &lt;p&gt;Deezer announced on Monday that AI-generated tracks now represent 44% of all new music uploaded to its platform.&lt;/p&gt;
 &lt;p&gt;The company said it’s receiving almost 75,000 AI-generated tracks per day and more than two million per month.
 The consumption of AI-generated music on the platform is still very low, at 1-3% of total streams, and 85% of these streams are detected as fraudulent and demonetized by the company.
-The latest figure from Deezer highlights a continuous surge in AI-generated music uploads to the platform.&lt;/p&gt;</description></item><item><title>Era 筹集了 1100 万美元，用于构建人工智能设备的软件平台</title><link>https://aihot.bt199.com/news/ef50ca256f28/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ef50ca256f28/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+The latest figure from Deezer highlights a continuous surge in AI-generated music uploads to the platform.&lt;/p&gt;</description></item><item><title>EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]</title><link>https://aihot.bt199.com/news/reddit-1ssticc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1ssticc/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。&lt;/p&gt;
+&lt;p&gt;这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://reddit.com/r/MachineLearning/comments/1ssticc/emnlp_workshop_any_good_or_any_other_nlp_venue/"&gt;r/MachineLearning原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Era 筹集了 1100 万美元，用于构建人工智能设备的软件平台</title><link>https://aihot.bt199.com/news/ef50ca256f28/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ef50ca256f28/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Earlier in April, the startup
 Era
 held a gathering in New York for artists who had received its developer kit.&lt;/p&gt;
@@ -315,7 +326,12 @@ The company has been integrating AI and Gemini into Chrome in more ways since la
 Earlier this year, the company introduced a sidebar-based assistant that would help users answer questions across tabs and utilize the Personal Intelligence feature of Gemini, which lets users connect to services like Gmail and Google Photos, for personalized answers.&lt;/p&gt;</description></item><item><title>GPT Image 2 团队曝光：13 人小组 4 个月做出新一代生图系统，华人研究者占了半壁江山</title><link>https://aihot.bt199.com/news/befb53c8a141/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/befb53c8a141/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;OpenAI 这一代生图系统之所以会突然刷屏，真正让业内吃惊的并不只是“图更好看了”，而是它在文字渲染、复杂排版、信息图生成和多语种输出上同时出现了明显跃迁。围绕 GPT Image 2 团队的最新公开信息也印证了这一点：核心小组只有 13 人，但在不到 4 个月里完成了一轮架构级升级。&lt;/p&gt;</description></item><item><title>GPT-5.5</title><link>https://aihot.bt199.com/news/67eef0dd333b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/67eef0dd333b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;We’re releasing GPT‑5.5, our smartest and most intuitive to use model yet, and the next step toward a new way of getting work done on a computer.
-GPT‑5.5 understands what you’re trying to do faster and can carry more of the work itself.&lt;/p&gt;</description></item><item><title>GPT-5.5 发布后，OpenAI 把竞争焦点从“更强”拉向“更省 token、更像 Agent”</title><link>https://aihot.bt199.com/news/24fdeb9c254a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/24fdeb9c254a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+GPT‑5.5 understands what you’re trying to do faster and can carry more of the work itself.&lt;/p&gt;</description></item><item><title>GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍</title><link>https://aihot.bt199.com/news/c063edf68a38/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/c063edf68a38/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;“Claude 变笨了。&lt;/p&gt;
+&lt;p&gt;”
+Anthropic 正面回应模型“变笨”：三处优化导致的
+过去一段时间，这个声音在 Hacker News、Reddit 以及 X 上此起彼伏。&lt;/p&gt;
+&lt;p&gt;尤其是在万众瞩目的 Opus 4.7 发布后，不少老用户反馈 Claude Code 变得健忘、重复且废话连篇。&lt;/p&gt;</description></item><item><title>GPT-5.5 发布后，OpenAI 把竞争焦点从“更强”拉向“更省 token、更像 Agent”</title><link>https://aihot.bt199.com/news/24fdeb9c254a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/24fdeb9c254a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;GPT-5.5 这次发布，真正的变化不只是模型更强，而是 OpenAI 明显在把竞争逻辑往“更像一个能直接工作的 Agent”上带。&lt;/p&gt;
 &lt;p&gt;量子位报道里提到的几个信号很集中：一是 GPT-5.5 在代码、知识工作和科学研究上的表现继续拉开；二是它在完成相似任务时 token 消耗更低、延迟没有明显变重；三是 Codex、长上下文和工具调用被一起强化。这些点拼起来，不是在说明它又刷出一个更好的成绩单，而是在说明 OpenAI 正试图把模型从“会回答”推到“会执行”。&lt;/p&gt;</description></item><item><title>GPT-5.5 简介</title><link>https://aihot.bt199.com/news/reddit-1stvctj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1stvctj/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;GPT-5.5 简介&lt;/p&gt;
@@ -467,7 +483,11 @@ PixVerse（爱诗科技）
 &lt;p&gt;令人疯狂的是，Qwen3.6 27B 现在在 AA 的 Agentic Index 上与 Sonnet 4.6 相匹配…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://reddit.com/r/LocalLLaMA/comments/1strodp/qwen_36_27b_makes_huge_gains_in_agency_on/"&gt;r/LocalLLaMA原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>r/LocalLLaMa 规则更新</title><link>https://aihot.bt199.com/news/reddit-1su3ao4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su3ao4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://reddit.com/r/LocalLLaMA/comments/1strodp/qwen_36_27b_makes_huge_gains_in_agency_on/"&gt;r/LocalLLaMA原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Qwen3.6 35B-A3B在780m iGPU上非常有用（llama.cpp，vulkan）</title><link>https://aihot.bt199.com/news/reddit-1su9yva/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su9yva/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;我有 ThinkPad T14 Gen 5（8840U、&lt;strong&gt;Radeon 780M&lt;/strong&gt;、64GB DDR5 5600 M…&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://reddit.com/r/LocalLLaMA/comments/1su9yva/qwen36_35ba3b_is_quite_useful_on_780m_igpu/"&gt;r/LocalLLaMA原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>r/LocalLLaMa 规则更新</title><link>https://aihot.bt199.com/news/reddit-1su3ao4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su3ao4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;随着子系统的发展（以及基于人工智能的工具变得更好），&lt;em&gt;每周访问量超过 100 万&lt;/em&gt;，我们看到垃圾邮件、垃圾邮件等显着增加…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -930,7 +950,8 @@ Software brain is powerful stuff.&lt;/p&gt;</description></item><item><title>人
 &lt;p&gt;文｜周鑫雨
 编辑｜杨轩
 一句话介绍
-Buzzy（https://www.buzzy.now/）是AI内容创作公司“感知阶跃”旗下的视频编辑Agent平台，主要面向C端内容创作者和中小型商家。&lt;/p&gt;</description></item><item><title>社交平台 Bond：用 AI 帮你摆脱沙发、重返线下社交</title><link>https://aihot.bt199.com/news/d3cb509cceb0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d3cb509cceb0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+Buzzy（https://www.buzzy.now/）是AI内容创作公司“感知阶跃”旗下的视频编辑Agent平台，主要面向C端内容创作者和中小型商家。&lt;/p&gt;</description></item><item><title>商汤绝影发布舱驾一体全场景智能体产品</title><link>https://aihot.bt199.com/news/8077d9c800a5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8077d9c800a5/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、New Member 2.0等。&lt;/p&gt;</description></item><item><title>社交平台 Bond：用 AI 帮你摆脱沙发、重返线下社交</title><link>https://aihot.bt199.com/news/d3cb509cceb0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d3cb509cceb0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Legacy social media sites have been designed to keep us hooked to our devices, eyes glued endlessly to retina-frying feeds of memes and dumb videos in order to create more engaged platforms for advertisements.&lt;/p&gt;
 &lt;p&gt;In recent years, however, a swell of companies have sought to capitalize on users’ burnout, pushing users to engage in IRL experiences, or offering products without addictive features like endless scroll.
 Bond, which officially launched on Tuesday, is one of those sites.&lt;/p&gt;</description></item><item><title>生成式人工智能揭示了软件现状的哪些方面？</title><link>https://aihot.bt199.com/news/reddit-1stxitj/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1stxitj/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
@@ -985,7 +1006,12 @@ Intelectin-2 binds to a sugar molecule called galactose that is found on bacteri
 &lt;p&gt;微软把新的 Agent Mode 推进到 Word、Excel 和 PowerPoint，并直接设为 Microsoft 365 Copilot 用户的默认体验，这基本等于公开宣布：此前那种“你问一句、它答一句”的 Office AI 形态已经不够了。&lt;/p&gt;</description></item><item><title>微软针对 macOS 和 Linux ASP.NET 威胁发布紧急更新</title><link>https://aihot.bt199.com/news/ee206c36cfa4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ee206c36cfa4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Microsoft released an emergency patch for its ASP.NET Core to fix a high-severity vulnerability that allows unauthenticated attackers to gain SYSTEM privileges on devices that use the Web development framework to run Linux or macOS apps.
 The software maker said Tuesday evening that the vulnerability, tracked as CVE-2026-40372, affects versions 10.0.0 through 10.0.6 of the Microsoft.AspNetCore.DataProtection NuGet, a package that’s part of the framework.&lt;/p&gt;</description></item><item><title>为啥感觉 gpt 比国产模型便宜多了，是错觉吗？</title><link>https://aihot.bt199.com/news/v2ex-1207925/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1207925/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;国产是 coding plan 和 api 便宜，但是产品级订阅贵得要死，gpt 20 刀几乎畅用，国产你跑几个复杂点的任务就限额了，堪比 claude 20 刀的感觉（如果是入门套餐还不如 claude 20 刀）。&lt;/p&gt;</description></item><item><title>我的人工智能怀疑论者朋友们都疯了</title><link>https://aihot.bt199.com/news/hn-44163063/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/hn-44163063/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;国产是 coding plan 和 api 便宜，但是产品级订阅贵得要死，gpt 20 刀几乎畅用，国产你跑几个复杂点的任务就限额了，堪比 claude 20 刀的感觉（如果是入门套餐还不如 claude 20 刀）。&lt;/p&gt;</description></item><item><title>为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训胜过即时工程</title><link>https://aihot.bt199.com/news/reddit-1su9q5b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su9q5b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训击败了即时工程。&lt;/p&gt;
+&lt;p&gt;我在试图分享这一点时一直受到阻碍，所以我将直接切入技术…&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://reddit.com/r/artificial/comments/1su9q5b/lessons_learned_building_a_nohallucination_rag/"&gt;r/artificial原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>我的人工智能怀疑论者朋友们都疯了</title><link>https://aihot.bt199.com/news/hn-44163063/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/hn-44163063/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;我的人工智能怀疑论者朋友们都疯了&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -1160,7 +1186,9 @@ This noninvasive technology reaches deeper into the brain, with greater resoluti
 来源：
 量子位
 苹果版「顶尖AI人才计划」，刚刚公布名单了！&lt;/p&gt;
-&lt;p&gt;划重点，华人学者依旧闪耀，20个席位中占了8席。&lt;/p&gt;</description></item><item><title>支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”</title><link>https://aihot.bt199.com/news/425815f82b9a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/425815f82b9a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;划重点，华人学者依旧闪耀，20个席位中占了8席。&lt;/p&gt;</description></item><item><title>证监会部署打击和防范上市公司财务造假专项行动</title><link>https://aihot.bt199.com/news/7d76c3a89082/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/7d76c3a89082/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。&lt;/p&gt;
+&lt;p&gt;本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。&lt;/p&gt;</description></item><item><title>支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”</title><link>https://aihot.bt199.com/news/425815f82b9a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/425815f82b9a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;IT之家 4 月 20 日消息，在今天下午的华为 Pura 系列及全场景新品发布会上，华为终端 BG CEO 何刚正式发布了其今天佩戴的新品 —— 华为 AI 眼镜，定价 2499 元起。&lt;/p&gt;</description></item><item><title>只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般</title><link>https://aihot.bt199.com/news/v2ex-1208250/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1208250/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;简单试了下天气卡片，中文英文都试了，太简陋了：
 中文：
@@ -1196,7 +1224,10 @@ Earlier this month a GitHub project called Colleague Skill, which claimed worker
 &lt;p&gt;Deepgram 允许单词…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://reddit.com/r/MachineLearning/comments/1su8zhg/advanced_prompt_engineering_for_automatic_speech/"&gt;r/MachineLearning原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>做了一个自己的 AI 中转站，球球 Token，现支持 CodeX 和 Claude Code</title><link>https://aihot.bt199.com/news/v2ex-1207949/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1207949/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://reddit.com/r/MachineLearning/comments/1su8zhg/advanced_prompt_engineering_for_automatic_speech/"&gt;r/MachineLearning原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>最前线｜AI收入破亿后的路径选择：微盟推行AI First战略与B端交付的挑战</title><link>https://aihot.bt199.com/news/e6f87f30c26e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e6f87f30c26e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;文｜张子怡
+编辑｜袁斯来
+在SaaS行业普遍面临增长瓶颈、寻求数智化转型的背景下，微盟于2026年4月22日在上海总部举办了城市峰会，正式对外呈现其“AI First”战略全景。&lt;/p&gt;</description></item><item><title>做了一个自己的 AI 中转站，球球 Token，现支持 CodeX 和 Claude Code</title><link>https://aihot.bt199.com/news/v2ex-1207949/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1207949/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;重新发一份
 老板 1 年不发工资，今年不再计划找工作。&lt;/p&gt;
 &lt;p&gt;手里现在有 OpenAI 、Claude 的号，都是原生付费的 Pro 和 Max 订阅，故搭建一个 AI 中转，使用的是 cn2gia 服务器，相信大家懂的都懂，速度没得说。&lt;/p&gt;</description></item></channel></rss>
