@@ -3433,7 +3433,8 @@
     "featured": false,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "stars": 4307
+    "stars": 4307,
+    "score": 50
   },
   {
     "id": "9router",
@@ -3457,6 +3458,7 @@
     "featured": false,
     "source": "hermes_discover",
     "last_seen": "2026-04-22",
-    "stars": 2870
+    "stars": 2870,
+    "score": 50
   }
 ]

@@ -23,6 +23,7 @@ CATEGORY_ORDER = [
 
 CURATED_ITEMS = [
     # 顶级通用
+    {'category': 'top', 'source': 'manual', 'name': 'GPT-5.5', 'provider': 'OpenAI', 'url': 'https://openai.com/', 'freshness': '2026-04-24', 'badge': '刚发布', 'why': '今天最该出现在模型页的一线发布，新闻已覆盖，模型精选不能缺席', 'meta': '官方发布', 'tags': ['文本', '推理', '编程']},
     {'category': 'top', 'source': 'openrouter', 'id': 'openai/gpt-5.4', 'label': '综合王者', 'why': '当前一线通用能力标杆，推理、写作、执行力都很强'},
     {'category': 'top', 'source': 'openrouter', 'id': 'anthropic/claude-opus-4.7', 'label': '长文与复杂任务', 'why': '复杂任务稳定性强，长上下文和专业写作很能打'},
     {'category': 'top', 'source': 'openrouter', 'id': 'x-ai/grok-4.20', 'label': '热点与推理', 'why': '新一代旗舰之一，热度高、讨论度强'},
@@ -67,6 +68,7 @@ CURATED_ITEMS = [
     {'category': 'open', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K2.6', 'label': '开源新热门', 'why': '近期讨论度与关注度都很高'},
 
     # 新锐关注
+    {'category': 'watch', 'source': 'openrouter', 'id': 'deepseek/deepseek-v4-pro', 'label': 'DeepSeek V4', 'why': '今天最重要的国产模型发布之一，应该进入模型页重点关注位'},
     {'category': 'watch', 'source': 'openrouter', 'id': 'minimax/minimax-m2.7', 'label': '新锐国产', 'why': '近期迭代积极，值得持续跟踪'},
     {'category': 'watch', 'source': 'openrouter', 'id': 'xiaomi/mimo-32b', 'label': '小米 MiMo', 'why': 'OpenRouter 上热度和实力都不该缺席，国产新锐里必须补上'},
     {'category': 'watch', 'source': 'openrouter', 'id': 'mistralai/mistral-small-2603', 'label': '轻量强者', 'why': '轻量级模型里很能打'},

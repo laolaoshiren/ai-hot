@@ -24,7 +24,7 @@ from generate_curated_models import generate_curated_models
 from generate_rising import generate_rising
 from keyword_collector import collect_keywords
 from agent_discover import discover_agents
-# from trending_scorer import compute_trending  # 已由Hermes定时任务接管
+from trending_scorer import compute_trending
 from daily_spotlight import select_daily_spotlight
 from link_checker import quick_check
 from ai_enhance import summarize_news, generate_daily_briefing, score_tools
@@ -98,7 +98,7 @@ def main():
     # Phase 2: 数据处理
     print("\n⚙️ Phase 2: 数据处理")
     steps_process = [
-        ("🔥 保留热点", lambda: "由Hermes定时任务生成"),
+        ("🔥 今日热点", compute_trending),
         ("🔗 热点新闻站内化", enrich_hot_data),
         ("🧹 模型精简", refine_models),
         ("🏆 模型精选榜", generate_curated_models),

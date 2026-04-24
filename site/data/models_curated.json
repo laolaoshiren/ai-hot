@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-22T08:29:24.487259",
-  "total": 34,
+  "updated_at": "2026-04-24T08:21:17.201623",
+  "total": 41,
   "categories": [
     {
       "id": "top",
       "name": "🔥 顶级通用大模型",
       "subtitle": "现在最值得关注、综合能力最强的一线模型",
-      "count": 5
+      "count": 6
     },
     {
       "id": "coding",
@@ -42,10 +42,26 @@
       "id": "watch",
       "name": "🧪 值得关注的新锐模型",
       "subtitle": "还在快速爬升、值得盯着看的新一代模型",
-      "count": 5
+      "count": 11
     }
   ],
   "items": [
+    {
+      "category": "top",
+      "source": "官方补充",
+      "name": "GPT-5.5",
+      "provider": "OpenAI",
+      "url": "https://openai.com/",
+      "freshness": "2026-04-24",
+      "badge": "刚发布",
+      "why": "今天最该出现在模型页的一线发布，新闻已覆盖，模型精选不能缺席",
+      "meta": "官方发布",
+      "tags": [
+        "文本",
+        "推理",
+        "编程"
+      ]
+    },
     {
       "category": "top",
       "source": "OpenRouter",
@@ -480,6 +496,20 @@
     {
       "category": "watch",
       "source": "OpenRouter",
+      "name": "DeepSeek V4 Pro",
+      "provider": "DeepSeek",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro",
+      "freshness": "2026-04-24",
+      "badge": "DeepSeek V4",
+      "why": "今天最重要的国产模型发布之一，应该进入模型页重点关注位",
+      "meta": "1.0M 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
       "name": "MiniMax M2.7",
       "provider": "MiniMax",
       "url": "https://openrouter.ai/minimax/minimax-m2.7",
@@ -547,6 +577,82 @@
       "meta": "❤️ 1021",
       "tags": [
         "视频生成"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "MiMo-V2.5-Pro",
+      "provider": "Xiaomi",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.5-pro",
+      "freshness": "2026-04-22",
+      "badge": "自动发现",
+      "why": "从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单",
+      "meta": "1.0M 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "MiMo-V2.5",
+      "provider": "Xiaomi",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2.5",
+      "freshness": "2026-04-22",
+      "badge": "自动发现",
+      "why": "从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单",
+      "meta": "1.0M 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像",
+        "视频"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "MiMo-V2-Omni",
+      "provider": "Xiaomi",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2-omni",
+      "freshness": "2026-03-18",
+      "badge": "自动发现",
+      "why": "从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单",
+      "meta": "262K 上下文",
+      "tags": [
+        "多模态",
+        "文本",
+        "图像",
+        "视频"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "MiMo-V2-Pro",
+      "provider": "Xiaomi",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2-pro",
+      "freshness": "2026-03-18",
+      "badge": "自动发现",
+      "why": "从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单",
+      "meta": "1.0M 上下文",
+      "tags": [
+        "文本"
+      ]
+    },
+    {
+      "category": "watch",
+      "source": "OpenRouter",
+      "name": "MiMo-V2-Flash",
+      "provider": "Xiaomi",
+      "url": "https://openrouter.ai/xiaomi/mimo-v2-flash",
+      "freshness": "2025-12-14",
+      "badge": "自动发现",
+      "why": "从 OpenRouter 自动发现的高关注国产模型，应该进入候选榜单",
+      "meta": "262K 上下文",
+      "tags": [
+        "文本"
       ]
     }
   ]

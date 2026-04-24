@@ -20,7 +20,7 @@ ai_summary = "Bond利用AI帮助用户建立线下社交关系，对抗社交媒
 summary = "Bond wants you to get off the couch and get back into the real world, its creator says. The new platform's AI system is designed to motivate users to do things away from the app."
 summary_zh = "邦德的创造者说，邦德希望你离开沙发，回到现实世界。新平台的人工智能系统旨在激励用户远离应用程序做一些事情"
 tags = []
-list_page = 12
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

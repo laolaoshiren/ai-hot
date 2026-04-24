@@ -5,7 +5,7 @@ from pathlib import Path
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parent.parent
 README = ROOT / 'README.md'
 HOT = ROOT / 'data' / 'hot.json'
 BRIEFING = ROOT / 'data' / 'briefing.json'
@@ -34,7 +34,8 @@ def update_readme_links():
             continue
         item = items[rank - 1]
         target = item.get('internal_url') if item.get('type') == 'news' and item.get('internal_url') else item.get('url')
-        lines[idx] = f'{rank}. [{m.group(2)}]({target})'
+        title = item.get('title_zh') or item.get('title') or item.get('name') or m.group(2)
+        lines[idx] = f'{rank}. [{title}]({target})'
 
     text = "\n".join(lines)
 

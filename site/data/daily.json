@@ -1,40 +1,39 @@
 {
-  "updated_at": "2026-04-21T19:04:01.388690",
-  "date": "2026-04-21",
+  "updated_at": "2026-04-24T08:21:18.864309",
+  "date": "2026-04-24",
   "spotlight": {
-    "id": "gamma",
-    "name": "Gamma",
-    "url": "https://gamma.app",
-    "type": "tool",
-    "description": "AI 一键生成 PPT/演示文稿",
-    "pricing": "免费 + Plus $10/月",
-    "category": "办公"
+    "name": "Research Agent Llm",
+    "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
+    "type": "agent",
+    "description": "",
+    "pricing": "开源免费",
+    "category": "研究 Agent"
   },
   "alternates": [
     {
-      "name": "OpenCode",
-      "url": "https://github.com/opencode-ai/opencode",
+      "id": "vllm",
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "type": "tool",
+      "description": "高性能 LLM 推理引擎，PagedAttention",
+      "pricing": "开源免费",
+      "category": "推理引擎"
+    },
+    {
+      "name": "PydanticAI",
+      "url": "https://github.com/pydantic/pydantic-ai",
       "type": "agent",
-      "description": "终端AI编码助手，支持多模型多Provider",
+      "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
       "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "id": "sora",
-      "name": "Sora",
-      "url": "https://sora.com",
-      "type": "tool",
-      "description": "OpenAI 视频生成模型，效果惊人",
-      "pricing": "ChatGPT Pro $200/月",
-      "category": "视频"
-    },
-    {
-      "name": "AgentGPT",
-      "url": "https://agentgpt.reworkd.ai",
+      "name": "Bua",
+      "url": "https://github.com/nottelabs/bua",
       "type": "agent",
-      "description": "浏览器内直接使用的AI Agent平台",
-      "pricing": "免费 + Pro",
-      "category": "自动化 Agent"
+      "description": "Browser using agent (bua) notte model on any browser environment",
+      "pricing": "开源免费",
+      "category": "浏览器 Agent"
     }
   ]
 }

@@ -20,7 +20,7 @@ ai_summary = "Cursor 原本有望在本周完成 20 亿美元的融资，但在 
 summary = "Cursor was on track to close a $2 billion funding round this week but chose to halt discussions after SpaceX offered a $10 billion \"collaboration fee\" and a path to a $60 billion acquisition."
 summary_zh = "Cursor 原本有望在本周完成 20 亿美元的融资，但在 SpaceX 提供 100 亿美元的“合作费”和 600 亿美元的收购途径后选择停止讨论"
 tags = []
-list_page = 5
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->

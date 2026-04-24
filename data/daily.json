@@ -1,40 +1,39 @@
 {
-  "updated_at": "2026-04-24T07:54:01.094975",
+  "updated_at": "2026-04-24T08:21:18.864309",
   "date": "2026-04-24",
   "spotlight": {
-    "id": "通义千问",
-    "name": "通义千问",
-    "url": "https://tongyi.aliyun.com",
-    "type": "tool",
-    "description": "阿里巴巴出品的 AI 助手",
-    "pricing": "免费 + API 按量",
-    "category": "对话"
+    "name": "Research Agent Llm",
+    "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
+    "type": "agent",
+    "description": "",
+    "pricing": "开源免费",
+    "category": "研究 Agent"
   },
   "alternates": [
     {
-      "name": "Browser Use",
-      "url": "https://github.com/browser-use/browser-use",
+      "id": "vllm",
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
+      "type": "tool",
+      "description": "高性能 LLM 推理引擎，PagedAttention",
+      "pricing": "开源免费",
+      "category": "推理引擎"
+    },
+    {
+      "name": "PydanticAI",
+      "url": "https://github.com/pydantic/pydantic-ai",
       "type": "agent",
-      "description": "让AI控制浏览器的Agent框架，Python实现",
+      "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
+      "pricing": "开源免费",
+      "category": "编程 Agent"
+    },
+    {
+      "name": "Bua",
+      "url": "https://github.com/nottelabs/bua",
+      "type": "agent",
+      "description": "Browser using agent (bua) notte model on any browser environment",
       "pricing": "开源免费",
       "category": "浏览器 Agent"
-    },
-    {
-      "id": "codeium",
-      "name": "Codeium",
-      "url": "https://codeium.com",
-      "type": "tool",
-      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
-      "pricing": "个人免费 + Teams $12/月",
-      "category": "编程"
-    },
-    {
-      "name": "Hermes Agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
-      "type": "agent",
-      "description": "Nous Research 开源 AI Agent 框架，支持 Telegram/Discord/CLI，内置记忆和技能系统",
-      "pricing": "开源 + API费用",
-      "category": "助手 Agent"
     }
   ]
 }

@@ -97,16 +97,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "DeepSeek V3.2 Speciale",
-      "DeepSeek V3.2",
-      "DeepSeek V3.2 Exp"
+      "DeepSeek V4 Pro",
+      "DeepSeek V4 Flash",
+      "DeepSeek V3.2 Speciale"
     ],
-    "model_count": 11,
-    "last_updated": "2025-12-01",
+    "model_count": 13,
+    "last_updated": "2026-04-24",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 DeepSeek V3.2 Speciale",
+    "live_summary": "OpenRouter 已收录 13 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Pro",
     "provider_kind": "model_author"
   },
   {
@@ -148,17 +148,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Qianfan-OCR-Fast (free)",
       "ERNIE 4.5 21B A3B Thinking",
-      "ERNIE 4.5 21B A3B",
-      "ERNIE 4.5 VL 28B A3B"
+      "ERNIE 4.5 21B A3B"
     ],
-    "model_count": 5,
-    "last_updated": "2025-10-09",
+    "model_count": 6,
+    "last_updated": "2026-04-20",
     "modalities": [
-      "文本",
-      "多模态"
+      "多模态",
+      "文本"
     ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 ERNIE 4.5 21B A3B Thinking",
+    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 Qianfan-OCR-Fast (free)",
     "provider_kind": "model_author"
   },
   {
@@ -200,14 +200,15 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Hy3 preview (free)",
       "Hunyuan A13B Instruct"
     ],
-    "model_count": 1,
-    "last_updated": "2025-07-08",
+    "model_count": 2,
+    "last_updated": "2026-04-22",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 1 个该作者/厂商相关模型，最近更新为 Hunyuan A13B Instruct",
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Hy3 preview (free)",
     "provider_kind": "model_author"
   },
   {
@@ -555,5 +556,419 @@
     "modalities": [],
     "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
     "provider_kind": "platform"
+  },
+  {
+    "id": "xiaomi",
+    "name": "小米 MiMo",
+    "url": "https://openrouter.ai/xiaomi",
+    "logo": "🟠",
+    "models": [
+      "MiMo-V2.5-Pro",
+      "MiMo-V2.5",
+      "MiMo-V2-Omni"
+    ],
+    "type": "国产",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "model_author",
+    "source": "openrouter",
+    "latest_models": [
+      "MiMo-V2.5-Pro",
+      "MiMo-V2.5",
+      "MiMo-V2-Omni"
+    ],
+    "model_count": 5,
+    "last_updated": "2026-04-22",
+    "modalities": [
+      "文本",
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 MiMo-V2.5-Pro"
+  },
+  {
+    "id": "arcee-ai",
+    "name": "Arcee AI",
+    "url": "https://openrouter.ai/arcee-ai",
+    "logo": "🆕",
+    "models": [
+      "Arcee AI: Trinity Large Thinking",
+      "Arcee AI: Trinity Large Preview",
+      "Arcee AI: Trinity Mini"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Arcee AI: Trinity Large Thinking",
+      "Arcee AI: Trinity Large Preview",
+      "Arcee AI: Trinity Mini"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "rekaai",
+    "name": "Reka Edge",
+    "url": "https://openrouter.ai/rekaai",
+    "logo": "🆕",
+    "models": [
+      "Reka Edge",
+      "Reka Flash 3"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Reka Edge",
+      "Reka Flash 3"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "liquid",
+    "name": "LiquidAI",
+    "url": "https://openrouter.ai/liquid",
+    "logo": "🆕",
+    "models": [
+      "LiquidAI: LFM2-24B-A2B",
+      "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+      "LiquidAI: LFM2.5-1.2B-Instruct (free)"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "LiquidAI: LFM2-24B-A2B",
+      "LiquidAI: LFM2.5-1.2B-Thinking (free)",
+      "LiquidAI: LFM2.5-1.2B-Instruct (free)"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "aion-labs",
+    "name": "AionLabs",
+    "url": "https://openrouter.ai/aion-labs",
+    "logo": "🆕",
+    "models": [
+      "AionLabs: Aion-2.0",
+      "AionLabs: Aion-1.0",
+      "AionLabs: Aion-1.0-Mini"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "AionLabs: Aion-2.0",
+      "AionLabs: Aion-1.0",
+      "AionLabs: Aion-1.0-Mini"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "allenai",
+    "name": "AllenAI",
+    "url": "https://openrouter.ai/allenai",
+    "logo": "🆕",
+    "models": [
+      "AllenAI: Olmo 3.1 32B Instruct",
+      "AllenAI: Olmo 3 32B Think"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "AllenAI: Olmo 3.1 32B Instruct",
+      "AllenAI: Olmo 3 32B Think"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "relace",
+    "name": "Relace",
+    "url": "https://openrouter.ai/relace",
+    "logo": "🆕",
+    "models": [
+      "Relace: Relace Search",
+      "Relace: Relace Apply 3"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Relace: Relace Search",
+      "Relace: Relace Apply 3"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "amazon",
+    "name": "Amazon",
+    "url": "https://openrouter.ai/amazon",
+    "logo": "🆕",
+    "models": [
+      "Nova 2 Lite",
+      "Nova Premier 1.0",
+      "Nova Lite 1.0"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Nova 2 Lite",
+      "Nova Premier 1.0",
+      "Nova Lite 1.0"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "url": "https://openrouter.ai/perplexity",
+    "logo": "🆕",
+    "models": [
+      "Perplexity: Sonar Pro Search",
+      "Perplexity: Sonar Reasoning Pro",
+      "Perplexity: Sonar Pro"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Perplexity: Sonar Pro Search",
+      "Perplexity: Sonar Reasoning Pro",
+      "Perplexity: Sonar Pro"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "thedrummer",
+    "name": "TheDrummer",
+    "url": "https://openrouter.ai/thedrummer",
+    "logo": "🆕",
+    "models": [
+      "TheDrummer: Cydonia 24B V4.1",
+      "TheDrummer: Skyfall 36B V2",
+      "TheDrummer: UnslopNemo 12B"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "TheDrummer: Cydonia 24B V4.1",
+      "TheDrummer: Skyfall 36B V2",
+      "TheDrummer: UnslopNemo 12B"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "nousresearch",
+    "name": "Nous",
+    "url": "https://openrouter.ai/nousresearch",
+    "logo": "🆕",
+    "models": [
+      "Nous: Hermes 4 70B",
+      "Nous: Hermes 4 405B",
+      "Nous: Hermes 3 70B Instruct"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Nous: Hermes 4 70B",
+      "Nous: Hermes 4 405B",
+      "Nous: Hermes 3 70B Instruct"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "morph",
+    "name": "Morph",
+    "url": "https://openrouter.ai/morph",
+    "logo": "🆕",
+    "models": [
+      "Morph: Morph V3 Large",
+      "Morph: Morph V3 Fast"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Morph: Morph V3 Large",
+      "Morph: Morph V3 Fast"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "cohere",
+    "name": "Cohere",
+    "url": "https://openrouter.ai/cohere",
+    "logo": "🆕",
+    "models": [
+      "Cohere: Command A",
+      "Cohere: Command R7B (12-2024)",
+      "Cohere: Command R+ (08-2024)"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Cohere: Command A",
+      "Cohere: Command R7B (12-2024)",
+      "Cohere: Command R+ (08-2024)"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "microsoft",
+    "name": "Microsoft",
+    "url": "https://openrouter.ai/microsoft",
+    "logo": "🆕",
+    "models": [
+      "Microsoft: Phi 4",
+      "WizardLM-2 8x22B"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Microsoft: Phi 4",
+      "WizardLM-2 8x22B"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "sao10k",
+    "name": "Sao10K",
+    "url": "https://openrouter.ai/sao10k",
+    "logo": "🆕",
+    "models": [
+      "Sao10K: Llama 3.1 70B Hanami x1",
+      "Sao10K: Llama 3.3 Euryale 70B",
+      "Sao10K: Llama 3.1 Euryale 70B v2.2"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Sao10K: Llama 3.1 70B Hanami x1",
+      "Sao10K: Llama 3.3 Euryale 70B",
+      "Sao10K: Llama 3.1 Euryale 70B v2.2"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "inflection",
+    "name": "Inflection",
+    "url": "https://openrouter.ai/inflection",
+    "logo": "🆕",
+    "models": [
+      "Inflection: Inflection 3 Productivity",
+      "Inflection: Inflection 3 Pi"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "Inflection: Inflection 3 Productivity",
+      "Inflection: Inflection 3 Pi"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "inclusionai",
+    "name": "inclusionAI",
+    "url": "https://openrouter.ai/inclusionai",
+    "logo": "🆕",
+    "models": [
+      "inclusionAI: Ling-2.6-1T (free)",
+      "inclusionAI: Ling-2.6-flash (free)"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "manual",
+    "latest_models": [
+      "inclusionAI: Ling-2.6-1T (free)",
+      "inclusionAI: Ling-2.6-flash (free)"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]

@@ -1,8 +1,8 @@
 +++
 title = "Noscroll 想替你刷完信息流：把“刷 X”这件事外包给 AI 代理"
-description = "Noscroll 用 AI 代替用户盯社交平台，试图把信息获取和情绪消耗拆开。"
+description = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息"
 seo_title = "Noscroll 想替你刷完信息流：把“刷 X”这件事外包给 AI 代理｜AI资讯解读 - AI热榜"
-seo_description = "Noscroll 用 AI 代替用户盯社交平台，试图把信息获取和情绪消耗拆开。"
+seo_description = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息"
 seo_keywords = "Noscroll 想替你刷完信息流：把“刷 X”这件事外包给 AI 代理, TechCrunch AI, AI新闻, AI资讯, AI热榜"
 slug = "4dab914eae2b"
 type = "news"
@@ -15,12 +15,12 @@ original_url = "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-d
 source = "TechCrunch AI"
 published = "2026-04-23T19:38:25"
 lang = "en"
-intro = "Noscroll 用 AI 代替用户盯社交平台，试图把信息获取和情绪消耗拆开。"
-ai_summary = "Noscroll 用 AI 代替用户盯社交平台，试图把信息获取和情绪消耗拆开。"
+intro = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息"
+ai_summary = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息"
 summary = "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you."
 summary_zh = "新创公司 Noscroll 做的不是又一个聊天机器人，而是一个替你刷社交平台和新闻站的 AI 代理。用户把 X 账号、关注偏好和不感兴趣的话题交给它后，它负责监测社交媒体、新闻、Reddit、Hacker News、博客甚至论文，再把真正重要的变化用短信或摘要推给你。产品切中的，是“离不开信息流，又受不了信息流”的典型矛盾。"
 tags = []
-list_page = 1
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

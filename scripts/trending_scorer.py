@@ -30,6 +30,13 @@ SOURCE_WEIGHTS = {
     "IT之家": 5,
 }
 
+BREAKING_MODEL_KEYWORDS = {
+    'gpt-5.5': 18,
+    'deepseek v4': 18,
+    'deepseek-v4': 18,
+    'deepseek: deepseek v4': 18,
+}
+
 def compute_trending():
     hot_items = []
     
@@ -110,10 +117,15 @@ def compute_trending():
             
             weight = SOURCE_WEIGHTS.get(src, 3)
             ai_summary = n.get("ai_summary", "")
+            title_low = (n.get("title", "") + ' ' + n.get("title_zh", "")).lower()
             
             # 有AI摘要的新闻加分
             if ai_summary and len(ai_summary) > 30:
                 weight += 5
+
+            for kw, bonus in BREAKING_MODEL_KEYWORDS.items():
+                if kw in title_low:
+                    weight += bonus
             
             hot_items.append({
                 "name": n.get("title", ""),
@@ -153,11 +165,22 @@ def compute_trending():
         if key not in seen or item["score"] > seen[key]["score"]:
             seen[key] = item
     ranked = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
+
+    # 重大模型发布优先置顶，避免被工具类常青内容压住
+    breaking = []
+    normal = []
+    for item in ranked:
+        low = (item.get('name', '') + ' ' + item.get('description', '')).lower()
+        if any(kw in low for kw in BREAKING_MODEL_KEYWORDS):
+            breaking.append(item)
+        else:
+            normal.append(item)
+    ranked = breaking + normal
     
     # 确保混合：每个类型至少有代表
     final_list = []
     type_counts = {"tool": 0, "project": 0, "news": 0, "model": 0}
-    max_per_type = {"tool": 6, "project": 4, "news": 5, "model": 3}
+    max_per_type = {"tool": 4, "project": 3, "news": 8, "model": 3}
     
     # 第一轮：按分数排序，但限制每类型数量
     for item in ranked:

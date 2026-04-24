@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-23 02:08:22
+🕐 **最近更新**：2026-04-24 16:23:00
 
 **提供商直达：** [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
 
@@ -16,43 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升](https://aihot.bt199.com/news/0c88065d42e6/)
+1. [DeepSeek V4发布，海光DCU完成Day0适配](https://aihot.bt199.com/news/579d9b84cc77/)
    - ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」
    - `TechCrunch · 5小时前 · 重磅 / 图像生成 / OpenAI`
 
-2. [🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent](https://github.com/karpathy/autoresearch)
+2. [DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片](https://aihot.bt199.com/news/cc004cbe2188/)
    - Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star
    - `GitHub · 近期 · Agent / 研究 / Karpathy`
 
-3. [🚫 Claude 封号潮失控！300万用户企业一夜断供](https://aihot.bt199.com/news/14f356866e9c/)
+3. [DeepSeek-V4：迈向高效的百万代币上下文智能](https://aihot.bt199.com/news/dcc82d6d0a9e/)
    - Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权
    - `InfoQ · 11小时前 · 重磅 / Anthropic / 争议`
 
-4. [💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式](https://github.com/Fission-AI/OpenSpec)
+4. [GPT-5.5](https://aihot.bt199.com/news/67eef0dd333b/)
    - 让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势
    - `GitHub · 近期 · 编程 / 最佳实践`
 
-5. [🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面](https://aihot.bt199.com/news/d5c19f9f7a21/)
+5. [GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！](https://aihot.bt199.com/news/45e1d92c87d9/)
    - 自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动
    - `InfoQ · 10小时前 · 新品 / 设计 / Anthropic`
 
-6. [🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫](https://github.com/unclecode/crawl4ai)
+6. [Deepseek v4 people](https://aihot.bt199.com/news/reddit-1su7bnx/)
    - 开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取
    - `GitHub · 持续更新 · 数据 / 开源`
 
-7. [🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业](https://www.infoq.cn/article/china-embodied-ai-largest-funding)
+7. [No Multimodality yet in DeepSeek-V4. But I'll wait.](https://aihot.bt199.com/news/reddit-1su5l9i/)
    - 打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速
    - `InfoQ · 12小时前 · 融资 / 机器人 / 中国`
 
-8. [🧩 mem0：53K star 的 AI Agent 通用记忆层](https://github.com/mem0ai/mem0)
+8. [只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般](https://aihot.bt199.com/news/v2ex-1208250/)
    - 为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互
    - `GitHub · 持续更新 · Agent / 记忆 / 基础设施`
 
-9. [🔒 MIT：构建 Agent 优先的治理与安全架构](https://aihot.bt199.com/news/729e3b49eaa0/)
+9. [Cursor](https://cursor.sh)
    - 随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」
    - `MIT Tech Review · 12小时前 · 安全 / Agent / 治理`
 
-10. [🕸️ graphify：把代码库变成 AI 可查询的知识图谱](https://github.com/safishamsi/graphify)
+10. [FLUX](https://blackforestlabs.ai)
    - 将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文
    - `GitHub · 近期 · 编程 / 知识图谱`
 

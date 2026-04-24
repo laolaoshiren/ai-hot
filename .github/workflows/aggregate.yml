@@ -29,7 +29,7 @@ jobs:
         run: |
           git config user.name "AI热榜 Bot"
           git config user.email "bot@airebang.com"
-          git add data/
+          git add data/ site/data/ README.md
           if git diff --staged --quiet; then
             echo "No changes"
           else

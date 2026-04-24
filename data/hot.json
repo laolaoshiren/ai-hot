@@ -1,688 +1,1015 @@
 {
-  "updated_at": "2026-04-22T10:07:40",
-  "generated_by": "hermes_ai",
-  "items": [
-    {
-      "rank": 1,
-      "title": "🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升",
-      "subtitle": "ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」",
-      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
-      "type": "news",
-      "source": "TechCrunch",
-      "time": "5小时前",
-      "tags": [
-        "重磅",
-        "图像生成",
-        "OpenAI"
-      ],
-      "news_id": "0c88065d42e6",
-      "internal_url": "https://aihot.bt199.com/news/0c88065d42e6/",
-      "ai_summary": "ChatGPT Images 2.0 是 OpenAI 的最新图像生成模型，展示了过去几年人工智能功能的发展程度",
-      "title_zh": "ChatGPT 的新 Images 2.0 模型在生成文本方面出奇地好"
-    },
-    {
-      "rank": 2,
-      "title": "🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent",
-      "subtitle": "Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star",
-      "url": "https://github.com/karpathy/autoresearch",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "Agent",
-        "研究",
-        "Karpathy"
-      ]
-    },
-    {
-      "rank": 3,
-      "title": "🚫 Claude 封号潮失控！300万用户企业一夜断供",
-      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权",
-      "url": "https://www.infoq.cn/article/claude-account-ban-wave",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "11小时前",
-      "tags": [
-        "重磅",
-        "Anthropic",
-        "争议"
-      ],
-      "news_id": "14f356866e9c",
-      "internal_url": "https://aihot.bt199.com/news/14f356866e9c/",
-      "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。",
-      "title_zh": "Claude封号潮失控！300 万用户企业一夜断供，无理由、无回应，受害者被迫抱团反抗"
-    },
-    {
-      "rank": 4,
-      "title": "💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式",
-      "subtitle": "让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势",
-      "url": "https://github.com/Fission-AI/OpenSpec",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "最佳实践"
-      ]
-    },
-    {
-      "rank": 5,
-      "title": "🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面",
-      "subtitle": "自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动",
-      "url": "https://www.infoq.cn/article/claude-design-ui-generation",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "10小时前",
-      "tags": [
-        "新品",
-        "设计",
-        "Anthropic"
-      ],
-      "news_id": "d5c19f9f7a21",
-      "internal_url": "https://aihot.bt199.com/news/d5c19f9f7a21/",
-      "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。",
-      "title_zh": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了"
-    },
-    {
-      "rank": 6,
-      "title": "🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫",
-      "subtitle": "开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取",
-      "url": "https://github.com/unclecode/crawl4ai",
-      "type": "project",
-      "source": "GitHub",
-      "time": "持续更新",
-      "tags": [
-        "数据",
-        "开源"
-      ]
-    },
-    {
-      "rank": 7,
-      "title": "🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业",
-      "subtitle": "打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速",
-      "url": "https://www.infoq.cn/article/china-embodied-ai-largest-funding",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "12小时前",
-      "tags": [
-        "融资",
-        "机器人",
-        "中国"
-      ]
-    },
-    {
-      "rank": 8,
-      "title": "🧩 mem0：53K star 的 AI Agent 通用记忆层",
-      "subtitle": "为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互",
-      "url": "https://github.com/mem0ai/mem0",
-      "type": "project",
-      "source": "GitHub",
-      "time": "持续更新",
-      "tags": [
-        "Agent",
-        "记忆",
-        "基础设施"
-      ]
-    },
-    {
-      "rank": 9,
-      "title": "🔒 MIT：构建 Agent 优先的治理与安全架构",
-      "subtitle": "随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」",
-      "url": "https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "time": "12小时前",
-      "tags": [
-        "安全",
-        "Agent",
-        "治理"
-      ],
-      "news_id": "729e3b49eaa0",
-      "internal_url": "https://aihot.bt199.com/news/729e3b49eaa0/",
-      "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变",
-      "title_zh": "构建 Agent 优先的治理与安全架构"
-    },
-    {
-      "rank": 10,
-      "title": "🕸️ graphify：把代码库变成 AI 可查询的知识图谱",
-      "subtitle": "将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文",
-      "url": "https://github.com/safishamsi/graphify",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "知识图谱"
-      ]
-    },
-    {
-      "rank": 11,
-      "title": "👁️ YouTube 扩展 AI 深度伪造检测至名人肖像保护",
-      "subtitle": "明星可主动发现并请求删除 AI 深度伪造视频，平台加强肖像权保护力度",
-      "url": "https://techcrunch.com/2026/04/21/youtube-expands-ai-likeness-detection-celebrities/",
-      "type": "news",
-      "source": "TechCrunch",
-      "time": "10小时前",
-      "tags": [
-        "监管",
-        "深度伪造"
-      ],
-      "news_id": "2d537bc7c412",
-      "internal_url": "https://aihot.bt199.com/news/2d537bc7c412/",
-      "ai_summary": "YouTube将AI深度伪造检测范围扩大到名人肖像保护领域",
-      "title_zh": "YouTube AI 肖像检测技术扩展至名人保护"
-    },
-    {
-      "rank": 12,
-      "title": "🎮 AI Dungeon 创始人推出 Voyage：AI 原生游戏创作平台",
-      "subtitle": "让玩家用自然语言创建和分享 AI 驱动的互动故事，游戏创作门槛降至零",
-      "url": "https://techcrunch.com/2026/04/21/ai-dungeon-maker-latitude-unveils-voyage/",
-      "type": "news",
-      "source": "TechCrunch",
-      "time": "8小时前",
-      "tags": [
-        "游戏",
-        "创意"
-      ],
-      "news_id": "92ce862f8036",
-      "internal_url": "https://aihot.bt199.com/news/92ce862f8036/",
-      "ai_summary": "Latitude发布Voyage平台，让用户用自然语言创建AI驱动的互动游戏",
-      "title_zh": "AI Dungeon 创始人推出 Voyage：AI 原生互动故事创作平台"
-    },
-    {
-      "rank": 13,
-      "title": "📖 context-engineering-intro：AI 编程助手的上下文工程指南",
-      "subtitle": "从 Vibe Coding 到 Context Engineering 的范式转变，让 Claude Code 真正理解你的需求",
-      "url": "https://github.com/coleam00/context-engineering-intro",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "最佳实践",
-        "Claude"
-      ]
-    },
-    {
-      "rank": 14,
-      "title": "🗳️ AI 与选举：美国民众对 AI 政治应用的信任危机",
-      "subtitle": "调查显示多数美国人担忧 AI 在选举中的角色，信任度持续走低",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/election-backlash",
-      "type": "news",
-      "source": "The Verge",
-      "time": "5小时前",
-      "tags": [
-        "社会",
-        "选举"
-      ],
-      "news_id": "314fefba7e73",
-      "internal_url": "https://aihot.bt199.com/news/314fefba7e73/",
-      "ai_summary": "调查显示多数美国人担忧AI在选举中的应用，信任危机加剧",
-      "title_zh": "AI 引发选举领域反弹：民众信任度持续走低"
-    },
-    {
-      "rank": 15,
-      "title": "🍎 Apple AI 负责人 John Ternus 面临首个重大挑战",
-      "subtitle": "上任不到一年就面临 AI 落后压力，Apple 内部 AI 战略或将迎来重大调整",
-      "url": "https://www.theverge.com/2026/04/21/john-ternus-apple-ai-challenge",
-      "type": "news",
-      "source": "The Verge",
-      "time": "11小时前",
-      "tags": [
-        "Apple",
-        "战略"
-      ],
-      "news_id": "7faac906f243",
-      "internal_url": "https://aihot.bt199.com/news/7faac906f243/",
-      "ai_summary": "不到一年前，苹果公司因在其年度 WWDC 活动上缺乏人工智能公告而成为头条新闻。十个月后，该公司宣布硬件高管约翰·特纳斯…",
-      "title_zh": "John Ternus 的第一个大问题是人工智能"
-    }
-  ],
-  "total": 15,
+  "updated_at": "2026-04-24T08:21:16.234012",
+  "total": 50,
   "hot_list": [
     {
-      "rank": 1,
-      "title": "🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升",
-      "subtitle": "ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」",
-      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "name": "DeepSeek V4发布，海光DCU完成Day0适配",
+      "url": "https://36kr.com/newsflashes/3780507701072904?f=rss",
       "type": "news",
-      "source": "TechCrunch",
-      "time": "5小时前",
-      "tags": [
-        "重磅",
-        "图像生成",
-        "OpenAI"
-      ]
+      "source": "36氪",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSee",
+      "category": "资讯",
+      "type_label": "📰 新闻"
     },
     {
-      "rank": 2,
-      "title": "🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent",
-      "subtitle": "Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star",
-      "url": "https://github.com/karpathy/autoresearch",
+      "name": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+      "url": "https://www.qbitai.com/2026/04/406359.html",
+      "type": "news",
+      "source": "量子位",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "type": "news",
+      "source": "Hacker News AI",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 评论网址…",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "name": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "type": "news",
+      "source": "Hacker News AI",
+      "score": 26,
+      "detail": "2026-04-23",
+      "description": "文章网址：https://openai.com/index/introducing-gpt-5-5/ 评论网址：http…",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "name": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！",
+      "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
+      "type": "news",
+      "source": "InfoQ AI",
+      "score": 25,
+      "detail": "2026-04-24",
+      "description": "点击查看原文>",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "name": "Deepseek v4 people",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1su7bnx/deepseek_v4_people/",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "name": "No Multimodality yet in DeepSeek-V4. But I'll wait.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1su5l9i/no_multimodality_yet_in_deepseekv4_but_ill_wait/",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "I hope they include it in their next v4 release. S",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "name": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般",
+      "url": "https://www.v2ex.com/t/1208250",
+      "type": "news",
+      "source": "V2EX",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "简单试了下天气卡片，中文英文都试了，太简陋了： ![图片.png]( https://s3.bmp.",
+      "category": "资讯",
+      "type_label": "📰 新闻"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + Pro $20/月",
+      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
+      "category": "编程",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "flux",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "开源 + 商业 API",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "category": "绘画",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "可灵",
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + 会员",
+      "description": "快手出品的 AI 视频生成工具，国产最强",
+      "category": "视频",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + API 按量",
+      "description": "深度求索出品，国产最强开源大模型对话工具",
+      "category": "对话",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "dify",
+      "name": "Dify",
+      "url": "https://dify.ai",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "开源 + 云服务",
+      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
+      "category": "Agent"
+    },
+    {
+      "id": "ollama",
+      "name": "Ollama",
+      "url": "https://ollama.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "开源免费",
+      "description": "本地运行大模型的最简单方式",
+      "category": "本地模型"
+    },
+    {
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "开源免费",
+      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "category": "编程"
+    },
+    {
+      "id": "supermaven",
+      "name": "Supermaven",
+      "url": "https://supermaven.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + Pro $10/月",
+      "description": "超低延迟AI代码补全，速度极快",
+      "category": "编程"
+    },
+    {
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
       "type": "project",
       "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "Agent",
-        "研究",
-        "Karpathy"
-      ]
+      "score": 43.89572,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "category": "编程",
+      "type_label": "💻 项目"
     },
     {
-      "rank": 3,
-      "title": "🚫 Claude 封号潮失控！300万用户企业一夜断供",
-      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权",
-      "url": "https://www.infoq.cn/article/claude-account-ban-wave",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "11小时前",
-      "tags": [
-        "重磅",
-        "Anthropic",
-        "争议"
-      ]
-    },
-    {
-      "rank": 4,
-      "title": "💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式",
-      "subtitle": "让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势",
-      "url": "https://github.com/Fission-AI/OpenSpec",
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "type": "project",
       "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "最佳实践"
-      ]
+      "score": 43.67212,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "编程",
+      "type_label": "💻 项目"
     },
     {
-      "rank": 5,
-      "title": "🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面",
-      "subtitle": "自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动",
-      "url": "https://www.infoq.cn/article/claude-design-ui-generation",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "10小时前",
-      "tags": [
-        "新品",
-        "设计",
-        "Anthropic"
-      ]
-    },
-    {
-      "rank": 6,
-      "title": "🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫",
-      "subtitle": "开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取",
-      "url": "https://github.com/unclecode/crawl4ai",
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
       "type": "project",
       "source": "GitHub",
-      "time": "持续更新",
-      "tags": [
-        "数据",
-        "开源"
-      ]
+      "score": 43.39056,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "category": "编程",
+      "type_label": "💻 项目"
     },
     {
-      "rank": 7,
-      "title": "🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业",
-      "subtitle": "打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速",
-      "url": "https://www.infoq.cn/article/china-embodied-ai-largest-funding",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "12小时前",
-      "tags": [
-        "融资",
-        "机器人",
-        "中国"
-      ]
+      "name": "DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 43.298,
+      "detail": "❤️ 13298",
+      "description": "text-generation",
+      "category": "模型",
+      "type_label": "🧠 模型"
     },
     {
-      "rank": 8,
-      "title": "🧩 mem0：53K star 的 AI Agent 通用记忆层",
-      "subtitle": "为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互",
-      "url": "https://github.com/mem0ai/mem0",
+      "name": "everything-claude-code",
+      "url": "https://github.com/affaan-m/everything-claude-code",
       "type": "project",
       "source": "GitHub",
-      "time": "持续更新",
-      "tags": [
-        "Agent",
-        "记忆",
-        "基础设施"
-      ]
+      "score": 43.24008,
+      "detail": "⭐ 162004",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "category": "编程"
     },
     {
-      "rank": 9,
-      "title": "🔒 MIT：构建 Agent 优先的治理与安全架构",
-      "subtitle": "随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」",
-      "url": "https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/",
+      "name": "prompts.chat",
+      "url": "https://github.com/f/prompts.chat",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.2041,
+      "detail": "⭐ 160205",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.",
+      "category": "编程"
+    },
+    {
+      "name": "transformers",
+      "url": "https://github.com/huggingface/transformers",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.19312,
+      "detail": "⭐ 159656",
+      "description": "🤗 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "category": "编程"
+    },
+    {
+      "name": "FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 42.685,
+      "detail": "❤️ 12685",
+      "description": "text-to-image",
+      "category": "模型",
+      "type_label": "🧠 模型"
+    },
+    {
+      "name": "GPT-2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 42.0,
+      "detail": "❤️ 12000",
+      "description": "text-generation",
+      "category": "模型",
+      "type_label": "🧠 模型"
+    },
+    {
+      "name": "Llama-3-8B",
+      "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 38.5,
+      "detail": "❤️ 8500",
+      "description": "text-generation",
+      "category": "模型"
+    },
+    {
+      "name": "SDXL",
+      "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 37.8,
+      "detail": "❤️ 7800",
+      "description": "text-to-image",
+      "category": "模型"
+    },
+    {
+      "id": "github-copilot",
+      "name": "GitHub Copilot",
+      "url": "https://github.com/features/copilot",
+      "type": "tool",
+      "source": "精选",
+      "score": 35,
+      "detail": "$10/月 个人 / $19/月 企业",
+      "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains",
+      "category": "编程"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "type": "tool",
+      "source": "精选",
+      "score": 35,
+      "detail": "按 API 使用量计费",
+      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+      "category": "编程"
+    },
+    {
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
+      "type": "tool",
+      "source": "精选",
+      "score": 35,
+      "detail": "按 API 使用量计费",
+      "description": "OpenAI 官方终端编程助手，轻量快速",
+      "category": "编程"
+    },
+    {
+      "id": "codeium",
+      "name": "Codeium",
+      "url": "https://codeium.com",
+      "type": "tool",
+      "source": "精选",
+      "score": 35,
+      "detail": "个人免费 + Teams $12/月",
+      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
+      "category": "编程"
+    },
+    {
+      "id": "continue",
+      "name": "Continue",
+      "url": "https://continue.dev",
+      "type": "tool",
+      "source": "精选",
+      "score": 35,
+      "detail": "开源免费",
+      "description": "开源 AI 编程助手，可接入任意 LLM",
+      "category": "编程"
+    },
+    {
+      "name": "Bret Taylor’s Sierra buys YC-backed AI startup Fragment",
+      "url": "https://techcrunch.com/2026/04/23/bret-taylors-sierra-buys-yc-backed-ai-startup-fragment/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-04-23",
+      "description": "Bret Taylor 创办的 Sierra 再下一城，收购 Fragment 加速企业 AI 工作流布局。",
+      "category": "资讯"
+    },
+    {
+      "name": "Meet Noscroll, an AI bot that does your doomscrolling for you",
+      "url": "https://techcrunch.com/2026/04/23/meet-noscroll-an-ai-bot-that-does-your-doomscrolling-for-you/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-04-23",
+      "description": "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息",
+      "category": "资讯"
+    },
+    {
+      "name": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-04-23",
+      "description": "Claude 新增一批生活类连接器，开始把 AI 助手从办公场景推向个人日常应用。",
+      "category": "资讯"
+    },
+    {
+      "name": "Anthropic&#8217;s Mythos breach was humiliating",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/917644/anthropic-claude-mythos-breach-humiliation",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-04-23",
+      "description": "Anthropic 把 Mythos 包装成高危模型，却在灰度阶段先被未授权用户摸到，安全招牌反被打脸。",
+      "category": "资讯"
+    },
+    {
+      "name": "DeepSeek-V3 正式开源：性能媲美 GPT-4o",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "type": "news",
+      "source": "Hacker News",
+      "score": 12,
+      "detail": "2026-04-20",
+      "description": "DeepSeek 发布完全开源的 V3",
+      "category": "资讯"
+    },
+    {
+      "name": "Cursor Pro 发布新版 AI 编程功能",
+      "url": "https://cursor.sh",
+      "type": "news",
+      "source": "Hacker News",
+      "score": 12,
+      "detail": "2026-04-20",
+      "description": "Cursor 增加了新的人工智能功能",
+      "category": "资讯"
+    },
+    {
+      "name": "WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华为小艺大模型加持，预售价 499 元",
+      "url": "https://www.ithome.com/0/941/360.htm",
+      "type": "news",
+      "source": "IT之家",
+      "score": 10,
+      "detail": "2026-04-20",
+      "description": "WIKO推出华为小艺大模型加持的AI电子宠物「智能憨憨」，预售价499元。",
+      "category": "资讯"
+    },
+    {
+      "name": "高德地图发布“AI 伴行”",
+      "url": "https://36kr.com/newsflashes/3780514886538243?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 8,
+      "detail": "2026-04-24",
+      "description": "36氪获悉，4月24日，高德地图面向导航场景正式推出“AI 伴行”产品，它不仅能理解用户的语言，还能",
+      "category": "资讯"
+    },
+    {
+      "name": "Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式",
+      "url": "https://www.qbitai.com/2026/04/406393.html",
+      "type": "news",
+      "source": "量子位",
+      "score": 8,
+      "detail": "2026-04-24",
+      "description": "业界首个面向多Agent协作的标准化能力包规范",
+      "category": "资讯"
+    },
+    {
+      "name": "The Download: introducing the Nature issue",
+      "url": "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/",
       "type": "news",
       "source": "MIT Tech Review",
-      "time": "12小时前",
-      "tags": [
-        "安全",
-        "Agent",
-        "治理"
-      ]
+      "score": 8,
+      "detail": "2026-04-23",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…",
+      "category": "资讯"
     },
     {
-      "rank": 10,
-      "title": "🕸️ graphify：把代码库变成 AI 可查询的知识图谱",
-      "subtitle": "将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文",
-      "url": "https://github.com/safishamsi/graphify",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "知识图谱"
-      ]
-    },
-    {
-      "rank": 11,
-      "title": "👁️ YouTube 扩展 AI 深度伪造检测至名人肖像保护",
-      "subtitle": "明星可主动发现并请求删除 AI 深度伪造视频，平台加强肖像权保护力度",
-      "url": "https://techcrunch.com/2026/04/21/youtube-expands-ai-likeness-detection-celebrities/",
+      "name": "Cloudflare 推出 Think：一款面向 AI 代理的持久化运行时",
+      "url": "https://www.infoq.cn/article/l2DH5C3modDof2u5DXlE?utm_source=rss&utm_medium=article",
       "type": "news",
-      "source": "TechCrunch",
-      "time": "10小时前",
-      "tags": [
-        "监管",
-        "深度伪造"
-      ]
+      "source": "InfoQ AI",
+      "score": 7,
+      "detail": "2026-04-24",
+      "description": "点击查看原文>",
+      "category": "资讯"
     },
     {
-      "rank": 12,
-      "title": "🎮 AI Dungeon 创始人推出 Voyage：AI 原生游戏创作平台",
-      "subtitle": "让玩家用自然语言创建和分享 AI 驱动的互动故事，游戏创作门槛降至零",
-      "url": "https://techcrunch.com/2026/04/21/ai-dungeon-maker-latitude-unveils-voyage/",
+      "name": "支付宝官宣华为 AI 眼镜可用鸿蒙版 App“看一下支付”",
+      "url": "https://www.ithome.com/0/941/374.htm",
       "type": "news",
-      "source": "TechCrunch",
-      "time": "8小时前",
-      "tags": [
-        "游戏",
-        "创意"
-      ]
+      "source": "IT之家",
+      "score": 5,
+      "detail": "2026-04-20",
+      "description": "支付宝官宣华为AI眼镜支持鸿蒙版「看一下支付」功能。",
+      "category": "资讯"
     },
     {
-      "rank": 13,
-      "title": "📖 context-engineering-intro：AI 编程助手的上下文工程指南",
-      "subtitle": "从 Vibe Coding 到 Context Engineering 的范式转变，让 Claude Code 真正理解你的需求",
-      "url": "https://github.com/coleam00/context-engineering-intro",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "最佳实践",
-        "Claude"
-      ]
-    },
-    {
-      "rank": 14,
-      "title": "🗳️ AI 与选举：美国民众对 AI 政治应用的信任危机",
-      "subtitle": "调查显示多数美国人担忧 AI 在选举中的角色，信任度持续走低",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/election-backlash",
+      "name": "Advanced Prompt Engineering for Automatic Speech Recognition [P]",
+      "url": "https://reddit.com/r/MachineLearning/comments/1su8zhg/advanced_prompt_engineering_for_automatic_speech/",
       "type": "news",
-      "source": "The Verge",
-      "time": "5小时前",
-      "tags": [
-        "社会",
-        "选举"
-      ]
+      "source": "r/MachineLearning",
+      "score": 3,
+      "detail": "2026-04-24",
+      "description": "I've been working on the listening part of my full",
+      "category": "资讯"
     },
     {
-      "rank": 15,
-      "title": "🍎 Apple AI 负责人 John Ternus 面临首个重大挑战",
-      "subtitle": "上任不到一年就面临 AI 落后压力，Apple 内部 AI 战略或将迎来重大调整",
-      "url": "https://www.theverge.com/2026/04/21/john-ternus-apple-ai-challenge",
+      "name": "I tracked 1,100 times an AI said \"great question\" — 940 weren't. The flattery problem in RLHF is worse than we think.",
+      "url": "https://reddit.com/r/artificial/comments/1su7fya/i_tracked_1100_times_an_ai_said_great_question/",
       "type": "news",
-      "source": "The Verge",
-      "time": "11小时前",
-      "tags": [
-        "Apple",
-        "战略"
-      ]
+      "source": "r/artificial",
+      "score": 3,
+      "detail": "2026-04-24",
+      "description": "Someone ran a 4-month experiment tracking every in",
+      "category": "资讯"
+    },
+    {
+      "name": "Nanochat vs Llama for training from scratch? [P]",
+      "url": "https://reddit.com/r/MachineLearning/comments/1su5i3z/nanochat_vs_llama_for_training_from_scratch_p/",
+      "type": "news",
+      "source": "r/MachineLearning",
+      "score": 3,
+      "detail": "2026-04-24",
+      "description": "Hey all - I'm engaged in a project training a mode",
+      "category": "资讯"
+    },
+    {
+      "name": "Memory as Counterfeit Intimacy: Why agents who remember earn more trust than agents who understand",
+      "url": "https://reddit.com/r/artificial/comments/1su5d7b/memory_as_counterfeit_intimacy_why_agents_who/",
+      "type": "news",
+      "source": "r/artificial",
+      "score": 3,
+      "detail": "2026-04-24",
+      "description": "I came across a thought-provoking essay on the con",
+      "category": "资讯"
+    },
+    {
+      "name": "天下苦 Claude 久矣， GPT 就出招了， 5.5 目测下限是 opus 4.6",
+      "url": "https://www.v2ex.com/t/1208148",
+      "type": "news",
+      "source": "V2EX",
+      "score": 3,
+      "detail": "2026-04-24",
+      "description": "1 ，输出好多了，不讲八股文了 2 ，体感变快 2 ，大上下文目测增强很多 解决了 5.4 最大的 ",
+      "category": "资讯"
+    },
+    {
+      "name": "Microsoft issues emergency update for macOS and Linux ASP.NET threat",
+      "url": "https://arstechnica.com/security/2026/04/microsoft-issues-emergency-update-for-macos-and-linux-asp-net-threat/",
+      "type": "news",
+      "source": "Ars Technica AI",
+      "score": 3,
+      "detail": "2026-04-22",
+      "description": "当身份验证失败时，事情可能会变得非常非常错误",
+      "category": "资讯"
     }
   ],
   "top_20": [
     {
-      "rank": 1,
-      "title": "🎨 OpenAI 发布 ChatGPT Images 2.0：文字渲染质量飞跃提升",
-      "subtitle": "ChatGPT 最新图像生成模型，文字渲染准确率大幅提升，设计师直呼「够用了」",
-      "url": "https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/",
+      "name": "DeepSeek V4发布，海光DCU完成Day0适配",
+      "url": "https://36kr.com/newsflashes/3780507701072904?f=rss",
       "type": "news",
-      "source": "TechCrunch",
-      "time": "5小时前",
-      "tags": [
-        "重磅",
-        "图像生成",
-        "OpenAI"
-      ],
-      "news_id": "0c88065d42e6",
-      "internal_url": "https://aihot.bt199.com/news/0c88065d42e6/",
-      "ai_summary": "ChatGPT Images 2.0 是 OpenAI 的最新图像生成模型，展示了过去几年人工智能功能的发展程度",
-      "title_zh": "ChatGPT 的新 Images 2.0 模型在生成文本方面出奇地好"
+      "source": "36氪",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSee",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "579d9b84cc77",
+      "internal_url": "https://aihot.bt199.com/news/579d9b84cc77/",
+      "ai_summary": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSeek V4的Day0适配，以“模型发布—芯片适配—产业落地”的高效闭环，为全球开发者、企业客户提供即取即用的部署方案。",
+      "title_zh": "DeepSeek V4发布，海光DCU完成Day0适配"
     },
     {
-      "rank": 2,
-      "title": "🧠 Karpathy 新作 autoresearch：单卡自动训练的 AI 研究 Agent",
-      "subtitle": "Karpathy 开源的 AI Agent，能在单 GPU 上自动运行深度学习研究，75K star",
-      "url": "https://github.com/karpathy/autoresearch",
+      "name": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+      "url": "https://www.qbitai.com/2026/04/406359.html",
+      "type": "news",
+      "source": "量子位",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "cc004cbe2188",
+      "internal_url": "https://aihot.bt199.com/news/cc004cbe2188/",
+      "ai_summary": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "title_zh": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片"
+    },
+    {
+      "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "type": "news",
+      "source": "Hacker News AI",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 评论网址…",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "dcc82d6d0a9e",
+      "internal_url": "https://aihot.bt199.com/news/dcc82d6d0a9e/",
+      "ai_summary": "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 评论网址…",
+      "title_zh": "DeepSeek-V4：迈向高效的百万代币上下文智能"
+    },
+    {
+      "name": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "type": "news",
+      "source": "Hacker News AI",
+      "score": 26,
+      "detail": "2026-04-23",
+      "description": "文章网址：https://openai.com/index/introducing-gpt-5-5/ 评论网址：http…",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "67eef0dd333b",
+      "internal_url": "https://aihot.bt199.com/news/67eef0dd333b/",
+      "ai_summary": "文章网址：https://openai.com/index/introducing-gpt-5-5/ 评论网址：http…",
+      "title_zh": "GPT-5.5"
+    },
+    {
+      "name": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！",
+      "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
+      "type": "news",
+      "source": "InfoQ AI",
+      "score": 25,
+      "detail": "2026-04-24",
+      "description": "点击查看原文>",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "45e1d92c87d9",
+      "internal_url": "https://aihot.bt199.com/news/45e1d92c87d9/",
+      "ai_summary": "点击查看原文>",
+      "title_zh": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！"
+    },
+    {
+      "name": "Deepseek v4 people",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1su7bnx/deepseek_v4_people/",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "reddit-1su7bnx",
+      "internal_url": "https://aihot.bt199.com/news/reddit-1su7bnx/",
+      "ai_summary": "",
+      "title_zh": "Deepseek v4 people"
+    },
+    {
+      "name": "No Multimodality yet in DeepSeek-V4. But I'll wait.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1su5l9i/no_multimodality_yet_in_deepseekv4_but_ill_wait/",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "I hope they include it in their next v4 release. S",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "reddit-1su5l9i",
+      "internal_url": "https://aihot.bt199.com/news/reddit-1su5l9i/",
+      "ai_summary": "I hope they include it in their next v4 release. Source: [DeepSeek\\_V4\\_Technical\\_Report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)",
+      "title_zh": "No Multimodality yet in DeepSeek-V4. But I'll wait."
+    },
+    {
+      "name": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般",
+      "url": "https://www.v2ex.com/t/1208250",
+      "type": "news",
+      "source": "V2EX",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "简单试了下天气卡片，中文英文都试了，太简陋了： ![图片.png]( https://s3.bmp.",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "v2ex-1208250",
+      "internal_url": "https://aihot.bt199.com/news/v2ex-1208250/",
+      "ai_summary": "简单试了下天气卡片，中文英文都试了，太简陋了： ![图片.png]( https://s3.bmp.ovh/2026/04/24/useViXUw.png) 中文： ``` 创建一个包含 CSS 和 JavaScript 的单一 HTML 文件，用于生成动画天气卡片。卡片应该通过不同的动画直观地表示以下天气状况： 风：（例如，移动的云朵、摇摆的树木或风线） 雨：（例如，下落的雨滴、形成的水坑） 阳光：（例如，闪耀的光线、明亮的背景） 雪：（例如，下落的雪花、积累的雪） 所有天气卡片应并排显示，卡片应该有深色背景。 在这个单一文件中提供所有 HTML 、CSS 和 JavaScript 代码。J",
+      "title_zh": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + Pro $20/月",
+      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
+      "category": "编程",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "flux",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "开源 + 商业 API",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "category": "绘画",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "可灵",
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + 会员",
+      "description": "快手出品的 AI 视频生成工具，国产最强",
+      "category": "视频",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + API 按量",
+      "description": "深度求索出品，国产最强开源大模型对话工具",
+      "category": "对话",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
       "type": "project",
       "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "Agent",
-        "研究",
-        "Karpathy"
-      ]
+      "score": 43.89572,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "category": "编程",
+      "type_label": "💻 项目"
     },
     {
-      "rank": 3,
-      "title": "🚫 Claude 封号潮失控！300万用户企业一夜断供",
-      "subtitle": "Anthropic 大规模封号风波持续发酵，无理由无回应，受害者被迫抱团维权",
-      "url": "https://www.infoq.cn/article/claude-account-ban-wave",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "11小时前",
-      "tags": [
-        "重磅",
-        "Anthropic",
-        "争议"
-      ],
-      "news_id": "14f356866e9c",
-      "internal_url": "https://aihot.bt199.com/news/14f356866e9c/",
-      "ai_summary": "Claude大规模封号风波持续，300万用户企业服务中断引发用户集体维权。",
-      "title_zh": "Claude封号潮失控！300 万用户企业一夜断供，无理由、无回应，受害者被迫抱团反抗"
-    },
-    {
-      "rank": 4,
-      "title": "💻 OpenSpec：AI 编程助手的「规范驱动开发」新范式",
-      "subtitle": "让 AI 编程助手按需求规范写代码，不靠猜不靠幻觉，41K star 的正确姿势",
-      "url": "https://github.com/Fission-AI/OpenSpec",
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "type": "project",
       "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "最佳实践"
-      ]
+      "score": 43.67212,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "编程",
+      "type_label": "💻 项目"
     },
     {
-      "rank": 5,
-      "title": "🤖 Anthropic 推出 Claude Design：一句话生成完整 UI 界面",
-      "subtitle": "自然语言直接生成 UI 设计稿，传统设计工具面临颠覆，设计师圈震动",
-      "url": "https://www.infoq.cn/article/claude-design-ui-generation",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "10小时前",
-      "tags": [
-        "新品",
-        "设计",
-        "Anthropic"
-      ],
-      "news_id": "d5c19f9f7a21",
-      "internal_url": "https://aihot.bt199.com/news/d5c19f9f7a21/",
-      "ai_summary": "Anthropic推出Claude Design，可通过自然语言指令直接生成UI设计，挑战传统设计工具。",
-      "title_zh": "Anthropic 发布 Claude Design，一句话生成 UI，设计圈变天了"
-    },
-    {
-      "rank": 6,
-      "title": "🕷️ Crawl4AI：64K star 的 LLM 友好型网页爬虫",
-      "subtitle": "开源网页爬取工具，专为大模型数据采集优化，支持结构化提取和批量抓取",
-      "url": "https://github.com/unclecode/crawl4ai",
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
       "type": "project",
       "source": "GitHub",
-      "time": "持续更新",
-      "tags": [
-        "数据",
-        "开源"
-      ]
+      "score": 43.39056,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "category": "编程",
+      "type_label": "💻 项目"
     },
     {
-      "rank": 7,
-      "title": "🚀 中国具身智能最大单轮融资出炉：前华为百度高管联手创业",
-      "subtitle": "打造可量产的真干活机器人，获具身智能赛道最大单轮融资，工程化落地提速",
-      "url": "https://www.infoq.cn/article/china-embodied-ai-largest-funding",
-      "type": "news",
-      "source": "InfoQ",
-      "time": "12小时前",
-      "tags": [
-        "融资",
-        "机器人",
-        "中国"
-      ]
+      "name": "DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 43.298,
+      "detail": "❤️ 13298",
+      "description": "text-generation",
+      "category": "模型",
+      "type_label": "🧠 模型"
     },
     {
-      "rank": 8,
-      "title": "🧩 mem0：53K star 的 AI Agent 通用记忆层",
-      "subtitle": "为所有 AI Agent 提供持久化记忆能力，支持上下文学习和个性化交互",
-      "url": "https://github.com/mem0ai/mem0",
-      "type": "project",
-      "source": "GitHub",
-      "time": "持续更新",
-      "tags": [
-        "Agent",
-        "记忆",
-        "基础设施"
-      ]
+      "name": "FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 42.685,
+      "detail": "❤️ 12685",
+      "description": "text-to-image",
+      "category": "模型",
+      "type_label": "🧠 模型"
     },
     {
-      "rank": 9,
-      "title": "🔒 MIT：构建 Agent 优先的治理与安全架构",
-      "subtitle": "随着 AI Agent 深入企业工作流，安全治理框架从「人工优先」转向「Agent优先」",
-      "url": "https://www.technologyreview.com/2026/04/21/building-agent-first-governance-and-security/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "time": "12小时前",
-      "tags": [
-        "安全",
-        "Agent",
-        "治理"
-      ],
-      "news_id": "729e3b49eaa0",
-      "internal_url": "https://aihot.bt199.com/news/729e3b49eaa0/",
-      "ai_summary": "MIT探讨AI Agent时代企业安全治理框架的新范式转变",
-      "title_zh": "构建 Agent 优先的治理与安全架构"
-    },
-    {
-      "rank": 10,
-      "title": "🕸️ graphify：把代码库变成 AI 可查询的知识图谱",
-      "subtitle": "将代码、文档、论文转为知识图谱，让 AI 编程助手真正理解你的项目上下文",
-      "url": "https://github.com/safishamsi/graphify",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "知识图谱"
-      ]
-    },
-    {
-      "rank": 11,
-      "title": "👁️ YouTube 扩展 AI 深度伪造检测至名人肖像保护",
-      "subtitle": "明星可主动发现并请求删除 AI 深度伪造视频，平台加强肖像权保护力度",
-      "url": "https://techcrunch.com/2026/04/21/youtube-expands-ai-likeness-detection-celebrities/",
-      "type": "news",
-      "source": "TechCrunch",
-      "time": "10小时前",
-      "tags": [
-        "监管",
-        "深度伪造"
-      ],
-      "news_id": "2d537bc7c412",
-      "internal_url": "https://aihot.bt199.com/news/2d537bc7c412/",
-      "ai_summary": "YouTube将AI深度伪造检测范围扩大到名人肖像保护领域",
-      "title_zh": "YouTube AI 肖像检测技术扩展至名人保护"
-    },
-    {
-      "rank": 12,
-      "title": "🎮 AI Dungeon 创始人推出 Voyage：AI 原生游戏创作平台",
-      "subtitle": "让玩家用自然语言创建和分享 AI 驱动的互动故事，游戏创作门槛降至零",
-      "url": "https://techcrunch.com/2026/04/21/ai-dungeon-maker-latitude-unveils-voyage/",
-      "type": "news",
-      "source": "TechCrunch",
-      "time": "8小时前",
-      "tags": [
-        "游戏",
-        "创意"
-      ],
-      "news_id": "92ce862f8036",
-      "internal_url": "https://aihot.bt199.com/news/92ce862f8036/",
-      "ai_summary": "Latitude发布Voyage平台，让用户用自然语言创建AI驱动的互动游戏",
-      "title_zh": "AI Dungeon 创始人推出 Voyage：AI 原生互动故事创作平台"
-    },
-    {
-      "rank": 13,
-      "title": "📖 context-engineering-intro：AI 编程助手的上下文工程指南",
-      "subtitle": "从 Vibe Coding 到 Context Engineering 的范式转变，让 Claude Code 真正理解你的需求",
-      "url": "https://github.com/coleam00/context-engineering-intro",
-      "type": "project",
-      "source": "GitHub",
-      "time": "近期",
-      "tags": [
-        "编程",
-        "最佳实践",
-        "Claude"
-      ]
-    },
-    {
-      "rank": 14,
-      "title": "🗳️ AI 与选举：美国民众对 AI 政治应用的信任危机",
-      "subtitle": "调查显示多数美国人担忧 AI 在选举中的角色，信任度持续走低",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/election-backlash",
-      "type": "news",
-      "source": "The Verge",
-      "time": "5小时前",
-      "tags": [
-        "社会",
-        "选举"
-      ],
-      "news_id": "314fefba7e73",
-      "internal_url": "https://aihot.bt199.com/news/314fefba7e73/",
-      "ai_summary": "调查显示多数美国人担忧AI在选举中的应用，信任危机加剧",
-      "title_zh": "AI 引发选举领域反弹：民众信任度持续走低"
-    },
-    {
-      "rank": 15,
-      "title": "🍎 Apple AI 负责人 John Ternus 面临首个重大挑战",
-      "subtitle": "上任不到一年就面临 AI 落后压力，Apple 内部 AI 战略或将迎来重大调整",
-      "url": "https://www.theverge.com/2026/04/21/john-ternus-apple-ai-challenge",
-      "type": "news",
-      "source": "The Verge",
-      "time": "11小时前",
-      "tags": [
-        "Apple",
-        "战略"
-      ],
-      "news_id": "7faac906f243",
-      "internal_url": "https://aihot.bt199.com/news/7faac906f243/",
-      "ai_summary": "不到一年前，苹果公司因在其年度 WWDC 活动上缺乏人工智能公告而成为头条新闻。十个月后，该公司宣布硬件高管约翰·特纳斯…",
-      "title_zh": "John Ternus 的第一个大问题是人工智能"
+      "name": "GPT-2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 42.0,
+      "detail": "❤️ 12000",
+      "description": "text-generation",
+      "category": "模型",
+      "type_label": "🧠 模型"
     }
   ],
   "type_stats": {
-    "news": 9,
-    "project": 6
-  }
+    "tool": 4,
+    "project": 3,
+    "news": 8,
+    "model": 3
+  },
+  "items": [
+    {
+      "name": "DeepSeek V4发布，海光DCU完成Day0适配",
+      "url": "https://36kr.com/newsflashes/3780507701072904?f=rss",
+      "type": "news",
+      "source": "36氪",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSee",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "579d9b84cc77",
+      "internal_url": "https://aihot.bt199.com/news/579d9b84cc77/",
+      "ai_summary": "36氪获悉，4月24日，深度求索发布并开源DeepSeek V4。海光DCU同步完成对DeepSeek V4的Day0适配，以“模型发布—芯片适配—产业落地”的高效闭环，为全球开发者、企业客户提供即取即用的部署方案。",
+      "title_zh": "DeepSeek V4发布，海光DCU完成Day0适配"
+    },
+    {
+      "name": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片",
+      "url": "https://www.qbitai.com/2026/04/406359.html",
+      "type": "news",
+      "source": "量子位",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "cc004cbe2188",
+      "internal_url": "https://aihot.bt199.com/news/cc004cbe2188/",
+      "ai_summary": "在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。",
+      "title_zh": "DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片"
+    },
+    {
+      "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+      "type": "news",
+      "source": "Hacker News AI",
+      "score": 26,
+      "detail": "2026-04-24",
+      "description": "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 评论网址…",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "dcc82d6d0a9e",
+      "internal_url": "https://aihot.bt199.com/news/dcc82d6d0a9e/",
+      "ai_summary": "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 评论网址…",
+      "title_zh": "DeepSeek-V4：迈向高效的百万代币上下文智能"
+    },
+    {
+      "name": "GPT-5.5",
+      "url": "https://openai.com/index/introducing-gpt-5-5/",
+      "type": "news",
+      "source": "Hacker News AI",
+      "score": 26,
+      "detail": "2026-04-23",
+      "description": "文章网址：https://openai.com/index/introducing-gpt-5-5/ 评论网址：http…",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "67eef0dd333b",
+      "internal_url": "https://aihot.bt199.com/news/67eef0dd333b/",
+      "ai_summary": "文章网址：https://openai.com/index/introducing-gpt-5-5/ 评论网址：http…",
+      "title_zh": "GPT-5.5"
+    },
+    {
+      "name": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！",
+      "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
+      "type": "news",
+      "source": "InfoQ AI",
+      "score": 25,
+      "detail": "2026-04-24",
+      "description": "点击查看原文>",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "45e1d92c87d9",
+      "internal_url": "https://aihot.bt199.com/news/45e1d92c87d9/",
+      "ai_summary": "点击查看原文>",
+      "title_zh": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！"
+    },
+    {
+      "name": "Deepseek v4 people",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1su7bnx/deepseek_v4_people/",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "reddit-1su7bnx",
+      "internal_url": "https://aihot.bt199.com/news/reddit-1su7bnx/",
+      "ai_summary": "",
+      "title_zh": "Deepseek v4 people"
+    },
+    {
+      "name": "No Multimodality yet in DeepSeek-V4. But I'll wait.",
+      "url": "https://reddit.com/r/LocalLLaMA/comments/1su5l9i/no_multimodality_yet_in_deepseekv4_but_ill_wait/",
+      "type": "news",
+      "source": "r/LocalLLaMA",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "I hope they include it in their next v4 release. S",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "reddit-1su5l9i",
+      "internal_url": "https://aihot.bt199.com/news/reddit-1su5l9i/",
+      "ai_summary": "I hope they include it in their next v4 release. Source: [DeepSeek\\_V4\\_Technical\\_Report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)",
+      "title_zh": "No Multimodality yet in DeepSeek-V4. But I'll wait."
+    },
+    {
+      "name": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般",
+      "url": "https://www.v2ex.com/t/1208250",
+      "type": "news",
+      "source": "V2EX",
+      "score": 21,
+      "detail": "2026-04-24",
+      "description": "简单试了下天气卡片，中文英文都试了，太简陋了： ![图片.png]( https://s3.bmp.",
+      "category": "资讯",
+      "type_label": "📰 新闻",
+      "news_id": "v2ex-1208250",
+      "internal_url": "https://aihot.bt199.com/news/v2ex-1208250/",
+      "ai_summary": "简单试了下天气卡片，中文英文都试了，太简陋了： ![图片.png]( https://s3.bmp.ovh/2026/04/24/useViXUw.png) 中文： ``` 创建一个包含 CSS 和 JavaScript 的单一 HTML 文件，用于生成动画天气卡片。卡片应该通过不同的动画直观地表示以下天气状况： 风：（例如，移动的云朵、摇摆的树木或风线） 雨：（例如，下落的雨滴、形成的水坑） 阳光：（例如，闪耀的光线、明亮的背景） 雪：（例如，下落的雪花、积累的雪） 所有天气卡片应并排显示，卡片应该有深色背景。 在这个单一文件中提供所有 HTML 、CSS 和 JavaScript 代码。J",
+      "title_zh": "只能说 DeepSeek V4 Pro 继续努力吧，天气卡片效果一般"
+    },
+    {
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + Pro $20/月",
+      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
+      "category": "编程",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "flux",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "开源 + 商业 API",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "category": "绘画",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "可灵",
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + 会员",
+      "description": "快手出品的 AI 视频生成工具，国产最强",
+      "category": "视频",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
+      "type": "tool",
+      "source": "热门工具",
+      "score": 50,
+      "detail": "免费 + API 按量",
+      "description": "深度求索出品，国产最强开源大模型对话工具",
+      "category": "对话",
+      "type_label": "🛠️ 工具"
+    },
+    {
+      "name": "tensorflow",
+      "url": "https://github.com/tensorflow/tensorflow",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.89572,
+      "detail": "⭐ 194786",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.67212,
+      "detail": "⭐ 183606",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "ollama",
+      "url": "https://github.com/ollama/ollama",
+      "type": "project",
+      "source": "GitHub",
+      "score": 43.39056,
+      "detail": "⭐ 169528",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "category": "编程",
+      "type_label": "💻 项目"
+    },
+    {
+      "name": "DeepSeek-R1",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-R1",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 43.298,
+      "detail": "❤️ 13298",
+      "description": "text-generation",
+      "category": "模型",
+      "type_label": "🧠 模型"
+    },
+    {
+      "name": "FLUX.1-dev",
+      "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 42.685,
+      "detail": "❤️ 12685",
+      "description": "text-to-image",
+      "category": "模型",
+      "type_label": "🧠 模型"
+    },
+    {
+      "name": "GPT-2",
+      "url": "https://huggingface.co/openai-community/gpt2",
+      "type": "model",
+      "source": "HuggingFace",
+      "score": 42.0,
+      "detail": "❤️ 12000",
+      "description": "text-generation",
+      "category": "模型",
+      "type_label": "🧠 模型"
+    }
+  ]
 }

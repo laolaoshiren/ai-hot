@@ -20,7 +20,7 @@ ai_summary = "人工智能行业的诽谤仍在继续"
 summary = "The AI industry's mudslinging continues."
 summary_zh = "人工智能行业的诽谤仍在继续"
 tags = []
-list_page = 11
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->
