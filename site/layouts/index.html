@@ -280,12 +280,12 @@
         <div class="card-title">🔑 热搜关键词</div>
         {{ $seo := site.Data.seo }}
         {{ if $seo }}
-            <div class="homepage-hot-keywords" style="display:flex;flex-wrap:wrap;gap:3px">
-                {{ range $seo.hot_keywords }}
-                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag homepage-hot-keyword homepage-hot-keyword-accent">{{ . }}</a>
+            <div style="display:flex;flex-wrap:wrap;gap:6px">
+                {{ range first 5 $seo.hot_keywords }}
+                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag" style="background:rgba(255,107,53,0.15);color:var(--accent)">{{ . }}</a>
                 {{ end }}
-                {{ range first 8 $seo.homepage_keywords }}
-                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag homepage-hot-keyword">{{ . }}</a>
+                {{ range first 4 $seo.homepage_keywords }}
+                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag">{{ . }}</a>
                 {{ end }}
             </div>
             <div style="font-size:12px;color:var(--text3);margin-top:10px">点击关键词可直达站内搜索结果</div>
