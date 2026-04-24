@@ -20,7 +20,7 @@ ai_summary = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问
 summary = "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you."
 summary_zh = "新创公司 Noscroll 做的不是又一个聊天机器人，而是一个替你刷社交平台和新闻站的 AI 代理。用户把 X 账号、关注偏好和不感兴趣的话题交给它后，它负责监测社交媒体、新闻、Reddit、Hacker News、博客甚至论文，再把真正重要的变化用短信或摘要推给你。产品切中的，是“离不开信息流，又受不了信息流”的典型矛盾。"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

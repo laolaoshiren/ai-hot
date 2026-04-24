@@ -15,7 +15,7 @@ original_url = "https://reddit.com/r/artificial/comments/1st4y15/a_federal_judge
 source = "r/artificial"
 published = "2026-04-23T01:44:20"
 lang = "en"
-intro = "A federal judge ruled AI chats have no attorney-client privilege. A CEO's deleted ChatGPT conversations were recovered and used against him in court. On the same day, a different judge ruled the opposite.。这条新闻来自 r/artificial，站内页优先帮你快速抓住核心变化与影响。"
+intro = "A federal judge ruled AI chats have no attorney-client privilege. A CEO's deleted ChatGPT conversations were recovered and used against him in court. On the same day, a different judge ruled the opposite.。来源：r/artificial。"
 ai_summary = ""
 summary = "A federal judge ruled that your AI conversations can be seized and used against you in court — and deleting them doesn't help. \\*\\*The Heppner case (February 2026):\\*\\* \\- Former CEO Bradley Heppner used Claude to prep his fraud defense \\- Judge Jed Rakoff ordered him to surrender 31 AI-generated do"
 summary_zh = ""
@@ -31,7 +31,7 @@ A CEO's deleted ChatGPT conversations were recovered and used against him in cou
 
 On the same day, a different judge ruled the opposite.。
 
-这条新闻来自 r/artificial，站内页优先帮你快速抓住核心变化与影响。
+来源：r/artificial。
 
 ## 🔗 原始来源
 

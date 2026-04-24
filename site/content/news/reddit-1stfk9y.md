@@ -1,8 +1,8 @@
 +++
 title = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]"
-description = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。这条新闻来自 r/Machi"
+description = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。来源：r/MachineLe"
 seo_title = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]｜AI资讯解读 - AI热榜"
-seo_description = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。这条新闻来自 r/Machi"
+seo_description = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。来源：r/MachineLe"
 seo_keywords = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P], r/MachineLearning, AI新闻, AI资讯, AI热榜"
 slug = "reddit-1stfk9y"
 type = "news"
@@ -15,7 +15,7 @@ original_url = "https://reddit.com/r/MachineLearning/comments/1stfk9y/optimizing
 source = "r/MachineLearning"
 published = "2026-04-23T11:06:17"
 lang = "en"
-intro = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+intro = "Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。来源：r/MachineLearning。"
 ai_summary = ""
 summary = "Hi everyone, I’ve been working on optimizing a transformer-based neural network for both inference speed and model size, but I feel like I’ve hit a plateau and would appreciate some guidance. So far I’ve converted weights to FP16 (about 2× size reduction), exported and optimized with ONNX Runtime fo"
 summary_zh = ""
@@ -27,7 +27,7 @@ list_page = 8
 
 Optimizing Transformer model size & inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。
 
-这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。
+来源：r/MachineLearning。
 
 ## 🔗 原始来源
 

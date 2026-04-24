@@ -1,26 +1,26 @@
 +++
-title = "下载：介绍自然问题"
-description = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…"
-seo_title = "下载：介绍自然问题｜AI资讯解读 - AI热榜"
-seo_description = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…"
-seo_keywords = "下载：介绍自然问题, MIT Tech Review, AI新闻, AI资讯, AI热榜"
+title = "The Download: introducing the Nature issue"
+description = "MIT Technology Review 这期 The Download 聚焦“自然”议题，讨论技术如何改变自然，也是否可能帮助修复它。"
+seo_title = "The Download: introducing the Nature issue｜AI资讯解读 - AI热榜"
+seo_description = "MIT Technology Review 这期 The Download 聚焦“自然”议题，讨论技术如何改变自然，也是否可能帮助修复它。"
+seo_keywords = "The Download: introducing the Nature issue, MIT Tech Review, AI新闻, AI资讯, AI热榜"
 slug = "f10c6db6f9ea"
 type = "news"
 
 [params]
 id = "f10c6db6f9ea"
-name = "下载：介绍自然问题"
+name = "The Download: introducing the Nature issue"
 title_en = "The Download: introducing the Nature issue"
 original_url = "https://www.technologyreview.com/2026/04/23/1136346/the-download-introducing-nature-issue/"
 source = "MIT Tech Review"
 published = "2026-04-23T12:10:00"
 lang = "en"
-intro = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…"
-ai_summary = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…"
+intro = "MIT Technology Review 这期 The Download 聚焦“自然”议题，讨论技术如何改变自然，也是否可能帮助修复它。"
+ai_summary = "MIT Technology Review 这期 The Download 聚焦“自然”议题，讨论技术如何改变自然，也是否可能帮助修复它。"
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Introducing: the Nature issue When we talk about “nature,” we usually mean something untouched by humans. But little of that world exists today.&#160;"
-summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时，我们通常指的是人类未曾触及的事物。但如今这个世界已所剩无几"
+summary_zh = "MIT Technology Review 这期 The Download 聚焦“自然”议题：在人类活动已渗透地球每个角落的今天，我们该如何重新理解自然，以及技术是否能帮助修复它。"
 tags = []
-list_page = 7
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

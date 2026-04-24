@@ -1,8 +1,8 @@
 +++
 title = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]"
-description = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。这条新闻来自 r/MachineLearning，站内页优先帮你"
+description = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。来源：r/MachineLearning。"
 seo_title = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]｜AI资讯解读 - AI热榜"
-seo_description = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。这条新闻来自 r/MachineLearning，站内页优先帮你"
+seo_description = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。来源：r/MachineLearning。"
 seo_keywords = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D], r/MachineLearning, AI新闻, AI资讯, AI热榜"
 slug = "reddit-1ssk7rk"
 type = "news"
@@ -15,7 +15,7 @@ original_url = "https://reddit.com/r/MachineLearning/comments/1ssk7rk/i_cant_bel
 source = "r/MachineLearning"
 published = "2026-04-22T12:35:44"
 lang = "en"
-intro = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+intro = "I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。来源：r/MachineLearning。"
 ai_summary = ""
 summary = "Kinda suprises me how little discussion there is around about mistakes in streaming TTS models People look for natural readers, high voice quality, expressive speech. And most models don't look dumb here and fail. They fail when you give them basic stuff like price, dates, URLs, promo codes, phone n"
 summary_zh = ""
@@ -27,7 +27,7 @@ list_page = 13
 
 I can't believe text normalization is so underdiscussed in streaming text-to-speech [D]。
 
-这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。
+来源：r/MachineLearning。
 
 ## 🔗 原始来源
 

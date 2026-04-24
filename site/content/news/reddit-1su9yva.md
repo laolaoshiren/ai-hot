@@ -20,7 +20,7 @@ ai_summary = "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 56
 summary = "I have ThinkPad T14 Gen 5 (8840U, **Radeon 780M**, 64GB DDR5 5600 MT/s ). Tried out the recent Qwen MoE release, and pp/tg speed is good (on vulkan) (250+pp, 20 tg): ~/dev/llama.cpp master* ❯ ./build-vulkan/bin/llama-bench \\ -hf AesSedai/Qwen3.6-35B-A3B-GGUF:Q6_K \\ -fa 1 \\ -ub 1024 \\ -b 1024 \\ -p 10"
 summary_zh = "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 MT/s）。尝试了最近的 Qwen MoE 版本，pp/tg 速度很好（在 vulkan 上）（250+pp，20 tg）…"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

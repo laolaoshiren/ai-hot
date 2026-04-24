@@ -1,5 +1,71 @@
 [
   {
+    "id": "03d71421f6c9",
+    "title": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+    "url": "https://www.infoq.cn/article/ua0m0lj6zOcEI6GGge72?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-24T17:29:54",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-24T09:40:47.726737",
+    "content_text": "今日，DeepSeek-V4-Pro 1.6T 旗舰模型(1.86 万亿参数）及 DeepSeek-V4-Flash 284B 高效模型（2840 亿）正式发布。由智源研究院牵头研发的众智 FlagOS 第一时间对两个“巨无霸”模型进行全量适配，已经完成 DeepSeek-V4-Flash 在\n8 款\n以上 AI 芯片上的全量适配与推理部署，包括\n海光、沐曦、华为昇腾、摩尔线程（FP8）、昆仑芯、平头哥真武、天数、英伟达（FP8）等芯片\n。FlagOS 同时正在推进 DeepSeek-V4-Pro 模型在多个芯片的迁移适配，后续即将开源。\n首先完成在八款芯片适配的 DeepSeek-V4-Flash 采用混合专家（MoE）架构，总参数量 284B，激活参数仅 13B，支持 100 万 token 上下文长度。该模型在架构上引入了混合注意力机制（结合压缩稀疏注意力 CSA 与高度压缩注意力 HCA，大幅提升长上下文效率）、流形约束超连接（mHC，增强跨层 信号传播稳定性）以及 Muon 优化器（加速收敛、提升训练稳定性）。预训练数据超过 32Ttoken，后训练采用两阶段范式——先通过 SFT 和 GRPO 强化学习独立培养领域专家，再通过在线策略蒸馏将多领域能力统一整合到单一模型中。在最大推理力度模式（Flash-Max）下，给予更大思考预算使其推理能力可接近 Pro 版本水平；受限于参数规模，在纯知识类任务和最复杂的 Agent 工作流上略逊于 Pro。\n围绕 DeepSeek-V4-Flash 多芯适配，此次 FlagOS 系统软件技术栈突破了三大关键技术：\nFlagGems 全算子替代（实现多芯片统一适配）\n、\n为 o-group 采用独立张量并行策略解锁更多低显存场景\n、以及“\nFP4+FP8 混合精度”的原生权重到 FP8/BF16 的精度路径转换\n。当下国内出货的 AI 芯片，都没有 FP4 的支持。英伟达也只有在 Blackwell 及之后的高端芯片才支持 FP4。这三项关键技术，使得 DeepSeekV4 能够在当前各种厂商的主流 AI 芯片上稳定运行，而非仅限于支持 FP4 和大显存的少数高端 AI 加速卡。\n三大技术突破：为什么对支持多种 AI 芯片十分重要\n突破一：FlagGems 提供支持 8 种以上芯片的全算子替代——真正意义上的跨芯方案\n本次 DeepSeek-V4-Flash 的适配，FlagGems 实现了模型推理链路中全部算子的替代。这意味着：\n彻底脱离 CUDA 算子依赖：\nDeepSeek-V4-Flash 的 MoE 专家调度、Attention 计算、RMSNorm、TopK 路由等全部核心计算模块，均由 FlagGems 基于 Triton/Triton-TLE 语言重新实现，不调用任何 cuDNN/cuBLAS 等 NVIDIA 私有库。\n无需芯片厂商逐一适配：\n传统模式下，每款新模型上线，芯片厂商需要投入工程团队做算子适配。现在通过 FlagGems+FlagTree 编译器的组合，新模型的算子可以直接编译到多款芯片后端，\n芯片厂商不需要做任何额外工作。\n新算子即时可用：\nDeepSeek-V4-Flash 引入的新计算模式（如 o-group 相关的分组路由机制），FlagGems 已经实现了对应的新算子，并通过 FlagTree 编译器统一编译到所有支持的芯片后端。\nFlagGems 作为全球最大的 Triton 单一算子库，已拥有超过 400 个大模型常用算子，并已正式进入 PyTorch 基金会生态合作项目。在 40 个主流模型上，推理任务算子覆盖度达到 90%~100%，完整支持 DeepSeek-V4-Flash 的全部计算需求。\n突破二：为 o-group 采用独立并行策略——解除张量并行最多单机 8 卡限制\nDeepSeek-V4-Flash 为了进一步降低计算开销采用了分组输出投影技术（Grouped Output Projection），配置为 o-group=8，这导致在传统的张量并行时候，最多切 8 份。而当前一些主流国产芯片的单卡显存为 32GB 或 64GB，尤其在 BF16 格式情况下，需要张量并行大于 8 份才能放的下。\n为了解除这个限制，FlagOS 专门针对 o-groups 进行了单独张量并行策略设计和实现，确保 o-groups 切分不超过 8 份的前提下，能够让模型其他部分还采用经典的张量并行策略，并且实现超过 8 份的切分。通过不同的张量并行策略组合，能够实现多于 8 台设备的张量并行运行。\nFlagOS 团队对 o-group 张量并行改动包括：\n独立的并行策略：\n独立于已有的张量并行通信组之外，为 o-group 单独构建所需要的张量并行通信组，确保其他模型结构张量并行切分超过 8 的情况下，o-group 的张量并行在 8 以内。\n参数转换调整：\n对 o-group 相关的参数，也进行了对应单独的张量并行切分处理，以确保在新的独立张量并行策略下，也能够被正确加载。\n覆盖面扩展：\n这一优化能够将 DeepSeek-V4-Flash 在单独采用张量并行策略下，将可运行芯片范围从\n\"仅限单机 80GB 以上显存的个别高端卡\"\n扩展到\"\n多机 64GB/32GB 的更多主流国产芯片\"\n，包括海光、沐曦、天数智芯等厂商的主力产品线。\n突破三：从“FP4+FP8 混合精度” 到 BF16 的精度转换——打通主流芯片的计算路径\nDeepSeek-V4-Flash 模型发布时首次采用 FP4+FP8 混合精度，该精度只有在 Blackwell 及之后的英伟达最新硬件上才有支持，但当前所有国内非英伟达 AI 芯片都未能支持，只有摩尔线程原生支持了 FP8，其余依然以 BF16 为主。\nFlagOS 完成了从 FP4 到 BF16 的完整精度转换：\n权重反量化：\n将 FP4 量化权重转换为 BF16 格式。这不是简单的类型转换，而是需要根据 DeepSeek 的量化方案进行逆量化计算，确保数值精度。\n计算路径重建：\nFP4 和 BF16 在底层计算上有本质差异——FP4 的动态范围更窄，累加精度、溢出处理策略均不同。FlagOS 对推理链路中的 GEMM、Attention、MoE 路由等关键计算节点逐一适配了 BF16 路径。\n精度对齐验证：\n经过标准评测集验证，BF16 版本与 FP4 原生版本在核心能力指标上保持对齐，确保精度转换不引入业务层面的效果损失。\n本次，FlagOS 推出了 FP8 和 BF16 两种适配版本，让 DeepSeek-V4-Flash 不再是“只有最新 NVIDIA 卡才能跑”的模型，而是真正可以部署在 FP8 及 BF16 生态的主流国产芯片上。\nFlagGems 开源高性能新算子全面支持 DeepSeek-V4-Flash\n本次新发布的 DeepSeek-V4-Flash 共有大约 67 个算子，FlagGems 已全量支持。新支持了 Act Quant、hc_split_sinkhorn、FP8 MatMul、Sparse Attention、Hadamard Transform 等 5 个新算子，实现了对 DeepSeek-V4-Flash 的全面支持，也为跨芯适配打下重要基础。\nFlagGems 支持 DeepSeek-V4-Flash 新算子的性能对比\n为了支持更多 AI 芯片的使用，FlagOS 对 DeepSeek-V4-Flash 中使用的新算子使用 Triton 语言进行重新实现，基于 FlagTree 统一编译器，性能全部超过原生性能。\nC++ Wrapper 技术是 FlagOS 技术社区专门为提升基于 Triton 语言的算子内核调用效率而打造的技术。目前已经支持了该技术的芯片包括华为昇腾、寒武纪、摩尔线程、平头哥真武、及英伟达等。使用了 C++ Wrapper 技术，在普通的 Transformers 框架下，可以显著提升使用了 Triton 算子的模型的端到端效率，实现跨芯普适、和高效推理的双重目标。通过端到端效果评测（NV H20，DeepSeek-V4-Flash FP8），C++ Wrapper + Triton 比 TileLang 快 11%，比 Python Wrapper 版快 39%。\n开发者体验优化：“发布即多芯” + “极简部署”\n1. 核心能力与原生版本对齐\n经 GPQA_Diamond、AIME 等权威评测集验证，FlagOS 适配后的 DeepSeek-V4-Flash，在语言理解、复杂推理、代码生成、数学计算等核心能力上，与 CUDA 原生版本对齐，可放心应用于金融、教育、政企服务、代码开发等场景，无需担心适配导致业务效果折损。\n评测数据：\n注：本测试结果仅用于对迁移前（Nvidia-Origin）和迁移后（-FlagOS）版本的互相对齐验证，并不代表 DeepSeek 模型的官方性能，DeepSeek 模型的官方性能以 DeepSeek 官方公布数据为准。\n2. 极简部署：开箱即用，底层优化无感知\nFlagOS 将核心算子库、编译器等技术组件前置内置到 DeepSeek-V4-Flash 代码框架中，开发者加载模型时，底层优化代码自动生效，无需手动添加任何 FlagOS 初始化代码。同时，基于 FlagRelease 直接提供了多芯片版本的 DeepSeek-V4-Flash-FlagOS 模型版本，标准化 Docker 镜像 + 一键加速命令，解决了开发者最头疼的环境配置、效果对齐、性能优化等问题。",
+    "content_source": "readability",
+    "content_chars": 4009,
+    "content_excerpt": "今日，DeepSeek-V4-Pro 1.6T 旗舰模型(1.86 万亿参数）及 DeepSeek-V4-Flash 284B 高效模型（2840 亿）正式发布。由智源研究院牵头研发的众智 FlagOS 第一时间对两个“巨无霸”模型进行全量适配，已经完成 DeepSeek-V4-Flash 在\n8 款\n以上 AI 芯片上的全量适配与推理部署，包括\n海光、沐曦、华为昇腾、摩尔线程（FP8）、昆仑芯、平头哥真武、天数、英伟达（FP8）等芯片\n。FlagOS 同时正在推进 DeepSeek-V4-Pro 模型在多个芯片的迁移适配，后续即将开源。\n首先完成在八款芯片适配的 DeepSeek-V4-Flash 采用混合专家（MoE）架构，总参数量 284B，激活参数仅 13B，支持 100 万 token 上下文长度。该模型在架构上引入了混合注意力机制（结合压缩稀疏注意力 CSA 与高度压缩注意力 HCA，大幅提升长上下文效率）、流形约束超连接（mHC，增强跨层 信号传播稳定性）以及 Muon 优化器（加速收敛、提升训练稳定性）。预训练数据超过 32Ttoken，后训练采用两阶段范式——先通过 SFT 和 GRPO 强化学习独立培养领域专家，再通过在线策略蒸馏将多领域能力统一整合到单一模型中。在最大推理力度模式（Flash-Max）下，给予更大思考预算使其推理能力可接近 Pro 版本水平；受限于参数规模，在纯知识类任务和最复杂的 Agent 工作流上略逊于 Pro。\n围绕 DeepSeek-V4-Flash 多芯适配，此次 FlagOS 系统软件技术栈突破了三大关键技术：\nFlagGems 全算子替代（实现多芯片统一适配）\n、\n为 o-group 采用独立张量并行策略解锁更多低显存场景"
+  },
+  {
+    "id": "1e009397c380",
+    "title": "China’s DeepSeek previews new AI model a year after jolting US rivals",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/918035/deepseek-preview-v4-ai-model",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-24T09:45:30",
+    "summary": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and OpenAI. DeepSeek says V4 marks a major improvement over prio",
+    "collected_at": "2026-04-24T09:45:35.403085",
+    "content_text": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and OpenAI.\nChina’s DeepSeek previews new AI model a year after jolting US rivals\nDeepSeek says the V4 model can compete toe-to-toe with leading American systems from Google, OpenAI, and Anthropic.\nDeepSeek says the V4 model can compete toe-to-toe with leading American systems from Google, OpenAI, and Anthropic.\nDeepSeek says V4 marks a major improvement over prior models, especially in coding, a capability that has become central to AI agents and helped drive the success of tools like ChatGPT Codex and Claude Code. The release is also a milestone for China’s chip industry, with DeepSeek explicitly highlighting compatibility with domestic Huawei technology.\nThe release comes a year after DeepSeek rattled the US AI industry with R1, a model it claimed was trained at a fraction of the cost of leading US systems. DeepSeek has not disclosed V4’s training costs or what hardware it was trained on. US officials have accused the company of using banned Nvidia chips and Anthropic claims DeepSeek misused Claude to improve its own products.",
+    "content_source": "trafilatura",
+    "content_chars": 1281,
+    "content_excerpt": "Chinese AI company DeepSeek released a preview of its hotly anticipated next-generation AI model V4 on Friday, saying that the open-source model can compete with leading closed-source systems from US rivals including Anthropic, Google, and OpenAI.\nChina’s DeepSeek previews new AI model a year after jolting US rivals\nDeepSeek says the V4 model can compete toe-to-toe with leading American systems from Google, OpenAI, and Anthropic.\nDeepSeek says the V4 model can compete toe-to-toe with leading American systems from Google, OpenAI, and Anthropic.\nDeepSeek says V4 marks a major improvement over prior models, especially in coding, a capability that has become central to AI agents and helped drive the success of tools like ChatGPT Codex and Claude Code. The release is also a milestone for China’s chip industry, with DeepSeek explicitly highlighting compatibility with domestic Huawei technology.\nThe release comes a year after DeepSeek rattled the US AI industry with R1, a model it claimed was trained at a fraction of the cost of leading US systems. DeepSeek has not disclosed V4’s training costs or what hardware it was trained on. US officials have accused the company of using banned Nvidia chips and Anthropic claims DeepSeek misused Claude to improve its own products.",
+    "title_zh": "中国的 DeepSeek 在震撼美国竞争对手一年后预览了新的人工智能模型",
+    "summary_zh": "中国人工智能公司 DeepSeek 周五发布了备受期待的下一代人工智能模型 V4 的预览，称该开源模型可以与 Anthropic、Google 和 OpenAI 等美国竞争对手的领先闭源系统竞争。 DeepSeek 表示 V4 标志着比 p…",
+    "ai_summary": "中国人工智能公司 DeepSeek 周五发布了备受期待的下一代人工智能模型 V4 的预览，称该开源模型可以与 Anthr…"
+  },
+  {
+    "id": "389589454569",
+    "title": "DeepSeek V4 重磅开源！首次打通华为Ascend，也没丢掉英伟达，百万上下文夺回国产模型话语权",
+    "url": "https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-24T17:23:41",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-24T09:40:47.726758",
+    "content_text": "刚刚，DeepSeek 在官方公众号发文宣布，全新系列模型 DeepSeek-V4 的预览版本正式上线，并同步开源！\nDeepSeek-V4 拥有百万字超长上下文，在 Agent 能力、世界知识和推理性能三大维度上均实现了国内与开源领域的领先。\n秉承 DeepSeek 一贯的开放精神，本次发布的模型按大小分为两个版本，欢迎开发者、研究者和企业用户前往体验和下载。\n模型按大小分为两个版本：\nDeepSeek-V4 模型开源链接：\nDeepSeek-V4 技术报告：\nPro 版本面向的是高性能，Flash 版本则主攻性价比。\nAPI 服务已同步更新，通过修改 model_name 为 deepseek-v4-pro 或 deepseek-v4-flash 即可调用。\n从技术报告来看，有一点特别值得注意，DeepSeek V4 并不是只在 NVIDIA 体系内做优化，而是明确将细粒度专家并行（EP）方案同时在 NVIDIA GPU 和华为 Ascend NPU 上完成验证，这说明其推理路径已经具备跨算力平台的适配能力。但在开源层面，当前释放的仍主要是基于 CUDA 的 MegaMoE 和 DeepGEMM，底层实现深度绑定 NVIDIA 工具链。\n另外，官方 API 页面还提到，受限于高端算力，目前 V4-Pro 的服务吞吐仍有限，预计下半年昇腾 950 超节点批量上市后，Pro 价格会大幅下调。这意味着，DeepSeek 一边在现有 CUDA 生态内持续做极致优化，一边也在为华为 Ascend 等多算力环境预留空间，开始尝试把模型运行时从单一硬件依赖中解耦出来。\nDeepSeek-V4-Pro：性能比肩顶级闭源模型\nAgent 能力大幅提高：相比前代模型，DeepSeek-V4-Pro 的 Agent 能力显著增强。在 Agentic Coding 评测中，V4-Pro 已达到当前开源模型最佳水平，并在其他 Agent 相关评测中同样表现优异。目前 DeepSeek-V4 已成为公司内部员工使用的 Agentic Coding 模型，据评测反馈使用体验优于 Sonnet 4.5，交付质量接近 Opus 4.6 非思考模式，但仍与 Opus 4.6 思考模式存在一定差距。\n丰富的世界知识：DeepSeek-V4-Pro 在世界知识测评中，大幅领先其他开源模型，仅稍逊于顶尖闭源模型 Gemini-Pro-3.1。\n世界顶级推理性能：在数学、STEM、竞赛型代码的测评中，DeepSeek-V4-Pro 超越当前所有已公开评测的开源模型，取得了比肩世界顶级闭源模型的优异成绩。\nDeepSeek-V4-Flash：主攻性价比\n相比 DeepSeek-V4-Pro，DeepSeek-V4-Flash 在世界知识储备方面稍逊一筹，但展现出了接近的推理能力。而由于模型参数和激活更小，相较之下 V4-Flash 能够提供更加快捷、经济的 API 服务。\n在 Agent 测评中，DeepSeek-V4-Flash 在简单任务上与 DeepSeek-V4-Pro 旗鼓相当，但在高难度任务上仍有差距。\n百万上下文已成标配\n官方公众号文章中介绍，DeepSeek-V4 开创了一种全新的注意力机制，在 token 维度进行压缩，结合 DSA 稀疏注意力（DeepSeek Sparse Attention），实现了全球领先的长上下文能力，并且相比于传统方法大幅降低了对计算和显存的需求。\n从现在开始，1M（一百万）上下文将是 DeepSeek 所有官方服务的标配。\nDeepSeek-V4 和 DeepSeek-V3.2 的计算量和显存容量随上下文长度的变化\n值得注意的是，DeepSeek-V4 还针对 Claude Code 、OpenClaw、OpenCode、CodeBuddy 等主流的 Agent 产品进行了适配和优化，在代码任务、文档生成任务等方面表现均有提升。下图为 V4-Pro 在某 Agent 框架下生成的 PPT 内页示例：\n目前，DeepSeek API 已同步上线 V4-Pro 与 V4-Flash，支持 OpenAI ChatCompletions 接口与 Anthropic 接口。访问新模型时，base_url 不变, model 参数需要改为 deepseek-v4-pro 或 deepseek-v4-flash。\nV4-Pro 和 V4-Flash 均提供 1M 上下文长度，并同时支持非思考模式与思考模式。后者可通过 reasoning_effort 参数调节思考强度（可选 high 或 max）。对于复杂的 Agent 类任务，建议启用思考模式并将强度设为 max。具体调用方式及参数设置请查阅 API 文档。\n需注意：旧接口中的 deepseek-chat 和 deepseek-reasoner 两个模型名将于 2026 年 7 月 24 日 停止使用。过渡期内，它们分别指向 deepseek-v4-flash 的非思考模式与思考模式。\n拆解关键技术创新\n混合注意力机制\nCSA 与 HCA 是关键创新是 V4 系列最关键的创新之一。传统注意力机制处理长序列时，每个 token 都需要与所有历史 token 计算注意力，导致计算量随序列长度平方增长。V4 设计了两种互补的压缩注意力架构：\n压缩稀疏注意力（CSA）：首先将每 m 个 token 的 KV 缓存压缩为 1 个条目（m=4），然后使用 DeepSeek 稀疏注意力，每个查询 token 仅需关注 k 个压缩后的 KV 条目（k=512~1024），引入 Lightning Indexer（轻量索引器）高效选出重要的压缩块，整体将序列长度压缩至 1/m。\n高度压缩注意力（HCA）：采用更激进的压缩率（m'=128），将每 128 个 token 压缩为 1 个，保持稠密注意力（不稀疏），适用于信息密度较低的场景，CSA 与 HCA 以交错方式堆叠，兼顾效率与表达力。\n工程亮点：支持 RoPE 部分位置编码（仅最后 64 维），维持相对位置信息；引入滑动窗口注意力分支捕获局部依赖；采用 Attention Sink 技术让注意力得分总和可以不为 1。\n此外，Engram 和 mHC 两个版块上的创新也同样很关键。\nEngram 记忆模块\n首先是 Engram (条件记忆模块)：这是 DeepSeek 创始人梁文锋署名论文中的核心概念。它试图解决传统 Transformer 架构将记忆与推理混为一谈的根本问题，模型既需要用注意力去“检索”知识，又需要用注意力去“推理”。\n工作原理是 Engram 将模型能力从连续的神经计算转移到确定性的哈希查找。它将那些固定的、需要记忆的模式（如实体名、固定搭配）存入一个类似“字典”的查找表中，使模型能以 O(1) 的复杂度快速调用，而无需消耗大量算力去“计算”记忆。\n实际效果：这使得模型能将宝贵的注意力资源解放出来，专注于复杂的组合与推理任务。在实验阶段，一个集成了 270 亿参数 Engram 的模型，在参数和浮点运算次数（FLOPs）同等的情况下，性能超过了纯 MoE 模型。\nmHC 流形约束超连接\nmHC (流形约束超连接，Manifold-Constrained Hyper-Connections)：这是一个旨在解决极深网络训练不稳定性的创新。传统 Transformer 模型在堆叠到很深的时候，容易出现梯度爆炸或消失等信号 degradation 问题。\n通过将连接矩阵约束在双随机矩阵流形上，mHC 确保了信号增益在每一层都保持稳定（约 1.6 倍），从而让深层表示得以保留。这使训练更深、更强的模型成为可能，将计算利用率从行业平均的约 60%提升到了 85%以上，同时减少了 30%+的原始计算依赖。\n除了核心架构的创新，V4 在训练和推理工程层面也进行了大量优化。\nMuon 优化器：万亿参数的新训练范式\nV4 首次在万亿参数 MoE 模型上大规模采用 Muon 优化器。\n团队设计了一套混合 Newton-Schulz 迭代策略：前 8 步使用快速收敛系数，后 2 步切换为稳定系数，在正交化精度与收敛速度间取得最优。为解决 ZeRO 并行与 Muon 需要完整梯度矩阵的矛盾，团队设计了混合 ZeRO 分配策略——稠密参数限制并行度并用背包算法负载均衡，MoE 专家参数独立展平后均匀分布。进一步地，MoE 梯度在同步前以随机舍入方式量化到 BF16，通信量减半；同时采用“all-to-all + 本地 FP32 求和”规避低精度加法器的累积误差。\nFP4 量化：无损压缩与推理加速\nV4 在 MoE 专家权重和 CSA 索引器的 QK 路径上应用了 FP4 量化感知训练。一个关键发现是：FP4 到 FP8 的解量化是无损的——因为 FP8 拥有更大的动态范围，FP4 子块的细粒度尺度信息可以被完全吸收。这使得整个量化流程可以无缝复用现有的 FP8 训练框架。\n在推理和 RL rollout 阶段，直接使用真实 FP4 权重，实现实时的显存节省和计算加速。对索引器分数的 FP32→BF16 量化更是带来了 2 倍加速，同时保持 99.7%的召回率。\n专家并行：通信-计算深度融合\nMoE 模型的专家并行受限于跨节点通信。传统方案中，Dispatch 和 Combine 阶段是纯通信瓶颈。V4 的创新是将专家切分为“波”——每个波包含一小部分专家。当波内专家的通信完成后，计算立即开始，无需等待其他专家。稳态下，当前波的计算、下一波的 token 传输、已完成专家的结果发送三者同时进行。这一细粒度流水线在 NVIDIA GPU 和华为昇腾 NPU 上实现 1.5~1.73 倍加速，在 RL rollout 等高敏感场景下可达 1.96 倍。\n团队还提出了硬件设计建议：当前每 GBps 互联带宽足以覆盖 6.1 TFLOP/s 的计算需求，盲目增加带宽会带来收益递减。这一洞察对未来 AI 加速器设计具有指导意义。\n确定性内核：大规模训练的可复现性保障\n训练万亿参数模型时，非确定性行为可能导致难以调试的 loss 尖峰。\nV4 实现了全面的批量不变性和确定性：任何 token 的输出不因 batch 内位置而改变；每次运行的梯度累积顺序保持一致。技术难点包括：注意力反向传播中放弃 split-KV 方案，改用双核策略（满波时单 SM 处理、部分波时多 SM 协作但保证累积顺序）；MoE 反向传播通过 rank 内 token 顺序预处理加 rank 间 buffer 隔离解决竞争；mHC 中小矩阵乘法（输出维度仅 24）被迫使用 split-k 时，先输出各 split 部分再通过专用核确定性归约。\n这些工程打磨使得大规模训练的可复现性达到新高度。\nTileLang DSL：高性能内核的高效开发\n为支撑数百个融合核的开发，V4 团队采用 TileLang 领域特定语言，并实现了主机代码生成——将数据类型、形状约束等元数据嵌入生成的 launcher 中，运行时验证开销从数十微秒降至 1 微秒以下。同时集成 Z3 SMT 求解器进行形式整数分析，支持向量化优化、屏障插入等高级编译优化。严格对齐数值精度与 CUDA 工具链，保证 bit 级可重现性。\n训练稳定性：预知路由与 SwiGLU 钳位\n万亿 MoE 模型的训练稳定性是一大挑战。V4 识别出 loss 尖峰与 MoE 层异常值的强相关性，且路由机制会加剧异常值。为此设计了预知路由：在 step t 使用历史参数θ_{t-Δt}计算路由索引，当前参数仅做特征计算，通过管线执行与通信重叠将额外开销控制在 20%，且仅在尖峰发生时动态激活。\n配合 SwiGLU 钳位（线性分量钳位到[-10,10]，门控分量上界钳位到 10），有效消除了异常值，且不影响性能。\n框架层优化：长上下文 RL 落地\nV4 的框架优化覆盖了训练与推理全流程：\n上下文并行适配：两阶段通信策略解决压缩边界跨 rank 的问题，每个 rank 发送最后 m 个未压缩 KV，all-gather 后融合为完整序列。\n张量级激活检查点：扩展自动微分框架，支持对单个张量标注重计算，框架自动计算最小重计算子图，释放显存并复用指针，开发者无需关心底层内存细节。\n异构 KV 缓存管理：分离状态缓存（SWA+未就绪压缩 token）和经典 KV 缓存，支持磁盘存储以实现共享前缀请求的零重复预填充。\n后训练范式：同策略蒸馏\nV4 的后训练采用“独立专家训练→同策略蒸馏”两阶段范式。首先针对数学、代码、Agent、指令跟随等领域独立训练专家模型，每个专家经过 SFT 和 GRPO 强化学习，支持三种推理模式（Non-think/Think High/Think Max）。\n特别地，使用了生成式奖励模型替代传统标量奖励模型，模型的 actor 与 judge 角色统一，将推理能力内化到评估中。\n然后通过同策略蒸馏将十多个专家融合到一个统一模型。采用逆向 KL 散度作为目标，并使用全词表 logit 蒸馏（而非 token 级 KL 估计），梯度估计更稳定。工程上，教师权重 offload 到分布式存储，仅缓存最后一层 hidden states，训练样本按教师索引排序确保每个教师头只加载一次，使得在万亿参数级别进行多教师蒸馏成为现实。\n不得不说，DeepSeek-V4-Pro-Max（最大推理强度模式）在多项基准上重新定义了开源模型的天花板：\n知识：SimpleQA-Verified 达到 57.9%，远超前代开源模型（约 30%）；\n编程：Codeforces Elo 3206 分，排名人类第 23，首次有开源模型在该任务上追平 GPT-5.4；\nAgent：SWE-Verified 80.6%，接近 Claude Opus 4.6 的 80.8%；Terminal Bench 2.0 67.9%，与 GPT-5.4 的 68.5%持平；\n中文任务：功能性写作以 62.7%的胜率优于 Gemini 3.1 Pro，创意写作在写作质量维度达到 77.5%胜率。\nV4-Flash-Max 则以极低成本实现了与 GPT-5.2 和 Gemini 3.0 Pro 相当的推理性能，证明了高效架构的可行性。\n过去一年 DeepSeek 重要发布回顾\n2025 年除夕夜，当大多数用户还沉浸在年味中时，DeepSeek 低调发布了 DeepSeek-R1。没有发布会、没有铺天盖地的宣发，但几天之内，这个模型迅速在技术社区、研究圈与开发者社群中扩散开来。事后来看，R1 更像是一个信号：推理模型，开始从“研究话题”走向“工程现实”。\nDeepSeek 发布了在数学、代码编写和逻辑推理方面表现卓越的 DeepSeek-R1 模型。其性能直追 OpenAI o1，并能够展示详尽的思维链。该模型通过 MIT 协议开源了相关权重和代码，不仅产生了深远的技术影响，更直接重塑了全球开源与商业大模型，乃至中美大模型的技术竞争格局。\nR1 之后：持续迭代，而非“一次性爆款”。\n3 月 25 日，DeepSeek V3 模型已完成小版本升级，欢迎前往官方网页、APP、小程序试用体验（关闭深度思考），API 接口和使用方式保持不变。\nDeepSeek 反馈称此次 DeepSeek-V3 的小版本升级，版本号为 V3-0324，主要聚焦于体验优化和性能提升。在官方网页、App 和小程序中，用户关闭“深度思考”功能，可获取更快的响应速度，适合对实时性要求高的场景（如简单问答、代码片段生成）。\n5 月 28 日，DeepSeek R1 模型已完成小版本升级，版本为 DeepSeek-R1-0528。这款开源大模型支持 128K 超长上下文，中文能力超越 GPT-4-Turbo 登顶 SuperCLUE 榜首，代码性能媲美顶级闭源模型。亮点包括：处理整本小说/超长文档的\"大海捞针\"能力、MIT 开源协议支持商用、免费开放使用。适用场景涵盖企业文档分析、教育科研、编程辅助等。\n8 月 21 日，DeepSeek-V3.1 正式发布。本次升级包含以下主要变化：\n混合推理架构：一个模型同时支持思考模式与非思考模式；\n更高的思考效率：相比 DeepSeek-R1-0528，DeepSeek-V3.1-Think 能在更短时间内给出答案；\n更强的 Agent 能力：通过 Post-Training 优化，新模型在工具使用与智能体任务中的表现有较大提升。\n官方 App 与网页端模型已同步升级为 DeepSeek-V3.1。用户可以通过“深度思考”按钮，实现思考模式与非思考模式的自由切换。\nDeepSeek-V3.1 上下文已扩展为 128K。同时，API Beta 接口支持了 strict 模式的 Function Calling，以确保输出的 Function 满足 schema 定义。\n9 月 22 日，DeepSeek-V3.1 已更新至 DeepSeek-V3.1-Terminus 版本。据 DeepSeek 介绍，此次更新在保持模型原有能力的基础上，针对用户反馈的问题进行了改进，包括：语言一致性：缓解中英文混杂、偶发异常字符等情况。在 Agent（智能体）能力方面，进一步优化 Code Agent 与 Search Agent 的表现，DeepSeek-V3.1-Terminus 的输出效果相比前一版本更加稳定。\n9 月 29 日，DeepSeek 发布 DeepSeek-V3.2-Exp 模型，这是一个实验性（Experimental）的版本。\n作为迈向新一代架构的中间步骤，V3.2-Exp 在 V3.1-Terminus 的基础上引入了 DeepSeek Sparse Attention（一种稀疏注意力机制），针对长文本的训练和推理效率进行了探索性的优化和验证。\nDeepSeek Sparse Attention（DSA）首次实现了细粒度稀疏注意力机制，在几乎不影响模型输出效果的前提下，实现了长文本训练和推理效率的大幅提升。\n12 月 1 日，DeepSeek 官方同时发布两个正式版模型：DeepSeek-V3.2 和 DeepSeek-V3.2-Speciale。\nDeepSeek-V3.2 的目标是平衡推理能力与输出长度，适合日常使用，例如问答场景和通用 Agent 任务场景。\n在公开的推理类 Benchmark 测试中，DeepSeek-V3.2 达到了 GPT-5 的水平，仅略低于 Gemini-3.0-Pro；相比 Kimi-K2-Thinking，V3.2 的输出长度大幅降低，显著减少了计算开销与用户等待时间。\nDeepSeek-V3.2-Speciale 的目标是将开源模型的推理能力推向极致，探索模型能力的边界。\nV3.2-Speciale 是 DeepSeek-V3.2 的长思考增强版，同时结合了 DeepSeek-Math-V2 的定理证明能力。该模型具备更好的指令跟随、数学证明与逻辑验证能力，在主流推理基准测试上的性能表现媲美 Gemini-3.0-Pro。\nV3.2-Speciale 模型成功斩获 IMO 2025（国际数学奥林匹克）、CMO 2025（中国数学奥林匹克）、ICPC World Finals 2025（国际大学生程序设计竞赛全球总决赛）及 IOI 2025（国际信息学奥林匹克）金牌。其中，ICPC 与 IOI 成绩分别达到了人类选手第二名与第十名的水平。\nDeepSeek 官方表示，在高度复杂任务上，Speciale 模型大幅优于标准版本，但消耗的 Tokens 也显著更多，成本更高。目前，DeepSeek-V3.2-Speciale 仅供研究使用，不支持工具调用，暂未针对日常对话与写作任务进行专项优化。\n再然后到了 2026 年 1 月 13 日，喜欢闷声做大事的 DeepSeek 再次发布重大技术成果，在其 GitHub 官方仓库开源了新论文与模块 Engram，论文题为 “Conditional Memory via Scalable Lookup: A New Axis of Sparsity for Large Language Models”，梁文锋再次出现在合著者名单中。\n与传统的大模型架构相比，该方法提出了一种新的“查—算分离”机制，通过引入可扩展的查找记忆结构，在等参数、等算力条件下显著提升模型在知识调用、推理、代码、数学等任务上的表现。代码与论文全文均已开源。\n代码地址：https://github.com/deepseek-ai/Engram\n这种查和算分离的 Engram 新方法的整体架构如下图所示：\n我们为什么需要 Engram ？\n目前主流的大语言模型架构依然基于 Transformer 和 Mixture-of-Experts（MoE）结构。MoE 是目前推进参数规模和能力扩展的关键技术之一，通过动态路由机制，只激活部分参数以降低计算成本，同时在任务容量方面实现大规模扩展。DeepSeek 自家系列模型（如 DeepSeek V2、DeepSeek V3 等）也采用了先进的 MoE 方法进行扩展训练。\n但在这些传统的 Transformer 架构（无论是 Dense 还是 MoE）中，模型的参数实际上承担着两种截然不同的角色：\n事实性记忆（Memorization）： 存储海量的知识事实。例如，“法国的首都是哪里？”、“世界最高的山脉是哪座”等。这类信息相对死板，更多依赖于“查表”式的检索。\n逻辑推理与计算（Calculation）： 负责复杂的逻辑链条、多步推理和情境理解。例如，“根据这段代码的逻辑推导可能的 Bug”、“解析一段复杂的哲学论证”。\n目前的大语言模型倾向于将这两者混在一起。当你试图让模型记住更多知识时，你不得不增加参数量。而在传统的 Dense 模型中，参数量增加意味着前向传播时的计算量（FLOPs）也会同步激增。MoE 架构虽然通过稀疏激活解决了“算力随参数同步爆炸”的问题，但 DeepSeek 研究发现，MoE 专家在处理“死记硬背”的任务时依然不够高效。\n神经网络本质上是连续的数学变换，用高昂的矩阵运算去模拟简单的“查表检索”，本身就是一种极大的浪费。DeepSeek 的 Engram 正是为了打破这一困境——“该查表的查表，该算的算”。",
+    "content_source": "trafilatura",
+    "content_chars": 9308,
+    "content_excerpt": "刚刚，DeepSeek 在官方公众号发文宣布，全新系列模型 DeepSeek-V4 的预览版本正式上线，并同步开源！\nDeepSeek-V4 拥有百万字超长上下文，在 Agent 能力、世界知识和推理性能三大维度上均实现了国内与开源领域的领先。\n秉承 DeepSeek 一贯的开放精神，本次发布的模型按大小分为两个版本，欢迎开发者、研究者和企业用户前往体验和下载。\n模型按大小分为两个版本：\nDeepSeek-V4 模型开源链接：\nDeepSeek-V4 技术报告：\nPro 版本面向的是高性能，Flash 版本则主攻性价比。\nAPI 服务已同步更新，通过修改 model_name 为 deepseek-v4-pro 或 deepseek-v4-flash 即可调用。\n从技术报告来看，有一点特别值得注意，DeepSeek V4 并不是只在 NVIDIA 体系内做优化，而是明确将细粒度专家并行（EP）方案同时在 NVIDIA GPU 和华为 Ascend NPU 上完成验证，这说明其推理路径已经具备跨算力平台的适配能力。但在开源层面，当前释放的仍主要是基于 CUDA 的 MegaMoE 和 DeepGEMM，底层实现深度绑定 NVIDIA 工具链。\n另外，官方 API 页面还提到，受限于高端算力，目前 V4-Pro 的服务吞吐仍有限，预计下半年昇腾 950 超节点批量上市后，Pro 价格会大幅下调。这意味着，DeepSeek 一边在现有 CUDA 生态内持续做极致优化，一边也在为华为 Ascend 等多算力环境预留空间，开始尝试把模型运行时从单一硬件依赖中解耦出来。"
+  },
+  {
+    "id": "f35287a4a508",
+    "title": "Prestigious photo contest answers ‘what is a photo?’",
+    "url": "https://www.theverge.com/gadgets/918016/prestigious-photo-contest-answers-what-is-a-photo",
+    "source": "The Verge AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-24T09:40:07",
+    "summary": "We love to muse over how \"real\" photography is defined here at The Verge now that generative AI is so prolific, and the World Press Photo competition might have the answer. The prestigious award celebrates the best of photojournalism, where capturing reality is paramount. The winning entry for 2026",
+    "collected_at": "2026-04-24T09:40:43.863370",
+    "content_text": "We love to muse over how “real” photography is defined here at The Verge now that generative AI is so prolific, and the World Press Photo competition might have the answer. The prestigious award celebrates the best of photojournalism, where capturing reality is paramount.\nPrestigious photo contest answers ‘what is a photo?’\n‘A photograph captures light on a sensor or film. It is a record of a physical moment.’\n‘A photograph captures light on a sensor or film. It is a record of a physical moment.’\nThe winning entry for 2026 — “Separated by ICE,” captured by photojournalist Carol Guzy — was announced yesterday. The harrowing photograph shows children clinging to their father after an immigration hearing. The photo had to abide by specific rules around the use of AI tools to be eligible for the competition, with the independent, non-profit organization behind the award insisting that “AI-generated images are not photography.”\n“A photograph captures light on a sensor or film,” the organization said in its entry rules. “It is a record of a physical moment.” The organization also breaks down the exact tools and equipment that are permitted to qualify:\nAll photographs entered into the contest must be made with a camera. No synthetic or artificially generated images are allowed, and no use of artificially generative fill is allowed in post-production. Any use of these tools will automatically disqualify the entry from the contest.\nSmartphone photographs are permitted only when captured in standard shooting mode; submissions created using HDR, portrait mode, creative lighting effects, or panorama mode are not eligible.\nThe use of smart tools, or AI-powered enhancement tools is possible within the contest rules, as long as these tools do not lead to significant changes to the image as a whole, introduce new information to the image, nor remove information from the image that was captured by the camera.\nTools that immediately breach the contest rules and are not allowed are all AI powered enlarging tools such as Adobe Super Resolution and Topaz Photo AI. These tools are based on generative AI models that introduce new information to enlarge and sharpen images.\nThere are still a few gray areas, such as AI tools for denoising, automatic color/contrast adjustments and object selection, which are permitted so long as they’re not used extensively and don’t “alter, add or remove information from the photograph that was captured by the camera,” according to World Press Photo. The organization also links to a page that breaks down what qualifies as photo manipulation under its rules.\nIt’s one of the most comprehensive lists of requirements we’ve seen for defining what counts as authentic photography, and could serve as a benchmark for how us normies think about the topic going forward.",
+    "content_source": "trafilatura",
+    "content_chars": 2817,
+    "content_excerpt": "We love to muse over how “real” photography is defined here at The Verge now that generative AI is so prolific, and the World Press Photo competition might have the answer. The prestigious award celebrates the best of photojournalism, where capturing reality is paramount.\nPrestigious photo contest answers ‘what is a photo?’\n‘A photograph captures light on a sensor or film. It is a record of a physical moment.’\n‘A photograph captures light on a sensor or film. It is a record of a physical moment.’\nThe winning entry for 2026 — “Separated by ICE,” captured by photojournalist Carol Guzy — was announced yesterday. The harrowing photograph shows children clinging to their father after an immigration hearing. The photo had to abide by specific rules around the use of AI tools to be eligible for the competition, with the independent, non-profit organization behind the award insisting that “AI-generated images are not photography.”\n“A photograph captures light on a sensor or film,” the organization said in its entry rules. “It is a record of a physical moment.” The organization also breaks down the exact tools and equipment that are permitted to qualify:\nAll photographs entered into the contest must be made with a camera. No synthetic or artificially generated images are allowed, and no use of artificially generative fill is allowed in post-production. Any use of these tools will automatically disqualify the entry from the contest.\nSmartphone photographs are permitted only when captured in standard shooting mode; submissions created using HDR, portrait mode, creative lighting effects, or panorama mode are not eligible.\nThe use of smart tools, or AI-powered enhancement tools is possible within the contest rules, as long as these tools do not lead to significant changes to the image as a whole, introduce new information to the image, nor remove information from the image that was captured by the camera.\nTools that immediately breach the contest rules and are not allowed are all AI powered enlarging tools such as Adobe Super Resolution and Topaz Photo AI. These tools are based on generative AI models that introduce new information to enlarge and sharpen images.",
+    "title_zh": "著名摄影比赛回答“什么是照片？”",
+    "summary_zh": "鉴于生成式人工智能如此多产，我们喜欢在 The Verge 思考如何定义“真实”摄影，而世界新闻摄影大赛可能会给出答案。这个享有盛誉的奖项旨在表彰最优秀的新闻摄影，其中捕捉现实至关重要。 2026 年获奖作品",
+    "ai_summary": "鉴于生成式人工智能如此多产，我们喜欢在 The Verge 思考如何定义“真实”摄影，而世界新闻摄影大赛可能会给出答案…"
+  },
+  {
     "id": "c063edf68a38",
     "title": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
     "url": "https://www.infoq.cn/article/6iDjLwYiOXIVwjl4taOP?utm_source=rss&utm_medium=article",
@@ -15,19 +81,19 @@
     "content_excerpt": "“Claude 变笨了。”\nAnthropic 正面回应模型“变笨”：三处优化导致的\n过去一段时间，这个声音在 Hacker News、Reddit 以及 X 上此起彼伏。尤其是在万众瞩目的 Opus 4.7 发布后，不少老用户反馈 Claude Code 变得健忘、重复且废话连篇。\n作为目前全球最强梯队的编程模型，Claude 的口碑滑坡让 Anthropic 压力倍增。\n所以今天一早，Claude Code 研发团队打破沉默，发布了一篇看起来诚意十足的分析文章，名为《An update on recent Claude Code quality reports》，他们在文章中坦言，用户反馈的“降智”并非错觉，\n而是源于三处看似合理、实则导致连锁反应的产品优化\n。\n没错，Claude Code 真的“变笨”了。\n研发团队表示，目前 Anthropic 已修复全部漏洞，并宣布重置所有订阅用户的使用限额以示诚意。\n截至 4 月 20 日（版本 v2.1.116），"
   },
   {
-    "id": "8077d9c800a5",
-    "title": "商汤绝影发布舱驾一体全场景智能体产品",
-    "url": "https://36kr.com/newsflashes/3780610906905857?f=rss",
+    "id": "57f55dfd3a79",
+    "title": "安克创新发布首款存算一体AI芯片Thus™",
+    "url": "https://36kr.com/newsflashes/3780623796231430?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 4,
-    "published": "2026-04-24T09:22:06",
-    "summary": "36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、New Member 2.0等。此外，商汤将联手T3出行，将于年内全面启动试运营 Robotaxi。",
-    "collected_at": "2026-04-24T09:24:45.806157"
+    "published": "2026-04-24T09:35:42",
+    "summary": "36氪获悉，近日，安克创新发布首款神经网络存算一体AI音频芯片Thus™。据介绍。该芯片基于NOR Flash技术，原生支持4兆参数模型，实验室测试显示相比传统蓝牙耳机芯片最高可带来150倍AI峰值算力提升。",
+    "collected_at": "2026-04-24T09:40:47.543651"
   },
   {
     "id": "45e1d92c87d9",
-    "title": "GPT-5.5 赢了 Opus 4.7 和 Mythos？奥特曼晒黄仁勋内部信：英伟达全员用上 Codex！",
+    "title": "GPT-5.5 发布：OpenAI 强调编码、效率与 Agent 能力升级",
     "url": "https://www.infoq.cn/article/IjNk79KKJgTDDvO5OMAY?utm_source=rss&utm_medium=article",
     "source": "InfoQ AI",
     "lang": "zh",
@@ -41,15 +107,15 @@
     "content_excerpt": "OpenAI 今天发布了 GPT-5.5，称其为公司迄今“最聪明、最直觉化”的模型，也是面向真实工作的全新智能形态。相比上一代，GPT-5.5 的重点是进一步承担复杂任务中的规划、工具调用、结果检查和跨工具执行，被 OpenAI 定位为推动“用 AI 在电脑上完成工作”的关键一步。\n赢了 Opus 4.7 和 Mythos？\n在与 Anthropic 矛盾日益激烈的放下，GPT-5.5 发布后，很多人关注的就是到底谁家模型更强，加上 Opus 4.7 发布后的负面反馈非常多，GPT-5.5 的发布更加引人关注。\nGPT-5.5 的提升集中体现在四个方向：智能体式编码、电脑使用、知识工作和早期科学研究。这些领域的共同特点是，任务往往需要长上下文推理、持续行动和跨工具执行，而不是单轮问答。\nOpenAI 表示，GPT-5.5 能更快理解用户意图，并能自行承担更多任务流程，包括编写和调试代码、在线研究、数据分析、创建文档和电子表格、操作软件，以及在多个工具之间切换直至任务完成。\n与需要用户逐步拆解和指挥的传统对话模型不同，OpenAI 将 GPT-5.5 描述为更接近“智能体式工作模型”：用户可以直接交给它一个混乱、复杂、多部分的任务，由模型自行规划、使用工具、检查结果，并在不确定环境中持续推进。\n专注 AI Agent 安全与自治组织实验的公司 Andon Labs，提前拿到了 GPT-5.5 的访问权限。测试后，它在 Vending-Bench 2 上排名第三：表现优于 GPT-5.4，但不如 Opus 4.7。不过，它的成绩与 Opus 4.6 基本持平，而且没有出现在 Opus 4.6 和 Mythos 身上看到的任何欺骗或权力寻求行为。“所以，糟糕行为并不是取得好成绩的必要条件。那 Claude 为什么还会这么做？”Andon Labs 发问。\n另外 Andon Labs 表示，在 Vending-Bench Arena 中，也就是带有竞争动态的多人版 Vending-Bench 里，GPT-5.5 实际上击败了 Opus 4.7。Opus 4.7 表现出了与 Opus 4.6 类似的行为：对供应商撒谎，并拒绝给客户退款。GPT-5.5 的策略则是干净的，但它依然赢了。”\n值得注意的是，Altman 也转发了这个推特。\n网友 Chetaslua 做了 GPT-5.5 和 Mythos 的对比，并表示，“这是两者的基准测试对比，大家看着玩。顺便一提，Mythos 可以说是‘幻觉之王’，而 5.5 在效率方面表现非常好，而且已经公开可用。”"
   },
   {
-    "id": "abb2b5b24106",
-    "title": "“电商龙虾”Accio Work已接入DeepSeek V4、Qwen 3.6等模型",
-    "url": "https://36kr.com/newsflashes/3780603728534790?f=rss",
+    "id": "8077d9c800a5",
+    "title": "商汤绝影发布舱驾一体全场景智能体产品",
+    "url": "https://36kr.com/newsflashes/3780610906905857?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 4,
-    "published": "2026-04-24T09:14:52",
-    "summary": "36氪获悉，4月24日，DeepSeek V4发布。“电商龙虾”的Accio Work已经接入该模型，成为首批接入DeepSeek V4的Agent工作台之一。此外，Qwen 3.6等国产模型也均已接入Accio Work。据了解，Accio Work是阿里国际面向全球推出的企业级Agent，能7 x 24小时自主运行、处理复杂的商业任务。",
-    "collected_at": "2026-04-24T09:21:09.551469"
+    "published": "2026-04-24T09:22:06",
+    "summary": "36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、New Member 2.0等。此外，商汤将联手T3出行，将于年内全面启动试运营 Robotaxi。",
+    "collected_at": "2026-04-24T09:24:45.806157"
   },
   {
     "id": "1b93d299fb9e",
@@ -67,19 +133,15 @@
     "content_excerpt": "Cloudflare 宣布推出 Think 项目预览版，这是一套针对其 Agents SDK 的基础组件，旨在将 AI 代理从无状态编排过渡到持久化的、基于角色的基础设施。此次发布引入了一个类内核的运行时环境，在这个环境中，代理可以在平台重启后继续存活，管理关系型记忆树，并在受限的沙箱内执行自主编写的代码。这些内核基础组件借鉴了 OpenClaw 等新型个人代理框架的成功经验。\n现有的企业级框架，例如 Google Agent Development Kit (ADK) 和 AWS Bedrock AgentCore，主要采用请求-响应模型。虽然这些服务负责恢复会话状态，但它们实际上是基于快照进行操作。在这些架构中，代理的记忆是一个外部化的键值映射（KV map）或 JSON 数据块，会在新一轮会话开始时从远程存储中获取。在处理长期运行的任务时，这种模式的局限性就显现了出来。在复杂的推理周期中，如果底层的无服务器计算被抢占，执行上下文就会消失，导致逻辑执行的实际进度丢失。虽然框架可以恢复上次保存的快照，但该执行窗口内取得的具体进展已丢失，系统只能从上次成功保存的地方重新启动整个操作。\nThink 项目的核心创新在于引入了 Fiber。与标准的无服务器函数调用不同，Fiber 是一种持久化调用，能够保存自身的指令指针检查点。利用 runFiber 原语和 ctx.stash()，开发者可以直接将代理的执行进度保存在内部同位置的一个 SQLite 数据库中。\n这使得代理能够处理那些超出传统无服务器时限的非确定性、长期运行的工作负载。如果平台在代理处于循环中时重启，那么运行时会恢复该 Fiber 并触发 onFiberRecovered 钩子，从而使代理能够从上一个检查点继续执行。\nTypeScript\nexport\nclass\nResearchAgent\nextends\nAgent"
   },
   {
-    "id": "7d76c3a89082",
-    "title": "证监会部署打击和防范上市公司财务造假专项行动",
-    "url": "https://36kr.com/newsflashes/3780599117880582?f=rss",
+    "id": "abb2b5b24106",
+    "title": "“电商龙虾”Accio Work已接入DeepSeek V4、Qwen 3.6等模型",
+    "url": "https://36kr.com/newsflashes/3780603728534790?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 4,
-    "published": "2026-04-24T09:04:17",
-    "summary": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。",
-    "collected_at": "2026-04-24T09:21:09.551537",
-    "content_text": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。原文链接",
-    "content_source": "trafilatura",
-    "content_chars": 294,
-    "content_excerpt": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。原文链接"
+    "published": "2026-04-24T09:14:52",
+    "summary": "36氪获悉，4月24日，DeepSeek V4发布。“电商龙虾”的Accio Work已经接入该模型，成为首批接入DeepSeek V4的Agent工作台之一。此外，Qwen 3.6等国产模型也均已接入Accio Work。据了解，Accio Work是阿里国际面向全球推出的企业级Agent，能7 x 24小时自主运行、处理复杂的商业任务。",
+    "collected_at": "2026-04-24T09:21:09.551469"
   },
   {
     "id": "f4aec19a1dc2",
@@ -97,18 +159,19 @@
     "content_excerpt": "整理 | 华卫\n今天，谷歌正在对 AI 押下其史上规模最大的赌注之一。\n在美国拉斯维加斯刚刚举办的 Google Cloud Next 大会上，谷歌云正式宣告 “智能体时代”来临。谷歌 CEO Sundar Pichai 宣布，公司今年计划投入 1750 亿至 1850 亿美元用于资本支出，远高于 2022 年的 310 亿美元，以搭建他口中 AI“智能体时代”所需的基础设施。\n“随着我们步入智能体时代，我们正将相关布局推向新高度，我们正在为当下与未来进行大规模投资。”Pichai 表示。这场年度大会上，这家巨头展示了其在云计算、AI、安全与数据分析领域的最新创新成果，并发布一整套软硬件产品，核心亮点包括一个用于构建自主 AI 智能体的全新综合性平台以及谷歌第八代张量处理器（TPU）。\n75%新代码由 AI 生成，全面转向智能体工作流\n“我们在谷歌内部已经使用 AI 生成代码有一段时间了。如今，谷歌近 75%的新增代码由 AI 生成并由人类工程师审核通过。”据 Pichai 称，谷歌内部应用 AI 的比例近年来不断攀升。截至 2024 年 10 月，公司约四分之一的代码由 AI 生成。到去年秋季，这一比例已升至 50%。\n据悉，谷歌工程师正使用 Gemini 模型生成代码，部分员工还被设定了具体的 AI 使用目标，这些目标将纳入今年的绩效考核。据外媒此前报道，近几个月来，部分 Google DeepMind 员工已被允许使用 Anthropic 的 Claude Code，这在员工内部引发了一些矛盾。\n并且，Pichai 在昨日的一篇博客文章中表示，谷歌正全面转向真正的智能体工作流，让工程师执行更多自主化任务。Pichai 称，“近期，一项由智能体与工程师协作完成的高复杂度代码迁移任务，完成速度比一年前仅由工程师人工操作快了六倍。”\nGemini Enterprise 是被提及的重要角色，这是一套面向智能体时代的端到端系统，专为能够执行复杂多步骤工作流程的智能体打造。Pichai 强调，谷歌正将自身的工程部门当作实验室，充当 Gemini Enterprise 智能体平台的“首个试用客户”。“要成为最优秀的合作伙伴，我们始终希望成为自身技术的首个试用客户，”Pichai 表示。其目标是在谷歌级规模下对这些 AI 智能体进行实战检验，之后再将同款基础设施提供给全球云服务客户。\n据 Pichai 介绍，该产品的付费月活跃用户数环比增长达 40%。Pichai 表示，“借助这一迅猛增长，我们看到，每家企业里的每一位员工都能成为创造者。这是一场意义非凡的转变，但也伴随着复杂性。有一点非常明确：我们已然坚定地迈入 Gemini 智能体时代。行业讨论的焦点已经从‘我们能否打造一个智能体？’转向了‘我们该如何管理成千上万个智能体？’”"
   },
   {
-    "id": "reddit-1su9yva",
-    "title": "Qwen3.6 35B-A3B is quite useful on 780m iGPU (llama.cpp,vulkan)",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1su9yva/qwen36_35ba3b_is_quite_useful_on_780m_igpu/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-24T08:40:58",
-    "summary": "I have ThinkPad T14 Gen 5 (8840U, **Radeon 780M**, 64GB DDR5 5600 MT/s ). Tried out the recent Qwen MoE release, and pp/tg speed is good (on vulkan) (250+pp, 20 tg): ~/dev/llama.cpp master* ❯ ./build-vulkan/bin/llama-bench \\ -hf AesSedai/Qwen3.6-35B-A3B-GGUF:Q6_K \\ -fa 1 \\ -ub 1024 \\ -b 1024 \\ -p 10",
-    "points": 14,
-    "collected_at": "2026-04-24T09:21:14.492434",
-    "title_zh": "Qwen3.6 35B-A3B在780m iGPU上非常有用（llama.cpp，vulkan）",
-    "summary_zh": "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 MT/s）。尝试了最近的 Qwen MoE 版本，pp/tg 速度很好（在 vulkan 上）（250+pp，20 tg）…",
-    "ai_summary": "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 M…"
+    "id": "7d76c3a89082",
+    "title": "证监会部署打击和防范上市公司财务造假专项行动",
+    "url": "https://36kr.com/newsflashes/3780599117880582?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-24T09:04:17",
+    "summary": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。",
+    "collected_at": "2026-04-24T09:21:09.551537",
+    "content_text": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。原文链接",
+    "content_source": "trafilatura",
+    "content_chars": 294,
+    "content_excerpt": "36氪获悉，近日证监会部署了2026年打击和防范上市公司财务造假专项行动。本次专项行动更加突出早发现、强防范、优机制三项目标，一体推进发现、惩处、退市、投保有机衔接，聚焦四方面重点任务。一是进一步严密监管发现网络。优化分类监管，加强预警信号常态化监测排查。强化监管大数据仓库信息查询，强化财务舞弊监管AI大模型应用。二是进一步落实严惩重罚要求。坚决落实造假退市、占用偿还、退市不免责的监管要求。三是进一步构筑公司和中介把关两道防线。切实约束控股股东、实际控制人行为。四是进一步完善综合惩防长效机制。在全力推进基础制度建设的同时，优化上市公司监管执法信息统筹发布，提升执法威慑效果。原文链接"
   },
   {
     "id": "cc46e3bf9957",
@@ -126,6 +189,38 @@
     "content_excerpt": "整理 | 华卫\n“SpaceXAI 与 Cursor 现已展开紧密合作，旨在打造全球顶尖的代码与知识工作类 AI。”\n近日，SpaceX 突然宣布，已敲定一项协议：可在今年晚些时候以 600 亿美元收购代码生成初创公司 Cursor，或为双方新建立的合作关系支付 100 亿美元。作为一家销售编程 AI 模型的初创公司，Cursor 开发的工具可帮助软件开发者测试代码修改内容，并通过视频、日志与截图记录操作过程。与 OpenAI、Anthropic 一样，Cursor 是硅谷多家利用 AI 实现代码自动化的初创企业之一，吸引了大量开发者，AI 企业在这一领域已取得早期商业突破。\nSpaceX 在 X 平台发文称，“Cursor 面向顶尖软件工程师的领先产品与分发能力，搭配 SpaceX 拥有百万片 H100 等效算力的 Colossus 训练超级计算机，将让我们打造出全球最具实用价值的模型。”Colossus 是 xAI 位于孟菲斯的超级计算机集群，该公司曾宣称其为全球规模最大。SpaceX 已在 AI 基础设施上投入数十亿美元。\n挖角 Cursor 两月后，拿下全公司\n值得一提的是，尽管 SpaceX 创始人兼首席执行官埃隆・马斯克旗下包括特斯拉在内的多家公司常有内部整合，但极少对外收购其他企业。Cursor 作为一家代码生成初创企业，看似与 SpaceX 的核心业务火箭发射和卫星互联网服务亦关联不大。\n然而，对 xAI 来说，这笔交易将为其带来更强的 AI 代码市场立足点。xAI 是 Grok 聊天机器人的开发公司，今年 2 月 SpaceX 通过全股票交易收购了 xAI，将其结构化为全资子公司，合并后公司估值达 1.25 万亿美元。\nAI 编程工具如今愈发火热，此前 xAI 一直在尝试开发编程工具，但该项目遭遇核心员工流失，一直落后于 OpenAI 与 Anthropic。旧金山初创企业 Anthropic 旗下编程产品 Claude Code 面向企业销售，收入大幅增长。OpenAI 也重金投入自研编程工具 Codex，并积极开拓企业市场。马斯克也曾公开承认，xAI 在代码生成能力上落后于竞争对手。在作出这一表态后，他下令在 xAI 进行了一轮裁员，并启动了激进的招聘计划，从全行业挖角工程技术人才。\n今年 3 月，xAI 聘请了 Cursor 的两位产品工程核心负责人 Andrew Milich 和 Jason Ginsberg，来参与公司月球项目及马斯克旗下 AI 公司 xAI 的相关工作，以重新聚焦相关研发，两人均直接向 Musk 汇报。在此次人事任命公布后，马斯克发文称，“xAI 最初的搭建并不完善，因此正在从头开始重构。”同时，马斯克对这两位工程师 Andrew Milich 和 Jason Ginsberg 表示欢迎，并说道：“月球上的轨道航天中心与质量投射器将会无比震撼。”\n这次通过与 SpaceX 达成的协议，Cursor 既可获得 100 亿美元的注资，也可在被这家火箭公司收购时拿到 600 亿美元的收购对价。也有据了解该交易的人士称，这 100 亿美元是交易未能达成时的“分手费”。"
   },
   {
+    "id": "e34779fe70d8",
+    "title": "Health-care AI is here. We don’t know if it actually helps patients.",
+    "url": "https://www.technologyreview.com/2026/04/24/1136352/health-care-ai-dont-know-actually-helps-patients/",
+    "source": "MIT Tech Review",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-24T09:00:00",
+    "summary": "I don’t need to tell you that AI is everywhere. Or that it is being used, increasingly, in hospitals. Doctors are using AI to help them with notetaking. AI-based tools are trawling through patient records, flagging people who may require certain support or treatments. They are also used to interpret",
+    "collected_at": "2026-04-24T09:40:44.293997",
+    "content_text": "I don’t need to tell you that AI is everywhere.\nOr that it is being used, increasingly, in hospitals. Doctors are using AI to help them with notetaking. AI-based tools are trawling through patient records, flagging people who may require certain support or treatments. They are also used to interpret medical exam results and X-rays.\nA growing number of studies suggest that many of these tools can deliver accurate results. But there’s a bigger question here: Does using them actually translate into better health outcomes for patients?\nWe don’t yet have a good answer.\nThat’s what Jenna Wiens, a computer scientist at the University of Michigan, and Anna Goldenberg of the University of Toronto, argue in a paper published in the journal Nature Medicine this week.\nWiens tells me she has spent years investigating how AI might benefit health care. For the first decade of her career she tried to pitch the technology to clinicians. Over the last few years, she says, it’s as though “a switch flipped.” Health-care providers not only appear much more interested in the promise of these technologies, they have also begun rapidly deploying them.\nThe problem is that many providers aren’t rigorously assessing how well they actually work.\nTake “ambient AI” tools, for example. Also known as AI scribes, they “listen” to conversations between doctors and patients, then transcribe and summarize them. Multiple tools are available, and they are already being widely adopted by health-care providers.\nA few months ago, a staffer at a major New York medical center who develops AI tools for doctors told me that, anecdotally, medics are “overjoyed” by the technology—it allows them to focus all their attention on their patients during appointments, and it saves them from a lot of time-consuming paperwork. Early studies support these anecdotes and suggest that the tools can reduce clinician burnout.\nThat’s all well and good. But what about patient health outcomes? “[Researchers] have evaluated provider or clinician and patient satisfaction, but not really how these tools are affecting clinical decision-making,” says Wiens. “We just don’t know.”\nThe same holds true for other AI-based technologies used in health-care settings. Some are used to predict patients’ health trajectories, others to recommend treatments. They are designed to make health care more effective and efficient.\nBut even a tool that is “accurate” won’t necessarily improve health outcomes. AI might speed up the interpretation of a chest X-ray, for example. But how much will a doctor rely on its analysis? How will that tool affect the way a doctor interacts with patients or recommends treatment? And ultimately: What will this mean for those patients?\nThe answers to those questions might vary between hospitals or departments and could depend on clinical workflows, says Wiens. They might also differ between doctors at various stages of their careers.\nTake the AI scribes, as another example. Some research on AI use in education suggests that such tools can impact the way people cognitively process information. Could they affect the way a doctor processes a patient’s information? Will the tools affect the way medical students think about patient data in a way that impacts care? These questions need to be explored, says Wiens. “We like things that save us time, but we have to think about the unintended consequences of this,” she says.\nIn a study published in January 2025, Paige Nong at the University of Minnesota and her colleagues found that around 65% of US hospitals used AI-assisted predictive tools. Only two-thirds of those hospitals evaluated their accuracy. Even fewer assessed them for bias.\nThe number of hospitals using these tools has probably increased since then, says Wiens. Those hospitals, or entities other than the companies developing the tools, need to evaluate how much they help in specific settings. There’s a possibility that they could leave patients worse off, although it’s more likely that AI tools just aren’t as beneficial as health-care providers might assume they are, says Wiens.\n“I do believe in the potential of AI to really improve clinical care,” says Wiens, who stresses that she doesn’t want to stop the adoption of AI tools in health care. She just wants more information about how they are affecting people. “I have to believe that in the future it’s not all AI or no AI,” she says. “It’s somewhere in between.”\nThis article first appeared in The Checkup, MIT Technology Review’s weekly biotech newsletter. To receive it in your inbox every Thursday, and read articles like this first, sign up here.\nDeep Dive\nBiotechnology and health\nInside the stealthy startup that pitched brainless human clones\nA woman’s uterus has been kept alive outside the body for the first time\nThe team behind the feat plan to study uterine disorders and the early stages of pregnancy—and potentially grow a human fetus.\nThis scientist rewarmed and studied pieces of his friend’s cryopreserved brain\nA gerontologist wanted his preserved brain to be reanimated. Cryopreservation is more likely to be used on organs for transplantation.\nStay connected\nGet the latest updates from\nMIT Technology Review\nDiscover special offers, top stories, upcoming events, and more.",
+    "content_source": "trafilatura",
+    "content_chars": 5273,
+    "content_excerpt": "I don’t need to tell you that AI is everywhere.\nOr that it is being used, increasingly, in hospitals. Doctors are using AI to help them with notetaking. AI-based tools are trawling through patient records, flagging people who may require certain support or treatments. They are also used to interpret medical exam results and X-rays.\nA growing number of studies suggest that many of these tools can deliver accurate results. But there’s a bigger question here: Does using them actually translate into better health outcomes for patients?\nWe don’t yet have a good answer.\nThat’s what Jenna Wiens, a computer scientist at the University of Michigan, and Anna Goldenberg of the University of Toronto, argue in a paper published in the journal Nature Medicine this week.\nWiens tells me she has spent years investigating how AI might benefit health care. For the first decade of her career she tried to pitch the technology to clinicians. Over the last few years, she says, it’s as though “a switch flipped.” Health-care providers not only appear much more interested in the promise of these technologies, they have also begun rapidly deploying them.\nThe problem is that many providers aren’t rigorously assessing how well they actually work.\nTake “ambient AI” tools, for example. Also known as AI scribes, they “listen” to conversations between doctors and patients, then transcribe and summarize them. Multiple tools are available, and they are already being widely adopted by health-care providers.\nA few months ago, a staffer at a major New York medical center who develops AI tools for doctors told me that, anecdotally, medics are “overjoyed” by the technology—it allows them to focus all their attention on their patients during appointments, and it saves them from a lot of time-consuming paperwork. Early studies support these anecdotes and suggest that the tools can reduce clinician burnout.\nThat’s all well and good. But what about patient health outcomes? “[Researchers] have evaluated provider or clinician and patient satisfaction, but not really how these tools are affecting clinical decision-making,” says Wiens. “We just don’t know.”",
+    "title_zh": "医疗保健人工智能就在这里。我们不知道它是否真的对患者有帮助。",
+    "summary_zh": "我不需要告诉你人工智能无处不在。或者它正在越来越多地在医院中使用。医生正在使用人工智能来帮助他们做笔记。基于人工智能的工具正在搜索患者记录，标记可能需要某些支持或治疗的人。它们也被用来解释",
+    "ai_summary": "我不需要告诉你人工智能无处不在。或者它正在越来越多地在医院中使用。医生正在使用人工智能来帮助他们做笔记。基于人工智能的工…"
+  },
+  {
+    "id": "reddit-1sua4zu",
+    "title": "Canada's AI startup Cohere buys Germany's Aleph Alpha to expand in Europe",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1sua4zu/canadas_ai_startup_cohere_buys_germanys_aleph/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-24T08:51:15",
+    "summary": "Canada's AI startup Cohere buys Germany's Aleph Alpha to expand in Europe",
+    "points": 10,
+    "collected_at": "2026-04-24T09:40:51.287389",
+    "title_zh": "加拿大人工智能初创公司 Cohere 收购德国 Aleph Alpha 以拓展欧洲业务",
+    "summary_zh": "加拿大人工智能初创公司 Cohere 收购德国 Aleph Alpha 以拓展欧洲业务",
+    "ai_summary": "加拿大人工智能初创公司 Cohere 收购德国 Aleph Alpha 以拓展欧洲业务"
+  },
+  {
     "id": "reddit-1su9q5b",
     "title": "Lessons learned building a no-hallucination RAG for Islamic finance similarity gates beat prompt engineering",
     "url": "https://reddit.com/r/artificial/comments/1su9q5b/lessons_learned_building_a_nohallucination_rag/",
@@ -138,6 +233,20 @@
     "title_zh": "为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训胜过即时工程",
     "summary_zh": "为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训击败了即时工程。我在试图分享这一点时一直受到阻碍，所以我将直接切入技术核心。问题是：伊斯兰金融裁决因司法管辖区而异，错误的答案会产生真正的后果。电话",
     "ai_summary": "为伊斯兰金融相似性门构建无幻觉 RAG 的经验教训击败了即时工程。我在试图分享这一点时一直受到阻碍，所以我将直接切入技术…"
+  },
+  {
+    "id": "reddit-1su9yva",
+    "title": "Qwen3.6 35B-A3B is quite useful on 780m iGPU (llama.cpp,vulkan)",
+    "url": "https://reddit.com/r/LocalLLaMA/comments/1su9yva/qwen36_35ba3b_is_quite_useful_on_780m_igpu/",
+    "source": "r/LocalLLaMA",
+    "lang": "en",
+    "published": "2026-04-24T08:40:58",
+    "summary": "I have ThinkPad T14 Gen 5 (8840U, **Radeon 780M**, 64GB DDR5 5600 MT/s ). Tried out the recent Qwen MoE release, and pp/tg speed is good (on vulkan) (250+pp, 20 tg): ~/dev/llama.cpp master* ❯ ./build-vulkan/bin/llama-bench \\ -hf AesSedai/Qwen3.6-35B-A3B-GGUF:Q6_K \\ -fa 1 \\ -ub 1024 \\ -b 1024 \\ -p 10",
+    "points": 14,
+    "collected_at": "2026-04-24T09:21:14.492434",
+    "title_zh": "Qwen3.6 35B-A3B在780m iGPU上非常有用（llama.cpp，vulkan）",
+    "summary_zh": "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 MT/s）。尝试了最近的 Qwen MoE 版本，pp/tg 速度很好（在 vulkan 上）（250+pp，20 tg）…",
+    "ai_summary": "我有 ThinkPad T14 Gen 5（8840U、**Radeon 780M**、64GB DDR5 5600 M…"
   },
   {
     "id": "e6f87f30c26e",
@@ -1023,9 +1132,9 @@
     "content_source": "trafilatura",
     "content_chars": 6307,
     "content_excerpt": "This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology.\nIntroducing: the Nature issue\nWhen we talk about “nature,” we usually mean something untouched by humans. But little of that world exists today.\nFrom microplastics in rainforest wildlife to artificial light in the Arctic Ocean, human influence now reaches every corner of Earth. In this context, what even is nature? And should we employ technology to try to make the world more “natural”?\nIn our new Nature issue, MIT Technology Review grapples with these questions. We investigate birds that can’t sing, wolves that aren’t wolves, and grass that isn’t grass. We look for the meaning of life under Arctic ice, within ourselves, and in the far future on a distant world, courtesy of new fiction by the renowned author Jeff VanderMeer.\nTogether, these stories examine how technology has altered our planet—and how it might be used to repair it. Subscribe now to read the full print issue.\nWhat’s next for large language models?\nAfter ChatGPT launched in late 2022, the OpenAI chatbot became an everyday everything app for hundreds of millions of people. It led to LLMs being heralded as the new future. The entire tech industry was consumed by the inferno, with companies racing to spin up rival products.\nBut what’s the next big thing after LLMs? More LLMs—but better. Let’s call them LLMs+. Find out how they’re set to become cheaper, more efficient, and more powerful.\n—Will Douglas Heaven",
-    "title_zh": "下载：介绍自然问题",
-    "summary_zh": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时，我们通常指的是人类未曾触及的事物。但如今这个世界已所剩无几",
-    "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…"
+    "title_zh": "The Download: introducing the Nature issue",
+    "summary_zh": "MIT Technology Review 这期 The Download 聚焦“自然”议题：在人类活动已渗透地球每个角落的今天，我们该如何重新理解自然，以及技术是否能帮助修复它。",
+    "ai_summary": "MIT Technology Review 这期 The Download 聚焦“自然”议题，讨论技术如何改变自然，也是否可能帮助修复它。"
   },
   {
     "id": "4668d77fec77",
@@ -2026,9 +2135,9 @@
     "content_source": "trafilatura",
     "content_chars": 5469,
     "content_excerpt": "This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology.\nIntroducing: 10 Things That Matter in AI Right Now\nWhat actually matters in AI right now? It’s getting harder to tell amid the constant launches, hype, and warnings. To cut through the noise, MIT Technology Review’s reporters and editors have distilled years of analysis into a new essential guide: the 10 Things That Matter in AI Right Now.\nThe list builds on our annual 10 Breakthrough Technologies, but takes a wider view of the ideas, topics, and research shaping AI, spotlighting the trends and breakthroughs shaping the world.\nWe’ll be unpacking one item from the list each day here in The Download, explaining what it means and why it matters. Read the full rundown now—and stay tuned for the days ahead.\nMIT Technology Review Narrated: desalination plants in the Middle East are increasingly vulnerable\nAs the conflict in Iran has escalated, a crucial resource is under fire: the desalinization technology that supplies water in the region.\nPresident Donald Trump recently threatened to destroy “possibly all desalinization plants” in Iran if the Strait of Hormuz is not reopened. The impact on farming, industry, and—crucially—drinking in the Middle East could be severe. Find out why.\n—Casey Crownhart\nThis is our latest story to be turned into an MIT Technology Review Narrated podcast, which we publish each week on Spotify and Apple Podcasts. Just navigate to MIT Technology Review Narrated on either platform, and follow us to get all our new content as it’s released.",
-    "title_zh": "下载：介绍目前人工智能中最重要的 10 件事",
-    "summary_zh": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：目前人工智能中最重要的 10 件事 目前人工智能中真正重要的是什么？在不断的发布和炒作中，很难说清楚",
-    "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：目前人工智能中最重要的 10…"
+    "title_zh": "The Download: 10 Things That Matter in AI Right Now",
+    "summary_zh": "MIT Technology Review 这期 The Download 总结了当下 AI 最值得关注的 10 个关键问题，试图在密集发布和持续炒作中给出一份更清晰的判断框架。",
+    "ai_summary": "MIT Technology Review 用 The Download 梳理了当下 AI 最值得关注的 10 个关键问题。"
   },
   {
     "id": "ee26631ad0db",

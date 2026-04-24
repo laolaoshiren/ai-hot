@@ -20,7 +20,7 @@ ai_summary = "国产大模型 API 价格战：谁是性价比之王？。"
 summary = "国内大模型价格对比分析"
 summary_zh = ""
 tags = []
-list_page = 23
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

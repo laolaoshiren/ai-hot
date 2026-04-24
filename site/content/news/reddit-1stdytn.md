@@ -1,8 +1,8 @@
 +++
 title = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]"
-description = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓"
+description = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。来源：r/MachineLearning。"
 seo_title = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]｜AI资讯解读 - AI热榜"
-seo_description = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓"
+seo_description = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。来源：r/MachineLearning。"
 seo_keywords = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D], r/MachineLearning, AI新闻, AI资讯, AI热榜"
 slug = "reddit-1stdytn"
 type = "news"
@@ -15,19 +15,19 @@ original_url = "https://reddit.com/r/MachineLearning/comments/1stdytn/first_time
 source = "r/MachineLearning"
 published = "2026-04-23T09:39:11"
 lang = "en"
-intro = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+intro = "First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。来源：r/MachineLearning。"
 ai_summary = ""
 summary = "Ok so this is my first post here, been lurking for a while. I’m about to start my first fine-tuning project and I don’t want to commit to the wrong direction so figured I’d ask. Background on me: I’m not from an ML background, self-taught, been working with LLMs through APIs for about a year. Hit th"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
 First time fine-tuning, need a sanity check — 3B or 7B for multi-task reasoning? [D]。
 
-这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。
+来源：r/MachineLearning。
 
 ## 🔗 原始来源
 

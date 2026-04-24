@@ -1,8 +1,8 @@
 +++
 title = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流"
-description = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流。这条新闻来自 InfoQ AI，站内页优先帮你快速抓住核心变化与影响。"
+description = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流。来源：InfoQ AI。"
 seo_title = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流｜AI资讯解读 - AI热榜"
-seo_description = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流。这条新闻来自 InfoQ AI，站内页优先帮你快速抓住核心变化与影响。"
+seo_description = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流。来源：InfoQ AI。"
 seo_keywords = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流, InfoQ AI, AI新闻, AI资讯, AI热榜"
 slug = "f4aec19a1dc2"
 type = "news"
@@ -15,12 +15,12 @@ original_url = "https://www.infoq.cn/article/JqSF1ckIU0gIx4OOByUD?utm_source=rss
 source = "InfoQ AI"
 published = "2026-04-24T10:11:06"
 lang = "zh"
-intro = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流。这条新闻来自 InfoQ AI，站内页优先帮你快速抓住核心变化与影响。"
+intro = "1850亿美元天价支出、75%代码由AI生成！谷歌正式宣告：全面转向智能体工作流。来源：InfoQ AI。"
 ai_summary = ""
 summary = ""
 summary_zh = ""
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

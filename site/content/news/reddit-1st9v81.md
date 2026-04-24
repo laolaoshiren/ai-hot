@@ -15,7 +15,7 @@ original_url = "https://reddit.com/r/MachineLearning/comments/1st9v81/we_benchma
 source = "r/MachineLearning"
 published = "2026-04-23T05:40:31"
 lang = "en"
-intro = "We benchmarked 18 LLMs on OCR (7k+ calls) — cheaper/old models oftentimes win. Full dataset + framework open-sourced. [R]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+intro = "We benchmarked 18 LLMs on OCR (7k+ calls) — cheaper/old models oftentimes win. Full dataset + framework open-sourced. [R]。来源：r/MachineLearning。"
 ai_summary = ""
 summary = "**TLDR;** We were overpaying for OCR, so we compared flagship models with cheaper and older models. New mini-bench + leaderboard. Free tool to test your own documents. Open Source. We’ve been looking at OCR / document extraction workflows and kept seeing the same pattern: Too many teams are either s"
 summary_zh = ""
@@ -31,7 +31,7 @@ Full dataset + framework open-sourced.
 
 [R]。
 
-这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。
+来源：r/MachineLearning。
 
 ## 🔗 原始来源
 

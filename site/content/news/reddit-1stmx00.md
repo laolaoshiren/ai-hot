@@ -20,7 +20,7 @@ ai_summary = "刚刚看到科学技术政策办公室的这份备忘录。主要
 summary = "Just came across this memo from the Office of Science and Technology Policy. Main point seems to be concern around large-scale extraction of model capabilities using proxy accounts and jailbreak techniques. Basically industrialized distillation of frontier models. Feels like this is less about open"
 summary_zh = "刚刚看到科学技术政策办公室的这份备忘录。主要观点似乎是关于使用代理帐户和越狱技术大规模提取模型功能的担忧。基本上是前沿模型的工业化提炼。感觉这个不太开放"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

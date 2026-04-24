@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-24 17:27:18
+🕐 **最近更新**：2026-04-24 17:48:12
 
 **提供商直达：** [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
 
@@ -16,45 +16,45 @@
 
 ## 🔥 今日热点
 
-1. [“电商龙虾”Accio Work已接入DeepSeek V4、Qwen 3.6等模型](https://aihot.bt199.com/news/abb2b5b24106/)
-   - 36氪获悉，4月24日，DeepSeek V4发布。“电商龙虾”的Accio Work已经接入该模型，成为首批接入DeepSeek V4的Agent工作台之一。
-   - `36氪 · 2026-04-24`
-
-2. [DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片](https://aihot.bt199.com/news/cc004cbe2188/)
+1. [DeepSeek V4终于发布！打破最强闭源垄断，明确携手华为芯片](https://aihot.bt199.com/news/cc004cbe2188/)
    - 在Agent能力、世界知识和推理性能上均实现国内与开源领域的领先。
    - `量子位 · 2026-04-24`
 
-3. [Sierra 收购法国初创公司 Fragment，继续补强企业 AI 工作流能力](https://aihot.bt199.com/news/13d3ab524fe7/)
+2. [Sierra 收购法国初创公司 Fragment，继续补强企业 AI 工作流能力](https://aihot.bt199.com/news/13d3ab524fe7/)
    - Bret Taylor 创办的 Sierra 再下一城，收购 Fragment 加速企业 AI 工作流布局。
    - `TechCrunch AI · 2026-04-23`
 
-4. [Noscroll 想替你刷完信息流：把“刷 X”这件事外包给 AI 代理](https://aihot.bt199.com/news/4dab914eae2b/)
+3. [Noscroll 想替你刷完信息流：把“刷 X”这件事外包给 AI 代理](https://aihot.bt199.com/news/4dab914eae2b/)
    - Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息
    - `TechCrunch AI · 2026-04-23`
 
-5. [商汤绝影发布舱驾一体全场景智能体产品](https://aihot.bt199.com/news/8077d9c800a5/)
+4. [China’s DeepSeek previews new AI model a year after jolting US rivals](https://aihot.bt199.com/news/1e009397c380/)
+   - Chinese AI company DeepSeek released a preview of its hotly anticipated next-gen
+   - `The Verge AI · 2026-04-24`
+
+5. [著名摄影比赛回答“什么是照片？”](https://aihot.bt199.com/news/f35287a4a508/)
+   - 鉴于生成式人工智能如此多产，我们喜欢在 The Verge 思考如何定义“真实”摄影，而世界新闻摄影大赛可能会给出答案…
+   - `The Verge AI · 2026-04-24`
+
+6. [安克创新发布首款存算一体AI芯片Thus™](https://aihot.bt199.com/news/57f55dfd3a79/)
+   - 36氪获悉，近日，安克创新发布首款神经网络存算一体AI音频芯片Thus™。据介绍。该芯片基于NOR Flash技术，原生支持4兆参数模型，实验室测试显示相比传统
+   - `36氪 · 2026-04-24`
+
+7. [商汤绝影发布舱驾一体全场景智能体产品](https://aihot.bt199.com/news/8077d9c800a5/)
    - 36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、
    - `36氪 · 2026-04-24`
 
-6. [Claude 接入 Spotify、Uber Eats 和 TurboTax，Anthropic 开始争夺个人助手入口](https://aihot.bt199.com/news/eadad007fe43/)
-   - Claude 新增一批生活类连接器，开始把 AI 助手从办公场景推向个人日常应用。
-   - `The Verge AI · 2026-04-23`
+8. [医疗保健人工智能就在这里。我们不知道它是否真的对患者有帮助。](https://aihot.bt199.com/news/e34779fe70d8/)
+   - 我不需要告诉你人工智能无处不在。或者它正在越来越多地在医院中使用。医生正在使用人工智能来帮助他们做笔记。基于人工智能的工…
+   - `MIT Tech Review · 2026-04-24`
 
-7. [Anthropic 最危险模型先被黑客摸到，Mythos 泄露把“安全叙事”反噬回去了](https://aihot.bt199.com/news/b9e12d990a83/)
-   - Anthropic 把 Mythos 包装成高危模型，却在灰度阶段先被未授权用户摸到，安全招牌反被打脸。
-   - `The Verge AI · 2026-04-23`
+9. [WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华为小艺大模型加持，预售价 499 元](https://aihot.bt199.com/news/5b7ac6dc804a/)
+   - WIKO推出华为小艺大模型加持的AI电子宠物「智能憨憨」，预售价499元。
+   - `IT之家 · 2026-04-20`
 
-8. [下载：介绍自然问题](https://aihot.bt199.com/news/f10c6db6f9ea/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：自然问题 当我们谈论“自然”时…
-   - `MIT Tech Review · 2026-04-23`
-
-9. [Cursor](https://cursor.sh)
-   - AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力
-   - `热门工具 · 免费 + Pro $20/月`
-
-10. [FLUX](https://blackforestlabs.ai)
-   - 新一代开源图像生成模型，质量超越 SD
-   - `热门工具 · 开源 + 商业 API`
+10. [Coordination Engineering关键一环，JiuwenClaw再发布Team Skills技能新范式](https://aihot.bt199.com/news/6ca1dac2f159/)
+   - 业界首个面向多Agent协作的标准化能力包规范
+   - `量子位 · 2026-04-24`
 
 
 ## 🤖 AI 简报
@@ -139,5 +139,7 @@
 ---
 
 MIT License
+
+
 
 

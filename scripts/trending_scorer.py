@@ -36,7 +36,7 @@ TRUSTED_NEWS_SOURCES = set(SOURCE_WEIGHTS.keys())
 NOISY_NEWS_SOURCES = {"Hacker News AI", "r/LocalLLaMA", "r/MachineLearning", "r/artificial", "V2EX"}
 BAD_DESC_PATTERNS = (
     '点击查看原文', '文章网址：', '评论网址：', 'reddit.com/', 'v2ex.com/', '![图片', '```',
-    'i hope they include it', 'deepseek v4 人'
+    'i hope they include it', 'deepseek v4 人', 'this is today\'s edition of the download', 'introducing: the nature issue'
 )
 
 BREAKING_MODEL_KEYWORDS = {
@@ -127,11 +127,14 @@ def compute_trending():
                 continue
 
             raw_title = n.get("title_zh") or n.get("title") or ""
+            title_en = n.get("title") or ""
             ai_summary = n.get("ai_summary", "") or ""
             summary_zh = n.get("summary_zh", "") or ""
             summary = n.get("summary", "") or ""
             desc = ai_summary or summary_zh or summary
-            low_blob = f"{raw_title} {desc}".lower()
+            low_blob = f"{raw_title} {title_en} {desc}".lower()
+            if title_en.lower().startswith('the download:'):
+                continue
             if any(p in low_blob for p in BAD_DESC_PATTERNS):
                 continue
 
@@ -202,28 +205,9 @@ def compute_trending():
             normal.append(item)
     ranked = breaking + normal
     
-    # 首页今日热点优先展示新闻大事件，工具/项目后置
-    final_list = []
-    type_counts = {"tool": 0, "project": 0, "news": 0, "model": 0}
-    max_per_type = {"tool": 4, "project": 3, "news": 10, "model": 3}
-
-    news_first = [x for x in ranked if x.get('type') == 'news']
-    others = [x for x in ranked if x.get('type') != 'news']
-
-    for item in news_first:
-        if len(final_list) >= 8:
-            break
-        final_list.append(item)
-        type_counts['news'] += 1
-
-    for item in others + news_first[8:]:
-        item_type = item.get("type", "other")
-        if type_counts.get(item_type, 0) < max_per_type.get(item_type, 10):
-            final_list.append(item)
-            type_counts[item_type] = type_counts.get(item_type, 0) + 1
-
-        if len(final_list) >= 20:  # 显示20条
-            break
+    # 首页今日热点只展示新闻大事件，不再混入工具/项目/模型
+    final_list = [x for x in ranked if x.get('type') == 'news'][:10]
+    type_counts = {"tool": 0, "project": 0, "news": len(final_list), "model": 0}
     
     # 添加分类标签
     for item in final_list:
@@ -241,7 +225,7 @@ def compute_trending():
     with open(os.path.join(DATA_DIR, "hot.json"), "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     
-    return f"✅ 生成 {len(final_list)} 条混合热点 (工具:{type_counts['tool']}, 项目:{type_counts['project']}, 新闻:{type_counts['news']}, 模型:{type_counts['model']})"
+    return f"✅ 生成 {len(final_list)} 条新闻热点 (新闻:{type_counts['news']})"
 
 
 if __name__ == "__main__":

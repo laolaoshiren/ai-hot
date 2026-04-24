@@ -1,8 +1,8 @@
 +++
 title = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]"
-description = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+description = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。来源：r/MachineLearning。"
 seo_title = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]｜AI资讯解读 - AI热榜"
-seo_description = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+seo_description = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。来源：r/MachineLearning。"
 seo_keywords = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D], r/MachineLearning, AI新闻, AI资讯, AI热榜"
 slug = "reddit-1ssticc"
 type = "news"
@@ -15,19 +15,19 @@ original_url = "https://reddit.com/r/MachineLearning/comments/1ssticc/emnlp_work
 source = "r/MachineLearning"
 published = "2026-04-22T18:13:02"
 lang = "en"
-intro = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。"
+intro = "EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。来源：r/MachineLearning。"
 ai_summary = ""
 summary = "My paper got rejected from an imaging venue (A\\*) because it lacked clinical validation and was more \"NLP suited\". I'm very disappointed by the decision as the paper had strong methods and key findings suited to the specific venue. I'm thinking of EMNLP next, but I feel it is too NLP and my paper fo"
 summary_zh = ""
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
 EMNLP workshop any good? Or any other NLP venue good for VLM eval work? [D]。
 
-这条新闻来自 r/MachineLearning，站内页优先帮你快速抓住核心变化与影响。
+来源：r/MachineLearning。
 
 ## 🔗 原始来源
 
