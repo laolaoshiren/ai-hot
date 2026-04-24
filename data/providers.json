@@ -97,16 +97,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "DeepSeek V3.2 Speciale",
-      "DeepSeek V3.2",
-      "DeepSeek V3.2 Exp"
+      "DeepSeek V4 Pro",
+      "DeepSeek V4 Flash",
+      "DeepSeek V3.2 Speciale"
     ],
-    "model_count": 11,
-    "last_updated": "2025-12-01",
+    "model_count": 13,
+    "last_updated": "2026-04-24",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 DeepSeek V3.2 Speciale",
+    "live_summary": "OpenRouter 已收录 13 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Pro",
     "provider_kind": "model_author"
   },
   {

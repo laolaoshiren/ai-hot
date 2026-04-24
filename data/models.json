@@ -455,6 +455,31 @@
     "is_core": true
   },
   {
+    "id": "hf-deepseek-ai--DeepSeek-V4-Pro",
+    "name": "deepseek-ai/DeepSeek-V4-Pro",
+    "display_name": "DeepSeek-V4-Pro",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
+    "author": "deepseek-ai",
+    "pipeline_tag": "text-generation",
+    "likes": 1752,
+    "downloads": 30,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "license:mit",
+      "eval-results",
+      "endpoints_compatible",
+      "8-bit",
+      "fp8",
+      "region:us"
+    ],
+    "created_at": "2026-04-22T06:04:45.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-24T07:53:16.472200"
+  },
+  {
     "id": "hf-zai-org--GLM-5.1",
     "name": "zai-org/GLM-5.1",
     "display_name": "GLM-5.1",
@@ -564,6 +589,37 @@
     "collected_at": "2026-04-21T13:07:47.953513",
     "display_priority": 13,
     "is_core": true
+  },
+  {
+    "id": "hf-Qwen--Qwen2.5-7B-Instruct",
+    "name": "Qwen/Qwen2.5-7B-Instruct",
+    "display_name": "Qwen2.5-7B-Instruct",
+    "url": "https://huggingface.co/Qwen/Qwen2.5-7B-Instruct",
+    "author": "Qwen",
+    "pipeline_tag": "text-generation",
+    "likes": 1233,
+    "downloads": 11962459,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen2",
+      "text-generation",
+      "chat",
+      "conversational",
+      "en",
+      "arxiv:2309.00071",
+      "arxiv:2407.10671",
+      "base_model:Qwen/Qwen2.5-7B",
+      "base_model:finetune:Qwen/Qwen2.5-7B",
+      "license:apache-2.0",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "deploy:azure",
+      "region:us"
+    ],
+    "created_at": "2024-09-16T11:55:40.000Z",
+    "source": "hf-text-gen",
+    "collected_at": "2026-04-24T07:53:16.684477"
   },
   {
     "id": "hf-HauhauCS--Qwen3.5-9B-Uncensored-HauhauCS-Aggressive",
@@ -2140,6 +2196,31 @@
     "is_core": true
   },
   {
+    "id": "hf-deepseek-ai--DeepSeek-V4-Flash",
+    "name": "deepseek-ai/DeepSeek-V4-Flash",
+    "display_name": "DeepSeek-V4-Flash",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash",
+    "author": "deepseek-ai",
+    "pipeline_tag": "text-generation",
+    "likes": 397,
+    "downloads": 23,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "deepseek_v4",
+      "text-generation",
+      "license:mit",
+      "eval-results",
+      "endpoints_compatible",
+      "8-bit",
+      "fp8",
+      "region:us"
+    ],
+    "created_at": "2026-04-22T06:04:20.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-24T07:53:16.472216"
+  },
+  {
     "id": "hf-diffusers--stable-diffusion-xl-1.0-inpainting-0.1",
     "name": "diffusers/stable-diffusion-xl-1.0-inpainting-0.1",
     "display_name": "stable-diffusion-xl-1.0-inpainting-0.1",
@@ -2782,6 +2863,25 @@
     "is_core": true
   },
   {
+    "id": "hf-deepseek-ai--DeepSeek-V4-Pro-Base",
+    "name": "deepseek-ai/DeepSeek-V4-Pro-Base",
+    "display_name": "DeepSeek-V4-Pro-Base",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro-Base",
+    "author": "deepseek-ai",
+    "pipeline_tag": "",
+    "likes": 141,
+    "downloads": 3,
+    "tags": [
+      "safetensors",
+      "deepseek_v4",
+      "fp8",
+      "region:us"
+    ],
+    "created_at": "2026-04-22T06:04:35.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-24T07:53:16.472238"
+  },
+  {
     "id": "hf-robbyant--lingbot-map",
     "name": "robbyant/lingbot-map",
     "display_name": "lingbot-map",
@@ -2899,6 +2999,25 @@
     "created_at": "2024-08-30T10:08:03.000Z",
     "source": "hf-text-to-image",
     "collected_at": "2026-04-22T13:10:24.920300"
+  },
+  {
+    "id": "hf-deepseek-ai--DeepSeek-V4-Flash-Base",
+    "name": "deepseek-ai/DeepSeek-V4-Flash-Base",
+    "display_name": "DeepSeek-V4-Flash-Base",
+    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-Base",
+    "author": "deepseek-ai",
+    "pipeline_tag": "",
+    "likes": 100,
+    "downloads": 3,
+    "tags": [
+      "safetensors",
+      "deepseek_v4",
+      "fp8",
+      "region:us"
+    ],
+    "created_at": "2026-04-22T06:03:55.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-24T07:53:16.472248"
   },
   {
     "id": "hf-Alissonerdx--LTX-LoRAs",
@@ -11932,5 +12051,940 @@
     "created_at": "2026-04-24T01:34:05.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-24T01:57:38.435067"
+  },
+  {
+    "id": "hf-ryaluous--LucidMedia25",
+    "name": "ryaluous/LucidMedia25",
+    "display_name": "LucidMedia25",
+    "url": "https://huggingface.co/ryaluous/LucidMedia25",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:53:06.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561659"
+  },
+  {
+    "id": "hf-tomvoelker--t5-absa-plusplus",
+    "name": "tomvoelker/t5-absa-plusplus",
+    "display_name": "t5-absa-plusplus",
+    "url": "https://huggingface.co/tomvoelker/t5-absa-plusplus",
+    "author": "tomvoelker",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:52:11.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561669"
+  },
+  {
+    "id": "hf-Sociovia--sociovia-ai-agentic-cmo",
+    "name": "Sociovia/sociovia-ai-agentic-cmo",
+    "display_name": "sociovia-ai-agentic-cmo",
+    "url": "https://huggingface.co/Sociovia/sociovia-ai-agentic-cmo",
+    "author": "Sociovia",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "arxiv:1706.06978",
+      "arxiv:2407.04491",
+      "arxiv:2302.01523",
+      "arxiv:1804.07931",
+      "arxiv:2304.00902",
+      "arxiv:2312.17503",
+      "arxiv:2204.11588",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:52:03.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561673"
+  },
+  {
+    "id": "hf-Karim369330--showcase-tnt-services-fr",
+    "name": "Karim369330/showcase-tnt-services-fr",
+    "display_name": "showcase-tnt-services-fr",
+    "url": "https://huggingface.co/Karim369330/showcase-tnt-services-fr",
+    "author": "Karim369330",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:51:49.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561676"
+  },
+  {
+    "id": "hf-kozawlinoo--xray-shielding-model",
+    "name": "kozawlinoo/xray-shielding-model",
+    "display_name": "xray-shielding-model",
+    "url": "https://huggingface.co/kozawlinoo/xray-shielding-model",
+    "author": "kozawlinoo",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:51:24.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561678"
+  },
+  {
+    "id": "hf-AngelRaychev--qwen3-0.6b-sciq-v5",
+    "name": "AngelRaychev/qwen3-0.6b-sciq-v5",
+    "display_name": "qwen3-0.6b-sciq-v5",
+    "url": "https://huggingface.co/AngelRaychev/qwen3-0.6b-sciq-v5",
+    "author": "AngelRaychev",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3",
+      "text-generation",
+      "conversational",
+      "arxiv:1910.09700",
+      "text-generation-inference",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:51:00.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561681"
+  },
+  {
+    "id": "hf-geocketa--ThuckMaBaws",
+    "name": "geocketa/ThuckMaBaws",
+    "display_name": "ThuckMaBaws",
+    "url": "https://huggingface.co/geocketa/ThuckMaBaws",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:50:51.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561684"
+  },
+  {
+    "id": "hf-Hodfa71--saga-da-6b7-delta-dpo-klsft-antihack",
+    "name": "Hodfa71/saga-da-6b7-delta-dpo-klsft-antihack",
+    "display_name": "saga-da-6b7-delta-dpo-klsft-antihack",
+    "url": "https://huggingface.co/Hodfa71/saga-da-6b7-delta-dpo-klsft-antihack",
+    "author": "Hodfa71",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "gpt2",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:50:15.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561686"
+  },
+  {
+    "id": "hf-Hodfa71--saga-is-llama1b-delta-dpo-klsft-antihack",
+    "name": "Hodfa71/saga-is-llama1b-delta-dpo-klsft-antihack",
+    "display_name": "saga-is-llama1b-delta-dpo-klsft-antihack",
+    "url": "https://huggingface.co/Hodfa71/saga-is-llama1b-delta-dpo-klsft-antihack",
+    "author": "Hodfa71",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "llama",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:50:08.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561689"
+  },
+  {
+    "id": "hf-Lixing-Li--CALYREX-8B-SQUAD-LATE8TH",
+    "name": "Lixing-Li/CALYREX-8B-SQUAD-LATE8TH",
+    "display_name": "CALYREX-8B-SQUAD-LATE8TH",
+    "url": "https://huggingface.co/Lixing-Li/CALYREX-8B-SQUAD-LATE8TH",
+    "author": "Lixing-Li",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "calyrex",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:59.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561692"
+  },
+  {
+    "id": "hf-mlx-community--deepseek-ai-DeepSeek-V4-Flash-6bit",
+    "name": "mlx-community/deepseek-ai-DeepSeek-V4-Flash-6bit",
+    "display_name": "deepseek-ai-DeepSeek-V4-Flash-6bit",
+    "url": "https://huggingface.co/mlx-community/deepseek-ai-DeepSeek-V4-Flash-6bit",
+    "author": "mlx-community",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:56.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561694"
+  },
+  {
+    "id": "hf-donate110--vocence-parler-base",
+    "name": "donate110/vocence-parler-base",
+    "display_name": "vocence-parler-base",
+    "url": "https://huggingface.co/donate110/vocence-parler-base",
+    "author": "donate110",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:38.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561696"
+  },
+  {
+    "id": "hf-Deepdive404--Kimi-K2.6-GGUF",
+    "name": "Deepdive404/Kimi-K2.6-GGUF",
+    "display_name": "Kimi-K2.6-GGUF",
+    "url": "https://huggingface.co/Deepdive404/Kimi-K2.6-GGUF",
+    "author": "Deepdive404",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "gguf",
+      "compressed-tensors",
+      "unsloth",
+      "kimi_k25",
+      "image-text-to-text",
+      "arxiv:2602.02276",
+      "base_model:moonshotai/Kimi-K2.6",
+      "base_model:quantized:moonshotai/Kimi-K2.6",
+      "license:other",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ],
+    "created_at": "2026-04-24T07:49:37.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561699"
+  },
+  {
+    "id": "hf-Hodfa71--saga-is-llama8b-delta-dpo-klsft-antihack",
+    "name": "Hodfa71/saga-is-llama8b-delta-dpo-klsft-antihack",
+    "display_name": "saga-is-llama8b-delta-dpo-klsft-antihack",
+    "url": "https://huggingface.co/Hodfa71/saga-is-llama8b-delta-dpo-klsft-antihack",
+    "author": "Hodfa71",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "llama",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:36.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561702"
+  },
+  {
+    "id": "hf-Hodfa71--saga-is-356m-delta-dpo-nosft-antihack",
+    "name": "Hodfa71/saga-is-356m-delta-dpo-nosft-antihack",
+    "display_name": "saga-is-356m-delta-dpo-nosft-antihack",
+    "url": "https://huggingface.co/Hodfa71/saga-is-356m-delta-dpo-nosft-antihack",
+    "author": "Hodfa71",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "gpt2",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:30.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561704"
+  },
+  {
+    "id": "hf-ryaluous--n0404n0404445",
+    "name": "ryaluous/n0404n0404445",
+    "display_name": "n0404n0404445",
+    "url": "https://huggingface.co/ryaluous/n0404n0404445",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:24.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561706"
+  },
+  {
+    "id": "hf-Hodfa71--saga-is-1b3-delta-dpo-klsft-antihack",
+    "name": "Hodfa71/saga-is-1b3-delta-dpo-klsft-antihack",
+    "display_name": "saga-is-1b3-delta-dpo-klsft-antihack",
+    "url": "https://huggingface.co/Hodfa71/saga-is-1b3-delta-dpo-klsft-antihack",
+    "author": "Hodfa71",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "gpt2",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:23.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561708"
+  },
+  {
+    "id": "hf-Hodfa71--saga-is-6b7-delta-dpo-klsft-antihack",
+    "name": "Hodfa71/saga-is-6b7-delta-dpo-klsft-antihack",
+    "display_name": "saga-is-6b7-delta-dpo-klsft-antihack",
+    "url": "https://huggingface.co/Hodfa71/saga-is-6b7-delta-dpo-klsft-antihack",
+    "author": "Hodfa71",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "gpt2",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:49:01.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561710"
+  },
+  {
+    "id": "hf-ermiaazarkhalili--LFM2.5-350M-Function-Calling-xLAM-Unsloth",
+    "name": "ermiaazarkhalili/LFM2.5-350M-Function-Calling-xLAM-Unsloth",
+    "display_name": "LFM2.5-350M-Function-Calling-xLAM-Unsloth",
+    "url": "https://huggingface.co/ermiaazarkhalili/LFM2.5-350M-Function-Calling-xLAM-Unsloth",
+    "author": "ermiaazarkhalili",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "lfm2",
+      "text-generation",
+      "text-generation-inference",
+      "unsloth",
+      "conversational",
+      "en",
+      "base_model:LiquidAI/LFM2.5-350M",
+      "base_model:finetune:LiquidAI/LFM2.5-350M",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:48:51.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561713"
+  },
+  {
+    "id": "hf-geozgz--RS-HyRe-R1",
+    "name": "geozgz/RS-HyRe-R1",
+    "display_name": "RS-HyRe-R1",
+    "url": "https://huggingface.co/geozgz/RS-HyRe-R1",
+    "author": "geozgz",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:48:39.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561715"
+  },
+  {
+    "id": "hf-Hero38--Tre-cool-Green-Day-2004-2015-RVC",
+    "name": "Hero38/Tre-cool-Green-Day-2004-2015-RVC",
+    "display_name": "Tre-cool-Green-Day-2004-2015-RVC",
+    "url": "https://huggingface.co/Hero38/Tre-cool-Green-Day-2004-2015-RVC",
+    "author": "Hero38",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:48:09.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561717"
+  },
+  {
+    "id": "hf-ryaluous--YA01",
+    "name": "ryaluous/YA01",
+    "display_name": "YA01",
+    "url": "https://huggingface.co/ryaluous/YA01",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:59.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561720"
+  },
+  {
+    "id": "hf-antony-zhao--lehome-baseline",
+    "name": "antony-zhao/lehome-baseline",
+    "display_name": "lehome-baseline",
+    "url": "https://huggingface.co/antony-zhao/lehome-baseline",
+    "author": "antony-zhao",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "safetensors",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:59.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561722"
+  },
+  {
+    "id": "hf-Fornix-AS--nb-whisper-medium",
+    "name": "Fornix-AS/nb-whisper-medium",
+    "display_name": "nb-whisper-medium",
+    "url": "https://huggingface.co/Fornix-AS/nb-whisper-medium",
+    "author": "Fornix-AS",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:54.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561724"
+  },
+  {
+    "id": "hf-rahulvrane--Qwen3.6-27B-bioinformatics",
+    "name": "rahulvrane/Qwen3.6-27B-bioinformatics",
+    "display_name": "Qwen3.6-27B-bioinformatics",
+    "url": "https://huggingface.co/rahulvrane/Qwen3.6-27B-bioinformatics",
+    "author": "rahulvrane",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:37.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561727"
+  },
+  {
+    "id": "hf-geocketa--PONIYA",
+    "name": "geocketa/PONIYA",
+    "display_name": "PONIYA",
+    "url": "https://huggingface.co/geocketa/PONIYA",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:30.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561729"
+  },
+  {
+    "id": "hf-geocketa--enter741852963",
+    "name": "geocketa/enter741852963",
+    "display_name": "enter741852963",
+    "url": "https://huggingface.co/geocketa/enter741852963",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:26.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561731"
+  },
+  {
+    "id": "hf-ryaluous--Turtle_Djinn",
+    "name": "ryaluous/Turtle_Djinn",
+    "display_name": "Turtle_Djinn",
+    "url": "https://huggingface.co/ryaluous/Turtle_Djinn",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:19.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561734"
+  },
+  {
+    "id": "hf-shashankm401--new_example_model",
+    "name": "shashankm401/new_example_model",
+    "display_name": "new_example_model",
+    "url": "https://huggingface.co/shashankm401/new_example_model",
+    "author": "shashankm401",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:11.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561736"
+  },
+  {
+    "id": "hf-gguk2on--llama3.1-8B-rlar_g8_b384_math",
+    "name": "gguk2on/llama3.1-8B-rlar_g8_b384_math",
+    "display_name": "llama3.1-8B-rlar_g8_b384_math",
+    "url": "https://huggingface.co/gguk2on/llama3.1-8B-rlar_g8_b384_math",
+    "author": "gguk2on",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:09.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561738"
+  },
+  {
+    "id": "hf-ryaluous--Elaphterios",
+    "name": "ryaluous/Elaphterios",
+    "display_name": "Elaphterios",
+    "url": "https://huggingface.co/ryaluous/Elaphterios",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:47:08.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561740"
+  },
+  {
+    "id": "hf-pirola--moe-compression-workflow",
+    "name": "pirola/moe-compression-workflow",
+    "display_name": "moe-compression-workflow",
+    "url": "https://huggingface.co/pirola/moe-compression-workflow",
+    "author": "pirola",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:46:55.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561743"
+  },
+  {
+    "id": "hf-hiskiv--sweep_cube_rollouts",
+    "name": "hiskiv/sweep_cube_rollouts",
+    "display_name": "sweep_cube_rollouts",
+    "url": "https://huggingface.co/hiskiv/sweep_cube_rollouts",
+    "author": "hiskiv",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:46:47.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561745"
+  },
+  {
+    "id": "hf-geocketa--Geerira",
+    "name": "geocketa/Geerira",
+    "display_name": "Geerira",
+    "url": "https://huggingface.co/geocketa/Geerira",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:46:35.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561747"
+  },
+  {
+    "id": "hf-geocketa--redsh",
+    "name": "geocketa/redsh",
+    "display_name": "redsh",
+    "url": "https://huggingface.co/geocketa/redsh",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:46:17.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561749"
+  },
+  {
+    "id": "hf-Grounded-R1--full-grpo",
+    "name": "Grounded-R1/full-grpo",
+    "display_name": "full-grpo",
+    "url": "https://huggingface.co/Grounded-R1/full-grpo",
+    "author": "Grounded-R1",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:46:02.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561752"
+  },
+  {
+    "id": "hf-Grounded-R1--full-ppo",
+    "name": "Grounded-R1/full-ppo",
+    "display_name": "full-ppo",
+    "url": "https://huggingface.co/Grounded-R1/full-ppo",
+    "author": "Grounded-R1",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:45:50.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561754"
+  },
+  {
+    "id": "hf-cstr--omniASR-CTC-1B-GGUF",
+    "name": "cstr/omniASR-CTC-1B-GGUF",
+    "display_name": "omniASR-CTC-1B-GGUF",
+    "url": "https://huggingface.co/cstr/omniASR-CTC-1B-GGUF",
+    "author": "cstr",
+    "pipeline_tag": "automatic-speech-recognition",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "gguf",
+      "ggml",
+      "audio",
+      "speech-recognition",
+      "transcription",
+      "omniasr",
+      "wav2vec2",
+      "ctc",
+      "automatic-speech-recognition",
+      "en",
+      "de",
+      "fr",
+      "es",
+      "ja",
+      "ko",
+      "zh",
+      "ar",
+      "hi",
+      "pt",
+      "ru",
+      "multilingual",
+      "arxiv:2502.10219",
+      "base_model:facebook/omniASR-CTC-1B",
+      "base_model:quantized:facebook/omniASR-CTC-1B",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:45:50.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561756"
+  },
+  {
+    "id": "hf-sevoh--m-gguf",
+    "name": "sevoh/m-gguf",
+    "display_name": "m-gguf",
+    "url": "https://huggingface.co/sevoh/m-gguf",
+    "author": "sevoh",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "gguf",
+      "gemma4",
+      "llama.cpp",
+      "unsloth",
+      "vision-language-model",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ],
+    "created_at": "2026-04-24T07:45:46.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561758"
+  },
+  {
+    "id": "hf-kreslotim--nanoVLM-222M",
+    "name": "kreslotim/nanoVLM-222M",
+    "display_name": "nanoVLM-222M",
+    "url": "https://huggingface.co/kreslotim/nanoVLM-222M",
+    "author": "kreslotim",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "nanovlm",
+      "safetensors",
+      "vision-language",
+      "multimodal",
+      "smollm2",
+      "siglip",
+      "en",
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:45:37.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561760"
+  },
+  {
+    "id": "hf-ryaluous--Arbusyss",
+    "name": "ryaluous/Arbusyss",
+    "display_name": "Arbusyss",
+    "url": "https://huggingface.co/ryaluous/Arbusyss",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:45:26.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561762"
+  },
+  {
+    "id": "hf-geocketa--Barauwu",
+    "name": "geocketa/Barauwu",
+    "display_name": "Barauwu",
+    "url": "https://huggingface.co/geocketa/Barauwu",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:45:21.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561765"
+  },
+  {
+    "id": "hf-kenonix--AWAXIS-Think-28B-Q4_K_M-GGUF",
+    "name": "kenonix/AWAXIS-Think-28B-Q4_K_M-GGUF",
+    "display_name": "AWAXIS-Think-28B-Q4_K_M-GGUF",
+    "url": "https://huggingface.co/kenonix/AWAXIS-Think-28B-Q4_K_M-GGUF",
+    "author": "kenonix",
+    "pipeline_tag": "text-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "gguf",
+      "korean",
+      "korean-sft",
+      "korean-lora",
+      "reasoning",
+      "thinking",
+      "darwin",
+      "qwen3.5",
+      "qwen3.6",
+      "hybrid-attention",
+      "linear-attention",
+      "evolutionary-merge",
+      "k-ai-leaderboard",
+      "anserwise",
+      "llama-cpp",
+      "gguf-my-repo",
+      "text-generation",
+      "ko",
+      "en",
+      "zh",
+      "ja",
+      "multilingual",
+      "base_model:Anserwise/AWAXIS-Think-28B",
+      "base_model:merge:Anserwise/AWAXIS-Think-28B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ],
+    "created_at": "2026-04-24T07:45:01.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561767"
+  },
+  {
+    "id": "hf-Grounded-R1--episode-semantic-grpo",
+    "name": "Grounded-R1/episode-semantic-grpo",
+    "display_name": "episode-semantic-grpo",
+    "url": "https://huggingface.co/Grounded-R1/episode-semantic-grpo",
+    "author": "Grounded-R1",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:59.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561769"
+  },
+  {
+    "id": "hf-gradients-io-tournaments--tournament-tourn_840501444ab0f631_20260423-33c1ac1d-9d25-4467-9f74-16dd160410ac-5GU4Xkd3",
+    "name": "gradients-io-tournaments/tournament-tourn_840501444ab0f631_20260423-33c1ac1d-9d25-4467-9f74-16dd160410ac-5GU4Xkd3",
+    "display_name": "tournament-tourn_840501444ab0f631_20260423-33c1ac1d-9d25-4467-9f74-16dd160410ac-5GU4Xkd3",
+    "url": "https://huggingface.co/gradients-io-tournaments/tournament-tourn_840501444ab0f631_20260423-33c1ac1d-9d25-4467-9f74-16dd160410ac-5GU4Xkd3",
+    "author": "gradients-io-tournaments",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:57.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561772"
+  },
+  {
+    "id": "hf-ryaluous--awnufx",
+    "name": "ryaluous/awnufx",
+    "display_name": "awnufx",
+    "url": "https://huggingface.co/ryaluous/awnufx",
+    "author": "ryaluous",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:37.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561774"
+  },
+  {
+    "id": "hf-Grounded-R1--episode-semantic-ppo",
+    "name": "Grounded-R1/episode-semantic-ppo",
+    "display_name": "episode-semantic-ppo",
+    "url": "https://huggingface.co/Grounded-R1/episode-semantic-ppo",
+    "author": "Grounded-R1",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:36.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561777"
+  },
+  {
+    "id": "hf-geocketa--FusionCow",
+    "name": "geocketa/FusionCow",
+    "display_name": "FusionCow",
+    "url": "https://huggingface.co/geocketa/FusionCow",
+    "author": "geocketa",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:09.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561779"
+  },
+  {
+    "id": "hf-Fornix-AS--nb-whisper-small",
+    "name": "Fornix-AS/nb-whisper-small",
+    "display_name": "nb-whisper-small",
+    "url": "https://huggingface.co/Fornix-AS/nb-whisper-small",
+    "author": "Fornix-AS",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:07.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561781"
+  },
+  {
+    "id": "hf-Deepdive404--gemma-4-E4B-it",
+    "name": "Deepdive404/gemma-4-E4B-it",
+    "display_name": "gemma-4-E4B-it",
+    "url": "https://huggingface.co/Deepdive404/gemma-4-E4B-it",
+    "author": "Deepdive404",
+    "pipeline_tag": "any-to-any",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "gemma4",
+      "image-text-to-text",
+      "any-to-any",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-24T07:44:03.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-24T07:53:16.561783"
   }
 ]
