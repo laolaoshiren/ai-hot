@@ -741,32 +741,7 @@
     "id": "zenmux",
     "name": "ZenMux",
     "url": "https://zenmux.ai/invite/16U6FF",
-<<<<<<< HEAD
-    "logo": "🧩",
-=======
     "logo": "⚡",
-    "models": [
-      "DeepSeek V4"
-    ],
-    "type": "国产聚合",
-    "pricing": "免费",
-    "api": true,
-    "source": "manual",
-    "latest_models": [
-      "DeepSeek V4"
-    ],
-    "model_count": 0,
-    "last_updated": "",
-    "modalities": [],
-    "live_summary": "免费使用 DeepSeek V4，新用户上手快，适合先体验再选平台",
-    "provider_kind": "platform"
-  },
-  {
-    "id": "siliconflow",
-    "name": "硅基流动",
-    "url": "https://cloud.siliconflow.cn/i/Ngl1oB14",
-    "logo": "💎",
->>>>>>> 96c45977 (置顶 ZenMux 并补充 README 提供商直达)
     "models": [
       "DeepSeek V4"
     ],
@@ -781,6 +756,27 @@
     "last_updated": "",
     "modalities": [],
     "live_summary": "平台型提供商，当前可免费使用 DeepSeek V4",
+    "provider_kind": "platform"
+  },
+  {
+    "id": "siliconflow",
+    "name": "硅基流动",
+    "url": "https://cloud.siliconflow.cn/i/Ngl1oB14",
+    "logo": "💎",
+    "models": [
+      "开源模型集群"
+    ],
+    "type": "国产聚合",
+    "pricing": "超低价/免费",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "开源模型集群"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
     "provider_kind": "platform"
   },
   {
