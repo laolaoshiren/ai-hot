@@ -558,6 +558,27 @@
     "provider_kind": "platform"
   },
   {
+    "id": "zenmux",
+    "name": "ZenMux",
+    "url": "https://zenmux.ai/invite/16U6FF",
+    "logo": "🧩",
+    "models": [
+      "DeepSeek V4"
+    ],
+    "type": "聚合",
+    "pricing": "免费使用 DeepSeek V4",
+    "api": true,
+    "source": "manual",
+    "latest_models": [
+      "DeepSeek V4"
+    ],
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "平台型提供商，当前可免费使用 DeepSeek V4",
+    "provider_kind": "platform"
+  },
+  {
     "id": "xiaomi",
     "name": "小米 MiMo",
     "url": "https://openrouter.ai/xiaomi",
