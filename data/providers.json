@@ -961,16 +961,14 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "inclusionAI: Ling-2.6-1T (free)",
       "inclusionAI: Ling-2.6-flash (free)"
     ],
-    "model_count": 2,
-    "last_updated": "2026-04-23",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 inclusionAI: Ling-2.6-1T (free)"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]

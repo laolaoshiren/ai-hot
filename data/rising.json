@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23T19:02:30.894931+00:00",
+  "updated_at": "2026-04-24T01:58:15.635154+00:00",
   "window_days": 30,
   "candidate_count": 3,
   "items": [
@@ -26,7 +26,7 @@
       "created_at": "2026-04-03T09:28:47.000Z",
       "window_days": 30,
       "openrouter_available": false,
-      "score": 4614.2104002847245,
+      "score": 4549.813902819031,
       "reason": "智谱新一代通用模型线，近期关注度明显抬头"
     },
     {

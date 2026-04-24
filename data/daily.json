@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-04-23T19:02:31.026344",
-  "date": "2026-04-23",
+  "updated_at": "2026-04-24T01:58:15.726315",
+  "date": "2026-04-24",
   "spotlight": {
-    "id": "豆包",
-    "name": "豆包",
-    "url": "https://www.doubao.com",
+    "id": "通义千问",
+    "name": "通义千问",
+    "url": "https://tongyi.aliyun.com",
     "type": "tool",
-    "description": "字节跳动出品的 AI 助手，功能全面",
-    "pricing": "免费",
+    "description": "阿里巴巴出品的 AI 助手",
+    "pricing": "免费 + API 按量",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "LangGraph",
-      "url": "https://github.com/langchain-ai/langgraph",
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
       "type": "agent",
-      "description": "LangChain出品的有状态Agent编排框架",
+      "description": "让AI控制浏览器的Agent框架，Python实现",
       "pricing": "开源免费",
-      "category": "多 Agent"
+      "category": "浏览器 Agent"
     },
     {
-      "id": "codex-cli",
-      "name": "Codex CLI",
-      "url": "https://github.com/openai/codex",
+      "id": "codeium",
+      "name": "Codeium",
+      "url": "https://codeium.com",
       "type": "tool",
-      "description": "OpenAI 官方终端编程助手，轻量快速",
-      "pricing": "按 API 使用量计费",
+      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
+      "pricing": "个人免费 + Teams $12/月",
       "category": "编程"
     },
     {
-      "name": "OpenClaw",
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
       "type": "agent",
-      "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
-      "pricing": "开源免费",
+      "description": "Nous Research 开源 AI Agent 框架，支持 Telegram/Discord/CLI，内置记忆和技能系统",
+      "pricing": "开源 + API费用",
       "category": "助手 Agent"
     }
   ]
