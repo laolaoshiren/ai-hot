@@ -8,7 +8,7 @@
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
 🕐 **最近更新**：2026-04-24 18:10:22
 
-**提供商直达：** [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
+**提供商直达：** [ZenMux｜免费用 DeepSeek V4，打开就能试](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)
 
 **立即进入：** [首页完整版](https://aihot.bt199.com/) · [搜索 AI 工具 / 模型 / 新闻](https://aihot.bt199.com/search/) · [查看全部工具](https://aihot.bt199.com/tools/) · [查看模型榜](https://aihot.bt199.com/models/) · [查看 Agent 专区](https://aihot.bt199.com/agents/)
 
