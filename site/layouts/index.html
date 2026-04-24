@@ -201,8 +201,8 @@
         {{ end }}
     </div>
 
-    <!-- 分类入口 -->
-    <div class="card">
+    <!-- 分类入口（暂时隐藏，保留代码方便后续恢复） -->
+    <div class="card home-hidden-block" style="display:none">
         <div class="card-title">📂 分类导航</div>
         <div style="display:flex;flex-wrap:wrap;gap:8px">
             <a href="{{ relURL "/tools/" }}" class="tag">🛠️ AI工具 ({{ len site.Data.tools }})</a>
@@ -213,15 +213,15 @@
         </div>
     </div>
 
-    <!-- 随机发现 -->
-    <div class="card">
+    <!-- 随机发现（暂时隐藏，保留代码方便后续恢复） -->
+    <div class="card home-hidden-block" style="display:none">
         <div class="card-title">🎲 随机发现</div>
         <button class="random-btn" onclick="randomTool()">🎲 点我换个工具</button>
         <div id="randomResult" style="margin-top:12px"></div>
     </div>
 
-    <!-- 每日签到 -->
-    <div class="card" style="border-left:3px solid var(--green)">
+    <!-- 每日签到（暂时隐藏，保留代码方便后续恢复） -->
+    <div class="card home-hidden-block" style="display:none;border-left:3px solid var(--green)">
         <div class="card-title">📅 每日签到</div>
         <div id="checkinStatus" style="margin-bottom:12px">
             <button id="checkinBtn" onclick="dailyCheckin()" style="width:100%;padding:12px;background:var(--accent);border:none;border-radius:8px;color:white;font-size:14px;font-weight:600;cursor:pointer;transition:all 0.2s">
@@ -280,12 +280,12 @@
         <div class="card-title">🔑 热搜关键词</div>
         {{ $seo := site.Data.seo }}
         {{ if $seo }}
-            <div style="display:flex;flex-wrap:wrap;gap:6px">
+            <div class="homepage-hot-keywords" style="display:flex;flex-wrap:wrap;gap:3px">
                 {{ range $seo.hot_keywords }}
-                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag" style="background:rgba(255,107,53,0.15);color:var(--accent)">{{ . }}</a>
+                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag homepage-hot-keyword homepage-hot-keyword-accent">{{ . }}</a>
                 {{ end }}
                 {{ range first 8 $seo.homepage_keywords }}
-                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag">{{ . }}</a>
+                <a href="{{ relURL "/search/" }}?q={{ . | urlquery }}" class="tag homepage-hot-keyword">{{ . }}</a>
                 {{ end }}
             </div>
             <div style="font-size:12px;color:var(--text3);margin-top:10px">点击关键词可直达站内搜索结果</div>
