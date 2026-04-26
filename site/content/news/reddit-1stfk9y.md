@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Hi everyone, I’ve been working on optimizing a transformer-based neural network for both inference speed and model size, but I feel like I’ve hit a plateau and would appreciate some guidance. So far I’ve converted weights to FP16 (about 2× size reduction), exported and optimized with ONNX Runtime fo"
 summary_zh = ""
 tags = []
-list_page = 9
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

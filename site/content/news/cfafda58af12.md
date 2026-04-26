@@ -20,7 +20,7 @@ ai_summary = "Anthropic内部同时推进百余产品原型，新模型Mythos表
 summary = "100个产品原型同时跑、新模型Mythos断层领先，连skills效果都好到让团队意外：Anthropic内部到底在发生什么？"
 summary_zh = ""
 tags = []
-list_page = 20
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

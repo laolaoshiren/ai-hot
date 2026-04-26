@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Kinda suprises me how little discussion there is around about mistakes in streaming TTS models People look for natural readers, high voice quality, expressive speech. And most models don't look dumb here and fail. They fail when you give them basic stuff like price, dates, URLs, promo codes, phone n"
 summary_zh = ""
 tags = []
-list_page = 14
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,39 +1,47 @@
 +++
-title = "Claude 开始接入 Spotify、Uber 和报税工具，Anthropic 想把助手入口从办公桌延伸到日常生活"
-description = "Anthropic 把 Claude 的连接器扩到生活类 App，开始正面争夺个人助手入口。"
-seo_title = "Claude 开始接入 Spotify、Uber 和报税工具，Anthropic 想把助手入口从办公桌延伸到日常生活｜AI资讯解读 - AI热榜"
-seo_description = "Anthropic 把 Claude 的连接器扩到生活类 App，开始正面争夺个人助手入口。"
-seo_keywords = "Claude 开始接入 Spotify、Uber 和报税工具，Anthropic 想把助手入口从办公桌延伸到日常生活, The Verge AI, AI新闻, AI资讯, AI热榜"
+title = "Claude 正在直接连接到您的个人应用程序，例如 Spotify、Uber Eats 和 TurboTax"
+description = "得益于从远足到杂货购物等各种应用的新连接器，Claude 用户现在可以通过 Anthropic 的 AI 访问更多应用程…"
+seo_title = "Claude 正在直接连接到您的个人应用程序，例如 Spotify、Uber Eats 和 TurboTax｜AI资讯解读 - AI热榜"
+seo_description = "得益于从远足到杂货购物等各种应用的新连接器，Claude 用户现在可以通过 Anthropic 的 AI 访问更多应用程…"
+seo_keywords = "Claude 正在直接连接到您的个人应用程序，例如 Spotify、Uber Eats 和 TurboTax, The Verge AI, AI新闻, AI资讯, AI热榜"
 slug = "eadad007fe43"
 type = "news"
 
 [params]
 id = "eadad007fe43"
-name = "Claude 开始接入 Spotify、Uber 和报税工具，Anthropic 想把助手入口从办公桌延伸到日常生活"
+name = "Claude 正在直接连接到您的个人应用程序，例如 Spotify、Uber Eats 和 TurboTax"
 title_en = "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax"
 original_url = "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors"
 source = "The Verge AI"
 published = "2026-04-23T22:27:11"
 lang = "en"
-intro = "Anthropic 把 Claude 的连接器扩到生活类 App，开始正面争夺个人助手入口。"
-ai_summary = "Anthropic 把 Claude 的连接器扩到生活类 App，开始正面争夺个人助手入口。"
+intro = "得益于从远足到杂货购物等各种应用的新连接器，Claude 用户现在可以通过 Anthropic 的 AI 访问更多应用程…"
+ai_summary = "得益于从远足到杂货购物等各种应用的新连接器，Claude 用户现在可以通过 Anthropic 的 AI 访问更多应用程…"
 summary = "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber"
-summary_zh = "Anthropic 为 Claude 增加 Spotify、Uber、Instacart、TurboTax、AllTrails 等个人应用连接器，重点已不再是企业办公整合，而是让用户在对话里直接调用日常服务。它想证明 Claude 不只是工作助手，也能成为覆盖消费、出行和生活决策的常驻入口。"
+summary_zh = "得益于从远足到杂货购物等各种应用的新连接器，Claude 用户现在可以通过 Anthropic 的 AI 访问更多应用程序。 Anthropic 已经支持将众多与工作相关的应用程序连接到 Claude，例如 Microsoft 应用程序，但…"
 tags = []
-list_page = 5
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-Anthropic 正在把 Claude 从“工作场景里好用的聊天助手”往前再推一步：不只帮你写文档、查资料、接企业软件，还开始直接连接你日常会用到的 Spotify、Uber、Instacart、TurboTax、AllTrails 等个人应用。
+Claude users can access more apps with Anthropic’s AI now thanks to new connectors for everything from hiking to grocery shopping.
 
-这一步的意义不在于又多了几个 App 名单，而在于 Claude 的角色开始变化。此前 Anthropic 的连接器更多集中在办公和知识工作工具，逻辑是帮助白领把分散在企业软件里的信息拉进一段对话里；现在它想争的是另一层入口——当用户在生活里做选择、消费、出行甚至处理报税事务时，Claude 能不能成为那个第一时间被打开的界面。
+Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax, and others.
+Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax
+Anthropic says the new app connectors are available to all Claude users, “with mobile in beta.”
+Anthropic says the new app connectors are available to all Claude users, “with mobile in beta.”
+Some of these apps, such as Spotify, already have similar connectors in OpenAI’s ChatGPT.
 
-如果这个方向成立，AI 助手的竞争方式也会随之变化。未来比拼的就不只是模型能否回答得更好，而是能不能在你真正要行动的时候，接得上合适的服务。比如问一次徒步路线，Claude 不只是给你建议，还能顺手调出 AllTrails；聊到晚餐安排，不只是推荐餐厅，还能衔接 Uber Eats 或预订服务。
+Once an app is connected, Claude will suggest relevant connected apps directly in your conversations, like using AllTrails for hike recommendations.
 
-Anthropic 这次也特意强调了几个敏感点：连接数据不会被拿去训练模型，App 也看不到你和 Claude 的其他对话；当涉及下单、预订等动作时，Claude 会要求用户确认。这些设计本质上是在提前回应一个现实问题——当 AI 越来越像操作系统层的助手，隐私边界和操作责任就必须讲清楚。
+Anthropic notes in its blog post announcing the new connectors that, “Your data from [connected apps] isn’t used to train our models, and the app doesn’t see your other conversations with Claude.
 
-从产品竞争看，这也说明 Anthropic 不想把 Claude 限定在“企业里很好用”的位置。OpenAI、Google 甚至马斯克口中的超级应用路线，本质上都在争一个问题：谁能把聊天、搜索、行动和外部服务连接到一起，做成用户持续停留的主入口。Anthropic 现在的动作，显然也是在往这个方向靠。
+You can also disconnect it at any time.”
+Additionally, Anthropic says “there are no paid placements or sponsored answers in conversations with Claude.” When multiple apps seem relevant, Claude will show results from both “ranked by what’s most useful.” Claude will also ask users to verify before taking actions like making a purchase or reservation using a connected app.
+The new connectors are available now on all Claude plans.
+
+Users can browse or add apps in Claude by selecting “connectors” in the “customize” tab on the Claude sidebar.
 
 ## 🔗 原始来源
 

@@ -20,12 +20,21 @@ ai_summary = ""
 summary = "Ollama adds DeepSeek-V3 support"
 summary_zh = "Ollama 增加 DeepSeek-V3 支持"
 tags = []
-list_page = 24
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-Ollama 增加 DeepSeek-V3 支持
+Start building with open models.
+curl -fsSL https://ollama.com/install.sh | sh
+irm https://ollama.com/install.ps1 | iex
+curl -fsSL https://ollama.com/install.sh | sh
+The official Ollama Docker image ollama/ollama
+is available on Docker Hub.
+ollama
+You'll be prompted to run a model or connect Ollama to your existing agents or applications such as Claude Code
+, OpenClaw
+, OpenCode
 
 ## 🔗 原始来源
 
