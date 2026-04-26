@@ -90,35 +90,6 @@ def zh_fast_read_fallback(title_zh, source):
     return title_zh
 
 
-def looks_bad_zh_title(title_zh: str, title_en: str, source: str, lang: str) -> bool:
-    title_zh = single_line(title_zh)
-    title_en = single_line(title_en)
-    if not title_zh:
-        return True
-    low = title_zh.lower()
-    if title_zh in {'下载：介绍自然问题', '下载：介绍目前人工智能中最重要的 10 件事'}:
-        return True
-    if title_zh.startswith('下载：'):
-        return True
-    if lang.lower() == 'en' and source == 'MIT Tech Review' and title_en.lower().startswith('the download:'):
-        return True
-    if title_zh == title_en and lang.lower() == 'en' and mostly_ascii(title_zh):
-        return True
-    if '点击查看原文' in low:
-        return True
-    return False
-
-
-def choose_display_title(item):
-    title = item.get('title') or ''
-    title_zh = item.get('title_zh') or ''
-    source = item.get('source', '')
-    lang = item.get('lang', '')
-    if looks_bad_zh_title(title_zh, title, source, lang):
-        return single_line(title) or single_line(title_zh) or 'AI 新闻'
-    return single_line(title_zh) or single_line(title) or 'AI 新闻'
-
-
 def build_intro(item, title_zh, source):
     ai_summary = clean_summary(item.get('ai_summary') or '')
     summary_zh = clean_summary(item.get('summary_zh') or '')
@@ -141,7 +112,7 @@ def build_page(item, list_page=1):
     news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
     slug = item.get('slug') or news_id
     title = item.get('title') or slug
-    title_zh = choose_display_title(item)
+    title_zh = item.get('title_zh') or title
     source = item.get('source', '')
     published = item.get('published', '')
     url = item.get('url', '')
@@ -154,7 +125,7 @@ def build_page(item, list_page=1):
     tags = item.get('tags') or []
     intro = single_line(build_intro(item, title_zh, source))
     seo_title = single_line(f'{title_zh}｜AI资讯解读 - AI热榜')
-    seo_description = single_line(intro[:120] if intro else title_zh)
+    seo_description = single_line(intro[:120] if intro else f'{title_zh}：AI热榜整理的中文快读版，帮你快速了解这条 AI 新闻的重点。')
 
     raw_body = item.get('rewrite_body') or item.get('article_body') or item.get('content_rewrite') or item.get('content_excerpt') or item.get('content_text') or ''
     raw_body = str(raw_body or '').replace('\r', '\n')
