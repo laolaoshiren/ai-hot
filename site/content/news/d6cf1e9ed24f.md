@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Cursor was on track to close a $2 billion funding round this week but chose to halt discussions after SpaceX offered a $10 billion \"collaboration fee\" and a path to a $60 billion acquisition."
 summary_zh = ""
 tags = []
-list_page = 9
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

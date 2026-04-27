@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 
 summary = "Article URL: https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro Comments URL: https://news.ycombinator.com/item?id=47885014 Points: 149 # Comments: 14"
 summary_zh = "文章网址：https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro 评论网址：https://news.ycombinator.com/item?id=47885014 积分：149 # 评论：1…"
 tags = []
-list_page = 2
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

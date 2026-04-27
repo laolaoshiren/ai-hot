@@ -20,7 +20,7 @@ ai_summary = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问
 summary = "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you."
 summary_zh = "Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息"
 tags = []
-list_page = 4
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

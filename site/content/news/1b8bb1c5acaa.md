@@ -20,7 +20,7 @@ ai_summary = "洛杉矶当之无愧地被誉为典型的汽车之城——宽阔
 summary = "Los Angeles deserves its reputation as the quintessential car city—the rhythms of its 2,200 square miles are dictated by wide boulevards and concrete arcs of freeways. But it once had a world-class rail transit system, and for the last three decades, the city has been rebuilding a network of trolley"
 summary_zh = "洛杉矶当之无愧地被誉为典型的汽车之城——宽阔的林荫大道和混凝土弧形高速公路决定了其 2,200 平方英里的节奏。但它曾经拥有世界一流的轨道交通系统，在过去的三十年里，这座城市一直在重建无轨电车网络"
 tags = []
-list_page = 11
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

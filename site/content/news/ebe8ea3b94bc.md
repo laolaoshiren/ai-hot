@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://webmatrices.com/post/how-a-roblox-cheat-and
 summary = "Article URL: https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform Comments URL: https://news.ycombinator.com/item?id=47844431 Points: 277 # Comments: 148"
 summary_zh = "文章网址：https://webmatrices.com/post/how-a-roblox-cheat-and-one-ai-tool-brought-down-vercel-s-entire-platform 评论网址：https://…"
 tags = []
-list_page = 17
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

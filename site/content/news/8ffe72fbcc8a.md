@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "百万Token要降到1分钱"
 summary_zh = ""
 tags = []
-list_page = 5
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->
