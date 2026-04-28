@@ -6,10 +6,17 @@ on:
     paths:
       - 'site/**'
       - 'data/**'
+  workflow_run:
+    workflows: ["6-Hour AI Data Aggregation"]
+    types: [completed]
   workflow_dispatch:
 
 jobs:
   deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    concurrency:
+      group: ai-hot-pages-deploy
+      cancel-in-progress: true
     runs-on: ubuntu-latest
     permissions:
       contents: write
