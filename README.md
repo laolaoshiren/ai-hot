@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-24 18:10:22
+🕐 **最近更新**：2026-04-28 18:18:52
 
 **提供商直达：** [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,45 +16,45 @@
 
 ## 🔥 今日热点
 
-1. [FlagOS 抢先完成 DeepSeek-V4-Flash 八芯片适配，国产多算力部署门槛再降](https://aihot.bt199.com/news/03d71421f6c9/)
-   - FlagOS 把 DeepSeek-V4-Flash 首批跑通到八款芯片上，重点突破了跨芯算子、并行切分和精度转换。
-   - `InfoQ AI · 2026-04-24`
+1. [OpenAI ends Microsoft legal peril over its $50B Amazon deal](https://aihot.bt199.com/news/cd10cd32bf8a/)
+   - OpenAI has won major concessions from its largest shareholder, Microsoft, that w
+   - `TechCrunch AI · 2026-04-27`
 
-2. [PPIO首批上线DeepSeek-V4预览版，1M超长上下文能力开箱即用](https://aihot.bt199.com/news/faef9f79c93e/)
-   - 开源SOTA大模型能力一键直达
-   - `量子位 · 2026-04-24`
+2. [DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data](https://aihot.bt199.com/news/7b2e4a2048b5/)
+   - Ineffable Intelligence, a British AI lab founded a mere few months ago by former
+   - `TechCrunch AI · 2026-04-27`
 
-3. [Sierra 收购法国初创公司 Fragment，继续补强企业 AI 工作流能力](https://aihot.bt199.com/news/13d3ab524fe7/)
-   - Bret Taylor 创办的 Sierra 再下一城，收购 Fragment 加速企业 AI 工作流布局。
-   - `TechCrunch AI · 2026-04-23`
+3. [氪星晚报｜我国最大规模AI4S集群接入全国一体化算力网；亚马逊低地轨道卫星计划又一批卫星发射升空；我国首款正向设计自转旋翼机完成首飞](https://aihot.bt199.com/news/73027d47477c/)
+   - 大公司： 拒买新闻就交税，澳洲拟向科技巨头征约2%营收税 澳大利亚政府公布法案草案，拟对Meta、谷歌等科技巨头征收新税，除非这些平台自愿与当地新闻机构签署付费
+   - `36氪 · 2026-04-28`
 
-4. [Noscroll 想替你刷完信息流：把“刷 X”这件事外包给 AI 代理](https://aihot.bt199.com/news/4dab914eae2b/)
-   - Noscroll 希望通过人工智能机器人来解决厄运卷轴问题，该机器人可以为你读取互联网信息
-   - `TechCrunch AI · 2026-04-23`
+4. [工业富联：第一季度净利润105.95亿元，同比增长102.55%](https://aihot.bt199.com/news/66907460892c/)
+   - 36氪获悉，工业富联发布2026年一季度业绩报告。报告显示，2026年第一季度营业收入2510.78亿元，同比增长56.52%。净利润105.95亿元，同比增长
+   - `36氪 · 2026-04-28`
 
-5. [DeepSeek 放出 V4 预览版：一年后再度冲击美国 AI 对手，这次还把华为兼容性摆上台面](https://aihot.bt199.com/news/1e009397c380/)
-   - DeepSeek 预览 V4，新模型继续主打编码与开放能力，同时首次把对华为生态的兼容性作为重要信号放出来。
-   - `The Verge AI · 2026-04-24`
+5. [AI 引发选举领域反弹：民众信任度持续走低](https://aihot.bt199.com/news/314fefba7e73/)
+   - 调查显示多数美国人担忧AI在选举中的应用，信任危机加剧
+   - `The Verge AI · 2026-04-28`
 
-6. [著名摄影比赛回答“什么是照片？”](https://aihot.bt199.com/news/f35287a4a508/)
-   - 鉴于生成式人工智能如此多产，我们喜欢在 The Verge 思考如何定义“真实”摄影，而世界新闻摄影大赛可能会给出答案…
-   - `The Verge AI · 2026-04-24`
+6. [Google is testing AI chatbot search for YouTube](https://aihot.bt199.com/news/f0f9e683648b/)
+   - Google is trying out an AI Mode-like search experience for YouTube. The company 
+   - `The Verge AI · 2026-04-28`
 
-7. [安克创新发布首款存算一体AI芯片Thus™](https://aihot.bt199.com/news/57f55dfd3a79/)
-   - 36氪获悉，近日，安克创新发布首款神经网络存算一体AI音频芯片Thus™。据介绍。该芯片基于NOR Flash技术，原生支持4兆参数模型，实验室测试显示相比传统
-   - `36氪 · 2026-04-24`
+7. [Elon Musk and Sam Altman are going to court over OpenAI’s future](https://aihot.bt199.com/news/370be1499991/)
+   - After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to
+   - `MIT Tech Review · 2026-04-27`
 
-8. [商汤绝影发布舱驾一体全场景智能体产品](https://aihot.bt199.com/news/8077d9c800a5/)
-   - 36氪获悉，4月24日，商汤绝影正式发布面向舱驾一体全场景智能体的智能座舱与智能驾驶全系智能体产品，包括Sage Box（千机智盒）、NR-UniAD 2.0、
-   - `36氪 · 2026-04-24`
+8. [The missing step between hype and profit](https://aihot.bt199.com/news/c4880d927b46/)
+   - This story originally appeared in The Algorithm, our weekly newsletter on AI. To
+   - `MIT Tech Review · 2026-04-27`
 
-9. [医疗保健人工智能就在这里。我们不知道它是否真的对患者有帮助。](https://aihot.bt199.com/news/e34779fe70d8/)
-   - 我不需要告诉你人工智能无处不在。或者它正在越来越多地在医院中使用。医生正在使用人工智能来帮助他们做笔记。基于人工智能的工…
-   - `MIT Tech Review · 2026-04-24`
+9. [Why are top university websites serving porn? It comes down to shoddy housekeeping.](https://aihot.bt199.com/news/632dd6a22f8e/)
+   - Hundreds of subdomains from dozens of universities have been hijacked by scammer
+   - `Ars Technica AI · 2026-04-24`
 
-10. [WIKO 情感陪伴 AI 电子宠物“智能憨憨”蜂窝版上市：华为小艺大模型加持，预售价 499 元](https://aihot.bt199.com/news/5b7ac6dc804a/)
-   - WIKO推出华为小艺大模型加持的AI电子宠物「智能憨憨」，预售价499元。
-   - `IT之家 · 2026-04-20`
+10. [Microsoft issues emergency update for macOS and Linux ASP.NET threat](https://aihot.bt199.com/news/ee206c36cfa4/)
+   - When authentication fails, things can go very, very wrong.
+   - `Ars Technica AI · 2026-04-22`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,7 @@
 ---
 
 MIT License
+
 
 
 

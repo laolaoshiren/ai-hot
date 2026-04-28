@@ -1,39 +1,40 @@
 {
-  "updated_at": "2026-04-24T10:08:43.127587",
-  "date": "2026-04-24",
+  "updated_at": "2026-04-28T10:17:32.999223",
+  "date": "2026-04-28",
   "spotlight": {
-    "name": "Research Agent Llm",
-    "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
-    "type": "agent",
-    "description": "",
-    "pricing": "开源免费",
-    "category": "研究 Agent"
+    "id": "claude-code",
+    "name": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "type": "tool",
+    "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+    "pricing": "按 API 使用量计费",
+    "category": "编程"
   },
   "alternates": [
     {
-      "id": "vllm",
-      "name": "vLLM",
-      "url": "https://github.com/vllm-project/vllm",
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
       "type": "tool",
-      "description": "高性能 LLM 推理引擎，PagedAttention",
+      "description": "终端内的AI结对编程工具，支持多文件编辑",
       "pricing": "开源免费",
-      "category": "推理引擎"
+      "category": "编程"
     },
     {
-      "name": "PydanticAI",
-      "url": "https://github.com/pydantic/pydantic-ai",
+      "name": "Inkos",
+      "url": "https://github.com/Narcooo/inkos",
       "type": "agent",
-      "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
+      "pricing": "免费开源",
+      "category": "创作 Agent"
     },
     {
-      "name": "Bua",
-      "url": "https://github.com/nottelabs/bua",
+      "name": "Autodidact",
+      "url": "https://github.com/dCaples/AutoDidact",
       "type": "agent",
-      "description": "Browser using agent (bua) notte model on any browser environment",
+      "description": "Autonomously train research-agent LLMs on custom data using reinforcement learning and self-verifica",
       "pricing": "开源免费",
-      "category": "浏览器 Agent"
+      "category": "研究 Agent"
     }
   ]
 }

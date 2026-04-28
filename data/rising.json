@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-24T10:08:42.002493+00:00",
+  "updated_at": "2026-04-28T10:17:32.774073+00:00",
   "window_days": 30,
-  "candidate_count": 3,
+  "candidate_count": 5,
   "items": [
     {
       "id": "github-1201656210",
@@ -12,7 +12,7 @@
       "stars": 48439,
       "created_at": "2026-04-05T01:12:07Z",
       "window_days": 30,
-      "score": 6383.586025684339,
+      "score": 5461.010891167891,
       "reason": "最近值得点开的开源 AI 项目"
     },
     {
@@ -26,7 +26,7 @@
       "created_at": "2026-04-03T09:28:47.000Z",
       "window_days": 30,
       "openrouter_available": false,
-      "score": 4476.121221919997,
+      "score": 3759.812178230443,
       "reason": "智谱新一代通用模型线，近期关注度明显抬头"
     },
     {
@@ -41,6 +41,18 @@
       "reason": "你的个人AI助手，跨平台、全功能。Any OS, Any Platform"
     },
     {
+      "id": "github-1201173969",
+      "name": "caveman",
+      "url": "https://github.com/JuliusBrussee/caveman",
+      "description": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens by talking like caveman",
+      "type": "project",
+      "stars": 48643,
+      "created_at": "2026-04-04T10:03:00Z",
+      "window_days": 30,
+      "score": 5332.854802961888,
+      "reason": "最近值得点开的开源 AI 项目"
+    },
+    {
       "id": "github-1201476594",
       "name": "career-ops",
       "url": "https://github.com/santifer/career-ops",
@@ -49,7 +61,7 @@
       "stars": 36873,
       "created_at": "2026-04-04T18:21:18Z",
       "window_days": 30,
-      "score": 5300.118718215167,
+      "score": 4479.466958291226,
       "reason": "基于 Claude Code 的求职自动化工作流系统"
     }
   ]

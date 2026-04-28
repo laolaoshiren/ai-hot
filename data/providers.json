@@ -15,17 +15,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "GPT-5.4 Image 2",
-      "GPT-5.4 Nano",
-      "GPT-5.4 Mini"
+      "GPT-5.5 Pro",
+      "GPT-5.5",
+      "GPT-5.4 Image 2"
     ],
-    "model_count": 62,
-    "last_updated": "2026-04-21",
+    "model_count": 64,
+    "last_updated": "2026-04-24",
     "modalities": [
-      "多模态",
-      "音频"
+      "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 62 个该作者/厂商相关模型，最近更新为 GPT-5.4 Image 2",
+    "live_summary": "OpenRouter 已收录 64 个该作者/厂商相关模型，最近更新为 GPT-5.5 Pro",
     "provider_kind": "model_author"
   },
   {
@@ -123,16 +122,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Qwen3.6 Plus",
-      "Qwen3.5-9B",
-      "Qwen3.5-35B-A3B"
+      "Qwen3.5 Plus 2026-04-20",
+      "Qwen3.6 Flash",
+      "Qwen3.6 35B A3B"
     ],
-    "model_count": 48,
-    "last_updated": "2026-04-02",
+    "model_count": 53,
+    "last_updated": "2026-04-27",
     "modalities": [
-      "视频"
+      "视频",
+      "文本"
     ],
-    "live_summary": "OpenRouter 已收录 48 个该作者/厂商相关模型，最近更新为 Qwen3.6 Plus",
+    "live_summary": "OpenRouter 已收录 53 个该作者/厂商相关模型，最近更新为 Qwen3.5 Plus 2026-04-20",
     "provider_kind": "model_author"
   },
   {
@@ -830,8 +830,8 @@
     "model_count": 0,
     "last_updated": "",
     "modalities": [],
-    "live_summary": "平台型提供商，当前可免费使用 DeepSeek V4",
-    "provider_kind": "platform"
+    "live_summary": "站内手工维护，待补充实时模型索引",
+    "provider_kind": "manual"
   },
   {
     "id": "siliconflow",
@@ -991,5 +991,82 @@
     "modalities": [],
     "live_summary": "平台型提供商，展示的是接入能力与生态，不直接等同于某个模型作者",
     "provider_kind": "platform"
+  },
+  {
+    "id": "~anthropic",
+    "name": "Anthropic Claude Haiku Latest",
+    "url": "https://openrouter.ai/~anthropic",
+    "logo": "🆕",
+    "models": [
+      "Anthropic Claude Haiku Latest",
+      "Anthropic Claude Sonnet Latest",
+      "Claude Opus Latest"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "Anthropic Claude Haiku Latest",
+      "Anthropic Claude Sonnet Latest",
+      "Claude Opus Latest"
+    ],
+    "model_count": 3,
+    "last_updated": "2026-04-27",
+    "modalities": [
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 3 个该作者/厂商相关模型，最近更新为 Anthropic Claude Haiku Latest"
+  },
+  {
+    "id": "~openai",
+    "name": "OpenAI GPT Mini Latest",
+    "url": "https://openrouter.ai/~openai",
+    "logo": "🆕",
+    "models": [
+      "OpenAI GPT Mini Latest",
+      "OpenAI GPT Latest"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "OpenAI GPT Mini Latest",
+      "OpenAI GPT Latest"
+    ],
+    "model_count": 2,
+    "last_updated": "2026-04-27",
+    "modalities": [
+      "多模态"
+    ],
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 OpenAI GPT Mini Latest"
+  },
+  {
+    "id": "~google",
+    "name": "Google Gemini Pro Latest",
+    "url": "https://openrouter.ai/~google",
+    "logo": "🆕",
+    "models": [
+      "Google Gemini Pro Latest",
+      "Google Gemini Flash Latest"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "Google Gemini Pro Latest",
+      "Google Gemini Flash Latest"
+    ],
+    "model_count": 2,
+    "last_updated": "2026-04-27",
+    "modalities": [
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Google Gemini Pro Latest"
   }
 ]
