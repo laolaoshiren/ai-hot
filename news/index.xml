@@ -80,7 +80,8 @@ TOP3大新闻
 &lt;p&gt;那么，世界模型的下一个突破在哪？&lt;/p&gt;
 &lt;p&gt;Agent 从 Demo 到工程化还差什么？&lt;/p&gt;
 &lt;p&gt;研发体系不重构，还能撑多久？&lt;/p&gt;
-&lt;p&gt;6 月 26 日-6 月 27 日，AICon全球人工智能开发与应用大会将在上海举办。&lt;/p&gt;</description></item><item><title>Agentic AI systems violate the implicit assumptions of database design</title><link>https://aihot.bt199.com/news/81f31c4edbbd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/81f31c4edbbd/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;6 月 26 日-6 月 27 日，AICon全球人工智能开发与应用大会将在上海举办。&lt;/p&gt;</description></item><item><title>Agent 控制层开始分化：Anthropic、OpenAI、微软和谷歌正在押注四种收费模式</title><link>https://aihot.bt199.com/news/ca1e53a86983/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ca1e53a86983/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;AI 代理的竞争正在从“模型能不能调用工具”推进到“谁来负责长期运行”。文章所说的控制层（harness）指的是模型之外的一整套生产系统：上下文管理、工具路由、沙箱执行、会话状态、权限边界、错误恢复、可观测性和追踪。&lt;/p&gt;</description></item><item><title>Agentic AI systems violate the implicit assumptions of database design</title><link>https://aihot.bt199.com/news/81f31c4edbbd/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/81f31c4edbbd/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Agentic AI systems violate the implicit assumptions of database design。&lt;/p&gt;
 &lt;p&gt;来源：Hacker News AI。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -265,14 +266,7 @@ which it also announced it acquired in late March
 &lt;p&gt;来源：Hacker News。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://www.canirun.ai/"&gt;Hacker News原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Canonical 在 Ubuntu Linux 上制定了人工智能计划</title><link>https://aihot.bt199.com/news/5c286e0b1694/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5c286e0b1694/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;One of the most popular Linux distributions is about to get an influx of AI features.&lt;/p&gt;
-&lt;p&gt;As reported by Phoronix, Jon Seager, VP of engineering at Ubuntu developer Canonical, shared a blog post on Monday detailing plans to add AI features to the Linux distro over the next year.&lt;/p&gt;
-&lt;p&gt;As the post states, the AI features “will come in two forms: first as a means of enhancing existing OS functionality with AI models in the background, and latterly in the form of ‘AI native’ features and workflows for those who want them.”
-Canonical lays out a plan for AI in Ubuntu Linux
-Canonical plans to add AI features ‘throughout 2026’ but says ‘Ubuntu is not becoming an AI product.’
-Canonical plans to add AI features ‘throughout 2026’ but says ‘Ubuntu is not becoming an AI product.’
-These features will range from accessibility tools like improved speech-to-text and text-to-speech to agentic AI features for tasks like troubleshooting or personal automation.&lt;/p&gt;</description></item><item><title>Canva 在其人工智能工具取代设计中的“巴勒斯坦”后道歉</title><link>https://aihot.bt199.com/news/01d2196eff05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/01d2196eff05/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://www.canirun.ai/"&gt;Hacker News原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Canva 在其人工智能工具取代设计中的“巴勒斯坦”后道歉</title><link>https://aihot.bt199.com/news/01d2196eff05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/01d2196eff05/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Canva 的一项新人工智能功能被发现取代了设计中的“巴勒斯坦”一词。&lt;/p&gt;
 &lt;p&gt;Magic Layers 功能 - 旨在将平面图…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -286,15 +280,8 @@ These features will range from accessibility tools like improved speech-to-text 
 &lt;p&gt;“Claude 正在自掘坟墓。&lt;/p&gt;
 &lt;p&gt;它自认为是 AI 公司中的苹果。&lt;/p&gt;
 &lt;p&gt;”
-“Claude AI，你们无缘无故封掉了我们整个组织，涉及 60 多个属于正规公司的账号，却没有给出任何解释。&lt;/p&gt;</description></item><item><title>Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境</title><link>https://aihot.bt199.com/news/807ab81e66ad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/807ab81e66ad/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;Cloudflare 在其
-Agents Week
-活动中宣布，Sandboxes 和 Cloudflare Containers
-正式上线
-，为 AI 代理工作负载提供隔离的持久化 Linux 环境。&lt;/p&gt;
-&lt;p&gt;该服务于
-去年 6 月首次推出测试版
-，此次正式版发布新增了安全凭证注入、PTY 终端支持、持久化代码解释器、文件系统监听、基于快照的会话恢复，以及按实际使用周期计费的 Active CPU 定价机制。&lt;/p&gt;</description></item><item><title>Cloudflare 推出 Think，要把 AI Agent 从“会话”变成“常驻进程”</title><link>https://aihot.bt199.com/news/1b93d299fb9e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/1b93d299fb9e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+“Claude AI，你们无缘无故封掉了我们整个组织，涉及 60 多个属于正规公司的账号，却没有给出任何解释。&lt;/p&gt;</description></item><item><title>Cloudflare Sandboxes 正式上线：给 AI 代理一套可持久化的隔离 Linux 环境</title><link>https://aihot.bt199.com/news/807ab81e66ad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/807ab81e66ad/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Cloudflare 在 Agents Week 上把 Sandboxes 和 Cloudflare Containers 推向正式版，定位是给 AI 代理工作负载使用的隔离、持久化 Linux 环境。相比早期测试版，它不再只是一个临时代码执行容器，而更像一套可被代理长期使用的云端开发环境。&lt;/p&gt;</description></item><item><title>Cloudflare 推出 Think，要把 AI Agent 从“会话”变成“常驻进程”</title><link>https://aihot.bt199.com/news/1b93d299fb9e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/1b93d299fb9e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Cloudflare 发布 Think，真正想解决的是今天大多数 AI Agent 框架的一个结构性短板：代理能聊天、能编排，但一旦任务很长、平台重启或者执行被打断，很多状态其实都保不住。&lt;/p&gt;</description></item><item><title>ComfyUI hits $500M valuation as creators seek more control over AI-generated media</title><link>https://aihot.bt199.com/news/cfe7bb1f35cf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/cfe7bb1f35cf/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;ComfyUI hits $500M valuation as creators seek more control over AI-generated media。&lt;/p&gt;
 &lt;p&gt;来源：TechCrunch AI。&lt;/p&gt;
@@ -320,9 +307,8 @@ Agents Week
 &lt;p&gt;如果这是常态的话，我不想惹恼组织者，但我们还有大约 5 周的时…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/"&gt;r/MachineLearning原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DeepMind 的 David Silver 刚刚筹集了 1.1B 美元来构建无需人类数据即可学习的人工智能</title><link>https://aihot.bt199.com/news/7b2e4a2048b5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/7b2e4a2048b5/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;Ineffable Intelligence, a British AI lab founded a mere few months ago by former DeepMind researcher David Silver, has raised $1.1 billion in funding at a valuation of $5.1 billion to join the race for novel AI models that could outperform large language models.
-According to its newly launched site, Ineffable aims to create a “superlearner” capable of discovering knowledge and skills without relying on human data by leveraging reinforcement learning — a technique in which AI systems learn through trial and error rather than studying human-generated examples.&lt;/p&gt;</description></item><item><title>DeepSeek previews new AI model that ‘closes the gap’ with frontier models</title><link>https://aihot.bt199.com/news/b188ee617d05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/b188ee617d05/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://reddit.com/r/MachineLearning/comments/1sx6vlm/cvpr_workshop_decisions_d/"&gt;r/MachineLearning原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>DeepMind 强化学习核心人物创业：David Silver 融资 11 亿美元押注“无人工数据”AI</title><link>https://aihot.bt199.com/news/7b2e4a2048b5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/7b2e4a2048b5/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;前 DeepMind 研究员 David Silver 创办的 Ineffable Intelligence 刚成立数月，就完成 11 亿美元融资，估值达到 51 亿美元。投资方包括红杉资本、Lightspeed、Index Ventures、Google、Nvidia，以及英国相关主权 AI 资金。&lt;/p&gt;</description></item><item><title>DeepSeek previews new AI model that ‘closes the gap’ with frontier models</title><link>https://aihot.bt199.com/news/b188ee617d05/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/b188ee617d05/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;DeepSeek previews new AI model that ‘closes the gap’ with frontier models。&lt;/p&gt;
 &lt;p&gt;来源：TechCrunch AI。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -685,16 +671,13 @@ As human society has expanded, animals have started struggling to hear one anoth
 &lt;p&gt;从 The Verge 的报道看，GPT-5.5 的核心卖点可以概括成两句话：一是更省 token，二是更会把事情做完。&lt;/p&gt;
 &lt;p&gt;OpenAI 对这代模型的描述已经明显偏离传统聊天机器人话术，重点落在编写和调试代码、联网研究、文档和表格处理，以及跨工具协作上。换句话说，它想证明自己不只是“回答更像人”，而是能在真实工作流里承担更多执行环节。&lt;/p&gt;</description></item><item><title>OpenAI 发布 GPT-5.5：押注更强编程与智能体执行</title><link>https://aihot.bt199.com/news/45e1d92c87d9/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/45e1d92c87d9/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;OpenAI 这次发布 GPT-5.5，重点已经不是“更聪明一点”，而是把模型继续往可执行的工作代理方向推。官方给它的定位很明确：更会写和调代码、更擅长在多个工具之间切换，也更适合处理需要连续规划和检查结果的复杂任务。&lt;/p&gt;</description></item><item><title>OpenAI 给图像生成器加上联网与推理，单条提示词开始能产出整组图片</title><link>https://aihot.bt199.com/news/dfa2e3606ed8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/dfa2e3606ed8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;如果说过去的 AI 画图工具更像“抽一张盲盒图”，那 OpenAI 这次更新想做的是一整套可控的视觉生产能力。按照 The Verge 的说法，新的 GPT Image 2 在开启 thinking 模式后，不仅能生成图片，还能联网查找信息、读取上传文件，并在生成前先推理图片结构。它不再只是根据一句话随机出图，而是开始理解“我要做成什么样的内容”。&lt;/p&gt;</description></item><item><title>OpenAI 结束了微软因其 500 亿美元亚马逊交易而面临的法律风险</title><link>https://aihot.bt199.com/news/cd10cd32bf8a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/cd10cd32bf8a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;On Monday, Microsoft and OpenAI announced that they have, once again, renegotiated the deal binding the two companies.&lt;/p&gt;
-&lt;p&gt;Despite some opinions on X that frame it as a victory for the ChatGPT maker over the Windows giant, both sides are walking away winners.
-Most importantly, the new terms solve an issue that was hanging over OpenAI’s head since it signed its up-to-$50-billion deal with Amazon.
-With this new deal, instead of Microsoft having exclusive access to all of OpenAI’s products and IP until the magical day when OpenAI produces AGI, its partnership has a definitive timeline.&lt;/p&gt;</description></item><item><title>OpenAI 可能会用人工智能代理取代应用程序来制造手机</title><link>https://aihot.bt199.com/news/d26cae5cca28/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d26cae5cca28/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;如果说过去的 AI 画图工具更像“抽一张盲盒图”，那 OpenAI 这次更新想做的是一整套可控的视觉生产能力。按照 The Verge 的说法，新的 GPT Image 2 在开启 thinking 模式后，不仅能生成图片，还能联网查找信息、读取上传文件，并在生成前先推理图片结构。它不再只是根据一句话随机出图，而是开始理解“我要做成什么样的内容”。&lt;/p&gt;</description></item><item><title>OpenAI 可能会用人工智能代理取代应用程序来制造手机</title><link>https://aihot.bt199.com/news/d26cae5cca28/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d26cae5cca28/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;关于 OpenAI 的硬件计划有很多传言，其中涉及推出一对耳机。&lt;/p&gt;
 &lt;p&gt;行业分析师郭明池的一份新报告表明，这家人工智能公司可能正…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/"&gt;TechCrunch AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>OpenAI 正式发布 GPT-5.5：从“回答问题”继续迈向“替你把工作做完”</title><link>https://aihot.bt199.com/news/67eef0dd333b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/67eef0dd333b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://techcrunch.com/2026/04/27/openai-could-be-making-a-phone-with-ai-agents-replacing-apps/"&gt;TechCrunch AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>OpenAI 与微软重谈协议：500 亿美元 AWS 合作的法律风险被拆掉了</title><link>https://aihot.bt199.com/news/cd10cd32bf8a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/cd10cd32bf8a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;OpenAI 和微软再次修改了双方的合作协议。表面上看，这是 OpenAI 摆脱微软独家约束的一步；但从新条款看，双方都拿到了自己最需要的东西：OpenAI 获得更多云分发自由，微软则锁定了长期授权和 Azure 大客户关系。&lt;/p&gt;</description></item><item><title>OpenAI 正式发布 GPT-5.5：从“回答问题”继续迈向“替你把工作做完”</title><link>https://aihot.bt199.com/news/67eef0dd333b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/67eef0dd333b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;OpenAI 对 GPT-5.5 的官方描述，已经很少再围绕“更聪明”“更会答题”展开，而是把重点放在另一件事上：它能不能真正替人把电脑上的工作做下去。&lt;/p&gt;
 &lt;p&gt;从发布内容看，GPT-5.5 被明确强化在编程、调试、在线研究、数据分析、文档表格处理和跨工具操作上。OpenAI 想强调的是，用户不必再把任务拆得极细，而是可以直接交给模型一个混乱、模糊、分多步的目标，让它自己规划、调用工具、检查结果，并在出现不确定性时继续往前推进。&lt;/p&gt;</description></item><item><title>Optimizing Transformer model size &amp; inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]</title><link>https://aihot.bt199.com/news/reddit-1stfk9y/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1stfk9y/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Optimizing Transformer model size &amp;amp; inference beyond FP16 + ONNX (pruning/graph opt didn’t help much) [P]。&lt;/p&gt;
@@ -865,7 +848,9 @@ We’ll be unpacking one item from the list each day here in The Download, expla
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
 &lt;a href="https://reddit.com/r/LocalLLaMA/comments/1swwns0/turboocr_update_layout_model_multilingual/"&gt;r/LocalLLaMA原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>UAI 2026 审阅等候处 [D]</title><link>https://aihot.bt199.com/news/reddit-1stfkms/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1stfkms/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;一个分享你的想法、祈祷的地方，最重要的是（一旦评论出来，应该很快&amp;hellip;&amp;hellip;），咆哮，甚至可能是一些宽慰的评论。&lt;/p&gt;</description></item><item><title>Watch Sony’s elite ping-pong robot beat top-ranked players</title><link>https://aihot.bt199.com/news/d2b97f2e25ba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d2b97f2e25ba/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;一个分享你的想法、祈祷的地方，最重要的是（一旦评论出来，应该很快&amp;hellip;&amp;hellip;），咆哮，甚至可能是一些宽慰的评论。&lt;/p&gt;</description></item><item><title>Ubuntu 也要加入 AI 功能，但 Canonical 强调不会把系统变成“AI 产品”</title><link>https://aihot.bt199.com/news/5c286e0b1694/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5c286e0b1694/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Canonical 正在为 Ubuntu 制定一套 AI 功能路线。根据 Ubuntu 开发商 Canonical 工程副总裁 Jon Seager 的说法，相关能力会在 2026 年陆续进入这款主流 Linux 发行版。&lt;/p&gt;
+&lt;p&gt;这些功能大致分为两类：一类是在后台用模型增强现有系统能力，另一类是为愿意使用 AI 的用户提供更“AI 原生”的工作流。前者可能包括更好的语音转文字、文字转语音等无障碍工具，后者则可能覆盖故障排查和个人自动化。&lt;/p&gt;</description></item><item><title>Watch Sony’s elite ping-pong robot beat top-ranked players</title><link>https://aihot.bt199.com/news/d2b97f2e25ba/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d2b97f2e25ba/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Watch Sony’s elite ping-pong robot beat top-ranked players。&lt;/p&gt;
 &lt;p&gt;来源：The Verge AI。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -908,7 +893,8 @@ on Tuesday.
 The technology works similarly to YouTube’s existing
 Content ID system
 , which detects copyright-protected material in users’ uploaded videos, allowing rights owners to request removal or share in the video’s revenue.
-Likeness detection does the same, but for simulated faces.&lt;/p&gt;</description></item><item><title>YouTube 扩展AI深度伪造检测：名人可主动请求删除伪造视频</title><link>https://aihot.bt199.com/news/80710e409ac8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/80710e409ac8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+Likeness detection does the same, but for simulated faces.&lt;/p&gt;</description></item><item><title>YouTube 测试“Ask YouTube”：搜索结果开始变成 AI 对话页</title><link>https://aihot.bt199.com/news/f0f9e683648b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/f0f9e683648b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Google 正在 YouTube 内测试一种更像聊天机器人的搜索方式，名为 Ask YouTube。开启实验后，用户在搜索栏旁会看到 Ask YouTube 按钮，可以直接输入问题，或从系统给出的提示中选择主题。&lt;/p&gt;</description></item><item><title>YouTube 扩展AI深度伪造检测：名人可主动请求删除伪造视频</title><link>https://aihot.bt199.com/news/80710e409ac8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/80710e409ac8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;YouTube is expanding its AI deepfake monitoring feature to Hollywood — meaning some celebrity AI videos could soon disappear.
 Celebrities will be able to find and request removal of AI deepfakes on YouTube
 The platform’s likeness detection tool scans the platform for AI lookalikes and flags them for potential removal.
@@ -927,10 +913,7 @@ The platform’s likeness detection feature searches YouTube for AI deepfake con
 &lt;p&gt;山姆·奥尔特曼 (Sam Altman) 和埃隆·马斯克 (Elon Musk) 将在一场高风险的审判中展开对决，这场审…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"&gt;The Verge AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>埃隆·马斯克 (Elon Musk) 和萨姆·奥尔特曼 (Sam Altman) 将就 OpenAI 的未来向法院提起诉讼</title><link>https://aihot.bt199.com/news/370be1499991/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/370be1499991/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to trial this week in Northern California in a case that could have sweeping consequences.&lt;/p&gt;
-&lt;p&gt;Ahead of OpenAI’s highly anticipated IPO, the court could rule on whether the company is allowed to exist as a for-profit enterprise and might even oust its current executive leadership, including Altman.
-Musk is suing OpenAI, alleging that Altman and OpenAI president Greg Brockman deceived him into bankrolling the company in its early days by promising to maintain it as a nonprofit dedicated to developing AI that benefits humanity, only to later restructure the company to operate a for-profit subsidiary.&lt;/p&gt;</description></item><item><title>半壁华人！GPT Image 2团队曝光：无锡才俊带队，13人4个月封神</title><link>https://aihot.bt199.com/news/befb53c8a141/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/befb53c8a141/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://www.theverge.com/tech/917225/sam-altman-elon-musk-openai-lawsuit"&gt;The Verge AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>半壁华人！GPT Image 2团队曝光：无锡才俊带队，13人4个月封神</title><link>https://aihot.bt199.com/news/befb53c8a141/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/befb53c8a141/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;底层架构已彻底重构&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -1062,9 +1045,7 @@ According to the Post, the letter says that “The only way to guarantee that Go
 &lt;p&gt;如果你要核对细节，可以再看原文：
 &lt;a href="https://36kr.com/newsflashes/3777977546101766?f=rss"&gt;36氪原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>谷歌云发布用于人工智能的新型TPU芯片</title><link>https://aihot.bt199.com/news/1d6cf28191fb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/1d6cf28191fb/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;4月22日，谷歌云发布最新一代张量处理单元（TPU），旨在提升人工智能计算服务的速度和效率。&lt;/p&gt;
-&lt;p&gt;全新TPU系列将推出两个版本：TPU 8t用于创建AI软件，TPU 8i用于运行已创建的AI服务。&lt;/p&gt;</description></item><item><title>谷歌正在测试 YouTube 的人工智能聊天机器人搜索</title><link>https://aihot.bt199.com/news/f0f9e683648b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/f0f9e683648b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;Google is trying out an AI Mode-like search experience for YouTube.&lt;/p&gt;
-&lt;p&gt;The company is now testing “a new way to search on YouTube that feels more like a conversation,” with results pulling in things like longform videos, YouTube Shorts, and text about what you’re searching for.&lt;/p&gt;</description></item><item><title>关于使用 AMD Alveo V80 FPGA PCI 卡作为穷人的 Taalas HC1（LLM 烧录到芯片上）的想法。</title><link>https://aihot.bt199.com/news/reddit-1swjxjx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1swjxjx/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;全新TPU系列将推出两个版本：TPU 8t用于创建AI软件，TPU 8i用于运行已创建的AI服务。&lt;/p&gt;</description></item><item><title>关于使用 AMD Alveo V80 FPGA PCI 卡作为穷人的 Taalas HC1（LLM 烧录到芯片上）的想法。</title><link>https://aihot.bt199.com/news/reddit-1swjxjx/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1swjxjx/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;TL:DR - 记得 FPGA PCI 板是我加密时代的一件大事。&lt;/p&gt;
 &lt;p&gt;想知道 AMD Alveo V80 FPGA 卡是否可…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -1145,7 +1126,8 @@ Elon Musk’s public persona is an issue.
 The Verge reporter Elizabeth Lopatto, who was there at the courthouse, quoted statements from some of the juror questionnaires:
 “Elon Musk is a greedy, racist, homophobic piece of garbage.”
 “Elon Musk is a world-class jerk.”
-“I very much dislike Tesla.&lt;/p&gt;</description></item><item><title>蚂蚁发布 Ling-2.6-flash：把大模型竞争点从“更强”拉回“更省”</title><link>https://aihot.bt199.com/news/62f1d3326d78/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/62f1d3326d78/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+“I very much dislike Tesla.&lt;/p&gt;</description></item><item><title>马斯克与奥尔特曼对簿公堂：OpenAI 能否继续按营利公司运转成焦点</title><link>https://aihot.bt199.com/news/370be1499991/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/370be1499991/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;马斯克与 OpenAI CEO 萨姆·奥尔特曼之间的法律战即将在北加州进入审理。对 OpenAI 来说，这不是一场普通的商业纠纷：法院可能需要判断它能否继续以当前营利化结构运转，甚至可能影响管理层和未来 IPO。&lt;/p&gt;</description></item><item><title>蚂蚁发布 Ling-2.6-flash：把大模型竞争点从“更强”拉回“更省”</title><link>https://aihot.bt199.com/news/62f1d3326d78/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/62f1d3326d78/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;蚂蚁这次发布 Ling-2.6-flash，最值得看的不是“又一个百亿级模型”，而是它试图把大模型竞争从一味追求更强，拉回到真实业务更在意的那几个指标：成本、速度和吞吐。&lt;/p&gt;</description></item><item><title>埋藏 LED：Deepseek v4 Flash 从官方 API 的重量类别来看非常便宜</title><link>https://aihot.bt199.com/news/reddit-1su5gj5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/reddit-1su5gj5/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;埋藏的 lede：Deepseek v4 Flash 从官方 API 的重量类别来看非常便宜&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -1291,12 +1273,7 @@ Bond, which officially launched on Tuesday, is one of those sites.&lt;/p&gt;</de
 &lt;p&gt;A team led by MIT chemistry professor Laura Kiessling has found that one such protein, intelectin-2, both helps fortify the mucosal barrier and offers broad-spectrum protection against harmful bacteria found in the GI tract.
 Intelectin-2 binds to a sugar molecule called galactose that is found on bacterial membranes, the team found, trapping the bacteria and hindering their growth; the trapped microbes eventually disintegrate, suggesting that the protein is able to kill them by disrupting their cell membranes.&lt;/p&gt;</description></item><item><title>天下苦 Claude 久矣， GPT 就出招了， 5.5 目测下限是 opus 4.6</title><link>https://aihot.bt199.com/news/v2ex-1208148/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1208148/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;1 ，输出好多了，不讲八股文了 2 ，体感变快 2 ，大上下文目测增强很多 解决了 5.4 最大的 l 几个问题，可主力使用。&lt;/p&gt;
-&lt;p&gt;我想说出早了，再等 1-2 周，Claude 继续硬着脖子说自己模型没问题。&lt;/p&gt;</description></item><item><title>同一赛道，四种收费：Agent 控制层（Harness）开始分裂</title><link>https://aihot.bt199.com/news/ca1e53a86983/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ca1e53a86983/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;本文最初发布于 TheNewStack 博客。&lt;/p&gt;
-&lt;p&gt;Adriandra Karuniawan 为 Unsplash+供图
-3 月 30 日，Sycamore
-宣布
-了 6500 万美元的种子轮融资，用于构建其创始人所说的自主企业级 AI 操作系统。&lt;/p&gt;</description></item><item><title>微软和 OpenAI 著名的 AGI 协议宣告终止</title><link>https://aihot.bt199.com/news/0147e1017b65/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/0147e1017b65/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;我想说出早了，再等 1-2 周，Claude 继续硬着脖子说自己模型没问题。&lt;/p&gt;</description></item><item><title>微软和 OpenAI 著名的 AGI 协议宣告终止</title><link>https://aihot.bt199.com/news/0147e1017b65/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/0147e1017b65/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;OpenAI 和微软的合作关系变得更加不那么忠诚。&lt;/p&gt;
 &lt;p&gt;多年来一直决定双方交易未来的一项有关通用人工智能的条款已被正式删除。&lt;/p&gt;
 &lt;p&gt;周…&lt;/p&gt;
