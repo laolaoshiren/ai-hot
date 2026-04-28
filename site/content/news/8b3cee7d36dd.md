@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.koshyjohn.com/blog/ai-should-elevate-yo
 summary = "Article URL: https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/ Comments URL: https://news.ycombinator.com/item?id=47913650 Points: 501 # Comments: 363"
 summary_zh = "文章网址：https://www.koshyjohn.com/blog/ai-should-elevate-your-thinking-not-replace-it/ 评论网址：https://news.ycombinator.com/it…"
 tags = []
-list_page = 5
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

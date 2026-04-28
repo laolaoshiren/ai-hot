@@ -98,8 +98,6 @@ def main():
     # Phase 2: 数据处理
     print("\n⚙️ Phase 2: 数据处理")
     steps_process = [
-        ("🔥 今日热点", compute_trending),
-        ("🔗 热点新闻站内化", enrich_hot_data),
         ("🧹 模型精简", refine_models),
         ("🏆 模型精选榜", generate_curated_models),
         ("📈 热度飙升", generate_rising),
@@ -121,6 +119,8 @@ def main():
     # Phase 4: 同步部署
     print("\n🚀 Phase 4: 同步部署")
     steps_deploy = [
+        ("🔥 今日热点", compute_trending),
+        ("🔗 热点新闻站内化", enrich_hot_data),
         ("🧱 生成工具静态页", generate_tool_pages),
         ("📰 生成新闻静态页", generate_news_pages),
         ("📦 同步数据", sync_to_site),

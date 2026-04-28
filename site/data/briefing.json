@@ -3,12 +3,13 @@
   "content": "今天 AI 的主线已经很清楚：行业竞争正在从“模型更强”转向“谁更能真正落地”——一边是药物、金融、云基础设施这些高价值场景继续被 AI 渗透，另一边是 Kimi、百灵这类产品把重点放在 Agent 承接能力、成本效率和系统级交付上。",
   "news_count": 20,
   "sources": {
-    "36氪": 8,
+    "r/MachineLearning": 1,
+    "36氪": 4,
+    "r/LocalLLaMA": 5,
+    "r/artificial": 4,
     "量子位": 2,
-    "The Verge AI": 4,
-    "V2EX": 3,
-    "MIT Tech Review": 1,
-    "TechCrunch AI": 2
+    "The Verge AI": 1,
+    "V2EX": 3
   },
   "emoji": "⚡"
 }

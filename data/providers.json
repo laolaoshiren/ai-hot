@@ -1006,18 +1006,16 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Anthropic Claude Haiku Latest",
       "Anthropic Claude Sonnet Latest",
       "Claude Opus Latest"
     ],
-    "model_count": 3,
-    "last_updated": "2026-04-27",
-    "modalities": [
-      "多模态"
-    ],
-    "live_summary": "OpenRouter 已收录 3 个该作者/厂商相关模型，最近更新为 Anthropic Claude Haiku Latest"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "~openai",
@@ -1032,17 +1030,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "OpenAI GPT Mini Latest",
       "OpenAI GPT Latest"
     ],
-    "model_count": 2,
-    "last_updated": "2026-04-27",
-    "modalities": [
-      "多模态"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 OpenAI GPT Mini Latest"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   },
   {
     "id": "~google",
@@ -1057,16 +1053,14 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Google Gemini Pro Latest",
       "Google Gemini Flash Latest"
     ],
-    "model_count": 2,
-    "last_updated": "2026-04-27",
-    "modalities": [
-      "视频"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Google Gemini Pro Latest"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]

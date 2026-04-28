@@ -20,7 +20,7 @@ ai_summary = "我一直在研究全双工语音模型 MichiAI 的听力部分，
 summary = "I've been working on the listening part of my full-duplex speech model MichiAI and I realized that ASR prompting could be very useful. Deepgram allows for word boosting but that doesn't work that well in real word applications. Other thing that is missing is feeding a whole conversation history as c"
 summary_zh = "我一直在研究全双工语音模型 MichiAI 的听力部分，我意识到 ASR 提示可能非常有用。 Deepgram 允许单词增强，但在实际单词应用程序中效果不佳。缺少的另一件事是提供整个对话历史记录作为 c"
 tags = []
-list_page = 10
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

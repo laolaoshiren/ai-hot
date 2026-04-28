@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Google's newest TPUs are faster and cheaper than the previous versions. But the company is still embracing Nvidia in its cloud — for now."
 summary_zh = ""
 tags = []
-list_page = 18
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

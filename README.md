@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-28 18:18:52
+🕐 **最近更新**：2026-04-28 18:56:33
 
 **提供商直达：** [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,45 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [OpenAI ends Microsoft legal peril over its $50B Amazon deal](https://aihot.bt199.com/news/cd10cd32bf8a/)
-   - OpenAI has won major concessions from its largest shareholder, Microsoft, that w
+1. [OpenAI 结束了微软因其 500 亿美元亚马逊交易而面临的法律风险](https://aihot.bt199.com/news/cd10cd32bf8a/)
+   - OpenAI 已获得其最大股东微软的重大让步，这将允许其在 AWS 上销售产品，而微软则通过收入分成协议获得更多现金
    - `TechCrunch AI · 2026-04-27`
 
-2. [DeepMind’s David Silver just raised $1.1B to build an AI that learns without human data](https://aihot.bt199.com/news/7b2e4a2048b5/)
-   - Ineffable Intelligence, a British AI lab founded a mere few months ago by former
-   - `TechCrunch AI · 2026-04-27`
-
-3. [氪星晚报｜我国最大规模AI4S集群接入全国一体化算力网；亚马逊低地轨道卫星计划又一批卫星发射升空；我国首款正向设计自转旋翼机完成首飞](https://aihot.bt199.com/news/73027d47477c/)
-   - 大公司： 拒买新闻就交税，澳洲拟向科技巨头征约2%营收税 澳大利亚政府公布法案草案，拟对Meta、谷歌等科技巨头征收新税，除非这些平台自愿与当地新闻机构签署付费
-   - `36氪 · 2026-04-28`
-
-4. [工业富联：第一季度净利润105.95亿元，同比增长102.55%](https://aihot.bt199.com/news/66907460892c/)
-   - 36氪获悉，工业富联发布2026年一季度业绩报告。报告显示，2026年第一季度营业收入2510.78亿元，同比增长56.52%。净利润105.95亿元，同比增长
-   - `36氪 · 2026-04-28`
-
-5. [AI 引发选举领域反弹：民众信任度持续走低](https://aihot.bt199.com/news/314fefba7e73/)
-   - 调查显示多数美国人担忧AI在选举中的应用，信任危机加剧
+2. [马斯克诉奥特曼案陪审团选择：“人们不喜欢他”](https://aihot.bt199.com/news/6d044935cb58/)
+   - 周一，埃隆·马斯克 (Elon Musk) 和萨姆·奥尔特曼 (Sam Altman) 因涉嫌违反 OpenAI 承诺而…
    - `The Verge AI · 2026-04-28`
 
-6. [Google is testing AI chatbot search for YouTube](https://aihot.bt199.com/news/f0f9e683648b/)
-   - Google is trying out an AI Mode-like search experience for YouTube. The company 
+3. [谷歌正在测试 YouTube 的人工智能聊天机器人搜索](https://aihot.bt199.com/news/f0f9e683648b/)
+   - 谷歌正在为 YouTube 尝试类似人工智能模式的搜索体验。该公司目前正在测试“一种在 YouTube 上搜索的新方式…
    - `The Verge AI · 2026-04-28`
 
-7. [Elon Musk and Sam Altman are going to court over OpenAI’s future](https://aihot.bt199.com/news/370be1499991/)
-   - After a yearslong legal feud, Elon Musk and OpenAI CEO Sam Altman are heading to
+4. [埃隆·马斯克 (Elon Musk) 和萨姆·奥尔特曼 (Sam Altman) 将就 OpenAI 的未来向法院提起诉讼](https://aihot.bt199.com/news/370be1499991/)
+   - 经过一年的法律纠纷后，埃隆·马斯克 (Elon Musk) 和 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Alt…
    - `MIT Tech Review · 2026-04-27`
 
-8. [The missing step between hype and profit](https://aihot.bt199.com/news/c4880d927b46/)
-   - This story originally appeared in The Algorithm, our weekly newsletter on AI. To
+5. [炒作和利润之间缺失的一步](https://aihot.bt199.com/news/c4880d927b46/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。二月份，我在伦敦…
    - `MIT Tech Review · 2026-04-27`
-
-9. [Why are top university websites serving porn? It comes down to shoddy housekeeping.](https://aihot.bt199.com/news/632dd6a22f8e/)
-   - Hundreds of subdomains from dozens of universities have been hijacked by scammer
-   - `Ars Technica AI · 2026-04-24`
-
-10. [Microsoft issues emergency update for macOS and Linux ASP.NET threat](https://aihot.bt199.com/news/ee206c36cfa4/)
-   - When authentication fails, things can go very, very wrong.
-   - `Ars Technica AI · 2026-04-22`
 
 
 ## 🤖 AI 简报
@@ -139,6 +119,7 @@
 ---
 
 MIT License
+
 
 
 

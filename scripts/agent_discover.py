@@ -32,6 +32,20 @@ TYPE_KEYWORDS = {
     "平台": ["platform", "dify", "coze", "n8n", "build"],
 }
 
+TYPE_ICONS = {
+    "编程 Agent": "🛠️",
+    "研究 Agent": "📚",
+    "自动化 Agent": "⚡",
+    "助手 Agent": "🤖",
+    "浏览器 Agent": "🌐",
+    "多Agent Agent": "👥",
+    "平台 Agent": "🏗️",
+    "AI Agent": "🤖",
+}
+
+def icon_for_type(agent_type):
+    return TYPE_ICONS.get(agent_type, "🤖")
+
 def classify_agent(name, description):
     text = f"{name} {description}".lower()
     for agent_type, keywords in TYPE_KEYWORDS.items():
@@ -92,12 +106,14 @@ def discover_agents():
                 continue
             
             display_name = repo_name.replace("-", " ").replace("_", " ").title()
+            agent_type = classify_agent(repo_name, repo.get("description", ""))
             agent = {
                 "id": repo_name,
                 "name": display_name,
                 "url": f"https://github.com/{repo['full_name']}",
                 "description": repo.get("description", "")[:100],
-                "type": classify_agent(repo_name, repo.get("description", "")),
+                "type": agent_type,
+                "icon": icon_for_type(agent_type),
                 "pricing": "开源免费",
                 "difficulty": 2,
                 "source": "github",

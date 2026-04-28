@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-04-28T10:17:32.999223",
+  "updated_at": "2026-04-28T10:54:27.126842",
   "date": "2026-04-28",
   "spotlight": {
-    "id": "claude-code",
-    "name": "Claude Code",
-    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
     "type": "tool",
-    "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
-    "pricing": "按 API 使用量计费",
+    "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains",
+    "pricing": "$10/月 个人 / $19/月 企业",
     "category": "编程"
   },
   "alternates": [
     {
-      "id": "aider",
-      "name": "Aider",
-      "url": "https://aider.chat",
+      "id": "suno",
+      "name": "Suno",
+      "url": "https://suno.com",
       "type": "tool",
-      "description": "终端内的AI结对编程工具，支持多文件编辑",
-      "pricing": "开源免费",
-      "category": "编程"
+      "description": "AI 音乐生成工具，输入文字生成歌曲",
+      "pricing": "免费 + Pro $10/月",
+      "category": "音乐"
     },
     {
-      "name": "Inkos",
-      "url": "https://github.com/Narcooo/inkos",
+      "name": "OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI",
       "type": "agent",
-      "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
+      "description": "通用 CLI 中心和 AI 原生运行时，将任何网站和工具变成你的命令行",
       "pricing": "免费开源",
-      "category": "创作 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "name": "Autodidact",
-      "url": "https://github.com/dCaples/AutoDidact",
+      "name": "Agent Sdk Golang",
+      "url": "https://github.com/timwhitez/agent-sdk-golang",
       "type": "agent",
-      "description": "Autonomously train research-agent LLMs on custom data using reinforcement learning and self-verifica",
+      "description": "A minimal agent SDK in Go, inspired by browser-use/agent-sdk./Go 实现的极简 Agent SDK（工具调用 for-loop），受 br",
       "pricing": "开源免费",
-      "category": "研究 Agent"
+      "category": "浏览器 Agent"
     }
   ]
 }

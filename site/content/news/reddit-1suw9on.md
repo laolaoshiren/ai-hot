@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Hi r/LocalLLaMA 👋 We're excited for Wednesday's guests, **The Nous Research Team!** **Kicking things off Wednesday, April. 29th, 8 AM–11 AM PST** ⚠️ **Note:** The AMA itself will be hosted in a **separate thread,** please don’t post questions here."
 summary_zh = ""
 tags = []
-list_page = 7
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

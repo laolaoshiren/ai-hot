@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Article URL: https://arpitbhayani.me/blogs/defensive-databases/ Comments URL: https://news.ycombinator.com/item?id=47897140 Points: 101 # Comments: 100"
 summary_zh = ""
 tags = []
-list_page = 8
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

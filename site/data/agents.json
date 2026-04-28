@@ -658,7 +658,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:10.188701"
+    "last_seen": "2026-04-24T08:21:10.188701",
+    "icon": "⚡"
   },
   {
     "id": "pentagi",
@@ -669,7 +670,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:10.188713"
+    "last_seen": "2026-04-24T08:21:10.188713",
+    "icon": "⚡"
   },
   {
     "id": "agent-skills",
@@ -680,7 +682,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:11.145867"
+    "last_seen": "2026-04-24T08:21:11.145867",
+    "icon": "🛠️"
   },
   {
     "id": "cmux",
@@ -691,7 +694,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:11.145883"
+    "last_seen": "2026-04-24T08:21:11.145883",
+    "icon": "🛠️"
   },
   {
     "id": "figma-context-mcp",
@@ -702,7 +706,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:11.145887"
+    "last_seen": "2026-04-24T08:21:11.145887",
+    "icon": "🛠️"
   },
   {
     "id": "ai-website-cloner-template",
@@ -713,7 +718,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:11.145890"
+    "last_seen": "2026-04-24T08:21:11.145890",
+    "icon": "🛠️"
   },
   {
     "id": "botsharp",
@@ -724,7 +730,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:12.090146"
+    "last_seen": "2026-04-24T08:21:12.090146",
+    "icon": "🤖"
   },
   {
     "id": "llmstack",
@@ -735,7 +742,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:12.090157"
+    "last_seen": "2026-04-24T08:21:12.090157",
+    "icon": "🛠️"
   },
   {
     "id": "memora",
@@ -746,7 +754,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:13.127162"
+    "last_seen": "2026-04-24T08:21:13.127162",
+    "icon": "🤖"
   },
   {
     "id": "awesome-claw",
@@ -757,7 +766,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:13.127173"
+    "last_seen": "2026-04-24T08:21:13.127173",
+    "icon": "🤖"
   },
   {
     "id": "cpprag",
@@ -768,7 +778,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:13.127176"
+    "last_seen": "2026-04-24T08:21:13.127176",
+    "icon": "🛠️"
   },
   {
     "id": "agent",
@@ -779,7 +790,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:13.127181"
+    "last_seen": "2026-04-24T08:21:13.127181",
+    "icon": "🤖"
   },
   {
     "id": "agentbigbrain",
@@ -790,7 +802,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:13.127188"
+    "last_seen": "2026-04-24T08:21:13.127188",
+    "icon": "⚡"
   },
   {
     "id": "ragflow",
@@ -801,7 +814,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:14.050225"
+    "last_seen": "2026-04-24T08:21:14.050225",
+    "icon": "🤖"
   },
   {
     "id": "cc-switch",
@@ -812,7 +826,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:14.050236"
+    "last_seen": "2026-04-24T08:21:14.050236",
+    "icon": "🛠️"
   },
   {
     "id": "awesome-openclaw-skills",
@@ -823,7 +838,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:14.050246"
+    "last_seen": "2026-04-24T08:21:14.050246",
+    "icon": "🤖"
   },
   {
     "id": "vibetest-use",
@@ -834,7 +850,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:15.010265"
+    "last_seen": "2026-04-24T08:21:15.010265",
+    "icon": "⚡"
   },
   {
     "id": "bua",
@@ -845,7 +862,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:15.010278"
+    "last_seen": "2026-04-24T08:21:15.010278",
+    "icon": "🌐"
   },
   {
     "id": "langgraph_browser_use",
@@ -856,7 +874,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:15.010282"
+    "last_seen": "2026-04-24T08:21:15.010282",
+    "icon": "🌐"
   },
   {
     "id": "browser-use-agent",
@@ -867,7 +886,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:15.010287"
+    "last_seen": "2026-04-24T08:21:15.010287",
+    "icon": "🌐"
   },
   {
     "id": "agent-sdk-golang",
@@ -878,7 +898,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:15.010296"
+    "last_seen": "2026-04-24T08:21:15.010296",
+    "icon": "🌐"
   },
   {
     "id": "autodidact",
@@ -889,7 +910,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:16.223656"
+    "last_seen": "2026-04-24T08:21:16.223656",
+    "icon": "📚"
   },
   {
     "id": "research-agent-llm",
@@ -900,7 +922,8 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:16.223667"
+    "last_seen": "2026-04-24T08:21:16.223667",
+    "icon": "📚"
   },
   {
     "id": "opendeepresearcher-agentic-llm-research-framework",
@@ -911,6 +934,19 @@
     "pricing": "开源免费",
     "difficulty": 2,
     "source": "github",
-    "last_seen": "2026-04-24T08:21:16.223671"
+    "last_seen": "2026-04-24T08:21:16.223671",
+    "icon": "📚"
+  },
+  {
+    "id": "cherry-studio",
+    "name": "Cherry Studio",
+    "url": "https://github.com/CherryHQ/cherry-studio",
+    "description": "AI productivity studio with smart chat, autonomous agents, and 300+ assistants. Unified access to fr",
+    "type": "自动化 Agent",
+    "pricing": "开源免费",
+    "difficulty": 2,
+    "source": "github",
+    "last_seen": "2026-04-28T10:54:23.223400",
+    "icon": "⚡"
   }
 ]

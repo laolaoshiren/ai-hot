@@ -44,6 +44,29 @@ BREAKING_MODEL_KEYWORDS = {
 }
 
 
+def zh_ratio(text):
+    text = str(text or '').strip()
+    if not text:
+        return 0.0
+    zh = sum('\u4e00' <= c <= '\u9fff' for c in text)
+    letters = sum(c.isalpha() or ('\u4e00' <= c <= '\u9fff') for c in text)
+    return zh / max(letters, 1)
+
+
+def is_publishable_hot_news(item):
+    title_zh = item.get('title_zh') or ''
+    ai_summary = item.get('ai_summary') or item.get('summary_zh') or ''
+    news_id = item.get('id') or ''
+    if not news_id or not title_zh or not ai_summary:
+        return False
+    if zh_ratio(title_zh) < 0.35 or zh_ratio(ai_summary) < 0.45:
+        return False
+    blob = f"{title_zh} {ai_summary}".lower()
+    if any(p in blob for p in BAD_DESC_PATTERNS):
+        return False
+    return True
+
+
 def compute_trending():
     hot_items = []
 
@@ -61,17 +84,17 @@ def compute_trending():
             if source_counts[src] > 2:
                 continue
 
-            raw_title = n.get('title_zh') or n.get('title') or ''
             title_en = n.get('title') or ''
+            if title_en.lower().startswith('the download:'):
+                continue
+            if not is_publishable_hot_news(n):
+                continue
+            raw_title = n.get('title_zh') or n.get('title') or ''
             ai_summary = n.get('ai_summary', '') or ''
             summary_zh = n.get('summary_zh', '') or ''
             summary = n.get('summary', '') or ''
             desc = ai_summary or summary_zh or summary
             low_blob = f"{raw_title} {title_en} {desc}".lower()
-            if title_en.lower().startswith('the download:'):
-                continue
-            if any(p in low_blob for p in BAD_DESC_PATTERNS):
-                continue
 
             weight = SOURCE_WEIGHTS.get(src, 3)
             title_low = (n.get('title', '') + ' ' + n.get('title_zh', '')).lower()

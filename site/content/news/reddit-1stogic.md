@@ -20,7 +20,7 @@ ai_summary = "人择神话变成了空无一物的汉堡"
 summary = "Anthropic Mythos shaping up as nothingburger"
 summary_zh = "人择神话变成了空无一物的汉堡"
 tags = []
-list_page = 14
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

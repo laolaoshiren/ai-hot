@@ -20,7 +20,7 @@ ai_summary = "苹果新一届 AIML 学者名单公布，华人博士生依然占
 summary = "苹果版「顶尖AI人才计划」"
 summary_zh = "苹果公布 2026 年 Apple Scholars in AIML 名单，共 20 个席位，其中华人学者占了 8 席。文章逐个盘点入选者背景，也侧面说明顶级科技公司对 AI 博士人才的长期押注仍在加强，学术、产业和人才通道正在进一步绑定。"
 tags = []
-list_page = 21
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

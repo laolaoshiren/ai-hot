@@ -81,7 +81,7 @@
             <a href="{{ $hotHref }}"{{ if $hotTarget }} target="{{ $hotTarget }}"{{ end }}{{ if $hotRel }} rel="{{ $hotRel }}"{{ end }} class="hot-item" style="text-decoration:none;color:inherit">
                 <div class="hot-rank {{ if lt $index 3 }}top3{{ else }}normal{{ end }}">{{ add $index 1 }}</div>
                 <div class="hot-content">
-                    <div class="hot-title">{{ $item.title }}</div>
+                    <div class="hot-title">{{ with $item.title_zh }}{{ . }}{{ else }}{{ $item.title }}{{ end }}</div>
                     {{ if or $item.ai_summary (and $matchedNews.id (or $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary)) }}
                     <div class="hot-meta" style="color:var(--text2);margin-top:4px;line-height:1.6">⚡ {{ or $item.ai_summary $matchedNews.ai_summary $matchedNews.summary_zh $matchedNews.summary }}</div>
                     {{ else if $item.subtitle }}
@@ -152,7 +152,7 @@
             {{ with $briefing.emoji }}{{ . }} {{ end }}{{ $briefing.content }}
         </div>
         <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;margin-top:10px;font-size:11px;color:var(--text3)">
-            <span>基于 {{ $briefing.news_count }} 条新闻 · {{ $briefing.date }}</span>
+            <span>基于 {{ $briefing.news_count }} 条新闻 · {{ with $briefing.date }}{{ . }}{{ else }}{{ substr site.Data.meta.last_update 0 10 }}{{ end }}</span>
             <a href="{{ relURL "/news/" }}" style="color:var(--accent);text-decoration:none">查看新闻 →</a>
         </div>
     </div>

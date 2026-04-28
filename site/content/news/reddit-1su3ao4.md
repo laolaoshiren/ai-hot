@@ -20,7 +20,7 @@ ai_summary = "随着子系统的发展（以及基于人工智能的工具变得
 summary = "As the sub has grown (and as AI based tools have gotten better) with *over 1M weekly visitors*, we've seen a marked increase in slop, spam etc. This has been on the mod team's mind for a while + there have been many threads started by users on this topic garnering lots of upvotes/comments. We're thu"
 summary_zh = "随着子系统的发展（以及基于人工智能的工具变得更好），*每周访问量超过 100 万*，我们看到垃圾邮件、垃圾邮件等显着增加。这已经在模组团队的脑海中思考了一段时间 + 用户针对这个主题发起了许多线程，获得了大量的点赞/评论。我们周四"
 tags = []
-list_page = 12
+list_page = 19
 +++
 
 <!-- AUTO-GENERATED: news page -->

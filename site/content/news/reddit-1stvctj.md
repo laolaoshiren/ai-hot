@@ -20,7 +20,7 @@ ai_summary = "GPT-5.5 简介"
 summary = "Introducing GPT-5.5"
 summary_zh = "GPT-5.5 简介"
 tags = []
-list_page = 13
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->
