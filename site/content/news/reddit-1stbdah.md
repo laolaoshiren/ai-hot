@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Small MLP (2 layers × 256 units, ~85 KB) that accurately predicts 58 [Anny](https://github.com/naver/anny) body-shape parameters from 8 questionnaire inputs: height, weight, gender, body shape, build, belly, cup size, ancestry. Trains in ~120 minutes on a laptop. Architecturally boring — the loss is"
 summary_zh = ""
 tags = []
-list_page = 23
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

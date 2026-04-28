@@ -20,7 +20,7 @@ ai_summary = "您如何找到这些模型？您认为哪一个更适合实际用
 summary = "How are you finding these models, which one do you find to be better for real use cases? So far we're finding Kimi k2.6 better for coding, but want to hear your thoughts."
 summary_zh = "您如何找到这些模型？您认为哪一个更适合实际用例？到目前为止，我们发现 Kimi k2.6 更适合编码，但想听听您的想法"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-28 18:56:33
+🕐 **最近更新**：2026-04-29 03:31:19
 
 **提供商直达：** [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [OpenAI 结束了微软因其 500 亿美元亚马逊交易而面临的法律风险](https://aihot.bt199.com/news/cd10cd32bf8a/)
-   - OpenAI 已获得其最大股东微软的重大让步，这将允许其在 AWS 上销售产品，而微软则通过收入分成协议获得更多现金
-   - `TechCrunch AI · 2026-04-27`
+1. [亚马逊在产品页面推出人工智能驱动的音频问答体验](https://aihot.bt199.com/news/a1231f5b46cc/)
+   - 亚马逊的新“加入聊天”功能可让您提出有关产品的问题并接收人工智能驱动的音频回复
+   - `TechCrunch AI · 2026-04-28`
 
-2. [马斯克诉奥特曼案陪审团选择：“人们不喜欢他”](https://aihot.bt199.com/news/6d044935cb58/)
-   - 周一，埃隆·马斯克 (Elon Musk) 和萨姆·奥尔特曼 (Sam Altman) 因涉嫌违反 OpenAI 承诺而…
+2. [在 Anthropic 拒绝后，谷歌扩大了五角大楼对其人工智能的访问范围](https://aihot.bt199.com/news/8dcbd07fb3ff/)
+   - 在 Anthropic 拒绝允许国防部将其人工智能用于国内大规模监视和自主武器之后，谷歌与该部门签署了一份新合同
+   - `TechCrunch AI · 2026-04-28`
+
+3. [埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的备受瞩目的审判中出庭作证](https://aihot.bt199.com/news/21149ecd89ea/)
+   - 埃隆·马斯克 (Elon Musk) 正式开始在针对 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman)…
    - `The Verge AI · 2026-04-28`
 
-3. [谷歌正在测试 YouTube 的人工智能聊天机器人搜索](https://aihot.bt199.com/news/f0f9e683648b/)
-   - 谷歌正在为 YouTube 尝试类似人工智能模式的搜索体验。该公司目前正在测试“一种在 YouTube 上搜索的新方式…
-   - `The Verge AI · 2026-04-28`
-
-4. [埃隆·马斯克 (Elon Musk) 和萨姆·奥尔特曼 (Sam Altman) 将就 OpenAI 的未来向法院提起诉讼](https://aihot.bt199.com/news/370be1499991/)
-   - 经过一年的法律纠纷后，埃隆·马斯克 (Elon Musk) 和 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Alt…
+4. [马斯克与奥尔特曼对簿公堂：OpenAI 能否继续按营利公司运转成焦点](https://aihot.bt199.com/news/370be1499991/)
+   - 马斯克起诉 OpenAI 的案件进入审理，争议核心是这家公司是否背离了非营利初心。
    - `MIT Tech Review · 2026-04-27`
 
-5. [炒作和利润之间缺失的一步](https://aihot.bt199.com/news/c4880d927b46/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。二月份，我在伦敦…
-   - `MIT Tech Review · 2026-04-27`
+5. [Cloudflare Sandboxes 正式上线：给 AI 代理一套可持久化的隔离 Linux 环境](https://aihot.bt199.com/news/807ab81e66ad/)
+   - Cloudflare 把代理沙箱从测试版推向正式版，重点补齐持久状态、安全凭证和按量计费。
+   - `InfoQ AI · 2026-04-28`
 
 
 ## 🤖 AI 简报
@@ -119,6 +119,7 @@
 ---
 
 MIT License
+
 
 
 

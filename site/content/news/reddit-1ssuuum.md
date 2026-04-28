@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "We maintain an open-source catalog of cloud GPU offerings (skypilot-catalog, Apache 2.0). It auto-fetches pricing from 20+ cloud APIs every 7 hours. We made it browsable - 50 GPU models, 2K+ offerings, on-demand and spot pricing, historical trends. A few other GPU comparison tools already use our ca"
 summary_zh = ""
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

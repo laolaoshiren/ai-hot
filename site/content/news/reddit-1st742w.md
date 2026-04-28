@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "[](https://www.reddit.com/r/MachineLearning/?f=flair_name%3A%22Project%22)Hey everyone. I’ve been working on a machine learning project called guardd and wanted to get some feedback on the ML side of it. It’s basically a host-based anomaly detection system for Linux using Isolation Forest. I’m colle"
 summary_zh = ""
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

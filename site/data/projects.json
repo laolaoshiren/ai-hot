@@ -4599,6 +4599,26 @@
     "collected_at": "2026-04-28T10:16:45.050924"
   },
   {
+    "id": "github-1218081641",
+    "name": "lucidrains/multiscreen",
+    "display_name": "multiscreen",
+    "url": "https://github.com/lucidrains/multiscreen",
+    "description": "Implementation of Multiscreen proposed by Ken Nakanishi for \"Screening is Enough\"",
+    "stars": 9,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "relu-attention"
+    ],
+    "created_at": "2026-04-22T14:10:42Z",
+    "updated_at": "2026-04-28T13:09:50Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-04-28T19:29:42.348254"
+  },
+  {
     "id": "github-1188906847",
     "name": "hackyguru/clawcage",
     "display_name": "clawcage",

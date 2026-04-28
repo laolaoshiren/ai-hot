@@ -20,7 +20,7 @@ ai_summary = "一个分享你的想法、祈祷的地方，最重要的是（一
 summary = "A place to share your thoughts, prayers, and, most importantly (once the reviews are out, should be soon...), rants or maybe even some relieved comments. Good luck everyone!"
 summary_zh = "一个分享你的想法、祈祷的地方，最重要的是（一旦评论出来，应该很快......），咆哮，甚至可能是一些宽慰的评论。祝大家好运！"
 tags = []
-list_page = 22
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

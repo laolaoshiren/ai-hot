@@ -20,7 +20,7 @@ ai_summary = "大家好！我的新闻学教授让我们写一篇包含多次采
 summary = "Hi everyone! My journalism professor is making us write a feature article with multiple interviews. The topic I got is the relationship between the healthcare and technology sectors in California. I am specifically focusing on how the push and pull between these two sectors is driving the rapid corp"
 summary_zh = "大家好！我的新闻学教授让我们写一篇包含多次采访的专题文章。我得到的主题是加州医疗保健和科技行业之间的关系。我特别关注这两个部门之间的推拉如何推动公司的快速发展"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

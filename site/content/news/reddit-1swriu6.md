@@ -20,7 +20,7 @@ ai_summary = "人工智能的民主治理才是真正的解决方案"
 summary = "Democratic Governance of AI Is the Real Solution"
 summary_zh = "人工智能的民主治理才是真正的解决方案"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

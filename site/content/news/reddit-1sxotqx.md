@@ -20,7 +20,7 @@ ai_summary = "https://reddit.com/link/1sxotqx/video/xlaqd9i8guxg1/player 我…"
 summary = "https://reddit.com/link/1sxotqx/video/xlaqd9i8guxg1/player I'm a self-taught developer, 39 years old, based in Bahrain. Four months ago I started building AskSary - a multi-model AI platform with a persistent memory layer that sits above all the models. The core idea: the model is not the identity."
 summary_zh = "https://reddit.com/link/1sxotqx/video/xlaqd9i8guxg1/player 我是一名自学成才的开发人员，39 岁，居住在巴林。四个月前，我开始构建 AskSary——一个多模型人工智能平台，其持久内…"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

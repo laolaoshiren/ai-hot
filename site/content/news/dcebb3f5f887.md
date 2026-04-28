@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "L.D. 307 would have imposed the country’s first statewide moratorium on new data centers — lasting, in this case, until November 1, 2027."
 summary_zh = ""
 tags = []
-list_page = 13
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

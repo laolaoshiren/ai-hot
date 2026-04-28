@@ -385,17 +385,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Nemotron 3 Nano Omni (free)",
       "Nemotron 3 Super (free)",
-      "Nemotron 3 Super",
-      "Nemotron 3 Nano 30B A3B (free)"
+      "Nemotron 3 Super"
     ],
-    "model_count": 10,
-    "last_updated": "2026-03-11",
+    "model_count": 11,
+    "last_updated": "2026-04-28",
     "modalities": [
-      "文本",
-      "视频"
+      "视频",
+      "文本"
     ],
-    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Nemotron 3 Super (free)",
+    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Nemotron 3 Nano Omni (free)",
     "provider_kind": "model_author"
   },
   {
@@ -1062,5 +1062,30 @@
     "last_updated": "",
     "modalities": [],
     "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "poolside",
+    "name": "Poolside",
+    "url": "https://openrouter.ai/poolside",
+    "logo": "🆕",
+    "models": [
+      "Poolside: Laguna XS.2 (free)",
+      "Poolside: Laguna M.1 (free)"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "Poolside: Laguna XS.2 (free)",
+      "Poolside: Laguna M.1 (free)"
+    ],
+    "model_count": 2,
+    "last_updated": "2026-04-28",
+    "modalities": [
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Poolside: Laguna XS.2 (free)"
   }
 ]

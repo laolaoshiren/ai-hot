@@ -20,7 +20,7 @@ ai_summary = "大家好，我一直在开发一个名为 AutoMuon 的小型 Pyth
 summary = "Hey everyone, I've been working on a small Python package called AutoMuon that makes the Muon optimizer usable as a drop-in replacement for AdamW in arbitrary PyTorch training pipelines. The core idea is relatively simple: Muon works primarily on 2D weight matrices (linear projections, conv layers)"
 summary_zh = "大家好，我一直在开发一个名为 AutoMuon 的小型 Python 包，它使 Muon 优化器可以在任意 PyTorch 训练管道中用作 AdamW 的直接替代品。核心思想相对简单：Muon 主要工作于 2D 权重矩阵（线性投影、卷积层）"
 tags = []
-list_page = 13
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->
