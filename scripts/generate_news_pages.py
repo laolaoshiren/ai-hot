@@ -10,6 +10,19 @@ NEWS_JSON = ROOT / 'data' / 'news.json'
 CONTENT_DIR = ROOT / 'site' / 'content' / 'news'
 GENERATED_MARKER = '<!-- AUTO-GENERATED: news page -->\n'
 
+BAD_DOWNLOAD_TITLE_TRANSLATIONS = {
+    '下载：介绍自然问题',
+    '下载：介绍目前人工智能中最重要的 10 件事',
+}
+
+
+def clean_title_zh(title_zh: str, title_en: str) -> str:
+    title_zh = single_line(title_zh)
+    title_en = single_line(title_en)
+    if title_en.lower().startswith('the download:') and title_zh in BAD_DOWNLOAD_TITLE_TRANSLATIONS:
+        return title_en
+    return title_zh or title_en
+
 
 def esc(value: str) -> str:
     value = '' if value is None else str(value)
@@ -112,7 +125,7 @@ def build_page(item, list_page=1):
     news_id = item.get('id') or slugify(item.get('title_zh') or item.get('title') or 'news')
     slug = item.get('slug') or news_id
     title = item.get('title') or slug
-    title_zh = item.get('title_zh') or title
+    title_zh = clean_title_zh(item.get('title_zh') or title, title)
     source = item.get('source', '')
     published = item.get('published', '')
     url = item.get('url', '')
