@@ -1,7 +1,7 @@
 import unittest
 from pathlib import Path
 
-ROOT = Path('/root/ai-hot')
+ROOT = Path(__file__).resolve().parents[1]
 LIST_TMPL = ROOT / 'site' / 'layouts' / '_default' / 'list.html'
 SINGLE_TMPL = ROOT / 'site' / 'layouts' / 'news' / 'single.html'
 
