@@ -45,9 +45,20 @@ def main():
             errors.append(f'hot #{idx} summary not Chinese enough: {summary[:80]}')
 
     briefing=json.loads((DATA/'briefing.json').read_text(encoding='utf-8'))
-    today=datetime.now(ZoneInfo('Asia/Shanghai')).strftime('%Y-%m-%d')
-    if briefing.get('date') != today:
-        errors.append(f'briefing date stale: {briefing.get("date")} != {today}')
+    meta=json.loads((DATA/'meta.json').read_text(encoding='utf-8'))
+    tz=ZoneInfo('Asia/Shanghai')
+    last_update_raw=str(meta.get('last_update') or '').strip()
+    try:
+        last_update=datetime.strptime(last_update_raw, '%Y-%m-%d %H:%M:%S').replace(tzinfo=tz)
+    except ValueError:
+        errors.append(f'meta last_update invalid: {last_update_raw}')
+    else:
+        age_hours=(datetime.now(tz)-last_update).total_seconds()/3600
+        if age_hours > 8:
+            errors.append(f'data stale: last_update {last_update_raw}, age {age_hours:.1f}h')
+        expected_date=last_update.strftime('%Y-%m-%d')
+        if briefing.get('date') != expected_date:
+            errors.append(f'briefing date mismatch current data: {briefing.get("date")} != {expected_date}')
 
     if errors:
         for e in errors:
