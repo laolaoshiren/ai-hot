@@ -24,6 +24,13 @@ def main():
     missing=[a.get('name') for a in agents if not (a.get('icon') or a.get('logo') or a.get('emoji'))]
     if missing:
         errors.append(f'agents missing icons: {missing[:10]}')
+    english_agents=[]
+    for a in agents:
+        desc=str(a.get('description') or '').strip()
+        if len(desc) < 8 or zh_ratio(desc) < 0.35:
+            english_agents.append(a.get('name') or a.get('id'))
+    if english_agents:
+        errors.append(f'agents descriptions not Chinese enough: {english_agents[:10]}')
 
     hot=json.loads((DATA/'hot.json').read_text(encoding='utf-8'))
     items=hot.get('top_20') or hot.get('items') or []
