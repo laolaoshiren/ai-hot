@@ -20,7 +20,7 @@ ai_summary = "所有模型都会随意发送这个短语。是时候训练它了
 summary = "All models spam this exact phrase liberally. Time to train it out. That is all."
 summary_zh = "所有模型都会随意发送这个短语。是时候训练它了。仅此而已"
 tags = []
-list_page = 22
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "这是用于人工智能系统的便携式认知处理校准。它
 summary = "This is a portable cognitive processing calibration for AI systems. It prevents premature threat classification of neurodivergent communication patterns (compressed language, fragments, high-density recursive input, mid-stream corrections) by establishing dual-route processing: Route 1 (threat/manag"
 summary_zh = "这是用于人工智能系统的便携式认知处理校准。它通过建立双路由处理来防止神经发散通信模式（压缩语言、片段、高密度递归输入、中流校正）的过早威胁分类：路由 1（威胁/管理）"
 tags = []
-list_page = 7
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

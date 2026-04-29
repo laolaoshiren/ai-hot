@@ -20,7 +20,7 @@ ai_summary = "我向 kimi k2.5 提出了 OG 问题： *“我想洗车，洗车�
 summary = "I asked the OG question to the kimi k2.5: *\"I want to wash my car and the car wash is just 10 metres away. Should I walk or drive there?\"* **Kimi-k2.5 via NIM -- Three Modes.** I tested three modes: no tools, XML pseudo-tools, and JSON schema tools. \"Tools\" here means web search + Python in a Docker"
 summary_zh = "我向 kimi k2.5 提出了 OG 问题： *“我想洗车，洗车场就在 10 米之外。我应该步行还是开车去那里？”* **Kimi-k2.5 通过 NIM -- 三种模式。** 我测试了三种模式：无工具、XML 伪工具和 JSON 模式工…"
 tags = []
-list_page = 14
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

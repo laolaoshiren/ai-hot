@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "ComfyUI, whose tools give creators more control over AI image, video, and audio generation, just raised $30 million."
 summary_zh = ""
 tags = []
-list_page = 18
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

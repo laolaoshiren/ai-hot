@@ -20,7 +20,7 @@ ai_summary = "跟进我的[18天前帖子](https://www.reddit.com/r/LocalLLaMA/c
 summary = "Follow-up to my [post 18 days ago](https://www.reddit.com/r/LocalLLaMA/comments/1sg8lfr/turboocr_for_highvolume_image_and_pdf_processing/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) about the C++/CUDA OCR server. Two additions: **What's New:** * **Layout"
 summary_zh = "跟进我的[18天前帖子](https://www.reddit.com/r/LocalLLaMA/comments/1sg8lfr/turboocr_for_highvolume_image_and_pdf_processing/?utm_…"
 tags = []
-list_page = 12
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->
