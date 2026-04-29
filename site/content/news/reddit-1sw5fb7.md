@@ -20,7 +20,7 @@ ai_summary = "已经使用这个几天了。这是迄今为止我为 Qwen 3.6 35
 summary = "Been using this for a few days. It is BY FAR the best uncensored model I have found for Qwen 3.6 35B. With IQ4XS, Q8 KVcache, 262K context, it fits in 24GB of VRAM and does not fail on multi turn tool calls. I honeslty feel like it is smarter than the original model (call me crazy). The model also h"
 summary_zh = "已经使用这个几天了。这是迄今为止我为 Qwen 3.6 35B 找到的最好的未经审查的模型。凭借 IQ4XS、Q8 KVcache、262K 上下文，它适合 24GB VRAM，并且在多轮工具调用时不会失败。老实说，我觉得它比原来的模型更聪…"
 tags = []
-list_page = 14
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

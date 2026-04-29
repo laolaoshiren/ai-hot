@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "跑通AI盈利正循环，还教你躺着用Agent赚钱。"
 summary_zh = ""
 tags = []
-list_page = 3
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

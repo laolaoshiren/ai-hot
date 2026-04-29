@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "A federal judge ruled that your AI conversations can be seized and used against you in court — and deleting them doesn't help. \\*\\*The Heppner case (February 2026):\\*\\* \\- Former CEO Bradley Heppner used Claude to prep his fraud defense \\- Judge Jed Rakoff ordered him to surrender 31 AI-generated do"
 summary_zh = ""
 tags = []
-list_page = 26
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

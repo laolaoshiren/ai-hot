@@ -20,7 +20,7 @@ ai_summary = "Anthropic 正把 Claude 从办公助手扩展成生活助手，但
 summary = "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber"
 summary_zh = "Anthropic 新增一批面向个人生活场景的 Claude 连接器，把接入范围从 Microsoft 等工作软件扩展到 Spotify、Uber、Instacart、TurboTax 等消费级应用。它想做的不是单个插件，而是让 Claude 在对话里主动调用真实服务，但同时必须解决数据边界、推荐中立性和代操作确认这些敏感问题。"
 tags = []
-list_page = 21
+list_page = 23
 +++
 
 <!-- AUTO-GENERATED: news page -->

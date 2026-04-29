@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "**TLDR;** We were overpaying for OCR, so we compared flagship models with cheaper and older models. New mini-bench + leaderboard. Free tool to test your own documents. Open Source. We’ve been looking at OCR / document extraction workflows and kept seeing the same pattern: Too many teams are either s"
 summary_zh = ""
 tags = []
-list_page = 25
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

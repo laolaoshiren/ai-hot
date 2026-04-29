@@ -126,13 +126,13 @@
       "Qwen3.6 Flash",
       "Qwen3.6 35B A3B"
     ],
-    "model_count": 53,
+    "model_count": 52,
     "last_updated": "2026-04-27",
     "modalities": [
       "视频",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 53 个该作者/厂商相关模型，最近更新为 Qwen3.5 Plus 2026-04-20",
+    "live_summary": "OpenRouter 已收录 52 个该作者/厂商相关模型，最近更新为 Qwen3.5 Plus 2026-04-20",
     "provider_kind": "model_author"
   },
   {
@@ -1076,16 +1076,14 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Poolside: Laguna XS.2 (free)",
       "Poolside: Laguna M.1 (free)"
     ],
-    "model_count": 2,
-    "last_updated": "2026-04-28",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Poolside: Laguna XS.2 (free)"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]

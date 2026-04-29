@@ -20,7 +20,7 @@ ai_summary = "该模拟最初是为流体动力学设计的，基于涡旋作为
 summary = "This simulation was originally designed for fluid dynamics and is based on the concept of a vortex as a coordinated Brownian motion. This was necessary for the theory of motion of asymmetrically oscillating bodies with which I was experimenting https://www.reddit.com/r/AerospaceEngineering/comments/"
 summary_zh = "该模拟最初是为流体动力学设计的，基于涡旋作为协调布朗运动的概念。这对于我正在试验的不对称振荡体的运动理论是必要的 https://www.reddit.com/r/AerospaceEngineering/comments/"
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "询问主要是因为 NIPS 截止日期。我之前一直在向所
 summary = "Asking primarily due to the NIPS deadline. I have always submitted code with my submissions to all conferences before. However, with how good new AI agents are nowadays, I wanted to gather feedback on whether we should stop sharing code in submissions and publish them after acceptance. However, what"
 summary_zh = "询问主要是因为 NIPS 截止日期。我之前一直在向所有会议提交代码的同时提交代码。然而，鉴于如今新的人工智能代理有多好，我想收集关于我们是否应该停止在提交中共享代码并在接受后发布它们的反馈。然而，什么"
 tags = []
-list_page = 11
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

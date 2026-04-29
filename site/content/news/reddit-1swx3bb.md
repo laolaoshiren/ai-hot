@@ -20,7 +20,7 @@ ai_summary = "现在每个人都在构建记忆层。更长的上下文、更好
 summary = "Everyone's building memory layers right now. Longer context, better embeddings, persistent state across sessions. I spent weeks on the same thing. But the failure mode that actually cost me the most debugging time had nothing to do with memory. Here's what it looked like: an agent would be technical"
 summary_zh = "现在每个人都在构建记忆层。更长的上下文、更好的嵌入、跨会话的持久状态。我花了几周时间做同样的事情。但实际上花费我最多调试时间的故障模式与内存无关。它看起来是这样的：代理将是技术人员"
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

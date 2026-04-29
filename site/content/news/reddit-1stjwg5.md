@@ -20,7 +20,7 @@ ai_summary = "因此，我一直在一些实际项目中使用 Qwen3.6 35b a3b q
 summary = "So ive been running PI Coding Agent with a the Qwen3.6 35b a3b q4\\_k\\_xl model for some real projects and honestly didn't expect it to work this good. The real game changer was the plan-first skill file i created. Like it actualy follows what you say and does everything step by step without going of"
 summary_zh = "因此，我一直在一些实际项目中使用 Qwen3.6 35b a3b q4\\_k\\_xl 模型运行 PI Coding Agent，老实说没想到它能这么好。真正的游戏规则改变者是我创建的计划优先技能文件。就像它实际上遵循你所说的那样，一步一步地…"
 tags = []
-list_page = 23
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

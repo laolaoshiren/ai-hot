@@ -20,7 +20,7 @@ ai_summary = "你好，我最近在一次研讨会上拒绝了我的论文（大
 summary = "Hello, I recently got my paper rejected from a workshop (big womp :'( ) . Both reviewers said the paper sounds more like a technical report than a research paper. I followed the usual computer vision format for papers so I'm a bit confused by what that might actually mean. I would therefore like to"
 summary_zh = "你好，我最近在一次研讨会上拒绝了我的论文（大哇：'（）。两位审稿人都说这篇论文听起来更像是技术报告而不是研究论文。我遵循通常的计算机视觉论文格式，所以我对这实际上意味着什么感到有点困惑。因此我想"
 tags = []
-list_page = 7
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "最近发表在《科学》杂志上的一篇政策论坛论文描
 summary = "A recent policy forum paper published in Science describes how large groups of AI-generated personas can convincingly imitate human behavior online. These systems can enter digital communities, participate in discussions, and influence viewpoints at extraordinary speed. Unlike earlier bot networks,"
 summary_zh = "最近发表在《科学》杂志上的一篇政策论坛论文描述了人工智能生成的大量角色如何令人信服地模仿人类的在线行为。这些系统可以以惊人的速度进入数字社区、参与讨论并影响观点。与早期的机器人网络不同"
 tags = []
-list_page = 20
+list_page = 22
 +++
 
 <!-- AUTO-GENERATED: news page -->

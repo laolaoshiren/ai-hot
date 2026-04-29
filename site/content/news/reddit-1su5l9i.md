@@ -20,7 +20,7 @@ ai_summary = "我希望他们将其包含在下一个 v4 版本中。来源：[D
 summary = "I hope they include it in their next v4 release. Source: [DeepSeek\\_V4\\_Technical\\_Report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf)"
 summary_zh = "我希望他们将其包含在下一个 v4 版本中。来源：[DeepSeek\\_V4\\_Technical\\_Report](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/D…"
 tags = []
-list_page = 19
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

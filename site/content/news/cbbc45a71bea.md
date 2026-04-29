@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. Three reasons why DeepSeek’s new model matters On Friday, Chinese AI firm DeepSeek released a preview of V4, its long-awaited new flagship model. Nota"
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 DeepSeek 新模型重要的三个原因周五，中国人工智能公司 DeepSeek 发布了其期待已久的新旗舰模型 V4 的预览。诺塔"
 tags = []
-list_page = 8
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->

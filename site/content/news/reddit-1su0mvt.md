@@ -20,7 +20,7 @@ ai_summary = "编辑：好吧好吧。布莱克威尔一路走来。新的，在
 summary = "EDIT: OKOKOK. Blackwell all the way. NEW, at MC or NewEgg or where ever and more tokens than my face can handle. Thanks guys. I was close to pulling that [Apple.com](http://Apple.com) trigger. You saved me. EDIT AGAIN: I think it's the max-q for me. Central Computers has them for 8999 and MAYBE 200"
 summary_zh = "编辑：好吧好吧。布莱克威尔一路走来。新的，在 MC 或 NewEgg 或任何地方，更多的代币超出了我的脸能处理的范围。谢谢你们。我差一点就要触发 [Apple.com](http://Apple.com) 的扳机。你救了我。再次编辑：我认为…"
 tags = []
-list_page = 20
+list_page = 22
 +++
 
 <!-- AUTO-GENERATED: news page -->

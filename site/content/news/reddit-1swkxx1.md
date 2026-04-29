@@ -20,7 +20,7 @@ ai_summary = "我最近一直在阅读有关几何深度学习的内容（整个
 summary = "I’ve been reading about Geometric Deep Learning lately (the whole grids, graphs, groups, manifolds idea), and something clicked that i wanted to get a clarity on, i don't think i'm an expert at GDL or anything mentioned here, so i can most definitely be wrong at a fundamental level as well, A lot of"
 summary_zh = "我最近一直在阅读有关几何深度学习的内容（整个网格、图表、组、流形的想法），并且我想弄清楚一些东西，我不认为我是 GDL 或这里提到的任何内容的专家，所以我在基本层面上也肯定是错误的，很多"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

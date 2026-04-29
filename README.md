@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-29 03:31:19
+🕐 **最近更新**：2026-04-29 10:17:32
 
 **提供商直达：** [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [亚马逊在产品页面推出人工智能驱动的音频问答体验](https://aihot.bt199.com/news/a1231f5b46cc/)
-   - 亚马逊的新“加入聊天”功能可让您提出有关产品的问题并接收人工智能驱动的音频回复
+1. [在 OpenAI 试验中，马斯克重拾昔日友谊](https://aihot.bt199.com/news/1f2810cb9682/)
+   - 这是马斯克之前在采访中以及为沃尔特·艾萨克森（Walter Isaacson）撰写的畅销马斯克传记时讲述过的故事，但周二…
+   - `TechCrunch AI · 2026-04-29`
+
+2. [亚马逊已经在 AWS 上提供新的 OpenAI 产品](https://aihot.bt199.com/news/9ac17987a01d/)
+   - OpenAI 让微软同意终止专有权的第二天，AWS 宣布了一系列 OpenAI 模型产品，其中包括一项新的代理服务
    - `TechCrunch AI · 2026-04-28`
 
-2. [在 Anthropic 拒绝后，谷歌扩大了五角大楼对其人工智能的访问范围](https://aihot.bt199.com/news/8dcbd07fb3ff/)
-   - 在 Anthropic 拒绝允许国防部将其人工智能用于国内大规模监视和自主武器之后，谷歌与该部门签署了一份新合同
-   - `TechCrunch AI · 2026-04-28`
-
-3. [埃隆·马斯克 (Elon Musk) 在针对 OpenAI 的备受瞩目的审判中出庭作证](https://aihot.bt199.com/news/21149ecd89ea/)
-   - 埃隆·马斯克 (Elon Musk) 正式开始在针对 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman)…
+3. [埃隆·马斯克告诉陪审团，他想做的就是拯救人类](https://aihot.bt199.com/news/c4b3a04bee65/)
+   - 在证人席上，埃隆·马斯克将自己定位为救世主。在他和 OpenAI 联合创始人、现任首席执行官萨姆·奥尔特曼 (Sam A…
    - `The Verge AI · 2026-04-28`
 
-4. [马斯克与奥尔特曼对簿公堂：OpenAI 能否继续按营利公司运转成焦点](https://aihot.bt199.com/news/370be1499991/)
+4. [泰勒·斯威夫特正在加大对人工智能模仿者的法律战力度](https://aihot.bt199.com/news/f46abba89ed3/)
+   - 泰勒·斯威夫特多年来一直处于人工智能模仿争议的中心，现在，她成为最新一位不断努力保护自己免受人工智能模仿者侵害的名人。然…
+   - `The Verge AI · 2026-04-28`
+
+5. [马斯克与奥尔特曼对簿公堂：OpenAI 能否继续按营利公司运转成焦点](https://aihot.bt199.com/news/370be1499991/)
    - 马斯克起诉 OpenAI 的案件进入审理，争议核心是这家公司是否背离了非营利初心。
    - `MIT Tech Review · 2026-04-27`
-
-5. [Cloudflare Sandboxes 正式上线：给 AI 代理一套可持久化的隔离 Linux 环境](https://aihot.bt199.com/news/807ab81e66ad/)
-   - Cloudflare 把代理沙箱从测试版推向正式版，重点补齐持久状态、安全凭证和按量计费。
-   - `InfoQ AI · 2026-04-28`
 
 
 ## 🤖 AI 简报
@@ -119,6 +119,7 @@
 ---
 
 MIT License
+
 
 
 
