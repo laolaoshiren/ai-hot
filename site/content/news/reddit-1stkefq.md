@@ -20,7 +20,7 @@ ai_summary = "最近，我有幸与温德尔·瓦拉赫 (Wendell Wallach) 坐在
 summary = "I had the pleasure of sitting down with Wendell Wallach recently. He’s been working in AI ethics since before ChatGPT, before the hype, before most people in tech were paying attention. He wrote Moral Machines, worked alongside Stuart Russell, Yann LeCun and Daniel Kahneman. He’s not a commentator,"
 summary_zh = "最近，我有幸与温德尔·瓦拉赫 (Wendell Wallach) 坐在一起。在 ChatGPT 出现之前、在大肆宣传之前、在大多数科技界人士关注之前，他就一直在研究人工智能伦理问题。他撰写了《道德机器》，与 Stuart Russell、Y…"
 tags = []
-list_page = 26
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

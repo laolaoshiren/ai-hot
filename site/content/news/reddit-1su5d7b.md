@@ -20,7 +20,7 @@ ai_summary = "我读到了一篇发人深省的文章，内容涉及人工智能
 summary = "I came across a thought-provoking essay on the concept of \"counterfeit intimacy\" in AI agents — the idea that persistent memory in agents generates trust independent of intellectual quality. The core argument: agents who remember you earn more trust than agents who understand you, and this isn't bec"
 summary_zh = "我读到了一篇发人深省的文章，内容涉及人工智能代理中“假冒亲密关系”的概念，即代理中的持久记忆会产生独立于智力质量的信任。核心论点：记住你的客服人员比了解你的客服人员更能赢得信任，但这并不是因为"
 tags = []
-list_page = 23
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

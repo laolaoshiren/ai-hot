@@ -2415,6 +2415,28 @@
     "source": "curated"
   },
   {
+    "id": "github-1197990888",
+    "name": "Gitlawb/openclaude",
+    "display_name": "openclaude",
+    "url": "https://github.com/Gitlawb/openclaude",
+    "description": "Open Claude Is Open-source coding-agent CLI for OpenAI, Gemini, DeepSeek, Ollama, Codex, GitHub Models, and 200+ models via OpenAI-compatible APIs.",
+    "stars": 24965,
+    "forks": 8119,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-tools",
+      "cli",
+      "coding"
+    ],
+    "created_at": "2026-04-01T03:15:49Z",
+    "updated_at": "2026-04-29T13:27:19Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-04-29T13:34:25.099136"
+  },
+  {
     "id": "github-221654678",
     "name": "deepset-ai/haystack",
     "display_name": "haystack",

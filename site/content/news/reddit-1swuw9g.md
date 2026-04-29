@@ -20,7 +20,7 @@ ai_summary = "大家好，我是一名新生，正在尝试进入研究领域。
 summary = "Hi, I am a freshman who is trying to break into research. I got into a well known university research lab in my country for the upcoming summer, and the prof said I am \"better positioned than numerous others\" for hardware-aligned machine learning topics. I am facing a couple of problems, and I would"
 summary_zh = "大家好，我是一名新生，正在尝试进入研究领域。在即将到来的夏天，我进入了我国一所著名的大学研究实验室，教授说我在与硬件相关的机器学习主题方面“比其他许多人更有优势”。我面临着几个问题，我会"
 tags = []
-list_page = 14
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

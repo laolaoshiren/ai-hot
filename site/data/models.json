@@ -4114,6 +4114,24 @@
     "collected_at": "2026-04-28T10:16:49.982162"
   },
   {
+    "id": "hf-talkie-lm--talkie-1930-13b-base",
+    "name": "talkie-lm/talkie-1930-13b-base",
+    "display_name": "talkie-1930-13b-base",
+    "url": "https://huggingface.co/talkie-lm/talkie-1930-13b-base",
+    "author": "talkie-lm",
+    "pipeline_tag": "",
+    "likes": 48,
+    "downloads": 0,
+    "tags": [
+      "en",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-04-20T10:39:30.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-29T13:34:26.115058"
+  },
+  {
     "id": "hf-talkie-lm--talkie-1930-13b-it",
     "name": "talkie-lm/talkie-1930-13b-it",
     "display_name": "talkie-1930-13b-it",
@@ -4993,6 +5011,29 @@
     "created_at": "2026-04-24T22:56:38.000Z",
     "source": "hf-text-gen",
     "collected_at": "2026-04-28T10:16:50.266025"
+  },
+  {
+    "id": "hf-tencent--Hy3-preview-Base",
+    "name": "tencent/Hy3-preview-Base",
+    "display_name": "Hy3-preview-Base",
+    "url": "https://huggingface.co/tencent/Hy3-preview-Base",
+    "author": "tencent",
+    "pipeline_tag": "text-generation",
+    "likes": 20,
+    "downloads": 596,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "hy_v3",
+      "text-generation",
+      "conversational",
+      "license:other",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-13T06:07:47.000Z",
+    "source": "hf-text-gen",
+    "collected_at": "2026-04-29T13:34:26.244359"
   },
   {
     "id": "hf-crynux-network--sdxl-turbo",
@@ -21969,5 +22010,86 @@
     "created_at": "2026-04-29T07:47:14.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T08:05:56.388869"
+  },
+  {
+    "id": "hf-butterfly-777--Teutonic-VIII-5F7AEyu5-tiger0",
+    "name": "butterfly-777/Teutonic-VIII-5F7AEyu5-tiger0",
+    "display_name": "Teutonic-VIII-5F7AEyu5-tiger0",
+    "url": "https://huggingface.co/butterfly-777/Teutonic-VIII-5F7AEyu5-tiger0",
+    "author": "butterfly-777",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-29T13:34:21.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T13:34:26.161235"
+  },
+  {
+    "id": "hf-RepublicOfKorokke--Qwen3-Embedding-4B-oQ6-fp16",
+    "name": "RepublicOfKorokke/Qwen3-Embedding-4B-oQ6-fp16",
+    "display_name": "Qwen3-Embedding-4B-oQ6-fp16",
+    "url": "https://huggingface.co/RepublicOfKorokke/Qwen3-Embedding-4B-oQ6-fp16",
+    "author": "RepublicOfKorokke",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-29T13:34:12.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T13:34:26.161243"
+  },
+  {
+    "id": "hf-AXERA-TECH--AX650-Community-Hub",
+    "name": "AXERA-TECH/AX650-Community-Hub",
+    "display_name": "AX650-Community-Hub",
+    "url": "https://huggingface.co/AXERA-TECH/AX650-Community-Hub",
+    "author": "AXERA-TECH",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:bsd-3-clause",
+      "region:us"
+    ],
+    "created_at": "2026-04-29T13:34:07.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T13:34:26.161246"
+  },
+  {
+    "id": "hf-JVahedy--fluxFal_joe1",
+    "name": "JVahedy/fluxFal_joe1",
+    "display_name": "fluxFal_joe1",
+    "url": "https://huggingface.co/JVahedy/fluxFal_joe1",
+    "author": "JVahedy",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-29T13:33:53.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T13:34:26.161249"
+  },
+  {
+    "id": "hf-lilith-aeva--bert-finetuned-ner-project",
+    "name": "lilith-aeva/bert-finetuned-ner-project",
+    "display_name": "bert-finetuned-ner-project",
+    "url": "https://huggingface.co/lilith-aeva/bert-finetuned-ner-project",
+    "author": "lilith-aeva",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-29T13:33:14.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T13:34:26.161252"
   }
 ]

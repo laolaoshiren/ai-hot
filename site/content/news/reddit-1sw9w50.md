@@ -20,7 +20,7 @@ ai_summary = "《环球邮报》的编辑委员会在三月份发表了一篇题
 summary = "The Globe and Mail's editorial board ran a piece in March titled \"AI can be a crutch, or a springboard.\" To illustrate the crutch half, they offered this: someone asked AI to explain a passage from Dune that warns against delegating thinking to machines. Instead of reading the book. That anecdote is"
 summary_zh = "《环球邮报》的编辑委员会在三月份发表了一篇题为“人工智能可以是拐杖，也可以是跳板”的文章。为了说明拐杖的一半，他们提供了这样的内容：有人要求人工智能解释《沙丘》中的一段话，该话警告不要将思维委托给机器。而不是看书。那则轶事是"
 tags = []
-list_page = 17
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

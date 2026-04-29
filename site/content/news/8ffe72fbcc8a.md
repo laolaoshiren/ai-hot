@@ -20,7 +20,7 @@ ai_summary = "曦望把路线押在大模型推理芯片上，核心判断是未
 summary = "百万Token要降到1分钱"
 summary_zh = "量子位专访曦望联席 CEO 王湛，披露这家纯推理 GPU 公司已累计融资 40 亿元、估值超过百亿。文章的看点不只是融资，而是曦望判断 AI 算力需求正在从训练转向推理，Agent 高频调用会让单位 token 成本成为基础设施竞争的核心指标。"
 tags = []
-list_page = 26
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-29 16:07:56
+🕐 **最近更新**：2026-04-29 21:36:08
 
 **提供商直达：** [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [在 OpenAI 试验中，马斯克重拾昔日友谊](https://aihot.bt199.com/news/1f2810cb9682/)
-   - 这是马斯克之前在采访中以及为沃尔特·艾萨克森（Walter Isaacson）撰写的畅销马斯克传记时讲述过的故事，但周二…
+1. [Firestorm Labs 融资 8200 万美元，将无人机工厂带入该领域](https://aihot.bt199.com/news/358b8403be54/)
+   - 一家国防初创公司刚刚筹集了 8200 万美元，将无人机工厂放入集装箱内，并将制造业带到前线
    - `TechCrunch AI · 2026-04-29`
 
-2. [亚马逊已经在 AWS 上提供新的 OpenAI 产品](https://aihot.bt199.com/news/9ac17987a01d/)
-   - OpenAI 让微软同意终止专有权的第二天，AWS 宣布了一系列 OpenAI 模型产品，其中包括一项新的代理服务
-   - `TechCrunch AI · 2026-04-28`
+2. [泰勒·斯威夫特 (Taylor Swift) 深度假货正在 TikTok 上推行诈骗](https://aihot.bt199.com/news/f2f442e7b709/)
+   - 据身份验证公司 Copyleaks 称，诈骗者正在使用人工智能生成的泰勒·斯威夫特和蕾哈娜等名人视频在 TikTok 上…
+   - `The Verge AI · 2026-04-29`
 
-3. [埃隆·马斯克告诉陪审团，他想做的就是拯救人类](https://aihot.bt199.com/news/c4b3a04bee65/)
-   - 在证人席上，埃隆·马斯克将自己定位为救世主。在他和 OpenAI 联合创始人、现任首席执行官萨姆·奥尔特曼 (Sam A…
-   - `The Verge AI · 2026-04-28`
+3. [百度混乱后中国冻结新的机器人出租车牌照](https://aihot.bt199.com/news/805fe2d33884/)
+   - 彭博社援引不愿透露姓名的知情人士的话报道称，中国已暂停发放新的自动驾驶汽车牌照。此前，中国科技巨头百度运营的数十辆机器人…
+   - `The Verge AI · 2026-04-29`
 
-4. [泰勒·斯威夫特正在加大对人工智能模仿者的法律战力度](https://aihot.bt199.com/news/f46abba89ed3/)
-   - 泰勒·斯威夫特多年来一直处于人工智能模仿争议的中心，现在，她成为最新一位不断努力保护自己免受人工智能模仿者侵害的名人。然…
-   - `The Verge AI · 2026-04-28`
+4. [Meet Shapes，该应用程序将人类和人工智能引入同一个群聊](https://aihot.bt199.com/news/590c28931c3d/)
+   - 想想 Discord 聊天，但除了人类之外还有人工智能角色
+   - `TechCrunch AI · 2026-04-29`
 
-5. [马斯克与奥尔特曼对簿公堂：OpenAI 能否继续按营利公司运转成焦点](https://aihot.bt199.com/news/370be1499991/)
-   - 马斯克起诉 OpenAI 的案件进入审理，争议核心是这家公司是否背离了非营利初心。
-   - `MIT Tech Review · 2026-04-27`
+5. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
+   - 安全公司发现自己尤其容易受到威胁
+   - `Ars Technica AI · 2026-04-29`
 
 
 ## 🤖 AI 简报
@@ -119,6 +119,7 @@
 ---
 
 MIT License
+
 
 
 

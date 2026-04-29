@@ -20,7 +20,7 @@ ai_summary = "Noscroll 用 AI 代看 X、新闻和社区内容，只在真正重
 summary = "Noscroll wants to cure doomscrolling with an AI bot that reads the internet for you."
 summary_zh = "TechCrunch 报道的新创业公司 Noscroll 主打“替你刷 doomscrolling”：用户连接 X 账号后，AI 会读取社交动态、新闻、博客、Reddit、Hacker News 等来源，再按用户关心的主题生成短信摘要。它反映了一个新方向：AI 不只是生成内容，也开始帮人过滤过载的信息流。"
 tags = []
-list_page = 25
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

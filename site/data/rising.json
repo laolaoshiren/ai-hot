@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-29T08:06:39.752190+00:00",
+  "updated_at": "2026-04-29T13:35:14.754696+00:00",
   "window_days": 30,
-  "candidate_count": 5,
+  "candidate_count": 6,
   "items": [
     {
       "id": "github-1201656210",
@@ -12,7 +12,7 @@
       "stars": 48439,
       "created_at": "2026-04-05T01:12:07Z",
       "window_days": 30,
-      "score": 5256.602279076187,
+      "score": 5207.67652779397,
       "reason": "最近值得点开的开源 AI 项目"
     },
     {
@@ -26,7 +26,7 @@
       "created_at": "2026-04-03T09:28:47.000Z",
       "window_days": 30,
       "openrouter_available": false,
-      "score": 3628.0586763579454,
+      "score": 3596.426103521607,
       "reason": "智谱新一代通用模型线，近期关注度明显抬头"
     },
     {
@@ -49,7 +49,7 @@
       "stars": 48643,
       "created_at": "2026-04-04T10:03:00Z",
       "window_days": 30,
-      "score": 5138.300327119461,
+      "score": 5091.676318489717,
       "reason": "最近值得点开的开源 AI 项目"
     },
     {
@@ -61,7 +61,7 @@
       "stars": 36873,
       "created_at": "2026-04-04T18:21:18Z",
       "window_days": 30,
-      "score": 4313.744671008335,
+      "score": 4274.056399387376,
       "reason": "基于 Claude Code 的求职自动化工作流系统"
     }
   ]

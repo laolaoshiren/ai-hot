@@ -20,7 +20,7 @@ ai_summary = "无意冒犯微调模型提供者，只是好奇。在我看来，
 summary = "No offense to the fine-tune model providers, just curious. IMO the original models were already trained on massive amount of high quality data, so why bother with this fine-tune? Just to make the model's language style sounds like Claude? Or it really reshape the chain of thought ?"
 summary_zh = "无意冒犯微调模型提供者，只是好奇。在我看来，原始模型已经接受了大量高质量数据的训练，那么为什么还要进行这种微调呢？只是为了让模特的语言风格听起来像克劳德？或者说它真的重塑了思想链条？"
 tags = []
-list_page = 6
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

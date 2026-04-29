@@ -20,7 +20,7 @@ ai_summary = "我只是在错误没有得到修复后才注意到这一点。如
 summary = "I just noticed this after a bug wasn't getting fixed. If you start a Claude code remote environment the default model (hidden on mobile) is glm 4.7 I assumed anthropic only used their own models for everything so it was interesting to me that they are actually serving open weights models (which I as"
 summary_zh = "我只是在错误没有得到修复后才注意到这一点。如果您启动 Claude 代码远程环境，默认模型（隐藏在移动设备上）是 glm 4.7 我假设人类只使用他们自己的模型来处理所有事情，所以对我来说很有趣的是他们实际上提供开放权重模型（我将其视为"
 tags = []
-list_page = 15
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

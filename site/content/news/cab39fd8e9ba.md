@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.wheresyoured.at/ais-economics-dont-make
 summary = "Article URL: https://www.wheresyoured.at/ais-economics-dont-make-sense/ Comments URL: https://news.ycombinator.com/item?id=47936867 Points: 141 # Comments: 99"
 summary_zh = "文章网址：https://www.wheresyoured.at/ais-economics-dont-make-sense/ 评论网址：https://news.ycombinator.com/item?id=47936867 积分：14…"
 tags = []
-list_page = 4
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

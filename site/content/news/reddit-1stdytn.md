@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Ok so this is my first post here, been lurking for a while. I’m about to start my first fine-tuning project and I don’t want to commit to the wrong direction so figured I’d ask. Background on me: I’m not from an ML background, self-taught, been working with LLMs through APIs for about a year. Hit th"
 summary_zh = ""
 tags = []
-list_page = 28
+list_page = 30
 +++
 
 <!-- AUTO-GENERATED: news page -->
