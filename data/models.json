@@ -3558,6 +3558,51 @@
     "collected_at": "2026-04-22T19:04:20.232129"
   },
   {
+    "id": "hf-mistralai--Mistral-Medium-3.5-128B",
+    "name": "mistralai/Mistral-Medium-3.5-128B",
+    "display_name": "Mistral-Medium-3.5-128B",
+    "url": "https://huggingface.co/mistralai/Mistral-Medium-3.5-128B",
+    "author": "mistralai",
+    "pipeline_tag": "",
+    "likes": 70,
+    "downloads": 227,
+    "tags": [
+      "safetensors",
+      "mistral3",
+      "vLLM",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "pt",
+      "it",
+      "ja",
+      "ko",
+      "ru",
+      "zh",
+      "ar",
+      "fa",
+      "id",
+      "ms",
+      "ne",
+      "pl",
+      "ro",
+      "sr",
+      "sv",
+      "tr",
+      "uk",
+      "vi",
+      "hi",
+      "bn",
+      "license:other",
+      "fp8",
+      "region:us"
+    ],
+    "created_at": "2026-03-31T09:50:20.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-29T19:15:02.844896"
+  },
+  {
     "id": "hf-Jackrong--Qwen3.5-9B-GLM5.1-Distill-v1-GGUF",
     "name": "Jackrong/Qwen3.5-9B-GLM5.1-Distill-v1-GGUF",
     "display_name": "Qwen3.5-9B-GLM5.1-Distill-v1-GGUF",
@@ -4631,6 +4676,32 @@
     "collected_at": "2026-04-28T10:16:50.266020"
   },
   {
+    "id": "hf-ibm-granite--granite-4.1-30b",
+    "name": "ibm-granite/granite-4.1-30b",
+    "display_name": "granite-4.1-30b",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-30b",
+    "author": "ibm-granite",
+    "pipeline_tag": "text-generation",
+    "likes": 29,
+    "downloads": 124,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "language",
+      "granite-4.0",
+      "conversational",
+      "arxiv:0000.00000",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-06T13:19:18.000Z",
+    "source": "hf-text-gen",
+    "collected_at": "2026-04-29T19:15:03.130676"
+  },
+  {
     "id": "hf-ubergarm--Kimi-K2.6-GGUF",
     "name": "ubergarm/Kimi-K2.6-GGUF",
     "display_name": "Kimi-K2.6-GGUF",
@@ -5250,6 +5321,68 @@
     "created_at": "2026-04-23T07:18:22.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-23T07:27:21.081878"
+  },
+  {
+    "id": "hf-Ares-Realm-Studios--SmolVLM2-500M-Video-Instruct-Q8_0-GGUF",
+    "name": "Ares-Realm-Studios/SmolVLM2-500M-Video-Instruct-Q8_0-GGUF",
+    "display_name": "SmolVLM2-500M-Video-Instruct-Q8_0-GGUF",
+    "url": "https://huggingface.co/Ares-Realm-Studios/SmolVLM2-500M-Video-Instruct-Q8_0-GGUF",
+    "author": "Ares-Realm-Studios",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 1,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "gguf",
+      "llama-cpp",
+      "gguf-my-repo",
+      "image-text-to-text",
+      "en",
+      "dataset:HuggingFaceM4/the_cauldron",
+      "dataset:HuggingFaceM4/Docmatix",
+      "dataset:lmms-lab/LLaVA-OneVision-Data",
+      "dataset:lmms-lab/M4-Instruct-Data",
+      "dataset:HuggingFaceFV/finevideo",
+      "dataset:MAmmoTH-VL/MAmmoTH-VL-Instruct-12M",
+      "dataset:lmms-lab/LLaVA-Video-178K",
+      "dataset:orrzohar/Video-STaR",
+      "dataset:Mutonix/Vript",
+      "dataset:TIGER-Lab/VISTA-400K",
+      "dataset:Enxin/MovieChat-1K_train",
+      "dataset:ShareGPT4Video/ShareGPT4Video",
+      "base_model:Ares-Realm-Studios/SmolVLM2-500M-Video-Instruct",
+      "base_model:quantized:Ares-Realm-Studios/SmolVLM2-500M-Video-Instruct",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us",
+      "conversational"
+    ],
+    "created_at": "2026-04-29T19:07:45.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T19:15:02.966238"
+  },
+  {
+    "id": "hf-mohamedzair--clients-reviews-classifier",
+    "name": "mohamedzair/clients-reviews-classifier",
+    "display_name": "clients-reviews-classifier",
+    "url": "https://huggingface.co/mohamedzair/clients-reviews-classifier",
+    "author": "mohamedzair",
+    "pipeline_tag": "text-classification",
+    "likes": 1,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "distilbert",
+      "text-classification",
+      "arxiv:1910.09700",
+      "text-embeddings-inference",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-29T19:02:58.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-29T19:15:02.966320"
   },
   {
     "id": "hf-John6666--diving-illustrious-real-asian-v50-sdxl",
@@ -22026,70 +22159,5 @@
     "created_at": "2026-04-29T13:34:21.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T13:34:26.161235"
-  },
-  {
-    "id": "hf-RepublicOfKorokke--Qwen3-Embedding-4B-oQ6-fp16",
-    "name": "RepublicOfKorokke/Qwen3-Embedding-4B-oQ6-fp16",
-    "display_name": "Qwen3-Embedding-4B-oQ6-fp16",
-    "url": "https://huggingface.co/RepublicOfKorokke/Qwen3-Embedding-4B-oQ6-fp16",
-    "author": "RepublicOfKorokke",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2026-04-29T13:34:12.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T13:34:26.161243"
-  },
-  {
-    "id": "hf-AXERA-TECH--AX650-Community-Hub",
-    "name": "AXERA-TECH/AX650-Community-Hub",
-    "display_name": "AX650-Community-Hub",
-    "url": "https://huggingface.co/AXERA-TECH/AX650-Community-Hub",
-    "author": "AXERA-TECH",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "license:bsd-3-clause",
-      "region:us"
-    ],
-    "created_at": "2026-04-29T13:34:07.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T13:34:26.161246"
-  },
-  {
-    "id": "hf-JVahedy--fluxFal_joe1",
-    "name": "JVahedy/fluxFal_joe1",
-    "display_name": "fluxFal_joe1",
-    "url": "https://huggingface.co/JVahedy/fluxFal_joe1",
-    "author": "JVahedy",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2026-04-29T13:33:53.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T13:34:26.161249"
-  },
-  {
-    "id": "hf-lilith-aeva--bert-finetuned-ner-project",
-    "name": "lilith-aeva/bert-finetuned-ner-project",
-    "display_name": "bert-finetuned-ner-project",
-    "url": "https://huggingface.co/lilith-aeva/bert-finetuned-ner-project",
-    "author": "lilith-aeva",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2026-04-29T13:33:14.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T13:34:26.161252"
   }
 ]

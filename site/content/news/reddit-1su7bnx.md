@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Deepseek v4 people"
 summary_zh = "Deepseek v4 人"
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-29T13:35:15.067599",
+  "updated_at": "2026-04-29T19:15:45.020866",
   "date": "2026-04-29",
   "spotlight": {
     "id": "claude-code",
@@ -32,7 +32,7 @@
       "name": "Autodidact",
       "url": "https://github.com/dCaples/AutoDidact",
       "type": "agent",
-      "description": "Autonomously train research-agent LLMs on custom data using reinforcement learning and self-verifica",
+      "description": "用强化学习和自验证机制自动训练研究型 Agent LLM，适合探索自我学习智能体。",
       "pricing": "开源免费",
       "category": "研究 Agent"
     }

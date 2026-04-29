@@ -20,7 +20,7 @@ ai_summary = "我一直在运行一个 AI 代理，它可以对各种 API 进行
 summary = "I've been running an AI agent that makes tool calls to various APIs, and I added a logging layer to capture exactly what was being sent vs. what the tools expected. Over 84 tool calls in 72 hours, 31 of them (37%) had parameter mismatches — and not a single one raised an error. The tools accepted th"
 summary_zh = "我一直在运行一个 AI 代理，它可以对各种 API 进行工具调用，并且添加了一个日志记录层来准确捕获正在发送的内容与工具期望的内容。 72 小时内超过 84 次工具调用，其中 31 次 (37%) 存在参数不匹配，而且没有一个出现错误。接受…"
 tags = []
-list_page = 27
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

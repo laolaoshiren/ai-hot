@@ -4641,6 +4641,32 @@
     "collected_at": "2026-04-28T19:29:42.348254"
   },
   {
+    "id": "github-1218875362",
+    "name": "Yashasm18/Fair-Grade",
+    "display_name": "Fair-Grade",
+    "url": "https://github.com/Yashasm18/Fair-Grade",
+    "description": "⚖️ An AI-driven, multi-agent evaluation engine designed to detect and mitigate implicit grading bias. Features multimodal OCR, in-memory PII redaction, and a secure Human-in-the-Loop (HITL) architecture. Built for UN SDG 4. 🚀",
+    "stars": 9,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "artificial-intelligence",
+      "bias-detection",
+      "fastapi",
+      "gemini-api",
+      "human-in-the-loop",
+      "multi-agent",
+      "react",
+      "responsible-ai",
+      "sdg4"
+    ],
+    "created_at": "2026-04-23T09:52:26Z",
+    "updated_at": "2026-04-29T17:28:51Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-04-29T19:14:57.943970"
+  },
+  {
     "id": "github-1188906847",
     "name": "hackyguru/clawcage",
     "display_name": "clawcage",

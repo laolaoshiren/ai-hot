@@ -20,7 +20,7 @@ ai_summary = "我从事质量检查已经近十年了。我的质量心理模型
 summary = "I’ve been in QA for almost a decade. My mental model for quality was always: given input X, assert output Y. Now I’m on a team that’s shipping an LLM-based agent that handles multi-step tasks. I genuinely do not know how to test this in a way that feels rigorous. The thing works. But the output isn’"
 summary_zh = "我从事质量检查已经近十年了。我的质量心理模型始终是：给定输入 X，断言输出 Y。现在，我所在的团队正在开发基于 LLM 的代理，该代理可以处理多步骤任务。我真的不知道如何以一种感觉严格的方式来测试它。这东西有效。但输出是"
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

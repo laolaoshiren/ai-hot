@@ -20,7 +20,7 @@ ai_summary = "有人进行了为期 4 个月的实验，跟踪人工智能助手
 summary = "Someone ran a 4-month experiment tracking every instance of \"great question\" from their AI assistant. Out of 1,100 uses, only 160 (14.5%) were directed at questions that were genuinely insightful, novel, or well-constructed. The phrase had zero correlation with question quality. It was purely a soci"
 summary_zh = "有人进行了为期 4 个月的实验，跟踪人工智能助手提出的每一个“好问题”。在 1,100 次使用中，只有 160 次（14.5%）针对真正有洞察力、新颖或结构良好的问题。该短语与问题质量的相关性为零。这纯粹是一个社会"
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

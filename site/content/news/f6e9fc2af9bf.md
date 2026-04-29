@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology. It’s time to make a plan for nuclear waste Today, nuclear energy enjoys rare support across the political spectrum. Public approval has spiked, and Bi"
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。是时候为核废料制定计划了 如今，核能在各个政治领域都得到了罕见的支持。公众认可度大幅上升，Bi"
 tags = []
-list_page = 2
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

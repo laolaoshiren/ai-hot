@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-29 21:36:08
+🕐 **最近更新**：2026-04-30 03:16:42
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,21 +16,21 @@
 
 ## 🔥 今日热点
 
-1. [Firestorm Labs 融资 8200 万美元，将无人机工厂带入该领域](https://aihot.bt199.com/news/358b8403be54/)
-   - 一家国防初创公司刚刚筹集了 8200 万美元，将无人机工厂放入集装箱内，并将制造业带到前线
+1. [AI视频只是前传吗？ Runway 首席执行官认为世界模特是下一个](https://aihot.bt199.com/news/20eea33e5405/)
+   - 人工智能生成的视频几乎在一夜之间从新颖的东西变成了创意工具，而 Runway 则占据了前排座位。这家总部位于纽约的公司已…
    - `TechCrunch AI · 2026-04-29`
 
-2. [泰勒·斯威夫特 (Taylor Swift) 深度假货正在 TikTok 上推行诈骗](https://aihot.bt199.com/news/f2f442e7b709/)
-   - 据身份验证公司 Copyleaks 称，诈骗者正在使用人工智能生成的泰勒·斯威夫特和蕾哈娜等名人视频在 TikTok 上…
-   - `The Verge AI · 2026-04-29`
-
-3. [百度混乱后中国冻结新的机器人出租车牌照](https://aihot.bt199.com/news/805fe2d33884/)
-   - 彭博社援引不愿透露姓名的知情人士的话报道称，中国已暂停发放新的自动驾驶汽车牌照。此前，中国科技巨头百度运营的数十辆机器人…
-   - `The Verge AI · 2026-04-29`
-
-4. [Meet Shapes，该应用程序将人类和人工智能引入同一个群聊](https://aihot.bt199.com/news/590c28931c3d/)
-   - 想想 Discord 聊天，但除了人类之外还有人工智能角色
+2. [Parallel Web Systems 在上次大幅融资五个月后估值达到 20 亿美元](https://aihot.bt199.com/news/ddc6e0690928/)
+   - 这家由 Twitter 前首席执行官 Parag Agrawal 创立的人工智能代理工具初创公司在红杉资本领投的几个月后…
    - `TechCrunch AI · 2026-04-29`
+
+3. [马斯克诉奥特曼案迄今为止公布的所有证据](https://aihot.bt199.com/news/489362c10603/)
+   - 马斯克诉奥特曼案的审判正在进行中，这意味着证物或将在法庭上出示的证据正在被逐件揭晓。到目前为止，电子邮件交流、照片和公司…
+   - `The Verge AI · 2026-04-29`
+
+4. [Ubuntu 的人工智能计划让 Linux 用户寻找“终止开关”](https://aihot.bt199.com/news/f68cdc4ceeae/)
+   - Canonical 计划向 Ubuntu 添加 AI 功能，一些用户要求“不包含这些功能的 Ubuntu 版本”，而其他…
+   - `The Verge AI · 2026-04-29`
 
 5. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
    - 安全公司发现自己尤其容易受到威胁
@@ -119,6 +119,7 @@
 ---
 
 MIT License
+
 
 
 

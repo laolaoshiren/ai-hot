@@ -20,7 +20,7 @@ ai_summary = "如果他们实现了自己的梦想和通用人工智能，选择
 summary = "What if they get their dream and the AGI, chooses general humanity above the elite."
 summary_zh = "如果他们实现了自己的梦想和通用人工智能，选择普通人类而不是精英，那会怎样呢？"
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

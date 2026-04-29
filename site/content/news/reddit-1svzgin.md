@@ -20,7 +20,7 @@ ai_summary = "正如标题所暗示的那样，我收到了一位显然是法学
 summary = "As the title suggests, I received a weak rejection with high confidence from a reviewer who is clearly LLM written, while all 4 other reviewers had given a positive score with low confidence. Most of the points he raised are trivial and do not apply to my paper. All the baselines he mentioned are ir"
 summary_zh = "正如标题所暗示的那样，我收到了一位显然是法学硕士的审稿人的高置信度的弱拒绝，而其他 4 名审稿人都给出了低置信度的积极评分。他提出的大部分观点都很琐碎，不适用于我的论文。他提到的所有基线都是ir"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

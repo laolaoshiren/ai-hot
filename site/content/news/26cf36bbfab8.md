@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://status.claude.com/incidents/9l93x2ht4s5w �
 summary = "Article URL: https://status.claude.com/incidents/9l93x2ht4s5w Comments URL: https://news.ycombinator.com/item?id=47938097 Points: 145 # Comments: 120"
 summary_zh = "文章网址：https://status.claude.com/incidents/9l93x2ht4s5w 评论网址：https://news.ycombinator.com/item?id=47938097 积分：145 # 评论：120"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

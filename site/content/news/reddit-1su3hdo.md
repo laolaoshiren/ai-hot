@@ -20,7 +20,7 @@ ai_summary = "https://huggingface.co/collections/deepseek-ai/deepseek-v4"
 summary = "https://huggingface.co/collections/deepseek-ai/deepseek-v4"
 summary_zh = "https://huggingface.co/collections/deepseek-ai/deepseek-v4"
 tags = []
-list_page = 26
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

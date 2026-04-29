@@ -20,7 +20,7 @@ ai_summary = "嘿，骆驼们，你们的时间很宝贵，所以我就长话短
 summary = "Hey fellow Llamas, your time is precious, so I'll keep it short. We built a GGUF port of DFlash speculative decoding. Standalone C++/CUDA stack on top of ggml, runs on a single 24 GB RTX 3090, hosts the new Qwen3.6-27B. We call it Luce DFlash ([https://github.com/Luce-Org/lucebox-hub](https://github"
 summary_zh = "嘿，骆驼们，你们的时间很宝贵，所以我就长话短说吧。我们构建了 DFlash 推测解码的 GGUF 端口。独立的 C++/CUDA 堆栈位于 ggml 之上，在单个 24 GB RTX 3090 上运行，托管新的 Qwen3.6-27B。我们…"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

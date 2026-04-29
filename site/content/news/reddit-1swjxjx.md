@@ -20,7 +20,7 @@ ai_summary = "TL:DR - 记得 FPGA PCI 板是我加密时代的一件大事。想
 summary = "TL:DR - Remembered FPGA PCI boards being a big thing from my crypto days. Wondered if AMD Alveo V80 FPGA card could be used to approximate the performance of a Taalas HC1 (LLM-on-a-chip). Ran the idea past Gemini Pro for a feasibility / sanity check. It suggested what seemed to be a speculative deco"
 summary_zh = "TL:DR - 记得 FPGA PCI 板是我加密时代的一件大事。想知道 AMD Alveo V80 FPGA 卡是否可用于近似 Taalas HC1（LLM-on-a-chip）的性能。将这个想法通过 Gemini Pro 进行可行性/健…"
 tags = []
-list_page = 19
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

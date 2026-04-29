@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "“全球最强开源”的含金量还在上升"
 summary_zh = ""
 tags = []
-list_page = 4
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->
