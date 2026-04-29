@@ -182,7 +182,7 @@ def merge_provider_records(existing, inferred):
         if target_id == 'xiaomi':
             provider['name'] = '小米 MiMo'
             provider['logo'] = '🟠'
-            provider['url'] = 'https://openrouter.ai/xiaomi'
+            provider['url'] = 'https://platform.xiaomimimo.com?ref=A3JKSD'
         merged[target_id] = provider
     return list(merged.values())
 

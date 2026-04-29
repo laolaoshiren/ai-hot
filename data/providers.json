@@ -1,5 +1,33 @@
 [
   {
+    "id": "xiaomi",
+    "name": "小米 MiMo",
+    "url": "https://platform.xiaomimimo.com?ref=A3JKSD",
+    "logo": "🟠",
+    "models": [
+      "MiMo-V2.5-Pro",
+      "MiMo-V2.5",
+      "MiMo-V2-Omni"
+    ],
+    "type": "国产",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "model_author",
+    "source": "openrouter",
+    "latest_models": [
+      "MiMo-V2.5-Pro",
+      "MiMo-V2.5",
+      "MiMo-V2-Omni"
+    ],
+    "model_count": 5,
+    "last_updated": "2026-04-22",
+    "modalities": [
+      "文本",
+      "视频"
+    ],
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 MiMo-V2.5-Pro"
+  },
+  {
     "id": "openai",
     "name": "OpenAI",
     "url": "https://openai.com",
@@ -397,34 +425,6 @@
     ],
     "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Nemotron 3 Nano Omni (free)",
     "provider_kind": "model_author"
-  },
-  {
-    "id": "xiaomi",
-    "name": "小米 MiMo",
-    "url": "https://openrouter.ai/xiaomi",
-    "logo": "🟠",
-    "models": [
-      "MiMo-V2.5-Pro",
-      "MiMo-V2.5",
-      "MiMo-V2-Omni"
-    ],
-    "type": "国产",
-    "pricing": "按量计费",
-    "api": true,
-    "provider_kind": "model_author",
-    "source": "openrouter",
-    "latest_models": [
-      "MiMo-V2.5-Pro",
-      "MiMo-V2.5",
-      "MiMo-V2-Omni"
-    ],
-    "model_count": 5,
-    "last_updated": "2026-04-22",
-    "modalities": [
-      "文本",
-      "视频"
-    ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 MiMo-V2.5-Pro"
   },
   {
     "id": "arcee-ai",
