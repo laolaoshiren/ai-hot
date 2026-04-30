@@ -20,7 +20,7 @@ ai_summary = "我花了两年多的时间构建一个代理人工智能平台，
 summary = "I’ve spent more than two years building an agentic AI platform, working daily with GPT, Claude, and lately Gemini LLM models in real-world production code. They’re powerful; but if you watch closely, you’ll see something unsettling. They don’t just write bad code. They write our code. And that shoul"
 summary_zh = "我花了两年多的时间构建一个代理人工智能平台，每天在现实世界的生产代码中使用 GPT、Claude 和最近的 Gemini LLM 模型。他们很强大；但如果你仔细观察，你会发现一些令人不安的事情。他们不只是写出糟糕的代码。他们编写我们的代码…"
 tags = []
-list_page = 28
+list_page = 30
 +++
 
 <!-- AUTO-GENERATED: news page -->

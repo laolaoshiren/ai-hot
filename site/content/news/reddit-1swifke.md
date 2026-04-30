@@ -20,7 +20,7 @@ ai_summary = "一些背景。我正在编写一个小型 html 塔防游戏，您
 summary = "A bit of context. I was coding up a little html tower defense game where you can alter the path by placing additional waypoints. My setup: 32gb ram with 16gb vram 5070 ti. Using AesSedai/Qwen3.6-35B-A3B-GGUF IQ4\\_XS on LM Studio with OpenCode. I've graduated from [one-shot vibe-coding prompts](https"
 summary_zh = "一些背景。我正在编写一个小型 html 塔防游戏，您可以通过放置额外的路径点来改变路径。我的设置：32GB RAM 和 16GB VRAM 5070 Ti。在带有 OpenCode 的 LM Studio 上使用 AesSedai/Qwen…"
 tags = []
-list_page = 20
+list_page = 23
 +++
 
 <!-- AUTO-GENERATED: news page -->

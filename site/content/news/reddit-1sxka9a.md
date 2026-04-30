@@ -20,7 +20,7 @@ ai_summary = "我完全赞成加速。我认为我们越快实现通用人工智
 summary = "Im all for acceleration. I think the faster we hit AGI the better. but theres a bottleneck nobody here talks about enough-training data. right now we are quietly poisoning the well. More than half of online content is already synthetic. bots talking to bots, articles written by AI, reddit threads ge"
 summary_zh = "我完全赞成加速。我认为我们越快实现通用人工智能越好。但这里有一个瓶颈，没有人谈论足够的训练数据。现在我们正在悄悄地向井里投毒。超过一半的在线内容已经是合成的。机器人与机器人交谈、人工智能撰写的文章、reddit 线程 ge"
 tags = []
-list_page = 12
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

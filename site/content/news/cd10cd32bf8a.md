@@ -20,7 +20,7 @@ ai_summary = "OpenAI 和微软重新划定合作边界，让 OpenAI 可以在 Az
 summary = "OpenAI has won major concessions from its largest shareholder, Microsoft, that will allow it to sell products on AWS, while Microsoft gets more cash in a revenue-share agreement."
 summary_zh = "OpenAI 与微软再次重谈绑定双方的协议。新条款把微软对 OpenAI 模型和产品的非独家授权明确到 2032 年，同时保留 Azure 作为主要云合作伙伴。关键变化是，OpenAI 现在可以通过任意云服务向客户提供产品，从而化解此前与 Amazon 高达 500 亿美元合作可能引发的微软诉讼风险。"
 tags = []
-list_page = 13
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

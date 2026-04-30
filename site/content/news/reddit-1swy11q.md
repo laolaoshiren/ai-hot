@@ -20,7 +20,7 @@ ai_summary = "我最近一直在尝试不同的人工智能模型（ChatGPT、Cl
 summary = "I’ve been experimenting with different AI models lately (ChatGPT, Claude, etc.), and I tried something simple: Using the exact same prompt across multiple models and comparing the results. What surprised me most wasn’t that they were different — it’s *how* different they were depending on the task."
 summary_zh = "我最近一直在尝试不同的人工智能模型（ChatGPT、Claude 等），并且尝试了一些简单的方法：在多个模型中使用完全相同的提示并比较结果。最让我惊讶的并不是它们的不同，而是它们根据任务的不同而有“多么”的不同"
 tags = []
-list_page = 17
+list_page = 19
 +++
 
 <!-- AUTO-GENERATED: news page -->

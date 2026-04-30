@@ -20,7 +20,7 @@ ai_summary = "工作中得到了一个新的游乐场。我可以帮助运行您
 summary = "Got a new playground at work. Anything I cn help run (via vllm maybe) that you might be curious about. If I get slammed with requests might not be possible to do all but it's probably crickets. 🤘"
 summary_zh = "工作中得到了一个新的游乐场。我可以帮助运行您可能感兴趣的任何内容（可能通过 vllm）。如果我收到大量请求，可能无法完成所有任务，但可能是蟋蟀。 🤘"
 tags = []
-list_page = 27
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

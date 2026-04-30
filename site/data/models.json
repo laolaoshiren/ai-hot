@@ -4252,6 +4252,40 @@
     "collected_at": "2026-04-29T02:15:56.691895"
   },
   {
+    "id": "hf-kai-os--Carnice-V2-27b",
+    "name": "kai-os/Carnice-V2-27b",
+    "display_name": "Carnice-V2-27b",
+    "url": "https://huggingface.co/kai-os/Carnice-V2-27b",
+    "author": "kai-os",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 45,
+    "downloads": 240,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen",
+      "qwen3",
+      "qwen3.6",
+      "carnice",
+      "hermes-agent",
+      "agentic",
+      "sft",
+      "bf16",
+      "merged",
+      "conversational",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:finetune:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-25T17:32:08.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-04-30T02:13:43.817676"
+  },
+  {
     "id": "model-30",
     "name": "Rta-AILabs/Nandi-Mini-150M-Instruct",
     "display_name": "Nandi-Mini-150M-Instruct",
@@ -4726,6 +4760,32 @@
     "created_at": "2026-04-20T17:12:52.000Z",
     "source": "hf-text-gen",
     "collected_at": "2026-04-22T13:10:24.813733"
+  },
+  {
+    "id": "hf-ibm-granite--granite-4.1-3b",
+    "name": "ibm-granite/granite-4.1-3b",
+    "display_name": "granite-4.1-3b",
+    "url": "https://huggingface.co/ibm-granite/granite-4.1-3b",
+    "author": "ibm-granite",
+    "pipeline_tag": "text-generation",
+    "likes": 27,
+    "downloads": 137,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "granite",
+      "text-generation",
+      "language",
+      "granite-4.1",
+      "conversational",
+      "arxiv:0000.00000",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-04-06T13:18:12.000Z",
+    "source": "hf-text-gen",
+    "collected_at": "2026-04-30T02:13:44.040680"
   },
   {
     "id": "hf-huihui-ai--Huihui-Qwen3.6-35B-A3B-Claude-4.7-Opus-abliterated",
@@ -5383,6 +5443,22 @@
     "created_at": "2026-04-29T19:02:58.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T19:15:02.966320"
+  },
+  {
+    "id": "hf-pisifa--ieeg-seizure-model",
+    "name": "pisifa/ieeg-seizure-model",
+    "display_name": "ieeg-seizure-model",
+    "url": "https://huggingface.co/pisifa/ieeg-seizure-model",
+    "author": "pisifa",
+    "pipeline_tag": "",
+    "likes": 1,
+    "downloads": 0,
+    "tags": [
+      "region:us"
+    ],
+    "created_at": "2026-04-30T01:57:10.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-04-30T02:13:43.905216"
   },
   {
     "id": "hf-John6666--diving-illustrious-real-asian-v50-sdxl",
@@ -22105,59 +22181,5 @@
     "created_at": "2026-04-29T07:47:39.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T08:05:56.388865"
-  },
-  {
-    "id": "hf-const0312--074552",
-    "name": "const0312/074552",
-    "display_name": "074552",
-    "url": "https://huggingface.co/const0312/074552",
-    "author": "const0312",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "safetensors",
-      "qwen3_5",
-      "region:us"
-    ],
-    "created_at": "2026-04-29T07:47:31.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T08:05:56.388867"
-  },
-  {
-    "id": "hf-electroglyph--Qwen3.6-35B-A3B-autoround-int3",
-    "name": "electroglyph/Qwen3.6-35B-A3B-autoround-int3",
-    "display_name": "Qwen3.6-35B-A3B-autoround-int3",
-    "url": "https://huggingface.co/electroglyph/Qwen3.6-35B-A3B-autoround-int3",
-    "author": "electroglyph",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "safetensors",
-      "qwen3_5_moe_text",
-      "3-bit",
-      "auto-round",
-      "region:us"
-    ],
-    "created_at": "2026-04-29T07:47:14.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T08:05:56.388869"
-  },
-  {
-    "id": "hf-butterfly-777--Teutonic-VIII-5F7AEyu5-tiger0",
-    "name": "butterfly-777/Teutonic-VIII-5F7AEyu5-tiger0",
-    "display_name": "Teutonic-VIII-5F7AEyu5-tiger0",
-    "url": "https://huggingface.co/butterfly-777/Teutonic-VIII-5F7AEyu5-tiger0",
-    "author": "butterfly-777",
-    "pipeline_tag": "",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "region:us"
-    ],
-    "created_at": "2026-04-29T13:34:21.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-04-29T13:34:26.161235"
   }
 ]

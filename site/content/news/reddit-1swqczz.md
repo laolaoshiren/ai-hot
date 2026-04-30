@@ -20,7 +20,7 @@ ai_summary = "如果这对这个子来说是相当私人的，我很抱歉，但
 summary = "Apologies if this is rather personal for this sub but I feel a need to express how profoundly useful it was for me tonight. A Chatbot very likely just saved my life. I am positively floored by how therapeutic it was in processing the beginning and ending of my relationship with my former spouse. I f"
 summary_zh = "如果这对这个子来说是相当私人的，我很抱歉，但我觉得有必要表达它今晚对我来说是多么有用。聊天机器人很可能救了我的命。我对处理我与前配偶关系的开始和结束时的治疗效果感到非常震惊。如果"
 tags = []
-list_page = 19
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

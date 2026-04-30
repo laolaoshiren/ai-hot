@@ -1,38 +1,37 @@
 {
-  "updated_at": "2026-04-29T19:15:45.020866",
-  "date": "2026-04-29",
+  "updated_at": "2026-04-30T02:14:27.714673",
+  "date": "2026-04-30",
   "spotlight": {
-    "id": "claude-code",
-    "name": "Claude Code",
-    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
     "type": "tool",
-    "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+    "description": "OpenAI 官方终端编程助手，轻量快速",
     "pricing": "按 API 使用量计费",
     "category": "编程"
   },
   "alternates": [
     {
-      "id": "aider",
-      "name": "Aider",
-      "url": "https://aider.chat",
-      "type": "tool",
-      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "type": "agent",
+      "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
       "pricing": "开源免费",
-      "category": "编程"
+      "category": "助手 Agent"
     },
     {
-      "name": "Inkos",
-      "url": "https://github.com/Narcooo/inkos",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
       "type": "agent",
-      "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
+      "description": "全球首个开源 Agent 视频制作系统，12 条流水线 52 个工具覆盖全流程",
       "pricing": "免费开源",
       "category": "创作 Agent"
     },
     {
-      "name": "Autodidact",
-      "url": "https://github.com/dCaples/AutoDidact",
+      "name": "Research Agent Llm",
+      "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
       "type": "agent",
-      "description": "用强化学习和自验证机制自动训练研究型 Agent LLM，适合探索自我学习智能体。",
+      "description": "研究型 LLM Agent 项目，用于自动检索资料、组织信息并辅助生成研究结论。",
       "pricing": "开源免费",
       "category": "研究 Agent"
     }

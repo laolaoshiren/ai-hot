@@ -20,7 +20,7 @@ ai_summary = "在离开之前，是否有人真正为机器学习工作正确地
 summary = "Did anyone actually trial these properly for Machine Learning Jobs before walking away, or was it more of a ‘looked at the docs and noped out’ situation? Specifically curious what the breaking point was — setup complexity, ongoing maintenance, or something else entirely."
 summary_zh = "在离开之前，是否有人真正为机器学习工作正确地尝试过这些，或者这更像是“查看文档并拒绝”的情况？特别好奇断点是什么——设置复杂性、持续维护，或者完全是其他东西"
 tags = []
-list_page = 12
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "显然，防止人工智能复制你的声音的最佳防御措施
 summary = "Apparently the best defense against AI copying your voice is strawberry mango forklift supersize fries."
 summary_zh = "显然，防止人工智能复制你的声音的最佳防御措施是草莓芒果叉车超大薯条"
 tags = []
-list_page = 14
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

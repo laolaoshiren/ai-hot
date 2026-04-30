@@ -20,7 +20,7 @@ ai_summary = "前几天遇到了腰火。它是一个全新的推理引擎，专
 summary = "Came across hipfire the other day. It's a brand new inference engine focused on all AMD GPU's (not just the latest). [Github.](https://github.com/Kaden-Schutt/hipfire) It uses a special mq4 quantization method. The hipfire creator is pumping out [models on huggingface.](https://huggingface.co/schutt"
 summary_zh = "前几天遇到了腰火。它是一个全新的推理引擎，专注于所有 AMD GPU（不仅仅是最新的）。 [Github.](https://github.com/Kaden-Schutt/hipfire) 它使用特殊的 mq4 量化方法。 hipfire…"
 tags = []
-list_page = 19
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

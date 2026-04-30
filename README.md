@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-30 03:16:42
+🕐 **最近更新**：2026-04-30 10:15:22
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,23 +16,19 @@
 
 ## 🔥 今日热点
 
-1. [AI视频只是前传吗？ Runway 首席执行官认为世界模特是下一个](https://aihot.bt199.com/news/20eea33e5405/)
-   - 人工智能生成的视频几乎在一夜之间从新颖的东西变成了创意工具，而 Runway 则占据了前排座位。这家总部位于纽约的公司已…
-   - `TechCrunch AI · 2026-04-29`
+1. [亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此](https://aihot.bt199.com/news/ef01e2e76bd8/)
+   - 这家电子商务巨头从 AWS 上赚到的钱比预期多，但它也花费了大量资金，并将在短期内继续这样做，其首席执行官表示
+   - `TechCrunch AI · 2026-04-30`
 
-2. [Parallel Web Systems 在上次大幅融资五个月后估值达到 20 亿美元](https://aihot.bt199.com/news/ddc6e0690928/)
-   - 这家由 Twitter 前首席执行官 Parag Agrawal 创立的人工智能代理工具初创公司在红杉资本领投的几个月后…
-   - `TechCrunch AI · 2026-04-29`
+2. [资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金](https://aihot.bt199.com/news/72ba5d8b11be/)
+   - 据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间
+   - `TechCrunch AI · 2026-04-30`
 
 3. [马斯克诉奥特曼案迄今为止公布的所有证据](https://aihot.bt199.com/news/489362c10603/)
    - 马斯克诉奥特曼案的审判正在进行中，这意味着证物或将在法庭上出示的证据正在被逐件揭晓。到目前为止，电子邮件交流、照片和公司…
    - `The Verge AI · 2026-04-29`
 
-4. [Ubuntu 的人工智能计划让 Linux 用户寻找“终止开关”](https://aihot.bt199.com/news/f68cdc4ceeae/)
-   - Canonical 计划向 Ubuntu 添加 AI 功能，一些用户要求“不包含这些功能的 Ubuntu 版本”，而其他…
-   - `The Verge AI · 2026-04-29`
-
-5. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
+4. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
    - 安全公司发现自己尤其容易受到威胁
    - `Ars Technica AI · 2026-04-29`
 
@@ -119,6 +115,7 @@
 ---
 
 MIT License
+
 
 
 

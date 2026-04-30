@@ -20,7 +20,7 @@ ai_summary = "大家好，我正在研究深度学习模型，我注意到一些
 summary = "Hi everyone, I’m working on a deep learning model and I noticed something strange. When I compare different precisions: FP32 (baseline) FP16 , INT8 (post-training quantization) I’m getting better inference accuracy with INT8 than FP16, which I didn’t expect. I thought FP16 should be closer to FP32 a"
 summary_zh = "大家好，我正在研究深度学习模型，我注意到一些奇怪的事情。当我比较不同的精度时：FP32（基线）FP16、INT8（训练后量化），我使用 INT8 获得了比 FP16 更好的推理精度，这是我没想到的。我认为 FP16 应该更接近 FP32 a"
 tags = []
-list_page = 15
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

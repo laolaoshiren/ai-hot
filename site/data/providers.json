@@ -333,17 +333,17 @@
     "source": "openrouter",
     "latest_models": [
       "Mistral Small 4",
-      "Mistral Small Creative",
-      "Devstral 2 2512"
+      "Devstral 2 2512",
+      "Ministral 3 14B 2512"
     ],
-    "model_count": 25,
+    "model_count": 24,
     "last_updated": "2026-03-16",
     "modalities": [
       "多模态",
       "文本",
       "音频"
     ],
-    "live_summary": "OpenRouter 已收录 25 个该作者/厂商相关模型，最近更新为 Mistral Small 4",
+    "live_summary": "OpenRouter 已收录 24 个该作者/厂商相关模型，最近更新为 Mistral Small 4",
     "provider_kind": "model_author"
   },
   {
