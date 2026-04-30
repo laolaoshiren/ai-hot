@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-04-30T02:14:27.538556",
-  "total": 41,
+  "updated_at": "2026-04-30T03:14:45.319827",
+  "total": 38,
   "categories": [
     {
       "id": "top",
       "name": "🔥 顶级通用大模型",
       "subtitle": "现在最值得关注、综合能力最强的一线模型",
-      "count": 6
+      "count": 5
     },
     {
       "id": "coding",
@@ -18,13 +18,13 @@
       "id": "multimodal",
       "name": "👁️ 多模态主力模型",
       "subtitle": "图文理解、视觉问答、复杂输入处理的主力模型",
-      "count": 5
+      "count": 4
     },
     {
       "id": "image",
       "name": "🎨 图像生成主力",
       "subtitle": "当前最常用、效果最稳的一线生图模型",
-      "count": 5
+      "count": 4
     },
     {
       "id": "video",
@@ -48,29 +48,13 @@
   "items": [
     {
       "category": "top",
-      "source": "官方补充",
+      "source": "OpenRouter",
       "name": "GPT-5.5",
       "provider": "OpenAI",
-      "url": "https://openai.com/",
+      "url": "https://openrouter.ai/openai/gpt-5.5",
       "freshness": "2026-04-24",
-      "badge": "刚发布",
-      "why": "今天最该出现在模型页的一线发布，新闻已覆盖，模型精选不能缺席",
-      "meta": "官方发布",
-      "tags": [
-        "文本",
-        "推理",
-        "编程"
-      ]
-    },
-    {
-      "category": "top",
-      "source": "OpenRouter",
-      "name": "GPT-5.4",
-      "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-5.4",
-      "freshness": "2026-03-05",
       "badge": "综合王者",
-      "why": "当前一线通用能力标杆，推理、写作、执行力都很强",
+      "why": "OpenAI 最新一线通用主力，推理、写作、执行力都很强",
       "meta": "1.1M 上下文",
       "tags": [
         "多模态",
@@ -141,12 +125,12 @@
     {
       "category": "coding",
       "source": "OpenRouter",
-      "name": "GPT-5.4 Pro",
+      "name": "GPT-5.5 Pro",
       "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-5.4-pro",
-      "freshness": "2026-03-05",
+      "url": "https://openrouter.ai/openai/gpt-5.5-pro",
+      "freshness": "2026-04-24",
       "badge": "重度编码",
-      "why": "复杂工程任务和严肃编程场景很强",
+      "why": "OpenAI 最新 Pro 线，适合复杂工程任务和严肃编程场景",
       "meta": "1.1M 上下文",
       "tags": [
         "多模态",
@@ -223,24 +207,8 @@
       "url": "https://openrouter.ai/openai/gpt-5.4-image-2",
       "freshness": "2026-04-21",
       "badge": "图文一体",
-      "why": "理解图像、生成图像、处理复杂多模态工作流",
+      "why": "OpenAI 最新图像/多模态模型，适合复杂多模态工作流",
       "meta": "272K 上下文",
-      "tags": [
-        "多模态",
-        "文本",
-        "图像"
-      ]
-    },
-    {
-      "category": "multimodal",
-      "source": "OpenRouter",
-      "name": "GPT-5 Image",
-      "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-5-image",
-      "freshness": "2025-10-14",
-      "badge": "GPT 图像主力",
-      "why": "OpenAI 新一代 GPT 图像模型，应该出现在模型页主榜中",
-      "meta": "400K 上下文",
       "tags": [
         "多模态",
         "文本",
@@ -300,24 +268,8 @@
       "url": "https://openrouter.ai/openai/gpt-5.4-image-2",
       "freshness": "2026-04-21",
       "badge": "最新 GPT 图像",
-      "why": "最新一代 GPT 图像模型，文字渲染和综合生成能力都很强",
+      "why": "OpenAI 最新图像生成模型，文字渲染和综合生成能力都很强",
       "meta": "272K 上下文",
-      "tags": [
-        "多模态",
-        "文本",
-        "图像"
-      ]
-    },
-    {
-      "category": "image",
-      "source": "OpenRouter",
-      "name": "GPT-5 Image",
-      "provider": "OpenAI",
-      "url": "https://openrouter.ai/openai/gpt-5-image",
-      "freshness": "2025-10-14",
-      "badge": "GPT Image 主力",
-      "why": "OpenAI 图像生成主力模型，模型页不该缺席",
-      "meta": "400K 上下文",
       "tags": [
         "多模态",
         "文本",

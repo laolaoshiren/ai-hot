@@ -23,30 +23,27 @@ CATEGORY_ORDER = [
 
 CURATED_ITEMS = [
     # 顶级通用
-    {'category': 'top', 'source': 'manual', 'name': 'GPT-5.5', 'provider': 'OpenAI', 'url': 'https://openai.com/', 'freshness': '2026-04-24', 'badge': '刚发布', 'why': '今天最该出现在模型页的一线发布，新闻已覆盖，模型精选不能缺席', 'meta': '官方发布', 'tags': ['文本', '推理', '编程']},
-    {'category': 'top', 'source': 'openrouter', 'id': 'openai/gpt-5.4', 'label': '综合王者', 'why': '当前一线通用能力标杆，推理、写作、执行力都很强'},
+    {'category': 'top', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'base', 'label': '综合王者', 'why': 'OpenAI 最新一线通用主力，推理、写作、执行力都很强'},
     {'category': 'top', 'source': 'openrouter', 'id': 'anthropic/claude-opus-4.7', 'label': '长文与复杂任务', 'why': '复杂任务稳定性强，长上下文和专业写作很能打'},
     {'category': 'top', 'source': 'openrouter', 'id': 'x-ai/grok-4.20', 'label': '热点与推理', 'why': '新一代旗舰之一，热度高、讨论度强'},
     {'category': 'top', 'source': 'openrouter', 'id': 'z-ai/glm-5.1', 'label': '国产主力', 'why': '国产新一代通用模型代表，更新积极'},
     {'category': 'top', 'source': 'openrouter', 'id': 'deepseek/deepseek-v3.2', 'label': '高性价比', 'why': '推理/代码/成本平衡优秀，采用度高'},
 
     # 编程
-    {'category': 'coding', 'source': 'openrouter', 'id': 'openai/gpt-5.4-pro', 'label': '重度编码', 'why': '复杂工程任务和严肃编程场景很强'},
+    {'category': 'coding', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'pro', 'label': '重度编码', 'why': 'OpenAI 最新 Pro 线，适合复杂工程任务和严肃编程场景'},
     {'category': 'coding', 'source': 'openrouter', 'id': 'anthropic/claude-sonnet-4.6', 'label': '开发者高频', 'why': 'Claude Code 生态热门底座，真实开发采用广'},
     {'category': 'coding', 'source': 'openrouter', 'id': 'qwen/qwen3.6-plus', 'label': '国产编码主力', 'why': '代码与通用兼顾，近期更新快'},
     {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/Qwen/Qwen3-Coder-Next', 'label': '开源代码旗舰', 'why': '开源阵营里实用度高，开发者关注度高'},
     {'category': 'coding', 'source': 'huggingface', 'url': 'https://huggingface.co/moonshotai/Kimi-K2.6', 'label': '中文代码协作', 'why': '中文理解、长上下文协作和最近热度都很强'},
 
     # 多模态
-    {'category': 'multimodal', 'source': 'openrouter', 'id': 'openai/gpt-5.4-image-2', 'label': '图文一体', 'why': '理解图像、生成图像、处理复杂多模态工作流'},
-    {'category': 'multimodal', 'source': 'openrouter', 'id': 'openai/gpt-5-image', 'label': 'GPT 图像主力', 'why': 'OpenAI 新一代 GPT 图像模型，应该出现在模型页主榜中'},
+    {'category': 'multimodal', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'image', 'label': '图文一体', 'why': 'OpenAI 最新图像/多模态模型，适合复杂多模态工作流'},
     {'category': 'multimodal', 'source': 'openrouter', 'id': 'z-ai/glm-5v-turbo', 'label': '视觉国产主力', 'why': '国产视觉多模态里很值得关注'},
     {'category': 'multimodal', 'source': 'huggingface', 'url': 'https://huggingface.co/google/gemma-4-31B-it', 'label': '开源多模态热门', 'why': 'Google 阵营近期开源关注度很高'},
     {'category': 'multimodal', 'source': 'huggingface', 'url': 'https://huggingface.co/tencent/HY-Embodied-0.5', 'label': '具身方向', 'why': '具身智能方向里值得盯的代表模型'},
 
     # 图像生成
-    {'category': 'image', 'source': 'openrouter', 'id': 'openai/gpt-5.4-image-2', 'label': '最新 GPT 图像', 'why': '最新一代 GPT 图像模型，文字渲染和综合生成能力都很强'},
-    {'category': 'image', 'source': 'openrouter', 'id': 'openai/gpt-5-image', 'label': 'GPT Image 主力', 'why': 'OpenAI 图像生成主力模型，模型页不该缺席'},
+    {'category': 'image', 'source': 'openrouter-latest', 'provider_prefix': 'openai', 'family': 'gpt', 'variant': 'image', 'label': '最新 GPT 图像', 'why': 'OpenAI 最新图像生成模型，文字渲染和综合生成能力都很强'},
     {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-dev', 'label': '开源生图旗舰', 'why': 'FLUX.1-dev 仍是国内用户最熟、最常用的一线开源生图主力'},
     {'category': 'image', 'source': 'huggingface', 'url': 'https://huggingface.co/black-forest-labs/FLUX.1-Kontext-dev', 'label': '编辑工作流主力', 'why': 'Kontext 系列更贴近当前图像编辑与工作流场景，实用性高'},
     {'category': 'image', 'source': 'manual', 'name': 'Gemini 3 Pro Image', 'provider': 'Google', 'url': 'https://openrouter.ai/google/gemini-3-pro-image-preview', 'freshness': '2026-04-22', 'badge': '谷歌图像新主力', 'why': 'Google 最新图像生成方向主力，国内用户视角不能缺这条线', 'meta': 'OpenRouter 预览模型', 'tags': ['图像生成']},
@@ -139,6 +136,108 @@ def provider_label_from_model(model):
     prefix = model_id.split('/')[0] if '/' in model_id else model_id
     return prefix.replace('-', ' ').title()
 
+
+
+ARCHIVE_VARIANT_KEYWORDS = {
+    'pro': ['pro'],
+    'image': ['image'],
+    'base': [],
+}
+
+STALE_VARIANT_KEYWORDS = ['mini', 'nano', 'chat', 'audio', 'codex']
+
+
+def openrouter_created(model):
+    return model.get('created') or 0
+
+
+def resolve_latest_openrouter_id(openrouter_map, provider_prefix, family='gpt', variant='base'):
+    provider_prefix = provider_prefix.lower().rstrip('/')
+    family = family.lower()
+    variant = variant.lower()
+    wanted = ARCHIVE_VARIANT_KEYWORDS.get(variant, [])
+    candidates = []
+    for model_id, model in openrouter_map.items():
+        low_id = model_id.lower()
+        low_name = (model.get('name') or '').lower()
+        blob = f"{low_id} {low_name}"
+        if not low_id.startswith(provider_prefix + '/'):
+            continue
+        if family not in blob:
+            continue
+        if variant == 'base' and any(k in blob for k in STALE_VARIANT_KEYWORDS + ['pro', 'image']):
+            continue
+        if wanted and not any(k in blob for k in wanted):
+            continue
+        candidates.append((openrouter_created(model), model_id))
+    if not candidates:
+        return None
+    return max(candidates)[1]
+
+
+def materialize_latest_specs(specs, openrouter_map):
+    out = []
+    for spec in specs:
+        if spec.get('source') != 'openrouter-latest':
+            out.append(spec)
+            continue
+        model_id = resolve_latest_openrouter_id(
+            openrouter_map,
+            spec['provider_prefix'],
+            spec.get('family', ''),
+            spec.get('variant', 'base'),
+        )
+        if not model_id:
+            continue
+        resolved = dict(spec)
+        resolved['source'] = 'openrouter'
+        resolved['id'] = model_id
+        resolved['auto_resolved'] = True
+        out.append(resolved)
+    return out
+
+
+def archive_superseded_openrouter_specs(specs, openrouter_map):
+    latest_by_slot = {}
+    for spec in specs:
+        if spec.get('source') != 'openrouter':
+            continue
+        mid = spec.get('id', '')
+        provider = mid.split('/')[0] if '/' in mid else ''
+        name_blob = f"{mid} {(openrouter_map.get(mid) or {}).get('name', '')}".lower()
+        if provider == 'openai' and 'gpt' in name_blob:
+            if 'image' in name_blob:
+                slot = ('openai', 'gpt', 'image')
+            elif 'pro' in name_blob:
+                slot = ('openai', 'gpt', 'pro')
+            elif any(k in name_blob for k in STALE_VARIANT_KEYWORDS):
+                continue
+            else:
+                slot = ('openai', 'gpt', 'base')
+            current = latest_by_slot.get(slot)
+            if current is None or openrouter_created(openrouter_map.get(mid, {})) > openrouter_created(openrouter_map.get(current, {})):
+                latest_by_slot[slot] = mid
+    archived = []
+    for spec in specs:
+        mid = spec.get('id', '')
+        if spec.get('source') != 'openrouter' or not mid.startswith('openai/'):
+            archived.append(spec)
+            continue
+        name_blob = f"{mid} {(openrouter_map.get(mid) or {}).get('name', '')}".lower()
+        slot = None
+        if 'gpt' in name_blob:
+            if 'image' in name_blob:
+                slot = ('openai', 'gpt', 'image')
+            elif 'pro' in name_blob:
+                slot = ('openai', 'gpt', 'pro')
+            elif any(k in name_blob for k in STALE_VARIANT_KEYWORDS):
+                slot = None
+            else:
+                slot = ('openai', 'gpt', 'base')
+        if slot and latest_by_slot.get(slot) and latest_by_slot[slot] != mid:
+            continue
+        archived.append(spec)
+    return archived
 
 def build_auto_discovery_specs(openrouter_map):
     specs = []
@@ -274,7 +373,9 @@ def generate_curated_models():
     openrouter_map = fetch_openrouter_models()
     hf_map = load_local_models()
 
-    curated_specs = merge_curated_items(CURATED_ITEMS, build_auto_discovery_specs(openrouter_map))
+    base_specs = materialize_latest_specs(CURATED_ITEMS, openrouter_map)
+    curated_specs = merge_curated_items(base_specs, build_auto_discovery_specs(openrouter_map))
+    curated_specs = archive_superseded_openrouter_specs(curated_specs, openrouter_map)
 
     items = []
     for spec in curated_specs:
