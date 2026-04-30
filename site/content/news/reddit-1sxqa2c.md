@@ -20,7 +20,7 @@ ai_summary = "我认为在过去的几周里给了它一个公平的机会，强
 summary = "I think gave it a fair shot over the past few weeks, forcing myself to use local models for non-work tech asks. I use Claude Code at my job so that's what I'm comparing to. I used Qwen 27B and Gemma 4 31B, these are considered the best local models under the multi-hundred LLMs. I also tried multiple"
 summary_zh = "我认为在过去的几周里给了它一个公平的机会，强迫自己使用本地模型来满足非工作技术要求。我在工作中使用 Claude Code，所以这就是我所比较的。我用的是Qwen 27B和Gemma 4 31B，这些被认为是数百个LLM下最好的本地模型。我…"
 tags = []
-list_page = 13
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

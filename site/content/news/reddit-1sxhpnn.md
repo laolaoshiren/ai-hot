@@ -20,7 +20,7 @@ ai_summary = "嘿，机器学习领域的大家。我一直在研究 Mahoraga，
 summary = "Hey everyone in ML. I've been working on Mahoraga, an open-source orchestrator that routes tasks across local and cloud AI agents using a contextual bandit (LinUCB) that learns from every decision. Context (skip): I only started integrating AI into my workflows in late 2025, so I came on the scene b"
 summary_zh = "嘿，机器学习领域的大家。我一直在研究 Mahoraga，这是一个开源编排器，它使用从每个决策中学习的上下文强盗 (LinUCB) 在本地和云 AI 代理之间路由任务。背景（跳过）：我在 2025 年底才开始将人工智能集成到我的工作流程中，所…"
 tags = []
-list_page = 15
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

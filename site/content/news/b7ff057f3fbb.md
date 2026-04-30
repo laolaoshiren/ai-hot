@@ -20,7 +20,7 @@ ai_summary = "谷歌表示，新功能将利用人工智能技术，根据谷歌
 summary = "Google says the new feature will leverage AI technology to automatically create a copy of your wardrobe that's based on the pieces of clothing appearing in your Google Photos library."
 summary_zh = "谷歌表示，新功能将利用人工智能技术，根据谷歌照片库中出现的衣服自动创建你衣柜的副本"
 tags = []
-list_page = 3
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

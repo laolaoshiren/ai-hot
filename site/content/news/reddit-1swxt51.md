@@ -20,7 +20,7 @@ ai_summary = "我一直听说人工智能将提高工人的工作效率。但我
 summary = "I keep hearing that AI will make workers more productive. But the part I don’t understand is this: If one employee can now do the work of three people, why is the default outcome usually: * fire two people * keep the same workload * give the remaining person more pressure * send the savings upward W"
 summary_zh = "我一直听说人工智能将提高工人的工作效率。但我不明白的是：如果一个员工现在可以做三个人的工作，为什么默认结果通常是： * 解雇两个人 * 保持相同的工作量 * 给剩下的人更大的压力 * 把节省的钱向上发送 W"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

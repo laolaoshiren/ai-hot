@@ -20,7 +20,7 @@ ai_summary = "HauhauCS ([u/hauhau901](https://www.reddit.com/user/hauhau90…"
 summary = "HauhauCS ([u/hauhau901](https://www.reddit.com/user/hauhau901)) publishes uncensored LLM models on [HuggingFace](https://huggingface.co/HauhauCS) with 5M+ combined monthly downloads across 22 models (verified via the HuggingFace API, April 2026). Every model card claims \"0/465 refusals, zero capabil"
 summary_zh = "HauhauCS ([u/hauhau901](https://www.reddit.com/user/hauhau901)) 在 [HuggingFace](https://huggingface.co/HauhauCS) 上发布未经审查…"
 tags = []
-list_page = 23
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

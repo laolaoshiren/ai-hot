@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-04-30T02:15:22.093248",
+  "updated_at": "2026-04-30T08:16:01.878866",
   "total": 4,
   "hot_list": [
+    {
+      "title": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "name": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "title_zh": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-04-30",
+      "time": "2026-04-30",
+      "description": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "subtitle": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "ai_summary": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "category": "资讯",
+      "news_id": "19231aeade95",
+      "internal_url": "https://aihot.bt199.com/news/19231aeade95/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
       "name": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "ef01e2e76bd8",
       "internal_url": "https://aihot.bt199.com/news/ef01e2e76bd8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "name": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "title_zh": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-04-30",
-      "time": "2026-04-30",
-      "description": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "subtitle": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "ai_summary": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "category": "资讯",
-      "news_id": "72ba5d8b11be",
-      "internal_url": "https://aihot.bt199.com/news/72ba5d8b11be/",
       "type_label": "📰 新闻"
     },
     {
@@ -77,6 +77,24 @@
   ],
   "top_20": [
     {
+      "title": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "name": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "title_zh": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-04-30",
+      "time": "2026-04-30",
+      "description": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "subtitle": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "ai_summary": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "category": "资讯",
+      "news_id": "19231aeade95",
+      "internal_url": "https://aihot.bt199.com/news/19231aeade95/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
       "name": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
       "title_zh": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
@@ -92,24 +110,6 @@
       "category": "资讯",
       "news_id": "ef01e2e76bd8",
       "internal_url": "https://aihot.bt199.com/news/ef01e2e76bd8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "name": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "title_zh": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-04-30",
-      "time": "2026-04-30",
-      "description": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "subtitle": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "ai_summary": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "category": "资讯",
-      "news_id": "72ba5d8b11be",
-      "internal_url": "https://aihot.bt199.com/news/72ba5d8b11be/",
       "type_label": "📰 新闻"
     },
     {
@@ -157,6 +157,24 @@
   },
   "items": [
     {
+      "title": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "name": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "title_zh": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+      "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-04-30",
+      "time": "2026-04-30",
+      "description": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "subtitle": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "ai_summary": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+      "category": "资讯",
+      "news_id": "19231aeade95",
+      "internal_url": "https://aihot.bt199.com/news/19231aeade95/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
       "name": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
       "title_zh": "亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此",
@@ -172,24 +190,6 @@
       "category": "资讯",
       "news_id": "ef01e2e76bd8",
       "internal_url": "https://aihot.bt199.com/news/ef01e2e76bd8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "name": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "title_zh": "资料来源：Anthropic 可能以 900B 美元的估值筹集新一轮 50B 美元的资金",
-      "url": "https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-04-30",
-      "time": "2026-04-30",
-      "description": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "subtitle": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "ai_summary": "据知情人士透露，Claude 的制造商已收到多项先发性收购要约，估值在 8500 亿至 9000 亿美元之间",
-      "category": "资讯",
-      "news_id": "72ba5d8b11be",
-      "internal_url": "https://aihot.bt199.com/news/72ba5d8b11be/",
       "type_label": "📰 新闻"
     },
     {

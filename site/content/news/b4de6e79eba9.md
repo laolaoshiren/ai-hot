@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "谷歌推出可将其他人工智能提供商的人工智能聊天历史记录导入Gemini的工具。（财联社）"
 summary_zh = ""
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

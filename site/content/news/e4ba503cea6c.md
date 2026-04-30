@@ -20,7 +20,7 @@ ai_summary = "去年 8 月，业内一些最优秀的网络安全团队齐聚拉
 summary = "Last August, some of the best cybersecurity teams in the business gathered in Las Vegas to demonstrate the strength of their AI bug-finding systems at DARPA's Artificial Intelligence Cyber Challenge (AIxCC). The tools had scanned 54 million lines of actual software code that DARPA had injected with"
 summary_zh = "去年 8 月，业内一些最优秀的网络安全团队齐聚拉斯维加斯，在 DARPA 人工智能网络挑战赛 (AIxCC) 上展示他们的 AI 错误查找系统的实力。这些工具扫描了 DARPA 注入的 5400 万行实际软件代码"
 tags = []
-list_page = 11
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

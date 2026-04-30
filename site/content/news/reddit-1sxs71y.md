@@ -20,7 +20,7 @@ ai_summary = "r/LocalLLaMA 的二元性"
 summary = "Duality of r/LocalLLaMA"
 summary_zh = "r/LocalLLaMA 的二元性"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

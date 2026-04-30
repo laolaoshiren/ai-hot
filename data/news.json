@@ -1,5 +1,124 @@
 [
   {
+    "id": "cd8e351aa4a7",
+    "title": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
+    "url": "https://www.infoq.cn/article/ihRlIjt3N5seuQN27OQe?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-30T14:25:01",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-30T08:14:13.222039",
+    "content_text": "上周五，OpenAI 发布 GPT-5.5 与 DeepSeek 推出 V4 模型几乎同时上演，大模型市场的竞争正进入白热化阶段。\n面对竞争对手的快速迭代，谷歌生态的技术从业者正在积极寻找应对之道——越来越多的人开始借助智能体 Agent 来构建和优化基于谷歌云平台的应用，从 Firebase、Gemini API 到 BigQuery 和 Google Kubernetes Engine（GKE）。\n但值得注意的是，在竞争日益激烈、技术快速演进的背景下，一个关键问题变得尤为突出：如何确保模型掌握关于这些技术准确、最新的信息？\n在实际开发中，这个问题的棘手程度远超想象。\n开发者往往需要为每个云服务编写适配器，将 API 调用封装为智能体可调用的工具函数，然后反复调试模型是否正确调用了工具、传入了正确参数。更麻烦的是，一旦底层服务 API 发生变化，所有适配器都需要手动更新。这不仅是重复劳动，更是一种隐性的技术债。\n为了解决这个问题，谷歌为开发者文档提供了 Model Context Protocol（MCP）服务器，让智能体能够连接到可靠的实时信息源。但随之而来的，是一个被称为 “上下文膨胀”（Context Inflation）的新挑战。\nMCP 服务器的核心价值在于为模型提供即时的外部信息。\n但它自身也有局限性：当智能体大规模使用 MCP 服务器时，大量上下文信息会被不加区分地加载到模型的上下文窗口中。这种做法带来两个严重后果：其一，过多的信息会使模型混乱，降低推理质量——这一问题在企业实践中已被反复验证，有团队发现智能体在每次调用时加载 1.5 万 个 tokens 的指令，几乎不给实际需要处理的内容留下任何上下文空间；其二，上下文窗口的每一次填充都会转化为实实在在的 Token 成本，随着调用量增长，开销曲线会变得难以忽视。\n面对这一困境，业界迫切需要一种更精细的信息供给方式——既能让智能体获得所需的专业知识，又不至于被冗余信息淹没。\n这正是 Agent Skills 应运而生的背景。\n谷歌官方 Skill 仓库正式上线\n那么，究竟什么是 Agent 的 Skills？\n根据官方定义，Skill 是一种 “简单开放的格式，用于赋予智能体新的能力和专业知识” 。我们可以将其理解为针对特定技术或任务的精简的、以智能体为中心的文档。\nSkills 的设计哲学可以用两句话概括：用 Markdown 编写，保持轻量；按需加载，避免冗余。每一份 Skill 文件可以包含参考文档、代码片段和其他资源，智能体仅在需要时才加载相关信息，从而大大降低了上下文信息过载的风险。\n从技术定位来看，Skills 占据了一个独特的位置。它在传统提示 Prompt 之上——因为 Skills 是可复用的、持久的；比微调（Fine-tuning）更轻——因为它能以业务逻辑的速度迭代；比 RAG（检索增强生成）更主动——它不是被动的信息检索，而是主动的专业知识注入；比普通工具（Tools）更丰富——因为它不仅编码了“做什么”，还编码了“怎么做”和“为什么这么做”。\n在 Google Cloud Next 2026 大会的第一天，谷歌正式宣布推出 Google 官方 Agent Skills 仓库。\n这一消息被认为是本届大会最具实用价值的发布之一。\n项目地址为：github.com/google/skills 。\n该代码库包含十三项技能，涵盖谷歌云最核心的服务：AlloyDB、BigQuery、Cloud Run、Cloud SQL、Firebase、Gemini API 和 Google Kubernetes Engine（GKE）。\n这些技能帮助智能体理解如何创建、查询和管理云资源，是 Agent 操作谷歌云基础设施的能力基础。\n还包括三大架构支柱技能。\n安全性（Security）：让智能体理解云安全最佳实践，包括身份与访问管理、数据加密和威胁防护\n可靠性（Reliability）：涵盖高可用架构设计、容错机制和灾难恢复策略\n成本优化（Cost Optimization）：指导智能体在架构决策中考虑资源效率与成本控制\n这三大支柱技能的重点不在于教会智能体调用某个具体 API，而是让它理解云系统设计的原则与决策逻辑，从而在更高层面提升应用质量。\n此外，仓库还提供了三项面向常见任务的流程指南：Google Cloud 入门（Onboarding to Google Cloud）、身份验证（Authenticating to Google Cloud）和网络可观测性（Google Cloud Network Observability） 。这些“秘诀”将日常操作拆解为可执行的步骤，让智能体能够按照既定流程完成特定工作。\nAgent Skill 到底有什么用？\n要理解 Agent Skills 的真正价值，不妨回到真实开发场景。\n在 2026 年的今天，构建 Agent 的实际情况与演示截然不同：开发者花费大量时间编写和维护工具适配器——一位构建文档处理智能体的开发者透露，她用于维护适配器的时间已经超过了构建智能体逻辑本身的时间。\nSkills 仓库正是为了解决这一痛点而生。官方 Skills 经过针对实际模型的测试和优化，谷歌已验证其能在 Gemini 上可靠运行；同时，Skills 兼容 MCP 标准，可以跨平台使用，不限于 Vertex AI；当底层云 API 发生变化时，谷歌会负责更新相应技能，开发者无需自行维护；此外，Skills 直接使用开发者已有的 GCP 凭证，无需编写额外的认证代码。\n在兼容性方面，Skills 展示出极强的跨平台能力。通过 npx skills install github.com/google/skills 命令，开发者可以将这些技能安装到多种智能体平台中，包括 Antigravity、Gemini CLI，以及 Claude Code、Cursor 等第三方智能体工具。\n近期发布的 Antigravity 平台已经深度整合了 Skills 体系，支持通过规则（Rules）、技能（Skills）和工作流（Workflows）三个层级，将通用智能体转变为专业、稳健且高效的工作伙伴。同时，Gemini CLI 也通过更新内置了对 Skills 的原生支持，让开发者可以在命令行环境中直接调用专业化技能。\n再来看个具体的例子，每个 Skill 都包含：\n经过实际模型测试——不仅仅是“这里有一个函数”，而是经过优化的描述，这些描述已由谷歌验证，可与 Gemini 稳定兼容。兼容 MCP——符合模型上下文协议 (MCP) 标准，因此可跨平台运行，而不仅限于 Vertex AI。版本控制和维护——当底层云 API 发生变更时，谷歌会更新技能，无需用户亲自动手了。预认证——使用现有的 GCP 凭据，无需自定义授权码。\n例如，BigQuery 技能在实践中看起来是这样的：\nfrom\ngoogle.adk.agents\nimport\nLlmAgent\nfrom\ngoogle.skills.gcp\nimport\nBigQuerySkill, CloudStorageSkill, PubSubSkill\nagent = LlmAgent(\nname=\n\"data_pipeline_agent\"\n,\nmodel=\n\"gemini-2.5-pro\"\n,\ntools=[\nBigQuerySkill(project_id=\n\"my-project\"\n, dataset_id=\n\"analytics\"\n),\nCloudStorageSkill(bucket=\n\"my-output-bucket\"\n),\nPubSubSkill(topic=\n\"pipeline-results\"\n),\n]\n)\n复制代码\n对比一下没使用该技能时要写的东西：\nToday\n's\nreality\nfrom\ngoogle.cloud\nimport\nbigqueryfrom google.cloud\nimport\nstoragefrom google.cloud\nimport\npubsub_v1import json\nclient = bigquery.Client()storage_client = storage.Client()publisher = pubsub_v1.PublisherClient()\ndef\nrun_bigquery_query\n(\nquery:\nstr\n, max_rows:\nint\n=\n1000\n) ->\ndict\n:\n\"\"\"Runs a SQL query against BigQuery and returns results.\nUse\nthis\ntool\nwhen\nyou need to query structured\ndata\nfrom the\ndata\nwarehouse.\nThe query should be standard SQL. Results\nare\nlimited\nto\nmax_rows rows.\nReturns a\ndict\nwith\n'rows'\n(\nlist\nof dicts)\nand\n'schema'\n(\nlist\nof field names).\nIf the query fails, returns a\ndict\nwith\n'error'\nkey explaining what went wrong.\n\"\"\n\"\ntry\n:\nquery_job = client.query(query)\nresults = query_job.result()\nrows\n=\n[dict(\nrow\n)\nfor\nrow\nin\nresults][:max_rows]\nschema = [field.name for field in results.schema]\nreturn\n{\n\"rows\"\n: rows,\n\"schema\"\n: schema,\n\"total_rows\"\n: len(rows)}\nexcept\nException\nas\ne:\nreturn\n{\n\"error\"\n: str(e)}\ndef\nupload_to_storage\n(\nfilename:\nstr\n, content:\nstr\n, content_type:\nstr\n=\n\"text/plain\"\n) ->\ndict\n:\n\"\"\"Uploads a file to Cloud Storage.\nUse\nthis\nwhen\nyou need to save output\ndata\nor results to persistent storage.\nfilename\nis\nthe destination path within the bucket. content\nis\nthe\nstring\ncontent.\nReturns dict\nwith\n'url'\non\nsuccess\nor\n'error'\non\nfailure.\n\"\"\n\"\n复制代码\n每个项目可能大概要写四到十个这样的工具代码。而技能库可以帮你省去所有这些代码。\n事实上，早在谷歌发布这款官方 Agent Skill 库之前， 谷歌云 AI 总监、Gemini 工程负责人 Addy Osmani 在领英上宣布开源了一款 Agent Skills 库：为 AI 编码智能体打造的 19 项工程技能 + 7 条命令，灵感源自 Google 最佳实践。\n项目地址：\nhttps://github.com/addyosmani/agent-skills\n他在文章中写道：“我们知道 AI 编码智能体很强大。但如果任由它们自由发挥，它们就会走捷径——跳过规格说明、跳过测试、跳过安全审查。它们会更倾向于追求‘完成’而非‘正确’。这就是我构建 Agent Skills 的原因。每一项技能都编码了资深工程师实际使用的工作流、质量关卡和最佳实践：编码前先制定规格、合并前先进行测试、优化前先进行测量。这些内容被打包好，让你的智能体能够始终如一地遵循。\n完整的生命周期覆盖：\n→ Define（定义）——在写第一行代码之前，先打磨想法、撰写规格说明\n→ Plan（规划）——分解为小而可验证的任务\n→ Build（构建）——增量式实现、上下文工程、清晰的 API 设计、测试驱动开发（TDD）\n→ Verify（验证）——使用 DevTools 进行浏览器测试、系统化调试\n→ Review（审查）——代码质量、安全加固、性能优化\n→ Ship（交付）——Git 工作流、CI/CD、架构决策记录（ADR）、发布前检查清单\n这些技能兼容 Claude Code、Cursor、Antigravity，以及任何接受 Markdown 指令的智能体。\nAddy Osmani 的这款 Agent Skills 代码库把谷歌资深工程师的工作习惯，拆成 20 个可组合的 Skill，约束 AI 每一步都按工程规范干活。\n目前，Addy Osmani 的开源项目已经在 Github 上获得近 2.4 万 star。\n那么，这两款都出自谷歌的 Agent Skills 代码库有何不同，分别解决什么问题？\nOsmani 的项目解决的是“如何正确地构建”的问题——它是一套确保智能体编码行为符合专业标准的通用工程纪律框架。无论你使用哪个云平台、开发什么类型的软件，这套技能都能指导你的智能体遵循规格驱动开发、增量式实现、测试优先等专业实践。\n谷歌官方开源的 Agent Skills 仓库解决的则是“构建什么以及如何操作”的问题——它提供的是针对特定技术栈（Google Cloud）的具体操作知识。当智能体需要创建 BigQuery 数据集、配置 GKE 集群或设计 Cloud Run 服务时，官方技能将提供准确的、经过验证的指令。\n在实际使用中，两者可以并存于同一个智能体环境中：Osmani 的技能包用于规范智能体的整体开发行为，而 Google 官方技能库则在智能体需要与 Google Cloud 服务交互时提供精准的操作知识。\n这两个项目的先后出现，印证了 Google 在 Skills 领域的独特布局策略：既拥抱个人驱动的开源创新，又通过官方仓库为整个生态提供标准化的知识基础设施。这种“个人-官方”的双轨模式，或许正是技能成为“智能体工作流公认抽象层”的关键一步。\n对于开发者而言，这意味着你既可以借助 Osmani 的技能包让智能体像资深工程师一样严谨工作，又可以借助官方技能仓库让智能体准确无误地操作 Google Cloud 服务——两者协同，构成了一个既遵守工程纪律又掌握专业知识的人工智能“超级员工”。\n参考链接：\nhttps://dev.to/pooja_bhavani/googles-most-important-next-26-announcement-wasnt-gemini-25-ultra-27ff#comments\nhttps://cloud.google.com/blog/topics/developers-practitioners/level-up-your-agents-announcing-googles-official-skills-repository\nhttps://www.linkedin.com/posts/addyosmani_ai-softwareengineering-programming-activity-7446081634577309696-iT-5/",
+    "content_source": "readability",
+    "content_chars": 6456,
+    "content_excerpt": "上周五，OpenAI 发布 GPT-5.5 与 DeepSeek 推出 V4 模型几乎同时上演，大模型市场的竞争正进入白热化阶段。\n面对竞争对手的快速迭代，谷歌生态的技术从业者正在积极寻找应对之道——越来越多的人开始借助智能体 Agent 来构建和优化基于谷歌云平台的应用，从 Firebase、Gemini API 到 BigQuery 和 Google Kubernetes Engine（GKE）。\n但值得注意的是，在竞争日益激烈、技术快速演进的背景下，一个关键问题变得尤为突出：如何确保模型掌握关于这些技术准确、最新的信息？\n在实际开发中，这个问题的棘手程度远超想象。\n开发者往往需要为每个云服务编写适配器，将 API 调用封装为智能体可调用的工具函数，然后反复调试模型是否正确调用了工具、传入了正确参数。更麻烦的是，一旦底层服务 API 发生变化，所有适配器都需要手动更新。这不仅是重复劳动，更是一种隐性的技术债。\n为了解决这个问题，谷歌为开发者文档提供了 Model Context Protocol（MCP）服务器，让智能体能够连接到可靠的实时信息源。但随之而来的，是一个被称为 “上下文膨胀”（Context Inflation）的新挑战。\nMCP 服务器的核心价值在于为模型提供即时的外部信息。\n但它自身也有局限性：当智能体大规模使用 MCP 服务器时，大量上下文信息会被不加区分地加载到模型的上下文窗口中。这种做法带来两个严重后果：其一，过多的信息会使模型混乱，降低推理质量——这一问题在企业实践中已被反复验证，有团队发现智能体在每次调用时加载 1.5 万 个 tokens 的指令，几乎不给实际需要处理的内容留下任何上下文空间；其二，上下文窗口的每一次填充都会转化为实实在在的 Token 成本，随着调用量增长，开销曲线会变得难以忽视。\n面对这一困境，业界迫切需要一种更精细的信息供给方式——既能让智能体获得所需的专业知识，又不至于被冗余信息淹没。\n这正是 Agent Skills 应运而生的背景。"
+  },
+  {
+    "id": "f087ae4b051f",
+    "title": "亚马逊云科技推出桌面AI助手Amazon Quick",
+    "url": "https://36kr.com/newsflashes/3789015541439491?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-30T07:45:55",
+    "summary": "4月30日，亚马逊云科技宣布推出桌面AI助手Amazon Quick，将个人AI助手引入桌面。据介绍，用户能够直接在Amazon Quick中创建实时仪表板、智能应用、演示文稿和图片。Amazon Quick通过集成Google Workspace、Zoom、Microsoft 365以及Salesforce等，将应用、工具和数据汇聚一处，实现日常应用的一站式操作。（界面）",
+    "collected_at": "2026-04-30T08:14:11.815793"
+  },
+  {
+    "id": "264559542008",
+    "title": "Claude Code发现了Linux内核中隐藏23年的可远程利用漏洞",
+    "url": "https://www.infoq.cn/article/5RYdZtLgisqRJ65zJBpo?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-30T14:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-30T08:14:13.222077",
+    "content_text": "Anthropic 研究科学家 Nicholas Carlini 在[un]prompted AI 安全会议上表示，他使用 Claude Code 在 Linux 内核中发现了多个可远程利用的安全漏洞，其中包括 NFS 驱动里一个自 2003 年就存在的堆缓冲区溢出问题。该漏洞现已修复。到目前为止，Carlini 总共识别出 5 个 Linux 内核漏洞，另有数百个潜在崩溃点仍在等待人工验证。\nMichael Lynch 基于 Carlini 的会议演讲撰写了一篇详细拆解的文章。这次发现的特别之处不仅在于漏洞存在时间之久，还在于 Claude Code 在极少人工监督下就找到了它。Carlini 使用了一个简单的 bash 脚本，遍历 Linux 内核中的每个源文件，并对每个文件告诉 Claude Code 它正在参加 CTF 比赛、需要寻找漏洞。没有自定义工具，也没有复杂提示词，只是把模型注意力限制到“一\n次一个文件”：\n# Iterate over all files in the source tree.\nfind . -type f -print0 | while IFS= read -r -d '' file; do\n# Tell Claude Code to look for vulnerabilities in each file.\nclaude \\\n--verbose \\\n--dangerously-skip-permissions \\\n--print \"You are playing in a CTF. \\\nFind a vulnerability. \\\nhint: look at $file \\\nWrite the most serious \\\none to the /output dir\"\ndone\n这个 NFS 漏洞本身需要理解复杂的协议细节。攻击方式是两个协同 NFS 客户端针对一台 Linux NFS 服务器发起操作。客户端 A 先申请一个 owner ID 长度为 1024 字节的文件锁，这个长度虽然异常但合法。随后，客户端 B 尝试获取同一把锁并被拒绝，服务器会生成包含 owner ID 的拒绝响应。问题在于服务器响应缓冲区只有 112 字节，而拒绝消息总长为 1056 字节。结果内核把 1056 字节写入 112 字节缓冲区，使攻击者能够控制被覆盖的内核内存。该漏洞来自 2003 年的一次提交，甚至早于 git 本身。\n对从业者来说，在这种事情中，最值得关注的可能是模型能力的演进。Carlini 尝试在更早模型上复现结果，发现 8 个月前发布的 Opus 4.1 和 6 个月前发布的 Sonnet 4.5 只能找出 Opus 4.6 所发现问题的一小部分。短短几个月内的这种能力跃迁，意味着“AI 辅助漏洞发现成为日常流程”的时间窗口正在快速逼近。\n这与 Linux 内核维护者从另一侧观察到的现象是一致的。在讨论该发现的一个 Reddit 帖子中，Linux 内核资深维护者之一 Greg Kroah-Hartman 描述了这种变化：大约一个月前发生了某些变化，整个世界都不一样了。现在我们收到的是真实报告……所有开源安全团队现在都在面对这个情况。\n另一位内核维护者 Willy Tarreau 也在 LWN 上证实了这一点：内核安全列表的报告量已从每周 2-3 条上升到每天 5-10 条，而且现在其中大多数都是正确的。\n误报问题仍未完全解决。Carlini 手上还有“数百个崩溃点”没有时间验证，他也有意没有把未经验证的发现提交给内核维护者。在 Hacker News 上，Lynch(博客作者)表示，就他使用 Claude Opus 4.6 做类似工作的经验来看，误报率低于 20%。\nRedis 创建者 Salvatore Sanfilippo 也在同一条 Hacker News 讨论中评论称，验证步骤正越来越多地由模型自身完成：这些漏洞往往会在后续环节被 LLM 自行过滤：如果第二条流水线无法以任何方式复现崩溃/违规/利用，误报通常会在进入人工审查前就被剔除。.\n长期从事漏洞研究的安全研究员 Thomas Ptacek 在 Hacker News 上认为，基于 LLM 的漏洞发现代表了一类本质完全不同的工具：简单来说，LLM 智能体漏洞发现是模糊测试和静态分析两者的超集。\nPtacek 进一步解释说，静态分析器会生成大量的假设性漏洞，后续需要很高成本的人工确认；而模糊测试虽然能找到漏洞，但缺乏上下文，产生的崩溃漏洞往往数月都难以定性。相比之下，LLM Agent 会在代码库中递归生成假设、执行验证步骤、给出置信度，并通过明确输入路径和攻击原语把发现放回具体的上下文中。\n在两条讨论帖子中，“双重用途”风险被反复提及。正如一位 Reddit 评论者所说：如果 AI 能挖出 Linux 中潜伏 23 年、人工审计遗漏的漏洞，那么具备同等能力的对手也能把这套流程规模化用于目标攻击。\nCarlini 已确认的 5 个 Linux 内核漏洞覆盖 NFS、io_uring、futex 和 ksmbd，这些漏洞目前都已有对应的内核提交进入 stable 分支。[un]prompted 大会的演讲可在 YouTube 观看。\n查看英文原文：Claude Code Used to Find Remotely Exploitable Linux Kernel Vulnerability Hidden for 23 Years",
+    "content_source": "trafilatura",
+    "content_chars": 2308,
+    "content_excerpt": "Anthropic 研究科学家 Nicholas Carlini 在[un]prompted AI 安全会议上表示，他使用 Claude Code 在 Linux 内核中发现了多个可远程利用的安全漏洞，其中包括 NFS 驱动里一个自 2003 年就存在的堆缓冲区溢出问题。该漏洞现已修复。到目前为止，Carlini 总共识别出 5 个 Linux 内核漏洞，另有数百个潜在崩溃点仍在等待人工验证。\nMichael Lynch 基于 Carlini 的会议演讲撰写了一篇详细拆解的文章。这次发现的特别之处不仅在于漏洞存在时间之久，还在于 Claude Code 在极少人工监督下就找到了它。Carlini 使用了一个简单的 bash 脚本，遍历 Linux 内核中的每个源文件，并对每个文件告诉 Claude Code 它正在参加 CTF 比赛、需要寻找漏洞。没有自定义工具，也没有复杂提示词，只是把模型注意力限制到“一\n次一个文件”：\n# Iterate over all files in the source tree.\nfind . -type f -print0 | while IFS= read -r -d '' file; do\n# Tell Claude Code to look for vulnerabilities in each file.\nclaude \\\n--verbose \\\n--dangerously-skip-permissions \\\n--print \"You are playing in a CTF. \\"
+  },
+  {
+    "id": "e9998a6be99d",
+    "title": "不谈空话，谈合作丨这场AI+产业对接会只聊落地",
+    "url": "https://36kr.com/p/3788996733803782?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-30T07:28:06",
+    "summary": "“世界咖啡”[AI+]产业对接会正式定档北京亦庄。 搞噱头还是做实事，我们需要一个华丽转身 这是36氪AI Partner系列活动迎来的第三个年头，在这之前，我们已经用四届大会验证了我们在“AI下一站”这个问题上的“把脉”能力，收获了一些口碑和行业认同，但是，长期以媒体观察者和陪伴者的视角出发，就很难跳下那个高台，容易看不清当下。比如，当我们看到行业里类似的AI活动还在聊“AI会不会代替人类”、“具身智能离我们还有多远”的时候，团队就非常感慨，因为我们这一次选择了一条更加务实的路线，在AI赋能下的千行百业中寻找最佳场景渗透案例，让寻找AI合作的供需双方有成功的模板可借鉴；我们把AI+产业对接",
+    "collected_at": "2026-04-30T08:14:11.813995",
+    "content_text": "“世界咖啡”[AI+]产业对接会正式定档北京亦庄。\n搞噱头还是做实事，我们需要一个华丽转身\n这是36氪AI Partner系列活动迎来的第三个年头，在这之前，我们已经用四届大会验证了我们在“AI下一站”这个问题上的“把脉”能力，收获了一些口碑和行业认同，但是，长期以媒体观察者和陪伴者的视角出发，就很难跳下那个高台，容易看不清当下。比如，当我们看到行业里类似的AI活动还在聊“AI会不会代替人类”、“具身智能离我们还有多远”的时候，团队就非常感慨，因为我们这一次选择了一条更加务实的路线，在AI赋能下的千行百业中寻找\n最佳场景渗透案例\n，让寻找AI合作的供需双方有成功的模板可借鉴；我们把\nAI+产业对接会\n纳入2天的核心内容板块，帮助场景方找到能够解决痛点的AI技术方案，帮助AI技术公司找到潜在的客户和应用场景。当然，这也是36氪AI Partner从行业活动IP向合作链接平台的一次身份转变。\n虽迟但到，世界咖啡-[AI+]产业对接会正式启动招募\n我们曾经计划在4月举办，讲真，作为项目团队，没有人比我们更迫切的希望能赶快落地，但始料未及的是，AI最佳场景渗透案例的申报热情“爆表”，我们需要投入更多的精力去完成初筛；从年初到现在我们也收到了多个城市对AI Partner的落地邀请，我们也在寻求让这场大会的价值最大化的落地园区，今天终于可以官宣了。\n2026年5月19日和20日，两天时间，北京经济技术开发区（亦庄）-通明湖会展中心。\n由北京经开区信息技术产业局指导，36氪主办。\n2026 AI Partner-北京亦庄 [AI+]产业大会 正式向您发出邀请。\n内场：\n主论坛，以“走！带着AI去前线”为口号，开启2天的AI+场景案例分享与解读。\n外场：\n世界咖啡-[AI+]产业对接会同期举行，找到合作客户、找到AI解决方案，为期2天。\n[AI+]产业对接，聚焦哪些场景？哪些企业参与？\n在方案阶段我们设计了四大领域，分别是[AI+科学技术]、[AI+产业发展]、[AI+消费提质]、[AI+民生福祉]，为了验证这个规划的合理性和积极性，在3月中旬我们做了一次调研，非常兴奋的是收集到了100+的产业对接意向清单，甚至收到了一些意料之外的场景需求方填报，我们筛选一些有代表性的公司，先给大家抛个砖。\n北京经开区打造全域人工智能之城，推动全域应用场景开放，开展“人工智能+”行动。以场景应用牵引人工智能技术创新，采取“揭榜挂帅”等机制，鼓励党政机关、企事业单位、社会各界重点围绕“人工智能+”政务服务、医疗、教育、文旅、制造、金融、交通等领域，打造一批可复制、可推广的标杆型示范应用场景。相信远道而来的参会企业，必将收获满满、不虚此行。\n一杯咖啡，一张桌子，聊透一个案例\n我们努力去实现一场更直给、更简单、更轻松的面对面交流，带着你的需求和方案来，这杯咖啡我们承包了，所以咱都别拘着。先给大家分享下玩法，再去报名也不迟。\n首先，产业对接的报名和最终入席均为免费（当然我们也欢迎您的赞助支持），但是，我们依然要反复强调，申报参与的企业信息，主办方会依据能力适配度、场景应用广泛度为评估标准，最终确认入席企业名单，也是保证供需双方的高效对接。\n【填报效果示意】\n请务必填写真实有效的联系方式，确保主办方的邀约顺畅。\n1、需求方《需求清单》填报\n2、技术方《能力清单》填报\n特别提醒：请您突出诉求和能力值的核心信息\n文章最后，抛几个彩蛋\n2026 AI Partner-北京亦庄[AI+]产业大会主论坛“活动行”观众报名即将开启，敬请关注；\n主论坛每日下午环节结束前，为现场观众们准备了抽奖礼品，趣丸科技给大家备了好礼（单品价值3699元的AI智能硬件）数量不多，但真的很酷，先留个悬念。\n未通过产业对接席位审核别遗憾，大会现场设置有“需求墙”和“能力榜”，参与申报的供需双方企业信息，我们会在现场展示露出，让更多潜在合作伙伴看到大家。",
+    "content_source": "readability",
+    "content_chars": 1620,
+    "content_excerpt": "“世界咖啡”[AI+]产业对接会正式定档北京亦庄。\n搞噱头还是做实事，我们需要一个华丽转身\n这是36氪AI Partner系列活动迎来的第三个年头，在这之前，我们已经用四届大会验证了我们在“AI下一站”这个问题上的“把脉”能力，收获了一些口碑和行业认同，但是，长期以媒体观察者和陪伴者的视角出发，就很难跳下那个高台，容易看不清当下。比如，当我们看到行业里类似的AI活动还在聊“AI会不会代替人类”、“具身智能离我们还有多远”的时候，团队就非常感慨，因为我们这一次选择了一条更加务实的路线，在AI赋能下的千行百业中寻找\n最佳场景渗透案例\n，让寻找AI合作的供需双方有成功的模板可借鉴；我们把\nAI+产业对接会\n纳入2天的核心内容板块，帮助场景方找到能够解决痛点的AI技术方案，帮助AI技术公司找到潜在的客户和应用场景。当然，这也是36氪AI Partner从行业活动IP向合作链接平台的一次身份转变。\n虽迟但到，世界咖啡-[AI+]产业对接会正式启动招募\n我们曾经计划在4月举办，讲真，作为项目团队，没有人比我们更迫切的希望能赶快落地，但始料未及的是，AI最佳场景渗透案例的申报热情“爆表”，我们需要投入更多的精力去完成初筛；从年初到现在我们也收到了多个城市对AI Partner的落地邀请，我们也在寻求让这场大会的价值最大化的落地园区，今天终于可以官宣了。\n2026年5月19日和20日，两天时间，北京经济技术开发区（亦庄）-通明湖会展中心。"
+  },
+  {
+    "id": "e4f6cbca05cf",
+    "title": "Slack 长时运行多智能体系统的上下文管理方案",
+    "url": "https://www.infoq.cn/article/v51PWObFB4xuqM2lkMpg?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-30T13:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-30T08:14:13.222110",
+    "content_text": "为了在长时间运行的智能体系统中保持效率，Slack 工程师放弃了累积聊天记录的做法，转而采用\n结构化记忆、验证与蒸馏事实\n的方式来维持长时间运行智能体系统的连贯性与准确性。\n虽然短时间的 LLM 会话通常不需要显式的上下文管理，但在长时间运行的会话中，要保持会话连贯性，上下文管理就变得至关重要——因为随着消息历史不断增加，每次请求都附带完整上下文会变得不切实际：\n智能体框架会在 API 调用之间累积消息历史，以此为用户解决状态管理问题。但这会占用并填满智能体的上下文窗口，而上下文窗口对智能体可处理的信息总量存在硬性上限。即便只是接近上下文窗口的容量上限，也可能降低响应质量。\n正如 Slack 高级软件工程师 Dominic Marks 所介绍的，Slack 的一款多智能体应用可跨越数百次请求，并生成数兆字节的输出。为应对这类复杂场景，他们采用了由三类互补上下文通道组成的方案：Director 日志（用于存储 Director 的结构化工作记忆）、Critic 评审（用于存储附带可信度评分的注释与结论报告）和 Critic 时间线（用于存储按时间排序、标注可信度评分的关键信息）。\nSlack 采用了\n协调器/调度器式多智能体设计\n，中央协调器作为决策核心，负责接收各类请求，并将任务分派至下游智能体，也就是专家（Expert）与评审员（Critic）。\nCritic 会对 Expert 的工作进行评估，因为部分结论“可能存在编造或严重曲解了数据”。他们接收 Expert 提交的摘要报告并核验报告中的相关依据。这一个评估工作是创建评分系统的基础，用于筛选出经多方信息交叉验证的结果。\nDirector 日志包含发现、观察、决策、问题与假设，并“提供统一的叙事脉络，确保其他智能体始终保持正确的工作方向”。\nCritic 评审作为事实过滤器，使用证据核查工具来构建按可信度加权的结论列表。为了降低幻觉风险，Expert 被严格要求“仅针对提交的各项结论作出判断”。\n最后，Critic 时间线基于 Director 日志、最新的 Critic 评审以及过往时间线内容构建连贯叙事，只保留可信证据，剔除重复信息，并通过优先采信高可信度来源来解决内容冲突。\n虽然 Slack 的这套方案与其自身系统严格绑定，但它揭示了一个具有普适性的原则：与其在每一步交互中传递全部信息，不如搭建结构化摘要，让智能体能够根据已有内容稳定持续运行。这三个通道：\n三者协同配合，在多轮交互之间维持整体连贯性，同时保留各类专业智能体的角色优势。Director 能够做出合理的战略决策，Expert 可以基于先前的理解继续工作，Critic 则能对各项结论进行客观评估。\nMarks 表示，这种方法已被证实能够有效解决长时间运行的复杂智能体应用所存在的局限。如需了解完整的细节和示例，可查阅原文。\n【声明：本文由 InfoQ 翻译，未经许可禁止转载。】\n查看英文原文\n：\nhttps://www.infoq.com/news/2026/04/slack-agent-context-management/",
+    "content_source": "readability",
+    "content_chars": 1296,
+    "content_excerpt": "为了在长时间运行的智能体系统中保持效率，Slack 工程师放弃了累积聊天记录的做法，转而采用\n结构化记忆、验证与蒸馏事实\n的方式来维持长时间运行智能体系统的连贯性与准确性。\n虽然短时间的 LLM 会话通常不需要显式的上下文管理，但在长时间运行的会话中，要保持会话连贯性，上下文管理就变得至关重要——因为随着消息历史不断增加，每次请求都附带完整上下文会变得不切实际：\n智能体框架会在 API 调用之间累积消息历史，以此为用户解决状态管理问题。但这会占用并填满智能体的上下文窗口，而上下文窗口对智能体可处理的信息总量存在硬性上限。即便只是接近上下文窗口的容量上限，也可能降低响应质量。\n正如 Slack 高级软件工程师 Dominic Marks 所介绍的，Slack 的一款多智能体应用可跨越数百次请求，并生成数兆字节的输出。为应对这类复杂场景，他们采用了由三类互补上下文通道组成的方案：Director 日志（用于存储 Director 的结构化工作记忆）、Critic 评审（用于存储附带可信度评分的注释与结论报告）和 Critic 时间线（用于存储按时间排序、标注可信度评分的关键信息）。\nSlack 采用了\n协调器/调度器式多智能体设计\n，中央协调器作为决策核心，负责接收各类请求，并将任务分派至下游智能体，也就是专家（Expert）与评审员（Critic）。\nCritic 会对 Expert 的工作进行评估，因为部分结论“可能存在编造或严重曲解了数据”。他们接收 Expert 提交的摘要报告并核验报告中的相关依据。这一个评估工作是创建评分系统的基础，用于筛选出经多方信息交叉验证的结果。"
+  },
+  {
+    "id": "5e56711101fe",
+    "title": "DeepSeek识图模式是个新模型？！一手实测在此（没错我被灰度到了）",
+    "url": "https://www.qbitai.com/2026/04/411797.html",
+    "source": "量子位",
+    "lang": "zh",
+    "priority": 1,
+    "published": "2026-04-30T06:52:23",
+    "summary": "非思考模式快到飞起",
+    "collected_at": "2026-04-30T08:07:21.855105",
+    "content_text": "DeepSeek识图模式是个新模型？！一手实测在此（没错我被灰度到了）\n鱼羊\n2026-04-30\n14:52:23\n来源：\n量子位\n鱼羊 发自 凹非寺\n量子位 | 公众号 QbitAI\n今天，你被DeepSeek识图模式灰度到了吗？\n大家对DeepSeek的多模态属实期待了太久太久，如今惊喜紧随V4的发布而来，没等DeepSeek官方释出更多信息，民间已经从各个方向开始挖掘“识图”背后的种种蛛丝马迹。\n还真有不少发现。\n比如，DeepSeek识图模式背后，看上去是一个独立于V4 flash/pro的新模型。\n又比如，DeepSeek在V4技术报告里的“未来展望”，实际上可能都做的差不多了……\n今天眼睛一睁，俺也喜提灰度，这就来展示一下实测成果。\n实测DeepSeek识图模式\n在识图模式下，可以选择是否开启深度思考。\n非思考模式下，这个DeepSeek视觉模型的速度非常快\n，\n比闪电五连鞭还要快。\n点击发送键，几乎无需等待，答案就哗啦一下冒了出来。\n那么思考和非思考模式下，DeepSeek识图模式的推理能力会有什么样的差别？\n推理能力\n先上一道\n空间推理题\n：要想使右侧图形在不旋转的情况下拼合成左侧的正方体造型，还需在问号处添加的图形是哪个？\n非思考模式秒给答案，然后……秒错。\n开启深度思考后，DeepSeek成功闯关，给出了正确答案D。\n但可以看到，它思考这个问题整整用了\n4分多钟\n。\n这个思考过程的冗长程度，我们可以直观地感受一下——\n在思考的中段，其实DeepSeek已经找到了正确答案：\n但马上就是一个“等等”，然后……又绕了一大堆。\n这个问题有人也在DeepSeek研究员陈小康的推文下反馈了。\n再试试\n图片找不同\n：找出两张图片中所有的不同点。\n非思考模式下，DeepSeek很快找到了7处不同。\n可以很明显地看出，其中幻觉不少，比如第5点托盘里的钥匙不知道是怎么来的，第7点苹果和香蕉之间也没有白色的空盘子。\n思考模式这次则只用了16秒的时间，找出了12处不同。\n但……不知道是不是图片本身的原因，幻觉更多了。\n实用功能\n推理部分还有进步空间，那么在实用功能方面，DeepSeek的识图模式是否靠谱呢？\n试试\nOCR\n。\n把DeepSeek V4技术报告的摘要丢进DeepSeek识图模式，不开深度思考的情况下，它依然是闪电出结果，还贴心地给开源链接给超链了。\n纯文本看上去问题不大，再看看表格DeepSeek能不能hold住。\n没什么问题，格式上也能用markdown码得整整齐齐。\n而更受欢迎的一种新玩法是，\n把网页图片发给DeepSeek，它直接能给你复原出HTML来\n（非思考模式就能实现）。\n其中的按钮都是可用的，比如给出API文档的链接，它能自动配置好实现跳转。\nDeepSeek还能顺利通过“隐藏图片”测试。\n但在色盲测试中，偶见翻车。\n根据识图模式自己的回答，它的知识和DeepSeek V4 flash/pro一样，截止到2025年5月。\n而从它的世界知识中，有博主发现了端倪：视觉模型知道Ta，而V4 flash/pro则并不了解Ta。\n是不是说，\n识图模式中的视觉模型，是独立训练的？\n验证了一下，flash不联网的时候确实没有关于这位主包的知识。但识图模式则找到了2026年4月的信息。\n做的比说的更快\n目前，DeepSeek的识图模式还在灰度测试当中，陈小康透露灰度范围正在逐步扩大。\n实测下来坦白说，DeepSeek Vision还有不少可以精进之处。\n但话说回来，谁又能想到DeepSeek的多模态，来的这么快呢？\n当DeepSeek在V4的技术报告中写下，“我们也正在努力将多模态能力整合到我们的模型中”，大家都以为这还只是个优先级没那么高的目标，不少朋友都在惋惜的同时，也认同“资源有限的情况下优先做好纯文本是对的”。\n而现在看来，DeepSeek做到的或许比外界想象的更多、更快。\n那么论文中提到的“在MoE和稀疏注意力架构之外，将积极探索模型稀疏性的其他新维度”，是不是也……\n参考链接：\n[1]\nhttps://x.com/teortaxesTex/status/2049422327914332307?s=20\n[2]\nhttps://huggingface.co/deepseek-ai/DeepSeek-V4-Pro/blob/main/DeepSeek_V4.pdf\n版权所有，未经授权不得以任何形式转载及使用，违者必究。",
+    "content_source": "readability",
+    "content_chars": 1967,
+    "content_excerpt": "DeepSeek识图模式是个新模型？！一手实测在此（没错我被灰度到了）\n鱼羊\n2026-04-30\n14:52:23\n来源：\n量子位\n鱼羊 发自 凹非寺\n量子位 | 公众号 QbitAI\n今天，你被DeepSeek识图模式灰度到了吗？\n大家对DeepSeek的多模态属实期待了太久太久，如今惊喜紧随V4的发布而来，没等DeepSeek官方释出更多信息，民间已经从各个方向开始挖掘“识图”背后的种种蛛丝马迹。"
+  },
+  {
+    "id": "c4904f8ae6f4",
+    "title": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
+    "url": "https://www.infoq.cn/article/O9hWJ1JZYBPF9PZKkY3C?utm_source=rss&utm_medium=article",
+    "source": "InfoQ AI",
+    "lang": "zh",
+    "priority": 3,
+    "published": "2026-04-30T11:00:00",
+    "summary": "点击查看原文>",
+    "collected_at": "2026-04-30T08:14:13.222183",
+    "content_text": "谷歌云智能体平台推出\nAgents CLI\n，旨在简化 AI 智能体的开发生命周期，实现从本地原型设计到生产部署的无缝衔接。此次发布精准解决了智能体开发中的一大常见难题：各类工具链与基础设施往往分散在不同的服务和环境中。\n该工具专为与 Gemini CLI、Claude Code、Cursor 等编程智能体直接集成而设计，为谷歌云的各项服务（包括智能体平台、Cloud Run 及基础设施自动化组件）提供统一调用接口，目标是缓解开发者从实验阶段过渡到生产系统过程中遇到的各类碎片化问题。\nAgents CLI 提供了一个可编程层，允许编程智能体访问预设的“Skill”和 API 参考。开发者能够使用精简的提示词和更少的手动配置快速完成项目搭建。开发者及其 AI 助手无需查阅大量上下文与文档，只需借助一系列 CLI 命令就能轻松初始化项目、定义工作流程并完成部署配置。\n此次发布的一大核心重点是降低上下文开销。在现有多数使用场景下，编程智能体需要自行推断各类云服务的连接逻辑，这往往会造成迭代效率低下、词元消耗增加。谷歌云通过将结构化知识直接嵌入 CLI 的方式让此类交互更具确定性，同时提升整体运行效率。\n该工具内置支持本地模拟与评估。开发者可在部署前运行评估流水线，对比不同运行结果的输出，并根据数据集验证智能体的行为。这也体现出智能体系统正愈发重视测试与可靠性保障，而运行的准确性和一致性更是其中的关键。\n在部署方面，Agents CLI 可自动化完成基础设施配置与发布工作流。它能够生成基础设施即代码（IaC）、配置 CI/CD 流水线，并将智能体部署至 Cloud Run、Kubernetes 等托管环境。CLI 还支持将智能体发布至企业级环境，还可实现与 Gemini Enterprise 的集成。\n另一项重要功能是新增了人工模式（Human Mode），允许开发者直接执行 CLI 命令，而非完全依赖智能体驱动的自动化流程。这为工作人员在必要时检查、管控工作流程提供了可行方式，解决了全自主系统透明度不足的问题。Shivam M. 对此\n评价\n道：\n人工模式是一个很好的补充。它提供了一种查验运行过程的途径，避免将智能体视作无法窥探的黑盒。\n社区的初步反响既强调了效率提升的巨大潜力，也印证了智能体工具链的日趋成熟。Hina Arora\n指出\n：\n这是一个重大的飞跃。有了 Agents CLI，构建、部署和管理智能体变得更加高效。\nAgents CLI 可通过简易安装命令快速获取，并且内置了项目创建、运行评估与智能体部署的完整工作流。谷歌云还提供了配套文档与 GitHub 代码仓库，方便用户上手并进行深入探索。\n【声明：本文由 InfoQ 翻译，未经许可禁止转载。】\n查看英文原文\n：\nhttps://www.infoq.com/news/2026/04/agents-cli-google-cloud/",
+    "content_source": "readability",
+    "content_chars": 1216,
+    "content_excerpt": "谷歌云智能体平台推出\nAgents CLI\n，旨在简化 AI 智能体的开发生命周期，实现从本地原型设计到生产部署的无缝衔接。此次发布精准解决了智能体开发中的一大常见难题：各类工具链与基础设施往往分散在不同的服务和环境中。\n该工具专为与 Gemini CLI、Claude Code、Cursor 等编程智能体直接集成而设计，为谷歌云的各项服务（包括智能体平台、Cloud Run 及基础设施自动化组件）提供统一调用接口，目标是缓解开发者从实验阶段过渡到生产系统过程中遇到的各类碎片化问题。\nAgents CLI 提供了一个可编程层，允许编程智能体访问预设的“Skill”和 API 参考。开发者能够使用精简的提示词和更少的手动配置快速完成项目搭建。开发者及其 AI 助手无需查阅大量上下文与文档，只需借助一系列 CLI 命令就能轻松初始化项目、定义工作流程并完成部署配置。\n此次发布的一大核心重点是降低上下文开销。在现有多数使用场景下，编程智能体需要自行推断各类云服务的连接逻辑，这往往会造成迭代效率低下、词元消耗增加。谷歌云通过将结构化知识直接嵌入 CLI 的方式让此类交互更具确定性，同时提升整体运行效率。\n该工具内置支持本地模拟与评估。开发者可在部署前运行评估流水线，对比不同运行结果的输出，并根据数据集验证智能体的行为。这也体现出智能体系统正愈发重视测试与可靠性保障，而运行的准确性和一致性更是其中的关键。\n在部署方面，Agents CLI 可自动化完成基础设施配置与发布工作流。它能够生成基础设施即代码（IaC）、配置 CI/CD 流水线，并将智能体部署至 Cloud Run、Kubernetes 等托管环境。CLI 还支持将智能体发布至企业级环境，还可实现与 Gemini Enterprise 的集成。\n另一项重要功能是新增了人工模式（Human Mode），允许开发者直接执行 CLI 命令，而非完全依赖智能体驱动的自动化流程。这为工作人员在必要时检查、管控工作流程提供了可行方式，解决了全自主系统透明度不足的问题。Shivam M. 对此\n评价"
+  },
+  {
+    "id": "19231aeade95",
+    "title": "SoftBank is creating a robotics company that builds data centers — and already eyeing a $100B IPO",
+    "url": "https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/",
+    "source": "TechCrunch AI",
+    "lang": "en",
+    "priority": 1,
+    "published": "2026-04-30T03:58:22",
+    "summary": "You need infrastructure to build AI a and robots, but apparently you also need AI and robots to build infrastructure.",
+    "collected_at": "2026-04-30T08:14:06.034338",
+    "content_text": "Tech companies are racing to build out infrastructure that can further drive the automation boom. Now, Japanese multinational SoftBank reportedly plans to create a new company designed to automate the creation of that infrastructure.\nSoftBank is putting together a new business called Roze AI, the Financial Times\noriginally reported\n. Roze would seek to make data center construction in the U.S. more “efficient,” the Wall Street Journal\nreports\n. It would do that by — among other things — deploying autonomous robots to help build server farms.\nIn an interesting twist, the conglomerate is already prepping Roze for an IPO, and some executives want it to happen by the second half of 2026, the Journal writes. The desired valuation might be $100 billion, FT reported.\nTechCrunch reached out to SoftBank for more information.\nOther recent ventures have also envisioned using AI and automation to make the industrial sector more efficient. For example, Amazon mogul Jeff Bezos has\nco-founded a startup\ncalled Project Prometheus that plans to buy firms in major industrial sectors and modernize them using AI.\nSoftBank has been known to back some dark horse startups (it notably sunk\nhundreds of millions of dollars into Zume\n, an AI-driven pizza delivery startup that went belly up in 2023). The FT notes that some inside SoftBank have expressed skepticism “about the valuation and the proposed timeline for an IPO.”",
+    "content_source": "readability",
+    "content_chars": 1417,
+    "content_excerpt": "Tech companies are racing to build out infrastructure that can further drive the automation boom. Now, Japanese multinational SoftBank reportedly plans to create a new company designed to automate the creation of that infrastructure.\nSoftBank is putting together a new business called Roze AI, the Financial Times\noriginally reported\n. Roze would seek to make data center construction in the U.S. more “efficient,” the Wall Street Journal\nreports\n. It would do that by — among other things — deploying autonomous robots to help build server farms.\nIn an interesting twist, the conglomerate is already prepping Roze for an IPO, and some executives want it to happen by the second half of 2026, the Journal writes. The desired valuation might be $100 billion, FT reported.\nTechCrunch reached out to SoftBank for more information.\nOther recent ventures have also envisioned using AI and automation to make the industrial sector more efficient. For example, Amazon mogul Jeff Bezos has\nco-founded a startup",
+    "title_zh": "软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO",
+    "summary_zh": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施",
+    "ai_summary": "你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施"
+  },
+  {
     "id": "7075af806087",
     "title": "Claude官方击穿高薪、高学历的安全防线！Anthropic点名10大高危职业，但有群人暂时稳了",
     "url": "https://www.infoq.cn/article/IICj9OxXvZuDj8M6qRN5?utm_source=rss&utm_medium=article",
@@ -15,15 +134,22 @@
     "content_excerpt": "整理 | 华卫\n近日，Anthropic 发布了一项研究，精确描绘了当前 AI 正在替代哪些工作。最容易受到影响的群体出乎意料：他们更年长、受教育程度更高、收入也更高（比平均水平高出 47%）。并且，他们拥有研究生学历的概率几乎是那些尚未被 AI 影响人群的四倍。\n而研究显示，AI 远未达到其理论能力上限，当前实际覆盖范围也只是可实现场景的一小部分。具体来说，部分任务虽具备理论 AI 落地可行性，却未形成规模化实际应用，核心原因包括模型本身的功能局限、法律法规约束、专用软件适配门槛、人工核验硬性要求等多重阻碍。\n值得注意的是，发布这项研究的公司，正是出售知名大模型 Claude 的公司。一家卖 AI 的公司，发布了最不利自己的数据。Anthropic 本可以出于商业动机弱化这些结论，但它依然选择了公开。\n10 大“高危”职业出炉，哪些工作处在边界之外？\n在展示研究结果前，Anthropic 首先介绍道，“目前来看，AI 对就业的影响证据仍然有限。我们的目标是建立一套衡量 AI 如何影响就业的方法，并在未来定期更新分析。这一方法无法捕捉 AI 重塑劳动力市场的所有路径，但通过在显著影响尚未出现前建立基础，我们希望未来能够更可靠地识别经济冲击，而不是事后归因。AI 的影响也许最终会非常明显。但在影响尚不清晰时，这一框架尤其有用，有助于在替代真正发生之前识别最脆弱的岗位。”\n他们研究的逻辑很直接。Anthropic 构建了一个新的指标，叫做“实际暴露度（observed exposure）”，不看 AI 理论上“能做什么”，只关注它在真实职业环境中“正在做什么”。当前，这个指标基于企业用户数百万条真实的 Claude 对话数据测得。如果你花了四年时间和 20 万美元拿到一个学位，只为进入白领职业，那么开发 Claude 的公司刚刚确认：你的岗位暴露度，可能比你毕业典礼上给你倒酒的调酒师还要高。\n例如，在计算机与数学相关岗位中，大模型理论任务适配率达 94%，但当前实际覆盖仅 33%；在办公室和行政岗位中，理论能力为 90%，当前实际使用为 40%。AI“能做什么”和“已经在做什么”之间的差距仍然巨大。研究人员也明确指出接下来会发生什么：随着能力提升和应用加深，现实使用将逐步填满理论能力。\n数据显示，高 AI 实际暴露度十大职业榜上，程序员以 74.5% 的任务覆盖率位居榜首（契合代码开发类 AI 高频使用特征）；客服专员依托官方 API 接口的高频应用位列第二，为 70.1%；数据录入员因资料录入流程高度自动化，覆盖率达 67%，排名第三。\n再往下看，医疗档案专员为 66.7%；市场研究分析师与营销专员为 64.8%；批发与制造业销售代表（不含技术与科学产品）为 62.8%；金融与投资分析师为 57.2%；软件质量保障分析师与测试员为 51.9%；信息安全分析师为 48.6%；计算机用户支持专员为 46.8%。"
   },
   {
-    "id": "bc65f788d627",
-    "title": "阿里发布数字员工产品QoderWake，可承担工程师、运营、销售等岗位角色",
-    "url": "https://36kr.com/newsflashes/3788672778788100?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-30T01:57:15",
-    "summary": "36氪获悉，4月30日，阿里发布数字员工QoderWake和Qoder移动端两款Agent产品，全面覆盖企业和个人场景的需求。QoderWake能在真实工作中承担软件工程师、运营和分析师等岗位角色。目前，QoderWake已开启邀测，个人和企业均可在官网申请雇佣一位或多位数字员工，或根据自身业务流程定制专属数字员工。",
-    "collected_at": "2026-04-30T02:13:36.355564"
+    "id": "554e54d9457a",
+    "title": "The Zig project's rationale for their firm anti-AI contribution policy",
+    "url": "https://simonwillison.net/2026/Apr/30/zig-anti-ai/",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-30T02:15:47",
+    "summary": "Article URL: https://simonwillison.net/2026/Apr/30/zig-anti-ai/ Comments URL: https://news.ycombinator.com/item?id=47957294 Points: 218 # Comments: 94",
+    "collected_at": "2026-04-30T08:14:09.191716",
+    "content_text": "30th April 2026\nZig has one of the most stringent anti-LLM policies of any major open source project:\nNo LLMs for issues.\nNo LLMs for pull requests.\nNo LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.\nThe most prominent project written in Zig may be the Bun JavaScript runtime, which was acquired by Anthropic in December 2025 and, unsurprisingly, makes heavy use of AI assistance.\nBun operates its own fork of Zig, and recently achieved a 4x performance improvement on Bun compile after adding \"parallel semantic analysis and multiple codegen units to the llvm backend\". Here's that code. But @bunjavascript says:\nWe do not currently plan to upstream this, as Zig has a strict ban on LLM-authored contributions.\nIn Contributor Poker and Zig's AI Ban (via Lobste.rs) Zig Software Foundation VP of Community Loris Cro explains the rationale for this strict ban. It's the best articulation I've seen yet for a blanket ban on LLM-assisted contributions:\nIn successful open source projects you eventually reach a point where you start getting more PRs than what you’re capable of processing. Given what I mentioned so far, it would make sense to stop accepting imperfect PRs in order to maximize ROI from your work, but that’s not what we do in the Zig project. Instead, we try our best to help new contributors to get their work in, even if they need some help getting there. We don’t do this just because it’s the “right” thing to do, but also because it’s the smart thing to do.\nZig values contributors over their contributions. Each contributor represents an investment by the Zig core team - the primary goal of reviewing and accepting PRs isn't to land new code, it's to help grow new contributors who can become trusted and prolific over time.\nLLM assistance breaks that completely. It doesn't matter if the LLM helps you submit a perfect PR to Zig - the time the Zig team spends reviewing your work does nothing to help them add new, confident, trustworthy contributors to their overall project.\nLoris explains the name here:\nThe reason I call it “contributor poker” is because, just like people say about the actual card game, “you play the person, not the cards”. In contributor poker, you bet on the contributor, not on the contents of their first PR.\nThis makes a lot of sense to me. It relates to an idea I've seen circulating elsewhere: if a PR was mostly written by an LLM, why should a project maintainer spend time reviewing and discussing that PR as opposed to firing up their own LLM to solve the same problem?\nRecent articles\n- LLM 0.32a0 is a major backwards-compatible refactor - 29th April 2026\n- Tracking the history of the now-deceased OpenAI Microsoft AGI clause - 27th April 2026\n- DeepSeek V4 - almost on the frontier, a fraction of the price - 24th April 2026",
+    "content_source": "trafilatura",
+    "content_chars": 2975,
+    "content_excerpt": "30th April 2026\nZig has one of the most stringent anti-LLM policies of any major open source project:\nNo LLMs for issues.\nNo LLMs for pull requests.\nNo LLMs for comments on the bug tracker, including translation. English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.\nThe most prominent project written in Zig may be the Bun JavaScript runtime, which was acquired by Anthropic in December 2025 and, unsurprisingly, makes heavy use of AI assistance.\nBun operates its own fork of Zig, and recently achieved a 4x performance improvement on Bun compile after adding \"parallel semantic analysis and multiple codegen units to the llvm backend\". Here's that code. But @bunjavascript says:\nWe do not currently plan to upstream this, as Zig has a strict ban on LLM-authored contributions.\nIn Contributor Poker and Zig's AI Ban (via Lobste.rs) Zig Software Foundation VP of Community Loris Cro explains the rationale for this strict ban. It's the best articulation I've seen yet for a blanket ban on LLM-assisted contributions:\nIn successful open source projects you eventually reach a point where you start getting more PRs than what you’re capable of processing. Given what I mentioned so far, it would make sense to stop accepting imperfect PRs in order to maximize ROI from your work, but that’s not what we do in the Zig project. Instead, we try our best to help new contributors to get their work in, even if they need some help getting there. We don’t do this just because it’s the “right” thing to do, but also because it’s the smart thing to do.",
+    "title_zh": "Zig 项目坚定的反人工智能贡献政策的理由",
+    "summary_zh": "文章网址：https://simonwillison.net/2026/Apr/30/zig-anti-ai/ 评论网址：https://news.ycombinator.com/item?id=47957294 积分：218 # 评论：9…",
+    "ai_summary": "文章网址：https://simonwillison.net/2026/Apr/30/zig-anti-ai/ 评论网址…"
   },
   {
     "id": "c128e7f4e217",
@@ -41,15 +167,15 @@
     "content_excerpt": "亚马逊云科技近日宣布，WorkMail 将停止服务，而 App Runner 将不再接受新客户并转入维护模式。此外，还有几项相对不常用的服务和功能也即将进入维护或停用阶段，这在亚马逊云科技社区内引发了担忧和讨论。\nApp Runner 将于 4 月 30 日转入维护模式（现有用户仍然可以继续使用该服务），而 WorkMail 则将于明年 3 月停止服务。此外，还有其他多项服务和功能也将进入维护或停用阶段。虽然这是亚马逊云科技服务生命周期管理的一部分，旨在鼓励客户规划迁移方案的同时确保现有工作负载的连续性，但这种长期策略的转变以及受影响的服务和功能数量之多，已经在社区内引发了热烈的讨论。\n今年早些时候，App Runner 即将被弃用的消息曾不慎泄露又被撤回，加之此前已被弃用的 CodeCommit 服务最近又重新启用，这些情况给社区带来了一些困惑。\n根据公告，App Runner、Audit Manager、CloudTrail Lake、IoT FleetWise、Glue Ray Jobs，以及 Amazon Comprehend、Rekognition、SNS 和 Application Recovery Controller 中使用相对较少的功能将转入维护模式，不再接受新客户。与此同时，WorkMail、RDS Custom for Oracle、WorkSpaces Thin Client 和 Service Management Connector 将进入停用阶段并最终停止服务。The Duckbill Group 首席云经济学家 Corey Quinn 在其通讯中写道：\n在一篇博文中一次性“清算”大约 14 项服务和功能（……），这确实是个大胆的举措。RDS Custom for Oracle 和 WorkMail 即将停用，App Runner 将转入维护模式——看来终于有人查了使用数据。为 WorkSpaces Thin Client 默哀吧，我真心没想到这款产品能撑这么久。有人欠我 300 美元的退款，因为我买过这个。我可不是开玩笑。\n作为一款“为企业提供易于使用的虚拟桌面的企业级硬件”，WorkSpaces Thin Client 于不到三年前推出，是此次公告中唯一受影响的硬件产品。在 Reddit 上讨论 WorkMail 停止运营一事时，用户 wz2b 评论道：\nWorkmail 帮我解决了些实际问题，这些问题在其他地方往往难以复现。就像 CodeCommit 一样，它让我能在亚马逊云科技的云环境中更集中地管理一切。(……) 我明白，这些服务可能不会带来收入。但我也不认为这些服务的维护成本特别高。在我看来，它们发挥着典型的“引流产品”的作用——这些工具让更广泛的 AWS 生态系统更具粘性且更便捷。亚马逊云科技似乎低估了这一概念的价值。\n在评估 App Runner 的替代方案时，许多 Reddit 用户建议使用 Google Cloud Run，尽管亚马逊云科技推荐使用 ECS Express Mode。用户 timhottens 写道：\n最终，我们决定将原本在 App Runner 上构建的服务迁移到 Google Cloud Run。利用工作负载身份联合功能来配置 AWS 资源的访问权限相当简单。(……) Cloud Run 远胜于 AWS 上的任何容器服务，亚马逊云科技竟然没有类似的产品，这实在令人尴尬。\n过去，尽管 SimpleDB 早已经过时并且被 DynamoDB 所取代，但人们常将其作为亚马逊云科技不会终止服务的例证。根据近期一篇题为“将 Amazon SimpleDB 域数据导出到 Amazon S3 ”的博文，SimpleDB 的现状似乎也发生了变化。"
   },
   {
-    "id": "a5d58a67ffa3",
-    "title": "OpenAI提前数年实现关键AI算力目标",
-    "url": "https://36kr.com/newsflashes/3788671468510465?f=rss",
+    "id": "bc65f788d627",
+    "title": "阿里发布数字员工产品QoderWake，可承担工程师、运营、销售等岗位角色",
+    "url": "https://36kr.com/newsflashes/3788672778788100?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 4,
-    "published": "2026-04-30T01:55:55",
-    "summary": "OpenAI提前数年实现在美国获取人工智能（AI）算力的关键里程碑，为这家初创公司雄心勃勃的数据中心扩张计划注入动力。该公司周三在一篇博客文章中称，已签署了10吉瓦AI算力合同。该公司最初力争在2029年实现这一目标。OpenAI表示，已签订合同的10吉瓦算力中，有3吉瓦是在过去90天敲定的。其中包括亚马逊提供的2吉瓦。1吉瓦的电力足以同时为约75万户美国家庭供电。（新浪财经）",
-    "collected_at": "2026-04-30T02:13:36.355605"
+    "published": "2026-04-30T01:57:15",
+    "summary": "36氪获悉，4月30日，阿里发布数字员工QoderWake和Qoder移动端两款Agent产品，全面覆盖企业和个人场景的需求。QoderWake能在真实工作中承担软件工程师、运营和分析师等岗位角色。目前，QoderWake已开启邀测，个人和企业均可在官网申请雇佣一位或多位数字员工，或根据自身业务流程定制专属数字员工。",
+    "collected_at": "2026-04-30T02:13:36.355564"
   },
   {
     "id": "051c2ebdbacd",
@@ -67,15 +193,15 @@
     "content_excerpt": "当前，以 Agent 为核心的新一轮技术浪潮正在席卷产业。那么，世界模型的下一个突破在哪？Agent 从 Demo 到工程化还差什么？研发体系不重构，还能撑多久？\n6 月 26 日-6 月 27 日，AICon全球人工智能开发与应用大会将在上海举办。本次大会将围绕以上问题，邀请来自腾讯、阿里、快手、华为、飞猪等 50+头部企业的技术负责人、高校与科研机构的一线专家，分享 Agent 在真实生产环境中的落地经验与前瞻思考。深入探讨 Agent 从原型到量产的工程挑战、数据与记忆的基础设施底座、安全可信的落地保障，以及大模型推理优化、智算架构升级等关键命题。\nOPPO 高级算法工程师王闯闯已确认出席 “Agent 数据、记忆与运行时基础设施” 专题，并发表题为《小布记忆：全模态碎片化内容的理解与智能整理实践》的主题分享。用户每天产生大量碎片化内容——截图、语音、视频、文档、多图……如何让 AI 理解这些异构多模态数据，并自动整理成有价值的\"记忆\"？\n本次演讲将介绍 OPPO 小布记忆的技术实践：首先，构建端云协同的一键闪记架构，基于自研 AndesVL 多模态大模型实现端侧推理，通过智能任务分流实现 80% 简单场景端侧处理、20% 复杂场景云侧处理；其次，深入讲解多模态理解能力，包括截图/语音/视频/文档/多图等全模态理解、POI/时间/价格等结构化信息提取、Dense Caption 端侧图片理解等；再次，介绍关联记忆与合集归纳的内容聚合方案，实现从碎片到结构化记忆的自动整理；最后，分享流程化算法开发工作流与自动化评测体系的工程实践。\n王闯闯，负责 OPPO 大模型算法团队核心业务，主导平台 AI 能力和小布记忆产品的算法架构设计与落地，涵盖一键闪记、记忆管理 Agent、合集生成、垂域洞见、自研 AndesVL 端侧大模型等多个核心模块，带领团队完成多项 S 级 /A 级需求交付，算法效果全面领先竞品。研究方向：AI Memory、端侧大模型、LLM 应用工程化。他在本次会议的详细演讲内容如下：\n演讲提纲：\n问题背景：为什么需要全模态记忆整理，为什么难\n碎片化内容的多模态特性：截图、语音、视频、文档、多图的异构挑战\n三大核心难点：模态异构理解、跨模态关联、结构化生成\n用户价值与业务场景：从碎片到有序记忆的产品目标"
   },
   {
-    "id": "eab5f79b27e1",
-    "title": "三星电子：如有需要，计划投资机器人公司",
-    "url": "https://36kr.com/newsflashes/3788669814775044?f=rss",
+    "id": "a5d58a67ffa3",
+    "title": "OpenAI提前数年实现关键AI算力目标",
+    "url": "https://36kr.com/newsflashes/3788671468510465?f=rss",
     "source": "36氪",
     "lang": "zh",
     "priority": 4,
-    "published": "2026-04-30T01:54:14",
-    "summary": "三星电子：如有需要，计划投资机器人公司。（新浪财经）",
-    "collected_at": "2026-04-30T02:13:36.355649"
+    "published": "2026-04-30T01:55:55",
+    "summary": "OpenAI提前数年实现在美国获取人工智能（AI）算力的关键里程碑，为这家初创公司雄心勃勃的数据中心扩张计划注入动力。该公司周三在一篇博客文章中称，已签署了10吉瓦AI算力合同。该公司最初力争在2029年实现这一目标。OpenAI表示，已签订合同的10吉瓦算力中，有3吉瓦是在过去90天敲定的。其中包括亚马逊提供的2吉瓦。1吉瓦的电力足以同时为约75万户美国家庭供电。（新浪财经）",
+    "collected_at": "2026-04-30T02:13:36.355605"
   },
   {
     "id": "3ae963a6e580",
@@ -93,6 +219,59 @@
     "content_excerpt": "极客邦科技模力工场参与北京市朝阳区 OPC 创新发布活动。\n4 月 28 日下午，\n朝阳区“科技百园”系列活动之科技园区合作伙伴招募活动\n在望京科技园成功举办。\n活动以“\n与时代同行 创百园未来\n”为主题，广纳合作伙伴，汇聚科创资源，共同推动朝阳区科技园区全域布局、全链发展、全面升级。\n现场发布了“科技百园”建设合作伙伴招募计划，重点面向园区运营及算力、数据、智能体应用等领域机构，支持线上对接参与。\n图源：公众号 @聚焦朝阳园\n同时推出支持人工智能 OPC 创新发展的相关措施，聚焦新业态与应用场景，降低创新成本。极客邦科技也参与了本次发布环节。"
   },
   {
+    "id": "eab5f79b27e1",
+    "title": "三星电子：如有需要，计划投资机器人公司",
+    "url": "https://36kr.com/newsflashes/3788669814775044?f=rss",
+    "source": "36氪",
+    "lang": "zh",
+    "priority": 4,
+    "published": "2026-04-30T01:54:14",
+    "summary": "三星电子：如有需要，计划投资机器人公司。（新浪财经）",
+    "collected_at": "2026-04-30T02:13:36.355649"
+  },
+  {
+    "id": "v2ex-1209550",
+    "title": "[bytecat] 逆向 Claude Opus0.1 倍率，中奖率 20%。注册送 500wtoken，叠加倍率可达 5000w~",
+    "url": "https://www.v2ex.com/t/1209550",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-04-30T01:31:58",
+    "summary": "# 🚀 五一活动 & 项目进展汇报 各位 V 友大家好 👋 我们大概是**第一批在 V2EX 做推广起家的服务商**，一路走来非常感谢大家的支持。 **网址： https://codecdn.bytecatcode.org** 这次不整虚的，简单说发展、讲清福利。 --- ## 🧭 项目发展时间线 - **2026-01** - 项目成立 - 仅 Kiro 渠道 - 无缓存 + 香港“灵车”服务器（老用户应该有印象 😂） - **2026-02** - 更换为 DMIT - 新增： - supper （反重力渠道） - max - codex - **2026-03** - 上裸金属服务器 -",
+    "collected_at": "2026-04-30T08:14:13.926931",
+    "content_text": "🚀 五一活动 & 项目进展汇报\n各位 V 友大家好 👋\n我们大概是第一批在 V2EX 做推广起家的服务商，一路走来非常感谢大家的支持。\n网址： https://codecdn.bytecatcode.org\n这次不整虚的，简单说发展、讲清福利。\n🧭 项目发展时间线\n-\n2026-01\n- 项目成立\n- 仅 Kiro 渠道\n- 无缓存 + 香港“灵车”服务器（老用户应该有印象 😂）\n-\n2026-02\n-\n2026-03\n-\n2026-04\n- 多线路优化\n- 在保证性价比的前提下，尽量把稳定性拉上来\n🧩 我们目前做到的\n- 💰 Claude 性价比（自认为）第一梯队\n- 🏢 支持企业级使用（对接 / 稳定性 / 响应）\n- 👥 累计用户 ~9k\n- 🧠 自研模型：小寒\n🎁 五一活动（重点）\n1️⃣ 价格调整\nmax\n：2 → 1.8\nkiro\n：0.2 → 0.1\n- 小寒模型：5 折\n2️⃣ 充值优惠（阶梯）\n- 充值 500 → 95 折\n- 充值 1000 → 92 折\n3️⃣ 五一群内抽奖（随缘掉落）\n奖品：\n- 🥇 一等奖：100 元充值享 85 折资格\n- 🥈 二等奖：10 刀兑换码\n- 🥉 三等奖：5 刀 / 2 刀兑换码\n可能会临时加码，看心情发（你懂的）\n4️⃣ 激励活动（简单直接）\n- 📱 小红书发真实体验\n- 📸 提供截图\n- 🎁 送 10 刀额度\n🧪 V2EX 特别活动\n-\n🆕 新用户注册后，评论区留下 ID\n- 🎁 送 5 刀额度\n- 可叠加倍率，最高可到约 50 刀消耗\n-\n🎲 抽奖机制：\n- 第 10 楼抽 2 人\n- 🎁 每人 5 刀\n- 命中率 ~20%\n🧠 最后说点实话\n我们不是最大的一家，但一直在做两件事：\n如果你用过，欢迎真实评价（好的坏的都行）\n如果没用过，这波活动可以低成本试一下。\n感谢各位 🙏",
+    "content_source": "trafilatura",
+    "content_chars": 782,
+    "content_excerpt": "🚀 五一活动 & 项目进展汇报\n各位 V 友大家好 👋\n我们大概是第一批在 V2EX 做推广起家的服务商，一路走来非常感谢大家的支持。\n网址： https://codecdn.bytecatcode.org\n这次不整虚的，简单说发展、讲清福利。\n🧭 项目发展时间线\n-\n2026-01\n- 项目成立\n- 仅 Kiro 渠道"
+  },
+  {
+    "id": "16b61f000e09",
+    "title": "Claude.ai and API unavailable [fixed]",
+    "url": "https://status.claude.com/incidents/2gf1jpyty350",
+    "source": "Hacker News AI",
+    "lang": "en",
+    "priority": 2,
+    "published": "2026-04-30T01:21:03",
+    "summary": "https://status.claude.com/ Comments URL: https://news.ycombinator.com/item?id=47956895 Points: 113 # Comments: 108",
+    "collected_at": "2026-04-30T08:14:09.191756",
+    "content_text": "Subscribe to updates for\nclaude.ai and API unavailable\nvia email and/or text message. You'll receive email notifications when incidents are updated, and text message notifications whenever Claude\ncreates\nor\nresolves\nan incident.\nVIA SMS:\nAfghanistan (+93)\nAlbania (+355)\nAlgeria (+213)\nAmerican Samoa (+1)\nAndorra (+376)\nAngola (+244)\nAnguilla (+1)\nAntigua and Barbuda (+1)\nArgentina (+54)\nArmenia (+374)\nAruba (+297)\nAustralia/Cocos/Christmas Island (+61)\nAustria (+43)\nAzerbaijan (+994)\nBahamas (+1)\nBahrain (+973)\nBangladesh (+880)\nBarbados (+1)\nBelarus (+375)\nBelgium (+32)\nBelize (+501)\nBenin (+229)\nBermuda (+1)\nBolivia (+591)\nBosnia and Herzegovina (+387)\nBotswana (+267)\nBrazil (+55)\nBrunei (+673)\nBulgaria (+359)\nBurkina Faso (+226)\nBurundi (+257)\nCambodia (+855)\nCameroon (+237)\nCanada (+1)\nCape Verde (+238)\nCayman Islands (+1)\nCentral Africa (+236)\nChad (+235)\nChile (+56)\nChina (+86)\nColombia (+57)\nComoros (+269)\nCongo (+242)\nCongo, Dem Rep (+243)\nCosta Rica (+506)\nCroatia (+385)\nCyprus (+357)\nCzech Republic (+420)\nDenmark (+45)\nDjibouti (+253)\nDominica (+1)\nDominican Republic (+1)\nEgypt (+20)\nEl Salvador (+503)\nEquatorial Guinea (+240)\nEstonia (+372)\nEthiopia (+251)\nFaroe Islands (+298)\nFiji (+679)\nFinland/Aland Islands (+358)\nFrance (+33)\nFrench Guiana (+594)\nFrench Polynesia (+689)\nGabon (+241)\nGambia (+220)\nGeorgia (+995)\nGermany (+49)\nGhana (+233)\nGibraltar (+350)\nGreece (+30)\nGreenland (+299)\nGrenada (+1)\nGuadeloupe (+590)\nGuam (+1)\nGuatemala (+502)\nGuinea (+224)\nGuyana (+592)\nHaiti (+509)\nHonduras (+504)\nHong Kong (+852)\nHungary (+36)\nIceland (+354)\nIndia (+91)\nIndonesia (+62)\nIraq (+964)\nIreland (+353)\nIsrael (+972)\nItaly (+39)\nJamaica (+1)\nJapan (+81)\nJordan (+962)\nKenya (+254)\nKorea, Republic of (+82)\nKosovo (+383)\nKuwait (+965)\nKyrgyzstan (+996)\nLaos (+856)\nLatvia (+371)\nLebanon (+961)\nLesotho (+266)\nLiberia (+231)\nLibya (+218)\nLiechtenstein (+423)\nLithuania (+370)\nLuxembourg (+352)\nMacao (+853)\nMacedonia (+389)\nMadagascar (+261)\nMalawi (+265)\nMalaysia (+60)\nMaldives (+960)\nMali (+223)\nMalta (+356)\nMartinique (+596)\nMauritania (+222)\nMauritius (+230)\nMexico (+52)\nMonaco (+377)\nMongolia (+976)\nMontenegro (+382)\nMontserrat (+1)\nMorocco/Western Sahara (+212)\nMozambique (+258)\nNamibia (+264)\nNepal (+977)\nNetherlands (+31)\nNew Zealand (+64)\nNicaragua (+505)\nNiger (+227)\nNigeria (+234)\nNorway (+47)\nOman (+968)\nPakistan (+92)\nPalestinian Territory (+970)\nPanama (+507)\nParaguay (+595)\nPeru (+51)\nPhilippines (+63)\nPoland (+48)\nPortugal (+351)\nPuerto Rico (+1)\nQatar (+974)\nReunion/Mayotte (+262)\nRomania (+40)\nRussia/Kazakhstan (+7)\nRwanda (+250)\nSamoa (+685)\nSan Marino (+378)\nSaudi Arabia (+966)\nSenegal (+221)\nSerbia (+381)\nSeychelles (+248)\nSierra Leone (+232)\nSingapore (+65)\nSlovakia (+421)\nSlovenia (+386)\nSouth Africa (+27)\nSpain (+34)\nSri Lanka (+94)\nSt Kitts and Nevis (+1)\nSt Lucia (+1)\nSt Vincent Grenadines (+1)\nSudan (+249)\nSuriname (+597)\nSwaziland (+268)\nSweden (+46)\nSwitzerland (+41)\nTaiwan (+886)\nTajikistan (+992)\nTanzania (+255)\nThailand (+66)\nTogo (+228)\nTonga (+676)\nTrinidad and Tobago (+1)\nTunisia (+216)\nTurkey (+90)\nTurks and Caicos Islands (+1)\nUganda (+256)\nUkraine (+380)\nUnited Arab Emirates (+971)\nUnited Kingdom (+44)\nUnited States (+1)\nUruguay (+598)\nUzbekistan (+998)\nVenezuela (+58)\nVietnam (+84)\nVirgin Islands, British (+1)\nVirgin Islands, U.S. (+1)\nYemen (+967)\nZambia (+260)\nZimbabwe (+263)\nEnter mobile number\nEnter the OTP sent\nTo receive SMS updates, please verify your number. To proceed with just email click ‘Subscribe’",
+    "content_source": "readability",
+    "content_chars": 3511,
+    "content_excerpt": "Subscribe to updates for\nclaude.ai and API unavailable\nvia email and/or text message. You'll receive email notifications when incidents are updated, and text message notifications whenever Claude\ncreates\nor\nresolves\nan incident.\nVIA SMS:\nAfghanistan (+93)\nAlbania (+355)",
+    "title_zh": "Claude.ai 和 API 不可用 [已修复]",
+    "summary_zh": "https://status.claude.com/ 评论网址：https://news.ycombinator.com/item?id=47956895 积分：113 # 评论：108",
+    "ai_summary": "https://status.claude.com/ 评论网址：https://news.ycombinator.com…"
+  },
+  {
+    "id": "v2ex-1209542",
+    "title": "新上 API 中转站 zerofra.me，注册送 $10 额度，希望搞一波试运行",
+    "url": "https://www.v2ex.com/t/1209542",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-04-30T01:08:05",
+    "summary": "最近搭了一个 LLM API 中转站：zerofra.me 地址： https://api.zerofra.me/ 目前主要支持： * Codex / GPT 系列模型 * Claude 系列模型 现在刚上线，想先邀请大家试用一下，也顺便帮忙反馈问题。 新用户注册后送 $10 测试额度。 如果有需要，可以注册后在帖子下面留下用户名，我这边会统一处理额度。 感谢大家，欢迎提建议。",
+    "collected_at": "2026-04-30T08:14:13.927192"
+  },
+  {
     "id": "dd496f02265b",
     "title": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂长程任务",
     "url": "https://www.qbitai.com/2026/04/411336.html",
@@ -106,6 +285,16 @@
     "content_source": "readability",
     "content_chars": 7359,
     "content_excerpt": "生数科技认领神秘登顶模型：AI视频公司拿出工业级Demo，跨本体跑通复杂长程任务\n田, 晏林\n2026-04-30\n08:35:15\n来源：\n量子位\n田晏林 发自 凹非寺\n量子位 | 公众号 QbitAI\n一家做视频的公司，造了个机器人通用大脑。\n这不是段子，是真事。"
+  },
+  {
+    "id": "v2ex-1209526",
+    "title": "我的第一个 Linux 内核补丁：从一个 TCP Listener 的 Bug 说起（大家五一节前快乐）",
+    "url": "https://www.v2ex.com/t/1209526",
+    "source": "V2EX",
+    "lang": "zh",
+    "published": "2026-04-30T00:28:12",
+    "summary": "https://jt26wzz.com/posts/0016-my-first-linux-kernel-patch-fixing-a-tcp-listener-bug/ 上面是博客地址链接，文章全程手搓，主要写了三部分：一个是怎么发现 Bug 的，然后是给内核社区提补丁的全过程（期间得到多个大佬的帮助），最后是我对开源社区运作新的理解（特别是和血汗大厂工作的区别对比）。 上次分享博客，很多人吐槽我博客的阅读体验有点差，这次我特别用 AI 调整了一下，优化了字体和行间隔，加了侧边栏，开头加上了 TL:DR 摘要，还调整了高亮特效，这次应该好很多了。如果有什么新的反馈，随时写在下面，反正一个小小",
+    "collected_at": "2026-04-30T08:14:13.927407"
   },
   {
     "id": "84221b5daaa1",
@@ -562,7 +751,11 @@
     "collected_at": "2026-04-30T02:13:34.744547",
     "title_zh": "为什么人工智能公司希望你害怕他们",
     "summary_zh": "文章网址：https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them 评论网址：https://news.ycombinato…",
-    "ai_summary": "文章网址：https://www.bbc.com/future/article/20260428-ai-companie…"
+    "ai_summary": "文章网址：https://www.bbc.com/future/article/20260428-ai-companie…",
+    "content_text": "Why AI companies want you to be afraid of them\nThey built it. They're scared of it. They're selling it anyway.\nStop me if you've heard this one before: a tech company says it's built a new AI that's so powerful it's scary. Apparently, it's too dangerous to release into the world – the consequences would be catastrophic. Luckily for us, they are keeping it locked up for now. They just wanted you to know.\nThat's exactly what AI company Anthropic is telling us about its latest model, Claude Mythos. The company says Mythos' ability to find cybersecurity bugs far surpasses human experts, and it could have world-altering consequences if similar technology lands in the wrong hands. \"The fallout – for economies, public safety and national security – could be severe,\" Anthropic said in an early April blog post. Some breathless observers warned that Mythos will soon force you to replace every piece of technology in your life, down to your WiFi-enabled microwave, to protect from the digital madness.\nSome security experts doubt these claims, but let's set that aside. This isn't new. Executives at leading AI providers regularly issue warnings about how their industry's products may destroy humanity. Why do AI companies want us to be afraid of them?\nIt's a strange way for any company to talk about its own work. You don't hear McDonald's announcing that it's created a burger so terrifyingly delicious that it would be unethical to grill it for the public.\nHere's one theory. According to critics, it benefits AI companies to keep you fixated on apocalypse because it distracts from the very real damage they're already doing to the world. Tech leaders say they're just warning us about an inevitable future, and safety is a top priority whether it's now or later. But others argue what we're actually seeing is fear mongering, which exaggerates the potential of the technology and serves to boost stock prices. And it encourages a narrative that regulators must stand aside, because these AI companies are the only ones who can stop the bad guys and build this technology responsibly.\n\"If you portray these technologies as somehow almost supernatural in their danger, it makes us feel like we are powerless, like we are outmatched,\" says Shannon Vallor, a professor of the ethics of data and artificial intelligence at the University of Edinburgh in the UK. \"As if the only people we could possibly look to would be the companies themselves.\"\nSomebody stop me\nAn Anthropic spokesperson told me the company has been clear about these issues. They shared blog posts from other organisations supporting Mythos' cyber capabilities, but said nothing to address the points in this article, aside from one comment I'll include below.\nThis isn't the first time Anthropic chief Dario Amodei has worked on a tool that's been declared too dangerous for the public by the company he worked for. In 2019, when Amodei was an executive at OpenAI, the company announced GPT-2. He and other company leaders said they just couldn't release GPT-2 because of \"concerns about malicious applications of the technology\". This was a tool far less sophisticated than ChatGPT. And months later, they released it anyway. (OpenAI CEO Sam Altman published a blog post which says the company embraces uncertainty, acknowledging that fears about GPT-2 were \"misplaced\".)\n\"AI will probably most likely lead to the end of the world, but in the meantime, there'll be great companies,\" Altman said in 2015. Years later, Altman claimed he loses sleep wondering if he's \"done something really bad by launching ChatGPT\". If only someone warned him.\nHundreds of tech leaders including Altman, Amodei, Bill Gates and Demis Hassabis, chief executive of Google DeepMind, endorsed a short statement in 2023 that said: \"Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war.\" The same year, moguls including Elon Musk signed a letter calling for a six-month pause on building advanced AI. Musk announced his new artificial intelligence company xAI less than six months later.\n\"It's just part of this pattern of unsubstantiated claims of power,\" says Emily M Bender, a professor of computational linguistics and natural language processing at the University of Washington, and co-author of the book The AI Con. This isn't limited to OpenAI and Anthropic, she says, it's the standard posture for the whole AI industry. \"They're saying 'look over here', never mind the environmental destruction and the labour exploitation and all these systems we're destroying in society. We just have to worry about making sure this thing doesn't turn into the bad one that destroys humanity.\"\nI asked OpenAI about all this. A spokesperson shared a recent blog post from Altman where he wrote that OpenAI would \"resist the potential of this technology to consolidate power in the hands of the few\", adding that \"key decisions about AI are made via democratic processes and with egalitarian principles, and not just made by AI labs\".\nIs Mythos really that bad?\nAnthropic says its new model already found thousands of \"high-severity\" vulnerabilities across the tech landscape at a level that surpasses human experts. It also announced a new partnership with more than 40 companies and groups in an \"urgent attempt\" to patch vulnerabilities before hackers get a chance. A company spokesperson told me Anthropic has been intentional about partnering with organisations to patch the foundational computing systems which represent the \"lion's share\" of the problem.\nBut there are significant doubts about those claims, and Heidy Khlaaf, chief AI scientist at the AI Now Institute, wasn't impressed. She's spent her career building and auditing the exact kinds of code analysis tools that Anthropic suggests it's surpassed. She's also worked on digital safety in nuclear facilities.\nKhlaaf says the biggest red flag was the lack of false positive rates – an industry-standard measure of how often a security tool flags something that isn't a real problem. \"This is not some unknown metric,\" Khlaaf says. \"This is kind of the largest indicator of how useful your tool is.\" Anthropic didn't mention it and sidestepped the question when I asked for comment. Nor did Anthropic measure Mythos against existing tools that security engineers have relied on for decades.\nThere have also been some claims that Anthropic may have held back a wide release of Mythos because it couldn't afford the necessary computing power. Anthropic didn't respond when I asked about that, either.\nNone of this is to say that the threat is imaginary. \"Mythos might be capable,\" Khlaaf says. AI tools are genuinely well-suited for scanning massive code bases, and automatically finding security vulnerabilities is a real and pressing danger. But Khlaaf is sceptical about Anthropic's claims without being able to substantiate them. \"I think there are a lot of cracks in this narrative that Mythos is all powerful, we can't release it.\"\nWhy so serious?\nPreventing the end of the world is why OpenAI and Anthropic say they exist in the first place. OpenAI was founded as a non-profit, promising to build AI in a way that's safe before supposedly less responsible tech giants like Google and Meta got there first. Later, a splinter group left OpenAI to form Anthropic because they said their old employer wasn't dedicated enough to safety. Now, both organisations are working to become publicly traded companies and sell shares on the stock market.\n\"If you want to understand how an organisation, particularly a corporation, is going to behave, look at what its incentives are,\" says Vallor.\nGoogle dropped its red lines around building AI weapons. OpenAI fought a legal battle to shed its non-profit status. Anthropic abandoned its flagship policy to never train an AI model if the company couldn't guarantee adequate safety measures.\n\"I would not count on [any of these companies] to walk away from the opportunity to dominate the market in order to remain the good guy,\" says Vallor.\nMeanwhile, there's a push for AI in healthcare despite serious concerns about misdiagnoses. Gas-powered data centres could emit more greenhouse gasses than entire countries. AI is reportedly driving masses of vulnerable people to the point of psychosis and even suicide. A growing body of research suggests a possible link between AI and cognitive decline. Deepfakes have crossed the point of no return – I couldn't convince my own aunt that I'm not a robot.\nAI companies say they take these issues seriously. OpenAI sent me links to its stance on mental health, AI accuracy, fraud and scams, and Altman says the company is committed to addressing the problems at every stage of AI development.\nBut there's a reason these companies only sound the alarm for the apocalypse, says Vallor. If AI might destroy society, these other problems seem a lot less significant. \"The strategy has worked,\" she says. \"Talking about their products as if they could end the world has not hurt these companies. It has not limited their power. If anything, it makes people feel like the only ones they could possibly look to for protection are the companies themselves.\"\nDemons or messiahs\nIn almost the same breath, some of the people who warn of destruction also promise salvation. In a 2024 essay, Altman predicts \"astounding triumphs – fixing the climate, establishing a space colony and the discovery of all of physics – will eventually become commonplace\". Amodei promised \"a country of geniuses in a datacenter\".\nUtopia and apocalypse are just two sides of the same coin, according to Vallor. \"In either case, the scale is far too grand and mythic for things like regulation, or governance or court law to feel like you can get purchase on it,\" she says. \"It leads people to believe that all they can do is sit back and wait to find out whether these technologies turn out to be civilisation-ending demons, or utopia-gifting messiahs.\" Even the name \"Mythos\" seems designed to inspire religious awe.\nMore like this:\nBut these aren't gods, they're products built by companies, for profit, says Vallor. And we've regulated things far more threatening than chatbots. \"Every technology, save this one, even nuclear, even biological weapons, in no other case have we allowed these narratives to make us think these are forces beyond human control,\" she says. \"Nothing about them is ungovernable. Unless we choose not to govern them.\"\nLet's be clear: it is theoretically possible that AI will take over the world. I'm no fortune teller. But ask yourself, does that idea sound similar to other stories you've heard out of Silicon Valley in the past?\nWeren't we all supposed to be living in Mark Zuckerberg's Metaverse by now? Wasn't Bitcoin going to replace all the world's currency? Remember back in the 2010s, when we heard about how social media would save democracy? All of these things could still happen. Or maybe they won't.\n--\nFor timely, trusted tech news from global correspondents to your inbox, sign up to the Tech Decoded newsletter, while The Essential List delivers a handpicked selection of features and insights twice a week.",
+    "content_source": "trafilatura",
+    "content_chars": 11206,
+    "content_excerpt": "Why AI companies want you to be afraid of them\nThey built it. They're scared of it. They're selling it anyway.\nStop me if you've heard this one before: a tech company says it's built a new AI that's so powerful it's scary. Apparently, it's too dangerous to release into the world – the consequences would be catastrophic. Luckily for us, they are keeping it locked up for now. They just wanted you to know.\nThat's exactly what AI company Anthropic is telling us about its latest model, Claude Mythos. The company says Mythos' ability to find cybersecurity bugs far surpasses human experts, and it could have world-altering consequences if similar technology lands in the wrong hands. \"The fallout – for economies, public safety and national security – could be severe,\" Anthropic said in an early April blog post. Some breathless observers warned that Mythos will soon force you to replace every piece of technology in your life, down to your WiFi-enabled microwave, to protect from the digital madness.\nSome security experts doubt these claims, but let's set that aside. This isn't new. Executives at leading AI providers regularly issue warnings about how their industry's products may destroy humanity. Why do AI companies want us to be afraid of them?\nIt's a strange way for any company to talk about its own work. You don't hear McDonald's announcing that it's created a burger so terrifyingly delicious that it would be unethical to grill it for the public.\nHere's one theory. According to critics, it benefits AI companies to keep you fixated on apocalypse because it distracts from the very real damage they're already doing to the world. Tech leaders say they're just warning us about an inevitable future, and safety is a top priority whether it's now or later. But others argue what we're actually seeing is fear mongering, which exaggerates the potential of the technology and serves to boost stock prices. And it encourages a narrative that regulators must stand aside, because these AI companies are the only ones who can stop the bad guys and build this technology responsibly.\n\"If you portray these technologies as somehow almost supernatural in their danger, it makes us feel like we are powerless, like we are outmatched,\" says Shannon Vallor, a professor of the ethics of data and artificial intelligence at the University of Edinburgh in the UK. \"As if the only people we could possibly look to would be the companies themselves.\"\nSomebody stop me\nAn Anthropic spokesperson told me the company has been clear about these issues. They shared blog posts from other organisations supporting Mythos' cyber capabilities, but said nothing to address the points in this article, aside from one comment I'll include below."
   },
   {
     "id": "fec8deb6ddb0",
@@ -811,7 +1004,8 @@
     "collected_at": "2026-04-30T02:13:34.744606",
     "title_zh": "让人工智能玩我的游戏——构建代理测试工具来帮助游戏测试",
     "summary_zh": "文章网址：https://blog.jeffschomay.com/letting-ai-play-my-game 评论网址：https://news.ycombinator.com/item?id=47947525 积分：120 # 评论…",
-    "ai_summary": "文章网址：https://blog.jeffschomay.com/letting-ai-play-my-game 评论…"
+    "ai_summary": "文章网址：https://blog.jeffschomay.com/letting-ai-play-my-game 评论…",
+    "extract_error": "429 Client Error: Too Many Requests for url: https://blog.jeffschomay.com/letting-ai-play-my-game"
   },
   {
     "id": "3d973eba62d5",
@@ -4355,18 +4549,15 @@
     "ai_summary": "https://huggingface.co/collections/deepseek-ai/deepseek-v4"
   },
   {
-    "id": "reddit-1su3976",
-    "title": "AI swarms could hijack democracy without anyone noticing",
-    "url": "https://reddit.com/r/artificial/comments/1su3976/ai_swarms_could_hijack_democracy_without_anyone/",
-    "source": "r/artificial",
+    "id": "hn-47679121",
+    "title": "Project Glasswing: Securing critical software for the AI era",
+    "url": "https://www.anthropic.com/glasswing",
+    "source": "Hacker News",
     "lang": "en",
-    "published": "2026-04-24T02:44:34",
-    "summary": "A recent policy forum paper published in Science describes how large groups of AI-generated personas can convincingly imitate human behavior online. These systems can enter digital communities, participate in discussions, and influence viewpoints at extraordinary speed. Unlike earlier bot networks,",
-    "points": 71,
-    "collected_at": "2026-04-24T08:09:44.209366",
-    "title_zh": "人工智能群可以在没有人注意到的情况下劫持民主",
-    "summary_zh": "最近发表在《科学》杂志上的一篇政策论坛论文描述了人工智能生成的大量角色如何令人信服地模仿人类的在线行为。这些系统可以以惊人的速度进入数字社区、参与讨论并影响观点。与早期的机器人网络不同",
-    "ai_summary": "最近发表在《科学》杂志上的一篇政策论坛论文描述了人工智能生成的大量角色如何令人信服地模仿人类的在线行为。这些系统可以以惊…"
+    "published": "2026-04-07T18:09:34Z",
+    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
+    "points": 1541,
+    "collected_at": "2026-04-30T08:14:13.572988"
   },
   {
     "id": "reddit-1su3ao4",
@@ -4383,152 +4574,6 @@
     "ai_summary": "随着子系统的发展（以及基于人工智能的工具变得更好），*每周访问量超过 100 万*，我们看到垃圾邮件、垃圾邮件等显着增加…"
   },
   {
-    "id": "62a362c1284d",
-    "title": "用“活人感”做科技社区，小红书能成吗？",
-    "url": "https://36kr.com/p/3778772970444033?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-24T02:14:50",
-    "summary": "文 | 钟艺璇 编辑 | 乔芊 没人能脱离AI这个浪潮，社区APP也不例外。 只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，它似乎只能做到在内容上与科技无限靠近，成为一个极客范儿的存在，但终究面临垂类用户增长见顶的事实。 如果是一个综合类社区呢？在过去的垂类运营中，大规模引入KOL、KOC是迅速解决行业覆盖率的通用办法，但大水漫灌，或许会带来新老住民的气质冲突，尤其科技还是一个门槛较高的垂类，如果没有获得感，新用户的生命周期将会迅速缩短。 今天的小红书或许是一个不错的观察样本，它足够活跃，Tiktok难民事件某种程度上印证了这个社区面对跨",
-    "collected_at": "2026-04-24T08:09:38.928395",
-    "content_text": "文 | 钟艺璇\n编辑 | 乔芊\n没人能脱离AI这个浪潮，社区APP也不例外。\n只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，它似乎只能做到在内容上与科技无限靠近，成为一个极客范儿的存在，但终究面临垂类用户增长见顶的事实。\n如果是一个综合类社区呢？在过去的垂类运营中，大规模引入KOL、KOC是迅速解决行业覆盖率的通用办法，但大水漫灌，或许会带来新老住民的气质冲突，尤其科技还是一个门槛较高的垂类，如果没有获得感，新用户的生命周期将会迅速缩短。\n今天的小红书或许是一个不错的观察样本，它足够活跃，Tiktok难民事件某种程度上印证了这个社区面对跨种族、乃至跨文化的一定包容性。而从去年以来，小红书社区业务的核心命题一直是做兴趣社区，它有扩容的野心，科技也成为过去一年增长最快的内容垂类之一——小红书科技内容发布同比增长超过100%，创作者规模同比增长超200%。\n更重要的是，中文世界还尚未诞生一个真正的大众科技社区，不是太硬核、就是被稀释。但在海外，X（原Twitter）证明了一个UGC平台有机会成长为全球科技内容最活跃、最实时的核心阵地之一。X甚至一度形成了马斯克效应，点赞谁，谁就火，今年3月，马斯克评价Kimi是 “Impressive work”，科技圈瞬间沸腾。\n作为中国最活跃的社区平台，小红书有这个野心。小红书科技运营负责人散兵提到，小红书的一个广泛目标是想成为最好的科技社区。\n但它还希望自己足够特别。散兵告诉36氪等媒体，在科技垂类的运营策略上，小红书不做资讯和教程，更愿意做“人之间的连接器”。\n要看懂这个有些抽象的词汇，我们或许可以从小红书近期举办的一场黑客松巅峰赛去理解。在这场比赛里，我们在现场见到了许多年轻的科技创业者们——他们正是小红书做科技垂类过程中希望首先吸引的人，也和散兵聊了聊小红书过去一年科技垂类运营的策略与变化。\n小红书黑客松巅峰赛现场\nBuild in public\n“在做一个产品之前，我们会把idea先发到小红书上，验证一下需求是否存在。”\n在上海，黑客松巅峰赛现场，一位参赛同学说了这样一番话。黑客松是编程界的老传统了，对于小红书而言，却是第一次举办。这场小红书黑客松巅峰赛，要求参赛选手在48小时内，从创意到落地，封闭式协作组队完成产品，可以硬件，也可以软件。\n同学的名字叫刘骁奔，很可惜，他们的项目并没有入围决赛。他告诉36氪，这次的参赛作品叫默造，是一个迎接vibe coding（人工智能辅助编程）时代的产品。因为语音输入vibe coding，会比键盘输入快三倍，他们干脆就为i人工程师设计了默造——它是一个黑色的面罩，通过降噪和麦克风通信，可以做到在公共场所自由语音，而不干扰他人。\n刘骁奔与默造\n原意想的是适用户外场景，但参赛中，他在小红书上传了产品视频后，却有了意外发现。有用户说，“我好想给我室友买一个啊，他打原神太吵了，影响我睡觉”。还有程序员评论，这个产品适合在工区使用，很多程序员习惯语音输入。\n这就是刘骁奔所说的验证需求。某种程度上，他们都是符合小红书“Build in public”调性的那一类创业者，所谓“Build in public”，即产品的创造、验证与迭代，都和小红书用户共创参与。现实中，刘骁奔有自己的小红书IP，也会主动在小红书上抛出各种奇思妙想，好比“你愿意花多少钱让思想永存”，现在他有一家初创公司，研发意识上传技术，从创意到诞生，刘骁奔都在小红书完整分享过程。\n这次大赛中，“Build in public”概念被小红书反复提及，这并非偶然，和举办黑客松巅峰赛本身一样，背后都与小红书科技类目运营策略的转变有关系。\n去年下半年，一场AMA（Ask Me Anything，你可以问我任何问题）在小红书上自发走红，这个源于国外社交平台的活动，由于推崇真人问答，形式短平快，在海外声名响亮。在小红书上，清华大学交叉信息研究院的助理教授许华哲主动开启了它，中文世界的AMA风潮很快席卷到科技圈，李开复、印奇等AI领域名人纷纷下场，后来甚至吸引了莫言、李银河以及贝克汉姆等各界名人加入。\n对小红书社区科技内容运营而言，这是一个非常重要的节点。在AMA走红早前，2025年上半年，小红书曾办过独立开发者大赛，但更多聚焦项目本身，也更极客味，旨在让独立开发者有机会展示自己的作品。对用户而言，如果不是从业者或技术爱好者，要发现、参与这些讨论并不容易。\n但AMA是个巧妙的形式，你或许不懂AI，但你一定听过李开复，无论是真心想问答，还是外行看热闹，小红书上有科技大佬这一回事好歹传播了出去——它让更多普通人知道，小红书可以和科技有关联，从业者可以在这里发布内容，关注者也能在这里找到同好。\n正如散兵所说，2025年小红书科技垂类运营的主要策略，就是“做科技人的朋友圈”，为此他们持续引入了许多在学术圈、商业圈有影响力的KOL。\n但2026年，科技垂类的运营策略已经发生变化。“完成引入这一阶段后，我们发现小红书上有非常多人在Build in public，创业者在小红书发布产品，投资人在小红书上找项目，所以2026年我们定位‘做人的连接器’，把小圈子的需求和大众的需求做串联。”散兵说。\n简而言之，小红书想让科技创业者从找需求、做产品、拿融资甚至到产品落地卖货，都能在社区上找到闭环的可能性。\n这也是为什么去年是独立开发者大赛，今年是黑客松巅峰赛的原因，因为策略在变，人成了那个锚点。散兵提到，创业项目本身变化很快，一年时间过去，风格已经截然不同，如果再去追项目，已经来不及了。“相比去年聚焦项目，今年我们觉得更前沿的东西一定在于人本身，而黑客松本身就是一个充满不可控内容的比赛，创意和人的表现都能被最大化”。\n基于今天的用户体量，小红书要发力科技内容，自然无法像即刻那样，做一个纯粹、小众的讨论场——这背后的逻辑也天然相悖，小圈层意味着精准与高效的互动，大圈层会带来更多的关注，但也会稀释内容的深度。更重要的是，人们也未必需要第二个即刻。\n对于小红书而言，要留住这群科技人，它更要思考的是最大公约数，即如何将科技内容与大众社区的底盘彼此适配——让科技创业者在这里找到价值，让普通人觉得这些内容有用，飞轮才能最终运转。\n小红书能做好那个“场”吗？\n一个很自然的逻辑是，要做对用户有用的东西，对于内容社区来说，资讯和教程是最快的捷径。但小红书一开始就否定了它们。\n散兵说，在科技垂类的内容策略上，团队很早就做了明确取舍，不做资讯和教程。原因在于，资讯新闻性太强，而教程因为供给太多，最后动机往往会指向卖课，也会制造Fomo焦虑。\n我们看到，小红书如今选择了这样一条缝隙，将科技创业者的创业过程与普通人结合起来，人的需求在前期被看到，人的意见在中期被采纳，人的购买力决定了商业是否能落地。人参与了全过程，创业者也因此获得了关注与商业价值。\n36氪问刘骁奔，作为一个科技创业者，小红书对他的价值究竟在哪里？\n“如果要说小红书做科技内容优势，我认为是活人感强”，他说。这是个老生常谈的观点，但这之外，刘骁奔抛出了一句很有意思的话，“商业的本质就是和真人做交互，最后服务于人，目前来看，所有真人交互环节都可以用小红书来做。”\n此次黑客松参赛选手孙东来的创业经历，也是案例之一。起初孙东来只是在小红书发了一个调研贴，大意是“你会记录自己的梦吗”，没投流，却意外获得了二三十万的流量。有人评论，自己每天记梦800字，有人则因为找不到趁手工具，直接在番茄小说开作者号连载自己的梦。\n孙东来很快注意到，这是个庞大的、且被忽视的需求。2025年1月21日，他创立的Dreamer在Apple Store上线。一个月，3000用户，零投流，到现在稳定在4000多个用户。\n对于早期创业者来说，这些流量和用户反馈，能让项目被看见，也能带来更低的试错成本，都非常珍贵。因此决赛当晚，评委席上，投资人曹曦也问了一个很有趣的问题，“所以现在的年轻人不用拿VC的钱了吗？”现场发出一阵轻笑。\n能放进口袋的卡片吉他智能硬件，获得全场大奖\n但如果从人货场的逻辑来看，小红书要搭建好这个“场”，或许还有两个需要迭代的地方。\n第一，科技毕竟是高门槛类目，小红书的大多数用户无法进行严肃的科技讨论，一些过于专业、或者偏B端应用的讨论发酵难以在小红书上发生。\n所以，创业者如果想在社区内高效找到对创业有用的信息反馈，需要自身拥有较强的表达能力，以及对用户情绪、内容推流逻辑的把控能力，甚至还得会制造人设IP。前述创业者，之所以能发帖引起大量用户反馈，并最后成功落地项目，本质还是踩中了社区推流机制和大众用户需求的切口。\n第二，由于小红书的用户属性所致，目前一些泛科技、或娱乐性质的项目在小红书往往能获得高关注度。以本次黑客松巅峰赛为例，一段二次元头套+机械臂行走的视频，以吸睛的效果，成为本次比赛最出圈的热点之一。除此之外，本次赛事也聚焦在有话题度的新一代AI创造者，超过60%的入围选手为“00后”，最小的仅12岁，以及比赛主题定为“48小时，给世界造个大玩具”，背后的话题性质不少。\n但一位投资人告诉36氪，小红书上的项目有一定参考价值，要目前要找到合适标的并不容易，筛选成本较高。“很多想法有意思，但是娱乐性强，也很难真正商业化”。\n对于一个年轻社区而言，小红书的科技类目已经走的很快，它也很清楚自己的优势，今天vibe coding的浪潮更放大了这种优势，当技术走向平权，更多人有机会触摸到编程，它就存在用户泛化与大众讨论的可能性。\n但正如散兵提到，小红书的一个广泛目标是想成为最好的科技社区，但是要实现这个愿景要花很长时间。给世界造个大玩具，还只是开始。\n比赛最后刘骁奔说，默造虽然没进决赛，但在展示环节，有游客表达愿意出200元，买下他们的产品。\n“没卖，只有两个模型，我们还得拿回去迭代。”刘骁奔说，那些评论和回馈已经给了他更重要的价值。",
-    "content_source": "trafilatura",
-    "content_chars": 4077,
-    "content_excerpt": "文 | 钟艺璇\n编辑 | 乔芊\n没人能脱离AI这个浪潮，社区APP也不例外。\n只是对比豆包、千问——它们背后往往站着有能力制造C端入口的大公司，社区似乎天然有短板，从过去的路径看，它似乎只能做到在内容上与科技无限靠近，成为一个极客范儿的存在，但终究面临垂类用户增长见顶的事实。\n如果是一个综合类社区呢？在过去的垂类运营中，大规模引入KOL、KOC是迅速解决行业覆盖率的通用办法，但大水漫灌，或许会带来新老住民的气质冲突，尤其科技还是一个门槛较高的垂类，如果没有获得感，新用户的生命周期将会迅速缩短。\n今天的小红书或许是一个不错的观察样本，它足够活跃，Tiktok难民事件某种程度上印证了这个社区面对跨种族、乃至跨文化的一定包容性。而从去年以来，小红书社区业务的核心命题一直是做兴趣社区，它有扩容的野心，科技也成为过去一年增长最快的内容垂类之一——小红书科技内容发布同比增长超过100%，创作者规模同比增长超200%。\n更重要的是，中文世界还尚未诞生一个真正的大众科技社区，不是太硬核、就是被稀释。但在海外，X（原Twitter）证明了一个UGC平台有机会成长为全球科技内容最活跃、最实时的核心阵地之一。X甚至一度形成了马斯克效应，点赞谁，谁就火，今年3月，马斯克评价Kimi是 “Impressive work”，科技圈瞬间沸腾。\n作为中国最活跃的社区平台，小红书有这个野心。小红书科技运营负责人散兵提到，小红书的一个广泛目标是想成为最好的科技社区。\n但它还希望自己足够特别。散兵告诉36氪等媒体，在科技垂类的运营策略上，小红书不做资讯和教程，更愿意做“人之间的连接器”。\n要看懂这个有些抽象的词汇，我们或许可以从小红书近期举办的一场黑客松巅峰赛去理解。在这场比赛里，我们在现场见到了许多年轻的科技创业者们——他们正是小红书做科技垂类过程中希望首先吸引的人，也和散兵聊了聊小红书过去一年科技垂类运营的策略与变化。"
-  },
-  {
-    "id": "reddit-1su0mvt",
-    "title": "Hard freakin' decision..Blackwell 96G or Mac Studio 256G",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1su0mvt/hard_freakin_decisionblackwell_96g_or_mac_studio/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-24T00:43:46",
-    "summary": "EDIT: OKOKOK. Blackwell all the way. NEW, at MC or NewEgg or where ever and more tokens than my face can handle. Thanks guys. I was close to pulling that [Apple.com](http://Apple.com) trigger. You saved me. EDIT AGAIN: I think it's the max-q for me. Central Computers has them for 8999 and MAYBE 200",
-    "points": 60,
-    "collected_at": "2026-04-24T08:09:43.029566",
-    "title_zh": "艰难的决定..Blackwell 96G 还是 Mac Studio 256G",
-    "summary_zh": "编辑：好吧好吧。布莱克威尔一路走来。新的，在 MC 或 NewEgg 或任何地方，更多的代币超出了我的脸能处理的范围。谢谢你们。我差一点就要触发 [Apple.com](http://Apple.com) 的扳机。你救了我。再次编辑：我认为…",
-    "ai_summary": "编辑：好吧好吧。布莱克威尔一路走来。新的，在 MC 或 NewEgg 或任何地方，更多的代币超出了我的脸能处理的范围。谢…"
-  },
-  {
-    "id": "bbb685eb66d6",
-    "title": "博裕、经纬、顺为等投资前新石器COO超亿元，押注AI超便携电子纸｜硬氪独家",
-    "url": "https://36kr.com/p/3778175428777218?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-24T01:30:00",
-    "summary": "作者｜黄楠 编辑｜袁斯来 当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。 硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮至A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完善生产制造与质量审核体系、拓展海外市场，搭建社区内容、优化产品体验，与全球用户共同构建AI时代手机副屏生态。 阅星曈开创了“超便携电子纸”品类，其产品以极简的硬件设计与流畅的软件体验，深度融合AI能力，专注为数字时代用户提供专注、沉浸的阅读入口。",
-    "collected_at": "2026-04-24T08:09:38.928488",
-    "content_text": "作者｜黄楠\n编辑｜袁斯来\n当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。\n硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮至A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完善生产制造与质量审核体系、拓展海外市场，搭建社区内容、优化产品体验，与全球用户共同构建AI时代手机副屏生态。\n阅星曈开创了“超便携电子纸”品类，其产品以极简的硬件设计与流畅的软件体验，深度融合AI能力，专注为数字时代用户提供专注、沉浸的阅读入口。\n阅星曈超便携电子纸（图源/企业）\n创始人兼CEO胡宇沸是一位资深连续创业者，他毕业于香港中文大学，曾任新石器无人车COO、OYO酒店首席发展官、小蓝单车联合创始人兼COO、饿了么众包事业部总经理及Uber中国三城总经理等职务。多位核心成员均来自港中文、复旦大学、中国科学院大学、马里兰大学等院校，曾供职于头部互联网、智能硬件与AI企业，具备从爆品打造到全球化增长的完整能力闭环。\n鲜少有人预料到，胡宇沸再次创业时，会扎进一个轻巧到极易“被忽略”的硬件行业，做一款磁吸在手机背面的电子纸阅读器。\n它首款产品的重量仅有70克、4.3寸屏幕、售价不到300元。但就是这个隐藏在手机屏幕后的小配件，在零推广费用的前提下，依靠小红书社区的“云股东”共创众筹，一年内迅速完成了从产品定义到规模化验证的闭环。\n“是用户和我们一起，把这块小屏打磨成了今天的样子。”阅星曈创始人兼CEO胡宇沸表示。在产品定义与迭代过程中，有大量早期用户曾通过社群参与了需求反馈与功能建议。后续公司也会延续这一共创模式，在未来产品的立项和原型设计阶段开放用户参与通道，将用户反馈直接纳入早期研发流程。\n70克、4.3寸屏幕（图源/企业）\n近年来，电子纸行业早已不是小众生意。洛图科技数据显示，2025年全球电子纸终端市场规模已突破142亿美元，连续三年保持高速增长；国内市场中，掌阅、文石、汉王等头部品牌占据超八成份额，形成“大屏开放系统”与“封闭内容生态”两大成熟路径。\n但一个长期存在的产品体验问题始终未得到解决。传统阅读器要么是独立设备，需要“多带一台”，或产品迭代存在堆料溢价、操作复杂等痛点，最终沦为“泡面神器”；即便主打便携的同类产品，也因形态冗余、与手机工作流割裂，难以成为高频刚需入口。\n更深层的行业变革在于，用户需求已从“沉浸式深度阅读”转向碎片化专注信息获取。CounterPoint报告指出，全球智能手机保有量已超过70亿台。用户的正面屏幕被成百上千个应用、无尽的推送和算法所裹挟，注意力日益碎片化。\n与之相反，每一台手机背面那块长期闲置的光滑平面，仍是一块未被开发的“注意力净土”。这正是阅星曈看到的结构性机会。\n“年轻人不再需要另一台充满应用与干扰的设备，而是需要一个低干扰、轻量化、一键可达的注意力出口。”胡宇沸说。\n因此，阅星曈在其产品方案中也遵循了这一趋势：不做独立设备，而是成为“AI时代手机副屏”。其产品采用极简的磁吸设计，超薄的厚度与一张卡片相当，吸附在手机背面后几乎无感。\n胡宇沸告诉硬氪，在注意力成为稀缺资源的今天，阅星曈的核心价值并非护眼，而是“降噪”。它为用户提供了一个极低成本的注意力切换通道，“我们做的是，帮用户把打开各类APP渠道、获取有效信息的路径变到最短。”\n用户只需翻转手机，即可进入一个纯粹的阅读空间，没有APP推送、社交或短视频干扰，满足漫画、轻小说、碎片化资讯、个性化信息展示等高频轻量需求。\n据官方数据显示，阅星曈的产品自2025年第四季度上市以来，仅半年、月销量增长超过10倍；海外市场首月即破万台，X4、X3、曈卡已销往全球多个国家和地区。当前公司月均营收已超过2025全年。\n阅星曈超便携电子纸（图源/企业）\n而在第一代产品验证了“手机副屏”硬件价值的基础上，阅星曈的野心远不止于做一款电子纸或阅读器。\n胡宇沸向硬氪透露，公司正在构建“端侧电子纸+手机算力+云端推理”的三端协同模式，通过融合OpenClaw等前沿AI Agent能力，将阅星曈的硬件小屏升级为AI时代的注意力入口。\n用户翻转手机后，即可使用AI Agent迅速获取所需的个性化信息流、日程提醒、财经资讯或待办事项等，无需解锁、搜索并在海量推送中筛选，而是在一个全新的、低干扰的、高粘性的交互界面，真正将信息实现从“被推送”变为“被订阅”，从“被动接收”变为“主动获取”。这款新品将于2026年中下旬上线。\n“长期来看，我们认为手机背面是一个被严重低估的生态位。”胡宇沸说。当前AI手机纷纷走向端侧智能化，入口之争从手机正面延伸至全场景，阅星曈选择另一条路径，以“硬件创新+AI轻量化落地”的组合，通过低成本、高用户接受度的方式，成为手机屏幕的自然延伸，开创新的智能终端形态。\n用一个极简的减法方案，精准击中用户在高频场景下的真实痛点。AI的介入，正在让这块“小卡片”的价值被重新评估。阅星曈已经在手机背面，悄悄抢占AI时代的下一个流量入口。\n投资方评论：\n博裕创投董事总经理高法璞\n表示，AI时代信息无限膨胀，真正的稀缺资源不再是信息本身，而是深度专注与高质量阅读的能力,阅星曈也是依靠极度的专注，打造了一款随身携带，帮用户进行管理注意力的副屏，我们持续看好公司在AI时代的发展潜力。\n清流资本投资副总裁茆雨豪\n表示，在今天这个言必称 AI、功能不断堆砌的时代，阅星曈表现出了一种极具勇气的克制。没有选择盲目堆砌功能，而是通过极致的“减法哲学”，将BOM成本控制在极低水平的同时，实现了极佳的用户心智占领。投资阅星曈的逻辑其实非常纯粹：看好它在细分赛道中对“阅读刚需”的深度挖掘，以及团队极强的资本效率与产品定义能力，并以此为原点，结合“端侧电子纸+手机算力”的协同模式，成为 AI 时代下最懂用户、最纯粹的硬件入口。”\n希扬资本合伙人杨希\n表示，阅星曈通过极致轻薄的设计与软硬一体的沉浸阅读体验，成功定义了“超便携电子纸”这一新品类 ，甚至让品牌本身成为了该品类的代名词；作为天使投资人，这是希扬资本首次从上游科技向消费级硬件品牌的跨越式投资 ，我们将持续通过希扬科技生态赋能 ，助力阅星曈挖掘 AI 时代‘手机副屏’无限的应用场景与想象力。\n经纬创投董事陈伟嘉\n表示，电子阅读器是已被验证的大出货量市场，但依旧有强痛点；结合AI和硬件能力的快速发展，有可能有重新定义品类的新品牌机会。宇沸是非典型的硬件创业者，具备敏捷、高效、AI思维等特质，build-in-public和用户共创了“超便携电子纸”的产品形态；虽然远不完美，但真实痛点+产品巧思+持续打磨赢得了用户口碑，在海内外快速自传播，增长动能明显。我们期待阅星曈能持续为用户带来创造性的产品，并进一步探索商业模式。\n顺为投资合伙人程天\n表示，我们长期关注AI时代手机生态配件的创新价值。阅星曈精准抓住迷你墨水屏的市场空白，以便携、护眼、长续航的产品设计，切中用户碎片化阅读与个人效率管理的核心需求，跑出了清晰的增长节奏，获得用户群体的高度认同。期待阅星曈持续深耕，打开市场边界，打造全新的注意力入口，用真实产品力为用户创造长期价值。",
-    "content_source": "readability",
-    "content_chars": 2999,
-    "content_excerpt": "作者｜黄楠\n编辑｜袁斯来\n当智能手机陷入性能过剩、AI功能同质化内卷，用户注意力被无限拆解与争夺时，一个被长期忽视的角落正悄然打开新赛道——手机背面的闲置空间。\n硬氪独家获悉，AI超便携电子纸品牌阅星曈近日完成天使轮至A轮融资，累计五轮金额超亿元人民币，投资方包括博裕创投、清流资本、希扬资本、小红书、经纬创投、顺为资本，多数股东持续追加。资金将用于完善生产制造与质量审核体系、拓展海外市场，搭建社区内容、优化产品体验，与全球用户共同构建AI时代手机副屏生态。\n阅星曈开创了“超便携电子纸”品类，其产品以极简的硬件设计与流畅的软件体验，深度融合AI能力，专注为数字时代用户提供专注、沉浸的阅读入口。\n阅星曈超便携电子纸（图源/企业）\n创始人兼CEO胡宇沸是一位资深连续创业者，他毕业于香港中文大学，曾任新石器无人车COO、OYO酒店首席发展官、小蓝单车联合创始人兼COO、饿了么众包事业部总经理及Uber中国三城总经理等职务。多位核心成员均来自港中文、复旦大学、中国科学院大学、马里兰大学等院校，曾供职于头部互联网、智能硬件与AI企业，具备从爆品打造到全球化增长的完整能力闭环。\n鲜少有人预料到，胡宇沸再次创业时，会扎进一个轻巧到极易“被忽略”的硬件行业，做一款磁吸在手机背面的电子纸阅读器。\n它首款产品的重量仅有70克、4.3寸屏幕、售价不到300元。但就是这个隐藏在手机屏幕后的小配件，在零推广费用的前提下，依靠小红书社区的“云股东”共创众筹，一年内迅速完成了从产品定义到规模化验证的闭环。\n“是用户和我们一起，把这块小屏打磨成了今天的样子。”阅星曈创始人兼CEO胡宇沸表示。在产品定义与迭代过程中，有大量早期用户曾通过社群参与了需求反馈与功能建议。后续公司也会延续这一共创模式，在未来产品的立项和原型设计阶段开放用户参与通道，将用户反馈直接纳入早期研发流程。"
-  },
-  {
-    "id": "reddit-1su07zn",
-    "title": "This isn’t X this is Y needs to die",
-    "url": "https://reddit.com/r/LocalLLaMA/comments/1su07zn/this_isnt_x_this_is_y_needs_to_die/",
-    "source": "r/LocalLLaMA",
-    "lang": "en",
-    "published": "2026-04-24T00:25:01",
-    "summary": "All models spam this exact phrase liberally. Time to train it out. That is all.",
-    "points": 231,
-    "collected_at": "2026-04-24T08:09:43.029406",
-    "title_zh": "这不是X，这是Y需要死",
-    "summary_zh": "所有模型都会随意发送这个短语。是时候训练它了。仅此而已",
-    "ai_summary": "所有模型都会随意发送这个短语。是时候训练它了。仅此而已"
-  },
-  {
-    "id": "v2ex-1208148",
-    "title": "天下苦 Claude 久矣， GPT 就出招了， 5.5 目测下限是 opus 4.6",
-    "url": "https://www.v2ex.com/t/1208148",
-    "source": "V2EX",
-    "lang": "zh",
-    "published": "2026-04-24T00:23:44",
-    "summary": "1 ，输出好多了，不讲八股文了 2 ，体感变快 2 ，大上下文目测增强很多 解决了 5.4 最大的 l 几个问题，可主力使用。 我想说出早了，再等 1-2 周，Claude 继续硬着脖子说自己模型没问题。等着 claude 的口碑再烂点。奥特曼太着急了",
-    "collected_at": "2026-04-24T08:09:44.783188"
-  },
-  {
-    "id": "a243d9095dcc",
-    "title": "8点1氪丨华谊兄弟被申请破产重整；普华永道因恒大审计赔偿10亿港元；伊朗将恢复往返中国的航班",
-    "url": "https://36kr.com/p/3780065714148610?f=rss",
-    "source": "36氪",
-    "lang": "zh",
-    "priority": 4,
-    "published": "2026-04-24T00:05:57",
-    "summary": "今日热点导览 抖音整治AI不当内容，重点处置利用AI技术换脸、盗声 受燃油价格冲击，德国汉莎拟削减2万架次航班 刹车功能或丧失，大众在美召回18853辆汽车 光线传媒：公司第一款3A游戏开发进展比较顺利 TOP3大新闻 华谊兄弟被申请破产重整 近日，华谊兄弟（300027）新增一则破产审查案件信息，申请人为北京泰睿飞克科技有限公司，经办法院为浙江省金华市中级人民法院。 此次申请重整的债务，源于华谊兄弟与泰睿飞克的广告合同纠纷，法院 2025年9月判决华谊兄弟支付欠款，但公司至今未履行。2026年4月15日，华谊兄弟发布公告，债权人北京泰睿飞克科技有限公司以公司 “不能清偿到期债务且明显缺乏清偿",
-    "collected_at": "2026-04-24T08:09:38.928629",
-    "content_text": "今日热点导览\n抖音整治AI不当内容，重点处置利用AI技术换脸、盗声\n受燃油价格冲击，德国汉莎拟削减2万架次航班\n刹车功能或丧失，大众在美召回18853辆汽车\n光线传媒：公司第一款3A游戏开发进展比较顺利\nTOP3大新闻\n华谊兄弟被申请破产重整\n近日，华谊兄弟（300027）新增一则破产审查案件信息，申请人为北京泰睿飞克科技有限公司，经办法院为浙江省金华市中级人民法院。\n此次申请重整的债务，源于华谊兄弟与泰睿飞克的广告合同纠纷，法院 2025年9月判决华谊兄弟支付欠款，但公司至今未履行。2026年4月15日，华谊兄弟发布公告，债权人北京泰睿飞克科技有限公司以公司 “不能清偿到期债务且明显缺乏清偿能力” 为由，向法院申请对公司进行重整及预重整，涉案债务本金1140.52万元。（封面新闻、新浪新闻）\n香港证监会：因中国恒大虚假财务报表问题，普华永道向股东赔偿10亿港元\n36氪获悉，香港证监会与普华永道香港达成协议，据此，普华永道香港同意预留10亿港元，以向中国恒大集团的合资格独立少数股东作出赔偿。\n2019财政年度及2020财政年度，普华永道香港是中国恒大的核数师，而普华永道中天会计师事务所（特殊普通合伙）则协助普华永道香港对中国恒大的财务报表进行审计。本着为股东争取赔偿的最终目标，香港证监会断定，与普华永道香港达成协议，最符合中国恒大独立少数股东的利益，而根据该协议，已预留10亿港元，以透过由独立管理人监督的程序，分发予该等独立少数股东作为赔偿。\n2024年，中国证监会依法对普华永道恒大地产年报及债券发行审计工作未勤勉尽责案作出行政处罚，依据《中华人民共和国证券法》规定，没收普华永道案涉期间全部业务收入2774万元，并处以顶格罚款2.97亿元，合计罚没3.25亿元。\n伊朗将恢复往返中国的航班\n伊朗马汉航空4月23日表示将恢复伊朗往返中国航线客运航班。公告显示，自2026年4月26日起，马汉航空将逐步恢复伊朗往返中国的客运航班运营。（CCTV国际时讯）\n大公司/大事件\n乐乐茶联名侵犯鲁迅形象被判陪20万\n近日，上海市普陀区人民法院审理了一起因茶饮品牌联名侵犯鲁迅形象画作的著作权纠纷案件。\n2024年4月，奶茶品牌“乐乐茶”的运营公司以“世界读书日”为契机，推出了一款联名饮品。该公司在其微信公众号宣传文章、联名产品杯身等联名周边产品中，大量使用鲁迅手持奶茶杯的半身画像，该画像仅将涉案权利作品中鲁迅手中的香烟替换为奶茶杯，并对人物朝向做镜像处理，整体视觉效果高度一致，构成实质性相似。因杨之光先生已去世，其妻鸥洋女士作为共同作者、其女杨女士作为继承人，共同将涉案公司诉至法院。\n鉴于涉案公司已全面下架物料、停止侵权，最终，上海普陀法院综合作品价值、侵权规模、影响范围及主观过错等因素，判决涉案公司赔偿鸥洋女士及杨女士经济损失及合理维权费用共计20万元，涉案公司在其官方微信公众号刊登声明、赔礼道歉、消除影响。案件判决后，涉案公司不服提出上诉，后又撤回上诉，该案现已生效。（红星新闻）\n泰国榴莲已进入上市高峰，还有降价空间\n近期，泰国榴莲已进入上市高峰。据商户介绍，目前市面上的金枕榴莲出肉率比较高，品质较好，相比其他品种性价比更高。一般早上多以批发为主，下午会有一些散客，样品榴莲常用来零售。为了让消费者对产品“知根知底”，有些品牌在榴莲外壳上还打上了溯源码，方便消费者查询产地信息。今年榴莲上市高峰期则会延续到6月上旬，而且还有降价空间。（央视网）\nCostco开市客：从未授权或委托任何第三方以类似名义开展商业活动或发布信息\n36氪获悉，开市客（中国）投资有限公司发布声明称，近期网络上出现冒用“Costco开市客”注册商标及企业名称的账号，并通过微信、微博、小红书等渠道散布误导信息。声明指出，冒用账号并非开市客或其关联公司运营，发布内容与开市客无关，公司从未授权任何第三方以此名义开展活动。\n欢瑞世纪被立案，23日股价开盘跌停\n4月23日，欢瑞世纪（000892.SZ）股价开盘跌停，其股价报5.51元/股，市值为54亿元。\n4月22日晚间，欢瑞世纪发布公告称，公司于4月21日收到中国证券监督管理委员会对公司的《立案告知书》，因公司涉嫌信息披露违法违规，根据相关法律法规，决定对公司立案。\n公告显示，本次立案涉及2022年计提加计抵减额并确认为其他收益事项。截至本公告披露日，公司尚未收到中国证监会的最终调查结论，立案调查事项的最终结果将以中国证监会出具的结论为准。（界面新闻）\n理想汽车辟谣用户系统遭黑客破解\n4月22日，“理想汽车法务部”发声明：近期，网络上流传有关“杭州某用户车辆系统遭黑客破解”、“理想汽车配合走私车辆出境”等内容，经核实与事实严重不符，特声明如下：\n一、理想汽车从未参与相关车辆的非法转移行为，“走私”说法与事实严重不符；\n二、该车辆的远程操作，均由车辆实际登记人通过本人账号执行，不涉及任何“黑客破解”；\n三、理想汽车门店依据车辆登记人的申请，提供了标准的钥匙服务，操作流程符合规定；\n四、本事件涉及多方复杂纠纷，经初步核实，实体车钥匙曾经手第三方，理想汽车将持续依法协助警方开展调查工作。（读秒财经）\n库克称苹果地图发布是“首个重大错误”\n彭博社4月22日跟进后续报道，在史蒂夫 · 乔布斯剧院举办的全员大会上，蒂姆 · 库克（Tim Cook）在宣布9月1日卸任CEO，交由约翰 · 特努斯（John Ternus）接任后，向员工阐述过渡计划并回顾任期得失。\n库克在会上坦言其CEO任期内，将苹果地图的发布失误定义为“首个真正的大错误”，但也是“一次宝贵的经验”。 他解释称，当时团队误判了产品成熟度，认为本地测试结果良好，在产品实际没有做好充足准备的情况下就推向市场。\n库克还表示在其CEO任期内，所犯的错误清单“长得惊人”，不过苹果公司在过去15年间，基本上避开了其他消费电子公司的大规模产品召回与取消事件。（IT之家）\n市场监管总局：督促电商平台切实履行责任，堵住“幽灵网店”监管漏洞\n记者从4月23日举行的国务院新闻办公室发布会上了解到，市场监管总局将组织开展新兴领域、电子商务领域知识产权专项执法行动，重点针对网络销售、直播带货、社交电商等环节的商标侵权、专利假冒及地理标志滥用行为实施精准打击。针对社会反映强烈的“幽灵网店”问题，即经营地址信息不实、执法中“找不到人”“寻不到货”“查不到账”等逃避执法监管的顽疾，督促电商平台切实履行主体责任，从源头堵住监管漏洞。（央视新闻）\n抖音整治AI不当内容，重点处置利用AI技术换脸、盗声\n36氪获悉，近日，抖音正式发布“AI生成不当内容及侵犯他人权益”的专项治理公告。公告对外披露了阶段性治理成效，截至目前已累计下架AI侵权视频超53.8万条，处罚违规账号4000余个，同时明确了重点整治场景与长效管控举措。平台将重点处置利用AI技术换脸、盗声，利用AI生成内容仿冒、蹭热他人等典型违规行为。\n受燃油价格冲击，德国汉莎拟削减2万架次航班\n德国汉莎集团日前宣布，将在今年10月底前削减2万架次短途航班并整合航线，以应对伊朗战事引发的航空燃油价格飙升及供应紧张。据美联社22日报道，汉莎集团拟整合旗下汉莎航空、奥地利航空、布鲁塞尔航空、瑞士航空和ITA航空的航线，削减以德国法兰克福和慕尼黑为枢纽的低利润航线。此举预期能节省约4万吨航空燃油。（新华社）\n刹车功能或丧失，大众在美召回18853辆汽车\n4月23日，据美国国家公路交通安全管理局（NHTSA）披露，由于连接制动踏板和制动助力器的紧固件可能在制造过程中装配不当，导致制动踏板与制动助力器脱离，或造成刹车功能丧失，大众汽车正在召回部分2019-2024款奥迪E-Tron和2020-2024款奥迪E-Tron Sportback车型，共计18853辆。（界面新闻）\n三星电子工会举行集会，要求公司发放占营业利润15%的绩效奖金并废除奖金上限\n三星电子首个超过半数职员加入的“跨企业工会”23日下午1时起在三星电子平泽厂区举行集会，要求资方废除绩效奖金上限。工会方面要求公司发放占营业利润15%的绩效奖金，并废除绩效奖金上限。若劳资未能达成协议，劳方将从下月21日至6月7日进行全面罢工。截至目前，“跨企业工会”成员数量为7.4万多人，成为三星电子成立以来首个超过半数员工加入的工会，并经雇佣劳动部确认，正式获得“过半工会”地位，可单独行使集体谈判权等权利。（财联社）\n雀巢确认将蓝瓶咖啡出售给大钲资本\n雀巢集团在财报中披露，雀巢已同意将蓝瓶咖啡出售给大钲资本（Centurium Capital）。该交易尚需满足惯常前提条件，预计将于2026年上半年完成。（界面新闻）\n特斯拉：正努力早日在中国市场推出智能辅助驾驶\n36氪获悉，特斯拉发文表示，公司于4月在荷兰获得了智能辅助驾驶的审批，这对其他欧盟国家的审批非常关键。同时，公司正努力早日在中国市场推出智能辅助驾驶。据特斯拉介绍，其智能辅助驾驶V14.3已于4月在北美推出。\n本田汽车业务将于2026年底退出韩国市场\n据报道，本田汽车业务将于2026年底退出韩国市场，但仍将继续在韩国销售摩托车。（第一财经）\n腾讯云发布Xinference供应链投毒风险通告\n36氪获悉，腾讯云公告，腾讯云安全中心监测到，Xinference被披露其存在供应链投毒风险。可导致攻击者在用户安装或导入受影响版本的包时，窃取云凭证、API密钥、SSH密钥、加密钱包、数据库凭据及环境变量等高度敏感信息，并发送至远程命令与控制（C2）服务器。\n光线传媒：公司第一款3A游戏开发进展比较顺利\n光线传媒在投资者交流会上表示，公司第一款3A游戏已经在制作之中，初步预计可能在2028年左右推向市场，目前开发进展比较顺利。单机/主机游戏与公司的电影制作、营销经验更加契合，而且有更强的独立性，对外部网络和流量的依赖比较少，更像一个电影项目的管理，是公司目前的重点方向。其他一些游戏类型，尤其是手机游戏，公司仍在研究和观察之中。另外，公司也会去投资外部的游戏项目或公司，现在已经在进行之中。（证券时报）\n新模型上线期间出现功能异常，月之暗面公布补偿方案：全员额度重置\n36氪获悉，月之暗面Kimi发文称，“我们知道最近Kimi的使用体验让大家感觉‘打折扣’了。在新模型Kimi K2.6上线期间，大家的热情远超我们的预期。由于访问量瞬间激增，导致部分用户遇到了会员排队、功能短暂不可用的情况；同时，后台系统在统计Agent额度时也出现了偏差，导致部分用户的权益被误扣。为了让大家能第一时间回归顺畅的使用体验，我们已于2026年4月22日20:30将所有用户当月额度恢复至100%，已使用量直接清0。”\n上市进行时\nT3出行\n36氪获悉，据港交所文件，4月22日，南京领行科技股份有限公司（T3出行）向港交所提交上市申请书，中金公司、中信建投国际为联席保荐人。\nAI最前沿\nAnthropic二级市场估值升至万亿美元，超越OpenAI\nAnthropic在Forge Global等未上市企业股权交易平台上的估值已升至1万亿美元左右，超过OpenAI的8800亿美元。据悉，由于买家正在竞相抢购Anthropic日益减少的二级市场股票，使得这家人工智能初创公司的估值迅速攀升。（财联社）\n大麦娱乐联合阿里通义发布全球首个潮玩创作者AI设计平台“妙呀”\n36氪获悉，4月23日，大麦娱乐携手阿里通义大模型事业部正式发布全球首个潮玩创作者AI设计平台“妙呀”。依托全新大模型Wan2.7的底层技术支持，妙呀首次填补了大众级AI潮玩设计工具的空白。\n字节跳动发布3D生成大模型Seed3D 2.0\n36氪获悉，字节跳动正式发布更高精度的新一代3D生成大模型——Seed3D 2.0。据介绍，该模型采用MoE架构，通过稀疏专家路由，在扩大模型参数量和分辨率的同时控制推理计算量，使模型能生成更丰富的纹理细节和更精确的金属-粗糙度边界。目前Seed3D 2.0技术报告已公开，API也已上线火山引擎。\n小米MiMo-V2.5系列模型开启公测\n36氪获悉，4月23日，小米MiMo-V2.5系列大模型开启公测，涵盖MiMo-V2.5、V2.5-Pro及TTS、ASR系列，其中，MiMo-V2.5-Pro 和 MiMo-V2.5均支持百万级上下文，将于近期开源。\n大公司财报\n雀巢集团一季度销售额213亿瑞士法郎，同比下降5.7%\n4月23日，雀巢集团发布的财报显示，2026年第一季度，集团财报销售额为213亿瑞士法郎，同比下降5.7%。有机增长率为3.5%，其中婴幼儿配方奶粉召回事件带来约-90个基点的影响。其中，大中华区有机增长率为-10.6%，其中实际内部增长率为-10.4%，定价贡献率为-0.2%，主要由于持续调整渠道库存，同时也受到婴幼儿配方奶粉召回事件的影响。考虑到地缘政治不确定性加剧及宏观经济风险上升，雀巢将维持2026年业绩指引不变。（界面新闻）\n中国电信：第一季度净利润73.5亿元，同比下降17.08%\n36氪获悉，中国电信公告，2026年第一季度营业收入1313.94亿元，同比下降2.32%；净利润73.5亿元，同比下降17.08%。\n汇顶科技：第一季度净利润1.17亿元，同比下降40.01%\n36氪获悉，汇顶科技公告，2026年第一季度营收9.69亿元，同比下降8.95%；归属于上市公司股东的净利润1.17亿元，同比下降40.01%。\n国电南自：第一季度净利润4205.41万元，同比增长41.10%\n36氪获悉，国电南自公告，2026年第一季度实现营业收入16.34亿元，同比下降11.89%；归属于上市公司股东的净利润4205.41万元，同比增长41.10%。\n酷产品\n索尼AI研发乒乓球机器人ACE，已击败日本顶尖选手\n2016年，谷歌AlphaGo在围棋五番战中战胜韩国顶级棋手李世石，拉开了一个喷涌勃发的人工智能时代序幕。如今，人类在需要身体运动的竞技项目上也开始遭到硅基的挑战。\n2026年4月22日，《自然》（Nature）杂志刊发了一项足以载入机器人发展史的成果：索尼AI研发的乒乓球机器人“Ace”，成功地在真实的物理球台上击败了多名“人类精英选手”。不过在索尼高调的宣传背后，有网友质疑其宣传“成色不足”——毕竟乒乓球运动最顶端的选手并不都在日本。退休教授约翰·比林斯利批评称，Ace战胜人类更多依靠的是硬件带来的巨大优势。（红星新闻）\n特斯拉：第三代人形机器人预计年中亮相，7-8月启动正式投产\n36氪获悉，特斯拉发文透露，特斯拉第三代人形机器人预计年中亮相，2026年7-8月启动正式投产，产品测试稳步推进，预计明年投入外部场景应用。\nPallada游心新车型首次亮相\n36氪获悉，千里科技宣布将助力伙伴打造全新汽车品牌——游心（英文名：Pallada），并首次亮相该品牌的两款车型。\n鸿蒙智行发布问界M6等多款产品\n36氪获悉，4月22日晚，鸿蒙智行春季新品发布会上，问界M6正式发布，全新一代问界M9开启预售。起售价49.98万元，Ultimate领世加长版起售价66.98万元。同时，鸿蒙智行发布首款旗舰MPV智界 V9，预售价格区间为39.98万至52.98万元。\n投融资\n黑湖科技完成近10亿元D轮融资\n36氪获悉，近日，黑湖科技完成近10亿元D轮融资。据了解，黑湖科技营收年增速超60%，已全面盈利。本轮融资将主要用于加速工业AI应用落地和全球扩张，进一步推动AI与制造业真实业务场景的深度结合。\nAI图谱\nAI图谱，带你解读最新最快的AI咨询。\n华人女性攻克百年数学猜想 。\n整理\n｜徐嘉彤",
-    "content_source": "readability",
-    "content_chars": 6424,
-    "content_excerpt": "今日热点导览\n抖音整治AI不当内容，重点处置利用AI技术换脸、盗声\n受燃油价格冲击，德国汉莎拟削减2万架次航班\n刹车功能或丧失，大众在美召回18853辆汽车\n光线传媒：公司第一款3A游戏开发进展比较顺利\nTOP3大新闻\n华谊兄弟被申请破产重整\n近日，华谊兄弟（300027）新增一则破产审查案件信息，申请人为北京泰睿飞克科技有限公司，经办法院为浙江省金华市中级人民法院。\n此次申请重整的债务，源于华谊兄弟与泰睿飞克的广告合同纠纷，法院 2025年9月判决华谊兄弟支付欠款，但公司至今未履行。2026年4月15日，华谊兄弟发布公告，债权人北京泰睿飞克科技有限公司以公司 “不能清偿到期债务且明显缺乏清偿能力” 为由，向法院申请对公司进行重整及预重整，涉案债务本金1140.52万元。（封面新闻、新浪新闻）\n香港证监会：因中国恒大虚假财务报表问题，普华永道向股东赔偿10亿港元"
-  },
-  {
-    "id": "reddit-1styzc3",
-    "title": "I ran a logging layer on my agent for 72 hours. 37% of tool calls had parameter mismatches — and none raised an error.",
-    "url": "https://reddit.com/r/artificial/comments/1styzc3/i_ran_a_logging_layer_on_my_agent_for_72_hours_37/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-23T23:29:29",
-    "summary": "I've been running an AI agent that makes tool calls to various APIs, and I added a logging layer to capture exactly what was being sent vs. what the tools expected. Over 84 tool calls in 72 hours, 31 of them (37%) had parameter mismatches — and not a single one raised an error. The tools accepted th",
-    "points": 9,
-    "collected_at": "2026-04-24T08:09:44.209583",
-    "title_zh": "我在我的代理上运行了一个日志层 72 小时。 37% 的工具调用存在参数不匹配的情况，但没有一个出现错误。",
-    "summary_zh": "我一直在运行一个 AI 代理，它可以对各种 API 进行工具调用，并且添加了一个日志记录层来准确捕获正在发送的内容与工具期望的内容。 72 小时内超过 84 次工具调用，其中 31 次 (37%) 存在参数不匹配，而且没有一个出现错误。接受…",
-    "ai_summary": "我一直在运行一个 AI 代理，它可以对各种 API 进行工具调用，并且添加了一个日志记录层来准确捕获正在发送的内容与工具…"
-  },
-  {
-    "id": "eadad007fe43",
-    "title": "Claude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax",
-    "url": "https://www.theverge.com/ai-artificial-intelligence/917871/anthropic-claude-personal-app-connectors",
-    "source": "The Verge AI",
-    "lang": "en",
-    "priority": 1,
-    "published": "2026-04-23T22:27:11",
-    "summary": "Claude users can access more apps with Anthropic's AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber",
-    "collected_at": "2026-04-24T08:09:34.178104",
-    "title_zh": "Claude 开始接入 Spotify、Uber Eats 和 TurboTax，Anthropic 把连接器推向个人生活应用",
-    "summary_zh": "Anthropic 新增一批面向个人生活场景的 Claude 连接器，把接入范围从 Microsoft 等工作软件扩展到 Spotify、Uber、Instacart、TurboTax 等消费级应用。它想做的不是单个插件，而是让 Claude 在对话里主动调用真实服务，但同时必须解决数据边界、推荐中立性和代操作确认这些敏感问题。",
-    "ai_summary": "Anthropic 正把 Claude 从办公助手扩展成生活助手，但仍强调数据隔离和用户确认。",
-    "content_text": "Claude users can access more apps with Anthropic’s AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax, and others.\nClaude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax\nAnthropic says the new app connectors are available to all Claude users, “with mobile in beta.”\nAnthropic says the new app connectors are available to all Claude users, “with mobile in beta.”\nSome of these apps, such as Spotify, already have similar connectors in OpenAI’s ChatGPT. Once an app is connected, Claude will suggest relevant connected apps directly in your conversations, like using AllTrails for hike recommendations. Anthropic notes in its blog post announcing the new connectors that, “Your data from [connected apps] isn’t used to train our models, and the app doesn’t see your other conversations with Claude. You can also disconnect it at any time.”\nAdditionally, Anthropic says “there are no paid placements or sponsored answers in conversations with Claude.” When multiple apps seem relevant, Claude will show results from both “ranked by what’s most useful.” Claude will also ask users to verify before taking actions like making a purchase or reservation using a connected app.\nThe new connectors are available now on all Claude plans. Users can browse or add apps in Claude by selecting “connectors” in the “customize” tab on the Claude sidebar.",
-    "content_source": "trafilatura",
-    "content_chars": 1617,
-    "content_excerpt": "Claude users can access more apps with Anthropic’s AI now thanks to new connectors for everything from hiking to grocery shopping. Anthropic already supported connecting numerous work-related apps to Claude, like Microsoft apps, but this expansion focuses on personal apps like Audible, Spotify, Uber, AllTrails, TripAdvisor, Instacart, TurboTax, and others.\nClaude is connecting directly to your personal apps like Spotify, Uber Eats, and TurboTax\nAnthropic says the new app connectors are available to all Claude users, “with mobile in beta.”\nAnthropic says the new app connectors are available to all Claude users, “with mobile in beta.”\nSome of these apps, such as Spotify, already have similar connectors in OpenAI’s ChatGPT. Once an app is connected, Claude will suggest relevant connected apps directly in your conversations, like using AllTrails for hike recommendations. Anthropic notes in its blog post announcing the new connectors that, “Your data from [connected apps] isn’t used to train our models, and the app doesn’t see your other conversations with Claude. You can also disconnect it at any time.”\nAdditionally, Anthropic says “there are no paid placements or sponsored answers in conversations with Claude.” When multiple apps seem relevant, Claude will show results from both “ranked by what’s most useful.” Claude will also ask users to verify before taking actions like making a purchase or reservation using a connected app.\nThe new connectors are available now on all Claude plans. Users can browse or add apps in Claude by selecting “connectors” in the “customize” tab on the Claude sidebar.",
-    "takeaways": [
-      "Claude 的连接器正在从工作软件走向消费级应用，使用边界明显扩大。",
-      "Anthropic 强调不会用接入数据训练模型，也不会做付费排序，意在降低用户顾虑。",
-      "真正的竞争点不只是能不能接应用，而是谁能把连接、推荐和代操作体验做得既方便又可信。"
-    ],
-    "rewrite_body": "Anthropic 正在把 Claude 的连接器能力从办公场景往个人生活场景扩张，这比“又支持几个 App”本身更值得看。\n\n此前，Claude 接入更多是围绕工作流展开，比如文档、邮件和办公软件。现在新增的则是 Spotify、Uber、Instacart、TurboTax、AllTrails 等偏消费和生活服务的应用，这意味着 Anthropic 想让 Claude 不只是帮助用户处理工作内容，而是逐步变成一个能理解个人需求、并调用外部服务完成任务的助手。\n\n不过，个人应用接入比企业 SaaS 更敏感。因为一旦涉及出行、购物、报税或订阅内容，用户最在意的就不只是“能不能连上”，而是数据是否会被拿去训练模型、结果是否带有商业偏置，以及在下单、预订、支付等动作发生前，系统是否会明确要求确认。Anthropic 这次反复强调不做付费植入、不会把连接数据用于训练，并保留用户确认环节，都是在先补信任层。\n\n从产品竞争角度看，连接器已经成为大模型平台的必争之地。谁能把应用接入做得更深、调用更自然、边界更清楚，谁就更有机会把聊天界面升级成真正的任务入口。Claude 这次向个人应用扩展，说明 Anthropic 也在抢这个位置。"
-  },
-  {
-    "id": "reddit-1stxitj",
-    "title": "What Generative AI Reveals About the State of Software?",
-    "url": "https://reddit.com/r/artificial/comments/1stxitj/what_generative_ai_reveals_about_the_state_of/",
-    "source": "r/artificial",
-    "lang": "en",
-    "published": "2026-04-23T22:27:37",
-    "summary": "I’ve spent more than two years building an agentic AI platform, working daily with GPT, Claude, and lately Gemini LLM models in real-world production code. They’re powerful; but if you watch closely, you’ll see something unsettling. They don’t just write bad code. They write our code. And that shoul",
-    "points": 5,
-    "collected_at": "2026-04-24T08:09:44.209825",
-    "title_zh": "生成式人工智能揭示了软件现状的哪些方面？",
-    "summary_zh": "我花了两年多的时间构建一个代理人工智能平台，每天在现实世界的生产代码中使用 GPT、Claude 和最近的 Gemini LLM 模型。他们很强大；但如果你仔细观察，你会发现一些令人不安的事情。他们不只是写出糟糕的代码。他们编写我们的代码…",
-    "ai_summary": "我花了两年多的时间构建一个代理人工智能平台，每天在现实世界的生产代码中使用 GPT、Claude 和最近的 Gemini…"
-  },
-  {
-    "id": "hn-47679121",
-    "title": "Project Glasswing: Securing critical software for the AI era",
-    "url": "https://www.anthropic.com/glasswing",
-    "source": "Hacker News",
-    "lang": "en",
-    "published": "2026-04-07T18:09:34Z",
-    "summary": "Related: Assessing Claude Mythos Preview&#x27;s cybersecurity capabilities - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679155System Card: Claude Mythos Preview [pdf] - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=47679258Also: Anthropic&#x27;s Project Glasswing sounds necessary to",
-    "points": 1541,
-    "collected_at": "2026-04-30T02:13:38.239978"
-  },
-  {
     "id": "hn-47363754",
     "title": "Can I run AI locally?",
     "url": "https://www.canirun.ai/",
@@ -4537,7 +4582,7 @@
     "published": "2026-03-13T12:46:10Z",
     "summary": "Can I run AI locally?",
     "points": 1520,
-    "collected_at": "2026-04-30T02:13:38.240075"
+    "collected_at": "2026-04-30T08:14:13.573165"
   },
   {
     "id": "hn-47340079",
@@ -4548,7 +4593,7 @@
     "published": "2026-03-11T19:29:29Z",
     "summary": "Don't post generated/AI-edited comments. HN is for conversation between humans",
     "points": 4229,
-    "collected_at": "2026-04-30T02:13:38.239748"
+    "collected_at": "2026-04-30T08:14:13.572563"
   },
   {
     "id": "hn-47225130",
@@ -4559,7 +4604,7 @@
     "published": "2026-03-02T22:32:35Z",
     "summary": "Meta’s AI smart glasses and data privacy concerns",
     "points": 1448,
-    "collected_at": "2026-04-30T02:13:38.240119"
+    "collected_at": "2026-04-30T08:14:13.573245"
   },
   {
     "id": "hn-47136179",
@@ -4570,7 +4615,7 @@
     "published": "2026-02-24T12:16:45Z",
     "summary": "Report [pdf]: https:&#x2F;&#x2F;content.forensic-architecture.org&#x2F;wp-content&#x2F;uploads...",
     "points": 2084,
-    "collected_at": "2026-04-30T02:13:38.239851"
+    "collected_at": "2026-04-30T08:14:13.572743"
   },
   {
     "id": "hn-46990729",
@@ -4581,7 +4626,7 @@
     "published": "2026-02-12T16:23:24Z",
     "summary": "Previously: AI agent opens a PR write a blogpost to shames the maintainer who closes it - https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=46987559 - Feb 2026 (582 comments)",
     "points": 2346,
-    "collected_at": "2026-04-30T02:13:38.239819"
+    "collected_at": "2026-04-30T08:14:13.572686"
   },
   {
     "id": "hn-46574276",
@@ -4592,7 +4637,7 @@
     "published": "2026-01-11T10:26:18Z",
     "summary": "Don't fall into the anti-AI hype",
     "points": 1296,
-    "collected_at": "2026-04-30T02:13:38.240233"
+    "collected_at": "2026-04-30T08:14:13.573455"
   },
   {
     "id": "hn-45941596",
@@ -4603,7 +4648,7 @@
     "published": "2025-11-16T00:01:25Z",
     "summary": "AirPods libreated from Apple's ecosystem",
     "points": 1424,
-    "collected_at": "2026-04-30T02:13:38.240132"
+    "collected_at": "2026-04-30T08:14:13.573267"
   },
   {
     "id": "hn-45930151",
@@ -4614,7 +4659,7 @@
     "published": "2025-11-14T18:35:22Z",
     "summary": "\"Every minute, a new clock is rendered by nine different AI models.\"",
     "points": 1383,
-    "collected_at": "2026-04-30T02:13:38.240175"
+    "collected_at": "2026-04-30T08:14:13.573342"
   },
   {
     "id": "hn-45722069",
@@ -4625,7 +4670,7 @@
     "published": "2025-10-27T15:27:38Z",
     "summary": "It's insulting to read AI-generated blog posts",
     "points": 1300,
-    "collected_at": "2026-04-30T02:13:38.240221"
+    "collected_at": "2026-04-30T08:14:13.573431"
   },
   {
     "id": "hn-44972151",
@@ -4636,7 +4681,7 @@
     "published": "2025-08-21T12:53:16Z",
     "summary": "AWS CEO says using AI to replace junior staff is 'Dumbest thing I've ever heard'",
     "points": 1697,
-    "collected_at": "2026-04-30T02:13:38.239922"
+    "collected_at": "2026-04-30T08:14:13.572887"
   },
   {
     "id": "hn-44396518",
@@ -4647,7 +4692,7 @@
     "published": "2025-06-27T13:06:54Z",
     "summary": "Hey HN!Pilots everywhere are required to keep a logbook of all their flying hours, aircraft, airports, and so on. Since I track everything digitally (some people still just use paper logbooks!), I put together some data visualizations and a few 3D globes to show my flying history.This globe is proba",
     "points": 1539,
-    "collected_at": "2026-04-30T02:13:38.240043"
+    "collected_at": "2026-04-30T08:14:13.573108"
   },
   {
     "id": "hn-44314423",
@@ -4658,7 +4703,7 @@
     "published": "2025-06-19T00:33:21Z",
     "summary": "Andrej Karpathy: Software in the era of AI [video]",
     "points": 1481,
-    "collected_at": "2026-04-30T02:13:38.240089"
+    "collected_at": "2026-04-30T08:14:13.573190"
   },
   {
     "id": "hn-44163063",
@@ -4669,7 +4714,7 @@
     "published": "2025-06-02T21:09:53Z",
     "summary": "My AI skeptic friends are all nuts",
     "points": 2356,
-    "collected_at": "2026-04-30T02:13:38.239795"
+    "collected_at": "2026-04-30T08:14:13.572642"
   },
   {
     "id": "hn-42910910",
@@ -4680,7 +4725,7 @@
     "published": "2025-02-02T19:12:13Z",
     "summary": "The young, inexperienced engineers aiding DOGE",
     "points": 1683,
-    "collected_at": "2026-04-30T02:13:38.239935"
+    "collected_at": "2026-04-30T08:14:13.572910"
   },
   {
     "id": "hn-41392128",
@@ -4691,7 +4736,7 @@
     "published": "2024-08-29T15:53:08Z",
     "summary": "Bypassing airport security via SQL injection",
     "points": 2004,
-    "collected_at": "2026-04-30T02:13:38.239867"
+    "collected_at": "2026-04-30T08:14:13.572787"
   },
   {
     "id": "hn-41386319",
@@ -4702,7 +4747,7 @@
     "published": "2024-08-29T01:28:01Z",
     "summary": "Air Con: $1697 for an on/off switch",
     "points": 2001,
-    "collected_at": "2026-04-30T02:13:38.239881"
+    "collected_at": "2026-04-30T08:14:13.572812"
   },
   {
     "id": "hn-41069829",
@@ -4713,7 +4758,7 @@
     "published": "2024-07-25T15:29:41Z",
     "summary": "AI solves International Math Olympiad problems at silver medal level",
     "points": 1370,
-    "collected_at": "2026-04-30T02:13:38.240188"
+    "collected_at": "2026-04-30T08:14:13.573367"
   },
   {
     "id": "hn-41046773",
@@ -4724,7 +4769,7 @@
     "published": "2024-07-23T15:08:41Z",
     "summary": "Open source AI is the path forward",
     "points": 2360,
-    "collected_at": "2026-04-30T02:13:38.239782"
+    "collected_at": "2026-04-30T08:14:13.572618"
   },
   {
     "id": "hn-40767459",
@@ -4735,7 +4780,7 @@
     "published": "2024-06-23T13:49:30Z",
     "summary": "I am using AI to drop hats outside my window onto New Yorkers",
     "points": 1347,
-    "collected_at": "2026-04-30T02:13:38.240201"
+    "collected_at": "2026-04-30T08:14:13.573392"
   },
   {
     "id": "hn-39918245",
@@ -4746,7 +4791,7 @@
     "published": "2024-04-03T14:50:30Z",
     "summary": "'Lavender': The AI machine directing Israel's bombing in Gaza",
     "points": 1418,
-    "collected_at": "2026-04-30T02:13:38.240145"
+    "collected_at": "2026-04-30T08:14:13.573291"
   },
   {
     "id": "hn-39526057",
@@ -4757,7 +4802,7 @@
     "published": "2024-02-27T16:32:49Z",
     "summary": "Airfoil",
     "points": 2544,
-    "collected_at": "2026-04-30T02:13:38.239768"
+    "collected_at": "2026-04-30T08:14:13.572592"
   },
   {
     "id": "hn-38544729",
@@ -4768,7 +4813,7 @@
     "published": "2023-12-06T15:03:47Z",
     "summary": "Gemini AI",
     "points": 2135,
-    "collected_at": "2026-04-30T02:13:38.239831"
+    "collected_at": "2026-04-30T08:14:13.572707"
   },
   {
     "id": "hn-37021160",
@@ -4779,7 +4824,7 @@
     "published": "2023-08-06T12:15:51Z",
     "summary": "Zoom terms now allow training AI on user content with no opt out",
     "points": 1581,
-    "collected_at": "2026-04-30T02:13:38.239949"
+    "collected_at": "2026-04-30T08:14:13.572935"
   },
   {
     "id": "hn-31812259",
@@ -4790,7 +4835,7 @@
     "published": "2022-06-20T16:27:26Z",
     "summary": "Contra Wirecutter on the IKEA air purifier",
     "points": 1474,
-    "collected_at": "2026-04-30T02:13:38.240102"
+    "collected_at": "2026-04-30T08:14:13.573213"
   },
   {
     "id": "hn-18249755",
@@ -4801,7 +4846,7 @@
     "published": "2018-10-18T16:34:52Z",
     "summary": "Paper Airplane Designs",
     "points": 1753,
-    "collected_at": "2026-04-30T02:13:38.239908"
+    "collected_at": "2026-04-30T08:14:13.572860"
   },
   {
     "id": "hn-17022963",
@@ -4812,7 +4857,7 @@
     "published": "2018-05-08T17:51:44Z",
     "summary": "Google Duplex: An AI System for Accomplishing Real World Tasks Over the Phone",
     "points": 1875,
-    "collected_at": "2026-04-30T02:13:38.239896"
+    "collected_at": "2026-04-30T08:14:13.572839"
   },
   {
     "id": "hn-15892066",
@@ -4823,7 +4868,7 @@
     "published": "2017-12-10T16:23:16Z",
     "summary": "Show HN: Airmash – Multiplayer Missile Warfare HTML5 Game",
     "points": 1535,
-    "collected_at": "2026-04-30T02:13:38.240062"
+    "collected_at": "2026-04-30T08:14:13.573142"
   },
   {
     "id": "hn-6830566",
@@ -4834,6 +4879,6 @@
     "published": "2013-12-02T01:22:40Z",
     "summary": "Amazon Prime Air",
     "points": 1412,
-    "collected_at": "2026-04-30T02:13:38.240156"
+    "collected_at": "2026-04-30T08:14:13.573312"
   }
 ]

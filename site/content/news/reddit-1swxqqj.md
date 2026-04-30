@@ -20,7 +20,7 @@ ai_summary = "人工智能决策审查系统在达尔文女子一级板球比赛
 summary = "AI decision review system being trialled in Darwin women's division one cricket competition"
 summary_zh = "人工智能决策审查系统在达尔文女子一级板球比赛中试用"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Palantir employees are talking about company's \"descent into fascism\". Slack messages, interviews wi"
 summary_zh = ""
 tags = []
-list_page = 24
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->
