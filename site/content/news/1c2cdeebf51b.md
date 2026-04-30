@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.bbc.com/future/article/20260428-ai-comp
 summary = "Article URL: https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them Comments URL: https://news.ycombinator.com/item?id=47949750 Points: 267 # Comments: 207"
 summary_zh = "文章网址：https://www.bbc.com/future/article/20260428-ai-companies-want-you-to-be-afraid-of-them 评论网址：https://news.ycombinato…"
 tags = []
-list_page = 5
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

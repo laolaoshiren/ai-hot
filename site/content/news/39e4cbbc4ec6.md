@@ -20,7 +20,7 @@ ai_summary = "谷歌照片正在推出一项新的人工智能功能，您可以
 summary = "Google Photos is launching a new AI-powered feature you can use to virtually try on clothes you already have. Using the photos in your gallery, Google will create a virtual \"wardrobe,\" allowing you to mix and match outfits, save the looks you like, and share them with friends. A video shared by Goog"
 summary_zh = "谷歌照片正在推出一项新的人工智能功能，您可以使用它虚拟试穿已有的衣服。谷歌将使用你图库中的照片创建一个虚拟“衣柜”，让你可以混合搭配服装，保存你喜欢的造型，并与朋友分享。谷歌分享的视频"
 tags = []
-list_page = 5
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

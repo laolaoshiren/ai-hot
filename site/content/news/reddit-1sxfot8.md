@@ -20,7 +20,7 @@ ai_summary = "大家好，我利用业余时间构建了一个多代理系统，
 summary = "Hey everyone, I’ve been building a multi-agent system in my spare time, and I just open-sourced the repository. I was getting tired of the standard text-in/text-out chat paradigm and wanted to build a genuinely *situated* AI—one that actually perceives the physical environment and my physiological s"
 summary_zh = "大家好，我利用业余时间构建了一个多代理系统，并且刚刚开源了存储库。我厌倦了标准的文本输入/文本输出聊天模式，并希望构建一个真正的“情境”人工智能——一个能够真正感知物理环境和我的生理特征的人工智能"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

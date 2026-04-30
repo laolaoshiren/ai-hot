@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-04-30 10:15:22
+🕐 **最近更新**：2026-04-30 16:16:01
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,19 +16,23 @@
 
 ## 🔥 今日热点
 
-1. [软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO](https://aihot.bt199.com/news/19231aeade95/)
+1. [Meta 表示其商业人工智能现在每周可促成 1000 万次对话](https://aihot.bt199.com/news/b536347c3206/)
+   - Meta 表示，超过 80 亿广告商至少使用过其一代 AI 工具之一
+   - `TechCrunch AI · 2026-04-30`
+
+2. [软银正在创建一家构建数据中心的机器人公司，并且已经考虑进行 1000 亿美元的 IPO](https://aihot.bt199.com/news/19231aeade95/)
    - 你需要基础设施来构建人工智能和机器人，但显然你也需要人工智能和机器人来构建基础设施
    - `TechCrunch AI · 2026-04-30`
 
-2. [亚马逊的云业务正在蓬勃发展 - 其资本支出也是如此](https://aihot.bt199.com/news/ef01e2e76bd8/)
-   - 这家电子商务巨头从 AWS 上赚到的钱比预期多，但它也花费了大量资金，并将在短期内继续这样做，其首席执行官表示
-   - `TechCrunch AI · 2026-04-30`
+3. [通过 Spotify 徽章验证让您知道这位艺术家不是 AI](https://aihot.bt199.com/news/9130292322b3/)
+   - Spotify 正在推出一项新的验证计划，以打击垃圾邮件、假货和人工智能。现在，一些艺术家的个人资料上会带有“由 Spo…
+   - `The Verge AI · 2026-04-30`
 
-3. [马斯克诉奥特曼案迄今为止公布的所有证据](https://aihot.bt199.com/news/489362c10603/)
-   - 马斯克诉奥特曼案的审判正在进行中，这意味着证物或将在法庭上出示的证据正在被逐件揭晓。到目前为止，电子邮件交流、照片和公司…
-   - `The Verge AI · 2026-04-29`
+4. [Meta 上季度流失 2000 万用户](https://aihot.bt199.com/news/b794f0d69866/)
+   - 尽管注意到数百万用户似乎已经开始放弃其平台，Meta 仍计划今年在人工智能领域投入数十亿美元的投资。在周三的财报电话会议…
+   - `The Verge AI · 2026-04-30`
 
-4. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
+5. [为什么最近的供应链攻击专门针对安全公司 Checkmarx 和 Bitwarden](https://aihot.bt199.com/news/dc28630cd03a/)
    - 安全公司发现自己尤其容易受到威胁
    - `Ars Technica AI · 2026-04-29`
 
@@ -115,6 +119,7 @@
 ---
 
 MIT License
+
 
 
 

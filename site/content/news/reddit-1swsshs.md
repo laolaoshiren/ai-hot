@@ -20,7 +20,7 @@ ai_summary = "大家好，我是一个小团队的成员，目前正处于研发
 summary = "Hi everyone, I’m part of a small team currently in the R&D phase of building a new tool for industrial operations (specifically focused on **Ports, Mining/Quarries, and Fleet Ops**). We’ve seen a lot of technology built by people who have never stepped foot on a dusty job site or a busy container ga"
 summary_zh = "大家好，我是一个小团队的成员，目前正处于研发阶段，为工业运营构建新工具（特别关注**港口、采矿/采石场和舰队运营**）。我们已经看到许多技术是由从未踏足过尘土飞扬的工作现场或繁忙的集装箱码头的人们开发出来的"
 tags = []
-list_page = 22
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

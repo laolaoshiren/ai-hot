@@ -20,7 +20,7 @@ ai_summary = "人们越来越受到为这些数据中心供电所需电力激增
 summary = "People are growingly becoming more affected by the surge of electricity needed to power these data centers, is it reasonable or even possible? Maybe im letting my imagination take a hold of me but I think it’s crazy that all these people are ending up paying for things that they don’t want a part of"
 summary_zh = "人们越来越受到为这些数据中心供电所需电力激增的影响，这是否合理甚至可能？也许我让我的想象力控制了我，但我认为所有这些人最终都为他们不想要的东西付出了代价，这很疯狂"
 tags = []
-list_page = 14
+list_page = 16
 +++
 
 <!-- AUTO-GENERATED: news page -->

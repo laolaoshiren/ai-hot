@@ -20,7 +20,7 @@ ai_summary = "如果某些 CVPR 研讨会尚未做出决定，这是疯狂还是
 summary = "Is it crazy if decisions aren't out yet for some CVPR workshops or is it normal? I don't want to annoy the organizers if it's the norm, but we're about 5 weeks out and I need to get travel approved, etc., if papers are accepted."
 summary_zh = "如果某些 CVPR 研讨会尚未做出决定，这是疯狂还是正常？如果这是常态的话，我不想惹恼组织者，但我们还有大约 5 周的时间，如果论文被接受，我需要获得旅行批准等"
 tags = []
-list_page = 18
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

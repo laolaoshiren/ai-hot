@@ -20,7 +20,7 @@ ai_summary = "我一直在思考的一些问题在技术圈之外没有得到足
 summary = "Something I've been thinking about that doesn't get discussed enough outside of technical circles: the organizational and safety implications of uncoordinated AI agent deployment. Companies are shipping agents fast. Customer service agents, coding agents, data analysis agents, internal ops agents. E"
 summary_zh = "我一直在思考的一些问题在技术圈之外没有得到足够的讨论：不协调的人工智能代理部署对组织和安全的影响。公司现快速代理货运。客户服务代理、编码代理、数据分析代理、内部运营代理。乙"
 tags = []
-list_page = 22
+list_page = 23
 +++
 
 <!-- AUTO-GENERATED: news page -->

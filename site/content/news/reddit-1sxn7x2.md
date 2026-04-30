@@ -20,7 +20,7 @@ ai_summary = "我们通过代理工具在 Terminal-Bench 2.0（89 个任务，�
 summary = "We ran open-weight 27B–32B models on Terminal-Bench 2.0 (89 tasks, `terminal-bench-2.git @ 69671fb`) through our agent harness. Best result was Qwen 3.6-27B at **38.2% (34/89)** under the **default** per-task timeout — the same constraint the public leaderboard uses ([Qwen's official post uses a mor"
 summary_zh = "我们通过代理工具在 Terminal-Bench 2.0（89 个任务，“terminal-bench-2.git @ 69671fb”）上运行开放重量的 27B-32B 模型。最好的结果是 Qwen 3.6-27B，在 **默认** 每任…"
 tags = []
-list_page = 15
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

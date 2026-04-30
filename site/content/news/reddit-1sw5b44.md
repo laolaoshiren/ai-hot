@@ -20,7 +20,7 @@ ai_summary = "跟进我几天前发布的有关多任务推理微调的内容。
 summary = "Following up on something I posted a few days back about fine-tuning for multi-task reasoning. Read a lot since then, and I've moved past the dense 3B vs 7B question — landing on Nemotron 3 Nano (the 30B-A3B hybrid Mamba-Attention-MoE NVIDIA released recently) instead. Architecture maps to the multi"
 summary_zh = "跟进我几天前发布的有关多任务推理微调的内容。从那时起，我阅读了很多内容，并摆脱了密集的 3B 与 7B 问题，转而使用 Nemotron 3 Nano（NVIDIA 最近发布的 30B-A3B 混合 Mamba-Attention-MoE）…"
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

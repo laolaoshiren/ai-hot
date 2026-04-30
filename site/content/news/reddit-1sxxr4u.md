@@ -20,7 +20,7 @@ ai_summary = "背景：我一直在点击付费墙，但我没有预见到会发
 summary = "background: i kept hitting paywalls i didn't see coming. tool says free, you integrate it into your workflow, three days later you're locked out. so i started keeping structured notes, then turned it into a proper browsable dataset. **what i tracked for each tool:** * free tier generosity score (0-1"
 summary_zh = "背景：我一直在点击付费墙，但我没有预见到会发生这种情况。工具说免费，你将它集成到你的工作流程中，三天后你就被锁定了。所以我开始保留结构化笔记，然后将其转变为适当的可浏览数据集。 **我对每个工具的跟踪内容：** * 免费等级慷慨分数（0-1"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

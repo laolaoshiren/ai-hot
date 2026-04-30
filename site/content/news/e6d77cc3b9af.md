@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.edenai.co 评论网址：https://news.y
 summary = "Article URL: https://www.edenai.co Comments URL: https://news.ycombinator.com/item?id=47908433 Points: 129 # Comments: 67"
 summary_zh = "文章网址：https://www.edenai.co 评论网址：https://news.ycombinator.com/item?id=47908433 积分：129 # 评论：67"
 tags = []
-list_page = 25
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

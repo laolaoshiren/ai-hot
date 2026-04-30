@@ -20,7 +20,7 @@ ai_summary = "您好，我是一名正在进行研究的本科生，我正在考
 summary = "Hello, I am an undergraduate student doing research, and I am considering a PhD in ML. I was wondering what value, if at all, first authoring a workshop paper (at Neurips/cvpr,iclr, etc) can have at the undergrad level for PhD admissions? Obviously conference papers are more valuable, but is there a"
 summary_zh = "您好，我是一名正在进行研究的本科生，我正在考虑攻读机器学习博士学位。我想知道，如果有的话，首先撰写一篇研讨会论文（在 Neurips/cvpr、iclr 等）对于本科阶段的博士招生有什么价值？显然会议论文更有价值，但是有没有"
 tags = []
-list_page = 22
+list_page = 23
 +++
 
 <!-- AUTO-GENERATED: news page -->
