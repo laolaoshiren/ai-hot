@@ -28,19 +28,19 @@ class ModelsAndProvidersRefreshTests(unittest.TestCase):
         self.assertEqual(xiaomi['latest_models'][0], 'MiMo 32B')
         self.assertGreaterEqual(xiaomi['model_count'], 2)
 
-    def test_build_auto_discovery_specs_adds_hot_xiaomi_model(self):
+    def test_build_auto_discovery_specs_adds_latest_xiaomi_series_only(self):
         openrouter_map = {
-            'xiaomi/mimo-7b': {
-                'id': 'xiaomi/mimo-7b',
-                'name': 'Xiaomi: MiMo 7B',
+            'xiaomi/mimo-v2-pro': {
+                'id': 'xiaomi/mimo-v2-pro',
+                'name': 'Xiaomi: MiMo V2 Pro',
                 'created': 1713744000,
                 'context_length': 131072,
                 'architecture': {'input_modalities': ['text'], 'output_modalities': ['text']},
                 'top_provider': {'is_moderated': True}
             },
-            'xiaomi/mimo-32b': {
-                'id': 'xiaomi/mimo-32b',
-                'name': 'Xiaomi: MiMo 32B',
+            'xiaomi/mimo-v2.5-pro': {
+                'id': 'xiaomi/mimo-v2.5-pro',
+                'name': 'Xiaomi: MiMo V2.5 Pro',
                 'created': 1713830400,
                 'context_length': 1048576,
                 'architecture': {'input_modalities': ['text'], 'output_modalities': ['text']},
@@ -48,9 +48,10 @@ class ModelsAndProvidersRefreshTests(unittest.TestCase):
             },
         }
         specs = build_auto_discovery_specs(openrouter_map)
-        self.assertTrue(any(x['id'] == 'xiaomi/mimo-32b' for x in specs))
-        mimo = next(x for x in specs if x['id'] == 'xiaomi/mimo-32b')
-        self.assertIn(mimo['category'], {'top', 'watch', 'coding'})
+        ids = [x['id'] for x in specs]
+        self.assertIn('xiaomi/mimo-v2.5-pro', ids)
+        self.assertNotIn('xiaomi/mimo-v2-pro', ids)
+        self.assertEqual(sum(1 for x in ids if x.startswith('xiaomi/')), 1)
 
     def test_merge_curated_items_deduplicates_manual_and_auto_specs(self):
         base = [{'category': 'watch', 'source': 'openrouter', 'id': 'xiaomi/mimo-32b', 'label': '手工补充', 'why': '老描述'}]

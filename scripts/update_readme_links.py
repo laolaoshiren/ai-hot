@@ -10,6 +10,7 @@ README = ROOT / 'README.md'
 HOT = ROOT / 'data' / 'hot.json'
 BRIEFING = ROOT / 'data' / 'briefing.json'
 RISING = ROOT / 'data' / 'rising.json'
+META = ROOT / 'data' / 'meta.json'
 
 
 def _clean_hot_summary(item):
@@ -37,7 +38,9 @@ def update_readme_links():
     rising = json.loads(RISING.read_text(encoding='utf-8')) if RISING.exists() else {}
     items = hot.get('items') or hot.get('top_20') or hot.get('hot_list') or []
 
-    text = re.sub(r'🕐 \*\*最近更新\*\*：.*', f'🕐 **最近更新**：{datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S")}', text)
+    meta = json.loads(META.read_text(encoding='utf-8')) if META.exists() else {}
+    last_update = meta.get('last_update') or datetime.now(ZoneInfo("Asia/Shanghai")).strftime("%Y-%m-%d %H:%M:%S")
+    text = re.sub(r'🕐 \*\*最近更新\*\*：.*', f'🕐 **最近更新**：{last_update}', text)
 
     hot_lines = ['## 🔥 今日热点', '']
     for rank, item in enumerate(items[:10], start=1):

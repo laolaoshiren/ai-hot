@@ -239,6 +239,14 @@ def archive_superseded_openrouter_specs(specs, openrouter_map):
         archived.append(spec)
     return archived
 
+def auto_discovery_series_key(model_id, model):
+    low = f"{model_id} {(model.get('name') or '')}".lower()
+    prefix = model_id.split('/')[0] if '/' in model_id else model_id
+    if prefix == 'xiaomi' or 'mimo' in low:
+        return ('xiaomi', 'mimo')
+    return (prefix, model_id.split('/')[-1].split('-')[0])
+
+
 def build_auto_discovery_specs(openrouter_map):
     specs = []
     for model_id, model in openrouter_map.items():
@@ -253,11 +261,16 @@ def build_auto_discovery_specs(openrouter_map):
             })
     specs.sort(key=lambda x: openrouter_map[x['id']].get('created', 0), reverse=True)
     dedup = []
-    seen = set()
+    seen_ids = set()
+    seen_series = set()
     for spec in specs:
-        if spec['id'] in seen:
+        if spec['id'] in seen_ids:
             continue
-        seen.add(spec['id'])
+        seen_ids.add(spec['id'])
+        series = auto_discovery_series_key(spec['id'], openrouter_map[spec['id']])
+        if series in seen_series:
+            continue
+        seen_series.add(series)
         dedup.append(spec)
     return dedup
 
