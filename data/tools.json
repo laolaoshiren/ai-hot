@@ -833,6 +833,26 @@
     "icon_url": "https://www.google.com/s2/favicons?domain=notebooklm.google.com&sz=64"
   },
   {
+    "id": "remio",
+    "name": "Remio",
+    "url": "https://remio.ai/",
+    "description": "本地优先的 AI 个人知识库，自动整理个人文件、网页、录音、邮件、聊天记录、图片和笔记",
+    "category": "办公",
+    "pricing": "Freemium",
+    "free_quota": "以官网为准",
+    "difficulty": 1,
+    "tags": [
+      "#notes",
+      "#knowledge-base",
+      "#local-first",
+      "#rag"
+    ],
+    "featured": false,
+    "use_cases": "个人知识管理、文件问答、会议资料整理、跨来源个人上下文检索",
+    "score": 75,
+    "icon_url": "https://www.google.com/s2/favicons?domain=remio.ai&sz=64"
+  },
+  {
     "id": "dify",
     "name": "Dify",
     "url": "https://dify.ai",
