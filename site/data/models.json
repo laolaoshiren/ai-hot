@@ -3672,6 +3672,26 @@
     "is_core": true
   },
   {
+    "id": "hf-Comfy-Org--Krea-2",
+    "name": "Comfy-Org/Krea-2",
+    "display_name": "Krea-2",
+    "url": "https://huggingface.co/Comfy-Org/Krea-2",
+    "author": "Comfy-Org",
+    "pipeline_tag": "",
+    "likes": 216,
+    "downloads": 10,
+    "tags": [
+      "comfyui",
+      "license:other",
+      "region:us"
+    ],
+    "created_at": "2026-06-16T22:31:20.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-01T14:14:53.733683",
+    "display_priority": 98,
+    "is_core": true
+  },
+  {
     "id": "hf-OpenMOSS-Team--MOSS-TTS-Nano-100M",
     "name": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
     "display_name": "MOSS-TTS-Nano-100M",
@@ -3713,7 +3733,7 @@
     "created_at": "2026-04-02T15:13:08.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733911",
-    "display_priority": 98,
+    "display_priority": 99,
     "is_core": true
   },
   {
@@ -3738,7 +3758,7 @@
     "created_at": "2026-05-08T13:06:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T02:28:58.864373",
-    "display_priority": 99,
+    "display_priority": 100,
     "is_core": true
   },
   {
@@ -3757,7 +3777,7 @@
     "created_at": "2026-04-13T18:31:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733887",
-    "display_priority": 100,
+    "display_priority": 101,
     "is_core": true
   },
   {
@@ -3786,7 +3806,7 @@
     "created_at": "2026-04-08T01:43:22.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-20T14:22:14.452421",
-    "display_priority": 101,
+    "display_priority": 102,
     "is_core": true
   },
   {
@@ -3805,7 +3825,7 @@
     "created_at": "2026-04-16T00:46:33.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733896",
-    "display_priority": 102,
+    "display_priority": 103,
     "is_core": true
   },
   {
@@ -3835,30 +3855,6 @@
     "created_at": "2026-05-21T09:05:55.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-25T02:42:48.443010",
-    "display_priority": 103,
-    "is_core": true
-  },
-  {
-    "id": "hf-Boogu--Boogu-Image-0.1-Edit",
-    "name": "Boogu/Boogu-Image-0.1-Edit",
-    "display_name": "Boogu-Image-0.1-Edit",
-    "url": "https://huggingface.co/Boogu/Boogu-Image-0.1-Edit",
-    "author": "Boogu",
-    "pipeline_tag": "",
-    "likes": 123,
-    "downloads": 824,
-    "tags": [
-      "diffusers",
-      "safetensors",
-      "en",
-      "zh",
-      "license:apache-2.0",
-      "diffusers:BooguImagePipeline",
-      "region:us"
-    ],
-    "created_at": "2026-06-16T06:40:58.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-06-25T19:53:52.442937",
     "display_priority": 104,
     "is_core": true
   },
