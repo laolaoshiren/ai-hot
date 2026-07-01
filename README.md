@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-01 22:16:45
+🕐 **最近更新**：2026-07-02 03:45:16
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,31 +16,35 @@
 
 ## 🔥 今日热点
 
-1. [Meta 与 SpaceX 一样，希望将多余的人工智能计算转化为现金](https://aihot.bt199.com/news/d01b2b5aa529/)
-   - Meta 正在制定云基础设施业务计划，出售人工智能计算能力和模型。此举将使其与亚马逊网络服务、谷歌云和微软Azure等大…
+1. [SpaceX 有一个人工智能设备原型，听起来确实像手机](https://aihot.bt199.com/news/cba85e1be003/)
+   - 据报道，SpaceX 在上市前向投资者展示了一款“类似手机”的人工智能设备。这可能是 SpaceX 希望扩展到无线领域的…
    - `TechCrunch AI · 2026-07-01`
 
-2. [特朗普取消了对 Anthropic 神话和寓言模型的限制](https://aihot.bt199.com/news/579fe9f94e4d/)
-   - Anthropic 表示将于 7 月 1 日开始恢复对《寓言》的访问
+2. [阿什顿·库彻 (Ashton Kutcher) 离开 Sound Ventures，与摩根·贝勒 (Morgan Beller) 共同创办新的风险投资公司](https://aihot.bt199.com/news/aeca795eedce/)
+   - Sound 的声誉建立在对领先的人工智能实验室的集中、高度确信的押注之上，而库彻的新基金似乎正在追逐这些公司的底层——为…
    - `TechCrunch AI · 2026-07-01`
 
-3. [下载：Anthropic 推出克劳德科学和加州碳肥数学](https://aihot.bt199.com/news/714a5dcd7fae/)
+3. [法学硕士陷入了群体思维的困境。这家初创公司正试图将他们赶走。](https://aihot.bt199.com/news/b7a1a19f77c0/)
+   - 让我们从一个游戏开始吧。打开您选择的聊天机器人 - Claude、ChatGPT、Gemini - 并输入“给我一个 1…
+   - `MIT Tech Review · 2026-07-01`
+
+4. [下载：Anthropic 推出克劳德科学和加州碳肥数学](https://aihot.bt199.com/news/714a5dcd7fae/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Claude Science 是…
    - `MIT Tech Review · 2026-07-01`
 
-4. [谷歌打造了一款出色的智能音箱，但 Gemini 还没有做好准备](https://aihot.bt199.com/news/474d4e312b75/)
+5. [谷歌打造了一款出色的智能音箱，但 Gemini 还没有做好准备](https://aihot.bt199.com/news/474d4e312b75/)
    - 过去几年，智能音箱一直在寻找引人注目的第二幕。除了音乐、定时器和控制灯光之外，它们还很难证明它们占用厨房柜台空间的合理性…
    - `The Verge AI · 2026-07-01`
 
-5. [Anthropic 搁置已久的《神鬼寓言 5》已获准回归](https://aihot.bt199.com/news/b13e4677f113/)
+6. [Anthropic 搁置已久的《神鬼寓言 5》已获准回归](https://aihot.bt199.com/news/b13e4677f113/)
    - 经过与特朗普政府几周的谈判，Anthropic 终于能够让《克劳德寓言 5》重新上线。 Anthropic 在 X 上的…
    - `The Verge AI · 2026-07-01`
 
-6. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
+7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
    - `Ars Technica AI · 2026-06-30`
 
-7. [由于大多数用户使用 AI 代理，Notion 杀死了受 Skiff 影响的电子邮件应用程序](https://aihot.bt199.com/news/47b14e041896/)
+8. [由于大多数用户使用 AI 代理，Notion 杀死了受 Skiff 影响的电子邮件应用程序](https://aihot.bt199.com/news/47b14e041896/)
    - 概念是“全力以赴使用代理来运行您的收件箱”
    - `Ars Technica AI · 2026-06-25`
 
@@ -127,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
