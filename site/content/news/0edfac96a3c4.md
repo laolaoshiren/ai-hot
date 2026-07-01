@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，这个人怎么这么烦啊，什么时候国模能赶超Claude，好想看到那一天 1 个帖子 - 1 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 93
+list_page = 95
 +++
 
 <!-- AUTO-GENERATED: news page -->

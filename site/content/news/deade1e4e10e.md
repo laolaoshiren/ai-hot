@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.reuters.com/technology/norway-imposes-n
 summary = "Article URL: https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/ Comments URL: https://news."
 summary_zh = "文章网址：https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/ 评论网址：https://news.ycomb…"
 tags = []
-list_page = 79
+list_page = 81
 +++
 
 <!-- AUTO-GENERATED: news page -->
