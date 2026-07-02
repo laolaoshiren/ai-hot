@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-02 10:35:34
+🕐 **最近更新**：2026-07-02 16:47:39
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [SpaceX 有一个人工智能设备原型，听起来确实像手机](https://aihot.bt199.com/news/cba85e1be003/)
-   - 据报道，SpaceX 在上市前向投资者展示了一款“类似手机”的人工智能设备。这可能是 SpaceX 希望扩展到无线领域的…
-   - `TechCrunch AI · 2026-07-01`
+1. [印度科技大亨自掏腰包 3000 万美元打造人工智能替代微软 Office](https://aihot.bt199.com/news/f23d1aa63f1a/)
+   - Neo 是 Bhavin Turakhia 的第五家企业，也是他最新的一家涉及企业软件的企业。这一次，他将与 Micro…
+   - `TechCrunch AI · 2026-07-02`
 
-2. [阿什顿·库彻 (Ashton Kutcher) 离开 Sound Ventures，与摩根·贝勒 (Morgan Beller) 共同创办新的风险投资公司](https://aihot.bt199.com/news/aeca795eedce/)
-   - Sound 的声誉建立在对领先的人工智能实验室的集中、高度确信的押注之上，而库彻的新基金似乎正在追逐这些公司的底层——为…
+2. [SpaceX 有一个人工智能设备原型，听起来确实像手机](https://aihot.bt199.com/news/cba85e1be003/)
+   - 据报道，SpaceX 在上市前向投资者展示了一款“类似手机”的人工智能设备。这可能是 SpaceX 希望扩展到无线领域的…
    - `TechCrunch AI · 2026-07-01`
 
 3. [法学硕士陷入了群体思维的困境。这家初创公司正试图将他们赶走。](https://aihot.bt199.com/news/b7a1a19f77c0/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
