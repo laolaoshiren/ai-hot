@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-02 16:47:39
+🕐 **最近更新**：2026-07-02 21:45:35
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,28 +16,28 @@
 
 ## 🔥 今日热点
 
-1. [印度科技大亨自掏腰包 3000 万美元打造人工智能替代微软 Office](https://aihot.bt199.com/news/f23d1aa63f1a/)
+1. [是的，我们现在正在使用 OpenClaw](https://aihot.bt199.com/news/cdac07352f7e/)
+   - Ben Guez “在他的私信中拥有一群潜在的国际妻子”，这要归功于他使用 OpenClaw、Claude 代码和 In…
+   - `TechCrunch AI · 2026-07-02`
+
+2. [印度科技大亨自掏腰包 3000 万美元打造人工智能替代微软 Office](https://aihot.bt199.com/news/f23d1aa63f1a/)
    - Neo 是 Bhavin Turakhia 的第五家企业，也是他最新的一家涉及企业软件的企业。这一次，他将与 Micro…
    - `TechCrunch AI · 2026-07-02`
 
-2. [SpaceX 有一个人工智能设备原型，听起来确实像手机](https://aihot.bt199.com/news/cba85e1be003/)
-   - 据报道，SpaceX 在上市前向投资者展示了一款“类似手机”的人工智能设备。这可能是 SpaceX 希望扩展到无线领域的…
-   - `TechCrunch AI · 2026-07-01`
+3. [教人工智能与涡轮机一起运行](https://aihot.bt199.com/news/76da70e4f32f/)
+   - 人工智能可能通过聊天机器人和图像生成器吸引了公众的想象力，但其一些最重要的用例正在远离面向消费者的工具。在物理基础设施、…
+   - `MIT Tech Review · 2026-07-02`
 
-3. [法学硕士陷入了群体思维的困境。这家初创公司正试图将他们赶走。](https://aihot.bt199.com/news/b7a1a19f77c0/)
-   - 让我们从一个游戏开始吧。打开您选择的聊天机器人 - Claude、ChatGPT、Gemini - 并输入“给我一个 1…
-   - `MIT Tech Review · 2026-07-01`
+4. [下载：一家初创公司为人工智能的群体思维问题找到了解决方案](https://aihot.bt199.com/news/0c578b2b9174/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。法学硕士陷入了群体思维的困境。这家初…
+   - `MIT Tech Review · 2026-07-02`
 
-4. [下载：Anthropic 推出克劳德科学和加州碳肥数学](https://aihot.bt199.com/news/714a5dcd7fae/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Claude Science 是…
-   - `MIT Tech Review · 2026-07-01`
+5. [OpenAI 上市，特朗普政府可从人工智能热潮中分得 5%](https://aihot.bt199.com/news/3afaca491ac0/)
+   - 据英国《金融时报》报道，OpenAI 已提出给予美国政府 5% 的所有权，以此作为缓解与特朗普政府的紧张关系并遏制公众对…
+   - `The Verge AI · 2026-07-02`
 
-5. [谷歌打造了一款出色的智能音箱，但 Gemini 还没有做好准备](https://aihot.bt199.com/news/474d4e312b75/)
+6. [谷歌打造了一款出色的智能音箱，但 Gemini 还没有做好准备](https://aihot.bt199.com/news/474d4e312b75/)
    - 过去几年，智能音箱一直在寻找引人注目的第二幕。除了音乐、定时器和控制灯光之外，它们还很难证明它们占用厨房柜台空间的合理性…
-   - `The Verge AI · 2026-07-01`
-
-6. [Anthropic 搁置已久的《神鬼寓言 5》已获准回归](https://aihot.bt199.com/news/b13e4677f113/)
-   - 经过与特朗普政府几周的谈判，Anthropic 终于能够让《克劳德寓言 5》重新上线。 Anthropic 在 X 上的…
    - `The Verge AI · 2026-07-01`
 
 7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
