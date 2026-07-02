@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，IT之家 6 月 30 日消息，据英伟达官方博客消息，2025 年 3 月，萤火虫航天公司（Firefly Aerospace）的“蓝幽灵 1 号”登月器成功登陆月球，该着陆器向地球回传了近 120GB 原始数据，包含机载相机拍摄的图像与视频，时至今日，科学家仍在对这批数据进行处理。"
 summary_zh = ""
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->
