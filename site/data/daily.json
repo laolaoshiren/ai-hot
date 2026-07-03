@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-02T19:14:55.124806",
-  "date": "2026-07-02",
+  "updated_at": "2026-07-03T02:09:58.491361",
+  "date": "2026-07-03",
   "spotlight": {
-    "name": "n8n",
-    "url": "https://n8n.io",
+    "name": "Manus",
+    "url": "https://manus.im",
     "type": "agent",
-    "description": "工作流自动化平台，集成AI Agent能力",
-    "pricing": "开源 + Cloud",
-    "category": "平台 Agent"
+    "description": "通用AI Agent，能自主完成复杂任务链",
+    "pricing": "免费试用",
+    "category": "通用 Agent"
   },
   "alternates": [
     {
-      "name": "Agent",
-      "url": "https://github.com/heelenzhang/Agent",
+      "name": "Agentbigbrain",
+      "url": "https://github.com/AgentBigBrain/AgentBigBrain",
       "type": "agent",
-      "description": "基于 LangChain 的早教绘画 AI 助手演示项目，用于展示 Agent 在教育场景里的应用。",
+      "description": "强调强约束、治理和可验证执行的自主 AI 助手框架，让 Agent 的每个动作都可控可审计。",
       "pricing": "开源免费",
-      "category": "助手 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "id": "文心一言",
-      "name": "文心一言",
-      "url": "https://yiyan.baidu.com",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://perplexity.ai",
       "type": "tool",
-      "description": "百度出品的 AI 助手",
-      "pricing": "免费 + API 按量",
-      "category": "对话"
+      "description": "AI 搜索引擎，实时联网回答问题",
+      "pricing": "免费 + Pro $20/月",
+      "category": "搜索"
     },
     {
-      "name": "WebVoyager",
-      "url": "https://github.com/MinorJerry/WebVoyager",
+      "name": "Fabric",
+      "url": "https://github.com/danielmiessler/fabric",
       "type": "agent",
-      "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
+      "description": "AI增强人类能力的框架，内置海量Prompt模板",
       "pricing": "开源免费",
-      "category": "浏览器 Agent"
+      "category": "效率 Agent"
     }
   ]
 }

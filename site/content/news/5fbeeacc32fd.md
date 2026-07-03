@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，文｜王欣逸 编辑｜周鑫雨 半年前，我们第一次和基点起源创始人兼 CEO 戴宗宏交流时，这家逆流入局 B 端定制化的AI公司，刚刚推进了 7、8 个项目。"
 summary_zh = ""
 tags = []
-list_page = 45
+list_page = 46
 +++
 
 <!-- AUTO-GENERATED: news page -->

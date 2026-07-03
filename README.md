@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-03 03:15:41
+🕐 **最近更新**：2026-07-03 10:10:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Meta 悄然推出 vivi 编码游戏应用程序 Pocket](https://aihot.bt199.com/news/a37f0922b867/)
-   - Meta 悄然推出了 Pocket，这是一款实验性人工智能应用程序，可让用户使用文本提示生成和共享交互式迷你游戏
+1. [马克·扎克伯格告诉员工，人工智能代理的进展没有他希望的那么快](https://aihot.bt199.com/news/bbb33a2166fa/)
+   - 据报道，Meta 首席执行官在一次内部会议上表示，人工智能开发工作的进展没有预期的那么快
    - `TechCrunch AI · 2026-07-02`
 
-2. [Anthropic 正在与三星讨论新的定制芯片](https://aihot.bt199.com/news/bb53a1477cfb/)
-   - 这一消息发布大约一周前，OpenAI 宣布与博通合作推出自己的定制人工智能芯片
+2. [泽西·迈克 (Jersey Mike) 的 IPO 表明人工智能炒作已变得多么糟糕](https://aihot.bt199.com/news/f4b450829600/)
+   - 为了好玩，我看了一下 Jersey Mike 的 IPO 文件。一家三明治店当然不需要提到人工智能。但你瞧
    - `TechCrunch AI · 2026-07-02`
 
 3. [利用人工智能实现卓越运营](https://aihot.bt199.com/news/47a875ddb175/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
