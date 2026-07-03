@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，盛夏赴约WAVES 2026！一群迎风的少数人，掀起中国新一代创新力量的风口。 2026年，创投圈的浪潮再次翻涌：AI从技术概念走进产业深水区，硬科技创业从“小众赛道”变成“主流共识”，年轻的创业者们正在重新定义中国创新的未来坐标。"
 summary_zh = ""
 tags = []
-list_page = 74
+list_page = 75
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -28,6 +28,13 @@
     "file": "tools.json"
   },
   {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "status": 0,
+    "file": "tools.json"
+  },
+  {
     "id": "midjourney",
     "name": "Midjourney",
     "url": "https://midjourney.com",
@@ -60,13 +67,6 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude-code",
-    "name": "Claude Code",
-    "url": "https://docs.anthropic.com/en/docs/claude-code",
-    "status": 0,
     "file": "tools.json"
   },
   {
