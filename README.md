@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-03 21:49:32
+🕐 **最近更新**：2026-07-04 03:08:46
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [马克·扎克伯格告诉员工，人工智能代理的进展没有他希望的那么快](https://aihot.bt199.com/news/bbb33a2166fa/)
+1. [浏览器之战不再是搜索问题——这里是 Chrome 和 Safari 的最佳替代品](https://aihot.bt199.com/news/f5e18ba468be/)
+   - 我们总结了目前可用的一些顶级替代浏览器，旨在挑战 Chrome 和 Safari
+   - `TechCrunch AI · 2026-07-03`
+
+2. [马克·扎克伯格告诉员工，人工智能代理的进展没有他希望的那么快](https://aihot.bt199.com/news/bbb33a2166fa/)
    - 据报道，Meta 首席执行官在一次内部会议上表示，人工智能开发工作的进展没有预期的那么快
    - `TechCrunch AI · 2026-07-02`
 
-2. [泽西·迈克 (Jersey Mike) 的 IPO 表明人工智能炒作已变得多么糟糕](https://aihot.bt199.com/news/f4b450829600/)
-   - 为了好玩，我看了一下 Jersey Mike 的 IPO 文件。一家三明治店当然不需要提到人工智能。但你瞧
-   - `TechCrunch AI · 2026-07-02`
+3. [Anthropic想要开发自己的药物](https://aihot.bt199.com/news/a77a7282a377/)
+   - 在本周早些时候的“简报：科学人工智能”活动中，Anthropic 宣布推出 Claude Science，这是一个新的“…
+   - `The Verge AI · 2026-07-03`
 
-3. [下载：冒烟的“结局”和新的伊丽莎白熊故事](https://aihot.bt199.com/news/e9cb2d76faa3/)
+4. [下载：冒烟的“结局”和新的伊丽莎白熊故事](https://aihot.bt199.com/news/e9cb2d76faa3/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。英国的代际烟草禁令可能行不通。无论如…
    - `MIT Tech Review · 2026-07-03`
 
-4. [Midjourney 医疗扫描仪的幕后观察留下了许多悬而未决的问题](https://aihot.bt199.com/news/f3bac651121f/)
+5. [Midjourney 医疗扫描仪的幕后观察留下了许多悬而未决的问题](https://aihot.bt199.com/news/f3bac651121f/)
    - Midjourney 展示了更多其未来派医疗扫描仪。它还没有显示出太多证据证明它有效。这家以生成图像而闻名的人工智能初创…
    - `The Verge AI · 2026-07-03`
 
-5. [英国的代际烟草禁令可能行不通。无论如何我都支持它。](https://aihot.bt199.com/news/21fa08f8f90b/)
-   - 作为两个小女孩的父母，我经常思考她们的童年与我的童年有何不同。这个七岁的孩子正在学校学习人工智能。这个五岁的孩子每周都会…
-   - `MIT Tech Review · 2026-07-03`
-
-6. [OpenAI 上市，特朗普政府可从人工智能热潮中分得 5%](https://aihot.bt199.com/news/3afaca491ac0/)
-   - 据英国《金融时报》报道，OpenAI 已提出给予美国政府 5% 的所有权，以此作为缓解与特朗普政府的紧张关系并遏制公众对…
-   - `The Verge AI · 2026-07-02`
+6. [利用人工智能实现卓越运营](https://aihot.bt199.com/news/47a875ddb175/)
+   - 精益六西格码和业务流程管理 (BPM) 等框架首先受到关注，因为它们承诺在混乱中保持清晰——一种为混乱、庞大的运营带来秩…
+   - `MIT Tech Review · 2026-07-02`
 
 7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology."
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。英国的代际烟草禁令可能行不通。无论如何我都支持它。 —Jessica Hamzelou 作为两个小女孩的父母，我经常想到"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

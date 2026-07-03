@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，36氪获悉，据港交所文件，数说故事人工智能科技股份有限公司向港交所提交上市申请书，独家保荐人为中信建投国际。"
 summary_zh = ""
 tags = []
-list_page = 95
+list_page = 96
 +++
 
 <!-- AUTO-GENERATED: news page -->

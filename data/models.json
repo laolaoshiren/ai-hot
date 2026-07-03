@@ -1601,27 +1601,56 @@
     "is_core": true
   },
   {
-    "id": "hf-nvidia--Nemotron-Labs-Diffusion-14B",
-    "name": "nvidia/Nemotron-Labs-Diffusion-14B",
-    "display_name": "Nemotron-Labs-Diffusion-14B",
-    "url": "https://huggingface.co/nvidia/Nemotron-Labs-Diffusion-14B",
+    "id": "hf-nvidia--Nemotron-Labs-TwoTower-30B-A3B-Base-BF16",
+    "name": "nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16",
+    "display_name": "Nemotron-Labs-TwoTower-30B-A3B-Base-BF16",
+    "url": "https://huggingface.co/nvidia/Nemotron-Labs-TwoTower-30B-A3B-Base-BF16",
     "author": "nvidia",
     "pipeline_tag": "text-generation",
-    "likes": 112,
-    "downloads": 5453,
+    "likes": 109,
+    "downloads": 10297,
     "tags": [
       "transformers",
       "safetensors",
       "nvidia",
       "pytorch",
+      "two-tower",
+      "diffusion",
+      "mamba",
       "text-generation",
+      "en",
+      "es",
+      "fr",
+      "de",
+      "ja",
+      "it",
+      "pt",
+      "zh",
+      "ar",
+      "da",
+      "ko",
+      "nl",
+      "pl",
+      "ru",
+      "sv",
+      "th",
+      "dataset:nvidia/Nemotron-Pretraining-Code-v1",
+      "dataset:nvidia/Nemotron-CC-v2",
+      "dataset:nvidia/Nemotron-Pretraining-SFT-v1",
+      "dataset:nvidia/Nemotron-CC-Math-v1",
+      "dataset:nvidia/Nemotron-Pretraining-Code-v2",
+      "dataset:nvidia/Nemotron-Pretraining-Specialized-v1",
+      "dataset:nvidia/Nemotron-CC-v2.1",
+      "dataset:nvidia/Nemotron-CC-Code-v1",
+      "dataset:nvidia/Nemotron-Pretraining-Dataset-sample",
+      "arxiv:2606.26493",
       "license:other",
       "endpoints_compatible",
       "region:us"
     ],
-    "created_at": "2026-04-22T23:06:08.000Z",
+    "created_at": "2026-04-11T00:58:51.000Z",
     "source": "hf-trending",
-    "collected_at": "2026-05-26T20:01:21.449353",
+    "collected_at": "2026-07-03T19:07:08.423505",
     "display_priority": 54,
     "is_core": true
   },
@@ -4432,6 +4461,39 @@
     "is_core": true
   },
   {
+    "id": "hf-eric-venti-seeds--Sun-Direction-Lora-Flux2Klein9B",
+    "name": "eric-venti-seeds/Sun-Direction-Lora-Flux2Klein9B",
+    "display_name": "Sun-Direction-Lora-Flux2Klein9B",
+    "url": "https://huggingface.co/eric-venti-seeds/Sun-Direction-Lora-Flux2Klein9B",
+    "author": "eric-venti-seeds",
+    "pipeline_tag": "image-to-image",
+    "likes": 53,
+    "downloads": 0,
+    "tags": [
+      "Flux2Klein",
+      "Sun",
+      "I2I",
+      "lora",
+      "lighting",
+      "ball",
+      "direction",
+      "overcast",
+      "image2image",
+      "LoRA",
+      "image-to-image",
+      "en",
+      "base_model:black-forest-labs/FLUX.2-klein-9B",
+      "base_model:adapter:black-forest-labs/FLUX.2-klein-9B",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-06-29T20:09:50.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-03T19:07:08.423518",
+    "display_priority": 119,
+    "is_core": true
+  },
+  {
     "id": "hf-ibm-granite--granite-vision-4.1-4b",
     "name": "ibm-granite/granite-vision-4.1-4b",
     "display_name": "granite-vision-4.1-4b",
@@ -4461,7 +4523,7 @@
     "created_at": "2026-04-16T13:58:07.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-02T18:52:15.612275",
-    "display_priority": 119,
+    "display_priority": 120,
     "is_core": true
   },
   {
@@ -4489,7 +4551,7 @@
     "created_at": "2026-06-17T11:28:29.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-20T13:45:32.097781",
-    "display_priority": 120,
+    "display_priority": 121,
     "is_core": true
   },
   {
@@ -4533,7 +4595,7 @@
     "created_at": "2026-05-20T13:09:50.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-19T03:34:45.896747",
-    "display_priority": 121,
+    "display_priority": 122,
     "is_core": true
   },
   {
@@ -4574,7 +4636,7 @@
     "created_at": "2026-04-16T13:54:19.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-01T02:19:40.311428",
-    "display_priority": 122,
+    "display_priority": 123,
     "is_core": true
   },
   {
@@ -4617,7 +4679,7 @@
     "created_at": "2026-05-05T15:00:16.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-18T20:15:23.806267",
-    "display_priority": 123,
+    "display_priority": 124,
     "is_core": true
   },
   {
@@ -4646,7 +4708,7 @@
     "created_at": "2026-05-19T08:58:01.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-25T02:42:48.443062",
-    "display_priority": 124,
+    "display_priority": 125,
     "is_core": true
   },
   {
@@ -4680,7 +4742,7 @@
     "created_at": "2026-06-26T13:44:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-27T08:30:02.553676",
-    "display_priority": 125,
+    "display_priority": 126,
     "is_core": true
   },
   {
@@ -4708,7 +4770,7 @@
     "created_at": "2026-05-25T15:32:15.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-28T15:34:46.979068",
-    "display_priority": 126,
+    "display_priority": 127,
     "is_core": true
   },
   {
@@ -4747,7 +4809,7 @@
     "created_at": "2026-04-29T07:46:41.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-21T02:37:42.027416",
-    "display_priority": 127,
+    "display_priority": 128,
     "is_core": true
   },
   {
@@ -4832,7 +4894,7 @@
     "created_at": "2026-04-20T15:15:55.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-30T13:31:26.989174",
-    "display_priority": 128,
+    "display_priority": 129,
     "is_core": true
   },
   {
@@ -4861,7 +4923,7 @@
     "created_at": "2026-04-23T06:30:09.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-28T10:16:49.982171",
-    "display_priority": 129,
+    "display_priority": 130,
     "is_core": true
   },
   {
@@ -4894,7 +4956,7 @@
     "created_at": "2026-05-09T04:20:48.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-15T13:49:27.928797",
-    "display_priority": 130,
+    "display_priority": 131,
     "is_core": true
   },
   {
@@ -4915,7 +4977,7 @@
     "created_at": "2026-04-30T10:18:49.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-13T14:16:25.219466",
-    "display_priority": 131,
+    "display_priority": 132,
     "is_core": true
   },
   {
@@ -4953,7 +5015,7 @@
     "created_at": "2026-04-16T13:55:49.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-03T07:52:24.422760",
-    "display_priority": 132,
+    "display_priority": 133,
     "is_core": true
   },
   {
@@ -4979,7 +5041,7 @@
     "created_at": "2026-05-13T15:12:13.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-19T02:35:51.388166",
-    "display_priority": 133,
+    "display_priority": 134,
     "is_core": true
   },
   {
@@ -5006,7 +5068,7 @@
     "created_at": "2026-05-18T11:14:09.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T08:57:46.994012",
-    "display_priority": 134,
+    "display_priority": 135,
     "is_core": true
   },
   {
@@ -5047,7 +5109,7 @@
     "created_at": "2026-03-10T12:21:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-05T13:21:22.339381",
-    "display_priority": 135,
+    "display_priority": 136,
     "is_core": true
   },
   {
@@ -5071,7 +5133,7 @@
     "created_at": "2026-06-30T08:46:20.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T09:00:51.850200",
-    "display_priority": 136,
+    "display_priority": 137,
     "is_core": true
   },
   {
@@ -5095,7 +5157,7 @@
     "created_at": "2026-06-30T08:42:01.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T09:00:51.850237",
-    "display_priority": 137,
+    "display_priority": 138,
     "is_core": true
   },
   {
@@ -5119,7 +5181,7 @@
     "created_at": "2026-06-30T08:44:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T09:00:51.850221",
-    "display_priority": 138,
+    "display_priority": 139,
     "is_core": true
   },
   {
@@ -5148,7 +5210,7 @@
     "created_at": "2026-06-30T19:41:51.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T19:46:24.754445",
-    "display_priority": 139,
+    "display_priority": 140,
     "is_core": true
   },
   {
@@ -5175,7 +5237,7 @@
     "created_at": "2026-05-01T12:57:10.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-01T13:13:50.687297",
-    "display_priority": 140,
+    "display_priority": 141,
     "is_core": true
   },
   {
@@ -5199,7 +5261,7 @@
     "created_at": "2026-06-20T13:37:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-20T13:45:32.150438",
-    "display_priority": 141,
+    "display_priority": 142,
     "is_core": true
   },
   {
@@ -5224,7 +5286,7 @@
     "created_at": "2026-04-29T19:02:58.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-29T19:15:02.966320",
-    "display_priority": 142,
+    "display_priority": 143,
     "is_core": true
   },
   {
@@ -5251,7 +5313,7 @@
     "created_at": "2026-05-15T13:45:54.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-15T13:49:28.031352",
-    "display_priority": 143,
+    "display_priority": 144,
     "is_core": true
   },
   {
@@ -5276,7 +5338,7 @@
     "created_at": "2026-07-03T08:51:14.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-03T08:53:27.956100",
-    "display_priority": 144,
+    "display_priority": 145,
     "is_core": true
   },
   {
@@ -5301,7 +5363,7 @@
     "created_at": "2026-07-03T08:45:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-03T08:53:27.956187",
-    "display_priority": 145,
+    "display_priority": 146,
     "is_core": true
   },
   {
@@ -5325,7 +5387,7 @@
     "created_at": "2026-05-28T02:08:34.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-28T02:28:34.830474",
-    "display_priority": 146,
+    "display_priority": 147,
     "is_core": true
   },
   {
@@ -5350,7 +5412,7 @@
     "created_at": "2026-06-20T13:25:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-20T13:45:32.150493",
-    "display_priority": 147,
+    "display_priority": 148,
     "is_core": true
   },
   {
@@ -5373,7 +5435,7 @@
     "created_at": "2026-06-20T13:22:52.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-20T13:45:32.150506",
-    "display_priority": 148,
+    "display_priority": 149,
     "is_core": true
   },
   {
@@ -5398,7 +5460,7 @@
     "created_at": "2026-06-22T20:28:20.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-22T20:38:11.031359",
-    "display_priority": 149,
+    "display_priority": 150,
     "is_core": true
   },
   {
@@ -5422,7 +5484,7 @@
     "created_at": "2026-06-18T09:59:12.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-18T10:10:25.731004",
-    "display_priority": 150,
+    "display_priority": 151,
     "is_core": true
   },
   {
@@ -5543,7 +5605,7 @@
     "created_at": "2026-04-23T07:12:51.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-23T07:27:21.081938",
-    "display_priority": 151,
+    "display_priority": 152,
     "is_core": true
   },
   {
@@ -5589,7 +5651,7 @@
     "created_at": "2026-05-05T07:58:25.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-05T07:59:44.389103",
-    "display_priority": 152,
+    "display_priority": 153,
     "is_core": true
   },
   {
@@ -5614,7 +5676,7 @@
     "created_at": "2026-05-15T02:18:12.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-15T02:29:36.559931",
-    "display_priority": 153,
+    "display_priority": 154,
     "is_core": true
   },
   {
@@ -5634,7 +5696,7 @@
     "created_at": "2026-06-20T08:34:22.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-20T08:45:51.379730",
-    "display_priority": 154,
+    "display_priority": 155,
     "is_core": true
   },
   {
@@ -5661,7 +5723,7 @@
     "created_at": "2026-04-24T01:54:37.000Z",
     "source": "hf-newest",
     "collected_at": "2026-04-24T01:57:38.434958",
-    "display_priority": 155,
+    "display_priority": 156,
     "is_core": true
   },
   {
@@ -5684,7 +5746,7 @@
     "created_at": "2026-05-22T19:19:22.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-22T19:31:36.998028",
-    "display_priority": 156,
+    "display_priority": 157,
     "is_core": true
   },
   {
@@ -5712,7 +5774,7 @@
     "created_at": "2026-05-27T14:42:01.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-27T15:01:21.549250",
-    "display_priority": 157,
+    "display_priority": 158,
     "is_core": true
   },
   {
@@ -5741,7 +5803,7 @@
     "created_at": "2026-05-28T09:48:33.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-28T09:51:23.325604",
-    "display_priority": 158,
+    "display_priority": 159,
     "is_core": true
   },
   {
@@ -5765,7 +5827,7 @@
     "created_at": "2026-05-19T14:39:28.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-19T14:43:29.561461",
-    "display_priority": 159,
+    "display_priority": 160,
     "is_core": true
   },
   {
@@ -5787,7 +5849,7 @@
     "created_at": "2026-05-23T01:51:51.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-23T02:15:28.734508",
-    "display_priority": 160,
+    "display_priority": 161,
     "is_core": true
   },
   {
@@ -5813,7 +5875,7 @@
     "created_at": "2026-05-28T19:56:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-28T20:10:46.543611",
-    "display_priority": 161,
+    "display_priority": 162,
     "is_core": true
   },
   {
@@ -5840,7 +5902,7 @@
     "created_at": "2026-06-21T09:26:13.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-21T09:40:33.701507",
-    "display_priority": 162,
+    "display_priority": 163,
     "is_core": true
   },
   {
@@ -5866,7 +5928,7 @@
     "created_at": "2026-06-23T02:25:33.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-23T02:32:58.759183",
-    "display_priority": 163,
+    "display_priority": 164,
     "is_core": true
   },
   {
@@ -5896,36 +5958,6 @@
     "created_at": "2026-06-23T02:13:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-23T02:32:58.759244",
-    "display_priority": 164,
-    "is_core": true
-  },
-  {
-    "id": "hf-lmsys--qwen-image-edit-modelopt-nvfp4-sglang",
-    "name": "lmsys/qwen-image-edit-modelopt-nvfp4-sglang",
-    "display_name": "qwen-image-edit-modelopt-nvfp4-sglang",
-    "url": "https://huggingface.co/lmsys/qwen-image-edit-modelopt-nvfp4-sglang",
-    "author": "lmsys",
-    "pipeline_tag": "image-to-image",
-    "likes": 0,
-    "downloads": 0,
-    "tags": [
-      "sglang",
-      "diffusers",
-      "safetensors",
-      "diffusion",
-      "modelopt",
-      "nvfp4",
-      "blackwell",
-      "qwen-image",
-      "image-to-image",
-      "base_model:Qwen/Qwen-Image-Edit",
-      "base_model:finetune:Qwen/Qwen-Image-Edit",
-      "license:other",
-      "region:us"
-    ],
-    "created_at": "2026-06-23T02:12:24.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-06-23T02:32:58.759252",
     "display_priority": 165,
     "is_core": true
   },
