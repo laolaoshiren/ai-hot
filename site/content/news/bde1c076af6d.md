@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://www.cnbc.com/2026/06/28/google-limits-metas
 summary = "Article URL: https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports."
 summary_zh = "文章网址：https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports.html 评论网址：https://news.y…"
 tags = []
-list_page = 33
+list_page = 34
 +++
 
 <!-- AUTO-GENERATED: news page -->
