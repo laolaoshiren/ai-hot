@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，springermedicine.com Home Springer Medicine provides trustworthy, tailored, cutting-edge content for medical professionals."
 summary_zh = ""
 tags = []
-list_page = 95
+list_page = 96
 +++
 
 <!-- AUTO-GENERATED: news page -->
