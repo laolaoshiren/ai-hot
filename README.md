@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-04 21:07:40
+🕐 **最近更新**：2026-07-05 03:02:14
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [今年您需要的唯一人工智能术语表](https://aihot.bt199.com/news/eeb0f69b3cf9/)
-   - 人工智能的兴起带来了大量新术语和俚语。这是一个词汇表，其中包含您可能遇到的一些最重要单词和短语的定义
-   - `TechCrunch AI · 2026-07-03`
+1. [《中程》希望好莱坞电影公司透露其人工智能使用的细节](https://aihot.bt199.com/news/81db9c8e2dbc/)
+   - 作为与三个好莱坞电影公司正在进行的法律纠纷的一部分，Midjourney 正在寻求迫使这些电影公司披露他们如何使用人工智…
+   - `TechCrunch AI · 2026-07-04`
 
-2. [浏览器之战不再是搜索问题——这里是 Chrome 和 Safari 的最佳替代品](https://aihot.bt199.com/news/f5e18ba468be/)
-   - 我们总结了目前可用的一些顶级替代浏览器，旨在挑战 Chrome 和 Safari
-   - `TechCrunch AI · 2026-07-03`
-
-3. [同人小说界正在与人工智能及其本身交战](https://aihot.bt199.com/news/f87cfe76151d/)
+2. [同人小说界正在与人工智能及其本身交战](https://aihot.bt199.com/news/f87cfe76151d/)
    - 过去一周，一场新的同人作品运动拉开序幕，旨在铲除使用生成人工智能的作者。但正在实施的检测方法值得怀疑，任何同人小说作家都…
    - `The Verge AI · 2026-07-04`
 
-4. [Anthropic想要开发自己的药物](https://aihot.bt199.com/news/a77a7282a377/)
+3. [Anthropic想要开发自己的药物](https://aihot.bt199.com/news/a77a7282a377/)
    - 在本周早些时候的“简报：科学人工智能”活动中，Anthropic 宣布推出 Claude Science，这是一个新的“…
    - `The Verge AI · 2026-07-03`
 
-5. [下载：冒烟的“结局”和新的伊丽莎白熊故事](https://aihot.bt199.com/news/e9cb2d76faa3/)
+4. [下载：冒烟的“结局”和新的伊丽莎白熊故事](https://aihot.bt199.com/news/e9cb2d76faa3/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。英国的代际烟草禁令可能行不通。无论如…
    - `MIT Tech Review · 2026-07-03`
 
-6. [英国的代际烟草禁令可能行不通。无论如何我都支持它。](https://aihot.bt199.com/news/21fa08f8f90b/)
-   - 作为两个小女孩的父母，我经常思考她们的童年与我的童年有何不同。这个七岁的孩子正在学校学习人工智能。这个五岁的孩子每周都会…
-   - `MIT Tech Review · 2026-07-03`
+5. [利用人工智能实现卓越运营](https://aihot.bt199.com/news/47a875ddb175/)
+   - 精益六西格码和业务流程管理 (BPM) 等框架首先受到关注，因为它们承诺在混乱中保持清晰——一种为混乱、庞大的运营带来秩…
+   - `MIT Tech Review · 2026-07-02`
+
+6. [据报道，阿里巴巴禁止员工使用克劳德代码](https://aihot.bt199.com/news/ffdf2d6e4cd4/)
+   - 据报道，阿里巴巴已将 Claude Code 列为高风险软件
+   - `TechCrunch AI · 2026-07-04`
 
 7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
