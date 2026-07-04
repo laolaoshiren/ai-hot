@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，继昨天claude崩了之后，今天差不多同样时间claude又崩了 2 个帖子 - 1 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 65
+list_page = 66
 +++
 
 <!-- AUTO-GENERATED: news page -->

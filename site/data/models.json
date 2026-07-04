@@ -5467,14 +5467,14 @@
     "is_core": true
   },
   {
-    "id": "hf-sdafafw22--MyAwesomeModel-TestRepo",
-    "name": "sdafafw22/MyAwesomeModel-TestRepo",
+    "id": "hf-qwwsad--MyAwesomeModel-TestRepo",
+    "name": "qwwsad/MyAwesomeModel-TestRepo",
     "display_name": "MyAwesomeModel-TestRepo",
-    "url": "https://huggingface.co/sdafafw22/MyAwesomeModel-TestRepo",
-    "author": "sdafafw22",
+    "url": "https://huggingface.co/qwwsad/MyAwesomeModel-TestRepo",
+    "author": "qwwsad",
     "pipeline_tag": "feature-extraction",
     "likes": 0,
-    "downloads": 256,
+    "downloads": 301,
     "tags": [
       "transformers",
       "pytorch",
@@ -5484,9 +5484,9 @@
       "endpoints_compatible",
       "region:us"
     ],
-    "created_at": "2026-06-18T09:59:12.000Z",
+    "created_at": "2026-07-04T08:17:11.000Z",
     "source": "hf-newest",
-    "collected_at": "2026-06-18T10:10:25.731004",
+    "collected_at": "2026-07-04T08:28:44.364791",
     "display_priority": 151,
     "is_core": true
   },

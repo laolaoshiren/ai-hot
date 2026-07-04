@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-04 10:08:51
+🕐 **最近更新**：2026-07-04 16:30:15
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -36,9 +36,9 @@
    - Midjourney 展示了更多其未来派医疗扫描仪。它还没有显示出太多证据证明它有效。这家以生成图像而闻名的人工智能初创…
    - `The Verge AI · 2026-07-03`
 
-6. [英国的代际烟草禁令可能行不通。无论如何我都支持它。](https://aihot.bt199.com/news/21fa08f8f90b/)
-   - 作为两个小女孩的父母，我经常思考她们的童年与我的童年有何不同。这个七岁的孩子正在学校学习人工智能。这个五岁的孩子每周都会…
-   - `MIT Tech Review · 2026-07-03`
+6. [利用人工智能实现卓越运营](https://aihot.bt199.com/news/47a875ddb175/)
+   - 精益六西格码和业务流程管理 (BPM) 等框架首先受到关注，因为它们承诺在混乱中保持清晰——一种为混乱、庞大的运营带来秩…
+   - `MIT Tech Review · 2026-07-02`
 
 7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

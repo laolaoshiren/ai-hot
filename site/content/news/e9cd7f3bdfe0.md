@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "36氪获悉，阿维塔7月1日宣布，已取得L3自动驾驶测试牌照，多场景道路实测有序推进。"
 summary_zh = ""
 tags = []
-list_page = 16
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->
