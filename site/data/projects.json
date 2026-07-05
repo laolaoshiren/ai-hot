@@ -6808,6 +6808,26 @@
     "collected_at": "2026-07-03T13:47:57.476577"
   },
   {
+    "id": "github-1282964765",
+    "name": "S4kur4/Portfolix",
+    "display_name": "Portfolix",
+    "url": "https://github.com/S4kur4/Portfolix",
+    "description": "面向个人投资者的投资组合管理工具，提供记录、追踪与 AI 智能分析功能。A local-first macOS app for personal portfolio records, tracking, and AI-assisted analysis.",
+    "stars": 9,
+    "forks": 0,
+    "language": "Swift",
+    "topics": [
+      "artificial-intelligence",
+      "financial-analysis",
+      "portfolio"
+    ],
+    "created_at": "2026-06-28T11:58:11Z",
+    "updated_at": "2026-07-05T01:25:54Z",
+    "license": "Apache-2.0",
+    "source": "github-search",
+    "collected_at": "2026-07-05T02:15:51.915426"
+  },
+  {
     "id": "github-1188906847",
     "name": "hackyguru/clawcage",
     "display_name": "clawcage",

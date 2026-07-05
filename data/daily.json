@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-07-04T19:01:33.993419",
-  "date": "2026-07-04",
+  "updated_at": "2026-07-05T02:16:35.454377",
+  "date": "2026-07-05",
   "spotlight": {
-    "name": "Genspark",
-    "url": "https://www.genspark.ai",
+    "name": "Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise",
     "type": "agent",
-    "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
-    "pricing": "免费",
-    "category": "研究 Agent"
+    "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
+    "pricing": "开源 + Cloud",
+    "category": "平台 Agent"
   },
   "alternates": [
     {
-      "name": "Ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
+      "name": "Cc Switch",
+      "url": "https://github.com/farion1231/cc-switch",
       "type": "agent",
-      "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
+      "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
       "pricing": "开源免费",
-      "category": "AI Agent"
+      "category": "编程 Agent"
     },
     {
-      "id": "秘塔搜索",
-      "name": "秘塔 AI 搜索",
-      "url": "https://metaso.cn",
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://gamma.app",
       "type": "tool",
-      "description": "国产 AI 搜索引擎，中文体验优秀",
-      "pricing": "免费",
-      "category": "搜索"
+      "description": "AI 一键生成 PPT/演示文稿",
+      "pricing": "免费 + Plus $10/月",
+      "category": "办公"
     },
     {
-      "name": "Aider",
-      "url": "https://github.com/Aider-AI/aider",
+      "name": "OpenCode",
+      "url": "https://github.com/opencode-ai/opencode",
       "type": "agent",
-      "description": "终端AI结对编程工具，支持多模型",
+      "description": "终端AI编码助手，支持多模型多Provider",
       "pricing": "开源免费",
       "category": "编程 Agent"
     }
