@@ -40,7 +40,11 @@ gpt-5.4
 /
 gpt-5.4-mini
 — 400K 上下文，日常编码主力
-gpt-5.3-codex&lt;/p&gt;</description></item><item><title>[已恢复]minimax 又故障了，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/e6cb2ce33da7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e6cb2ce33da7/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+gpt-5.3-codex&lt;/p&gt;</description></item><item><title>[新用户送 10 刀] 超低价 Codex API，最低每刀不到 0.05R，纯血 gpt plus 号池反代，可用 gpt5.5， gpt5.4, gpt-image2，稳定好用，这意味着什么？</title><link>https://aihot.bt199.com/news/v2ex-1225059/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1225059/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;消息称，卡网： &lt;a href="https://pay.ldxp.cn/shop/O1Q7PYYC"&gt;https://pay.ldxp.cn/shop/O1Q7PYYC&lt;/a&gt; 中转站： &lt;a href="https://app.runcode.win"&gt;https://app.runcode.win&lt;/a&gt; 下方留言注册邮箱，送 10 刀&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://www.v2ex.com/t/1225059"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>[已恢复]minimax 又故障了，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/e6cb2ce33da7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e6cb2ce33da7/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据悉，11:53 测试已经正常 官方回复: 就在刚刚, API异常, 网站无法打开.&lt;/p&gt;
 &lt;p&gt;这是什么节奏,最近两次了吧.&lt;/p&gt;
 &lt;p&gt;8 个帖子 - 5 位参与者 阅读完整话题&lt;/p&gt;
@@ -768,7 +772,20 @@ In the meantime, you can use Spark to sort and organize files, or use files on y
 &lt;p&gt;20 个帖子 - 13 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2476861"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GPT-5.5 产生的幻觉是 MIT 许可的 GLM-5.2 的 3 倍</title><link>https://aihot.bt199.com/news/89a83bf2a75c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/89a83bf2a75c/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2476861"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GPT-5.5 Codex 推理令牌聚类可能会导致性能下降</title><link>https://aihot.bt199.com/news/7887c5805612/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/7887c5805612/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Summary
+I found an aggregate pattern in Codex
+token_count
+metadata:
+gpt-5.5
+responses disproportionately land at exactly
+reasoning_output_tokens = 516
+, with additional fixed-boundary spikes around
+1034
+and&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://github.com/openai/codex/issues/30364"&gt;Hacker News AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>GPT-5.5 产生的幻觉是 MIT 许可的 GLM-5.2 的 3 倍</title><link>https://aihot.bt199.com/news/89a83bf2a75c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/89a83bf2a75c/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Bigger models are not the way
 Jun 18, 2026
 A shift is happening among major AI labs, who are becoming increasingly skeptical of endless parameter count and training data scaling.&lt;/p&gt;
@@ -2223,7 +2240,10 @@ Apple Store 美区原价或低价区付款 循环优惠
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
 &lt;a href="https://linux.do/t/topic/2452254"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>刚刚，因AI安全隐患遭监管，Anthropic承诺加强与美政府沟通</title><link>https://aihot.bt199.com/news/84f78ee00316/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/84f78ee00316/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;据报道，Anthropic高管向商务部长霍华德·卢特尼克提交一份方案，承诺与白宫展开更深度合作，力求尽快消除各类安全隐患；正是相关安全问题，使得该公司高性能AI模型“Mythos”与“Fable”遭到监管整治。&lt;/p&gt;</description></item><item><title>刚刚，由于RAM涨价，Nothing 终结了今年的 CMF 手机发布计划</title><link>https://aihot.bt199.com/news/8493f204f7c6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8493f204f7c6/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据报道，Anthropic高管向商务部长霍华德·卢特尼克提交一份方案，承诺与白宫展开更深度合作，力求尽快消除各类安全隐患；正是相关安全问题，使得该公司高性能AI模型“Mythos”与“Fable”遭到监管整治。&lt;/p&gt;</description></item><item><title>刚刚，硬氪首发 | 港大教授成立的忆生科技获数亿天使轮融资，致力于为机器人造一套记忆系统</title><link>https://aihot.bt199.com/news/28ba7321b9f1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/28ba7321b9f1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;作者 | 邱晓芬
+编辑 | 袁斯来
+硬氪获悉，「忆生科技」（TranscEngram）完成数亿元天使轮融资，本轮投资方阵容横跨产业资本与国资平台，包括正大旗下中生制药、浦东创投、张江科投、张江高科、弘信电子、云晖资本、沃肯资本、金舵资本等。&lt;/p&gt;</description></item><item><title>刚刚，由于RAM涨价，Nothing 终结了今年的 CMF 手机发布计划</title><link>https://aihot.bt199.com/news/8493f204f7c6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8493f204f7c6/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，The Verge – 19 Jun 26 Nothing cancels this year’s CMF phone due to RAM prices Nothing’s next budget phone will have to wait until at least 2027.&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -2400,7 +2420,9 @@ Postproduction on Artificial was nearly finished when Amazon MGM unexpectedly an
 &lt;p&gt;据报道，- IT之家 9 个帖子 - 9 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2479229"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>华泰证券：科技或仍是主线，但表观拥挤度已处于高位，业内人士怎么看？</title><link>https://aihot.bt199.com/news/0f69a6dec829/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/0f69a6dec829/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2479229"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>鸿海：6月销售额8218亿元台币 同比增长52.1％，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/e66d27f9cab8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e66d27f9cab8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;消息称，7月5日，鸿海6月销售额8218亿元台币，同比增长52.1％。&lt;/p&gt;
+&lt;p&gt;鸿海此前表示，第二季度业绩远超预期，实现显著增长；第二季度是ICT行业的传统淡季，但预计AI机架将继续保持增长趋势。&lt;/p&gt;</description></item><item><title>华泰证券：科技或仍是主线，但表观拥挤度已处于高位，业内人士怎么看？</title><link>https://aihot.bt199.com/news/0f69a6dec829/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/0f69a6dec829/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据报道，36氪获悉，华泰证券研报称，全球AI产业周期共振、算力需求和国产替代相互强化背景下，科技或仍是主线；但表观拥挤度已处于高位，叠加市场对Tokenmaxxing的讨论趋于白热化，后续B端对ROI、实际交付量等考核指标或更加重视，建议密切跟踪产业趋势，同时适度控制仓位、谨慎追高，关注国产大模型、光模块、存储/CCL、MLCC、MPO等细分环节。&lt;/p&gt;</description></item><item><title>黄仁勋计划回馈股东50%自由现金流，业内人士怎么看？</title><link>https://aihot.bt199.com/news/ba4cdf42b449/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ba4cdf42b449/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据报道，当地时间24日，美国芯片巨头英伟达举行年度股东大会。&lt;/p&gt;
 &lt;p&gt;公司首席执行官黄仁勋在会上表示，有用的AI已经到来，并且已经能够赚钱。&lt;/p&gt;
@@ -3947,7 +3969,11 @@ Prompt还没退场，Loop已经开始接管AI叙事。&lt;/p&gt;</description></
 &lt;p&gt;有分析指出，agent.qq.com Agently Mail Agently Mail，是 QQ 邮箱团队为 Agent 打造的专属邮箱服务。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2426264"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：完成数亿元新融资，影眸科技 Hyper3D 让 3D 生成进入“思考时代”丨36氪首发</title><link>https://aihot.bt199.com/news/95a5c6443eeb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/95a5c6443eeb/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2426264"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：土区续费 GPT plus 还是 500 里拉</title><link>https://aihot.bt199.com/news/v2ex-1225016/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1225016/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;之前记得看到有帖子说涨价的，价格又改回来了？&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://www.v2ex.com/t/1225016"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：完成数亿元新融资，影眸科技 Hyper3D 让 3D 生成进入“思考时代”丨36氪首发</title><link>https://aihot.bt199.com/news/95a5c6443eeb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/95a5c6443eeb/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;文｜王欣逸
 编辑｜张雨忻
 2026 年开年来，3D 生成模型赛道相当热闹。&lt;/p&gt;
@@ -4997,7 +5023,9 @@ Coding Assistants 政策
 &lt;p&gt;据悉，Epic Games 今天（6 月 18 日）宣布推出虚幻引擎 5.8（Unreal Engine 5.&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2431327"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>重磅！优必选超仿生机器人首发订单破万，最高售价99万元｜最前线</title><link>https://aihot.bt199.com/news/00c77fd4d51e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/00c77fd4d51e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2431327"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>重磅！用 AI 生成一个小浣熊水浒卡鉴赏网站</title><link>https://aihot.bt199.com/news/v2ex-1225027/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1225027/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;有分析指出，最近几年一直比较迷小浣熊水浒卡，去年小浣熊 30 周年又让水浒卡火了一把，所以就突发奇想搞个鉴赏网。&lt;/p&gt;
+&lt;p&gt;一个用于展示小浣熊水浒卡的响应式网站，提供卡片正反面鉴赏、基于 Three.&lt;/p&gt;</description></item><item><title>重磅！优必选超仿生机器人首发订单破万，最高售价99万元｜最前线</title><link>https://aihot.bt199.com/news/00c77fd4d51e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/00c77fd4d51e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;作者｜黄楠
 编辑｜袁斯来
 6月30日，优必选在2026年度全球发布会，正式推出全尺寸超仿生人形机器人“优世界”U1系列，包含半身版U1 Lite、高配全身版U1 Pro及高动态全身版U1 Ultra三款产品，售价区间为11.98万元至99万元。&lt;/p&gt;</description></item><item><title>重磅！由Gemini 3.5 Flash驱动的纯视觉Agent在Odysseys的评估中取得第一</title><link>https://aihot.bt199.com/news/4e653f3f6be2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/4e653f3f6be2/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
@@ -5422,7 +5450,13 @@ AI如今已经成为一个全民话题，但到底有多少人真正理解AI？&
 &lt;p&gt;如果你要核对细节，可以再看原文：
 &lt;a href="https://linux.do/t/topic/2465411"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>最新动态：因为成本上涨 iPhone 18 Pro 起售价可能高达 1399 美元</title><link>https://aihot.bt199.com/news/528a9eb48598/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/528a9eb48598/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，苹果本周确认，受存储芯片成本上涨影响，其全线产品将面临涨价。&lt;/p&gt;
-&lt;p&gt;《华尔街日报》随后发布分析报告，预计 iPhone 18 Pro 的起售价可能高达 1399 美元。&lt;/p&gt;</description></item><item><title>最新动态：圆桌论坛：在没人相信之前，乘风破浪的创er | 36氪WAVES2026新浪潮</title><link>https://aihot.bt199.com/news/664c6436730b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/664c6436730b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;《华尔街日报》随后发布分析报告，预计 iPhone 18 Pro 的起售价可能高达 1399 美元。&lt;/p&gt;</description></item><item><title>最新动态：用 HK 节点 使用 Codex 时老是出现： stream disconnected before completion: tls handshake eof</title><link>https://aihot.bt199.com/news/v2ex-1225014/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1225014/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;@
+ivvei
+我大概猜一下你的逻辑。&lt;/p&gt;
+&lt;p&gt;所以你的机场 HK 节点用不了 GPT 吗还是？&lt;/p&gt;
+&lt;p&gt;如果你的也能用，但是你的没出问题，你可以选择不回复，就当个过客。&lt;/p&gt;
+&lt;p&gt;如果你想回复，你也并不需要给我解释 原生 HK 节点到底能不能用，因为你的也是能用的，只不过你没出现过类似问题。&lt;/p&gt;</description></item><item><title>最新动态：圆桌论坛：在没人相信之前，乘风破浪的创er | 36氪WAVES2026新浪潮</title><link>https://aihot.bt199.com/news/664c6436730b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/664c6436730b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据了解，每一个创业者，都有一段“没人相信”的日子。&lt;/p&gt;
 &lt;p&gt;但正是那段日子，把他们推向了浪尖。&lt;/p&gt;
 &lt;p&gt;创业是鲜活的，接下来这一场，我们听一听那些在质疑声中长大的创业者，怎么把“不可能”变成“不，可能”。&lt;/p&gt;</description></item><item><title>最新动态：圆桌讨论：在番禺，我们造了什么？｜36氪WAVES2026新浪潮</title><link>https://aihot.bt199.com/news/6b9b8b81e7b1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/6b9b8b81e7b1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
