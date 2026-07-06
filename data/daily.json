@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-05T19:08:12.775679",
-  "date": "2026-07-05",
+  "updated_at": "2026-07-06T02:28:27.660882",
+  "date": "2026-07-06",
   "spotlight": {
-    "name": "Flowise",
-    "url": "https://github.com/FlowiseAI/Flowise",
+    "name": "Goose",
+    "url": "https://github.com/aaif-goose/goose",
     "type": "agent",
-    "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
-    "pricing": "开源 + Cloud",
-    "category": "平台 Agent"
+    "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
+    "pricing": "开源免费",
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "Cc Switch",
-      "url": "https://github.com/farion1231/cc-switch",
+      "name": "Awesome Openclaw Skills",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
       "type": "agent",
-      "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
+      "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
       "pricing": "开源免费",
-      "category": "编程 Agent"
+      "category": "助手 Agent"
     },
     {
-      "id": "gamma",
-      "name": "Gamma",
-      "url": "https://gamma.app",
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
       "type": "tool",
-      "description": "AI 一键生成 PPT/演示文稿",
-      "pricing": "免费 + Plus $10/月",
+      "description": "Google 出品的 AI 笔记/知识管理工具",
+      "pricing": "免费",
       "category": "办公"
     },
     {
-      "name": "OpenCode",
-      "url": "https://github.com/opencode-ai/opencode",
+      "name": "Dify",
+      "url": "https://github.com/langgenius/dify",
       "type": "agent",
-      "description": "终端AI编码助手，支持多模型多Provider",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "开源LLM应用开发平台，可视化构建AI Agent",
+      "pricing": "开源 + Cloud",
+      "category": "平台 Agent"
     }
   ]
 }
