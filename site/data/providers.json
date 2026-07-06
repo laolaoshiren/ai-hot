@@ -232,15 +232,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Hy3 preview",
-      "Hunyuan A13B Instruct"
+      "Hy3 (free)",
+      "Hy3",
+      "Hy3 preview"
     ],
-    "model_count": 2,
-    "last_updated": "2026-04-22",
+    "model_count": 4,
+    "last_updated": "2026-07-06",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Hy3 preview",
+    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 Hy3 (free)",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=64"
   },

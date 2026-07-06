@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，据蓝鲸新闻，6月29日，多位开发者确认，已收到DeepSeek发送的升级提醒邮件。邮件显示，DeepSeekV4正式版计划于7月中旬正式上线，并将同步调整API定价策略，引入峰谷定价机制，以更合理地配置资源、提升服务稳定性。"
 summary_zh = ""
 tags = []
-list_page = 35
+list_page = 36
 +++
 
 <!-- AUTO-GENERATED: news page -->

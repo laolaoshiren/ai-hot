@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，我们是一群每天深度使用 AI 工具的人 最近我们碰到一个普遍现象💡 ：很多人在用 AI 工具时，容易陷入自己的信息茧房。"
 summary_zh = ""
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->
