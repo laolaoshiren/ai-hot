@@ -20,7 +20,7 @@ ai_summary = "这家加拿大养老金巨头将收购 CtrlS 8.2% 的股份，Ctr
 summary = "The Canadian pension giant will acquire an 8.2% stake in CtrlS, a tech giant that operates more than 15 data centers across India."
 summary_zh = "这家加拿大养老金巨头将收购 CtrlS 8.2% 的股份，CtrlS 是一家科技巨头，在印度各地运营着超过 15 个数据中心"
 tags = []
-list_page = 117
+list_page = 118
 +++
 
 <!-- AUTO-GENERATED: news page -->
