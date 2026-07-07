@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-07 03:48:25
+🕐 **最近更新**：2026-07-07 10:17:36
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [2026 年每一次重大科技裁员都涉及人工智能](https://aihot.bt199.com/news/1fae758ade94/)
-   - 按时间倒序顺序观察今年宣布大幅裁员的大型科技公司，其中人工智能是一个明确的因素
+1. [“第一次”人工智能运行的勒索软件攻击仍然需要人类](https://aihot.bt199.com/news/bd206ca68985/)
+   - 人工智能代理首次对现实世界的勒索软件攻击进行了技术执行，但新的细节显示，人类仍然选择了受害者，建立了基础设施，并提供了被…
    - `TechCrunch AI · 2026-07-06`
 
-2. [如果你使用谷歌，你就是在训练它的人工智能。以下是如何选择退出。](https://aihot.bt199.com/news/88a9e7b84587/)
-   - PSA：谷歌隐私设置的改变让它可以根据更多的数据训练人工智能。以下是如何选择退出
+2. [美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士](https://aihot.bt199.com/news/d4e9be0269bb/)
+   - SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行
    - `TechCrunch AI · 2026-07-06`
 
 3. [您家族在 OpenAI 中持有 300 美元的股份](https://aihot.bt199.com/news/e930f63d2b61/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

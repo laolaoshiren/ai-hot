@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "计划1000倍综合降本"
 summary_zh = ""
 tags = []
-list_page = 118
+list_page = 119
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-07-06T19:47:39.730902",
-  "date": "2026-07-06",
+  "updated_at": "2026-07-07T02:16:51.276310",
+  "date": "2026-07-07",
   "spotlight": {
-    "name": "Goose",
-    "url": "https://github.com/aaif-goose/goose",
+    "name": "Plandex",
+    "url": "https://github.com/plandex-ai/plandex",
     "type": "agent",
-    "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
-    "pricing": "开源免费",
+    "description": "面向大型项目的开源AI编码Agent，终端内全自主开发",
+    "pricing": "开源 + API费用",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "Awesome Openclaw Skills",
-      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "name": "Vibetest Use",
+      "url": "https://github.com/browser-use/vibetest-use",
       "type": "agent",
-      "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
+      "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
       "pricing": "开源免费",
-      "category": "助手 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "id": "notebooklm",
-      "name": "NotebookLM",
-      "url": "https://notebooklm.google.com",
-      "type": "tool",
-      "description": "Google 出品的 AI 笔记/知识管理工具",
-      "pricing": "免费",
-      "category": "办公"
-    },
-    {
+      "id": "dify",
       "name": "Dify",
-      "url": "https://github.com/langgenius/dify",
+      "url": "https://dify.ai",
+      "type": "tool",
+      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
+      "pricing": "开源 + 云服务",
+      "category": "Agent"
+    },
+    {
+      "name": "Coze",
+      "url": "https://www.coze.com",
       "type": "agent",
-      "description": "开源LLM应用开发平台，可视化构建AI Agent",
-      "pricing": "开源 + Cloud",
+      "description": "字节跳动AI Bot构建平台，无代码创建Agent",
+      "pricing": "免费 + Pro",
       "category": "平台 Agent"
     }
   ]

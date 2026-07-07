@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，亚马逊正洽谈向其他公司的数据中心出售其定制人工智能芯片。亚马逊人工智能业务负责人Peter DeSantis称公司已启动相关讨论，但拒绝透露潜在客户名单。（界面）"
 summary_zh = ""
 tags = []
-list_page = 104
+list_page = 106
 +++
 
 <!-- AUTO-GENERATED: news page -->
