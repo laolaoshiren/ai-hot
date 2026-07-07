@@ -3997,21 +3997,26 @@
     "is_core": true
   },
   {
-    "id": "hf-robbyant--lingbot-map",
-    "name": "robbyant/lingbot-map",
-    "display_name": "lingbot-map",
-    "url": "https://huggingface.co/robbyant/lingbot-map",
-    "author": "robbyant",
+    "id": "hf-ilkerzgi--fal-Krea-2-Style-LoRAs",
+    "name": "ilkerzgi/fal-Krea-2-Style-LoRAs",
+    "display_name": "fal-Krea-2-Style-LoRAs",
+    "url": "https://huggingface.co/ilkerzgi/fal-Krea-2-Style-LoRAs",
+    "author": "ilkerzgi",
     "pipeline_tag": "",
-    "likes": 134,
+    "likes": 135,
     "downloads": 0,
     "tags": [
-      "arxiv:2604.14141",
+      "lora",
+      "krea",
+      "krea-2",
+      "fal-ai",
+      "index",
+      "license:other",
       "region:us"
     ],
-    "created_at": "2026-04-16T00:46:33.000Z",
+    "created_at": "2026-06-26T13:07:01.000Z",
     "source": "hf-trending",
-    "collected_at": "2026-04-21T13:07:47.733896",
+    "collected_at": "2026-07-07T09:28:55.672876",
     "display_priority": 106,
     "is_core": true
   },
@@ -4366,6 +4371,36 @@
     "is_core": true
   },
   {
+    "id": "hf-bottlecapai--ThinkingCap-Qwen3.6-27B",
+    "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "display_name": "ThinkingCap-Qwen3.6-27B",
+    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "author": "bottlecapai",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 59,
+    "downloads": 46,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3_6",
+      "token-efficient",
+      "efficient-thinking",
+      "conversational",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:finetune:Qwen/Qwen3.6-27B",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-07-06T13:16:04.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-07T09:28:55.672869",
+    "display_priority": 117,
+    "is_core": true
+  },
+  {
     "id": "hf-jinaai--jina-embeddings-v5-omni-small",
     "name": "jinaai/jina-embeddings-v5-omni-small",
     "display_name": "jina-embeddings-v5-omni-small",
@@ -4401,7 +4436,7 @@
     "created_at": "2026-04-01T22:06:52.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-15T08:42:52.438323",
-    "display_priority": 117,
+    "display_priority": 118,
     "is_core": true
   },
   {
@@ -4430,7 +4465,7 @@
     "created_at": "2026-06-19T09:40:33.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-22T11:40:01.601853",
-    "display_priority": 118,
+    "display_priority": 119,
     "is_core": true
   },
   {
@@ -4465,7 +4500,7 @@
     "created_at": "2026-04-23T10:09:22.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-12T02:14:25.384156",
-    "display_priority": 119,
+    "display_priority": 120,
     "is_core": true
   },
   {
@@ -4498,39 +4533,6 @@
     "created_at": "2026-06-29T20:09:50.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-03T19:07:08.423518",
-    "display_priority": 120,
-    "is_core": true
-  },
-  {
-    "id": "hf-ibm-granite--granite-vision-4.1-4b",
-    "name": "ibm-granite/granite-vision-4.1-4b",
-    "display_name": "granite-vision-4.1-4b",
-    "url": "https://huggingface.co/ibm-granite/granite-vision-4.1-4b",
-    "author": "ibm-granite",
-    "pipeline_tag": "image-text-to-text",
-    "likes": 46,
-    "downloads": 5961,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "granite4_vision",
-      "feature-extraction",
-      "image-text-to-text",
-      "conversational",
-      "custom_code",
-      "en",
-      "arxiv:2603.27064",
-      "arxiv:2208.00385",
-      "arxiv:2502.09927",
-      "arxiv:2406.04334",
-      "license:apache-2.0",
-      "eval-results",
-      "deploy:azure",
-      "region:us"
-    ],
-    "created_at": "2026-04-16T13:58:07.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-05-02T18:52:15.612275",
     "display_priority": 121,
     "is_core": true
   },

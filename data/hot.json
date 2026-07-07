@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-07T02:17:36.623610",
-  "total": 8,
+  "updated_at": "2026-07-07T09:30:58.955533",
+  "total": 7,
   "hot_list": [
     {
       "title": "“第一次”人工智能运行的勒索软件攻击仍然需要人类",
@@ -18,24 +18,6 @@
       "category": "资讯",
       "news_id": "bd206ca68985",
       "internal_url": "https://aihot.bt199.com/news/bd206ca68985/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "name": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "title_zh": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-06",
-      "time": "2026-07-06",
-      "description": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "subtitle": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "ai_summary": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "category": "资讯",
-      "news_id": "d4e9be0269bb",
-      "internal_url": "https://aihot.bt199.com/news/d4e9be0269bb/",
       "type_label": "📰 新闻"
     },
     {
@@ -167,24 +149,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "name": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "title_zh": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-06",
-      "time": "2026-07-06",
-      "description": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "subtitle": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "ai_summary": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "category": "资讯",
-      "news_id": "d4e9be0269bb",
-      "internal_url": "https://aihot.bt199.com/news/d4e9be0269bb/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "您家族在 OpenAI 中持有 300 美元的股份",
       "name": "您家族在 OpenAI 中持有 300 美元的股份",
       "title_zh": "您家族在 OpenAI 中持有 300 美元的股份",
@@ -296,7 +260,7 @@
   "type_stats": {
     "tool": 0,
     "project": 0,
-    "news": 8,
+    "news": 7,
     "model": 0
   },
   "items": [
@@ -316,24 +280,6 @@
       "category": "资讯",
       "news_id": "bd206ca68985",
       "internal_url": "https://aihot.bt199.com/news/bd206ca68985/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "name": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "title_zh": "美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士",
-      "url": "https://techcrunch.com/2026/07/06/us-investors-will-soon-get-access-to-sk-hynix-another-memory-maker-riding-the-ai-boom/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-06",
-      "time": "2026-07-06",
-      "description": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "subtitle": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "ai_summary": "SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行",
-      "category": "资讯",
-      "news_id": "d4e9be0269bb",
-      "internal_url": "https://aihot.bt199.com/news/d4e9be0269bb/",
       "type_label": "📰 新闻"
     },
     {

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-07 10:17:36
+🕐 **最近更新**：2026-07-07 17:30:59
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,31 +20,27 @@
    - 人工智能代理首次对现实世界的勒索软件攻击进行了技术执行，但新的细节显示，人类仍然选择了受害者，建立了基础设施，并提供了被…
    - `TechCrunch AI · 2026-07-06`
 
-2. [美国投资者很快将有机会投资另一家乘着人工智能热潮的存储器制造商SK海力士](https://aihot.bt199.com/news/d4e9be0269bb/)
-   - SK 海力士正在经历人工智能带来的繁荣。它将借此进行数十亿美元的美国首次公开募股，预计将于周五进行
-   - `TechCrunch AI · 2026-07-06`
-
-3. [您家族在 OpenAI 中持有 300 美元的股份](https://aihot.bt199.com/news/e930f63d2b61/)
+2. [您家族在 OpenAI 中持有 300 美元的股份](https://aihot.bt199.com/news/e930f63d2b61/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。 OpenAI…
    - `MIT Tech Review · 2026-07-06`
 
-4. [下载：韩国最热门的单身汉和先进的眼部移植手术](https://aihot.bt199.com/news/c83f72877e1f/)
+3. [下载：韩国最热门的单身汉和先进的眼部移植手术](https://aihot.bt199.com/news/c83f72877e1f/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。韩国最炙手可热的新光棍是芯片工人 3…
    - `MIT Tech Review · 2026-07-06`
 
-5. [一些国家的富人正在让人工智能教他们的孩子](https://aihot.bt199.com/news/f4dfdde345c5/)
+4. [一些国家的富人正在让人工智能教他们的孩子](https://aihot.bt199.com/news/f4dfdde345c5/)
    - 大多数美国人不信任人工智能。事实证明，它不知道什么是安全的披萨配料。人们甚至不想听人工智能音乐。但对于一些美国富人来说…
    - `The Verge AI · 2026-07-05`
 
-6. [令人愤怒的谷歌广告想象创始人拥抱人工智能](https://aihot.bt199.com/news/c597736af88d/)
+5. [令人愤怒的谷歌广告想象创始人拥抱人工智能](https://aihot.bt199.com/news/c597736af88d/)
    - “集体项目，但定在1776年。”这就是 Google Workspace 的新广告的开头。从那时起事情只会变得更加令人毛…
    - `The Verge AI · 2026-07-05`
 
-7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
+6. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
    - `Ars Technica AI · 2026-06-30`
 
-8. [由于大多数用户使用 AI 代理，Notion 杀死了受 Skiff 影响的电子邮件应用程序](https://aihot.bt199.com/news/47b14e041896/)
+7. [由于大多数用户使用 AI 代理，Notion 杀死了受 Skiff 影响的电子邮件应用程序](https://aihot.bt199.com/news/47b14e041896/)
    - 概念是“全力以赴使用代理来运行您的收件箱”
    - `Ars Technica AI · 2026-06-25`
 
@@ -131,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -55,7 +55,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-07-21",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/tencent/hy3-20260706/endpoints"
       },
@@ -90,9 +90,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000058",
-        "input_cache_read": "0.000000035"
+        "prompt": "0.0000002",
+        "completion": "0.0000008",
+        "input_cache_read": "0.0000005"
       },
       "top_provider": {
         "context_length": 202752,
@@ -789,13 +789,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000009086",
-        "completion": "0.0000028556",
-        "input_cache_read": "0.00000016874"
+        "prompt": "0.0000009",
+        "completion": "0.00000286",
+        "input_cache_read": "0.00000017"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 1048576,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -28057,5 +28057,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-07T02:16:51.097401+00:00"
+  "updated_at": "2026-07-07T09:29:39.980731+00:00"
 }

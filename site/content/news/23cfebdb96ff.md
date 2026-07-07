@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，36氪获悉，开源AI Agent项目OpenSquilla近日发布0.4.0版本，核心更新是推出编码工作流coding模式，并首次为AI编码引入“自我验证”机制。"
 summary_zh = ""
 tags = []
-list_page = 30
+list_page = 32
 +++
 
 <!-- AUTO-GENERATED: news page -->
