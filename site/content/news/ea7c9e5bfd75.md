@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，不知道豆包什么时候接入 豆包其实也默默的在升级，以前都没有版本标注的 5 个帖子 - 4 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 85
+list_page = 86
 +++
 
 <!-- AUTO-GENERATED: news page -->

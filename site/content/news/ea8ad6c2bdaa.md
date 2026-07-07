@@ -20,7 +20,7 @@ ai_summary = "人工智能再次成为大学毕业抗议的核心——这次是
 summary = "AI is once again at the heart of a college graduation protest — this time for the technology's use in Google's defense contracts."
 summary_zh = "人工智能再次成为大学毕业抗议的核心——这次是因为该技术在谷歌国防合同中的使用"
 tags = []
-list_page = 127
+list_page = 128
 +++
 
 <!-- AUTO-GENERATED: news page -->
