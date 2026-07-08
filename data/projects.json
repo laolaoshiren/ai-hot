@@ -5514,6 +5514,34 @@
     "collected_at": "2026-06-17T11:23:22.207694"
   },
   {
+    "id": "github-1290068976",
+    "name": "ashutosh-rath02/atrophy",
+    "display_name": "atrophy",
+    "url": "https://github.com/ashutosh-rath02/atrophy",
+    "description": "Measure what your brain is losing while AI does your work - unaided-skill baselines, decay curves, reliance drills",
+    "stars": 19,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "cli",
+      "deliberate-practice",
+      "developer-tools",
+      "elo-rating",
+      "local-first",
+      "nodejs",
+      "skill-assessment",
+      "skill-decay",
+      "typescript"
+    ],
+    "created_at": "2026-07-05T14:45:19Z",
+    "updated_at": "2026-07-08T07:53:32Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-07-08T08:13:10.758386"
+  },
+  {
     "id": "github-1235821686",
     "name": "Thiago-code-lab/aws-certified-ai-practitioner-brasil",
     "display_name": "aws-certified-ai-practitioner-brasil",

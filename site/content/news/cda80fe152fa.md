@@ -20,7 +20,7 @@ ai_summary = "最新预告片证实，《旺卡》的《金票》将于 9 月 23
 summary = "A new teaser trailer confirmed that Wonka's The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios."
 summary_zh = "最新预告片证实，《旺卡》的《金票》将于 9 月 23 日在 Netflix 首播，继《乌贼游戏》真人秀之后，又顺应基于虚构酷刑场景打造真实竞赛的趋势。虽然预告片中看到的布景是真实的，而不是格拉斯哥风格的人工智能"
 tags = []
-list_page = 31
+list_page = 33
 +++
 
 <!-- AUTO-GENERATED: news page -->
