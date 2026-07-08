@@ -20,7 +20,7 @@ ai_summary = "Sound 的声誉建立在对领先的人工智能实验室的集中
 summary = "Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher's new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them."
 summary_zh = "Sound 的声誉建立在对领先的人工智能实验室的集中、高度确信的押注之上，而库彻的新基金似乎正在追逐这些公司的底层——为它们提供动力的基础设施和能源"
 tags = []
-list_page = 26
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-07-08T08:15:03.561433",
-  "total": 7,
+  "updated_at": "2026-07-08T13:48:08.185386",
+  "total": 6,
   "hot_list": [
     {
       "title": "法国热门初创公司 ZML 发布免费产品，以加快多种人工智能芯片的推理速度",
@@ -21,21 +21,21 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "name": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "title_zh": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "title": "下载：蠕虫对抗污染，地球工程面对现实",
+      "name": "下载：蠕虫对抗污染，地球工程面对现实",
+      "title_zh": "下载：蠕虫对抗污染，地球工程面对现实",
+      "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
       "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
+      "source": "MIT Tech Review",
+      "score": 13,
       "detail": "2026-07-08",
       "time": "2026-07-08",
-      "description": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
-      "subtitle": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
-      "ai_summary": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
+      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
+      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
       "category": "资讯",
-      "news_id": "7e6b7a6e47de",
-      "internal_url": "https://aihot.bt199.com/news/7e6b7a6e47de/",
+      "news_id": "de792f4a79c2",
+      "internal_url": "https://aihot.bt199.com/news/de792f4a79c2/",
       "type_label": "📰 新闻"
     },
     {
@@ -72,24 +72,6 @@
       "category": "资讯",
       "news_id": "0e5ebf4a584e",
       "internal_url": "https://aihot.bt199.com/news/0e5ebf4a584e/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "name": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "title_zh": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-07-07",
-      "time": "2026-07-07",
-      "description": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "subtitle": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "ai_summary": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "category": "资讯",
-      "news_id": "34dc6f6de3b4",
-      "internal_url": "https://aihot.bt199.com/news/34dc6f6de3b4/",
       "type_label": "📰 新闻"
     },
     {
@@ -149,21 +131,21 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "name": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "title_zh": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "title": "下载：蠕虫对抗污染，地球工程面对现实",
+      "name": "下载：蠕虫对抗污染，地球工程面对现实",
+      "title_zh": "下载：蠕虫对抗污染，地球工程面对现实",
+      "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
       "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
+      "source": "MIT Tech Review",
+      "score": 13,
       "detail": "2026-07-08",
       "time": "2026-07-08",
-      "description": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
-      "subtitle": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
-      "ai_summary": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
+      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
+      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
       "category": "资讯",
-      "news_id": "7e6b7a6e47de",
-      "internal_url": "https://aihot.bt199.com/news/7e6b7a6e47de/",
+      "news_id": "de792f4a79c2",
+      "internal_url": "https://aihot.bt199.com/news/de792f4a79c2/",
       "type_label": "📰 新闻"
     },
     {
@@ -200,24 +182,6 @@
       "category": "资讯",
       "news_id": "0e5ebf4a584e",
       "internal_url": "https://aihot.bt199.com/news/0e5ebf4a584e/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "name": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "title_zh": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-07-07",
-      "time": "2026-07-07",
-      "description": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "subtitle": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "ai_summary": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "category": "资讯",
-      "news_id": "34dc6f6de3b4",
-      "internal_url": "https://aihot.bt199.com/news/34dc6f6de3b4/",
       "type_label": "📰 新闻"
     },
     {
@@ -260,7 +224,7 @@
   "type_stats": {
     "tool": 0,
     "project": 0,
-    "news": 7,
+    "news": 6,
     "model": 0
   },
   "items": [
@@ -283,21 +247,21 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "name": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "title_zh": "AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元",
-      "url": "https://techcrunch.com/2026/07/08/sambanova-draws-1b-at-11b-valuation-in-series-f-first-close/",
+      "title": "下载：蠕虫对抗污染，地球工程面对现实",
+      "name": "下载：蠕虫对抗污染，地球工程面对现实",
+      "title_zh": "下载：蠕虫对抗污染，地球工程面对现实",
+      "url": "https://www.technologyreview.com/2026/07/08/1140216/the-download-worms-manure-pollution-geoengineering-reality-check/",
       "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
+      "source": "MIT Tech Review",
+      "score": 13,
       "detail": "2026-07-08",
       "time": "2026-07-08",
-      "description": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
-      "subtitle": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
-      "ai_summary": "在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
+      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
+      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…",
       "category": "资讯",
-      "news_id": "7e6b7a6e47de",
-      "internal_url": "https://aihot.bt199.com/news/7e6b7a6e47de/",
+      "news_id": "de792f4a79c2",
+      "internal_url": "https://aihot.bt199.com/news/de792f4a79c2/",
       "type_label": "📰 新闻"
     },
     {
@@ -334,24 +298,6 @@
       "category": "资讯",
       "news_id": "0e5ebf4a584e",
       "internal_url": "https://aihot.bt199.com/news/0e5ebf4a584e/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "name": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "title_zh": "IT 领导者需要扩展的 AI 架构的基本元素",
-      "url": "https://www.technologyreview.com/2026/07/07/1139413/the-foundational-elements-of-ai-architecture-that-it-leaders-need-to-scale/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-07-07",
-      "time": "2026-07-07",
-      "description": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "subtitle": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "ai_summary": "随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…",
-      "category": "资讯",
-      "news_id": "34dc6f6de3b4",
-      "internal_url": "https://aihot.bt199.com/news/34dc6f6de3b4/",
       "type_label": "📰 新闻"
     },
     {

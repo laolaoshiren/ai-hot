@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-08 16:15:04
+🕐 **最近更新**：2026-07-08 21:48:08
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,9 +20,9 @@
    - ZML 是一家热门的法国人工智能初创公司，得到了图灵奖得主 Yann LeCun 的认可，现在发布了 ZML/LLMD…
    - `TechCrunch AI · 2026-07-08`
 
-2. [AI 芯片制造商 SambaNova 在上一轮大型融资 5 个月后以 11B 美元估值筹集 10 亿美元](https://aihot.bt199.com/news/7e6b7a6e47de/)
-   - 在传闻英特尔试图以约 16 亿美元收购 AI 芯片制造商 SambaNova 几个月后，该公司的估值达到 11B 美元
-   - `TechCrunch AI · 2026-07-08`
+2. [下载：蠕虫对抗污染，地球工程面对现实](https://aihot.bt199.com/news/de792f4a79c2/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…
+   - `MIT Tech Review · 2026-07-08`
 
 3. [Meta的新Muse Image模型可以将其他Instagram用户拉入AI照片中](https://aihot.bt199.com/news/041d3e03c54a/)
    - Meta 正在推出由其超级智能实验室部门制作的第一个人工智能图像生成模型。根据周二的公告，Muse Image 模型现已…
@@ -32,15 +32,11 @@
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。你的家族持有 OpenAI 300…
    - `MIT Tech Review · 2026-07-07`
 
-5. [IT 领导者需要扩展的 AI 架构的基本元素](https://aihot.bt199.com/news/34dc6f6de3b4/)
-   - 随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…
-   - `MIT Tech Review · 2026-07-07`
-
-6. [黑客可以使用 9 种最流行的人工智能工具来组装大规模僵尸网络](https://aihot.bt199.com/news/f56b56f54774/)
+5. [黑客可以使用 9 种最流行的人工智能工具来组装大规模僵尸网络](https://aihot.bt199.com/news/f56b56f54774/)
    - “HalluSquatting”武器化了法学硕士无法说“我不知道”的情况
    - `Ars Technica AI · 2026-07-08`
 
-7. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
+6. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
    - `Ars Technica AI · 2026-06-30`
 
@@ -127,6 +123,8 @@
 ---
 
 MIT License
+
+
 
 
 

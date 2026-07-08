@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，36氪获悉，近日，国家超算互联网正式启动SCNet万卡共创者激励计划，将基于scaleX万卡超集群，面向全球AI开发者、初创团队、科研机构提供最高亿级词元（Tokens）额度与千卡时国产算力资源。"
 summary_zh = ""
 tags = []
-list_page = 45
+list_page = 47
 +++
 
 <!-- AUTO-GENERATED: news page -->

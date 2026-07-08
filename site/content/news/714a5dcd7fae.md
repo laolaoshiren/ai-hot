@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology."
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Claude Science 是 Anthropic 的最新旗舰产品 在昨天为制药公司高管、生物技术创始人和研究人员举办的活动中，Anthropi"
 tags = []
-list_page = 27
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->
