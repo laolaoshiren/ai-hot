@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>📰 AI新闻 on AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐</title><link>https://aihot.bt199.com/news/</link><description>Recent content in 📰 AI新闻 on AI热榜 - 每6小时更新 | AI工具大全·AI导航·AI工具推荐</description><generator>Hugo</generator><language>zh-CN</language><atom:link href="https://aihot.bt199.com/news/index.xml" rel="self" type="application/rss+xml"/><item><title>“第一次”人工智能运行的勒索软件攻击仍然需要人类</title><link>https://aihot.bt199.com/news/bd206ca68985/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/bd206ca68985/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;Last week, researchers at cloud security firm Sysdig said they’d documented the first known case of “agentic ransomware.” It was an extortion operation, dubbed JadePuffer, in which an AI agent — not a human — handled the technical execution of a real-world cyberattack from start to finish.&lt;/p&gt;</description></item><item><title>“危险”的人工智能模型无论如何都会到来</title><link>https://aihot.bt199.com/news/8b2d013a0637/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8b2d013a0637/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Last week, researchers at cloud security firm Sysdig said they’d documented the first known case of “agentic ransomware.” It was an extortion operation, dubbed JadePuffer, in which an AI agent — not a human — handled the technical execution of a real-world cyberattack from start to finish.&lt;/p&gt;</description></item><item><title>“人机共生，产需共融”——2026世界机器人大会新闻发布会在京召开，业内人士怎么看？</title><link>https://aihot.bt199.com/news/36b7f3adad29/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/36b7f3adad29/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;“人机共生，产需共融”——2026世界机器人大会新闻发布会在京召开
+量子位的朋友们
+2026-07-08
+18:04:39
+来源：
+量子位
+7月6日，2026世界机器人大会新闻发布会在北京召开，向全球传递以机器人科技赋能高质量发展、以国际协作共享创新成果的鲜明信号，让机器人更好走进千行百业、服务民生福祉，践行科技向善使命。&lt;/p&gt;</description></item><item><title>“危险”的人工智能模型无论如何都会到来</title><link>https://aihot.bt199.com/news/8b2d013a0637/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8b2d013a0637/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;“It’s myopic in the extreme to think that no other competitors to Anthropic will develop similar capabilities to Mythos or even that they have not already done so,” says Tarah Wheeler, chief security officer of the specialized cybersecurity consulting firm TPO Group.&lt;/p&gt;
 &lt;p&gt;“There are other companies hot on Anthropic’s heels who probably have the capabilities, too, and are holding them in reserve as they see how Anthropic is being treated in the current regulatory environment.”
 Anthropic itself has emphasized this point since the launch of Mythos Preview.&lt;/p&gt;</description></item><item><title>“我一行代码都没读就发布了”，被OpenAI收购后，uv工具创始人开始反思AI编程，这意味着什么？</title><link>https://aihot.bt199.com/news/acc220af17ad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/acc220af17ad/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
@@ -274,10 +281,12 @@ unveiled its SN50 chip
 , alongside a
 $350 million Series E in February
 .&lt;/p&gt;</description></item><item><title>AI 遇见密码学 1：AI 在 Cloudflare 的 Circl 中发现了什么</title><link>https://aihot.bt199.com/news/1b7f65587f4e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/1b7f65587f4e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;文章网址：https://blog.zksecurity.xyz/posts/circl-bugs/ 评论网址：http…&lt;/p&gt;
-&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
-&lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://blog.zksecurity.xyz/posts/circl-bugs/"&gt;Hacker News AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换，业内人士怎么看？</title><link>https://aihot.bt199.com/news/259816ab9ac1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/259816ab9ac1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;We pointed our AI audit pipeline at Cloudflare&amp;rsquo;s CIRCL experimental cryptography library and confirmed seven real bugs, from a critical float64 precision loss in threshold RSA to a complete access-control break in attribute-based encryption.&lt;/p&gt;
+&lt;p&gt;All seven are now fixed upstream.&lt;/p&gt;
+&lt;p&gt;This is the first post in a series on bugs our agents found across open source cryptography.
+At zkSecurity we are building
+zkao
+, an AI audit agent.&lt;/p&gt;</description></item><item><title>AI 账单失控后 DeepSeek 成“香饽饽”，部分美国企业已 100% 切换，业内人士怎么看？</title><link>https://aihot.bt199.com/news/259816ab9ac1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/259816ab9ac1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;消息称，- IT之家 4 个帖子 - 4 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -650,7 +659,8 @@ read video natively, has to send it up to Google and&lt;/p&gt;
 &lt;p&gt;消息称，原文：Temporary Cloudflare Accounts for AI agents 大善人真是能解决实际问题的，方法也并不是靠什么高科技，而是简单粗暴：先上车，再限时补票 以前在cloudflare部署服务，你需要登录CF账号，解决各种认证问题后，AI才能顺利跑通流程。&lt;/p&gt;</description></item><item><title>Cloudflare新政策推动AI公司为出版商的内容付费</title><link>https://aihot.bt199.com/news/af371092847a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/af371092847a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Cloudflare has just issued the AI industry a new deadline to separate the web crawlers used for traditional search purposes, like Google Search, from those used for AI agents and training.&lt;/p&gt;
 &lt;p&gt;Starting on September 15, 2026, Cloudflare’s default settings will block “mixed-use” crawlers from any pages that host ads, the company announced on Wednesday.
-That means that the crawlers that blend search, agent use, and training will be blocked from crawling these sites by default, unless the site owner adjusts the settings otherwise.&lt;/p&gt;</description></item><item><title>Codex 实时语音要重做了，业内人士怎么看？</title><link>https://aihot.bt199.com/news/a8acd9d95c63/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/a8acd9d95c63/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+That means that the crawlers that blend search, agent use, and training will be blocked from crawling these sites by default, unless the site owner adjusts the settings otherwise.&lt;/p&gt;</description></item><item><title>Cloudflare与OpenAI启动试点项目，拟利用全球网络数据优化AI搜索，这意味着什么？</title><link>https://aihot.bt199.com/news/e5452ae6e498/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e5452ae6e498/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据了解，7月8日，云服务提供商Cloudflare与OpenAI宣布启动一项研究试点项目，该项目旨在探索如何利用Cloudflare全球网络的网站洞察数据，帮助AI搜索引擎更高效地在开放网络上发现并索引相关内容，从而提升AI回答的准确性与时效性。&lt;/p&gt;</description></item><item><title>Codex 实时语音要重做了，业内人士怎么看？</title><link>https://aihot.bt199.com/news/a8acd9d95c63/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/a8acd9d95c63/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据报道，刚看到消息，OpenAI 正在给 Codex 测试新的努力选择器 UI，改成滑条形式了。&lt;/p&gt;
 &lt;p&gt;另外实时语音支持似乎要被彻底重写，之前可用的组件已经被移除，改动应该不小。&lt;/p&gt;</description></item><item><title>Codex 最新的 Commit 已经添加了 GPT-5.6 三个模型，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/946555464651/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/946555464651/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据了解，github.com/openai/codex feat: add GPT-5.6 variants to Bedrock catalog (#30285) 已提交 08:33PM - 26 Jun 26 UTC celia-oai +95 -23 ## Summary - add Sol (`openai.&lt;/p&gt;
@@ -1290,7 +1300,11 @@ OpenAI designed the chip from scratch around its deep understanding of LLM funda
 &lt;p&gt;据报道，OpenAI Status Small Number of Users Have Incorrectly Cancelled Subscription - OpenAI Status Identified | A small number of Users have incorrectly cancelled subscription.&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2476603"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>OpenAI 上市，特朗普政府可从人工智能热潮中分得 5%</title><link>https://aihot.bt199.com/news/3afaca491ac0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/3afaca491ac0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2476603"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>OpenAI 前高管 Kevin Weil 现已成为 Stoke Space 董事会成员</title><link>https://aihot.bt199.com/news/045708e1dc8b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/045708e1dc8b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Kevin Weil, a veteran tech executive known for stints at Twitter, Meta, Planet Labs, and OpenAI, has joined the board of Stoke Space, a well-funded Seattle startup building reusable rockets to compete with SpaceX.
+“It’s real simple for me,” Stoke CEO Andy Lapsa told TechCrunch of meeting Weil when he cofounded Stoke in 2020 and soon after joined Y Combinator’s
+winter batch
+.&lt;/p&gt;</description></item><item><title>OpenAI 上市，特朗普政府可从人工智能热潮中分得 5%</title><link>https://aihot.bt199.com/news/3afaca491ac0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/3afaca491ac0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;OpenAI has floated giving the US government a 5 percent ownership stake as a way of easing tensions with the Trump administration and blunting mounting public backlash against AI, according to the Financial Times.
 OpenAI floats giving Trump administration 5 percent cut of AI boom
 A government stake could help the company avoid onerous regulation.
@@ -1361,7 +1375,8 @@ Similar discussions were
 reported by CNBC in June
 and were subsequently confirmed by President Trump, who said he had discussed “concepts where pieces could be given to the American public, where the American public essentially becomes a partner with the companies.” At the time, no specific size for the proposed equity stake was given.
 The talks remain preliminary and, per the FT, it’s likely that any formal action would require congressional approval, which would significantly complicate the matter.
-The idea of a public AI fund has also been publicly discussed by Altman, and OpenAI has grown increasingly specific in its proposals for how such a fund could be structured.&lt;/p&gt;</description></item><item><title>openclaw iOS节点能力问题，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/8d1d54b45f6f/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8d1d54b45f6f/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+The idea of a public AI fund has also been publicly discussed by Altman, and OpenAI has grown increasingly specific in its proposals for how such a fund could be structured.&lt;/p&gt;</description></item><item><title>OpenAI前研究员田永龙加入腾讯将参与VLM相关研发，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/65b0e788bad8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/65b0e788bad8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;有分析指出，据包袋，OpenAI前研究员YonglongTian（田永龙）已于近期加入腾讯大语言模型部，后续将参与VLM（视觉语言模型）相关研发。&lt;/p&gt;</description></item><item><title>openclaw iOS节点能力问题，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/8d1d54b45f6f/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8d1d54b45f6f/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，openclaw客户端发布了，我迫不及待的下载尝试了一下，等它已经等了半年多了。&lt;/p&gt;
 &lt;p&gt;先介绍一下我的用法吧；首先，我使用的是腾讯云服务器自己安装的openclaw最新版本，然后我的手机是iPhone 17pm；通过连接下载了客户端之后，我使用tailscale serve访问服务器上的gateway，成功链接了！&lt;/p&gt;</description></item><item><title>OpenClaw 终于在 Android 和 iOS 上可用</title><link>https://aihot.bt199.com/news/be61e7a52c81/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/be61e7a52c81/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;The automation crustacean is crawling to a mobile device near you.
@@ -1780,7 +1795,17 @@ Brands have been chasing AI visibility for two years.&lt;/p&gt;</description></i
 &lt;p&gt;前后尝试了两个版本，分别是：
 1.&lt;/p&gt;
 &lt;p&gt;unsloth 的&lt;a href="https://huggingface.co/unsloth/GLM-5.2-GGUF/tree/main/UD-Q4_K_XL"&gt;UD-Q4_K_XL 量化版本&lt;/a&gt; &lt;a href="https://huggingface.co/unsloth/GLM-5.2-GGUF/tree/main/UD-Q4_K_XL"&gt;https://huggingface.co/unsloth/GLM-5.2-GGUF/tree/main/UD-Q4_K_XL&lt;/a&gt;
-2.&lt;/p&gt;</description></item><item><title>播客平台 Riverside 进军时事通讯发布游戏</title><link>https://aihot.bt199.com/news/2919bc4057bf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/2919bc4057bf/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+2.&lt;/p&gt;</description></item><item><title>别让AI一上来就“进厂打螺丝”：智源悟界·Orca要先教模型理解世界如何变化，这意味着什么？</title><link>https://aihot.bt199.com/news/e5165a755af8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e5165a755af8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;别让AI一上来就“进厂打螺丝”：智源悟界·Orca要先教模型理解世界如何变化
+思邈
+2026-07-08
+17:08:31
+来源：
+量子位
+允中 发自 凹非寺
+量子位 | 公众号 QbitAI
+今天的AI已经很会
+“输出”&lt;/p&gt;</description></item><item><title>播客平台 Riverside 进军时事通讯发布游戏</title><link>https://aihot.bt199.com/news/2919bc4057bf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/2919bc4057bf/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Video and podcast recording tool maker
 Riverside
 is giving its users a new way to reach their audiences: newsletters.
@@ -2272,7 +2297,14 @@ NoonWake.AI是一家以泛心理为切入点、结合AI技术做情绪消费产�
 &lt;p&gt;据报道，使用 wsl &amp;ndash;update &amp;ndash;pre-release 即可获得 wslc.exe 支持 gpu 调用 详情见官方博客 Windows Command Line – 29 Jun 26 WSL container is now available for public preview At Mi&amp;hellip;&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2497940"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>刚刚，阿维塔获L3自动驾驶测试牌照</title><link>https://aihot.bt199.com/news/e9cd7f3bdfe0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e9cd7f3bdfe0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2497940"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>刚刚，阿里斩获国际AI顶会最佳资源论文奖，提出Agent评测新范式</title><link>https://aihot.bt199.com/news/5999a2e60ceb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5999a2e60ceb/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;阿里斩获国际AI顶会最佳资源论文奖，提出Agent评测新范式
+量子位的朋友们
+2026-07-08
+15:51:26
+来源：
+量子位
+7月8日，国际AI顶级学术会议ACL 2026公布了最佳论文奖项，阿里研究团队在Deep Research Agent方向的研究成果从全球一万多篇投稿中脱颖而出，获评最佳资源论文奖（Best Resource Paper），是国内唯一获得该奖项的中国公司。&lt;/p&gt;</description></item><item><title>刚刚，阿维塔获L3自动驾驶测试牌照</title><link>https://aihot.bt199.com/news/e9cd7f3bdfe0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e9cd7f3bdfe0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;36氪获悉，阿维塔7月1日宣布，已取得L3自动驾驶测试牌照，多场景道路实测有序推进。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -2370,7 +2402,8 @@ AICon全球人工智能开发与应用大会
 &lt;p&gt;有分析指出，接上篇帖子&lt;a href="https://v2ex.com/t/1221623#reply16"&gt;新写的软件开始公测啦，送永久会员🎉&lt;/a&gt;，截止目前公测用户已经 657 个了，感谢大家的支持。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://www.v2ex.com/t/1222800"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>刚刚，谷歌 reCAPTCHA 测试 AI 抓取 21 个关节人机验证，实测可用静态图片绕过</title><link>https://aihot.bt199.com/news/5400a496b298/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5400a496b298/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://www.v2ex.com/t/1222800"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>刚刚，高德红外：预计上半年净利润同比增长602%-701%</title><link>https://aihot.bt199.com/news/508b69e78c02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/508b69e78c02/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;消息称，36氪获悉，高德红外公告，预计2026年半年度归属于上市公司股东的净利润为12.70亿元-14.50亿元，同比增长601.93%-701.41%。&lt;/p&gt;</description></item><item><title>刚刚，谷歌 reCAPTCHA 测试 AI 抓取 21 个关节人机验证，实测可用静态图片绕过</title><link>https://aihot.bt199.com/news/5400a496b298/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5400a496b298/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据悉，- IT之家 3 个帖子 - 3 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -2788,7 +2821,11 @@ In a post announcing the new org, AWS VP of Frontier AI Francessca Vasquez empha
 &lt;p&gt;消息称，# 小站稳定运营，满血 gpt plus pro 号池，开通多种套餐订阅： ![]( https://i.&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://www.v2ex.com/t/1225338"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>加密货币交易所 OKX 希望人工智能代理相互雇佣并支付报酬</title><link>https://aihot.bt199.com/news/b5ec53d600c1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/b5ec53d600c1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://www.v2ex.com/t/1225338"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>继续推广我的 gpt 中转站，注册就送 28.8$余额，已稳定运行俩月有余了，业内人士怎么看？</title><link>https://aihot.bt199.com/news/v2ex-1225864/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1225864/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;消息称，# 小站稳定运营，满血 gpt plus pro 号池，开通多种套餐订阅： ![]( https://i.&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://www.v2ex.com/t/1225864"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>加密货币交易所 OKX 希望人工智能代理相互雇佣并支付报酬</title><link>https://aihot.bt199.com/news/b5ec53d600c1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/b5ec53d600c1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;When AI agents begin working for people — and increasingly for one another — they will need a way to find jobs, pay for services, and build trust.&lt;/p&gt;
 &lt;p&gt;Crypto exchange
 OKX
@@ -3483,7 +3520,10 @@ Jay 发自 凹非寺
 量子位 | 公众号 QbitAI
 什么是DeepSeek开启融资的直接导火索？&lt;/p&gt;
 &lt;p&gt;The Information最新消息曝光：梁文锋看到Claude Mythos通过海量算力和数据训练出超强能力，意识到DeepSeek&lt;/p&gt;</description></item><item><title>深度解读：Claude 闲置号被封</title><link>https://aihot.bt199.com/news/v2ex-1223523/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1223523/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;据了解，有一个 Claude 老号，大概是去年上半年开的，10 多年的谷歌老号 + AppStore 礼品卡充值，一直开的 plus ，稳定用了小一年，两个月前转投 Codex 之后就没再续费，也没有再登录使用过账号。&lt;/p&gt;</description></item><item><title>深度解读：ClaudeCode 稳定的美国出口 IP 都能被封</title><link>https://aihot.bt199.com/news/v2ex-1223262/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1223262/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据了解，有一个 Claude 老号，大概是去年上半年开的，10 多年的谷歌老号 + AppStore 礼品卡充值，一直开的 plus ，稳定用了小一年，两个月前转投 Codex 之后就没再续费，也没有再登录使用过账号。&lt;/p&gt;</description></item><item><title>深度解读：Claude、Cursor、OpenClaw 集体上手机，不摸鱼、不请假、24h 为你打工</title><link>https://aihot.bt199.com/news/c4f958681c17/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/c4f958681c17/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;7 月 7 日，Anthropic 宣布，Claude Cowork 开始向网页端和移动端扩展。&lt;/p&gt;
+&lt;p&gt;首批开放对象为 Claude Max 用户，随后数周将覆盖更多订阅计划。&lt;/p&gt;
+&lt;p&gt;新的 Cowork 会将会话和文件保存在 Claude 账户中，并通过远程环境运行：即使用户合上电脑，任务也能继续执行；定时任务不再要求任何设备保持在线。&lt;/p&gt;</description></item><item><title>深度解读：ClaudeCode 稳定的美国出口 IP 都能被封</title><link>https://aihot.bt199.com/news/v2ex-1223262/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1223262/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;消息称，今天突然就 400 This organization has been disabled.&lt;/p&gt;
 &lt;p&gt;我刚用了 20 天都不到，一个稳定的硅谷出口 IP 没有任何通知消息。&lt;/p&gt;
 &lt;p&gt;。&lt;/p&gt;
@@ -3722,7 +3762,14 @@ Google Colab CLI
 ，这是一款命令行工具，允许开发者和 AI 智能体在本地终端直接与远程 Colab 运行时交互。&lt;/p&gt;
 &lt;p&gt;该工具的目标简化对云端 GPU 与 TPU 的访问，并提供基于终端的工作流来运行机器学习任务、获取产物和访问交互式会话。&lt;/p&gt;</description></item><item><title>深度解读：广州市番禺协诚实业有限公司副总经理龙德洋：真正的城市服务，藏在分分秒秒的坚守里</title><link>https://aihot.bt199.com/news/c02711099335/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/c02711099335/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;“2026年，创投圈的浪潮再次翻涌：AI从技术概念走进产业深水区，硬科技创业从“小众赛道” 变成“主流共识”，年轻的创业者们正在用代码和双手，重新定义中国创新的未来坐标。&lt;/p&gt;</description></item><item><title>深度解读：恒指开盘跌0.1%，恒生科技指数涨0.41%</title><link>https://aihot.bt199.com/news/6db15fe48a7e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/6db15fe48a7e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;消息称，36氪获悉，恒指开盘跌0.1%，恒生科技指数涨0.41%；半导体、软件服务、食品板块领涨，智谱涨超6%，联想集团涨超4%，B站涨超3%，中国旺旺涨超2%；有色金属、耐用消费品、汽车板块走弱，潼关黄金跌5%，长城汽车、万维智能科技跌超1%。&lt;/p&gt;</description></item><item><title>深度解读：华勤技术与正行创新达成战略合作，加速机器人“走进工厂、走上产线”</title><link>https://aihot.bt199.com/news/29c8aaf383cf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/29c8aaf383cf/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;消息称，36氪获悉，恒指开盘跌0.1%，恒生科技指数涨0.41%；半导体、软件服务、食品板块领涨，智谱涨超6%，联想集团涨超4%，B站涨超3%，中国旺旺涨超2%；有色金属、耐用消费品、汽车板块走弱，潼关黄金跌5%，长城汽车、万维智能科技跌超1%。&lt;/p&gt;</description></item><item><title>深度解读：横跨淘天与ATH事业群，硬核少年技术节下周京杭同步开幕，四项AIGX硬核成果齐发</title><link>https://aihot.bt199.com/news/6ec821b1237f/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/6ec821b1237f/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;横跨淘天与ATH事业群，硬核少年技术节下周京杭同步开幕，四项AIGX硬核成果齐发
+量子位的朋友们
+2026-07-08
+18:15:43
+来源：
+量子位
+作为横跨阿里巴巴-淘天集团和ATH事业群的年度最大技术节日【硬核少年技术节5.0】将于7月20日至24日在杭州和北京两地隆重举办。&lt;/p&gt;</description></item><item><title>深度解读：华勤技术与正行创新达成战略合作，加速机器人“走进工厂、走上产线”</title><link>https://aihot.bt199.com/news/29c8aaf383cf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/29c8aaf383cf/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;华勤技术与正行创新达成战略合作，加速机器人“走进工厂、走上产线”
 量子位的朋友们
 2026-06-26
@@ -3923,7 +3970,12 @@ Google Antigravity
 &lt;p&gt;10 个帖子 - 10 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://linux.do/t/topic/2479817"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>深度解读：智元第15000台通用具身机器人正式量产下线</title><link>https://aihot.bt199.com/news/151842c19852/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/151842c19852/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://linux.do/t/topic/2479817"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>深度解读：智谱通过配售发行1980万股H股</title><link>https://aihot.bt199.com/news/477f10d3a576/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/477f10d3a576/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;条款显示，智谱通过配售发行1980万股H股。&lt;/p&gt;
+&lt;p&gt;（财联社）&lt;/p&gt;
+&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
+&lt;p&gt;如果你要核对细节，可以再看原文：
+&lt;a href="https://36kr.com/newsflashes/3886884584714240?f=rss"&gt;36氪原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>深度解读：智元第15000台通用具身机器人正式量产下线</title><link>https://aihot.bt199.com/news/151842c19852/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/151842c19852/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据报道，6月28日，智元宣布第15000台通用具身机器人精灵G2正式量产下线。&lt;/p&gt;
 &lt;p&gt;智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青表示，15000台量产下线印证了智元规模化量产到达新高度，也标志着中国人形机器人产业迈上了大规模真实场景应用。&lt;/p&gt;</description></item><item><title>什么是米斯特拉尔人工智能？关于 OpenAI 竞争对手的一切信息</title><link>https://aihot.bt199.com/news/a00e4ef27862/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/a00e4ef27862/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;Following the Trump directive that led Anthropic to
@@ -4123,7 +4175,9 @@ Readers are scrambling to develop ways to detect whether generative AI was used 
 &lt;p&gt;有分析指出，他现在像着魔一样学习跳舞 是女生的那种～ 女生装备都买好了 &amp;mdash; 为啥要用 AI 换脸 主要是建模一般，化妆成女生看着也是男生&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://www.v2ex.com/t/1223346"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：“正行创新”完成近亿美元天使轮融资</title><link>https://aihot.bt199.com/news/41aa385ecba0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/41aa385ecba0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://www.v2ex.com/t/1223346"&gt;V2EX原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论</title><link>https://aihot.bt199.com/news/70fa9b365d5c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/70fa9b365d5c/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;“软件开发已经死了，因为现在任何人都可以成为软件开发者。&lt;/p&gt;
+&lt;p&gt;过去六个月的变化比过去三十年都多，而大多数工程师还在当 Jira 工单猴子，浑然不觉自己已经站在了悬崖边上。&lt;/p&gt;</description></item><item><title>突发：“正行创新”完成近亿美元天使轮融资</title><link>https://aihot.bt199.com/news/41aa385ecba0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/41aa385ecba0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，36氪获悉，6月23日，“正行创新”（Striding AI）已完成近亿美元天使轮系列融资。&lt;/p&gt;
 &lt;p&gt;投资方包括正大集团、华勤技术、九安医疗等多家上市企业，多位国内外知名企业家，以及多家一线投资机构。&lt;/p&gt;</description></item><item><title>突发：[0629 内测] Brivionix（Codex Pro 池）— GPT-5.5 / 5.4 / 5.3，回帖留 ID 送 $10</title><link>https://aihot.bt199.com/news/v2ex-1223548/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1223548/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，各位 V 友好！&lt;/p&gt;
@@ -4689,7 +4743,17 @@ He reaches down with both hands and pulls up a clump of muck, turning it over to
 &lt;a href="https://news.ycombinator.com/item?id=48542100"&gt;Hacker News AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>问一个直击灵魂的问题，你用 AI 做了哪些有意义的工具？，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/v2ex-1221614/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1221614/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;这是一个我问自己的问题，也是我逛帖子发现的一个问题。&lt;/p&gt;
 &lt;p&gt;大家都在用 AI 写代码，写公司的项目。&lt;/p&gt;
-&lt;p&gt;更多的人是用 AI 写重复的轮子，比如对话、画图、写作等。&lt;/p&gt;</description></item><item><title>我的 Homelab 人工智能开发平台</title><link>https://aihot.bt199.com/news/02982031ef56/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/02982031ef56/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;更多的人是用 AI 写重复的轮子，比如对话、画图、写作等。&lt;/p&gt;</description></item><item><title>翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议，业内人士怎么看？</title><link>https://aihot.bt199.com/news/7f926663a3bc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/7f926663a3bc/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;翁荔新博客提出「自进化先从Harness开始」，DeepSeek崔添翼转发附议
+听雨
+2026-07-08
+16:55:30
+来源：
+量子位
+听雨 发自 凹非寺量子位 | 公众号 QbitAI
+前OpenAI安全副总裁、Thinking Machines Lab联创
+翁荔
+，又发新博客了。&lt;/p&gt;</description></item><item><title>我的 Homelab 人工智能开发平台</title><link>https://aihot.bt199.com/news/02982031ef56/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/02982031ef56/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;文章网址：https://rsgm.dev/post/ai-dev-platform/ 评论网址：https://new…&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -4775,7 +4839,12 @@ Imagine coming in to work to learn that a new underling will report to you.&lt;/
 &lt;p&gt;This is today&amp;rsquo;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;rsquo;s going on in the world of technology.
 A startup claims it broke through a bottleneck that’s holding back LLMs
 AI startup Subquadratic came out of stealth last month with a huge claim: it had solved a mathematical bottleneck that had held back large language models for almost a decade.
-The purported breakthrough comes from slashing the number of computations transformers need to carry out to generate answers.&lt;/p&gt;</description></item><item><title>下载：烧脑的热浪和前所未有的 OpenAI 限制</title><link>https://aihot.bt199.com/news/9ae9fea2130b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9ae9fea2130b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+The purported breakthrough comes from slashing the number of computations transformers need to carry out to generate answers.&lt;/p&gt;</description></item><item><title>下载：蠕虫对抗污染，地球工程面对现实</title><link>https://aihot.bt199.com/news/de792f4a79c2/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/de792f4a79c2/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;This is today&amp;rsquo;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;rsquo;s going on in the world of technology.
+Why worms (and microbes) are catching on as a manure pollution solution
+Anthony Agueda, a third-generation California dairy farmer, pulls a rake through a bed of dark, wet wood chips to reveal a half-dozen squirming red earthworms.&lt;/p&gt;
+&lt;p&gt;There are likely hundreds of thousands more wriggling just under the surface.
+The worms and microbes are part of a &amp;ldquo;vermifiltration&amp;rdquo; system that cleans manure wastewater.&lt;/p&gt;</description></item><item><title>下载：烧脑的热浪和前所未有的 OpenAI 限制</title><link>https://aihot.bt199.com/news/9ae9fea2130b/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9ae9fea2130b/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;This is today&amp;rsquo;s edition of The Download, our weekday newsletter that provides a daily dose of what&amp;rsquo;s going on in the world of technology.
 Heat waves mess with your brain.&lt;/p&gt;
 &lt;p&gt;Scientists are trying to figure out why.
@@ -4871,7 +4940,8 @@ wherein a brainwashed character is hypnotized into taking actions by the phrase 
 The fresh investment,
 announced
 after Amazon CEO Andy Jassy met India’s Prime Minister Narendra Modi in New Delhi, will fund the expansion of Amazon Web Services’ data center capacity in Mumbai and Hyderabad.
-The announcement marks Amazon’s third major commitment for India in as many years.&lt;/p&gt;</description></item><item><title>亚马逊希望通过销售其人工智能芯片来更直接地挑战英伟达</title><link>https://aihot.bt199.com/news/5748f9c6e6a8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5748f9c6e6a8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+The announcement marks Amazon’s third major commitment for India in as many years.&lt;/p&gt;</description></item><item><title>亚马逊秘密推进Alexa“智能体”计划，成本高昂引发内部担忧，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/7b8289e42e08/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/7b8289e42e08/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据报道，7月8日消息，据报道，亚马逊内部规划文件显示，公司正在秘密推进一项名为“Moonraker”的全新Alexa AI项目，旨在将这一语音助手推向AI智能体赛道。&lt;/p&gt;</description></item><item><title>亚马逊希望通过销售其人工智能芯片来更直接地挑战英伟达</title><link>https://aihot.bt199.com/news/5748f9c6e6a8/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5748f9c6e6a8/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;If Amazon Web Services has its way, the cloud giant is going to push even deeper into Nvidia’s market, in what might be one of the biggest challenges to Nvidia’s AI chip dominance we’ve seen so far.
 Amazon’s AI chief Peter DeSantis
 told Bloomberg
@@ -5718,10 +5788,16 @@ round led by CRV with participation from Databricks Ventures, Thomvest Ventures,
 &lt;a href="https://linux.do/t/topic/2456094"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>字节跳动考虑合作百度昆仑芯？接近人士回应，这一消息引发行业关注</title><link>https://aihot.bt199.com/news/56984d655e9e/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/56984d655e9e/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据了解，6月29日，有消息称百度旗下昆仑芯计划赴港上市，腾讯已成为昆仑芯客户，字节跳动亦在考虑采用其AI芯片。&lt;/p&gt;
 &lt;p&gt;今日接近人士向第一财经回应，字节跳动目前没有和昆仑芯片合作的意向。&lt;/p&gt;</description></item><item><title>自动化 AI 离开</title><link>https://aihot.bt199.com/news/067ede438b1a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/067ede438b1a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;文章网址：https://replicated.live/blog/away 评论网址：https://news.yco…&lt;/p&gt;
-&lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
-&lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://replicated.live/blog/away"&gt;Hacker News AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>最前线｜光子跃迁发布个人智能影像生态，推出AI戒指等产品布局多设备协同，业内人士怎么看？</title><link>https://aihot.bt199.com/news/69467ff04117/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/69467ff04117/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;Beagle SCM
+Automating away
+A.&lt;/p&gt;
+&lt;p&gt;Karpathy once said that OpenAI researchers are effectively &amp;ldquo;automating themselves away&amp;rdquo; by improving their AI.&lt;/p&gt;
+&lt;p&gt;Right now I develop Beagle SCM with Anthropic&amp;rsquo;s Fable and it is of course a brilliant model able to spot nits in a mountain of code, file tickets, make fixes.&lt;/p&gt;
+&lt;p&gt;Still, yesterday it managed to commit the
+build/
+dir into a project, twice.&lt;/p&gt;
+&lt;p&gt;It is brilliant, but clumsy.
+Due to the nature of LLMs, this issue is not going away as they progress further.&lt;/p&gt;</description></item><item><title>最前线｜光子跃迁发布个人智能影像生态，推出AI戒指等产品布局多设备协同，业内人士怎么看？</title><link>https://aihot.bt199.com/news/69467ff04117/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/69467ff04117/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;6月30日，智能影像公司光子跃迁在深圳举行影像技术发布会，发布个人智能影像生态，并展示了包括运动相机LEAPTIC Cube、AI戒指在内的多款产品及未来生态规划。&lt;/p&gt;</description></item><item><title>最新动态：[转发] 社区发现疑似 OpenAI 对第三方客户端发出的请求降智</title><link>https://aihot.bt199.com/news/e311da6faf99/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e311da6faf99/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;消息称，转发自: router-for-me/CLIProxyAPI/discussions/3937 20 个帖子 - 13 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
