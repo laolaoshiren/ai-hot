@@ -398,16 +398,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Grok 4.5",
       "Grok Build 0.1",
-      "Grok 4.3",
-      "Grok 4.20 Multi-Agent"
+      "Grok 4.3"
     ],
-    "model_count": 4,
-    "last_updated": "2026-05-20",
+    "model_count": 5,
+    "last_updated": "2026-07-08",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 Grok Build 0.1",
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Grok 4.5",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
   },

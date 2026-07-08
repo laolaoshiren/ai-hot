@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，是模型真的强，还是bench失效了？好像是两方面都有？ https://mp.weixin.qq.com/s/9KVW_zZynu5xXyUOCmsqYQ 19 个帖子 - 12 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 126
+list_page = 127
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-08 21:48:08
+🕐 **最近更新**：2026-07-09 03:14:17
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,37 @@
 
 ## 🔥 今日热点
 
-1. [法国热门初创公司 ZML 发布免费产品，以加快多种人工智能芯片的推理速度](https://aihot.bt199.com/news/03bb7eb85c2e/)
-   - ZML 是一家热门的法国人工智能初创公司，得到了图灵奖得主 Yann LeCun 的认可，现在发布了 ZML/LLMD…
+1. [谷歌照片添加了新的人工智能“视频混音”工具](https://aihot.bt199.com/news/cb9673c13146/)
+   - 该功能可以执行诸如应用电影重新照明来照亮黑暗剪辑、将普通背景替换为有趣的内容或为视频添加艺术风格等操作
    - `TechCrunch AI · 2026-07-08`
 
-2. [下载：蠕虫对抗污染，地球工程面对现实](https://aihot.bt199.com/news/de792f4a79c2/)
+2. [为什么这位首席执行官认为视频游戏比互联网提供更好的训练数据](https://aihot.bt199.com/news/1e9d0df00d1e/)
+   - 当谈到实现通用人工智能 (AGI) 时，大型语言模型根本不具备所需的能力。像 ChatGPT 和 Claude 这样的模…
+   - `TechCrunch AI · 2026-07-08`
+
+3. [ChatGPT升级语音模式更能闭嘴](https://aihot.bt199.com/news/4fa3484613a6/)
+   - OpenAI 正在用一种新模型彻底改革 ChatGPT 的语音模式，据称该模型更像是“与另一个人交谈”。新的 GPT-L…
+   - `The Verge AI · 2026-07-08`
+
+4. [下载：蠕虫对抗污染，地球工程面对现实](https://aihot.bt199.com/news/de792f4a79c2/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…
    - `MIT Tech Review · 2026-07-08`
 
-3. [Meta的新Muse Image模型可以将其他Instagram用户拉入AI照片中](https://aihot.bt199.com/news/041d3e03c54a/)
+5. [Meta的新Muse Image模型可以将其他Instagram用户拉入AI照片中](https://aihot.bt199.com/news/041d3e03c54a/)
    - Meta 正在推出由其超级智能实验室部门制作的第一个人工智能图像生成模型。根据周二的公告，Muse Image 模型现已…
    - `The Verge AI · 2026-07-07`
 
-4. [下载：您在 OpenAI 中的股份以及财政部的人工智能警告](https://aihot.bt199.com/news/0e5ebf4a584e/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。你的家族持有 OpenAI 300…
-   - `MIT Tech Review · 2026-07-07`
+6. [由于国内需求缓慢显现，美国稀土流向亚洲](https://aihot.bt199.com/news/1cb749a35d19/)
+   - 得到特朗普政府支持的矿工。尽管大力发展国内供应链，但仍销往日本、韩国
+   - `Ars Technica AI · 2026-07-08`
 
-5. [黑客可以使用 9 种最流行的人工智能工具来组装大规模僵尸网络](https://aihot.bt199.com/news/f56b56f54774/)
+7. [黑客可以使用 9 种最流行的人工智能工具来组装大规模僵尸网络](https://aihot.bt199.com/news/f56b56f54774/)
    - “HalluSquatting”武器化了法学硕士无法说“我不知道”的情况
    - `Ars Technica AI · 2026-07-08`
 
-6. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
-   - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
-   - `Ars Technica AI · 2026-06-30`
+8. [EmTech AI 2026：人工智能平台的崛起](https://aihot.bt199.com/news/df693c770abf/)
+   - EmTech AI 2026：人工智能平台的崛起
+   - `MIT Tech Review · 2026-07-08`
 
 
 ## 🤖 AI 简报
@@ -123,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

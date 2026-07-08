@@ -20,7 +20,7 @@ ai_summary = "Nvidia AI 芯片竞争对手 Etched 表示，它已经根据合同
 summary = "Nvidia AI chip competitor Etched says it has already booked $1 billion under contract for the inference systems powered by its chip."
 summary_zh = "Nvidia AI 芯片竞争对手 Etched 表示，它已经根据合同预订了 10 亿美元，用于由其芯片驱动的推理系统"
 tags = []
-list_page = 34
+list_page = 35
 +++
 
 <!-- AUTO-GENERATED: news page -->
