@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-08 03:47:12
+🕐 **最近更新**：2026-07-08 09:58:12
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [Discord 承认人工智能审核错误错误地禁止用户查看无害图像](https://aihot.bt199.com/news/0a5053c71615/)
-   - Discord 承认，其人工智能审核系统中的一个错误在过去两个月中错误地禁止了 8,000 多名用户，此前无害的图像（包…
+1. [为什么开源人工智能的兴起还没有伤害 Anthropic……](https://aihot.bt199.com/news/ac26af5ade46/)
+   - 开源模型的成功并不以牺牲前沿实验室为代价。相反，它们似乎都捕获了同一生命周期的两个阶段
    - `TechCrunch AI · 2026-07-07`
 
-2. [Claude Cowork 扩展到移动和网络](https://aihot.bt199.com/news/ffc63549d918/)
-   - 通过此更新，用户可以在办公桌上启动任务，在手机上获取状态更新，并在稍后获取完成的输出 - 即使他们的笔记本电脑已关闭
-   - `TechCrunch AI · 2026-07-07`
-
-3. [Solos 推出了更轻的无摄像头智能眼镜版本](https://aihot.bt199.com/news/c4d5624322a5/)
-   - Solos 宣布推出新版 AirGo 智能眼镜，该眼镜放弃了摄像头，采用更时尚的设计，并配备了依赖语音交互的人工智能助手…
+2. [Meta的新Muse Image模型可以将其他Instagram用户拉入AI照片中](https://aihot.bt199.com/news/041d3e03c54a/)
+   - Meta 正在推出由其超级智能实验室部门制作的第一个人工智能图像生成模型。根据周二的公告，Muse Image 模型现已…
    - `The Verge AI · 2026-07-07`
 
-4. [下载：您在 OpenAI 中的股份以及财政部的人工智能警告](https://aihot.bt199.com/news/0e5ebf4a584e/)
+3. [下载：您在 OpenAI 中的股份以及财政部的人工智能警告](https://aihot.bt199.com/news/0e5ebf4a584e/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。你的家族持有 OpenAI 300…
    - `MIT Tech Review · 2026-07-07`
 
-5. [IT 领导者需要扩展的 AI 架构的基本元素](https://aihot.bt199.com/news/34dc6f6de3b4/)
+4. [IT 领导者需要扩展的 AI 架构的基本元素](https://aihot.bt199.com/news/34dc6f6de3b4/)
    - 随着人工智能功能的快速进步和向代理系统的转变，随着技术的不断发展，组织正在扩大其用例。这种不断的演变也带来了风险，让 I…
    - `MIT Tech Review · 2026-07-07`
+
+5. [Meta 刚刚推出了一款新的人工智能生成器 Muse Image，用户已经开始拒绝使用他们的照片](https://aihot.bt199.com/news/43c24424eacf/)
+   - 新的图像生成模型有许多用例，包括广告、装饰和基于创作者的机会
+   - `TechCrunch AI · 2026-07-07`
 
 6. [新的攻击提供了人工智能浏览器不是一个好主意的又一个原因](https://aihot.bt199.com/news/fdfe27002820/)
    - 告诉法学硕士 2 + 2 = 5 足以使其遵循禁止的指令
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

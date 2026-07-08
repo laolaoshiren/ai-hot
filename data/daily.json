@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-07-07T19:46:23.652936",
-  "date": "2026-07-07",
+  "updated_at": "2026-07-08T01:57:26.874941",
+  "date": "2026-07-08",
   "spotlight": {
-    "name": "Plandex",
-    "url": "https://github.com/plandex-ai/plandex",
+    "name": "PydanticAI",
+    "url": "https://github.com/pydantic/pydantic-ai",
     "type": "agent",
-    "description": "面向大型项目的开源AI编码Agent，终端内全自主开发",
-    "pricing": "开源 + API费用",
+    "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
+    "pricing": "开源免费",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "Vibetest Use",
-      "url": "https://github.com/browser-use/vibetest-use",
+      "name": "Bua",
+      "url": "https://github.com/nottelabs/bua",
       "type": "agent",
-      "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
+      "description": "让 AI Agent 操作浏览器环境的项目，适合做网页导航、自动点击和浏览器任务执行。",
       "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "category": "浏览器 Agent"
     },
     {
-      "id": "dify",
-      "name": "Dify",
-      "url": "https://dify.ai",
+      "id": "coze",
+      "name": "Coze",
+      "url": "https://www.coze.com",
       "type": "tool",
-      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
-      "pricing": "开源 + 云服务",
+      "description": "字节跳动出品的 AI Bot 搭建平台",
+      "pricing": "免费",
       "category": "Agent"
     },
     {
-      "name": "Coze",
-      "url": "https://www.coze.com",
+      "name": "n8n",
+      "url": "https://n8n.io",
       "type": "agent",
-      "description": "字节跳动AI Bot构建平台，无代码创建Agent",
-      "pricing": "免费 + Pro",
+      "description": "工作流自动化平台，集成AI Agent能力",
+      "pricing": "开源 + Cloud",
       "category": "平台 Agent"
     }
   ]
