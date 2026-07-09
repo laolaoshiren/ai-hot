@@ -20,7 +20,7 @@ ai_summary = "据报道，负责 Vision Pro 耳机的苹果副总裁 Paul Meade 
 summary = "Paul Meade, the Apple vice president in charge of the Vision Pro headset, is reportedly leaving the company to join OpenAI’s hardware team."
 summary_zh = "据报道，负责 Vision Pro 耳机的苹果副总裁 Paul Meade 将离开公司，加入 OpenAI 的硬件团队"
 tags = []
-list_page = 58
+list_page = 60
 +++
 
 <!-- AUTO-GENERATED: news page -->

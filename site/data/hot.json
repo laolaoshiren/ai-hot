@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-07-09T02:11:27.274610",
+  "updated_at": "2026-07-09T09:27:28.154037",
   "total": 8,
   "hot_list": [
-    {
-      "title": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "name": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "title_zh": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-08",
-      "time": "2026-07-08",
-      "description": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "subtitle": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "ai_summary": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "category": "资讯",
-      "news_id": "16f0c7d55a20",
-      "internal_url": "https://aihot.bt199.com/news/16f0c7d55a20/",
-      "type_label": "📰 新闻"
-    },
     {
       "title": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
       "name": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
@@ -36,6 +18,24 @@
       "category": "资讯",
       "news_id": "e265f51e2cb7",
       "internal_url": "https://aihot.bt199.com/news/e265f51e2cb7/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "name": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "title_zh": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-08",
+      "time": "2026-07-08",
+      "description": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "subtitle": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "ai_summary": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "category": "资讯",
+      "news_id": "9c57f755e180",
+      "internal_url": "https://aihot.bt199.com/news/9c57f755e180/",
       "type_label": "📰 新闻"
     },
     {
@@ -149,24 +149,6 @@
   ],
   "top_20": [
     {
-      "title": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "name": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "title_zh": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-08",
-      "time": "2026-07-08",
-      "description": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "subtitle": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "ai_summary": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "category": "资讯",
-      "news_id": "16f0c7d55a20",
-      "internal_url": "https://aihot.bt199.com/news/16f0c7d55a20/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
       "name": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
       "title_zh": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
@@ -182,6 +164,24 @@
       "category": "资讯",
       "news_id": "e265f51e2cb7",
       "internal_url": "https://aihot.bt199.com/news/e265f51e2cb7/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "name": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "title_zh": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-08",
+      "time": "2026-07-08",
+      "description": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "subtitle": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "ai_summary": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "category": "资讯",
+      "news_id": "9c57f755e180",
+      "internal_url": "https://aihot.bt199.com/news/9c57f755e180/",
       "type_label": "📰 新闻"
     },
     {
@@ -301,24 +301,6 @@
   },
   "items": [
     {
-      "title": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "name": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "title_zh": "谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片",
-      "url": "https://techcrunch.com/2026/07/08/googles-deepfake-detector-system-used-to-debunk-mcconnell-hoax-pic/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-08",
-      "time": "2026-07-08",
-      "description": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "subtitle": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "ai_summary": "本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…",
-      "category": "资讯",
-      "news_id": "16f0c7d55a20",
-      "internal_url": "https://aihot.bt199.com/news/16f0c7d55a20/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
       "name": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
       "title_zh": "SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”",
@@ -334,6 +316,24 @@
       "category": "资讯",
       "news_id": "e265f51e2cb7",
       "internal_url": "https://aihot.bt199.com/news/e265f51e2cb7/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "name": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "title_zh": "这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻",
+      "url": "https://techcrunch.com/2026/07/08/this-startup-thinks-robotics-is-about-to-have-its-chatgpt-moment/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-08",
+      "time": "2026-07-08",
+      "description": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "subtitle": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "ai_summary": "General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…",
+      "category": "资讯",
+      "news_id": "9c57f755e180",
+      "internal_url": "https://aihot.bt199.com/news/9c57f755e180/",
       "type_label": "📰 新闻"
     },
     {

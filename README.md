@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-09 10:11:27
+🕐 **最近更新**：2026-07-09 17:27:28
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [谷歌的深度伪造检测系统用于揭穿麦康奈尔骗局图片](https://aihot.bt199.com/news/16f0c7d55a20/)
-   - 本周早些时候，一张照片似乎显示肯塔基州参议员米奇·麦康奈尔(Mitch McConnell)躺在医院病床上，处于极度痛苦…
+1. [SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”](https://aihot.bt199.com/news/e265f51e2cb7/)
+   - 埃隆·马斯克 (Elon Musk) 的科技公司周三发布了最新版本的 Grok，承诺提供比其他强大人工智能模型更便宜、更…
    - `TechCrunch AI · 2026-07-08`
 
-2. [SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”](https://aihot.bt199.com/news/e265f51e2cb7/)
-   - 埃隆·马斯克 (Elon Musk) 的科技公司周三发布了最新版本的 Grok，承诺提供比其他强大人工智能模型更便宜、更…
+2. [这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻](https://aihot.bt199.com/news/9c57f755e180/)
+   - General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…
    - `TechCrunch AI · 2026-07-08`
 
 3. [ChatGPT升级语音模式更能闭嘴](https://aihot.bt199.com/news/4fa3484613a6/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

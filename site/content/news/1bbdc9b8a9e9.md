@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Security advisory leaves out key details. Dashlane maintains complete silence."
 summary_zh = ""
 tags = []
-list_page = 138
+list_page = 139
 +++
 
 <!-- AUTO-GENERATED: news page -->
