@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，6月27日，Anthropic发文称，自6月12日以来公司一直与美国政府紧密合作，以恢复对Claude Mythos 5和Fable 5的访问。"
 summary_zh = ""
 tags = []
-list_page = 60
+list_page = 61
 +++
 
 <!-- AUTO-GENERATED: news page -->

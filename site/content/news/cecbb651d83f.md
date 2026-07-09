@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://martinalderson.com/posts/the-upcoming-ai-ma
 summary = "Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/ Comments URL: https://news."
 summary_zh = "文章网址：https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/ 评论网址：https://news.ycombinator.com/…"
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

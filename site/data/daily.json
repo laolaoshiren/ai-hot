@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-08T19:13:23.689138",
-  "date": "2026-07-08",
+  "updated_at": "2026-07-09T02:10:28.889072",
+  "date": "2026-07-09",
   "spotlight": {
-    "name": "PydanticAI",
-    "url": "https://github.com/pydantic/pydantic-ai",
+    "name": "VoltAgent",
+    "url": "https://github.com/VoltAgent/voltagent",
     "type": "agent",
-    "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
+    "description": "开源 TypeScript AI Agent 工程平台，支持多 Agent 编排和可视化工作流",
     "pricing": "开源免费",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "Bua",
-      "url": "https://github.com/nottelabs/bua",
+      "name": "Langgraph Browser Use",
+      "url": "https://github.com/luckystarufo/langgraph_browser_use",
       "type": "agent",
-      "description": "让 AI Agent 操作浏览器环境的项目，适合做网页导航、自动点击和浏览器任务执行。",
+      "description": "把 browser-use Agent 重构到 LangGraph 框架下，方便用图结构编排浏览器自动化流程。",
       "pricing": "开源免费",
       "category": "浏览器 Agent"
     },
     {
-      "id": "coze",
-      "name": "Coze",
-      "url": "https://www.coze.com",
+      "id": "langchain",
+      "name": "LangChain",
+      "url": "https://langchain.com",
       "type": "tool",
-      "description": "字节跳动出品的 AI Bot 搭建平台",
-      "pricing": "免费",
+      "description": "最流行的 LLM 应用开发框架",
+      "pricing": "开源免费",
       "category": "Agent"
     },
     {
-      "name": "n8n",
-      "url": "https://n8n.io",
+      "name": "Manus",
+      "url": "https://manus.im",
       "type": "agent",
-      "description": "工作流自动化平台，集成AI Agent能力",
-      "pricing": "开源 + Cloud",
-      "category": "平台 Agent"
+      "description": "通用AI Agent，能自主完成复杂任务链",
+      "pricing": "免费试用",
+      "category": "通用 Agent"
     }
   ]
 }

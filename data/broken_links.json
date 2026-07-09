@@ -1,12 +1,5 @@
 [
   {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "sora",
     "name": "Sora",
     "url": "https://sora.com",
@@ -1320,6 +1313,13 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "url": "https://docs.anthropic.com/en/docs/claude-code",
+    "status": 0,
     "file": "tools.json"
   },
   {
