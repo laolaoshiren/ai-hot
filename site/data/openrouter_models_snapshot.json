@@ -1,6 +1,450 @@
 {
   "data": [
     {
+      "id": "openai/gpt-5.6-luna-pro",
+      "canonical_slug": "openai/gpt-5.6-luna-pro-20260709",
+      "hugging_face_id": null,
+      "name": "OpenAI: GPT-5.6 Luna Pro",
+      "created": 1783590867,
+      "description": "GPT-5.6 Luna Pro is the same underlying model as [GPT-5.6 Luna](https://openrouter.ai/openai/gpt-5.6-luna), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+      "context_length": 1050000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000006",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125"
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2026-02-16",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-5.6-luna-pro-20260709/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-luna",
+      "canonical_slug": "openai/gpt-5.6-luna-20260709",
+      "hugging_face_id": null,
+      "name": "OpenAI: GPT-5.6 Luna",
+      "created": 1783590864,
+      "description": "GPT-5.6 Luna is a fast, cost-efficient model in OpenAI's GPT-5.6 series. It is suited for high-volume, latency-sensitive tasks such as chat, classification, and lightweight agentic workflows, providing capable reasoning for...",
+      "context_length": 1050000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000001",
+        "completion": "0.000006",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125"
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2026-02-16",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-5.6-luna-20260709/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra-pro",
+      "canonical_slug": "openai/gpt-5.6-terra-pro-20260709",
+      "hugging_face_id": null,
+      "name": "OpenAI: GPT-5.6 Terra Pro",
+      "created": 1783590861,
+      "description": "GPT-5.6 Terra Pro is the same underlying model as [GPT-5.6 Terra](https://openrouter.ai/openai/gpt-5.6-terra), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+      "context_length": 1050000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0.000003125"
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2026-02-16",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-5.6-terra-pro-20260709/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-terra",
+      "canonical_slug": "openai/gpt-5.6-terra-20260709",
+      "hugging_face_id": null,
+      "name": "OpenAI: GPT-5.6 Terra",
+      "created": 1783590857,
+      "description": "GPT-5.6 Terra is a balanced model in OpenAI's GPT-5.6 series, positioned between the flagship Sol tier and the cost-efficient Luna tier. It is suited for everyday coding, reasoning, and agentic...",
+      "context_length": 1050000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.000015",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0.000003125"
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2026-02-16",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-5.6-terra-20260709/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol-pro",
+      "canonical_slug": "openai/gpt-5.6-sol-pro-20260709",
+      "hugging_face_id": null,
+      "name": "OpenAI: GPT-5.6 Sol Pro",
+      "created": 1783590854,
+      "description": "GPT-5.6 Sol Pro is the same underlying model as [GPT-5.6 Sol](https://openrouter.ai/openai/gpt-5.6-sol), served with `reasoning.mode` set to `pro` for higher-quality responses on complex tasks.\n\nLearn more in OpenAI's docs: https://developers.openai.com/api/docs/guides/reasoning#reasoning-mode",
+      "context_length": 1050000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625"
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2026-02-16",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-5.6-sol-pro-20260709/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "openai/gpt-5.6-sol",
+      "canonical_slug": "openai/gpt-5.6-sol-20260709",
+      "hugging_face_id": null,
+      "name": "OpenAI: GPT-5.6 Sol",
+      "created": 1783590850,
+      "description": "GPT-5.6 Sol is the flagship model in OpenAI's GPT-5.6 series. It is suited for complex reasoning, coding, and agentic workflows, and is particularly strong at command-line and multi-step coding tasks...",
+      "context_length": 1050000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "file",
+          "image",
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "GPT",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000005",
+        "completion": "0.00003",
+        "web_search": "0.01",
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625"
+      },
+      "top_provider": {
+        "context_length": 1050000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": "2026-02-16",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/openai/gpt-5.6-sol-20260709/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "none"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
       "id": "x-ai/grok-4.5",
       "canonical_slug": "x-ai/grok-4.5-20260708",
       "hugging_face_id": null,
@@ -40,6 +484,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -152,6 +597,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -324,6 +770,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "seed",
         "stop",
@@ -397,6 +844,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -586,6 +1034,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -720,6 +1169,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "temperature",
@@ -840,6 +1290,7 @@
       "supported_parameters": [
         "include_reasoning",
         "reasoning",
+        "reasoning_effort",
         "structured_outputs",
         "tool_choice",
         "tools",
@@ -906,6 +1357,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -1079,13 +1531,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000686",
-        "completion": "0.000002156",
-        "input_cache_read": "0.0000001274"
+        "prompt": "0.00000054",
+        "completion": "0.00000176",
+        "input_cache_read": "0.0000001"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 128000,
+        "context_length": 101376,
+        "max_completion_tokens": 101376,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1295,13 +1747,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000074",
-        "completion": "0.0000035",
-        "input_cache_read": "0.00000015"
+        "prompt": "0.00000072",
+        "completion": "0.00000349",
+        "input_cache_read": "0.000000159"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1315,7 +1767,6 @@
         "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
-        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -1493,6 +1944,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -1565,6 +2017,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -1896,6 +2349,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "seed",
         "temperature",
         "tool_choice",
@@ -2030,6 +2484,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -2396,6 +2851,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -2536,6 +2992,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -2609,6 +3066,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -3076,6 +3534,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -3299,6 +3758,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -3428,6 +3888,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -3512,6 +3973,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -3649,6 +4111,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -3948,6 +4411,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -4268,6 +4732,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -4344,6 +4809,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -4492,6 +4958,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -4567,6 +5034,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -4625,7 +5093,8 @@
         "prompt": "0.000005",
         "completion": "0.00003",
         "web_search": "0.01",
-        "input_cache_read": "0.0000005"
+        "input_cache_read": "0.0000005",
+        "input_cache_write": "0.00000625"
       },
       "top_provider": {
         "context_length": 1050000,
@@ -4638,6 +5107,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -4653,7 +5123,7 @@
         "repetition_penalty": null
       },
       "supported_voices": null,
-      "knowledge_cutoff": "2025-12-01",
+      "knowledge_cutoff": "2026-02-16",
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/~openai/gpt-latest/endpoints"
@@ -4662,6 +5132,7 @@
         "mandatory": false,
         "default_enabled": true,
         "supported_efforts": [
+          "max",
           "xhigh",
           "high",
           "medium",
@@ -5036,6 +5507,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -5104,6 +5576,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -5332,6 +5805,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -5492,6 +5966,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -5690,6 +6165,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "seed",
         "stop",
         "temperature",
@@ -6031,6 +6507,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -6174,6 +6651,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -6514,6 +6992,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -7731,6 +8210,7 @@
         "logprobs",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -8179,8 +8659,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000018",
-        "completion": "0.00000072"
+        "prompt": "0.00000024",
+        "completion": "0.00000096"
       },
       "top_provider": {
         "context_length": 196608,
@@ -8330,6 +8810,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -8409,6 +8890,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -8487,6 +8969,7 @@
         "max_tokens",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -8689,6 +9172,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -8768,6 +9252,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -8849,6 +9334,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -8997,6 +9483,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -9065,6 +9552,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -9232,6 +9720,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -9418,6 +9907,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -9554,6 +10044,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -9620,6 +10111,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -9996,6 +10488,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -10063,6 +10556,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -10288,6 +10782,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -10517,6 +11012,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -10929,8 +11425,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000048"
+        "prompt": "0.00000015",
+        "completion": "0.0000009",
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
         "context_length": 196608,
@@ -10948,7 +11445,6 @@
         "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
-        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -11293,6 +11789,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "stop",
         "structured_outputs",
@@ -11523,6 +12020,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -12328,6 +12826,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -12830,6 +13329,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "stop",
@@ -13170,6 +13670,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -13235,6 +13736,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -13619,6 +14121,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -14729,6 +15232,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -14924,6 +15428,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -15044,6 +15549,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -16617,6 +17123,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -18747,6 +19254,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -18881,6 +19389,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -19015,6 +19524,7 @@
         "max_completion_tokens",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -19126,6 +19636,7 @@
         "max_tokens",
         "min_p",
         "reasoning",
+        "reasoning_effort",
         "seed",
         "stop",
         "temperature",
@@ -19227,12 +19738,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000015"
+        "prompt": "0.000000036",
+        "completion": "0.00000018"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -19245,6 +19756,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -19367,6 +19879,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -19462,6 +19975,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -22659,6 +23173,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -24255,6 +24770,7 @@
         "include_reasoning",
         "max_tokens",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "seed",
         "structured_outputs",
@@ -25751,49 +26267,6 @@
       }
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "canonical_slug": "inflection/inflection-3-pi",
-      "hugging_face_id": null,
-      "name": "Inflection: Inflection 3 Pi",
-      "created": 1728604800,
-      "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
-      "context_length": 8000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001"
-      },
-      "top_provider": {
-        "context_length": 8000,
-        "max_completion_tokens": 1024,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "stop",
-        "temperature",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-10-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/inflection/inflection-3-pi/endpoints"
-      }
-    },
-    {
       "id": "inflection/inflection-3-productivity",
       "canonical_slug": "inflection/inflection-3-productivity",
       "hugging_face_id": null,
@@ -25834,6 +26307,49 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/inflection/inflection-3-productivity/endpoints"
+      }
+    },
+    {
+      "id": "inflection/inflection-3-pi",
+      "canonical_slug": "inflection/inflection-3-pi",
+      "hugging_face_id": null,
+      "name": "Inflection: Inflection 3 Pi",
+      "created": 1728604800,
+      "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
+      "context_length": 8000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000025",
+        "completion": "0.00001"
+      },
+      "top_provider": {
+        "context_length": 8000,
+        "max_completion_tokens": 1024,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "max_tokens",
+        "stop",
+        "temperature",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": "2024-10-31",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inflection/inflection-3-pi/endpoints"
       }
     },
     {
@@ -25888,105 +26404,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/thedrummer/rocinante-12b/endpoints"
-      }
-    },
-    {
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
-      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
-      "name": "Meta: Llama 3.2 3B Instruct (free)",
-      "created": 1727222400,
-      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3",
-        "instruct_type": "llama3"
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
-      }
-    },
-    {
-      "id": "meta-llama/llama-3.2-3b-instruct",
-      "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
-      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
-      "name": "Meta: Llama 3.2 3B Instruct",
-      "created": 1727222400,
-      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3",
-        "instruct_type": "llama3"
-      },
-      "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.00000033"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
       }
     },
     {
@@ -26089,6 +26506,105 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.2-11b-vision-instruct/endpoints"
+      }
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct:free",
+      "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
+      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "name": "Meta: Llama 3.2 3B Instruct (free)",
+      "created": 1727222400,
+      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Llama3",
+        "instruct_type": "llama3"
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "max_tokens",
+        "presence_penalty",
+        "stop",
+        "temperature",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": "2023-12-31",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
+      }
+    },
+    {
+      "id": "meta-llama/llama-3.2-3b-instruct",
+      "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
+      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
+      "name": "Meta: Llama 3.2 3B Instruct",
+      "created": 1727222400,
+      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
+      "context_length": 131072,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Llama3",
+        "instruct_type": "llama3"
+      },
+      "pricing": {
+        "prompt": "0.00000005",
+        "completion": "0.00000033"
+      },
+      "top_provider": {
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": "2023-12-31",
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
       }
     },
     {
@@ -27550,6 +28066,7 @@
         "min_p",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "repetition_penalty",
         "response_format",
         "seed",
@@ -27973,5 +28490,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-09T14:41:37.605902+00:00"
+  "updated_at": "2026-07-09T19:27:36.636924+00:00"
 }

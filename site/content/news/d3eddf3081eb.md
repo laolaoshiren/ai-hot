@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，FFmpeg 被曝高危漏洞 CVE-2026-8461（PixelSmash）。攻击者通过构造恶意视频文件，即可触发远程代码执行并完全控制系统。"
 summary_zh = ""
 tags = []
-list_page = 95
+list_page = 96
 +++
 
 <!-- AUTO-GENERATED: news page -->

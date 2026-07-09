@@ -20,7 +20,7 @@ ai_summary = "谷歌正在将 Gemini 的个性化人工智能图像生成扩展�
 summary = "Google is expanding Gemini’s personalized AI image generation to eligible free users in the U."
 summary_zh = "谷歌正在将 Gemini 的个性化人工智能图像生成扩展到美国符合条件的免费用户，允许聊天机器人根据您的兴趣和来自连接的谷歌应用程序的数据创建图像"
 tags = []
-list_page = 46
+list_page = 48
 +++
 
 <!-- AUTO-GENERATED: news page -->
