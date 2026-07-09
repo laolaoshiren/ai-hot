@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，Anthropic 近期更新 iOS 端 Claude app，其中包含如下新字符串： “Fable 5 消耗您订阅计划以外的使用额度。"
 summary_zh = ""
 tags = []
-list_page = 46
+list_page = 47
 +++
 
 <!-- AUTO-GENERATED: news page -->

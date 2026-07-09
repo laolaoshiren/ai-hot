@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-09 17:27:28
+🕐 **最近更新**：2026-07-09 22:42:40
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,21 +16,21 @@
 
 ## 🔥 今日热点
 
-1. [SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”](https://aihot.bt199.com/news/e265f51e2cb7/)
-   - 埃隆·马斯克 (Elon Musk) 的科技公司周三发布了最新版本的 Grok，承诺提供比其他强大人工智能模型更便宜、更…
-   - `TechCrunch AI · 2026-07-08`
+1. [Character.AI 凭借自己的作品进入微剧舞台，但有一个转折](https://aihot.bt199.com/news/8d5144af9315/)
+   - 一个有趣的转变是利用公司的核心产品，用户可以与这些节目的角色聊天，向他们提问，甚至对不同的故事情节进行角色扮演
+   - `TechCrunch AI · 2026-07-09`
 
-2. [这家初创公司认为机器人技术即将迎来它的 ChatGPT 时刻](https://aihot.bt199.com/news/9c57f755e180/)
-   - General Intuition 押注数百万小时的视频游戏数据可以训练物理人工智能的基础模型，从而更容易用最少的现实世…
-   - `TechCrunch AI · 2026-07-08`
+2. [流行的开源 AI 开发工具 Ollama 融资 6500 万美元，用户数量增长至近 900 万](https://aihot.bt199.com/news/f8acfe428074/)
+   - Benchmark 支持的 Ollama 通过帮助开发人员在 PC 上轻松运行 AI，在 GitHub 上获得了 176…
+   - `TechCrunch AI · 2026-07-09`
 
-3. [ChatGPT升级语音模式更能闭嘴](https://aihot.bt199.com/news/4fa3484613a6/)
+3. [下载：核里程碑，中国关注英伟达芯片](https://aihot.bt199.com/news/c3749aa35f8d/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。四个核反应堆在美国实现了一个重大里程…
+   - `MIT Tech Review · 2026-07-09`
+
+4. [ChatGPT升级语音模式更能闭嘴](https://aihot.bt199.com/news/4fa3484613a6/)
    - OpenAI 正在用一种新模型彻底改革 ChatGPT 的语音模式，据称该模型更像是“与另一个人交谈”。新的 GPT-L…
    - `The Verge AI · 2026-07-08`
-
-4. [下载：蠕虫对抗污染，地球工程面对现实](https://aihot.bt199.com/news/de792f4a79c2/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。为什么蠕虫（和微生物）作为一种粪便污…
-   - `MIT Tech Review · 2026-07-08`
 
 5. [Meta的新Muse Image模型可以将其他Instagram用户拉入AI照片中](https://aihot.bt199.com/news/041d3e03c54a/)
    - Meta 正在推出由其超级智能实验室部门制作的第一个人工智能图像生成模型。根据周二的公告，Muse Image 模型现已…
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
