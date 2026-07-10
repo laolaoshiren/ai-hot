@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-09T19:27:36.811142",
-  "date": "2026-07-09",
+  "updated_at": "2026-07-10T02:09:15.853956",
+  "date": "2026-07-10",
   "spotlight": {
-    "name": "VoltAgent",
-    "url": "https://github.com/VoltAgent/voltagent",
+    "name": "Tabby",
+    "url": "https://github.com/TabbyML/tabby",
     "type": "agent",
-    "description": "开源 TypeScript AI Agent 工程平台，支持多 Agent 编排和可视化工作流",
+    "description": "自托管 AI 代码助手，支持代码补全、问答，数据不出服务器，企业友好",
     "pricing": "开源免费",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "Langgraph Browser Use",
-      "url": "https://github.com/luckystarufo/langgraph_browser_use",
+      "name": "Browser Use Agent",
+      "url": "https://github.com/vikas434/browser-use-agent",
       "type": "agent",
-      "description": "把 browser-use Agent 重构到 LangGraph 框架下，方便用图结构编排浏览器自动化流程。",
+      "description": "Browser Use Agent 示例合集，展示 AI 控制浏览器后可完成的多种自动化场景。",
       "pricing": "开源免费",
       "category": "浏览器 Agent"
     },
     {
-      "id": "langchain",
-      "name": "LangChain",
-      "url": "https://langchain.com",
+      "id": "autogen",
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
       "type": "tool",
-      "description": "最流行的 LLM 应用开发框架",
+      "description": "微软出品的多 Agent 协作框架",
       "pricing": "开源免费",
       "category": "Agent"
     },
     {
-      "name": "Manus",
-      "url": "https://manus.im",
+      "name": "Genspark",
+      "url": "https://www.genspark.ai",
       "type": "agent",
-      "description": "通用AI Agent，能自主完成复杂任务链",
-      "pricing": "免费试用",
-      "category": "通用 Agent"
+      "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
+      "pricing": "免费",
+      "category": "研究 Agent"
     }
   ]
 }

@@ -6917,6 +6917,27 @@
     "collected_at": "2026-07-09T14:37:40.873077"
   },
   {
+    "id": "github-1295383219",
+    "name": "lucidrains/x-jepa",
+    "display_name": "x-jepa",
+    "url": "https://github.com/lucidrains/x-jepa",
+    "description": "Explorations into some of the approaches advocated by Yann LeCun, and just a more wholistic architecture (JEPA) in general",
+    "stars": 9,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "jepa",
+      "world-models"
+    ],
+    "created_at": "2026-07-09T14:37:09Z",
+    "updated_at": "2026-07-09T22:43:23Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-07-10T02:08:33.441199"
+  },
+  {
     "id": "github-1188906847",
     "name": "hackyguru/clawcage",
     "display_name": "clawcage",
