@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-10 22:07:47
+🕐 **最近更新**：2026-07-11 03:21:16
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,31 +16,35 @@
 
 ## 🔥 今日热点
 
-1. [Fidji Simo 从 OpenAI 的二号人物位置上退下来。 2 角色](https://aihot.bt199.com/news/ee3f32770183/)
-   - OpenAI 的二号高管 Fidji Simo 因病假时间比预期长而辞去全职职务——领导层真空出现在一个棘手的时刻，因为…
-   - `TechCrunch AI · 2026-07-09`
+1. [Hugging Face 的 Clem Delangue 表示，开源人工智能比以往任何时候都更重要](https://aihot.bt199.com/news/c835ffd5cd3d/)
+   - Hugging Face 首席执行官 Clem Delangue 表示，开源人工智能正在蓬勃发展。近年来，该公司已发展成…
+   - `TechCrunch AI · 2026-07-10`
 
-2. [Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”](https://aihot.bt199.com/news/25a8c727f0cd/)
+2. [SK海力士在美国历史上最大的海外IPO中筹集了26.5亿美元，敦促在美国建造新的晶圆厂](https://aihot.bt199.com/news/2e6f798b14e7/)
+   - 人工智能芯片的繁荣刚刚带来了华尔街迄今为止最大的时刻。现在SK海力士和三星被要求在美国建工厂
+   - `TechCrunch AI · 2026-07-10`
+
+3. [Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”](https://aihot.bt199.com/news/25a8c727f0cd/)
    - 尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…
    - `The Verge AI · 2026-07-10`
 
-3. [您会在家中托管部分人工智能数据中心吗？](https://aihot.bt199.com/news/25b3108dc09f/)
+4. [您会在家中托管部分人工智能数据中心吗？](https://aihot.bt199.com/news/25b3108dc09f/)
    - 一家太阳能和家庭能源存储公司正在向人工智能数据中心扩张，但不是通过建造数据中心，而是向客户付费，让其将其计算单元放置在他…
    - `The Verge AI · 2026-07-10`
 
-4. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
+5. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 发现了一个隐藏…
    - `MIT Tech Review · 2026-07-10`
 
-5. [人类发现了一个隐藏的空间，克劳德在这里对概念感到困惑](https://aihot.bt199.com/news/a90a0d3e9300/)
+6. [人类发现了一个隐藏的空间，克劳德在这里对概念感到困惑](https://aihot.bt199.com/news/a90a0d3e9300/)
    - 人工智能公司 Anthropic 开发了一种技术，可以让人们最清晰地了解大型语言模型在回答问题或执行任务时内部到底发生了…
    - `MIT Tech Review · 2026-07-09`
 
-6. [由于国内需求缓慢显现，美国稀土流向亚洲](https://aihot.bt199.com/news/1cb749a35d19/)
+7. [由于国内需求缓慢显现，美国稀土流向亚洲](https://aihot.bt199.com/news/1cb749a35d19/)
    - 得到特朗普政府支持的矿工。尽管大力发展国内供应链，但仍销往日本、韩国
    - `Ars Technica AI · 2026-07-08`
 
-7. [谷歌为允许客户虚拟机逃逸的 Linux 漏洞支付了 25 万美元](https://aihot.bt199.com/news/d7ac7d2c33e1/)
+8. [谷歌为允许客户虚拟机逃逸的 Linux 漏洞支付了 25 万美元](https://aihot.bt199.com/news/d7ac7d2c33e1/)
    - 这两个漏洞都允许不受信任的用户获得 root 权限
    - `Ars Technica AI · 2026-07-08`
 
@@ -127,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -9413,6 +9413,31 @@
     "is_core": true
   },
   {
+    "id": "hf-fernandotonon--QtMeshEditor-u2net-onnx",
+    "name": "fernandotonon/QtMeshEditor-u2net-onnx",
+    "display_name": "QtMeshEditor-u2net-onnx",
+    "url": "https://huggingface.co/fernandotonon/QtMeshEditor-u2net-onnx",
+    "author": "fernandotonon",
+    "pipeline_tag": "image-segmentation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "onnx",
+      "background-removal",
+      "salient-object-detection",
+      "segmentation",
+      "qtmesheditor",
+      "image-segmentation",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-07-10T19:11:59.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-10T19:19:39.955660",
+    "display_priority": 293,
+    "is_core": true
+  },
+  {
     "id": "hf-zxb111--colpali-v1.3",
     "name": "zxb111/colpali-v1.3",
     "display_name": "colpali-v1.3",
@@ -9440,7 +9465,7 @@
     "created_at": "2026-06-23T02:21:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-23T02:32:58.759214",
-    "display_priority": 293,
+    "display_priority": 294,
     "is_core": true
   },
   {
@@ -9471,7 +9496,7 @@
     "created_at": "2026-07-07T19:25:33.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-07T19:45:45.689540",
-    "display_priority": 294,
+    "display_priority": 295,
     "is_core": true
   },
   {
@@ -9497,7 +9522,7 @@
     "created_at": "2026-06-24T14:07:55.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-24T14:12:24.113118",
-    "display_priority": 295,
+    "display_priority": 296,
     "is_core": true
   },
   {
@@ -9520,7 +9545,7 @@
     "created_at": "2026-06-26T02:20:40.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461908",
-    "display_priority": 296,
+    "display_priority": 297,
     "is_core": true
   },
   {
@@ -9543,7 +9568,7 @@
     "created_at": "2026-06-26T02:20:34.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461914",
-    "display_priority": 297,
+    "display_priority": 298,
     "is_core": true
   },
   {
@@ -9566,7 +9591,7 @@
     "created_at": "2026-06-26T02:20:25.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461916",
-    "display_priority": 298,
+    "display_priority": 299,
     "is_core": true
   }
 ]

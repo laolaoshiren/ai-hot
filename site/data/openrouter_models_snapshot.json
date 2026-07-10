@@ -1576,13 +1576,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000007",
-        "completion": "0.0000022",
-        "input_cache_read": "0.00000013"
+        "prompt": "0.00000042",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000078"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 128000,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -14677,66 +14677,6 @@
           "coding_index": 20.1,
           "agentic_index": 5.5
         }
-      }
-    },
-    {
-      "id": "arcee-ai/trinity-mini",
-      "canonical_slug": "arcee-ai/trinity-mini-20251201",
-      "hugging_face_id": "arcee-ai/Trinity-Mini",
-      "name": "Arcee AI: Trinity Mini",
-      "created": 1764601720,
-      "description": "Trinity Mini is a 26B-parameter (3B active) sparse mixture-of-experts language model featuring 128 experts with 8 active per token. Engineered for efficient reasoning over long contexts (131k) with robust function...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000000045",
-        "completion": "0.00000015"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "logprobs",
-        "max_completion_tokens",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 0.15,
-        "top_p": 0.75,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-07-10",
-      "links": {
-        "details": "/api/v1/models/arcee-ai/trinity-mini-20251201/endpoints"
-      },
-      "reasoning": {
-        "mandatory": true
       }
     },
     {
@@ -28587,5 +28527,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-10T14:06:41.496938+00:00"
+  "updated_at": "2026-07-10T19:20:19.680314+00:00"
 }

@@ -20,7 +20,7 @@ ai_summary = "开源模型的成功并不以牺牲前沿实验室为代价。相
 summary = "Open source models’ success isn’t coming at the expense of frontier labs. Instead, they each seem to capture two phases of the same life cycle."
 summary_zh = "开源模型的成功并不以牺牲前沿实验室为代价。相反，它们似乎都捕获了同一生命周期的两个阶段"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->
