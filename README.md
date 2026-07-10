@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-10 17:24:52
+🕐 **最近更新**：2026-07-10 22:07:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,20 +20,20 @@
    - OpenAI 的二号高管 Fidji Simo 因病假时间比预期长而辞去全职职务——领导层真空出现在一个棘手的时刻，因为…
    - `TechCrunch AI · 2026-07-09`
 
-2. [微软去年的碳排放量增加了 25%](https://aihot.bt199.com/news/b34ecec603e3/)
-   - 根据其 2026 年可持续发展报告，微软可能再次难以实现自己的气候目标。据 GeekWire 报道，报告指出，“如果不采…
+2. [Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”](https://aihot.bt199.com/news/25a8c727f0cd/)
+   - 尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…
    - `The Verge AI · 2026-07-10`
 
-3. [Fidji Simo 因病辞去 OpenAI AGI 工作领导职务](https://aihot.bt199.com/news/aa665a1ba2a0/)
-   - OpenAI 的 Fidji Simo 在 X 上表示，她将辞去公司 AGI 负责人的全职职务，转而担任“兼职顾问”。此…
-   - `The Verge AI · 2026-07-09`
+3. [您会在家中托管部分人工智能数据中心吗？](https://aihot.bt199.com/news/25b3108dc09f/)
+   - 一家太阳能和家庭能源存储公司正在向人工智能数据中心扩张，但不是通过建造数据中心，而是向客户付费，让其将其计算单元放置在他…
+   - `The Verge AI · 2026-07-10`
 
-4. [人类发现了一个隐藏的空间，克劳德在这里对概念感到困惑](https://aihot.bt199.com/news/a90a0d3e9300/)
+4. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 发现了一个隐藏…
+   - `MIT Tech Review · 2026-07-10`
+
+5. [人类发现了一个隐藏的空间，克劳德在这里对概念感到困惑](https://aihot.bt199.com/news/a90a0d3e9300/)
    - 人工智能公司 Anthropic 开发了一种技术，可以让人们最清晰地了解大型语言模型在回答问题或执行任务时内部到底发生了…
-   - `MIT Tech Review · 2026-07-09`
-
-5. [下载：核里程碑，中国关注英伟达芯片](https://aihot.bt199.com/news/c3749aa35f8d/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。四个核反应堆在美国实现了一个重大里程…
    - `MIT Tech Review · 2026-07-09`
 
 6. [由于国内需求缓慢显现，美国稀土流向亚洲](https://aihot.bt199.com/news/1cb749a35d19/)
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

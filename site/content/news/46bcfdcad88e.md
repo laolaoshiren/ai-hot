@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，core会员新给的卡，开chatgpt go直接输卡号就能订阅了，不用转长链。 12 个帖子 - 6 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 138
+list_page = 139
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，AI算力高速迭代，高端芯片散热压力持续加大，超高导热的金刚石正成为半导体新材料的热门方向。 依托全球人造金刚石产业优势，河南柘城大批企业纷纷入局AI芯片散热赛道。"
 summary_zh = ""
 tags = []
-list_page = 53
+list_page = 54
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，IT之家 6 月 30 日消息，埃隆 · 马斯克于当地时间上周日透露，SpaceX 已抽调数十名星链（Starlink）与星舰（Starship）核心工程师，全力迭代优化自家 Grok 大模型。"
 summary_zh = ""
 tags = []
-list_page = 49
+list_page = 50
 +++
 
 <!-- AUTO-GENERATED: news page -->

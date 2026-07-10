@@ -3910,6 +3910,37 @@
     "is_core": true
   },
   {
+    "id": "hf-bottlecapai--ThinkingCap-Qwen3.6-27B",
+    "name": "bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "display_name": "ThinkingCap-Qwen3.6-27B",
+    "url": "https://huggingface.co/bottlecapai/ThinkingCap-Qwen3.6-27B",
+    "author": "bottlecapai",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 203,
+    "downloads": 3699,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "qwen3_6",
+      "token-efficient",
+      "efficient-thinking",
+      "conversational",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:finetune:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-07-06T13:16:04.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-10T14:05:53.240615",
+    "display_priority": 103,
+    "is_core": true
+  },
+  {
     "id": "hf-OpenMOSS-Team--MOSS-TTS-Nano-100M",
     "name": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
     "display_name": "MOSS-TTS-Nano-100M",
@@ -3951,7 +3982,7 @@
     "created_at": "2026-04-02T15:13:08.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733911",
-    "display_priority": 103,
+    "display_priority": 104,
     "is_core": true
   },
   {
@@ -3976,7 +4007,7 @@
     "created_at": "2026-05-08T13:06:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T02:28:58.864373",
-    "display_priority": 104,
+    "display_priority": 105,
     "is_core": true
   },
   {
@@ -3995,7 +4026,7 @@
     "created_at": "2026-04-13T18:31:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733887",
-    "display_priority": 105,
+    "display_priority": 106,
     "is_core": true
   },
   {
@@ -4024,7 +4055,7 @@
     "created_at": "2026-04-08T01:43:22.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-20T14:22:14.452421",
-    "display_priority": 106,
+    "display_priority": 107,
     "is_core": true
   },
   {
@@ -4049,7 +4080,7 @@
     "created_at": "2026-07-07T14:28:55.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-10T09:23:09.451071",
-    "display_priority": 107,
+    "display_priority": 108,
     "is_core": true
   },
   {
@@ -4087,7 +4118,7 @@
     "created_at": "2026-04-22T17:10:47.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-23T13:09:14.937690",
-    "display_priority": 108,
+    "display_priority": 109,
     "is_core": true
   },
   {
@@ -4115,7 +4146,7 @@
     "created_at": "2026-04-13T09:12:47.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T19:31:24.390358",
-    "display_priority": 109,
+    "display_priority": 110,
     "is_core": true
   },
   {
@@ -4136,7 +4167,7 @@
     "created_at": "2026-06-11T02:20:46.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131896",
-    "display_priority": 110,
+    "display_priority": 111,
     "is_core": true
   },
   {
@@ -4164,7 +4195,7 @@
     "created_at": "2026-06-16T19:31:16.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-19T03:34:45.896709",
-    "display_priority": 111,
+    "display_priority": 112,
     "is_core": true
   },
   {
@@ -4192,7 +4223,7 @@
     "created_at": "2026-04-14T06:17:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733920",
-    "display_priority": 112,
+    "display_priority": 113,
     "is_core": true
   },
   {
@@ -4217,7 +4248,7 @@
     "created_at": "2026-05-08T13:09:29.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T02:28:58.864415",
-    "display_priority": 113,
+    "display_priority": 114,
     "is_core": true
   },
   {
@@ -4246,7 +4277,7 @@
     "created_at": "2026-06-09T04:03:30.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131921",
-    "display_priority": 114,
+    "display_priority": 115,
     "is_core": true
   },
   {
@@ -4283,7 +4314,7 @@
     "created_at": "2026-05-13T16:23:12.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T08:57:46.993970",
-    "display_priority": 115,
+    "display_priority": 116,
     "is_core": true
   },
   {
@@ -4318,35 +4349,6 @@
     "created_at": "2026-07-07T23:01:51.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-10T09:23:09.451115",
-    "display_priority": 116,
-    "is_core": true
-  },
-  {
-    "id": "hf-datalab-to--lift",
-    "name": "datalab-to/lift",
-    "display_name": "lift",
-    "url": "https://huggingface.co/datalab-to/lift",
-    "author": "datalab-to",
-    "pipeline_tag": "image-text-to-text",
-    "likes": 63,
-    "downloads": 0,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "pdf",
-      "extraction",
-      "structured-data",
-      "json",
-      "conversational",
-      "license:openrail",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "created_at": "2026-06-19T12:20:44.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-06-20T08:45:51.336774",
     "display_priority": 117,
     "is_core": true
   },

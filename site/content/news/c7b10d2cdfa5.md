@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，百川发布新一代医疗增强大模型 M4：登顶 OpenAI 医疗评测，超越 GPT-5.5 - IT之家 9 个帖子 - 9 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 110
+list_page = 111
 +++
 
 <!-- AUTO-GENERATED: news page -->
