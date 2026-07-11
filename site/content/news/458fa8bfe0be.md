@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，看了眼deepseek的抱抱脸仓库，发现最近上传了一些神秘模型，惯例没有模型卡 huggingface."
 summary_zh = ""
 tags = []
-list_page = 60
+list_page = 61
 +++
 
 <!-- AUTO-GENERATED: news page -->
