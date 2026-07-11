@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-07-11T13:03:12.394264",
+  "updated_at": "2026-07-11T18:51:53.502933",
   "total": 8,
   "hot_list": [
+    {
+      "title": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "name": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "title_zh": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-11",
+      "time": "2026-07-11",
+      "description": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "subtitle": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "ai_summary": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "category": "资讯",
+      "news_id": "b9b468358fa6",
+      "internal_url": "https://aihot.bt199.com/news/b9b468358fa6/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
       "name": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "312c742d69a6",
       "internal_url": "https://aihot.bt199.com/news/312c742d69a6/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "name": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "title_zh": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-10",
-      "time": "2026-07-10",
-      "description": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "subtitle": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "ai_summary": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "category": "资讯",
-      "news_id": "80b272bb4140",
-      "internal_url": "https://aihot.bt199.com/news/80b272bb4140/",
       "type_label": "📰 新闻"
     },
     {
@@ -149,6 +149,24 @@
   ],
   "top_20": [
     {
+      "title": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "name": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "title_zh": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-11",
+      "time": "2026-07-11",
+      "description": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "subtitle": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "ai_summary": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "category": "资讯",
+      "news_id": "b9b468358fa6",
+      "internal_url": "https://aihot.bt199.com/news/b9b468358fa6/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
       "name": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
       "title_zh": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
@@ -164,24 +182,6 @@
       "category": "资讯",
       "news_id": "312c742d69a6",
       "internal_url": "https://aihot.bt199.com/news/312c742d69a6/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "name": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "title_zh": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-10",
-      "time": "2026-07-10",
-      "description": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "subtitle": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "ai_summary": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "category": "资讯",
-      "news_id": "80b272bb4140",
-      "internal_url": "https://aihot.bt199.com/news/80b272bb4140/",
       "type_label": "📰 新闻"
     },
     {
@@ -301,6 +301,24 @@
   },
   "items": [
     {
+      "title": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "name": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "title_zh": "随着 ChatGPT 深入家庭，OpenAI 押注家庭",
+      "url": "https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-11",
+      "time": "2026-07-11",
+      "description": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "subtitle": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "ai_summary": "根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验",
+      "category": "资讯",
+      "news_id": "b9b468358fa6",
+      "internal_url": "https://aihot.bt199.com/news/b9b468358fa6/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
       "name": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
       "title_zh": "强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能",
@@ -316,24 +334,6 @@
       "category": "资讯",
       "news_id": "312c742d69a6",
       "internal_url": "https://aihot.bt199.com/news/312c742d69a6/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "name": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "title_zh": "苹果起诉 OpenAI 涉嫌窃取商业机密",
-      "url": "https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-10",
-      "time": "2026-07-10",
-      "description": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "subtitle": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "ai_summary": "苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员",
-      "category": "资讯",
-      "news_id": "80b272bb4140",
-      "internal_url": "https://aihot.bt199.com/news/80b272bb4140/",
       "type_label": "📰 新闻"
     },
     {

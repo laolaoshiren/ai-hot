@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-11 21:03:12
+🕐 **最近更新**：2026-07-12 02:51:53
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能](https://aihot.bt199.com/news/312c742d69a6/)
-   - 该公司在一篇博客文章中表示：“我们的目的是提供一个有用的创意工具，让人们控制他们的公开内容是否可以通过这种方式引用。”…
-   - `TechCrunch AI · 2026-07-10`
+1. [随着 ChatGPT 深入家庭，OpenAI 押注家庭](https://aihot.bt199.com/news/b9b468358fa6/)
+   - 根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验
+   - `TechCrunch AI · 2026-07-11`
 
-2. [苹果起诉 OpenAI 涉嫌窃取商业机密](https://aihot.bt199.com/news/80b272bb4140/)
-   - 苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员
+2. [强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能](https://aihot.bt199.com/news/312c742d69a6/)
+   - 该公司在一篇博客文章中表示：“我们的目的是提供一个有用的创意工具，让人们控制他们的公开内容是否可以通过这种方式引用。”…
    - `TechCrunch AI · 2026-07-10`
 
 3. [Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造](https://aihot.bt199.com/news/c5c58f59ae8d/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

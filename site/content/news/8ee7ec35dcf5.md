@@ -20,7 +20,7 @@ ai_summary = "吉姆·弗兰克（Jim Franke）拉开他办公室环绕式办公
 summary = "Jim Franke pulls away the cover page of a presentation on the wraparound desk in his office, revealing an illustration of an odd-­looking aircraft with massive wings stretching out from a stubby fuselage."
 summary_zh = "吉姆·弗兰克（Jim Franke）拉开他办公室环绕式办公桌上的演示文稿封面，展示了一架外观奇怪的飞机的插图，其巨大的机翼从粗短的机身中伸出。这架无人驾驶飞机的飞行高度比商用喷气式飞机还要高数千米——如此之高，你可以想象一下"
 tags = []
-list_page = 145
+list_page = 146
 +++
 
 <!-- AUTO-GENERATED: news page -->
