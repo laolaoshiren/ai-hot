@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://openai.com/index/daybreak-secure-the-world/
 summary = "Article URL: https://openai.com/index/daybreak-securing-the-world/ Comments URL: https://news."
 summary_zh = "文章网址：https://openai.com/index/daybreak-secure-the-world/ 评论网址：https://news.ycombinator.com/item?id=48639063 积分：198 # 评论…"
 tags = []
-list_page = 110
+list_page = 111
 +++
 
 <!-- AUTO-GENERATED: news page -->
