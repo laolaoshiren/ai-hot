@@ -375,13 +375,13 @@
       "Llama 4 Maverick",
       "Llama 4 Scout"
     ],
-    "model_count": 12,
+    "model_count": 11,
     "last_updated": "2025-04-30",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 12 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
+    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=ai.meta.com&sz=64"
   },

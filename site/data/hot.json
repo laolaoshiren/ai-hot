@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-11T01:56:53.646909",
+  "updated_at": "2026-07-11T07:45:59.782150",
   "total": 8,
   "hot_list": [
     {
@@ -39,6 +39,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "name": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "title_zh": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-07-10",
+      "time": "2026-07-10",
+      "description": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "subtitle": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "ai_summary": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "category": "资讯",
+      "news_id": "c5c58f59ae8d",
+      "internal_url": "https://aihot.bt199.com/news/c5c58f59ae8d/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
       "name": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
       "title_zh": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
@@ -54,24 +72,6 @@
       "category": "资讯",
       "news_id": "82c4cd266998",
       "internal_url": "https://aihot.bt199.com/news/82c4cd266998/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "name": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "title_zh": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-07-10",
-      "time": "2026-07-10",
-      "description": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "subtitle": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "ai_summary": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "category": "资讯",
-      "news_id": "25a8c727f0cd",
-      "internal_url": "https://aihot.bt199.com/news/25a8c727f0cd/",
       "type_label": "📰 新闻"
     },
     {
@@ -185,6 +185,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "name": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "title_zh": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-07-10",
+      "time": "2026-07-10",
+      "description": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "subtitle": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "ai_summary": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "category": "资讯",
+      "news_id": "c5c58f59ae8d",
+      "internal_url": "https://aihot.bt199.com/news/c5c58f59ae8d/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
       "name": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
       "title_zh": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
@@ -200,24 +218,6 @@
       "category": "资讯",
       "news_id": "82c4cd266998",
       "internal_url": "https://aihot.bt199.com/news/82c4cd266998/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "name": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "title_zh": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-07-10",
-      "time": "2026-07-10",
-      "description": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "subtitle": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "ai_summary": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "category": "资讯",
-      "news_id": "25a8c727f0cd",
-      "internal_url": "https://aihot.bt199.com/news/25a8c727f0cd/",
       "type_label": "📰 新闻"
     },
     {
@@ -337,6 +337,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "name": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "title_zh": "Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造",
+      "url": "https://www.theverge.com/tech/964416/meta-instagram-ai-muse-image-deepfakes",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-07-10",
+      "time": "2026-07-10",
+      "description": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "subtitle": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "ai_summary": "在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…",
+      "category": "资讯",
+      "news_id": "c5c58f59ae8d",
+      "internal_url": "https://aihot.bt199.com/news/c5c58f59ae8d/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
       "name": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
       "title_zh": "苹果起诉 OpenAI 涉嫌窃取硬件机密",
@@ -352,24 +370,6 @@
       "category": "资讯",
       "news_id": "82c4cd266998",
       "internal_url": "https://aihot.bt199.com/news/82c4cd266998/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "name": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "title_zh": "Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”",
-      "url": "https://www.theverge.com/tech/963961/instagram-adam-mosseri-ai-feed-filters",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-07-10",
-      "time": "2026-07-10",
-      "description": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "subtitle": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "ai_summary": "尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…",
-      "category": "资讯",
-      "news_id": "25a8c727f0cd",
-      "internal_url": "https://aihot.bt199.com/news/25a8c727f0cd/",
       "type_label": "📰 新闻"
     },
     {

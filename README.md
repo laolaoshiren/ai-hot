@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-11 09:56:54
+🕐 **最近更新**：2026-07-11 15:46:00
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,12 +24,12 @@
    - 苹果公司声称，这一不当行为是由 OpenAI 的高级领导层指挥的，其中包括一名长期前雇员
    - `TechCrunch AI · 2026-07-10`
 
-3. [苹果起诉 OpenAI 涉嫌窃取硬件机密](https://aihot.bt199.com/news/82c4cd266998/)
-   - 苹果起诉 OpenAI，指控工程师窃取苹果机密以推进这家人工智能初创公司的硬件计划。苹果在诉状中表示，它发现了“苹果前…
+3. [Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造](https://aihot.bt199.com/news/c5c58f59ae8d/)
+   - 在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…
    - `The Verge AI · 2026-07-10`
 
-4. [Instagram 的 Adam Mosseri：如果你不喜欢人工智能，“那么你就不应该把它放在你的动态中”](https://aihot.bt199.com/news/25a8c727f0cd/)
-   - 尽管 Instagram 负责人 Adam Mosseri 不想过滤掉平台上的人工智能内容，但他认为，如果你不喜欢它，“…
+4. [苹果起诉 OpenAI 涉嫌窃取硬件机密](https://aihot.bt199.com/news/82c4cd266998/)
+   - 苹果起诉 OpenAI，指控工程师窃取苹果机密以推进这家人工智能初创公司的硬件计划。苹果在诉状中表示，它发现了“苹果前…
    - `The Verge AI · 2026-07-10`
 
 5. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，OpenAI Codex 支持自定义第三方模型提供者 OpenAI Codex 现在允许用户通过自定义模型提供者接入第三方模型。"
 summary_zh = ""
 tags = []
-list_page = 132
+list_page = 133
 +++
 
 <!-- AUTO-GENERATED: news page -->

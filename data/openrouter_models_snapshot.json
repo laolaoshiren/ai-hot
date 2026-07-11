@@ -1598,13 +1598,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000042",
-        "completion": "0.00000132",
-        "input_cache_read": "0.000000078"
+        "prompt": "0.000000406",
+        "completion": "0.000001276",
+        "input_cache_read": "0.0000000754"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1024000,
+        "max_completion_tokens": 128000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1815,8 +1815,8 @@
       },
       "pricing": {
         "prompt": "0.00000072",
-        "completion": "0.00000349",
-        "input_cache_read": "0.000000159"
+        "completion": "0.0000035",
+        "input_cache_read": "0.00000015"
       },
       "top_provider": {
         "context_length": 262144,
@@ -6022,9 +6022,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000084",
-        "completion": "0.000000168",
-        "input_cache_read": "0.0000000168"
+        "prompt": "0.000000077",
+        "completion": "0.000000154",
+        "input_cache_read": "0.0000000154"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -18351,7 +18351,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2025-09-30",
-      "expiration_date": null,
+      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/qwen/qwen3-next-80b-a3b-instruct-2509/endpoints"
       }
@@ -20780,7 +20780,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2025-06-30",
-      "expiration_date": null,
+      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/qwen/qwen3-coder-480b-a35b-07-25/endpoints"
       },
@@ -21274,7 +21274,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2024-04-30",
-      "expiration_date": null,
+      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/venice/uncensored/endpoints"
       }
@@ -25765,7 +25765,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.3-70b-instruct/endpoints"
       },
@@ -26602,7 +26602,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
       }
@@ -26963,7 +26963,7 @@
       "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/nousresearch/hermes-3-llama-3.1-405b/endpoints"
       }
@@ -27646,57 +27646,6 @@
             "rank": 112
           }
         ]
-      }
-    },
-    {
-      "id": "meta-llama/llama-3-8b-instruct",
-      "canonical_slug": "meta-llama/llama-3-8b-instruct",
-      "hugging_face_id": "meta-llama/Meta-Llama-3-8B-Instruct",
-      "name": "Meta: Llama 3 8B Instruct",
-      "created": 1713398400,
-      "description": "Meta's latest class of model (Llama 3) launched with a variety of sizes & flavors. This 8B instruct-tuned version was optimized for high quality dialogue usecases. It has demonstrated strong...",
-      "context_length": 8192,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3",
-        "instruct_type": "llama3"
-      },
-      "pricing": {
-        "prompt": "0.00000014",
-        "completion": "0.00000014"
-      },
-      "top_provider": {
-        "context_length": 8192,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3-8b-instruct/endpoints"
       }
     },
     {
@@ -28543,5 +28492,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-11T01:56:00.730124+00:00"
+  "updated_at": "2026-07-11T07:45:09.359785+00:00"
 }
