@@ -20,7 +20,7 @@ ai_summary = "虽然谷歌禁止误导性和欺骗性广告，但广告仍然可
 summary = "While Google prohibits misleading and deceptive ads, an ad can still leverage AI to create some type of synthetic or digitally altered content."
 summary_zh = "虽然谷歌禁止误导性和欺骗性广告，但广告仍然可以利用人工智能来创建某种类型的合成或数字修改内容。到目前为止，谷歌只要求选举广告披露这一点"
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->
