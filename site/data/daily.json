@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-11T18:51:02.682471",
-  "date": "2026-07-11",
+  "updated_at": "2026-07-12T01:59:08.649278",
+  "date": "2026-07-12",
   "spotlight": {
-    "name": "OpenCLI",
-    "url": "https://github.com/jackwener/OpenCLI",
+    "name": "Inkos",
+    "url": "https://github.com/Narcooo/inkos",
     "type": "agent",
-    "description": "通用 CLI 中心和 AI 原生运行时，将任何网站和工具变成你的命令行",
+    "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
     "pricing": "免费开源",
-    "category": "自动化 Agent"
+    "category": "创作 Agent"
   },
   "alternates": [
     {
-      "name": "Agent Sdk Golang",
-      "url": "https://github.com/timwhitez/agent-sdk-golang",
+      "name": "Autodidact",
+      "url": "https://github.com/dCaples/AutoDidact",
       "type": "agent",
-      "description": "Go 实现的极简 Agent SDK，提供工具调用循环，适合在 Go 项目里快速嵌入智能体能力。",
+      "description": "用强化学习和自验证机制自动训练研究型 Agent LLM，适合探索自我学习智能体。",
       "pricing": "开源免费",
-      "category": "浏览器 Agent"
+      "category": "研究 Agent"
     },
     {
-      "id": "crewai",
-      "name": "CrewAI",
-      "url": "https://crewai.com",
+      "id": "ollama",
+      "name": "Ollama",
+      "url": "https://ollama.com",
       "type": "tool",
-      "description": "多 Agent 协作框架，简单易用",
-      "pricing": "开源 + 企业版",
-      "category": "Agent"
+      "description": "本地运行大模型的最简单方式",
+      "pricing": "开源免费",
+      "category": "本地模型"
     },
     {
-      "name": "Flowise",
-      "url": "https://github.com/FlowiseAI/Flowise",
+      "name": "Goose",
+      "url": "https://github.com/aaif-goose/goose",
       "type": "agent",
-      "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
-      "pricing": "开源 + Cloud",
-      "category": "平台 Agent"
+      "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
+      "pricing": "开源免费",
+      "category": "编程 Agent"
     }
   ]
 }
