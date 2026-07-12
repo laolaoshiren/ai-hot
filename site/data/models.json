@@ -3415,25 +3415,28 @@
     "is_core": true
   },
   {
-    "id": "hf-SG161222--Realistic_Vision_V5.1_noVAE",
-    "name": "SG161222/Realistic_Vision_V5.1_noVAE",
-    "display_name": "Realistic_Vision_V5.1_noVAE",
-    "url": "https://huggingface.co/SG161222/Realistic_Vision_V5.1_noVAE",
-    "author": "SG161222",
+    "id": "hf-krea--Krea-2-Turbo",
+    "name": "krea/Krea-2-Turbo",
+    "display_name": "Krea-2-Turbo",
+    "url": "https://huggingface.co/krea/Krea-2-Turbo",
+    "author": "krea",
     "pipeline_tag": "text-to-image",
-    "likes": 257,
-    "downloads": 516504,
+    "likes": 594,
+    "downloads": 175427,
     "tags": [
       "diffusers",
       "safetensors",
-      "license:creativeml-openrail-m",
-      "endpoints_compatible",
-      "diffusers:StableDiffusionPipeline",
+      "text-to-image",
+      "en",
+      "base_model:krea/Krea-2-Raw",
+      "base_model:finetune:krea/Krea-2-Raw",
+      "license:other",
+      "diffusers:Krea2Pipeline",
       "region:us"
     ],
-    "created_at": "2023-07-31T05:20:51.000Z",
-    "source": "hf-text-to-image",
-    "collected_at": "2026-07-11T18:50:19.649656",
+    "created_at": "2026-06-18T04:50:10.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-12T13:02:07.435070",
     "display_priority": 91,
     "is_core": true
   },
@@ -9162,6 +9165,32 @@
     "is_core": true
   },
   {
+    "id": "hf-somya1607--tourism-wellness-model",
+    "name": "somya1607/tourism-wellness-model",
+    "display_name": "tourism-wellness-model",
+    "url": "https://huggingface.co/somya1607/tourism-wellness-model",
+    "author": "somya1607",
+    "pipeline_tag": "tabular-classification",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "scikit-learn",
+      "joblib",
+      "tabular-classification",
+      "tourism",
+      "wellness-tourism",
+      "customer-targeting",
+      "mlops",
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-07-12T12:56:29.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-12T13:02:07.498924",
+    "display_priority": 283,
+    "is_core": true
+  },
+  {
     "id": "hf-tolyho--soundstream-librispeech-16khz",
     "name": "tolyho/soundstream-librispeech-16khz",
     "display_name": "soundstream-librispeech-16khz",
@@ -9186,7 +9215,7 @@
     "created_at": "2026-05-15T08:28:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-15T08:42:52.479853",
-    "display_priority": 283,
+    "display_priority": 284,
     "is_core": true
   },
   {
@@ -9206,7 +9235,7 @@
     "created_at": "2026-05-27T14:44:18.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-27T15:01:21.549237",
-    "display_priority": 284,
+    "display_priority": 285,
     "is_core": true
   },
   {
@@ -9226,7 +9255,7 @@
     "created_at": "2026-05-27T14:37:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-27T15:01:21.549290",
-    "display_priority": 285,
+    "display_priority": 286,
     "is_core": true
   },
   {
@@ -9261,7 +9290,7 @@
     "created_at": "2026-06-27T02:20:17.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-27T02:31:00.666170",
-    "display_priority": 286,
+    "display_priority": 287,
     "is_core": true
   },
   {
@@ -9281,7 +9310,7 @@
     "created_at": "2026-07-02T13:40:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-02T13:43:50.803751",
-    "display_priority": 287,
+    "display_priority": 288,
     "is_core": true
   },
   {
@@ -9305,7 +9334,7 @@
     "created_at": "2026-05-20T02:33:05.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-20T02:36:23.493951",
-    "display_priority": 288,
+    "display_priority": 289,
     "is_core": true
   },
   {
@@ -9329,7 +9358,7 @@
     "created_at": "2026-05-20T02:25:05.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-20T02:36:23.494009",
-    "display_priority": 289,
+    "display_priority": 290,
     "is_core": true
   },
   {
@@ -9354,7 +9383,7 @@
     "created_at": "2026-06-19T19:24:55.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-19T19:30:41.092946",
-    "display_priority": 290,
+    "display_priority": 291,
     "is_core": true
   },
   {
@@ -9393,7 +9422,7 @@
     "created_at": "2026-05-24T08:13:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-24T08:22:04.330518",
-    "display_priority": 291,
+    "display_priority": 292,
     "is_core": true
   },
   {
@@ -9417,7 +9446,7 @@
     "created_at": "2026-05-26T02:29:06.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-26T02:32:18.544678",
-    "display_priority": 292,
+    "display_priority": 293,
     "is_core": true
   },
   {
@@ -9449,7 +9478,7 @@
     "created_at": "2026-06-21T13:38:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-21T13:53:12.110140",
-    "display_priority": 293,
+    "display_priority": 294,
     "is_core": true
   },
   {
@@ -9472,7 +9501,7 @@
     "created_at": "2026-07-01T09:29:07.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-01T09:34:10.007676",
-    "display_priority": 294,
+    "display_priority": 295,
     "is_core": true
   },
   {
@@ -9497,7 +9526,7 @@
     "created_at": "2026-07-10T19:11:59.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-10T19:19:39.955660",
-    "display_priority": 295,
+    "display_priority": 296,
     "is_core": true
   },
   {
@@ -9528,7 +9557,7 @@
     "created_at": "2026-06-23T02:21:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-23T02:32:58.759214",
-    "display_priority": 296,
+    "display_priority": 297,
     "is_core": true
   },
   {
@@ -9559,7 +9588,7 @@
     "created_at": "2026-07-07T19:25:33.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-07T19:45:45.689540",
-    "display_priority": 297,
+    "display_priority": 298,
     "is_core": true
   },
   {
@@ -9585,7 +9614,31 @@
     "created_at": "2026-06-24T14:07:55.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-24T14:12:24.113118",
-    "display_priority": 298,
+    "display_priority": 299,
+    "is_core": true
+  },
+  {
+    "id": "hf-alxxtexxr--XLM-R-Base-squad-vi-LoRA-Addition-v260712125532",
+    "name": "alxxtexxr/XLM-R-Base-squad-vi-LoRA-Addition-v260712125532",
+    "display_name": "XLM-R-Base-squad-vi-LoRA-Addition-v260712125532",
+    "url": "https://huggingface.co/alxxtexxr/XLM-R-Base-squad-vi-LoRA-Addition-v260712125532",
+    "author": "alxxtexxr",
+    "pipeline_tag": "question-answering",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "xlm-roberta",
+      "question-answering",
+      "arxiv:1910.09700",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-07-12T12:55:55.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-12T13:02:07.498935",
+    "display_priority": 300,
     "is_core": true
   },
   {
@@ -9608,7 +9661,7 @@
     "created_at": "2026-06-26T02:20:40.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461908",
-    "display_priority": 299,
+    "display_priority": 301,
     "is_core": true
   },
   {
@@ -9631,7 +9684,7 @@
     "created_at": "2026-06-26T02:20:34.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461914",
-    "display_priority": 300,
+    "display_priority": 302,
     "is_core": true
   },
   {
@@ -9654,7 +9707,7 @@
     "created_at": "2026-06-26T02:20:25.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461916",
-    "display_priority": 301,
+    "display_priority": 303,
     "is_core": true
   }
 ]
