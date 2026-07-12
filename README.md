@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-12 21:03:43
+🕐 **最近更新**：2026-07-13 02:57:51
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,13 +24,13 @@
    - 该公司在一篇博客文章中表示：“我们的目的是提供一个有用的创意工具，让人们控制他们的公开内容是否可以通过这种方式引用。”…
    - `TechCrunch AI · 2026-07-10`
 
-3. [Meta 关闭了 Instagram 功能，该功能允许用户对公共帐户进行人工智能深度伪造](https://aihot.bt199.com/news/c5c58f59ae8d/)
-   - 在遭到强烈反对后，Meta 将关闭其本周宣布的一项功能，该功能允许用户仅通过标记公共 Instagram 帐户的内容即可…
-   - `The Verge AI · 2026-07-10`
+3. [苹果失败的自动驾驶汽车计划留下了强大的人工智能芯片的遗产](https://aihot.bt199.com/news/8f4dc6d90b88/)
+   - 苹果的自动驾驶汽车计划从未真正启动，但这可能是该公司芯片成为强大人工智能执行者的原因。在自动驾驶平台开发的早期，苹果就意…
+   - `The Verge AI · 2026-07-12`
 
-4. [苹果起诉 OpenAI 涉嫌窃取硬件机密](https://aihot.bt199.com/news/82c4cd266998/)
-   - 苹果起诉 OpenAI，指控工程师窃取苹果机密以推进这家人工智能初创公司的硬件计划。苹果在诉状中表示，它发现了“苹果前…
-   - `The Verge AI · 2026-07-10`
+4. [对抗人工智能数据中心的战斗才刚刚开始](https://aihot.bt199.com/news/5478e49d29a9/)
+   - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关数据中心建设的更多信息，请关注 Em…
+   - `The Verge AI · 2026-07-12`
 
 5. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 发现了一个隐藏…
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

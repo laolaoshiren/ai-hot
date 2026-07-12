@@ -7031,6 +7031,37 @@
     "collected_at": "2026-07-12T01:58:10.710243"
   },
   {
+    "id": "github-1284066374",
+    "name": "rohingosling/taumax-uci-chess-engine",
+    "display_name": "taumax-uci-chess-engine",
+    "url": "https://github.com/rohingosling/taumax-uci-chess-engine",
+    "description": "Playing chess with the Alex Wissner-Gross's causal entropic intelligence equation, F=T∇Sτ",
+    "stars": 9,
+    "forks": 0,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "areana-chess",
+      "arena",
+      "artificial-intelligence",
+      "causal-entropic-intelligence-equation",
+      "causal-entropy",
+      "chess",
+      "chess-ai",
+      "chess-engine",
+      "chess-game",
+      "entropy",
+      "uci",
+      "uci-chess-engine",
+      "uci-machine-learning"
+    ],
+    "created_at": "2026-06-29T13:46:44Z",
+    "updated_at": "2026-07-12T17:51:28Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-07-12T18:56:23.136135"
+  },
+  {
     "id": "github-1188906847",
     "name": "hackyguru/clawcage",
     "display_name": "clawcage",

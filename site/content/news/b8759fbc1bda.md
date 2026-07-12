@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，有智青年挑战赛暨全国AI+场景应用大赛决赛在WAVES新浪潮大会期间举行，汇聚多支青年团队围绕AI与数字经济前沿场景展开角逐，展现青年创业者的技术探索与落地能力。"
 summary_zh = ""
 tags = []
-list_page = 111
+list_page = 112
 +++
 
 <!-- AUTO-GENERATED: news page -->
