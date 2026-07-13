@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology."
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能代理不是你的“同事”想象一下，你上班时发现一个新的下属将向你汇报。工人不是一个人，而是一个人工智能"
 tags = []
-list_page = 58
+list_page = 59
 +++
 
 <!-- AUTO-GENERATED: news page -->

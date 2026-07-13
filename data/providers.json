@@ -232,8 +232,8 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Hy3 (free)",
       "Hy3",
+      "Hy3 (free)",
       "Hy3 preview"
     ],
     "model_count": 4,
@@ -241,7 +241,7 @@
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 Hy3 (free)",
+    "live_summary": "OpenRouter 已收录 4 个该作者/厂商相关模型，最近更新为 Hy3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=64"
   },
@@ -426,8 +426,8 @@
     "source": "openrouter",
     "latest_models": [
       "Nemotron 3.5 Content Safety (free)",
-      "Nemotron 3 Ultra (free)",
-      "Nemotron 3 Ultra"
+      "Nemotron 3 Ultra",
+      "Nemotron 3 Ultra (free)"
     ],
     "model_count": 11,
     "last_updated": "2026-06-04",

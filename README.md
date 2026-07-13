@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-13 22:14:31
+🕐 **最近更新**：2026-07-14 03:18:29
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,33 +16,33 @@
 
 ## 🔥 今日热点
 
-1. [随着 ChatGPT 深入家庭，OpenAI 押注家庭](https://aihot.bt199.com/news/b9b468358fa6/)
-   - 根据招聘信息，ChatGPT 正在招聘一名专门的产品经理，为家庭、护理人员和老年人打造体验
-   - `TechCrunch AI · 2026-07-11`
+1. [苹果针对 OpenAI 的商业秘密诉讼中最疯狂的指控](https://aihot.bt199.com/news/25a33f9e5281/)
+   - 苹果针对 OpenAI 的商业秘密诉讼包含各种指控，从员工开玩笑说未经授权访问苹果系统，到声称求职者被要求携带苹果硬件参…
+   - `TechCrunch AI · 2026-07-13`
 
-2. [强烈反对后，Meta 删除了 Instagram 上有争议的人工智能功能](https://aihot.bt199.com/news/312c742d69a6/)
-   - 该公司在一篇博客文章中表示：“我们的目的是提供一个有用的创意工具，让人们控制他们的公开内容是否可以通过这种方式引用。”…
-   - `TechCrunch AI · 2026-07-10`
+2. [大多数专家已经相信萨姆·奥尔特曼的太空数据中心垃圾话](https://aihot.bt199.com/news/c0b352c36c1e/)
+   - 在回应马斯克指责他是骗子时，奥尔特曼说：“宅男，你才是向公开市场投资者出售短期太空数据中心的人。”
+   - `TechCrunch AI · 2026-07-13`
 
-3. [下载：捐赠者受孕上限和人工智能世界模型](https://aihot.bt199.com/news/9b905ecd94cb/)
+3. [Anthropic 最新的人工智能发现展示了什么，没有展示什么](https://aihot.bt199.com/news/50ee0b4631ad/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。 Anthrop…
+   - `MIT Tech Review · 2026-07-13`
+
+4. [下载：捐赠者受孕上限和人工智能世界模型](https://aihot.bt199.com/news/9b905ecd94cb/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。欧洲生育组织 Ties van de…
    - `MIT Tech Review · 2026-07-13`
 
-4. [Waze 获得了一系列新的人工智能功能](https://aihot.bt199.com/news/b395493f3c08/)
+5. [Waze 获得了一系列新的人工智能功能](https://aihot.bt199.com/news/b395493f3c08/)
    - Waze 正在进行人工智能改造。谷歌正在将其旗舰人工智能助手 Gemini 集成到驾驶应用程序中，目的是让用户更加个性化…
    - `The Verge AI · 2026-07-13`
 
-5. [洛德表示雷朋 Meta AI 眼镜“并不性感”](https://aihot.bt199.com/news/dd4ae4b81f35/)
+6. [洛德表示雷朋 Meta AI 眼镜“并不性感”](https://aihot.bt199.com/news/dd4ae4b81f35/)
    - 周四，洛德在马德里的 Real Cool 音乐节上表演，并在演出期间花了一些时间公开反对人工智能眼镜。虽然她没有具体指定…
    - `The Verge AI · 2026-07-12`
 
-6. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 发现了一个隐藏…
-   - `MIT Tech Review · 2026-07-10`
-
-7. [由于国内需求缓慢显现，美国稀土流向亚洲](https://aihot.bt199.com/news/1cb749a35d19/)
-   - 得到特朗普政府支持的矿工。尽管大力发展国内供应链，但仍销往日本、韩国
-   - `Ars Technica AI · 2026-07-08`
+7. [现在，防御者也开始接受即时注入](https://aihot.bt199.com/news/d9517d92e497/)
+   - “上下文轰炸”会诱骗黑客代理在造成伤害之前将其关闭
+   - `Ars Technica AI · 2026-07-13`
 
 8. [谷歌为允许客户虚拟机逃逸的 Linux 漏洞支付了 25 万美元](https://aihot.bt199.com/news/d7ac7d2c33e1/)
    - 这两个漏洞都允许不受信任的用户获得 root 权限
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
