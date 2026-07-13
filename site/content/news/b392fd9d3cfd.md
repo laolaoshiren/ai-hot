@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，下面是从Boss找到的DeepSeek在招的岗位表，截图后由DeepSeek识图模式识别： 序号 职位名称 薪资 地点 经验要求 招聘方/联系人 1 前端开发工程师 25-50K·14薪 北京 1-3年 王女士 2 前端开发工程师 (北京/杭州) 35-65K·14薪 北京 3-5年 王女士 3 前..."
 summary_zh = ""
 tags = []
-list_page = 95
+list_page = 96
 +++
 
 <!-- AUTO-GENERATED: news page -->

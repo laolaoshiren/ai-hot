@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://techstrong.ai/articles/for-most-of-the-worl
 summary = "Article URL: https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/ Comments URL: https://news."
 summary_zh = "文章网址：https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/ 评论网址：https://news.ycom…"
 tags = []
-list_page = 103
+list_page = 104
 +++
 
 <!-- AUTO-GENERATED: news page -->
