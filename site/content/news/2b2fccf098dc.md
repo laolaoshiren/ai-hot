@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，刚看公众号看到的： OpenAI官宣推出新一代旗舰大模型GPT‑5.6系列。但由于美国政府的阻挠，目前只有获得美国政府批准的一小撮“受信任合作伙伴”能够用上这款代表人类AI能力新巅峰的大模型。"
 summary_zh = ""
 tags = []
-list_page = 80
+list_page = 81
 +++
 
 <!-- AUTO-GENERATED: news page -->

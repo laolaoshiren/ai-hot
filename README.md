@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-13 02:57:51
+🕐 **最近更新**：2026-07-13 10:03:29
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,12 +24,12 @@
    - 该公司在一篇博客文章中表示：“我们的目的是提供一个有用的创意工具，让人们控制他们的公开内容是否可以通过这种方式引用。”…
    - `TechCrunch AI · 2026-07-10`
 
-3. [苹果失败的自动驾驶汽车计划留下了强大的人工智能芯片的遗产](https://aihot.bt199.com/news/8f4dc6d90b88/)
-   - 苹果的自动驾驶汽车计划从未真正启动，但这可能是该公司芯片成为强大人工智能执行者的原因。在自动驾驶平台开发的早期，苹果就意…
+3. [洛德表示雷朋 Meta AI 眼镜“并不性感”](https://aihot.bt199.com/news/dd4ae4b81f35/)
+   - 周四，洛德在马德里的 Real Cool 音乐节上表演，并在演出期间花了一些时间公开反对人工智能眼镜。虽然她没有具体指定…
    - `The Verge AI · 2026-07-12`
 
-4. [对抗人工智能数据中心的战斗才刚刚开始](https://aihot.bt199.com/news/5478e49d29a9/)
-   - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关数据中心建设的更多信息，请关注 Em…
+4. [苹果失败的自动驾驶汽车计划留下了强大的人工智能芯片的遗产](https://aihot.bt199.com/news/8f4dc6d90b88/)
+   - 苹果的自动驾驶汽车计划从未真正启动，但这可能是该公司芯片成为强大人工智能执行者的原因。在自动驾驶平台开发的早期，苹果就意…
    - `The Verge AI · 2026-07-12`
 
 5. [下载：Claude 的内部运作和 OpenAI 的“超级应用程序”](https://aihot.bt199.com/news/8e9121e5dcc9/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
