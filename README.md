@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-14 15:53:19
+🕐 **最近更新**：2026-07-14 21:18:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,21 +20,21 @@
    - 他们再次卷起袖子，似乎是因为害怕错过人工智能的决定性时刻，也可能是因为害怕赚更多钱——可能是更多——的不可抗拒的诱惑
    - `TechCrunch AI · 2026-07-14`
 
-2. [Siri AI 已经在改变我使用 iPhone 的方式](https://aihot.bt199.com/news/795b5c34bb1b/)
+2. [下载：克劳德的内部运作，以及世界模特的未来](https://aihot.bt199.com/news/64ea707006c2/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 最新的人工智能…
+   - `MIT Tech Review · 2026-07-14`
+
+3. [纽约成为第一个暂停数据中心的州](https://aihot.bt199.com/news/c0711504ceec/)
+   - 由于州长 Kathy Hochul（民主党）签署了美国第一个全州范围的暂停令，新的超大规模数据中心在一年内无法在纽约设立…
+   - `The Verge AI · 2026-07-14`
+
+4. [PsiQuantum 计划利用光制造大型量子计算机](https://aihot.bt199.com/news/b5aa16b30049/)
+   - 这台可以改变世界的机器将被安置在一个看起来像数据中心和冰淇淋工厂的房间里。里面有大约 100 个不锈钢柜，每个柜高约 6…
+   - `MIT Tech Review · 2026-07-14`
+
+5. [Siri AI 已经在改变我使用 iPhone 的方式](https://aihot.bt199.com/news/795b5c34bb1b/)
    - iOS 27 今天随着第一个公开测试版的推出而脱离了开发者世界。自 6 月初以来，我一直在测试新操作系统，寻找怪异之处…
    - `The Verge AI · 2026-07-13`
-
-3. [Anthropic 最新的人工智能发现展示了什么，没有展示什么](https://aihot.bt199.com/news/50ee0b4631ad/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。 Anthrop…
-   - `MIT Tech Review · 2026-07-13`
-
-4. [苹果针对 OpenAI 的诉讼中最疯狂的 6 项指控](https://aihot.bt199.com/news/1a0cc6df9f96/)
-   - 据称，当苹果员工面试 OpenAI 职位时，这家人工智能初创公司的硬件负责人要求他们携带一些不寻常的东西：他们正在开发的…
-   - `The Verge AI · 2026-07-13`
-
-5. [下载：捐赠者受孕上限和人工智能世界模型](https://aihot.bt199.com/news/9b905ecd94cb/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。欧洲生育组织 Ties van de…
-   - `MIT Tech Review · 2026-07-13`
 
 6. [现在，防御者也开始接受即时注入](https://aihot.bt199.com/news/d9517d92e497/)
    - “上下文轰炸”会诱骗黑客代理在造成伤害之前将其关闭
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 
