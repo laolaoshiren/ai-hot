@@ -1223,5 +1223,33 @@
     "last_updated": "",
     "modalities": [],
     "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "kwaipilot",
+    "name": "Kwaipilot",
+    "url": "https://openrouter.ai/kwaipilot",
+    "logo": "🆕",
+    "icon_url": "https://www.google.com/s2/favicons?domain=kwaipilot.com&sz=64",
+    "models": [
+      "Kwaipilot: KAT-Coder-Air V2.5",
+      "Kwaipilot: KAT-Coder-Pro V2.5",
+      "Kwaipilot: KAT-Coder-Pro V2"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "Kwaipilot: KAT-Coder-Air V2.5",
+      "Kwaipilot: KAT-Coder-Pro V2.5",
+      "Kwaipilot: KAT-Coder-Pro V2"
+    ],
+    "model_count": 3,
+    "last_updated": "2026-07-10",
+    "modalities": [
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 3 个该作者/厂商相关模型，最近更新为 Kwaipilot: KAT-Coder-Air V2.5"
   }
 ]

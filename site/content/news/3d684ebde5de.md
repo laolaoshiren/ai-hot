@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology."
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。几十年来，物理学家一直在寻找弱相互作用大质量粒子（WIMP），这是一种主要的暗物质"
 tags = []
-list_page = 143
+list_page = 145
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-14 09:48:38
+🕐 **最近更新**：2026-07-14 15:53:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,8 +16,8 @@
 
 ## 🔥 今日热点
 
-1. [视频生成初创公司 PixVerse 融资 4.39 亿美元，估值飙升至 20 亿美元以上](https://aihot.bt199.com/news/4bee90298658/)
-   - 该公司计划利用这笔现金扩大其全球车型产品范围并覆盖各个地区的客户
+1. [已经富有、已经成功，为什么最后一波科技赢家又在苦苦挣扎](https://aihot.bt199.com/news/1445c1679aea/)
+   - 他们再次卷起袖子，似乎是因为害怕错过人工智能的决定性时刻，也可能是因为害怕赚更多钱——可能是更多——的不可抗拒的诱惑
    - `TechCrunch AI · 2026-07-14`
 
 2. [Siri AI 已经在改变我使用 iPhone 的方式](https://aihot.bt199.com/news/795b5c34bb1b/)
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

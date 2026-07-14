@@ -20,7 +20,7 @@ ai_summary = "在今天的 Decoder 节目中，我的嘉宾是 The Verge 的高�
 summary = "On today’s episode of Decoder, my guest is Hayden Field, senior AI reporter for The Verge."
 summary_zh = "在今天的 Decoder 节目中，我的嘉宾是 The Verge 的高级人工智能记者 Hayden Field。海登出现在节目中通常是因为人工智能世界出了问题。上周末，这件事是 Anthropic、特朗普政府和 Anthropic 的新政策…"
 tags = []
-list_page = 142
+list_page = 144
 +++
 
 <!-- AUTO-GENERATED: news page -->
