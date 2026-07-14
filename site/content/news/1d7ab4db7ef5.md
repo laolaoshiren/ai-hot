@@ -20,7 +20,7 @@ ai_summary = "当美国其他地区庆祝美国首次赢得世界杯和纽约尼
 summary = "As the rest of the country celebrated the USA's first World Cup win and the New York Knicks championship, Anthropic spent its weekend fighting the Trump administration over its latest model release."
 summary_zh = "当美国其他地区庆祝美国首次赢得世界杯和纽约尼克斯队夺冠时，Anthropic 整个周末都在与特朗普政府就其最新型号的发布进行斗争。周五下午 5:21，该公司收到美国出口管制指令，暂停对其 Myt 的访问"
 tags = []
-list_page = 156
+list_page = 157
 +++
 
 <!-- AUTO-GENERATED: news page -->

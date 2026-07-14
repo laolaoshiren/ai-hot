@@ -3848,6 +3848,31 @@
     "is_core": true
   },
   {
+    "id": "hf-conradlocke--krea2-identity-edit",
+    "name": "conradlocke/krea2-identity-edit",
+    "display_name": "krea2-identity-edit",
+    "url": "https://huggingface.co/conradlocke/krea2-identity-edit",
+    "author": "conradlocke",
+    "pipeline_tag": "",
+    "likes": 255,
+    "downloads": 0,
+    "tags": [
+      "image-editing",
+      "lora",
+      "comfyui",
+      "krea-2",
+      "base_model:krea/Krea-2-Raw",
+      "base_model:adapter:krea/Krea-2-Raw",
+      "license:other",
+      "region:us"
+    ],
+    "created_at": "2026-07-07T14:28:55.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-14T01:47:13.922025",
+    "display_priority": 100,
+    "is_core": true
+  },
+  {
     "id": "hf-ByteDance--Bernini-R",
     "name": "ByteDance/Bernini-R",
     "display_name": "Bernini-R",
@@ -3867,7 +3892,7 @@
     "created_at": "2026-06-01T03:04:03.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131949",
-    "display_priority": 100,
+    "display_priority": 101,
     "is_core": true
   },
   {
@@ -3889,7 +3914,7 @@
     "created_at": "2026-04-20T10:43:41.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-07T08:22:33.650143",
-    "display_priority": 101,
+    "display_priority": 102,
     "is_core": true
   },
   {
@@ -3909,7 +3934,7 @@
     "created_at": "2026-06-16T22:31:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-01T14:14:53.733683",
-    "display_priority": 102,
+    "display_priority": 103,
     "is_core": true
   },
   {
@@ -3940,7 +3965,7 @@
     "created_at": "2026-07-06T13:16:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-10T14:05:53.240615",
-    "display_priority": 103,
+    "display_priority": 104,
     "is_core": true
   },
   {
@@ -3968,7 +3993,7 @@
     "created_at": "2026-03-16T04:01:31.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-13T19:16:55.821968",
-    "display_priority": 104,
+    "display_priority": 105,
     "is_core": true
   },
   {
@@ -4013,7 +4038,7 @@
     "created_at": "2026-04-02T15:13:08.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733911",
-    "display_priority": 105,
+    "display_priority": 106,
     "is_core": true
   },
   {
@@ -4038,7 +4063,7 @@
     "created_at": "2026-05-08T13:06:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T02:28:58.864373",
-    "display_priority": 106,
+    "display_priority": 107,
     "is_core": true
   },
   {
@@ -4057,35 +4082,6 @@
     "created_at": "2026-04-13T18:31:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733887",
-    "display_priority": 107,
-    "is_core": true
-  },
-  {
-    "id": "model-50",
-    "name": "LiconStudio/Ltx2.3-VBVR-lora-I2V",
-    "display_name": "Ltx2.3-VBVR-lora-I2V",
-    "url": "https://huggingface.co/LiconStudio/Ltx2.3-VBVR-lora-I2V",
-    "author": "LiconStudio",
-    "pipeline_tag": "",
-    "likes": 142,
-    "downloads": 6865,
-    "tags": [
-      "diffusers",
-      "video-generation",
-      "video-reasoning",
-      "logical-reasoning",
-      "lora",
-      "ltx-2.3",
-      "en",
-      "zh",
-      "base_model:Lightricks/LTX-2.3",
-      "base_model:adapter:Lightricks/LTX-2.3",
-      "license:other",
-      "region:us"
-    ],
-    "created_at": "2026-04-08T01:43:22.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-04-20T14:22:14.452421",
     "display_priority": 108,
     "is_core": true
   },
