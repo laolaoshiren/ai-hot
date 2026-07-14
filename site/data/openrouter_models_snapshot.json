@@ -6,7 +6,7 @@
       "hugging_face_id": null,
       "name": "Kwaipilot: KAT-Coder-Air V2.5",
       "created": 1783714590,
-      "description": "",
+      "description": "KAT-Coder-Air V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
       "context_length": 256000,
       "architecture": {
         "modality": "text->text",
@@ -44,7 +44,14 @@
         "top_logprobs",
         "top_p"
       ],
-      "default_parameters": {},
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -58,7 +65,7 @@
       "hugging_face_id": null,
       "name": "Kwaipilot: KAT-Coder-Pro V2.5",
       "created": 1783714589,
-      "description": "",
+      "description": "KAT-Coder-Pro V2.5 is a flagship-level Agentic Coding model that can directly hand over an entire issue or an entire business workflow to it, allowing it to autonomously locate and make...",
       "context_length": 256000,
       "architecture": {
         "modality": "text->text",
@@ -96,7 +103,14 @@
         "top_logprobs",
         "top_p"
       ],
-      "default_parameters": {},
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -1910,9 +1924,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000924",
-        "completion": "0.000002904",
-        "input_cache_read": "0.0000001716"
+        "prompt": "0.00000091",
+        "completion": "0.00000286",
+        "input_cache_read": "0.000000169"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -28983,5 +28997,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-14T13:16:48.624880+00:00"
+  "updated_at": "2026-07-14T19:08:24.133872+00:00"
 }

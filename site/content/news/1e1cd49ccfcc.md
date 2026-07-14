@@ -20,7 +20,7 @@ ai_summary = "https://archive.ph/z24oE 评论网址：https://news.ycombinator.c
 summary = "https://archive.ph/z24oE Comments URL: https://news.ycombinator.com/item?id=48602571 Points: 109 # Comments: 98"
 summary_zh = "https://archive.ph/z24oE 评论网址：https://news.ycombinator.com/item?id=48602571 积分：109 # 评论：98"
 tags = []
-list_page = 137
+list_page = 139
 +++
 
 <!-- AUTO-GENERATED: news page -->
