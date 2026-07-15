@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，PlayStation LifeStyle – 26 Jun 26 PlayStation Removing Purchased Content From Your Library Again - PlayStation."
 summary_zh = ""
 tags = []
-list_page = 94
+list_page = 96
 +++
 
 <!-- AUTO-GENERATED: news page -->

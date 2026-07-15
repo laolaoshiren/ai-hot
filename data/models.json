@@ -9860,5 +9860,55 @@
     "collected_at": "2026-07-13T19:16:55.912359",
     "display_priority": 307,
     "is_core": true
+  },
+  {
+    "id": "hf-frovolts--grounding-dino-tiny",
+    "name": "frovolts/grounding-dino-tiny",
+    "display_name": "grounding-dino-tiny",
+    "url": "https://huggingface.co/frovolts/grounding-dino-tiny",
+    "author": "frovolts",
+    "pipeline_tag": "zero-shot-object-detection",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "pytorch",
+      "safetensors",
+      "grounding-dino",
+      "vision",
+      "zero-shot-object-detection",
+      "arxiv:2303.05499",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-07-15T13:02:44.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-15T13:19:13.746450",
+    "display_priority": 308,
+    "is_core": true
+  },
+  {
+    "id": "hf-frovolts--grounding-dino-base",
+    "name": "frovolts/grounding-dino-base",
+    "display_name": "grounding-dino-base",
+    "url": "https://huggingface.co/frovolts/grounding-dino-base",
+    "author": "frovolts",
+    "pipeline_tag": "zero-shot-object-detection",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "pytorch",
+      "safetensors",
+      "grounding-dino",
+      "vision",
+      "zero-shot-object-detection",
+      "arxiv:2303.05499",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-07-15T13:02:11.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-15T13:19:13.746456",
+    "display_priority": 309,
+    "is_core": true
   }
 ]
