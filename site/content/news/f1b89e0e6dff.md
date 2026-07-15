@@ -20,7 +20,7 @@ ai_summary = "我们的手是身体最灵活的部分，协调 34 块肌肉、27
 summary = "Our hands are the nimblest parts of our bodies, coordinating 34 muscles, 27 joints, and over 100 tendons and ligaments to perform countless nuanced movements and gestures."
 summary_zh = "我们的手是身体最灵活的部分，协调 34 块肌肉、27 个关节以及 100 多个肌腱和韧带，以执行无数细致入微的动作和手势。到目前为止，机器人在模仿这种灵活性方面一直是出了名的糟糕，部分原因是研究人员很难捕捉到什么是ac"
 tags = []
-list_page = 118
+list_page = 119
 +++
 
 <!-- AUTO-GENERATED: news page -->

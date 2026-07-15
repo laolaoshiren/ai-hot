@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，36氪获悉，据豆包消息，豆包专业版今日正式上线。豆包办公任务模式接入了可执行Agent任务的豆包 2.1系列模型。"
 summary_zh = ""
 tags = []
-list_page = 117
+list_page = 118
 +++
 
 <!-- AUTO-GENERATED: news page -->

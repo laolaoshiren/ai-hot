@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-07-14T19:08:24.232947",
-  "date": "2026-07-14",
+  "updated_at": "2026-07-15T01:44:46.534682",
+  "date": "2026-07-15",
   "spotlight": {
-    "name": "WeCom CLI",
-    "url": "https://github.com/WecomTeam/wecom-cli",
+    "name": "OneCLI",
+    "url": "https://github.com/onecli/onecli",
     "type": "agent",
-    "description": "企业微信命令行工具，让人类和 AI Agent 都能在终端中操作企业微信",
+    "description": "开源凭证保险库，让 AI Agent 安全访问各类服务，无需暴露 API 密钥",
     "pricing": "免费开源",
-    "category": "自动化 Agent"
+    "category": "安全 Agent"
   },
   "alternates": [
     {
-      "name": "Opendeepresearcher Agentic Llm Research Framework",
-      "url": "https://github.com/stkwer/OpenDeepResearcher-Agentic-LLM-Research-Framework",
+      "name": "Cherry Studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
       "type": "agent",
-      "description": "开源深度研究 Agent 框架，面向资料检索、推理整理和长文研究报告生成。",
+      "description": "AI 效率工作台，集成智能聊天、自主 Agent 和大量助手，统一接入多种模型服务。",
       "pricing": "开源免费",
-      "category": "研究 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "id": "vllm",
-      "name": "vLLM",
-      "url": "https://github.com/vllm-project/vllm",
+      "id": "whisper",
+      "name": "Whisper",
+      "url": "https://github.com/openai/whisper",
       "type": "tool",
-      "description": "高性能 LLM 推理引擎，PagedAttention",
+      "description": "OpenAI 开源语音识别模型",
       "pricing": "开源免费",
-      "category": "推理引擎"
+      "category": "语音"
     },
     {
-      "name": "PydanticAI",
-      "url": "https://github.com/pydantic/pydantic-ai",
+      "name": "VoltAgent",
+      "url": "https://github.com/VoltAgent/voltagent",
       "type": "agent",
-      "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
+      "description": "开源 TypeScript AI Agent 工程平台，支持多 Agent 编排和可视化工作流",
       "pricing": "开源免费",
       "category": "编程 Agent"
     }

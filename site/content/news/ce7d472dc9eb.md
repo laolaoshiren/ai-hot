@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Article URL: https://cognition.com/blog/swe-1-7 Comments URL: https://news.ycombinator.com/item?id=48833866 Points: 270 # Comments: 139"
 summary_zh = ""
 tags = []
-list_page = 29
+list_page = 31
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -4124,6 +4124,41 @@
     "is_core": true
   },
   {
+    "id": "hf-migtissera--Tess-4-27B",
+    "name": "migtissera/Tess-4-27B",
+    "display_name": "Tess-4-27B",
+    "url": "https://huggingface.co/migtissera/Tess-4-27B",
+    "author": "migtissera",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 112,
+    "downloads": 1262,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "qwen3_5",
+      "image-text-to-text",
+      "tess",
+      "agentic",
+      "reasoning",
+      "thinking",
+      "long-context",
+      "tool-use",
+      "qwen3",
+      "multimodal",
+      "conversational",
+      "base_model:Qwen/Qwen3.6-27B",
+      "base_model:finetune:Qwen/Qwen3.6-27B",
+      "license:apache-2.0",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-07-07T23:01:51.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-15T01:44:08.344699",
+    "display_priority": 110,
+    "is_core": true
+  },
+  {
     "id": "hf-openbmb--MiniCPM-V-4.6",
     "name": "openbmb/MiniCPM-V-4.6",
     "display_name": "MiniCPM-V-4.6",
@@ -4148,7 +4183,7 @@
     "created_at": "2026-04-13T09:12:47.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T19:31:24.390358",
-    "display_priority": 110,
+    "display_priority": 111,
     "is_core": true
   },
   {
@@ -4169,7 +4204,7 @@
     "created_at": "2026-06-11T02:20:46.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131896",
-    "display_priority": 111,
+    "display_priority": 112,
     "is_core": true
   },
   {
@@ -4221,7 +4256,7 @@
     "created_at": "2026-06-22T06:34:26.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-13T08:54:44.466999",
-    "display_priority": 112,
+    "display_priority": 113,
     "is_core": true
   },
   {
@@ -4249,40 +4284,6 @@
     "created_at": "2026-04-14T06:17:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733920",
-    "display_priority": 113,
-    "is_core": true
-  },
-  {
-    "id": "hf-ATH-MaaS--OvisOCR2",
-    "name": "ATH-MaaS/OvisOCR2",
-    "display_name": "OvisOCR2",
-    "url": "https://huggingface.co/ATH-MaaS/OvisOCR2",
-    "author": "ATH-MaaS",
-    "pipeline_tag": "image-text-to-text",
-    "likes": 74,
-    "downloads": 745,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5",
-      "image-text-to-text",
-      "ocr",
-      "document-parsing",
-      "multimodal",
-      "markdown",
-      "tables",
-      "formulas",
-      "vllm",
-      "conversational",
-      "base_model:Qwen/Qwen3.5-0.8B",
-      "base_model:finetune:Qwen/Qwen3.5-0.8B",
-      "license:apache-2.0",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "created_at": "2026-07-13T05:43:32.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-07-14T19:07:46.218195",
     "display_priority": 114,
     "is_core": true
   },

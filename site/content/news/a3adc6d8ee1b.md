@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://github.com/HUANGCHIHHUNGLeo/claude-real-vid
 summary = "Article URL: https://github.com/HUANGCHIHHUNGLeo/claude-real-video Comments URL: https://news."
 summary_zh = "文章网址：https://github.com/HUANGCHIHHUNGLeo/claude-real-video 评论网址：https://news.ycombinator.com/item?id=48766005 积分：131 # 评…"
 tags = []
-list_page = 51
+list_page = 52
 +++
 
 <!-- AUTO-GENERATED: news page -->
