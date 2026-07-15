@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-15 09:45:37
+🕐 **最近更新**：2026-07-15 15:57:03
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -28,9 +28,9 @@
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 最新的人工智能…
    - `MIT Tech Review · 2026-07-14`
 
-4. [PsiQuantum 计划利用光制造大型量子计算机](https://aihot.bt199.com/news/b5aa16b30049/)
-   - 这台可以改变世界的机器将被安置在一个看起来像数据中心和冰淇淋工厂的房间里。里面有大约 100 个不锈钢柜，每个柜高约 6…
-   - `MIT Tech Review · 2026-07-14`
+4. [Anthropic 最新的人工智能发现展示了什么，没有展示什么](https://aihot.bt199.com/news/50ee0b4631ad/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。 Anthrop…
+   - `MIT Tech Review · 2026-07-13`
 
 5. [OpenAI 研究员 Miles Wang 正在洽谈创办估值 20 亿美元的人工智能药物发现初创公司](https://aihot.bt199.com/news/28e622f54015/)
    - 融资讨论表明投资者有兴趣应用人工智能在生命科学领域取得突破
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，生成小程序过程如图，生成的小程序可以在小微>设置>小工具中重复调用 想想能做点什么有意思的小程序 3 个帖子 - 3 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 118
+list_page = 119
 +++
 
 <!-- AUTO-GENERATED: news page -->
