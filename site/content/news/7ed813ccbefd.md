@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，2016年，彭军创立小马智行时，已经预料到，Robotaxi（自动驾驶出租车）从远景走进现实，实现大规模的落地，至少需要10年努力，要等待技术和法律法规的成熟，也要考虑社会的接受度。"
 summary_zh = ""
 tags = []
-list_page = 66
+list_page = 67
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1945,9 +1945,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008694",
-        "completion": "0.0000027324",
-        "input_cache_read": "0.00000016146"
+        "prompt": "0.0000008512",
+        "completion": "0.0000026752",
+        "input_cache_read": "0.00000015808"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -3797,10 +3797,10 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00000375",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.0000015625"
+        "prompt": "0.000001475",
+        "completion": "0.000004425",
+        "input_cache_read": "0.000000295",
+        "input_cache_write": "0.00000184375"
       },
       "top_provider": {
         "context_length": 1000000,
@@ -20739,6 +20739,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -23264,55 +23265,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/arcee-ai/virtuoso-large/endpoints"
-      }
-    },
-    {
-      "id": "arcee-ai/coder-large",
-      "canonical_slug": "arcee-ai/coder-large",
-      "hugging_face_id": "",
-      "name": "Arcee AI: Coder Large",
-      "created": 1746478663,
-      "description": "Coder‑Large is a 32 B‑parameter offspring of Qwen 2.5‑Instruct that has been further trained on permissively‑licensed GitHub, CodeSearchNet and synthetic bug‑fix corpora. It supports a 32k context window, enabling multi‑file...",
-      "context_length": 32768,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000008"
-      },
-      "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/arcee-ai/coder-large/endpoints"
       }
     },
     {
@@ -26573,6 +26525,7 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -27655,6 +27608,7 @@
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -27892,6 +27846,7 @@
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -27957,6 +27912,7 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -28064,6 +28020,7 @@
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -28167,6 +28124,7 @@
         "logprobs",
         "max_completion_tokens",
         "max_tokens",
+        "prediction",
         "presence_penalty",
         "response_format",
         "seed",
@@ -28613,6 +28571,7 @@
         "max_completion_tokens",
         "max_tokens",
         "min_p",
+        "prediction",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -29039,5 +28998,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-15T13:20:03.566350+00:00"
+  "updated_at": "2026-07-15T19:00:35.069918+00:00"
 }

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-15 21:21:25
+🕐 **最近更新**：2026-07-16 03:01:57
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,35 +16,31 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic、黑石集团押注下一个万亿美元的人工智能业务是实施，而不是模型](https://aihot.bt199.com/news/53c42ac5532a/)
-   - Anthropic 支持的 Ode 推出，人工智能实验室认为，在企业内部嵌入前沿部署的工程师是加速企业人工智能采用的关键…
+1. [Thinking Machines 通过其第一个开放模型 Inkling 加大了对通用人工智能的赌注](https://aihot.bt199.com/news/be5f4e7765aa/)
+   - 这是该公司在花了一年半的时间在公众视野之外构建人工智能基础设施后首次公开证明这一点
    - `TechCrunch AI · 2026-07-15`
 
-2. [Reelful 的 AI 将您的相机胶卷变成社交媒体的短片](https://aihot.bt199.com/news/9f15475d03de/)
-   - 该应用程序专为想要创建社交内容但发现传统视频编辑工具过于复杂或耗时的人们而设计
+2. [Hack 建议 AI 音乐生成器 Suno 抓取 YouTube 上的训练数据](https://aihot.bt199.com/news/ed41beb09c12/)
+   - 黑客使用员工的凭据访问源代码，揭示了 Suno 如何窃取数十年的音频
    - `TechCrunch AI · 2026-07-15`
 
-3. [下载：有用的量子机器和破纪录的海底隧道](https://aihot.bt199.com/news/5c918f534dd5/)
+3. [认识一下 GPT-Red：LLM 超级黑客 OpenAI，旨在使其模型更安全](https://aihot.bt199.com/news/0081d2e6c395/)
+   - OpenAI 构建了一个名为 GPT-Red 的 LLM 超级黑客，将其用作陪练伙伴，帮助其其他模型增强对网络攻击的防御…
+   - `MIT Tech Review · 2026-07-15`
+
+4. [OpenAI 终于为 Codex 推出了硬件](https://aihot.bt199.com/news/ff658b1af0b4/)
+   - OpenAI 终于发布了一些硬件。不，这不是该公司与前苹果设计师 Jony Ive 一起开发的神秘的人工智能设备，该项目…
+   - `The Verge AI · 2026-07-15`
+
+5. [下载：有用的量子机器和破纪录的海底隧道](https://aihot.bt199.com/news/5c918f534dd5/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 PsiQuantum 计划利用光制…
    - `MIT Tech Review · 2026-07-15`
 
-4. [OpenAI 今年可能会推出 ChatGPT 智能音箱](https://aihot.bt199.com/news/ac05241f6ebb/)
-   - 据彭博社报道，OpenAI 的第一款设备将是一款智能扬声器，可以让你与 ChatGPT 交谈。该设备显然没有屏幕，但将使…
-   - `The Verge AI · 2026-07-14`
-
-5. [SpaceXAI 的 Grok 编程工具正在将用户的整个代码库上传到云存储](https://aihot.bt199.com/news/9dc0222d45c1/)
-   - SpaceXAI 的 Grok Build AI 编码工具被发现在报道之前将用户的整个代码库上传到谷歌云，该公司将其关闭…
-   - `The Verge AI · 2026-07-14`
-
-6. [下载：克劳德的内部运作，以及世界模特的未来](https://aihot.bt199.com/news/64ea707006c2/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Anthropic 最新的人工智能…
-   - `MIT Tech Review · 2026-07-14`
-
-7. [微软的安全启动已经被破解十年了，直到现在才被人注意到](https://aihot.bt199.com/news/a708c7931fbd/)
+6. [微软的安全启动已经被破解十年了，直到现在才被人注意到](https://aihot.bt199.com/news/a708c7931fbd/)
    - 微软未能撤销的旧的和被遗忘的“垫片”使得安全启动绕过变得简单
    - `Ars Technica AI · 2026-07-14`
 
-8. [现在，防御者也开始接受即时注入](https://aihot.bt199.com/news/d9517d92e497/)
+7. [现在，防御者也开始接受即时注入](https://aihot.bt199.com/news/d9517d92e497/)
    - “上下文轰炸”会诱骗黑客代理在造成伤害之前将其关闭
    - `Ars Technica AI · 2026-07-13`
 
@@ -131,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 
