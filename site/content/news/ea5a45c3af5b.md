@@ -25,17 +25,7 @@ list_page = 133
 
 <!-- AUTO-GENERATED: news page -->
 
-Apertus Mini
-A set of 16 small language models released to demonstrate distillation and quantization techniques.
-Training data, code, weights, methods, and alignment principles — all documented and reproducible.
-
-Apertus is to AI as Open is to Source.
-Built to meet EU AI Act requirements: the model respects opt-outs, removes PII, prevents memorization.
-
-A global foundation to build on.
-Competitive with top open models at an equivalent scale of 8B and 70B parameters.
-
-Multilingual from day one — trained on 1000+ languages.
+文章网址：https://apertvs.ai/ 评论网址：https://news.ycombinator.com/i…
 
 ## 🔗 原始来源
 

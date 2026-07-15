@@ -25,20 +25,7 @@ list_page = 73
 
 <!-- AUTO-GENERATED: news page -->
 
-Governor Gavin Newsom (D-CA) and Anthropic have
-made a deal
-that allows California government agencies to use Claude at a discounted price.
-
-This agreement comes at a time when businesses are
-struggling
-to manage the hefty costs of enterprise subscriptions to AI tools.
-Under the deal, all state agencies and local governments will have access to Claude, Anthropic’s AI chatbot, as well as training and support from Anthropic.
-
-A press release from the Governor’s office says that Claude will help state employees draft documents and analyze information.
-“AI should not replace the human work of government; it should help our workers move faster, solve problems more effectively, and deliver better results for Californians,” Governor Newsom said in a
-statement
-.
-This deal follows Newsom’s March
+随着 Anthropic 与加利福尼亚州建立更密切的关系，联邦政府已经将 OpenAI 竞争对手视为敌人
 
 ## 🔗 原始来源
 

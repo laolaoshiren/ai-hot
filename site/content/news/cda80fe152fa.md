@@ -25,17 +25,7 @@ list_page = 65
 
 <!-- AUTO-GENERATED: news page -->
 
-A new teaser trailer confirmed that Wonka’s The Golden Ticket will premiere on Netflix on September 23rd, following its Squid Game reality show in the trend of creating real competitions based on fictional torture scenarios.
-
-While the sets seen in the trailer are real and not some Glasgow-style AI fakes, the voiceover is AI-generated.
-Netflix is using an AI-generated Gene Wilder voice in its Willy Wonka reality show
-Don’t get Gloop’d.
-Deadline reports that Netflix worked with AI audio company ElevenLabs with consent from Wilder’s family, after working on productions re-creating the voice of Michael Caine and Stan Lee.
-
-It also continues Netflix’s 2021 partnership with the Roald Dahl company, and is separate from the Charlie vs.
-
-the Chocolate Factory animated feature that will arrive in 2027.
-As for the show itself, Netflix says its “high-stakes social experiment” will feature 12 “lucky” golden ticket winners plus their chosen partner in the competition, with one champion left standing a week later during the two-part finale on September 30th.
+最新预告片证实，《旺卡》的《金票》将于 9 月 23 日在 Netflix 首播，继《乌贼游戏》真人秀之后，又顺应基于虚…
 
 ## 🔗 原始来源
 

@@ -1,8 +1,8 @@
 +++
 title = "挪威小学几乎禁止人工智能"
-description = "文章网址：https://www.reuters.com/technology/norway-imposes-near-…"
+description = "挪威小学几乎禁止人工智能。来源：Hacker News AI。"
 seo_title = "挪威小学几乎禁止人工智能｜AI资讯解读 - AI热榜"
-seo_description = "文章网址：https://www.reuters.com/technology/norway-imposes-near-…"
+seo_description = "挪威小学几乎禁止人工智能。来源：Hacker News AI。"
 seo_keywords = "挪威小学几乎禁止人工智能, Hacker News AI, AI新闻, AI资讯, AI热榜"
 slug = "deade1e4e10e"
 type = "news"
@@ -15,7 +15,7 @@ original_url = "https://www.reuters.com/technology/norway-imposes-near-ban-ai-el
 source = "Hacker News AI"
 published = "2026-06-19T16:03:15"
 lang = "en"
-intro = "文章网址：https://www.reuters.com/technology/norway-imposes-near-…"
+intro = "挪威小学几乎禁止人工智能。来源：Hacker News AI。"
 ai_summary = "文章网址：https://www.reuters.com/technology/norway-imposes-near-…"
 summary = "Article URL: https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/ Comments URL: https://news."
 summary_zh = "文章网址：https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/ 评论网址：https://news.ycomb…"
@@ -25,7 +25,9 @@ list_page = 141
 
 <!-- AUTO-GENERATED: news page -->
 
-文章网址：https://www.reuters.com/technology/norway-imposes-near-…
+挪威小学几乎禁止人工智能。
+
+来源：Hacker News AI。
 
 ## 🔗 原始来源
 

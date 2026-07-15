@@ -25,19 +25,9 @@ list_page = 18
 
 <!-- AUTO-GENERATED: news page -->
 
-Open source AI is booming, according to Hugging Face CEO Clem Delangue.
+Hugging Face 首席执行官 Clem Delangue 表示，开源人工智能正在蓬勃发展。
 
-The company has grown into something like a GitHub for AI in recent years, where AI builders can share and download open models and datasets, now used by roughly half the Fortune 500.
-
-Delangue has seen the same story play out again and again: companies start out on frontier APIs, but as they scale, the costs push them towards open source models.
-On this episode of TechCrunch’s Equity podcast, Rebecca Bellan talked to Delangue about why the open vs closed source fight matters in the wake of Anthropic’s halted Fable release, and why he’s worried about the possibility that a handful of big companies could end up controlling everything.
-Listen to the full episode to hear more about:
-- How Chinese labs are producing the majority of open models being downloaded in the U.S., and why Delangue thinks that’s a problem worth fixing rather than a reason to distrust open source itself.
-- How Hugging Face is choosing capital efficiency over the usual Silicon Valley fundraising playbook, including why the company turned down a large investment from Nvidia last year.
-- Why he sees robotics as an even more urgent case for open, transparent AI than chatbots or coding tools, given how much of your home and family life a robot ends up seeing.
-Subscribe to Equity on YouTube, Apple Podcasts, Overcast, Spotify and all the casts.
-
-You also can follow Equity on X and Threads, at @EquityPod.
+近年来，该公司已发展成…
 
 ## 🔗 原始来源
 

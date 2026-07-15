@@ -25,22 +25,7 @@ list_page = 159
 
 <!-- AUTO-GENERATED: news page -->
 
-Pinterest on Wednesday announced a new experimental app called “Ask Pinterest” that will allow the company to explore a more conversational approach to shopping and product discovery that could eventually find its way to the main Pinterest app.
-
-It also introduced other AI initiatives, including Pinterest Model Context Protocol (MCP), designed for advertisers running campaigns on Pinterest’s platform, and other AI ad tools.
-The news comes just ahead of the adtech industry’s annual gathering at Cannes Lions, which is this year mainly focused on how AI can serve the needs of advertisers and marketers.
-The “Ask Pinterest” online application gives the company another way to utilize its “Taste Graph” — its internal data mapping people to their interests and aesthetics.
-
-It will initially be available in limited access, the company said.
-The AI-powered experience is designed to expand the visual discovery experience Pinterest is known for beyond the main app to a conversational, chatbot-like interface where consumers can ask questions using natural language to get more personalized recommendations and inspiration.
-It also arrives as AI chatbots are increasingly competing with traditional search engines for consumers’ attention.
-
-Google has already put AI to work to
-help online shoppers
-find what they need, track prices,
-and check out.
-ChatGPT also
-experimented with agentic shopping
+Pinterest 推出了“Ask Pinterest”，这是一款实验性的人工智能购物应用程序，可让用户通过对话界面寻求…
 
 ## 🔗 原始来源
 

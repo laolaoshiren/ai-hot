@@ -25,20 +25,7 @@ list_page = 35
 
 <!-- AUTO-GENERATED: news page -->
 
-Did that happen to you?
-You have an AI-generated codebase that works, but adding a feature now
-takes days and breaks two other things? This happens to every vibecoded
-project past a certain size: the agent stops seeing the whole picture and
-starts duplicating code instead of finding it.
-
-We can help.
-What we do?
-We analyze your codebase for free.
-If we don't think we
-can help, we say so and you've lost nothing.
-
-If we can, you get a fixed price
-and a committed reduction target — something like "100,000 lines down to
+文章网址：https://odra.dev/slopfix/ 评论网址：https://news.ycombinator…
 
 ## 🔗 原始来源
 

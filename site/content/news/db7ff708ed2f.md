@@ -1,8 +1,8 @@
 +++
 title = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI"
-description = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI。来源：VentureBeat AI。"
+description = "这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。"
 seo_title = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI｜AI资讯解读 - AI热榜"
-seo_description = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI。来源：VentureBeat AI。"
+seo_description = "这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。"
 seo_keywords = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI, VentureBeat AI, AI新闻, AI资讯, AI热榜"
 slug = "db7ff708ed2f"
 type = "news"
@@ -15,7 +15,7 @@ original_url = "https://venturebeat.com/technology/salesforce-rolls-out-new-slac
 source = "VentureBeat AI"
 published = "2026-01-13T13:00:00"
 lang = "en"
-intro = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI。来源：VentureBeat AI。"
+intro = "这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。"
 ai_summary = ""
 summary = "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company&#x27;s workplace assistant, transforming it from a simple notifica..."
 summary_zh = ""
@@ -25,9 +25,7 @@ list_page = 167
 
 <!-- AUTO-GENERATED: news page -->
 
-Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI。
-
-来源：VentureBeat AI。
+这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。
 
 ## 🔗 原始来源
 

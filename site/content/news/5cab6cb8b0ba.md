@@ -25,20 +25,7 @@ list_page = 136
 
 <!-- AUTO-GENERATED: news page -->
 
-Anyone who’s Googled themselves recently knows that it doesn’t quite hit the way it used to.
-
-Sure, there’s
-everything going on with Google search itself
-, but there’s also an inescapable feeling that web search isn’t the canonical source of information that it used to be, with just as many people learning about who you and I might be from chatbots.
-Thomas Dimson and Joey Flynn had a similar feeling, leading them to create
-In the Weights
-.
-
-The
-“weights”
-in question are the numerical parameters that shape an AI model’s training and output, so the website
-purports
-to measure how well “a model is able to recall someone without using tools like web search.”
+那么...您的体重分数是多少？
 
 ## 🔗 原始来源
 

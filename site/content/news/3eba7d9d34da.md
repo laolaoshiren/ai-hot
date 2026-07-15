@@ -25,18 +25,7 @@ list_page = 120
 
 <!-- AUTO-GENERATED: news page -->
 
-Hello and welcome to
-Regulator
-, the newsletter for
-Verge
-subscribers chronicling the misadventures of their favorite tech overlords and Washington swamp creatures.
-
-(“Favorite” is, of course, subjective.) Not a subscriber yet?
-Sign up here
-, especially if you want the hot scoop on
-quality Amazon Prime Day deals
-recommended by the wonderful humans of
-The Verge’s
+大家好，欢迎来到 Regulator，这是为 Verge 订阅者提供的时事通讯，记录了他们最喜欢的科技霸主和华盛顿沼泽生…
 
 ## 🔗 原始来源
 

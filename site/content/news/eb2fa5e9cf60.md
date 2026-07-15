@@ -25,21 +25,7 @@ list_page = 23
 
 <!-- AUTO-GENERATED: news page -->
 
-There’s something almost too perfect about this one,
-via Bloomberg
-.
-
-Lyzr, a three-year-old, Jersey City, New Jersey, startup that helps enterprises build AI agents, used its own AI agent to raise its own round.
-
-The system, SivaClaw, reportedly fielded questions from more than 130 investors, drafted investment memos, and even tracked which slides backers lingered on.
-It basically ran point on the startup’s $100 million Series B (at a roughly $500 million valuation) while proving that the product actually works.
-
-It’s hard to imagine a cleaner sales pitch.
-But the most telling detail, per Bloomberg’s retelling, is how little legwork was involved.
-
-Lyzr told the outlet it pulled in $400 million in interest from Silicon Valley, the Middle East, and financial-sector investors without a founder ever needing to fly out and do the traditional laps up and down Sand Hill Road for coffee meetings and warm intros.
-
-That may be the real story of this go-go moment: There’s so much capital chasing AI bets that startup founders with traction barely have to leave their desks to raise nine figures.
+Lyzr 是一家为企业构建人工智能代理的初创公司，它利用自己的人工智能代理筹集了 1 亿美元的资金，这显然证明了该产品确…
 
 ## 🔗 原始来源
 

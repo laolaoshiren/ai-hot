@@ -25,22 +25,7 @@ list_page = 111
 
 <!-- AUTO-GENERATED: news page -->
 
-Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, according to
-Bloomberg
-.
-
-Per the report, Adler and Pritzel played key roles in the development of Google’s Gemini model.
-TechCrunch reached out to Google for comment.
-These departures are part of a concerning trend for Google.
-
-Last week, legendary AI researcher
-Noam Shazeer
-announced
-that he was
-leaving Google
-for OpenAI.
-
-Shazeer had been at Google since 2000, save for the three years he spent building his
+继顶级科学家 Noam Shazeer 和 John Jumper 离职后，顶级人工智能研究人员 Jonas Adler…
 
 ## 🔗 原始来源
 

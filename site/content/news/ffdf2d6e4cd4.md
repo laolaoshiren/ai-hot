@@ -25,20 +25,7 @@ list_page = 47
 
 <!-- AUTO-GENERATED: news page -->
 
-China’s Alibaba will ban employees from using Anthropic’s programming tool Claude Code, starting on July 10, according to
-multiple
-reports
-.
-Anthropic already prohibits Chinese companies, as well as foreign entities owned by those companies, from using its models.
-
-The company has reportedly been
-working to close loopholes
-that allow Chinese users to access Claude.
-According to
-a recent Reddit post
-, some of that loophole-closing involved a version of Claude Code that could secretly identify Chinese users.
-
-Anthropic’s Thariq Shihipar
+据报道，阿里巴巴已将 Claude Code 列为高风险软件
 
 ## 🔗 原始来源
 

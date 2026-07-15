@@ -25,30 +25,35 @@ list_page = 9
 
 <!-- AUTO-GENERATED: news page -->
 
-Anthropic has started localizing Claude’s pricing in India, its biggest market outside the U.S., as global AI companies increasingly tailor their offerings to win users in the world’s most populous nation.
-Local pricing has begun to appear for some users in India on Claude’s website and mobile apps.
+随着全球人工智能公司越来越多地调整其产品以赢得世界上人口最多的国家的用户，Anthropic 已开始在印度（美国以外最大的市场）本地化 Claude 的定价。
 
-However, Anthropic has yet to enable payments via the Unified Payments Interface (UPI), India’s widely used instant payments network.
+克劳德的网站和移动应用程序上已经开始为印度的一些用户显示本地定价。
 
-Users still need to pay by card or through Apple’s and Google’s app store billing systems.
+然而，Anthropic 尚未支持通过印度广泛使用的即时支付网络统一支付接口 (UPI) 进行支付。
 
-This is unlike OpenAI, which
-rolled out Indian rupee pricing for ChatGPT
-in August with UPI support.
-Claude users in India have
-long sought
-rupee-denominated subscriptions, with dollar pricing and currency conversion adding friction to accessing the service.
+用户仍然需要通过卡或通过苹果和谷歌的应用商店计费系统支付。
 
-The move is particularly significant, as India accounts for
-5.8% of global Claude usage
-, making it the service’s second-largest market after the U.S., according to Anthropic.
-On Claude’s website in India, Anthropic is listing Claude Pro at ₹2,000 (about $21) a month when billed annually, compared with $17 a month in the U.S.
+这与 OpenAI 不同，OpenAI
+ChatGPT 推出印度卢比定价
+8 月，在 UPI 的支持下。
 
-Claude Max starts at ₹11,999 (around $125) a month in India, versus $100 in the U.S., while Team plans start at ₹2,399 (around $25) per seat a month, compared with $20 in the U.S.
+印度的克劳德用户有
+长期寻求的
+以卢比计价的订阅，美元定价和货币兑换增加了访问该服务的阻力。
 
-The India prices include local taxes.
+此举意义重大，因为印度占
+占全球 Claude 使用量的 5.8%
+据 Anthropic 称，该服务已成为继美国之后的第二大市场。
 
-Moreover, prices on Claude’s mobile apps vary slightly from those listed on its website.
+在印度 Claude 的网站上，Anthropic 将 Claude Pro 的定价为每月 2,000 卢比（约合 21 美元），按年计费，而美国为每月 17 美元。
+
+Claude Max 在印度的起价为每月 11,999 卢比（约合 125 美元），而在美国为 100 美元，而 Team 计划的起价为每个席位每月 2,399 卢比（约合 25 美元），而在美国则为 2,399 卢比（约合 25 美元）。
+
+美国价格为 20 美元。
+
+印度价格包含地方税。
+
+此外，克劳德移动应用程序的价格与其网站上列出的价格略有不同。
 
 ## 🔗 原始来源
 

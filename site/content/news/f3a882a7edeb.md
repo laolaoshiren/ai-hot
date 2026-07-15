@@ -25,25 +25,36 @@ list_page = 4
 
 <!-- AUTO-GENERATED: news page -->
 
-Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous.
-Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US
-He reportedly hopes the US-led institution will be up and running before the end of the year.
-He reportedly hopes the US-led institution will be up and running before the end of the year.
-Writing in a blog post, the Google DeepMind CEO and cofounder said the US should lead the initiative, arguing that the country is the best place to set global standards “given its economic and technical standing.” The organization, which could resemble existing regulators like the Financial Industry Regulatory Authority, would be made up of leading independent experts and representatives from open-source communities and would have the authority to evaluate frontier models before they are released and coordinate an industry-wide slowdown if they were judged too risky to deploy.
-The blog, titled “A Framework for Frontier AI and the Dawning of a New Age,” argued that the need for global regulation is becoming more urgent as AI systems grow in sophistication.
+杰米斯·哈萨比斯 (Demis Hassabis) 认为，世界需要一个人工智能监管机构，当前沿模型变得过于危险时，它有能力刹车。
 
-Artificial general intelligence (AGI) “is probably only a few short years away,” he said.
+谷歌的杰米斯·哈萨比斯 (Demis Hassabis) 表示，现在是由美国领导的全球人工智能监管机构的时候了
+据报道，他希望这家由美国领导的机构能够在今年年底前建立并运行。
 
-“When we look back on this time in the decades to come, I think we will realise we were standing in the foothills of the singularity - nothing less than the dawning of a new age for humanity.”
-According to Axios, Hassabis has spent months quietly building support for his proposal, including briefing the Trump administration, other AI labs, and European officials, and hopes to have the new organization up and running before the end of the year.
+据报道，他希望这家由美国领导的机构能够在今年年底前建立并运行。
 
-He told Axios that “the noises I’ve been hearing [from the Trump administration] are very positive.”
-The proposal is the latest effort by Hassabis and other industry leaders to establish a coherent framework for governing increasingly powerful AI systems, as well as mitigate the risks they may pose.
+谷歌 DeepMind 首席执行官兼联合创始人在一篇博文中写道，美国应该领导这一倡议，并认为“鉴于其经济和技术地位”，美国是制定全球标准的最佳地点。
 
-As of yet, there is no global set of rules governing AI specifically, nor a comprehensive set of rules nationally in the US.
+该组织可能类似于金融业监管局等现有监管机构，由领先的独立专家和来自开源社区的代表组成，有权在前沿模型发布之前对其进行评估，并在被认为风险太大而无法部署时协调全行业的放缓。
 
-Hassabis, the joint winner of the 2024 Nobel Prize in Chemistry for his work on AI-based protein prediction, also signed his name to a statement calling for tougher protections against AI-aided bioweapons production last month.
-Hassabis’ most recent comments follow a statement from top economists and tech titans — including Anthropic cofounder Jack Clark and former Google CEO Eric Schmidt — urging world leaders to take the looming economic impacts of AI seriously.
+该博客题为“前沿人工智能框架和新时代的曙光”，认为随着人工智能系统的日益复杂，全球监管的需求变得更加迫切。
+
+他说，通用人工智能（AGI）“可能只有短短几年的时间就能实现”。
+
+ “当我们在未来几十年回顾这个时刻时，我想我们会意识到我们正站在奇点的山脚下——这正是人类新时代的曙光。
+
+”
+据 Axios 称，哈萨比斯花了几个月的时间悄悄为他的提议争取支持，包括向特朗普政府、其他人工智能实验室和欧洲官员通报情况，并希望在今年年底前让新组织成立并运行。
+
+他告诉 Axios，“我（从特朗普政府）听到的声音非常积极。
+
+”
+该提案是哈萨比斯和其他行业领导者的最新努力，旨在建立一个连贯的框架来管理日益强大的人工智能系统，并减轻它们可能带来的风险。
+
+到目前为止，还没有专门管理人工智能的全球规则，美国也没有一套全面的全国规则。
+
+哈萨比斯因其在基于人工智能的蛋白质预测方面的工作而获得 2024 年诺贝尔化学奖，他上个月也在一份声明中署名，呼吁对人工智能辅助的生物武器生产采取更严格的保护措施。
+
+哈萨比斯最近发表评论之前，包括 Anthropic 联合创始人杰克·克拉克 (Jack Clark) 和谷歌前首席执行官埃里克·施密特 (Eric Sc​​hmidt) 在内的顶级经济学家和科技巨头发表声明，敦促世界领导人认真对待人工智能迫在眉睫的经济影响。
 
 ## 🔗 原始来源
 

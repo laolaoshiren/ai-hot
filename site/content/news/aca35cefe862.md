@@ -25,18 +25,7 @@ list_page = 142
 
 <!-- AUTO-GENERATED: news page -->
 
-Luca Guadagnino’s film about OpenAI CEO Sam Altman, Artificial, has reportedly been dropped by Amazon MGM.
-The film about Sam Altman has been dropped by Amazon MGM
-The film, directed by Luca Guadagnino, covers the week in 2023 that the OpenAI CEO was fired and re-hired.
-The film, directed by Luca Guadagnino, covers the week in 2023 that the OpenAI CEO was fired and re-hired.
-The film, which stars Andrew Garfield and covers the rollercoaster five days in 2023 spanning Altman’s termination and reinstatement as CEO, had been in the works for about a year.
-
-The cast also includes A Complete Unknown actress Monica Barbaro as OpenAI CTO Mira Murati, Ike Barinholtz as Elon Musk, and Anora’s Yura Borisov as OpenAI chief scientist Ilya Sutskever.
-In a statement to Deadline, the studio said it believes the movie “will be better served if it were released by a different studio and is working closely with the filmmaking team to find the film a new home.” Puck first reported the studio’s decision not to release the film.
-Amazon and OpenAI also have close ties, with Amazon in February announcing a $50 billion investment in the AI lab.
-Most Popular
-- Midjourney goes from generating cat images to full-body ultrasound scans
-- Apple’s weird anti-nausea dots cured my car sickness
+据报道，卢卡·瓜达尼诺 (Luca Guadagnino) 执导的关于 OpenAI 首席执行官山姆·奥尔特曼 (Sam…
 
 ## 🔗 原始来源
 

@@ -25,22 +25,7 @@ list_page = 63
 
 <!-- AUTO-GENERATED: news page -->
 
-Three former DeepMind researchers who created an AI
-that beat humans at poker
-have now applied the same technology to trading stocks — and the bet appears to be paying off.
-
-Their Prague-based AI lab,
-EquiLibre Technologies
-, is now valued at $500 million after raising an undisclosed-sum Series A, TechCrunch learned.
-The round was led by Creandum, and, although the VC also declined to disclose the size of the round, vice president Cameron Sellers confirmed that it was the largest single investment the firm “has ever made in one go into a company,” he told TechCrunch.
-The common denominator between poker and Wall Street is that they are well suited for
-reinforcement learning
-, an AI training technique where self-learning models are incentivized by rewards.
-
-According to Martin Schmid, EquiLibre CEO, “The nice thing about trading and markets is that the scoring is super simple: how much money did the agent make?”
-This isn’t just game money.
-
-In partnership
+EquiLibre Technologies 是一家总部位于布拉格的人工智能实验室，由三名前 DeepMind 研究人员…
 
 ## 🔗 原始来源
 

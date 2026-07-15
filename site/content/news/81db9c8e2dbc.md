@@ -25,22 +25,7 @@ list_page = 47
 
 <!-- AUTO-GENERATED: news page -->
 
-As part of an ongoing legal dispute with three Hollywood studios, AI startup Midjourney is seeking to compel those studios to reveal how they use AI themselves.
-Disney and Universal sued Midjourney for alleged copyright infringement
-last year, noting that the startup’s image-generation models could create images of characters, such as Bart Simpson and Darth Vader, who are owned by the studios.
-
-A few months later,
-Warner Bros.
-
-sued Midjourney
-as well.
-The startup argues that training its AI models on images of copyrighted characters is permitted under fair use.
-The current dispute revolves around the documentation the studios will need to produce during the discovery process.
-
-A judge previously ruled that the studios would indeed have to provide information about their generative AI usage – but only when it led to “consumer-facing” videos and images.
-In
-its latest filing
-, Midjourney seeks to overturn that limitation, arguing that it “unfairly” allows the studios “to cherry-pick only those documents they believe support their market harm claims while depriving Midjourney of documents that would support its defenses.”
+作为与三个好莱坞电影公司正在进行的法律纠纷的一部分，Midjourney 正在寻求迫使这些电影公司披露他们如何使用人工智…
 
 ## 🔗 原始来源
 

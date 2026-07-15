@@ -25,28 +25,9 @@ list_page = 66
 
 <!-- AUTO-GENERATED: news page -->
 
-This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology.
-AI agents are not your “coworkers”
-Imagine coming in to work to learn that a new underling will report to you.
+这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。
 
-The worker is not a person but an AI tool—one that your company nonetheless calls Alex, an “employee” with a title and defined responsibilities.
-
-How well do you think you would work with Alex?
-If you're anything like the managers studied by Boston University professor Emma Wiles, treating that AI as a "coworker" would lead you to do a worse job.
-
-They caught 18% fewer errors when the work was attributed to an agentic "AI employee" rather than a chatbot.
-This is an alarming glimpse of the future Silicon Valley is hurling us toward.
-
-Microsoft, OpenAI, Anthropic, and Google have all released tools for managing teams of AI agents, many of which are advertised as digital colleagues.
-
-Find out why that’s a losing proposition for workers.
-—James O'Donnell
-This story is from The Algorithm, our weekly AI newsletter.
-
-Sign up to receive it in your inbox every Monday.
-This flying solar-powered platform could deliver better internet from the air
-As soon as August, a giant silver bullet will cut its way through the dry air of the southwestern US and cross the Pacific to reach the coast of Japan.
-Once there, the roughly 200-foot-long craft, built by the New Mexico–based company Sceye, will park some 18 kilometers above the ocean’s surface in the stratosphere, then use a custom-built antenna to supplement a 5G network, in a test that includes beaming data straight to devices.
+人工智能代理不是你的“同事”想象一下…
 
 ## 🔗 原始来源
 

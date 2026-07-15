@@ -25,16 +25,9 @@ list_page = 102
 
 <!-- AUTO-GENERATED: news page -->
 
-OpenKnowledge is a beautiful, local-first markdown editor and LLM wiki with integrations for Claude, Codex, and other harnesses.
-Available as
-macOS app
-or
-Web app/CLI
-for Linux, Windows, Intel Mac.
-Key highlights:
-Full
-WYSIWYG
-so that editing markdown files feels like editing a Google Doc or Notion page.
+嗨，HN，尼克在这里。
+
+我们正在推出 OpenKnowledge (https://openknowledge.ai/)…
 
 ## 🔗 原始来源
 

@@ -25,24 +25,7 @@ list_page = 72
 
 <!-- AUTO-GENERATED: news page -->
 
-Google
-announced
-on Monday that the Gemini app is now offering its personalized Nano Banana-powered image generation feature to a broader audience.
-
-Starting today, all eligible users in the U.S.
-
-can access the feature for free, a service that was
-previously only available
-to Plus, Pro, and Ultra subscribers.
-Google initially announced that Gemini’s Personal Intelligence feature would get Nano Banana-powered image generation back in April, allowing users to create images that reflect their unique interests.
-
-This means that images can be generated based on Gemini’s understanding of your likes and preferences without you having to specify them in your prompt.
-
-Gemini utilizes data from your Google account connections — such as Gmail, Google Photos, YouTube, and Search — to achieve this.
-For example, instead of saying, “Create an illustration of me and my favorite things, such as coffee and baking,” you can simply request, “Create an illustration of me and my favorite things.”
-Gemini can also pull actual images of you from Google Photos, so you don’t need to manually upload photos.
-Image Credits:
-Google
+谷歌正在将 Gemini 的个性化人工智能图像生成扩展到美国符合条件的免费用户，允许聊天机器人根据您的兴趣和来自连接的谷…
 
 ## 🔗 原始来源
 

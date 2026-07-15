@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+import hashlib
 import json, sys
 import re
 from pathlib import Path
@@ -8,6 +9,8 @@ from zoneinfo import ZoneInfo
 ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'data'
 SITE_CONTENT = ROOT / 'site' / 'content'
+NEWS_PAGE_MARKER = '<!-- AUTO-GENERATED: news page -->'
+NEWS_SOURCE_HEADING = '## 🔗 原始来源'
 
 def zh_ratio(text):
     text = str(text or '').strip()
@@ -18,6 +21,92 @@ def zh_ratio(text):
 def fail(msg):
     print('❌', msg)
     return 1
+
+
+def read_generated_news_body(path):
+    text = path.read_text(encoding='utf-8')
+    if NEWS_PAGE_MARKER not in text:
+        return ''
+    body = text.split(NEWS_PAGE_MARKER, 1)[1]
+    body = body.split(NEWS_SOURCE_HEADING, 1)[0]
+    body = re.sub(r'!\[[^\]]*\]\([^)]*\)', '', body)
+    body = re.sub(r'https?://\S+', '', body)
+    return body.strip()
+
+
+def check_english_news_bodies(errors):
+    """英文来源可以保留原始链接，但站内文章主体必须是中文。"""
+    path = DATA / 'news.json'
+    if not path.exists():
+        errors.append('news.json missing')
+        return
+
+    news = json.loads(path.read_text(encoding='utf-8'))
+    invalid = []
+    for item in news:
+        if str(item.get('lang') or '').lower() != 'en':
+            continue
+        news_id = item.get('slug') or item.get('id')
+        if not news_id:
+            continue
+        page = SITE_CONTENT / 'news' / f'{news_id}.md'
+        if not page.exists():
+            invalid.append(f'{news_id}: missing page')
+    for page in (SITE_CONTENT / 'news').glob('*.md'):
+        text = page.read_text(encoding='utf-8')
+        if NEWS_PAGE_MARKER not in text or not re.search(r'(?m)^lang = "en"$', text):
+            continue
+        body = read_generated_news_body(page)
+        zh_chars = sum('\u4e00' <= ch <= '\u9fff' for ch in body)
+        if zh_chars < 2 or zh_ratio(body) < 0.15:
+            invalid.append(f'{page.stem}: zh_ratio={zh_ratio(body):.2f}')
+
+    if invalid:
+        errors.append(f'English-source news bodies not Chinese enough: {invalid[:10]}')
+
+
+def news_content_fingerprint(text):
+    lines = []
+    for line in str(text or '').splitlines():
+        line = re.sub(r'\s+', ' ', line).strip()
+        if line:
+            lines.append(line)
+    normalized = '\n'.join(lines)
+    return hashlib.sha256(normalized.encode('utf-8')).hexdigest()[:16]
+
+
+def recent_translation_problem(item):
+    source = str(item.get('content_excerpt') or '').strip()
+    if not source:
+        return ''
+    translated = str(item.get('content_zh') or '').strip()
+    min_length = min(120, max(40, int(len(source) * 0.2)))
+    if len(translated) < min_length:
+        return f'content_zh too short ({len(translated)} < {min_length})'
+    if zh_ratio(translated) < 0.35:
+        return f'content_zh ratio too low ({zh_ratio(translated):.2f})'
+    if item.get('content_zh_source_hash') != news_content_fingerprint(source):
+        return 'content_zh source hash stale'
+    try:
+        recorded_chars = int(item.get('content_zh_chars') or 0)
+    except (TypeError, ValueError):
+        return 'content_zh_chars invalid'
+    if recorded_chars != len(translated):
+        return 'content_zh_chars mismatch'
+    if item.get('translation_error'):
+        return 'translation_error present'
+    return ''
+
+
+def check_recent_english_translations(warnings, news, limit=40):
+    recent = [item for item in news if str(item.get('lang') or '').lower() == 'en'][:limit]
+    invalid = []
+    for item in recent:
+        problem = recent_translation_problem(item)
+        if problem:
+            invalid.append(f"{item.get('id')}: {problem}")
+    if invalid:
+        warnings.append(f'Recent English-source articles missing complete Chinese body: {invalid[:10]}')
 
 BAD_ICON_SUBSTRINGS = (
     'aihot.bt199.com/favicon',
@@ -109,6 +198,7 @@ def check_readme_sync(errors, expected_date):
 
 def main():
     errors=[]
+    warnings=[]
     check_models_curated(errors)
 
     providers = check_icon_url_records(errors, 'providers.json', allow_openrouter=True)
@@ -155,6 +245,10 @@ def main():
         if zh_ratio(summary) < 0.45:
             errors.append(f'hot #{idx} summary not Chinese enough: {summary[:80]}')
 
+    check_english_news_bodies(errors)
+    news=json.loads((DATA/'news.json').read_text(encoding='utf-8'))
+    check_recent_english_translations(warnings, news)
+
     briefing=json.loads((DATA/'briefing.json').read_text(encoding='utf-8'))
     meta=json.loads((DATA/'meta.json').read_text(encoding='utf-8'))
     tz=ZoneInfo('Asia/Shanghai')
@@ -172,6 +266,8 @@ def main():
         # 不再检查 briefing 日期是否匹配，因为新闻永久保留
         check_readme_sync(errors, expected_date)
 
+    for warning in warnings:
+        print('⚠️', warning)
     if errors:
         for e in errors:
             print('❌', e)

@@ -25,20 +25,13 @@ list_page = 136
 
 <!-- AUTO-GENERATED: news page -->
 
-Asked about the privacy implications of chatbots like ChatGPT and Claude, Signal President Meredith Whittaker answered, “These are not your friends.
+“他们不是你的朋友。
 
-These are not conscious beings.
+他们不是有意识的生物。
 
-These are not sentient interlocutors.”
-Whittaker made those comments in a broader interview with Bloomberg about policy, privacy, and Signal.
+他们不是有知觉的对话者。
 
-She acknowledged that she uses AI tools “to format a document here and there,” but insisted, “I don’t ask them questions.
-
-I’m very serious about my thinking and writing, and I don’t want the process of working through an idea […] to be foreclosed or eclipsed by the response of a system that’s averaging what’s already out there.”
-As for Microsoft AI CEO Mustafa Suleyman’s prediction that users could let Microsoft Copilot handle all their Christmas shopping this year, Whittaker argued this scenario — where Copilot is eavesdropping on the family group chat to determine who wants want — means giving it “access to my credit card, my browser, my Signal, the ability to message my siblings on my behalf, my home address [and] my calendar.”
-“What you’ve just described is a system with very pervasive access across multiple applications and services,” Whittaker said.
-
-“In the context of Signal, it would constitute a kind of a backdoor.”
+”
 
 ## 🔗 原始来源
 

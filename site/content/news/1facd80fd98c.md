@@ -25,13 +25,7 @@ list_page = 86
 
 <!-- AUTO-GENERATED: news page -->
 
-Paul Meade, the Apple vice president in charge of the Vision Pro headset, is leaving the company to join OpenAI’s hardware team, according to Bloomberg’s Mark Gurman.
-Meade also reportedly led the development of the AI-powered smart glasses that Apple plans to launch next year.
-
-The costly Vision Pro was not a hit, but Apple is hoping that more affordable smart glasses will help it compete with wearable devices from Meta.
-Gurman frames this departure as a byproduct of John Ternus’ imminent elevation to Apple CEO, and of Ternus’ decision to shake up the hardware engineering team, which left some of the company’s vice presidents feeling like they’d been demoted.
-OpenAI, meanwhile, is already working with Apple’s former chief design officer Jony Ive on an AI device that CEO Sam Altman has claimed will be more peaceful and calm than an iPhone, though reports last fall suggested the company was struggling to get the details right.
-TechCrunch has reached out to Apple and OpenAI for comment.
+据报道，负责 Vision Pro 耳机的苹果副总裁 Paul Meade 将离开公司，加入 OpenAI 的硬件团队
 
 ## 🔗 原始来源
 

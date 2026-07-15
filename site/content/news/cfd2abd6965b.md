@@ -25,30 +25,7 @@ list_page = 112
 
 <!-- AUTO-GENERATED: news page -->
 
-Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives “push their ideas further” and automate tedious tasks with AI.
-
-Part of this is a reimagined canvas that’s now optimized for full-stack development, according to Figma, bringing teams, AI agents, tools, and materials “together in one place.”
-Figma now has AI motion graphics and shader tools
-You can also work directly with code on the Figma Design canvas, thanks to code layers.
-You can also work directly with code on the Figma Design canvas, thanks to code layers.
-Notable callouts include coding layers that let you tweak the code of your projects without leaving the Figma Design canvas, and AI-generated motion graphics effects, which allow you to make animations and transition effects by simply describing them to Figma’s chatbot interface.
-
-You can read more about all the new product updates over on Figma’s website.
-New creative materials to express ideas
-● Code layers: Work directly with code on the Figma Design canvas.
-
-Clone repositories, generate new directions with Figma’s agent, extract flows into editable design layers, and sync changes back to code.
-● Motion: Design animations, transitions, and 3D transforms collaboratively, directly from Figma.
-
-Prompt to create animations with AI, apply preset styles, or adjust manually on a timeline.
-
-Motion is connected to design systems, code-backed, and ready to ship.
-● Shaders: Prompt to build shader effects and fills, custom visual treatments powered by WebGPU.
-
-Effects that weren’t available in Figma before, like dither, pixelate, and various blur types can now be created directly on the canvas.
-● Figma Weave workflows: Generate consistent and high-quality visuals in Figma with 20 plus integrated Weave tools, turning complex AI workflows into simple tools on the canvas.
-
-This is the first step towards a full integration between Figma and Figma Weave, expected later this year.
+Figma 在其年度 Config 会议上公布了一些新的设计和编码产品更新，旨在帮助创意人员“进一步推动他们的想法”并利…
 
 ## 🔗 原始来源
 

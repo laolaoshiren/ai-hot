@@ -25,24 +25,9 @@ list_page = 59
 
 <!-- AUTO-GENERATED: news page -->
 
-This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology.
-Claude Science is Anthropic’s newest flagship product
-At an event for pharmaceutical executives, biotech founders, and researchers yesterday, Anthropic announced Claude Science, a major new product intended to support scientific research like Claude Code supports software engineering.
-Like Claude Code, Claude Science can autonomously carry out meaningful work from concise, high-level instructions, with tools for computational biology and drug development.
+这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。
 
-The launch signals that Anthropic is doubling down on AI for science, and the company will also use the product in its own research into drugs for rare, neglected diseases.
-Discover why Anthropic is betting big on AI for scientific research.
-—Grace Huckins
-Why California’s carbon manure math doesn’t add up
-Something stinks in California’s climate policies.
-Years ago, the state set up a system that pays cattle farmers to turn the methane emitted from cattle manure into natural gas.
-
-It's become wildly popular because the subsidies are extremely lucrative.
-
-But research suggests the program exposes the shortcomings of carbon offsetting and trading schemes.
-Instead of forcing industries to directly cut their pollution or pay for it as a cost of doing business, legislators have opted for incentives that swap climate responsibilities between parties and regions.
-
-The system could ultimately lock in more warming.
+ Claude Science 是…
 
 ## 🔗 原始来源
 

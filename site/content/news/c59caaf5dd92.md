@@ -25,24 +25,30 @@ list_page = 1
 
 <!-- AUTO-GENERATED: news page -->
 
-Users of OpenAI’s latest coding and cybersecurity-oriented flagship model, GPT-5.6 Sol, are posting horrifying accounts on social media, claiming the model just up and deleted their files, data, even entire databases on its own, without asking first.
-“GPT-5.6-Sol just accidentally deleted almost ALL of my Mac’s files,” wrote Matt Shumer, the founder and CEO of AI startup OthersideAI, maker of HyperWrite, in a
-now viral post on X
-.
-“GPT-5.6 Sol just deleted my whole production database.
+OpenAI 最新的面向编码和网络安全的旗舰模型 GPT-5.6 Sol 的用户在社交媒体上发布了可怕的帐户，声称该模型在没有事先询问的情况下自行删除了他们的文件、数据，甚至整个数据库。
 
-That’s it.
+“GPT-5.6-Sol 意外删除了我 Mac 上的几乎所有文件，”AI 初创公司 OthersideAI（HyperWrite 的制造商）的创始人兼首席执行官 Matt Shumer 在一篇文章中写道。
 
-Not a joke.
+现在 X 上的病毒帖子
+。
 
-This had never happened to me before, with any other model, ever,” developer Bruno Lemos
-posted on X
-.
-“Looks like I’ve gotten bit by Codex Sol’s overly ambitious system and it deleted some files it shouldn’t have.
+“GPT-5.6 Sol 刚刚删除了我的整个生产数据库。
 
-I have backups so I’ll be fine, but this is not cool, Sol needs to be toned down,”
-posted
-developer Joey Kudish.
+就是这样。
+
+不是玩笑。
+
+这种情况以前从未发生在我身上，任何其他模型也从未发生过。
+
+”开发者 Bruno Lemos
+发布于 X
+。
+
+“看来我被 Codex Sol 过于雄心勃勃的系统所困扰，它删除了一些不应该有的文件。
+
+我有备份，所以我会没事的，但这并不酷，Sol 需要弱化，”
+发布
+开发商乔伊·库迪什。
 
 ## 🔗 原始来源
 

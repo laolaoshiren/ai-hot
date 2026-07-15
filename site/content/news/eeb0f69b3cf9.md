@@ -25,28 +25,9 @@ list_page = 48
 
 <!-- AUTO-GENERATED: news page -->
 
-Artificial intelligence is rewriting the world, and simultaneously inventing a whole new language to describe how it’s doing it.
+人工智能的兴起带来了大量新术语和俚语。
 
-Sit in on any product meeting, pitch, or panel these days, and you’ll hear people toss around LLMs, RAG, RLHF, and a dozen other terms that can make even very smart people in the tech world feel a little insecure.
-
-This glossary is our attempt to fix that: pain-English definitions of the AI terms you’re most likely to actually run into, whether you’re building with this stuff, investing in it, or just trying to keep up by reading TechCrunch or listening to related podcasts.
-
-We update it regularly as the field evolves, so consider it a living document, much like the AI systems it describes.
-Artificial general intelligence, or AGI, is a nebulous term.
-
-But it generally refers to AI that’s more capable than the average human at many, if not most, tasks.
-
-OpenAI CEO Sam Altman once described AGI as the “equivalent of a median human that you could
-hire as a co-worker
-.” Meanwhile,
-OpenAI’s charter
-defines AGI as “highly autonomous systems that outperform humans at most economically valuable work.” Google DeepMind’s understanding differs slightly from these two definitions; the lab views AGI as “AI that’s at least as capable as humans at most cognitive tasks.” Confused? Not to worry —
-so are experts at the forefront of AI research
-.
-An AI agent refers to a tool that uses AI technologies to perform a series of tasks on your behalf — beyond what a more basic AI chatbot could do — such as filing expenses, booking tickets or a table at a restaurant, or even writing and maintaining code.
-
-However, as we’ve
-explained before
+这是一个词汇表，其中包含您可能遇到的一些最重要单词和短语的定义
 
 ## 🔗 原始来源
 

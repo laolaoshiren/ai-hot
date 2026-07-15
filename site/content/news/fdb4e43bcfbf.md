@@ -25,24 +25,7 @@ list_page = 65
 
 <!-- AUTO-GENERATED: news page -->
 
-X is making it easier for AI assistants like Claude, Cursor, Grok Build, and other MCP-compatible apps to connect directly to the platform through a new hosted MCP server.
-On Monday, the Elon Musk-owned social network
-unveiled
-a
-hosted Model Context Protocol (MCP) server
-that lets AI tools communicate with the X API using a user’s own account permissions.
-MCP, for context, is an open standard that defines a common way for AI models to connect to external tools and services.
-
-Previously, if developers wanted an AI assistant like Claude or Cursor to access X, they would have to build their own MCP server, host it, connect to the X API, and handle the authentication.
-
-Now, X hosts the MCP, and users authenticate with their own X account’s permissions.
-This allows developers to save the time spent on integration work to focus on whatever it is they’re actually building.
-Developers have long been able to search X, read posts, look up users, analyze conversations and trends, and do more using the platform’s API.
-
-The hosted MCP doesn’t add new capabilities on that front; it just makes them easier to expose to AI applications.
-
-By doing so, X can position itself as an information network filled with real-time data to retrieve and analyze, rather than just a social hangout.
-The move sees X joining a growing number of companies that now offer their own official MCP servers or endpoints, like
+X推出了托管MCP服务器，使开发人员可以更轻松地将AI应用程序与公司的API连接起来
 
 ## 🔗 原始来源
 

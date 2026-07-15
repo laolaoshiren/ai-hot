@@ -1,8 +1,8 @@
 +++
 title = "Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone."
-description = "Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone.。来源：Ars Technica AI。"
+description = "这是一条来自 Ars Technica AI 的 AI 资讯，完整细节请查看下方原始来源。"
 seo_title = "Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone.｜AI资讯解读 - AI热榜"
-seo_description = "Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone.。来源：Ars Technica AI。"
+seo_description = "这是一条来自 Ars Technica AI 的 AI 资讯，完整细节请查看下方原始来源。"
 seo_keywords = "Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone., Ars Technica AI, AI新闻, AI资讯, AI热榜"
 slug = "1bbdc9b8a9e9"
 type = "news"
@@ -15,7 +15,7 @@ original_url = "https://arstechnica.com/security/2026/06/dashlane-issues-opaque-
 source = "Ars Technica AI"
 published = "2026-06-03T19:53:14"
 lang = "en"
-intro = "Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone.。来源：Ars Technica AI。"
+intro = "这是一条来自 Ars Technica AI 的 AI 资讯，完整细节请查看下方原始来源。"
 ai_summary = ""
 summary = "Security advisory leaves out key details. Dashlane maintains complete silence."
 summary_zh = ""
@@ -25,9 +25,7 @@ list_page = 166
 
 <!-- AUTO-GENERATED: news page -->
 
-Analysis: Can't make sense of Dashlane's vault theft notification? You're not alone.。
-
-来源：Ars Technica AI。
+这是一条来自 Ars Technica AI 的 AI 资讯，完整细节请查看下方原始来源。
 
 ## 🔗 原始来源
 

@@ -25,26 +25,7 @@ list_page = 58
 
 <!-- AUTO-GENERATED: news page -->
 
-Ashton Kutcher is stepping away from Sound Ventures — the firm he co-founded with Guy Oseary 11 years ago — to start a separate VC fund, the Wall Street Journal
-reported
-.
-
-The actor and investor’s new firm is being co-founded with Morgan Beller, who until recently was a general partner at seed-focused VC outfit NFX and previously co-led cryptocurrency project Libra at Meta.
-
-Beller also spent nearly three years as a partner at Andreessen Horowitz.
-TechCrunch had separately heard that Kutcher was preparing to leave; the WSJ’s report confirms it and adds new detail on his plans with Beller.
-
-The name of the new firm hasn’t been made public yet.
-Kutcher’s exit doesn’t appear to be a sign of trouble at Sound Ventures — investors often leave firms that are underperforming, but that’s not the case here.
-
-The firm, which has backed companies like Brex and Gusto, was also an early investor in OpenAI, Anthropic, and Fei-Fei Li’s World Labs.
-The split is also notable for what it signals about where AI money is heading next: Sound built its reputation on concentrated, high-conviction bets in category-leading AI labs, while Kutcher’s new fund appears to be chasing the layer underneath those companies — the infrastructure and energy that power them.
-“He and his fund consistently make it onto [my] rankings of top unicorn investors.
-
-An interesting case!” Stanford finance professor Ilya Strebulaev, who tracks top-performing VCs,
-wrote on X
-.
-The actor has
+Sound 的声誉建立在对领先的人工智能实验室的集中、高度确信的押注之上，而库彻的新基金似乎正在追逐这些公司的底层——为…
 
 ## 🔗 原始来源
 

@@ -25,30 +25,9 @@ list_page = 149
 
 <!-- AUTO-GENERATED: news page -->
 
-This is today's edition of The Download, our weekday newsletter that provides a daily dose of what's going on in the world of technology.
-The search for dark matter has been blown wide open
-For decades, physicists have hunted for weakly interacting massive particles (WIMPs), a leading candidate for dark matter.
+这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。
 
-But their search has run into a new problem: neutrinos.
-These tiny particles from the sun and other stars can create a “neutrino fog” that drowns out any signal of dark matter.
-
-Hitting the neutrino fog does not, however, mean an end to the search.
-
-Researchers just have to shift the focus of their hunt.
-They’re now casting a much wider net.
-
-New proposals include quantum sensors, liquid-helium detectors, and even searches in Jupiter’s atmosphere.
-—Dan Garisto
-This story is from the next edition of our magazine, which is all about engineering.
-
-Subscribe now to get a copy when it lands!
-Entrepreneurs in Nairobi are making the case for going solar
-Shops with diesel-powered grain mills are common in Nairobi.
-
-Milcah Wanjiru’s is different: it runs on either solar energy or the grid.
-About a quarter of Kenya’s population still lacks centralized electricity, and off-grid solar is being promoted as a route to universal access by 2030.
-
-In Wanjiru’s case, it cuts operating costs and can improve profits once the upfront investment is recovered.
+几十年来，物理学家一直在寻找弱相互作…
 
 ## 🔗 原始来源
 
