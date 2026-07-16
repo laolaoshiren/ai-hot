@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-16 21:28:34
+🕐 **最近更新**：2026-07-17 03:02:23
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [Apple Intelligence 获准与阿里巴巴和百度合作在中国推出](https://aihot.bt199.com/news/92bf3c7f3d86/)
-   - 据传去年正在进行的这项交易标志着苹果在关键市场的人工智能雄心迈出了重要一步
+1. [Google Vids 现在可让您在自己的 AI 视频中担任主角](https://aihot.bt199.com/news/c27a3acd5bed/)
+   - 谷歌正在将个性化的人工智能头像添加到视频中，让用户可以创建以自己的数字版本为主角的视频，同时还提供 Gemini Omn…
    - `TechCrunch AI · 2026-07-16`
 
-2. [应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型](https://aihot.bt199.com/news/3442e88d0150/)
-   - Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…
+2. [Roblox 在其移动应用程序中推出了人工智能驱动的游戏创建功能](https://aihot.bt199.com/news/0699caaab6d7/)
+   - Roblox 的新“构建”功能允许用户使用单个文本提示生成基本游戏
    - `TechCrunch AI · 2026-07-16`
 
-3. [Claude 现在可以为您使用您的 1Password 凭据](https://aihot.bt199.com/news/6895063c5fd2/)
-   - 1Password 为 Claude 推出了新的浏览器集成，允许 Anthropic 聊天机器人访问存储的安全凭证，例如…
+3. [纽约州州长表示，她正在使用人工智能来分析该州的“每一条规则”](https://aihot.bt199.com/news/ce2196ba2ede/)
+   - 纽约州州长 Kathy Hochul 可能刚刚签署了暂停在该州新建人工智能数据中心的协议，但她并不反对自己使用该技术。在…
    - `The Verge AI · 2026-07-16`
 
 4. [下载：OpenAI 推出 GPT-Red，热泵在美国崛起](https://aihot.bt199.com/news/2f85cd9ed47d/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识 GPT-Red：LLM 超级黑…
    - `MIT Tech Review · 2026-07-16`
 
-5. [谷歌被勒令向欧洲竞争对手开放Android和搜索](https://aihot.bt199.com/news/53ca432aa981/)
-   - 在欧盟命令谷歌遵守欧盟的数字反垄断规则后，谷歌必须为竞争对手的人工智能助手和搜索引擎提供更多对安卓和谷歌搜索关键部分的访…
-   - `The Verge AI · 2026-07-16`
-
-6. [认识一下 GPT-Red：LLM 超级黑客 OpenAI，旨在使其模型更安全](https://aihot.bt199.com/news/0081d2e6c395/)
+5. [认识一下 GPT-Red：LLM 超级黑客 OpenAI，旨在使其模型更安全](https://aihot.bt199.com/news/0081d2e6c395/)
    - OpenAI 构建了一个名为 GPT-Red 的 LLM 超级黑客，将其用作陪练伙伴，帮助其其他模型增强对网络攻击的防御…
    - `MIT Tech Review · 2026-07-15`
 
-7. [代理编排：企业人工智能组织面临的是部署问题，而不是平台问题——而且大多数都在调用聊天机器人代理](https://aihot.bt199.com/news/dc315898b2db/)
-   - 在 101 家企业中，代理编排正在整合到模型提供商平台上——Anthropic 的 Claude 遥遥领先——根据底层模…
-   - `VentureBeat AI · 2026-07-15`
+6. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+   - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
+   - `VentureBeat AI · 2026-07-16`
 
-8. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
+7. [人工智能上下文差距：企业人工智能组织存在信任问题，而不是检索问题——而且大多数仍在构建修复程序](https://aihot.bt199.com/news/7caead535fc4/)
+   - 在 101 家企业中，为 AI 代理提供业务环境的基础设施的构建速度快于可信度。检索增强生成已经是默认的上下文源，而提供…
+   - `VentureBeat AI · 2026-07-16`
+
+8. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
+   - 上市公司正在以本世纪最快的速度筹集资金
+   - `Ars Technica AI · 2026-07-16`
+
+9. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
    - 这家连锁便利店将改用 StorMagic
    - `Ars Technica AI · 2026-07-15`
-
-9. [微软的安全启动已经被破解十年了，直到现在才被人注意到](https://aihot.bt199.com/news/a708c7931fbd/)
-   - 微软未能撤销的旧的和被遗忘的“垫片”使得安全启动绕过变得简单
-   - `Ars Technica AI · 2026-07-14`
 
 
 ## 🤖 AI 简报
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
