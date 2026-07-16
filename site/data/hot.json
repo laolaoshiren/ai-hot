@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-07-16T01:55:20.277731",
+  "updated_at": "2026-07-16T08:10:12.529486",
   "total": 8,
   "hot_list": [
+    {
+      "title": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "name": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "title_zh": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-16",
+      "time": "2026-07-16",
+      "description": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "subtitle": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "ai_summary": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "category": "资讯",
+      "news_id": "3442e88d0150",
+      "internal_url": "https://aihot.bt199.com/news/3442e88d0150/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
       "name": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "86fc4744cf64",
       "internal_url": "https://aihot.bt199.com/news/86fc4744cf64/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "name": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "title_zh": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-15",
-      "time": "2026-07-15",
-      "description": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "subtitle": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "ai_summary": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "category": "资讯",
-      "news_id": "c9ca9bb827ce",
-      "internal_url": "https://aihot.bt199.com/news/c9ca9bb827ce/",
       "type_label": "📰 新闻"
     },
     {
@@ -149,6 +149,24 @@
   ],
   "top_20": [
     {
+      "title": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "name": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "title_zh": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-16",
+      "time": "2026-07-16",
+      "description": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "subtitle": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "ai_summary": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "category": "资讯",
+      "news_id": "3442e88d0150",
+      "internal_url": "https://aihot.bt199.com/news/3442e88d0150/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
       "name": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
       "title_zh": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
@@ -164,24 +182,6 @@
       "category": "资讯",
       "news_id": "86fc4744cf64",
       "internal_url": "https://aihot.bt199.com/news/86fc4744cf64/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "name": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "title_zh": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-15",
-      "time": "2026-07-15",
-      "description": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "subtitle": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "ai_summary": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "category": "资讯",
-      "news_id": "c9ca9bb827ce",
-      "internal_url": "https://aihot.bt199.com/news/c9ca9bb827ce/",
       "type_label": "📰 新闻"
     },
     {
@@ -301,6 +301,24 @@
   },
   "items": [
     {
+      "title": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "name": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "title_zh": "应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型",
+      "url": "https://techcrunch.com/2026/07/15/applied-computing-wants-to-give-oil-and-gas-operators-an-ai-model-for-the-entire-plant/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-16",
+      "time": "2026-07-16",
+      "description": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "subtitle": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "ai_summary": "Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…",
+      "category": "资讯",
+      "news_id": "3442e88d0150",
+      "internal_url": "https://aihot.bt199.com/news/3442e88d0150/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
       "name": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
       "title_zh": "据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic",
@@ -316,24 +334,6 @@
       "category": "资讯",
       "news_id": "86fc4744cf64",
       "internal_url": "https://aihot.bt199.com/news/86fc4744cf64/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "name": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "title_zh": "在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘",
-      "url": "https://techcrunch.com/2026/07/15/amid-hardware-legal-battle-openai-releases-a-230-keyboard-for-codex/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-15",
-      "time": "2026-07-15",
-      "description": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "subtitle": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "ai_summary": "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用",
-      "category": "资讯",
-      "news_id": "c9ca9bb827ce",
-      "internal_url": "https://aihot.bt199.com/news/c9ca9bb827ce/",
       "type_label": "📰 新闻"
     },
     {

@@ -20,7 +20,7 @@ ai_summary = "GLM 5.2 和即将到来的人工智能利润率崩溃。来源：H
 summary = "Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/ Comments URL: https://news."
 summary_zh = "GLM 5.2 和即将到来的人工智能利润率崩溃。来源：Hacker News AI"
 tags = []
-list_page = 46
+list_page = 47
 +++
 
 <!-- AUTO-GENERATED: news page -->

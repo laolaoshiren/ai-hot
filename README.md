@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-16 09:55:20
+🕐 **最近更新**：2026-07-16 16:10:13
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic](https://aihot.bt199.com/news/86fc4744cf64/)
-   - 微软希望出售其内部人工智能模型，使其比竞争对手的模型更高效、更具成本效益
-   - `TechCrunch AI · 2026-07-15`
+1. [应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型](https://aihot.bt199.com/news/3442e88d0150/)
+   - Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…
+   - `TechCrunch AI · 2026-07-16`
 
-2. [在硬件法律战中，OpenAI 为 Codex 发布了售价 230 美元的键盘](https://aihot.bt199.com/news/c9ca9bb827ce/)
-   - OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用
+2. [据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic](https://aihot.bt199.com/news/86fc4744cf64/)
+   - 微软希望出售其内部人工智能模型，使其比竞争对手的模型更高效、更具成本效益
    - `TechCrunch AI · 2026-07-15`
 
 3. [AI 烂片成为新的视频直接抢钱渠道](https://aihot.bt199.com/news/84272a721d1b/)
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
