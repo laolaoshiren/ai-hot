@@ -20,12 +20,27 @@ ai_summary = "据报道，阿里巴巴已将 Claude Code 列为高风险软件"
 summary = "Alibaba has reportedly classified Claude Code as high-risk software."
 summary_zh = "据报道，阿里巴巴已将 Claude Code 列为高风险软件"
 tags = []
-list_page = 51
+list_page = 52
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-据报道，阿里巴巴已将 Claude Code 列为高风险软件
+据报道，中国阿里巴巴将从 7 月 10 日起禁止员工使用 Anthropic 的编程工具 Claude Code
+多个
+报告
+。
+
+Anthropic 已经禁止中国公司以及这些公司拥有的外国实体使用其模型。
+
+据报道，该公司已
+努力堵住漏洞
+允许中国用户访问克劳德。
+
+根据
+最近的 Reddit 帖子
+其中一些漏洞的修复涉及一个可以秘密识别中国用户身份的克劳德代码版本。
+
+ Anthropic 的 Thariq Shihipar
 
 ## 🔗 原始来源
 

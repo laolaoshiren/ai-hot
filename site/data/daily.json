@@ -1,37 +1,38 @@
 {
-  "updated_at": "2026-07-15T19:00:35.154846",
-  "date": "2026-07-15",
+  "updated_at": "2026-07-16T01:53:52.969632",
+  "date": "2026-07-16",
   "spotlight": {
-    "name": "OneCLI",
-    "url": "https://github.com/onecli/onecli",
+    "name": "Gemini CLI",
+    "url": "https://github.com/google-gemini/gemini-cli",
     "type": "agent",
-    "description": "开源凭证保险库，让 AI Agent 安全访问各类服务，无需暴露 API 密钥",
-    "pricing": "免费开源",
-    "category": "安全 Agent"
+    "description": "Google 开源的终端 AI Agent，直接在命令行调用 Gemini 模型完成编码、文件操作等任务",
+    "pricing": "免费",
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "name": "Cherry Studio",
-      "url": "https://github.com/CherryHQ/cherry-studio",
-      "type": "agent",
-      "description": "AI 效率工作台，集成智能聊天、自主 Agent 和大量助手，统一接入多种模型服务。",
-      "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "id": "cursor",
+      "name": "Cursor",
+      "url": "https://cursor.sh",
+      "type": "tool",
+      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
+      "pricing": "免费 + Pro $20/月",
+      "category": "编程"
     },
     {
-      "id": "whisper",
-      "name": "Whisper",
-      "url": "https://github.com/openai/whisper",
+      "id": "fish-speech",
+      "name": "Fish Speech",
+      "url": "https://github.com/fishaudio/fish-speech",
       "type": "tool",
-      "description": "OpenAI 开源语音识别模型",
+      "description": "开源 TTS 语音合成模型，中文效果好",
       "pricing": "开源免费",
       "category": "语音"
     },
     {
-      "name": "VoltAgent",
-      "url": "https://github.com/VoltAgent/voltagent",
+      "name": "Tabby",
+      "url": "https://github.com/TabbyML/tabby",
       "type": "agent",
-      "description": "开源 TypeScript AI Agent 工程平台，支持多 Agent 编排和可视化工作流",
+      "description": "自托管 AI 代码助手，支持代码补全、问答，数据不出服务器，企业友好",
       "pricing": "开源免费",
       "category": "编程 Agent"
     }
