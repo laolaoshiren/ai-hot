@@ -20,7 +20,7 @@ ai_summary = "系统卡片：https://deploymentsafety.openai.com/gpt-5-6-preview
 summary = "System card: https://deploymentsafety.openai.com/gpt-5-6-preview Comments URL: https://news."
 summary_zh = "系统卡片：https://deploymentsafety.openai.com/gpt-5-6-preview 评论网址：https://news.ycombinator.com/item?id=48689028 积分：860 # 评论…"
 tags = []
-list_page = 100
+list_page = 102
 +++
 
 <!-- AUTO-GENERATED: news page -->

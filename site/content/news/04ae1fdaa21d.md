@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，更新：看到某书上有人把豆包内置的skills调出来了，我也准备去试试，然后就上限了 7 个帖子 - 5 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 132
+list_page = 134
 +++
 
 <!-- AUTO-GENERATED: news page -->

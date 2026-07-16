@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-16 16:10:13
+🕐 **最近更新**：2026-07-16 21:28:34
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,35 +16,39 @@
 
 ## 🔥 今日热点
 
-1. [应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型](https://aihot.bt199.com/news/3442e88d0150/)
+1. [Apple Intelligence 获准与阿里巴巴和百度合作在中国推出](https://aihot.bt199.com/news/92bf3c7f3d86/)
+   - 据传去年正在进行的这项交易标志着苹果在关键市场的人工智能雄心迈出了重要一步
+   - `TechCrunch AI · 2026-07-16`
+
+2. [应用计算公司希望为石油和天然气运营商提供整个工厂的人工智能模型](https://aihot.bt199.com/news/3442e88d0150/)
    - Applied Computer 筹集了 2000 万美元的 A 轮融资，用于为石油、天然气和石化行业构建基础人工智能模…
    - `TechCrunch AI · 2026-07-16`
 
-2. [据报道，微软正在培训销售人员谈论 OpenAI 和 Anthropic](https://aihot.bt199.com/news/86fc4744cf64/)
-   - 微软希望出售其内部人工智能模型，使其比竞争对手的模型更高效、更具成本效益
-   - `TechCrunch AI · 2026-07-15`
+3. [Claude 现在可以为您使用您的 1Password 凭据](https://aihot.bt199.com/news/6895063c5fd2/)
+   - 1Password 为 Claude 推出了新的浏览器集成，允许 Anthropic 聊天机器人访问存储的安全凭证，例如…
+   - `The Verge AI · 2026-07-16`
 
-3. [AI 烂片成为新的视频直接抢钱渠道](https://aihot.bt199.com/news/84272a721d1b/)
-   - 本周末，世界各地的影迷将前往当地影院，一饱眼福克里斯托弗·诺兰改编的《奥德赛》新作。短短几天内，它的收入有望达到 80…
-   - `The Verge AI · 2026-07-15`
+4. [下载：OpenAI 推出 GPT-Red，热泵在美国崛起](https://aihot.bt199.com/news/2f85cd9ed47d/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识 GPT-Red：LLM 超级黑…
+   - `MIT Tech Review · 2026-07-16`
 
-4. [认识一下 GPT-Red：LLM 超级黑客 OpenAI，旨在使其模型更安全](https://aihot.bt199.com/news/0081d2e6c395/)
+5. [谷歌被勒令向欧洲竞争对手开放Android和搜索](https://aihot.bt199.com/news/53ca432aa981/)
+   - 在欧盟命令谷歌遵守欧盟的数字反垄断规则后，谷歌必须为竞争对手的人工智能助手和搜索引擎提供更多对安卓和谷歌搜索关键部分的访…
+   - `The Verge AI · 2026-07-16`
+
+6. [认识一下 GPT-Red：LLM 超级黑客 OpenAI，旨在使其模型更安全](https://aihot.bt199.com/news/0081d2e6c395/)
    - OpenAI 构建了一个名为 GPT-Red 的 LLM 超级黑客，将其用作陪练伙伴，帮助其其他模型增强对网络攻击的防御…
    - `MIT Tech Review · 2026-07-15`
 
-5. [下载：有用的量子机器和破纪录的海底隧道](https://aihot.bt199.com/news/5c918f534dd5/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 PsiQuantum 计划利用光制…
-   - `MIT Tech Review · 2026-07-15`
-
-6. [代理编排：企业人工智能组织面临的是部署问题，而不是平台问题——而且大多数都在调用聊天机器人代理](https://aihot.bt199.com/news/dc315898b2db/)
+7. [代理编排：企业人工智能组织面临的是部署问题，而不是平台问题——而且大多数都在调用聊天机器人代理](https://aihot.bt199.com/news/dc315898b2db/)
    - 在 101 家企业中，代理编排正在整合到模型提供商平台上——Anthropic 的 Claude 遥遥领先——根据底层模…
    - `VentureBeat AI · 2026-07-15`
 
-7. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
+8. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
    - 这家连锁便利店将改用 StorMagic
    - `Ars Technica AI · 2026-07-15`
 
-8. [微软的安全启动已经被破解十年了，直到现在才被人注意到](https://aihot.bt199.com/news/a708c7931fbd/)
+9. [微软的安全启动已经被破解十年了，直到现在才被人注意到](https://aihot.bt199.com/news/a708c7931fbd/)
    - 微软未能撤销的旧的和被遗忘的“垫片”使得安全启动绕过变得简单
    - `Ars Technica AI · 2026-07-14`
 
@@ -131,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
