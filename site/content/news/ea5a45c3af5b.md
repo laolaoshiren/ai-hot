@@ -20,12 +20,25 @@ ai_summary = "文章网址：https://apertvs.ai/ 评论网址：https://news.yco
 summary = "Article URL: https://apertvs.ai/ Comments URL: https://news.ycombinator.com/item?id=48622778 Points: 230 # Comments: 82"
 summary_zh = "文章网址：https://apertvs.ai/ 评论网址：https://news.ycombinator.com/item?id=48622778 积分：230 # 评论：82"
 tags = []
-list_page = 147
+list_page = 150
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-文章网址：https://apertvs.ai/ 评论网址：https://news.ycombinator.com/i…
+迷你阿佩图斯
+发布了一组 16 个小语言模型，用于演示蒸馏和量化技术。
+
+训练数据、代码、权重、方法和对齐原则——全部记录在案且可复制。
+
+ Apertus 之于 AI，就像 Open 之于源代码。
+
+专为满足欧盟人工智能法案要求而构建：该模型尊重选择退出、删除 PII、防止记忆。
+
+一个可继续发展的全球基础。
+
+与8B、70B参数同等比例的顶开型号具有竞争力。
+
+从第一天起就使用多种语言 — 经过 1000 多种语言的培训。
 
 ## 🔗 原始来源
 

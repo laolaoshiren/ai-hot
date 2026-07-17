@@ -20,7 +20,7 @@ ai_summary = "谷歌正在将个性化的人工智能头像添加到视频中，
 summary = "Google is adding personalized AI avatars to Vids that let users create videos starring a digital version of themselves, alongside Gemini Omni-powered tools for generating and editing videos from prompts and reference images."
 summary_zh = "谷歌正在将个性化的人工智能头像添加到视频中，让用户可以创建以自己的数字版本为主角的视频，同时还提供 Gemini Omni 支持的工具，用于根据提示和参考图像生成和编辑视频"
 tags = []
-list_page = 3
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

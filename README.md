@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-17 15:58:42
+🕐 **最近更新**：2026-07-17 21:13:25
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,29 +20,29 @@
    - 谷歌正在将个性化的人工智能头像添加到视频中，让用户可以创建以自己的数字版本为主角的视频，同时还提供 Gemini Omn…
    - `TechCrunch AI · 2026-07-16`
 
-2. [Roblox 在其移动应用程序中推出了人工智能驱动的游戏创建功能](https://aihot.bt199.com/news/0699caaab6d7/)
-   - Roblox 的新“构建”功能允许用户使用单个文本提示生成基本游戏
-   - `TechCrunch AI · 2026-07-16`
+2. [下载：围绝经期错误信息和中国最新的人工智能飞跃](https://aihot.bt199.com/news/6d08c5b7cd5a/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。关于围绝经期有很多炒作。不要买它。围…
+   - `MIT Tech Review · 2026-07-17`
 
-3. [纽约州州长表示，她正在使用人工智能来分析该州的“每一条规则”](https://aihot.bt199.com/news/ce2196ba2ede/)
+3. [天气数据遭到破坏的风险正在上升](https://aihot.bt199.com/news/5777494d3bc5/)
+   - 每天早上，世界各地的航空公司调度员、电网运营商和农民都会根据同一件事做出决策：天气预报。虽然大多数人只看一眼这些预测两秒…
+   - `MIT Tech Review · 2026-07-17`
+
+4. [纽约州州长表示，她正在使用人工智能来分析该州的“每一条规则”](https://aihot.bt199.com/news/ce2196ba2ede/)
    - 纽约州州长 Kathy Hochul 可能刚刚签署了暂停在该州新建人工智能数据中心的协议，但她并不反对自己使用该技术。在…
    - `The Verge AI · 2026-07-16`
 
-4. [下载：OpenAI 推出 GPT-Red，热泵在美国崛起](https://aihot.bt199.com/news/2f85cd9ed47d/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识 GPT-Red：LLM 超级黑…
-   - `MIT Tech Review · 2026-07-16`
-
-5. [认识一下 GPT-Red：LLM 超级黑客 OpenAI，旨在使其模型更安全](https://aihot.bt199.com/news/0081d2e6c395/)
-   - OpenAI 构建了一个名为 GPT-Red 的 LLM 超级黑客，将其用作陪练伙伴，帮助其其他模型增强对网络攻击的防御…
-   - `MIT Tech Review · 2026-07-15`
-
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+5. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+6. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
+
+7. [为什么第一批 GPU 金融家在 4 亿美元的交易中转向推理芯片](https://aihot.bt199.com/news/96ead98cb525/)
+   - 4 亿美元的芯片支持贷款预示着下一波人工智能基础设施交易
+   - `TechCrunch AI · 2026-07-17`
 
 8. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
    - 上市公司正在以本世纪最快的速度筹集资金
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
