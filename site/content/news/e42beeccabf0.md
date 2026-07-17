@@ -20,7 +20,7 @@ ai_summary = "预览 GPT‑5.6 Sol：下一代模型。来源：Hacker News AI"
 summary = "System card: https://deploymentsafety.openai.com/gpt-5-6-preview Comments URL: https://news."
 summary_zh = "预览 GPT‑5.6 Sol：下一代模型。来源：Hacker News AI"
 tags = []
-list_page = 105
+list_page = 107
 +++
 
 <!-- AUTO-GENERATED: news page -->

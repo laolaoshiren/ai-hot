@@ -6,7 +6,7 @@
       "hugging_face_id": null,
       "name": "MoonshotAI: Kimi K3",
       "created": 1784215858,
-      "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
+      "description": "Kimi K3 is an ultra-large-scale, open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at navigating...",
       "context_length": 1048576,
       "architecture": {
         "modality": "text+image->text",
@@ -2187,9 +2187,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008974",
-        "completion": "0.0000028204",
-        "input_cache_read": "0.00000016666"
+        "prompt": "0.0000009324",
+        "completion": "0.0000029304",
+        "input_cache_read": "0.00000017316"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -6832,7 +6832,7 @@
       "pricing": {
         "prompt": "0.000000098",
         "completion": "0.000000196",
-        "input_cache_read": "0.0000000196"
+        "input_cache_read": "0.00000002"
       },
       "top_provider": {
         "context_length": 1048575,
@@ -8504,7 +8504,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_a",
         "top_k",
         "top_logprobs",
         "top_p"
@@ -20057,7 +20056,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "links": {
         "details": "/api/v1/models/z-ai/glm-4.5v/endpoints"
       },
@@ -28048,8 +28047,8 @@
         "instruct_type": "mistral"
       },
       "pricing": {
-        "prompt": "0.000000019",
-        "completion": "0.00000003"
+        "prompt": "0.00000002",
+        "completion": "0.00000004"
       },
       "top_provider": {
         "context_length": 131072,
@@ -28846,7 +28845,6 @@
         "include_reasoning",
         "logit_bias",
         "logprobs",
-        "max_completion_tokens",
         "max_tokens",
         "min_p",
         "prediction",
@@ -29276,5 +29274,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-17T01:57:43.419003+00:00"
+  "updated_at": "2026-07-17T07:57:29.762667+00:00"
 }

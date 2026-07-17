@@ -20,12 +20,26 @@ ai_summary = "大家好，欢迎来到 Regulator，这是为 Verge 订阅者提�
 summary = "Hello and welcome to Regulator, the newsletter for Verge subscribers chronicling the misadventures of their favorite tech overlords and Washington swamp creatures."
 summary_zh = "大家好，欢迎来到 Regulator，这是为 Verge 订阅者提供的时事通讯，记录了他们最喜欢的科技霸主和华盛顿沼泽生物的不幸经历。 （当然，“最喜欢的”是主观的。）还不是订阅者？在此注册，特别是如果您想了解优质 Amazon Prime…"
 tags = []
-list_page = 132
+list_page = 134
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-大家好，欢迎来到 Regulator，这是为 Verge 订阅者提供的时事通讯，记录了他们最喜欢的科技霸主和华盛顿沼泽生…
+您好，欢迎来到
+调节器
+，时事通讯
+边缘
+订阅者记录了他们最喜欢的科技霸主和华盛顿沼泽生物的不幸经历。
+
+ （当然，“最喜欢的”是主观的。
+
+）还不是订阅者？
+
+在这里注册
+，特别是如果你想要热勺的话
+优质亚马逊 Prime Day 优惠
+由优秀的人类推荐
+边缘的
 
 ## 🔗 原始来源
 
