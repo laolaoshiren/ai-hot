@@ -375,13 +375,13 @@
       "Llama 4 Maverick",
       "Llama 4 Scout"
     ],
-    "model_count": 11,
+    "model_count": 10,
     "last_updated": "2025-04-30",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
+    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=ai.meta.com&sz=64"
   },
@@ -429,14 +429,14 @@
       "Nemotron 3 Ultra",
       "Nemotron 3 Ultra (free)"
     ],
-    "model_count": 11,
+    "model_count": 10,
     "last_updated": "2026-06-04",
     "modalities": [
       "多模态",
       "文本",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Content Safety (free)",
+    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Content Safety (free)",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=64"
   },
