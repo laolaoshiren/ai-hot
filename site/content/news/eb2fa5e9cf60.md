@@ -20,7 +20,7 @@ ai_summary = "Lyzr 是一家为企业构建人工智能代理的初创公司，�
 summary = "Lyzr, a startup that builds AI agents for enterprises, used its own AI agent to raise a $100 million round — proof, evidently, that the product actually works."
 summary_zh = "Lyzr 是一家为企业构建人工智能代理的初创公司，它利用自己的人工智能代理筹集了 1 亿美元的资金，这显然证明了该产品确实有效"
 tags = []
-list_page = 34
+list_page = 35
 +++
 
 <!-- AUTO-GENERATED: news page -->
