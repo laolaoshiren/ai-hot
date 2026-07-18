@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "全新的持续学习范式"
 summary_zh = ""
 tags = []
-list_page = 77
+list_page = 79
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，7月16日，据报道，Anthropic正安排与投资者举行会面，为潜在的大规模IPO做准备。负责此次IPO的承销银行将在未来几周安排投资者与这家Claude聊天机器人开发商会面。"
 summary_zh = ""
 tags = []
-list_page = 7
+list_page = 9
 +++
 
 <!-- AUTO-GENERATED: news page -->

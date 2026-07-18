@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-07-17T18:58:24.937446",
-  "date": "2026-07-17",
+  "updated_at": "2026-07-18T01:48:06.118989",
+  "date": "2026-07-18",
   "spotlight": {
-    "name": "MemPalace",
-    "url": "https://github.com/MemPalace/mempalace",
+    "name": "OpenMythos",
+    "url": "https://github.com/kyegomez/OpenMythos",
     "type": "agent",
-    "description": "最强开源 AI 记忆系统，号称性能超越 Mem0 等方案，且完全免费开源",
+    "description": "Claude Mythos 架构的开源复现版，基于公开研究论文还原 Anthropic 最新模型设计",
     "pricing": "免费",
-    "category": "平台 Agent"
+    "category": "研究 Agent"
   },
   "alternates": [
     {
-      "id": "github-copilot",
-      "name": "GitHub Copilot",
-      "url": "https://github.com/features/copilot",
+      "id": "claude-code",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
       "type": "tool",
-      "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains",
-      "pricing": "$10/月 个人 / $19/月 企业",
+      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+      "pricing": "按 API 使用量计费",
       "category": "编程"
     },
     {
-      "id": "suno",
-      "name": "Suno",
-      "url": "https://suno.com",
+      "id": "aider",
+      "name": "Aider",
+      "url": "https://aider.chat",
       "type": "tool",
-      "description": "AI 音乐生成工具，输入文字生成歌曲",
-      "pricing": "免费 + Pro $10/月",
-      "category": "音乐"
+      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "pricing": "开源免费",
+      "category": "编程"
     },
     {
-      "name": "OpenCLI",
-      "url": "https://github.com/jackwener/OpenCLI",
+      "name": "Inkos",
+      "url": "https://github.com/Narcooo/inkos",
       "type": "agent",
-      "description": "通用 CLI 中心和 AI 原生运行时，将任何网站和工具变成你的命令行",
+      "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
       "pricing": "免费开源",
-      "category": "自动化 Agent"
+      "category": "创作 Agent"
     }
   ]
 }
