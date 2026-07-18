@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-18 20:59:37
+🕐 **最近更新**：2026-07-19 02:54:44
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归](https://aihot.bt199.com/news/5d2b0c79af65/)
-   - Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…
+1. [Kimi：威胁还是威胁？](https://aihot.bt199.com/news/ee7e2eccd745/)
+   - 中国公司探月人工智能本周发布了新版Kimi模型，引发了人们对“全面人工智能共产主义”的担忧
    - `TechCrunch AI · 2026-07-18`
 
-2. [Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现](https://aihot.bt199.com/news/2d9cc2c8c02b/)
-   - 从人工智能工作流程到电池寿命和安全性，这就是每天使用 Vertu 豪华可折叠手机的真实感受
-   - `TechCrunch AI · 2026-07-17`
+2. [尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归](https://aihot.bt199.com/news/5d2b0c79af65/)
+   - Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…
+   - `TechCrunch AI · 2026-07-18`
 
 3. [TikTok 正在测试人工智能相似度检测工具](https://aihot.bt199.com/news/3ca766d4c6c6/)
    - 社交媒体顾问马特·纳瓦拉 (Matt Navarra) 发现，TikTok 正在开始测试一种选择加入工具，该工具可以扫描…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

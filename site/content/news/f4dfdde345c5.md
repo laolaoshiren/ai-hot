@@ -20,7 +20,7 @@ ai_summary = "大多数美国人不信任人工智能。事实证明，它不知
 summary = "Most Americans don't trust AI. It's proven that it doesn't know what safe toppings for pizza are."
 summary_zh = "大多数美国人不信任人工智能。事实证明，它不知道什么是安全的披萨配料。人们甚至不想听人工智能音乐。但对于一些美国富人来说，这些都不重要，他们正在转向人工智能而不是传统学校来教育他们的孩子。 Forge Prep 等公司"
 tags = []
-list_page = 67
+list_page = 68
 +++
 
 <!-- AUTO-GENERATED: news page -->
