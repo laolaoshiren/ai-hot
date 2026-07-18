@@ -1,31 +1,31 @@
 +++
-title = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI"
-description = "这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。"
-seo_title = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI｜AI资讯解读 - AI热榜"
-seo_description = "这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。"
-seo_keywords = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI, VentureBeat AI, AI新闻, AI资讯, AI热榜"
+title = "最新消息：Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争"
+description = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为..."
+seo_title = "最新消息：Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争｜AI资讯解读 - AI热榜"
+seo_description = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为..."
+seo_keywords = "最新消息：Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争, VentureBeat AI, AI新闻, AI资讯, AI热榜"
 slug = "db7ff708ed2f"
 type = "news"
 
 [params]
 id = "db7ff708ed2f"
-name = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI"
+name = "最新消息：Salesforce 推出新的 Slackbot AI 代理，在工作场所 AI 领域与微软和谷歌展开竞争"
 title_en = "Latest: Salesforce rolls out new Slackbot AI agent as it battles Microsoft and Google in workplace AI"
 original_url = "https://venturebeat.com/technology/salesforce-rolls-out-new-slackbot-ai-agent-as-it-battles-microsoft-and"
 source = "VentureBeat AI"
 published = "2026-01-13T13:00:00"
 lang = "en"
-intro = "这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。"
-ai_summary = ""
+intro = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为..."
+ai_summary = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为..."
 summary = "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company&#x27;s workplace assistant, transforming it from a simple notifica..."
-summary_zh = ""
+summary_zh = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为..."
 tags = []
-list_page = 186
+list_page = 188
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-这是一条来自 VentureBeat AI 的 AI 资讯，完整细节请查看下方原始来源。
+Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为...
 
 ## 🔗 原始来源
 

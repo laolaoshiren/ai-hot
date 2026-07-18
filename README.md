@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-18 09:49:42
+🕐 **最近更新**：2026-07-18 15:33:32
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现](https://aihot.bt199.com/news/2d9cc2c8c02b/)
-   - 从人工智能工作流程到电池寿命和安全性，这就是每天使用 Vertu 豪华可折叠手机的真实感受
-   - `TechCrunch AI · 2026-07-17`
+1. [尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归](https://aihot.bt199.com/news/5d2b0c79af65/)
+   - Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…
+   - `TechCrunch AI · 2026-07-18`
 
-2. [Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位](https://aihot.bt199.com/news/2a6c589fb12f/)
-   - Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究
+2. [Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现](https://aihot.bt199.com/news/2d9cc2c8c02b/)
+   - 从人工智能工作流程到电池寿命和安全性，这就是每天使用 Vertu 豪华可折叠手机的真实感受
    - `TechCrunch AI · 2026-07-17`
 
 3. [TikTok 正在测试人工智能相似度检测工具](https://aihot.bt199.com/news/3ca766d4c6c6/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

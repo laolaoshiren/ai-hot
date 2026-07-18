@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，想到了唐杰之前回复musk的won't take that long 30 个帖子 - 23 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 104
+list_page = 106
 +++
 
 <!-- AUTO-GENERATED: news page -->

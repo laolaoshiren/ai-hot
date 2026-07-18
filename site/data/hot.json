@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-07-18T01:49:41.782393",
+  "updated_at": "2026-07-18T07:33:31.500692",
   "total": 10,
   "hot_list": [
+    {
+      "title": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "name": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "title_zh": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-18",
+      "time": "2026-07-18",
+      "description": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "subtitle": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "ai_summary": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "category": "资讯",
+      "news_id": "5d2b0c79af65",
+      "internal_url": "https://aihot.bt199.com/news/5d2b0c79af65/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
       "name": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "2d9cc2c8c02b",
       "internal_url": "https://aihot.bt199.com/news/2d9cc2c8c02b/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "name": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "title_zh": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-17",
-      "time": "2026-07-17",
-      "description": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "subtitle": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "ai_summary": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "category": "资讯",
-      "news_id": "2a6c589fb12f",
-      "internal_url": "https://aihot.bt199.com/news/2a6c589fb12f/",
       "type_label": "📰 新闻"
     },
     {
@@ -185,6 +185,24 @@
   ],
   "top_20": [
     {
+      "title": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "name": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "title_zh": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-18",
+      "time": "2026-07-18",
+      "description": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "subtitle": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "ai_summary": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "category": "资讯",
+      "news_id": "5d2b0c79af65",
+      "internal_url": "https://aihot.bt199.com/news/5d2b0c79af65/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
       "name": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
       "title_zh": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
@@ -200,24 +218,6 @@
       "category": "资讯",
       "news_id": "2d9cc2c8c02b",
       "internal_url": "https://aihot.bt199.com/news/2d9cc2c8c02b/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "name": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "title_zh": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-17",
-      "time": "2026-07-17",
-      "description": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "subtitle": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "ai_summary": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "category": "资讯",
-      "news_id": "2a6c589fb12f",
-      "internal_url": "https://aihot.bt199.com/news/2a6c589fb12f/",
       "type_label": "📰 新闻"
     },
     {
@@ -373,6 +373,24 @@
   },
   "items": [
     {
+      "title": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "name": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "title_zh": "尼尔·里默 (Neil Rimer) 认为人工智能资金正在回归",
+      "url": "https://techcrunch.com/2026/07/17/neil-rimer-thinks-the-ai-money-is-coming-back-out/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-07-18",
+      "time": "2026-07-18",
+      "description": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "subtitle": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "ai_summary": "Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…",
+      "category": "资讯",
+      "news_id": "5d2b0c79af65",
+      "internal_url": "https://aihot.bt199.com/news/5d2b0c79af65/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
       "name": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
       "title_zh": "Vertu 希望高管支付 6,880 美元购买人工智能代理——以下是它的实际表现",
@@ -388,24 +406,6 @@
       "category": "资讯",
       "news_id": "2d9cc2c8c02b",
       "internal_url": "https://aihot.bt199.com/news/2d9cc2c8c02b/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "name": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "title_zh": "Databricks 估值达到 188B 美元，延续了其作为人工智能最受欢迎的第二幕的地位",
-      "url": "https://techcrunch.com/2026/07/17/databricks-hits-188b-valuation-extending-its-run-as-ais-favorite-second-act/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-07-17",
-      "time": "2026-07-17",
-      "description": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "subtitle": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "ai_summary": "Databricks 将其形象重塑为一家人工智能公司，并发表了关于开放权重人工智能模型编码成本节省的研究",
-      "category": "资讯",
-      "news_id": "2a6c589fb12f",
-      "internal_url": "https://aihot.bt199.com/news/2a6c589fb12f/",
       "type_label": "📰 新闻"
     },
     {

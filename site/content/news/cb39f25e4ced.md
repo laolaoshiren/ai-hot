@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，- IT之家 2 个帖子 - 2 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 146
+list_page = 148
 +++
 
 <!-- AUTO-GENERATED: news page -->

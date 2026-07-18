@@ -20,7 +20,7 @@ ai_summary = "皮尤研究中心的一份新报告显示，尽管华尔街热爱
 summary = "Although Wall Street loves AI, every day Americans are significantly less optimistic about the industry, a new report from Pew Research shows."
 summary_zh = "皮尤研究中心的一份新报告显示，尽管华尔街热爱人工智能，但美国人对该行业的乐观态度却明显下降"
 tags = []
-list_page = 175
+list_page = 176
 +++
 
 <!-- AUTO-GENERATED: news page -->
