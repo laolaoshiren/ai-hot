@@ -2979,6 +2979,35 @@
     "collected_at": "2026-04-20T18:54:55.937592"
   },
   {
+    "id": "github-560299175",
+    "name": "teableio/teable",
+    "display_name": "teable",
+    "url": "https://github.com/teableio/teable",
+    "description": "✨ AI Spreadsheet for Business",
+    "stars": 21503,
+    "forks": 1299,
+    "language": "TypeScript",
+    "topics": [
+      "ai-agent",
+      "airtable",
+      "airtable-alternative",
+      "app-builder",
+      "database",
+      "internal-tool",
+      "low-code",
+      "no-code",
+      "postgres",
+      "postgresql",
+      "sandbox",
+      "spreadsheet"
+    ],
+    "created_at": "2022-11-01T07:02:49Z",
+    "updated_at": "2026-07-18T12:52:08Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-07-18T12:57:53.886710"
+  },
+  {
     "id": "github-674075444",
     "name": "QwenLM/Qwen",
     "display_name": "Qwen",

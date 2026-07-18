@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，2026世界人工智能大会昨天（17日）在上海开幕，在“人工智能与能源双向赋能”分论坛上，国家能源局负责人透露，我国将加快构建新型能源体系，为人工智能发展插上绿色翅膀。"
 summary_zh = ""
 tags = []
-list_page = 2
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
