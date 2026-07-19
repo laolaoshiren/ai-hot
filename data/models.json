@@ -9893,6 +9893,30 @@
     "is_core": true
   },
   {
+    "id": "hf-alxxtexxr--XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719123330",
+    "name": "alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719123330",
+    "display_name": "XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719123330",
+    "url": "https://huggingface.co/alxxtexxr/XLM-R-Base-squad-vi-5K-LoRA-Addition-v260719123330",
+    "author": "alxxtexxr",
+    "pipeline_tag": "question-answering",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "xlm-roberta",
+      "question-answering",
+      "arxiv:1910.09700",
+      "endpoints_compatible",
+      "region:us"
+    ],
+    "created_at": "2026-07-19T12:35:01.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-19T13:01:01.903772",
+    "display_priority": 308,
+    "is_core": true
+  },
+  {
     "id": "hf-Jinstudio--TRELLIS-text-xlarge",
     "name": "Jinstudio/TRELLIS-text-xlarge",
     "display_name": "TRELLIS-text-xlarge",
@@ -9912,7 +9936,7 @@
     "created_at": "2026-06-26T02:20:40.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461908",
-    "display_priority": 308,
+    "display_priority": 309,
     "is_core": true
   },
   {
@@ -9935,7 +9959,7 @@
     "created_at": "2026-06-26T02:20:34.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461914",
-    "display_priority": 309,
+    "display_priority": 310,
     "is_core": true
   },
   {
@@ -9958,7 +9982,7 @@
     "created_at": "2026-06-26T02:20:25.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T02:38:00.461916",
-    "display_priority": 310,
+    "display_priority": 311,
     "is_core": true
   },
   {
@@ -9990,7 +10014,7 @@
     "created_at": "2026-07-13T19:10:29.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-13T19:16:55.912359",
-    "display_priority": 311,
+    "display_priority": 312,
     "is_core": true
   },
   {
@@ -10015,7 +10039,7 @@
     "created_at": "2026-07-15T13:02:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-15T13:19:13.746450",
-    "display_priority": 312,
+    "display_priority": 313,
     "is_core": true
   },
   {
@@ -10040,7 +10064,7 @@
     "created_at": "2026-07-15T13:02:11.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-15T13:19:13.746456",
-    "display_priority": 313,
+    "display_priority": 314,
     "is_core": true
   },
   {
@@ -10065,7 +10089,7 @@
     "created_at": "2026-07-16T18:42:56.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-16T19:00:30.938096",
-    "display_priority": 314,
+    "display_priority": 315,
     "is_core": true
   },
   {
@@ -10090,7 +10114,7 @@
     "created_at": "2026-07-17T01:38:16.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-17T01:57:00.537898",
-    "display_priority": 315,
+    "display_priority": 316,
     "is_core": true
   },
   {
@@ -10115,7 +10139,7 @@
     "created_at": "2026-07-19T01:43:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-19T01:55:51.911309",
-    "display_priority": 316,
+    "display_priority": 317,
     "is_core": true
   }
 ]

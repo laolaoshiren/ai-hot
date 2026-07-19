@@ -20,7 +20,7 @@ ai_summary = "人工智能的兴起带来了大量新术语和俚语。这是一
 summary = "The rise of AI has brought an avalanche of new terms and slang."
 summary_zh = "人工智能的兴起带来了大量新术语和俚语。这是一个词汇表，其中包含您可能遇到的一些最重要单词和短语的定义"
 tags = []
-list_page = 74
+list_page = 76
 +++
 
 <!-- AUTO-GENERATED: news page -->
