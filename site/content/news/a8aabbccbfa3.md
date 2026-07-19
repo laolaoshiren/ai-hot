@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "一次吃下一本书！百度开源新OCR，作者疑似前DeepSeek研究员"
 summary_zh = ""
 tags = []
-list_page = 108
+list_page = 111
 +++
 
 <!-- AUTO-GENERATED: news page -->

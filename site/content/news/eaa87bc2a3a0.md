@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，刚咨询了openai收，到了回复，让我尝试web订阅，说当前play store订阅不可用 4 个帖子 - 4 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 130
+list_page = 133
 +++
 
 <!-- AUTO-GENERATED: news page -->
