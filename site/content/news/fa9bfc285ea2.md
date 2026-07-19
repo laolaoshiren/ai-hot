@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，现在的网页端会进行多轮工具调用，并显示调用详情，有点像是codex，难道说是之前说的合并codex和app要来了吗 4 个帖子 - 2 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 136
+list_page = 137
 +++
 
 <!-- AUTO-GENERATED: news page -->

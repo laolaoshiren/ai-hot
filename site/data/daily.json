@@ -1,38 +1,37 @@
 {
-  "updated_at": "2026-07-18T18:53:57.224471",
-  "date": "2026-07-18",
+  "updated_at": "2026-07-19T01:56:30.659920",
+  "date": "2026-07-19",
   "spotlight": {
-    "name": "OpenMythos",
-    "url": "https://github.com/kyegomez/OpenMythos",
+    "name": "Graphify",
+    "url": "https://github.com/safishamsi/graphify",
     "type": "agent",
-    "description": "Claude Mythos 架构的开源复现版，基于公开研究论文还原 Anthropic 最新模型设计",
+    "description": "将代码、文档、论文自动构建为可查询知识图谱，兼容 Claude Code/Cursor/Gemini CLI 等10+工具",
     "pricing": "免费",
-    "category": "研究 Agent"
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "claude-code",
-      "name": "Claude Code",
-      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
       "type": "tool",
-      "description": "Anthropic 官方 CLI 编程助手，终端内直接 AI 编程",
+      "description": "OpenAI 官方终端编程助手，轻量快速",
       "pricing": "按 API 使用量计费",
       "category": "编程"
     },
     {
-      "id": "aider",
-      "name": "Aider",
-      "url": "https://aider.chat",
-      "type": "tool",
-      "description": "终端内的AI结对编程工具，支持多文件编辑",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "type": "agent",
+      "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
       "pricing": "开源免费",
-      "category": "编程"
+      "category": "助手 Agent"
     },
     {
-      "name": "Inkos",
-      "url": "https://github.com/Narcooo/inkos",
+      "name": "OpenMontage",
+      "url": "https://github.com/calesthio/OpenMontage",
       "type": "agent",
-      "description": "自主小说写作 AI Agent，多个 Agent 协作写作、审核和修改长篇小说",
+      "description": "全球首个开源 Agent 视频制作系统，12 条流水线 52 个工具覆盖全流程",
       "pricing": "免费开源",
       "category": "创作 Agent"
     }

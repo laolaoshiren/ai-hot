@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-19 02:54:44
+🕐 **最近更新**：2026-07-19 09:57:16
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,12 +24,12 @@
    - Index Ventures 联合创始人、风险投资家尼尔·里默 (Neil Rimer) 预测，人工智能在硅谷创造的历史…
    - `TechCrunch AI · 2026-07-18`
 
-3. [TikTok 正在测试人工智能相似度检测工具](https://aihot.bt199.com/news/3ca766d4c6c6/)
-   - 社交媒体顾问马特·纳瓦拉 (Matt Navarra) 发现，TikTok 正在开始测试一种选择加入工具，该工具可以扫描…
-   - `The Verge AI · 2026-07-17`
+3. [Dave Eggers 告诉 OpenAI 员工，ChatGPT 正在“压制整整一代人的声音”](https://aihot.bt199.com/news/5476eaca52d0/)
+   - 去年，Sam Altman 邀请作家 Dave Eggers 为大约 200 名 OpenAI 员工发表演讲。他写了无数…
+   - `The Verge AI · 2026-07-18`
 
-4. [苹果粉碎 OpenAI 的阴谋](https://aihot.bt199.com/news/9f0a72b022f7/)
-   - 苹果正在起诉 OpenAI。正如这些事情经常发生的那样，投诉是可读且激烈的，尽管许多专家似乎认为许多指控只是做事的方式…
+4. [TikTok 正在测试人工智能相似度检测工具](https://aihot.bt199.com/news/3ca766d4c6c6/)
+   - 社交媒体顾问马特·纳瓦拉 (Matt Navarra) 发现，TikTok 正在开始测试一种选择加入工具，该工具可以扫描…
    - `The Verge AI · 2026-07-17`
 
 5. [下载：围绝经期错误信息和中国最新的人工智能飞跃](https://aihot.bt199.com/news/6d08c5b7cd5a/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
