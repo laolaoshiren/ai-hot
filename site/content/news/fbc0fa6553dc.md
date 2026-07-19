@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，中科创达公告称，预计2026年半年度归属于上市公司股东的净利润为2.38亿元-2.46亿元，同比增长50%-55%。"
 summary_zh = ""
 tags = []
-list_page = 1
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

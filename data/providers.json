@@ -157,14 +157,14 @@
       "Qwen3.7 Max",
       "Qwen3.5 Plus 2026-04-20"
     ],
-    "model_count": 49,
+    "model_count": 47,
     "last_updated": "2026-06-03",
     "modalities": [
       "多模态",
       "文本",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 49 个该作者/厂商相关模型，最近更新为 Qwen3.7 Plus",
+    "live_summary": "OpenRouter 已收录 47 个该作者/厂商相关模型，最近更新为 Qwen3.7 Plus",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=64"
   },
@@ -375,13 +375,13 @@
       "Llama 4 Maverick",
       "Llama 4 Scout"
     ],
-    "model_count": 10,
+    "model_count": 8,
     "last_updated": "2025-04-30",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
+    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 Llama Guard 4 12B",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=ai.meta.com&sz=64"
   },

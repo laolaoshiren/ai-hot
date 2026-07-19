@@ -248,11 +248,14 @@
         }
       },
       "reasoning": {
-        "mandatory": true,
+        "mandatory": false,
         "default_enabled": true,
         "supported_efforts": [
-          "max"
-        ]
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
       }
     },
     {
@@ -2375,9 +2378,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000002576",
-        "completion": "0.0000008096",
-        "input_cache_read": "0.00000004784"
+        "prompt": "0.000000238",
+        "completion": "0.000000748",
+        "input_cache_read": "0.0000000442"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -5952,11 +5955,14 @@
         "details": "/api/v1/models/~moonshotai/kimi-latest/endpoints"
       },
       "reasoning": {
-        "mandatory": true,
+        "mandatory": false,
         "default_enabled": true,
         "supported_efforts": [
-          "max"
-        ]
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
       }
     },
     {
@@ -14303,7 +14309,10 @@
       "default_parameters": {
         "temperature": 1,
         "top_p": 0.95,
-        "frequency_penalty": null
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
@@ -19443,56 +19452,6 @@
       }
     },
     {
-      "id": "qwen/qwen3-next-80b-a3b-instruct:free",
-      "canonical_slug": "qwen/qwen3-next-80b-a3b-instruct-2509",
-      "hugging_face_id": "Qwen/Qwen3-Next-80B-A3B-Instruct",
-      "name": "Qwen: Qwen3 Next 80B A3B Instruct (free)",
-      "created": 1757612213,
-      "description": "Qwen3-Next-80B-A3B-Instruct is an instruction-tuned chat model in the Qwen3-Next series optimized for fast, stable responses without “thinking” traces. It targets complex tasks across reasoning, code generation, knowledge QA, and multilingual...",
-      "context_length": 262144,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Qwen3",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-09-30",
-      "expiration_date": "2026-07-19",
-      "links": {
-        "details": "/api/v1/models/qwen/qwen3-next-80b-a3b-instruct-2509/endpoints"
-      }
-    },
-    {
       "id": "qwen/qwen-plus-2025-07-28",
       "canonical_slug": "qwen/qwen-plus-2025-07-28",
       "hugging_face_id": "",
@@ -21813,93 +21772,6 @@
       }
     },
     {
-      "id": "qwen/qwen3-coder:free",
-      "canonical_slug": "qwen/qwen3-coder-480b-a35b-07-25",
-      "hugging_face_id": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
-      "name": "Qwen: Qwen3 Coder 480B A35B (free)",
-      "created": 1753230546,
-      "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Qwen3",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 262000,
-        "max_completion_tokens": 262000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2025-06-30",
-      "expiration_date": "2026-07-19",
-      "links": {
-        "details": "/api/v1/models/qwen/qwen3-coder-480b-a35b-07-25/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1180,
-            "win_rate": 61.2,
-            "rank": 59
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1116,
-            "win_rate": 54.9,
-            "rank": 81
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1160,
-            "win_rate": 59,
-            "rank": 63
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1156,
-            "win_rate": 61.5,
-            "rank": 61
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1189,
-            "win_rate": 61.7,
-            "rank": 61
-          }
-        ]
-      }
-    },
-    {
       "id": "bytedance/ui-tars-1.5-7b",
       "canonical_slug": "bytedance/ui-tars-1.5-7b",
       "hugging_face_id": "ByteDance-Seed/UI-TARS-1.5-7B",
@@ -22255,54 +22127,6 @@
       "supported_voices": null,
       "knowledge_cutoff": "2024-04-30",
       "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/venice/uncensored/endpoints"
-      }
-    },
-    {
-      "id": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
-      "canonical_slug": "venice/uncensored",
-      "hugging_face_id": "cognitivecomputations/Dolphin-Mistral-24B-Venice-Edition",
-      "name": "Venice: Uncensored (free)",
-      "created": 1752094966,
-      "description": "Venice Uncensored Dolphin Mistral 24B Venice Edition is a fine-tuned variant of Mistral-Small-24B-Instruct-2501, developed by dphn.ai in collaboration with Venice.ai. This model is designed as an “uncensored” instruct-tuned LLM, preserving...",
-      "context_length": 32768,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 32768,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-04-30",
-      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/venice/uncensored/endpoints"
       }
@@ -23950,12 +23774,12 @@
         "instruct_type": "qwen3"
       },
       "pricing": {
-        "prompt": "0.0000002275",
-        "completion": "0.00000091"
+        "prompt": "0.00000012",
+        "completion": "0.00000024"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 8192,
+        "context_length": 40960,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -26722,62 +26546,6 @@
       }
     },
     {
-      "id": "meta-llama/llama-3.3-70b-instruct:free",
-      "canonical_slug": "meta-llama/llama-3.3-70b-instruct",
-      "hugging_face_id": "meta-llama/Llama-3.3-70B-Instruct",
-      "name": "Meta: Llama 3.3 70B Instruct (free)",
-      "created": 1733506137,
-      "description": "The Meta Llama 3.3 multilingual large language model (LLM) is a pretrained and instruction tuned generative model in 70B (text in/text out). The Llama 3.3 instruction tuned text only model...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3",
-        "instruct_type": "llama3"
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 65536,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-07-19",
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3.3-70b-instruct/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": 9.4,
-          "coding_index": 11.9,
-          "agentic_index": 0.3
-        }
-      }
-    },
-    {
       "id": "amazon/nova-lite-v1",
       "canonical_slug": "amazon/nova-lite-v1",
       "hugging_face_id": "",
@@ -27498,52 +27266,6 @@
       }
     },
     {
-      "id": "meta-llama/llama-3.2-3b-instruct:free",
-      "canonical_slug": "meta-llama/llama-3.2-3b-instruct",
-      "hugging_face_id": "meta-llama/Llama-3.2-3B-Instruct",
-      "name": "Meta: Llama 3.2 3B Instruct (free)",
-      "created": 1727222400,
-      "description": "Llama 3.2 3B is a 3-billion-parameter multilingual large language model, optimized for advanced natural language processing tasks like dialogue generation, reasoning, and summarization. Designed with the latest transformer architecture, it...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3",
-        "instruct_type": "llama3"
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-07-19",
-      "links": {
-        "details": "/api/v1/models/meta-llama/llama-3.2-3b-instruct/endpoints"
-      }
-    },
-    {
       "id": "qwen/qwen-2.5-72b-instruct",
       "canonical_slug": "qwen/qwen-2.5-72b-instruct",
       "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
@@ -27853,52 +27575,6 @@
       "supported_voices": null,
       "knowledge_cutoff": "2023-12-31",
       "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/nousresearch/hermes-3-llama-3.1-405b/endpoints"
-      }
-    },
-    {
-      "id": "nousresearch/hermes-3-llama-3.1-405b:free",
-      "canonical_slug": "nousresearch/hermes-3-llama-3.1-405b",
-      "hugging_face_id": "NousResearch/Hermes-3-Llama-3.1-405B",
-      "name": "Nous: Hermes 3 405B Instruct (free)",
-      "created": 1723766400,
-      "description": "Hermes 3 is a generalist language model with many improvements over Hermes 2, including advanced agentic capabilities, much better roleplaying, reasoning, multi-turn conversation, long context coherence, and improvements across the...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama3",
-        "instruct_type": "chatml"
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": null,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "max_tokens",
-        "presence_penalty",
-        "stop",
-        "temperature",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-12-31",
-      "expiration_date": "2026-07-19",
       "links": {
         "details": "/api/v1/models/nousresearch/hermes-3-llama-3.1-405b/endpoints"
       }
@@ -29382,5 +29058,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-19T13:01:50.192494+00:00"
+  "updated_at": "2026-07-19T18:57:02.380985+00:00"
 }
