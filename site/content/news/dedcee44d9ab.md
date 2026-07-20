@@ -1,8 +1,8 @@
 +++
 title = "Moonshot AI 由于 Kimi K3 需求暂停新订阅"
-description = "Moonshot AI 由于 Kimi K3 需求暂停新订阅。来源：Hacker News AI。"
+description = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608565207130 评论网址：https://news."
 seo_title = "Moonshot AI 由于 Kimi K3 需求暂停新订阅｜AI资讯解读 - AI热榜"
-seo_description = "Moonshot AI 由于 Kimi K3 需求暂停新订阅。来源：Hacker News AI。"
+seo_description = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608565207130 评论网址：https://news."
 seo_keywords = "Moonshot AI 由于 Kimi K3 需求暂停新订阅, Hacker News AI, AI新闻, AI资讯, AI热榜"
 slug = "dedcee44d9ab"
 type = "news"
@@ -15,12 +15,12 @@ original_url = "https://twitter.com/kimi_moonshot/status/2078855608565207130"
 source = "Hacker News AI"
 published = "2026-07-19T16:02:25"
 lang = "en"
-intro = "Moonshot AI 由于 Kimi K3 需求暂停新订阅。来源：Hacker News AI。"
+intro = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608565207130 评论网址：https://news."
 ai_summary = "文章网址：https://twitter.com/kimi_moonshot/status/20788556085652…"
 summary = "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news."
-summary_zh = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608565207130 评论网址：https://news.ycombinator.com/item?id=48969291 积分…"
+summary_zh = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608565207130 评论网址：https://news."
 tags = []
-list_page = 1
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

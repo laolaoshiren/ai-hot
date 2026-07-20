@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "正考虑推出Meta Compute"
 summary_zh = ""
 tags = []
-list_page = 73
+list_page = 75
 +++
 
 <!-- AUTO-GENERATED: news page -->

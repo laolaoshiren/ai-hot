@@ -20,7 +20,7 @@ ai_summary = "印度的克劳德用户开始看到以印度卢比计价的订阅
 summary = "Claude users in India are starting to see Indian rupee-denominated subscription plans."
 summary_zh = "印度的克劳德用户开始看到以印度卢比计价的订阅计划"
 tags = []
-list_page = 38
+list_page = 40
 +++
 
 <!-- AUTO-GENERATED: news page -->

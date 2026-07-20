@@ -20,7 +20,7 @@ ai_summary = "直播购物平台 Whatnot 收购了人工智能初创公司 Shape
 summary = "Livestream shopping platform Whatnot has acquired AI startup Shaped, a machine learning company focused on real-time recommendations and search."
 summary_zh = "直播购物平台 Whatnot 收购了人工智能初创公司 Shaped，这是一家专注于实时推荐和搜索的机器学习公司。随着 Whatnot 扩展到新的产品类别，这笔交易将增强 Whatnot 的个性化和发现功能"
 tags = []
-list_page = 26
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

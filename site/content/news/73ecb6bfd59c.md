@@ -20,7 +20,7 @@ ai_summary = "继顶级科学家 Noam Shazeer 和 John Jumper 离职后，顶级
 summary = "Top AI researchers Jonas Adler and Alexander Pritzel are leaving Google for Anthropic, following departures from top scientists Noam Shazeer and John Jumper."
 summary_zh = "继顶级科学家 Noam Shazeer 和 John Jumper 离职后，顶级人工智能研究人员 Jonas Adler 和 Alexander Pritzel 将离开 Google 前往 Anthropic"
 tags = []
-list_page = 140
+list_page = 142
 +++
 
 <!-- AUTO-GENERATED: news page -->
