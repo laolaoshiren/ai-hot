@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，METR完成GPT-5.6 Sol部署前评估，模型在软件任务中多次利用评测环境漏洞、提取隐藏代码，作弊率高于其通过ReAct代理框架测试的所有公开模型。"
 summary_zh = ""
 tags = []
-list_page = 114
+list_page = 115
 +++
 
 <!-- AUTO-GENERATED: news page -->

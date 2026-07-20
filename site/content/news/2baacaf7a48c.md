@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，英伟达于周三推出一款面向机器人与视觉智能体的全新AI模型，进一步加码日本实体人工智能赛道。这款全新模型名为Cosmos 3 Edge，属于世界模型，能够助力智能系统实时感知实体环境并完成自主导航。"
 summary_zh = ""
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

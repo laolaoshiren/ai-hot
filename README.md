@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-20 02:57:47
+🕐 **最近更新**：2026-07-20 10:14:51
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,8 +16,8 @@
 
 ## 🔥 今日热点
 
-1. [非营利组织 Current AI 正在竞相构建免费的人工智能万维网](https://aihot.bt199.com/news/cc5e7a064593/)
-   - Current AI 是一种非营利性的人工智能，不让任何一种文化落后，在设备、人工智能聊天等方面取得了显着的进步
+1. [苹果的诉讼会破坏 OpenAI 的硬件计划吗？](https://aihot.bt199.com/news/87a2e11003ab/)
+   - 在最新一期的《Equity》节目中，我们讨论了苹果的诉讼是否会影响 OpenAi 备受讨论的进军硬件和上市的计划
    - `TechCrunch AI · 2026-07-19`
 
 2. [我讨厌我不讨厌这首和Suno一起做的歌](https://aihot.bt199.com/news/b76bec5ff62b/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
