@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，美国银行最新分析显示，SK海力士至2028年实际可新增的存储芯片产能，可能仅为原计划的六分之一，这一判断不仅令韩国政府的产能扩张蓝图大打折扣，更为正在进行中的DRAM价格操纵集体诉讼提供了关键佐证。"
 summary_zh = ""
 tags = []
-list_page = 38
+list_page = 39
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://apertvs.ai/ 评论网址：https://news.yco
 summary = "Article URL: https://apertvs.ai/ Comments URL: https://news.ycombinator.com/item?id=48622778 Points: 230 # Comments: 82"
 summary_zh = "文章网址：https://apertvs.ai/ 评论网址：https://news.ycombinator.com/item?id=48622778 积分：230 # 评论：82"
 tags = []
-list_page = 166
+list_page = 167
 +++
 
 <!-- AUTO-GENERATED: news page -->
