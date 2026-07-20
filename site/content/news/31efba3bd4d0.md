@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，苹果公司以窃取商业机密为由起诉OpenAI，指控该公司通过协同行动窃取苹果未发布产品的相关信息。苹果称OpenAI鼓动其员工分享未发布产品的相关信息、零部件、图纸及其他资料，以此来开发自家的全系列硬件产品。"
 summary_zh = ""
 tags = []
-list_page = 49
+list_page = 51
 +++
 
 <!-- AUTO-GENERATED: news page -->
