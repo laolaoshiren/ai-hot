@@ -3543,6 +3543,36 @@
     "collected_at": "2026-04-20T18:54:56.792209"
   },
   {
+    "id": "github-1053118194",
+    "name": "bojieli/ai-agent-book",
+    "display_name": "ai-agent-book",
+    "url": "https://github.com/bojieli/ai-agent-book",
+    "description": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码",
+    "stars": 14151,
+    "forks": 1323,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "agent-memory",
+      "ai-agent",
+      "book",
+      "coding-agent",
+      "context-engineering",
+      "large-language-models",
+      "llm",
+      "mcp",
+      "multi-agent",
+      "multimodal",
+      "rag",
+      "reinforcement-learning"
+    ],
+    "created_at": "2025-09-09T02:41:44Z",
+    "updated_at": "2026-07-21T19:07:30Z",
+    "license": "Apache-2.0",
+    "source": "github-search",
+    "collected_at": "2026-07-21T19:08:22.538859"
+  },
+  {
     "id": "github-925270205",
     "name": "trycua/cua",
     "display_name": "cua",

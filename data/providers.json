@@ -98,17 +98,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
-      "Nano Banana 2 (Gemini 3.1 Flash Image)",
-      "Nano Banana Pro (Gemini 3 Pro Image)"
+      "Gemini 3.6 Flash",
+      "Gemini 3.5 Flash-Lite",
+      "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
     ],
-    "model_count": 28,
-    "last_updated": "2026-06-30",
+    "model_count": 30,
+    "last_updated": "2026-07-21",
     "modalities": [
-      "多模态",
-      "视频"
+      "视频",
+      "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 28 个该作者/厂商相关模型，最近更新为 Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)",
+    "live_summary": "OpenRouter 已收录 30 个该作者/厂商相关模型，最近更新为 Gemini 3.6 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=google.com&sz=64"
   },

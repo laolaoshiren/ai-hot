@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，火山官方付费api已经可以调用了 测了下，有点烂，经典跑分没输过 29 个帖子 - 28 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 165
+list_page = 166
 +++
 
 <!-- AUTO-GENERATED: news page -->

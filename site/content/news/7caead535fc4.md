@@ -20,7 +20,7 @@ ai_summary = "在 101 家企业中，为 AI 代理提供业务环境的基础设
 summary = "Across 101 enterprises, the infrastructure that feeds AI agents their business context is being built faster than it can be trusted."
 summary_zh = "在 101 家企业中，为 AI 代理提供业务环境的基础设施的构建速度快于可信度。检索增强生成已经是默认的上下文源，而提供者本机检索已经悄然取代了定义上下文的专用向量数据库"
 tags = []
-list_page = 27
+list_page = 28
 +++
 
 <!-- AUTO-GENERATED: news page -->

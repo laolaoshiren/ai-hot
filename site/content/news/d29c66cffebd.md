@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "如题，MiniMax服务器炸了修好后，周额度重置了 4 个帖子 - 2 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 141
+list_page = 142
 +++
 
 <!-- AUTO-GENERATED: news page -->

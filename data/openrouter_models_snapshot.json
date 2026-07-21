@@ -1,6 +1,280 @@
 {
   "data": [
     {
+      "id": "poolside/laguna-s-2.1",
+      "canonical_slug": "poolside/laguna-s-2.1-20260720",
+      "hugging_face_id": "poolside/Laguna-S-2.1",
+      "name": "Poolside: Laguna S 2.1",
+      "created": 1784652683,
+      "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002",
+        "input_cache_read": "0.00000001"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/poolside/laguna-s-2.1-20260720/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
+    {
+      "id": "poolside/laguna-s-2.1:free",
+      "canonical_slug": "poolside/laguna-s-2.1-20260720",
+      "hugging_face_id": "poolside/Laguna-S-2.1",
+      "name": "Poolside: Laguna S 2.1 (free)",
+      "created": 1784652683,
+      "description": "Laguna S 2.1 is the latest coding agent model from [Poolside](<https://poolside.ai/>). Laguna S 2.1 is a 118B total parameter model with 8B active parameters, scoring 70.2% on Terminal-Bench 2.1 and...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "temperature",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {
+        "temperature": 0.7,
+        "top_p": 0.9,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/poolside/laguna-s-2.1-20260720/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
+    {
+      "id": "google/gemini-3.6-flash",
+      "canonical_slug": "google/gemini-3.6-flash-20260721",
+      "hugging_face_id": null,
+      "name": "Google: Gemini 3.6 Flash",
+      "created": 1784646733,
+      "description": "Gemini 3.6 Flash is a high-efficiency model from Google for coding, agentic workflows, and web and app development. It is designed to produce polished outputs with fewer unnecessary edits and...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000015",
+        "completion": "0.0000075",
+        "image": "0.0000015",
+        "audio": "0.0000015",
+        "input_audio_cache": "0.00000015",
+        "web_search": "0.014",
+        "internal_reasoning": "0.0000075",
+        "input_cache_read": "0.00000015",
+        "input_cache_write": "0.00000008333333333333334"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-3.6-flash-20260721/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "google/gemini-3.5-flash-lite",
+      "canonical_slug": "google/gemini-3.5-flash-lite-20260721",
+      "hugging_face_id": null,
+      "name": "Google: Gemini 3.5 Flash-Lite",
+      "created": 1784646726,
+      "description": "Gemini 3.5 Flash-Lite is a high-efficiency model from Google with upgraded agentic capabilities. It is suited for subagents that execute focused tasks within complex, multi-agent workflows.",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000003",
+        "completion": "0.0000025",
+        "image": "0.0000003",
+        "audio": "0.0000003",
+        "input_audio_cache": "0.00000003",
+        "web_search": "0.014",
+        "internal_reasoning": "0.0000025",
+        "input_cache_read": "0.00000003",
+        "input_cache_write": "0.00000008333333333333334"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": null,
+        "top_p": null,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-3.5-flash-lite-20260721/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "minimal"
+      }
+    },
+    {
       "id": "meituan/longcat-2.0",
       "canonical_slug": "meituan/longcat-2.0-20260720",
       "hugging_face_id": "meituan-longcat/LongCat-2.0",
@@ -67,7 +341,7 @@
       "name": "Thinking Machines: Inkling",
       "created": 1784325956,
       "description": "Inkling is an open-weight multimodal mixture-of-experts model from Thinking Machines Lab, with 41B active parameters out of 975B total. It is designed for general-purpose reasoning, coding, agentic and tool-use systems,...",
-      "context_length": 1048576,
+      "context_length": 524288,
       "architecture": {
         "modality": "text+image+audio->text",
         "input_modalities": [
@@ -2205,7 +2479,7 @@
       "name": "Google: Nano Banana Pro (Gemini 3 Pro Image)",
       "created": 1781754054,
       "description": "Nano Banana Pro is Google’s most advanced image-generation and editing model, built on Gemini 3 Pro. It extends the original Nano Banana with significantly improved multimodal reasoning, real-world grounding, and...",
-      "context_length": 65536,
+      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text+image",
         "input_modalities": [
@@ -2350,9 +2624,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000833",
-        "completion": "0.000002618",
-        "input_cache_read": "0.0000001547"
+        "prompt": "0.000000791",
+        "completion": "0.000002486",
+        "input_cache_read": "0.0000001469"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -3238,7 +3512,7 @@
       "name": "NVIDIA: Nemotron 3 Ultra",
       "created": 1780551208,
       "description": "NVIDIA Nemotron 3 Ultra is an open frontier-reasoning and orchestration model from NVIDIA, with 55B active parameters out of 550B total (MoE). Built on a hybrid Transformer-Mamba mixture-of-experts architecture, it...",
-      "context_length": 1000000,
+      "context_length": 512288,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -3798,7 +4072,7 @@
       "name": "StepFun: Step 3.7 Flash",
       "created": 1779985069,
       "description": "Step 3.7 Flash is StepFun's latest high-efficiency multimodal Mixture-of-Experts model. It pairs a 196B-parameter language backbone with a vision encoder for native image and video understanding, activating roughly 11B parameters...",
-      "context_length": 256000,
+      "context_length": 262144,
       "architecture": {
         "modality": "text+image+video->text",
         "input_modalities": [
@@ -5976,12 +6250,12 @@
       },
       "pricing": {
         "prompt": "0.0000015",
-        "completion": "0.000009",
+        "completion": "0.0000075",
         "image": "0.0000015",
-        "audio": "0.000003",
-        "input_audio_cache": "0.0000003",
+        "audio": "0.0000015",
+        "input_audio_cache": "0.00000015",
         "web_search": "0.014",
-        "internal_reasoning": "0.000009",
+        "internal_reasoning": "0.0000075",
         "input_cache_read": "0.00000015",
         "input_cache_write": "0.00000008333333333333334"
       },
@@ -6014,7 +6288,7 @@
         "repetition_penalty": null
       },
       "supported_voices": null,
-      "knowledge_cutoff": "2025-01-01",
+      "knowledge_cutoff": null,
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/~google/gemini-flash-latest/endpoints"
@@ -7298,7 +7572,7 @@
       "name": "Xiaomi: MiMo-V2.5-Pro",
       "created": 1776874273,
       "description": "MiMo-V2.5-Pro is Xiaomi’s flagship model, delivering strong performance in general agentic capabilities, complex software engineering, and long-horizon tasks, with top rankings on benchmarks such as ClawEval, GDPVal, and SWE-bench Pro....",
-      "context_length": 1048576,
+      "context_length": 1050000,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -7432,7 +7706,7 @@
       "name": "Xiaomi: MiMo-V2.5",
       "created": 1776874269,
       "description": "MiMo-V2.5 is a native omnimodal model by Xiaomi. It delivers Pro-level agentic performance at roughly half the inference cost, while surpassing MiMo-V2-Omni in multimodal perception across image and video understanding...",
-      "context_length": 1048576,
+      "context_length": 1050000,
       "architecture": {
         "modality": "text+image+audio+video->text",
         "input_modalities": [
@@ -8287,7 +8561,7 @@
       "name": "Z.ai: GLM 5.1",
       "created": 1775578025,
       "description": "GLM-5.1 delivers a major leap in coding capability, with particularly significant gains in handling long-horizon tasks. Unlike previous models built around minute-level interactions, GLM-5.1 can work independently and continuously on...",
-      "context_length": 202752,
+      "context_length": 204800,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -9653,7 +9927,7 @@
       "name": "Kwaipilot: KAT-Coder-Pro V2",
       "created": 1774649310,
       "description": "KAT-Coder-Pro V2 is the latest high-performance model in KwaiKAT’s KAT-Coder series, designed for complex enterprise-grade software engineering and SaaS integration. It builds on the agentic coding strengths of earlier versions,...",
-      "context_length": 256000,
+      "context_length": 262144,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -10367,7 +10641,7 @@
       "name": "NVIDIA: Nemotron 3 Super (free)",
       "created": 1773245239,
       "description": "NVIDIA Nemotron 3 Super is a 120B-parameter open hybrid MoE model, activating just 12B parameters for maximum compute efficiency and accuracy in complex multi-agent applications. Built on a hybrid Mamba-Transformer...",
-      "context_length": 1000000,
+      "context_length": 262144,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -11281,8 +11555,8 @@
         "web_search": "0.014"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
+        "context_length": 65536,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -11638,7 +11912,7 @@
       "name": "Google: Gemini 3.1 Pro Preview Custom Tools",
       "created": 1772045923,
       "description": "Gemini 3.1 Pro Preview Custom Tools is a variant of Gemini 3.1 Pro that improves tool selection behavior by preventing overuse of a general bash tool when more efficient third-party...",
-      "context_length": 1048756,
+      "context_length": 1048576,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
         "input_modalities": [
@@ -13792,7 +14066,7 @@
       "name": "Z.ai: GLM 4.7 Flash",
       "created": 1768833913,
       "description": "As a 30B-class SOTA model, GLM-4.7-Flash offers a new option that balances performance and efficiency. It is further optimized for agentic coding use cases, strengthening coding capabilities, long-horizon task planning,...",
-      "context_length": 200000,
+      "context_length": 202752,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -14262,7 +14536,7 @@
       "name": "Z.ai: GLM 4.7",
       "created": 1766378014,
       "description": "GLM-4.7 is Z.ai’s latest flagship model, featuring upgrades in two key areas: enhanced programming capabilities and more stable multi-step reasoning/execution. It demonstrates significant improvements in executing complex agent tasks while...",
-      "context_length": 202752,
+      "context_length": 204800,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -15392,10 +15666,8 @@
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
-        "logprobs",
         "max_tokens",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -15403,7 +15675,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -15584,10 +15855,8 @@
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
-        "logprobs",
         "max_tokens",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -15595,7 +15864,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -17229,7 +17497,7 @@
       "name": "Qwen: Qwen3 VL 32B Instruct",
       "created": 1761231332,
       "description": "Qwen3-VL-32B-Instruct is a large-scale multimodal vision-language model designed for high-precision understanding and reasoning across text, images, and video. With 32 billion parameters, it combines deep visual perception with advanced text...",
-      "context_length": 262144,
+      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -17567,7 +17835,7 @@
       "name": "Qwen: Qwen3 VL 8B Thinking",
       "created": 1760463746,
       "description": "Qwen3-VL-8B-Thinking is the reasoning-optimized variant of the Qwen3-VL-8B multimodal model, designed for advanced visual and textual reasoning across complex scenes, documents, and temporal sequences. It integrates enhanced multimodal alignment and...",
-      "context_length": 256000,
+      "context_length": 131072,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -17626,7 +17894,7 @@
       "name": "Qwen: Qwen3 VL 8B Instruct",
       "created": 1760463308,
       "description": "Qwen3-VL-8B-Instruct is a multimodal vision-language model from the Qwen3-VL series, built for high-fidelity understanding and reasoning across text, images, and video. It features improved multimodal fusion with Interleaved-MRoPE for long-horizon...",
-      "context_length": 256000,
+      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -17994,7 +18262,7 @@
       "name": "Qwen: Qwen3 VL 30B A3B Thinking",
       "created": 1759794479,
       "description": "Qwen3-VL-30B-A3B-Thinking is a multimodal model that unifies strong text generation with visual understanding for images and videos. Its Thinking variant enhances reasoning in STEM, math, and complex tasks. It excels...",
-      "context_length": 131072,
+      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -18185,7 +18453,7 @@
       "name": "Z.ai: GLM 4.6",
       "created": 1759235576,
       "description": "Compared with GLM-4.5, this generation brings several key improvements: Longer context window: The context window has been expanded from 128K to 200K tokens, enabling the model to handle more complex...",
-      "context_length": 202752,
+      "context_length": 204800,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -18790,7 +19058,7 @@
       "name": "Qwen: Qwen3 VL 235B A22B Instruct",
       "created": 1758668687,
       "description": "Qwen3-VL-235B-A22B Instruct is an open-weight multimodal model that unifies strong text generation with visual understanding across images and video. The Instruct model targets general vision-language use (VQA, document parsing, chart/table...",
-      "context_length": 131072,
+      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -19137,7 +19405,7 @@
       "name": "DeepSeek: DeepSeek V3.1 Terminus",
       "created": 1758548275,
       "description": "DeepSeek-V3.1 Terminus is an update to [DeepSeek V3.1](/deepseek/deepseek-chat-v3.1) that maintains the model's original capabilities while addressing issues reported by users, including language consistency and agent capabilities, further optimizing the model's...",
-      "context_length": 131072,
+      "context_length": 163840,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -19713,7 +19981,7 @@
       "name": "Qwen: Qwen3 30B A3B Thinking 2507",
       "created": 1756399192,
       "description": "Qwen3-30B-A3B-Thinking-2507 is a 30B parameter Mixture-of-Experts reasoning model optimized for complex tasks requiring extended multi-step thinking. The model is designed specifically for “thinking mode,” where internal reasoning traces are separated...",
-      "context_length": 131072,
+      "context_length": 81920,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -21209,7 +21477,7 @@
       "name": "Qwen: Qwen3 Coder 30B A3B Instruct",
       "created": 1753972379,
       "description": "Qwen3-Coder-30B-A3B-Instruct is a 30.5B parameter Mixture-of-Experts (MoE) model with 128 experts (8 active per forward pass), designed for advanced code generation, repository-scale understanding, and agentic tool use. Built on the...",
-      "context_length": 160000,
+      "context_length": 262144,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -21681,7 +21949,7 @@
       "name": "Qwen: Qwen3 Coder 480B A35B",
       "created": 1753230546,
       "description": "Qwen3-Coder-480B-A35B-Instruct is a Mixture-of-Experts (MoE) code generation model developed by the Qwen team. It is optimized for agentic coding tasks such as function calling, tool use, and long-context reasoning over...",
-      "context_length": 1048576,
+      "context_length": 262144,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -22284,7 +22552,7 @@
       "name": "Baidu: ERNIE 4.5 VL 424B A47B ",
       "created": 1751300903,
       "description": "ERNIE-4.5-VL-424B-A47B is a multimodal Mixture-of-Experts (MoE) model from Baidu’s ERNIE 4.5 series, featuring 424B total parameters with 47B active per token. It is trained jointly on text and image data...",
-      "context_length": 131072,
+      "context_length": 123000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -22338,7 +22606,7 @@
       "name": "Mistral: Mistral Small 3.2 24B",
       "created": 1750443016,
       "description": "Mistral-Small-3.2-24B-Instruct-2506 is an updated 24B parameter model from Mistral optimized for instruction following, repetition reduction, and improved function calling. Compared to the 3.1 release, version 3.2 significantly improves accuracy on...",
-      "context_length": 131072,
+      "context_length": 256000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -23535,7 +23803,7 @@
       "name": "Meta: Llama Guard 4 12B",
       "created": 1745975193,
       "description": "Llama Guard 4 is a Llama 4 Scout-derived multimodal pretrained model, fine-tuned for content safety classification. Similar to previous versions, it can be used to classify content in both LLM...",
-      "context_length": 163840,
+      "context_length": 1048576,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -23760,7 +24028,7 @@
       "name": "Qwen: Qwen3 14B",
       "created": 1745876478,
       "description": "Qwen3-14B is a dense 14.8B parameter causal language model from the Qwen3 series, designed for both complex reasoning and efficient dialogue. It supports seamless switching between a \"thinking\" mode for...",
-      "context_length": 131702,
+      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -24664,7 +24932,7 @@
       "name": "Meta: Llama 4 Scout",
       "created": 1743881519,
       "description": "Llama 4 Scout 17B Instruct (16E) is a mixture-of-experts (MoE) language model developed by Meta, activating 17 billion parameters out of a total of 109B. It supports native multimodal input...",
-      "context_length": 10000000,
+      "context_length": 1310720,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -25263,7 +25531,7 @@
       "name": "Google: Gemma 3 27B",
       "created": 1741756359,
       "description": "Gemma 3 introduces multimodality, supporting vision-language input and text outputs. It handles context windows up to 128k tokens, understands over 140 languages, and offers improved math, reasoning, and chat capabilities,...",
-      "context_length": 131072,
+      "context_length": 262144,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -25706,7 +25974,7 @@
       "name": "Qwen: Qwen2.5 VL 72B Instruct",
       "created": 1738410311,
       "description": "Qwen2.5-VL is proficient in recognizing common objects such as flowers, birds, fish, and insects. It is also highly capable of analyzing texts, charts, icons, graphics, and layouts within images.",
-      "context_length": 131072,
+      "context_length": 128000,
       "architecture": {
         "modality": "text+image->text",
         "input_modalities": [
@@ -25986,7 +26254,7 @@
       "name": "DeepSeek: R1 Distill Llama 70B",
       "created": 1737663169,
       "description": "DeepSeek R1 Distill Llama 70B is a distilled large language model based on [Llama-3.3-70B-Instruct](/meta-llama/llama-3.3-70b-instruct), using outputs from [DeepSeek R1](/deepseek/deepseek-r1). The model combines advanced distillation techniques to achieve high performance across...",
-      "context_length": 128000,
+      "context_length": 8192,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -26211,7 +26479,7 @@
       "name": "DeepSeek: DeepSeek V3",
       "created": 1735241320,
       "description": "DeepSeek-V3 is the latest model from the DeepSeek team, building upon the instruction following and coding abilities of the previous versions. Pre-trained on nearly 15 trillion tokens, the reported evaluations...",
-      "context_length": 131072,
+      "context_length": 163840,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -26811,7 +27079,7 @@
       "name": "Qwen2.5 Coder 32B Instruct",
       "created": 1731368400,
       "description": "Qwen2.5-Coder is the latest series of Code-Specific Qwen large language models (formerly known as CodeQwen). Qwen2.5-Coder brings the following improvements upon CodeQwen1.5: - Significantly improvements in **code generation**, **code reasoning**...",
-      "context_length": 128000,
+      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -26914,7 +27182,7 @@
       "name": "Magnum v4 72B",
       "created": 1729555200,
       "description": "This is a series of models designed to replicate the prose quality of the Claude 3 models, specifically Sonnet(https://openrouter.ai/anthropic/claude-3.5-sonnet) and Opus(https://openrouter.ai/anthropic/claude-3-opus).\n\nThe model is fine-tuned on top of [Qwen2.5 72B](https://openrouter.ai/qwen/qwen-2.5-72b-instruct).",
-      "context_length": 32768,
+      "context_length": 16384,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -26969,7 +27237,7 @@
       "name": "Qwen: Qwen2.5 7B Instruct",
       "created": 1729036800,
       "description": "Qwen2.5 7B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...",
-      "context_length": 131072,
+      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -27168,7 +27436,7 @@
       "name": "Meta: Llama 3.2 1B Instruct",
       "created": 1727222400,
       "description": "Llama 3.2 1B is a 1-billion-parameter language model focused on efficiently performing natural language tasks, such as summarization, dialogue, and multilingual text analysis. Its smaller size allows it to operate...",
-      "context_length": 131072,
+      "context_length": 60000,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -27271,7 +27539,7 @@
       "name": "Qwen2.5 72B Instruct",
       "created": 1726704000,
       "description": "Qwen2.5 72B is the latest series of Qwen large language models. Qwen2.5 brings the following improvements upon Qwen2: - Significantly more knowledge and has greatly improved capabilities in coding and...",
-      "context_length": 131072,
+      "context_length": 32768,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -28274,7 +28542,7 @@
       "name": "WizardLM-2 8x22B",
       "created": 1713225600,
       "description": "WizardLM-2 8x22B is Microsoft AI's most advanced Wizard model. It demonstrates highly competitive performance compared to leading proprietary models, and it consistently outperforms all existing state-of-the-art opensource models. It is...",
-      "context_length": 65536,
+      "context_length": 65535,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -28885,7 +29153,7 @@
       "name": "MythoMax 13B",
       "created": 1688256000,
       "description": "One of the highest performing and most popular fine-tunes of Llama 2 13B, with rich descriptions and roleplay. #merge",
-      "context_length": 4096,
+      "context_length": 8192,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -29057,5 +29325,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-21T13:23:30.307981+00:00"
+  "updated_at": "2026-07-21T19:09:14.620453+00:00"
 }
