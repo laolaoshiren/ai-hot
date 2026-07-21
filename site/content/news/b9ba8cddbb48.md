@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，36氪获悉，近日，大模型领域技术专家孙天祥正式加入百度，就任基础模型研发部（BMU）负责人。孙天祥此次同时进入百度模型委员会（BMC），从研发MOSS到提出MaaS再到其后续创业方向，他的学术与产业路径与百度基础模型的战略投入方向高度契合。"
 summary_zh = ""
 tags = []
-list_page = 97
+list_page = 99
 +++
 
 <!-- AUTO-GENERATED: news page -->

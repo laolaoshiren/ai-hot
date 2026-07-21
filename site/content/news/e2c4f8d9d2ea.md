@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，有佬体验过吗？感觉怎么样哇 比 Advanced Voice Mode 强很多吗 https://x.com/XIVIX_134/status/2068795102428877046 17 个帖子 - 6 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 167
+list_page = 169
 +++
 
 <!-- AUTO-GENERATED: news page -->

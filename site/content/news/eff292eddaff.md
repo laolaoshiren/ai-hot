@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，英国政府今天宣布拨款 6000 万英镑（现汇率约合 5.39 亿元人民币），为牛津大学、伦敦大学学院（UCL）建立两座 AI 实验室。"
 summary_zh = ""
 tags = []
-list_page = 152
+list_page = 154
 +++
 
 <!-- AUTO-GENERATED: news page -->
