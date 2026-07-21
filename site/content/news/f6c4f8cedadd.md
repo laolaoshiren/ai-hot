@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，英伟达投资企业Fireworks周四公布，年化营收已突破10亿美元，是去年同期的5倍；公司刚完成一轮15亿美元融资，投后估值1750亿美元。公司 CEO 乔琳透露，此前代码开发工具初创企业 Cursor 贡献了其过半收入；如今随着越来越多企业转向开源模型，公司客户结构已实现多元化。（新浪财经）"
 summary_zh = ""
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

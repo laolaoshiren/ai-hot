@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，OpenAI CEO Sam Altman 本周三在公司内部 Q&A 上告诉员工，GPT-5.6 将以“有限预览”的方式发布，只向一小部分合作伙伴开放。"
 summary_zh = ""
 tags = []
-list_page = 135
+list_page = 136
 +++
 
 <!-- AUTO-GENERATED: news page -->

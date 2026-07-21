@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，36氪获悉，7月16日，据京东黑板报消息，京东日前宣布正式推出京麦AI经营中心，并向商家全量开放22款核心AI工具。京东京麦相关负责人表示，京麦AI经营中心是京东专为商家打造的一站式AI经营聚合平台。目前，京麦AI经营中心首期功能已全面上线。"
 summary_zh = ""
 tags = []
-list_page = 28
+list_page = 29
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，team不用接码了以后 一年登陆一次网页端就行 team颁发token -->最长一年 -->需要允许用户创建访问令牌（创建访问令牌） 导出CPA /** * ChatGPT Codex Access Token 导出脚本 * * 使用方法： * 1."
 summary_zh = ""
 tags = []
-list_page = 175
+list_page = 176
 +++
 
 <!-- AUTO-GENERATED: news page -->
