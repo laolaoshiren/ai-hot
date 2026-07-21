@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "打造AIDC绿电直连能源运营操作系统"
 summary_zh = ""
 tags = []
-list_page = 18
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

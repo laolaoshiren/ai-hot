@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，文｜胡香赟 编辑｜海若镜 互联网大厂做医疗AI，越来越偏爱“减重”场景。 近日，蚂蚁集团宣布投资薄荷健康，持股比例超28%，成为薄荷健康最大外部股东。"
 summary_zh = ""
 tags = []
-list_page = 29
+list_page = 30
 +++
 
 <!-- AUTO-GENERATED: news page -->

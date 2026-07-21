@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，MIT Technology Review This man with ALS is “the first power user” of a brain implant that lets him."
 summary_zh = ""
 tags = []
-list_page = 175
+list_page = 176
 +++
 
 <!-- AUTO-GENERATED: news page -->
