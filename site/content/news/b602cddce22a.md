@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，作者｜黄楠 编辑｜袁斯来 硬氪获悉，威联机器人科技（深圳）有限公司（以下简称“MOVA LINCO”）近日完成数千万元天使融资。"
 summary_zh = ""
 tags = []
-list_page = 52
+list_page = 54
 +++
 
 <!-- AUTO-GENERATED: news page -->

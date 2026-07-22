@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-22 09:55:47
+🕐 **最近更新**：2026-07-22 16:15:08
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [Meta 正在为没有想象力的人测试一款 AI 睡前故事应用程序](https://aihot.bt199.com/news/86519c5dd5f1/)
-   - 最后，一家科技公司找到了一种方法来外包人类最古老的消遣：利用我们的想象力
-   - `TechCrunch AI · 2026-07-21`
+1. [Synthesia 的人工智能培训平台正在从视频转向实时指导](https://aihot.bt199.com/news/27421537c448/)
+   - Synthesia 推出了 AI Roleplay Sessions，这是一个交互式企业培训平台，员工可以在工作场所与…
+   - `TechCrunch AI · 2026-07-22`
 
-2. [OpenAI 表示 Hugging Face 被其预发布模型破坏](https://aihot.bt199.com/news/591f1cb3d739/)
-   - OpenAI 已出面声称对 Hugging Face 漏洞负责，称这是内部测试出错的结果
-   - `TechCrunch AI · 2026-07-21`
+2. [人工智能 Twitter 上掀起“人形智能”谣言](https://aihot.bt199.com/news/0f1ee6934ed4/)
+   - Anthropic 和 OpenAI 在 2026 年大举收购，为周末谣言奠定了基础
+   - `TechCrunch AI · 2026-07-22`
 
 3. [尼尔·布洛姆坎普的新僵尸人工智能“电影”刚刚预热](https://aihot.bt199.com/news/8cb5d4d41e54/)
    - 周一，《第九区》和《Gran Turismo》导演尼尔·布洛姆坎普 (Neill Blomkamp) 公布了他的最新项目…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
