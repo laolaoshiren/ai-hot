@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-22 21:28:53
+🕐 **最近更新**：2026-07-23 03:03:29
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,24 +16,24 @@
 
 ## 🔥 今日热点
 
-1. [浏览器之战不再是搜索问题——这里是 Chrome 和 Safari 的最佳替代品](https://aihot.bt199.com/news/31ae4b6d984b/)
-   - 我们总结了目前可用的一些顶级替代浏览器，旨在挑战 Chrome 和 Safari
+1. [Travis Kalanick 的机器人公司筹集了 $1.7B，由 a16z 领投](https://aihot.bt199.com/news/6a7f08f97575/)
+   - Uber 还投资了 Travis Kalanick 的公司 Atoms，该公司曾模糊地宣称要利用工业人工智能来实现世界现…
    - `TechCrunch AI · 2026-07-22`
 
-2. [Passionfroot 融资 1500 万美元，将其 B2B 创作者市场扩展到美国](https://aihot.bt199.com/news/51708d594f07/)
-   - Passionfroot 是一家德国初创公司，致力于打造一个连接 B2B 创作者与品牌的市场，在 Insight Par…
+2. [Yope 筹集了 1230 万美元，用于建立一个没有算法或广告的私人社交网络](https://aihot.bt199.com/news/2eef0e4f7c29/)
+   - Yope 是一款快速发展的社交应用程序，专注于朋友和家人的私人团体，已筹集 1230 万美元的种子资金。这家初创公司并没…
    - `TechCrunch AI · 2026-07-22`
 
-3. [下载：NASA 的新型太空望远镜和 OpenAI 的自主黑客](https://aihot.bt199.com/news/b030bc345017/)
+3. [AMD 承诺向 Anthropic 投资高达 50 亿美元](https://aihot.bt199.com/news/ce017b45b910/)
+   - 根据周三的公告，AMD 表示将向 Anthropic 投资最多 50 亿美元，同时帮助扩大这家人工智能公司的计算能力。作…
+   - `The Verge AI · 2026-07-22`
+
+4. [下载：NASA 的新型太空望远镜和 OpenAI 的自主黑客](https://aihot.bt199.com/news/b030bc345017/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。当美国宇航局的南希·格雷斯·罗马太空…
    - `MIT Tech Review · 2026-07-22`
 
-4. [Meta制作了自己的AI检测系统。它应该只是使用谷歌的](https://aihot.bt199.com/news/d822ef4f614f/)
+5. [Meta制作了自己的AI检测系统。它应该只是使用谷歌的](https://aihot.bt199.com/news/d822ef4f614f/)
    - 三月份，Meta 的监督委员会呼吁该公司“履行其公开承诺并使用自己的工具”，以帮助平息欺骗性生成人工智能内容在平台上的传…
-   - `The Verge AI · 2026-07-22`
-
-5. [公用事业公司承诺让我们免受人工智能的能源账单影响](https://aihot.bt199.com/news/190df8c6e736/)
-   - 面对人们对人工智能热潮将增加消费者电费的担忧，美国最大的公用事业公司和数据中心开发商现在承诺采取一些措施。据《华尔街日报…
    - `The Verge AI · 2026-07-22`
 
 6. [下载：中国人工智能分裂白宫，版权支出创纪录](https://aihot.bt199.com/news/4f2427b73e96/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，最近看到apple 日本区的claude pro和gpt plus 比较便宜 想问问额度怎么样 怎么选择 都是用code 日常开发够用吗 3 个帖子 - 3 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 114
+list_page = 115
 +++
 
 <!-- AUTO-GENERATED: news page -->

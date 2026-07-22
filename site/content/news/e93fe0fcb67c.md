@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，大公司： 美团、青桔、哈啰共享单车调价 近期，美团单车、滴滴青桔、哈啰单车相继在北京等多个城市上调计费规则，三大平台不约而同地采取了“提高起步定价、拉长基础骑行时长”的组合策略：起步价从此前的1."
 summary_zh = ""
 tags = []
-list_page = 43
+list_page = 44
 +++
 
 <!-- AUTO-GENERATED: news page -->

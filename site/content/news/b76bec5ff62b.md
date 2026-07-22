@@ -20,7 +20,7 @@ ai_summary = "我绝不会说人工智能在音乐中没有立足之地（毕竟
 summary = "I would never go so far as to say there's no place for AI in music (I'm a fan of Holly Herndon, after all)."
 summary_zh = "我绝不会说人工智能在音乐中没有立足之地（毕竟我是 Holly Herndon 的粉丝）。但我普遍认为用生成式人工智能制作的音乐非常无聊，尤其是 Suno 的输出。所以我有点难以接受这个事实：[…]"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，来源：Your privacy choices 【纬来新闻网】IBM 今天宣布了全球首个亚纳米级（Sub-1nm）芯片技术。"
 summary_zh = ""
 tags = []
-list_page = 143
+list_page = 144
 +++
 
 <!-- AUTO-GENERATED: news page -->

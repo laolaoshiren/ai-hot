@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，36氪获悉，中信证券研报称，在AI应用带动的算力需求快速放量过程中，IDC在供给端受到核心区位、能源使用、资金投入三重核心约束，导致供给增长或难以满足需求放量的加速度，行业景气有望持续。"
 summary_zh = ""
 tags = []
-list_page = 39
+list_page = 40
 +++
 
 <!-- AUTO-GENERATED: news page -->

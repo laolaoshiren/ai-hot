@@ -20,7 +20,7 @@ ai_summary = "TCP/IP 背后的人正在制定一个用于识别野外人工智�
 summary = "The guy behind TCP/IP is working on a standard for identifying AI agents in the wild."
 summary_zh = "TCP/IP 背后的人正在制定一个用于识别野外人工智能代理的标准"
 tags = []
-list_page = 43
+list_page = 44
 +++
 
 <!-- AUTO-GENERATED: news page -->
