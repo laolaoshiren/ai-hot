@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "依旧是最多的华人面孔"
 summary_zh = ""
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

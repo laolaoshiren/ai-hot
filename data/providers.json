@@ -99,7 +99,7 @@
     "source": "openrouter",
     "latest_models": [
       "Gemini 3.6 Flash",
-      "Gemini 3.5 Flash-Lite",
+      "Gemini 3.5 Flash Lite",
       "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
     ],
     "model_count": 30,

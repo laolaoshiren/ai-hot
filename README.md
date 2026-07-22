@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-22 16:15:08
+🕐 **最近更新**：2026-07-22 21:28:53
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,28 +16,28 @@
 
 ## 🔥 今日热点
 
-1. [Synthesia 的人工智能培训平台正在从视频转向实时指导](https://aihot.bt199.com/news/27421537c448/)
-   - Synthesia 推出了 AI Roleplay Sessions，这是一个交互式企业培训平台，员工可以在工作场所与…
+1. [浏览器之战不再是搜索问题——这里是 Chrome 和 Safari 的最佳替代品](https://aihot.bt199.com/news/31ae4b6d984b/)
+   - 我们总结了目前可用的一些顶级替代浏览器，旨在挑战 Chrome 和 Safari
    - `TechCrunch AI · 2026-07-22`
 
-2. [人工智能 Twitter 上掀起“人形智能”谣言](https://aihot.bt199.com/news/0f1ee6934ed4/)
-   - Anthropic 和 OpenAI 在 2026 年大举收购，为周末谣言奠定了基础
+2. [Passionfroot 融资 1500 万美元，将其 B2B 创作者市场扩展到美国](https://aihot.bt199.com/news/51708d594f07/)
+   - Passionfroot 是一家德国初创公司，致力于打造一个连接 B2B 创作者与品牌的市场，在 Insight Par…
    - `TechCrunch AI · 2026-07-22`
 
-3. [尼尔·布洛姆坎普的新僵尸人工智能“电影”刚刚预热](https://aihot.bt199.com/news/8cb5d4d41e54/)
-   - 周一，《第九区》和《Gran Turismo》导演尼尔·布洛姆坎普 (Neill Blomkamp) 公布了他的最新项目…
-   - `The Verge AI · 2026-07-21`
+3. [下载：NASA 的新型太空望远镜和 OpenAI 的自主黑客](https://aihot.bt199.com/news/b030bc345017/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。当美国宇航局的南希·格雷斯·罗马太空…
+   - `MIT Tech Review · 2026-07-22`
 
-4. [OpenAI 表示，它使用新的人工智能系统意外黑了 Hugging Face](https://aihot.bt199.com/news/202a0e7e6bd6/)
-   - OpenAI 表示，其人工智能模型在内部测试期间错误地破坏了开源人工智能平台 Hugging Face。在周二的博客文章…
-   - `The Verge AI · 2026-07-21`
+4. [Meta制作了自己的AI检测系统。它应该只是使用谷歌的](https://aihot.bt199.com/news/d822ef4f614f/)
+   - 三月份，Meta 的监督委员会呼吁该公司“履行其公开承诺并使用自己的工具”，以帮助平息欺骗性生成人工智能内容在平台上的传…
+   - `The Verge AI · 2026-07-22`
 
-5. [下载：中国人工智能分裂白宫，版权支出创纪录](https://aihot.bt199.com/news/4f2427b73e96/)
+5. [公用事业公司承诺让我们免受人工智能的能源账单影响](https://aihot.bt199.com/news/190df8c6e736/)
+   - 面对人们对人工智能热潮将增加消费者电费的担忧，美国最大的公用事业公司和数据中心开发商现在承诺采取一些措施。据《华尔街日报…
+   - `The Verge AI · 2026-07-22`
+
+6. [下载：中国人工智能分裂白宫，版权支出创纪录](https://aihot.bt199.com/news/4f2427b73e96/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。中国的人工智能模型让特朗普的人工智能…
-   - `MIT Tech Review · 2026-07-21`
-
-6. [通过材料科学创新推进下一代人工智能](https://aihot.bt199.com/news/6d5a86555da5/)
-   - 关于人工智能的讨论通常集中在算法、计算能力或对新半导体制造工厂和超大规模数据中心的巨额投资上。但在每一项进步的背后，还有…
    - `MIT Tech Review · 2026-07-21`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
