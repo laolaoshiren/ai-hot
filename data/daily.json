@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-21T19:09:14.746275",
-  "date": "2026-07-21",
+  "updated_at": "2026-07-22T01:54:58.049563",
+  "date": "2026-07-22",
   "spotlight": {
-    "name": "Autoresearch",
-    "url": "https://github.com/karpathy/autoresearch",
+    "name": "Crucix",
+    "url": "https://github.com/calesthio/Crucix",
     "type": "agent",
-    "description": "Karpathy 出品的自动研究 Agent，在单 GPU 上自动进行 nanochat 训练研究，自动化 AI 实验流程",
+    "description": "个人情报 Agent，持续监控多数据源并在发生变化时主动通知你，自动化信息追踪",
     "pricing": "免费开源",
-    "category": "研究 Agent"
+    "category": "自动化 Agent"
   },
   "alternates": [
     {
-      "id": "continue",
-      "name": "Continue",
-      "url": "https://continue.dev",
+      "id": "windsurf",
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
       "type": "tool",
-      "description": "开源 AI 编程助手，可接入任意 LLM",
-      "pricing": "开源免费",
+      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
+      "pricing": "免费 + Pro $15/月",
       "category": "编程"
     },
     {
-      "name": "Claude Code",
-      "url": "https://docs.anthropic.com/en/docs/claude-code",
+      "name": "Cursor Agent",
+      "url": "https://cursor.sh",
       "type": "agent",
-      "description": "Anthropic CLI编程智能体，终端内全自主编程",
-      "pricing": "API按量",
+      "description": "Cursor内置Agent模式，后台自主完成复杂编码任务",
+      "pricing": "Pro $20/月",
       "category": "编程 Agent"
     },
     {
-      "name": "OneCLI",
-      "url": "https://github.com/onecli/onecli",
+      "name": "Gemini CLI",
+      "url": "https://github.com/google-gemini/gemini-cli",
       "type": "agent",
-      "description": "开源凭证保险库，让 AI Agent 安全访问各类服务，无需暴露 API 密钥",
-      "pricing": "免费开源",
-      "category": "安全 Agent"
+      "description": "Google 开源的终端 AI Agent，直接在命令行调用 Gemini 模型完成编码、文件操作等任务",
+      "pricing": "免费",
+      "category": "编程 Agent"
     }
   ]
 }

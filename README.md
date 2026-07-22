@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-22 03:10:00
+🕐 **最近更新**：2026-07-22 09:55:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [美国威胁对中国人工智能模型实施知识产权盗窃制裁](https://aihot.bt199.com/news/be406df3fd99/)
-   - 美国财政部长斯科特·贝森特表示，美国可能会因涉嫌盗窃知识产权而制裁中国开放人工智能模型，从而扩大特朗普政府减缓中国人工智…
+1. [Meta 正在为没有想象力的人测试一款 AI 睡前故事应用程序](https://aihot.bt199.com/news/86519c5dd5f1/)
+   - 最后，一家科技公司找到了一种方法来外包人类最古老的消遣：利用我们的想象力
    - `TechCrunch AI · 2026-07-21`
 
-2. [Anthropic 15 亿美元的图书盗版和解协议获得法官批准](https://aihot.bt199.com/news/9e86e0fbb2cf/)
-   - 据路透社早些时候报道，一位联邦法官已签署了 Anthropic 与作者签署的 15 亿美元集体诉讼和解协议，这些作者指控…
+2. [OpenAI 表示 Hugging Face 被其预发布模型破坏](https://aihot.bt199.com/news/591f1cb3d739/)
+   - OpenAI 已出面声称对 Hugging Face 漏洞负责，称这是内部测试出错的结果
+   - `TechCrunch AI · 2026-07-21`
+
+3. [尼尔·布洛姆坎普的新僵尸人工智能“电影”刚刚预热](https://aihot.bt199.com/news/8cb5d4d41e54/)
+   - 周一，《第九区》和《Gran Turismo》导演尼尔·布洛姆坎普 (Neill Blomkamp) 公布了他的最新项目…
    - `The Verge AI · 2026-07-21`
 
-3. [谷歌推出了一种更便宜的替代方案来替代 Mythos 等大型人工智能安全模型](https://aihot.bt199.com/news/5462dce82ab6/)
-   - Google 正在推出 Gemini 3.6 Flash 以及致力于快速查找和修补安全漏洞的新安全模型。在周二的一篇博文…
+4. [OpenAI 表示，它使用新的人工智能系统意外黑了 Hugging Face](https://aihot.bt199.com/news/202a0e7e6bd6/)
+   - OpenAI 表示，其人工智能模型在内部测试期间错误地破坏了开源人工智能平台 Hugging Face。在周二的博客文章…
    - `The Verge AI · 2026-07-21`
 
-4. [下载：中国人工智能分裂白宫，版权支出创纪录](https://aihot.bt199.com/news/4f2427b73e96/)
+5. [下载：中国人工智能分裂白宫，版权支出创纪录](https://aihot.bt199.com/news/4f2427b73e96/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。中国的人工智能模型让特朗普的人工智能…
    - `MIT Tech Review · 2026-07-21`
 
-5. [通过材料科学创新推进下一代人工智能](https://aihot.bt199.com/news/6d5a86555da5/)
+6. [通过材料科学创新推进下一代人工智能](https://aihot.bt199.com/news/6d5a86555da5/)
    - 关于人工智能的讨论通常集中在算法、计算能力或对新半导体制造工厂和超大规模数据中心的巨额投资上。但在每一项进步的背后，还有…
    - `MIT Tech Review · 2026-07-21`
 
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
+9. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
    - 上市公司正在以本世纪最快的速度筹集资金
    - `Ars Technica AI · 2026-07-16`
 
-9. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
+10. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
    - 这家连锁便利店将改用 StorMagic
    - `Ars Technica AI · 2026-07-15`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
