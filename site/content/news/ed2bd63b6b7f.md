@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "聚焦WAIC｜端侧原生架构获产业共识，Om AI联汇正式发起物理AI协同发展倡议"
 summary_zh = ""
 tags = []
-list_page = 23
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

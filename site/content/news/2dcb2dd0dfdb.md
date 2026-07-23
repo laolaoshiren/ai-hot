@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，36氪从多位产业人士处获悉，字节跳动正探索进入自动驾驶领域。这一项目目前由Seed旗下周畅的世界模型团队负责。"
 summary_zh = ""
 tags = []
-list_page = 59
+list_page = 61
 +++
 
 <!-- AUTO-GENERATED: news page -->

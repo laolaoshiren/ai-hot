@@ -20,7 +20,7 @@ ai_summary = "目前，关于教育价值的全国性讨论主要是对人工智
 summary = "The national conversation about the value of education is currently dominated by speculation about the risks and positive potential of AI."
 summary_zh = "目前，关于教育价值的全国性讨论主要是对人工智能的风险和积极潜力的猜测。 无论你对这场辩论持什么观点，我希望你会很高兴知道麻省理工学院也在致力于一项非常重要但相对老式的研究"
 tags = []
-list_page = 167
+list_page = 169
 +++
 
 <!-- AUTO-GENERATED: news page -->

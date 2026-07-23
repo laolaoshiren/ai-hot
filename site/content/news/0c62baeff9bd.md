@@ -20,7 +20,7 @@ ai_summary = "嗨，HN，尼克在这里。我们正在推出 OpenKnowledge (htt
 summary = "Hi HN, Nick here. We’re launching OpenKnowledge (https://openknowledge."
 summary_zh = "嗨，HN，尼克在这里。我们正在推出 OpenKnowledge (https://openknowledge.ai/)，这是一个“所见即所得”的 Markdown 编辑器，可与 Claude、Codex 和其他代理直接集成。可用作 MacO…"
 tags = []
-list_page = 150
+list_page = 152
 +++
 
 <!-- AUTO-GENERATED: news page -->
