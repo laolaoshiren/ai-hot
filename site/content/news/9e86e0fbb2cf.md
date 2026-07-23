@@ -20,7 +20,7 @@ ai_summary = "据路透社早些时候报道，一位联邦法官已签署了 An
 summary = "A federal judge has signed off on Anthropic's $1.5 billion class action settlement with authors who accused the company of training its AI models on copyrighted books, as reported earlier by Reuters."
 summary_zh = "据路透社早些时候报道，一位联邦法官已签署了 Anthropic 与作者签署的 15 亿美元集体诉讼和解协议，这些作者指控该公司在受版权保护的书籍上训练其人工智能模型。在周一的命令中，法官阿拉塞利·马丁内斯·奥尔金写道，和解协议将提供"
 tags = []
-list_page = 9
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->

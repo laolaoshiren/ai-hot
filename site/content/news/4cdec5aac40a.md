@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，美国地热公司Fervo Energy、英伟达及美国太平洋西北国家实验室（PNNL）6月22日宣布，三方将联合开发面向增强型地热系统（EGS）的下一代数字孪生平台EGS-Twin。"
 summary_zh = ""
 tags = []
-list_page = 177
+list_page = 179
 +++
 
 <!-- AUTO-GENERATED: news page -->
