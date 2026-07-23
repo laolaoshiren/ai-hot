@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-23 03:03:29
+🕐 **最近更新**：2026-07-23 10:03:27
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Travis Kalanick 的机器人公司筹集了 $1.7B，由 a16z 领投](https://aihot.bt199.com/news/6a7f08f97575/)
-   - Uber 还投资了 Travis Kalanick 的公司 Atoms，该公司曾模糊地宣称要利用工业人工智能来实现世界现…
+1. [在经历了令人震惊的季度后，IBM 坚称人工智能不会杀死大型机](https://aihot.bt199.com/news/97d598949ef9/)
+   - 上周 IBM 因大型机销售不佳的警告而股价暴跌后，首席执行官解释说人工智能暂时破坏了公司的硬件预算
    - `TechCrunch AI · 2026-07-22`
 
-2. [Yope 筹集了 1230 万美元，用于建立一个没有算法或广告的私人社交网络](https://aihot.bt199.com/news/2eef0e4f7c29/)
-   - Yope 是一款快速发展的社交应用程序，专注于朋友和家人的私人团体，已筹集 1230 万美元的种子资金。这家初创公司并没…
+2. [谷歌通过蓬勃发展的云业务证明其大规模人工智能支出的合理性](https://aihot.bt199.com/news/42dd8f7444e9/)
+   - 谷歌的云业务正在蓬勃发展，采用其人工智能和人工智能基础设施服务的公司帮助这家科技巨头公布了创纪录的利润
    - `TechCrunch AI · 2026-07-22`
 
 3. [AMD 承诺向 Anthropic 投资高达 50 亿美元](https://aihot.bt199.com/news/ce017b45b910/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

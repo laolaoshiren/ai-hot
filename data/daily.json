@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-22T19:02:37.748495",
-  "date": "2026-07-22",
+  "updated_at": "2026-07-23T02:02:30.724270",
+  "date": "2026-07-23",
   "spotlight": {
-    "name": "Crucix",
-    "url": "https://github.com/calesthio/Crucix",
+    "name": "Agency Agents 中文版",
+    "url": "https://github.com/jnMetaCode/agency-agents-zh",
     "type": "agent",
-    "description": "个人情报 Agent，持续监控多数据源并在发生变化时主动通知你，自动化信息追踪",
+    "description": "211 个即插即用的 AI 专家角色，支持 16 种工具（Hermes/Claude Code/Cursor/Copilot 等），覆盖 18 个部门，含 46 个中国市场原创智能体",
     "pricing": "免费开源",
-    "category": "自动化 Agent"
+    "category": "平台 Agent"
   },
   "alternates": [
     {
-      "id": "windsurf",
-      "name": "Windsurf",
-      "url": "https://codeium.com/windsurf",
+      "id": "trae",
+      "name": "Trae",
+      "url": "https://trae.ai",
       "type": "tool",
-      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
-      "pricing": "免费 + Pro $15/月",
+      "description": "字节跳动出品的 AI IDE，中文友好",
+      "pricing": "免费",
       "category": "编程"
     },
     {
-      "name": "Cursor Agent",
-      "url": "https://cursor.sh",
+      "name": "Codex (ChatGPT)",
+      "url": "https://chatgpt.com",
       "type": "agent",
-      "description": "Cursor内置Agent模式，后台自主完成复杂编码任务",
-      "pricing": "Pro $20/月",
+      "description": "OpenAI内置编程智能体，可在沙盒中执行代码",
+      "pricing": "ChatGPT Pro $200/月",
       "category": "编程 Agent"
     },
     {
-      "name": "Gemini CLI",
-      "url": "https://github.com/google-gemini/gemini-cli",
+      "name": "MemPalace",
+      "url": "https://github.com/MemPalace/mempalace",
       "type": "agent",
-      "description": "Google 开源的终端 AI Agent，直接在命令行调用 Gemini 模型完成编码、文件操作等任务",
+      "description": "最强开源 AI 记忆系统，号称性能超越 Mem0 等方案，且完全免费开源",
       "pricing": "免费",
-      "category": "编程 Agent"
+      "category": "平台 Agent"
     }
   ]
 }
