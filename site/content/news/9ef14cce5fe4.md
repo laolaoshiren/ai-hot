@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，7月18日，在2026世界人工智能大会（WAIC）上，腾讯面向具身智能与智能体领域带来多项产品技术的升级发布。"
 summary_zh = ""
 tags = []
-list_page = 29
+list_page = 31
 +++
 
 <!-- AUTO-GENERATED: news page -->
