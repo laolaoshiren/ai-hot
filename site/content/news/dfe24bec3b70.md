@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，据阶跃官微消息，7月18日，阶跃星辰与上海期智研究院宣布正式达成合作，双方将共同设立智能体前沿研究院，围绕智能体网络及经济原理、AI Safety等方向开展联合研究，探索Agent时代的基础理论、核心技术、标准体系与产业范式。（每经网）"
 summary_zh = ""
 tags = []
-list_page = 34
+list_page = 36
 +++
 
 <!-- AUTO-GENERATED: news page -->

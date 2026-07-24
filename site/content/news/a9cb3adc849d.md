@@ -20,7 +20,7 @@ ai_summary = "用户还可以集成来自 Apple Health、Function 和 MyFitnessP
 summary = "Users can also integrate their personal data from services like Apple Health, Function, and MyFitnessPal."
 summary_zh = "用户还可以集成来自 Apple Health、Function 和 MyFitnessPal 等服务的个人数据"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->
