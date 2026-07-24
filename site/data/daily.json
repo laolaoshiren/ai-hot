@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-23T19:04:26.376923",
-  "date": "2026-07-23",
+  "updated_at": "2026-07-24T01:58:27.605238",
+  "date": "2026-07-24",
   "spotlight": {
-    "name": "Agency Agents 中文版",
-    "url": "https://github.com/jnMetaCode/agency-agents-zh",
+    "name": "Hyperframes",
+    "url": "https://github.com/heygen-com/hyperframes",
     "type": "agent",
-    "description": "211 个即插即用的 AI 专家角色，支持 16 种工具（Hermes/Claude Code/Cursor/Copilot 等），覆盖 18 个部门，含 46 个中国市场原创智能体",
+    "description": "HeyGen 开源的 HTML 渲染视频框架，专为 AI Agent 设计，用 HTML 写代码直接生成视频内容",
     "pricing": "免费开源",
-    "category": "平台 Agent"
+    "category": "自动化 Agent"
   },
   "alternates": [
     {
-      "id": "trae",
-      "name": "Trae",
-      "url": "https://trae.ai",
+      "id": "midjourney",
+      "name": "Midjourney",
+      "url": "https://midjourney.com",
       "type": "tool",
-      "description": "字节跳动出品的 AI IDE，中文友好",
-      "pricing": "免费",
-      "category": "编程"
+      "description": "最强 AI 绘画工具，生成质量极高",
+      "pricing": "$10/月 起",
+      "category": "绘画"
     },
     {
-      "name": "Codex (ChatGPT)",
-      "url": "https://chatgpt.com",
+      "name": "Devin",
+      "url": "https://devin.ai",
       "type": "agent",
-      "description": "OpenAI内置编程智能体，可在沙盒中执行代码",
-      "pricing": "ChatGPT Pro $200/月",
+      "description": "全球首个AI软件工程师，能独立完成编程任务",
+      "pricing": "$500/月",
       "category": "编程 Agent"
     },
     {
-      "name": "MemPalace",
-      "url": "https://github.com/MemPalace/mempalace",
+      "name": "OpenMythos",
+      "url": "https://github.com/kyegomez/OpenMythos",
       "type": "agent",
-      "description": "最强开源 AI 记忆系统，号称性能超越 Mem0 等方案，且完全免费开源",
+      "description": "Claude Mythos 架构的开源复现版，基于公开研究论文还原 Anthropic 最新模型设计",
       "pricing": "免费",
-      "category": "平台 Agent"
+      "category": "研究 Agent"
     }
   ]
 }

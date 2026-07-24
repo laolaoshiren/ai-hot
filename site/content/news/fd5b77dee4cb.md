@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，从上海海关获悉，上半年，上海制造的服务器、光收发模块、集成电路、工业级变压器、储能电池等人工智能（AI）相关产品出口均实现快速增长，AI算力产业链已成为上海出口的重要增长动能。"
 summary_zh = ""
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->
