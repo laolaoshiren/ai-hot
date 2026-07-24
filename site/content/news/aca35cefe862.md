@@ -20,7 +20,7 @@ ai_summary = "据报道，卢卡·瓜达尼诺 (Luca Guadagnino) 执导的关于
 summary = "Luca Guadagnino's film about OpenAI CEO Sam Altman, Artificial, has reportedly been dropped by Amazon MGM."
 summary_zh = "据报道，卢卡·瓜达尼诺 (Luca Guadagnino) 执导的关于 OpenAI 首席执行官山姆·奥尔特曼 (Sam Altman) 的电影《Artificial》已被亚马逊米高梅公司下架。这部由安德鲁·加菲尔德 (Andrew Gar…"
 tags = []
-list_page = 195
+list_page = 197
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，36氪获悉，月之暗面已通知投资者调整公司架构并筹备赴港IPO，有望最快在6个月内完成上市。7月16日，月之暗面发布全球参数规模最大的开源模型Kimi K3，在Code Arena上超过Claude Fable 5和GPT-5.6 So。"
 summary_zh = ""
 tags = []
-list_page = 33
+list_page = 35
 +++
 
 <!-- AUTO-GENERATED: news page -->
