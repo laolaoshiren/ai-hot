@@ -20,7 +20,7 @@ ai_summary = "挪威小学几乎禁止人工智能。来源：Hacker News AI"
 summary = "Article URL: https://www.reuters.com/technology/norway-imposes-near-ban-ai-elementary-school-2026-06-19/ Comments URL: https://news."
 summary_zh = "挪威小学几乎禁止人工智能。来源：Hacker News AI"
 tags = []
-list_page = 197
+list_page = 198
 +++
 
 <!-- AUTO-GENERATED: news page -->

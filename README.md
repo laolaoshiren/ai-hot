@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-24 16:14:22
+🕐 **最近更新**：2026-07-24 21:24:42
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,20 +24,20 @@
    - AMD 正在通过一款新的机架规模系统向其芯片制造商竞争对手发起挑战，该系统将于今年晚些时候开始向客户发货
    - `TechCrunch AI · 2026-07-23`
 
-3. [Alexa Plus 正在进行人工智能更新以处理更复杂的指令](https://aihot.bt199.com/news/27b0ad299863/)
+3. [下载：器官移植突破和国产芯片](https://aihot.bt199.com/news/6f3dc14cb11c/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。过冷肾脏已被移植到猪体内，这是一项“…
+   - `MIT Tech Review · 2026-07-24`
+
+4. [Alexa Plus 正在进行人工智能更新以处理更复杂的指令](https://aihot.bt199.com/news/27b0ad299863/)
    - 亚马逊正在推出 Alexa Plus 助手的更新，使其能够以新的方式连接到智能家居设备。通过当前预览版的更新，Alexa…
    - `The Verge AI · 2026-07-23`
 
-4. [克劳德的语音模式现在可用于 Opus 和 Sonnet](https://aihot.bt199.com/news/f7a651ced671/)
+5. [克劳德的语音模式现在可用于 Opus 和 Sonnet](https://aihot.bt199.com/news/f7a651ced671/)
    - 到目前为止，语音模式仅适用于 Claude Haiku，Anthropic 的速度更快但功能较弱的模型。现在，该公司正在…
    - `The Verge AI · 2026-07-23`
 
-5. [下载：能源传输和美国对中国人工智能的威胁](https://aihot.bt199.com/news/4851c8c0715d/)
+6. [下载：能源传输和美国对中国人工智能的威胁](https://aihot.bt199.com/news/4851c8c0715d/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。可能重塑纽约电网的输电线遇到了障碍…
-   - `MIT Tech Review · 2026-07-23`
-
-6. [人工智能如何帮助科学家设计下一代药物](https://aihot.bt199.com/news/7f188a0c6b4b/)
-   - 设计和开发新药是一项昂贵且容易失败的科学挑战。一种新药的开发可能需要多年时间，并且需要大量投资。即便如此，大多数可能的候…
    - `MIT Tech Review · 2026-07-23`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

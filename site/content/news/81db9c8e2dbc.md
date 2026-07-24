@@ -20,7 +20,7 @@ ai_summary = "作为与三个好莱坞电影公司正在进行的法律纠纷的
 summary = "As part of an ongoing legal dispute with three Hollywood studios, Midjourney is seeking to compel those studios to reveal how they use AI themselves."
 summary_zh = "作为与三个好莱坞电影公司正在进行的法律纠纷的一部分，Midjourney 正在寻求迫使这些电影公司披露他们如何使用人工智能"
 tags = []
-list_page = 102
+list_page = 104
 +++
 
 <!-- AUTO-GENERATED: news page -->

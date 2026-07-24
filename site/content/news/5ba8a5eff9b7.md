@@ -20,7 +20,7 @@ ai_summary = "大卫·鲍伊 (David Bowie) 的歌曲《五年》(Five Years) 被
 summary = "David Bowie's song \"Five Years,\" which Meta used in a supposedly inspiring advertisement, is about humans learning that they have five years left to live before the apocalypse."
 summary_zh = "大卫·鲍伊 (David Bowie) 的歌曲《五年》(Five Years) 被 Meta 用于一则据称鼓舞人心的广告中，歌曲讲述的是人类得知在世界末日到来之前他们还剩五年的生命"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->
