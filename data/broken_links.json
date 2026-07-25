@@ -1,40 +1,5 @@
 [
   {
-    "id": "hf-deepseek-ai--DeepSeek-V4-Pro",
-    "name": "deepseek-ai/DeepSeek-V4-Pro",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-stabilityai--sdxl-turbo",
-    "name": "stabilityai/sdxl-turbo",
-    "url": "https://huggingface.co/stabilityai/sdxl-turbo",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-meta-llama--Llama-3.2-1B",
-    "name": "meta-llama/Llama-3.2-1B",
-    "url": "https://huggingface.co/meta-llama/Llama-3.2-1B",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-google--gemma-4-31B-it",
-    "name": "google/gemma-4-31B-it",
-    "url": "https://huggingface.co/google/gemma-4-31B-it",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-Qwen--Qwen-Image",
-    "name": "Qwen/Qwen-Image",
-    "url": "https://huggingface.co/Qwen/Qwen-Image",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
     "id": "hf-meta-llama--Llama-3.1-8B",
     "name": "meta-llama/Llama-3.1-8B",
     "url": "https://huggingface.co/meta-llama/Llama-3.1-8B",
@@ -732,6 +697,41 @@
     "name": "Claude Code",
     "url": "https://docs.anthropic.com/en/docs/claude-code",
     "status": 0,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
     "file": "tools.json"
   },
   {
