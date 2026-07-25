@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-24T19:17:16.196524",
-  "date": "2026-07-24",
+  "updated_at": "2026-07-25T01:57:19.811324",
+  "date": "2026-07-25",
   "spotlight": {
-    "name": "Hyperframes",
-    "url": "https://github.com/heygen-com/hyperframes",
+    "name": "CAMEL",
+    "url": "https://github.com/camel-ai/camel",
     "type": "agent",
-    "description": "HeyGen 开源的 HTML 渲染视频框架，专为 AI Agent 设计，用 HTML 写代码直接生成视频内容",
-    "pricing": "免费开源",
-    "category": "自动化 Agent"
+    "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
+    "pricing": "开源免费",
+    "category": "多 Agent"
   },
   "alternates": [
     {
-      "id": "midjourney",
-      "name": "Midjourney",
-      "url": "https://midjourney.com",
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
       "type": "tool",
-      "description": "最强 AI 绘画工具，生成质量极高",
-      "pricing": "$10/月 起",
+      "description": "开源图像生成模型，本地部署无限制",
+      "pricing": "开源免费",
       "category": "绘画"
     },
     {
-      "name": "Devin",
-      "url": "https://devin.ai",
+      "name": "SWE-Agent",
+      "url": "https://github.com/princeton-nlp/SWE-agent",
       "type": "agent",
-      "description": "全球首个AI软件工程师，能独立完成编程任务",
-      "pricing": "$500/月",
+      "description": "普林斯顿开源的软件工程Agent",
+      "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "name": "OpenMythos",
-      "url": "https://github.com/kyegomez/OpenMythos",
+      "name": "Graphify",
+      "url": "https://github.com/safishamsi/graphify",
       "type": "agent",
-      "description": "Claude Mythos 架构的开源复现版，基于公开研究论文还原 Anthropic 最新模型设计",
+      "description": "将代码、文档、论文自动构建为可查询知识图谱，兼容 Claude Code/Cursor/Gemini CLI 等10+工具",
       "pricing": "免费",
-      "category": "研究 Agent"
+      "category": "编程 Agent"
     }
   ]
 }

@@ -1,40 +1,5 @@
 [
   {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "model-16",
-    "name": "openai-community/gpt2",
-    "url": "https://huggingface.co/openai-community/gpt2",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
     "id": "hf-black-forest-labs--FLUX.1-dev",
     "name": "black-forest-labs/FLUX.1-dev",
     "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
@@ -837,6 +802,41 @@
     "name": "Claude Code",
     "url": "https://docs.anthropic.com/en/docs/claude-code",
     "status": 0,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
     "file": "tools.json"
   },
   {
