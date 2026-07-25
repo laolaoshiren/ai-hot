@@ -6635,6 +6635,38 @@
     "collected_at": "2026-07-25T01:56:39.470647"
   },
   {
+    "id": "github-1309902610",
+    "name": "Morteza-Asadi-Shalmaiy/facial-recognition-pipeline",
+    "display_name": "facial-recognition-pipeline",
+    "url": "https://github.com/Morteza-Asadi-Shalmaiy/facial-recognition-pipeline",
+    "description": "python notebook facial recognitition ",
+    "stars": 12,
+    "forks": 6,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "codeformer",
+      "gfpgan",
+      "google-colab",
+      "insightface",
+      "mediapipe",
+      "minifasnet",
+      "numpy",
+      "onnx-runtime",
+      "opencv",
+      "osnet",
+      "real-esrgan",
+      "torchreid",
+      "yolov8"
+    ],
+    "created_at": "2026-07-23T12:11:41Z",
+    "updated_at": "2026-07-25T12:46:03Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-07-25T13:07:19.836465"
+  },
+  {
     "id": "github-1228339438",
     "name": "ShamelesAbyss/Symbiote",
     "display_name": "Symbiote",
