@@ -1,40 +1,5 @@
 [
   {
-    "id": "hf-black-forest-labs--FLUX.1-dev",
-    "name": "black-forest-labs/FLUX.1-dev",
-    "url": "https://huggingface.co/black-forest-labs/FLUX.1-dev",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "model-17",
-    "name": "meta-llama/Meta-Llama-3-8B",
-    "url": "https://huggingface.co/meta-llama/Meta-Llama-3-8B",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "model-3",
-    "name": "stabilityai/stable-diffusion-xl-base-1.0",
-    "url": "https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "model-18",
-    "name": "Qwen/Qwen2.5-72B-Instruct",
-    "url": "https://huggingface.co/Qwen/Qwen2.5-72B-Instruct",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
-    "id": "model-19",
-    "name": "deepseek-ai/DeepSeek-V3",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V3",
-    "status": 0,
-    "file": "models.json"
-  },
-  {
     "id": "model-31",
     "name": "openai/whisper-large-v3",
     "url": "https://huggingface.co/openai/whisper-large-v3",
@@ -802,6 +767,41 @@
     "name": "Claude Code",
     "url": "https://docs.anthropic.com/en/docs/claude-code",
     "status": 0,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
     "file": "tools.json"
   },
   {
