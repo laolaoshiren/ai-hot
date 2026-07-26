@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，"
 summary_zh = ""
 tags = []
-list_page = 68
+list_page = 70
 +++
 
 <!-- AUTO-GENERATED: news page -->

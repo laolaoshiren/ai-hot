@@ -2944,9 +2944,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000007196",
-        "completion": "0.0000022616",
-        "input_cache_read": "0.00000013364"
+        "prompt": "0.0000007042",
+        "completion": "0.0000022132",
+        "input_cache_read": "0.00000013078"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -3188,7 +3188,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000078",
+        "prompt": "0.00000075",
         "completion": "0.0000035",
         "input_cache_read": "0.00000015"
       },
@@ -24225,12 +24225,12 @@
         "instruct_type": "qwen3"
       },
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.00000052"
+        "prompt": "0.00000012",
+        "completion": "0.0000005"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 8192,
+        "context_length": 40960,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -29683,5 +29683,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-26T02:01:49.011478+00:00"
+  "updated_at": "2026-07-26T08:13:49.277215+00:00"
 }
