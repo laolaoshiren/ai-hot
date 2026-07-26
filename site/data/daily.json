@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-25T18:57:59.479167",
-  "date": "2026-07-25",
+  "updated_at": "2026-07-26T02:01:49.141507",
+  "date": "2026-07-26",
   "spotlight": {
-    "name": "CAMEL",
-    "url": "https://github.com/camel-ai/camel",
+    "name": "MindSearch",
+    "url": "https://github.com/InternLM/MindSearch",
     "type": "agent",
-    "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
+    "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
     "pricing": "开源免费",
     "category": "多 Agent"
   },
   "alternates": [
     {
-      "id": "stable-diffusion",
-      "name": "Stable Diffusion",
-      "url": "https://stability.ai",
+      "id": "flux",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
       "type": "tool",
-      "description": "开源图像生成模型，本地部署无限制",
-      "pricing": "开源免费",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "pricing": "开源 + 商业 API",
       "category": "绘画"
     },
     {
-      "name": "SWE-Agent",
-      "url": "https://github.com/princeton-nlp/SWE-agent",
+      "name": "GPT Researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
       "type": "agent",
-      "description": "普林斯顿开源的软件工程Agent",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "AI研究助手，自动搜索+分析+生成报告",
+      "pricing": "开源 + API费用",
+      "category": "研究 Agent"
     },
     {
-      "name": "Graphify",
-      "url": "https://github.com/safishamsi/graphify",
+      "name": "Browser Harness",
+      "url": "https://github.com/browser-use/browser-harness",
       "type": "agent",
-      "description": "将代码、文档、论文自动构建为可查询知识图谱，兼容 Claude Code/Cursor/Gemini CLI 等10+工具",
+      "description": "browser-use 团队发布的自愈式浏览器代理，LLM 可自动修复浏览器执行错误",
       "pricing": "免费",
-      "category": "编程 Agent"
+      "category": "浏览器 Agent"
     }
   ]
 }
