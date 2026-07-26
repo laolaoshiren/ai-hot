@@ -2951,9 +2951,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006734",
-        "completion": "0.0000021164",
-        "input_cache_read": "0.00000012506"
+        "prompt": "0.0000006692",
+        "completion": "0.0000021032",
+        "input_cache_read": "0.00000012428"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -3195,7 +3195,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000075",
+        "prompt": "0.00000073",
         "completion": "0.0000035",
         "input_cache_read": "0.00000015"
       },
@@ -7872,18 +7872,14 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
         "seed",
-        "stop",
         "temperature",
         "tool_choice",
         "tools",
-        "top_k",
         "top_p"
       ],
       "default_parameters": {
@@ -17136,12 +17132,12 @@
         "prompt": "0.00000125",
         "completion": "0.00001",
         "web_search": "0.01",
-        "input_cache_read": "0.000000125"
+        "input_cache_read": "0.00000013"
       },
       "top_provider": {
         "context_length": 400000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -27656,92 +27652,6 @@
       }
     },
     {
-      "id": "inflection/inflection-3-pi",
-      "canonical_slug": "inflection/inflection-3-pi",
-      "hugging_face_id": null,
-      "name": "Inflection: Inflection 3 Pi",
-      "created": 1728604800,
-      "description": "Inflection 3 Pi powers Inflection's [Pi](https://pi.ai) chatbot, including backstory, emotional intelligence, productivity, and safety. It has access to recent news, and excels in scenarios like customer support and roleplay. Pi...",
-      "context_length": 8000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001"
-      },
-      "top_provider": {
-        "context_length": 8000,
-        "max_completion_tokens": 1024,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "stop",
-        "temperature",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-10-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/inflection/inflection-3-pi/endpoints"
-      }
-    },
-    {
-      "id": "inflection/inflection-3-productivity",
-      "canonical_slug": "inflection/inflection-3-productivity",
-      "hugging_face_id": null,
-      "name": "Inflection: Inflection 3 Productivity",
-      "created": 1728604800,
-      "description": "Inflection 3 Productivity is optimized for following instructions. It is better for tasks requiring JSON output or precise adherence to provided guidelines. It has access to recent news. For emotional...",
-      "context_length": 8000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001"
-      },
-      "top_provider": {
-        "context_length": 8000,
-        "max_completion_tokens": 1024,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "stop",
-        "temperature",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-10-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/inflection/inflection-3-productivity/endpoints"
-      }
-    },
-    {
       "id": "thedrummer/rocinante-12b",
       "canonical_slug": "thedrummer/rocinante-12b",
       "hugging_face_id": "TheDrummer/Rocinante-12B-v1.1",
@@ -29690,5 +29600,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-26T13:04:49.076112+00:00"
+  "updated_at": "2026-07-26T19:01:55.786446+00:00"
 }

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "变成你最常用的入口"
 summary_zh = ""
 tags = []
-list_page = 92
+list_page = 93
 +++
 
 <!-- AUTO-GENERATED: news page -->
