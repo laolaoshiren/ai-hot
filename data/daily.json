@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-26T19:01:55.882703",
-  "date": "2026-07-26",
+  "updated_at": "2026-07-27T02:09:33.022463",
+  "date": "2026-07-27",
   "spotlight": {
-    "name": "MindSearch",
-    "url": "https://github.com/InternLM/MindSearch",
+    "name": "agentUniverse",
+    "url": "https://github.com/agentuniverse-ai/agentUniverse",
     "type": "agent",
-    "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
+    "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
     "pricing": "开源免费",
     "category": "多 Agent"
   },
   "alternates": [
     {
-      "id": "flux",
-      "name": "FLUX",
-      "url": "https://blackforestlabs.ai",
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
       "type": "tool",
-      "description": "新一代开源图像生成模型，质量超越 SD",
-      "pricing": "开源 + 商业 API",
+      "description": "节点式 AI 绘画工作流引擎，最强可控性",
+      "pricing": "开源免费",
       "category": "绘画"
     },
     {
-      "name": "GPT Researcher",
-      "url": "https://github.com/assafelovic/gpt-researcher",
+      "name": "STORM",
+      "url": "https://github.com/stanford-oval/storm",
       "type": "agent",
-      "description": "AI研究助手，自动搜索+分析+生成报告",
-      "pricing": "开源 + API费用",
+      "description": "斯坦福出品的AI知识文章生成器",
+      "pricing": "开源免费",
       "category": "研究 Agent"
     },
     {
-      "name": "Browser Harness",
-      "url": "https://github.com/browser-use/browser-harness",
+      "name": "Autoresearch",
+      "url": "https://github.com/karpathy/autoresearch",
       "type": "agent",
-      "description": "browser-use 团队发布的自愈式浏览器代理，LLM 可自动修复浏览器执行错误",
-      "pricing": "免费",
-      "category": "浏览器 Agent"
+      "description": "Karpathy 出品的自动研究 Agent，在单 GPU 上自动进行 nanochat 训练研究，自动化 AI 实验流程",
+      "pricing": "免费开源",
+      "category": "研究 Agent"
     }
   ]
 }

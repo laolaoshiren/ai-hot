@@ -20,7 +20,7 @@ ai_summary = "对于世界上大多数人来说，开源人工智能是唯一的
 summary = "Article URL: https://techstrong.ai/articles/for-most-of-the-world-open-source-ai-is-the-only-way-forward/ Comments URL: https://news."
 summary_zh = "对于世界上大多数人来说，开源人工智能是唯一的出路。来源：Hacker News AI"
 tags = []
-list_page = 177
+list_page = 178
 +++
 
 <!-- AUTO-GENERATED: news page -->
