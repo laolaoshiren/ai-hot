@@ -836,7 +836,7 @@
     {
       "id": "moonshotai/kimi-k3",
       "canonical_slug": "moonshotai/kimi-k3-20260715",
-      "hugging_face_id": null,
+      "hugging_face_id": "moonshotai/Kimi-K3",
       "name": "MoonshotAI: Kimi K3",
       "created": 1784215858,
       "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
@@ -867,19 +867,28 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
+        "logprobs",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
+        "repetition_penalty",
         "response_format",
+        "seed",
         "stop",
         "structured_outputs",
+        "temperature",
         "tool_choice",
-        "tools"
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
       ],
       "default_parameters": {
         "temperature": null,
-        "top_p": null,
+        "top_p": 0.95,
         "top_k": null,
         "frequency_penalty": null,
         "presence_penalty": null,
@@ -1268,18 +1277,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000006",
-        "web_search": "0.01",
-        "input_cache_read": "0.0000001",
-        "input_cache_write": "0.00000125",
+        "prompt": "0.0000005",
+        "completion": "0.000003",
+        "web_search": "0.005",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000002",
-            "completion": "0.000009",
-            "input_cache_read": "0.0000002",
-            "input_cache_write": "0.0000025"
+            "prompt": "0.000001",
+            "completion": "0.0000045",
+            "input_cache_read": "0.0000001",
+            "input_cache_write": "0.00000125"
           }
         ]
       },
@@ -1351,18 +1360,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000001",
-        "completion": "0.000006",
-        "web_search": "0.01",
-        "input_cache_read": "0.0000001",
-        "input_cache_write": "0.00000125",
+        "prompt": "0.0000005",
+        "completion": "0.000003",
+        "web_search": "0.005",
+        "input_cache_read": "0.00000005",
+        "input_cache_write": "0.000000625",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000002",
-            "completion": "0.000009",
-            "input_cache_read": "0.0000002",
-            "input_cache_write": "0.0000025"
+            "prompt": "0.000001",
+            "completion": "0.0000045",
+            "input_cache_read": "0.0000001",
+            "input_cache_write": "0.00000125"
           }
         ]
       },
@@ -1442,18 +1451,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
-        "web_search": "0.01",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
+        "prompt": "0.00000125",
+        "completion": "0.0000075",
+        "web_search": "0.005",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0.0000015625",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000005",
-            "completion": "0.0000225",
-            "input_cache_read": "0.0000005",
-            "input_cache_write": "0.00000625"
+            "prompt": "0.0000025",
+            "completion": "0.00001125",
+            "input_cache_read": "0.00000025",
+            "input_cache_write": "0.000003125"
           }
         ]
       },
@@ -1525,18 +1534,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000015",
-        "web_search": "0.01",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.000003125",
+        "prompt": "0.00000125",
+        "completion": "0.0000075",
+        "web_search": "0.005",
+        "input_cache_read": "0.000000125",
+        "input_cache_write": "0.0000015625",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000005",
-            "completion": "0.0000225",
-            "input_cache_read": "0.0000005",
-            "input_cache_write": "0.00000625"
+            "prompt": "0.0000025",
+            "completion": "0.00001125",
+            "input_cache_read": "0.00000025",
+            "input_cache_write": "0.000003125"
           }
         ]
       },
@@ -2979,9 +2988,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000007868",
-        "completion": "0.0000024728",
-        "input_cache_read": "0.00000014612"
+        "prompt": "0.0000007644",
+        "completion": "0.0000024024",
+        "input_cache_read": "0.00000014196"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -6570,19 +6579,28 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
+        "logprobs",
         "max_tokens",
+        "min_p",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
+        "repetition_penalty",
         "response_format",
+        "seed",
         "stop",
         "structured_outputs",
+        "temperature",
         "tool_choice",
-        "tools"
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
       ],
       "default_parameters": {
         "temperature": null,
-        "top_p": null,
+        "top_p": 0.95,
         "top_k": null,
         "frequency_penalty": null,
         "presence_penalty": null,
@@ -9183,8 +9201,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000013",
-        "completion": "0.0000004",
+        "prompt": "0.00000014",
+        "completion": "0.00000042",
         "input_cache_read": "0.00000005"
       },
       "top_provider": {
@@ -17108,17 +17126,16 @@
         "prompt": "0.00000125",
         "completion": "0.00001",
         "web_search": "0.01",
-        "input_cache_read": "0.000000125"
+        "input_cache_read": "0.00000013"
       },
       "top_provider": {
         "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
+        "max_completion_tokens": 32000,
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
         "max_completion_tokens",
-        "max_tokens",
         "response_format",
         "seed",
         "structured_outputs",
@@ -25762,50 +25779,6 @@
       }
     },
     {
-      "id": "openai/gpt-4o-search-preview",
-      "canonical_slug": "openai/gpt-4o-search-preview-2025-03-11",
-      "hugging_face_id": "",
-      "name": "OpenAI: GPT-4o Search Preview",
-      "created": 1741817949,
-      "description": "GPT-4o Search Previewis a specialized model for web search in Chat Completions. It is trained to understand and execute web search queries.",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.00001",
-        "web_search": "0.035"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "structured_outputs",
-        "web_search_options"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-10-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/gpt-4o-search-preview-2025-03-11/endpoints"
-      }
-    },
-    {
       "id": "rekaai/reka-flash-3",
       "canonical_slug": "rekaai/reka-flash-3",
       "hugging_face_id": "RekaAI/reka-flash-3",
@@ -29583,5 +29556,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-27T14:16:18.225436+00:00"
+  "updated_at": "2026-07-27T19:17:55.276493+00:00"
 }

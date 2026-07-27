@@ -1,8 +1,8 @@
 +++
 title = "人工智能公司正在粉碎善本书籍"
-description = "人工智能公司正在粉碎善本书籍。来源：Hacker News AI。"
+description = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588485296565 评论网址：https://news."
 seo_title = "人工智能公司正在粉碎善本书籍｜AI资讯解读 - AI热榜"
-seo_description = "人工智能公司正在粉碎善本书籍。来源：Hacker News AI。"
+seo_description = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588485296565 评论网址：https://news."
 seo_keywords = "人工智能公司正在粉碎善本书籍, Hacker News AI, AI新闻, AI资讯, AI热榜"
 slug = "2cdfbbed621d"
 type = "news"
@@ -15,12 +15,12 @@ original_url = "https://xcancel.com/HedgieMarkets/status/2081534588485296565"
 source = "Hacker News AI"
 published = "2026-07-27T12:32:12"
 lang = "en"
-intro = "人工智能公司正在粉碎善本书籍。来源：Hacker News AI。"
+intro = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588485296565 评论网址：https://news."
 ai_summary = "文章网址：https://xcancel.com/HedgieMarkets/status/20815345884852…"
 summary = "Article URL: https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news."
-summary_zh = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588485296565 评论网址：https://news.ycombinator.com/item?id=49068738 积分…"
+summary_zh = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588485296565 评论网址：https://news."
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->
