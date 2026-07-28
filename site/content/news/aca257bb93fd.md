@@ -20,7 +20,7 @@ ai_summary = "初创公司创始人敦促美国政府不要关闭中国开放重
 summary = "https://littletech.org/https://static.politico.com/4a/bf/9c4021d8404386b0a311dcccf0."
 summary_zh = "初创公司创始人敦促美国政府不要关闭中国开放重量人工智能。来源：Hacker News AI"
 tags = []
-list_page = 20
+list_page = 22
 +++
 
 <!-- AUTO-GENERATED: news page -->
