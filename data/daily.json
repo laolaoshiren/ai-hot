@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-27T19:17:55.395594",
-  "date": "2026-07-27",
+  "updated_at": "2026-07-28T01:50:46.518931",
+  "date": "2026-07-28",
   "spotlight": {
-    "name": "agentUniverse",
-    "url": "https://github.com/agentuniverse-ai/agentUniverse",
+    "name": "Ralph",
+    "url": "https://github.com/snarktank/ralph",
     "type": "agent",
-    "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
+    "description": "自主循环式 AI Agent，会围绕产品需求反复执行任务，直到需求清单里的事项完成。",
     "pricing": "开源免费",
-    "category": "多 Agent"
+    "category": "自动化 Agent"
   },
   "alternates": [
     {
-      "id": "comfyui",
-      "name": "ComfyUI",
-      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "id": "dalle3",
+      "name": "DALL-E 3",
+      "url": "https://openai.com/dall-e-3",
       "type": "tool",
-      "description": "节点式 AI 绘画工作流引擎，最强可控性",
-      "pricing": "开源免费",
+      "description": "OpenAI 官方图像生成，ChatGPT Plus 内置",
+      "pricing": "ChatGPT Plus 内含",
       "category": "绘画"
     },
     {
-      "name": "STORM",
-      "url": "https://github.com/stanford-oval/storm",
+      "name": "SmolAgents",
+      "url": "https://github.com/huggingface/smolagents",
       "type": "agent",
-      "description": "斯坦福出品的AI知识文章生成器",
+      "description": "Hugging Face 轻量级 AI Agent 框架，主打代码优先、工具调用和快速搭建研究/自动化智能体。",
       "pricing": "开源免费",
       "category": "研究 Agent"
     },
     {
-      "name": "Autoresearch",
-      "url": "https://github.com/karpathy/autoresearch",
+      "name": "Crucix",
+      "url": "https://github.com/calesthio/Crucix",
       "type": "agent",
-      "description": "Karpathy 出品的自动研究 Agent，在单 GPU 上自动进行 nanochat 训练研究，自动化 AI 实验流程",
+      "description": "个人情报 Agent，持续监控多数据源并在发生变化时主动通知你，自动化信息追踪",
       "pricing": "免费开源",
-      "category": "研究 Agent"
+      "category": "自动化 Agent"
     }
   ]
 }

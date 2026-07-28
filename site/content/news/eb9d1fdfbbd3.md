@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Taste，决定天花板。"
 summary_zh = ""
 tags = []
-list_page = 130
+list_page = 131
 +++
 
 <!-- AUTO-GENERATED: news page -->

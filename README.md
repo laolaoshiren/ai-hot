@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-28 03:18:44
+🕐 **最近更新**：2026-07-28 09:51:39
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [微软推出首个网络安全模型以及新的代理网络安全系统](https://aihot.bt199.com/news/699cca776fc6/)
-   - 微软本周推出了首个人工智能安全模型和新的安全平台，增强了其人工智能网络安全产品
-   - `TechCrunch AI · 2026-07-27`
+1. [Anthropic的Dario Amodei回应：不反对开放权重模型，但担心中国AI](https://aihot.bt199.com/news/063a78a65e9e/)
+   - Anthropic创始人兼首席执行官Dario Amodei明确表达了他对开放权重模型和中国不断增长的人工智能能力的看法…
+   - `TechCrunch AI · 2026-07-28`
 
-2. [OpenAI 的 Hugging Face 漏洞重新引发了关于对齐和控制的争论](https://aihot.bt199.com/news/999e3252e27a/)
-   - OpenAI 的 Hugging Face 漏洞重新引发了关于人工智能调整和控制的争论，暴露了关于能力日益增强的人工智能…
+2. [萨蒂亚·纳德拉 (Satya Nadella) 表示，那些相信一种人工智能能解决所有问题的公司可能无法生存](https://aihot.bt199.com/news/f1637c21f380/)
+   - 纳德拉表示，没有自己的模型的公司，或者没有被称为人工智能网关的人工智能基础设施层，将其提示与模型本身分开的公司，将会遇到…
    - `TechCrunch AI · 2026-07-27`
 
 3. [OpenAI 称“拥抱脸部”攻击是史无前例的。但我们以前来过这里。](https://aihot.bt199.com/news/bd9265e44747/)
@@ -48,13 +48,13 @@
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-9. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
+9. [微软推出人工智能安全工具，称其性能优于竞争平台](https://aihot.bt199.com/news/531f2adf5089/)
+   - 微软表示，工具的成本低于竞争对手，而且性能也优于竞争对手
+   - `Ars Technica AI · 2026-07-27`
+
+10. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
    - 上市公司正在以本世纪最快的速度筹集资金
    - `Ars Technica AI · 2026-07-16`
-
-10. [Sheetz 退出 VMware，迁移 11,000 台虚拟机](https://aihot.bt199.com/news/62bd02127289/)
-   - 这家连锁便利店将改用 StorMagic
-   - `Ars Technica AI · 2026-07-15`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = "Andrew Dai 凭借十多年来帮助构建一些世界上最具影�
 summary = "Drawing on more than a decade spent helping build some of the world's most influential AI systems, including research that later informed the development of ChatGPT, Andrew Dai explains why he believes visual AI is one of the next major frontiers in artificial intelligence."
 summary_zh = "Andrew Dai 凭借十多年来帮助构建一些世界上最具影响力的人工智能系统的经验，包括后来为 ChatGPT 的开发提供信息的研究，解释了为什么他认为视觉人工智能是人工智能的下一个主要前沿领域之一"
 tags = []
-list_page = 60
+list_page = 61
 +++
 
 <!-- AUTO-GENERATED: news page -->
