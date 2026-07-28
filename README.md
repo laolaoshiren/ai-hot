@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-28 21:48:15
+🕐 **最近更新**：2026-07-29 03:14:48
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,8 +16,8 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic的Dario Amodei回应：不反对开放权重模型，但担心中国AI](https://aihot.bt199.com/news/063a78a65e9e/)
-   - Anthropic创始人兼首席执行官Dario Amodei明确表达了他对开放权重模型和中国不断增长的人工智能能力的看法…
+1. [Fish Audio 筹集了 5200 万美元种子资金，为创作者和企业构建 AI 语音模型](https://aihot.bt199.com/news/72e62aa28e25/)
+   - 自去年成立以来，这家初创公司如今已有超过 800 万人使用其模型的开源或托管版本，目前每年产生的经常性收入为 2100…
    - `TechCrunch AI · 2026-07-28`
 
 2. [Perplexity 的个人电脑将 Windows PC 变成人工智能代理](https://aihot.bt199.com/news/39519f6ad210/)
@@ -32,9 +32,9 @@
    - 在过去的几个月里，我花了很多时间与电脑交谈。法学硕士革命的一个被低估的特点是各种听写技术的显着飞跃 - 即使是最快、最便…
    - `The Verge AI · 2026-07-28`
 
-5. [三星的芯片工人正在跳槽到竞争对手 SK 海力士](https://aihot.bt199.com/news/e9c7d242f0b7/)
-   - 三星半导体部门的工程师李在下班时打卡下班。他过去常常工作更长的时间，加倍努力以出色地完成他的项目。但最近，他直接回家为这…
-   - `MIT Tech Review · 2026-07-28`
+5. [OpenAI 称“拥抱脸部”攻击是史无前例的。但我们以前来过这里。](https://aihot.bt199.com/news/bd9265e44747/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类报道，请在此处注册。上周阅读 Ope…
+   - `MIT Tech Review · 2026-07-27`
 
 6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

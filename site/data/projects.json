@@ -7254,6 +7254,31 @@
     "collected_at": "2026-07-28T01:50:05.305505"
   },
   {
+    "id": "github-1307828961",
+    "name": "KGupta171025/KALKI-1.5",
+    "display_name": "KALKI-1.5",
+    "url": "https://github.com/KGupta171025/KALKI-1.5",
+    "description": "KALKI AI (Krishna Artificial Lattice Keystone Intelligence) is an Enterprise Intelligence Operating System (IOS) combining LLMs, VLMs, autonomous multi-agents, hybrid RAG, and defensive cybersecurity.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "cybersecurity-defensive",
+      "docker",
+      "fastapi",
+      "mcp",
+      "multi-agent-systems",
+      "nextjs",
+      "retrieval-augmented-generation"
+    ],
+    "created_at": "2026-07-21T15:08:03Z",
+    "updated_at": "2026-07-28T15:18:30Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-07-28T19:13:05.059277"
+  },
+  {
     "id": "github-1205101736",
     "name": "antarr/mysql_genius",
     "display_name": "mysql_genius",

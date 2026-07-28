@@ -47,12 +47,12 @@
       "GPT-5.6 Luna",
       "GPT-5.6 Terra Pro"
     ],
-    "model_count": 64,
+    "model_count": 73,
     "last_updated": "2026-07-09",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 64 个该作者/厂商相关模型，最近更新为 GPT-5.6 Luna Pro",
+    "live_summary": "OpenRouter 已收录 73 个该作者/厂商相关模型，最近更新为 GPT-5.6 Luna Pro",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
   },
@@ -73,14 +73,14 @@
     "latest_models": [
       "Claude Opus 5 (Fast)",
       "Claude Opus 5",
-      "Claude Sonnet 5"
+      "Claude Opus 5 (batch)"
     ],
-    "model_count": 17,
+    "model_count": 27,
     "last_updated": "2026-07-24",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 17 个该作者/厂商相关模型，最近更新为 Claude Opus 5 (Fast)",
+    "live_summary": "OpenRouter 已收录 27 个该作者/厂商相关模型，最近更新为 Claude Opus 5 (Fast)",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
   },
@@ -99,16 +99,16 @@
     "source": "openrouter",
     "latest_models": [
       "Gemini 3.6 Flash",
-      "Gemini 3.5 Flash Lite",
-      "Nano Banana 2 Lite (Gemini 3.1 Flash Lite Image)"
+      "Gemini 3.6 Flash (batch)",
+      "Gemini 3.5 Flash Lite"
     ],
-    "model_count": 30,
+    "model_count": 39,
     "last_updated": "2026-07-21",
     "modalities": [
       "视频",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 30 个该作者/厂商相关模型，最近更新为 Gemini 3.6 Flash",
+    "live_summary": "OpenRouter 已收录 39 个该作者/厂商相关模型，最近更新为 Gemini 3.6 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=google.com&sz=64"
   },
@@ -314,17 +314,16 @@
     "source": "openrouter",
     "latest_models": [
       "MiniMax M3",
-      "MiniMax M2.7",
-      "MiniMax M2.5"
+      "MiniMax M3 (batch)",
+      "MiniMax M2.7"
     ],
-    "model_count": 8,
+    "model_count": 9,
     "last_updated": "2026-05-31",
     "modalities": [
       "视频",
-      "文本",
-      "多模态"
+      "文本"
     ],
-    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 MiniMax M3",
+    "live_summary": "OpenRouter 已收录 9 个该作者/厂商相关模型，最近更新为 MiniMax M3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=minimax.io&sz=64"
   },
