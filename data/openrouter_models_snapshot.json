@@ -130,14 +130,7 @@
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -2282,6 +2275,10 @@
     {
       "id": "~x-ai/grok-latest",
       "canonical_slug": "~x-ai/grok-latest",
+      "alias_target": {
+        "name": "xAI: Grok 4.5",
+        "slug": "x-ai/grok-4.5"
+      },
       "hugging_face_id": null,
       "name": "xAI: Grok Latest",
       "created": 1783519360,
@@ -3501,9 +3498,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000728",
-        "completion": "0.000002288",
-        "input_cache_read": "0.0000001352"
+        "prompt": "0.000000693",
+        "completion": "0.000002178",
+        "input_cache_read": "0.0000001287"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -3920,6 +3917,10 @@
     {
       "id": "~anthropic/claude-fable-latest",
       "canonical_slug": "~anthropic/claude-fable-latest",
+      "alias_target": {
+        "name": "Anthropic: Claude Fable 5",
+        "slug": "anthropic/claude-fable-5"
+      },
       "hugging_face_id": null,
       "name": "Anthropic: Claude Fable Latest",
       "created": 1781029944,
@@ -7656,6 +7657,10 @@
     {
       "id": "~anthropic/claude-haiku-latest",
       "canonical_slug": "~anthropic/claude-haiku-latest",
+      "alias_target": {
+        "name": "Anthropic: Claude Haiku 4.5",
+        "slug": "anthropic/claude-haiku-4.5"
+      },
       "hugging_face_id": null,
       "name": "Anthropic Claude Haiku Latest",
       "created": 1777318492,
@@ -7723,6 +7728,10 @@
     {
       "id": "~openai/gpt-mini-latest",
       "canonical_slug": "~openai/gpt-mini-latest",
+      "alias_target": {
+        "name": "OpenAI: GPT-5.4 Mini",
+        "slug": "openai/gpt-5.4-mini"
+      },
       "hugging_face_id": null,
       "name": "OpenAI GPT Mini Latest",
       "created": 1777318471,
@@ -7795,6 +7804,10 @@
     {
       "id": "~google/gemini-pro-latest",
       "canonical_slug": "~google/gemini-pro-latest",
+      "alias_target": {
+        "name": "Google: Gemini 3.1 Pro Preview",
+        "slug": "google/gemini-3.1-pro-preview"
+      },
       "hugging_face_id": null,
       "name": "Google Gemini Pro Latest",
       "created": 1777318451,
@@ -7883,6 +7896,10 @@
     {
       "id": "~moonshotai/kimi-latest",
       "canonical_slug": "~moonshotai/kimi-latest",
+      "alias_target": {
+        "name": "MoonshotAI: Kimi K3",
+        "slug": "moonshotai/kimi-k3"
+      },
       "hugging_face_id": null,
       "name": "MoonshotAI Kimi Latest",
       "created": 1777318428,
@@ -7961,6 +7978,10 @@
     {
       "id": "~google/gemini-flash-latest",
       "canonical_slug": "~google/gemini-flash-latest",
+      "alias_target": {
+        "name": "Google: Gemini 3.6 Flash",
+        "slug": "google/gemini-3.6-flash"
+      },
       "hugging_face_id": null,
       "name": "Google Gemini Flash Latest",
       "created": 1777318398,
@@ -8041,6 +8062,10 @@
     {
       "id": "~anthropic/claude-sonnet-latest",
       "canonical_slug": "~anthropic/claude-sonnet-latest",
+      "alias_target": {
+        "name": "Anthropic: Claude Sonnet 5",
+        "slug": "anthropic/claude-sonnet-5"
+      },
       "hugging_face_id": null,
       "name": "Anthropic Claude Sonnet Latest",
       "created": 1777318368,
@@ -8116,6 +8141,10 @@
     {
       "id": "~openai/gpt-latest",
       "canonical_slug": "~openai/gpt-latest",
+      "alias_target": {
+        "name": "OpenAI: GPT-5.6 Sol",
+        "slug": "openai/gpt-5.6-sol"
+      },
       "hugging_face_id": null,
       "name": "OpenAI GPT Latest",
       "created": 1777318334,
@@ -9962,6 +9991,10 @@
     {
       "id": "~anthropic/claude-opus-latest",
       "canonical_slug": "~anthropic/claude-opus-latest",
+      "alias_target": {
+        "name": "Claude Opus 5",
+        "slug": "anthropic/claude-opus-5"
+      },
       "hugging_face_id": "",
       "name": "Anthropic: Claude Opus Latest",
       "created": 1776795361,
@@ -19049,10 +19082,8 @@
       "per_request_limits": null,
       "supported_parameters": [
         "frequency_penalty",
-        "logprobs",
         "max_tokens",
         "presence_penalty",
-        "repetition_penalty",
         "response_format",
         "seed",
         "stop",
@@ -19060,7 +19091,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -22063,12 +22093,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006"
+        "prompt": "0.00000013",
+        "completion": "0.00000052"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -25949,7 +25979,6 @@
         "logit_bias",
         "logprobs",
         "max_tokens",
-        "min_p",
         "presence_penalty",
         "repetition_penalty",
         "response_format",
@@ -28565,7 +28594,6 @@
         "frequency_penalty",
         "include_reasoning",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -28574,12 +28602,10 @@
         "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -33843,5 +33869,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-29T13:52:21.991746+00:00"
+  "updated_at": "2026-07-29T19:02:46.319871+00:00"
 }
