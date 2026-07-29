@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-28T19:13:55.596255",
-  "date": "2026-07-28",
+  "updated_at": "2026-07-29T01:53:21.421874",
+  "date": "2026-07-29",
   "spotlight": {
-    "name": "Ralph",
-    "url": "https://github.com/snarktank/ralph",
+    "name": "Pentagi",
+    "url": "https://github.com/vxcontrol/pentagi",
     "type": "agent",
-    "description": "自主循环式 AI Agent，会围绕产品需求反复执行任务，直到需求清单里的事项完成。",
+    "description": "面向渗透测试的自主 AI Agent 系统，可自动拆解安全测试任务并执行复杂攻防流程。",
     "pricing": "开源免费",
     "category": "自动化 Agent"
   },
   "alternates": [
     {
-      "id": "dalle3",
-      "name": "DALL-E 3",
-      "url": "https://openai.com/dall-e-3",
+      "id": "可灵",
+      "name": "可灵 AI",
+      "url": "https://klingai.com",
       "type": "tool",
-      "description": "OpenAI 官方图像生成，ChatGPT Plus 内置",
-      "pricing": "ChatGPT Plus 内含",
-      "category": "绘画"
+      "description": "快手出品的 AI 视频生成工具，国产最强",
+      "pricing": "免费 + 会员",
+      "category": "视频"
     },
     {
-      "name": "SmolAgents",
-      "url": "https://github.com/huggingface/smolagents",
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "type": "agent",
-      "description": "Hugging Face 轻量级 AI Agent 框架，主打代码优先、工具调用和快速搭建研究/自动化智能体。",
+      "description": "最早爆火的自主AI Agent框架",
       "pricing": "开源免费",
-      "category": "研究 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "name": "Crucix",
-      "url": "https://github.com/calesthio/Crucix",
+      "name": "Agency Agents 中文版",
+      "url": "https://github.com/jnMetaCode/agency-agents-zh",
       "type": "agent",
-      "description": "个人情报 Agent，持续监控多数据源并在发生变化时主动通知你，自动化信息追踪",
+      "description": "211 个即插即用的 AI 专家角色，支持 16 种工具（Hermes/Claude Code/Cursor/Copilot 等），覆盖 18 个部门，含 46 个中国市场原创智能体",
       "pricing": "免费开源",
-      "category": "自动化 Agent"
+      "category": "平台 Agent"
     }
   ]
 }

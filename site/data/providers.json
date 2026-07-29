@@ -73,14 +73,14 @@
     "latest_models": [
       "Claude Opus 5 (Fast)",
       "Claude Opus 5",
-      "Claude Opus 5 (batch)"
+      "Claude Sonnet 5"
     ],
-    "model_count": 27,
+    "model_count": 26,
     "last_updated": "2026-07-24",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 27 个该作者/厂商相关模型，最近更新为 Claude Opus 5 (Fast)",
+    "live_summary": "OpenRouter 已收录 26 个该作者/厂商相关模型，最近更新为 Claude Opus 5 (Fast)",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
   },

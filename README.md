@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-29 03:14:48
+🕐 **最近更新**：2026-07-29 09:54:24
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,33 @@
 
 ## 🔥 今日热点
 
-1. [Fish Audio 筹集了 5200 万美元种子资金，为创作者和企业构建 AI 语音模型](https://aihot.bt199.com/news/72e62aa28e25/)
-   - 自去年成立以来，这家初创公司如今已有超过 800 万人使用其模型的开源或托管版本，目前每年产生的经常性收入为 2100…
-   - `TechCrunch AI · 2026-07-28`
-
-2. [Perplexity 的个人电脑将 Windows PC 变成人工智能代理](https://aihot.bt199.com/news/39519f6ad210/)
-   - Perplexity 已将其代理个人计算机工具扩展到 Windows，允许运行世界上最流行操作系统的计算机用作本地运行的…
+1. [人工智能终于昂贵到让华尔街感到紧张](https://aihot.bt199.com/news/24bcc75f1908/)
+   - 财报季来临，投资者从 Google 得到了一个令人不快的惊喜：其支出预期从上一季度高达 1900 亿美元的预测上调至 2…
    - `The Verge AI · 2026-07-28`
 
-3. [下载：OpenAI 可预测的黑客攻击以及 AI 股票的抛售](https://aihot.bt199.com/news/c57d8e185498/)
+2. [下载：OpenAI 可预测的黑客攻击以及 AI 股票的抛售](https://aihot.bt199.com/news/c57d8e185498/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 称“拥抱脸部”攻击是…
    - `MIT Tech Review · 2026-07-28`
 
-4. [智能戒指看起来就像我喜欢的人工智能小工具](https://aihot.bt199.com/news/6c105a22f960/)
-   - 在过去的几个月里，我花了很多时间与电脑交谈。法学硕士革命的一个被低估的特点是各种听写技术的显着飞跃 - 即使是最快、最便…
-   - `The Verge AI · 2026-07-28`
+3. [三星的芯片工人正在跳槽到竞争对手 SK 海力士](https://aihot.bt199.com/news/e9c7d242f0b7/)
+   - 三星半导体部门的工程师李在下班时打卡下班。他过去常常工作更长的时间，加倍努力以出色地完成他的项目。但最近，他直接回家为这…
+   - `MIT Tech Review · 2026-07-28`
 
-5. [OpenAI 称“拥抱脸部”攻击是史无前例的。但我们以前来过这里。](https://aihot.bt199.com/news/bd9265e44747/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类报道，请在此处注册。上周阅读 Ope…
-   - `MIT Tech Review · 2026-07-27`
-
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+4. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+5. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [微软推出人工智能安全工具，称其性能优于竞争平台](https://aihot.bt199.com/news/531f2adf5089/)
+6. [Cyera 同意以 10 亿美元收购 Oasis Security，以保护不断扩散的人工智能代理](https://aihot.bt199.com/news/992c30afce20/)
+   - 该交易是 Cyera 今年的第三次收购
+   - `TechCrunch AI · 2026-07-29`
+
+7. [微软推出人工智能安全工具，称其性能优于竞争平台](https://aihot.bt199.com/news/531f2adf5089/)
    - 微软表示，工具的成本低于竞争对手，而且性能也优于竞争对手
    - `Ars Technica AI · 2026-07-27`
-
-9. [随着投资者寻找利用人工智能热潮的方法，能源首次公开募股激增](https://aihot.bt199.com/news/3b5274402cd7/)
-   - 上市公司正在以本世纪最快的速度筹集资金
-   - `Ars Technica AI · 2026-07-16`
 
 
 ## 🤖 AI 简报
@@ -135,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 
