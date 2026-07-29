@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-29 09:54:24
+🕐 **最近更新**：2026-07-29 16:28:42
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,9 +24,9 @@
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 称“拥抱脸部”攻击是…
    - `MIT Tech Review · 2026-07-28`
 
-3. [三星的芯片工人正在跳槽到竞争对手 SK 海力士](https://aihot.bt199.com/news/e9c7d242f0b7/)
-   - 三星半导体部门的工程师李在下班时打卡下班。他过去常常工作更长的时间，加倍努力以出色地完成他的项目。但最近，他直接回家为这…
-   - `MIT Tech Review · 2026-07-28`
+3. [OpenAI 称“拥抱脸部”攻击是史无前例的。但我们以前来过这里。](https://aihot.bt199.com/news/bd9265e44747/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类报道，请在此处注册。上周阅读 Ope…
+   - `MIT Tech Review · 2026-07-27`
 
 4. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -127,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 
