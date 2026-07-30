@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-30 16:13:46
+🕐 **最近更新**：2026-07-30 21:43:58
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争](https://aihot.bt199.com/news/750af35496d7/)
+1. [Dili 融资 2170 万美元，推动基础设施热潮中的人工智能合规性](https://aihot.bt199.com/news/559d474d4ae0/)
+   - Dili 融资 2170 万美元，推动基础设施热潮中的人工智能合规性。来源：TechCrunch AI
+   - `TechCrunch AI · 2026-07-30`
+
+2. [微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争](https://aihot.bt199.com/news/750af35496d7/)
    - 周三，微软推出了自己的本土人工智能模型、工具，甚至还有 Mythos 的竞争对手，告诉华尔街它计划继续增长
    - `TechCrunch AI · 2026-07-30`
 
-2. [马克·扎克伯格预测五年内数十亿人将拥有个人人工智能代理](https://aihot.bt199.com/news/1929c1854e3f/)
-   - 随着 Meta 向人工智能基础设施和代理投入数十亿美元，扎克伯格正在努力让投资者相信回报是值得的
-   - `TechCrunch AI · 2026-07-29`
+3. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一个根本缺陷使法学硕士极易受到攻击…
+   - `MIT Tech Review · 2026-07-30`
 
-3. [微软确认 Copilot “超级应用”将于今年推出](https://aihot.bt199.com/news/2aaefae5d079/)
+4. [一个根本性的缺陷使得法学硕士极易受到攻击](https://aihot.bt199.com/news/d3ef4a34cd19/)
+   - 一个研究小组在本月顶级人工智能会议国际机器学习会议上发表的一篇论文中指出，大型语言模型不可能完全免受黑客攻击，因为它们的…
+   - `MIT Tech Review · 2026-07-30`
+
+5. [微软确认 Copilot “超级应用”将于今年推出](https://aihot.bt199.com/news/2aaefae5d079/)
    - 微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软…
    - `The Verge AI · 2026-07-29`
 
-4. [马克·扎克伯格正计划大力推进个人人工智能代理](https://aihot.bt199.com/news/169a6f9c3953/)
+6. [马克·扎克伯格正计划大力推进个人人工智能代理](https://aihot.bt199.com/news/169a6f9c3953/)
    - Meta 全力投入人工智能领域，不久之后，该公司将大力推动个人人工智能代理的发展，这些代理可以代表你做事。在周三的 20…
    - `The Verge AI · 2026-07-29`
-
-5. [被忽视的地热发电厂如何获得第二次机会](https://aihot.bt199.com/news/2ef3d49a8641/)
-   - 2024 年 6 月，一家名为 Zanskar 的小公司购买了新墨西哥州的一座地热发电厂，但该发电厂很快就崩溃了。来自地…
-   - `MIT Tech Review · 2026-07-29`
-
-6. [下载：一场芯片人才之战，并抑制人工智能炒作](https://aihot.bt199.com/news/b43ed6d2237c/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。三星的芯片工人正在跳槽到竞争对手SK…
-   - `MIT Tech Review · 2026-07-29`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -3610,6 +3610,35 @@
     "collected_at": "2026-07-21T19:08:22.538859"
   },
   {
+    "id": "github-1128204614",
+    "name": "1jehuang/jcode",
+    "display_name": "jcode",
+    "url": "https://github.com/1jehuang/jcode",
+    "description": "The most RAM efficient harness",
+    "stars": 13930,
+    "forks": 1532,
+    "language": "Rust",
+    "topics": [
+      "ai",
+      "ai-agent",
+      "ai-coding-agent",
+      "claude",
+      "cli",
+      "coding-agent",
+      "llm",
+      "mcp",
+      "openai",
+      "rust",
+      "terminal",
+      "tui"
+    ],
+    "created_at": "2026-01-05T09:43:36Z",
+    "updated_at": "2026-07-30T13:41:10Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-07-30T13:42:06.817833"
+  },
+  {
     "id": "github-1197569406",
     "name": "NanmiCoder/cc-haha",
     "display_name": "cc-haha",
