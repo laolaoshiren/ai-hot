@@ -1019,6 +1019,7 @@
         "reasoning",
         "reasoning_effort",
         "repetition_penalty",
+        "response_format",
         "seed",
         "stop",
         "temperature",
@@ -1588,18 +1589,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000003",
+        "prompt": "0.0000001",
+        "completion": "0.0000006000000000000001",
         "web_search": "0.005",
-        "input_cache_read": "0.00000005",
-        "input_cache_write": "0.000000625",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.00000012500000000000002",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000001",
-            "completion": "0.0000045",
-            "input_cache_read": "0.0000001",
-            "input_cache_write": "0.00000125"
+            "prompt": "0.0000002",
+            "completion": "0.00000090000000000000005",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025000000000000005"
           }
         ]
       },
@@ -1671,18 +1672,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000003",
+        "prompt": "0.0000001",
+        "completion": "0.0000006000000000000001",
         "web_search": "0.005",
-        "input_cache_read": "0.00000005",
-        "input_cache_write": "0.000000625",
+        "input_cache_read": "0.00000001",
+        "input_cache_write": "0.00000012500000000000002",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.000001",
-            "completion": "0.0000045",
-            "input_cache_read": "0.0000001",
-            "input_cache_write": "0.00000125"
+            "prompt": "0.0000002",
+            "completion": "0.00000090000000000000005",
+            "input_cache_read": "0.00000002",
+            "input_cache_write": "0.00000025000000000000005"
           }
         ]
       },
@@ -1762,18 +1763,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000075",
+        "prompt": "0.00000100000000000000015",
+        "completion": "0.000006",
         "web_search": "0.005",
-        "input_cache_read": "0.000000125",
-        "input_cache_write": "0.0000015625",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.0000025",
-            "completion": "0.00001125",
-            "input_cache_read": "0.00000025",
-            "input_cache_write": "0.000003125"
+            "prompt": "0.0000020000000000000005",
+            "completion": "0.000009",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.0000025"
           }
         ]
       },
@@ -1845,18 +1846,18 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.0000075",
+        "prompt": "0.00000100000000000000015",
+        "completion": "0.000006",
         "web_search": "0.005",
-        "input_cache_read": "0.000000125",
-        "input_cache_write": "0.0000015625",
+        "input_cache_read": "0.0000001",
+        "input_cache_write": "0.00000125",
         "overrides": [
           {
             "min_prompt_tokens": 272000,
-            "prompt": "0.0000025",
-            "completion": "0.00001125",
-            "input_cache_read": "0.00000025",
-            "input_cache_write": "0.000003125"
+            "prompt": "0.0000020000000000000005",
+            "completion": "0.000009",
+            "input_cache_read": "0.0000002",
+            "input_cache_write": "0.0000025"
           }
         ]
       },
@@ -3505,9 +3506,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006139",
-        "completion": "0.0000019294",
-        "input_cache_read": "0.00000011401"
+        "prompt": "0.000000966",
+        "completion": "0.000003036",
+        "input_cache_read": "0.0000001794"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -7926,7 +7927,7 @@
       },
       "pricing": {
         "prompt": "0.0000029",
-        "completion": "0.000015",
+        "completion": "0.000014",
         "input_cache_read": "0.00000029"
       },
       "top_provider": {
@@ -10141,9 +10142,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000646",
-        "completion": "0.00000272",
-        "input_cache_read": "0.0000001088"
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 262144,
@@ -17214,7 +17215,6 @@
       "supported_parameters": [
         "include_reasoning",
         "max_completion_tokens",
-        "max_tokens",
         "reasoning",
         "reasoning_effort",
         "response_format",
@@ -18864,7 +18864,6 @@
       "supported_parameters": [
         "include_reasoning",
         "max_completion_tokens",
-        "max_tokens",
         "reasoning",
         "reasoning_effort",
         "response_format",
@@ -21798,138 +21797,6 @@
       }
     },
     {
-      "id": "openai/o3-deep-research",
-      "canonical_slug": "openai/o3-deep-research-2025-06-26",
-      "hugging_face_id": "",
-      "name": "OpenAI: o3 Deep Research",
-      "created": 1760129661,
-      "description": "o3-deep-research is OpenAI's advanced model for deep research, designed to tackle complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
-      "context_length": 200000,
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": [
-          "image",
-          "text",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00001",
-        "completion": "0.00004",
-        "web_search": "0.01",
-        "input_cache_read": "0.0000025"
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/o3-deep-research-2025-06-26/endpoints"
-      },
-      "reasoning": {
-        "mandatory": false
-      }
-    },
-    {
-      "id": "openai/o4-mini-deep-research",
-      "canonical_slug": "openai/o4-mini-deep-research-2025-06-26",
-      "hugging_face_id": "",
-      "name": "OpenAI: o4 Mini Deep Research",
-      "created": 1760129642,
-      "description": "o4-mini-deep-research is OpenAI's faster, more affordable deep research model—ideal for tackling complex, multi-step research tasks.\n\nNote: This model always uses the 'web_search' tool which adds additional cost.",
-      "context_length": 200000,
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": [
-          "file",
-          "image",
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000008",
-        "web_search": "0.01",
-        "input_cache_read": "0.0000005"
-      },
-      "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 100000,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/o4-mini-deep-research-2025-06-26/endpoints"
-      },
-      "reasoning": {
-        "mandatory": false
-      }
-    },
-    {
       "id": "google/gemini-2.5-flash-image",
       "canonical_slug": "google/gemini-2.5-flash-image",
       "hugging_face_id": "",
@@ -23249,81 +23116,6 @@
       },
       "reasoning": {
         "mandatory": false
-      }
-    },
-    {
-      "id": "openai/gpt-5-codex",
-      "canonical_slug": "openai/gpt-5-codex",
-      "hugging_face_id": "",
-      "name": "OpenAI: GPT-5 Codex",
-      "created": 1758643403,
-      "description": "GPT-5-Codex is a specialized version of GPT-5 optimized for software engineering and coding workflows. It is designed for both interactive development sessions and long, independent execution of complex engineering tasks....",
-      "context_length": 400000,
-      "architecture": {
-        "modality": "text+image->text",
-        "input_modalities": [
-          "text",
-          "image"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000125",
-        "completion": "0.00001",
-        "web_search": "0.01",
-        "input_cache_read": "0.000000125"
-      },
-      "top_provider": {
-        "context_length": 400000,
-        "max_completion_tokens": 128000,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "frequency_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-09-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/openai/gpt-5-codex/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "agents",
-            "category": "mobileapps",
-            "elo": 1126,
-            "win_rate": 43.2,
-            "rank": 28
-          },
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1138,
-            "win_rate": 52.4,
-            "rank": 27
-          }
-        ]
-      },
-      "reasoning": {
-        "mandatory": true
       }
     },
     {
@@ -33877,5 +33669,5 @@
       }
     }
   ],
-  "updated_at": "2026-07-30T13:42:51.902161+00:00"
+  "updated_at": "2026-07-30T19:15:00.574400+00:00"
 }

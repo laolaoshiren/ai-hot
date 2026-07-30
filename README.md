@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-30 21:43:58
+🕐 **最近更新**：2026-07-31 03:16:10
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [Dili 融资 2170 万美元，推动基础设施热潮中的人工智能合规性](https://aihot.bt199.com/news/559d474d4ae0/)
-   - Dili 融资 2170 万美元，推动基础设施热潮中的人工智能合规性。来源：TechCrunch AI
+1. [谷歌表示，得益于人工智能，六月份修复的 Chrome 错误比过去两年还要多](https://aihot.bt199.com/news/f41c7307b777/)
+   - 正如专家在过去两年中所警告的那样，由于法学硕士和人工智能工具的使用，一些公司（例如微软和现在的谷歌）正在发现并修补其产品…
    - `TechCrunch AI · 2026-07-30`
 
-2. [微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争](https://aihot.bt199.com/news/750af35496d7/)
-   - 周三，微软推出了自己的本土人工智能模型、工具，甚至还有 Mythos 的竞争对手，告诉华尔街它计划继续增长
+2. [LinkedIn 添加了一个按钮来报告人工智能生成的“溢出”](https://aihot.bt199.com/news/dc18fde4e6bc/)
+   - LinkedIn 正在引入新方法来减少人工智能生成的低质量帖子，其中包括“看起来像人工智能”的报告选项。它还用校对工具取…
    - `TechCrunch AI · 2026-07-30`
 
-3. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
+3. [LinkedIn 实际上添加了一个“看起来像 AI slop”按钮](https://aihot.bt199.com/news/0d730ddf1385/)
+   - LinkedIn 上的很多内容可能看起来像是人工智能的废话，现在，你将能够举报这些帖子。作为减少平台上 AI 溢出量的一…
+   - `The Verge AI · 2026-07-30`
+
+4. [谷歌DeepMind的新人工智能模型可以控制机器人的整个身体](https://aihot.bt199.com/news/6859a1dfdf57/)
+   - 谷歌 DeepMind 表示，其 Gemini Robotics 人工智能模型的最新版本可以“控制整个人形机器人”。据一…
+   - `The Verge AI · 2026-07-30`
+
+5. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一个根本缺陷使法学硕士极易受到攻击…
    - `MIT Tech Review · 2026-07-30`
 
-4. [一个根本性的缺陷使得法学硕士极易受到攻击](https://aihot.bt199.com/news/d3ef4a34cd19/)
+6. [一个根本性的缺陷使得法学硕士极易受到攻击](https://aihot.bt199.com/news/d3ef4a34cd19/)
    - 一个研究小组在本月顶级人工智能会议国际机器学习会议上发表的一篇论文中指出，大型语言模型不可能完全免受黑客攻击，因为它们的…
    - `MIT Tech Review · 2026-07-30`
-
-5. [微软确认 Copilot “超级应用”将于今年推出](https://aihot.bt199.com/news/2aaefae5d079/)
-   - 微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软…
-   - `The Verge AI · 2026-07-29`
-
-6. [马克·扎克伯格正计划大力推进个人人工智能代理](https://aihot.bt199.com/news/169a6f9c3953/)
-   - Meta 全力投入人工智能领域，不久之后，该公司将大力推动个人人工智能代理的发展，这些代理可以代表你做事。在周三的 20…
-   - `The Verge AI · 2026-07-29`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
