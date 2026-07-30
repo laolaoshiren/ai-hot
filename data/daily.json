@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-29T19:02:46.430279",
-  "date": "2026-07-29",
+  "updated_at": "2026-07-30T01:46:09.414054",
+  "date": "2026-07-30",
   "spotlight": {
-    "name": "Pentagi",
-    "url": "https://github.com/vxcontrol/pentagi",
+    "name": "Agent Skills",
+    "url": "https://github.com/addyosmani/agent-skills",
     "type": "agent",
-    "description": "面向渗透测试的自主 AI Agent 系统，可自动拆解安全测试任务并执行复杂攻防流程。",
+    "description": "为 AI 编程 Agent 准备的工程技能库，沉淀可复用的开发、调试和交付流程。",
     "pricing": "开源免费",
-    "category": "自动化 Agent"
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "可灵",
-      "name": "可灵 AI",
-      "url": "https://klingai.com",
+      "id": "pika",
+      "name": "Pika",
+      "url": "https://pika.art",
       "type": "tool",
-      "description": "快手出品的 AI 视频生成工具，国产最强",
-      "pricing": "免费 + 会员",
+      "description": "AI 视频生成工具，简单易用",
+      "pricing": "免费 + 付费",
       "category": "视频"
     },
     {
-      "name": "AutoGPT",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "BabyAGI",
+      "url": "https://github.com/yoheinakajima/babyagi",
       "type": "agent",
-      "description": "最早爆火的自主AI Agent框架",
+      "description": "轻量级自主AI Agent框架",
       "pricing": "开源免费",
       "category": "自动化 Agent"
     },
     {
-      "name": "Agency Agents 中文版",
-      "url": "https://github.com/jnMetaCode/agency-agents-zh",
+      "name": "Hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
       "type": "agent",
-      "description": "211 个即插即用的 AI 专家角色，支持 16 种工具（Hermes/Claude Code/Cursor/Copilot 等），覆盖 18 个部门，含 46 个中国市场原创智能体",
+      "description": "HeyGen 开源的 HTML 渲染视频框架，专为 AI Agent 设计，用 HTML 写代码直接生成视频内容",
       "pricing": "免费开源",
-      "category": "平台 Agent"
+      "category": "自动化 Agent"
     }
   ]
 }

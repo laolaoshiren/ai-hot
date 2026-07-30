@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-30 03:03:52
+🕐 **最近更新**：2026-07-30 09:47:00
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [Claude Opus 5 在负责运行自动售货机时变得非常无情](https://aihot.bt199.com/news/b509c20461f2/)
-   - Andon Labs 最新的自动售货机模拟显示 Opus 5 通过撒谎和串通成为有史以来最好的人工智能资本家
+1. [微软比以往任何时候都更加公开地与 OpenAI、Anthropic 竞争](https://aihot.bt199.com/news/750af35496d7/)
+   - 周三，微软推出了自己的本土人工智能模型、工具，甚至还有 Mythos 的竞争对手，告诉华尔街它计划继续增长
+   - `TechCrunch AI · 2026-07-30`
+
+2. [马克·扎克伯格预测五年内数十亿人将拥有个人人工智能代理](https://aihot.bt199.com/news/1929c1854e3f/)
+   - 随着 Meta 向人工智能基础设施和代理投入数十亿美元，扎克伯格正在努力让投资者相信回报是值得的
    - `TechCrunch AI · 2026-07-29`
 
-2. [Hint 是一家由 Martha Stewart 联合创立的新人工智能初创公司，为房主提供人工智能助手](https://aihot.bt199.com/news/c037c1f2be4b/)
-   - 人工智能家庭管理初创公司 Hint 由玛莎·斯图尔特 (Martha Stewart) 联合创立，希望成为“家庭人工智能…
-   - `TechCrunch AI · 2026-07-29`
+3. [微软确认 Copilot “超级应用”将于今年推出](https://aihot.bt199.com/news/2aaefae5d079/)
+   - 微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软…
+   - `The Verge AI · 2026-07-29`
 
-3. [被忽视的地热发电厂如何获得第二次机会](https://aihot.bt199.com/news/2ef3d49a8641/)
+4. [马克·扎克伯格正计划大力推进个人人工智能代理](https://aihot.bt199.com/news/169a6f9c3953/)
+   - Meta 全力投入人工智能领域，不久之后，该公司将大力推动个人人工智能代理的发展，这些代理可以代表你做事。在周三的 20…
+   - `The Verge AI · 2026-07-29`
+
+5. [被忽视的地热发电厂如何获得第二次机会](https://aihot.bt199.com/news/2ef3d49a8641/)
    - 2024 年 6 月，一家名为 Zanskar 的小公司购买了新墨西哥州的一座地热发电厂，但该发电厂很快就崩溃了。来自地…
    - `MIT Tech Review · 2026-07-29`
 
-4. [下载：一场芯片人才之战，并抑制人工智能炒作](https://aihot.bt199.com/news/b43ed6d2237c/)
+6. [下载：一场芯片人才之战，并抑制人工智能炒作](https://aihot.bt199.com/news/b43ed6d2237c/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。三星的芯片工人正在跳槽到竞争对手SK…
    - `MIT Tech Review · 2026-07-29`
-
-5. [艺术家们正在就人工智能的不当行为进行律师诉讼，有些甚至胜诉](https://aihot.bt199.com/news/731f01c1c0e3/)
-   - 当《大西洋月刊》发布了用于训练人工智能的可搜索作品数据集时，柯克·华莱士·约翰逊（Kirk Wallace Johnso…
-   - `The Verge AI · 2026-07-29`
-
-6. [OpenAI 的流氓 AI 代理并没有停止攻击 Hugging Face](https://aihot.bt199.com/news/45adb63cdeb5/)
-   - OpenAI 周二透露，从 OpenAI 逃脱并入侵开发者平台 Hugging Face 的人工智能代理也攻击了其他公司…
-   - `The Verge AI · 2026-07-29`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -48,9 +48,9 @@
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-9. [微软推出人工智能安全工具，称其性能优于竞争平台](https://aihot.bt199.com/news/531f2adf5089/)
-   - 微软表示，工具的成本低于竞争对手，而且性能也优于竞争对手
-   - `Ars Technica AI · 2026-07-27`
+9. [神话揭示了多年来不为人知的加密货币弱点](https://aihot.bt199.com/news/87eb876878a2/)
+   - 在人为结果中将谷壳与麦子分开是很困难的。无论如何，我们都会尝试一下
+   - `Ars Technica AI · 2026-07-29`
 
 
 ## 🤖 AI 简报
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
