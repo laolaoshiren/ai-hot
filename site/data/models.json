@@ -3717,6 +3717,54 @@
     "is_core": true
   },
   {
+    "id": "hf-lightonai--LightOnOCR-2-1B",
+    "name": "lightonai/LightOnOCR-2-1B",
+    "display_name": "LightOnOCR-2-1B",
+    "url": "https://huggingface.co/lightonai/LightOnOCR-2-1B",
+    "author": "lightonai",
+    "pipeline_tag": "image-text-to-text",
+    "likes": 777,
+    "downloads": 340737,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "mistral3",
+      "text-generation",
+      "ocr",
+      "document-understanding",
+      "vision-language",
+      "pdf",
+      "tables",
+      "forms",
+      "image-text-to-text",
+      "conversational",
+      "en",
+      "fr",
+      "de",
+      "es",
+      "it",
+      "nl",
+      "pt",
+      "sv",
+      "da",
+      "zh",
+      "ja",
+      "arxiv:2601.14251",
+      "arxiv:2412.13663",
+      "license:apache-2.0",
+      "eval-results",
+      "endpoints_compatible",
+      "region:eu",
+      "deploy:sagemaker",
+      "deploy:azure"
+    ],
+    "created_at": "2026-01-16T16:00:31.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-07-30T08:12:03.535385",
+    "display_priority": 98,
+    "is_core": true
+  },
+  {
     "id": "hf-MiniMaxAI--MiniMax-M3",
     "name": "MiniMaxAI/MiniMax-M3",
     "display_name": "MiniMax-M3",
@@ -3745,7 +3793,7 @@
     "created_at": "2026-06-02T07:49:31.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131840",
-    "display_priority": 98,
+    "display_priority": 99,
     "is_core": true
   },
   {
@@ -3772,7 +3820,7 @@
     "created_at": "2026-03-30T19:45:54.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733916",
-    "display_priority": 99,
+    "display_priority": 100,
     "is_core": true
   },
   {
@@ -3793,7 +3841,7 @@
     "created_at": "2026-03-05T15:20:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-08T13:15:04.246373",
-    "display_priority": 100,
+    "display_priority": 101,
     "is_core": true
   },
   {
@@ -3812,7 +3860,7 @@
     "created_at": "2026-03-24T10:54:10.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-06T19:28:23.277960",
-    "display_priority": 101,
+    "display_priority": 102,
     "is_core": true
   },
   {
@@ -3837,7 +3885,7 @@
     "created_at": "2026-05-04T19:45:38.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T20:06:23.430988",
-    "display_priority": 102,
+    "display_priority": 103,
     "is_core": true
   },
   {
@@ -3967,7 +4015,7 @@
     "created_at": "2026-06-04T05:37:32.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-03T02:09:18.195273",
-    "display_priority": 103,
+    "display_priority": 104,
     "is_core": true
   },
   {
@@ -3985,7 +4033,7 @@
     "created_at": "2026-07-21T13:10:05.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-22T08:13:10.453649",
-    "display_priority": 104,
+    "display_priority": 105,
     "is_core": true
   },
   {
@@ -4016,7 +4064,7 @@
     "created_at": "2026-07-06T13:16:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-28T08:20:22.589415",
-    "display_priority": 105,
+    "display_priority": 106,
     "is_core": true
   },
   {
@@ -4146,35 +4194,6 @@
     "created_at": "2026-06-04T05:37:32.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131880",
-    "display_priority": 106,
-    "is_core": true
-  },
-  {
-    "id": "hf-prefeitura-rio--Rio-3.5-Open-397B",
-    "name": "prefeitura-rio/Rio-3.5-Open-397B",
-    "display_name": "Rio-3.5-Open-397B",
-    "url": "https://huggingface.co/prefeitura-rio/Rio-3.5-Open-397B",
-    "author": "prefeitura-rio",
-    "pipeline_tag": "image-text-to-text",
-    "likes": 317,
-    "downloads": 189986,
-    "tags": [
-      "transformers",
-      "safetensors",
-      "qwen3_5_moe",
-      "image-text-to-text",
-      "conversational",
-      "pt",
-      "en",
-      "base_model:Qwen/Qwen3.5-397B-A17B",
-      "base_model:finetune:Qwen/Qwen3.5-397B-A17B",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "created_at": "2026-06-11T03:04:32.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-06-17T11:23:27.131849",
     "display_priority": 107,
     "is_core": true
   },

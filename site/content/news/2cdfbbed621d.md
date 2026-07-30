@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588
 summary = "Article URL: https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news."
 summary_zh = "文章网址：https://xcancel.com/HedgieMarkets/status/2081534588485296565 评论网址：https://news."
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "一个月只要340块"
 summary_zh = ""
 tags = []
-list_page = 216
+list_page = 217
 +++
 
 <!-- AUTO-GENERATED: news page -->
