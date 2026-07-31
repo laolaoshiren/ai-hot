@@ -20,7 +20,7 @@ ai_summary = "许多社交媒体帖子声称 GPT-5.6 Sol 在没有警告的情�
 summary = "A number of social media posts claim that GPT-5.6 Sol deleted files and data without warning. OpenAI had basically disclosed the problem in June."
 summary_zh = "许多社交媒体帖子声称 GPT-5.6 Sol 在没有警告的情况下删除了文件和数据。 OpenAI在6月份就基本披露了这个问题"
 tags = []
-list_page = 88
+list_page = 90
 +++
 
 <!-- AUTO-GENERATED: news page -->

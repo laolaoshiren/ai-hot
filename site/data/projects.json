@@ -5541,6 +5541,33 @@
     "collected_at": "2026-04-20T18:54:53.609621"
   },
   {
+    "id": "github-1317902880",
+    "name": "Indhu27-pixel/Labour-Law-Violation-System",
+    "display_name": "Labour-Law-Violation-System",
+    "url": "https://github.com/Indhu27-pixel/Labour-Law-Violation-System",
+    "description": "AI-powered Labour Law Violation Detection System using Weak Supervision, BiLSTM, Graph Neural Networks (GNN), and Explainable AI to identify labour law violations.",
+    "stars": 31,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "explainable-ai",
+      "flask",
+      "gnn",
+      "graph-neural-networks",
+      "labour-law",
+      "machine-learning",
+      "python",
+      "pytorch"
+    ],
+    "created_at": "2026-07-31T03:48:42Z",
+    "updated_at": "2026-07-31T08:11:47Z",
+    "license": "",
+    "source": "github-search",
+    "collected_at": "2026-07-31T08:39:37.377423"
+  },
+  {
     "id": "github-1191709609",
     "name": "lucidrains/fast-weight-attention",
     "display_name": "fast-weight-attention",

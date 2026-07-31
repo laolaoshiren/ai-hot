@@ -126,16 +126,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "DeepSeek V4 Flash 0731",
       "DeepSeek V4 Pro",
-      "DeepSeek V4 Flash",
-      "DeepSeek V3.2"
+      "DeepSeek V4 Flash"
     ],
-    "model_count": 11,
-    "last_updated": "2026-04-24",
+    "model_count": 12,
+    "last_updated": "2026-07-31",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Pro",
+    "live_summary": "OpenRouter 已收录 12 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Flash 0731",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64"
   },

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "AI司机收入3年涨42倍"
 summary_zh = ""
 tags = []
-list_page = 197
+list_page = 199
 +++
 
 <!-- AUTO-GENERATED: news page -->

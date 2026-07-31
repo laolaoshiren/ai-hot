@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://stateofopensource.ai/ 评论网址：https:
 summary = "Article URL: https://stateofopensource.ai/ Comments URL: https://news.ycombinator.com/item?id=48947825 Points: 249 # Comments: 173"
 summary_zh = "文章网址：https://stateofopensource.ai/ 评论网址：https://news.ycombinator.com/item?id=48947825 积分：249 # 评论：173"
 tags = []
-list_page = 71
+list_page = 73
 +++
 
 <!-- AUTO-GENERATED: news page -->
