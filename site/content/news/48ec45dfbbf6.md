@@ -20,7 +20,7 @@ ai_summary = "YouTube 更新了其盈利政策，以更明确地定义人工智�
 summary = "YouTube has updated its monetization policies to more clearly define the kinds of AI-generated and low-quality videos that can’t earn ad revenue."
 summary_zh = "YouTube 更新了其盈利政策，以更明确地定义人工智能生成的低质量视频，这些视频无法赚取广告收入"
 tags = []
-list_page = 56
+list_page = 58
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-31 16:41:22
+🕐 **最近更新**：2026-07-31 21:48:39
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,20 +24,20 @@
    - 在杠杆公开押注暴跌后，这位前 OpenAI 研究人员的基金被迫抛售公开股票。但他还有牌可打
    - `TechCrunch AI · 2026-07-30`
 
-3. [蒂姆·库克 (Tim Cook) 暗示为 AI 高级用户推出 iCloud Plus 层级](https://aihot.bt199.com/news/93e1eb3c7f13/)
+3. [Anthropic 表示克劳德也无意中入侵了真实的公司](https://aihot.bt199.com/news/fa6e1e31c112/)
+   - Anthropic 刚刚意识到，其几个 Claude AI 模型在测试过程中侵入了三个不同组织的系统，并在公司没有注意到…
+   - `The Verge AI · 2026-07-31`
+
+4. [下载：蒙大拿州新的实验药物规则](https://aihot.bt199.com/news/0abc8a3ebd09/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。蒙大拿州成为实验性医疗中心的计划刚刚…
+   - `MIT Tech Review · 2026-07-31`
+
+5. [蒂姆·库克 (Tim Cook) 暗示为 AI 高级用户推出 iCloud Plus 层级](https://aihot.bt199.com/news/93e1eb3c7f13/)
    - 苹果可能允许用户付费以提高人工智能的使用限制。在周四的财报电话会议上，苹果首席执行官蒂姆·库克表示，他相信人们会“非常”…
    - `The Verge AI · 2026-07-30`
 
-4. [LinkedIn 实际上添加了一个“看起来像 AI slop”按钮](https://aihot.bt199.com/news/0d730ddf1385/)
-   - LinkedIn 上的很多内容可能看起来像是人工智能的废话，现在，你将能够举报这些帖子。作为减少平台上 AI 溢出量的一…
-   - `The Verge AI · 2026-07-30`
-
-5. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
+6. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一个根本缺陷使法学硕士极易受到攻击…
-   - `MIT Tech Review · 2026-07-30`
-
-6. [一个根本性的缺陷使得法学硕士极易受到攻击](https://aihot.bt199.com/news/d3ef4a34cd19/)
-   - 一个研究小组在本月顶级人工智能会议国际机器学习会议上发表的一篇论文中指出，大型语言模型不可能完全免受黑客攻击，因为它们的…
    - `MIT Tech Review · 2026-07-30`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
