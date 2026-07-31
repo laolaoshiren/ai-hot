@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://thinkingmachines.ai/inkling/ 评论网址�
 summary = "Article URL: https://thinkingmachines.ai/inkling/ Comments URL: https://news.ycombinator.com/item?id=48924929 Points: 120 # Comments: 4"
 summary_zh = "文章网址：https://thinkingmachines.ai/inkling/ 评论网址：https://news.ycombinator.com/item?id=48924929 积分：120 # 评论：4"
 tags = []
-list_page = 82
+list_page = 83
 +++
 
 <!-- AUTO-GENERATED: news page -->

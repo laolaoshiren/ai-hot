@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-07-30T19:15:01.197695",
-  "date": "2026-07-30",
+  "updated_at": "2026-07-31T02:03:33.060019",
+  "date": "2026-07-31",
   "spotlight": {
-    "name": "Agent Skills",
-    "url": "https://github.com/addyosmani/agent-skills",
+    "name": "Cmux",
+    "url": "https://github.com/manaflow-ai/cmux",
     "type": "agent",
-    "description": "为 AI 编程 Agent 准备的工程技能库，沉淀可复用的开发、调试和交付流程。",
+    "description": "面向 AI 编程工作流的 macOS 终端工具，支持纵向标签页和任务通知，方便同时管理多个 Agent。",
     "pricing": "开源免费",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "pika",
-      "name": "Pika",
-      "url": "https://pika.art",
+      "id": "sora",
+      "name": "Sora",
+      "url": "https://sora.com",
       "type": "tool",
-      "description": "AI 视频生成工具，简单易用",
-      "pricing": "免费 + 付费",
+      "description": "OpenAI 视频生成模型，效果惊人",
+      "pricing": "ChatGPT Pro $200/月",
       "category": "视频"
     },
     {
-      "name": "BabyAGI",
-      "url": "https://github.com/yoheinakajima/babyagi",
+      "name": "AgentGPT",
+      "url": "https://agentgpt.reworkd.ai",
       "type": "agent",
-      "description": "轻量级自主AI Agent框架",
-      "pricing": "开源免费",
+      "description": "浏览器内直接使用的AI Agent平台",
+      "pricing": "免费 + Pro",
       "category": "自动化 Agent"
     },
     {
-      "name": "Hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
+      "name": "CAMEL",
+      "url": "https://github.com/camel-ai/camel",
       "type": "agent",
-      "description": "HeyGen 开源的 HTML 渲染视频框架，专为 AI Agent 设计，用 HTML 写代码直接生成视频内容",
-      "pricing": "免费开源",
-      "category": "自动化 Agent"
+      "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
+      "pricing": "开源免费",
+      "category": "多 Agent"
     }
   ]
 }

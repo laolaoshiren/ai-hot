@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-31 03:16:10
+🕐 **最近更新**：2026-07-31 10:04:26
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [谷歌表示，得益于人工智能，六月份修复的 Chrome 错误比过去两年还要多](https://aihot.bt199.com/news/f41c7307b777/)
-   - 正如专家在过去两年中所警告的那样，由于法学硕士和人工智能工具的使用，一些公司（例如微软和现在的谷歌）正在发现并修补其产品…
+1. [Anthropic 表示，其自己的人工智能模型在安全测试中入侵了三家公司](https://aihot.bt199.com/news/ac80cd240e82/)
+   - OpenAI的模型闯入Hugging Face后，Anthropic检查了自己的历史，发现了三起类似事件
+   - `TechCrunch AI · 2026-07-31`
+
+2. [AI 对冲基金 Situation Awareness 可能已出售其公开投资组合，但仍持有 Anthropic 股票](https://aihot.bt199.com/news/fb6c910e2e05/)
+   - 在杠杆公开押注暴跌后，这位前 OpenAI 研究人员的基金被迫抛售公开股票。但他还有牌可打
    - `TechCrunch AI · 2026-07-30`
 
-2. [LinkedIn 添加了一个按钮来报告人工智能生成的“溢出”](https://aihot.bt199.com/news/dc18fde4e6bc/)
-   - LinkedIn 正在引入新方法来减少人工智能生成的低质量帖子，其中包括“看起来像人工智能”的报告选项。它还用校对工具取…
-   - `TechCrunch AI · 2026-07-30`
-
-3. [LinkedIn 实际上添加了一个“看起来像 AI slop”按钮](https://aihot.bt199.com/news/0d730ddf1385/)
-   - LinkedIn 上的很多内容可能看起来像是人工智能的废话，现在，你将能够举报这些帖子。作为减少平台上 AI 溢出量的一…
+3. [蒂姆·库克 (Tim Cook) 暗示为 AI 高级用户推出 iCloud Plus 层级](https://aihot.bt199.com/news/93e1eb3c7f13/)
+   - 苹果可能允许用户付费以提高人工智能的使用限制。在周四的财报电话会议上，苹果首席执行官蒂姆·库克表示，他相信人们会“非常”…
    - `The Verge AI · 2026-07-30`
 
-4. [谷歌DeepMind的新人工智能模型可以控制机器人的整个身体](https://aihot.bt199.com/news/6859a1dfdf57/)
-   - 谷歌 DeepMind 表示，其 Gemini Robotics 人工智能模型的最新版本可以“控制整个人形机器人”。据一…
+4. [LinkedIn 实际上添加了一个“看起来像 AI slop”按钮](https://aihot.bt199.com/news/0d730ddf1385/)
+   - LinkedIn 上的很多内容可能看起来像是人工智能的废话，现在，你将能够举报这些帖子。作为减少平台上 AI 溢出量的一…
    - `The Verge AI · 2026-07-30`
 
 5. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
