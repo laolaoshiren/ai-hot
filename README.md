@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-07-31 21:48:39
+🕐 **最近更新**：2026-08-01 03:14:25
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic 表示，其自己的人工智能模型在安全测试中入侵了三家公司](https://aihot.bt199.com/news/ac80cd240e82/)
-   - OpenAI的模型闯入Hugging Face后，Anthropic检查了自己的历史，发现了三起类似事件
+1. [山姆·奥尔特曼并不是唯一一个想要给人工智能踩刹车的人](https://aihot.bt199.com/news/734a51283c78/)
+   - 经过多年全速推动人工智能发展，OpenAI 首席执行官 Sam Altman 表示，也许现在是人工智能行业“调整步伐”的…
    - `TechCrunch AI · 2026-07-31`
 
-2. [AI 对冲基金 Situation Awareness 可能已出售其公开投资组合，但仍持有 Anthropic 股票](https://aihot.bt199.com/news/fb6c910e2e05/)
-   - 在杠杆公开押注暴跌后，这位前 OpenAI 研究人员的基金被迫抛售公开股票。但他还有牌可打
-   - `TechCrunch AI · 2026-07-30`
+2. [Snapchat 不再奖励完全由人工智能生成的 Spotlight 内容](https://aihot.bt199.com/news/1539977fb106/)
+   - Snapchat 调整了推荐系统，确保只有真人制作的视频才有资格获得 Spotlight 推荐，反对 AI 滥用
+   - `TechCrunch AI · 2026-07-31`
 
-3. [Anthropic 表示克劳德也无意中入侵了真实的公司](https://aihot.bt199.com/news/fa6e1e31c112/)
-   - Anthropic 刚刚意识到，其几个 Claude AI 模型在测试过程中侵入了三个不同组织的系统，并在公司没有注意到…
+3. [这是在 Google Earth 中放置 AI 图像生成器的问题](https://aihot.bt199.com/news/69dd96f680d9/)
+   - 现在，只需文本提示即可使用 Google 地球的卫星、航拍和 3D 图像生成扭曲现实的图像，例如由 Digital Di…
    - `The Verge AI · 2026-07-31`
 
-4. [下载：蒙大拿州新的实验药物规则](https://aihot.bt199.com/news/0abc8a3ebd09/)
+4. [主要唱片公司提出规则以防止人工智能在排行榜上失利](https://aihot.bt199.com/news/a32f3d3705a3/)
+   - 多家唱片公司，包括三巨头——环球音乐集团、索尼音乐和华纳音乐集团——已经提出了有关人工智能歌曲上榜资格的规则。简而言之…
+   - `The Verge AI · 2026-07-31`
+
+5. [下载：蒙大拿州新的实验药物规则](https://aihot.bt199.com/news/0abc8a3ebd09/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。蒙大拿州成为实验性医疗中心的计划刚刚…
    - `MIT Tech Review · 2026-07-31`
-
-5. [蒂姆·库克 (Tim Cook) 暗示为 AI 高级用户推出 iCloud Plus 层级](https://aihot.bt199.com/news/93e1eb3c7f13/)
-   - 苹果可能允许用户付费以提高人工智能的使用限制。在周四的财报电话会议上，苹果首席执行官蒂姆·库克表示，他相信人们会“非常”…
-   - `The Verge AI · 2026-07-30`
 
 6. [下载：欺骗法学硕士，重振地热发电厂](https://aihot.bt199.com/news/97aec3fde336/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一个根本缺陷使法学硕士极易受到攻击…
@@ -48,7 +48,11 @@
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-9. [神话揭示了多年来不为人知的加密货币弱点](https://aihot.bt199.com/news/87eb876878a2/)
+9. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+   - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
+   - `Ars Technica AI · 2026-07-30`
+
+10. [神话揭示了多年来不为人知的加密货币弱点](https://aihot.bt199.com/news/87eb876878a2/)
    - 在人为结果中将谷壳与麦子分开是很困难的。无论如何，我们都会尝试一下
    - `Ars Technica AI · 2026-07-29`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

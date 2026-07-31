@@ -10588,6 +10588,31 @@
     "is_core": true
   },
   {
+    "id": "hf-ChiEnJohn--sd-class-butterflies-32",
+    "name": "ChiEnJohn/sd-class-butterflies-32",
+    "display_name": "sd-class-butterflies-32",
+    "url": "https://huggingface.co/ChiEnJohn/sd-class-butterflies-32",
+    "author": "ChiEnJohn",
+    "pipeline_tag": "unconditional-image-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "pytorch",
+      "unconditional-image-generation",
+      "diffusion-models-class",
+      "license:mit",
+      "diffusers:DDPMPipeline",
+      "region:us"
+    ],
+    "created_at": "2026-07-31T18:48:02.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-07-31T19:12:46.726264",
+    "display_priority": 331,
+    "is_core": true
+  },
+  {
     "id": "hf-shinydatatech--forecastagent-v1.0",
     "name": "shinydatatech/forecastagent-v1.0",
     "display_name": "forecastagent-v1.0",
@@ -10609,7 +10634,7 @@
     "created_at": "2026-07-17T01:38:16.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-17T01:57:00.537898",
-    "display_priority": 331,
+    "display_priority": 332,
     "is_core": true
   },
   {
@@ -10634,7 +10659,7 @@
     "created_at": "2026-07-19T01:43:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-19T01:55:51.911309",
-    "display_priority": 332,
+    "display_priority": 333,
     "is_core": true
   },
   {
@@ -10658,7 +10683,7 @@
     "created_at": "2026-07-26T07:59:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T08:13:06.394750",
-    "display_priority": 333,
+    "display_priority": 334,
     "is_core": true
   },
   {
@@ -10682,7 +10707,7 @@
     "created_at": "2026-07-26T18:42:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T19:01:06.925009",
-    "display_priority": 334,
+    "display_priority": 335,
     "is_core": true
   }
 ]
