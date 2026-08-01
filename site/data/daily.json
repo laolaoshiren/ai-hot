@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-07-31T19:13:31.099634",
-  "date": "2026-07-31",
+  "updated_at": "2026-08-01T02:05:18.692180",
+  "date": "2026-08-01",
   "spotlight": {
-    "name": "Cmux",
-    "url": "https://github.com/manaflow-ai/cmux",
+    "name": "Figma Context Mcp",
+    "url": "https://github.com/GLips/Figma-Context-MCP",
     "type": "agent",
-    "description": "面向 AI 编程工作流的 macOS 终端工具，支持纵向标签页和任务通知，方便同时管理多个 Agent。",
+    "description": "把 Figma 设计稿上下文提供给 Cursor 等 AI 编程 Agent 的 MCP 服务，方便按设计还原页面。",
     "pricing": "开源免费",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "sora",
-      "name": "Sora",
-      "url": "https://sora.com",
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
       "type": "tool",
-      "description": "OpenAI 视频生成模型，效果惊人",
-      "pricing": "ChatGPT Pro $200/月",
-      "category": "视频"
+      "description": "最流行的 AI 对话工具，OpenAI 出品",
+      "pricing": "免费 + Plus $20/月",
+      "category": "对话"
     },
     {
-      "name": "AgentGPT",
-      "url": "https://agentgpt.reworkd.ai",
+      "name": "SuperAGI",
+      "url": "https://github.com/TransformerOptimus/SuperAGI",
       "type": "agent",
-      "description": "浏览器内直接使用的AI Agent平台",
-      "pricing": "免费 + Pro",
+      "description": "开发者优先的开源自主AI Agent框架",
+      "pricing": "开源免费",
       "category": "自动化 Agent"
     },
     {
-      "name": "CAMEL",
-      "url": "https://github.com/camel-ai/camel",
+      "name": "MindSearch",
+      "url": "https://github.com/InternLM/MindSearch",
       "type": "agent",
-      "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
+      "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
       "pricing": "开源免费",
       "category": "多 Agent"
     }

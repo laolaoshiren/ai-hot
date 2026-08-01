@@ -20,7 +20,7 @@ ai_summary = "由于成本预算紧张，公司限制人工智能的使用。来
 summary = "https://archive.ph/z24oE Comments URL: https://news.ycombinator.com/item?id=48602571 Points: 109 # Comments: 98"
 summary_zh = "由于成本预算紧张，公司限制人工智能的使用。来源：Hacker News AI"
 tags = []
-list_page = 232
+list_page = 233
 +++
 
 <!-- AUTO-GENERATED: news page -->

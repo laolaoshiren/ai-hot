@@ -20,7 +20,7 @@ ai_summary = "随着 Anthropic 与加利福尼亚州建立更密切的关系，�
 summary = "As Anthropic forges a closer relationship with the state of California, the federal government has made an enemy out of the OpenAI rival."
 summary_zh = "随着 Anthropic 与加利福尼亚州建立更密切的关系，联邦政府已经将 OpenAI 竞争对手视为敌人"
 tags = []
-list_page = 165
+list_page = 166
 +++
 
 <!-- AUTO-GENERATED: news page -->
