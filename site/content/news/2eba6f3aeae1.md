@@ -20,7 +20,7 @@ ai_summary = "Google DeepMind 和 A24 正在联手打造人工智能电影制作
 summary = "Google DeepMind and A24 are teaming up to build AI filmmaking tools."
 summary_zh = "Google DeepMind 和 A24 正在联手打造人工智能电影制作工具"
 tags = []
-list_page = 222
+list_page = 223
 +++
 
 <!-- AUTO-GENERATED: news page -->
