@@ -1,6 +1,81 @@
 {
   "data": [
     {
+      "id": "~deepseek/deepseek-v4-flash-latest",
+      "canonical_slug": "~deepseek/deepseek-v4-flash-latest",
+      "alias_target": {
+        "name": "DeepSeek: DeepSeek V4 Flash 0731",
+        "slug": "deepseek/deepseek-v4-flash-0731"
+      },
+      "hugging_face_id": null,
+      "name": "DeepSeek V4 Flash Latest",
+      "created": 1785606009,
+      "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Router",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000009",
+        "completion": "0.00000018",
+        "input_cache_read": "0.000000018"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_a",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": [],
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/~deepseek/deepseek-v4-flash-latest/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "deepseek/deepseek-v4-flash-0731",
       "canonical_slug": "deepseek/deepseek-v4-flash-20260731",
       "hugging_face_id": "deepseek-ai/DeepSeek-V4-Flash-0731",
@@ -48,6 +123,7 @@
         "temperature",
         "tool_choice",
         "tools",
+        "top_a",
         "top_k",
         "top_logprobs",
         "top_p"
@@ -3242,13 +3318,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000076006",
-        "completion": "0.00000238876",
-        "input_cache_read": "0.000000141154"
+        "prompt": "0.0000007168",
+        "completion": "0.0000022528",
+        "input_cache_read": "0.00000013312"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 128000,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -4149,13 +4225,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000022",
-        "input_cache_read": "0.0000001"
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
+        "input_cache_read": "0.0000002"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "context_length": 512288,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -29412,5 +29488,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-01T13:03:01.386909+00:00"
+  "updated_at": "2026-08-01T18:59:54.840823+00:00"
 }

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-01 21:03:52
+🕐 **最近更新**：2026-08-02 03:00:42
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [据报道，OpenAI 发现证据表明其更多特工肆意妄为](https://aihot.bt199.com/news/1d34eb822975/)
+1. [Sam Altman 仍在通过 ChatGPT 阐述养育子女的理由](https://aihot.bt199.com/news/46b49e93011a/)
+   - OpenAI 的首席执行官似乎很高兴为家长分享一个“很酷的用例”
+   - `TechCrunch AI · 2026-08-01`
+
+2. [据报道，OpenAI 发现证据表明其更多特工肆意妄为](https://aihot.bt199.com/news/1d34eb822975/)
    - 据报道，OpenAI 在调查 Hugging Face 事件时发现了其他特工不当行为的证据
    - `TechCrunch AI · 2026-07-31`
 
-2. [谷歌在推出一天后取消了其地球人工智能功能，因批评该功能会传播错误信息](https://aihot.bt199.com/news/cebdf34cbbc8/)
-   - 一种允许任何人生成虚假的人工智能生成图像并将其叠加在真实的谷歌地球地图上的工具很快引发了强烈反对
-   - `TechCrunch AI · 2026-07-31`
+3. [这是 Billboard Hot 100 的热门 AI 垃圾吗？](https://aihot.bt199.com/news/5bd2ff2f2cf8/)
+   - 菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…
+   - `The Verge AI · 2026-08-01`
 
-3. [谷歌地球的AI Deepfake工具只持续了一天](https://aihot.bt199.com/news/a4ce4a17368d/)
+4. [谷歌地球的AI Deepfake工具只持续了一天](https://aihot.bt199.com/news/a4ce4a17368d/)
    - 谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…
-   - `The Verge AI · 2026-07-31`
-
-4. [这是在 Google Earth 中放置 AI 图像生成器的问题](https://aihot.bt199.com/news/69dd96f680d9/)
-   - 现在，只需文本提示即可使用 Google 地球的卫星、航拍和 3D 图像生成扭曲现实的图像，例如由 Digital Di…
    - `The Verge AI · 2026-07-31`
 
 5. [下载：蒙大拿州新的实验药物规则](https://aihot.bt199.com/news/0abc8a3ebd09/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
