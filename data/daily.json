@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-01T18:59:54.964339",
-  "date": "2026-08-01",
+  "updated_at": "2026-08-02T02:00:54.349932",
+  "date": "2026-08-02",
   "spotlight": {
-    "name": "Figma Context Mcp",
-    "url": "https://github.com/GLips/Figma-Context-MCP",
+    "name": "Ai Website Cloner Template",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
     "type": "agent",
-    "description": "把 Figma 设计稿上下文提供给 Cursor 等 AI 编程 Agent 的 MCP 服务，方便按设计还原页面。",
+    "description": "用 AI 编程 Agent 一条命令克隆网页的模板项目，适合快速复刻页面结构和样式。",
     "pricing": "开源免费",
     "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "url": "https://chat.openai.com",
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
       "type": "tool",
-      "description": "最流行的 AI 对话工具，OpenAI 出品",
-      "pricing": "免费 + Plus $20/月",
+      "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
+      "pricing": "免费 + Pro $20/月",
       "category": "对话"
     },
     {
-      "name": "SuperAGI",
-      "url": "https://github.com/TransformerOptimus/SuperAGI",
+      "name": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
       "type": "agent",
-      "description": "开发者优先的开源自主AI Agent框架",
-      "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "description": "角色扮演式多Agent协作框架，Agent可分工合作",
+      "pricing": "开源 + Pro",
+      "category": "多 Agent"
     },
     {
-      "name": "MindSearch",
-      "url": "https://github.com/InternLM/MindSearch",
+      "name": "agentUniverse",
+      "url": "https://github.com/agentuniverse-ai/agentUniverse",
       "type": "agent",
-      "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
+      "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
       "pricing": "开源免费",
       "category": "多 Agent"
     }

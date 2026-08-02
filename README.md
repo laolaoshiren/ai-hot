@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-02 03:00:42
+🕐 **最近更新**：2026-08-02 10:01:44
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [Sam Altman 仍在通过 ChatGPT 阐述养育子女的理由](https://aihot.bt199.com/news/46b49e93011a/)
-   - OpenAI 的首席执行官似乎很高兴为家长分享一个“很酷的用例”
+1. [法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求](https://aihot.bt199.com/news/88ab0b7f770b/)
+   - 尽管 xAI 提起诉讼，但明尼苏达州禁止允许用户“裸体”图像的应用程序的禁令仍然可以继续推进
    - `TechCrunch AI · 2026-08-01`
 
-2. [据报道，OpenAI 发现证据表明其更多特工肆意妄为](https://aihot.bt199.com/news/1d34eb822975/)
-   - 据报道，OpenAI 在调查 Hugging Face 事件时发现了其他特工不当行为的证据
-   - `TechCrunch AI · 2026-07-31`
+2. [YouTuber Hank Green 表示他对人工智能的使用“不健康”](https://aihot.bt199.com/news/c3a681b52914/)
+   - 格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”
+   - `TechCrunch AI · 2026-08-01`
 
 3. [这是 Billboard Hot 100 的热门 AI 垃圾吗？](https://aihot.bt199.com/news/5bd2ff2f2cf8/)
    - 菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

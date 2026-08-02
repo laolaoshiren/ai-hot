@@ -2962,6 +2962,114 @@
     "is_core": true
   },
   {
+    "id": "hf-fishaudio--s2-pro",
+    "name": "fishaudio/s2-pro",
+    "display_name": "s2-pro",
+    "url": "https://huggingface.co/fishaudio/s2-pro",
+    "author": "fishaudio",
+    "pipeline_tag": "text-to-speech",
+    "likes": 1174,
+    "downloads": 301720,
+    "tags": [
+      "safetensors",
+      "fish_qwen3_omni",
+      "text-to-speech",
+      "instruction-following",
+      "multilingual",
+      "zh",
+      "en",
+      "ja",
+      "ko",
+      "es",
+      "pt",
+      "ar",
+      "ru",
+      "fr",
+      "de",
+      "sv",
+      "it",
+      "tr",
+      "no",
+      "nl",
+      "cy",
+      "eu",
+      "ca",
+      "da",
+      "gl",
+      "ta",
+      "hu",
+      "fi",
+      "pl",
+      "et",
+      "hi",
+      "la",
+      "ur",
+      "th",
+      "vi",
+      "jw",
+      "bn",
+      "yo",
+      "sl",
+      "cs",
+      "sw",
+      "nn",
+      "he",
+      "ms",
+      "uk",
+      "id",
+      "kk",
+      "bg",
+      "lv",
+      "my",
+      "tl",
+      "sk",
+      "ne",
+      "fa",
+      "af",
+      "el",
+      "bo",
+      "hr",
+      "ro",
+      "sn",
+      "mi",
+      "yi",
+      "am",
+      "be",
+      "km",
+      "is",
+      "az",
+      "sd",
+      "br",
+      "sq",
+      "ps",
+      "mn",
+      "ht",
+      "ml",
+      "sr",
+      "sa",
+      "te",
+      "ka",
+      "bs",
+      "pa",
+      "lt",
+      "kn",
+      "si",
+      "hy",
+      "mr",
+      "as",
+      "gu",
+      "fo",
+      "arxiv:2603.08823",
+      "license:other",
+      "region:us"
+    ],
+    "created_at": "2026-03-09T05:48:58.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-08-02T02:00:10.826987",
+    "display_priority": 95,
+    "is_core": true
+  },
+  {
     "id": "hf-circlestone-labs--Anima",
     "name": "circlestone-labs/Anima",
     "display_name": "Anima",
@@ -2979,7 +3087,7 @@
     "created_at": "2026-01-29T21:17:57.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733929",
-    "display_priority": 95,
+    "display_priority": 96,
     "is_core": true
   },
   {
@@ -3038,7 +3146,7 @@
     "created_at": "2026-04-03T05:25:50.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733871",
-    "display_priority": 96,
+    "display_priority": 97,
     "is_core": true
   },
   {
@@ -3713,7 +3821,7 @@
     "created_at": "2026-03-30T13:43:33.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733900",
-    "display_priority": 97,
+    "display_priority": 98,
     "is_core": true
   },
   {
@@ -3761,7 +3869,7 @@
     "created_at": "2026-01-16T16:00:31.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-30T08:12:03.535385",
-    "display_priority": 98,
+    "display_priority": 99,
     "is_core": true
   },
   {
@@ -3793,7 +3901,7 @@
     "created_at": "2026-06-02T07:49:31.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131840",
-    "display_priority": 99,
+    "display_priority": 100,
     "is_core": true
   },
   {
@@ -3820,7 +3928,7 @@
     "created_at": "2026-03-30T19:45:54.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733916",
-    "display_priority": 100,
+    "display_priority": 101,
     "is_core": true
   },
   {
@@ -3841,7 +3949,7 @@
     "created_at": "2026-03-05T15:20:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-08T13:15:04.246373",
-    "display_priority": 101,
+    "display_priority": 102,
     "is_core": true
   },
   {
@@ -3860,7 +3968,7 @@
     "created_at": "2026-03-24T10:54:10.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-06T19:28:23.277960",
-    "display_priority": 102,
+    "display_priority": 103,
     "is_core": true
   },
   {
@@ -3885,7 +3993,7 @@
     "created_at": "2026-05-04T19:45:38.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T20:06:23.430988",
-    "display_priority": 103,
+    "display_priority": 104,
     "is_core": true
   },
   {
@@ -4015,7 +4123,7 @@
     "created_at": "2026-06-04T05:37:32.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-03T02:09:18.195273",
-    "display_priority": 104,
+    "display_priority": 105,
     "is_core": true
   },
   {
@@ -4033,7 +4141,7 @@
     "created_at": "2026-07-21T13:10:05.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-22T08:13:10.453649",
-    "display_priority": 105,
+    "display_priority": 106,
     "is_core": true
   },
   {
@@ -4064,7 +4172,7 @@
     "created_at": "2026-07-06T13:16:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-28T08:20:22.589415",
-    "display_priority": 106,
+    "display_priority": 107,
     "is_core": true
   },
   {
@@ -4194,7 +4302,7 @@
     "created_at": "2026-06-04T05:37:32.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131880",
-    "display_priority": 107,
+    "display_priority": 108,
     "is_core": true
   },
   {
@@ -4214,7 +4322,7 @@
     "created_at": "2026-04-29T17:08:26.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-17T08:14:02.161538",
-    "display_priority": 108,
+    "display_priority": 109,
     "is_core": true
   },
   {
@@ -4244,7 +4352,7 @@
     "created_at": "2026-06-25T17:36:22.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-31T08:39:40.934194",
-    "display_priority": 109,
+    "display_priority": 110,
     "is_core": true
   },
   {
@@ -4268,7 +4376,7 @@
     "created_at": "2026-03-05T16:04:16.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733940",
-    "display_priority": 110,
+    "display_priority": 111,
     "is_core": true
   },
   {
@@ -4296,7 +4404,7 @@
     "created_at": "2026-03-16T04:01:31.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-21T13:22:46.577236",
-    "display_priority": 111,
+    "display_priority": 112,
     "is_core": true
   },
   {
@@ -4321,7 +4429,7 @@
     "created_at": "2026-07-07T14:28:55.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-14T01:47:13.922025",
-    "display_priority": 112,
+    "display_priority": 113,
     "is_core": true
   },
   {
@@ -4344,7 +4452,7 @@
     "created_at": "2026-06-01T03:04:03.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131949",
-    "display_priority": 113,
+    "display_priority": 114,
     "is_core": true
   },
   {
@@ -4369,51 +4477,6 @@
     "created_at": "2026-06-01T11:14:36.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-15T07:54:46.789059",
-    "display_priority": 114,
-    "is_core": true
-  },
-  {
-    "id": "hf-OpenMOSS-Team--MOSS-TTS-Nano-100M",
-    "name": "OpenMOSS-Team/MOSS-TTS-Nano-100M",
-    "display_name": "MOSS-TTS-Nano-100M",
-    "url": "https://huggingface.co/OpenMOSS-Team/MOSS-TTS-Nano-100M",
-    "author": "OpenMOSS-Team",
-    "pipeline_tag": "text-to-speech",
-    "likes": 159,
-    "downloads": 42689,
-    "tags": [
-      "pytorch",
-      "moss_tts_nano",
-      "text-to-speech",
-      "custom_code",
-      "zh",
-      "en",
-      "de",
-      "es",
-      "fr",
-      "ja",
-      "it",
-      "he",
-      "ko",
-      "ru",
-      "fa",
-      "ar",
-      "pl",
-      "pt",
-      "cs",
-      "da",
-      "sv",
-      "hu",
-      "el",
-      "tr",
-      "arxiv:2603.18090",
-      "arxiv:2602.10934",
-      "license:apache-2.0",
-      "region:us"
-    ],
-    "created_at": "2026-04-02T15:13:08.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-04-21T13:07:47.733911",
     "display_priority": 115,
     "is_core": true
   },
@@ -4503,6 +4566,32 @@
     "is_core": true
   },
   {
+    "id": "hf-inference-optimization--Kimi-K3-0.40B",
+    "name": "inference-optimization/Kimi-K3-0.40B",
+    "display_name": "Kimi-K3-0.40B",
+    "url": "https://huggingface.co/inference-optimization/Kimi-K3-0.40B",
+    "author": "inference-optimization",
+    "pipeline_tag": "feature-extraction",
+    "likes": 63,
+    "downloads": 17253,
+    "tags": [
+      "transformers",
+      "safetensors",
+      "kimi_k3",
+      "feature-extraction",
+      "custom_code",
+      "base_model:moonshotai/Kimi-K3",
+      "base_model:finetune:moonshotai/Kimi-K3",
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-07-28T02:16:04.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-08-02T02:00:10.826984",
+    "display_priority": 119,
+    "is_core": true
+  },
+  {
     "id": "hf-Motif-Technologies--Motif-Video-2B",
     "name": "Motif-Technologies/Motif-Video-2B",
     "display_name": "Motif-Video-2B",
@@ -4527,7 +4616,7 @@
     "created_at": "2026-04-14T06:17:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733920",
-    "display_priority": 119,
+    "display_priority": 120,
     "is_core": true
   },
   {
@@ -4556,7 +4645,7 @@
     "created_at": "2026-07-18T11:47:54.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-20T19:29:47.924873",
-    "display_priority": 120,
+    "display_priority": 121,
     "is_core": true
   },
   {
@@ -4581,7 +4670,7 @@
     "created_at": "2026-05-08T13:09:29.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T02:28:58.864415",
-    "display_priority": 121,
+    "display_priority": 122,
     "is_core": true
   },
   {
@@ -4610,7 +4699,7 @@
     "created_at": "2026-06-09T04:03:30.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131921",
-    "display_priority": 122,
+    "display_priority": 123,
     "is_core": true
   },
   {
@@ -4647,7 +4736,7 @@
     "created_at": "2026-05-13T16:23:12.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T08:57:46.993970",
-    "display_priority": 123,
+    "display_priority": 124,
     "is_core": true
   },
   {
@@ -4693,7 +4782,7 @@
     "created_at": "2026-07-27T11:48:45.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-29T01:52:33.710492",
-    "display_priority": 124,
+    "display_priority": 125,
     "is_core": true
   },
   {
@@ -4739,7 +4828,7 @@
     "created_at": "2026-07-27T12:18:40.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-29T13:51:31.073678",
-    "display_priority": 125,
+    "display_priority": 126,
     "is_core": true
   },
   {
@@ -4826,7 +4915,7 @@
     "created_at": "2026-04-20T15:16:51.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-02T09:54:05.323888",
-    "display_priority": 126,
+    "display_priority": 127,
     "is_core": true
   },
   {
@@ -4855,7 +4944,7 @@
     "created_at": "2026-07-10T08:41:49.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-14T13:15:50.410293",
-    "display_priority": 127,
+    "display_priority": 128,
     "is_core": true
   },
   {
@@ -4882,7 +4971,7 @@
     "created_at": "2026-07-19T12:55:10.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-22T19:01:50.559428",
-    "display_priority": 128,
+    "display_priority": 129,
     "is_core": true
   },
   {
@@ -4921,7 +5010,7 @@
     "created_at": "2026-04-01T22:06:52.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-15T08:42:52.438323",
-    "display_priority": 129,
+    "display_priority": 130,
     "is_core": true
   },
   {
@@ -4957,7 +5046,7 @@
     "created_at": "2026-05-19T08:19:23.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-09T14:37:44.644627",
-    "display_priority": 130,
+    "display_priority": 131,
     "is_core": true
   },
   {
@@ -4982,7 +5071,7 @@
     "created_at": "2026-07-08T03:25:25.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-11T07:44:31.645469",
-    "display_priority": 131,
+    "display_priority": 132,
     "is_core": true
   },
   {
@@ -5017,7 +5106,7 @@
     "created_at": "2026-04-23T10:09:22.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-12T02:14:25.384156",
-    "display_priority": 132,
+    "display_priority": 133,
     "is_core": true
   },
   {
@@ -5046,7 +5135,7 @@
     "created_at": "2026-07-14T05:15:37.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-17T18:57:42.457252",
-    "display_priority": 133,
+    "display_priority": 134,
     "is_core": true
   },
   {
@@ -5079,7 +5168,7 @@
     "created_at": "2026-06-29T20:09:50.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-03T19:07:08.423518",
-    "display_priority": 134,
+    "display_priority": 135,
     "is_core": true
   },
   {
@@ -5114,7 +5203,7 @@
     "created_at": "2026-07-14T06:35:39.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-15T07:54:46.789061",
-    "display_priority": 135,
+    "display_priority": 136,
     "is_core": true
   },
   {
@@ -5145,7 +5234,7 @@
     "created_at": "2026-07-15T09:09:19.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-30T19:14:21.702184",
-    "display_priority": 136,
+    "display_priority": 137,
     "is_core": true
   },
   {
@@ -5175,7 +5264,7 @@
     "created_at": "2026-06-18T19:44:59.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-08T13:46:32.274415",
-    "display_priority": 137,
+    "display_priority": 138,
     "is_core": true
   },
   {
@@ -5203,7 +5292,7 @@
     "created_at": "2026-06-17T11:28:29.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-20T13:45:32.097781",
-    "display_priority": 138,
+    "display_priority": 139,
     "is_core": true
   },
   {
@@ -5247,7 +5336,7 @@
     "created_at": "2026-05-20T13:09:50.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-19T03:34:45.896747",
-    "display_priority": 139,
+    "display_priority": 140,
     "is_core": true
   },
   {
@@ -5288,7 +5377,7 @@
     "created_at": "2026-04-16T13:54:19.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-01T02:19:40.311428",
-    "display_priority": 140,
+    "display_priority": 141,
     "is_core": true
   },
   {
@@ -5319,7 +5408,7 @@
     "created_at": "2026-07-15T17:10:36.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-21T01:55:47.412078",
-    "display_priority": 141,
+    "display_priority": 142,
     "is_core": true
   },
   {
@@ -5362,7 +5451,7 @@
     "created_at": "2026-05-05T15:00:16.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-18T20:15:23.806267",
-    "display_priority": 142,
+    "display_priority": 143,
     "is_core": true
   },
   {
@@ -5391,7 +5480,7 @@
     "created_at": "2026-05-19T08:58:01.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-25T02:42:48.443062",
-    "display_priority": 143,
+    "display_priority": 144,
     "is_core": true
   },
   {
@@ -5425,7 +5514,7 @@
     "created_at": "2026-06-26T13:44:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-27T08:30:02.553676",
-    "display_priority": 144,
+    "display_priority": 145,
     "is_core": true
   },
   {
@@ -5464,7 +5553,7 @@
     "created_at": "2026-04-29T07:46:41.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-21T02:37:42.027416",
-    "display_priority": 145,
+    "display_priority": 146,
     "is_core": true
   },
   {
@@ -5549,7 +5638,7 @@
     "created_at": "2026-04-20T15:15:55.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-30T13:31:26.989174",
-    "display_priority": 146,
+    "display_priority": 147,
     "is_core": true
   },
   {
@@ -5576,7 +5665,7 @@
     "created_at": "2026-07-03T10:56:01.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-05T13:15:16.976110",
-    "display_priority": 147,
+    "display_priority": 148,
     "is_core": true
   },
   {
@@ -5609,7 +5698,7 @@
     "created_at": "2026-05-09T04:20:48.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-15T13:49:27.928797",
-    "display_priority": 148,
+    "display_priority": 149,
     "is_core": true
   },
   {
@@ -5630,7 +5719,7 @@
     "created_at": "2026-04-30T10:18:49.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-13T14:16:25.219466",
-    "display_priority": 149,
+    "display_priority": 150,
     "is_core": true
   },
   {
@@ -5660,7 +5749,7 @@
     "created_at": "2026-07-05T18:53:37.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-08T01:56:38.767442",
-    "display_priority": 150,
+    "display_priority": 151,
     "is_core": true
   },
   {
@@ -5686,7 +5775,7 @@
     "created_at": "2026-05-13T15:12:13.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-19T02:35:51.388166",
-    "display_priority": 151,
+    "display_priority": 152,
     "is_core": true
   },
   {
@@ -5713,7 +5802,7 @@
     "created_at": "2026-05-18T11:14:09.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T08:57:46.994012",
-    "display_priority": 152,
+    "display_priority": 153,
     "is_core": true
   },
   {
@@ -5754,7 +5843,7 @@
     "created_at": "2026-03-10T12:21:20.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-05T13:21:22.339381",
-    "display_priority": 153,
+    "display_priority": 154,
     "is_core": true
   },
   {
@@ -5778,7 +5867,7 @@
     "created_at": "2026-06-30T08:46:20.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T09:00:51.850200",
-    "display_priority": 154,
+    "display_priority": 155,
     "is_core": true
   },
   {
@@ -5802,7 +5891,7 @@
     "created_at": "2026-06-30T08:42:01.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T09:00:51.850237",
-    "display_priority": 155,
+    "display_priority": 156,
     "is_core": true
   },
   {
@@ -5826,7 +5915,7 @@
     "created_at": "2026-06-30T08:44:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T09:00:51.850221",
-    "display_priority": 156,
+    "display_priority": 157,
     "is_core": true
   },
   {
@@ -5855,7 +5944,7 @@
     "created_at": "2026-06-30T19:41:51.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-30T19:46:24.754445",
-    "display_priority": 157,
+    "display_priority": 158,
     "is_core": true
   },
   {
@@ -5880,7 +5969,7 @@
     "created_at": "2026-06-20T13:25:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-20T13:45:32.150493",
-    "display_priority": 158,
+    "display_priority": 159,
     "is_core": true
   },
   {
@@ -5905,7 +5994,7 @@
     "created_at": "2026-07-06T09:51:15.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-06T10:01:05.444256",
-    "display_priority": 159,
+    "display_priority": 160,
     "is_core": true
   },
   {
@@ -5930,7 +6019,7 @@
     "created_at": "2026-07-18T18:25:41.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-18T18:53:20.006375",
-    "display_priority": 160,
+    "display_priority": 161,
     "is_core": true
   },
   {
@@ -5957,7 +6046,7 @@
     "created_at": "2026-05-01T12:57:10.000Z",
     "source": "hf-newest",
     "collected_at": "2026-05-01T13:13:50.687297",
-    "display_priority": 161,
+    "display_priority": 162,
     "is_core": true
   },
   {
@@ -5981,30 +6070,6 @@
     "created_at": "2026-06-20T13:37:45.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-20T13:45:32.150438",
-    "display_priority": 162,
-    "is_core": true
-  },
-  {
-    "id": "hf-sfdsfaff333--MyAwesomeModel-TestRepo",
-    "name": "sfdsfaff333/MyAwesomeModel-TestRepo",
-    "display_name": "MyAwesomeModel-TestRepo",
-    "url": "https://huggingface.co/sfdsfaff333/MyAwesomeModel-TestRepo",
-    "author": "sfdsfaff333",
-    "pipeline_tag": "feature-extraction",
-    "likes": 1,
-    "downloads": 0,
-    "tags": [
-      "transformers",
-      "pytorch",
-      "bert",
-      "feature-extraction",
-      "license:mit",
-      "endpoints_compatible",
-      "region:us"
-    ],
-    "created_at": "2026-07-18T18:26:39.000Z",
-    "source": "hf-newest",
-    "collected_at": "2026-07-18T18:53:20.006363",
     "display_priority": 163,
     "is_core": true
   },
