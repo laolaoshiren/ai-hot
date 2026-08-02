@@ -3318,9 +3318,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000004186",
-        "completion": "0.0000013156",
-        "input_cache_read": "0.00000007774"
+        "prompt": "0.0000003136",
+        "completion": "0.0000009856",
+        "input_cache_read": "0.00000005824"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -29488,5 +29488,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-02T02:00:54.177510+00:00"
+  "updated_at": "2026-08-02T08:11:00.558487+00:00"
 }
