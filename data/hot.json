@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T08:11:45.445740",
+  "updated_at": "2026-08-02T13:06:19.174238",
   "total": 10,
   "hot_list": [
     {
@@ -39,6 +39,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "name": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "title_zh": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-08-02",
+      "time": "2026-08-02",
+      "description": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "subtitle": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "ai_summary": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "category": "资讯",
+      "news_id": "9754aadc29e4",
+      "internal_url": "https://aihot.bt199.com/news/9754aadc29e4/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
       "name": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
       "title_zh": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
@@ -54,24 +72,6 @@
       "category": "资讯",
       "news_id": "5bd2ff2f2cf8",
       "internal_url": "https://aihot.bt199.com/news/5bd2ff2f2cf8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "谷歌地球的AI Deepfake工具只持续了一天",
-      "name": "谷歌地球的AI Deepfake工具只持续了一天",
-      "title_zh": "谷歌地球的AI Deepfake工具只持续了一天",
-      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-07-31",
-      "time": "2026-07-31",
-      "description": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "subtitle": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "ai_summary": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "category": "资讯",
-      "news_id": "a4ce4a17368d",
-      "internal_url": "https://aihot.bt199.com/news/a4ce4a17368d/",
       "type_label": "📰 新闻"
     },
     {
@@ -221,6 +221,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "name": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "title_zh": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-08-02",
+      "time": "2026-08-02",
+      "description": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "subtitle": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "ai_summary": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "category": "资讯",
+      "news_id": "9754aadc29e4",
+      "internal_url": "https://aihot.bt199.com/news/9754aadc29e4/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
       "name": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
       "title_zh": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
@@ -236,24 +254,6 @@
       "category": "资讯",
       "news_id": "5bd2ff2f2cf8",
       "internal_url": "https://aihot.bt199.com/news/5bd2ff2f2cf8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "谷歌地球的AI Deepfake工具只持续了一天",
-      "name": "谷歌地球的AI Deepfake工具只持续了一天",
-      "title_zh": "谷歌地球的AI Deepfake工具只持续了一天",
-      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-07-31",
-      "time": "2026-07-31",
-      "description": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "subtitle": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "ai_summary": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "category": "资讯",
-      "news_id": "a4ce4a17368d",
-      "internal_url": "https://aihot.bt199.com/news/a4ce4a17368d/",
       "type_label": "📰 新闻"
     },
     {
@@ -409,6 +409,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "name": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "title_zh": "付钱给艺术家足以说服他们接受人工智能吗？",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/974018/pippa-seedance-artist-royalties",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-08-02",
+      "time": "2026-08-02",
+      "description": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "subtitle": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "ai_summary": "插画家多年来一直对生成人工智能初创公司在未经许可的情况下利用艺术家的作品训练他们的模型发出警告。他们指出这种做法无异于盗…",
+      "category": "资讯",
+      "news_id": "9754aadc29e4",
+      "internal_url": "https://aihot.bt199.com/news/9754aadc29e4/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
       "name": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
       "title_zh": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
@@ -424,24 +442,6 @@
       "category": "资讯",
       "news_id": "5bd2ff2f2cf8",
       "internal_url": "https://aihot.bt199.com/news/5bd2ff2f2cf8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "谷歌地球的AI Deepfake工具只持续了一天",
-      "name": "谷歌地球的AI Deepfake工具只持续了一天",
-      "title_zh": "谷歌地球的AI Deepfake工具只持续了一天",
-      "url": "https://www.theverge.com/tech/973943/google-earth-ai-image-generation-deepfake-tool",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-07-31",
-      "time": "2026-07-31",
-      "description": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "subtitle": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "ai_summary": "谷歌已经关闭了周四推出的谷歌地球功能，该功能允许用户使用人工智能编辑带有文本提示的卫星图像。该工具本质上是让用户使用文本…",
-      "category": "资讯",
-      "news_id": "a4ce4a17368d",
-      "internal_url": "https://aihot.bt199.com/news/a4ce4a17368d/",
       "type_label": "📰 新闻"
     },
     {
