@@ -1,6 +1,78 @@
 {
   "data": [
     {
+      "id": "qwen/qwen3.8-max",
+      "canonical_slug": "qwen/qwen3.8-max-20260803",
+      "hugging_face_id": null,
+      "name": "Qwen: Qwen3.8 Max",
+      "created": 1785731612,
+      "description": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0.0000025"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.8-max-20260803/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "xhigh"
+      }
+    },
+    {
       "id": "~deepseek/deepseek-v4-flash-latest",
       "canonical_slug": "~deepseek/deepseek-v4-flash-latest",
       "alias_target": {
@@ -3325,9 +3397,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006958",
-        "completion": "0.0000021868",
-        "input_cache_read": "0.00000012922"
+        "prompt": "0.0000006286",
+        "completion": "0.0000019756",
+        "input_cache_read": "0.00000011674"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -12469,8 +12541,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000032"
+        "prompt": "0.00000026",
+        "completion": "0.00000208"
       },
       "top_provider": {
         "context_length": 262144,
@@ -21827,11 +21899,11 @@
       },
       "pricing": {
         "prompt": "0.00000007",
-        "completion": "0.00000028"
+        "completion": "0.00000027"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 160000,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -29494,5 +29566,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-03T14:22:02.758364+00:00"
+  "updated_at": "2026-08-03T19:24:11.784128+00:00"
 }
