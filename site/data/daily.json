@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-02T19:00:58.679473",
-  "date": "2026-08-02",
+  "updated_at": "2026-08-03T02:03:19.896487",
+  "date": "2026-08-03",
   "spotlight": {
-    "name": "Ai Website Cloner Template",
-    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "name": "Botsharp",
+    "url": "https://github.com/SciSharp/BotSharp",
     "type": "agent",
-    "description": "用 AI 编程 Agent 一条命令克隆网页的模板项目，适合快速复刻页面结构和样式。",
+    "description": "基于 .NET 的多 Agent 框架，适合构建企业级对话机器人和自动化业务流程。",
     "pricing": "开源免费",
-    "category": "编程 Agent"
+    "category": "多Agent Agent"
   },
   "alternates": [
     {
-      "id": "claude",
-      "name": "Claude",
-      "url": "https://claude.ai",
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
       "type": "tool",
-      "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
-      "pricing": "免费 + Pro $20/月",
+      "description": "Google 出品的 AI 对话工具，多模态能力强",
+      "pricing": "免费 + Advanced $20/月",
       "category": "对话"
     },
     {
-      "name": "CrewAI",
-      "url": "https://github.com/crewAIInc/crewAI",
+      "name": "MetaGPT",
+      "url": "https://github.com/geekan/MetaGPT",
       "type": "agent",
-      "description": "角色扮演式多Agent协作框架，Agent可分工合作",
-      "pricing": "开源 + Pro",
+      "description": "多Agent软件公司模拟，一个Agent扮演不同角色",
+      "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "name": "agentUniverse",
-      "url": "https://github.com/agentuniverse-ai/agentUniverse",
+      "name": "Ralph",
+      "url": "https://github.com/snarktank/ralph",
       "type": "agent",
-      "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
+      "description": "自主循环式 AI Agent，会围绕产品需求反复执行任务，直到需求清单里的事项完成。",
       "pricing": "开源免费",
-      "category": "多 Agent"
+      "category": "自动化 Agent"
     }
   ]
 }

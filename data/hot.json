@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-08-02T19:01:38.319190",
-  "total": 10,
+  "updated_at": "2026-08-03T02:04:21.913189",
+  "total": 9,
   "hot_list": [
+    {
+      "title": "Sam Altman 和 AI 的减速争论",
+      "name": "Sam Altman 和 AI 的减速争论",
+      "title_zh": "Sam Altman 和 AI 的减速争论",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-08-02",
+      "time": "2026-08-02",
+      "description": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "subtitle": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "ai_summary": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "category": "资讯",
+      "news_id": "80e7e83282c8",
+      "internal_url": "https://aihot.bt199.com/news/80e7e83282c8/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
       "name": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
@@ -21,24 +39,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "name": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "title_zh": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-08-01",
-      "time": "2026-08-01",
-      "description": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "subtitle": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "ai_summary": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "category": "资讯",
-      "news_id": "c3a681b52914",
-      "internal_url": "https://aihot.bt199.com/news/c3a681b52914/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "付钱给艺术家足以说服他们接受人工智能吗？",
       "name": "付钱给艺术家足以说服他们接受人工智能吗？",
       "title_zh": "付钱给艺术家足以说服他们接受人工智能吗？",
@@ -54,24 +54,6 @@
       "category": "资讯",
       "news_id": "9754aadc29e4",
       "internal_url": "https://aihot.bt199.com/news/9754aadc29e4/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "name": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "title_zh": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-08-01",
-      "time": "2026-08-01",
-      "description": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "subtitle": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "ai_summary": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "category": "资讯",
-      "news_id": "5bd2ff2f2cf8",
-      "internal_url": "https://aihot.bt199.com/news/5bd2ff2f2cf8/",
       "type_label": "📰 新闻"
     },
     {
@@ -185,6 +167,24 @@
   ],
   "top_20": [
     {
+      "title": "Sam Altman 和 AI 的减速争论",
+      "name": "Sam Altman 和 AI 的减速争论",
+      "title_zh": "Sam Altman 和 AI 的减速争论",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-08-02",
+      "time": "2026-08-02",
+      "description": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "subtitle": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "ai_summary": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "category": "资讯",
+      "news_id": "80e7e83282c8",
+      "internal_url": "https://aihot.bt199.com/news/80e7e83282c8/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
       "name": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
       "title_zh": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
@@ -203,24 +203,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "name": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "title_zh": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-08-01",
-      "time": "2026-08-01",
-      "description": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "subtitle": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "ai_summary": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "category": "资讯",
-      "news_id": "c3a681b52914",
-      "internal_url": "https://aihot.bt199.com/news/c3a681b52914/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "付钱给艺术家足以说服他们接受人工智能吗？",
       "name": "付钱给艺术家足以说服他们接受人工智能吗？",
       "title_zh": "付钱给艺术家足以说服他们接受人工智能吗？",
@@ -236,24 +218,6 @@
       "category": "资讯",
       "news_id": "9754aadc29e4",
       "internal_url": "https://aihot.bt199.com/news/9754aadc29e4/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "name": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "title_zh": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-08-01",
-      "time": "2026-08-01",
-      "description": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "subtitle": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "ai_summary": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "category": "资讯",
-      "news_id": "5bd2ff2f2cf8",
-      "internal_url": "https://aihot.bt199.com/news/5bd2ff2f2cf8/",
       "type_label": "📰 新闻"
     },
     {
@@ -368,10 +332,28 @@
   "type_stats": {
     "tool": 0,
     "project": 0,
-    "news": 10,
+    "news": 9,
     "model": 0
   },
   "items": [
+    {
+      "title": "Sam Altman 和 AI 的减速争论",
+      "name": "Sam Altman 和 AI 的减速争论",
+      "title_zh": "Sam Altman 和 AI 的减速争论",
+      "url": "https://techcrunch.com/2026/08/02/sam-altman-and-ais-decel-debate/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-08-02",
+      "time": "2026-08-02",
+      "description": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "subtitle": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "ai_summary": "在最新一集的《Equity》中，我们讨论了为什么 Sam Altman 呼吁业界“加快人工智能发展速度”",
+      "category": "资讯",
+      "news_id": "80e7e83282c8",
+      "internal_url": "https://aihot.bt199.com/news/80e7e83282c8/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
       "name": "法官驳回 xAI 阻止明尼苏达州禁止“裸体”应用程序的请求",
@@ -391,24 +373,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "name": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "title_zh": "YouTuber Hank Green 表示他对人工智能的使用“不健康”",
-      "url": "https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-08-01",
-      "time": "2026-08-01",
-      "description": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "subtitle": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "ai_summary": "格林做出了引人注目的道歉，他说“我从与法学硕士的互动中获得的多巴胺水平......对我来说不健康，也不对世界有好处。”",
-      "category": "资讯",
-      "news_id": "c3a681b52914",
-      "internal_url": "https://aihot.bt199.com/news/c3a681b52914/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "付钱给艺术家足以说服他们接受人工智能吗？",
       "name": "付钱给艺术家足以说服他们接受人工智能吗？",
       "title_zh": "付钱给艺术家足以说服他们接受人工智能吗？",
@@ -424,24 +388,6 @@
       "category": "资讯",
       "news_id": "9754aadc29e4",
       "internal_url": "https://aihot.bt199.com/news/9754aadc29e4/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "name": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "title_zh": "这是 Billboard Hot 100 的热门 AI 垃圾吗？",
-      "url": "https://www.theverge.com/ai-artificial-intelligence/974209/fenix-flexin-billboard-hot-100-rubberz-ai-slop",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-08-01",
-      "time": "2026-08-01",
-      "description": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "subtitle": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "ai_summary": "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成…",
-      "category": "资讯",
-      "news_id": "5bd2ff2f2cf8",
-      "internal_url": "https://aihot.bt199.com/news/5bd2ff2f2cf8/",
       "type_label": "📰 新闻"
     },
     {
