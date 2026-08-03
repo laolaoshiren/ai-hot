@@ -8180,17 +8180,11 @@
       },
       "per_request_limits": null,
       "supported_parameters": [
-        "frequency_penalty",
         "include_reasoning",
         "max_tokens",
-        "presence_penalty",
         "reasoning",
         "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
         "seed",
-        "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -29494,5 +29488,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-03T02:03:19.797296+00:00"
+  "updated_at": "2026-08-03T09:30:06.207564+00:00"
 }

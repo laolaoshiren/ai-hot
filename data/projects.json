@@ -2751,6 +2751,35 @@
     "collected_at": "2026-04-20T18:54:56.792141"
   },
   {
+    "id": "github-1008713177",
+    "name": "QwenLM/qwen-code",
+    "display_name": "qwen-code",
+    "url": "https://github.com/QwenLM/qwen-code",
+    "description": "An open-source AI coding agent that lives in your terminal.",
+    "stars": 26558,
+    "forks": 2764,
+    "language": "TypeScript",
+    "topics": [
+      "agentic",
+      "ai",
+      "ai-agent",
+      "ai-coding",
+      "cli",
+      "coding-agent",
+      "developer-tools",
+      "llm",
+      "mcp",
+      "qwen",
+      "terminal",
+      "typescript"
+    ],
+    "created_at": "2025-06-26T01:37:46Z",
+    "updated_at": "2026-08-03T09:27:23Z",
+    "license": "Apache-2.0",
+    "source": "github-search",
+    "collected_at": "2026-08-03T09:29:15.659782"
+  },
+  {
     "id": "github-753750990",
     "name": "aishwaryanr/awesome-generative-ai-guide",
     "display_name": "awesome-generative-ai-guide",
