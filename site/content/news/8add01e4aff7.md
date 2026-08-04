@@ -20,7 +20,7 @@ ai_summary = "总部位于迈阿密的人工智能初创公司 Subquadratic 上�
 summary = "Miami-based AI startup Subquadratic came out of stealth mode last month with a huge claim."
 summary_zh = "总部位于迈阿密的人工智能初创公司 Subquadratic 上个月走出了隐秘模式，带来了巨大的收益。它宣布它已经解决了近十年来阻碍大型语言模型的数学瓶颈。细节很薄弱，很多人不相信。但次二次方有 sta"
 tags = []
-list_page = 244
+list_page = 245
 +++
 
 <!-- AUTO-GENERATED: news page -->

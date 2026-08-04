@@ -20,7 +20,7 @@ ai_summary = "对于企业来说，代理人工智能的承诺不仅仅是一个
 summary = "For the enterprise, the promise of agentic AI is much more than just a better chatbot."
 summary_zh = "对于企业来说，代理人工智能的承诺不仅仅是一个更好的聊天机器人。它是跨人员、业务工作流程、数据和系统端到端执行业务任务的软件代理。最适合运行代理的平台具有适当的 CPU 容量、弹性数据访问、p"
 tags = []
-list_page = 36
+list_page = 37
 +++
 
 <!-- AUTO-GENERATED: news page -->

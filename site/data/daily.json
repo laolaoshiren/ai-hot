@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-03T19:24:11.872492",
-  "date": "2026-08-03",
+  "updated_at": "2026-08-04T01:49:19.461754",
+  "date": "2026-08-04",
   "spotlight": {
-    "name": "Botsharp",
-    "url": "https://github.com/SciSharp/BotSharp",
+    "name": "Llmstack",
+    "url": "https://github.com/trypromptly/LLMStack",
     "type": "agent",
-    "description": "基于 .NET 的多 Agent 框架，适合构建企业级对话机器人和自动化业务流程。",
+    "description": "无代码多 Agent 应用构建平台，可基于自有数据搭建 LLM 工作流、Agent 和应用。",
     "pricing": "开源免费",
-    "category": "多Agent Agent"
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "gemini",
-      "name": "Gemini",
-      "url": "https://gemini.google.com",
+      "id": "deepseek",
+      "name": "DeepSeek",
+      "url": "https://chat.deepseek.com",
       "type": "tool",
-      "description": "Google 出品的 AI 对话工具，多模态能力强",
-      "pricing": "免费 + Advanced $20/月",
+      "description": "深度求索出品，国产最强开源大模型对话工具",
+      "pricing": "免费 + API 按量",
       "category": "对话"
     },
     {
-      "name": "MetaGPT",
-      "url": "https://github.com/geekan/MetaGPT",
+      "name": "ChatDev",
+      "url": "https://github.com/OpenBMB/ChatDev",
       "type": "agent",
-      "description": "多Agent软件公司模拟，一个Agent扮演不同角色",
+      "description": "清华出品，模拟软件开发公司的多Agent框架",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "name": "Ralph",
-      "url": "https://github.com/snarktank/ralph",
+      "name": "Pentagi",
+      "url": "https://github.com/vxcontrol/pentagi",
       "type": "agent",
-      "description": "自主循环式 AI Agent，会围绕产品需求反复执行任务，直到需求清单里的事项完成。",
+      "description": "面向渗透测试的自主 AI Agent 系统，可自动拆解安全测试任务并执行复杂攻防流程。",
       "pricing": "开源免费",
       "category": "自动化 Agent"
     }

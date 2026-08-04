@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-04 03:25:03
+🕐 **最近更新**：2026-08-04 09:50:08
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [有影响力的人因参加 OpenAI 的首次豪华旅行而遭到强烈反对](https://aihot.bt199.com/news/29dbca12f879/)
-   - 随着人工智能使用的紧张局势持续存在，OpenAI 的首次影响者品牌之旅引发了网上的强烈反对
+1. [在经历了杀手季度后，Palantir 首席执行官 Alex Karp 称人工智能行业为“马克思主义”](https://aihot.bt199.com/news/8e6013752b77/)
+   - 在一个季度实现 10 亿美元利润后，Palantir 首席执行官 Alex Karp 周一再次警告称，人工智能前沿实验室…
    - `TechCrunch AI · 2026-08-03`
 
-2. [苹果终于修复了 Siri。那么为什么会感觉虎头蛇尾呢？](https://aihot.bt199.com/news/bead3af33d16/)
-   - 苹果期待已久的人工智能改革终于让 Siri 成为了人们一直期待的助手。但经过多年的延迟，该产品的发布进入了人工智能领域…
+2. [Design Arena 创作者筹集了 790 万美元，为 AI 模型带来品味](https://aihot.bt199.com/news/5c210e03771f/)
+   - Design Arena 被全球 530 万人使用，为前沿实验室提供关键的人类评估
    - `TechCrunch AI · 2026-08-03`
 
 3. [特朗普的人工智能保护主义针对机器人](https://aihot.bt199.com/news/dc0d90ec364e/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
