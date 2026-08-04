@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，近日，全球多模型聚合平台OpenRouter发布最新一周AI大模型调用量榜单，排名前五的产品全部由中国企业研发。"
 summary_zh = ""
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

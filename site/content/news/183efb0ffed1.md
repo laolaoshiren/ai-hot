@@ -20,7 +20,7 @@ ai_summary = "本周，我报道了凯西·哈雷尔 (Casey Harrell) 的故事�
 summary = "This week, I covered the story of Casey Harrell—a man with ALS who is “the first power user” of a brain implant, according to the researchers who worked with him."
 summary_zh = "本周，我报道了凯西·哈雷尔 (Casey Harrell) 的故事。据与他一起工作的研究人员介绍，他是一名患有肌萎缩侧索硬化症 (ALS) 的男子，是大脑植入物的“第一个超级用户”。哈雷尔瘫痪了，没有该设备就无法连贯说话。他现在已经花了近三…"
 tags = []
-list_page = 245
+list_page = 246
 +++
 
 <!-- AUTO-GENERATED: news page -->

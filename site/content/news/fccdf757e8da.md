@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://odra.dev/slopfix/ 评论网址：https://ne
 summary = "Article URL: https://odra.dev/slopfix/ Comments URL: https://news.ycombinator.com/item?id=48823359 Points: 271 # Comments: 166"
 summary_zh = "文章网址：https://odra.dev/slopfix/ 评论网址：https://news.ycombinator.com/item?id=48823359 积分：271 # 评论：166"
 tags = []
-list_page = 138
+list_page = 139
 +++
 
 <!-- AUTO-GENERATED: news page -->
