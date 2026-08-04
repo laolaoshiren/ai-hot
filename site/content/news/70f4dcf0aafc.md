@@ -20,7 +20,7 @@ ai_summary = "大多数美国人对人工智能数据中心说“不要在我的
 summary = "Article URL: https://www.redfin.com/news/ai-data-centers-opposition-education-benefit/ Comments URL: https://news."
 summary_zh = "大多数美国人对人工智能数据中心说“不要在我的后院”。来源：Hacker News AI"
 tags = []
-list_page = 62
+list_page = 63
 +++
 
 <!-- AUTO-GENERATED: news page -->

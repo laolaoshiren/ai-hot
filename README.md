@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-04 21:55:08
+🕐 **最近更新**：2026-08-05 03:44:04
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [数据中心的未来是便携式的吗？ Runware 构建了一个 pod 来找出答案](https://aihot.bt199.com/news/b79c480364b4/)
-   - 周二，人工智能基础设施公司 Runware 宣布推出自己的模块化数据中心，名为 Sonic Inference Pod
+1. [英伟达也不乱了：开放人工智能产业组织成立一周后，就已经取得了进展](https://aihot.bt199.com/news/a21d180516b2/)
+   - 由 Nvidia 牵头成立的开放安全人工智能联盟 (Open Secure AI Alliance) 已成立一周，目前已…
    - `TechCrunch AI · 2026-08-04`
 
-2. [在经历了杀手季度后，Palantir 首席执行官 Alex Karp 称人工智能行业为“马克思主义”](https://aihot.bt199.com/news/8e6013752b77/)
-   - 在一个季度实现 10 亿美元利润后，Palantir 首席执行官 Alex Karp 周一再次警告称，人工智能前沿实验室…
-   - `TechCrunch AI · 2026-08-03`
+2. [Spotify 扩大 AI 混音并涵盖与 Merlin 合作的项目](https://aihot.bt199.com/news/d239bf7b2660/)
+   - Spotify 表示，代表超过 30,000 个独立唱片公司和发行商的 Merlin 已加入环球音乐集团，支持其即将推出…
+   - `TechCrunch AI · 2026-08-04`
 
-3. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
+3. [OpenAI 影响者之旅如何适得其反](https://aihot.bt199.com/news/24da5cc46a91/)
+   - 品牌之旅是影响者的通行权。赞助商希望邀请他们参加全费用带薪假期，通常还提供豪华的免费赠品和活动，这是合法性的标志。旅行还…
+   - `The Verge AI · 2026-08-04`
+
+4. [“不健康”的 LLM 使用比您想象的更常见](https://aihot.bt199.com/news/62a45b0de0e1/)
+   - 汉克·格林 (Hank Green) 是一位颇受欢迎的 YouTube 博主和科学传播者，他表示，由于他对人工智能的使用…
+   - `The Verge AI · 2026-08-04`
+
+5. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。特朗普的人工智能保护主义已经针对机器…
    - `MIT Tech Review · 2026-08-04`
 
-4. [特朗普的人工智能保护主义针对机器人](https://aihot.bt199.com/news/dc0d90ec364e/)
+6. [特朗普的人工智能保护主义针对机器人](https://aihot.bt199.com/news/dc0d90ec364e/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。人形机器人通常引…
    - `MIT Tech Review · 2026-08-03`
-
-5. [欧洲人工智能标签和透明度规则现已生效](https://aihot.bt199.com/news/41b2e08c39eb/)
-   - 欧盟引入了一些额外的规则，旨在让人们更容易识别在线聊天机器人和人工智能深度伪造品。欧盟具有里程碑意义的人工智能法案规定的…
-   - `The Verge AI · 2026-08-03`
-
-6. [中国阿里巴巴再次冲击美国人工智能霸主地位](https://aihot.bt199.com/news/0fb7db373bd7/)
-   - 中国科技巨头阿里巴巴发布了据称是其最大且“迄今为止最强大的人工智能模型”，声称其性能可与美国前沿实验室 Anthropi…
-   - `The Verge AI · 2026-08-03`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

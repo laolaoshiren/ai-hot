@@ -20,7 +20,7 @@ ai_summary = "当微软公布其 2026 财年（截至 6 月 30 日）第四季�
 summary = "When Microsoft reported killer fourth-quarter earnings for its fiscal 2026 year (which ended June 30), it tucked in an interesting little tidbit about how its investments in the two biggest, and competing, AI labs are doing."
 summary_zh = "当微软公布其 2026 财年（截至 6 月 30 日）第四季度的杀手级收益时，它透露了一个有趣的小花絮，介绍其对两个最大且相互竞争的人工智能实验室的投资进展情况"
 tags = []
-list_page = 26
+list_page = 27
 +++
 
 <!-- AUTO-GENERATED: news page -->

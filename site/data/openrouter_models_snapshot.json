@@ -2208,7 +2208,7 @@
       "id": "x-ai/grok-4.5",
       "canonical_slug": "x-ai/grok-4.5-20260708",
       "hugging_face_id": null,
-      "name": "xAI: Grok 4.5",
+      "name": "SpaceXAI: Grok 4.5",
       "created": 1783523154,
       "description": "Grok 4.5 is SpaceXAI's smartest model with frontier performance on coding, knowledge work, and STEM.",
       "context_length": 500000,
@@ -2413,7 +2413,7 @@
       "id": "~x-ai/grok-latest",
       "canonical_slug": "~x-ai/grok-latest",
       "alias_target": {
-        "name": "xAI: Grok 4.5",
+        "name": "SpaceXAI: Grok 4.5",
         "slug": "x-ai/grok-4.5"
       },
       "hugging_face_id": null,
@@ -5532,9 +5532,9 @@
       "id": "x-ai/grok-build-0.1",
       "canonical_slug": "x-ai/grok-build-0.1-20260520",
       "hugging_face_id": null,
-      "name": "xAI: Grok Build 0.1",
+      "name": "SpaceXAI: Grok Build 0.1",
       "created": 1779298123,
-      "description": "Grok Build 0.1 is xAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding...",
+      "description": "Grok Build 0.1 is SpaceXAI’s fast coding model trained specifically for agentic software engineering workflows. It supports text and image inputs with text output, and is optimized for interactive coding...",
       "context_length": 256000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -6200,9 +6200,9 @@
       "id": "x-ai/grok-4.3",
       "canonical_slug": "x-ai/grok-4.3-20260430",
       "hugging_face_id": null,
-      "name": "xAI: Grok 4.3",
+      "name": "SpaceXAI: Grok 4.3",
       "created": 1777591821,
-      "description": "Grok 4.3 is a reasoning model from xAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
+      "description": "Grok 4.3 is a reasoning model from SpaceXAI. It accepts text and image inputs with text output, and is suited for agentic workflows, instruction-following tasks, and applications requiring high factual...",
       "context_length": 1000000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -10335,9 +10335,9 @@
       "id": "x-ai/grok-4.20-multi-agent",
       "canonical_slug": "x-ai/grok-4.20-multi-agent-20260309",
       "hugging_face_id": "",
-      "name": "xAI: Grok 4.20 Multi-Agent",
+      "name": "SpaceXAI: Grok 4.20 Multi-Agent",
       "created": 1774979158,
-      "description": "Grok 4.20 Multi-Agent is a variant of xAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information...",
+      "description": "Grok 4.20 Multi-Agent is a variant of SpaceXAI’s Grok 4.20 designed for collaborative, agent-based workflows. Multiple agents operate in parallel to conduct deep research, coordinate tool use, and synthesize information...",
       "context_length": 2000000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -10415,9 +10415,9 @@
       "id": "x-ai/grok-4.20",
       "canonical_slug": "x-ai/grok-4.20-20260309",
       "hugging_face_id": "",
-      "name": "xAI: Grok 4.20",
+      "name": "SpaceXAI: Grok 4.20",
       "created": 1774979019,
-      "description": "Grok 4.20 is a reasoning model from xAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering...",
+      "description": "Grok 4.20 is a reasoning model from SpaceXAI with industry-leading speed and agentic tool calling capabilities. It combines the lowest hallucination rate on the market with strict prompt adherance, delivering...",
       "context_length": 2000000,
       "architecture": {
         "modality": "text+image+file->text",
@@ -10849,12 +10849,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000001",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.00000027",
+        "completion": "0.00000108",
+        "input_cache_read": "0.000000054"
       },
       "top_provider": {
-        "context_length": 196608,
+        "context_length": 204800,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -23048,11 +23048,11 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.0000002"
+        "prompt": "0.00000009375",
+        "completion": "0.00000025"
       },
       "top_provider": {
-        "context_length": 128000,
+        "context_length": 256000,
         "max_completion_tokens": 16384,
         "is_moderated": false
       },
@@ -29586,5 +29586,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-04T13:54:04.685371+00:00"
+  "updated_at": "2026-08-04T19:43:10.224307+00:00"
 }

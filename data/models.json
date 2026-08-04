@@ -10803,6 +10803,31 @@
     "is_core": true
   },
   {
+    "id": "hf-TheOneDario--sd-class-butterflies-32",
+    "name": "TheOneDario/sd-class-butterflies-32",
+    "display_name": "sd-class-butterflies-32",
+    "url": "https://huggingface.co/TheOneDario/sd-class-butterflies-32",
+    "author": "TheOneDario",
+    "pipeline_tag": "unconditional-image-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "pytorch",
+      "unconditional-image-generation",
+      "diffusion-models-class",
+      "license:mit",
+      "diffusers:DDPMPipeline",
+      "region:us"
+    ],
+    "created_at": "2026-08-04T19:22:55.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-08-04T19:42:13.032294",
+    "display_priority": 336,
+    "is_core": true
+  },
+  {
     "id": "hf-shinydatatech--forecastagent-v1.0",
     "name": "shinydatatech/forecastagent-v1.0",
     "display_name": "forecastagent-v1.0",
@@ -10824,7 +10849,7 @@
     "created_at": "2026-07-17T01:38:16.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-17T01:57:00.537898",
-    "display_priority": 336,
+    "display_priority": 337,
     "is_core": true
   },
   {
@@ -10853,7 +10878,7 @@
     "created_at": "2026-08-03T14:11:20.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-03T14:21:22.912615",
-    "display_priority": 337,
+    "display_priority": 338,
     "is_core": true
   },
   {
@@ -10878,7 +10903,7 @@
     "created_at": "2026-07-19T01:43:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-19T01:55:51.911309",
-    "display_priority": 338,
+    "display_priority": 339,
     "is_core": true
   },
   {
@@ -10902,7 +10927,7 @@
     "created_at": "2026-07-26T07:59:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T08:13:06.394750",
-    "display_priority": 339,
+    "display_priority": 340,
     "is_core": true
   },
   {
@@ -10926,7 +10951,7 @@
     "created_at": "2026-07-26T18:42:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T19:01:06.925009",
-    "display_priority": 340,
+    "display_priority": 341,
     "is_core": true
   },
   {
@@ -10950,7 +10975,7 @@
     "created_at": "2026-08-04T08:24:48.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-04T08:26:15.728720",
-    "display_priority": 341,
+    "display_priority": 342,
     "is_core": true
   }
 ]

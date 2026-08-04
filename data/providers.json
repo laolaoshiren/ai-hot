@@ -397,16 +397,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Grok 4.5",
-      "Grok Build 0.1",
-      "Grok 4.3"
+      "SpaceXAI: Grok 4.5",
+      "SpaceXAI: Grok Build 0.1",
+      "SpaceXAI: Grok 4.3"
     ],
     "model_count": 5,
     "last_updated": "2026-07-08",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Grok 4.5",
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.5",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
   },
