@@ -20,7 +20,7 @@ ai_summary = "EquiLibre Technologies 是一家总部位于布拉格的人工智�
 summary = "EquiLibre Technologies, a Prague-based AI lab founded by three ex-DeepMind researchers, is now valued at more than $500 million."
 summary_zh = "EquiLibre Technologies 是一家总部位于布拉格的人工智能实验室，由三名前 DeepMind 研究人员创立，目前估值超过 5 亿美元"
 tags = []
-list_page = 167
+list_page = 169
 +++
 
 <!-- AUTO-GENERATED: news page -->

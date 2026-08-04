@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-04 16:28:03
+🕐 **最近更新**：2026-08-04 21:55:08
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [在经历了杀手季度后，Palantir 首席执行官 Alex Karp 称人工智能行业为“马克思主义”](https://aihot.bt199.com/news/8e6013752b77/)
+1. [数据中心的未来是便携式的吗？ Runware 构建了一个 pod 来找出答案](https://aihot.bt199.com/news/b79c480364b4/)
+   - 周二，人工智能基础设施公司 Runware 宣布推出自己的模块化数据中心，名为 Sonic Inference Pod
+   - `TechCrunch AI · 2026-08-04`
+
+2. [在经历了杀手季度后，Palantir 首席执行官 Alex Karp 称人工智能行业为“马克思主义”](https://aihot.bt199.com/news/8e6013752b77/)
    - 在一个季度实现 10 亿美元利润后，Palantir 首席执行官 Alex Karp 周一再次警告称，人工智能前沿实验室…
    - `TechCrunch AI · 2026-08-03`
 
-2. [Design Arena 创作者筹集了 790 万美元，为 AI 模型带来品味](https://aihot.bt199.com/news/5c210e03771f/)
-   - Design Arena 被全球 530 万人使用，为前沿实验室提供关键的人类评估
-   - `TechCrunch AI · 2026-08-03`
+3. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。特朗普的人工智能保护主义已经针对机器…
+   - `MIT Tech Review · 2026-08-04`
 
-3. [特朗普的人工智能保护主义针对机器人](https://aihot.bt199.com/news/dc0d90ec364e/)
+4. [特朗普的人工智能保护主义针对机器人](https://aihot.bt199.com/news/dc0d90ec364e/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。人形机器人通常引…
    - `MIT Tech Review · 2026-08-03`
 
-4. [欧洲人工智能标签和透明度规则现已生效](https://aihot.bt199.com/news/41b2e08c39eb/)
+5. [欧洲人工智能标签和透明度规则现已生效](https://aihot.bt199.com/news/41b2e08c39eb/)
    - 欧盟引入了一些额外的规则，旨在让人们更容易识别在线聊天机器人和人工智能深度伪造品。欧盟具有里程碑意义的人工智能法案规定的…
    - `The Verge AI · 2026-08-03`
-
-5. [下载：奖励黑客攻击的解释，以及可疑的伊朗网络攻击](https://aihot.bt199.com/news/72f55c675e27/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。这就是为什么人工智能代理为了达到目标…
-   - `MIT Tech Review · 2026-08-03`
 
 6. [中国阿里巴巴再次冲击美国人工智能霸主地位](https://aihot.bt199.com/news/0fb7db373bd7/)
    - 中国科技巨头阿里巴巴发布了据称是其最大且“迄今为止最强大的人工智能模型”，声称其性能可与美国前沿实验室 Anthropi…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

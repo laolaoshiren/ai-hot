@@ -20,7 +20,7 @@ ai_summary = "微软正在开发一款人工智能“超级应用程序”，它
 summary = "Microsoft is working on an AI \"super app\" that combines Copilot's chat, coding, and agentic capabilities."
 summary_zh = "微软正在开发一款人工智能“超级应用程序”，它结合了 Copilot 的聊天、编码和代理功能。在周三的财报电话会议上，微软首席执行官萨蒂亚纳德拉表示，该应用程序在今年推出时将涵盖“消费者和商业体验”。 “副驾驶正在迅速发展，从"
 tags = []
-list_page = 24
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

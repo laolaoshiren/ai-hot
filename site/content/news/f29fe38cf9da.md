@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，36氪获悉，7月15日，金山办公在上海举办“2026 AI生产力大会”，同日连发两款AI办公智能体，分别覆盖个人级与组织级两大场景：面向个人的灵犀专业版，与面向组织的 WPS Comate。"
 summary_zh = ""
 tags = []
-list_page = 98
+list_page = 99
 +++
 
 <!-- AUTO-GENERATED: news page -->

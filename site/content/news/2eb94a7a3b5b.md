@@ -20,7 +20,7 @@ ai_summary = ""
 summary = ""
 summary_zh = ""
 tags = []
-list_page = 232
+list_page = 234
 +++
 
 <!-- AUTO-GENERATED: news page -->
