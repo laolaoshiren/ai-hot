@@ -20,7 +20,7 @@ ai_summary = "一种允许任何人生成虚假的人工智能生成图像并将
 summary = "A tool that allowed anyone to generate fake AI-generated imagery and superimpose it over real Google Earth maps quickly spurred backlash."
 summary_zh = "一种允许任何人生成虚假的人工智能生成图像并将其叠加在真实的谷歌地球地图上的工具很快引发了强烈反对"
 tags = []
-list_page = 15
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->
