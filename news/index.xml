@@ -566,7 +566,9 @@ ROC
 &lt;p&gt;根据周三的公告，AMD 表示将向 Anthropic 投资最多 50 亿美元，同时帮助扩大这家人工智能公司的计算能力。&lt;/p&gt;
 &lt;p&gt;据《华尔街日报》早些时候报道，作为新合作伙伴关系的一部分，Anthropic 将使用该芯片制造商的新 Helios 机架规模系统部署高达 2 吉瓦的 AMD Instinct MI450 AI GPU。&lt;/p&gt;</description></item><item><title>AMD 推出 Helios AI 机架级系统与 Nvidia 展开较量</title><link>https://aihot.bt199.com/news/2a9598e40ea5/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/2a9598e40ea5/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;芯片制造商 AMD 正在瞄准竞争对手 Nvidia，推出了最新的硬件：一款机架级系统，旨在满足全球最大的人工智能实验室的计算需求。&lt;/p&gt;
-&lt;p&gt;周四，在旧金山举行的该公司推进人工智能大会上，座无虚席，AMD 董事长兼首席执行官苏姿丰 (Lisa Su) 博士宣传了名为 Helios 的新型人工智能机架系统，以及包括微软在内的越来越多的客户，该公司准备在今年晚些时候推出该系统。&lt;/p&gt;</description></item><item><title>Analysis: Heads in the game</title><link>https://aihot.bt199.com/news/9ab4e89c7489/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9ab4e89c7489/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;周四，在旧金山举行的该公司推进人工智能大会上，座无虚席，AMD 董事长兼首席执行官苏姿丰 (Lisa Su) 博士宣传了名为 Helios 的新型人工智能机架系统，以及包括微软在内的越来越多的客户，该公司准备在今年晚些时候推出该系统。&lt;/p&gt;</description></item><item><title>AMD数据中心业务蓬勃发展，游戏业务退居二线</title><link>https://aihot.bt199.com/news/1670c7880711/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/1670c7880711/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;在AI容量需求的推动下，AMD最新财报显示其数据中心收入同比增长一倍多，达到67亿美元。&lt;/p&gt;
+&lt;p&gt;这比第一季度的 58 亿美元有所增长，也比去年同期报告的 32 亿美元增长了 107%。&lt;/p&gt;</description></item><item><title>Analysis: Heads in the game</title><link>https://aihot.bt199.com/news/9ab4e89c7489/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9ab4e89c7489/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;这是一条来自 MIT Tech Review 的 AI 资讯，完整细节请查看下方原始来源。&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -648,7 +650,13 @@ Thariq Shihipar
 &lt;p&gt;Anthropic 近日详细介绍了 Claude 在 Web、开发者和桌面产品中的
 安全隔离架构
 。&lt;/p&gt;
-&lt;p&gt;该公司认为，Agent 的安全不能仅依赖权限确认或模型自身的安全机制，更关键的是通过文件系统、网络以及执行环境等基础设施，对 Agent 建立确定性的安全边界。&lt;/p&gt;</description></item><item><title>Anthropic 与政府的最新争执中值得关注的三件事</title><link>https://aihot.bt199.com/news/e5321e5c15e4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e5321e5c15e4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;该公司认为，Agent 的安全不能仅依赖权限确认或模型自身的安全机制，更关键的是通过文件系统、网络以及执行环境等基础设施，对 Agent 建立确定性的安全边界。&lt;/p&gt;</description></item><item><title>Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议</title><link>https://aihot.bt199.com/news/af3fbfe150b0/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/af3fbfe150b0/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;近几个月来，Anthropic 一直在进行云合作热潮，据报道，其最新举措是与人工智能云初创公司 Volta 达成 100 亿美元的交易。&lt;/p&gt;
+&lt;p&gt;彭博社
+最初报道的
+那个沃尔特，
+今年早些时候成立
+，将在六年内为克劳德制造商提供云计算。&lt;/p&gt;</description></item><item><title>Anthropic 与政府的最新争执中值得关注的三件事</title><link>https://aihot.bt199.com/news/e5321e5c15e4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e5321e5c15e4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;这个故事最初出现在我们关于人工智能的每周通讯《算法》中。&lt;/p&gt;
 &lt;p&gt;要首先在您的收件箱中收到此类故事，请在此处注册。&lt;/p&gt;
 &lt;p&gt;对于那些正在享受暑假但不知道 Anthropic 与美国政府最近不和的人来说，这里有一个回顾：四月份该公司表示，它已经构建了一个名为 Mythos 的人工智能模型，该模型非常擅长处理代码，可能会构成全球网络安全威胁。&lt;/p&gt;</description></item><item><title>Anthropic 与州长 Newsom 达成协议，允许加州政府半价使用 Claude</title><link>https://aihot.bt199.com/news/a4fc79ea8f5a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/a4fc79ea8f5a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
@@ -2176,7 +2184,8 @@ SpaceX 向投资者展示了一款“类似手机”的 AI 设备原型，
 宣布两者之间的合作
 。&lt;/p&gt;
 &lt;p&gt;这笔交易旨在帮助 SpaceX 的人工智能部门（围绕埃隆·马斯克的人工智能公司 xAI 建立，SpaceX 在今年早些时候与该公司合并）赶上主要的人工智能实验室。&lt;/p&gt;</description></item><item><title>SpaceX 正式斥资 600 亿美元收购 Cursor</title><link>https://aihot.bt199.com/news/07a96b56158c/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/07a96b56158c/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;在大规模 IPO 几天后，SpaceX 表示将斥资 600 亿美元收购 Cursor，此举旨在帮助埃隆·马斯克 (Elon Musk) 庞大的火箭/人工智能/社交媒体巨头赢得利润丰厚的企业客户，并缩小与 Anthropic 和 OpenAI 等人工智能竞争对手的差距。&lt;/p&gt;</description></item><item><title>SpaceXAI 的 Grok 编程工具正在将用户的整个代码库上传到云存储</title><link>https://aihot.bt199.com/news/9dc0222d45c1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9dc0222d45c1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;在大规模 IPO 几天后，SpaceX 表示将斥资 600 亿美元收购 Cursor，此举旨在帮助埃隆·马斯克 (Elon Musk) 庞大的火箭/人工智能/社交媒体巨头赢得利润丰厚的企业客户，并缩小与 Anthropic 和 OpenAI 等人工智能竞争对手的差距。&lt;/p&gt;</description></item><item><title>SpaceX 作为一家人工智能公司的收入比一家航天公司还要多</title><link>https://aihot.bt199.com/news/dc48138fd851/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/dc48138fd851/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;根据 SpaceX 的季度财报，SpaceX 的人工智能收入比上年增长了三倍多，达到 26 亿美元，这主要是因为该公司为其他人工智能公司提供计算而达成的交易。&lt;/p&gt;</description></item><item><title>SpaceXAI 的 Grok 编程工具正在将用户的整个代码库上传到云存储</title><link>https://aihot.bt199.com/news/9dc0222d45c1/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9dc0222d45c1/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;SpaceXAI 的 Grok Build AI 编码工具被发现在报道之前将用户的整个代码库上传到谷歌云，该公司将其关闭。&lt;/p&gt;
 &lt;p&gt;据《Register》报道，Cereblab 周一发布的调查结果显示，Grok Build CLI 如何打包和上传整个代码存储库，“包括被告知不要打开的文件和从历史记录中删除的机密”，与 Claude Code 等类似工具相比，数据保留明显更多。&lt;/p&gt;</description></item><item><title>SpaceXAI 发布了 Grok 4.5，Elon 将其描述为“Opus 级模型”</title><link>https://aihot.bt199.com/news/e265f51e2cb7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/e265f51e2cb7/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;SpaceXAI 发布了其最新型号 Grok 4.5，这是该公司几周前上市以来的第一个型号。&lt;/p&gt;
@@ -3432,7 +3441,9 @@ Coding&lt;/p&gt;
 开源项目
 OpenRL，为在标准 Kubernetes 集群上对大型语言模型（LLM）进行后训练和微调提供一个自托管 API。&lt;/p&gt;
 &lt;p&gt;谷歌表示，OpenRL 将强化学习（RL）基础设施从 AI 研究中抽象出来，使机器学习团队能够直接在自己的集群上扩展后训练工作流。&lt;/p&gt;</description></item><item><title>刚刚，gpt 倍率仅 0.03！ 1r=1$！超高性价比中转站！评论即可领取体验额度~</title><link>https://aihot.bt199.com/news/v2ex-1228248/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/v2ex-1228248/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;据报道，大家好，初来乍到，请允许我向各位推广一下自己的小站，售后稳定，站长热心，价格实惠，超快首字，保证绝不掺水，欢迎各位大佬们前来品尝~ ### 福利： - 注册后下方评论 ID 后送 3$额度 - 群里不定时送额度以及开放福利分组 ### 网站地址： https://memeapi.&lt;/p&gt;</description></item><item><title>刚刚，GPT5.6预计将于 7 月第二周上线？价格居然不变？</title><link>https://aihot.bt199.com/news/8a5e3d515666/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8a5e3d515666/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据报道，大家好，初来乍到，请允许我向各位推广一下自己的小站，售后稳定，站长热心，价格实惠，超快首字，保证绝不掺水，欢迎各位大佬们前来品尝~ ### 福利： - 注册后下方评论 ID 后送 3$额度 - 群里不定时送额度以及开放福利分组 ### 网站地址： https://memeapi.&lt;/p&gt;</description></item><item><title>刚刚，GPT-5.6 当老板：买假用户、被Chrome干崩3小时，烧掉3亿Token收入却为0</title><link>https://aihot.bt199.com/news/42be3813015a/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/42be3813015a/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;如果一个 AI Agent 有了钱包、电脑和 24 小时，它能否独立经营一家初创公司，并真正赚到钱？&lt;/p&gt;
+&lt;p&gt;为了让 Agent 完成现实世界中的工作，仅让它运行几分钟或几小时显然不够。&lt;/p&gt;</description></item><item><title>刚刚，GPT5.6预计将于 7 月第二周上线？价格居然不变？</title><link>https://aihot.bt199.com/news/8a5e3d515666/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8a5e3d515666/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;价格不涨吗，那5.6不得被薅秃 11 个帖子 - 11 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -4819,7 +4830,9 @@ henry 发自 凹非寺
 &lt;p&gt;来源：Hacker News AI&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf"&gt;Hacker News AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>开放重量人工智能正在迎来 Kubernetes 时刻</title><link>https://aihot.bt199.com/news/b0b06661b8f4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/b0b06661b8f4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://images.nvidia.com/pdf/Open-Weights-and-American-AI-Leadership.pdf"&gt;Hacker News AI原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>开放权重人工智能模型正在赶上前沿。安全差距依然存在。</title><link>https://aihot.bt199.com/news/c30ea359fc49/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/c30ea359fc49/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;当政策制定者争论如何管理日益强大的人工智能系统（例如 OpenAI 的 GPT-5.6 Sol 和 Anthropic 的 Mythos）时，中国的开放权重模型缩小了与行业领导者的差距。&lt;/p&gt;
+&lt;p&gt;据权威机构称，GLM-5.2 是中国 Z.ai 的开放权重人工智能模型，在网络和生物能力方面仅落后 OpenAI 的 GPT-5.5 和 Anthropic 的 Claude Opus 4.7 几个月。&lt;/p&gt;</description></item><item><title>开放重量人工智能正在迎来 Kubernetes 时刻</title><link>https://aihot.bt199.com/news/b0b06661b8f4/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/b0b06661b8f4/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;开放重量人工智能正在迎来 Kubernetes 时刻。&lt;/p&gt;
 &lt;p&gt;来源：Hacker News AI&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
@@ -4928,7 +4941,15 @@ Hint: check network connectivity, DNS/TLS, that the base URL includes the API ve
 「智能是平等的，但是context是不平等的。&lt;/p&gt;
 &lt;p&gt;」
 Sam Altman不久前说了一句话，大意是：智能终将像水电一样成为基础设施，人人都能调用。&lt;/p&gt;</description></item><item><title>扩博智能Sparrow机器人27分钟修复单支叶片，刷新海上风电运维纪录，业内人士怎么看？</title><link>https://aihot.bt199.com/news/6a33f3b42594/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/6a33f3b42594/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;据悉，36氪获悉，沃旭能源宣布，其在丹麦Horns Rev 2海上风电场与扩博智能合作的Sparrow机器人叶片修复项目，将单支叶片修复时间缩短至27分钟，单日最高完成8支叶片修复，运维效率最高提升10倍，成本降低50%-75%。&lt;/p&gt;</description></item><item><title>老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型，这意味着什么？</title><link>https://aihot.bt199.com/news/0849e8614583/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/0849e8614583/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据悉，36氪获悉，沃旭能源宣布，其在丹麦Horns Rev 2海上风电场与扩博智能合作的Sparrow机器人叶片修复项目，将单支叶片修复时间缩短至27分钟，单日最高完成8支叶片修复，运维效率最高提升10倍，成本降低50%-75%。&lt;/p&gt;</description></item><item><title>来认识一下 Wrinkles，一款可以揭开您周围隐藏故事的应用程序</title><link>https://aihot.bt199.com/news/8cd05edd7a37/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8cd05edd7a37/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;一个新的应用程序叫做
+皱纹
+使用您的位置自动显示有关您周围地点的故事。&lt;/p&gt;
+&lt;p&gt;皱纹，两者都有
+iOS系统
+和
+安卓
+，本质上是一个人工智能驱动的音频导游，揭示隐藏的历史和当地故事。&lt;/p&gt;</description></item><item><title>老黄RTX Spark真机现身Bilibili World！CPU和GPU直接焊在一起，笔记本跑120B大模型，这意味着什么？</title><link>https://aihot.bt199.com/news/0849e8614583/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/0849e8614583/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;老黄RTX Spark真机现身Bilibili World！&lt;/p&gt;
 &lt;p&gt;CPU和GPU直接焊在一起，笔记本跑120B大模型
 梦瑶
@@ -7661,7 +7682,8 @@ OpenAI的养蜂活动，捅马蜂窝了。&lt;/p&gt;
 &lt;p&gt;（界面）&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
-&lt;a href="https://36kr.com/newsflashes/3865652702319625?f=rss"&gt;36氪原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：报道称英伟达与SK集团共同推出价值超过5000亿美元的AI计划</title><link>https://aihot.bt199.com/news/373d236094db/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/373d236094db/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;a href="https://36kr.com/newsflashes/3865652702319625?f=rss"&gt;36氪原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>突发：报道：DeepSeek重启融资，投前估值5000亿元</title><link>https://aihot.bt199.com/news/ba29097e3583/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ba29097e3583/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据报道，多名交易人士透露，大模型公司DeepSeek重启了第二轮融资，本轮计划募资500亿元，投前估值约5000亿元，并计划将在8月下旬完成签约。&lt;/p&gt;</description></item><item><title>突发：报道称英伟达与SK集团共同推出价值超过5000亿美元的AI计划</title><link>https://aihot.bt199.com/news/373d236094db/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/373d236094db/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据报道，英伟达表示，将协助海力士设计未来的高带宽内存芯片，此举将有助于确保内存供应。&lt;/p&gt;
 &lt;p&gt;英伟达还表示，与SK集团合作的“人工智能计划”总价值将超过5000亿美元。&lt;/p&gt;</description></item><item><title>突发：北大科学家下场做脑机接口，种子轮融了近亿元</title><link>https://aihot.bt199.com/news/8385ba4e30b7/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/8385ba4e30b7/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，文 | 孙小雯 访谈 / 编辑 | 海若镜 「暗涌Waves」独家获悉，侵入式脑机接口公司「芯生视界」近日完成近亿元人民币种子轮融资。&lt;/p&gt;
@@ -9756,7 +9778,8 @@ AI进入生物制造，真正缺的不是更聪明的大脑，而是连接数字
 &lt;p&gt;如果你要核对细节，可以再看原文：
 &lt;a href="https://linux.do/t/topic/2469198"&gt;LINUX DO原文链接&lt;/a&gt;&lt;/p&gt;</description></item><item><title>重磅！谷歌DeepMind对齐研究员Arthur Conmy宣布加入Anthropic</title><link>https://aihot.bt199.com/news/ae50d675be61/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/ae50d675be61/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据了解，GDM研究员Arthur Conmy于6月25日在社交平台X上宣布，他即将加入Anthropic，从事模型对齐相关工作，并将为此从伦敦搬迁至旧金山。&lt;/p&gt;</description></item><item><title>重磅！谷歌将于6月19日起强制限制Gemini API密钥，9月全面淘汰标准密钥</title><link>https://aihot.bt199.com/news/cca78ce04485/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/cca78ce04485/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
-&lt;p&gt;据悉，Google5月22日发布安全指南，确认Gemini API正在从标准API密钥（Standard Key）向授权密钥（Auth Key）过渡。&lt;/p&gt;</description></item><item><title>重磅！谷歌再失 AI 人才，两名 Gemini 核心骨干转投 Anthropic</title><link>https://aihot.bt199.com/news/f3d252ec08d6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/f3d252ec08d6/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据悉，Google5月22日发布安全指南，确认Gemini API正在从标准API密钥（Standard Key）向授权密钥（Auth Key）过渡。&lt;/p&gt;</description></item><item><title>重磅！谷歌课堂Gemini扩展至全年龄段学生，新增情境化引导提示</title><link>https://aihot.bt199.com/news/d19c06c7d385/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/d19c06c7d385/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;据报道，当地时间8月4日，谷歌宣布自2026年8月10日起，Google Classroom中的Gemini功能将向全年龄段的K-12及高等教育学生开放，前提是其管理员已授予相关权限。&lt;/p&gt;</description></item><item><title>重磅！谷歌再失 AI 人才，两名 Gemini 核心骨干转投 Anthropic</title><link>https://aihot.bt199.com/news/f3d252ec08d6/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/f3d252ec08d6/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据悉，- IT之家 10 个帖子 - 9 位参与者 阅读完整话题&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
@@ -10897,7 +10920,9 @@ CUDA&lt;/p&gt;</description></item><item><title>最新动态：规范引导情�
 &lt;p&gt;据了解，在存储芯片需求旺盛的推动下，韩国7月出口同比飙升近63%至989.9亿美元，创历史第二高单月出口额，仅次于6月的1022亿美元。&lt;/p&gt;</description></item><item><title>最新动态：韩国芯片独角兽DeepX估值飙升4倍至22亿美元</title><link>https://aihot.bt199.com/news/5a9d9a1e8195/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/5a9d9a1e8195/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;消息称，韩国AI芯片设计企业DeepX Co.近日完成新一轮融资，估值较上一轮暴涨约四倍，反映出市场对人工智能产业链相关公司的投资热情依旧高涨。&lt;/p&gt;</description></item><item><title>最新动态：黑芝麻智能与正行创新达成战略合作，全力推动具身智能全球布局</title><link>https://aihot.bt199.com/news/9f6b2e7b9a67/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/9f6b2e7b9a67/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;有分析指出，7月29日，黑芝麻智能与正行创新正式签署战略合作协议。&lt;/p&gt;
-&lt;p&gt;双方将依托各自在端侧AI芯片与具身智能领域的核心优势，在本土化具身智能生态构建、算法适配与场景部署、全球市场商业化落地等诸多领域展开深度协同，携手推动具身智能技术向规模化产业应用迈进。&lt;/p&gt;</description></item><item><title>最新动态：华为昇腾 0 Day 支持智谱 GLM-5.2 模型，提供全面推理优化</title><link>https://aihot.bt199.com/news/59dccc0855ad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/59dccc0855ad/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;双方将依托各自在端侧AI芯片与具身智能领域的核心优势，在本土化具身智能生态构建、算法适配与场景部署、全球市场商业化落地等诸多领域展开深度协同，携手推动具身智能技术向规模化产业应用迈进。&lt;/p&gt;</description></item><item><title>最新动态：华泰证券：建议关注AI应用和国产模型两条投资主线</title><link>https://aihot.bt199.com/news/da35bbd72628/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/da35bbd72628/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
+&lt;p&gt;36氪获悉，华泰证券研报称，GPT-5.6降价推动大模型竞争由能力排名进一步转向“同等智能成本”。&lt;/p&gt;
+&lt;p&gt;OpenAI于7月30日将Terra和Luna价格分别下调20%和80%；次日发布的DeepSeek V4 Flash 0731在Artificial Analysis Intelligence Index达到50分，仅比Luna低1分，混合价格和平均任务成本分别约0.06美元/百万Token和0.03美元，较Luna分别低约65%和57%。&lt;/p&gt;</description></item><item><title>最新动态：华为昇腾 0 Day 支持智谱 GLM-5.2 模型，提供全面推理优化</title><link>https://aihot.bt199.com/news/59dccc0855ad/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://aihot.bt199.com/news/59dccc0855ad/</guid><description>&lt;!-- AUTO-GENERATED: news page --&gt;
 &lt;p&gt;据悉，[IT之家]6 月 18 日消息，“昇腾 AI 开发者”公众号 6 月 17 日宣布，昇腾 0 Day 支持 GLM-5.&lt;/p&gt;
 &lt;h2 id="-原始来源"&gt;🔗 原始来源&lt;/h2&gt;
 &lt;p&gt;如果你要核对细节，可以再看原文：
