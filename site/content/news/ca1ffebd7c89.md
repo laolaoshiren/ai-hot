@@ -20,7 +20,7 @@ ai_summary = "Pinterest 推出了“Ask Pinterest”，这是一款实验性的�
 summary = "Pinterest has launched 'Ask Pinterest,' an experimental AI-powered shopping app that lets users seek recommendations and inspiration through a conversational interface."
 summary_zh = "Pinterest 推出了“Ask Pinterest”，这是一款实验性的人工智能购物应用程序，可让用户通过对话界面寻求建议和灵感"
 tags = []
-list_page = 268
+list_page = 269
 +++
 
 <!-- AUTO-GENERATED: news page -->

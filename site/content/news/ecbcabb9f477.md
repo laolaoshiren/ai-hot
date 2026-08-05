@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "开源AI软件栈SAIL，260+框架即开即用"
 summary_zh = ""
 tags = []
-list_page = 63
+list_page = 64
 +++
 
 <!-- AUTO-GENERATED: news page -->

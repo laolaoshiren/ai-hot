@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-05 16:25:29
+🕐 **最近更新**：2026-08-05 21:50:50
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [开放权重人工智能模型正在赶上前沿。安全差距依然存在。](https://aihot.bt199.com/news/c30ea359fc49/)
-   - 一份新的 SaferAI 报告发现，Z.ai 的开放权重 GLM-5.2 接近前沿人工智能能力，但缺乏关键的安全缓解措施…
-   - `TechCrunch AI · 2026-08-04`
+1. [MacPaw 利用 Liquid AI 为其应用商店构建的开发人员提供设备上推理](https://aihot.bt199.com/news/63d1078404a2/)
+   - MacPaw 正在使用 Liquid AI 的模型构建其 AI 助手 Eney 的本地版本
+   - `TechCrunch AI · 2026-08-05`
 
-2. [Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议](https://aihot.bt199.com/news/af3fbfe150b0/)
-   - 近几个月来，Anthropic 一直在进行云合作热潮，据报道，其最新举措是与人工智能云初创公司 Volta 达成 100…
-   - `TechCrunch AI · 2026-08-04`
+2. [人工智能让天气预报变得更好。 WindBorne 能否盈利？](https://aihot.bt199.com/news/8b3b35a1cad7/)
+   - WindBorne Systems 已筹集 3700 万美元的 B 轮融资，以扩大其气象气球和人工智能预测的规模
+   - `TechCrunch AI · 2026-08-05`
 
-3. [AMD数据中心业务蓬勃发展，游戏业务退居二线](https://aihot.bt199.com/news/1670c7880711/)
-   - 在AI容量需求的推动下，AMD最新财报显示其数据中心收入同比增长一倍多，达到67亿美元。这比第一季度的 58 亿美元有所…
-   - `The Verge AI · 2026-08-04`
+3. [下载：美国宇航局的新望远镜和中国技术进口限制](https://aihot.bt199.com/news/ff71d16d359f/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 NASA新型暗能量太空望远镜还可探…
+   - `MIT Tech Review · 2026-08-05`
 
-4. [SpaceX 作为一家人工智能公司的收入比一家航天公司还要多](https://aihot.bt199.com/news/dc48138fd851/)
-   - 根据 SpaceX 的季度财报，SpaceX 的人工智能收入比上年增长了三倍多，达到 26 亿美元，这主要是因为该公司为…
-   - `The Verge AI · 2026-08-04`
+4. [Google Assistant 下个月将从你的手机中消失](https://aihot.bt199.com/news/f91b380ba63e/)
+   - 自从 Gemini 出现以来，Google Assistant 的日子已经屈指可数了，现在它的时代已经结束了。谷歌宣布将…
+   - `The Verge AI · 2026-08-05`
 
-5. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
+5. [特朗普的人工智能测试计划有限且模糊](https://aihot.bt199.com/news/b654b838a5d8/)
+   - 据报道，特朗普政府评估先进人工智能带来的潜在网络安全风险的框架对测试开放模型没有兴趣。 Axios 报告称，自愿指南不仅…
+   - `The Verge AI · 2026-08-05`
+
+6. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。特朗普的人工智能保护主义已经针对机器…
    - `MIT Tech Review · 2026-08-04`
-
-6. [特朗普的人工智能保护主义针对机器人](https://aihot.bt199.com/news/dc0d90ec364e/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。人形机器人通常引…
-   - `MIT Tech Review · 2026-08-03`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

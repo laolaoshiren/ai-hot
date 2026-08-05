@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "让多智能体团队随时随地为你干活"
 summary_zh = ""
 tags = []
-list_page = 35
+list_page = 36
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "Claude-real-video － 任何法学硕士都可以观看视频。�
 summary = "Article URL: https://github.com/HUANGCHIHHUNGLeo/claude-real-video Comments URL: https://news."
 summary_zh = "Claude-real-video － 任何法学硕士都可以观看视频。来源：Hacker News AI"
 tags = []
-list_page = 162
+list_page = 163
 +++
 
 <!-- AUTO-GENERATED: news page -->
