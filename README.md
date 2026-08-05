@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-05 03:44:04
+🕐 **最近更新**：2026-08-05 09:51:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [英伟达也不乱了：开放人工智能产业组织成立一周后，就已经取得了进展](https://aihot.bt199.com/news/a21d180516b2/)
-   - 由 Nvidia 牵头成立的开放安全人工智能联盟 (Open Secure AI Alliance) 已成立一周，目前已…
+1. [开放权重人工智能模型正在赶上前沿。安全差距依然存在。](https://aihot.bt199.com/news/c30ea359fc49/)
+   - 一份新的 SaferAI 报告发现，Z.ai 的开放权重 GLM-5.2 接近前沿人工智能能力，但缺乏关键的安全缓解措施…
    - `TechCrunch AI · 2026-08-04`
 
-2. [Spotify 扩大 AI 混音并涵盖与 Merlin 合作的项目](https://aihot.bt199.com/news/d239bf7b2660/)
-   - Spotify 表示，代表超过 30,000 个独立唱片公司和发行商的 Merlin 已加入环球音乐集团，支持其即将推出…
+2. [Anthropic 与人工智能云初创公司 Volta 签署 100 亿美元协议](https://aihot.bt199.com/news/af3fbfe150b0/)
+   - 近几个月来，Anthropic 一直在进行云合作热潮，据报道，其最新举措是与人工智能云初创公司 Volta 达成 100…
    - `TechCrunch AI · 2026-08-04`
 
-3. [OpenAI 影响者之旅如何适得其反](https://aihot.bt199.com/news/24da5cc46a91/)
-   - 品牌之旅是影响者的通行权。赞助商希望邀请他们参加全费用带薪假期，通常还提供豪华的免费赠品和活动，这是合法性的标志。旅行还…
+3. [AMD数据中心业务蓬勃发展，游戏业务退居二线](https://aihot.bt199.com/news/1670c7880711/)
+   - 在AI容量需求的推动下，AMD最新财报显示其数据中心收入同比增长一倍多，达到67亿美元。这比第一季度的 58 亿美元有所…
    - `The Verge AI · 2026-08-04`
 
-4. [“不健康”的 LLM 使用比您想象的更常见](https://aihot.bt199.com/news/62a45b0de0e1/)
-   - 汉克·格林 (Hank Green) 是一位颇受欢迎的 YouTube 博主和科学传播者，他表示，由于他对人工智能的使用…
+4. [SpaceX 作为一家人工智能公司的收入比一家航天公司还要多](https://aihot.bt199.com/news/dc48138fd851/)
+   - 根据 SpaceX 的季度财报，SpaceX 的人工智能收入比上年增长了三倍多，达到 26 亿美元，这主要是因为该公司为…
    - `The Verge AI · 2026-08-04`
 
 5. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

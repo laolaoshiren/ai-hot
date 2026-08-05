@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "不主动改变，就只能等着被改变"
 summary_zh = ""
 tags = []
-list_page = 264
+list_page = 265
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-04T19:43:10.348897",
-  "date": "2026-08-04",
+  "updated_at": "2026-08-05T01:50:54.535714",
+  "date": "2026-08-05",
   "spotlight": {
-    "name": "Llmstack",
-    "url": "https://github.com/trypromptly/LLMStack",
+    "name": "Memora",
+    "url": "https://github.com/ELZAI/memora",
     "type": "agent",
-    "description": "无代码多 Agent 应用构建平台，可基于自有数据搭建 LLM 工作流、Agent 和应用。",
+    "description": "面向 AI 助手和 Agent 的记忆系统，目标是让智能体具备类似人的长期记忆能力。",
     "pricing": "开源免费",
-    "category": "编程 Agent"
+    "category": "助手 Agent"
   },
   "alternates": [
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "url": "https://chat.deepseek.com",
+      "id": "kimi",
+      "name": "Kimi",
+      "url": "https://kimi.moonshot.cn",
       "type": "tool",
-      "description": "深度求索出品，国产最强开源大模型对话工具",
-      "pricing": "免费 + API 按量",
+      "description": "月之暗面出品，超长上下文 AI 助手",
+      "pricing": "免费 + 会员",
       "category": "对话"
     },
     {
-      "name": "ChatDev",
-      "url": "https://github.com/OpenBMB/ChatDev",
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
       "type": "agent",
-      "description": "清华出品，模拟软件开发公司的多Agent框架",
+      "description": "微软多Agent对话框架，支持复杂任务协作",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "name": "Pentagi",
-      "url": "https://github.com/vxcontrol/pentagi",
+      "name": "Agent Skills",
+      "url": "https://github.com/addyosmani/agent-skills",
       "type": "agent",
-      "description": "面向渗透测试的自主 AI Agent 系统，可自动拆解安全测试任务并执行复杂攻防流程。",
+      "description": "为 AI 编程 Agent 准备的工程技能库，沉淀可复用的开发、调试和交付流程。",
       "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "category": "编程 Agent"
     }
   ]
 }
