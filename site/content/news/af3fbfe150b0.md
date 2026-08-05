@@ -20,7 +20,7 @@ ai_summary = "近几个月来，Anthropic 一直在进行云合作热潮，据�
 summary = "Anthropic has been on a cloud partnership spree in recent months, and its latest move is reportedly a $10 billion deal with AI cloud startup Volta."
 summary_zh = "近几个月来，Anthropic 一直在进行云合作热潮，据报道，其最新举措是与人工智能云初创公司 Volta 达成 100 亿美元的交易"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

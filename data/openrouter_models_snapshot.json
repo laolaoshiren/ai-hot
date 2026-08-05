@@ -3699,7 +3699,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000073",
+        "prompt": "0.0000007",
         "completion": "0.0000035",
         "input_cache_read": "0.00000015"
       },
@@ -9367,13 +9367,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000966",
-        "completion": "0.000003036",
-        "input_cache_read": "0.0000001794"
+        "prompt": "0.000000952",
+        "completion": "0.000002992",
+        "input_cache_read": "0.0000001768"
       },
       "top_provider": {
-        "context_length": 200000,
-        "max_completion_tokens": 128000,
+        "context_length": 202752,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13721,7 +13721,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000022",
         "completion": "0.0000009",
         "input_cache_read": "0.00000005"
       },
@@ -14592,7 +14592,7 @@
       "name": "Upstage: Solar Pro 3",
       "created": 1769481200,
       "description": "Solar Pro 3 is Upstage's powerful Mixture-of-Experts (MoE) language model. With 102B total parameters and 12B active parameters per forward pass, it delivers exceptional performance while maintaining computational efficiency. Optimized...",
-      "context_length": 128000,
+      "context_length": 131072,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -14610,20 +14610,23 @@
         "input_cache_read": "0.000000015"
       },
       "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": null,
+        "context_length": 131072,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
+        "frequency_penalty",
         "include_reasoning",
         "max_tokens",
+        "presence_penalty",
         "reasoning",
         "response_format",
         "structured_outputs",
         "temperature",
         "tool_choice",
-        "tools"
+        "tools",
+        "top_p"
       ],
       "default_parameters": {
         "temperature": null,
@@ -22623,12 +22626,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001495",
-        "completion": "0.000000598"
+        "prompt": "0.00000009",
+        "completion": "0.00000055"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
+        "context_length": 262144,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -29601,5 +29604,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-05T13:49:44.593146+00:00"
+  "updated_at": "2026-08-05T19:20:03.054244+00:00"
 }

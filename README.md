@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-05 21:50:50
+🕐 **最近更新**：2026-08-06 03:21:08
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [MacPaw 利用 Liquid AI 为其应用商店构建的开发人员提供设备上推理](https://aihot.bt199.com/news/63d1078404a2/)
-   - MacPaw 正在使用 Liquid AI 的模型构建其 AI 助手 Eney 的本地版本
+1. [Shopify 表示人工智能搜索正在推动更多流量和销售，而不是取代谷歌](https://aihot.bt199.com/news/0108300124fb/)
+   - Shopify 表示，人工智能并没有像对待出版商那样蚕食搜索流量。相反，第二季度，人工智能驱动的 Shopify 商店流…
    - `TechCrunch AI · 2026-08-05`
 
-2. [人工智能让天气预报变得更好。 WindBorne 能否盈利？](https://aihot.bt199.com/news/8b3b35a1cad7/)
-   - WindBorne Systems 已筹集 3700 万美元的 B 轮融资，以扩大其气象气球和人工智能预测的规模
-   - `TechCrunch AI · 2026-08-05`
+2. [当然，Fenix Flexin 似乎使用了 AI 音乐生成器 Treblo](https://aihot.bt199.com/news/2644b57e1ba5/)
+   - 我们非常确定 Fenix Flexin 的“Rubberz”是使用 AI 制作的，但音乐家 Medasin 确信它是专门…
+   - `The Verge AI · 2026-08-05`
 
-3. [下载：美国宇航局的新望远镜和中国技术进口限制](https://aihot.bt199.com/news/ff71d16d359f/)
+3. [谷歌刚刚宣布对其人工智能最高领导层进行重大改组](https://aihot.bt199.com/news/6c9f4d7e1b1d/)
+   - 谷歌正在对人工智能领导层进行一些重大调整，其中包括谷歌 DeepMind 领导者 Demis Hassabis 的重大转…
+   - `The Verge AI · 2026-08-05`
+
+4. [下载：美国宇航局的新望远镜和中国技术进口限制](https://aihot.bt199.com/news/ff71d16d359f/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 NASA新型暗能量太空望远镜还可探…
    - `MIT Tech Review · 2026-08-05`
 
-4. [Google Assistant 下个月将从你的手机中消失](https://aihot.bt199.com/news/f91b380ba63e/)
-   - 自从 Gemini 出现以来，Google Assistant 的日子已经屈指可数了，现在它的时代已经结束了。谷歌宣布将…
-   - `The Verge AI · 2026-08-05`
-
-5. [特朗普的人工智能测试计划有限且模糊](https://aihot.bt199.com/news/b654b838a5d8/)
-   - 据报道，特朗普政府评估先进人工智能带来的潜在网络安全风险的框架对测试开放模型没有兴趣。 Axios 报告称，自愿指南不仅…
-   - `The Verge AI · 2026-08-05`
-
-6. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
+5. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。特朗普的人工智能保护主义已经针对机器…
    - `MIT Tech Review · 2026-08-04`
 
-7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-9. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+8. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
+
+9. [Hark 预览其浏览器使用代理来完成任务](https://aihot.bt199.com/news/844e872cde08/)
+   - Hark 声称其浏览器使用代理比竞争对手更快、更便宜
+   - `TechCrunch AI · 2026-08-05`
 
 10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
    - 如果黑客使用传统方法，有人可能会入狱
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
