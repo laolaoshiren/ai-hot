@@ -3500,6 +3500,32 @@
     "collected_at": "2026-04-20T18:54:55.937598"
   },
   {
+    "id": "github-1203558071",
+    "name": "TencentCloud/TencentDB-Agent-Memory",
+    "display_name": "TencentDB-Agent-Memory",
+    "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+    "description": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+    "stars": 16324,
+    "forks": 1470,
+    "language": "TypeScript",
+    "topics": [
+      "agent",
+      "ai-agent",
+      "embedding",
+      "llm",
+      "local-first",
+      "long-term-memory",
+      "memory",
+      "openclaw-plugin",
+      "vector-search"
+    ],
+    "created_at": "2026-04-07T06:34:26Z",
+    "updated_at": "2026-08-06T23:52:28Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-08-06T23:53:47.253974"
+  },
+  {
     "id": "github-176982014",
     "name": "NVIDIA/Megatron-LM",
     "display_name": "Megatron-LM",

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-06 21:49:05
+🕐 **最近更新**：2026-08-07 07:55:31
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Spotify 前员工筹集 1000 万美元，将人工智能引入电子商务建议](https://aihot.bt199.com/news/b98407de0bce/)
-   - 该初创公司的平台可以预测购物者接下来想要什么产品，了解他们的总体品味，并根据他们的实时行为不断进行调整
+1. [据报道，OpenAI 的新款 AI 智能音箱售价将在 300 至 400 美元之间](https://aihot.bt199.com/news/93553c6ca62b/)
+   - 关于 OpenAI 神秘的新型人工智能设备的更多细节使它听起来像一个昂贵的智能扬声器
    - `TechCrunch AI · 2026-08-06`
 
-2. [独家： Mirendil 与 Google Cloud 签署价值超过 1 亿美元的协议，以扩展自我改进的人工智能](https://aihot.bt199.com/news/574a05ceaccb/)
-   - Mirendil 与 Google Cloud 签署了价值超过 1 亿美元的合作伙伴关系，以扩展其计算基础设施，推动对旨…
+2. [ChatGPT 为免费用户带来无限的文本聊天](https://aihot.bt199.com/news/230504609d1e/)
+   - OpenAI 表示，ChatGPT 免费版和 Go 用户还获得了一个用于复杂查询的新思考按钮
    - `TechCrunch AI · 2026-08-06`
 
 3. [谷歌人工智能大变革背后的混乱政治](https://aihot.bt199.com/news/a46d99079358/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

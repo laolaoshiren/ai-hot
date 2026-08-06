@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "第二天，就有一篇人类论文回应：AI提出的反例不成立"
 summary_zh = ""
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->
