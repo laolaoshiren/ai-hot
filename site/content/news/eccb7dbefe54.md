@@ -20,7 +20,7 @@ ai_summary = "该初创公司正在构建旨在使人工智能电话通过图灵
 summary = "The startup is building voice models designed to make AI phone calls pass the Turing test."
 summary_zh = "该初创公司正在构建旨在使人工智能电话通过图灵测试的语音模型"
 tags = []
-list_page = 23
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->
