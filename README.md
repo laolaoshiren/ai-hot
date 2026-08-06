@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-06 03:21:08
+🕐 **最近更新**：2026-08-06 09:52:23
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,16 +16,16 @@
 
 ## 🔥 今日热点
 
-1. [Shopify 表示人工智能搜索正在推动更多流量和销售，而不是取代谷歌](https://aihot.bt199.com/news/0108300124fb/)
-   - Shopify 表示，人工智能并没有像对待出版商那样蚕食搜索流量。相反，第二季度，人工智能驱动的 Shopify 商店流…
+1. [Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理](https://aihot.bt199.com/news/f4b59bdfc21b/)
+   - Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务
    - `TechCrunch AI · 2026-08-05`
 
-2. [当然，Fenix Flexin 似乎使用了 AI 音乐生成器 Treblo](https://aihot.bt199.com/news/2644b57e1ba5/)
-   - 我们非常确定 Fenix Flexin 的“Rubberz”是使用 AI 制作的，但音乐家 Medasin 确信它是专门…
-   - `The Verge AI · 2026-08-05`
+2. [埃隆·马斯克对人工智能维基百科的尝试已经几个月没有更新了](https://aihot.bt199.com/news/e2be35c9d61c/)
+   - 根据 Lawfare 的一份报告，xAI 的 Grokipedia 是一本包含人工智能生成文章的在线百科全书，埃隆·马斯…
+   - `The Verge AI · 2026-08-06`
 
-3. [谷歌刚刚宣布对其人工智能最高领导层进行重大改组](https://aihot.bt199.com/news/6c9f4d7e1b1d/)
-   - 谷歌正在对人工智能领导层进行一些重大调整，其中包括谷歌 DeepMind 领导者 Demis Hassabis 的重大转…
+3. [当然，Fenix Flexin 似乎使用了 AI 音乐生成器 Treblo](https://aihot.bt199.com/news/2644b57e1ba5/)
+   - 我们非常确定 Fenix Flexin 的“Rubberz”是使用 AI 制作的，但音乐家 Medasin 确信它是专门…
    - `The Verge AI · 2026-08-05`
 
 4. [下载：美国宇航局的新望远镜和中国技术进口限制](https://aihot.bt199.com/news/ff71d16d359f/)
@@ -48,11 +48,7 @@
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
 
-9. [Hark 预览其浏览器使用代理来完成任务](https://aihot.bt199.com/news/844e872cde08/)
-   - Hark 声称其浏览器使用代理比竞争对手更快、更便宜
-   - `TechCrunch AI · 2026-08-05`
-
-10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
+9. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
    - 如果黑客使用传统方法，有人可能会入狱
    - `Ars Technica AI · 2026-07-31`
 
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-05T19:20:03.514817",
-  "date": "2026-08-05",
+  "updated_at": "2026-08-06T01:51:23.596755",
+  "date": "2026-08-06",
   "spotlight": {
-    "name": "Memora",
-    "url": "https://github.com/ELZAI/memora",
+    "name": "Awesome Claw",
+    "url": "https://github.com/sameeerkashyap/awesome-claw",
     "type": "agent",
-    "description": "面向 AI 助手和 Agent 的记忆系统，目标是让智能体具备类似人的长期记忆能力。",
+    "description": "OpenClaw 风格 AI 助手和 Agent 项目合集，收录高效、开源的个人助手方案。",
     "pricing": "开源免费",
     "category": "助手 Agent"
   },
   "alternates": [
     {
-      "id": "kimi",
-      "name": "Kimi",
-      "url": "https://kimi.moonshot.cn",
+      "id": "豆包",
+      "name": "豆包",
+      "url": "https://www.doubao.com",
       "type": "tool",
-      "description": "月之暗面出品，超长上下文 AI 助手",
-      "pricing": "免费 + 会员",
+      "description": "字节跳动出品的 AI 助手，功能全面",
+      "pricing": "免费",
       "category": "对话"
     },
     {
-      "name": "AutoGen",
-      "url": "https://github.com/microsoft/autogen",
+      "name": "LangGraph",
+      "url": "https://github.com/langchain-ai/langgraph",
       "type": "agent",
-      "description": "微软多Agent对话框架，支持复杂任务协作",
+      "description": "LangChain出品的有状态Agent编排框架",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "name": "Agent Skills",
-      "url": "https://github.com/addyosmani/agent-skills",
+      "name": "Cmux",
+      "url": "https://github.com/manaflow-ai/cmux",
       "type": "agent",
-      "description": "为 AI 编程 Agent 准备的工程技能库，沉淀可复用的开发、调试和交付流程。",
+      "description": "面向 AI 编程工作流的 macOS 终端工具，支持纵向标签页和任务通知，方便同时管理多个 Agent。",
       "pricing": "开源免费",
       "category": "编程 Agent"
     }
