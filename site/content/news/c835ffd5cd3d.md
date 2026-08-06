@@ -20,7 +20,7 @@ ai_summary = "Hugging Face 首席执行官 Clem Delangue 表示，开源人工�
 summary = "Open source AI is booming, according to&#160;Hugging Face&#160;CEO&#160;Clem Delangue."
 summary_zh = "Hugging Face 首席执行官 Clem Delangue 表示，开源人工智能正在蓬勃发展。近年来，该公司已发展成为人工智能的 GitHub，人工智能构建者可以在其中共享和下载开放模型和数据集，目前大约有一半的财富 500 强企业在使…"
 tags = []
-list_page = 132
+list_page = 133
 +++
 
 <!-- AUTO-GENERATED: news page -->

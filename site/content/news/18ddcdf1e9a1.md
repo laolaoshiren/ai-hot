@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "仿真的底层逻辑"
 summary_zh = ""
 tags = []
-list_page = 85
+list_page = 86
 +++
 
 <!-- AUTO-GENERATED: news page -->

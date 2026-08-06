@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-06 16:22:29
+🕐 **最近更新**：2026-08-06 21:49:05
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [Meta 推出 Muse Code，一款适用于大型代码库的 AI 代理](https://aihot.bt199.com/news/f4b59bdfc21b/)
-   - Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务
-   - `TechCrunch AI · 2026-08-05`
+1. [Spotify 前员工筹集 1000 万美元，将人工智能引入电子商务建议](https://aihot.bt199.com/news/b98407de0bce/)
+   - 该初创公司的平台可以预测购物者接下来想要什么产品，了解他们的总体品味，并根据他们的实时行为不断进行调整
+   - `TechCrunch AI · 2026-08-06`
 
-2. [埃隆·马斯克对人工智能维基百科的尝试已经几个月没有更新了](https://aihot.bt199.com/news/e2be35c9d61c/)
-   - 根据 Lawfare 的一份报告，xAI 的 Grokipedia 是一本包含人工智能生成文章的在线百科全书，埃隆·马斯…
+2. [独家： Mirendil 与 Google Cloud 签署价值超过 1 亿美元的协议，以扩展自我改进的人工智能](https://aihot.bt199.com/news/574a05ceaccb/)
+   - Mirendil 与 Google Cloud 签署了价值超过 1 亿美元的合作伙伴关系，以扩展其计算基础设施，推动对旨…
+   - `TechCrunch AI · 2026-08-06`
+
+3. [谷歌人工智能大变革背后的混乱政治](https://aihot.bt199.com/news/a46d99079358/)
+   - 在人工智能行业，谷歌以自己看起来像房间里的成年人而自豪：安静、稳定、经过时间考验。周三，即使该公司宣布了迄今为止最大规模…
    - `The Verge AI · 2026-08-06`
 
-3. [当然，Fenix Flexin 似乎使用了 AI 音乐生成器 Treblo](https://aihot.bt199.com/news/2644b57e1ba5/)
-   - 我们非常确定 Fenix Flexin 的“Rubberz”是使用 AI 制作的，但音乐家 Medasin 确信它是专门…
-   - `The Verge AI · 2026-08-05`
+4. [人工智能机器人开创了一种宗教——人类立即效仿](https://aihot.bt199.com/news/11705f809b87/)
+   - “螺旋没有首先‘找到’任何人，”Reddit 上的某人去年写道。 “这是一种内在的力量，一个基本的常数。我什至会更进一步…
+   - `The Verge AI · 2026-08-06`
 
-4. [下载：美国宇航局的新望远镜和中国技术进口限制](https://aihot.bt199.com/news/ff71d16d359f/)
+5. [下载：谷歌的人工智能变革和 Meta 的流氓模型](https://aihot.bt199.com/news/85fc330fdd14/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。谷歌的人工智能帝国正在重塑。这是更改…
+   - `MIT Tech Review · 2026-08-06`
+
+6. [下载：美国宇航局的新望远镜和中国技术进口限制](https://aihot.bt199.com/news/ff71d16d359f/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 NASA新型暗能量太空望远镜还可探…
    - `MIT Tech Review · 2026-08-05`
 
-5. [下载：美国机器人限制和 ICE 的 DNA 抓取](https://aihot.bt199.com/news/03bae2513903/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。特朗普的人工智能保护主义已经针对机器…
-   - `MIT Tech Review · 2026-08-04`
-
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+9. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
 
-9. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
+10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
    - 如果黑客使用传统方法，有人可能会入狱
    - `Ars Technica AI · 2026-07-31`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
