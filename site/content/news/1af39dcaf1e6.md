@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "画出那个矩阵的能力——还属于人类。"
 summary_zh = ""
 tags = []
-list_page = 196
+list_page = 197
 +++
 
 <!-- AUTO-GENERATED: news page -->
