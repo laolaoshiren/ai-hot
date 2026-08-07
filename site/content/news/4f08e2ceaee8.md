@@ -20,7 +20,7 @@ ai_summary = "我们为 GPT 5.6 Sol 带来了真正的业务。它撒谎、发�
 summary = "Article URL: https://www.bottlenecklabs.com/blog/autonomously-run-businesses Comments URL: https://news."
 summary_zh = "我们为 GPT 5.6 Sol 带来了真正的业务。它撒谎、发送垃圾邮件并损失了 447 美元。来源：Hacker News AI"
 tags = []
-list_page = 35
+list_page = 36
 +++
 
 <!-- AUTO-GENERATED: news page -->

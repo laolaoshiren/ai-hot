@@ -20,7 +20,7 @@ ai_summary = "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自
 summary = "Fenix Flexin is best known as a member of Shoreline Mafia, a rap duo from Los Angeles."
 summary_zh = "菲尼克斯·弗莱辛 (Fenix Flexin) 最出名的身份是来自洛杉矶的说唱组合 Shoreline Mafia 的成员。但他最近凭借歌曲《Rubberz》取得了个人成功，该歌曲在 Billboard Hot 100 排行榜上攀升至第 5…"
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->
