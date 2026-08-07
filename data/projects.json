@@ -7670,6 +7670,30 @@
     "collected_at": "2026-07-29T19:01:59.866496"
   },
   {
+    "id": "github-1304292830",
+    "name": "wobushannes/mouthmind",
+    "display_name": "mouthmind",
+    "url": "https://github.com/wobushannes/mouthmind",
+    "description": "MouthMind is a multi-view, sequence-to-sequence framework for visual speech recognition. It directly translates video frames into character sequences, without the need for autoregressive teacher forcing, resulting in robust, emergent learning of spoken words.",
+    "stars": 10,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "artificial-intelligence",
+      "computer-vision-ai",
+      "lip-reading",
+      "lipreading",
+      "speech-recognition",
+      "transfer-learning",
+      "visual-speech-recognition"
+    ],
+    "created_at": "2026-07-17T18:39:59Z",
+    "updated_at": "2026-08-02T05:30:34Z",
+    "license": "",
+    "source": "github-search",
+    "collected_at": "2026-08-07T02:14:13.909059"
+  },
+  {
     "id": "github-1205101736",
     "name": "antarr/mysql_genius",
     "display_name": "mysql_genius",

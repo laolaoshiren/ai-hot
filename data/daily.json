@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-06T23:54:31.794444",
-  "date": "2026-08-06",
+  "updated_at": "2026-08-07T02:15:07.066217",
+  "date": "2026-08-07",
   "spotlight": {
-    "name": "Awesome Claw",
-    "url": "https://github.com/sameeerkashyap/awesome-claw",
+    "name": "Cpprag",
+    "url": "https://github.com/dimitrovakulenko/CppRAG",
     "type": "agent",
-    "description": "OpenClaw 风格 AI 助手和 Agent 项目合集，收录高效、开源的个人助手方案。",
+    "description": "把 C++ 代码库构造成 AST 级 RAG 知识库的示例，方便 AI 助手理解和查询大型 C++ 项目。",
     "pricing": "开源免费",
-    "category": "助手 Agent"
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "豆包",
-      "name": "豆包",
-      "url": "https://www.doubao.com",
+      "id": "通义千问",
+      "name": "通义千问",
+      "url": "https://tongyi.aliyun.com",
       "type": "tool",
-      "description": "字节跳动出品的 AI 助手，功能全面",
-      "pricing": "免费",
+      "description": "阿里巴巴出品的 AI 助手",
+      "pricing": "免费 + API 按量",
       "category": "对话"
     },
     {
-      "name": "LangGraph",
-      "url": "https://github.com/langchain-ai/langgraph",
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
       "type": "agent",
-      "description": "LangChain出品的有状态Agent编排框架",
+      "description": "让AI控制浏览器的Agent框架，Python实现",
       "pricing": "开源免费",
-      "category": "多 Agent"
+      "category": "浏览器 Agent"
     },
     {
-      "name": "Cmux",
-      "url": "https://github.com/manaflow-ai/cmux",
+      "name": "Figma Context Mcp",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
       "type": "agent",
-      "description": "面向 AI 编程工作流的 macOS 终端工具，支持纵向标签页和任务通知，方便同时管理多个 Agent。",
+      "description": "把 Figma 设计稿上下文提供给 Cursor 等 AI 编程 Agent 的 MCP 服务，方便按设计还原页面。",
       "pricing": "开源免费",
       "category": "编程 Agent"
     }

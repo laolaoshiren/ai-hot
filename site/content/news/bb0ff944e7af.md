@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，日本铠侠正瞄准下一代人工智能（AI）NAND市场，其计划今年量产最新的标准NAND解决方案，包括“PCIe（PCIExpress）6.0”和“UFS（UniversalFlashStorage）5.0”。（新浪财经）"
 summary_zh = ""
 tags = []
-list_page = 18
+list_page = 19
 +++
 
 <!-- AUTO-GENERATED: news page -->

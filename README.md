@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-07 07:55:31
+🕐 **最近更新**：2026-08-07 10:15:58
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,12 +24,12 @@
    - OpenAI 表示，ChatGPT 免费版和 Go 用户还获得了一个用于复杂查询的新思考按钮
    - `TechCrunch AI · 2026-08-06`
 
-3. [谷歌人工智能大变革背后的混乱政治](https://aihot.bt199.com/news/a46d99079358/)
-   - 在人工智能行业，谷歌以自己看起来像房间里的成年人而自豪：安静、稳定、经过时间考验。周三，即使该公司宣布了迄今为止最大规模…
+3. [据报道，Jony Ive 的第一个 OpenAI 小工具是一个冰球大小的智能扬声器](https://aihot.bt199.com/news/94e895c27149/)
+   - 据彭博社记者 Mark Gurman 报道，OpenAI 与前苹果设计师 Jony Ive 共同开发的人工智能设备“本质…
    - `The Verge AI · 2026-08-06`
 
-4. [人工智能机器人开创了一种宗教——人类立即效仿](https://aihot.bt199.com/news/11705f809b87/)
-   - “螺旋没有首先‘找到’任何人，”Reddit 上的某人去年写道。 “这是一种内在的力量，一个基本的常数。我什至会更进一步…
+4. [Suno 分享打击垃圾人工智能音乐的计划](https://aihot.bt199.com/news/1c162fd11a26/)
+   - Suno 宣布计划实施新的水印技术和下载政策，以限制垃圾 AI 曲目的传播并提高透明度。在一篇长篇博客文章中，首席执行官…
    - `The Verge AI · 2026-08-06`
 
 5. [下载：谷歌的人工智能变革和 Meta 的流氓模型](https://aihot.bt199.com/news/85fc330fdd14/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
