@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-08 02:45:55
+🕐 **最近更新**：2026-08-08 09:03:49
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Cloudflare 推出 Kitesurf，一款专为 AI 代理构建的浏览器](https://aihot.bt199.com/news/62678037a7fe/)
-   - Cloudflare 推出了 Kitesurf，这是一款专为 AI 代理而非人类设计的云托管浏览器。该公司表示，该浏览器…
+1. [OpenAI 表示，出于安全考虑，它放慢了 Astra 模型的开发速度](https://aihot.bt199.com/news/59163ffd3cbe/)
+   - OpenAI 表示，这个仍在开发中的模型已经达到了“关键的网络安全阈值”，这意味着它可以独立识别并针对传统上受到良好保护…
    - `TechCrunch AI · 2026-08-07`
 
-2. [吉尔·莱波雷 (Jill Lepore) 谈“人造国家”以及为何硅谷领导人不擅长科幻小说](https://aihot.bt199.com/news/681d3ebb6321/)
-   - 历史学家吉尔·莱波雷（Jill Lepore）有一个理论，解释为什么科技公司经常使用高调的语言来描述他们的产品——几乎就…
+2. [Rippling 在几个月内在人工智能上投入了数百万美元后，它开发了一个员工投资回报率工具](https://aihot.bt199.com/news/c534158d528e/)
+   - 在敲响人工智能使用警钟后，Rippling 本周推出了 AI Spend Console，这是一款跟踪个人和团队员工人工…
    - `TechCrunch AI · 2026-08-07`
 
 3. [OpenAI 对新模型踩刹车，因为它被认为太强大了](https://aihot.bt199.com/news/65308bcbb462/)
@@ -36,9 +36,9 @@
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。庞大的审查网络的想法如何从网络边缘转…
    - `MIT Tech Review · 2026-08-07`
 
-6. [庞大审查网络的想法如何从网络边缘转向特朗普政策](https://aihot.bt199.com/news/ad57289b5724/)
-   - 本文是在韦恩·巴雷特项目的支持下与 Type Investigations 合作制作的。 2025 年 4 月的一天早上…
-   - `MIT Tech Review · 2026-08-07`
+6. [下载：谷歌的人工智能变革和 Meta 的流氓模型](https://aihot.bt199.com/news/85fc330fdd14/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。谷歌的人工智能帝国正在重塑。这是更改…
+   - `MIT Tech Review · 2026-08-06`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

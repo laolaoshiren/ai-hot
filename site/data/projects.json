@@ -7389,6 +7389,27 @@
     "collected_at": "2026-07-31T02:02:50.505243"
   },
   {
+    "id": "github-1324058131",
+    "name": "lucidrains/light-loco-parkour",
+    "display_name": "light-loco-parkour",
+    "url": "https://github.com/lucidrains/light-loco-parkour",
+    "description": "Implementation of Light Loco Parkour, Versatile Perceptive Whole-Body Locomotion via Multi-Skill Distillation, out of Light Origins Labs",
+    "stars": 11,
+    "forks": 1,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "locomotion",
+      "robotics"
+    ],
+    "created_at": "2026-08-05T13:06:07Z",
+    "updated_at": "2026-08-07T18:48:25Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-08-08T01:02:09.939820"
+  },
+  {
     "id": "github-1201371509",
     "name": "Zeyad-Azima/AgentsBear",
     "display_name": "AgentsBear",

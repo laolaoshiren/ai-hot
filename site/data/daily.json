@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-07T18:44:54.889437",
-  "date": "2026-08-07",
+  "updated_at": "2026-08-08T01:02:58.742346",
+  "date": "2026-08-08",
   "spotlight": {
-    "name": "Cpprag",
-    "url": "https://github.com/dimitrovakulenko/CppRAG",
+    "name": "Agent",
+    "url": "https://github.com/heelenzhang/Agent",
     "type": "agent",
-    "description": "把 C++ 代码库构造成 AST 级 RAG 知识库的示例，方便 AI 助手理解和查询大型 C++ 项目。",
+    "description": "基于 LangChain 的早教绘画 AI 助手演示项目，用于展示 Agent 在教育场景里的应用。",
     "pricing": "开源免费",
-    "category": "编程 Agent"
+    "category": "助手 Agent"
   },
   "alternates": [
     {
-      "id": "通义千问",
-      "name": "通义千问",
-      "url": "https://tongyi.aliyun.com",
+      "id": "文心一言",
+      "name": "文心一言",
+      "url": "https://yiyan.baidu.com",
       "type": "tool",
-      "description": "阿里巴巴出品的 AI 助手",
+      "description": "百度出品的 AI 助手",
       "pricing": "免费 + API 按量",
       "category": "对话"
     },
     {
-      "name": "Browser Use",
-      "url": "https://github.com/browser-use/browser-use",
+      "name": "WebVoyager",
+      "url": "https://github.com/MinorJerry/WebVoyager",
       "type": "agent",
-      "description": "让AI控制浏览器的Agent框架，Python实现",
+      "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
       "pricing": "开源免费",
       "category": "浏览器 Agent"
     },
     {
-      "name": "Figma Context Mcp",
-      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "name": "Ai Website Cloner Template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "type": "agent",
-      "description": "把 Figma 设计稿上下文提供给 Cursor 等 AI 编程 Agent 的 MCP 服务，方便按设计还原页面。",
+      "description": "用 AI 编程 Agent 一条命令克隆网页的模板项目，适合快速复刻页面结构和样式。",
       "pricing": "开源免费",
       "category": "编程 Agent"
     }
