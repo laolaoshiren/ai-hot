@@ -20,7 +20,7 @@ ai_summary = "您可能听说过 OpenAI 本周发布了其第一款硬件。您�
 summary = "You may have heard that OpenAI released its first piece of hardware this week. You may not have heard about the ChatGPT basketball."
 summary_zh = "您可能听说过 OpenAI 本周发布了其第一款硬件。您可能没有听说过 ChatGPT 篮球"
 tags = []
-list_page = 111
+list_page = 112
 +++
 
 <!-- AUTO-GENERATED: news page -->

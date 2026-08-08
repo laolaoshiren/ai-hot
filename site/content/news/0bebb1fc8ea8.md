@@ -20,7 +20,7 @@ ai_summary = "Blatant AI slop 刚刚赢得了 2.5 万美元的 DeepMind Kaggle �
 summary = "Article URL: https://www.kaggle.com/competitions/kaggle-measuring-agi/discussion/724918#3498423 Comments URL: https://news."
 summary_zh = "Blatant AI slop 刚刚赢得了 2.5 万美元的 DeepMind Kaggle 大奖。来源：Hacker News AI"
 tags = []
-list_page = 106
+list_page = 107
 +++
 
 <!-- AUTO-GENERATED: news page -->

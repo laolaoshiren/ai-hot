@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-08 09:03:49
+🕐 **最近更新**：2026-08-08 14:40:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,21 +24,21 @@
    - 在敲响人工智能使用警钟后，Rippling 本周推出了 AI Spend Console，这是一款跟踪个人和团队员工人工…
    - `TechCrunch AI · 2026-08-07`
 
-3. [OpenAI 对新模型踩刹车，因为它被认为太强大了](https://aihot.bt199.com/news/65308bcbb462/)
-   - OpenAI 表示，它正在暂停围绕正在开发的人工智能模型 Astra 的“内部活动”，因为它尚未满足该公司正在制定的新安…
+3. [Fenix Flexin 甚至不再否认使用人工智能来制作“Rubberz”](https://aihot.bt199.com/news/78db5548d274/)
+   - 虽然花了很长时间，但现在洛杉矶说唱歌手 Fenix Flexin 似乎承认在 80 年代合成流行音乐主题歌曲“Rubbe…
    - `The Verge AI · 2026-08-07`
 
-4. [谷歌人工智能变革背后的原因是什么](https://aihot.bt199.com/news/764f9d70a7a9/)
-   - 谷歌人工智能团队的一些知名人士本周获得了新工作。在某些情况下，包括传奇的谷歌员工杰夫·迪恩（Jeff Dean），这些工…
+4. [看 Roku 的 AI 频道就像从槽里吃饭](https://aihot.bt199.com/news/73ddfbd0f80f/)
+   - 免费广告支持的流媒体电视 (FAST) 频道的吸引力始终在于它们让（重新）发现经典电影和电视剧变得更加容易。但 Roku…
    - `The Verge AI · 2026-08-07`
 
 5. [下载：审查制度阴谋论和人工智能创造的第一个病毒](https://aihot.bt199.com/news/f987acd1697b/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。庞大的审查网络的想法如何从网络边缘转…
    - `MIT Tech Review · 2026-08-07`
 
-6. [下载：谷歌的人工智能变革和 Meta 的流氓模型](https://aihot.bt199.com/news/85fc330fdd14/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。谷歌的人工智能帝国正在重塑。这是更改…
-   - `MIT Tech Review · 2026-08-06`
+6. [庞大审查网络的想法如何从网络边缘转向特朗普政策](https://aihot.bt199.com/news/ad57289b5724/)
+   - 本文是在韦恩·巴雷特项目的支持下与 Type Investigations 合作制作的。 2025 年 4 月的一天早上…
+   - `MIT Tech Review · 2026-08-07`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
