@@ -20,7 +20,7 @@ ai_summary = "中国公司探月人工智能本周发布了新版Kimi模型，�
 summary = "Chinese company Moonshot AI released a new version of its Kimi model this week, prompting concern about \"full AI communism.\""
 summary_zh = "中国公司探月人工智能本周发布了新版Kimi模型，引发了人们对“全面人工智能共产主义”的担忧"
 tags = []
-list_page = 99
+list_page = 100
 +++
 
 <!-- AUTO-GENERATED: news page -->
