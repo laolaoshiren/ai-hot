@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，36氪获悉，7月27日，OpenRouter最新数据显示，小米MiMo-V2.5登上全球大模型调用量周榜、月榜双第一，成为当周全球调用量唯一突破10T的模型。5月以来，MiMo-V2.5全球调用量持续攀升，单周token量从1.46T逐步升至10.46T，两个月增长约 616%。"
 summary_zh = ""
 tags = []
-list_page = 57
+list_page = 58
 +++
 
 <!-- AUTO-GENERATED: news page -->
