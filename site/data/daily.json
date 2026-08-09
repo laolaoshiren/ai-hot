@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-08T18:27:23.603601",
-  "date": "2026-08-08",
+  "updated_at": "2026-08-09T01:06:24.984715",
+  "date": "2026-08-09",
   "spotlight": {
-    "name": "Agent",
-    "url": "https://github.com/heelenzhang/Agent",
+    "name": "Agentbigbrain",
+    "url": "https://github.com/AgentBigBrain/AgentBigBrain",
     "type": "agent",
-    "description": "基于 LangChain 的早教绘画 AI 助手演示项目，用于展示 Agent 在教育场景里的应用。",
+    "description": "强调强约束、治理和可验证执行的自主 AI 助手框架，让 Agent 的每个动作都可控可审计。",
     "pricing": "开源免费",
-    "category": "助手 Agent"
+    "category": "自动化 Agent"
   },
   "alternates": [
     {
-      "id": "文心一言",
-      "name": "文心一言",
-      "url": "https://yiyan.baidu.com",
+      "id": "perplexity",
+      "name": "Perplexity",
+      "url": "https://perplexity.ai",
       "type": "tool",
-      "description": "百度出品的 AI 助手",
-      "pricing": "免费 + API 按量",
-      "category": "对话"
+      "description": "AI 搜索引擎，实时联网回答问题",
+      "pricing": "免费 + Pro $20/月",
+      "category": "搜索"
     },
     {
-      "name": "WebVoyager",
-      "url": "https://github.com/MinorJerry/WebVoyager",
+      "name": "Fabric",
+      "url": "https://github.com/danielmiessler/fabric",
       "type": "agent",
-      "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
+      "description": "AI增强人类能力的框架，内置海量Prompt模板",
       "pricing": "开源免费",
-      "category": "浏览器 Agent"
+      "category": "效率 Agent"
     },
     {
-      "name": "Ai Website Cloner Template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "name": "Botsharp",
+      "url": "https://github.com/SciSharp/BotSharp",
       "type": "agent",
-      "description": "用 AI 编程 Agent 一条命令克隆网页的模板项目，适合快速复刻页面结构和样式。",
+      "description": "基于 .NET 的多 Agent 框架，适合构建企业级对话机器人和自动化业务流程。",
       "pricing": "开源免费",
-      "category": "编程 Agent"
+      "category": "多Agent Agent"
     }
   ]
 }
