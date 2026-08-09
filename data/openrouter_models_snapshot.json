@@ -494,6 +494,7 @@
         "repetition_penalty",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -17876,13 +17877,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000036",
-        "input_cache_read": "0.0000003"
+        "prompt": "0.00000039",
+        "completion": "0.00000234"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -21645,13 +21645,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000026",
-        "completion": "0.00000038",
-        "input_cache_read": "0.00000013"
+        "prompt": "0.000000269",
+        "completion": "0.0000004",
+        "input_cache_read": "0.0000001345"
       },
       "top_provider": {
         "context_length": 163840,
-        "max_completion_tokens": 163840,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -37127,5 +37127,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-09T01:06:24.865319+00:00"
+  "updated_at": "2026-08-09T06:43:09.809330+00:00"
 }

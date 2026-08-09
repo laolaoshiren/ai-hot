@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，36氪获悉，Physical AI平台公司“昆腾动力（Quantum Dynamics）”近日完成超亿元种子轮融资，本轮由云启资本、商汤科技联合投资。"
 summary_zh = ""
 tags = []
-list_page = 36
+list_page = 37
 +++
 
 <!-- AUTO-GENERATED: news page -->
