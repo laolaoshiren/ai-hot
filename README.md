@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-10 20:53:27
+🕐 **最近更新**：2026-08-11 02:47:45
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [Discovered Materials 正在玩人工智能打地鼠游戏来寻找更酷的芯片](https://aihot.bt199.com/news/ee092482a3ff/)
+1. [Meta 的新 Glimmer AI 模型为扎克伯格的个人智能愿景提供了暗示](https://aihot.bt199.com/news/4662a98c4da9/)
+   - Meta 的新开放权重 Muse Glimmer 模型让我们一睹马克·扎克伯格的个人超级智能愿景，以及人工智能用户可以拥…
+   - `TechCrunch AI · 2026-08-10`
+
+2. [Discovered Materials 正在玩人工智能打地鼠游戏来寻找更酷的芯片](https://aihot.bt199.com/news/ee092482a3ff/)
    - Discovered Materials 筹集了 900 万美元，用于资助寻找更多新颖材料来制造更高效的芯片
    - `TechCrunch AI · 2026-08-10`
 
-2. [下载：科学人工智能代理和“审查工业综合体”](https://aihot.bt199.com/news/1e1aa73b47f5/)
+3. [马克·扎克伯格大规模人工智能宣言的四个要点](https://aihot.bt199.com/news/8146f3b7fccd/)
+   - Meta 首席执行官马克·扎克伯格 (Mark Zuckerberg) 对于他现在设想的人类与人工智能共存的理想化未来有…
+   - `The Verge AI · 2026-08-10`
+
+4. [当耳机变成 AI 后，Bose 会发生什么？](https://aihot.bt199.com/news/c6e4a85273e0/)
+   - 今天，我采访的是 Bose 首席执行官 Lila Snyder。您当然知道 Bose——它是所有消费科技领域最著名的品牌…
+   - `The Verge AI · 2026-08-10`
+
+5. [下载：科学人工智能代理和“审查工业综合体”](https://aihot.bt199.com/news/1e1aa73b47f5/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。科学人工智能需要推理，而不仅仅是数据…
    - `MIT Tech Review · 2026-08-10`
 
-3. [福特的新人工智能助手可以检查你的燃油水平和轮胎压力](https://aihot.bt199.com/news/5479eb873a99/)
-   - 福特正在推出一款新的人工智能助手，可以回答有关福特或林肯车辆的问题，例如您下次公路旅行需要多少燃料，或者您的卡车是否可以…
-   - `The Verge AI · 2026-08-10`
-
-4. [科学人工智能需要推理，而不仅仅是数据](https://aihot.bt199.com/news/20c95f3fe530/)
+6. [科学人工智能需要推理，而不仅仅是数据](https://aihot.bt199.com/news/20c95f3fe530/)
    - 每隔几十年，就会有人宣布科学已经走到了尽头。 1903 年，受人尊敬的物理学家阿尔伯特·迈克尔逊 (Albert Mic…
    - `MIT Tech Review · 2026-08-10`
 
-5. [人工智能探测器正在创造一个不信任的新时代](https://aihot.bt199.com/news/acf86426dbc3/)
-   - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变我们日常生活的更多新…
-   - `The Verge AI · 2026-08-09`
-
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+9. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
-
-9. [陷入困境的对冲基金 Situational Awareness 向芯片初创公司 Source Foundry 投资 4 亿美元](https://aihot.bt199.com/news/f893fb1dc932/)
-   - 这家专注于人工智能的对冲基金仍在进行一些大赌注
-   - `TechCrunch AI · 2026-08-09`
 
 10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
    - 如果黑客使用传统方法，有人可能会入狱
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

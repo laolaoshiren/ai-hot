@@ -3,7 +3,7 @@
     {
       "id": "inclusionai/ling-3.0-tiny:free",
       "canonical_slug": "inclusionai/ling-3.0-tiny-20260806",
-      "hugging_face_id": null,
+      "hugging_face_id": "inclusionAI/Ling-3.0-tiny",
       "name": "inclusionAI: Ling 3.0 Tiny (free)",
       "created": 1786034890,
       "description": "Ling 3.0 Tiny is a mixture-of-experts model from InclusionAI, with 1.3B active parameters out of 7.9B total. It is designed for responsive agents, instruction following, and multi-turn conversations, with switchable...",
@@ -46,7 +46,11 @@
         "top_logprobs",
         "top_p"
       ],
-      "default_parameters": {},
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 20
+      },
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -283,13 +287,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000079996",
-        "completion": "0.000000252",
-        "input_cache_read": "0.0000000252"
+        "prompt": "0.0000000798",
+        "completion": "0.0000001596",
+        "input_cache_read": "0.00000001596"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": null,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -4945,13 +4949,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000076",
-        "completion": "0.00000242",
-        "input_cache_read": "0.00000014"
+        "prompt": "0.0000005446",
+        "completion": "0.0000017116",
+        "input_cache_read": "0.00000010114"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -12166,9 +12170,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "input_cache_read": "0.00000016"
+        "prompt": "0.0000005795",
+        "completion": "0.00000244",
+        "input_cache_read": "0.0000000976"
       },
       "top_provider": {
         "context_length": 262144,
@@ -12840,9 +12844,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
+        "prompt": "0.000000952",
+        "completion": "0.000002992",
+        "input_cache_read": "0.0000001768"
       },
       "top_provider": {
         "context_length": 202752,
@@ -15937,62 +15941,6 @@
           "none"
         ],
         "default_effort": "medium"
-      }
-    },
-    {
-      "id": "openai/gpt-5.3-chat",
-      "canonical_slug": "openai/gpt-5.3-chat-20260303",
-      "hugging_face_id": "",
-      "name": "OpenAI: GPT-5.3 Chat",
-      "created": 1772564061,
-      "description": "GPT-5.3 Chat is an update to ChatGPT's most-used model that makes everyday conversations smoother, more useful, and more directly helpful. It delivers more accurate answers with better contextualization and significantly...",
-      "context_length": 128000,
-      "architecture": {
-        "modality": "text+image+file->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "file"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "GPT",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000175",
-        "completion": "0.000014",
-        "web_search": "0.01",
-        "input_cache_read": "0.000000175"
-      },
-      "top_provider": {
-        "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "seed",
-        "structured_outputs",
-        "tool_choice",
-        "tools"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-08-10",
-      "links": {
-        "details": "/api/v1/models/openai/gpt-5.3-chat-20260303/endpoints"
       }
     },
     {
@@ -20472,13 +20420,12 @@
       },
       "top_provider": {
         "context_length": 128000,
-        "max_completion_tokens": 16384,
-        "is_moderated": true
+        "max_completion_tokens": 32000,
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
         "max_completion_tokens",
-        "max_tokens",
         "response_format",
         "seed",
         "structured_outputs",
@@ -20492,7 +20439,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-08-10",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/openai/gpt-5.2-chat-20251211/endpoints"
       }
@@ -37149,5 +37096,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-10T12:52:25.843558+00:00"
+  "updated_at": "2026-08-10T18:46:48.195486+00:00"
 }
