@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-09T18:30:03.393973",
-  "date": "2026-08-09",
+  "updated_at": "2026-08-10T01:08:09.872277",
+  "date": "2026-08-10",
   "spotlight": {
-    "name": "Agentbigbrain",
-    "url": "https://github.com/AgentBigBrain/AgentBigBrain",
+    "name": "Ragflow",
+    "url": "https://github.com/infiniflow/ragflow",
     "type": "agent",
-    "description": "强调强约束、治理和可验证执行的自主 AI 助手框架，让 Agent 的每个动作都可控可审计。",
+    "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
     "pricing": "开源免费",
-    "category": "自动化 Agent"
+    "category": "AI Agent"
   },
   "alternates": [
     {
-      "id": "perplexity",
-      "name": "Perplexity",
-      "url": "https://perplexity.ai",
+      "id": "秘塔搜索",
+      "name": "秘塔 AI 搜索",
+      "url": "https://metaso.cn",
       "type": "tool",
-      "description": "AI 搜索引擎，实时联网回答问题",
-      "pricing": "免费 + Pro $20/月",
+      "description": "国产 AI 搜索引擎，中文体验优秀",
+      "pricing": "免费",
       "category": "搜索"
     },
     {
-      "name": "Fabric",
-      "url": "https://github.com/danielmiessler/fabric",
+      "name": "Aider",
+      "url": "https://github.com/Aider-AI/aider",
       "type": "agent",
-      "description": "AI增强人类能力的框架，内置海量Prompt模板",
+      "description": "终端AI结对编程工具，支持多模型",
       "pricing": "开源免费",
-      "category": "效率 Agent"
+      "category": "编程 Agent"
     },
     {
-      "name": "Botsharp",
-      "url": "https://github.com/SciSharp/BotSharp",
+      "name": "Llmstack",
+      "url": "https://github.com/trypromptly/LLMStack",
       "type": "agent",
-      "description": "基于 .NET 的多 Agent 框架，适合构建企业级对话机器人和自动化业务流程。",
+      "description": "无代码多 Agent 应用构建平台，可基于自有数据搭建 LLM 工作流、Agent 和应用。",
       "pricing": "开源免费",
-      "category": "多Agent Agent"
+      "category": "编程 Agent"
     }
   ]
 }
