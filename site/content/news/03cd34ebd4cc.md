@@ -20,7 +20,7 @@ ai_summary = "法学硕士与 MikroTik 的网络。来源：Hacker News AI"
 summary = "Article URL: https://blog.greg.technology/2026/07/14/llm-networking-with-mikrotik."
 summary_zh = "法学硕士与 MikroTik 的网络。来源：Hacker News AI"
 tags = []
-list_page = 120
+list_page = 122
 +++
 
 <!-- AUTO-GENERATED: news page -->

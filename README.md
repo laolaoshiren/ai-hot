@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-10 15:19:45
+🕐 **最近更新**：2026-08-10 20:53:27
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [人工智能探测器正在创造一个不信任的新时代](https://aihot.bt199.com/news/acf86426dbc3/)
+1. [Discovered Materials 正在玩人工智能打地鼠游戏来寻找更酷的芯片](https://aihot.bt199.com/news/ee092482a3ff/)
+   - Discovered Materials 筹集了 900 万美元，用于资助寻找更多新颖材料来制造更高效的芯片
+   - `TechCrunch AI · 2026-08-10`
+
+2. [下载：科学人工智能代理和“审查工业综合体”](https://aihot.bt199.com/news/1e1aa73b47f5/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。科学人工智能需要推理，而不仅仅是数据…
+   - `MIT Tech Review · 2026-08-10`
+
+3. [福特的新人工智能助手可以检查你的燃油水平和轮胎压力](https://aihot.bt199.com/news/5479eb873a99/)
+   - 福特正在推出一款新的人工智能助手，可以回答有关福特或林肯车辆的问题，例如您下次公路旅行需要多少燃料，或者您的卡车是否可以…
+   - `The Verge AI · 2026-08-10`
+
+4. [科学人工智能需要推理，而不仅仅是数据](https://aihot.bt199.com/news/20c95f3fe530/)
+   - 每隔几十年，就会有人宣布科学已经走到了尽头。 1903 年，受人尊敬的物理学家阿尔伯特·迈克尔逊 (Albert Mic…
+   - `MIT Tech Review · 2026-08-10`
+
+5. [人工智能探测器正在创造一个不信任的新时代](https://aihot.bt199.com/news/acf86426dbc3/)
    - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能如何改变我们日常生活的更多新…
    - `The Verge AI · 2026-08-09`
 
-2. [Fenix Flexin 甚至不再否认使用人工智能来制作“Rubberz”](https://aihot.bt199.com/news/78db5548d274/)
-   - 虽然花了很长时间，但现在洛杉矶说唱歌手 Fenix Flexin 似乎承认在 80 年代合成流行音乐主题歌曲“Rubbe…
-   - `The Verge AI · 2026-08-07`
-
-3. [下载：审查制度阴谋论和人工智能创造的第一个病毒](https://aihot.bt199.com/news/f987acd1697b/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。庞大的审查网络的想法如何从网络边缘转…
-   - `MIT Tech Review · 2026-08-07`
-
-4. [下载：谷歌的人工智能变革和 Meta 的流氓模型](https://aihot.bt199.com/news/85fc330fdd14/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。谷歌的人工智能帝国正在重塑。这是更改…
-   - `MIT Tech Review · 2026-08-06`
-
-5. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-6. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-7. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+8. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
 
-8. [陷入困境的对冲基金 Situational Awareness 向芯片初创公司 Source Foundry 投资 4 亿美元](https://aihot.bt199.com/news/f893fb1dc932/)
+9. [陷入困境的对冲基金 Situational Awareness 向芯片初创公司 Source Foundry 投资 4 亿美元](https://aihot.bt199.com/news/f893fb1dc932/)
    - 这家专注于人工智能的对冲基金仍在进行一些大赌注
    - `TechCrunch AI · 2026-08-09`
 
-9. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
+10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
    - 如果黑客使用传统方法，有人可能会入狱
    - `Ars Technica AI · 2026-07-31`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
