@@ -20,7 +20,7 @@ ai_summary = "一项新的研究估计，只有 2,000 名美国工程师拥有�
 summary = "A new study estimates only 2,000 U.S. engineers have the expertise to deliver meaningful AI ROI, as enterprises race to hire forward-deployed engineers to implement AI at scale."
 summary_zh = "一项新的研究估计，只有 2,000 名美国工程师拥有提供有意义的人工智能投资回报率的专业知识，因为企业竞相聘请前沿部署的工程师来大规模实施人工智能"
 tags = []
-list_page = 47
+list_page = 48
 +++
 
 <!-- AUTO-GENERATED: news page -->

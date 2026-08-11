@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "重做一遍WPS"
 summary_zh = ""
 tags = []
-list_page = 76
+list_page = 77
 +++
 
 <!-- AUTO-GENERATED: news page -->

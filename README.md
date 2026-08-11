@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-11 14:55:57
+🕐 **最近更新**：2026-08-11 20:48:35
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,37 +16,37 @@
 
 ## 🔥 今日热点
 
-1. [随着 AI 主导的攻击倍增，OpenAI 推出新的网络模型](https://aihot.bt199.com/news/48cf888df404/)
-   - OpenAI 正在扩展其人工智能网络安全防御计划 Daybreak，并推出新的网络训练人工智能模型
-   - `TechCrunch AI · 2026-08-10`
+1. [克劳德将在人工智能文本和图像上应用隐形水印](https://aihot.bt199.com/news/cc3159d6aeee/)
+   - Anthropic 承诺开始用机器可读数据标记克劳德生成的文本和图像，以遵守欧洲人工智能透明度规则。 “生成的文本将带有…
+   - `The Verge AI · 2026-08-11`
 
-2. [马克扎克伯格不明白如何生活](https://aihot.bt199.com/news/b6a795d1e48a/)
-   - 最近，一个和我一起攀岩的男人告诉我，他如何使用人工智能为自己制作了一张励志海报，并将其挂在卧室的墙上：一只熊，在峡谷上走…
-   - `The Verge AI · 2026-08-10`
+2. [下载：法学硕士的下一个重大事件以及人工智能学术研究正在如何转变](https://aihot.bt199.com/news/1e9dd24f2729/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。这些初创公司正在追逐法学硕士的下一个…
+   - `MIT Tech Review · 2026-08-11`
 
-3. [人工智能教授正在讨论学术研究的新现实](https://aihot.bt199.com/news/1281650c995b/)
+3. [人工智能接管数学已经开始](https://aihot.bt199.com/news/8a7d5b391d35/)
+   - 数学家詹姆斯·梅纳德（James Maynard）在过去的一年里花了很多时间进行“自我反省”。梅纳德是牛津大学教授，也是…
+   - `The Verge AI · 2026-08-11`
+
+4. [人工智能教授正在讨论学术研究的新现实](https://aihot.bt199.com/news/1281650c995b/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。上周，我前往旧金…
    - `MIT Tech Review · 2026-08-10`
 
-4. [马克·扎克伯格大规模人工智能宣言的四个要点](https://aihot.bt199.com/news/8146f3b7fccd/)
-   - Meta 首席执行官马克·扎克伯格 (Mark Zuckerberg) 对于他现在设想的人类与人工智能共存的理想化未来有…
-   - `The Verge AI · 2026-08-10`
-
-5. [下载：科学人工智能代理和“审查工业综合体”](https://aihot.bt199.com/news/1e1aa73b47f5/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。科学人工智能需要推理，而不仅仅是数据…
-   - `MIT Tech Review · 2026-08-10`
-
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+5. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+6. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+7. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
+
+8. [Anthropic 表示将为人工智能模型生成的文本添加水印](https://aihot.bt199.com/news/387a273ab49a/)
+   - Anthropic 还将扩展对旧模型的 AI 水印支持
+   - `TechCrunch AI · 2026-08-11`
 
 9. [据报道 OpenAI 完成了 70 亿美元的员工收购要约](https://aihot.bt199.com/news/b5e0104f574c/)
    - 旧金山的房地产市场再次陷入困境
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

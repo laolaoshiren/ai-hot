@@ -7013,6 +7013,38 @@
     "collected_at": "2026-07-25T13:07:19.836465"
   },
   {
+    "id": "github-1330050382",
+    "name": "vincenzo-afk/Intelis-Agent",
+    "display_name": "Intelis-Agent",
+    "url": "https://github.com/vincenzo-afk/Intelis-Agent",
+    "description": "AI-powered research and intelligence platform that monitors the web, analyzes information, detects trends, and delivers personalized reports.",
+    "stars": 12,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "ai",
+      "ai-agents",
+      "artificial-intelligence",
+      "automation",
+      "automation-tool",
+      "crawler",
+      "fastapi",
+      "intelligence",
+      "llm",
+      "nextjs",
+      "open-source",
+      "rag",
+      "research",
+      "scraper",
+      "summerization"
+    ],
+    "created_at": "2026-08-10T16:51:23Z",
+    "updated_at": "2026-08-11T08:34:14Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-08-11T12:46:40.200646"
+  },
+  {
     "id": "github-1228339438",
     "name": "ShamelesAbyss/Symbiote",
     "display_name": "Symbiote",

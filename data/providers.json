@@ -1311,16 +1311,14 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Sakana: Sakana Namazu",
       "Sakana: Fugu Ultra"
     ],
-    "model_count": 2,
-    "last_updated": "2026-08-11",
-    "modalities": [
-      "多模态"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Sakana: Sakana Namazu"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]
