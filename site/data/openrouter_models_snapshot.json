@@ -1,6 +1,116 @@
 {
   "data": [
     {
+      "id": "nvidia/nemotron-3.5-lightning",
+      "canonical_slug": "nvidia/nemotron-3.5-lightning-20260807",
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "name": "NVIDIA: Nemotron 3.5 Lightning",
+      "created": 1786452751,
+      "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.00000025",
+        "input_cache_read": "0.00000005"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nvidia/nemotron-3.5-lightning-20260807/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
+      "id": "nvidia/nemotron-3.5-lightning:free",
+      "canonical_slug": "nvidia/nemotron-3.5-lightning-20260807",
+      "hugging_face_id": "nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-BF16",
+      "name": "NVIDIA: Nemotron 3.5 Lightning (free)",
+      "created": 1786452751,
+      "description": "NVIDIA Nemotron 3.5 Lightning is an open mixture-of-experts model from NVIDIA, with 3B active parameters out of 30B total. It is suited for high-throughput agentic workloads and specialized tasks that...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/nvidia/nemotron-3.5-lightning-20260807/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
       "id": "sakana/sakana-namazu",
       "canonical_slug": "sakana/namazu-20260811",
       "hugging_face_id": null,
@@ -501,13 +611,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000079996",
-        "completion": "0.000000252",
-        "input_cache_read": "0.0000000252"
+        "prompt": "0.000000072",
+        "completion": "0.000000144",
+        "input_cache_read": "0.0000000144"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": null,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -674,6 +784,75 @@
           "low"
         ],
         "default_effort": "high"
+      }
+    },
+    {
+      "id": "bytedance-seed/seed-2.0-code",
+      "canonical_slug": "bytedance-seed/seed-2.0-code-20260730",
+      "hugging_face_id": null,
+      "name": "ByteDance Seed: Seed-2.0-Code",
+      "created": 1785451719,
+      "description": "Seed 2.0 Code is a model from ByteDance Seed optimized for agentic coding. It is suited for frontend development, multilingual programming tasks, and coding-agent workflows in tools such as Claude...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000005",
+        "completion": "0.000003",
+        "overrides": [
+          {
+            "min_prompt_tokens": 128000,
+            "prompt": "0.000001",
+            "completion": "0.000006"
+          }
+        ]
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/bytedance-seed/seed-2.0-code-20260730/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
       }
     },
     {
@@ -5173,13 +5352,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000076",
-        "completion": "0.00000242",
-        "input_cache_read": "0.00000014"
+        "prompt": "0.0000004886",
+        "completion": "0.0000015356",
+        "input_cache_read": "0.00000009074"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -12395,9 +12574,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "input_cache_read": "0.00000016"
+        "prompt": "0.0000005795",
+        "completion": "0.00000244",
+        "input_cache_read": "0.0000000976"
       },
       "top_provider": {
         "context_length": 262144,
@@ -13069,9 +13248,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
+        "prompt": "0.000000952",
+        "completion": "0.000002992",
+        "input_cache_read": "0.0000001768"
       },
       "top_provider": {
         "context_length": 202752,
@@ -24530,12 +24709,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000055",
-        "completion": "0.0000022",
-        "input_cache_read": "0.00000011"
+        "prompt": "0.0000005",
+        "completion": "0.000002",
+        "input_cache_read": "0.0000001"
       },
       "top_provider": {
-        "context_length": 204800,
+        "context_length": 202752,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -37322,5 +37501,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-11T12:47:36.955146+00:00"
+  "updated_at": "2026-08-11T18:52:41.043332+00:00"
 }

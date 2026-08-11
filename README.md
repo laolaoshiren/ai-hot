@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-11 20:48:35
+🕐 **最近更新**：2026-08-12 02:53:26
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [克劳德将在人工智能文本和图像上应用隐形水印](https://aihot.bt199.com/news/cc3159d6aeee/)
-   - Anthropic 承诺开始用机器可读数据标记克劳德生成的文本和图像，以遵守欧洲人工智能透明度规则。 “生成的文本将带有…
+1. [谷歌 Gemini 应用用户数量激增至 10 亿](https://aihot.bt199.com/news/61f03f2379bc/)
+   - Gemini 与 OpenAI 的 ChatGPT 保持同步，后者在 6 月份月活跃用户数达到 10 亿
+   - `TechCrunch AI · 2026-08-11`
+
+2. [OpenAI 的长期首席运营官 Brad Lightcap 将离职去“开始新的事情”](https://aihot.bt199.com/news/b8d07c245c74/)
+   - OpenAI 任职时间最长的高管之一即将离职，尽管这位长期担任首席运营官的员工表示，他“很高兴能够从不同的角度帮助大家推…
+   - `TechCrunch AI · 2026-08-11`
+
+3. [另一位 OpenAI 高管离职](https://aihot.bt199.com/news/ec2a33ae5cfe/)
+   - OpenAI 特殊项目负责人、公司前首席运营官 Brad Lightcap 在人工智能实验室工作了八年后宣布离职。在后来…
    - `The Verge AI · 2026-08-11`
 
-2. [下载：法学硕士的下一个重大事件以及人工智能学术研究正在如何转变](https://aihot.bt199.com/news/1e9dd24f2729/)
+4. [使用不到 20 个人工智能提示就发现了“Zoomsday”黑客攻击](https://aihot.bt199.com/news/fa830ce9c845/)
+   - Zoom 已修复一个重大安全漏洞，该漏洞可能允许攻击者在会议期间劫持任何人的设备。据《连线》早些时候报道，A Secur…
+   - `The Verge AI · 2026-08-11`
+
+5. [下载：法学硕士的下一个重大事件以及人工智能学术研究正在如何转变](https://aihot.bt199.com/news/1e9dd24f2729/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。这些初创公司正在追逐法学硕士的下一个…
    - `MIT Tech Review · 2026-08-11`
 
-3. [人工智能接管数学已经开始](https://aihot.bt199.com/news/8a7d5b391d35/)
-   - 数学家詹姆斯·梅纳德（James Maynard）在过去的一年里花了很多时间进行“自我反省”。梅纳德是牛津大学教授，也是…
-   - `The Verge AI · 2026-08-11`
-
-4. [人工智能教授正在讨论学术研究的新现实](https://aihot.bt199.com/news/1281650c995b/)
+6. [人工智能教授正在讨论学术研究的新现实](https://aihot.bt199.com/news/1281650c995b/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。上周，我前往旧金…
    - `MIT Tech Review · 2026-08-10`
 
-5. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-6. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-7. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
+9. [克里姆林宫黑客主动利用的最严重 Exchange 服务器缺陷](https://aihot.bt199.com/news/7185ce04d41b/)
    - 漏洞利用可以提供持久的服务器访问，在凭证轮换和磁盘重新映像后仍然存在
    - `Ars Technica AI · 2026-07-30`
-
-8. [Anthropic 表示将为人工智能模型生成的文本添加水印](https://aihot.bt199.com/news/387a273ab49a/)
-   - Anthropic 还将扩展对旧模型的 AI 水印支持
-   - `TechCrunch AI · 2026-08-11`
-
-9. [据报道 OpenAI 完成了 70 亿美元的员工收购要约](https://aihot.bt199.com/news/b5e0104f574c/)
-   - 旧金山的房地产市场再次陷入困境
-   - `TechCrunch AI · 2026-08-11`
 
 10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
    - 如果黑客使用传统方法，有人可能会入狱
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

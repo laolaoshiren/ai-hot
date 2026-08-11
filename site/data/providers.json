@@ -205,17 +205,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Seed-2.0-Code",
       "Seed-2.0-Lite",
-      "Seed-2.0-Mini",
-      "Seed 1.6 Flash"
+      "Seed-2.0-Mini"
     ],
-    "model_count": 5,
-    "last_updated": "2026-03-10",
+    "model_count": 6,
+    "last_updated": "2026-07-30",
     "modalities": [
       "视频",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Seed-2.0-Lite",
+    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 Seed-2.0-Code",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=seed.bytedance.com&sz=64"
   },
@@ -424,18 +424,18 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Nemotron 3.5 Content Safety (free)",
-      "Nemotron 3 Ultra",
-      "Nemotron 3 Ultra (batch)"
+      "Nemotron 3.5 Lightning",
+      "Nemotron 3.5 Lightning (free)",
+      "Nemotron 3.5 Content Safety (free)"
     ],
-    "model_count": 11,
-    "last_updated": "2026-06-04",
+    "model_count": 13,
+    "last_updated": "2026-08-11",
     "modalities": [
-      "多模态",
       "文本",
+      "多模态",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Content Safety (free)",
+    "live_summary": "OpenRouter 已收录 13 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Lightning",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=64"
   },
