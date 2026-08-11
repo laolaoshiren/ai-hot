@@ -1,6 +1,65 @@
 {
   "data": [
     {
+      "id": "sakana/sakana-namazu",
+      "canonical_slug": "sakana/namazu-20260811",
+      "hugging_face_id": null,
+      "name": "Sakana: Sakana Namazu",
+      "created": 1786410129,
+      "description": "Sakana Namazu is a Japanese-specialized reasoning model from Sakana AI, based on Kimi K2.6 with additional training for Japanese language and business contexts. It is suited for Japanese instruction following,...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "web_search": "0.007",
+        "input_cache_read": "0.00000015"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "reasoning",
+        "reasoning_effort",
+        "structured_outputs",
+        "tool_choice",
+        "tools",
+        "web_search_options"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/sakana/namazu-20260811/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "high",
+          "none"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "upstage/solar-pro4",
       "canonical_slug": "upstage/solar-pro4-20260810",
       "hugging_face_id": null,
@@ -442,13 +501,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000798",
-        "completion": "0.0000001596",
-        "input_cache_read": "0.00000001596"
+        "prompt": "0.000000079996",
+        "completion": "0.000000252",
+        "input_cache_read": "0.0000000252"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2220,10 +2279,11 @@
       "description": "Kimi K3 is a 2.8T parameter open-weight multimodal reasoning model from Moonshot AI. It is suited for complex coding, knowledge work, and long-horizon agentic workflows, and is particularly strong at...",
       "context_length": 1048576,
       "architecture": {
-        "modality": "text+image->text",
+        "modality": "text+image+video->text",
         "input_modalities": [
           "text",
-          "image"
+          "image",
+          "video"
         ],
         "output_modalities": [
           "text"
@@ -10041,10 +10101,11 @@
       "description": "This model always redirects to the latest model in the MoonshotAI Kimi family.",
       "context_length": 1048576,
       "architecture": {
-        "modality": "text+image->text",
+        "modality": "text+image+video->text",
         "input_modalities": [
           "text",
-          "image"
+          "image",
+          "video"
         ],
         "output_modalities": [
           "text"
@@ -11362,9 +11423,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000064432",
-        "completion": "0.00000128864",
-        "input_cache_read": "0.0000000543645"
+        "prompt": "0.00000063168",
+        "completion": "0.00000126336",
+        "input_cache_read": "0.000000053298"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -25769,8 +25830,8 @@
         "completion": "0.0000012"
       },
       "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 32768,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -37259,5 +37320,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-11T01:07:37.980002+00:00"
+  "updated_at": "2026-08-11T06:55:01.056839+00:00"
 }

@@ -20,7 +20,7 @@ ai_summary = "德国AI联盟发布Soofi S，开放30B模型超越基准。来源
 summary = "Article URL: https://the-decoder.com/german-ai-consortium-releases-soofi-s-an-open-30b-model-that-tops-benchmarks-in-both-english-and-german/ Comments URL: https://news."
 summary_zh = "德国AI联盟发布Soofi S，开放30B模型超越基准。来源：Hacker News AI"
 tags = []
-list_page = 116
+list_page = 119
 +++
 
 <!-- AUTO-GENERATED: news page -->
