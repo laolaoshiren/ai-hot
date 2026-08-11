@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-10T18:46:49.417748",
-  "date": "2026-08-10",
+  "updated_at": "2026-08-11T01:07:38.083892",
+  "date": "2026-08-11",
   "spotlight": {
-    "name": "Ragflow",
-    "url": "https://github.com/infiniflow/ragflow",
+    "name": "Cc Switch",
+    "url": "https://github.com/farion1231/cc-switch",
     "type": "agent",
-    "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
+    "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
     "pricing": "开源免费",
-    "category": "AI Agent"
+    "category": "编程 Agent"
   },
   "alternates": [
     {
-      "id": "秘塔搜索",
-      "name": "秘塔 AI 搜索",
-      "url": "https://metaso.cn",
+      "id": "gamma",
+      "name": "Gamma",
+      "url": "https://gamma.app",
       "type": "tool",
-      "description": "国产 AI 搜索引擎，中文体验优秀",
-      "pricing": "免费",
-      "category": "搜索"
+      "description": "AI 一键生成 PPT/演示文稿",
+      "pricing": "免费 + Plus $10/月",
+      "category": "办公"
     },
     {
-      "name": "Aider",
-      "url": "https://github.com/Aider-AI/aider",
+      "name": "OpenCode",
+      "url": "https://github.com/opencode-ai/opencode",
       "type": "agent",
-      "description": "终端AI结对编程工具，支持多模型",
+      "description": "终端AI编码助手，支持多模型多Provider",
       "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "name": "Llmstack",
-      "url": "https://github.com/trypromptly/LLMStack",
+      "name": "Memora",
+      "url": "https://github.com/ELZAI/memora",
       "type": "agent",
-      "description": "无代码多 Agent 应用构建平台，可基于自有数据搭建 LLM 工作流、Agent 和应用。",
+      "description": "面向 AI 助手和 Agent 的记忆系统，目标是让智能体具备类似人的长期记忆能力。",
       "pricing": "开源免费",
-      "category": "编程 Agent"
+      "category": "助手 Agent"
     }
   ]
 }
