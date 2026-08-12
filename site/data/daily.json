@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-11T18:52:41.178971",
-  "date": "2026-08-11",
+  "updated_at": "2026-08-12T01:14:56.518541",
+  "date": "2026-08-12",
   "spotlight": {
-    "name": "Cc Switch",
-    "url": "https://github.com/farion1231/cc-switch",
+    "name": "Awesome Openclaw Skills",
+    "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
     "type": "agent",
-    "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
+    "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
     "pricing": "开源免费",
-    "category": "编程 Agent"
+    "category": "助手 Agent"
   },
   "alternates": [
     {
-      "id": "gamma",
-      "name": "Gamma",
-      "url": "https://gamma.app",
+      "id": "notebooklm",
+      "name": "NotebookLM",
+      "url": "https://notebooklm.google.com",
       "type": "tool",
-      "description": "AI 一键生成 PPT/演示文稿",
-      "pricing": "免费 + Plus $10/月",
+      "description": "Google 出品的 AI 笔记/知识管理工具",
+      "pricing": "免费",
       "category": "办公"
     },
     {
-      "name": "OpenCode",
-      "url": "https://github.com/opencode-ai/opencode",
+      "name": "Dify",
+      "url": "https://github.com/langgenius/dify",
       "type": "agent",
-      "description": "终端AI编码助手，支持多模型多Provider",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "开源LLM应用开发平台，可视化构建AI Agent",
+      "pricing": "开源 + Cloud",
+      "category": "平台 Agent"
     },
     {
-      "name": "Memora",
-      "url": "https://github.com/ELZAI/memora",
+      "name": "Awesome Claw",
+      "url": "https://github.com/sameeerkashyap/awesome-claw",
       "type": "agent",
-      "description": "面向 AI 助手和 Agent 的记忆系统，目标是让智能体具备类似人的长期记忆能力。",
+      "description": "OpenClaw 风格 AI 助手和 Agent 项目合集，收录高效、开源的个人助手方案。",
       "pricing": "开源免费",
       "category": "助手 Agent"
     }

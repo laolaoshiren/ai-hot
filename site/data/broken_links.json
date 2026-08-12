@@ -1246,6 +1246,20 @@
     "file": "tools.json"
   },
   {
+    "id": "github-1136590548",
+    "name": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "status": 0,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-770153867",
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "status": 0,
+    "file": "projects.json"
+  },
+  {
     "id": "midjourney",
     "name": "Midjourney",
     "url": "https://midjourney.com",
@@ -1279,20 +1293,6 @@
     "url": "https://claude.ai",
     "status": 403,
     "file": "tools.json"
-  },
-  {
-    "id": "github-1136590548",
-    "name": "affaan-m/everything-claude-code",
-    "url": "https://github.com/affaan-m/everything-claude-code",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-770153867",
-    "name": "harry0703/MoneyPrinterTurbo",
-    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-    "status": 0,
-    "file": "projects.json"
   },
   {
     "id": "midjourney",

@@ -20,7 +20,7 @@ ai_summary = "Mirendil 与 Google Cloud 签署了价值超过 1 亿美元的合�
 summary = "Mirendil has signed a $100 million-plus Google Cloud partnership to expand its compute infrastructure, powering research into self-improving AI systems designed to accelerate scientific discovery and AI development."
 summary_zh = "Mirendil 与 Google Cloud 签署了价值超过 1 亿美元的合作伙伴关系，以扩展其计算基础设施，推动对旨在加速科学发现和人工智能开发的自我改进人工智能系统的研究"
 tags = []
-list_page = 18
+list_page = 19
 +++
 
 <!-- AUTO-GENERATED: news page -->
