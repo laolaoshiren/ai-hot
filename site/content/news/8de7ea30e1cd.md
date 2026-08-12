@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，36氪获悉，据商务部消息，有记者问：美东时间7月28日，美国联邦通信委员会（FCC）宣布，将外国生产的电力逆变器和先进机器人设备列入“覆盖清单”，相关新型号产品将无法获得FCC认证授权，不得进入美市场销售。"
 summary_zh = ""
 tags = []
-list_page = 53
+list_page = 54
 +++
 
 <!-- AUTO-GENERATED: news page -->

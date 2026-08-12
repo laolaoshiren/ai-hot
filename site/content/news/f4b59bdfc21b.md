@@ -20,7 +20,7 @@ ai_summary = "Meta 通过新的代理扩展了其人工智能编码产品，它�
 summary = "Meta expanded its AI coding offerings with a new agent that, it promises, can handle complex tasks with complex software."
 summary_zh = "Meta 通过新的代理扩展了其人工智能编码产品，它承诺可以使用复杂的软件处理复杂的任务"
 tags = []
-list_page = 21
+list_page = 22
 +++
 
 <!-- AUTO-GENERATED: news page -->

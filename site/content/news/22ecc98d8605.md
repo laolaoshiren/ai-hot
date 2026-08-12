@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，- IT之家 1 个帖子 - 1 位参与者 阅读完整话题"
 summary_zh = ""
 tags = []
-list_page = 270
+list_page = 271
 +++
 
 <!-- AUTO-GENERATED: news page -->
