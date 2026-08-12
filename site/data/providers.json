@@ -126,16 +126,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "DeepSeek V4 Pro 0813",
       "DeepSeek V4 Flash 0731",
-      "DeepSeek V4 Pro",
-      "DeepSeek V4 Flash 0423"
+      "DeepSeek V4 Pro"
     ],
-    "model_count": 12,
-    "last_updated": "2026-07-31",
+    "model_count": 13,
+    "last_updated": "2026-08-12",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 12 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Flash 0731",
+    "live_summary": "OpenRouter 已收录 13 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Pro 0813",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64"
   },
@@ -153,18 +153,18 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Qwen3.8 2.4T A95B",
       "Qwen3.8 Max",
-      "Qwen3.7 Flash",
-      "Qwen3.7 Plus"
+      "Qwen3.7 Flash"
     ],
-    "model_count": 49,
-    "last_updated": "2026-08-03",
+    "model_count": 50,
+    "last_updated": "2026-08-12",
     "modalities": [
+      "文本",
       "视频",
-      "多模态",
-      "文本"
+      "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 49 个该作者/厂商相关模型，最近更新为 Qwen3.8 Max",
+    "live_summary": "OpenRouter 已收录 50 个该作者/厂商相关模型，最近更新为 Qwen3.8 2.4T A95B",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=64"
   },
@@ -205,17 +205,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Seed 2.1 Turbo",
       "Seed-2.0-Code",
-      "Seed-2.0-Lite",
-      "Seed-2.0-Mini"
+      "Seed-2.0-Lite"
     ],
-    "model_count": 6,
-    "last_updated": "2026-07-30",
+    "model_count": 7,
+    "last_updated": "2026-08-12",
     "modalities": [
       "视频",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 Seed-2.0-Code",
+    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Seed 2.1 Turbo",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=seed.bytedance.com&sz=64"
   },
@@ -397,16 +397,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "SpaceXAI: Grok 4.6",
       "SpaceXAI: Grok 4.5",
-      "SpaceXAI: Grok Build 0.1",
-      "SpaceXAI: Grok 4.3"
+      "SpaceXAI: Grok Build 0.1"
     ],
-    "model_count": 5,
-    "last_updated": "2026-07-08",
+    "model_count": 6,
+    "last_updated": "2026-08-12",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.5",
+    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.6",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
   },
