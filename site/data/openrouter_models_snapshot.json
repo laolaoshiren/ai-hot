@@ -1,6 +1,148 @@
 {
   "data": [
     {
+      "id": "google/gemini-3.7-flash",
+      "canonical_slug": "google/gemini-3.7-flash-20260813",
+      "hugging_face_id": null,
+      "name": "Google: Gemini 3.7 Flash",
+      "created": 1786640581,
+      "description": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000375",
+        "completion": "0.000001875",
+        "image": "0.000000375",
+        "audio": "0.000000375",
+        "input_audio_cache": "0.0000000375",
+        "web_search": "0.007",
+        "internal_reasoning": "0.000001875",
+        "input_cache_read": "0.0000000375",
+        "input_cache_write": "0.0000000208333333333333"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-3.7-flash-20260813/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "google/gemini-3.7-flash:batch",
+      "canonical_slug": "google/gemini-3.7-flash-20260813",
+      "hugging_face_id": null,
+      "name": "Google: Gemini 3.7 Flash (batch)",
+      "created": 1786640581,
+      "description": "Gemini 3.7 Flash is a multimodal model from Google for fast agentic workflows, coding, and complex multi-step reasoning. It is designed for tasks that require responsive performance and reliable multi-step...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Gemini",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000001875",
+        "completion": "0.0000009375",
+        "image": "0.0000001875",
+        "audio": "0.0000001875",
+        "input_audio_cache": "0.00000001875",
+        "web_search": "0.007",
+        "internal_reasoning": "0.0000009375",
+        "input_cache_read": "0.00000001875",
+        "input_cache_write": "0.0000000208333333333333"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 65536,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "tool_choice",
+        "tools"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/google/gemini-3.7-flash-20260813/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
       "id": "bytedance-seed/seed-2-1-turbo",
       "canonical_slug": "bytedance-seed/seed-2-1-turbo-20260810",
       "hugging_face_id": null,
@@ -617,7 +759,7 @@
       "hugging_face_id": null,
       "name": "Upstage: Solar Pro 4",
       "created": 1786371636,
-      "description": "Solar Pro 4 is a large language model from Upstage. It is suited for agentic workflows, office productivity, document-intensive work, and coding.",
+      "description": "Solar Pro 4 is Upstage's cost-efficient large language model, featuring a 524K context window. It is built for long-horizon tasks and agentic workflows, with strong capabilities in office productivity, document-intensive...",
       "context_length": 524288,
       "architecture": {
         "modality": "text->text",
@@ -1008,13 +1150,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000079996",
-        "completion": "0.000000252",
-        "input_cache_read": "0.0000000252"
+        "prompt": "0.000000072",
+        "completion": "0.000000144",
+        "input_cache_read": "0.000000016"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": null,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1894,15 +2036,15 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000015",
-        "completion": "0.0000075",
-        "image": "0.0000015",
-        "audio": "0.0000015",
-        "input_audio_cache": "0.00000015",
+        "prompt": "0.00000075",
+        "completion": "0.00000375",
+        "image": "0.00000075",
+        "audio": "0.00000075",
+        "input_audio_cache": "0.000000075",
         "web_search": "0.014",
-        "internal_reasoning": "0.0000075",
-        "input_cache_read": "0.00000015",
-        "input_cache_write": "0.0000000833333333333333"
+        "internal_reasoning": "0.00000375",
+        "input_cache_read": "0.000000075",
+        "input_cache_write": "0.0000000416666666666667"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -2074,15 +2216,15 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000075",
-        "completion": "0.00000375",
-        "image": "0.00000075",
-        "audio": "0.00000075",
-        "input_audio_cache": "0.000000075",
+        "prompt": "0.000000375",
+        "completion": "0.000001875",
+        "image": "0.000000375",
+        "audio": "0.000000375",
+        "input_audio_cache": "0.0000000375",
         "web_search": "0.014",
-        "internal_reasoning": "0.00000375",
-        "input_cache_read": "0.000000075",
-        "input_cache_write": "0.0000000833333333333333"
+        "internal_reasoning": "0.000001875",
+        "input_cache_read": "0.0000000375",
+        "input_cache_write": "0.0000000416666666666667"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -5686,13 +5828,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000063",
-        "completion": "0.00000198",
-        "input_cache_read": "0.0000000945"
+        "prompt": "0.0000004",
+        "completion": "0.00000252",
+        "input_cache_read": "0.00000008"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": null,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10643,13 +10785,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000028",
-        "completion": "0.000014",
-        "input_cache_read": "0.00000029"
+        "prompt": "0.0000024",
+        "completion": "0.000012",
+        "input_cache_read": "0.00000024"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 1048576,
+        "context_length": 974842,
+        "max_completion_tokens": 974842,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -10704,8 +10846,8 @@
       "id": "~google/gemini-flash-latest",
       "canonical_slug": "~google/gemini-flash-latest",
       "alias_target": {
-        "name": "Google: Gemini 3.6 Flash",
-        "slug": "google/gemini-3.6-flash"
+        "name": "Google: Gemini 3.7 Flash",
+        "slug": "google/gemini-3.7-flash"
       },
       "hugging_face_id": null,
       "name": "Google Gemini Flash Latest",
@@ -10728,15 +10870,15 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000015",
-        "completion": "0.0000075",
-        "image": "0.0000015",
-        "audio": "0.0000015",
-        "input_audio_cache": "0.00000015",
-        "web_search": "0.014",
-        "internal_reasoning": "0.0000075",
-        "input_cache_read": "0.00000015",
-        "input_cache_write": "0.0000000833333333333333"
+        "prompt": "0.000000375",
+        "completion": "0.000001875",
+        "image": "0.000000375",
+        "audio": "0.000000375",
+        "input_audio_cache": "0.0000000375",
+        "web_search": "0.007",
+        "internal_reasoning": "0.000001875",
+        "input_cache_read": "0.0000000375",
+        "input_cache_write": "0.0000000208333333333333"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -10758,14 +10900,7 @@
         "tools",
         "top_p"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -10778,8 +10913,7 @@
         "supported_efforts": [
           "high",
           "medium",
-          "low",
-          "minimal"
+          "low"
         ],
         "default_effort": "medium"
       }
@@ -12913,9 +13047,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "input_cache_read": "0.00000016"
+        "prompt": "0.0000005605",
+        "completion": "0.00000236",
+        "input_cache_read": "0.0000000944"
       },
       "top_provider": {
         "context_length": 262144,
@@ -13587,9 +13721,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
+        "prompt": "0.000000952",
+        "completion": "0.000002992",
+        "input_cache_read": "0.0000001768"
       },
       "top_provider": {
         "context_length": 202752,
@@ -18718,13 +18852,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000225",
+        "prompt": "0.00000022",
         "completion": "0.0000009",
-        "input_cache_read": "0.00000006"
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
-        "context_length": 65536,
-        "max_completion_tokens": null,
+        "context_length": 196608,
+        "max_completion_tokens": 196608,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -18735,6 +18869,7 @@
         "logprobs",
         "max_tokens",
         "min_p",
+        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -34543,7 +34678,7 @@
       "name": "DeepSeek: R1",
       "created": 1737381095,
       "description": "DeepSeek R1 is here: Performance on par with [OpenAI o1](/openai/o1), but open-sourced and with fully open reasoning tokens. It's 671B parameters in size, with 37B active in an inference pass....",
-      "context_length": 163840,
+      "context_length": 64000,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -34568,7 +34703,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "max_completion_tokens",
         "max_tokens",
         "presence_penalty",
         "reasoning",
@@ -37843,5 +37977,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-13T12:53:52.966613+00:00"
+  "updated_at": "2026-08-13T18:54:36.624388+00:00"
 }

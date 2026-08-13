@@ -20,7 +20,7 @@ ai_summary = "人工智能公司正在粉碎善本书籍。来源：Hacker News 
 summary = "https://xcancel.com/HedgieMarkets/status/2081534588485296565 Comments URL: https://news.ycombinator.com/item?id=49068738 Points: 681 # Comments: 430"
 summary_zh = "人工智能公司正在粉碎善本书籍。来源：Hacker News AI"
 tags = []
-list_page = 72
+list_page = 73
 +++
 
 <!-- AUTO-GENERATED: news page -->

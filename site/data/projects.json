@@ -3174,6 +3174,34 @@
     "collected_at": "2026-07-18T12:57:53.886710"
   },
   {
+    "id": "github-1195828337",
+    "name": "titanwings/colleague-skill",
+    "display_name": "colleague-skill",
+    "url": "https://github.com/titanwings/colleague-skill",
+    "description": "将冰冷的离别化为温暖的 Skill，欢迎加入数字生命1.0！Transforming cold farewells into warm skills? It's giving rebirth era. Welcome to Digital Life 1.0. 🫶",
+    "stars": 21038,
+    "forks": 2033,
+    "language": "Python",
+    "topics": [
+      "agent-skills",
+      "ai-agent",
+      "claude-code",
+      "codex",
+      "deepseek-harness",
+      "dsh-plugin",
+      "hermes-agent",
+      "knowledge-distillation",
+      "meta-skill",
+      "openclaw",
+      "skill-generator"
+    ],
+    "created_at": "2026-03-30T05:22:23Z",
+    "updated_at": "2026-08-13T18:44:18Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-08-13T18:53:46.575620"
+  },
+  {
     "id": "github-674075444",
     "name": "QwenLM/Qwen",
     "display_name": "Qwen",
