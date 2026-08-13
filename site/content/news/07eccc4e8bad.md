@@ -20,7 +20,7 @@ ai_summary = "Neolab 坚信，日常计算机任务的自动化将很快超过�
 summary = "The neolab is betting that automating routine computer tasks will soon outpace coding as AI's biggest use case."
 summary_zh = "Neolab 坚信，日常计算机任务的自动化将很快超过编码，成为人工智能最大的用例"
 tags = []
-list_page = 78
+list_page = 79
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "LinkedIn 正在引入新方法来减少人工智能生成的低质
 summary = "LinkedIn is introducing new ways to reduce low-quality AI-generated posts, including a “seems like AI slop” reporting option."
 summary_zh = "LinkedIn 正在引入新方法来减少人工智能生成的低质量帖子，其中包括“看起来像人工智能”的报告选项。它还用校对工具取代了自己的人工智能写作功能"
 tags = []
-list_page = 52
+list_page = 53
 +++
 
 <!-- AUTO-GENERATED: news page -->
