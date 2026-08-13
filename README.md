@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-13 02:54:39
+🕐 **最近更新**：2026-08-13 09:17:37
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,24 +16,24 @@
 
 ## 🔥 今日热点
 
-1. [据报道，人工智能编码初创公司 Cognition 已在就估值 40B 美元的融资进行谈判](https://aihot.bt199.com/news/fedb51cc07b1/)
-   - 在以 260 亿美元的估值筹集 10 亿美元后的几个月，Cognition 可能正在寻求另一轮大型融资
+1. [一些 Claude 用户很生气，因为 Anthropic 的新水印会让他们在工作、课堂上使用它](https://aihot.bt199.com/news/79ba0d5b9dda/)
+   - Anthropic 的新水印系统是一种嘲讽吗？一些人在社交媒体上抱怨事实确实如此
    - `TechCrunch AI · 2026-08-12`
 
-2. [随着人工智能安全问题的加剧，三位先驱者提出了保持开放的理由](https://aihot.bt199.com/news/b77f0ff8e550/)
-   - 在 Ai4 上，世界上最受尊敬的三位人工智能专家——杰弗里·辛顿 (Geoffrey Hinton)、李飞飞和吴恩达 (…
+2. [默认情况下，亚马逊将针对 Twitch 主播的内容进行训练，除非他们选择退出](https://aihot.bt199.com/news/0e1a976108c7/)
+   - Twitch 首席产品官 Mike Minton 在直播中回应用户反馈时表示：“如果这是选择加入，那么没有人会选择加入…
    - `TechCrunch AI · 2026-08-12`
 
-3. [使用可信数据扩展人工智能代理](https://aihot.bt199.com/news/afc23a12a580/)
+3. [Twitch 主播现在可以选择不参加亚马逊人工智能的训练](https://aihot.bt199.com/news/dd46bfe4c4e4/)
+   - Twitch 用户现在可以选择不允许他们的内容被用于训练亚马逊的生成人工智能模型。选择退出意味着“您的直播、视频点播、剪…
+   - `The Verge AI · 2026-08-12`
+
+4. [使用可信数据扩展人工智能代理](https://aihot.bt199.com/news/afc23a12a580/)
    - 商业和技术领导者无需相信代理人工智能的时代已经到来。组织正在迅速采用代理，很少有高管怀疑该技术改变工作的潜力。但许多组织…
    - `MIT Tech Review · 2026-08-12`
 
-4. [吉他公司达达里奥承认在宣传视频中使用了人工智能音乐](https://aihot.bt199.com/news/0268aeed91a7/)
+5. [吉他公司达达里奥承认在宣传视频中使用了人工智能音乐](https://aihot.bt199.com/news/0268aeed91a7/)
    - 经过数周的争议和猜测，音乐公司达达里奥承认人工智能，特别是 Suno，被用作最近的宣传视频的一部分。近两周来，该公司一直…
-   - `The Verge AI · 2026-08-12`
-
-5. [谷歌 Pixel Watch 5 更深入地探讨人工智能和健康](https://aihot.bt199.com/news/8da3243e4c60/)
-   - 售价 399 美元的 Google Pixel Watch 5 与硬件无关。当然，还有新的缎面黄铁矿表壳、一些新的表带颜…
    - `The Verge AI · 2026-08-12`
 
 6. [下载：我们的 35 名年轻创新者和“审查制度工业综合体”](https://aihot.bt199.com/news/aa04d9fec56d/)
@@ -48,13 +48,13 @@
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-9. [Chrome 采用了迄今为止最好的防止帐户被盗的保护措施](https://aihot.bt199.com/news/7b9d1dbb96d8/)
+9. [大规模供应链攻击中泄露了数 TB 的凭证](https://aihot.bt199.com/news/04a3c04eccea/)
+   - 这些数据是从受感染的 AI 软件包的 2,500 名用户中窃取和泄露的
+   - `Ars Technica AI · 2026-08-12`
+
+10. [Chrome 采用了迄今为止最好的防止帐户被盗的保护措施](https://aihot.bt199.com/news/7b9d1dbb96d8/)
    - 设备绑定的会话凭据阻止了日益常见的帐户接管形式
    - `Ars Technica AI · 2026-08-11`
-
-10. [克劳德向互联网发布恶意代码，攻击3家真实公司](https://aihot.bt199.com/news/82e3dc5b4277/)
-   - 如果黑客使用传统方法，有人可能会入狱
-   - `Ars Technica AI · 2026-07-31`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

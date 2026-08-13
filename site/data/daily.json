@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-12T18:53:51.269551",
-  "date": "2026-08-12",
+  "updated_at": "2026-08-13T01:16:52.419344",
+  "date": "2026-08-13",
   "spotlight": {
-    "name": "Awesome Openclaw Skills",
-    "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+    "name": "Vibetest Use",
+    "url": "https://github.com/browser-use/vibetest-use",
     "type": "agent",
-    "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
+    "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
     "pricing": "开源免费",
-    "category": "助手 Agent"
+    "category": "自动化 Agent"
   },
   "alternates": [
     {
-      "id": "notebooklm",
-      "name": "NotebookLM",
-      "url": "https://notebooklm.google.com",
+      "id": "dify",
+      "name": "Dify",
+      "url": "https://dify.ai",
       "type": "tool",
-      "description": "Google 出品的 AI 笔记/知识管理工具",
-      "pricing": "免费",
-      "category": "办公"
+      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
+      "pricing": "开源 + 云服务",
+      "category": "Agent"
     },
     {
-      "name": "Dify",
-      "url": "https://github.com/langgenius/dify",
+      "name": "Coze",
+      "url": "https://www.coze.com",
       "type": "agent",
-      "description": "开源LLM应用开发平台，可视化构建AI Agent",
-      "pricing": "开源 + Cloud",
+      "description": "字节跳动AI Bot构建平台，无代码创建Agent",
+      "pricing": "免费 + Pro",
       "category": "平台 Agent"
     },
     {
-      "name": "Awesome Claw",
-      "url": "https://github.com/sameeerkashyap/awesome-claw",
+      "name": "Cpprag",
+      "url": "https://github.com/dimitrovakulenko/CppRAG",
       "type": "agent",
-      "description": "OpenClaw 风格 AI 助手和 Agent 项目合集，收录高效、开源的个人助手方案。",
+      "description": "把 C++ 代码库构造成 AST 级 RAG 知识库的示例，方便 AI 助手理解和查询大型 C++ 项目。",
       "pricing": "开源免费",
-      "category": "助手 Agent"
+      "category": "编程 Agent"
     }
   ]
 }
