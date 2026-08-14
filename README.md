@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-14 02:55:22
+🕐 **最近更新**：2026-08-14 09:15:33
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [人类让人工智能代理松散地执行同一任务。他们开始了地盘争夺战。](https://aihot.bt199.com/news/4f7a500cee94/)
-   - 人类研究人员发现，人工智能代理可能会以意想不到的方式发生冲突、共谋和协调，这引发了新的问题：当今的安全测试是否能够捕捉到…
+1. [作者引入了新的人工智能模型和升级的工具来控制代币成本](https://aihot.bt199.com/news/539d991b17b1/)
+   - 作为 Z.ai 开源模型 GLM-5.2 的训练后变体，Writer 表示新系统应该以低得多的价格提供部署就绪的功能
    - `TechCrunch AI · 2026-08-13`
 
-2. [Suno 试图看起来更像一个真正的音乐制作工具](https://aihot.bt199.com/news/10399f170c3b/)
+2. [Databricks 想要筹集 1B 美元，投资者想要 15B 美元。其最终估值为 5B 美元，估值为 190B 美元。](https://aihot.bt199.com/news/7261e6583d8e/)
+   - Ali Ghodsi 告诉 TechCrunch，人工智能很昂贵。由于有如此多的投资者想要参与他的最新一轮投资，他对超出…
+   - `TechCrunch AI · 2026-08-13`
+
+3. [OpenAI 本周将失去第二位高管](https://aihot.bt199.com/news/45947aa8ee00/)
+   - 另一位 OpenAI 高管即将离职。 Denise Dresser 在担任 Slack 首席执行官后于 12 月加入 O…
+   - `The Verge AI · 2026-08-13`
+
+4. [Suno 试图看起来更像一个真正的音乐制作工具](https://aihot.bt199.com/news/10399f170c3b/)
    - Suno 发布的 Studio 2.0 进行了重大升级，使其更接近实际的数字音频工作站 (DAW)，而不是具有生成 AI…
    - `The Verge AI · 2026-08-13`
-
-3. [我看了一部人工智能生成的电影，最好的部分都是人类](https://aihot.bt199.com/news/70410d3b984c/)
-   - 想象一下，三个笨手笨脚的英国小伙子幻想着成为超级巨星，同时在伦敦某处肮脏的酒吧里喝了几品脱啤酒。想象一下，这些家伙咯咯笑…
-   - `The Verge AI · 2026-08-13`
-
-4. [Flock 正在收紧规则，以应对日益增长的监控强烈反对](https://aihot.bt199.com/news/c22abf289983/)
-   - 警用科技巨头 Flock 今天宣布，将改变警察对其全国车牌阅读器网络的访问权限，此举显然是为了平息日益强烈的抵制情绪，并…
-   - `MIT Tech Review · 2026-08-13`
 
 5. [下载：孩子们对人工智能和雄性老鼠的雌性克隆的看法](https://aihot.bt199.com/news/967189fe76c5/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。用孩子们自己的话说，孩子们对人工智能…
    - `MIT Tech Review · 2026-08-13`
 
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+6. [孩子们如何看待人工智能，用他们自己的话说](https://aihot.bt199.com/news/599ea52fc1f6/)
+   - 当我们开始与孩子们谈论人工智能时，我们以为我们知道会听到什么。我们预计有些人会告诉我们他们用它来作弊，就像千禧一代和 X…
+   - `MIT Tech Review · 2026-08-13`
+
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [大规模供应链攻击中泄露了数 TB 的凭证](https://aihot.bt199.com/news/04a3c04eccea/)
+9. [大规模供应链攻击中泄露了数 TB 的凭证](https://aihot.bt199.com/news/04a3c04eccea/)
    - 这些数据是从受感染的 AI 软件包的 2,500 名用户中窃取和泄露的
    - `Ars Technica AI · 2026-08-12`
 
-9. [Chrome 采用了迄今为止最好的防止帐户被盗的保护措施](https://aihot.bt199.com/news/7b9d1dbb96d8/)
+10. [Chrome 采用了迄今为止最好的防止帐户被盗的保护措施](https://aihot.bt199.com/news/7b9d1dbb96d8/)
    - 设备绑定的会话凭据阻止了日益常见的帐户接管形式
    - `Ars Technica AI · 2026-08-11`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

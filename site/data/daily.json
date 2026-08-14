@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-13T18:54:36.731629",
-  "date": "2026-08-13",
+  "updated_at": "2026-08-14T01:14:52.078088",
+  "date": "2026-08-14",
   "spotlight": {
-    "name": "Vibetest Use",
-    "url": "https://github.com/browser-use/vibetest-use",
+    "name": "Bua",
+    "url": "https://github.com/nottelabs/bua",
     "type": "agent",
-    "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
+    "description": "让 AI Agent 操作浏览器环境的项目，适合做网页导航、自动点击和浏览器任务执行。",
     "pricing": "开源免费",
-    "category": "自动化 Agent"
+    "category": "浏览器 Agent"
   },
   "alternates": [
     {
-      "id": "dify",
-      "name": "Dify",
-      "url": "https://dify.ai",
+      "id": "coze",
+      "name": "Coze",
+      "url": "https://www.coze.com",
       "type": "tool",
-      "description": "开源 LLM 应用开发平台，可视化搭建 AI 应用",
-      "pricing": "开源 + 云服务",
+      "description": "字节跳动出品的 AI Bot 搭建平台",
+      "pricing": "免费",
       "category": "Agent"
     },
     {
-      "name": "Coze",
-      "url": "https://www.coze.com",
+      "name": "n8n",
+      "url": "https://n8n.io",
       "type": "agent",
-      "description": "字节跳动AI Bot构建平台，无代码创建Agent",
-      "pricing": "免费 + Pro",
+      "description": "工作流自动化平台，集成AI Agent能力",
+      "pricing": "开源 + Cloud",
       "category": "平台 Agent"
     },
     {
-      "name": "Cpprag",
-      "url": "https://github.com/dimitrovakulenko/CppRAG",
+      "name": "Agent",
+      "url": "https://github.com/heelenzhang/Agent",
       "type": "agent",
-      "description": "把 C++ 代码库构造成 AST 级 RAG 知识库的示例，方便 AI 助手理解和查询大型 C++ 项目。",
+      "description": "基于 LangChain 的早教绘画 AI 助手演示项目，用于展示 Agent 在教育场景里的应用。",
       "pricing": "开源免费",
-      "category": "编程 Agent"
+      "category": "助手 Agent"
     }
   ]
 }
