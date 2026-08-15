@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-14T18:45:03.525885",
-  "date": "2026-08-14",
+  "updated_at": "2026-08-15T00:49:47.422516",
+  "date": "2026-08-15",
   "spotlight": {
-    "name": "Bua",
-    "url": "https://github.com/nottelabs/bua",
+    "name": "Langgraph Browser Use",
+    "url": "https://github.com/luckystarufo/langgraph_browser_use",
     "type": "agent",
-    "description": "让 AI Agent 操作浏览器环境的项目，适合做网页导航、自动点击和浏览器任务执行。",
+    "description": "把 browser-use Agent 重构到 LangGraph 框架下，方便用图结构编排浏览器自动化流程。",
     "pricing": "开源免费",
     "category": "浏览器 Agent"
   },
   "alternates": [
     {
-      "id": "coze",
-      "name": "Coze",
-      "url": "https://www.coze.com",
+      "id": "langchain",
+      "name": "LangChain",
+      "url": "https://langchain.com",
       "type": "tool",
-      "description": "字节跳动出品的 AI Bot 搭建平台",
-      "pricing": "免费",
+      "description": "最流行的 LLM 应用开发框架",
+      "pricing": "开源免费",
       "category": "Agent"
     },
     {
-      "name": "n8n",
-      "url": "https://n8n.io",
+      "name": "Manus",
+      "url": "https://manus.im",
       "type": "agent",
-      "description": "工作流自动化平台，集成AI Agent能力",
-      "pricing": "开源 + Cloud",
-      "category": "平台 Agent"
+      "description": "通用AI Agent，能自主完成复杂任务链",
+      "pricing": "免费试用",
+      "category": "通用 Agent"
     },
     {
-      "name": "Agent",
-      "url": "https://github.com/heelenzhang/Agent",
+      "name": "Agentbigbrain",
+      "url": "https://github.com/AgentBigBrain/AgentBigBrain",
       "type": "agent",
-      "description": "基于 LangChain 的早教绘画 AI 助手演示项目，用于展示 Agent 在教育场景里的应用。",
+      "description": "强调强约束、治理和可验证执行的自主 AI 助手框架，让 Agent 的每个动作都可控可审计。",
       "pricing": "开源免费",
-      "category": "助手 Agent"
+      "category": "自动化 Agent"
     }
   ]
 }

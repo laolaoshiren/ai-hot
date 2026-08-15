@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-15 02:46:01
+🕐 **最近更新**：2026-08-15 08:50:25
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,21 +20,21 @@
    - Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…
    - `TechCrunch AI · 2026-08-14`
 
-2. [下载：Flock 的新规则、克隆的未来和儿童细胞](https://aihot.bt199.com/news/9ede57eacc41/)
+2. [您现在可以关闭 Google Gemini 的可见水印](https://aihot.bt199.com/news/b8d906c34178/)
+   - 谷歌现在将允许您从使用人工智能工具制作的图像、视频和音乐中删除可见水印。通过更新，您可以在 Gemini 和 Googl…
+   - `The Verge AI · 2026-08-14`
+
+3. [下载：Flock 的新规则、克隆的未来和儿童细胞](https://aihot.bt199.com/news/9ede57eacc41/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Flock 正在收紧规则，以应对日…
    - `MIT Tech Review · 2026-08-14`
 
-3. [苹果在阿里巴巴的帮助下为中国训练了自己的人工智能模型](https://aihot.bt199.com/news/ae32eded766b/)
+4. [苹果在阿里巴巴的帮助下为中国训练了自己的人工智能模型](https://aihot.bt199.com/news/ae32eded766b/)
    - 据报道，苹果公司与国内科技巨头阿里巴巴一起为中国市场训练了一个定制的人工智能模型，这是一种罕见的跨境合作伙伴关系，可以缓…
    - `The Verge AI · 2026-08-14`
 
-4. [未来的职位：太空旅行代理](https://aihot.bt199.com/news/19bcbe11240d/)
+5. [未来的职位：太空旅行代理](https://aihot.bt199.com/news/19bcbe11240d/)
    - Roman Chiporukha 长期以来一直将狂野的旅行梦想变成现实。作为奢侈生活方式公司 Roman & Erica…
    - `MIT Tech Review · 2026-08-14`
-
-5. [OpenAI 本周将失去第二位高管](https://aihot.bt199.com/news/45947aa8ee00/)
-   - 另一位 OpenAI 高管即将离职。 Denise Dresser 在担任 Slack 首席执行官后于 12 月加入 O…
-   - `The Verge AI · 2026-08-13`
 
 6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -44,9 +44,9 @@
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [大规模供应链攻击中泄露了数 TB 的凭证](https://aihot.bt199.com/news/04a3c04eccea/)
-   - 这些数据是从受感染的 AI 软件包的 2,500 名用户中窃取和泄露的
-   - `Ars Technica AI · 2026-08-12`
+8. [PBS 电视台担心被云存储提供商隐藏后会丢失 50TB 数据](https://aihot.bt199.com/news/3874b2e5cffe/)
+   - “我们无法访问硬件/服务器上的数据，”Iron Mountain 告诉 Ars
+   - `Ars Technica AI · 2026-08-14`
 
 9. [谷歌现在将允许用户删除其人工智能各代产品中的可见水印](https://aihot.bt199.com/news/0e0aa6481012/)
    - 关闭此设置不会影响用于识别 AI 生成文件的隐形基准
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
