@@ -1,6 +1,129 @@
 {
   "data": [
     {
+      "id": "qwen/qwen3.8-27b",
+      "canonical_slug": "qwen/qwen3.8-27b-20260814",
+      "hugging_face_id": "Qwen/Qwen3.8-27B",
+      "name": "Qwen: Qwen3.8 27B",
+      "created": 1786722910,
+      "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000045",
+        "completion": "0.0000032"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 20
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.8-27b-20260814/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "medium",
+          "low"
+        ],
+        "default_effort": "xhigh"
+      }
+    },
+    {
+      "id": "dots-studio/dots-3-note-preview:free",
+      "canonical_slug": "dots-studio/dots-3-note-preview-20260813",
+      "hugging_face_id": null,
+      "name": "Dots Studio: Dots3-Note Preview (free)",
+      "created": 1786680361,
+      "description": "Dots3-Note Preview is an open-weight mixture-of-experts model from Dots Studio, with 16B active parameters out of 280B total. It is the lightest model in the Dots 3 family and is...",
+      "context_length": 512000,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 512000,
+        "max_completion_tokens": 512000,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/dots-studio/dots-3-note-preview-20260813/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
       "id": "google/gemini-3.7-flash",
       "canonical_slug": "google/gemini-3.7-flash-20260813",
       "hugging_face_id": null,
@@ -1293,13 +1416,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000798",
-        "completion": "0.0000001596",
-        "input_cache_read": "0.00000001596"
+        "prompt": "0.00000007826",
+        "completion": "0.00000015652",
+        "input_cache_read": "0.000000015652"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 1024000,
+        "max_completion_tokens": 384000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5992,13 +6115,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000119",
-        "completion": "0.00000374",
-        "input_cache_read": "0.000000221"
+        "prompt": "0.00000049",
+        "completion": "0.00000154",
+        "input_cache_read": "0.000000091"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -12403,9 +12526,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008246",
-        "completion": "0.00000016492",
-        "input_cache_read": "0.000000016492"
+        "prompt": "0.00000007546",
+        "completion": "0.00000015092",
+        "input_cache_read": "0.000000015092"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -26519,7 +26642,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
+      "expiration_date": "2026-08-17",
       "links": {
         "details": "/api/v1/models/deepseek/deepseek-v3.1-terminus/endpoints"
       },
@@ -38174,5 +38297,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-15T00:49:47.307860+00:00"
+  "updated_at": "2026-08-15T06:25:32.030685+00:00"
 }

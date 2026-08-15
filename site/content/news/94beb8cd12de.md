@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，36氪获悉，总部位于伦敦的AI公司geoSurge宣布完成1200万美元超额认购的种子轮融资，用于推进其在AI可见性领域的全新方法，帮助品牌塑造自身在ChatGPT、Gemini、Claude 等生成式AI系统中的呈现方式。"
 summary_zh = ""
 tags = []
-list_page = 187
+list_page = 188
 +++
 
 <!-- AUTO-GENERATED: news page -->
