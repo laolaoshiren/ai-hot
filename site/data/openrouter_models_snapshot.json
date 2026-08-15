@@ -1455,13 +1455,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006846",
-        "completion": "0.00000013692",
-        "input_cache_read": "0.000000013692"
+        "prompt": "0.0000000675",
+        "completion": "0.000000135",
+        "input_cache_read": "0.0000000135"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 384000,
+        "context_length": 262144,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -6168,9 +6168,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000049",
-        "completion": "0.00000154",
-        "input_cache_read": "0.000000091"
+        "prompt": "0.000000462",
+        "completion": "0.000001452",
+        "input_cache_read": "0.0000000858"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -12579,9 +12579,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006566",
-        "completion": "0.00000013132",
-        "input_cache_read": "0.000000013132"
+        "prompt": "0.00000006426",
+        "completion": "0.00000012852",
+        "input_cache_read": "0.000000012852"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -14469,7 +14469,6 @@
         "temperature",
         "tool_choice",
         "tools",
-        "top_a",
         "top_k",
         "top_logprobs",
         "top_p"
@@ -27051,15 +27050,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000004",
-        "completion": "0.0000012",
-        "input_cache_write": "0.0000005",
+        "prompt": "0.00000026",
+        "completion": "0.00000078",
         "overrides": [
           {
             "min_prompt_tokens": 256000,
-            "prompt": "0.0000012",
-            "completion": "0.0000036",
-            "input_cache_write": "0.0000015"
+            "prompt": "0.00000078",
+            "completion": "0.00000234"
           }
         ]
       },
@@ -38350,5 +38347,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-15T12:23:00.024356+00:00"
+  "updated_at": "2026-08-15T18:21:15.042807+00:00"
 }

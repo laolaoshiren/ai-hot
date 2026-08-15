@@ -20,7 +20,7 @@ ai_summary = "Meta 本周发布了 Glimmer，这是一个任何人都可以下�
 summary = "Meta released Glimmer this week, an open-weight AI&#160;model&#160;anyone can download and run on their own hardware&#160;— a contrast to&#160;Muse&#160;Spark, the company’s more powerful model that stays locked behind its own APIs."
 summary_zh = "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse Spark 形成鲜明对比，Muse Spark 是该公司更强大的模型，始终锁定在自己的 API 后面。该新闻稿与马克·扎克…"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->

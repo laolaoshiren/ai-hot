@@ -1,25 +1,7 @@
 {
-  "updated_at": "2026-08-15T12:23:37.942806",
-  "total": 10,
+  "updated_at": "2026-08-15T18:21:59.132207",
+  "total": 9,
   "hot_list": [
-    {
-      "title": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "name": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "title_zh": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-08-14",
-      "time": "2026-08-14",
-      "description": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "subtitle": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "ai_summary": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "category": "资讯",
-      "news_id": "d0a06ebad8a6",
-      "internal_url": "https://aihot.bt199.com/news/d0a06ebad8a6/",
-      "type_label": "📰 新闻"
-    },
     {
       "title": "您现在可以关闭 Google Gemini 的可见水印",
       "name": "您现在可以关闭 Google Gemini 的可见水印",
@@ -184,24 +166,6 @@
     }
   ],
   "top_20": [
-    {
-      "title": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "name": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "title_zh": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-08-14",
-      "time": "2026-08-14",
-      "description": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "subtitle": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "ai_summary": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "category": "资讯",
-      "news_id": "d0a06ebad8a6",
-      "internal_url": "https://aihot.bt199.com/news/d0a06ebad8a6/",
-      "type_label": "📰 新闻"
-    },
     {
       "title": "您现在可以关闭 Google Gemini 的可见水印",
       "name": "您现在可以关闭 Google Gemini 的可见水印",
@@ -368,28 +332,10 @@
   "type_stats": {
     "tool": 0,
     "project": 0,
-    "news": 10,
+    "news": 9,
     "model": 0
   },
   "items": [
-    {
-      "title": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "name": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "title_zh": "马克·扎克伯格真的相信人工智能“适合所有人”吗？",
-      "url": "https://techcrunch.com/video/does-mark-zuckerberg-really-believe-ai-is-for-everyone/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-08-14",
-      "time": "2026-08-14",
-      "description": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "subtitle": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "ai_summary": "Meta 本周发布了 Glimmer，这是一个任何人都可以下载并在自己的硬件上运行的开放式人工智能模型，与 Muse S…",
-      "category": "资讯",
-      "news_id": "d0a06ebad8a6",
-      "internal_url": "https://aihot.bt199.com/news/d0a06ebad8a6/",
-      "type_label": "📰 新闻"
-    },
     {
       "title": "您现在可以关闭 Google Gemini 的可见水印",
       "name": "您现在可以关闭 Google Gemini 的可见水印",
