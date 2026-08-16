@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，7月3日，据报道，三星电子正成为全球大科技公司自研AI芯片（ASIC）的核心生产基地，其中长期积压订单有望逼近50万亿韩元。"
 summary_zh = ""
 tags = []
-list_page = 197
+list_page = 198
 +++
 
 <!-- AUTO-GENERATED: news page -->

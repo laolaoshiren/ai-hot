@@ -20,7 +20,7 @@ ai_summary = "Twitch 用户现在可以选择不允许他们的内容被用于�
 summary = "Twitch users can now opt out of allowing their content to be used to train Amazon's generative AI models."
 summary_zh = "Twitch 用户现在可以选择不允许他们的内容被用于训练亚马逊的生成人工智能模型。选择退出意味着“您的直播、视频点播、剪辑、直播聊天以及频道上的图片和文本”将不会用于亚马逊 AI 模型的“未来训练”，“该模型的目的是生成或生成"
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "谷歌限制 Meta 使用其 Gemini AI 模型。来源：Hacker New
 summary = "Article URL: https://www.cnbc.com/2026/06/28/google-limits-metas-use-of-its-gemini-ai-models-ft-reports."
 summary_zh = "谷歌限制 Meta 使用其 Gemini AI 模型。来源：Hacker News AI"
 tags = []
-list_page = 230
+list_page = 231
 +++
 
 <!-- AUTO-GENERATED: news page -->

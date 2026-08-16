@@ -20,7 +20,7 @@ ai_summary = "嗨，HN！我们是 Akilan 和 Miguel，MarbleOS 的创建者。M
 summary = "Hi HN! We’re Akilan and Miguel, the creators of MarbleOS."
 summary_zh = "嗨，HN！我们是 Akilan 和 Miguel，MarbleOS 的创建者。Marble 的灵感来自 Xerox PARC 的 GUI 工作、1984 年的 Macintosh 以及后来成为 Mac OS X 基础的 NeXTSTEP。在…"
 tags = []
-list_page = 60
+list_page = 61
 +++
 
 <!-- AUTO-GENERATED: news page -->
