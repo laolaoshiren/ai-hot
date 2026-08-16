@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "为了让你烧token，英伟达已经卷到机器人身上了"
 summary_zh = ""
 tags = []
-list_page = 283
+list_page = 284
 +++
 
 <!-- AUTO-GENERATED: news page -->

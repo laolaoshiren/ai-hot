@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据报道，在经历过去一段时间月之暗面Kimi K3发布引发的广泛关注后，月之暗面于本周五在北京的一个酒吧举行了庆功活动。"
 summary_zh = ""
 tags = []
-list_page = 84
+list_page = 85
 +++
 
 <!-- AUTO-GENERATED: news page -->

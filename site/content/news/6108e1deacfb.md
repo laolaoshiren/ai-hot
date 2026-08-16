@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "对前沿实验室估值悲观"
 summary_zh = ""
 tags = []
-list_page = 53
+list_page = 54
 +++
 
 <!-- AUTO-GENERATED: news page -->
