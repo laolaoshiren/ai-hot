@@ -20,7 +20,7 @@ ai_summary = "硅谷在过去一周的大部分时间里都处于红色警报状
 summary = "Silicon Valley has spent much of the past week on red alert, digesting the arrival of Moonshot AI's Kimi K3, a Chinese AI model that can allegedly beat some of the best systems built by US companies at a fraction of the cost."
 summary_zh = "硅谷在过去一周的大部分时间里都处于红色警报状态，消化着 Moonshot AI 的 Kimi K3 的到来，这是一种中国人工智能模型，据称可以以极低的成本击败美国公司构建的一些最好的系统。仅其性能就足以加剧两者之间的竞争"
 tags = []
-list_page = 77
+list_page = 78
 +++
 
 <!-- AUTO-GENERATED: news page -->

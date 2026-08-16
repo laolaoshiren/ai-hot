@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-15T18:21:15.202301",
-  "date": "2026-08-15",
+  "updated_at": "2026-08-16T00:50:18.971097",
+  "date": "2026-08-16",
   "spotlight": {
-    "name": "Langgraph Browser Use",
-    "url": "https://github.com/luckystarufo/langgraph_browser_use",
+    "name": "Browser Use Agent",
+    "url": "https://github.com/vikas434/browser-use-agent",
     "type": "agent",
-    "description": "把 browser-use Agent 重构到 LangGraph 框架下，方便用图结构编排浏览器自动化流程。",
+    "description": "Browser Use Agent 示例合集，展示 AI 控制浏览器后可完成的多种自动化场景。",
     "pricing": "开源免费",
     "category": "浏览器 Agent"
   },
   "alternates": [
     {
-      "id": "langchain",
-      "name": "LangChain",
-      "url": "https://langchain.com",
+      "id": "autogen",
+      "name": "AutoGen",
+      "url": "https://github.com/microsoft/autogen",
       "type": "tool",
-      "description": "最流行的 LLM 应用开发框架",
+      "description": "微软出品的多 Agent 协作框架",
       "pricing": "开源免费",
       "category": "Agent"
     },
     {
-      "name": "Manus",
-      "url": "https://manus.im",
+      "name": "Genspark",
+      "url": "https://www.genspark.ai",
       "type": "agent",
-      "description": "通用AI Agent，能自主完成复杂任务链",
-      "pricing": "免费试用",
-      "category": "通用 Agent"
+      "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
+      "pricing": "免费",
+      "category": "研究 Agent"
     },
     {
-      "name": "Agentbigbrain",
-      "url": "https://github.com/AgentBigBrain/AgentBigBrain",
+      "name": "Ragflow",
+      "url": "https://github.com/infiniflow/ragflow",
       "type": "agent",
-      "description": "强调强约束、治理和可验证执行的自主 AI 助手框架，让 Agent 的每个动作都可控可审计。",
+      "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
       "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "category": "AI Agent"
     }
   ]
 }
