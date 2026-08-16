@@ -9383,6 +9383,35 @@
     "collected_at": "2026-08-16T00:49:29.655068"
   },
   {
+    "id": "github-1334701378",
+    "name": "soares-grs/encAIxa",
+    "display_name": "encAIxa",
+    "url": "https://github.com/soares-grs/encAIxa",
+    "description": "Otimize seu currículo para cada vaga com IA, sugestões baseadas em evidências e geração de PDF. ATS — local, privado e multiplataforma",
+    "stars": 8,
+    "forks": 0,
+    "language": "TypeScript",
+    "topics": [
+      "artificial-intelligence",
+      "ats",
+      "career",
+      "claude-code",
+      "codex",
+      "cv",
+      "job-search",
+      "local-first",
+      "privacy",
+      "react",
+      "resume",
+      "typescript"
+    ],
+    "created_at": "2026-08-15T01:21:18Z",
+    "updated_at": "2026-08-16T14:19:17Z",
+    "license": "",
+    "source": "github-search",
+    "collected_at": "2026-08-16T18:18:45.200983"
+  },
+  {
     "id": "github-1201368235",
     "name": "fs0ci5ty/Artificial-Intelligence-Learning-Resources-Collection",
     "display_name": "Artificial-Intelligence-Learning-Resources-Collection",

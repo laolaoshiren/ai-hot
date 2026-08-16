@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-16 20:24:57
+🕐 **最近更新**：2026-08-17 02:20:12
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,17 +16,17 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic 分享了有关克劳德新水印如何运作的更多细节](https://aihot.bt199.com/news/73cbb223a27a/)
-   - 水印实际上如何发挥作用？可以通过编辑隐藏吗？这对代码有何影响？
-   - `TechCrunch AI · 2026-08-15`
+1. [Anthropic首席执行官表示，人工智能的强烈反对“从根本上来说是一场信任危机”](https://aihot.bt199.com/news/9eeacf6b78b6/)
+   - 达里奥·阿莫迪 (Dario Amodei) 反驳了他对人工智能描绘的过于悲观的看法
+   - `TechCrunch AI · 2026-08-16`
 
-2. [通过扮演聊天机器人来嘲笑人工智能的牺牲](https://aihot.bt199.com/news/96fdcc1df6bb/)
-   - 你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另…
-   - `The Verge AI · 2026-08-15`
+2. [ChatGPT 的计算机历史记录跟踪您的点击和击键](https://aihot.bt199.com/news/4a493f2763ae/)
+   - ChatGPT 在 macOS 上的桌面应用程序有一个名为“计算机历史记录”的新功能，可以将您的操作转化为训练数据、了解…
+   - `The Verge AI · 2026-08-16`
 
-3. [您现在可以关闭 Google Gemini 的可见水印](https://aihot.bt199.com/news/b8d906c34178/)
-   - 谷歌现在将允许您从使用人工智能工具制作的图像、视频和音乐中删除可见水印。通过更新，您可以在 Gemini 和 Googl…
-   - `The Verge AI · 2026-08-14`
+3. [流氓人工智能不再是科幻小说](https://aihot.bt199.com/news/1fc865a6bfa5/)
+   - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Ro…
+   - `The Verge AI · 2026-08-16`
 
 4. [下载：Flock 的新规则、克隆的未来和儿童细胞](https://aihot.bt199.com/news/9ede57eacc41/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Flock 正在收紧规则，以应对日…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

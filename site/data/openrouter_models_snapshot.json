@@ -23,7 +23,8 @@
       },
       "pricing": {
         "prompt": "0.00000045",
-        "completion": "0.0000032"
+        "completion": "0.0000032",
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
         "context_length": 262144,
@@ -545,9 +546,39 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000435",
-        "completion": "0.00000087",
-        "input_cache_read": "0.000000003625"
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
+        "input_cache_read": "0.000000022",
+        "overrides": [
+          {
+            "utc_start": 1000,
+            "utc_end": 100,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_start": 100,
+            "utc_end": 400,
+            "prompt": "0.00000132",
+            "completion": "0.00000396",
+            "input_cache_read": "0.000000044"
+          },
+          {
+            "utc_start": 400,
+            "utc_end": 600,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_start": 600,
+            "utc_end": 1000,
+            "prompt": "0.00000132",
+            "completion": "0.00000396",
+            "input_cache_read": "0.000000044"
+          }
+        ]
       },
       "top_provider": {
         "context_length": 1048576,
@@ -854,13 +885,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001",
-        "completion": "0.00000025",
-        "input_cache_read": "0.00000005"
+        "prompt": "0.00000008",
+        "completion": "0.0000002",
+        "input_cache_read": "0.00000004"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1483,9 +1514,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000063",
-        "completion": "0.000000126",
-        "input_cache_read": "0.0000000126"
+        "prompt": "0.0000000603",
+        "completion": "0.0000001206",
+        "input_cache_read": "0.00000001206"
       },
       "top_provider": {
         "context_length": 262144,
@@ -11612,7 +11643,7 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
+        "prompt": "0.00000014",
         "completion": "0.000001",
         "input_cache_read": "0.00000005"
       },
@@ -11757,13 +11788,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
-        "input_cache_read": "0.00000012"
+        "prompt": "0.0000003",
+        "completion": "0.000002",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -12438,7 +12469,7 @@
       "id": "deepseek/deepseek-v4-pro",
       "canonical_slug": "deepseek/deepseek-v4-pro-20260423",
       "hugging_face_id": "deepseek-ai/DeepSeek-V4-Pro",
-      "name": "DeepSeek: DeepSeek V4 Pro",
+      "name": "DeepSeek: DeepSeek V4 Pro 0423",
       "created": 1777000679,
       "description": "DeepSeek V4 Pro is a large-scale Mixture-of-Experts model from DeepSeek with 1.6T total parameters and 49B activated parameters, supporting a 1M-token context window. It is designed for advanced reasoning, coding,...",
       "context_length": 1048576,
@@ -34695,12 +34726,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000075"
+        "prompt": "0.0000008",
+        "completion": "0.000001",
+        "input_cache_read": "0.0000004"
       },
       "top_provider": {
-        "context_length": 32000,
-        "max_completion_tokens": null,
+        "context_length": 128000,
+        "max_completion_tokens": 128000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -38375,5 +38407,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-16T12:24:17.402066+00:00"
+  "updated_at": "2026-08-16T18:19:28.424475+00:00"
 }
