@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-16T18:19:28.593471",
-  "date": "2026-08-16",
+  "updated_at": "2026-08-17T00:47:51.606725",
+  "date": "2026-08-17",
   "spotlight": {
-    "name": "Browser Use Agent",
-    "url": "https://github.com/vikas434/browser-use-agent",
+    "name": "Agent Sdk Golang",
+    "url": "https://github.com/timwhitez/agent-sdk-golang",
     "type": "agent",
-    "description": "Browser Use Agent 示例合集，展示 AI 控制浏览器后可完成的多种自动化场景。",
+    "description": "Go 实现的极简 Agent SDK，提供工具调用循环，适合在 Go 项目里快速嵌入智能体能力。",
     "pricing": "开源免费",
     "category": "浏览器 Agent"
   },
   "alternates": [
     {
-      "id": "autogen",
-      "name": "AutoGen",
-      "url": "https://github.com/microsoft/autogen",
+      "id": "crewai",
+      "name": "CrewAI",
+      "url": "https://crewai.com",
       "type": "tool",
-      "description": "微软出品的多 Agent 协作框架",
-      "pricing": "开源免费",
+      "description": "多 Agent 协作框架，简单易用",
+      "pricing": "开源 + 企业版",
       "category": "Agent"
     },
     {
-      "name": "Genspark",
-      "url": "https://www.genspark.ai",
+      "name": "Flowise",
+      "url": "https://github.com/FlowiseAI/Flowise",
       "type": "agent",
-      "description": "AI搜索引擎+Agent，自动搜索分析执行任务",
-      "pricing": "免费",
-      "category": "研究 Agent"
+      "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
+      "pricing": "开源 + Cloud",
+      "category": "平台 Agent"
     },
     {
-      "name": "Ragflow",
-      "url": "https://github.com/infiniflow/ragflow",
+      "name": "Cc Switch",
+      "url": "https://github.com/farion1231/cc-switch",
       "type": "agent",
-      "description": "开源 RAG 引擎，支持知识库检索增强生成，适合构建企业问答和文档型 AI Agent。",
+      "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
       "pricing": "开源免费",
-      "category": "AI Agent"
+      "category": "编程 Agent"
     }
   ]
 }

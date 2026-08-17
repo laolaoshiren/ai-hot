@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-17 02:20:12
+🕐 **最近更新**：2026-08-17 08:48:54
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic首席执行官表示，人工智能的强烈反对“从根本上来说是一场信任危机”](https://aihot.bt199.com/news/9eeacf6b78b6/)
-   - 达里奥·阿莫迪 (Dario Amodei) 反驳了他对人工智能描绘的过于悲观的看法
+1. [据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter](https://aihot.bt199.com/news/7430ad56634d/)
+   - OpenRouter 的首席执行官最近将这家初创公司描述为“Stripe for AI”
    - `TechCrunch AI · 2026-08-16`
 
-2. [ChatGPT 的计算机历史记录跟踪您的点击和击键](https://aihot.bt199.com/news/4a493f2763ae/)
+2. [为什么人们不相信马克·扎克伯格的人工智能未来](https://aihot.bt199.com/news/30514dd888ea/)
+   - 在最新一集的《股票》播客中，我们讨论了为什么不是每个人都相信扎克伯格的愿景
+   - `TechCrunch AI · 2026-08-16`
+
+3. [据报道 OpenAI 解散了其准备团队](https://aihot.bt199.com/news/eb794a2fd02e/)
+   - 据英国《金融时报》报道，OpenAI 于上月底解散了其准备团队。准备团队的工作是评估模型是否会带来严重风险，并制定减轻这…
+   - `The Verge AI · 2026-08-16`
+
+4. [ChatGPT 的计算机历史记录跟踪您的点击和击键](https://aihot.bt199.com/news/4a493f2763ae/)
    - ChatGPT 在 macOS 上的桌面应用程序有一个名为“计算机历史记录”的新功能，可以将您的操作转化为训练数据、了解…
    - `The Verge AI · 2026-08-16`
 
-3. [流氓人工智能不再是科幻小说](https://aihot.bt199.com/news/1fc865a6bfa5/)
-   - 这是《The Stepback》，一份每周简讯，详细介绍了科技界的一个重要故事。有关人工智能安全的更多信息，请关注 Ro…
-   - `The Verge AI · 2026-08-16`
-
-4. [下载：Flock 的新规则、克隆的未来和儿童细胞](https://aihot.bt199.com/news/9ede57eacc41/)
+5. [下载：Flock 的新规则、克隆的未来和儿童细胞](https://aihot.bt199.com/news/9ede57eacc41/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Flock 正在收紧规则，以应对日…
    - `MIT Tech Review · 2026-08-14`
 
-5. [未来的职位：太空旅行代理](https://aihot.bt199.com/news/19bcbe11240d/)
+6. [未来的职位：太空旅行代理](https://aihot.bt199.com/news/19bcbe11240d/)
    - Roman Chiporukha 长期以来一直将狂野的旅行梦想变成现实。作为奢侈生活方式公司 Roman & Erica…
    - `MIT Tech Review · 2026-08-14`
 
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-8. [PBS 电视台担心被云存储提供商隐藏后会丢失 50TB 数据](https://aihot.bt199.com/news/3874b2e5cffe/)
+9. [PBS 电视台担心被云存储提供商隐藏后会丢失 50TB 数据](https://aihot.bt199.com/news/3874b2e5cffe/)
    - “我们无法访问硬件/服务器上的数据，”Iron Mountain 告诉 Ars
    - `Ars Technica AI · 2026-08-14`
-
-9. [女子声称她的继父使用 Grok 将童年照片变成露骨图像](https://aihot.bt199.com/news/a17d0cbb65ba/)
-   - 这位女士声称人工智能工具“正在将日常生活变成儿童性虐待”
-   - `TechCrunch AI · 2026-08-15`
 
 10. [随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战](https://aihot.bt199.com/news/30442beeaf4c/)
    - 美国集团在其万亿美元雄心面临新挑战后推出了更便宜的型号
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
