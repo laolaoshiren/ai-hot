@@ -1,54 +1,5 @@
 [
   {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "claude",
     "name": "Claude",
     "url": "https://claude.ai",
@@ -823,6 +774,55 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "status": 429,
     "file": "tools.json"
   },
   {

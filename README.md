@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-17 20:29:42
+🕐 **最近更新**：2026-08-18 02:29:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [据报道，Stripe 将以 7B+ 美元收购人工智能网关初创公司 OpenRouter](https://aihot.bt199.com/news/7430ad56634d/)
-   - OpenRouter 的首席执行官最近将这家初创公司描述为“Stripe for AI”
-   - `TechCrunch AI · 2026-08-16`
+1. [以销售书籍起家的亚马逊正在销毁稀有文本来训练人工智能](https://aihot.bt199.com/news/897dfbe77af7/)
+   - 善本对于培训法学硕士来说非常有价值，因为这些模型已经根据在线可用的任何内容进行了培训
+   - `TechCrunch AI · 2026-08-17`
 
-2. [为什么人们不相信马克·扎克伯格的人工智能未来](https://aihot.bt199.com/news/30514dd888ea/)
-   - 在最新一集的《股票》播客中，我们讨论了为什么不是每个人都相信扎克伯格的愿景
-   - `TechCrunch AI · 2026-08-16`
+2. [Groq 融资 3.5 亿美元，推动从 AI 芯片转向 Neocloud](https://aihot.bt199.com/news/47e2b9845519/)
+   - Groq 以 35 亿美元的估值筹集了 3.5 亿美元，这家前 AI 芯片制造商转向 Neocloud 业务并扩大其由…
+   - `TechCrunch AI · 2026-08-17`
 
 3. [下载：死去的机器人朋友和“审查工业联合体”](https://aihot.bt199.com/news/8207d686d6cf/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。当孩子的机器人最好的朋友去世时会发生…
@@ -52,9 +52,9 @@
    - “我们无法访问硬件/服务器上的数据，”Iron Mountain 告诉 Ars
    - `Ars Technica AI · 2026-08-14`
 
-10. [随着中国人工智能竞争对手的崛起，OpenAI 和 Anthropic 陷入价格战](https://aihot.bt199.com/news/30442beeaf4c/)
-   - 美国集团在其万亿美元雄心面临新挑战后推出了更便宜的型号
-   - `Ars Technica AI · 2026-08-14`
+10. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
+   - 埃隆·马斯克宣布独家安排装备其数据中心后提交了文件
+   - `Ars Technica AI · 2026-08-17`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
