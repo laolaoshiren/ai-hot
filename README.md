@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-17 14:39:44
+🕐 **最近更新**：2026-08-17 20:29:42
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,21 +24,21 @@
    - 在最新一集的《股票》播客中，我们讨论了为什么不是每个人都相信扎克伯格的愿景
    - `TechCrunch AI · 2026-08-16`
 
-3. [据报道 OpenAI 解散了其准备团队](https://aihot.bt199.com/news/eb794a2fd02e/)
+3. [下载：死去的机器人朋友和“审查工业联合体”](https://aihot.bt199.com/news/8207d686d6cf/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。当孩子的机器人最好的朋友去世时会发生…
+   - `MIT Tech Review · 2026-08-17`
+
+4. [Anthropic 解释了克劳德的隐形文本水印的工作原理](https://aihot.bt199.com/news/dd02c006bef4/)
+   - Anthropic 已阐明其计划如何将隐形水印应用于 Claude 生成的文本，以遵守欧洲的人工智能透明度规则。周五，A…
+   - `The Verge AI · 2026-08-17`
+
+5. [地下还有多少氢气在等着我们？](https://aihot.bt199.com/news/b1e5b7bc0ace/)
+   - 20 世纪 90 年代，芭芭拉·舍伍德·洛勒 (Barbara Sherwood Lollar) 深入安大略省北部的基德…
+   - `MIT Tech Review · 2026-08-17`
+
+6. [据报道 OpenAI 解散了其准备团队](https://aihot.bt199.com/news/eb794a2fd02e/)
    - 据英国《金融时报》报道，OpenAI 于上月底解散了其准备团队。准备团队的工作是评估模型是否会带来严重风险，并制定减轻这…
    - `The Verge AI · 2026-08-16`
-
-4. [ChatGPT 的计算机历史记录跟踪您的点击和击键](https://aihot.bt199.com/news/4a493f2763ae/)
-   - ChatGPT 在 macOS 上的桌面应用程序有一个名为“计算机历史记录”的新功能，可以将您的操作转化为训练数据、了解…
-   - `The Verge AI · 2026-08-16`
-
-5. [下载：Flock 的新规则、克隆的未来和儿童细胞](https://aihot.bt199.com/news/9ede57eacc41/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Flock 正在收紧规则，以应对日…
-   - `MIT Tech Review · 2026-08-14`
-
-6. [未来的职位：太空旅行代理](https://aihot.bt199.com/news/19bcbe11240d/)
-   - Roman Chiporukha 长期以来一直将狂野的旅行梦想变成现实。作为奢侈生活方式公司 Roman & Erica…
-   - `MIT Tech Review · 2026-08-14`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
