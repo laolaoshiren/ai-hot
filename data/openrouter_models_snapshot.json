@@ -588,9 +588,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
-        "input_cache_read": "0.000000022",
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "input_cache_read": "0.000000044",
         "overrides": [
           {
             "utc_start": 1000,
@@ -1543,7 +1543,7 @@
       "name": "DeepSeek V4 Flash Latest",
       "created": 1785606009,
       "description": "This model always redirects to the latest model in the DeepSeek V4 Flash family.",
-      "context_length": 1048576,
+      "context_length": 1310720,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -1615,7 +1615,7 @@
       "name": "DeepSeek: DeepSeek V4 Flash 0731",
       "created": 1785478908,
       "description": "DeepSeek V4 Flash 0731 is a sparse mixture-of-experts model from DeepSeek, with 13B active parameters out of 284B total. This re-post-trained revision is suited for coding, reasoning, and agent workflows....",
-      "context_length": 1048576,
+      "context_length": 1310720,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -6269,12 +6269,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000076",
-        "completion": "0.00000242",
-        "input_cache_read": "0.00000014"
+        "prompt": "0.00000119",
+        "completion": "0.00000374",
+        "input_cache_read": "0.000000221"
       },
       "top_provider": {
-        "context_length": 262144,
+        "context_length": 1048576,
         "max_completion_tokens": 262144,
         "is_moderated": false
       },
@@ -11422,13 +11422,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000028",
-        "completion": "0.000014",
+        "prompt": "0.0000026",
+        "completion": "0.000013",
         "input_cache_read": "0.00000029"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 1048576,
+        "context_length": 974842,
+        "max_completion_tokens": 974842,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -12270,7 +12270,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -12723,9 +12723,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
-        "input_cache_read": "0.000000022",
+        "prompt": "0.00000132",
+        "completion": "0.00000396",
+        "input_cache_read": "0.000000044",
         "overrides": [
           {
             "utc_start": 1000,
@@ -12906,9 +12906,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008386",
-        "completion": "0.00000016772",
-        "input_cache_read": "0.000000016772"
+        "prompt": "0.0000000826",
+        "completion": "0.0000001652",
+        "input_cache_read": "0.00000001652"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -14698,7 +14698,7 @@
         "completion": "0"
       },
       "top_provider": {
-        "context_length": 131072,
+        "context_length": 262144,
         "max_completion_tokens": 32768,
         "is_moderated": false
       },
@@ -25872,12 +25872,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.000002",
-        "input_cache_read": "0.0000001"
+        "prompt": "0.00000055",
+        "completion": "0.0000022",
+        "input_cache_read": "0.00000011"
       },
       "top_provider": {
-        "context_length": 202752,
+        "context_length": 204800,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -38675,5 +38675,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-17T00:47:51.451660+00:00"
+  "updated_at": "2026-08-17T06:38:55.108555+00:00"
 }

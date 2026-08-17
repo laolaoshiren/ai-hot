@@ -20,7 +20,7 @@ ai_summary = "OpenAI 特殊项目负责人、公司前首席运营官 Brad Light
 summary = "Brad Lightcap, OpenAI's special projects lead and the company's former COO, announced his departure after an eight-year stint at the AI lab."
 summary_zh = "OpenAI 特殊项目负责人、公司前首席运营官 Brad Lightcap 在人工智能实验室工作了八年后宣布离职。在后来发布到 X 的一份内部备忘录中，Lightcap 告诉同事他将开始“一些新的事情”。 “在过去的几个月里，我一直专注于接…"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->
