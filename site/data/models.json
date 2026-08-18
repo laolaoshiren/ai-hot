@@ -11292,6 +11292,34 @@
     "is_core": true
   },
   {
+    "id": "hf-sprited--dancing-stick-figures-baselines",
+    "name": "sprited/dancing-stick-figures-baselines",
+    "display_name": "dancing-stick-figures-baselines",
+    "url": "https://huggingface.co/sprited/dancing-stick-figures-baselines",
+    "author": "sprited",
+    "pipeline_tag": "unconditional-image-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "diffusion",
+      "video-diffusion",
+      "synthetic",
+      "stick-figure",
+      "unet",
+      "dit",
+      "flow-matching",
+      "unconditional-image-generation",
+      "dataset:sprited/dancing-stick-figures",
+      "license:mit",
+      "region:us"
+    ],
+    "created_at": "2026-08-18T18:20:51.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-08-18T18:26:40.080129",
+    "display_priority": 351,
+    "is_core": true
+  },
+  {
     "id": "hf-shinydatatech--forecastagent-v1.0",
     "name": "shinydatatech/forecastagent-v1.0",
     "display_name": "forecastagent-v1.0",
@@ -11313,7 +11341,7 @@
     "created_at": "2026-07-17T01:38:16.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-17T01:57:00.537898",
-    "display_priority": 351,
+    "display_priority": 352,
     "is_core": true
   },
   {
@@ -11342,7 +11370,7 @@
     "created_at": "2026-08-03T14:11:20.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-03T14:21:22.912615",
-    "display_priority": 352,
+    "display_priority": 353,
     "is_core": true
   },
   {
@@ -11363,7 +11391,7 @@
     "created_at": "2026-08-17T06:28:25.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-17T06:38:15.687992",
-    "display_priority": 353,
+    "display_priority": 354,
     "is_core": true
   },
   {
@@ -11388,7 +11416,7 @@
     "created_at": "2026-07-19T01:43:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-19T01:55:51.911309",
-    "display_priority": 354,
+    "display_priority": 355,
     "is_core": true
   },
   {
@@ -11412,7 +11440,7 @@
     "created_at": "2026-07-26T07:59:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T08:13:06.394750",
-    "display_priority": 355,
+    "display_priority": 356,
     "is_core": true
   },
   {
@@ -11436,7 +11464,7 @@
     "created_at": "2026-07-26T18:42:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T19:01:06.925009",
-    "display_priority": 356,
+    "display_priority": 357,
     "is_core": true
   },
   {
@@ -11460,7 +11488,7 @@
     "created_at": "2026-08-04T08:24:48.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-04T08:26:15.728720",
-    "display_priority": 357,
+    "display_priority": 358,
     "is_core": true
   },
   {
@@ -11484,7 +11512,7 @@
     "created_at": "2026-08-10T07:01:31.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-10T07:16:37.044076",
-    "display_priority": 358,
+    "display_priority": 359,
     "is_core": true
   },
   {
@@ -11517,7 +11545,7 @@
     "created_at": "2026-08-16T17:57:11.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-16T18:18:49.170161",
-    "display_priority": 359,
+    "display_priority": 360,
     "is_core": true
   },
   {
@@ -11544,7 +11572,7 @@
     "created_at": "2026-08-18T00:45:57.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-18T00:46:24.715728",
-    "display_priority": 360,
+    "display_priority": 361,
     "is_core": true
   }
 ]
