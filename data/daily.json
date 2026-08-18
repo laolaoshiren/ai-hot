@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-17T18:28:34.322273",
-  "date": "2026-08-17",
+  "updated_at": "2026-08-18T00:47:03.371317",
+  "date": "2026-08-18",
   "spotlight": {
-    "name": "Agent Sdk Golang",
-    "url": "https://github.com/timwhitez/agent-sdk-golang",
+    "name": "Autodidact",
+    "url": "https://github.com/dCaples/AutoDidact",
     "type": "agent",
-    "description": "Go 实现的极简 Agent SDK，提供工具调用循环，适合在 Go 项目里快速嵌入智能体能力。",
+    "description": "用强化学习和自验证机制自动训练研究型 Agent LLM，适合探索自我学习智能体。",
     "pricing": "开源免费",
-    "category": "浏览器 Agent"
+    "category": "研究 Agent"
   },
   "alternates": [
     {
-      "id": "crewai",
-      "name": "CrewAI",
-      "url": "https://crewai.com",
+      "id": "ollama",
+      "name": "Ollama",
+      "url": "https://ollama.com",
       "type": "tool",
-      "description": "多 Agent 协作框架，简单易用",
-      "pricing": "开源 + 企业版",
-      "category": "Agent"
+      "description": "本地运行大模型的最简单方式",
+      "pricing": "开源免费",
+      "category": "本地模型"
     },
     {
-      "name": "Flowise",
-      "url": "https://github.com/FlowiseAI/Flowise",
+      "name": "Goose",
+      "url": "https://github.com/aaif-goose/goose",
       "type": "agent",
-      "description": "拖拽式AI Agent构建平台，可视化编排LLM工作流",
-      "pricing": "开源 + Cloud",
-      "category": "平台 Agent"
-    },
-    {
-      "name": "Cc Switch",
-      "url": "https://github.com/farion1231/cc-switch",
-      "type": "agent",
-      "description": "跨平台桌面助手工具，用一个界面统一管理多种命令行编程智能体，适合在本地切换模型和开发助手。",
+      "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
       "pricing": "开源免费",
       "category": "编程 Agent"
+    },
+    {
+      "name": "Awesome Openclaw Skills",
+      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "type": "agent",
+      "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
+      "pricing": "开源免费",
+      "category": "助手 Agent"
     }
   ]
 }

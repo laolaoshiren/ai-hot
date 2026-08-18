@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-18 02:29:19
+🕐 **最近更新**：2026-08-18 08:47:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [以销售书籍起家的亚马逊正在销毁稀有文本来训练人工智能](https://aihot.bt199.com/news/897dfbe77af7/)
-   - 善本对于培训法学硕士来说非常有价值，因为这些模型已经根据在线可用的任何内容进行了培训
+1. [AI自动化初创公司Relay关闭，员工加入谷歌Chrome团队](https://aihot.bt199.com/news/5b8dbc23aeee/)
+   - Relay 创始人兼首席执行官 Jacob Bank 表示：“我们有一些非常雄心勃勃的计划来帮助您在 Chrome 中使…
    - `TechCrunch AI · 2026-08-17`
 
-2. [Groq 融资 3.5 亿美元，推动从 AI 芯片转向 Neocloud](https://aihot.bt199.com/news/47e2b9845519/)
-   - Groq 以 35 亿美元的估值筹集了 3.5 亿美元，这家前 AI 芯片制造商转向 Neocloud 业务并扩大其由…
-   - `TechCrunch AI · 2026-08-17`
+2. [Flock 的防守者缺少什么](https://aihot.bt199.com/news/dc51f568c245/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。 Flock 是…
+   - `MIT Tech Review · 2026-08-17`
 
 3. [下载：死去的机器人朋友和“审查工业联合体”](https://aihot.bt199.com/news/8207d686d6cf/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。当孩子的机器人最好的朋友去世时会发生…
    - `MIT Tech Review · 2026-08-17`
 
-4. [Anthropic 解释了克劳德的隐形文本水印的工作原理](https://aihot.bt199.com/news/dd02c006bef4/)
+4. [Whisker 的人工智能垃圾机器人认为我的猫交换了身体](https://aihot.bt199.com/news/46539d6c8f0b/)
+   - 近年来宠物技术最伟大的发明是垃圾机器人。一台可以舀出小猫粪便的机器，这样您就不必这样做了——猫主人还能想要什么呢？深入了…
+   - `The Verge AI · 2026-08-17`
+
+5. [Anthropic 解释了克劳德的隐形文本水印的工作原理](https://aihot.bt199.com/news/dd02c006bef4/)
    - Anthropic 已阐明其计划如何将隐形水印应用于 Claude 生成的文本，以遵守欧洲的人工智能透明度规则。周五，A…
    - `The Verge AI · 2026-08-17`
 
-5. [地下还有多少氢气在等着我们？](https://aihot.bt199.com/news/b1e5b7bc0ace/)
-   - 20 世纪 90 年代，芭芭拉·舍伍德·洛勒 (Barbara Sherwood Lollar) 深入安大略省北部的基德…
-   - `MIT Tech Review · 2026-08-17`
-
-6. [据报道 OpenAI 解散了其准备团队](https://aihot.bt199.com/news/eb794a2fd02e/)
-   - 据英国《金融时报》报道，OpenAI 于上月底解散了其准备团队。准备团队的工作是评估模型是否会带来严重风险，并制定减轻这…
-   - `The Verge AI · 2026-08-16`
-
-7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-8. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
+7. [人工智能计算差距：企业购买基础设施的速度快于他们能够衡量其成本的速度](https://aihot.bt199.com/news/308c77cdd950/)
    - 在 107 家企业中，人工智能基础设施支出的加速增长远远超过了观察或引导其经济的能力。大多数组织都在熟悉的超大规模和模型…
    - `VentureBeat AI · 2026-07-16`
 
-9. [PBS 电视台担心被云存储提供商隐藏后会丢失 50TB 数据](https://aihot.bt199.com/news/3874b2e5cffe/)
+8. [PBS 电视台担心被云存储提供商隐藏后会丢失 50TB 数据](https://aihot.bt199.com/news/3874b2e5cffe/)
    - “我们无法访问硬件/服务器上的数据，”Iron Mountain 告诉 Ars
    - `Ars Technica AI · 2026-08-14`
+
+9. [Anthropic的年化收入飙升至$65B](https://aihot.bt199.com/news/de8e9b90f004/)
+   - 这家模型制造商在两个月内增加了 180 亿美元的年收入
+   - `TechCrunch AI · 2026-08-17`
 
 10. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
    - 埃隆·马斯克宣布独家安排装备其数据中心后提交了文件
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
