@@ -289,15 +289,15 @@
     "latest_models": [
       "GLM 5.2",
       "GLM 5.2 (batch)",
-      "GLM 5.2 (free)"
+      "GLM 5.1"
     ],
-    "model_count": 14,
+    "model_count": 13,
     "last_updated": "2026-06-16",
     "modalities": [
       "文本",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 14 个该作者/厂商相关模型，最近更新为 GLM 5.2",
+    "live_summary": "OpenRouter 已收录 13 个该作者/厂商相关模型，最近更新为 GLM 5.2",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=z.ai&sz=64"
   },

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "与AI共生：2026微信小程序开发大赛WAIC官宣启动"
 summary_zh = ""
 tags = []
-list_page = 88
+list_page = 90
 +++
 
 <!-- AUTO-GENERATED: news page -->

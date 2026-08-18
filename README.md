@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-18 14:32:08
+🕐 **最近更新**：2026-08-18 20:31:48
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,21 +20,21 @@
    - Relay 创始人兼首席执行官 Jacob Bank 表示：“我们有一些非常雄心勃勃的计划来帮助您在 Chrome 中使…
    - `TechCrunch AI · 2026-08-17`
 
-2. [Flock 的防守者缺少什么](https://aihot.bt199.com/news/dc51f568c245/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。 Flock 是…
-   - `MIT Tech Review · 2026-08-17`
+2. [谷歌的宠物记忆忘记了我的猫是谁](https://aihot.bt199.com/news/ec7cbb3ceccb/)
+   - 我的智能家居所做的最好的事情之一就是帮助我照顾我的宠物，而安全摄像头对于跟踪我的许多小动物特别有用。但他们发送的大量通知…
+   - `The Verge AI · 2026-08-18`
 
-3. [下载：死去的机器人朋友和“审查工业联合体”](https://aihot.bt199.com/news/8207d686d6cf/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。当孩子的机器人最好的朋友去世时会发生…
-   - `MIT Tech Review · 2026-08-17`
+3. [埃隆·马斯克 (Elon Musk) 让飞行变得更加糟糕，以便 Palantir 能够获利](https://aihot.bt199.com/news/8e365c2bc3dd/)
+   - 8 月 6 日，明尼阿波利斯航线交通控制中心失去雷达和通讯约两个小时。这次停电中断了该中心 330,000 平方英里、涵…
+   - `The Verge AI · 2026-08-18`
 
-4. [Whisker 的人工智能垃圾机器人认为我的猫交换了身体](https://aihot.bt199.com/news/46539d6c8f0b/)
-   - 近年来宠物技术最伟大的发明是垃圾机器人。一台可以舀出小猫粪便的机器，这样您就不必这样做了——猫主人还能想要什么呢？深入了…
-   - `The Verge AI · 2026-08-17`
+4. [我们仍然不知道人们如何真正使用人工智能](https://aihot.bt199.com/news/776665834bfa/)
+   - 人工智能研究人员表示，Anthropic 和 OpenAI 等人工智能公司定期发布有关人们如何使用 Claude 和 C…
+   - `MIT Tech Review · 2026-08-18`
 
-5. [Anthropic 解释了克劳德的隐形文本水印的工作原理](https://aihot.bt199.com/news/dd02c006bef4/)
-   - Anthropic 已阐明其计划如何将隐形水印应用于 Claude 生成的文本，以遵守欧洲的人工智能透明度规则。周五，A…
-   - `The Verge AI · 2026-08-17`
+5. [人工智能的递归自我完善可能不会来得那么快](https://aihot.bt199.com/news/89f9a699f7b8/)
+   - 人工智能行业目前最大胆的承诺是，人工智能将很快自我改进，几乎不需要人类监督。法学硕士已经可以编写代码、生成用于训练的合成…
+   - `MIT Tech Review · 2026-08-18`
 
 6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
