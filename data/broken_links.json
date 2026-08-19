@@ -1,54 +1,5 @@
 [
   {
-    "id": "github-stable-diffusion-webui",
-    "name": "AUTOMATIC1111/stable-diffusion-webui",
-    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-787076358",
-    "name": "firecrawl/firecrawl",
-    "url": "https://github.com/firecrawl/firecrawl",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-65600975",
-    "name": "pytorch/pytorch",
-    "url": "https://github.com/pytorch/pytorch",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-1200597263",
-    "name": "Graphify-Labs/graphify",
-    "url": "https://github.com/Graphify-Labs/graphify",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-langchain",
-    "name": "langchain-ai/langchain",
-    "url": "https://github.com/langchain-ai/langchain",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-881458615",
-    "name": "browser-use/browser-use",
-    "url": "https://github.com/browser-use/browser-use",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-343965132",
-    "name": "microsoft/ML-For-Beginners",
-    "url": "https://github.com/microsoft/ML-For-Beginners",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
     "id": "model-16",
     "name": "openai-community/gpt2",
     "url": "https://huggingface.co/openai-community/gpt2",
@@ -480,6 +431,55 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "status": 429,
     "file": "tools.json"
   },
   {

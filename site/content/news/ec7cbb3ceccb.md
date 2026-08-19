@@ -20,7 +20,7 @@ ai_summary = "我的智能家居所做的最好的事情之一就是帮助我照
 summary = "One of the best things my smart home does is help me care for my pets, and security cameras are particularly useful for keeping track of my many critters."
 summary_zh = "我的智能家居所做的最好的事情之一就是帮助我照顾我的宠物，而安全摄像头对于跟踪我的许多小动物特别有用。但他们发送的大量通知常常意味着我错过了重要的通知。因此，当谷歌宣布为 Gemini 推出新的宠物记忆功能时"
 tags = []
-list_page = 2
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

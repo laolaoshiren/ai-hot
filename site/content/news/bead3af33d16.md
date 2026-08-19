@@ -20,7 +20,7 @@ ai_summary = "苹果期待已久的人工智能改革终于让 Siri 成为了人
 summary = "Apple’s long-awaited AI overhaul finally makes Siri the assistant it was always supposed to be."
 summary_zh = "苹果期待已久的人工智能改革终于让 Siri 成为了人们一直期待的助手。但经过多年的延迟，该产品的发布进入了人工智能领域，聊天机器人已经发展成为可以编码、推理、创建媒体和完成复杂任务的代理。 Siri AI 确实有用，但它"
 tags = []
-list_page = 56
+list_page = 58
 +++
 
 <!-- AUTO-GENERATED: news page -->

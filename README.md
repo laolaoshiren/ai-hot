@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-19 14:32:19
+🕐 **最近更新**：2026-08-19 20:31:25
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [Cursor 利用 GitHub 的挫败感推出竞争对手托管平台](https://aihot.bt199.com/news/38269b8f7f4f/)
+1. [Relativity Networks 融资 2200 万美元，为数据中心提供更快的光纤](https://aihot.bt199.com/news/d205738f828c/)
+   - Relativity Networks 主营空心光纤，这是一种很少部署的技术，其数据传输速度比传统光纤快 30%
+   - `TechCrunch AI · 2026-08-19`
+
+2. [Cursor 利用 GitHub 的挫败感推出竞争对手托管平台](https://aihot.bt199.com/news/38269b8f7f4f/)
    - Cursor 以其人工智能代码编辑器而闻名，它正在推出一个新的代码托管平台，以与开发人员长期以来最喜欢的 GitHub…
    - `TechCrunch AI · 2026-08-18`
 
-2. [Hugging Face 泄露后 OpenAI 制定了新的保障措施](https://aihot.bt199.com/news/0bfb066bf07c/)
-   - 新的保障措施包括在开发过程中对模型进行更详细的监控，以及在培训后过程中更加强调一致性和安全性
-   - `TechCrunch AI · 2026-08-18`
+3. [下载：人工智能的自我完善问题以及推动热度的原因](https://aihot.bt199.com/news/c4c7cdc85d09/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。毕竟人工智能的递归自我完善可能不会来…
+   - `MIT Tech Review · 2026-08-19`
 
-3. [罗宾·威廉姆斯 (Robin Williams) 恢复 Instagram 账户以对抗“人工智能滥用”](https://aihot.bt199.com/news/024315d82a76/)
+4. [英伟达的新财务战略并没有计算在内](https://aihot.bt199.com/news/c9300d6f9773/)
+   - 1805 年 4 月 拿破仑是欧洲的主人 只有英国舰队站在他面前 计算现在是一种资产类别 我认为现在是再次谈论金融创新的…
+   - `The Verge AI · 2026-08-19`
+
+5. [儿童监控应用程序可能需要重新启动](https://aihot.bt199.com/news/2fd4207b2182/)
+   - 帕姆·维斯涅夫斯基 (Pam ​​Wisniewski) 的数字青春期向她展示了互联网最好的和最坏的一面。 14 岁时…
+   - `MIT Tech Review · 2026-08-19`
+
+6. [罗宾·威廉姆斯 (Robin Williams) 恢复 Instagram 账户以对抗“人工智能滥用”](https://aihot.bt199.com/news/024315d82a76/)
    - 据 The Wrap 早些时候报道，在罗宾·威廉姆斯的女儿公开反对使用他的人工智能肖像后，他的孩子们正在接管父亲的 In…
    - `The Verge AI · 2026-08-18`
-
-4. [OpenAI 在 AI 黑客入侵 Hugging Face 后制定了新的安全变更](https://aihot.bt199.com/news/3fe859393c8d/)
-   - 继 7 月份有消息称其 AI 突破沙盒环境并意外入侵 Hugging Face 后，OpenAI 宣布了安全更新，包括对…
-   - `The Verge AI · 2026-08-18`
-
-5. [下载：人们如何真正使用人工智能，以及 Flock 的设计选择](https://aihot.bt199.com/news/f7758ff25a03/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。我们仍然不知道人们如何真正使用人工智…
-   - `MIT Tech Review · 2026-08-18`
-
-6. [我们仍然不知道人们如何真正使用人工智能](https://aihot.bt199.com/news/776665834bfa/)
-   - 人工智能研究人员表示，Anthropic 和 OpenAI 等人工智能公司定期发布有关人们如何使用 Claude 和 C…
-   - `MIT Tech Review · 2026-08-18`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

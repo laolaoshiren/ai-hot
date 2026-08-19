@@ -20,7 +20,7 @@ ai_summary = "你的 AI Slop 让我厌烦了，它的简单性非常出色。有
 summary = "Your AI Slop Bores Me is brilliant in its simplicity."
 summary_zh = "你的 AI Slop 让我厌烦了，它的简单性非常出色。有两个选项卡：人类和 LARP 作为人工智能。一方面您输入请求。另一方面，您提交答案。但重要的是，等式的两边都有一个人。提示可以请求响应为 [...]"
 tags = []
-list_page = 10
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

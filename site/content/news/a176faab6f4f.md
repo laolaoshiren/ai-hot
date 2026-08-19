@@ -20,7 +20,7 @@ ai_summary = "嗨，HN！我是 Bek，Speko 的创始人，Speko 是一个平台
 summary = "Hi HN! I'm Bek, founder of Speko, a platform that finds an optimal combination of speech-to-text, LLM, and text-to-speech models, given your constraints, among all our public benchmarked options, and tells you why."
 summary_zh = "嗨，HN！我是 Bek，Speko 的创始人，Speko 是一个平台，根据您的限制，在我们所有的公共基准选项中找到语音到文本、LLM 和文本到语音模型的最佳组合，并告诉您原因。演示：https://www.youtube.com/watch…"
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

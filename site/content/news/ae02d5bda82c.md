@@ -20,7 +20,7 @@ ai_summary = "微软正在简化 Copilot，将其消费者和商业应用程序�
 summary = "Microsoft is simplifying Copilot by combining its consumer and business apps, and dropping AI-generated podcasts, Group Chats, Deep Research, and its Mico character."
 summary_zh = "微软正在简化 Copilot，将其消费者和商业应用程序结合起来，并放弃人工智能生成的播客、群聊、深度研究及其 Mico 角色"
 tags = []
-list_page = 18
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->
