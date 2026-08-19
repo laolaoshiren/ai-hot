@@ -20,7 +20,7 @@ ai_summary = "Reddit 正在利用人工智能来帮助管理新的 Reddit 子版
 summary = "Reddit is enlisting AI to help moderate new subreddits - and eventually the rest of site."
 summary_zh = "Reddit 正在利用人工智能来帮助管理新的 Reddit 子版块，并最终帮助管理网站的其余部分。该公司正在推出自动审核工具，依靠法学硕士来帮助模组管理他们的社区，并且在今年晚些时候全面推出之前，正在扩大今天可以使用这些工具的人员范围。公司…"
 tags = []
-list_page = 45
+list_page = 46
 +++
 
 <!-- AUTO-GENERATED: news page -->

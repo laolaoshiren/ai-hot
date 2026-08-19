@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-19 02:28:05
+🕐 **最近更新**：2026-08-19 08:48:07
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [Hugging Face 泄露后 OpenAI 制定了新的保障措施](https://aihot.bt199.com/news/0bfb066bf07c/)
+1. [Cursor 利用 GitHub 的挫败感推出竞争对手托管平台](https://aihot.bt199.com/news/38269b8f7f4f/)
+   - Cursor 以其人工智能代码编辑器而闻名，它正在推出一个新的代码托管平台，以与开发人员长期以来最喜欢的 GitHub…
+   - `TechCrunch AI · 2026-08-18`
+
+2. [Hugging Face 泄露后 OpenAI 制定了新的保障措施](https://aihot.bt199.com/news/0bfb066bf07c/)
    - 新的保障措施包括在开发过程中对模型进行更详细的监控，以及在培训后过程中更加强调一致性和安全性
    - `TechCrunch AI · 2026-08-18`
 
-2. [Etched 估值一个月内翻倍至 $21B](https://aihot.bt199.com/news/506ef6f4e042/)
-   - 该初创公司表示，Jane Street 已经安装了 Etched 的第一个出货的人工智能集群系统，并留下了深刻的印象，它…
-   - `TechCrunch AI · 2026-08-18`
-
-3. [Firefox 的智能窗口有望打造更好的人工智能浏览器](https://aihot.bt199.com/news/c99c4fc90930/)
-   - 从今天开始，通过与 Exa 合作，Firefox 智能窗口 AI 浏览模式中的 AI 聊天可以从当前的网络信息中提取信息…
+3. [罗宾·威廉姆斯 (Robin Williams) 恢复 Instagram 账户以对抗“人工智能滥用”](https://aihot.bt199.com/news/024315d82a76/)
+   - 据 The Wrap 早些时候报道，在罗宾·威廉姆斯的女儿公开反对使用他的人工智能肖像后，他的孩子们正在接管父亲的 In…
    - `The Verge AI · 2026-08-18`
 
-4. [下载：人们如何真正使用人工智能，以及 Flock 的设计选择](https://aihot.bt199.com/news/f7758ff25a03/)
+4. [OpenAI 在 AI 黑客入侵 Hugging Face 后制定了新的安全变更](https://aihot.bt199.com/news/3fe859393c8d/)
+   - 继 7 月份有消息称其 AI 突破沙盒环境并意外入侵 Hugging Face 后，OpenAI 宣布了安全更新，包括对…
+   - `The Verge AI · 2026-08-18`
+
+5. [下载：人们如何真正使用人工智能，以及 Flock 的设计选择](https://aihot.bt199.com/news/f7758ff25a03/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。我们仍然不知道人们如何真正使用人工智…
    - `MIT Tech Review · 2026-08-18`
-
-5. [埃隆·马斯克 (Elon Musk) 让飞行变得更加糟糕，以便 Palantir 能够获利](https://aihot.bt199.com/news/8e365c2bc3dd/)
-   - 8 月 6 日，明尼阿波利斯航线交通控制中心失去雷达和通讯约两个小时。这次停电中断了该中心 330,000 平方英里、涵…
-   - `The Verge AI · 2026-08-18`
 
 6. [我们仍然不知道人们如何真正使用人工智能](https://aihot.bt199.com/news/776665834bfa/)
    - 人工智能研究人员表示，Anthropic 和 OpenAI 等人工智能公司定期发布有关人们如何使用 Claude 和 C…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

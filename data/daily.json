@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-18T18:27:18.502526",
-  "date": "2026-08-18",
+  "updated_at": "2026-08-19T00:47:23.544432",
+  "date": "2026-08-19",
   "spotlight": {
-    "name": "Autodidact",
-    "url": "https://github.com/dCaples/AutoDidact",
+    "name": "Research Agent Llm",
+    "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
     "type": "agent",
-    "description": "用强化学习和自验证机制自动训练研究型 Agent LLM，适合探索自我学习智能体。",
+    "description": "研究型 LLM Agent 项目，用于自动检索资料、组织信息并辅助生成研究结论。",
     "pricing": "开源免费",
     "category": "研究 Agent"
   },
   "alternates": [
     {
-      "id": "ollama",
-      "name": "Ollama",
-      "url": "https://ollama.com",
+      "id": "lmstudio",
+      "name": "LM Studio",
+      "url": "https://lmstudio.ai",
       "type": "tool",
-      "description": "本地运行大模型的最简单方式",
-      "pricing": "开源免费",
+      "description": "本地大模型 GUI 工具，界面友好",
+      "pricing": "免费",
       "category": "本地模型"
     },
     {
-      "name": "Goose",
-      "url": "https://github.com/aaif-goose/goose",
+      "name": "Plandex",
+      "url": "https://github.com/plandex-ai/plandex",
       "type": "agent",
-      "description": "开源可扩展AI编码Agent，安装执行编辑测试，支持任意LLM",
-      "pricing": "开源免费",
+      "description": "面向大型项目的开源AI编码Agent，终端内全自主开发",
+      "pricing": "开源 + API费用",
       "category": "编程 Agent"
     },
     {
-      "name": "Awesome Openclaw Skills",
-      "url": "https://github.com/VoltAgent/awesome-openclaw-skills",
+      "name": "Vibetest Use",
+      "url": "https://github.com/browser-use/vibetest-use",
       "type": "agent",
-      "description": "OpenClaw 技能合集，从官方技能库中筛选并分类数千个可复用 Agent 技能。",
+      "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
       "pricing": "开源免费",
-      "category": "助手 Agent"
+      "category": "自动化 Agent"
     }
   ]
 }
