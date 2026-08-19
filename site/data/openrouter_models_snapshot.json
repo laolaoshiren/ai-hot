@@ -1,6 +1,73 @@
 {
   "data": [
     {
+      "id": "~z-ai/glm-latest",
+      "canonical_slug": "~z-ai/glm-latest",
+      "alias_target": {
+        "name": "Z.ai: GLM 5.3",
+        "slug": "z-ai/glm-5.3"
+      },
+      "hugging_face_id": null,
+      "name": "Z.ai: GLM Latest",
+      "created": 1787151053,
+      "description": "This model always redirects to the latest GLM model from Z.ai.",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Router",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000014",
+        "completion": "0.0000044",
+        "input_cache_read": "0.00000026"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "links": {
+        "details": "/api/v1/models/~z-ai/glm-latest/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
+      }
+    },
+    {
       "id": "z-ai/glm-5.3",
       "canonical_slug": "z-ai/glm-5.3-20260816",
       "hugging_face_id": null,
@@ -10541,7 +10608,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/inclusionai/ring-2.6-1t-20260508/endpoints"
       },
@@ -13122,7 +13189,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/inclusionai/ling-2.6-1t-20260423/endpoints"
       }
@@ -13606,7 +13673,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/inclusionai/ling-2.6-flash-20260421/endpoints"
       },
@@ -13758,9 +13825,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095",
-        "completion": "0.000004",
-        "input_cache_read": "0.00000016"
+        "prompt": "0.0000005605",
+        "completion": "0.00000236",
+        "input_cache_read": "0.0000000944"
       },
       "top_provider": {
         "context_length": 262144,
@@ -19532,13 +19599,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000022",
+        "prompt": "0.000000225",
         "completion": "0.0000009",
-        "input_cache_read": "0.00000005"
+        "input_cache_read": "0.00000006"
       },
       "top_provider": {
-        "context_length": 196608,
-        "max_completion_tokens": 196608,
+        "context_length": 65536,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -19549,7 +19616,6 @@
         "logprobs",
         "max_tokens",
         "min_p",
-        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "repetition_penalty",
@@ -28016,52 +28082,6 @@
       }
     },
     {
-      "id": "ai21/jamba-large-1.7",
-      "canonical_slug": "ai21/jamba-large-1.7",
-      "hugging_face_id": "ai21labs/AI21-Jamba-Large-1.7",
-      "name": "AI21: Jamba Large 1.7",
-      "created": 1754669020,
-      "description": "Jamba Large 1.7 is the latest model in the Jamba open family, offering improvements in grounding, instruction-following, and overall efficiency. Built on a hybrid SSM-Transformer architecture with a 256K context...",
-      "context_length": 256000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000008"
-      },
-      "top_provider": {
-        "context_length": 256000,
-        "max_completion_tokens": 4096,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "max_tokens",
-        "response_format",
-        "stop",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2024-08-31",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/ai21/jamba-large-1.7/endpoints"
-      }
-    },
-    {
       "id": "openai/gpt-5",
       "canonical_slug": "openai/gpt-5-2025-08-07",
       "hugging_face_id": "",
@@ -34012,6 +34032,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
+        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -34024,6 +34045,7 @@
         "tool_choice",
         "tools",
         "top_k",
+        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {},
@@ -38658,5 +38680,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-19T12:30:30.617371+00:00"
+  "updated_at": "2026-08-19T18:24:13.797070+00:00"
 }
