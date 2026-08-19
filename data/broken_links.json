@@ -1,54 +1,5 @@
 [
   {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "github-45717250",
-    "name": "tensorflow/tensorflow",
-    "url": "https://github.com/tensorflow/tensorflow",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-614765452",
-    "name": "Significant-Gravitas/AutoGPT",
-    "url": "https://github.com/Significant-Gravitas/AutoGPT",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-1136590548",
-    "name": "affaan-m/everything-claude-code",
-    "url": "https://github.com/affaan-m/everything-claude-code",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
-    "id": "github-574523116",
-    "name": "f/prompts.chat",
-    "url": "https://github.com/f/prompts.chat",
-    "status": 0,
-    "file": "projects.json"
-  },
-  {
     "id": "github-stable-diffusion-webui",
     "name": "AUTOMATIC1111/stable-diffusion-webui",
     "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
@@ -529,6 +480,55 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "status": 429,
     "file": "tools.json"
   },
   {
