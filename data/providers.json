@@ -232,16 +232,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Hy3",
-      "Hy3 preview",
-      "Hunyuan A13B Instruct"
+      "Hy-MT2-1.8B",
+      "Hy-MT2-30B-A3B",
+      "Hy3"
     ],
-    "model_count": 3,
-    "last_updated": "2026-07-06",
+    "model_count": 5,
+    "last_updated": "2026-08-20",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 3 个该作者/厂商相关模型，最近更新为 Hy3",
+    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Hy-MT2-1.8B",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=64"
   },
@@ -346,13 +346,13 @@
       "Mistral Small 4",
       "Ministral 3 14B 2512"
     ],
-    "model_count": 18,
+    "model_count": 19,
     "last_updated": "2026-04-30",
     "modalities": [
       "多模态",
       "音频"
     ],
-    "live_summary": "OpenRouter 已收录 18 个该作者/厂商相关模型，最近更新为 Mistral Medium 3.5",
+    "live_summary": "OpenRouter 已收录 19 个该作者/厂商相关模型，最近更新为 Mistral Medium 3.5",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=64"
   },

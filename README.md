@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-20 20:33:51
+🕐 **最近更新**：2026-08-21 02:29:18
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,35 @@
 
 ## 🔥 今日热点
 
-1. [Meta AI 的新 Mac 应用程序希望您与您的应用程序对话](https://aihot.bt199.com/news/aca5b2023693/)
-   - Meta 表示，其 Muse Spark 模型正在为听写功能提供支持
+1. [Linkdaze 的智能日历旨在管理家庭，而不仅仅是跟踪日程安排](https://aihot.bt199.com/news/501a92a0a813/)
+   - Linkdaze 的智能数字日历因其不将其功能置于付费专区而脱颖而出，其中包括人工智能膳食计划工具
    - `TechCrunch AI · 2026-08-20`
 
-2. [币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户](https://aihot.bt199.com/news/ad5059a21e1b/)
-   - 币安的代理操作系统可与 ChatGPT、Claude Code 和 Cursor 等工具配合使用
+2. [研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象](https://aihot.bt199.com/news/072ab33f0182/)
+   - ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容
    - `TechCrunch AI · 2026-08-20`
 
-3. [下载：多重危机支持网络和氢淘金热](https://aihot.bt199.com/news/4ad78b2d3b31/)
+3. [关于人工智能意识的争论是一个陷阱](https://aihot.bt199.com/news/5e86b723ff64/)
+   - “失控”的人工智能、“流氓”代理和“自主”行动者——当前的言论会让你相信人工智能代理不仅是清醒的、有意识的，而且还对它们…
+   - `MIT Tech Review · 2026-08-20`
+
+4. [欢迎来到数学领域的人工智能危机](https://aihot.bt199.com/news/63a1c4c6a261/)
+   - 今天，我在 Decoder 上与 The Verge 驻伦敦人工智能记者罗伯特·哈特 (Robert Hart) 讨论人…
+   - `The Verge AI · 2026-08-20`
+
+5. [下载：多重危机支持网络和氢淘金热](https://aihot.bt199.com/news/4ad78b2d3b31/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。支持网络旨在帮助孩子们度过多重危机…
    - `MIT Tech Review · 2026-08-20`
 
-4. [Slack 正在推出协作振动编码频道](https://aihot.bt199.com/news/58939a4222a7/)
-   - Slack 正在引入专用通道，团队可以在其中与 AI 代理一起进行振动编码，而不是在不同的工具和对话之间跳转。 Slac…
-   - `The Verge AI · 2026-08-20`
-
-5. [氢的下一个重大事件可能是在地下](https://aihot.bt199.com/news/20d0e9fe5e74/)
-   - 人们正在寻找新的氢源，而这种气体（或者至少是制造氢的合适条件）可能就隐藏在我们的脚下。氢气可用作从大型卡车到飞机再到炼钢…
-   - `MIT Tech Review · 2026-08-20`
-
-6. [谷歌双子座将建立一个专门的学生中心](https://aihot.bt199.com/news/dc3d81799698/)
-   - 在我们为返校季做准备之际，Google 正在 Gemini 推出一个新的专用学生中心。它是一个一站式存储库，用于在学习笔…
-   - `The Verge AI · 2026-08-19`
-
-7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
 
-8. [PBS 电视台担心被云存储提供商隐藏后会丢失 50TB 数据](https://aihot.bt199.com/news/3874b2e5cffe/)
-   - “我们无法访问硬件/服务器上的数据，”Iron Mountain 告诉 Ars
-   - `Ars Technica AI · 2026-08-14`
+7. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
+   - 加密上下文注入只是打破 LLM 安全护栏的最新方法
+   - `Ars Technica AI · 2026-08-20`
 
-9. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
+8. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
    - 埃隆·马斯克宣布独家安排装备其数据中心后提交了文件
    - `Ars Technica AI · 2026-08-17`
 
@@ -135,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

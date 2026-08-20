@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "从「能用」走向「规模化落地」"
 summary_zh = ""
 tags = []
-list_page = 45
+list_page = 46
 +++
 
 <!-- AUTO-GENERATED: news page -->
