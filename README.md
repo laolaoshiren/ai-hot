@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-20 14:33:58
+🕐 **最近更新**：2026-08-20 20:33:51
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [Stripe 收购 OpenRouter 并不是因为它的“奇点”](https://aihot.bt199.com/news/42bbaa081fc3/)
-   - 支付巨头想要一家在不同人工智能模型之间路由提示的初创公司做什么？ Stripe 说这是因为“奇点”，但实际上有一个更真实…
-   - `TechCrunch AI · 2026-08-19`
+1. [Meta AI 的新 Mac 应用程序希望您与您的应用程序对话](https://aihot.bt199.com/news/aca5b2023693/)
+   - Meta 表示，其 Muse Spark 模型正在为听写功能提供支持
+   - `TechCrunch AI · 2026-08-20`
 
-2. [OpenAI 寻求通过新的客户隐私保护来超越 Anthropic](https://aihot.bt199.com/news/d306eafa18af/)
-   - OpenAI 和 Anthropic 之间正在展开一场竞争，看谁能为企业客户数据提供最好的隐私保护
-   - `TechCrunch AI · 2026-08-19`
+2. [币安现在允许人工智能代理进行交易，但控制它们很大程度上取决于用户](https://aihot.bt199.com/news/ad5059a21e1b/)
+   - 币安的代理操作系统可与 ChatGPT、Claude Code 和 Cursor 等工具配合使用
+   - `TechCrunch AI · 2026-08-20`
 
-3. [谷歌双子座将建立一个专门的学生中心](https://aihot.bt199.com/news/dc3d81799698/)
+3. [下载：多重危机支持网络和氢淘金热](https://aihot.bt199.com/news/4ad78b2d3b31/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。支持网络旨在帮助孩子们度过多重危机…
+   - `MIT Tech Review · 2026-08-20`
+
+4. [Slack 正在推出协作振动编码频道](https://aihot.bt199.com/news/58939a4222a7/)
+   - Slack 正在引入专用通道，团队可以在其中与 AI 代理一起进行振动编码，而不是在不同的工具和对话之间跳转。 Slac…
+   - `The Verge AI · 2026-08-20`
+
+5. [氢的下一个重大事件可能是在地下](https://aihot.bt199.com/news/20d0e9fe5e74/)
+   - 人们正在寻找新的氢源，而这种气体（或者至少是制造氢的合适条件）可能就隐藏在我们的脚下。氢气可用作从大型卡车到飞机再到炼钢…
+   - `MIT Tech Review · 2026-08-20`
+
+6. [谷歌双子座将建立一个专门的学生中心](https://aihot.bt199.com/news/dc3d81799698/)
    - 在我们为返校季做准备之际，Google 正在 Gemini 推出一个新的专用学生中心。它是一个一站式存储库，用于在学习笔…
    - `The Verge AI · 2026-08-19`
-
-4. [OpenAI 踩了刹车。现在怎么办？](https://aihot.bt199.com/news/b7c2fec452c0/)
-   - 随着 IPO 的临近、来自 Anthropic 的激烈竞争，以及中国和开放重量级竞争对手的紧随其后，OpenAI 有充分…
-   - `The Verge AI · 2026-08-19`
-
-5. [下载：人工智能的自我完善问题以及推动热度的原因](https://aihot.bt199.com/news/c4c7cdc85d09/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。毕竟人工智能的递归自我完善可能不会来…
-   - `MIT Tech Review · 2026-08-19`
-
-6. [下载：人们如何真正使用人工智能，以及 Flock 的设计选择](https://aihot.bt199.com/news/f7758ff25a03/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。我们仍然不知道人们如何真正使用人工智…
-   - `MIT Tech Review · 2026-08-18`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

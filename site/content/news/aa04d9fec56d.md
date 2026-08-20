@@ -20,7 +20,7 @@ ai_summary = "这是今天的《下载》版本，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology."
 summary_zh = "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。我们如何选出 35 名世界顶尖年轻科学家和工程师 9 月 8 日，《麻省理工科技评论》将公布 2026 年创新者名单"
 tags = []
-list_page = 28
+list_page = 30
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,19 +1,5 @@
 [
   {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "comfyui",
-    "name": "ComfyUI",
-    "url": "https://github.com/comfyanonymous/ComfyUI",
-    "status": 0,
-    "file": "tools.json"
-  },
-  {
     "id": "dalle3",
     "name": "DALL-E 3",
     "url": "https://openai.com/dall-e-3",
@@ -284,6 +270,20 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "status": 429,
     "file": "tools.json"
   },
   {
