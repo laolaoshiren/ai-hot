@@ -20,7 +20,7 @@ ai_summary = "在以 260 亿美元的估值筹集 10 亿美元后的几个月，
 summary = "Cognition may be looking to raise another mega round just a few months after raising $1 billion at a $26 billion valuation."
 summary_zh = "在以 260 亿美元的估值筹集 10 亿美元后的几个月，Cognition 可能正在寻求另一轮大型融资"
 tags = []
-list_page = 25
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->
