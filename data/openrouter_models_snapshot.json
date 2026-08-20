@@ -145,7 +145,7 @@
       "name": "Qwen: Qwen3.8 27B",
       "created": 1786722910,
       "description": "Qwen3.8 27B is an open-weight dense vision-language model from Qwen. It is suited for coding, professional workflows, research, multimodal interaction, and long-running agent tasks, with flexible thinking that can be...",
-      "context_length": 262144,
+      "context_length": 1000000,
       "architecture": {
         "modality": "text+image+video->text",
         "input_modalities": [
@@ -173,6 +173,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "logprobs",
         "max_tokens",
         "presence_penalty",
@@ -756,43 +757,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000066",
-        "completion": "0.00000198",
-        "input_cache_read": "0.000000022",
-        "overrides": [
-          {
-            "utc_start": 1000,
-            "utc_end": 100,
-            "prompt": "0.00000066",
-            "completion": "0.00000198",
-            "input_cache_read": "0.000000022"
-          },
-          {
-            "utc_start": 100,
-            "utc_end": 400,
-            "prompt": "0.00000132",
-            "completion": "0.00000396",
-            "input_cache_read": "0.000000044"
-          },
-          {
-            "utc_start": 400,
-            "utc_end": 600,
-            "prompt": "0.00000066",
-            "completion": "0.00000198",
-            "input_cache_read": "0.000000022"
-          },
-          {
-            "utc_start": 600,
-            "utc_end": 1000,
-            "prompt": "0.00000132",
-            "completion": "0.00000396",
-            "input_cache_read": "0.000000044"
-          }
-        ]
+        "prompt": "0.000001056",
+        "completion": "0.000003168",
+        "input_cache_read": "0.0000000352"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 384000,
+        "context_length": 1048575,
+        "max_completion_tokens": null,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -1740,13 +1711,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000765",
-        "completion": "0.000000153",
-        "input_cache_read": "0.0000000153"
+        "prompt": "0.00000007",
+        "completion": "0.00000014",
+        "input_cache_read": "0.000000014"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 1048576,
+        "max_completion_tokens": 1048576,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -6047,7 +6018,7 @@
       },
       "top_provider": {
         "context_length": 65536,
-        "max_completion_tokens": 66000,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13825,9 +13796,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005605",
-        "completion": "0.00000236",
-        "input_cache_read": "0.0000000944"
+        "prompt": "0.00000095",
+        "completion": "0.000004",
+        "input_cache_read": "0.00000016"
       },
       "top_provider": {
         "context_length": 262144,
@@ -21988,7 +21959,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-3-nano-30b-a3b/endpoints"
       },
@@ -27524,7 +27495,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2025-03-31",
-      "expiration_date": null,
+      "expiration_date": "2026-08-24",
       "links": {
         "details": "/api/v1/models/nvidia/nemotron-nano-9b-v2/endpoints"
       },
@@ -38330,61 +38301,6 @@
       }
     },
     {
-      "id": "mancer/weaver",
-      "canonical_slug": "mancer/weaver",
-      "hugging_face_id": null,
-      "name": "Mancer: Weaver (alpha)",
-      "created": 1690934400,
-      "description": "An attempt to recreate Claude-style verbosity, but don't expect the same level of coherence or memory. Meant for use in roleplay/narrative situations.",
-      "context_length": 8000,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Llama2",
-        "instruct_type": "alpaca"
-      },
-      "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.00000075"
-      },
-      "top_provider": {
-        "context_length": 8000,
-        "max_completion_tokens": 6000,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logit_bias",
-        "logprobs",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "top_a",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": "2023-06-30",
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/mancer/weaver/endpoints"
-      }
-    },
-    {
       "id": "undi95/remm-slerp-l2-13b",
       "canonical_slug": "undi95/remm-slerp-l2-13b",
       "hugging_face_id": "Undi95/ReMM-SLERP-L2-13B",
@@ -38680,5 +38596,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-19T18:24:13.797070+00:00"
+  "updated_at": "2026-08-20T00:46:47.659751+00:00"
 }

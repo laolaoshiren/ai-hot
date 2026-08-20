@@ -1,54 +1,5 @@
 [
   {
-    "id": "hf-meta-llama--Llama-3.1-8B-Instruct",
-    "name": "meta-llama/Llama-3.1-8B-Instruct",
-    "url": "https://huggingface.co/meta-llama/Llama-3.1-8B-Instruct",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-moonshotai--Kimi-K3",
-    "name": "moonshotai/Kimi-K3",
-    "url": "https://huggingface.co/moonshotai/Kimi-K3",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-openai--gpt-oss-120b",
-    "name": "openai/gpt-oss-120b",
-    "url": "https://huggingface.co/openai/gpt-oss-120b",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-black-forest-labs--FLUX.1-schnell",
-    "name": "black-forest-labs/FLUX.1-schnell",
-    "url": "https://huggingface.co/black-forest-labs/FLUX.1-schnell",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-openai--gpt-oss-20b",
-    "name": "openai/gpt-oss-20b",
-    "url": "https://huggingface.co/openai/gpt-oss-20b",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-deepseek-ai--DeepSeek-V4-Pro",
-    "name": "deepseek-ai/DeepSeek-V4-Pro",
-    "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
-    "id": "hf-BAAI--bge-m3",
-    "name": "BAAI/bge-m3",
-    "url": "https://huggingface.co/BAAI/bge-m3",
-    "status": 429,
-    "file": "models.json"
-  },
-  {
     "id": "hf-mistralai--Mistral-7B-Instruct-v0.3",
     "name": "mistralai/Mistral-7B-Instruct-v0.3",
     "url": "https://huggingface.co/mistralai/Mistral-7B-Instruct-v0.3",
@@ -382,6 +333,55 @@
     "name": "Claude",
     "url": "https://claude.ai",
     "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "url": "https://midjourney.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "url": "https://codeium.com/windsurf",
+    "status": 429,
     "file": "tools.json"
   },
   {

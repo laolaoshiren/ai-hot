@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-19T18:24:13.962352",
-  "date": "2026-08-19",
+  "updated_at": "2026-08-20T00:46:47.767003",
+  "date": "2026-08-20",
   "spotlight": {
-    "name": "Research Agent Llm",
-    "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
+    "name": "Opendeepresearcher Agentic Llm Research Framework",
+    "url": "https://github.com/stkwer/OpenDeepResearcher-Agentic-LLM-Research-Framework",
     "type": "agent",
-    "description": "研究型 LLM Agent 项目，用于自动检索资料、组织信息并辅助生成研究结论。",
+    "description": "开源深度研究 Agent 框架，面向资料检索、推理整理和长文研究报告生成。",
     "pricing": "开源免费",
     "category": "研究 Agent"
   },
   "alternates": [
     {
-      "id": "lmstudio",
-      "name": "LM Studio",
-      "url": "https://lmstudio.ai",
+      "id": "vllm",
+      "name": "vLLM",
+      "url": "https://github.com/vllm-project/vllm",
       "type": "tool",
-      "description": "本地大模型 GUI 工具，界面友好",
-      "pricing": "免费",
-      "category": "本地模型"
+      "description": "高性能 LLM 推理引擎，PagedAttention",
+      "pricing": "开源免费",
+      "category": "推理引擎"
     },
     {
-      "name": "Plandex",
-      "url": "https://github.com/plandex-ai/plandex",
+      "name": "PydanticAI",
+      "url": "https://github.com/pydantic/pydantic-ai",
       "type": "agent",
-      "description": "面向大型项目的开源AI编码Agent，终端内全自主开发",
-      "pricing": "开源 + API费用",
+      "description": "Pydantic 团队出品的 AI Agent 框架，类型安全、依赖注入，Python 开发者首选",
+      "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "name": "Vibetest Use",
-      "url": "https://github.com/browser-use/vibetest-use",
+      "name": "Bua",
+      "url": "https://github.com/nottelabs/bua",
       "type": "agent",
-      "description": "基于 Browser-Use Agent 的自动化 QA 测试工具，通过 MCP 帮助 AI 自动执行网页测试。",
+      "description": "让 AI Agent 操作浏览器环境的项目，适合做网页导航、自动点击和浏览器任务执行。",
       "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "category": "浏览器 Agent"
     }
   ]
 }
