@@ -20,7 +20,7 @@ ai_summary = "这是今天版本的《下载》，这是我们的工作日时事
 summary = "This is today&#8217;s edition of The Download, our weekday newsletter that provides a daily dose of what&#8217;s going on in the world of technology."
 summary_zh = "这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 Flock 正在收紧规则，以应对日益增长的监控抵制 警用科技巨头 Flock 正在改变警察对其全国范围的访问权限"
 tags = []
-list_page = 24
+list_page = 26
 +++
 
 <!-- AUTO-GENERATED: news page -->

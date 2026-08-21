@@ -20,7 +20,7 @@ ai_summary = "OpenAI 将于周四向美国所有人推出 ChatGPT Health，让�
 summary = "OpenAI is rolling out ChatGPT Health to everyone in the US on Thursday, allowing more people to connect their medical records and health-tracking information to the chatbot."
 summary_zh = "OpenAI 将于周四向美国所有人推出 ChatGPT Health，让更多人将他们的医疗记录和健康跟踪信息连接到聊天机器人。 OpenAI 健康产品副总裁阿什利·亚历山大 (Ashley Alexander) 在一次简报中表示，该公司的模…"
 tags = []
-list_page = 115
+list_page = 116
 +++
 
 <!-- AUTO-GENERATED: news page -->
