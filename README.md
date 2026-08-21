@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-21 02:29:18
+🕐 **最近更新**：2026-08-21 08:52:43
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,21 +16,21 @@
 
 ## 🔥 今日热点
 
-1. [Linkdaze 的智能日历旨在管理家庭，而不仅仅是跟踪日程安排](https://aihot.bt199.com/news/501a92a0a813/)
-   - Linkdaze 的智能数字日历因其不将其功能置于付费专区而脱颖而出，其中包括人工智能膳食计划工具
+1. [AI 数据初创公司 Micro1 在 AI 培训热潮中毛运行率达到 5 亿美元](https://aihot.bt199.com/news/715aa7b8d8cb/)
+   - 对人工智能训练数据的需求激增正在推动这家初创公司及其竞争对手的快速增长
+   - `TechCrunch AI · 2026-08-21`
+
+2. [新数据表明，OpenAI 正在赢得商业用户的青睐](https://aihot.bt199.com/news/08dddb48c1bd/)
+   - 随着每个实验室发布新模型，企业愿意来回波动，这种波动应该会让两家公司的投资者对企业人工智能支出到底有多么“粘性”感到犹豫…
    - `TechCrunch AI · 2026-08-20`
 
-2. [研究发现，自 ChatGPT 推出以来发布的网页中有三分之一显示出人工智能作者身份的迹象](https://aihot.bt199.com/news/072ab33f0182/)
-   - ChatGPT 和其他人工智能模型现在正在创作和编辑新网络的大部分内容
-   - `TechCrunch AI · 2026-08-20`
+3. [Google Discover 正在获得人工智能聊天机器人调整的提要](https://aihot.bt199.com/news/60d44502cd81/)
+   - Google 很快将允许您通过描述您想要看到的内容来自定义您的 Discover feed。这项新功能将在“未来几天”推…
+   - `The Verge AI · 2026-08-20`
 
-3. [关于人工智能意识的争论是一个陷阱](https://aihot.bt199.com/news/5e86b723ff64/)
+4. [关于人工智能意识的争论是一个陷阱](https://aihot.bt199.com/news/5e86b723ff64/)
    - “失控”的人工智能、“流氓”代理和“自主”行动者——当前的言论会让你相信人工智能代理不仅是清醒的、有意识的，而且还对它们…
    - `MIT Tech Review · 2026-08-20`
-
-4. [欢迎来到数学领域的人工智能危机](https://aihot.bt199.com/news/63a1c4c6a261/)
-   - 今天，我在 Decoder 上与 The Verge 驻伦敦人工智能记者罗伯特·哈特 (Robert Hart) 讨论人…
-   - `The Verge AI · 2026-08-20`
 
 5. [下载：多重危机支持网络和氢淘金热](https://aihot.bt199.com/news/4ad78b2d3b31/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。支持网络旨在帮助孩子们度过多重危机…
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
