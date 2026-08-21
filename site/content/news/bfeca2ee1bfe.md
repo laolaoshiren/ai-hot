@@ -20,7 +20,7 @@ ai_summary = "印度 IT 服务公司 HCLTech 向这家班加罗尔初创公司�
 summary = "Indian IT services company HCLTech is investing $150 million in the Bengaluru startup."
 summary_zh = "印度 IT 服务公司 HCLTech 向这家班加罗尔初创公司投资 1.5 亿美元"
 tags = []
-list_page = 330
+list_page = 331
 +++
 
 <!-- AUTO-GENERATED: news page -->

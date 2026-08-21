@@ -1151,7 +1151,7 @@
       "name": "LiquidAI: LFM2.5-2.6B (free)",
       "created": 1786470519,
       "description": "LFM2.5-2.6B is a compact reasoning model from Liquid AI. It is suited for agent workflows, data extraction, RAG, and long-context processing. Liquid advises against using it for agentic coding or...",
-      "context_length": 128000,
+      "context_length": 65536,
       "architecture": {
         "modality": "text->text",
         "input_modalities": [
@@ -1168,7 +1168,7 @@
         "completion": "0"
       },
       "top_provider": {
-        "context_length": 128000,
+        "context_length": 65536,
         "max_completion_tokens": 8192,
         "is_moderated": false
       },
@@ -1906,12 +1906,12 @@
       },
       "pricing": {
         "prompt": "0.000000065",
-        "completion": "0.00000014",
-        "input_cache_read": "0.000000014"
+        "completion": "0.00000018",
+        "input_cache_read": "0.00000002"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 262144,
+        "context_length": 1048576,
+        "max_completion_tokens": 1048576,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -19791,13 +19791,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000225",
-        "completion": "0.0000009",
-        "input_cache_read": "0.00000006"
+        "prompt": "0.00000027",
+        "completion": "0.00000095",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
-        "context_length": 65536,
-        "max_completion_tokens": null,
+        "context_length": 198000,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -32625,12 +32625,12 @@
         "instruct_type": "qwen3"
       },
       "pricing": {
-        "prompt": "0.00000012",
-        "completion": "0.00000024"
+        "prompt": "0.0000002275",
+        "completion": "0.00000091"
       },
       "top_provider": {
-        "context_length": 40960,
-        "max_completion_tokens": 16384,
+        "context_length": 131072,
+        "max_completion_tokens": 8192,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -38897,5 +38897,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-21T00:51:46.313586+00:00"
+  "updated_at": "2026-08-21T06:34:43.535454+00:00"
 }
