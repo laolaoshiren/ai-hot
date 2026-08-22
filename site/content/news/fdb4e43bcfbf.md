@@ -20,7 +20,7 @@ ai_summary = "X推出了托管MCP服务器，使开发人员可以更轻松地�
 summary = "X has launched a hosted MCP server, making it easier for developers to connect AI applications with the company’s API."
 summary_zh = "X推出了托管MCP服务器，使开发人员可以更轻松地将AI应用程序与公司的API连接起来"
 tags = []
-list_page = 234
+list_page = 235
 +++
 
 <!-- AUTO-GENERATED: news page -->

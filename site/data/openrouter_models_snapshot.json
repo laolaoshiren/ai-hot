@@ -89,9 +89,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
+        "prompt": "0.00000044",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000014",
         "overrides": [
           {
             "utc_start": 1000,
@@ -13436,9 +13436,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000054897",
-        "completion": "0.00000109794",
-        "input_cache_read": "0.0000000457475"
+        "prompt": "0.00000046458",
+        "completion": "0.00000092916",
+        "input_cache_read": "0.000000038715"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -13594,9 +13594,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000007826",
-        "completion": "0.00000015652",
-        "input_cache_read": "0.000000015652"
+        "prompt": "0.00000007266",
+        "completion": "0.00000014532",
+        "input_cache_read": "0.000000014532"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -14402,9 +14402,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005605",
-        "completion": "0.00000236",
-        "input_cache_read": "0.0000000944"
+        "prompt": "0.0000005415",
+        "completion": "0.00000228",
+        "input_cache_read": "0.0000000912"
       },
       "top_provider": {
         "context_length": 262144,
@@ -27789,12 +27789,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000009",
-        "completion": "0.0000011"
+        "prompt": "0.0000001",
+        "completion": "0.0000011",
+        "input_cache_read": "0.00000007"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "max_completion_tokens": 262144,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -39121,5 +39122,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-22T00:46:49.956845+00:00"
+  "updated_at": "2026-08-22T06:27:34.239116+00:00"
 }
