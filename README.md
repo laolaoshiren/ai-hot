@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-22 20:25:00
+🕐 **最近更新**：2026-08-23 02:23:32
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [Anthropic 的 Opus 4.6 是一台色情机器](https://aihot.bt199.com/news/d7e3e6a3a485/)
-   - Anthropic 禁止其克劳德模型生成露骨的色情内容。但 TechCrunch 进行的一系列测试发现，不需要太多就能突…
-   - `TechCrunch AI · 2026-08-21`
+1. [OpenAI 表示加州应加强其人工智能安全法案](https://aihot.bt199.com/news/39119bad22db/)
+   - OpenAI 呼吁加州加强 SB 53，这是该公司之前反对的人工智能安全法案
+   - `TechCrunch AI · 2026-08-22`
 
-2. [Nvidia 与数据中心开发商 Cloverleaf 合作](https://aihot.bt199.com/news/5a379d4f9d7f/)
-   - 英伟达继续在数据中心开发上投入资金——就像人工智能数据中心为英伟达带来大量资金一样
-   - `TechCrunch AI · 2026-08-21`
+2. [Frontier AI 实验室仍然不愿透露他们如何遏制流氓模型](https://aihot.bt199.com/news/796f7a9c48e9/)
+   - 一项新的研究发现，领先的人工智能实验室几乎没有公开记录的遏制流氓模型的计划，随着人工智能系统越来越多地表现出意外和潜在危…
+   - `TechCrunch AI · 2026-08-22`
 
 3. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
    - LinkedIn 实际上在 7 月 30 日宣布了一个“看起来像 AI slop”按钮，该公司表示很多人已经使用过它。根…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
