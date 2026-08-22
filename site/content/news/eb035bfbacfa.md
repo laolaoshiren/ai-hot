@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "荣膺2026 WAIC“镇馆之宝”！大模型原生智能体手机STEPX Neo解锁AI交互新范式"
 summary_zh = ""
 tags = []
-list_page = 169
+list_page = 170
 +++
 
 <!-- AUTO-GENERATED: news page -->

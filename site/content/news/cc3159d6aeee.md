@@ -20,7 +20,7 @@ ai_summary = "Anthropic 承诺开始用机器可读数据标记克劳德生成�
 summary = "Anthropic has pledged to start marking Claude-generated text and images with machine-readable data, in an effort to comply with European rules for AI transparency."
 summary_zh = "Anthropic 承诺开始用机器可读数据标记克劳德生成的文本和图像，以遵守欧洲人工智能透明度规则。 “生成的文本将带有嵌入的水印，生成的文件将包括支持的数字签名来源元数据，”"
 tags = []
-list_page = 39
+list_page = 40
 +++
 
 <!-- AUTO-GENERATED: news page -->
