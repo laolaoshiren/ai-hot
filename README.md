@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-22 02:27:48
+🕐 **最近更新**：2026-08-22 08:47:24
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,33 +16,33 @@
 
 ## 🔥 今日热点
 
-1. [AI 数据初创公司 Micro1 在 AI 培训热潮中毛运行率达到 5 亿美元](https://aihot.bt199.com/news/715aa7b8d8cb/)
-   - 对人工智能训练数据的需求激增正在推动这家初创公司及其竞争对手的快速增长
+1. [Anthropic 的 Opus 4.6 是一台色情机器](https://aihot.bt199.com/news/d7e3e6a3a485/)
+   - Anthropic 禁止其克劳德模型生成露骨的色情内容。但 TechCrunch 进行的一系列测试发现，不需要太多就能突…
    - `TechCrunch AI · 2026-08-21`
 
-2. [YouTube 主要创作者因接受人工智能资金而面临强烈反对](https://aihot.bt199.com/news/9cbe86a70078/)
+2. [Nvidia 与数据中心开发商 Cloverleaf 合作](https://aihot.bt199.com/news/5a379d4f9d7f/)
+   - 英伟达继续在数据中心开发上投入资金——就像人工智能数据中心为英伟达带来大量资金一样
+   - `TechCrunch AI · 2026-08-21`
+
+3. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
+   - LinkedIn 实际上在 7 月 30 日宣布了一个“看起来像 AI slop”按钮，该公司表示很多人已经使用过它。根…
+   - `The Verge AI · 2026-08-21`
+
+4. [YouTube 主要创作者因接受人工智能资金而面临强烈反对](https://aihot.bt199.com/news/9cbe86a70078/)
    - 在过去的几天里，包括 Matti Haapoja 和 Sam "Kold" Kolder 在内的许多著名电影制作内容创作…
    - `The Verge AI · 2026-08-21`
 
-3. [下载：来自太空镜子的威胁和人工智能药物的功劳](https://aihot.bt199.com/news/7fdd08983a5e/)
+5. [下载：来自太空镜子的威胁和人工智能药物的功劳](https://aihot.bt199.com/news/7fdd08983a5e/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。该公司部署太空镜的计划可能会危及许多…
    - `MIT Tech Review · 2026-08-21`
 
-4. [母语](https://aihot.bt199.com/news/2be7e5f3f744/)
+6. [母语](https://aihot.bt199.com/news/2be7e5f3f744/)
    - “爸爸？”西奥在床上蜷缩在我身边。 “文字死后会去哪里？”我完美地安排了就寝时间：洗澡（洗澡）、牙齿（刷牙）、如厕（叮当…
    - `MIT Tech Review · 2026-08-21`
 
-5. [Google Discover 正在获得人工智能聊天机器人调整的提要](https://aihot.bt199.com/news/60d44502cd81/)
-   - Google 很快将允许您通过描述您想要看到的内容来自定义您的 Discover feed。这项新功能将在“未来几天”推…
-   - `The Verge AI · 2026-08-20`
-
-6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
+7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
    - `VentureBeat AI · 2026-07-16`
-
-7. [随着发射选择枯竭，Starcloud 为轨道数据中心筹集了 2.5 亿美元](https://aihot.bt199.com/news/f30a4a32fb60/)
-   - 为了确保进入太空的安全，一场大战即将爆发
-   - `TechCrunch AI · 2026-08-21`
 
 8. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
    - 加密上下文注入只是打破 LLM 安全护栏的最新方法
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

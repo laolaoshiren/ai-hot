@@ -20,7 +20,7 @@ ai_summary = "嘿，HN！在过去的一年里，我们花了大部分时间来�
 summary = "Hey HN! We've spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more."
 summary_zh = "嘿，HN！在过去的一年里，我们花了大部分时间来打造一个人工智能导师，教授 4-9 岁的孩子阅读、数学、ESL 等知识。让人工智能导师有效地教导孩子是一项非常艰巨的技术挑战，这需要正确的底层架构。我们的导师指导"
 tags = []
-list_page = 191
+list_page = 192
 +++
 
 <!-- AUTO-GENERATED: news page -->
