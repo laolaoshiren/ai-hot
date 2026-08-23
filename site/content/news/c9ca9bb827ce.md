@@ -20,7 +20,7 @@ ai_summary = "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，�
 summary = "OpenAI, which is in the middle of a legal battle with Apple over hardware trade theft allegations, just released a light-up keyboard designed to be paired with its agentic coding app."
 summary_zh = "OpenAI 正因硬件贸易盗窃指控与苹果公司打官司，该公司刚刚发布了一款发光键盘，旨在与其代理编码应用程序搭配使用"
 tags = []
-list_page = 167
+list_page = 168
 +++
 
 <!-- AUTO-GENERATED: news page -->

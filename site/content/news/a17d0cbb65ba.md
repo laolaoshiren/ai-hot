@@ -20,7 +20,7 @@ ai_summary = "这位女士声称人工智能工具“正在将日常生活变成
 summary = "The woman claimed that AI tools are \"taking everyday life and turning it into child sexual abuse.\""
 summary_zh = "这位女士声称人工智能工具“正在将日常生活变成儿童性虐待”"
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,38 +1,38 @@
 {
-  "updated_at": "2026-08-22T18:22:15.298137",
-  "date": "2026-08-22",
+  "updated_at": "2026-08-23T00:53:53.378752",
+  "date": "2026-08-23",
   "spotlight": {
-    "id": "cursor",
-    "name": "Cursor",
-    "url": "https://cursor.sh",
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
     "type": "tool",
-    "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
-    "pricing": "免费 + Pro $20/月",
+    "description": "GitHub 官方 AI 编程助手，深度集成 VS Code/JetBrains",
+    "pricing": "$10/月 个人 / $19/月 企业",
     "category": "编程"
   },
   "alternates": [
     {
-      "id": "fish-speech",
-      "name": "Fish Speech",
-      "url": "https://github.com/fishaudio/fish-speech",
+      "id": "suno",
+      "name": "Suno",
+      "url": "https://suno.com",
       "type": "tool",
-      "description": "开源 TTS 语音合成模型，中文效果好",
-      "pricing": "开源免费",
-      "category": "语音"
+      "description": "AI 音乐生成工具，输入文字生成歌曲",
+      "pricing": "免费 + Pro $10/月",
+      "category": "音乐"
     },
     {
-      "name": "Tabby",
-      "url": "https://github.com/TabbyML/tabby",
+      "name": "OpenCLI",
+      "url": "https://github.com/jackwener/OpenCLI",
       "type": "agent",
-      "description": "自托管 AI 代码助手，支持代码补全、问答，数据不出服务器，企业友好",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "通用 CLI 中心和 AI 原生运行时，将任何网站和工具变成你的命令行",
+      "pricing": "免费开源",
+      "category": "自动化 Agent"
     },
     {
-      "name": "Browser Use Agent",
-      "url": "https://github.com/vikas434/browser-use-agent",
+      "name": "Agent Sdk Golang",
+      "url": "https://github.com/timwhitez/agent-sdk-golang",
       "type": "agent",
-      "description": "Browser Use Agent 示例合集，展示 AI 控制浏览器后可完成的多种自动化场景。",
+      "description": "Go 实现的极简 Agent SDK，提供工具调用循环，适合在 Go 项目里快速嵌入智能体能力。",
       "pricing": "开源免费",
       "category": "浏览器 Agent"
     }

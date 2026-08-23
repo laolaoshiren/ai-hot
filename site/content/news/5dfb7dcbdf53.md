@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "有分析指出，36氪获悉，腾讯混元公告，Hy3在WorkBuddy首发上线以来，调用激增。7月8日上午10时开始，算力资源消耗达到峰值，并出现排队情况，下午排队率一度超过50%。为了提供更好的Hy3使用体验和稳定服务，公司第一时间调度可用资源进行补充，目前已扩容完毕。"
 summary_zh = ""
 tags = []
-list_page = 199
+list_page = 200
 +++
 
 <!-- AUTO-GENERATED: news page -->

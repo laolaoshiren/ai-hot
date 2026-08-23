@@ -20,7 +20,7 @@ ai_summary = "随着每个实验室发布新模型，企业愿意来回波动，
 summary = "Businesses are willing to flop back and forth as each lab releases new models, volatility that should give both companies' investors pause about how \"sticky\" enterprise AI spending really is."
 summary_zh = "随着每个实验室发布新模型，企业愿意来回波动，这种波动应该会让两家公司的投资者对企业人工智能支出到底有多么“粘性”感到犹豫"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

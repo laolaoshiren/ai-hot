@@ -235,14 +235,14 @@
     "latest_models": [
       "Hy-MT2-1.8B",
       "Hy-MT2-30B-A3B",
-      "Hy3"
+      "Hy-MT2-7B"
     ],
-    "model_count": 5,
+    "model_count": 6,
     "last_updated": "2026-08-20",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 5 个该作者/厂商相关模型，最近更新为 Hy-MT2-1.8B",
+    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 Hy-MT2-1.8B",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=64"
   },

@@ -7842,6 +7842,30 @@
     "collected_at": "2026-08-16T00:49:29.655026"
   },
   {
+    "id": "github-1340720714",
+    "name": "SeydinaBANE/courPythonForIA",
+    "display_name": "courPythonForIA",
+    "url": "https://github.com/SeydinaBANE/courPythonForIA",
+    "description": " ▎ Cours de Python en français pour débuter dans l'IA — 18 notebooks Jupyter, des variables aux appels d'API, avec des exemples concrets d'agents et de données.",
+    "stars": 11,
+    "forks": 2,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "artificial-intelligence",
+      "artificial-intelligence-algorithms",
+      "learn-python-programming-full-course-free",
+      "pandas",
+      "python",
+      "python-course",
+      "python3"
+    ],
+    "created_at": "2026-08-20T13:16:50Z",
+    "updated_at": "2026-08-22T23:30:24Z",
+    "license": "",
+    "source": "github-search",
+    "collected_at": "2026-08-23T00:53:10.585370"
+  },
+  {
     "id": "github-1201371509",
     "name": "Zeyad-Azima/AgentsBear",
     "display_name": "AgentsBear",
