@@ -28,6 +28,9 @@ jobs:
       - name: Run Aggregator
         run: python scripts/aggregate.py
 
+      - name: Sanitize secrets from scraped data
+        run: python scripts/sanitize_secrets.py
+
       - name: Run Regression Tests After Aggregation
         run: python -m unittest discover -s tests -p 'test_*.py'
 

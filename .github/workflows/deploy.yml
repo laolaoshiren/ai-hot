@@ -55,6 +55,9 @@ jobs:
       - name: Sync data to Hugo
         run: cp -r data/* site/data/
 
+      - name: Verify no secrets before build
+        run: python scripts/sanitize_secrets.py --check
+
       - name: Build
         working-directory: site
         run: hugo --minify
