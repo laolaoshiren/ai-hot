@@ -20,7 +20,7 @@ ai_summary = "“他们不是你的朋友。他们不是有意识的生物。他
 summary = "\"These are not your friends. These are not conscious beings. These are not sentient interlocutors.”"
 summary_zh = "“他们不是你的朋友。他们不是有意识的生物。他们不是有知觉的对话者。”"
 tags = []
-list_page = 307
+list_page = 308
 +++
 
 <!-- AUTO-GENERATED: news page -->
