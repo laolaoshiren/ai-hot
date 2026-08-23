@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-23 20:27:09
+🕐 **最近更新**：2026-08-24 02:21:02
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [哈佛 699 美元的创业训练营提供其讲师的人工智能头像](https://aihot.bt199.com/news/480d7ab40672/)
-   - 在 HBS Foundry 计划中，人工智能化身在练习推介和董事会会议期间提供反馈
-   - `TechCrunch AI · 2026-08-22`
+1. [在受版权保护的书籍上训练人工智能模型是否合法？情况很复杂](https://aihot.bt199.com/news/c058daa1dd11/)
+   - 大多数发表文章的作者在不知情或未经同意的情况下，为开发同样的人工智能工具做出了贡献，这些工具可能会损害他们的生计。这看起…
+   - `TechCrunch AI · 2026-08-23`
 
-2. [由 DeepMind 校友创立的 Inherent 表示，其 AI“队友”在复制研究方面刚刚超越了 Anthropic 和 OpenAI](https://aihot.bt199.com/news/f264c057671c/)
-   - 由 DeepMind 校友创建的英国人工智能实验室 Inherent 发布了 Faraday，这是一款人工智能代理，其复…
+2. [哈佛 699 美元的创业训练营提供其讲师的人工智能头像](https://aihot.bt199.com/news/480d7ab40672/)
+   - 在 HBS Foundry 计划中，人工智能化身在练习推介和董事会会议期间提供反馈
    - `TechCrunch AI · 2026-08-22`
 
 3. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
