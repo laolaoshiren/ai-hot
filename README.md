@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-24 14:47:01
+🕐 **最近更新**：2026-08-24 20:34:06
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,21 +24,21 @@
    - Linkdaze 的智能数字日历因其不将其功能置于付费专区而脱颖而出，其中包括人工智能膳食计划工具
    - `TechCrunch AI · 2026-08-23`
 
-3. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
+3. [下载：孩子们超越人工智能和太空旅行社](https://aihot.bt199.com/news/7d7123f38c6e/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。孩子们比人工智能学得更快，但我们仍然…
+   - `MIT Tech Review · 2026-08-24`
+
+4. [孩子们的学习能力超过了人工智能——但我们仍然不知道为什么](https://aihot.bt199.com/news/b781f4c498ae/)
+   - 据我们所知，人们相互交谈至少已经有十万年了。一直以来，世界上只有一种东西可以完美流利地学习人类语言：人类的孩子。 现在有…
+   - `MIT Tech Review · 2026-08-24`
+
+5. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
    - LinkedIn 实际上在 7 月 30 日宣布了一个“看起来像 AI slop”按钮，该公司表示很多人已经使用过它。根…
    - `The Verge AI · 2026-08-21`
 
-4. [YouTube 主要创作者因接受人工智能资金而面临强烈反对](https://aihot.bt199.com/news/9cbe86a70078/)
+6. [YouTube 主要创作者因接受人工智能资金而面临强烈反对](https://aihot.bt199.com/news/9cbe86a70078/)
    - 在过去的几天里，包括 Matti Haapoja 和 Sam "Kold" Kolder 在内的许多著名电影制作内容创作…
    - `The Verge AI · 2026-08-21`
-
-5. [下载：来自太空镜子的威胁和人工智能药物的功劳](https://aihot.bt199.com/news/7fdd08983a5e/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。该公司部署太空镜的计划可能会危及许多…
-   - `MIT Tech Review · 2026-08-21`
-
-6. [母语](https://aihot.bt199.com/news/2be7e5f3f744/)
-   - “爸爸？”西奥在床上蜷缩在我身边。 “文字死后会去哪里？”我完美地安排了就寝时间：洗澡（洗澡）、牙齿（刷牙）、如厕（叮当…
-   - `MIT Tech Review · 2026-08-21`
 
 7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
