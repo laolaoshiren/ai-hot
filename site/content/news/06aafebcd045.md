@@ -20,7 +20,7 @@ ai_summary = "选择AI模型：一个提示，11个模型，不同的结果。�
 summary = "Article URL: https://www.netlify.com/blog/one-prompt-11-models-very-different-results/ Comments URL: https://news."
 summary_zh = "选择AI模型：一个提示，11个模型，不同的结果。来源：Hacker News AI"
 tags = []
-list_page = 36
+list_page = 37
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-24 20:34:06
+🕐 **最近更新**：2026-08-25 02:31:18
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [谁是新“隐形模型”Ox Alpha 的幕后黑手？](https://aihot.bt199.com/news/be28f1428bf3/)
-   - 一种名为 Ox Alpha 的神秘新人工智能模型已经在互联网的某些角落引发了疯狂的猜测
-   - `TechCrunch AI · 2026-08-23`
+1. [Instinct 强大的人工智能助手引发隐私和安全担忧](https://aihot.bt199.com/news/a34ef28c4aef/)
+   - 早期测试人员对 Instinct 的功能赞不绝口，但有些人表示，人工智能助手的广泛访问权限、广泛的术语和代表用户采取行动…
+   - `TechCrunch AI · 2026-08-24`
 
-2. [Linkdaze 的智能日历旨在管理家庭，而不仅仅是跟踪日程安排](https://aihot.bt199.com/news/fc3e349b3942/)
-   - Linkdaze 的智能数字日历因其不将其功能置于付费专区而脱颖而出，其中包括人工智能膳食计划工具
-   - `TechCrunch AI · 2026-08-23`
+2. [随着人工智能初创公司进军机器人领域，Valor、Point72 以 60 亿美元估值支持 General Intuition](https://aihot.bt199.com/news/0565e9e7b154/)
+   - General Intuition 是一家建立基础模型的初创公司，旨在训练通用人工智能代理如何穿越空间和时间。该公司正在…
+   - `TechCrunch AI · 2026-08-24`
 
-3. [下载：孩子们超越人工智能和太空旅行社](https://aihot.bt199.com/news/7d7123f38c6e/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。孩子们比人工智能学得更快，但我们仍然…
+3. [如何鼓励在课堂上更智能地使用人工智能](https://aihot.bt199.com/news/b11795f5f35f/)
+   - 本文来自麻省理工学院技术评论的限量版时事通讯《Making AI Work》，探讨如何在各行业应用法学硕士。要在您的收件…
    - `MIT Tech Review · 2026-08-24`
 
-4. [孩子们的学习能力超过了人工智能——但我们仍然不知道为什么](https://aihot.bt199.com/news/b781f4c498ae/)
-   - 据我们所知，人们相互交谈至少已经有十万年了。一直以来，世界上只有一种东西可以完美流利地学习人类语言：人类的孩子。 现在有…
+4. [下载：孩子们超越人工智能和太空旅行社](https://aihot.bt199.com/news/7d7123f38c6e/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。孩子们比人工智能学得更快，但我们仍然…
    - `MIT Tech Review · 2026-08-24`
 
 5. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

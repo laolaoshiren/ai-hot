@@ -9827,6 +9827,28 @@
     "collected_at": "2026-08-17T00:47:03.126227"
   },
   {
+    "id": "github-1343591542",
+    "name": "gitzyong812/agent_tutorial",
+    "display_name": "agent_tutorial",
+    "url": "https://github.com/gitzyong812/agent_tutorial",
+    "description": "动手智能体构建：从AI数字员工到一人公司。Hands-On Agent Building: From AI Digital Employees to One-Person Companies",
+    "stars": 8,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent",
+      "artificial-intelligence",
+      "onepersonteam",
+      "opc",
+      "tutorial-course"
+    ],
+    "created_at": "2026-08-23T09:28:16Z",
+    "updated_at": "2026-08-24T15:48:12Z",
+    "license": "Apache-2.0",
+    "source": "github-search",
+    "collected_at": "2026-08-24T18:29:31.312965"
+  },
+  {
     "id": "github-1201368235",
     "name": "fs0ci5ty/Artificial-Intelligence-Learning-Resources-Collection",
     "display_name": "Artificial-Intelligence-Learning-Resources-Collection",
