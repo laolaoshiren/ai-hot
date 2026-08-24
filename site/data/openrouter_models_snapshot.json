@@ -13477,9 +13477,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000519216",
-        "completion": "0.000001038432",
-        "input_cache_read": "0.000000043268"
+        "prompt": "0.000000526176",
+        "completion": "0.000001052352",
+        "input_cache_read": "0.000000043848"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -13635,9 +13635,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000005866",
-        "completion": "0.00000011732",
-        "input_cache_read": "0.000000011732"
+        "prompt": "0.0000000574",
+        "completion": "0.0000001148",
+        "input_cache_read": "0.00000001148"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -28601,7 +28601,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-12-31",
-      "expiration_date": null,
+      "expiration_date": "2026-12-31",
       "links": {
         "details": "/api/v1/models/z-ai/glm-4.5v/endpoints"
       },
@@ -38892,7 +38892,7 @@
       },
       "top_provider": {
         "context_length": 6144,
-        "max_completion_tokens": 6144,
+        "max_completion_tokens": 4096,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -39163,5 +39163,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-24T00:49:19.193979+00:00"
+  "updated_at": "2026-08-24T06:46:23.472835+00:00"
 }
