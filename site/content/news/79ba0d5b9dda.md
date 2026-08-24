@@ -20,7 +20,7 @@ ai_summary = "Anthropic 的新水印系统是一种嘲讽吗？一些人在社�
 summary = "Is Anthropic's new watermarking system a travesty? Some have taken to social media to complain that it is."
 summary_zh = "Anthropic 的新水印系统是一种嘲讽吗？一些人在社交媒体上抱怨事实确实如此"
 tags = []
-list_page = 36
+list_page = 37
 +++
 
 <!-- AUTO-GENERATED: news page -->
