@@ -89,9 +89,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
+        "prompt": "0.00000044",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000014",
         "overrides": [
           {
             "utc_days": [
@@ -2208,8 +2208,8 @@
       },
       "pricing": {
         "prompt": "0.000000035",
-        "completion": "0.00000012",
-        "input_cache_read": "0.00000001"
+        "completion": "0.000000075",
+        "input_cache_read": "0.000000008"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -9748,6 +9748,180 @@
       }
     },
     {
+      "id": "minimax/minimax-m3:free",
+      "canonical_slug": "minimax/minimax-m3-20260531",
+      "hugging_face_id": "MiniMaxAI/Minimax-M3",
+      "name": "MiniMax: MiniMax M3 (free)",
+      "created": 1780245374,
+      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/minimax/minimax-m3-20260531/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "agents",
+            "category": "agenticgamedev",
+            "elo": 1174,
+            "win_rate": 47,
+            "rank": 17
+          },
+          {
+            "arena": "agents",
+            "category": "androidnative",
+            "elo": 1176,
+            "win_rate": 46.6,
+            "rank": 23
+          },
+          {
+            "arena": "agents",
+            "category": "fullstack",
+            "elo": 1225,
+            "win_rate": 50.1,
+            "rank": 16
+          },
+          {
+            "arena": "agents",
+            "category": "htmlslides",
+            "elo": 1184,
+            "win_rate": 45.3,
+            "rank": 12
+          },
+          {
+            "arena": "agents",
+            "category": "mobileapps",
+            "elo": 1213,
+            "win_rate": 48.4,
+            "rank": 14
+          },
+          {
+            "arena": "agents",
+            "category": "python-pptxslides",
+            "elo": 1241,
+            "win_rate": 49.5,
+            "rank": 10
+          },
+          {
+            "arena": "agents",
+            "category": "webapps",
+            "elo": 1230,
+            "win_rate": 48.7,
+            "rank": 18
+          },
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1257,
+            "win_rate": 52.6,
+            "rank": 31
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1187,
+            "win_rate": 47.5,
+            "rank": 25
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1275,
+            "win_rate": 52.9,
+            "rank": 26
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1255,
+            "win_rate": 51.9,
+            "rank": 29
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1247,
+            "win_rate": 47.9,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1212,
+            "win_rate": 49.2,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1273,
+            "win_rate": 52.7,
+            "rank": 28
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1280,
+            "win_rate": 53.4,
+            "rank": 25
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 45.4,
+          "coding_index": 58.6,
+          "agentic_index": 36.1
+        }
+      },
+      "reasoning": {
+        "mandatory": false
+      }
+    },
+    {
       "id": "stepfun/step-3.7-flash",
       "canonical_slug": "stepfun/step-3.7-flash-20260528",
       "hugging_face_id": "stepfun-ai/Step-3.7-Flash",
@@ -12223,13 +12397,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000026",
-        "completion": "0.000013",
+        "prompt": "0.0000028",
+        "completion": "0.000014",
         "input_cache_read": "0.00000029"
       },
       "top_provider": {
-        "context_length": 974842,
-        "max_completion_tokens": 974842,
+        "context_length": 1048576,
+        "max_completion_tokens": 1048576,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -16541,6 +16715,129 @@
         "tools",
         "top_k",
         "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": null,
+        "frequency_penalty": null,
+        "presence_penalty": null,
+        "repetition_penalty": null
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/minimax/minimax-m2.7-20260318/endpoints"
+      },
+      "benchmarks": {
+        "design_arena": [
+          {
+            "arena": "models",
+            "category": "3d",
+            "elo": 1240,
+            "win_rate": 50.8,
+            "rank": 37
+          },
+          {
+            "arena": "models",
+            "category": "asciiart",
+            "elo": 1166,
+            "win_rate": 47.8,
+            "rank": 37
+          },
+          {
+            "arena": "models",
+            "category": "codecategories",
+            "elo": 1259,
+            "win_rate": 52.3,
+            "rank": 34
+          },
+          {
+            "arena": "models",
+            "category": "dataviz",
+            "elo": 1251,
+            "win_rate": 52.4,
+            "rank": 30
+          },
+          {
+            "arena": "models",
+            "category": "gamedev",
+            "elo": 1244,
+            "win_rate": 51.7,
+            "rank": 35
+          },
+          {
+            "arena": "models",
+            "category": "svg",
+            "elo": 1179,
+            "win_rate": 49.5,
+            "rank": 41
+          },
+          {
+            "arena": "models",
+            "category": "uicomponent",
+            "elo": 1237,
+            "win_rate": 49.4,
+            "rank": 40
+          },
+          {
+            "arena": "models",
+            "category": "website",
+            "elo": 1266,
+            "win_rate": 53,
+            "rank": 32
+          }
+        ],
+        "artificial_analysis": {
+          "intelligence_index": 38.9,
+          "coding_index": 52.6,
+          "agentic_index": 25.9
+        }
+      },
+      "reasoning": {
+        "mandatory": true
+      }
+    },
+    {
+      "id": "minimax/minimax-m2.7:free",
+      "canonical_slug": "minimax/minimax-m2.7-20260318",
+      "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
+      "name": "MiniMax: MiniMax M2.7 (free)",
+      "created": 1773836697,
+      "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
+      "context_length": 196608,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 196608,
+        "max_completion_tokens": null,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "response_format",
+        "seed",
+        "temperature",
+        "tool_choice",
+        "tools",
         "top_p"
       ],
       "default_parameters": {
@@ -28398,7 +28695,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": "2024-12-31",
-      "expiration_date": "2026-12-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/z-ai/glm-4.5v/endpoints"
       },
@@ -38957,5 +39254,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-25T00:48:33.256061+00:00"
+  "updated_at": "2026-08-25T06:34:16.259329+00:00"
 }

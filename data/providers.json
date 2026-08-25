@@ -317,15 +317,15 @@
     "latest_models": [
       "MiniMax M3",
       "MiniMax M3 (batch)",
-      "MiniMax M2.7"
+      "MiniMax M3 (free)"
     ],
-    "model_count": 9,
+    "model_count": 11,
     "last_updated": "2026-05-31",
     "modalities": [
       "视频",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 9 个该作者/厂商相关模型，最近更新为 MiniMax M3",
+    "live_summary": "OpenRouter 已收录 11 个该作者/厂商相关模型，最近更新为 MiniMax M3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=minimax.io&sz=64"
   },

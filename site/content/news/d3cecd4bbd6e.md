@@ -20,7 +20,7 @@ ai_summary = "蒂姆·库克最近表示，涨价是“不可避免的”，并�
 summary = "Tim Cook recently said price increases were \"unavoidable\" and described the company's pricing as \"unsustainable."
 summary_zh = "蒂姆·库克最近表示，涨价是“不可避免的”，并称该公司的定价“不可持续”。 16 英寸 MacBook Pro 的价格上涨了 300 美元。 11 英寸 iPad Air 从 599 美元涨到 749 美元。就连 HomePod Mini 也…"
 tags = []
-list_page = 261
+list_page = 263
 +++
 
 <!-- AUTO-GENERATED: news page -->
