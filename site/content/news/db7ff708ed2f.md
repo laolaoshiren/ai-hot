@@ -20,7 +20,7 @@ ai_summary = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完
 summary = "Salesforce on Tuesday launched an entirely rebuilt version of Slackbot, the company&#x27;s workplace assistant, transforming it from a simple notifica..."
 summary_zh = "Salesforce 周二推出了公司工作场所助手 Slackbot 的完全重建版本，将其从简单的通知转变为..."
 tags = []
-list_page = 343
+list_page = 344
 +++
 
 <!-- AUTO-GENERATED: news page -->
