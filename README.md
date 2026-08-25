@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-25 02:31:18
+🕐 **最近更新**：2026-08-25 08:49:10
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Instinct 强大的人工智能助手引发隐私和安全担忧](https://aihot.bt199.com/news/a34ef28c4aef/)
-   - 早期测试人员对 Instinct 的功能赞不绝口，但有些人表示，人工智能助手的广泛访问权限、广泛的术语和代表用户采取行动…
-   - `TechCrunch AI · 2026-08-24`
+1. [Situationawareness，差点崩溃的明星人工智能对冲基金，现正接受 SEC 调查](https://aihot.bt199.com/news/32cda19d8db8/)
+   - 人工智能对冲基金从“华尔街的谈论”变成“联邦传票的主题”的速度比你说“使你的投资组合多样化”还要快
+   - `TechCrunch AI · 2026-08-25`
 
-2. [随着人工智能初创公司进军机器人领域，Valor、Point72 以 60 亿美元估值支持 General Intuition](https://aihot.bt199.com/news/0565e9e7b154/)
-   - General Intuition 是一家建立基础模型的初创公司，旨在训练通用人工智能代理如何穿越空间和时间。该公司正在…
+2. [Instinct 强大的人工智能助手引发隐私和安全担忧](https://aihot.bt199.com/news/a34ef28c4aef/)
+   - 早期测试人员对 Instinct 的功能赞不绝口，但有些人表示，人工智能助手的广泛访问权限、广泛的术语和代表用户采取行动…
    - `TechCrunch AI · 2026-08-24`
 
 3. [如何鼓励在课堂上更智能地使用人工智能](https://aihot.bt199.com/news/b11795f5f35f/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
