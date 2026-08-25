@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-25 20:34:37
+🕐 **最近更新**：2026-08-26 02:30:59
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [Situationawareness，差点崩溃的明星人工智能对冲基金，现正接受 SEC 调查](https://aihot.bt199.com/news/32cda19d8db8/)
-   - 人工智能对冲基金从“华尔街的谈论”变成“联邦传票的主题”的速度比你说“使你的投资组合多样化”还要快
+1. [克劳德·科沃克终于记住了你在聊天中告诉应用程序的内容](https://aihot.bt199.com/news/c315b9a7b90f/)
+   - Anthropic 为 Claude 提供了跨聊天和 Cowork 的共享记忆，因此用户不再需要反复向 AI 介绍项目、…
    - `TechCrunch AI · 2026-08-25`
 
-2. [下载：更智能的人工智能走进学校，上海的机器人“嘉年华”](https://aihot.bt199.com/news/ff6e4887ee22/)
+2. [OpenAI 表示，其 Jalapeo 芯片可以比竞争对手提供更快的人工智能响应](https://aihot.bt199.com/news/bbdb3b4da806/)
+   - 根据周二发布的一篇博客文章，OpenAI 表示，其新的人工智能芯片 Jalapeo 比其他人工智能系统更高效地完成任务…
+   - `The Verge AI · 2026-08-25`
+
+3. [下载：更智能的人工智能走进学校，上海的机器人“嘉年华”](https://aihot.bt199.com/news/ff6e4887ee22/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。如何鼓励在课堂上更智能地使用人工智能…
    - `MIT Tech Review · 2026-08-25`
 
-3. [OpenAI 因 Hugging Face 黑客攻击被阿拉巴马州 AG 传唤](https://aihot.bt199.com/news/3a86bbd7f634/)
+4. [OpenAI 因 Hugging Face 黑客攻击被阿拉巴马州 AG 传唤](https://aihot.bt199.com/news/3a86bbd7f634/)
    - 阿拉巴马州总检察长周一向 OpenAI 发出传票，调查该公司的一名人工智能代理如何逃离所谓安全的测试环境，并在上个月自主…
    - `The Verge AI · 2026-08-25`
 
-4. [我在上海的机器人“嘉年华”度过了一天。这是我所看到的。](https://aihot.bt199.com/news/dac3a9d1e696/)
+5. [我在上海的机器人“嘉年华”度过了一天。这是我所看到的。](https://aihot.bt199.com/news/dac3a9d1e696/)
    - 人形机器人在中国风靡一时。这些受欢迎的机器是将人工智能带入日常生活的国家战略的一部分。将技术嵌入到物理系统中——一种称为…
    - `MIT Tech Review · 2026-08-25`
-
-5. [超过 100 万人点击了 LinkedIn 的 AI slop 按钮](https://aihot.bt199.com/news/1cd4198d78c9/)
-   - LinkedIn 实际上在 7 月 30 日宣布了一个“看起来像 AI slop”按钮，该公司表示很多人已经使用过它。根…
-   - `The Verge AI · 2026-08-21`
 
 6. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
    - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
