@@ -20,7 +20,7 @@ ai_summary = "美国部分地区的天然气价格可能会上涨两倍，这可
 summary = "Natural gas prices could triple in some parts of the U.S., which could saddle hyperscalers with massive bills to power their AI data centers."
 summary_zh = "美国部分地区的天然气价格可能会上涨两倍，这可能会给超大规模企业带来巨额费用来为其人工智能数据中心供电"
 tags = []
-list_page = 39
+list_page = 41
 +++
 
 <!-- AUTO-GENERATED: news page -->

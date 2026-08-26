@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-26 20:37:49
+🕐 **最近更新**：2026-08-27 03:42:49
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [听力科技初创公司 Legato 以 1200 万美元的价格脱颖而出，并展示了其人工智能助听眼镜](https://aihot.bt199.com/news/c7519cb8e616/)
-   - 这款眼镜名为 Legato Frames，将公司的专利助听技术集成到眼镜镜腿中
+1. [我们如何解释 OpenAI 的高管离职？](https://aihot.bt199.com/news/a65015085aa1/)
+   - 格雷格·布罗克曼（Greg Brockman）一直都是正确的高管吗？
    - `TechCrunch AI · 2026-08-26`
 
-2. [Runable 筹集了 2100 万美元，押注人工智能代理可以从建立业务到发展业务](https://aihot.bt199.com/news/d56bb99852c0/)
-   - Runable 表示，过去 90 天内其超过 1 万亿的代币使用量中有 60%–70% 来自付费客户
-   - `TechCrunch AI · 2026-08-26`
+2. [谷歌的新人工智能转录可以编辑你的“嗯”和“啊”](https://aihot.bt199.com/news/442be4968139/)
+   - Google 更新了 Gemini Audio，提供了新的转录功能，可以自动检测专业术语和超过 85 种语言。 Gemi…
+   - `The Verge AI · 2026-08-26`
 
 3. [下载：儿童期到来，比尔·盖茨透露了他对人工智能的恐惧](https://aihot.bt199.com/news/7a6b849c8324/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：儿童问题 如果说限制儿童使用技…
@@ -32,23 +32,19 @@
    - 比尔·盖茨最近对人工智能进行了很多思考，这个过程引发了人们的彻底觉醒。这位微软联合创始人曾经是一位坚定的人工智能乐观主义…
    - `The Verge AI · 2026-08-26`
 
-5. [由人工智能引发](https://aihot.bt199.com/news/606181c5d71a/)
-   - 当我最大的孩子出生后，我立即以她的名义设立了 Gmail 和 Twitter 帐户。我在网上广泛宣布了她的出生，并开始在…
-   - `MIT Tech Review · 2026-08-26`
+5. [编排是 AI 代理时代 CX 的新挑战](https://aihot.bt199.com/news/c6f5e02f3dc5/)
+   - 塔塔通信公司提出，企业正在跨消息传递、语音和数字渠道部署人工智能代理、语音人工智能和自动化，其速度比支持它的架构更快…
+   - `VentureBeat AI · 2026-08-26`
 
-6. [OpenAI 表示，其 Jalapeo 芯片可以比竞争对手提供更快的人工智能响应](https://aihot.bt199.com/news/bbdb3b4da806/)
-   - 根据周二发布的一篇博客文章，OpenAI 表示，其新的人工智能芯片 Jalapeo 比其他人工智能系统更高效地完成任务…
-   - `The Verge AI · 2026-08-25`
+6. [谷歌的 Gemini 存在品牌问题，其他人工智能也存在品牌问题](https://aihot.bt199.com/news/838ca76e929f/)
+   - 消费者人工智能应用程序需要停止让用户学习他们的产品架构
+   - `TechCrunch AI · 2026-08-26`
 
-7. [代理安全漏洞：54%的企业已经发生过人工智能代理事件，大多数企业仍然让代理共享凭证](https://aihot.bt199.com/news/e1584d598002/)
-   - 在 107 家企业中，人工智能代理能够真正访问系统和数据，但遏制它们的控制措施却滞后。超过一半的人已经确认发生过特工安全…
-   - `VentureBeat AI · 2026-07-16`
-
-8. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
+7. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
    - 加密上下文注入只是打破 LLM 安全护栏的最新方法
    - `Ars Technica AI · 2026-08-20`
 
-9. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
+8. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
    - 埃隆·马斯克宣布独家安排装备其数据中心后提交了文件
    - `Ars Technica AI · 2026-08-17`
 
@@ -135,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 

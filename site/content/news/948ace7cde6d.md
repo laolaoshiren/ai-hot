@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "7月17-7月20"
 summary_zh = ""
 tags = []
-list_page = 286
+list_page = 288
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -1,6 +1,81 @@
 {
   "data": [
     {
+      "id": "z-ai/glm-5.3-flash",
+      "canonical_slug": "z-ai/glm-5.3-flash-20260826",
+      "hugging_face_id": "zai-org/GLM-5.3-Flash",
+      "name": "Z.ai: GLM 5.3 Flash",
+      "created": 1787752741,
+      "description": "GLM-5.3-Flash is a native multimodal model from Z.ai. It is suited for efficient coding and long-horizon agent tasks. Its hybrid sparse and linear attention architecture maintains accurate long-context behavior while...",
+      "context_length": 1310720,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.00000025",
+        "input_cache_read": "0.000000015"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logit_bias",
+        "logprobs",
+        "max_tokens",
+        "min_p",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": "2098-12-31",
+      "links": {
+        "details": "/api/v1/models/z-ai/glm-5.3-flash-20260826/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "max",
+          "high",
+          "low"
+        ],
+        "default_effort": "max"
+      }
+    },
+    {
       "id": "meta/muse-spark-1.2-contributor",
       "canonical_slug": "meta/muse-spark-1.2-contributor-20260805",
       "hugging_face_id": null,
@@ -212,70 +287,6 @@
           "low"
         ],
         "default_effort": "high"
-      }
-    },
-    {
-      "id": "stealth/ox-alpha",
-      "canonical_slug": "stealth/ox-alpha",
-      "hugging_face_id": null,
-      "name": "Ox Alpha",
-      "created": 1787256295,
-      "description": "Ox Alpha is a reasoning model designed for coding, sustained agentic work, and production workloads. It is suited for long-horizon software engineering, complex reasoning, and workflows that combine text with...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": "2026-08-26",
-      "links": {
-        "details": "/api/v1/models/stealth/ox-alpha/endpoints"
-      },
-      "reasoning": {
-        "mandatory": true,
-        "default_enabled": true,
-        "supported_efforts": [
-          "max",
-          "high",
-          "low"
-        ],
-        "default_effort": "max"
       }
     },
     {
@@ -6223,9 +6234,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -7258,200 +7269,6 @@
         "tools",
         "top_k",
         "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/z-ai/glm-5.2-20260616/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "agents",
-            "category": "agenticgamedev",
-            "elo": 1195,
-            "win_rate": 47.8,
-            "rank": 10
-          },
-          {
-            "arena": "agents",
-            "category": "androidnative",
-            "elo": 1200,
-            "win_rate": 54.9,
-            "rank": 17
-          },
-          {
-            "arena": "agents",
-            "category": "fullstack",
-            "elo": 1262,
-            "win_rate": 61.4,
-            "rank": 10
-          },
-          {
-            "arena": "agents",
-            "category": "godotgamedev",
-            "elo": 1142,
-            "win_rate": 40.1,
-            "rank": 17
-          },
-          {
-            "arena": "agents",
-            "category": "htmlslides",
-            "elo": 1191,
-            "win_rate": 49.8,
-            "rank": 10
-          },
-          {
-            "arena": "agents",
-            "category": "mobileapps",
-            "elo": 1212,
-            "win_rate": 52,
-            "rank": 16
-          },
-          {
-            "arena": "agents",
-            "category": "python-pptxslides",
-            "elo": 1218,
-            "win_rate": 49.1,
-            "rank": 13
-          },
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1253,
-            "win_rate": 56.5,
-            "rank": 11
-          },
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1347,
-            "win_rate": 57,
-            "rank": 7
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1246,
-            "win_rate": 52.1,
-            "rank": 14
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1331,
-            "win_rate": 56.5,
-            "rank": 5
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1323,
-            "win_rate": 54.4,
-            "rank": 7
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1322,
-            "win_rate": 54.1,
-            "rank": 11
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1256,
-            "win_rate": 54.4,
-            "rank": 15
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1326,
-            "win_rate": 57.5,
-            "rank": 9
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1325,
-            "win_rate": 57.3,
-            "rank": 4
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 52.6,
-          "coding_index": 68.8,
-          "agentic_index": 45.7
-        }
-      },
-      "reasoning": {
-        "mandatory": false,
-        "default_enabled": true,
-        "supported_efforts": [
-          "xhigh",
-          "high"
-        ],
-        "default_effort": "high"
-      }
-    },
-    {
-      "id": "z-ai/glm-5.2:batch",
-      "canonical_slug": "z-ai/glm-5.2-20260616",
-      "hugging_face_id": "zai-org/GLM-5.2",
-      "name": "Z.ai: GLM 5.2 (batch)",
-      "created": 1781631930,
-      "description": "GLM 5.2 is a large-scale reasoning model from Z.ai. It supports text input and output with a 1M-token context window, and is suited for long-horizon agent workflows, project-level software engineering,...",
-      "context_length": 1048575,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
-      },
-      "top_provider": {
-        "context_length": 1048575,
-        "max_completion_tokens": 943717,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logit_bias",
-        "max_tokens",
-        "min_p",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "repetition_penalty",
-        "response_format",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
         "top_p"
       ],
       "default_parameters": {
@@ -13057,13 +12874,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
-        "input_cache_read": "0.00000012"
+        "prompt": "0.00000032",
+        "completion": "0.0000032"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "max_completion_tokens": 81920,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13912,9 +13728,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000826",
-        "completion": "0.0000001652",
-        "input_cache_read": "0.00000001652"
+        "prompt": "0.00000007952",
+        "completion": "0.00000015904",
+        "input_cache_read": "0.000000015904"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -21342,9 +21158,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.000003",
-        "input_cache_read": "0.0000001"
+        "prompt": "0.00000045",
+        "completion": "0.00000225",
+        "input_cache_read": "0.00000007"
       },
       "top_provider": {
         "context_length": 262144,
@@ -21383,7 +21199,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": "2026-08-31",
+      "expiration_date": null,
       "links": {
         "details": "/api/v1/models/moonshotai/kimi-k2.5-0127/endpoints"
       },
@@ -39190,5 +39006,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-26T12:36:40.493473+00:00"
+  "updated_at": "2026-08-26T19:41:54.073629+00:00"
 }

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "不和老黄商量"
 summary_zh = ""
 tags = []
-list_page = 3
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->
