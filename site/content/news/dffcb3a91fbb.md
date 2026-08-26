@@ -20,7 +20,7 @@ ai_summary = "法学硕士可以通过利用推理引擎来控制其主机。来
 summary = "Article URL: https://boydkane.com/essays/llms-could-control-their-host-machines-by-exploiting-inference-engines Comments URL: https://news."
 summary_zh = "法学硕士可以通过利用推理引擎来控制其主机。来源：Hacker News AI"
 tags = []
-list_page = 4
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -7434,6 +7434,36 @@
     "collected_at": "2026-08-17T18:27:51.484231"
   },
   {
+    "id": "github-1346919628",
+    "name": "zidniryi/open-source-ai-models",
+    "display_name": "open-source-ai-models",
+    "url": "https://github.com/zidniryi/open-source-ai-models",
+    "description": "A curated directory of open-source & open-weight AI models — compare params, VRAM, context length, and license before picking a model for coding, OCR, vision, image generation, speech, reasoning, and RAG.",
+    "stars": 12,
+    "forks": 3,
+    "language": null,
+    "topics": [
+      "ai-models",
+      "artificial-intelligence",
+      "artificial-neural-networks",
+      "awesome-list",
+      "background-removal",
+      "huggingface",
+      "llm",
+      "llms",
+      "local-llm",
+      "machine-learning",
+      "model-directory",
+      "ocr",
+      "open-source-ai"
+    ],
+    "created_at": "2026-08-26T05:00:24Z",
+    "updated_at": "2026-08-26T12:17:33Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-08-26T12:35:51.714126"
+  },
+  {
     "id": "github-1228339438",
     "name": "ShamelesAbyss/Symbiote",
     "display_name": "Symbiote",
