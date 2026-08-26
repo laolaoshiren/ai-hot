@@ -6747,6 +6747,32 @@
     "collected_at": "2026-06-25T14:09:16.054179"
   },
   {
+    "id": "github-1343492312",
+    "name": "bashebr/ai-native-sdlc",
+    "display_name": "ai-native-sdlc",
+    "url": "https://github.com/bashebr/ai-native-sdlc",
+    "description": "Reusable Codex + Claude Code skill and plugin implementing Anthropic's AI-Native SDLC: Plan → Design → Build → Test → Deploy → Maintain, with human approval gates at every handoff.",
+    "stars": 15,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agentic-ai",
+      "ai-native-development",
+      "ai-native-sdlc",
+      "artificial-intelligence",
+      "claude-code",
+      "codex",
+      "coding-agent",
+      "sdlc",
+      "workflow-automation"
+    ],
+    "created_at": "2026-08-23T07:24:40Z",
+    "updated_at": "2026-08-25T21:39:14Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-08-26T00:49:10.568498"
+  },
+  {
     "id": "github-1205331153",
     "name": "JohnCrickett/MScArtificialIntelligence",
     "display_name": "MScArtificialIntelligence",

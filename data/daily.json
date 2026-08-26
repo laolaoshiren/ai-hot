@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-08-25T18:30:20.878028",
-  "date": "2026-08-25",
+  "updated_at": "2026-08-26T00:50:04.529989",
+  "date": "2026-08-26",
   "spotlight": {
-    "id": "codex-cli",
-    "name": "Codex CLI",
-    "url": "https://github.com/openai/codex",
+    "id": "codeium",
+    "name": "Codeium",
+    "url": "https://codeium.com",
     "type": "tool",
-    "description": "OpenAI 官方终端编程助手，轻量快速",
-    "pricing": "按 API 使用量计费",
+    "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
+    "pricing": "个人免费 + Teams $12/月",
     "category": "编程"
   },
   "alternates": [
     {
-      "name": "OpenClaw",
-      "url": "https://github.com/openclaw/openclaw",
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
       "type": "agent",
-      "description": "🦞 你的个人AI助手，跨平台、全功能。Any OS, Any Platform",
-      "pricing": "开源免费",
+      "description": "Nous Research 开源 AI Agent 框架，支持 Telegram、Discord 和命令行，内置长期记忆、技能系统和自动化工作流。",
+      "pricing": "开源 + API费用",
       "category": "助手 Agent"
     },
     {
-      "name": "OpenMontage",
-      "url": "https://github.com/calesthio/OpenMontage",
+      "name": "WeCom CLI",
+      "url": "https://github.com/WecomTeam/wecom-cli",
       "type": "agent",
-      "description": "全球首个开源 Agent 视频制作系统，12 条流水线 52 个工具覆盖全流程",
+      "description": "企业微信命令行工具，让人类和 AI Agent 都能在终端中操作企业微信",
       "pricing": "免费开源",
-      "category": "创作 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "name": "Research Agent Llm",
-      "url": "https://github.com/zhuangzhen17cs/research-agent-llm",
+      "name": "Opendeepresearcher Agentic Llm Research Framework",
+      "url": "https://github.com/stkwer/OpenDeepResearcher-Agentic-LLM-Research-Framework",
       "type": "agent",
-      "description": "研究型 LLM Agent 项目，用于自动检索资料、组织信息并辅助生成研究结论。",
+      "description": "开源深度研究 Agent 框架，面向资料检索、推理整理和长文研究报告生成。",
       "pricing": "开源免费",
       "category": "研究 Agent"
     }
