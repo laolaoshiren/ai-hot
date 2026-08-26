@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-26 08:50:40
+🕐 **最近更新**：2026-08-26 14:36:50
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [消息人士称，机器人初创公司 Generalist 估值达到 30 亿美元](https://aihot.bt199.com/news/032f5fcc6f77/)
-   - 就在这家物理人工智能初创公司估值达到 20 亿美元的几个月后，就获得了 2 亿美元的延期
+1. [印度的 Ringg 获得 Peak XV 的支持，将语音 AI 推向电话之外](https://aihot.bt199.com/news/3171b8e205ac/)
+   - Ringg 已从 Peak XV 筹集了 1000 万美元，作为其 A 系列扩展的一部分
    - `TechCrunch AI · 2026-08-26`
 
-2. [OpenAI 失去了一位顶级数据中心高管，高调离职潮仍在继续](https://aihot.bt199.com/news/8c02d9ad51cf/)
-   - 在马龙离开之前，OpenAI 已经对其基础设施组织进行了改组，将其汇报路线从总裁 Greg Brockman 手中移开…
+2. [消息人士称，机器人初创公司 Generalist 估值达到 30 亿美元](https://aihot.bt199.com/news/032f5fcc6f77/)
+   - 就在这家物理人工智能初创公司估值达到 20 亿美元的几个月后，就获得了 2 亿美元的延期
    - `TechCrunch AI · 2026-08-26`
 
 3. [解决可持续粘合剂的症结点](https://aihot.bt199.com/news/6dd838eaeef2/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

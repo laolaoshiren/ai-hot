@@ -89,9 +89,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000022",
-        "completion": "0.00000066",
-        "input_cache_read": "0.000000007",
+        "prompt": "0.00000044",
+        "completion": "0.00000132",
+        "input_cache_read": "0.000000014",
         "overrides": [
           {
             "utc_days": [
@@ -2210,13 +2210,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000008",
-        "input_cache_read": "0.000000008"
+        "prompt": "0.00000003",
+        "completion": "0.000000075",
+        "input_cache_read": "0.000000007"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2282,9 +2282,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000004",
-        "completion": "0.00000008",
-        "input_cache_read": "0.000000008"
+        "prompt": "0.00000006",
+        "completion": "0.00000012",
+        "input_cache_read": "0.000000012"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -6211,7 +6211,23 @@
       "pricing": {
         "prompt": "0.000000132",
         "completion": "0.000000528",
-        "input_cache_read": "0.000000033"
+        "input_cache_read": "0.000000033",
+        "overrides": [
+          {
+            "utc_start": 0,
+            "utc_end": 1600,
+            "prompt": "0.000000132",
+            "completion": "0.000000528",
+            "input_cache_read": "0.000000033"
+          },
+          {
+            "utc_start": 1600,
+            "utc_end": 0,
+            "prompt": "0.0000000825",
+            "completion": "0.00000033",
+            "input_cache_read": "0.000000020625"
+          }
+        ]
       },
       "top_provider": {
         "context_length": 262144,
@@ -13027,12 +13043,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000032",
-        "completion": "0.0000032"
+        "prompt": "0.0000006",
+        "completion": "0.0000036",
+        "input_cache_read": "0.00000012"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 81920,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -13723,9 +13740,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000790308",
-        "completion": "0.000001580616",
-        "input_cache_read": "0.000000065859"
+        "prompt": "0.00000087",
+        "completion": "0.00000174",
+        "input_cache_read": "0.0000000725"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -15587,13 +15604,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000001",
+        "prompt": "0.00000009",
         "completion": "0.00000034",
-        "input_cache_read": "0.0000001"
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -20320,13 +20337,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000005",
-        "completion": "0.0000036",
-        "input_cache_read": "0.0000003"
+        "prompt": "0.00000039",
+        "completion": "0.00000234"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -39123,7 +39139,7 @@
       "top_provider": {
         "context_length": 8191,
         "max_completion_tokens": 4096,
-        "is_moderated": false
+        "is_moderated": true
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -39160,5 +39176,5 @@
       }
     }
   ],
-  "updated_at": "2026-08-26T00:50:04.423242+00:00"
+  "updated_at": "2026-08-26T06:35:52.630661+00:00"
 }
