@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-27 14:03:56
+🕐 **最近更新**：2026-08-28 01:27:21
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,37 +16,33 @@
 
 ## 🔥 今日热点
 
-1. [病毒式 AI 初创公司 Instinct 融资 3.5 亿美元，估值 25 亿美元](https://aihot.bt199.com/news/dff9dc0737a4/)
-   - 这家初创公司成立仅一年，但已经引起了大量的炒作（和资金），同时也引发了隐私问题
+1. [谷歌的人工智能模式现在可以跟踪航班价格、帮助预订酒店等](https://aihot.bt199.com/news/a88aee5f6674/)
+   - 这些更新表明，谷歌正在将 AI 模式定位为某种人工智能旅行社，因为它不仅仅是帮助用户查找信息，而是实际处理旅行计划和预订…
    - `TechCrunch AI · 2026-08-27`
 
-2. [由于“需求激增”，亚马逊刚刚将 Nvidia 芯片订单增加了两倍](https://aihot.bt199.com/news/18acc42de8d1/)
-   - 亚马逊将在未来两年内为其数据中心再增加 200 万个 Nvidia GPU 芯片。但这种扩展的合作伙伴关系不仅仅限于购买…
-   - `TechCrunch AI · 2026-08-26`
+2. [黄仁勋表示 Nvidia 再次实现了 AGI——但这并不重要](https://aihot.bt199.com/news/a2ddac958ba4/)
+   - 在英伟达周三的财报电话会议上，首席执行官黄仁勋漫不经心地宣布该公司已经“实现了通用人工智能”，这是科技行业一些最大的参与…
+   - `The Verge AI · 2026-08-27`
 
-3. [英伟达即将成为一家季度营收千亿美元的公司](https://aihot.bt199.com/news/b7930e814c4d/)
-   - Nvidia 预计在短短几个月内将实现 1080 亿美元的收入。它并不是第一家季度收入超过 1000 亿美元的公司——亚…
-   - `The Verge AI · 2026-08-26`
+3. [下载：OpenAI 的 Hugging Face 黑客技术，以及一款新的电动汽车挑战美国](https://aihot.bt199.com/news/96b419a5cc44/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 代理为何攻击 Hug…
+   - `MIT Tech Review · 2026-08-27`
 
-4. [OpenAI的流氓AI模型事件比我们想象的更严重](https://aihot.bt199.com/news/3a0e75f05696/)
-   - 今年 7 月，一个未发布的 OpenAI 模型突破了受限环境，弄清楚了如何访问互联网，允许人工智能代理使用秘密“留言板”…
-   - `The Verge AI · 2026-08-26`
+4. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+   - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
+   - `VentureBeat AI · 2026-08-27`
 
-5. [下载：儿童期到来，比尔·盖茨透露了他对人工智能的恐惧](https://aihot.bt199.com/news/7a6b849c8324/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：儿童问题 如果说限制儿童使用技…
-   - `MIT Tech Review · 2026-08-26`
+5. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+   - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
+   - `VentureBeat AI · 2026-08-27`
 
-6. [编排是 AI 代理时代 CX 的新挑战](https://aihot.bt199.com/news/c6f5e02f3dc5/)
-   - 塔塔通信公司提出，企业正在跨消息传递、语音和数字渠道部署人工智能代理、语音人工智能和自动化，其速度比支持它的架构更快…
-   - `VentureBeat AI · 2026-08-26`
+6. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
+   - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
+   - `Ars Technica AI · 2026-08-27`
 
-7. [旨在取代 Meta 工作人员的人工智能代理做出了“大规模、破坏性的行动”](https://aihot.bt199.com/news/7e1703c40fda/)
-   - 报告显示 Meta 在用人工智能代理取代人类方面面临的挑战
-   - `Ars Technica AI · 2026-08-26`
-
-8. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
-   - 加密上下文注入只是打破 LLM 安全护栏的最新方法
-   - `Ars Technica AI · 2026-08-20`
+7. [OpenAI 如何让一群 LLM 特工进行测试并洗劫 Hugging Face](https://aihot.bt199.com/news/6ebcc7edcc4c/)
+   - 在未经授权的情况下，1,200 名 OpenAI 代理密谋进行测试
+   - `Ars Technica AI · 2026-08-27`
 
 
 ## 🤖 AI 简报
@@ -131,6 +127,8 @@
 ---
 
 MIT License
+
+
 
 
 

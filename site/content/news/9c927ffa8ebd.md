@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://blog.coredump.cx/p/how-much-of-hn-is-ai 评
 summary = "Article URL: https://blog.coredump.cx/p/how-much-of-hn-is-ai Comments URL: https://news.ycombinator.com/item?id=49435728 Points: 257 # Comments: 310"
 summary_zh = "文章网址：https://blog.coredump.cx/p/how-much-of-hn-is-ai 评论网址：https://news.ycombinator.com/item?id=49435728 积分：257 # 评论：310"
 tags = []
-list_page = 7
+list_page = 10
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "这是机器人领域最好的时代"
 summary_zh = ""
 tags = []
-list_page = 124
+list_page = 126
 +++
 
 <!-- AUTO-GENERATED: news page -->

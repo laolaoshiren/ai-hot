@@ -347,14 +347,14 @@
       "Mistral Small 4",
       "Devstral 2 2512"
     ],
-    "model_count": 20,
+    "model_count": 19,
     "last_updated": "2026-04-30",
     "modalities": [
       "多模态",
       "文本",
       "音频"
     ],
-    "live_summary": "OpenRouter 已收录 20 个该作者/厂商相关模型，最近更新为 Mistral Medium 3.5",
+    "live_summary": "OpenRouter 已收录 19 个该作者/厂商相关模型，最近更新为 Mistral Medium 3.5",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=64"
   },
