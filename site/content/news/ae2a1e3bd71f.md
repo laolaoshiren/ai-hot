@@ -20,7 +20,7 @@ ai_summary = "人工智能推理是否因错误的原因而正确？。来源：
 summary = "Article URL: https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons-20260731/ Comments URL: https://news."
 summary_zh = "人工智能推理是否因错误的原因而正确？。来源：Hacker News AI"
 tags = []
-list_page = 92
+list_page = 94
 +++
 
 <!-- AUTO-GENERATED: news page -->

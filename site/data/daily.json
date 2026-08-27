@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-26T19:41:54.223998",
-  "date": "2026-08-26",
+  "updated_at": "2026-08-27T06:02:24.151175",
+  "date": "2026-08-27",
   "spotlight": {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
+    "id": "continue",
+    "name": "Continue",
+    "url": "https://continue.dev",
     "type": "tool",
-    "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
-    "pricing": "个人免费 + Teams $12/月",
+    "description": "开源 AI 编程助手，可接入任意 LLM",
+    "pricing": "开源免费",
     "category": "编程"
   },
   "alternates": [
     {
-      "name": "Hermes Agent",
-      "url": "https://github.com/NousResearch/hermes-agent",
+      "name": "Claude Code",
+      "url": "https://docs.anthropic.com/en/docs/claude-code",
       "type": "agent",
-      "description": "Nous Research 开源 AI Agent 框架，支持 Telegram、Discord 和命令行，内置长期记忆、技能系统和自动化工作流。",
-      "pricing": "开源 + API费用",
-      "category": "助手 Agent"
+      "description": "Anthropic CLI编程智能体，终端内全自主编程",
+      "pricing": "API按量",
+      "category": "编程 Agent"
     },
     {
-      "name": "WeCom CLI",
-      "url": "https://github.com/WecomTeam/wecom-cli",
+      "name": "OneCLI",
+      "url": "https://github.com/onecli/onecli",
       "type": "agent",
-      "description": "企业微信命令行工具，让人类和 AI Agent 都能在终端中操作企业微信",
+      "description": "开源凭证保险库，让 AI Agent 安全访问各类服务，无需暴露 API 密钥",
       "pricing": "免费开源",
-      "category": "自动化 Agent"
+      "category": "安全 Agent"
     },
     {
-      "name": "Opendeepresearcher Agentic Llm Research Framework",
-      "url": "https://github.com/stkwer/OpenDeepResearcher-Agentic-LLM-Research-Framework",
+      "name": "Cherry Studio",
+      "url": "https://github.com/CherryHQ/cherry-studio",
       "type": "agent",
-      "description": "开源深度研究 Agent 框架，面向资料检索、推理整理和长文研究报告生成。",
+      "description": "AI 效率工作台，集成智能聊天、自主 Agent 和大量助手，统一接入多种模型服务。",
       "pricing": "开源免费",
-      "category": "研究 Agent"
+      "category": "自动化 Agent"
     }
   ]
 }

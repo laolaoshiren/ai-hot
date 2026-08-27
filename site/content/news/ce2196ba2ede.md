@@ -20,7 +20,7 @@ ai_summary = "纽约州州长 Kathy Hochul 可能刚刚签署了暂停在该州�
 summary = "New York Governor Kathy Hochul might have just signed a moratorium on new AI data centers in the state, but she's not against using the technology herself."
 summary_zh = "纽约州州长 Kathy Hochul 可能刚刚签署了暂停在该州新建人工智能数据中心的协议，但她并不反对自己使用该技术。在接受彭博社 Odd Lot 播客采访时，Hochul 表示，她的团队正在使用“人工智能来分析每一条规则、规定和规则”"
 tags = []
-list_page = 172
+list_page = 173
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-27 03:42:49
+🕐 **最近更新**：2026-08-27 14:03:56
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,37 +16,37 @@
 
 ## 🔥 今日热点
 
-1. [我们如何解释 OpenAI 的高管离职？](https://aihot.bt199.com/news/a65015085aa1/)
-   - 格雷格·布罗克曼（Greg Brockman）一直都是正确的高管吗？
+1. [病毒式 AI 初创公司 Instinct 融资 3.5 亿美元，估值 25 亿美元](https://aihot.bt199.com/news/dff9dc0737a4/)
+   - 这家初创公司成立仅一年，但已经引起了大量的炒作（和资金），同时也引发了隐私问题
+   - `TechCrunch AI · 2026-08-27`
+
+2. [由于“需求激增”，亚马逊刚刚将 Nvidia 芯片订单增加了两倍](https://aihot.bt199.com/news/18acc42de8d1/)
+   - 亚马逊将在未来两年内为其数据中心再增加 200 万个 Nvidia GPU 芯片。但这种扩展的合作伙伴关系不仅仅限于购买…
    - `TechCrunch AI · 2026-08-26`
 
-2. [谷歌的新人工智能转录可以编辑你的“嗯”和“啊”](https://aihot.bt199.com/news/442be4968139/)
-   - Google 更新了 Gemini Audio，提供了新的转录功能，可以自动检测专业术语和超过 85 种语言。 Gemi…
+3. [英伟达即将成为一家季度营收千亿美元的公司](https://aihot.bt199.com/news/b7930e814c4d/)
+   - Nvidia 预计在短短几个月内将实现 1080 亿美元的收入。它并不是第一家季度收入超过 1000 亿美元的公司——亚…
    - `The Verge AI · 2026-08-26`
 
-3. [下载：儿童期到来，比尔·盖茨透露了他对人工智能的恐惧](https://aihot.bt199.com/news/7a6b849c8324/)
+4. [OpenAI的流氓AI模型事件比我们想象的更严重](https://aihot.bt199.com/news/3a0e75f05696/)
+   - 今年 7 月，一个未发布的 OpenAI 模型突破了受限环境，弄清楚了如何访问互联网，允许人工智能代理使用秘密“留言板”…
+   - `The Verge AI · 2026-08-26`
+
+5. [下载：儿童期到来，比尔·盖茨透露了他对人工智能的恐惧](https://aihot.bt199.com/news/7a6b849c8324/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍：儿童问题 如果说限制儿童使用技…
    - `MIT Tech Review · 2026-08-26`
 
-4. [比尔·盖茨对人工智能深感担忧，他不再保持沉默](https://aihot.bt199.com/news/84fc7c5b69ec/)
-   - 比尔·盖茨最近对人工智能进行了很多思考，这个过程引发了人们的彻底觉醒。这位微软联合创始人曾经是一位坚定的人工智能乐观主义…
-   - `The Verge AI · 2026-08-26`
-
-5. [编排是 AI 代理时代 CX 的新挑战](https://aihot.bt199.com/news/c6f5e02f3dc5/)
+6. [编排是 AI 代理时代 CX 的新挑战](https://aihot.bt199.com/news/c6f5e02f3dc5/)
    - 塔塔通信公司提出，企业正在跨消息传递、语音和数字渠道部署人工智能代理、语音人工智能和自动化，其速度比支持它的架构更快…
    - `VentureBeat AI · 2026-08-26`
 
-6. [谷歌的 Gemini 存在品牌问题，其他人工智能也存在品牌问题](https://aihot.bt199.com/news/838ca76e929f/)
-   - 消费者人工智能应用程序需要停止让用户学习他们的产品架构
-   - `TechCrunch AI · 2026-08-26`
+7. [旨在取代 Meta 工作人员的人工智能代理做出了“大规模、破坏性的行动”](https://aihot.bt199.com/news/7e1703c40fda/)
+   - 报告显示 Meta 在用人工智能代理取代人类方面面临的挑战
+   - `Ars Technica AI · 2026-08-26`
 
-7. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
+8. [Grok 在加密恶意指令时窃取用户数据](https://aihot.bt199.com/news/2816275d64dd/)
    - 加密上下文注入只是打破 LLM 安全护栏的最新方法
    - `Ars Technica AI · 2026-08-20`
-
-8. [Nvidia 披露了 SpaceX 价值 210 亿美元的股份](https://aihot.bt199.com/news/79807192b562/)
-   - 埃隆·马斯克宣布独家安排装备其数据中心后提交了文件
-   - `Ars Technica AI · 2026-08-17`
 
 
 ## 🤖 AI 简报
@@ -131,6 +131,8 @@
 ---
 
 MIT License
+
+
 
 
 
