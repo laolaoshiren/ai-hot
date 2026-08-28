@@ -261,16 +261,16 @@
     "latest_models": [
       "Kimi K3",
       "Kimi K2.7 Code",
-      "Kimi K2.7 Code (batch)"
+      "Kimi K2.6"
     ],
-    "model_count": 8,
+    "model_count": 7,
     "last_updated": "2026-07-16",
     "modalities": [
       "视频",
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 Kimi K3",
+    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Kimi K3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=moonshot.cn&sz=64"
   },

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-27T17:25:55.917842",
+  "updated_at": "2026-08-28T02:00:16.158017",
   "total": 36,
   "categories": [
     {
@@ -549,7 +549,7 @@
       "freshness": "2026-06-04",
       "badge": "NVIDIA 新动向",
       "why": "NVIDIA 最新 Nemotron 3 Ultra，2026-06-04 发布",
-      "meta": "512K 上下文",
+      "meta": "262K 上下文",
       "tags": [
         "文本"
       ],
