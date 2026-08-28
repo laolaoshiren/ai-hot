@@ -44,15 +44,15 @@
     "source": "openrouter",
     "latest_models": [
       "GPT-5.6 Luna Pro",
-      "GPT-5.6 Luna Pro (batch)",
-      "GPT-5.6 Luna"
+      "GPT-5.6 Luna",
+      "GPT-5.6 Terra Pro"
     ],
-    "model_count": 93,
+    "model_count": 58,
     "last_updated": "2026-07-09",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 93 个该作者/厂商相关模型，最近更新为 GPT-5.6 Luna Pro",
+    "live_summary": "OpenRouter 已收录 58 个该作者/厂商相关模型，最近更新为 GPT-5.6 Luna Pro",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
   },
@@ -158,14 +158,14 @@
       "Qwen3.8 27B",
       "Qwen3.8 2.4T A95B"
     ],
-    "model_count": 51,
+    "model_count": 52,
     "last_updated": "2026-08-26",
     "modalities": [
       "视频",
       "文本",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 51 个该作者/厂商相关模型，最近更新为 Qwen3.8 Flash",
+    "live_summary": "OpenRouter 已收录 52 个该作者/厂商相关模型，最近更新为 Qwen3.8 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=64"
   },
@@ -233,16 +233,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Hy4 preview",
       "Hy-MT2-1.8B",
-      "Hy-MT2-30B-A3B",
-      "Hy-MT2-7B"
+      "Hy-MT2-30B-A3B"
     ],
-    "model_count": 6,
-    "last_updated": "2026-08-20",
+    "model_count": 7,
+    "last_updated": "2026-08-28",
     "modalities": [
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 Hy-MT2-1.8B",
+    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Hy4 preview",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=cloud.tencent.com&sz=64"
   },
@@ -344,17 +344,16 @@
     "source": "openrouter",
     "latest_models": [
       "Mistral Medium 3.5",
-      "Mistral Small 4",
-      "Devstral 2 2512"
+      "Mistral Medium 3.5 (batch)",
+      "Mistral Small 4"
     ],
-    "model_count": 19,
+    "model_count": 25,
     "last_updated": "2026-04-30",
     "modalities": [
       "多模态",
-      "文本",
-      "音频"
+      "文本"
     ],
-    "live_summary": "OpenRouter 已收录 19 个该作者/厂商相关模型，最近更新为 Mistral Medium 3.5",
+    "live_summary": "OpenRouter 已收录 25 个该作者/厂商相关模型，最近更新为 Mistral Medium 3.5",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=mistral.ai&sz=64"
   },

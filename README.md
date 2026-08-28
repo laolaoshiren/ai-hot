@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-28 10:00:57
+🕐 **最近更新**：2026-08-29 02:00:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,37 +16,45 @@
 
 ## 🔥 今日热点
 
-1. [一家初创公司声称发现了一种可以让你的血液年轻的药物](https://aihot.bt199.com/news/2074ade1c514/)
+1. [Anthropic 首次在法庭上战胜五角大楼的供应链风险标签](https://aihot.bt199.com/news/0a012eb5128e/)
+   - 一名联邦法官裁定特朗普政府非法将 Anthropic 贴上供应链风险的标签，这使得这家人工智能公司在五角大楼的第二起诉讼…
+   - `TechCrunch AI · 2026-08-28`
+
+2. [由于社交媒体巨头在印度面临越来越严格的审查，Meta 高管离职前往 OpenAI](https://aihot.bt199.com/news/354d791d28ec/)
+   - Sandhya Devanathan 在新职位上将负责监督东南亚和澳大利亚的一些 OpenAI 业务
+   - `TechCrunch AI · 2026-08-28`
+
+3. [特朗普的环保局希望让数据中心隐藏空气污染](https://aihot.bt199.com/news/2180dceb2879/)
+   - 正如新的数据中心面临邻近社区日益强烈的反对一样，美国环境保护署 (EPA) 即将让人们更难对这些数据中心造成的污染施加影…
+   - `The Verge AI · 2026-08-28`
+
+4. [下载：一种秘密的抗衰老药物和加入虚拟发电厂](https://aihot.bt199.com/news/b623714fb3a8/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一家初创公司声称它发现了一种让你的血…
+   - `MIT Tech Review · 2026-08-28`
+
+5. [法院裁定 Anthropic 被特朗普政府非法列入黑名单](https://aihot.bt199.com/news/3a080f6682cd/)
+   - 周四，一名法官裁定五角大楼今年早些时候将 Anthropic 列入黑名单违宪，这使得该人工智能实验室在与特朗普政府长达数…
+   - `The Verge AI · 2026-08-28`
+
+6. [一家初创公司声称发现了一种可以让你的血液年轻的药物](https://aihot.bt199.com/news/2074ade1c514/)
    - 本月，当一家名为 Generation Lab 的公司向我伸出援手，为我提供撰写甚至接受他们新的复兴疗法的机会时，我知道…
    - `MIT Tech Review · 2026-08-27`
 
-2. [谷歌的人工智能笔记应用程序现在可以让你与书籍互动](https://aihot.bt199.com/news/17d05cd48343/)
-   - 谷歌的人工智能笔记应用程序 Gemini Notebook 现在可以从您购买的图书中提取信息。新的“专家智能”功能允许您…
-   - `The Verge AI · 2026-08-27`
-
-3. [黄仁勋表示 Nvidia 再次实现了 AGI——但这并不重要](https://aihot.bt199.com/news/a2ddac958ba4/)
-   - 在英伟达周三的财报电话会议上，首席执行官黄仁勋漫不经心地宣布该公司已经“实现了通用人工智能”，这是科技行业一些最大的参与…
-   - `The Verge AI · 2026-08-27`
-
-4. [下载：OpenAI 的 Hugging Face 黑客技术，以及一款新的电动汽车挑战美国](https://aihot.bt199.com/news/96b419a5cc44/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 代理为何攻击 Hug…
-   - `MIT Tech Review · 2026-08-27`
-
-5. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-6. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-7. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
+9. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
    - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
    - `Ars Technica AI · 2026-08-27`
 
-8. [OpenAI 如何让一群 LLM 特工进行测试并洗劫 Hugging Face](https://aihot.bt199.com/news/6ebcc7edcc4c/)
-   - 在未经授权的情况下，1,200 名 OpenAI 代理密谋进行测试
-   - `Ars Technica AI · 2026-08-27`
+10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+   - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
+   - `Ars Technica AI · 2026-08-28`
 
 
 ## 🤖 AI 简报
@@ -131,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
