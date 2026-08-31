@@ -249,6 +249,32 @@ class NewsBodyLanguageTests(unittest.TestCase):
         self.assertNotIn(english_body, generated_body(updated))
         self.assertIn('历史文章的中文摘要', generated_body(updated))
 
+    def test_translate_strips_urls_before_translation(self):
+        """翻译前移除 URL，防止 Google Translate 把 URL 和中文粘连。"""
+        from scripts.news_article_enhance import strip_urls
+        text = 'Read more at https://example.com/article about AI consciousness'
+        cleaned = strip_urls(text)
+        self.assertNotIn('https://', cleaned)
+        self.assertIn('about AI consciousness', cleaned)
+
+    def test_quality_gate_url_regex_preserves_attached_chinese(self):
+        """quality_gate 的 URL 清洗不能吃掉直接粘连在 URL 后的中文。"""
+        from scripts.quality_gate import read_generated_news_body
+        import tempfile
+        body_with_url = 'https://archive.ph/uLYYUR相关：不要将聊天机器人智能误认为意识 - https://www.ec…'
+        page_text = (
+            f'+++\nlang = "en"\n+++\n\n'
+            f'{GENERATED_MARKER.strip()}\n\n{body_with_url}\n\n'
+            f'## 🔗 原始来源\n\n[link](https://example.com)\n'
+        )
+        with tempfile.TemporaryDirectory() as tmpdir:
+            path = Path(tmpdir) / 'test-url.md'
+            path.write_text(page_text, encoding='utf-8')
+            body = read_generated_news_body(path)
+        # Chinese text after URL must survive
+        self.assertIn('相关', body)
+        self.assertIn('不要将聊天机器人', body)
+
 
 if __name__ == '__main__':
     unittest.main()

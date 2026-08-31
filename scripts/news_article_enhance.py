@@ -57,12 +57,19 @@ def take_excerpt(text: str, max_paras: int = 12) -> str:
     return '\n'.join(paras[:max_paras]).strip()
 
 
+def strip_urls(text: str) -> str:
+    """移除文本中的 URL，避免翻译 API 把 URL 和中文粘在一起返回。"""
+    return re.sub(r'https?://\S+', '', str(text or '')).strip()
+
+
 def translate(text: str, source='en', target='zh-CN') -> str:
     """调用现有的 Google 翻译端点。
 
     正文改用 POST 传参，避免较长文本被拼进 URL 后超过长度限制。
+    翻译前先移除源文本中的 URL——Google 翻译会把 URL 原样保留并和
+    译文中文字符直接粘连（无空格），导致后续清洗误删中文。
     """
-    text = (text or '').strip()
+    text = strip_urls((text or '').strip())
     if not text:
         return ''
     payload = urllib.parse.urlencode({
