@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-28T17:59:20.329186",
+  "updated_at": "2026-08-31T07:19:36.503557",
   "total": 36,
   "categories": [
     {
@@ -98,9 +98,9 @@
     {
       "category": "top",
       "source": "OpenRouter",
-      "name": "DeepSeek V4 Pro 0813",
+      "name": "DeepSeek V4 Pro 0813 (batch)",
       "provider": "DeepSeek",
-      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813:batch",
       "freshness": "2026-08-12",
       "badge": "国产旗舰",
       "why": "DeepSeek 最新 V 系列主力，热度、上下文和性价比都应放主榜",

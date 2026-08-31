@@ -47,12 +47,12 @@
       "GPT-5.6 Luna",
       "GPT-5.6 Terra Pro"
     ],
-    "model_count": 58,
+    "model_count": 60,
     "last_updated": "2026-07-09",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 58 个该作者/厂商相关模型，最近更新为 GPT-5.6 Luna Pro",
+    "live_summary": "OpenRouter 已收录 60 个该作者/厂商相关模型，最近更新为 GPT-5.6 Luna Pro",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=openai.com&sz=64"
   },
@@ -102,13 +102,13 @@
       "Gemini 3.7 Flash (batch)",
       "Gemini 3.6 Flash"
     ],
-    "model_count": 40,
+    "model_count": 41,
     "last_updated": "2026-08-13",
     "modalities": [
       "视频",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 40 个该作者/厂商相关模型，最近更新为 Gemini 3.7 Flash",
+    "live_summary": "OpenRouter 已收录 41 个该作者/厂商相关模型，最近更新为 Gemini 3.7 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=google.com&sz=64"
   },
@@ -128,15 +128,15 @@
     "latest_models": [
       "DeepSeek V4 Flash Vision Exp",
       "DeepSeek V4 Pro 0813",
-      "DeepSeek V4 Flash 0731"
+      "DeepSeek V4 Pro 0813 (batch)"
     ],
-    "model_count": 14,
+    "model_count": 16,
     "last_updated": "2026-08-21",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 14 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Flash Vision Exp",
+    "live_summary": "OpenRouter 已收录 16 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Flash Vision Exp",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64"
   },
@@ -158,14 +158,14 @@
       "Qwen3.8 27B",
       "Qwen3.8 2.4T A95B"
     ],
-    "model_count": 52,
+    "model_count": 53,
     "last_updated": "2026-08-26",
     "modalities": [
       "视频",
       "文本",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 52 个该作者/厂商相关模型，最近更新为 Qwen3.8 Flash",
+    "live_summary": "OpenRouter 已收录 53 个该作者/厂商相关模型，最近更新为 Qwen3.8 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=64"
   },
@@ -260,17 +260,17 @@
     "source": "openrouter",
     "latest_models": [
       "Kimi K3",
-      "Kimi K2.7 Code",
-      "Kimi K2.6"
+      "Kimi K3 (batch)",
+      "Kimi K2.7 Code"
     ],
-    "model_count": 7,
+    "model_count": 8,
     "last_updated": "2026-07-16",
     "modalities": [
       "视频",
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 Kimi K3",
+    "live_summary": "OpenRouter 已收录 8 个该作者/厂商相关模型，最近更新为 Kimi K3",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=moonshot.cn&sz=64"
   },
@@ -289,16 +289,16 @@
     "source": "openrouter",
     "latest_models": [
       "GLM 5.3 Flash",
-      "GLM 5.3",
-      "GLM 5.2"
+      "GLM 5.3 Flash (batch)",
+      "GLM 5.3"
     ],
-    "model_count": 15,
+    "model_count": 16,
     "last_updated": "2026-08-26",
     "modalities": [
       "视频",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 15 个该作者/厂商相关模型，最近更新为 GLM 5.3 Flash",
+    "live_summary": "OpenRouter 已收录 16 个该作者/厂商相关模型，最近更新为 GLM 5.3 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=z.ai&sz=64"
   },

@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-28T17:59:20.404591",
-  "date": "2026-08-28",
+  "updated_at": "2026-08-31T07:19:36.627034",
+  "date": "2026-08-31",
   "spotlight": {
-    "id": "windsurf",
-    "name": "Windsurf",
-    "url": "https://codeium.com/windsurf",
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "url": "https://stability.ai",
     "type": "tool",
-    "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
-    "pricing": "免费 + Pro $15/月",
-    "category": "编程"
+    "description": "开源图像生成模型，本地部署无限制",
+    "pricing": "开源免费",
+    "category": "绘画"
   },
   "alternates": [
     {
-      "name": "Cursor Agent",
-      "url": "https://cursor.sh",
+      "name": "SWE-Agent",
+      "url": "https://github.com/princeton-nlp/SWE-agent",
       "type": "agent",
-      "description": "Cursor内置Agent模式，后台自主完成复杂编码任务",
-      "pricing": "Pro $20/月",
+      "description": "普林斯顿开源的软件工程Agent",
+      "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "name": "Gemini CLI",
-      "url": "https://github.com/google-gemini/gemini-cli",
+      "name": "Graphify",
+      "url": "https://github.com/safishamsi/graphify",
       "type": "agent",
-      "description": "Google 开源的终端 AI Agent，直接在命令行调用 Gemini 模型完成编码、文件操作等任务",
+      "description": "将代码、文档、论文自动构建为可查询知识图谱，兼容 Claude Code/Cursor/Gemini CLI 等10+工具",
       "pricing": "免费",
       "category": "编程 Agent"
     },
     {
-      "id": "cursor",
-      "name": "Cursor",
-      "url": "https://cursor.sh",
+      "id": "codex-cli",
+      "name": "Codex CLI",
+      "url": "https://github.com/openai/codex",
       "type": "tool",
-      "description": "AI-first 代码编辑器，基于 VS Code 深度集成 AI 能力",
-      "pricing": "免费 + Pro $20/月",
+      "description": "OpenAI 官方终端编程助手，轻量快速",
+      "pricing": "按 API 使用量计费",
       "category": "编程"
     }
   ]

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，短短一个月，多家深圳机器人企业集中完成大额融资。放眼全国，深圳的机器人产业格外耀眼：2025年总产值达2426亿元，同比增长20."
 summary_zh = ""
 tags = []
-list_page = 156
+list_page = 160
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，据Business Insider获悉，谷歌下一代前沿AI模型的发布日期已推迟至7月。 谷歌此前计划于6月推出新款Gemini 3."
 summary_zh = ""
 tags = []
-list_page = 301
+list_page = 305
 +++
 
 <!-- AUTO-GENERATED: news page -->
