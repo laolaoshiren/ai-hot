@@ -20,7 +20,7 @@ ai_summary = "OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 在我们的�
 summary = "In an interview with our friend Joanna Stern on her YouTube channel, OpenAI president Greg Brockman said the company is working on a \"family of devices\" for interacting with its AI models."
 summary_zh = "OpenAI 总裁格雷格·布罗克曼 (Greg Brockman) 在我们的朋友乔安娜·斯特恩 (Joanna Stern) 的 YouTube 频道上接受采访时表示，该公司正在开发一个“设备系列”，用于与其人工智能模型进行交互。然而，布罗…"
 tags = []
-list_page = 117
+list_page = 118
 +++
 
 <!-- AUTO-GENERATED: news page -->

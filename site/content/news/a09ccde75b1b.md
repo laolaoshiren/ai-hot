@@ -20,7 +20,7 @@ ai_summary = "盖茨主要属于负责任的人工智能阵营，但这里有一
 summary = "Gates is mostly in the Responsible AI camp, but there are a few ideas in here we hadn't heard before."
 summary_zh = "盖茨主要属于负责任的人工智能阵营，但这里有一些我们以前从未听说过的想法"
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

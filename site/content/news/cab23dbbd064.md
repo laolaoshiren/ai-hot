@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址"
 summary = "Article URL: https://openai.com/index/daybreak-securing-the-world/ Comments URL: https://news."
 summary_zh = "文章网址： 评论网址"
 tags = []
-list_page = 321
+list_page = 322
 +++
 
 <!-- AUTO-GENERATED: news page -->

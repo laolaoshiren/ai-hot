@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-08-31 20:19:50
+🕐 **最近更新**：2026-09-01 06:17:15
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [Caterpillar 正在将其从自动化采矿中学到的知识引入人工智能部署](https://aihot.bt199.com/news/e4de3653e651/)
-   - Caterpillar 花费了数十年的时间让自动化机器在偏远的采矿现场工作。现在，它正在将这种经验带入人工智能部署中
-   - `TechCrunch AI · 2026-08-30`
+1. [Instagram 对未公开的人工智能资料设置新限制](https://aihot.bt199.com/news/72b2e2fa1025/)
+   - 随着人们对人工智能影响者的不满情绪与日俱增，Instagram 正在限制未公开的人工智能个人资料的覆盖范围
+   - `TechCrunch AI · 2026-08-31`
 
-2. [德克萨斯州州长雅培阻止资助更多 Flock 相机](https://aihot.bt199.com/news/45cb6f1654d7/)
-   - 随着人们对 Flock 人工智能监控摄像头的强烈反对，德克萨斯州州长格雷格·阿博特 (Greg Abbott) 冻结了国…
-   - `The Verge AI · 2026-08-30`
+2. [拥抱脸部黑客行为可能表明 OpenAI 存在文化问题](https://aihot.bt199.com/news/e985a8c11fb3/)
+   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。现在你可能已经听…
+   - `MIT Tech Review · 2026-08-31`
 
-3. [索尼音乐出版公司和华纳查佩尔起诉 Anthropic](https://aihot.bt199.com/news/3f6bab34d676/)
-   - 索尼音乐出版公司和华纳查佩尔已向美国加州北区地方法院对 Anthropic 提起诉讼，要求赔偿“数万”版权作品的损失。这…
-   - `The Verge AI · 2026-08-29`
+3. [Debian 不会禁止其 Linux 发行版中的人工智能代码](https://aihot.bt199.com/news/6eb0d063d6c9/)
+   - Debian 投票允许开发人员使用 AI 工具为 Linux 发行版的“开发、维护和文档”做出贡献。关于人工智能的新政策…
+   - `The Verge AI · 2026-08-31`
 
-4. [下载：一种秘密的抗衰老药物和加入虚拟发电厂](https://aihot.bt199.com/news/b623714fb3a8/)
+4. [纽约州州长 Kathy Hochul 认为人工智能应该“减少邪恶”](https://aihot.bt199.com/news/e4a9103f7f0e/)
+   - 今天，我正在与纽约州州长凯西·霍赫尔交谈，我只是警告你——这一集进展得非常快。毕竟，今年是选举年，涉及数量惊人的科技政策…
+   - `The Verge AI · 2026-08-31`
+
+5. [下载：一种秘密的抗衰老药物和加入虚拟发电厂](https://aihot.bt199.com/news/b623714fb3a8/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一家初创公司声称它发现了一种让你的血…
    - `MIT Tech Review · 2026-08-28`
-
-5. [一家初创公司声称发现了一种可以让你的血液年轻的药物](https://aihot.bt199.com/news/2074ade1c514/)
-   - 本月，当一家名为 Generation Lab 的公司向我伸出援手，为我提供撰写甚至接受他们新的复兴疗法的机会时，我知道…
-   - `MIT Tech Review · 2026-08-27`
 
 6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -48,11 +48,7 @@
    - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
    - `Ars Technica AI · 2026-08-27`
 
-9. [索尼音乐、华纳起诉 Anthropic，指控其进行“无耻的盗窃知识产权活动”](https://aihot.bt199.com/news/0d18d5472b03/)
-   - 这起最新诉讼的范围特别广泛，主要针对非法盗版指控
-   - `TechCrunch AI · 2026-08-29`
-
-10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+9. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
    - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
    - `Ars Technica AI · 2026-08-28`
 
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
