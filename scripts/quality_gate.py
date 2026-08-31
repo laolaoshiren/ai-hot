@@ -59,6 +59,7 @@ def check_english_news_bodies(errors):
         body = read_generated_news_body(page)
         zh_chars = sum('\u4e00' <= ch <= '\u9fff' for ch in body)
         if zh_chars < 2 or zh_ratio(body) < 0.15:
+            print(f'[DEBUG] {page.stem} zh_chars={zh_chars} ratio={zh_ratio(body):.2f} body_repr={repr(body[:300])}')
             invalid.append(f'{page.stem}: zh_ratio={zh_ratio(body):.2f}')
 
     if invalid:
