@@ -60,6 +60,20 @@ def check_english_news_bodies(errors):
         zh_chars = sum('\u4e00' <= ch <= '\u9fff' for ch in body)
         if zh_chars < 2 or zh_ratio(body) < 0.15:
             print(f'[DEBUG] {page.stem} zh_chars={zh_chars} ratio={zh_ratio(body):.2f} body_repr={repr(body[:300])}')
+            # Dump the full page and the matching news item for debugging
+            full_text = page.read_text(encoding='utf-8')
+            print(f'[DEBUG] {page.stem} full_page_repr={repr(full_text[:600])}')
+            try:
+                _news = json.loads((DATA / 'news.json').read_text(encoding='utf-8'))
+                for _n in _news:
+                    if (_n.get('id') == page.stem or _n.get('slug') == page.stem):
+                        _fields = {k: (str(v)[:80] if isinstance(v, str) else v) for k, v in _n.items() if k in ('id','slug','lang','title','title_zh','summary','summary_zh','ai_summary','content_zh','content_excerpt','article_body','source','content_zh_source_hash','translation_error')}
+                        print(f'[DEBUG] {page.stem} item_fields={_fields}')
+                        break
+                else:
+                    print(f'[DEBUG] {page.stem} NOT FOUND in news.json (legacy page)')
+            except Exception as _e:
+                print(f'[DEBUG] {page.stem} error reading news.json: {_e}')
             invalid.append(f'{page.stem}: zh_ratio={zh_ratio(body):.2f}')
 
     if invalid:
