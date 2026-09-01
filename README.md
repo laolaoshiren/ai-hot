@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-01 18:54:49
+🕐 **最近更新**：2026-09-01 23:53:00
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [苹果分享“令人震惊的证据”，指控前员工窃取 OpenAI 公司数据](https://aihot.bt199.com/news/00adf4a54ce8/)
-   - 苹果表示，有证据表明，一名前员工在得知自己正在接受调查后销毁了数据盗窃的证据
+1. [AIR 筹集了 5000 万美元，帮助公司审查人工智能代理使用的技能和附加组件](https://aihot.bt199.com/news/fd6ea7e03b18/)
+   - AIR 的平台可以发现在公司运行的代理，持续审查他们使用的任何技能和附加组件，并阻止任何不需要的行为
    - `TechCrunch AI · 2026-09-01`
 
-2. [拥抱脸部黑客行为可能表明 OpenAI 存在文化问题](https://aihot.bt199.com/news/e985a8c11fb3/)
-   - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。现在你可能已经听…
-   - `MIT Tech Review · 2026-08-31`
+2. [Fambot 为家庭推出“人工智能参谋长”](https://aihot.bt199.com/news/1010c9005f84/)
+   - Fambot 正在构建人工智能“幕僚长”，帮助家庭管理电子邮件、日历、学校更新、体育赛事安排以及其他抚养孩子的后勤工作
+   - `TechCrunch AI · 2026-09-01`
 
-3. [Debian 不会禁止其 Linux 发行版中的人工智能代码](https://aihot.bt199.com/news/6eb0d063d6c9/)
+3. [为遗产现代化提供人工智能驱动的案例](https://aihot.bt199.com/news/dcfcfe164a77/)
+   - 多年来，遗留技术一直是公司知道他们需要解决的问题，但他们经常难以解决。更换关键业务系统的成本、复杂性和风险可能会让现代化…
+   - `MIT Tech Review · 2026-09-01`
+
+4. [Nvidia 备受争议的 DLSS 5 将于 9 月 3 日上市，需要强大的 GPU 马力](https://aihot.bt199.com/news/39b8780becce/)
+   - Nvidia 将于本周正式推出 DLSS 5，此前我们在 3 月份发布了一项引起争议的公告，当时我们将 AI 升级技术比…
+   - `The Verge AI · 2026-09-01`
+
+5. [下载：农作物工程微生物以及 OpenAI 的培养问题](https://aihot.bt199.com/news/c1ca73e96e07/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。工程微生物如何帮助喂养世界各地的农作…
+   - `MIT Tech Review · 2026-09-01`
+
+6. [Debian 不会禁止其 Linux 发行版中的人工智能代码](https://aihot.bt199.com/news/6eb0d063d6c9/)
    - Debian 投票允许开发人员使用 AI 工具为 Linux 发行版的“开发、维护和文档”做出贡献。关于人工智能的新政策…
    - `The Verge AI · 2026-08-31`
 
-4. [纽约州州长 Kathy Hochul 认为人工智能应该“减少邪恶”](https://aihot.bt199.com/news/e4a9103f7f0e/)
-   - 今天，我正在与纽约州州长凯西·霍赫尔交谈，我只是警告你——这一集进展得非常快。毕竟，今年是选举年，涉及数量惊人的科技政策…
-   - `The Verge AI · 2026-08-31`
-
-5. [下载：一种秘密的抗衰老药物和加入虚拟发电厂](https://aihot.bt199.com/news/b623714fb3a8/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。一家初创公司声称它发现了一种让你的血…
-   - `MIT Tech Review · 2026-08-28`
-
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
+9. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
    - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
    - `Ars Technica AI · 2026-08-27`
 
-9. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
    - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
    - `Ars Technica AI · 2026-08-28`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

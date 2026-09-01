@@ -20,7 +20,7 @@ ai_summary = "动荡的AI时代已经到来。来源：Hacker News AI"
 summary = "Article URL: https://www.gatesnotes.com/work/make-ai-work-for-everyone/reader/a-turbulent-ai-era-and-critical-choices-to-make?"
 summary_zh = "动荡的AI时代已经到来。来源：Hacker News AI"
 tags = []
-list_page = 17
+list_page = 18
 +++
 
 <!-- AUTO-GENERATED: news page -->

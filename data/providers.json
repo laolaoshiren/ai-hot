@@ -71,16 +71,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Claude Opus 5 (Fast)",
       "Claude Opus 5",
-      "Claude Opus 5 (batch)"
+      "Claude Opus 5 (batch)",
+      "Claude Sonnet 5"
     ],
-    "model_count": 28,
+    "model_count": 25,
     "last_updated": "2026-07-24",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 28 个该作者/厂商相关模型，最近更新为 Claude Opus 5 (Fast)",
+    "live_summary": "OpenRouter 已收录 25 个该作者/厂商相关模型，最近更新为 Claude Opus 5",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
   },
@@ -1321,5 +1321,31 @@
     "last_updated": "",
     "modalities": [],
     "live_summary": "站内手工维护，待补充实时模型索引"
+  },
+  {
+    "id": "inception",
+    "name": "Inception",
+    "url": "https://openrouter.ai/inception",
+    "logo": "🆕",
+    "icon_url": "https://www.google.com/s2/favicons?domain=inception.com&sz=64",
+    "models": [
+      "Inception: Mercury 2.5 Preview",
+      "Inception: Mercury 2"
+    ],
+    "type": "国际",
+    "pricing": "按量计费",
+    "api": true,
+    "provider_kind": "manual",
+    "source": "openrouter",
+    "latest_models": [
+      "Inception: Mercury 2.5 Preview",
+      "Inception: Mercury 2"
+    ],
+    "model_count": 2,
+    "last_updated": "2026-08-31",
+    "modalities": [
+      "文本"
+    ],
+    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Inception: Mercury 2.5 Preview"
   }
 ]
