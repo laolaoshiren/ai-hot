@@ -20,7 +20,7 @@ ai_summary = "杰米斯·哈萨比斯 (Demis Hassabis) 认为，世界需要一�
 summary = "Demis Hassabis thinks the world needs an AI watchdog with the power to hit the brakes if frontier models become too dangerous."
 summary_zh = "杰米斯·哈萨比斯 (Demis Hassabis) 认为，世界需要一个人工智能监管机构，当前沿模型变得过于危险时，它有能力刹车。谷歌 DeepMind 首席执行官兼联合创始人在一篇博文中写道，美国应该领导这项倡议，并认为美国是制定全球标准的…"
 tags = []
-list_page = 203
+list_page = 204
 +++
 
 <!-- AUTO-GENERATED: news page -->

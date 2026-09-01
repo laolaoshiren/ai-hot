@@ -20,7 +20,7 @@ ai_summary = "多年来，遗留技术一直是公司知道他们需要解决的
 summary = "For years, legacy technology has been a problem companies knew they needed to solve, but one they often struggled to tackle."
 summary_zh = "多年来，遗留技术一直是公司知道他们需要解决的问题，但他们经常难以解决。更换关键业务系统的成本、复杂性和风险可能会让现代化感觉像是一种管理中断，而不是一个值得追求的机会。但随着"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

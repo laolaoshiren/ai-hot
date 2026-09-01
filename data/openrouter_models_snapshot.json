@@ -1,6 +1,72 @@
 {
   "data": [
     {
+      "id": "anthropic/claude-fable-5.1",
+      "canonical_slug": "anthropic/claude-fable-5.1-20260831",
+      "hugging_face_id": null,
+      "name": "Anthropic: Claude Fable 5.1",
+      "created": 1788285838,
+      "description": "Claude Fable 5.1 improves on Claude Fable 5 across the board, with the biggest gains in agentic coding, long-running agentic workflows, and knowledge work: long code refactors, front-end and visual...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image+file->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "file"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Claude",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00001",
+        "completion": "0.00005",
+        "web_search": "0.01",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0.0000125",
+        "input_cache_write_1h": "0.00002"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 128000,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_completion_tokens",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "stop",
+        "structured_outputs",
+        "tools",
+        "verbosity"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/anthropic/claude-fable-5.1-20260831/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low"
+        ],
+        "default_effort": "high"
+      }
+    },
+    {
       "id": "inception/mercury-2.5-preview",
       "canonical_slug": "inception/mercury-2.5-preview-20260831",
       "hugging_face_id": "",
@@ -671,6 +737,7 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
+        "logit_bias",
         "logprobs",
         "max_tokens",
         "presence_penalty",
@@ -680,6 +747,7 @@
         "response_format",
         "seed",
         "stop",
+        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -834,6 +902,7 @@
         "logprobs",
         "max_tokens",
         "min_p",
+        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -952,6 +1021,7 @@
         "logprobs",
         "max_tokens",
         "min_p",
+        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "reasoning_effort",
@@ -7297,9 +7367,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -8914,8 +8984,8 @@
       "id": "~anthropic/claude-fable-latest",
       "canonical_slug": "~anthropic/claude-fable-latest",
       "alias_target": {
-        "name": "Anthropic: Claude Fable 5",
-        "slug": "anthropic/claude-fable-5"
+        "name": "Anthropic: Claude Fable 5.1",
+        "slug": "anthropic/claude-fable-5.1"
       },
       "hugging_face_id": null,
       "name": "Anthropic: Claude Fable Latest",
@@ -8939,14 +9009,14 @@
         "prompt": "0.00001",
         "completion": "0.00005",
         "web_search": "0.01",
-        "input_cache_read": "0.000001",
+        "input_cache_read": "0.00000025",
         "input_cache_write": "0.0000125",
         "input_cache_write_1h": "0.00002"
       },
       "top_provider": {
         "context_length": 1000000,
         "max_completion_tokens": 128000,
-        "is_moderated": true
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -8958,18 +9028,10 @@
         "response_format",
         "stop",
         "structured_outputs",
-        "tool_choice",
         "tools",
         "verbosity"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -14375,13 +14437,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000016",
-        "completion": "0.0000032",
-        "input_cache_read": "0.000000135"
+        "prompt": "0.00000102747",
+        "completion": "0.00000205494",
+        "input_cache_read": "0.0000000856225"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 393216,
+        "context_length": 1024000,
+        "max_completion_tokens": 384000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -14533,9 +14595,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000763",
-        "completion": "0.0000001526",
-        "input_cache_read": "0.00000001526"
+        "prompt": "0.00000007168",
+        "completion": "0.00000014336",
+        "input_cache_read": "0.000000014336"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -39567,5 +39629,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-01T15:51:55.523673+00:00"
+  "updated_at": "2026-09-01T20:23:27.209544+00:00"
 }

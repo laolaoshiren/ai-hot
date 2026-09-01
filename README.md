@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-01 23:53:00
+🕐 **最近更新**：2026-09-02 04:24:27
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [AIR 筹集了 5000 万美元，帮助公司审查人工智能代理使用的技能和附加组件](https://aihot.bt199.com/news/fd6ea7e03b18/)
-   - AIR 的平台可以发现在公司运行的代理，持续审查他们使用的任何技能和附加组件，并阻止任何不需要的行为
+1. [Anthropic 的新《神鬼寓言》版本更便宜、限制更少](https://aihot.bt199.com/news/0b975c1752d0/)
+   - Fable 5.1 包括旨在降低代币成本的更改以及模型保护措施的误报限制
    - `TechCrunch AI · 2026-09-01`
 
-2. [Fambot 为家庭推出“人工智能参谋长”](https://aihot.bt199.com/news/1010c9005f84/)
-   - Fambot 正在构建人工智能“幕僚长”，帮助家庭管理电子邮件、日历、学校更新、体育赛事安排以及其他抚养孩子的后勤工作
+2. [谷歌对 Canva 的回应是一款人工智能工具，你可以在其中提示而不是设计](https://aihot.bt199.com/news/16ca199800c7/)
+   - 借助 Google Pics，谷歌正在更深入地进军由 Canva 和 Adob​​e 主导的创意软件市场，但采取了明显的…
    - `TechCrunch AI · 2026-09-01`
 
-3. [为遗产现代化提供人工智能驱动的案例](https://aihot.bt199.com/news/dcfcfe164a77/)
-   - 多年来，遗留技术一直是公司知道他们需要解决的问题，但他们经常难以解决。更换关键业务系统的成本、复杂性和风险可能会让现代化…
+3. [人工智能如何规划前往半人马座阿尔法星的星际之旅](https://aihot.bt199.com/news/1945d1d3243f/)
+   - 一个名为“费米探索者任务”的非营利组织今天宣布，它打算在 2029 年底之前向我们最近的恒星系统发射一艘航天器。这是一项…
    - `MIT Tech Review · 2026-09-01`
 
-4. [Nvidia 备受争议的 DLSS 5 将于 9 月 3 日上市，需要强大的 GPU 马力](https://aihot.bt199.com/news/39b8780becce/)
-   - Nvidia 将于本周正式推出 DLSS 5，此前我们在 3 月份发布了一项引起争议的公告，当时我们将 AI 升级技术比…
+4. [人工智能“文明”的崛起与企业责任的衰落](https://aihot.bt199.com/news/35aa4d6d86be/)
+   - 根据你问的是谁，开发者平台 Hugging Face 最近受到了 OpenAI 的攻击——在它失去了对自己的人工智能工具…
    - `The Verge AI · 2026-09-01`
 
-5. [下载：农作物工程微生物以及 OpenAI 的培养问题](https://aihot.bt199.com/news/c1ca73e96e07/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。工程微生物如何帮助喂养世界各地的农作…
-   - `MIT Tech Review · 2026-09-01`
+5. [苹果指责 OpenAI 销毁证据](https://aihot.bt199.com/news/e3460402ad1d/)
+   - 据彭博社早些时候报道，由于担心 OpenAI 积极销毁证据，苹果在与 OpenAI 的法律诉讼中推动“快速发现”。苹果在…
+   - `The Verge AI · 2026-09-01`
 
-6. [Debian 不会禁止其 Linux 发行版中的人工智能代码](https://aihot.bt199.com/news/6eb0d063d6c9/)
-   - Debian 投票允许开发人员使用 AI 工具为 Linux 发行版的“开发、维护和文档”做出贡献。关于人工智能的新政策…
-   - `The Verge AI · 2026-08-31`
+6. [为遗产现代化提供人工智能驱动的案例](https://aihot.bt199.com/news/dcfcfe164a77/)
+   - 多年来，遗留技术一直是公司知道他们需要解决的问题，但他们经常难以解决。更换关键业务系统的成本、复杂性和风险可能会让现代化…
+   - `MIT Tech Review · 2026-09-01`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = "凯撒护士表示人工智能、工作场所监控正在使他们
 summary = "Article URL: https://localnewsmatters.org/2026/07/15/kaiser-nurses-say-ai-workplace-surveillance-are-making-their-jobs-and-patient-care-worse/ Comments URL: https://news."
 summary_zh = "凯撒护士表示人工智能、工作场所监控正在使他们的工作和护理变得更糟。来源：Hacker News AI"
 tags = []
-list_page = 181
+list_page = 182
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -71,16 +71,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Claude Fable 5.1",
       "Claude Opus 5",
-      "Claude Opus 5 (batch)",
-      "Claude Sonnet 5"
+      "Claude Opus 5 (batch)"
     ],
-    "model_count": 25,
-    "last_updated": "2026-07-24",
+    "model_count": 26,
+    "last_updated": "2026-09-01",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 25 个该作者/厂商相关模型，最近更新为 Claude Opus 5",
+    "live_summary": "OpenRouter 已收录 26 个该作者/厂商相关模型，最近更新为 Claude Fable 5.1",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=anthropic.com&sz=64"
   },
@@ -1336,16 +1336,14 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "Inception: Mercury 2.5 Preview",
       "Inception: Mercury 2"
     ],
-    "model_count": 2,
-    "last_updated": "2026-08-31",
-    "modalities": [
-      "文本"
-    ],
-    "live_summary": "OpenRouter 已收录 2 个该作者/厂商相关模型，最近更新为 Inception: Mercury 2.5 Preview"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]
