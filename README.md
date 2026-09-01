@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-01 06:17:15
+🕐 **最近更新**：2026-09-01 10:52:31
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,9 +16,9 @@
 
 ## 🔥 今日热点
 
-1. [Instagram 对未公开的人工智能资料设置新限制](https://aihot.bt199.com/news/72b2e2fa1025/)
-   - 随着人们对人工智能影响者的不满情绪与日俱增，Instagram 正在限制未公开的人工智能个人资料的覆盖范围
-   - `TechCrunch AI · 2026-08-31`
+1. [苹果分享“令人震惊的证据”，指控前员工窃取 OpenAI 公司数据](https://aihot.bt199.com/news/00adf4a54ce8/)
+   - 苹果表示，有证据表明，一名前员工在得知自己正在接受调查后销毁了数据盗窃的证据
+   - `TechCrunch AI · 2026-09-01`
 
 2. [拥抱脸部黑客行为可能表明 OpenAI 存在文化问题](https://aihot.bt199.com/news/e985a8c11fb3/)
    - 这个故事最初出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。现在你可能已经听…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

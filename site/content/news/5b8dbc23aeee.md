@@ -20,7 +20,7 @@ ai_summary = "Relay 创始人兼首席执行官 Jacob Bank 表示：“我们有
 summary = "\"We have some really ambitious plans to help you work with AI in Chrome to get things done, and I’ll have more to share soon,\" Jacob Bank, Relay founder and CEO, said."
 summary_zh = "Relay 创始人兼首席执行官 Jacob Bank 表示：“我们有一些非常雄心勃勃的计划来帮助您在 Chrome 中使用人工智能来完成工作，我很快就会分享更多内容。”"
 tags = []
-list_page = 44
+list_page = 45
 +++
 
 <!-- AUTO-GENERATED: news page -->

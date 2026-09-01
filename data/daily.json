@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-08-31T22:16:21.504376",
-  "date": "2026-08-31",
+  "updated_at": "2026-09-01T02:51:52.427744",
+  "date": "2026-09-01",
   "spotlight": {
-    "id": "stable-diffusion",
-    "name": "Stable Diffusion",
-    "url": "https://stability.ai",
+    "id": "flux",
+    "name": "FLUX",
+    "url": "https://blackforestlabs.ai",
     "type": "tool",
-    "description": "开源图像生成模型，本地部署无限制",
-    "pricing": "开源免费",
+    "description": "新一代开源图像生成模型，质量超越 SD",
+    "pricing": "开源 + 商业 API",
     "category": "绘画"
   },
   "alternates": [
     {
-      "name": "SWE-Agent",
-      "url": "https://github.com/princeton-nlp/SWE-agent",
+      "name": "GPT Researcher",
+      "url": "https://github.com/assafelovic/gpt-researcher",
       "type": "agent",
-      "description": "普林斯顿开源的软件工程Agent",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "AI研究助手，自动搜索+分析+生成报告",
+      "pricing": "开源 + API费用",
+      "category": "研究 Agent"
     },
     {
-      "name": "Graphify",
-      "url": "https://github.com/safishamsi/graphify",
+      "name": "Browser Harness",
+      "url": "https://github.com/browser-use/browser-harness",
       "type": "agent",
-      "description": "将代码、文档、论文自动构建为可查询知识图谱，兼容 Claude Code/Cursor/Gemini CLI 等10+工具",
+      "description": "browser-use 团队发布的自愈式浏览器代理，LLM 可自动修复浏览器执行错误",
       "pricing": "免费",
-      "category": "编程 Agent"
+      "category": "浏览器 Agent"
     },
     {
-      "id": "codex-cli",
-      "name": "Codex CLI",
-      "url": "https://github.com/openai/codex",
+      "id": "codeium",
+      "name": "Codeium",
+      "url": "https://codeium.com",
       "type": "tool",
-      "description": "OpenAI 官方终端编程助手，轻量快速",
-      "pricing": "按 API 使用量计费",
+      "description": "免费 AI 代码补全和聊天，支持 70+ 编辑器",
+      "pricing": "个人免费 + Teams $12/月",
       "category": "编程"
     }
   ]
