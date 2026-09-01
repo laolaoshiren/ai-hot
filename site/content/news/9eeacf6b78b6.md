@@ -20,7 +20,7 @@ ai_summary = "达里奥·阿莫迪 (Dario Amodei) 反驳了他对人工智能描
 summary = "Dario Amodei is pushing back against the idea that he's been painting an overly pessimistic picture of AI."
 summary_zh = "达里奥·阿莫迪 (Dario Amodei) 反驳了他对人工智能描绘的过于悲观的看法"
 tags = []
-list_page = 49
+list_page = 50
 +++
 
 <!-- AUTO-GENERATED: news page -->

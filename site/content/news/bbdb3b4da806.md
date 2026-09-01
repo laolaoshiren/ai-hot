@@ -20,7 +20,7 @@ ai_summary = "根据周二发布的一篇博客文章，OpenAI 表示，其新�
 summary = "OpenAI says its new AI chip, Jalape&#241;o, completes tasks more efficiently and returns responses faster than other AI systems, according to a blog post published on Tuesday."
 summary_zh = "根据周二发布的一篇博客文章，OpenAI 表示，其新的人工智能芯片 Jalapeo 比其他人工智能系统更高效地完成任务，并且更快地返回响应。在向记者通报情况时，OpenAI 硬件副总裁 Richard Ho 表示 Jalapeo 提供了“两…"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->
