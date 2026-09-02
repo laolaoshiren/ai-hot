@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是「让产品在真实工业场景中持续生长」。"
 summary_zh = ""
 tags = []
-list_page = 16
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "在英伟达周三的财报电话会议上，首席执行官黄仁
 summary = "On Nvidia's earnings call Wednesday, CEO Jensen Huang casually announced the company had \"achieved AGI,\" one of the tech industry's ultimate goals some of its biggest players have spent years chasing."
 summary_zh = "在英伟达周三的财报电话会议上，首席执行官黄仁勋漫不经心地宣布该公司已经“实现了通用人工智能”，这是科技行业一些最大的参与者多年来一直在追求的最终目标之一。黄几乎立刻就驳斥了这一令人垂涎的里程碑，称其“毫无意义”。他是对的。为了支持"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->
