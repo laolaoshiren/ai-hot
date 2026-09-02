@@ -98,17 +98,16 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
-      "Gemini 3.7 Flash",
-      "Gemini 3.7 Flash (batch)",
-      "Gemini 3.6 Flash"
+      "Gemini 3.8 Flash",
+      "Gemini 3.8 Flash (batch)",
+      "Gemini 3.7 Flash"
     ],
-    "model_count": 41,
-    "last_updated": "2026-08-13",
+    "model_count": 43,
+    "last_updated": "2026-09-02",
     "modalities": [
-      "视频",
-      "多模态"
+      "视频"
     ],
-    "live_summary": "OpenRouter 已收录 41 个该作者/厂商相关模型，最近更新为 Gemini 3.7 Flash",
+    "live_summary": "OpenRouter 已收录 43 个该作者/厂商相关模型，最近更新为 Gemini 3.8 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=google.com&sz=64"
   },

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "智谱GLM-5.3首发上线范式PhanRouter，即日开放调用"
 summary_zh = ""
 tags = []
-list_page = 53
+list_page = 55
 +++
 
 <!-- AUTO-GENERATED: news page -->

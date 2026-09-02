@@ -20,7 +20,7 @@ ai_summary = "由 EDB 提出 随着企业赋予 AI 代理更多的自主权（�
 summary = "Presented by EDB As enterprises give AI agents more autonomy — the ability to plan, decide, and act across systems without a human approving each step..."
 summary_zh = "由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成为了每次架构审查的中心：当代理试图完成一项从未被授权执行的操作时，它会做什么？"
 tags = []
-list_page = 17
+list_page = 19
 +++
 
 <!-- AUTO-GENERATED: news page -->
