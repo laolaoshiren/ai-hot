@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据悉，下周，SK海力士、三星及铠侠三家存储龙头即将公布最新业绩。在市场对AI投资可持续性及存储长约可靠性的疑虑下，这几份财报也将成为检验巨头在这一轮周期中盈利能力的“试金石”。三份财报能否证明AI需求仍在转化为HBM、DRAM和企业级固态硬盘订单，或将影响下一阶段芯片股走势。（中新经纬）"
 summary_zh = ""
 tags = []
-list_page = 142
+list_page = 143
 +++
 
 <!-- AUTO-GENERATED: news page -->

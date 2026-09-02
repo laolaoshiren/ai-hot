@@ -20,7 +20,7 @@ ai_summary = "SpaceXAI 推出了 Grok Bot，这是一种始终在线的 AI 代�
 summary = "SpaceXAI has introduced Grok Bot, an always-on AI agent service designed to behave like independent \"AI teammates\" that can do your work for you."
 summary_zh = "SpaceXAI 推出了 Grok Bot，这是一种始终在线的 AI 代理服务，旨在像独立的“AI 队友”一样为您完成工作。这些机器人共享自己的基于云的计算机环境，并且可以登录您已使用的应用程序、工具和网站，以完成多步骤工作场所任务"
 tags = []
-list_page = 70
+list_page = 71
 +++
 
 <!-- AUTO-GENERATED: news page -->

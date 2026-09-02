@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-02 23:45:56
+🕐 **最近更新**：2026-09-03 04:23:36
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [PSA：亚马逊的购物人工智能现在可以告诉你该消息是否是骗局](https://aihot.bt199.com/news/45920ada7bdc/)
-   - 亚马逊正在为 Alexa for Shopping 添加诈骗检测功能，该功能可以验证可疑电子邮件、短信和其他消息是否确实…
+1. [OpenAI 的新推理技术给人工智能安全专家敲响了警钟](https://aihot.bt199.com/news/373be5400612/)
+   - OpenAI 的新 Astra 模型将使用“循环深度”技术，该技术允许模型在大多数推理模型所特有的顺序思维之外运行
    - `TechCrunch AI · 2026-09-02`
 
-2. [OpenAI 在数十起新诉讼中被指控“协助和教唆”Tumbler Ridge 大规模枪击事件](https://aihot.bt199.com/news/30718c32ade3/)
-   - 据 TechCrunch 早些时候报道，OpenAI 及其首席执行官 Sam Altman 面临 30 起新诉讼，指控他…
+2. [Pangram 的 Max Spero 解释了为什么人工智能检测比“真假”更难](https://aihot.bt199.com/news/b567a13a8234/)
+   - 互联网存在信任问题，这不仅仅是因为社交媒体中充斥着人工智能的废话。人工智能生成的文本和图像现在正在进入工作申请、产品评论…
+   - `TechCrunch AI · 2026-09-02`
+
+3. [谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高](https://aihot.bt199.com/news/53d98970a69c/)
+   - Google 推出了 Gemini 3.8 Flash，比其前身仅几周后就发布了。该公司声称，新模型比 Gemini 3…
    - `The Verge AI · 2026-09-02`
 
-3. [纽约市禁止学生在升入高中之前使用人工智能](https://aihot.bt199.com/news/24ecf9915c34/)
-   - 纽约市市长 Zohran Mamdani 今天宣布了一项新政策，禁止低年级学生在课堂上使用人工智能。为期一年的暂停令将于…
+4. [亚马逊的人工智能助手现在可以识别来自该公司的虚假电子邮件](https://aihot.bt199.com/news/dda939102732/)
+   - 亚马逊正试图通过一项新功能来打击假冒诈骗，该功能允许您使用其人工智能助手来确定电子邮件、短信或电话是否确实来自该公司。通…
    - `The Verge AI · 2026-09-02`
 
-4. [大规模简化 AI 集成](https://aihot.bt199.com/news/c0e30f013c2a/)
+5. [大规模简化 AI 集成](https://aihot.bt199.com/news/c0e30f013c2a/)
    - 随着公司规模的扩大，支持运营的技术可能会成为一种负债，就像它成为一种资产一样快。断开连接的系统、特定于站点的工具、电子表…
    - `MIT Tech Review · 2026-09-02`
 
-5. [下载：人工智能谜题和通往距离我们最近的恒星系统的路径](https://aihot.bt199.com/news/fdfd47cb2716/)
+6. [下载：人工智能谜题和通往距离我们最近的恒星系统的路径](https://aihot.bt199.com/news/fdfd47cb2716/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…
    - `MIT Tech Review · 2026-09-02`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
+9. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
    - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
    - `Ars Technica AI · 2026-08-27`
 
-9. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
    - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
    - `Ars Technica AI · 2026-08-28`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

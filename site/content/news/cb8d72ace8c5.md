@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，AI工作流如何从实验室的“惊艳一刻”走向产线的“日常运转”？当生成能力不再是门槛，规模化落地的瓶颈在哪里，人又该扮演什么角色？"
 summary_zh = ""
 tags = []
-list_page = 104
+list_page = 105
 +++
 
 <!-- AUTO-GENERATED: news page -->

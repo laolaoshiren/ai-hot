@@ -1,12 +1,80 @@
 {
   "data": [
     {
+      "id": "meta/muse-spark-1.3",
+      "canonical_slug": "meta/muse-spark-1.3-20260902",
+      "hugging_face_id": null,
+      "name": "Meta: Muse Spark 1.3",
+      "created": 1788378359,
+      "description": "Muse Spark 1.3 is a multimodal reasoning model from Meta for long-running agentic, multi-agent, and coding workflows. It is designed to keep track of information across extended tasks, work through...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.00000125",
+        "completion": "0.00000425",
+        "web_search": "0.0025",
+        "input_cache_read": "0.00000015"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta/muse-spark-1.3-20260902/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
       "id": "google/gemini-3.8-flash",
       "canonical_slug": "google/gemini-3.8-flash-20260902",
       "hugging_face_id": null,
       "name": "Google: Gemini 3.8 Flash",
       "created": 1788362056,
-      "description": "Gemini 3.8 Flash is Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows.",
+      "description": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
       "context_length": 1048576,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
@@ -78,7 +146,7 @@
       "hugging_face_id": null,
       "name": "Google: Gemini 3.8 Flash (batch)",
       "created": 1788362056,
-      "description": "Gemini 3.8 Flash is Google's most intelligent Flash model, engineered for long-horizon software engineering, autonomous agents, and complex enterprise workflows.",
+      "description": "Gemini 3.8 Flash is Google's most intelligent Flash model with significant gains from 3.7 Flash across software engineering, agentic tasks, and multi-step reasoning.",
       "context_length": 1048576,
       "architecture": {
         "modality": "text+image+file+audio+video->text",
@@ -138,6 +206,74 @@
           "high",
           "medium",
           "low"
+        ],
+        "default_effort": "medium"
+      }
+    },
+    {
+      "id": "meta/muse-spark-1.3-contributor",
+      "canonical_slug": "meta/muse-spark-1.3-contributor-20260902",
+      "hugging_face_id": null,
+      "name": "Meta: Muse Spark 1.3 Contributor",
+      "created": 1788360486,
+      "description": "Muse Spark 1.3 Contributor is the cost-efficient contributor tier of Meta’s multimodal reasoning model for experimentation, learning, and early-stage agentic, multi-agent, and coding workflows. It is designed to track information...",
+      "context_length": 1048576,
+      "architecture": {
+        "modality": "text+image+file+audio+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video",
+          "file",
+          "audio"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.0000001",
+        "completion": "0.0000002",
+        "web_search": "0.0025",
+        "input_cache_read": "0.000000002"
+      },
+      "top_provider": {
+        "context_length": 1048576,
+        "max_completion_tokens": 943718,
+        "is_moderated": true
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "include_reasoning",
+        "max_tokens",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/meta/muse-spark-1.3-contributor-20260902/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
         ],
         "default_effort": "medium"
       }
@@ -7633,9 +7769,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -9937,13 +10073,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000625",
-        "completion": "0.000003125",
-        "input_cache_read": "0.0000001875"
+        "prompt": "0.0000006",
+        "completion": "0.0000024",
+        "input_cache_read": "0.00000012"
       },
       "top_provider": {
-        "context_length": 256000,
-        "max_completion_tokens": 32768,
+        "context_length": 202800,
+        "max_completion_tokens": 182520,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -14703,9 +14839,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000001034256",
-        "completion": "0.000002068512",
-        "input_cache_read": "0.000000086188"
+        "prompt": "0.00000102747",
+        "completion": "0.00000205494",
+        "input_cache_read": "0.0000000856225"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -14861,9 +14997,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008554",
-        "completion": "0.00000017108",
-        "input_cache_read": "0.000000017108"
+        "prompt": "0.00000008246",
+        "completion": "0.00000016492",
+        "input_cache_read": "0.000000016492"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -39893,5 +40029,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-02T15:44:43.325020+00:00"
+  "updated_at": "2026-09-02T20:22:48.571451+00:00"
 }

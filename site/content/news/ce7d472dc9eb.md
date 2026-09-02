@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://cognition.com/blog/swe-1-7 评论网址：h
 summary = "Article URL: https://cognition.com/blog/swe-1-7 Comments URL: https://news.ycombinator.com/item?id=48833866 Points: 270 # Comments: 139"
 summary_zh = "文章网址：https://cognition.com/blog/swe-1-7 评论网址：https://news.ycombinator.com/item?id=48833866 积分：270 # 评论：139"
 tags = []
-list_page = 234
+list_page = 235
 +++
 
 <!-- AUTO-GENERATED: news page -->

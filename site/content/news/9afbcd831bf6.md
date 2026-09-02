@@ -20,7 +20,7 @@ ai_summary = "在新系统下，该协议将在服务器端对会话 ID 采取�
 summary = "Under the new system, the protocol will take a looser, \"stateless\" approach to session IDs on the server side, similar to how most ordinary websites already work."
 summary_zh = "在新系统下，该协议将在服务器端对会话 ID 采取更宽松的“无状态”方法，类似于大多数普通网站的工作方式"
 tags = []
-list_page = 170
+list_page = 171
 +++
 
 <!-- AUTO-GENERATED: news page -->
