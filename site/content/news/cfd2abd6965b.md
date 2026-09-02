@@ -20,7 +20,7 @@ ai_summary = "Figma 在其年度 Config 会议上公布了一些新的设计和�
 summary = "Figma has revealed some new design and coding product updates at its annual Config conference that aim to help creatives \"push their ideas further\" and automate tedious tasks with AI."
 summary_zh = "Figma 在其年度 Config 会议上公布了一些新的设计和编码产品更新，旨在帮助创意人员“进一步推动他们的想法”并利用人工智能自动执行繁琐的任务。据 Figma 称，其中一部分是重新设计的画布，现在针对全栈开发进行了优化，为"
 tags = []
-list_page = 313
+list_page = 314
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "使用便宜 100 倍的开放模型在检索中击败 GPT-5.6 Sol�
 summary = "Article URL: https://neon.com/blog/how-castform-neon-beats-frontier-models-on-price-and-efficiency Comments URL: https://news."
 summary_zh = "使用便宜 100 倍的开放模型在检索中击败 GPT-5.6 Sol。来源：Hacker News AI"
 tags = []
-list_page = 89
+list_page = 90
 +++
 
 <!-- AUTO-GENERATED: news page -->
