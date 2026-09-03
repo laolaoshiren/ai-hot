@@ -1,12 +1,5 @@
 [
   {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "chatgpt",
     "name": "ChatGPT",
     "url": "https://chat.openai.com",
@@ -1340,6 +1333,13 @@
     "id": "claude",
     "name": "Claude",
     "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
     "status": 403,
     "file": "tools.json"
   },

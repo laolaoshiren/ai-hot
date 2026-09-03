@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-03 18:30:40
+🕐 **最近更新**：2026-09-03 23:35:58
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,43 +16,39 @@
 
 ## 🔥 今日热点
 
-1. [消息人士称 Palo Alto Networks 斥资 5 亿美元购买 Thrive 支持的控制台](https://aihot.bt199.com/news/ef03c3a5f159/)
-   - 行业观察人士认为，此次收购还使红杉资本支持的 Serval 成为人工智能 IT 服务自动化领域事实上的初创企业领导者
-   - `TechCrunch AI · 2026-09-02`
+1. [谷歌最新的人工智能天气模型让你没有理由忘记带伞](https://aihot.bt199.com/news/9ebf8f5d0ca3/)
+   - 谷歌 Deepmind 和谷歌研究院的科学家今天发布了一种新的天气预报人工智能模型，可以更清楚地看到我们不断变化的大气并…
+   - `TechCrunch AI · 2026-09-03`
 
-2. [TechCrunch Disrupt 2026 的全新真实世界人工智能舞台以 Nvidia、机器人和灭绝动物为特色](https://aihot.bt199.com/news/7ae55826cb10/)
-   - 在我们新的现实世界人工智能舞台上，我们将重点关注数字和物理之间的交叉点，以及我们将继续看到两者融合的所有方式
-   - `TechCrunch AI · 2026-09-02`
+2. [英伟达确认将以 129 亿美元收购 Hugging Face](https://aihot.bt199.com/news/8c1744a63c35/)
+   - Nvidia 表示 Hugging Face 拥有超过 300 万个模型，并被超过 1800 万开发者使用
+   - `TechCrunch AI · 2026-09-03`
 
-3. [在整个企业范围内扩展代理人工智能试点](https://aihot.bt199.com/news/85cb7c596d40/)
+3. [谷歌表示其人工智能天气模型正在变得更好](https://aihot.bt199.com/news/a6e3ba40636b/)
+   - 谷歌正在推出一个更新的人工智能天气模型，该模型应该更加准确，特别是在预测降雨和降雪方面。在今天的公告中，该公司表示，现在…
+   - `The Verge AI · 2026-09-03`
+
+4. [下载：重新思考儿童安全和化石燃料农业](https://aihot.bt199.com/news/77da68a92e11/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。儿童监控应用程序可能需要重新启动数字…
+   - `MIT Tech Review · 2026-09-03`
+
+5. [在整个企业范围内扩展代理人工智能试点](https://aihot.bt199.com/news/85cb7c596d40/)
    - 随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…
    - `MIT Tech Review · 2026-09-03`
 
-4. [谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高](https://aihot.bt199.com/news/53d98970a69c/)
-   - Google 推出了 Gemini 3.8 Flash，比其前身仅几周后就发布了。该公司声称，新模型比 Gemini 3…
-   - `The Verge AI · 2026-09-02`
-
-5. [亚马逊的人工智能助手现在可以识别来自该公司的虚假电子邮件](https://aihot.bt199.com/news/dda939102732/)
-   - 亚马逊正试图通过一项新功能来打击假冒诈骗，该功能允许您使用其人工智能助手来确定电子邮件、短信或电话是否确实来自该公司。通…
-   - `The Verge AI · 2026-09-02`
-
-6. [大规模简化 AI 集成](https://aihot.bt199.com/news/c0e30f013c2a/)
-   - 随着公司规模的扩大，支持运营的技术可能会成为一种负债，就像它成为一种资产一样快。断开连接的系统、特定于站点的工具、电子表…
-   - `MIT Tech Review · 2026-09-02`
-
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
+8. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
    - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
    - `Ars Technica AI · 2026-08-27`
 
-10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+9. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
    - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
    - `Ars Technica AI · 2026-08-28`
 
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = "据英国《金融时报》报道，Kimi K3 将成为中国最大�
 summary = "The FT reports Kimi K3 will be the largest open AI model from China, with a parameter count between 2 trillion and 3 trillion."
 summary_zh = "据英国《金融时报》报道，Kimi K3 将成为中国最大的开放人工智能模型，参数数量在 2 万亿至 3 万亿之间"
 tags = []
-list_page = 197
+list_page = 198
 +++
 
 <!-- AUTO-GENERATED: news page -->
