@@ -428,14 +428,14 @@
       "Nemotron 3.5 Lightning (free)",
       "Nemotron 3.5 Content Safety (free)"
     ],
-    "model_count": 10,
+    "model_count": 9,
     "last_updated": "2026-08-11",
     "modalities": [
       "文本",
       "多模态",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Lightning",
+    "live_summary": "OpenRouter 已收录 9 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Lightning",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=64"
   },

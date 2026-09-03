@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-02T20:22:48.688880",
-  "date": "2026-09-02",
+  "updated_at": "2026-09-03T02:18:41.802969",
+  "date": "2026-09-03",
   "spotlight": {
-    "id": "comfyui",
-    "name": "ComfyUI",
-    "url": "https://github.com/comfyanonymous/ComfyUI",
+    "id": "dalle3",
+    "name": "DALL-E 3",
+    "url": "https://openai.com/dall-e-3",
     "type": "tool",
-    "description": "节点式 AI 绘画工作流引擎，最强可控性",
-    "pricing": "开源免费",
+    "description": "OpenAI 官方图像生成，ChatGPT Plus 内置",
+    "pricing": "ChatGPT Plus 内含",
     "category": "绘画"
   },
   "alternates": [
     {
-      "name": "STORM",
-      "url": "https://github.com/stanford-oval/storm",
+      "name": "SmolAgents",
+      "url": "https://github.com/huggingface/smolagents",
       "type": "agent",
-      "description": "斯坦福出品的AI知识文章生成器",
+      "description": "Hugging Face 轻量级 AI Agent 框架，主打代码优先、工具调用和快速搭建研究/自动化智能体。",
       "pricing": "开源免费",
       "category": "研究 Agent"
     },
     {
-      "name": "Autoresearch",
-      "url": "https://github.com/karpathy/autoresearch",
+      "name": "Crucix",
+      "url": "https://github.com/calesthio/Crucix",
       "type": "agent",
-      "description": "Karpathy 出品的自动研究 Agent，在单 GPU 上自动进行 nanochat 训练研究，自动化 AI 实验流程",
+      "description": "个人情报 Agent，持续监控多数据源并在发生变化时主动通知你，自动化信息追踪",
       "pricing": "免费开源",
-      "category": "研究 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "id": "continue",
-      "name": "Continue",
-      "url": "https://continue.dev",
+      "id": "windsurf",
+      "name": "Windsurf",
+      "url": "https://codeium.com/windsurf",
       "type": "tool",
-      "description": "开源 AI 编程助手，可接入任意 LLM",
-      "pricing": "开源免费",
+      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
+      "pricing": "免费 + Pro $15/月",
       "category": "编程"
     }
   ]

@@ -20,7 +20,7 @@ ai_summary = "关于我在写作过程中不使用人工智能的问题。来源
 summary = "Article URL: https://www.antipope.org/charlie/blog-static/2026/08/on-the-non-use-of-ai-in-my-wri."
 summary_zh = "关于我在写作过程中不使用人工智能的问题。来源：Hacker News AI"
 tags = []
-list_page = 110
+list_page = 111
 +++
 
 <!-- AUTO-GENERATED: news page -->

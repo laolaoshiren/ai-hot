@@ -20,7 +20,7 @@ ai_summary = "Ramp 推出了自己的人工智能模型路由服务，称为 Rou
 summary = "Ramp has launched its own AI model routing service, dubbed Router, that lets users and companies use and switch between various large language models via an API."
 summary_zh = "Ramp 推出了自己的人工智能模型路由服务，称为 Router，允许用户和公司通过 API 使用和切换各种大型语言模型"
 tags = []
-list_page = 41
+list_page = 42
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-03 04:23:36
+🕐 **最近更新**：2026-09-03 10:19:30
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [OpenAI 的新推理技术给人工智能安全专家敲响了警钟](https://aihot.bt199.com/news/373be5400612/)
-   - OpenAI 的新 Astra 模型将使用“循环深度”技术，该技术允许模型在大多数推理模型所特有的顺序思维之外运行
+1. [消息人士称 Palo Alto Networks 斥资 5 亿美元购买 Thrive 支持的控制台](https://aihot.bt199.com/news/ef03c3a5f159/)
+   - 行业观察人士认为，此次收购还使红杉资本支持的 Serval 成为人工智能 IT 服务自动化领域事实上的初创企业领导者
    - `TechCrunch AI · 2026-09-02`
 
-2. [Pangram 的 Max Spero 解释了为什么人工智能检测比“真假”更难](https://aihot.bt199.com/news/b567a13a8234/)
-   - 互联网存在信任问题，这不仅仅是因为社交媒体中充斥着人工智能的废话。人工智能生成的文本和图像现在正在进入工作申请、产品评论…
+2. [TechCrunch Disrupt 2026 的全新真实世界人工智能舞台以 Nvidia、机器人和灭绝动物为特色](https://aihot.bt199.com/news/7ae55826cb10/)
+   - 在我们新的现实世界人工智能舞台上，我们将重点关注数字和物理之间的交叉点，以及我们将继续看到两者融合的所有方式
    - `TechCrunch AI · 2026-09-02`
 
 3. [谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高](https://aihot.bt199.com/news/53d98970a69c/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
