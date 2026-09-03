@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-03T02:19:29.012827",
+  "updated_at": "2026-09-03T10:30:38.856397",
   "total": 10,
   "hot_list": [
     {
@@ -36,6 +36,24 @@
       "category": "资讯",
       "news_id": "7ae55826cb10",
       "internal_url": "https://aihot.bt199.com/news/7ae55826cb10/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "在整个企业范围内扩展代理人工智能试点",
+      "name": "在整个企业范围内扩展代理人工智能试点",
+      "title_zh": "在整个企业范围内扩展代理人工智能试点",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-03",
+      "time": "2026-09-03",
+      "description": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "subtitle": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "ai_summary": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "category": "资讯",
+      "news_id": "85cb7c596d40",
+      "internal_url": "https://aihot.bt199.com/news/85cb7c596d40/",
       "type_label": "📰 新闻"
     },
     {
@@ -90,24 +108,6 @@
       "category": "资讯",
       "news_id": "c0e30f013c2a",
       "internal_url": "https://aihot.bt199.com/news/c0e30f013c2a/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "name": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "title_zh": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-02",
-      "time": "2026-09-02",
-      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "category": "资讯",
-      "news_id": "fdfd47cb2716",
-      "internal_url": "https://aihot.bt199.com/news/fdfd47cb2716/",
       "type_label": "📰 新闻"
     },
     {
@@ -221,6 +221,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "在整个企业范围内扩展代理人工智能试点",
+      "name": "在整个企业范围内扩展代理人工智能试点",
+      "title_zh": "在整个企业范围内扩展代理人工智能试点",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-03",
+      "time": "2026-09-03",
+      "description": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "subtitle": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "ai_summary": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "category": "资讯",
+      "news_id": "85cb7c596d40",
+      "internal_url": "https://aihot.bt199.com/news/85cb7c596d40/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
       "name": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
       "title_zh": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
@@ -272,24 +290,6 @@
       "category": "资讯",
       "news_id": "c0e30f013c2a",
       "internal_url": "https://aihot.bt199.com/news/c0e30f013c2a/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "name": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "title_zh": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-02",
-      "time": "2026-09-02",
-      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "category": "资讯",
-      "news_id": "fdfd47cb2716",
-      "internal_url": "https://aihot.bt199.com/news/fdfd47cb2716/",
       "type_label": "📰 新闻"
     },
     {
@@ -409,6 +409,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "在整个企业范围内扩展代理人工智能试点",
+      "name": "在整个企业范围内扩展代理人工智能试点",
+      "title_zh": "在整个企业范围内扩展代理人工智能试点",
+      "url": "https://www.technologyreview.com/2026/09/03/1142868/scaling-agentic-ai-pilots-across-the-enterprise/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-03",
+      "time": "2026-09-03",
+      "description": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "subtitle": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "ai_summary": "随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…",
+      "category": "资讯",
+      "news_id": "85cb7c596d40",
+      "internal_url": "https://aihot.bt199.com/news/85cb7c596d40/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
       "name": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
       "title_zh": "谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高",
@@ -460,24 +478,6 @@
       "category": "资讯",
       "news_id": "c0e30f013c2a",
       "internal_url": "https://aihot.bt199.com/news/c0e30f013c2a/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "name": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "title_zh": "下载：人工智能谜题和通往距离我们最近的恒星系统的路径",
-      "url": "https://www.technologyreview.com/2026/09/02/1143283/the-download-ai-puzzles-alpha-centauri-mission/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-02",
-      "time": "2026-09-02",
-      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…",
-      "category": "资讯",
-      "news_id": "fdfd47cb2716",
-      "internal_url": "https://aihot.bt199.com/news/fdfd47cb2716/",
       "type_label": "📰 新闻"
     },
     {

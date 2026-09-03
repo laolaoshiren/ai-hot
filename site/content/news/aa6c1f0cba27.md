@@ -20,7 +20,7 @@ ai_summary = "TIME 为人工智能机器人提供了一个不同的网站，内�
 summary = "Article URL: https://www.vincentschmalbach.com/time-serves-ai-bots-a-different-website/ Comments URL: https://news."
 summary_zh = "TIME 为人工智能机器人提供了一个不同的网站，内置广告。来源：Hacker News AI"
 tags = []
-list_page = 96
+list_page = 97
 +++
 
 <!-- AUTO-GENERATED: news page -->

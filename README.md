@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-03 10:19:30
+🕐 **最近更新**：2026-09-03 18:30:40
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,20 +24,20 @@
    - 在我们新的现实世界人工智能舞台上，我们将重点关注数字和物理之间的交叉点，以及我们将继续看到两者融合的所有方式
    - `TechCrunch AI · 2026-09-02`
 
-3. [谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高](https://aihot.bt199.com/news/53d98970a69c/)
+3. [在整个企业范围内扩展代理人工智能试点](https://aihot.bt199.com/news/85cb7c596d40/)
+   - 随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…
+   - `MIT Tech Review · 2026-09-03`
+
+4. [谷歌称其新的 Gemini 3.8 Flash 型号“工作更努力”但可能成本更高](https://aihot.bt199.com/news/53d98970a69c/)
    - Google 推出了 Gemini 3.8 Flash，比其前身仅几周后就发布了。该公司声称，新模型比 Gemini 3…
    - `The Verge AI · 2026-09-02`
 
-4. [亚马逊的人工智能助手现在可以识别来自该公司的虚假电子邮件](https://aihot.bt199.com/news/dda939102732/)
+5. [亚马逊的人工智能助手现在可以识别来自该公司的虚假电子邮件](https://aihot.bt199.com/news/dda939102732/)
    - 亚马逊正试图通过一项新功能来打击假冒诈骗，该功能允许您使用其人工智能助手来确定电子邮件、短信或电话是否确实来自该公司。通…
    - `The Verge AI · 2026-09-02`
 
-5. [大规模简化 AI 集成](https://aihot.bt199.com/news/c0e30f013c2a/)
+6. [大规模简化 AI 集成](https://aihot.bt199.com/news/c0e30f013c2a/)
    - 随着公司规模的扩大，支持运营的技术可能会成为一种负债，就像它成为一种资产一样快。断开连接的系统、特定于站点的工具、电子表…
-   - `MIT Tech Review · 2026-09-02`
-
-6. [下载：人工智能谜题和通往距离我们最近的恒星系统的路径](https://aihot.bt199.com/news/fdfd47cb2716/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能模型搞砸了这些智力测试。你还…
    - `MIT Tech Review · 2026-09-02`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = "Hugging Face 首席执行官 Clem Delangue 表示，Microduck 是�
 summary = "Clem Delangue, CEO of Hugging Face, said the Microduck is an “open-source robot you can teach new tricks with reinforcement learning.”"
 summary_zh = "Hugging Face 首席执行官 Clem Delangue 表示，Microduck 是一款“开源机器人，你可以通过强化学习来教授新技巧。”"
 tags = []
-list_page = 19
+list_page = 20
 +++
 
 <!-- AUTO-GENERATED: news page -->

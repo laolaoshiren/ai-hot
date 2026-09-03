@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：152 # 评论：48"
 summary = "Article URL: https://arxiv.org/abs/2608.29530 Comments URL: https://news.ycombinator.com/item?id=49531651 Points: 152 # Comments: 48"
 summary_zh = "文章网址： 评论网址： 积分：152 # 评论：48"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->
