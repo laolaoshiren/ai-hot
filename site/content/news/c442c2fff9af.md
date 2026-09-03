@@ -20,7 +20,7 @@ ai_summary = "Naïve 进一步推进了振动编码，声称其基础设施可�
 summary = "Taking vibe-coding a step further, Naïve claims its infra can automate most of the work in setting up and running a business."
 summary_zh = "Naïve 进一步推进了振动编码，声称其基础设施可以自动化建立和运营企业的大部分工作"
 tags = []
-list_page = 91
+list_page = 92
 +++
 
 <!-- AUTO-GENERATED: news page -->

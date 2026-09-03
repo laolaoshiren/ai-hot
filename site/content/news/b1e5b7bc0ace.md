@@ -20,7 +20,7 @@ ai_summary = "20 世纪 90 年代，芭芭拉·舍伍德·洛勒 (Barbara Sherwo
 summary = "In the 1990s, Barbara Sherwood Lollar descended into the Kidd Creek mine in northern Ontario, which cuts more than three kilometers into the ancient root of North America."
 summary_zh = "20 世纪 90 年代，芭芭拉·舍伍德·洛勒 (Barbara Sherwood Lollar) 深入安大略省北部的基德溪 (Kidd Creek) 矿山，该矿深入北美古老的根源，长达三公里多。在那里，她的地球化学家团队发现了被封存在地下十…"
 tags = []
-list_page = 58
+list_page = 59
 +++
 
 <!-- AUTO-GENERATED: news page -->

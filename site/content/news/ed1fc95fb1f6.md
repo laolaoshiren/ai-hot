@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "从人类认知范式，构建Physical AGI"
 summary_zh = ""
 tags = []
-list_page = 219
+list_page = 220
 +++
 
 <!-- AUTO-GENERATED: news page -->
