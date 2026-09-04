@@ -20,7 +20,7 @@ ai_summary = "互联网存在信任问题，这不仅仅是因为社交媒体中
 summary = "The internet has a trust problem, and&#160;it’s&#160;not just because social media feeds are filling up with AI&#160;slop."
 summary_zh = "互联网存在信任问题，这不仅仅是因为社交媒体中充斥着人工智能的废话。人工智能生成的文本和图像现在正在进入工作申请、产品评论甚至保险索赔中，这让平台和用户都在争先恐后地寻找答案"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

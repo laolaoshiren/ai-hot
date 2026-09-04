@@ -3062,6 +3062,7 @@
         "frequency_penalty",
         "include_reasoning",
         "max_tokens",
+        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "response_format",
@@ -23089,6 +23090,7 @@
         "frequency_penalty",
         "include_reasoning",
         "max_tokens",
+        "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
         "response_format",
@@ -40370,5 +40372,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-04T02:14:08.887413+00:00"
+  "updated_at": "2026-09-04T10:17:10.781472+00:00"
 }

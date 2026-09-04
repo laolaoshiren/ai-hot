@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-04 10:15:01
+🕐 **最近更新**：2026-09-04 18:18:01
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,28 +16,28 @@
 
 ## 🔥 今日热点
 
-1. [据报道 Crusoe 以 30B 美元的估值筹集了 3B 美元](https://aihot.bt199.com/news/5737d6df236a/)
+1. [那些令人倒胃口的人工智能生成菜单背后的同一性问题](https://aihot.bt199.com/news/3e1ba23902a5/)
+   - 虽然餐厅老板可能会将生成式人工智能视为美化菜单的捷径，但顾客可以本能地感觉到食物出了问题
+   - `TechCrunch AI · 2026-09-04`
+
+2. [据报道 Crusoe 以 30B 美元的估值筹集了 3B 美元](https://aihot.bt199.com/news/5737d6df236a/)
    - 据报道，这家数据中心开发商与 Jane Street 签订了价值 130 亿美元的合同后，本轮融资就完成了
    - `TechCrunch AI · 2026-09-04`
 
-2. [Abliteration.ai 正在通过拆除人工智能护栏来做生意](https://aihot.bt199.com/news/f1f94c405560/)
-   - Abliteration.AI 正在使没有护栏的强大人工智能模型更容易访问，并认为为防御者提供与不良行为者相同的工具最终…
-   - `TechCrunch AI · 2026-09-03`
+3. [这家 NAS 公司想要运行您本地的智能家居](https://aihot.bt199.com/news/c372c8e22aea/)
+   - Ugreen 以其手机移动电源、充电器和 NAS 存储解决方案而闻名，正在大举进军智能家居。本周在 IFA 科技展上，该…
+   - `The Verge AI · 2026-09-04`
 
-3. [OpenAI的下一个大AI模型已经“进入AGI时代”](https://aihot.bt199.com/news/a94dc4fdbbc2/)
+4. [来自乌克兰无人机的数据正在推动新的狂野西部市场](https://aihot.bt199.com/news/16db96c97099/)
+   - 乌克兰战场上散落着无人机的残骸，无人机现已成为现代战争的关键武器。但在所有这些残骸的背后，有一个国防部门的新金矿。无人机…
+   - `MIT Tech Review · 2026-09-04`
+
+5. [OpenAI的下一个大AI模型已经“进入AGI时代”](https://aihot.bt199.com/news/a94dc4fdbbc2/)
    - OpenAI 的下一个大型模型就在这里：GPT-6 Astra。该公司称其为网络安全、专业工作、软件工程、科学和计算机使…
    - `The Verge AI · 2026-09-03`
 
-4. [Nvidia 推出免费工具，将闲置计算机连接到个人人工智能数据中心](https://aihot.bt199.com/news/bb7ed2dfbabb/)
-   - Nvidia 宣布推出新的个人 AI 路由器 (PAIR)，这是一款免费工具，可以同步您的家用计算机，以便与 Ollam…
-   - `The Verge AI · 2026-09-03`
-
-5. [下载：重新思考儿童安全和化石燃料农业](https://aihot.bt199.com/news/77da68a92e11/)
+6. [下载：重新思考儿童安全和化石燃料农业](https://aihot.bt199.com/news/77da68a92e11/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。儿童监控应用程序可能需要重新启动数字…
-   - `MIT Tech Review · 2026-09-03`
-
-6. [在整个企业范围内扩展代理人工智能试点](https://aihot.bt199.com/news/85cb7c596d40/)
-   - 随着代理人工智能从实验转向企业部署，面临的挑战是弄清楚代理如何协同工作，连接到他们所需的系统和数据，并在运行业务的工作流…
    - `MIT Tech Review · 2026-09-03`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

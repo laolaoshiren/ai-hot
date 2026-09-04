@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "韶音宣布与光帆科技达成AI技术合作，将上线基于光帆自研AI OS的效率功能合集——\"AI 实验室\""
 summary_zh = ""
 tags = []
-list_page = 47
+list_page = 48
 +++
 
 <!-- AUTO-GENERATED: news page -->

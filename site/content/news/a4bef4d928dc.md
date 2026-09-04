@@ -20,7 +20,7 @@ ai_summary = "谷歌正在为 Gmail、Docs 和 Keep 推出人工智能驱动的�
 summary = "Google is rolling out AI-powered voice assistant modes for Gmail, Docs, and Keep that allow you to manage the apps by talking to them."
 summary_zh = "谷歌正在为 Gmail、Docs 和 Keep 推出人工智能驱动的语音助手模式，让你可以通过与应用程序交谈来管理它们。实时对话功能称为 Gmail Live、Docs Live 和 Keep Live，与 Google 聊天机器人的 Gem…"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->
