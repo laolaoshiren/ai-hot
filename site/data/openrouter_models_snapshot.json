@@ -1,6 +1,64 @@
 {
   "data": [
     {
+      "id": "inclusionai/ling-3.0-flash-sante:free",
+      "canonical_slug": "inclusionai/ling-3.0-flash-sante-20260904",
+      "hugging_face_id": null,
+      "name": "inclusionAI: Ling 3.0 Flash Sante (free)",
+      "created": 1788545946,
+      "description": "Ling 3.0 Flash Sante is a health and medicine-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text->text",
+        "input_modalities": [
+          "text"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.0-flash-sante-20260904/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
+    {
       "id": "meta/muse-spark-1.3-contributor",
       "canonical_slug": "meta/muse-spark-1.3-contributor-20260902",
       "hugging_face_id": null,
@@ -59,6 +117,7 @@
       "reasoning": {
         "mandatory": true,
         "supported_efforts": [
+          "max",
           "xhigh",
           "high",
           "medium",
@@ -138,6 +197,7 @@
       "reasoning": {
         "mandatory": true,
         "supported_efforts": [
+          "max",
           "xhigh",
           "high",
           "medium",
@@ -790,7 +850,7 @@
       "id": "inclusionai/ling-3.0-flash-fin",
       "canonical_slug": "inclusionai/ling-3.0-flash-fin-20260827",
       "hugging_face_id": null,
-      "name": "Ling 3.0 Flash Fin",
+      "name": "inclusionAI: Ling 3.0 Flash Fin",
       "created": 1787846290,
       "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
       "context_length": 262144,
@@ -851,7 +911,7 @@
       "id": "inclusionai/ling-3.0-flash-fin:free",
       "canonical_slug": "inclusionai/ling-3.0-flash-fin-20260827",
       "hugging_face_id": null,
-      "name": "Ling 3.0 Flash Fin (free)",
+      "name": "inclusionAI: Ling 3.0 Flash Fin (free)",
       "created": 1787846290,
       "description": "Ling 3.0 Flash Fin is a finance-focused mixture-of-experts model from InclusionAI, built on Ling 3.0 Flash with 5.1B active parameters out of 124B total. It is designed for real-world investment...",
       "context_length": 262144,
@@ -4637,7 +4697,7 @@
       "id": "inclusionai/ling-3.0-flash",
       "canonical_slug": "inclusionai/ling-3.0-flash-20260723",
       "hugging_face_id": "inclusionAI/Ling-3.0-flash",
-      "name": "Ling-3.0-flash",
+      "name": "inclusionAI: Ling 3.0 Flash",
       "created": 1784818580,
       "description": "*Ling-3.0-flash* is a *124B-parameter Mixture-of-Experts (MoE) model*, with approximately *5.1B parameters activated per token*. The model is designed with *token efficiency and production-scale agentic inference* as key priorities, enabling developers...",
       "context_length": 262144,
@@ -7974,9 +8034,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -13354,76 +13414,6 @@
       }
     },
     {
-      "id": "ibm-granite/granite-4.1-8b",
-      "canonical_slug": "ibm-granite/granite-4.1-8b-20260429",
-      "hugging_face_id": "ibm-granite/granite-4.1-8b",
-      "name": "IBM: Granite 4.1 8B",
-      "created": 1777577071,
-      "description": "Granite 4.1 8B is a dense, decoder-only 8-billion-parameter language model from IBM, part of the Granite 4.1 family. It supports a 131K-token context window and is designed for enterprise tasks...",
-      "context_length": 131072,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.00000005",
-        "completion": "0.0000001",
-        "input_cache_read": "0.00000005"
-      },
-      "top_provider": {
-        "context_length": 131072,
-        "max_completion_tokens": 117964,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "repetition_penalty",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/ibm-granite/granite-4.1-8b-20260429/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 9.5,
-          "agentic_index": null
-        }
-      }
-    },
-    {
       "id": "mistralai/mistral-medium-3-5",
       "canonical_slug": "mistralai/mistral-medium-3.5-20260430",
       "hugging_face_id": null,
@@ -14511,13 +14501,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000006",
-        "completion": "0.0000036",
-        "input_cache_read": "0.00000012"
+        "prompt": "0.0000003",
+        "completion": "0.000002",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "max_completion_tokens": 65536,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -15208,9 +15198,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000102225",
-        "completion": "0.0000020445",
-        "input_cache_read": "0.0000000851875"
+        "prompt": "0.0000009918",
+        "completion": "0.0000019836",
+        "input_cache_read": "0.00000008265"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -15366,9 +15356,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008806",
-        "completion": "0.00000017612",
-        "input_cache_read": "0.000000017612"
+        "prompt": "0.0000000875",
+        "completion": "0.000000175",
+        "input_cache_read": "0.0000000175"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -20384,13 +20374,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.00000125",
-        "input_cache_read": "0.00000025"
+        "prompt": "0.00000008",
+        "completion": "0.00000075"
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 235929,
+        "max_completion_tokens": 16384,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -38775,7 +38764,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "logit_bias",
-        "logprobs",
         "max_tokens",
         "min_p",
         "presence_penalty",
@@ -38788,7 +38776,6 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {},
@@ -40400,5 +40387,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-04T15:33:00.643366+00:00"
+  "updated_at": "2026-09-04T20:08:08.717493+00:00"
 }

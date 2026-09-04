@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://mathstodon.xyz/@maxpool/117128107757895678 
 summary = "Article URL: https://mathstodon.xyz/@maxpool/117128107757895678 Comments URL: https://news."
 summary_zh = "文章网址：https://mathstodon.xyz/@maxpool/117128107757895678 评论网址：https://news.ycombinator.com/item?id=49382041 积分：183 # 评论：2…"
 tags = []
-list_page = 46
+list_page = 47
 +++
 
 <!-- AUTO-GENERATED: news page -->

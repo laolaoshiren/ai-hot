@@ -20,7 +20,7 @@ ai_summary = "这位传奇的谷歌高管与其他即将离任的谷歌高管一
 summary = "The legendary Google executive is joined by other outgoing Google execs in a joint mission to use AI to push forward the process of scientific discovery."
 summary_zh = "这位传奇的谷歌高管与其他即将离任的谷歌高管一起执行一项联合任务，利用人工智能推动科学发现的进程"
 tags = []
-list_page = 98
+list_page = 99
 +++
 
 <!-- AUTO-GENERATED: news page -->

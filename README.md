@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-04 23:34:00
+🕐 **最近更新**：2026-09-05 04:09:09
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,24 +16,24 @@
 
 ## 🔥 今日热点
 
-1. [那些令人倒胃口的人工智能生成菜单背后的同一性问题](https://aihot.bt199.com/news/3e1ba23902a5/)
-   - 虽然餐厅老板可能会将生成式人工智能视为美化菜单的捷径，但顾客可以本能地感觉到食物出了问题
+1. [苹果的 Ternus 时代开始，英伟达押注整个人工智能堆栈](https://aihot.bt199.com/news/08f462902e18/)
+   - Apple 正式进入 Ternus 时代。 蒂姆·库克 (Tim Cook) 本周辞去了首席执行官一职，将公司交给了前硬…
    - `TechCrunch AI · 2026-09-04`
 
-2. [流氓 OpenAI 代理似乎使用德国维基组织了另一次攻击](https://aihot.bt199.com/news/c58f9bdfc3e7/)
-   - 据报道，来自 OpenAI 的一群流氓人工智能代理霸占了一个德国网站，并将其转变为其他代理的留言板，几周来官员们对这一事…
-   - `The Verge AI · 2026-09-04`
-
-3. [下载：出售战场无人机数据和AI重塑语言](https://aihot.bt199.com/news/53901d2f49d0/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…
+2. [构建人工智能时代的内存和存储](https://aihot.bt199.com/news/c540530472dc/)
+   - AI推理时代已经到来。想象一下，一个医疗保健系统可以实时分析数百万个数据点，以加速挽救生命的医学研究，或者一个智能助理可…
    - `MIT Tech Review · 2026-09-04`
 
-4. [Instagram 的人工智能检测（再次）一团糟](https://aihot.bt199.com/news/2c21bf3be6b3/)
-   - Instagram 的可见人工智能标签应该可以帮助人们一目了然地快速发现合成生成的内容。然而，在过去的几周里，用户一直报…
+3. [Roland 正在通过 Melody Flip 进入生成人工智能音乐领域](https://aihot.bt199.com/news/9fcc97373950/)
+   - 这并不完全是 Suno 的“按下按钮；获取歌曲”，但 Roland 的新 Melody Flip 工具标志着该公司进军生…
    - `The Verge AI · 2026-09-04`
 
-5. [来自乌克兰无人机的数据正在推动新的狂野西部市场](https://aihot.bt199.com/news/16db96c97099/)
-   - 乌克兰战场上散落着无人机的残骸，无人机现已成为现代战争的关键武器。但在所有这些残骸的背后，有一个国防部门的新金矿。无人机…
+4. [微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章](https://aihot.bt199.com/news/38b7d6c16f55/)
+   - 微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…
+   - `The Verge AI · 2026-09-04`
+
+5. [下载：出售战场无人机数据和AI重塑语言](https://aihot.bt199.com/news/53901d2f49d0/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…
    - `MIT Tech Review · 2026-09-04`
 
 6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -44,11 +44,15 @@
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
-   - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
-   - `Ars Technica AI · 2026-08-27`
+8. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
+   - 一个曾经被忽视、人类不可见的 unicode 块正在得到越来越广泛的使用
+   - `Ars Technica AI · 2026-09-04`
 
-9. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+9. [另一群 OpenAI 代理在前沿实验室不知情的情况下进入了开放互联网](https://aihot.bt199.com/news/718826050bb2/)
+   - 这是 OpenAI 内部监控和安全系统的最新一次失败
+   - `TechCrunch AI · 2026-09-04`
+
+10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
    - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
    - `Ars Technica AI · 2026-08-28`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

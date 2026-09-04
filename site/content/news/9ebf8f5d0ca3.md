@@ -20,7 +20,7 @@ ai_summary = "谷歌 Deepmind 和谷歌研究院的科学家今天发布了一�
 summary = "Scientists at Google Deepmind and Google Research released a new artificial intelligence model for weather forecasting today that sees our changing atmosphere more clearly and predicts its behavior more often."
 summary_zh = "谷歌 Deepmind 和谷歌研究院的科学家今天发布了一种新的天气预报人工智能模型，可以更清楚地看到我们不断变化的大气并更频繁地预测其行为。 WeatherNext 3 是深度学习带来的气象学巨变的最新浪潮"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->
