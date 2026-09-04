@@ -20,7 +20,7 @@ ai_summary = "免费广告支持的流媒体电视 (FAST) 频道的吸引力始�
 summary = "The appeal of free ad-supported streaming television (FAST) channels has always been the way they make it easier to (re)discover classic films and series."
 summary_zh = "免费广告支持的流媒体电视 (FAST) 频道的吸引力始终在于它们让（重新）发现经典电影和电视剧变得更加容易。但 Roku 在 FAST 领域的最新实验与传统制作的娱乐内容关系不大，完全专注于为观众提供"
 tags = []
-list_page = 89
+list_page = 90
 +++
 
 <!-- AUTO-GENERATED: news page -->

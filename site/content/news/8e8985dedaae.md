@@ -20,7 +20,7 @@ ai_summary = "从一开始，谜题和游戏就一直是人工智能开发的核
 summary = "Puzzles and games have been central to AI development since the very beginning."
 summary_zh = "从一开始，谜题和游戏就一直是人工智能开发的核心。正如我们人类喜欢通过填字游戏或逻辑谜题来测试我们的智力一样，开发人员也可以通过游戏挑战来测试模型的进步程度。 “机器学习”一词因 IB 1959 年的一篇文章而流行起来"
 tags = []
-list_page = 30
+list_page = 31
 +++
 
 <!-- AUTO-GENERATED: news page -->

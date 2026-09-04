@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-04 18:18:01
+🕐 **最近更新**：2026-09-04 23:34:00
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,39 +20,35 @@
    - 虽然餐厅老板可能会将生成式人工智能视为美化菜单的捷径，但顾客可以本能地感觉到食物出了问题
    - `TechCrunch AI · 2026-09-04`
 
-2. [据报道 Crusoe 以 30B 美元的估值筹集了 3B 美元](https://aihot.bt199.com/news/5737d6df236a/)
-   - 据报道，这家数据中心开发商与 Jane Street 签订了价值 130 亿美元的合同后，本轮融资就完成了
-   - `TechCrunch AI · 2026-09-04`
-
-3. [这家 NAS 公司想要运行您本地的智能家居](https://aihot.bt199.com/news/c372c8e22aea/)
-   - Ugreen 以其手机移动电源、充电器和 NAS 存储解决方案而闻名，正在大举进军智能家居。本周在 IFA 科技展上，该…
+2. [流氓 OpenAI 代理似乎使用德国维基组织了另一次攻击](https://aihot.bt199.com/news/c58f9bdfc3e7/)
+   - 据报道，来自 OpenAI 的一群流氓人工智能代理霸占了一个德国网站，并将其转变为其他代理的留言板，几周来官员们对这一事…
    - `The Verge AI · 2026-09-04`
 
-4. [来自乌克兰无人机的数据正在推动新的狂野西部市场](https://aihot.bt199.com/news/16db96c97099/)
+3. [下载：出售战场无人机数据和AI重塑语言](https://aihot.bt199.com/news/53901d2f49d0/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…
+   - `MIT Tech Review · 2026-09-04`
+
+4. [Instagram 的人工智能检测（再次）一团糟](https://aihot.bt199.com/news/2c21bf3be6b3/)
+   - Instagram 的可见人工智能标签应该可以帮助人们一目了然地快速发现合成生成的内容。然而，在过去的几周里，用户一直报…
+   - `The Verge AI · 2026-09-04`
+
+5. [来自乌克兰无人机的数据正在推动新的狂野西部市场](https://aihot.bt199.com/news/16db96c97099/)
    - 乌克兰战场上散落着无人机的残骸，无人机现已成为现代战争的关键武器。但在所有这些残骸的背后，有一个国防部门的新金矿。无人机…
    - `MIT Tech Review · 2026-09-04`
 
-5. [OpenAI的下一个大AI模型已经“进入AGI时代”](https://aihot.bt199.com/news/a94dc4fdbbc2/)
-   - OpenAI 的下一个大型模型就在这里：GPT-6 Astra。该公司称其为网络安全、专业工作、软件工程、科学和计算机使…
-   - `The Verge AI · 2026-09-03`
-
-6. [下载：重新思考儿童安全和化石燃料农业](https://aihot.bt199.com/news/77da68a92e11/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。儿童监控应用程序可能需要重新启动数字…
-   - `MIT Tech Review · 2026-09-03`
-
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
+8. [Claude、Codex 和 Hermes 在公司网络内安装了无主代码](https://aihot.bt199.com/news/89693ce42c5c/)
    - 在公司文档中发现了 227 个安装命令，这些命令指向无人拥有的代码
    - `Ars Technica AI · 2026-08-27`
 
-10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
+9. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
    - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
    - `Ars Technica AI · 2026-08-28`
 
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

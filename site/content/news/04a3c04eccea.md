@@ -20,7 +20,7 @@ ai_summary = "这些数据是从受感染的 AI 软件包的 2,500 名用户中�
 summary = "The data was scraped and exfiltrated from 2,500 users of a compromised AI package."
 summary_zh = "这些数据是从受感染的 AI 软件包的 2,500 名用户中窃取和泄露的"
 tags = []
-list_page = 73
+list_page = 74
 +++
 
 <!-- AUTO-GENERATED: news page -->
