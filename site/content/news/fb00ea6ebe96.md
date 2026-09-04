@@ -20,7 +20,7 @@ ai_summary = "特朗普政府介入了《纽约时报》针对 OpenAI 的版权�
 summary = "The Trump administration has intervened in The New York Times' copyright lawsuit against OpenAI, making an argument in favor of the AI lab."
 summary_zh = "特朗普政府介入了《纽约时报》针对 OpenAI 的版权诉讼，为人工智能实验室做出了有利于其的论点。这起具有里程碑意义的诉讼于 2023 年 12 月提起，指控 OpenAI 根据《纽约时报》的文章非法训练其人工智能系统，并寻求收回“双倍损失…"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

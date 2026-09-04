@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-04 04:23:29
+🕐 **最近更新**：2026-09-04 10:15:01
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [Abliteration.ai 正在通过拆除人工智能护栏来做生意](https://aihot.bt199.com/news/f1f94c405560/)
-   - Abliteration.AI 正在使没有护栏的强大人工智能模型更容易访问，并认为为防御者提供与不良行为者相同的工具最终…
-   - `TechCrunch AI · 2026-09-03`
+1. [据报道 Crusoe 以 30B 美元的估值筹集了 3B 美元](https://aihot.bt199.com/news/5737d6df236a/)
+   - 据报道，这家数据中心开发商与 Jane Street 签订了价值 130 亿美元的合同后，本轮融资就完成了
+   - `TechCrunch AI · 2026-09-04`
 
-2. [Meta 正在付费查看你如何使用他们最新的人工智能模型](https://aihot.bt199.com/news/939cb98685e5/)
-   - 对于其用于操作编码和其他代理的新 Muse Spark 模型，Meta 为通过分享提示和模型输出为未来模型的开发“做出贡…
+2. [Abliteration.ai 正在通过拆除人工智能护栏来做生意](https://aihot.bt199.com/news/f1f94c405560/)
+   - Abliteration.AI 正在使没有护栏的强大人工智能模型更容易访问，并认为为防御者提供与不良行为者相同的工具最终…
    - `TechCrunch AI · 2026-09-03`
 
 3. [OpenAI的下一个大AI模型已经“进入AGI时代”](https://aihot.bt199.com/news/a94dc4fdbbc2/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

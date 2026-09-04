@@ -20,7 +20,7 @@ ai_summary = "石油基粘合剂无处不在：在建筑项目中粘合木材和
 summary = "Petroleum-based adhesives are everywhere: bonding the wood and drywall in a construction project, holding together the joints of furniture, and even sticking labels to otherwise recyclable containers."
 summary_zh = "石油基粘合剂无处不在：在建筑项目中粘合木材和干墙，将家具的接缝固定在一起，甚至将标签粘贴到可回收的容器上。 “容器上的标签是用石油基胶水粘住的。正因为如此，即使"
 tags = []
-list_page = 30
+list_page = 31
 +++
 
 <!-- AUTO-GENERATED: news page -->

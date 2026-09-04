@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-03T20:22:45.149457",
-  "date": "2026-09-03",
+  "updated_at": "2026-09-04T02:14:09.014817",
+  "date": "2026-09-04",
   "spotlight": {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
+    "id": "可灵",
+    "name": "可灵 AI",
+    "url": "https://klingai.com",
     "type": "tool",
-    "description": "OpenAI 官方图像生成，ChatGPT Plus 内置",
-    "pricing": "ChatGPT Plus 内含",
-    "category": "绘画"
+    "description": "快手出品的 AI 视频生成工具，国产最强",
+    "pricing": "免费 + 会员",
+    "category": "视频"
   },
   "alternates": [
     {
-      "name": "SmolAgents",
-      "url": "https://github.com/huggingface/smolagents",
+      "name": "AutoGPT",
+      "url": "https://github.com/Significant-Gravitas/AutoGPT",
       "type": "agent",
-      "description": "Hugging Face 轻量级 AI Agent 框架，主打代码优先、工具调用和快速搭建研究/自动化智能体。",
+      "description": "最早爆火的自主AI Agent框架",
       "pricing": "开源免费",
-      "category": "研究 Agent"
-    },
-    {
-      "name": "Crucix",
-      "url": "https://github.com/calesthio/Crucix",
-      "type": "agent",
-      "description": "个人情报 Agent，持续监控多数据源并在发生变化时主动通知你，自动化信息追踪",
-      "pricing": "免费开源",
       "category": "自动化 Agent"
     },
     {
-      "id": "windsurf",
-      "name": "Windsurf",
-      "url": "https://codeium.com/windsurf",
+      "name": "Agency Agents 中文版",
+      "url": "https://github.com/jnMetaCode/agency-agents-zh",
+      "type": "agent",
+      "description": "211 个即插即用的 AI 专家角色，支持 16 种工具（Hermes/Claude Code/Cursor/Copilot 等），覆盖 18 个部门，含 46 个中国市场原创智能体",
+      "pricing": "免费开源",
+      "category": "平台 Agent"
+    },
+    {
+      "id": "trae",
+      "name": "Trae",
+      "url": "https://trae.ai",
       "type": "tool",
-      "description": "Codeium 出品的 AI IDE，内置 Cascade 智能体",
-      "pricing": "免费 + Pro $15/月",
+      "description": "字节跳动出品的 AI IDE，中文友好",
+      "pricing": "免费",
       "category": "编程"
     }
   ]

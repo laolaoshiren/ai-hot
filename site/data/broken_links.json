@@ -1,12 +1,5 @@
 [
   {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "codeium",
     "name": "Codeium",
     "url": "https://codeium.com",
@@ -1228,6 +1221,13 @@
     "id": "claude",
     "name": "Claude",
     "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
     "status": 403,
     "file": "tools.json"
   },

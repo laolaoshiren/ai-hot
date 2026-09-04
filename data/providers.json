@@ -401,12 +401,12 @@
       "SpaceXAI: Grok 4.5",
       "SpaceXAI: Grok Build 0.1"
     ],
-    "model_count": 6,
+    "model_count": 7,
     "last_updated": "2026-08-12",
     "modalities": [
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 6 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.6",
+    "live_summary": "OpenRouter 已收录 7 个该作者/厂商相关模型，最近更新为 SpaceXAI: Grok 4.6",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=x.ai&sz=64"
   },
@@ -426,16 +426,16 @@
     "latest_models": [
       "Nemotron 3.5 Lightning",
       "Nemotron 3.5 Lightning (free)",
-      "Nemotron 3.5 Content Safety (free)"
+      "Nemotron 3.5 Content Safety"
     ],
-    "model_count": 9,
+    "model_count": 10,
     "last_updated": "2026-08-11",
     "modalities": [
       "文本",
       "多模态",
       "视频"
     ],
-    "live_summary": "OpenRouter 已收录 9 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Lightning",
+    "live_summary": "OpenRouter 已收录 10 个该作者/厂商相关模型，最近更新为 Nemotron 3.5 Lightning",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=nvidia.com&sz=64"
   },

@@ -11267,6 +11267,55 @@
     "collected_at": "2026-08-23T12:24:14.273656"
   },
   {
+    "id": "github-1339804397",
+    "name": "hallow-mk3/Lunaite",
+    "display_name": "Lunaite",
+    "url": "https://github.com/hallow-mk3/Lunaite",
+    "description": "A modular tool-selection harness and agent toolkit that retrieves relevant tools via dense & hybrid search, cutting token overhead and hallucinated calls.",
+    "stars": 7,
+    "forks": 6,
+    "language": "Python",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "autonomous-agents",
+      "deep-learning",
+      "huggingface",
+      "lora",
+      "mixture-of-experts",
+      "moe",
+      "ollama",
+      "pytorch",
+      "transformers"
+    ],
+    "created_at": "2026-08-19T16:37:05Z",
+    "updated_at": "2026-08-31T12:41:34Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-04T02:13:27.070241"
+  },
+  {
+    "id": "github-1355933553",
+    "name": "lucidrains/ccbp-pytorch",
+    "display_name": "ccbp-pytorch",
+    "url": "https://github.com/lucidrains/ccbp-pytorch",
+    "description": "Implementation of the proposed CCBP (Continuous Continual BackProp) in Pytorch",
+    "stars": 7,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "continual-learning",
+      "deep-learning",
+      "plasticity"
+    ],
+    "created_at": "2026-09-03T12:09:22Z",
+    "updated_at": "2026-09-04T01:42:15Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-04T02:13:27.070251"
+  },
+  {
     "id": "github-1213064866",
     "name": "abbosaliboev/free-ai-bible",
     "display_name": "free-ai-bible",

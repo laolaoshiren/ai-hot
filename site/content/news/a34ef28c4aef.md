@@ -20,7 +20,7 @@ ai_summary = "早期测试人员对 Instinct 的功能赞不绝口，但有些�
 summary = "Early testers are raving about what Instinct can do, but some say the AI assistant’s sweeping access, broad terms and ability to act on users’ behalf ..."
 summary_zh = "早期测试人员对 Instinct 的功能赞不绝口，但有些人表示，人工智能助手的广泛访问权限、广泛的术语和代表用户采取行动的能力会带来令人不安的权衡"
 tags = []
-list_page = 32
+list_page = 33
 +++
 
 <!-- AUTO-GENERATED: news page -->
