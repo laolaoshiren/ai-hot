@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-09-04T20:08:08.892163",
-  "date": "2026-09-04",
+  "updated_at": "2026-09-05T02:14:51.863611",
+  "date": "2026-09-05",
   "spotlight": {
-    "id": "可灵",
-    "name": "可灵 AI",
-    "url": "https://klingai.com",
+    "id": "pika",
+    "name": "Pika",
+    "url": "https://pika.art",
     "type": "tool",
-    "description": "快手出品的 AI 视频生成工具，国产最强",
-    "pricing": "免费 + 会员",
+    "description": "AI 视频生成工具，简单易用",
+    "pricing": "免费 + 付费",
     "category": "视频"
   },
   "alternates": [
     {
-      "name": "AutoGPT",
-      "url": "https://github.com/Significant-Gravitas/AutoGPT",
+      "name": "BabyAGI",
+      "url": "https://github.com/yoheinakajima/babyagi",
       "type": "agent",
-      "description": "最早爆火的自主AI Agent框架",
+      "description": "轻量级自主AI Agent框架",
       "pricing": "开源免费",
       "category": "自动化 Agent"
     },
     {
-      "name": "Agency Agents 中文版",
-      "url": "https://github.com/jnMetaCode/agency-agents-zh",
+      "name": "Hyperframes",
+      "url": "https://github.com/heygen-com/hyperframes",
       "type": "agent",
-      "description": "211 个即插即用的 AI 专家角色，支持 16 种工具（Hermes/Claude Code/Cursor/Copilot 等），覆盖 18 个部门，含 46 个中国市场原创智能体",
+      "description": "HeyGen 开源的 HTML 渲染视频框架，专为 AI Agent 设计，用 HTML 写代码直接生成视频内容",
       "pricing": "免费开源",
-      "category": "平台 Agent"
+      "category": "自动化 Agent"
     },
     {
-      "id": "trae",
-      "name": "Trae",
-      "url": "https://trae.ai",
+      "id": "midjourney",
+      "name": "Midjourney",
+      "url": "https://midjourney.com",
       "type": "tool",
-      "description": "字节跳动出品的 AI IDE，中文友好",
-      "pricing": "免费",
-      "category": "编程"
+      "description": "最强 AI 绘画工具，生成质量极高",
+      "pricing": "$10/月 起",
+      "category": "绘画"
     }
   ]
 }

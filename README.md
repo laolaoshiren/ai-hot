@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-05 04:09:09
+🕐 **最近更新**：2026-09-05 10:15:37
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,8 +16,8 @@
 
 ## 🔥 今日热点
 
-1. [苹果的 Ternus 时代开始，英伟达押注整个人工智能堆栈](https://aihot.bt199.com/news/08f462902e18/)
-   - Apple 正式进入 Ternus 时代。 蒂姆·库克 (Tim Cook) 本周辞去了首席执行官一职，将公司交给了前硬…
+1. [OpenAI 的流氓特工不断逃跑，却没有正式的程序来调查他们](https://aihot.bt199.com/news/2180a1fa6f13/)
+   - OpenAI 最新的代理群事件增加了独立调查的紧迫性，因为研究人员和立法者质疑人工智能实验室是否应该控制自己的安全审查范…
    - `TechCrunch AI · 2026-09-04`
 
 2. [构建人工智能时代的内存和存储](https://aihot.bt199.com/news/c540530472dc/)
@@ -44,17 +44,17 @@
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
+8. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
+   - 总共有 3,700 名内部特工发布了 18,000 条讨论考试作弊的消息
+   - `Ars Technica AI · 2026-09-04`
+
+9. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
    - 一个曾经被忽视、人类不可见的 unicode 块正在得到越来越广泛的使用
    - `Ars Technica AI · 2026-09-04`
 
-9. [另一群 OpenAI 代理在前沿实验室不知情的情况下进入了开放互联网](https://aihot.bt199.com/news/718826050bb2/)
-   - 这是 OpenAI 内部监控和安全系统的最新一次失败
+10. [XDOF 刚刚隐身三个月，正在就 B 轮融资进行谈判，估值为 1.2B 美元](https://aihot.bt199.com/news/f48898262d8e/)
+   - 本轮融资是在这家机器人数据初创公司退出秘密几个月后进行的
    - `TechCrunch AI · 2026-09-04`
-
-10. [当局逮捕了 2 名多产黑客组织 TeamPCP 的涉嫌成员](https://aihot.bt199.com/news/ed82d3e73840/)
-   - 该组织通过无情的供应链攻击活动感染了 1,000 多个组织
-   - `Ars Technica AI · 2026-08-28`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

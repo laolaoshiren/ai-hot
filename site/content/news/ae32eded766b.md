@@ -20,7 +20,7 @@ ai_summary = "据报道，苹果公司与国内科技巨头阿里巴巴一起为
 summary = "Apple has reportedly trained a custom AI model for the China market alongside domestic tech giant Alibaba, a rare cross-border partnership that cuts across growing tensions between Beijing and Washington."
 summary_zh = "据报道，苹果公司与国内科技巨头阿里巴巴一起为中国市场训练了一个定制的人工智能模型，这是一种罕见的跨境合作伙伴关系，可以缓解北京和华盛顿之间日益紧张的关系。与阿里巴巴合作开发的针对中国的大语言模型，并通过"
 tags = []
-list_page = 70
+list_page = 71
 +++
 
 <!-- AUTO-GENERATED: news page -->

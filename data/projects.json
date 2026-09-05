@@ -10354,6 +10354,32 @@
     "collected_at": "2026-09-02T15:43:55.255069"
   },
   {
+    "id": "github-1338779963",
+    "name": "686f6c61/radar-huggingface-dataset",
+    "display_name": "radar-huggingface-dataset",
+    "url": "https://github.com/686f6c61/radar-huggingface-dataset",
+    "description": "Dataset abierto de modelos de HuggingFace: metadatos curados y normalizados, licencias clasificadas, parámetros reales, tumbas de modelos retirados y ficha técnica en castellano por modelo. Actualización incremental 3 veces al día.",
+    "stars": 8,
+    "forks": 1,
+    "language": "JavaScript",
+    "topics": [
+      "artificial-intelligence",
+      "data-science",
+      "dataset",
+      "huggingface",
+      "huggingface-models",
+      "llm",
+      "machine-learning",
+      "open-data",
+      "spanish"
+    ],
+    "created_at": "2026-08-18T19:43:05Z",
+    "updated_at": "2026-09-04T22:32:31Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-09-05T02:14:10.583410"
+  },
+  {
     "id": "github-1201368235",
     "name": "fs0ci5ty/Artificial-Intelligence-Learning-Resources-Collection",
     "display_name": "Artificial-Intelligence-Learning-Resources-Collection",

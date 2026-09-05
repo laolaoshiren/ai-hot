@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "消息称，9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能"
 summary_zh = ""
 tags = []
-list_page = 10
+list_page = 11
 +++
 
 <!-- AUTO-GENERATED: news page -->
