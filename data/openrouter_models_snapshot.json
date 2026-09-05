@@ -2993,9 +2993,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000112068",
-        "completion": "0.00000336204",
-        "input_cache_read": "0.000000037356"
+        "prompt": "0.00000057948",
+        "completion": "0.00000173844",
+        "input_cache_read": "0.000000019316"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -8347,9 +8347,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -15511,9 +15511,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000870174",
-        "completion": "0.000001740348",
-        "input_cache_read": "0.0000000725145"
+        "prompt": "0.000000819366",
+        "completion": "0.000001638732",
+        "input_cache_read": "0.0000000682805"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -15669,9 +15669,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000000847",
-        "completion": "0.0000001694",
-        "input_cache_read": "0.00000001694"
+        "prompt": "0.00000008386",
+        "completion": "0.00000016772",
+        "input_cache_read": "0.000000016772"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -20687,11 +20687,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008",
-        "completion": "0.00000075"
+        "prompt": "0.0000003125",
+        "completion": "0.00000125",
+        "input_cache_read": "0.00000015625"
       },
       "top_provider": {
-        "context_length": 262144,
+        "context_length": 256000,
         "max_completion_tokens": 16384,
         "is_moderated": false
       },
@@ -40699,5 +40700,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-05T14:21:20.305579+00:00"
+  "updated_at": "2026-09-05T19:48:00.481044+00:00"
 }

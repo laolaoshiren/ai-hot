@@ -20,7 +20,7 @@ ai_summary = "OpenAI 和 Anthropic 之间正在展开一场竞争，看谁能为
 summary = "A competition is developing between OpenAI and Anthropic over who can provide the best privacy protections for enterprise customer data."
 summary_zh = "OpenAI 和 Anthropic 之间正在展开一场竞争，看谁能为企业客户数据提供最好的隐私保护"
 tags = []
-list_page = 53
+list_page = 54
 +++
 
 <!-- AUTO-GENERATED: news page -->
