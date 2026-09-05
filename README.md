@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-05 17:46:28
+🕐 **最近更新**：2026-09-05 22:21:53
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,16 +20,16 @@
    - OpenAI 最新的代理群事件增加了独立调查的紧迫性，因为研究人员和立法者质疑人工智能实验室是否应该控制自己的安全审查范…
    - `TechCrunch AI · 2026-09-04`
 
-2. [构建人工智能时代的内存和存储](https://aihot.bt199.com/news/c540530472dc/)
+2. [OpenAI 承认德国维基“事件”](https://aihot.bt199.com/news/b53a6cba2209/)
+   - OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…
+   - `The Verge AI · 2026-09-05`
+
+3. [构建人工智能时代的内存和存储](https://aihot.bt199.com/news/c540530472dc/)
    - AI推理时代已经到来。想象一下，一个医疗保健系统可以实时分析数百万个数据点，以加速挽救生命的医学研究，或者一个智能助理可…
    - `MIT Tech Review · 2026-09-04`
 
-3. [Roland 正在通过 Melody Flip 进入生成人工智能音乐领域](https://aihot.bt199.com/news/9fcc97373950/)
+4. [Roland 正在通过 Melody Flip 进入生成人工智能音乐领域](https://aihot.bt199.com/news/9fcc97373950/)
    - 这并不完全是 Suno 的“按下按钮；获取歌曲”，但 Roland 的新 Melody Flip 工具标志着该公司进军生…
-   - `The Verge AI · 2026-09-04`
-
-4. [微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章](https://aihot.bt199.com/news/38b7d6c16f55/)
-   - 微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…
    - `The Verge AI · 2026-09-04`
 
 5. [下载：出售战场无人机数据和AI重塑语言](https://aihot.bt199.com/news/53901d2f49d0/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

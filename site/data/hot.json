@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-05T09:46:26.546061",
+  "updated_at": "2026-09-05T14:21:51.465240",
   "total": 10,
   "hot_list": [
     {
@@ -18,6 +18,24 @@
       "category": "资讯",
       "news_id": "2180a1fa6f13",
       "internal_url": "https://aihot.bt199.com/news/2180a1fa6f13/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "OpenAI 承认德国维基“事件”",
+      "name": "OpenAI 承认德国维基“事件”",
+      "title_zh": "OpenAI 承认德国维基“事件”",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-09-05",
+      "time": "2026-09-05",
+      "description": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "subtitle": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "ai_summary": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "category": "资讯",
+      "news_id": "b53a6cba2209",
+      "internal_url": "https://aihot.bt199.com/news/b53a6cba2209/",
       "type_label": "📰 新闻"
     },
     {
@@ -54,24 +72,6 @@
       "category": "资讯",
       "news_id": "9fcc97373950",
       "internal_url": "https://aihot.bt199.com/news/9fcc97373950/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "name": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "title_zh": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-09-04",
-      "time": "2026-09-04",
-      "description": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "subtitle": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "ai_summary": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "category": "资讯",
-      "news_id": "38b7d6c16f55",
-      "internal_url": "https://aihot.bt199.com/news/38b7d6c16f55/",
       "type_label": "📰 新闻"
     },
     {
@@ -203,6 +203,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "OpenAI 承认德国维基“事件”",
+      "name": "OpenAI 承认德国维基“事件”",
+      "title_zh": "OpenAI 承认德国维基“事件”",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-09-05",
+      "time": "2026-09-05",
+      "description": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "subtitle": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "ai_summary": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "category": "资讯",
+      "news_id": "b53a6cba2209",
+      "internal_url": "https://aihot.bt199.com/news/b53a6cba2209/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "构建人工智能时代的内存和存储",
       "name": "构建人工智能时代的内存和存储",
       "title_zh": "构建人工智能时代的内存和存储",
@@ -236,24 +254,6 @@
       "category": "资讯",
       "news_id": "9fcc97373950",
       "internal_url": "https://aihot.bt199.com/news/9fcc97373950/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "name": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "title_zh": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-09-04",
-      "time": "2026-09-04",
-      "description": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "subtitle": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "ai_summary": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "category": "资讯",
-      "news_id": "38b7d6c16f55",
-      "internal_url": "https://aihot.bt199.com/news/38b7d6c16f55/",
       "type_label": "📰 新闻"
     },
     {
@@ -391,6 +391,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "OpenAI 承认德国维基“事件”",
+      "name": "OpenAI 承认德国维基“事件”",
+      "title_zh": "OpenAI 承认德国维基“事件”",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+      "type": "news",
+      "source": "The Verge AI",
+      "score": 13,
+      "detail": "2026-09-05",
+      "time": "2026-09-05",
+      "description": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "subtitle": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "ai_summary": "OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…",
+      "category": "资讯",
+      "news_id": "b53a6cba2209",
+      "internal_url": "https://aihot.bt199.com/news/b53a6cba2209/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "构建人工智能时代的内存和存储",
       "name": "构建人工智能时代的内存和存储",
       "title_zh": "构建人工智能时代的内存和存储",
@@ -424,24 +442,6 @@
       "category": "资讯",
       "news_id": "9fcc97373950",
       "internal_url": "https://aihot.bt199.com/news/9fcc97373950/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "name": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "title_zh": "微软表示几乎没有人通过其聊天机器人抓取《纽约时报》的文章",
-      "url": "https://www.theverge.com/policy/990267/microsoft-openai-new-york-times-authors-lawsuit",
-      "type": "news",
-      "source": "The Verge AI",
-      "score": 13,
-      "detail": "2026-09-04",
-      "time": "2026-09-04",
-      "description": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "subtitle": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "ai_summary": "微软在新的法律文件中表示，微软的 Copilot 很少复制新闻文章和书籍中的完整句子，更不用说可以替代原文的实质性内容了…",
-      "category": "资讯",
-      "news_id": "38b7d6c16f55",
-      "internal_url": "https://aihot.bt199.com/news/38b7d6c16f55/",
       "type_label": "📰 新闻"
     },
     {

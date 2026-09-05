@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：335 # 评论：70"
 summary = "Article URL: https://productrise.app/blog/google-ai-mode-prefers-more-expensive-products Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：335 # 评论：70"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
