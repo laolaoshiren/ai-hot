@@ -373,6 +373,78 @@
       }
     },
     {
+      "id": "qwen/qwen3.8-max-0902",
+      "canonical_slug": "qwen/qwen3.8-max-20260902",
+      "hugging_face_id": null,
+      "name": "Qwen: Qwen3.8 Max (0902)",
+      "created": 1788469704,
+      "description": "Qwen3.8 Max 0902 is an updated snapshot of Qwen3.8 Max from Alibaba's Qwen team. It is a 2.4-trillion-parameter mixture-of-experts model that accepts text, image, and video input and returns text,...",
+      "context_length": 1000000,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000002",
+        "completion": "0.000006",
+        "input_cache_read": "0.00000025",
+        "input_cache_write": "0.0000025"
+      },
+      "top_provider": {
+        "context_length": 1000000,
+        "max_completion_tokens": 131072,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/qwen/qwen3.8-max-20260902/endpoints"
+      },
+      "reasoning": {
+        "mandatory": true,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal"
+        ],
+        "default_effort": "xhigh"
+      }
+    },
+    {
       "id": "meta/muse-spark-1.3-contributor",
       "canonical_slug": "meta/muse-spark-1.3-contributor-20260902",
       "hugging_face_id": null,
@@ -3919,150 +3991,6 @@
           "minimal"
         ],
         "default_effort": "medium"
-      }
-    },
-    {
-      "id": "qwen/qwen3.8-max",
-      "canonical_slug": "qwen/qwen3.8-max-20260803",
-      "hugging_face_id": null,
-      "name": "Qwen: Qwen3.8 Max",
-      "created": 1785731612,
-      "description": "Qwen3.8 Max is the flagship model in Alibaba's Qwen3.8 series, the general-availability successor to the Qwen3.8 Max Preview. It is a multimodal reasoning model intended for complex reasoning, visual understanding,...",
-      "context_length": 1000000,
-      "architecture": {
-        "modality": "text+image+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Qwen",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0.000002",
-        "completion": "0.000006",
-        "input_cache_read": "0.00000025",
-        "input_cache_write": "0.0000025"
-      },
-      "top_provider": {
-        "context_length": 1000000,
-        "max_completion_tokens": 131072,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "frequency_penalty",
-        "include_reasoning",
-        "logprobs",
-        "max_tokens",
-        "presence_penalty",
-        "reasoning",
-        "reasoning_effort",
-        "response_format",
-        "seed",
-        "stop",
-        "structured_outputs",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_k",
-        "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {},
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/qwen/qwen3.8-max-20260803/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "agents",
-            "category": "fullstack",
-            "elo": 1321,
-            "win_rate": 65.2,
-            "rank": 4
-          },
-          {
-            "arena": "agents",
-            "category": "mobileapps",
-            "elo": 1261,
-            "win_rate": 55.8,
-            "rank": 5
-          },
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1335,
-            "win_rate": 64.1,
-            "rank": 2
-          },
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1366,
-            "win_rate": 59.5,
-            "rank": 4
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1309,
-            "win_rate": 54.6,
-            "rank": 10
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1279,
-            "win_rate": 52.5,
-            "rank": 22
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1327,
-            "win_rate": 56.1,
-            "rank": 10
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1354,
-            "win_rate": 60.5,
-            "rank": 4
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1295,
-            "win_rate": 52.8,
-            "rank": 16
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 53.4,
-          "coding_index": 68.9,
-          "agentic_index": 49.9
-        }
-      },
-      "reasoning": {
-        "mandatory": true,
-        "default_enabled": true,
-        "supported_efforts": [
-          "xhigh",
-          "high",
-          "medium",
-          "low",
-          "minimal"
-        ],
-        "default_effort": "xhigh"
       }
     },
     {
@@ -14281,9 +14209,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000025",
-        "completion": "0.000014",
-        "input_cache_read": "0.00000029"
+        "prompt": "0.00000255",
+        "completion": "0.00001275",
+        "input_cache_read": "0.00000025599999"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -15575,9 +15503,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000971442",
-        "completion": "0.000001942884",
-        "input_cache_read": "0.0000000809535"
+        "prompt": "0.000000910716",
+        "completion": "0.000001821432",
+        "input_cache_read": "0.000000075893"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -15733,9 +15661,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008722",
-        "completion": "0.00000017444",
-        "input_cache_read": "0.000000017444"
+        "prompt": "0.00000008526",
+        "completion": "0.00000017052",
+        "input_cache_read": "0.000000017052"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -40763,5 +40691,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-05T02:14:51.752702+00:00"
+  "updated_at": "2026-09-05T09:45:44.628561+00:00"
 }

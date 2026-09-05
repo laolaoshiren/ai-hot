@@ -20,7 +20,7 @@ ai_summary = "Hugging Face 被用来制作未经同意的 Deepfake，而流行�
 summary = "Hugging Face is being used to make nonconsensual deepfakes, and the popular open-source AI model repository is doing very little to prevent it."
 summary_zh = "Hugging Face 被用来制作未经同意的 Deepfake，而流行的开源 AI 模型存储库却没有采取任何措施来阻止这种情况。这是根据欧洲非营利组织 AI Forensics 发布的一份新报告得出的结论，该报告发现，排名前九的图像编辑模…"
 tags = []
-list_page = 141
+list_page = 143
 +++
 
 <!-- AUTO-GENERATED: news page -->

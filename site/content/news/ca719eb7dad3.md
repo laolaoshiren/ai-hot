@@ -20,7 +20,7 @@ ai_summary = "谷歌在拍卖中购买了坠毁航空公司 Spirit 的数据，�
 summary = "Article URL: https://www.theregister.com/ai-and-ml/2026/08/18/google-buys-crashed-airline-spirits-data-at-auction-because-ai/5288962 Comments URL: https://news."
 summary_zh = "谷歌在拍卖中购买了坠毁航空公司 Spirit 的数据，因为人工智能。来源：Hacker News AI"
 tags = []
-list_page = 58
+list_page = 59
 +++
 
 <!-- AUTO-GENERATED: news page -->

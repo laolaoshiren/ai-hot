@@ -153,18 +153,18 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "Qwen3.8 Max (0902)",
       "Qwen3.8 Flash",
-      "Qwen3.8 27B",
-      "Qwen3.8 2.4T A95B"
+      "Qwen3.8 27B"
     ],
     "model_count": 53,
-    "last_updated": "2026-08-26",
+    "last_updated": "2026-09-03",
     "modalities": [
       "视频",
       "文本",
       "多模态"
     ],
-    "live_summary": "OpenRouter 已收录 53 个该作者/厂商相关模型，最近更新为 Qwen3.8 Flash",
+    "live_summary": "OpenRouter 已收录 53 个该作者/厂商相关模型，最近更新为 Qwen3.8 Max (0902)",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=alibabacloud.com&sz=64"
   },
