@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-05T19:48:00.627384",
-  "date": "2026-09-05",
+  "updated_at": "2026-09-06T02:10:12.039020",
+  "date": "2026-09-06",
   "spotlight": {
-    "id": "pika",
-    "name": "Pika",
-    "url": "https://pika.art",
+    "id": "sora",
+    "name": "Sora",
+    "url": "https://sora.com",
     "type": "tool",
-    "description": "AI 视频生成工具，简单易用",
-    "pricing": "免费 + 付费",
+    "description": "OpenAI 视频生成模型，效果惊人",
+    "pricing": "ChatGPT Pro $200/月",
     "category": "视频"
   },
   "alternates": [
     {
-      "name": "BabyAGI",
-      "url": "https://github.com/yoheinakajima/babyagi",
+      "name": "AgentGPT",
+      "url": "https://agentgpt.reworkd.ai",
       "type": "agent",
-      "description": "轻量级自主AI Agent框架",
+      "description": "浏览器内直接使用的AI Agent平台",
+      "pricing": "免费 + Pro",
+      "category": "自动化 Agent"
+    },
+    {
+      "name": "CAMEL",
+      "url": "https://github.com/camel-ai/camel",
+      "type": "agent",
+      "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
       "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "category": "多 Agent"
     },
     {
-      "name": "Hyperframes",
-      "url": "https://github.com/heygen-com/hyperframes",
-      "type": "agent",
-      "description": "HeyGen 开源的 HTML 渲染视频框架，专为 AI Agent 设计，用 HTML 写代码直接生成视频内容",
-      "pricing": "免费开源",
-      "category": "自动化 Agent"
-    },
-    {
-      "id": "midjourney",
-      "name": "Midjourney",
-      "url": "https://midjourney.com",
+      "id": "stable-diffusion",
+      "name": "Stable Diffusion",
+      "url": "https://stability.ai",
       "type": "tool",
-      "description": "最强 AI 绘画工具，生成质量极高",
-      "pricing": "$10/月 起",
+      "description": "开源图像生成模型，本地部署无限制",
+      "pricing": "开源免费",
       "category": "绘画"
     }
   ]

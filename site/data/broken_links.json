@@ -1,12 +1,5 @@
 [
   {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
     "id": "windsurf",
     "name": "Windsurf",
     "url": "https://codeium.com/windsurf",
@@ -780,6 +773,13 @@
     "id": "claude",
     "name": "Claude",
     "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
     "status": 403,
     "file": "tools.json"
   },

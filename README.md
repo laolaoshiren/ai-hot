@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-06 03:48:42
+🕐 **最近更新**：2026-09-06 10:10:50
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,12 +16,12 @@
 
 ## 🔥 今日热点
 
-1. [使用 Google Gemini 进行规划后徒步旅行者获救](https://aihot.bt199.com/news/f774e48a95a8/)
-   - 治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”
+1. [《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物](https://aihot.bt199.com/news/8a7e0f31a983/)
+   - 另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能
    - `TechCrunch AI · 2026-09-05`
 
-2. [OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露](https://aihot.bt199.com/news/669fdcb55695/)
-   - OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色
+2. [使用 Google Gemini 进行规划后徒步旅行者获救](https://aihot.bt199.com/news/f774e48a95a8/)
+   - 治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”
    - `TechCrunch AI · 2026-09-05`
 
 3. [OpenAI 承认德国维基“事件”](https://aihot.bt199.com/news/b53a6cba2209/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

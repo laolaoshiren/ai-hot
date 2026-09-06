@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-09-05T19:48:40.130531",
+  "updated_at": "2026-09-06T02:10:48.186374",
   "total": 10,
   "hot_list": [
+    {
+      "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "name": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "title_zh": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-05",
+      "time": "2026-09-05",
+      "description": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "subtitle": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "ai_summary": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "category": "资讯",
+      "news_id": "8a7e0f31a983",
+      "internal_url": "https://aihot.bt199.com/news/8a7e0f31a983/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "使用 Google Gemini 进行规划后徒步旅行者获救",
       "name": "使用 Google Gemini 进行规划后徒步旅行者获救",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "f774e48a95a8",
       "internal_url": "https://aihot.bt199.com/news/f774e48a95a8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "name": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "title_zh": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-05",
-      "time": "2026-09-05",
-      "description": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "subtitle": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "ai_summary": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "category": "资讯",
-      "news_id": "669fdcb55695",
-      "internal_url": "https://aihot.bt199.com/news/669fdcb55695/",
       "type_label": "📰 新闻"
     },
     {
@@ -185,6 +185,24 @@
   ],
   "top_20": [
     {
+      "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "name": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "title_zh": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-05",
+      "time": "2026-09-05",
+      "description": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "subtitle": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "ai_summary": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "category": "资讯",
+      "news_id": "8a7e0f31a983",
+      "internal_url": "https://aihot.bt199.com/news/8a7e0f31a983/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "使用 Google Gemini 进行规划后徒步旅行者获救",
       "name": "使用 Google Gemini 进行规划后徒步旅行者获救",
       "title_zh": "使用 Google Gemini 进行规划后徒步旅行者获救",
@@ -200,24 +218,6 @@
       "category": "资讯",
       "news_id": "f774e48a95a8",
       "internal_url": "https://aihot.bt199.com/news/f774e48a95a8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "name": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "title_zh": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-05",
-      "time": "2026-09-05",
-      "description": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "subtitle": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "ai_summary": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "category": "资讯",
-      "news_id": "669fdcb55695",
-      "internal_url": "https://aihot.bt199.com/news/669fdcb55695/",
       "type_label": "📰 新闻"
     },
     {
@@ -373,6 +373,24 @@
   },
   "items": [
     {
+      "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "name": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "title_zh": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
+      "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-05",
+      "time": "2026-09-05",
+      "description": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "subtitle": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "ai_summary": "另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能",
+      "category": "资讯",
+      "news_id": "8a7e0f31a983",
+      "internal_url": "https://aihot.bt199.com/news/8a7e0f31a983/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "使用 Google Gemini 进行规划后徒步旅行者获救",
       "name": "使用 Google Gemini 进行规划后徒步旅行者获救",
       "title_zh": "使用 Google Gemini 进行规划后徒步旅行者获救",
@@ -388,24 +406,6 @@
       "category": "资讯",
       "news_id": "f774e48a95a8",
       "internal_url": "https://aihot.bt199.com/news/f774e48a95a8/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "name": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "title_zh": "OpenAI 确认“维基事件”，并表示正在“开发一个框架”以进行更多披露",
-      "url": "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-05",
-      "time": "2026-09-05",
-      "description": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "subtitle": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "ai_summary": "OpenAI 承认其在最近报道的一起人工智能代理接管德国维基论坛事件中所扮演的角色",
-      "category": "资讯",
-      "news_id": "669fdcb55695",
-      "internal_url": "https://aihot.bt199.com/news/669fdcb55695/",
       "type_label": "📰 新闻"
     },
     {
