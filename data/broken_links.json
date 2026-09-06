@@ -1,12 +1,5 @@
 [
   {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "sora",
     "name": "Sora",
     "url": "https://sora.com",
@@ -612,6 +605,13 @@
     "id": "claude",
     "name": "Claude",
     "url": "https://claude.ai",
+    "status": 403,
+    "file": "tools.json"
+  },
+  {
+    "id": "deepseek",
+    "name": "DeepSeek",
+    "url": "https://chat.deepseek.com",
     "status": 403,
     "file": "tools.json"
   },

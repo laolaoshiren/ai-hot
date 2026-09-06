@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-09-06T14:46:04.634982",
+  "updated_at": "2026-09-06T19:52:12.453672",
   "total": 10,
   "hot_list": [
+    {
+      "title": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "name": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "title_zh": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-06",
+      "time": "2026-09-06",
+      "description": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "subtitle": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "ai_summary": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "category": "资讯",
+      "news_id": "f33b1fcaa623",
+      "internal_url": "https://aihot.bt199.com/news/f33b1fcaa623/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
       "name": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "8a7e0f31a983",
       "internal_url": "https://aihot.bt199.com/news/8a7e0f31a983/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "name": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "title_zh": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-05",
-      "time": "2026-09-05",
-      "description": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "subtitle": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "ai_summary": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "category": "资讯",
-      "news_id": "f774e48a95a8",
-      "internal_url": "https://aihot.bt199.com/news/f774e48a95a8/",
       "type_label": "📰 新闻"
     },
     {
@@ -185,6 +185,24 @@
   ],
   "top_20": [
     {
+      "title": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "name": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "title_zh": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-06",
+      "time": "2026-09-06",
+      "description": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "subtitle": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "ai_summary": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "category": "资讯",
+      "news_id": "f33b1fcaa623",
+      "internal_url": "https://aihot.bt199.com/news/f33b1fcaa623/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
       "name": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
       "title_zh": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
@@ -200,24 +218,6 @@
       "category": "资讯",
       "news_id": "8a7e0f31a983",
       "internal_url": "https://aihot.bt199.com/news/8a7e0f31a983/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "name": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "title_zh": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-05",
-      "time": "2026-09-05",
-      "description": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "subtitle": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "ai_summary": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "category": "资讯",
-      "news_id": "f774e48a95a8",
-      "internal_url": "https://aihot.bt199.com/news/f774e48a95a8/",
       "type_label": "📰 新闻"
     },
     {
@@ -373,6 +373,24 @@
   },
   "items": [
     {
+      "title": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "name": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "title_zh": "Travis Kalanick 的 Atoms 可能会进军机器人出租车业务",
+      "url": "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-06",
+      "time": "2026-09-06",
+      "description": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "subtitle": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "ai_summary": "这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”",
+      "category": "资讯",
+      "news_id": "f33b1fcaa623",
+      "internal_url": "https://aihot.bt199.com/news/f33b1fcaa623/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
       "name": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
       "title_zh": "《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物",
@@ -388,24 +406,6 @@
       "category": "资讯",
       "news_id": "8a7e0f31a983",
       "internal_url": "https://aihot.bt199.com/news/8a7e0f31a983/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "name": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "title_zh": "使用 Google Gemini 进行规划后徒步旅行者获救",
-      "url": "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-05",
-      "time": "2026-09-05",
-      "description": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "subtitle": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "ai_summary": "治安官办公室表示，“双子座建议徒步旅行者携带的食物和水远少于团队所需的食物和水。”",
-      "category": "资讯",
-      "news_id": "f774e48a95a8",
-      "internal_url": "https://aihot.bt199.com/news/f774e48a95a8/",
       "type_label": "📰 新闻"
     },
     {
