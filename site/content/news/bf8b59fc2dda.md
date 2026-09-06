@@ -20,7 +20,7 @@ ai_summary = "据 Politico 报道，立法者正准备推出一项“人工智�
 summary = "Lawmakers are preparing to introduce an \"AI Kill Switch Act\" that would require AI companies to shut down or throttle their systems on orders from the Department of Homeland Security, according to a report from Politico."
 summary_zh = "据 Politico 报道，立法者正准备推出一项“人工智能终止开关法案”，要求人工智能公司根据国土安全部的命令关闭或限制其系统。众议员 Ted Lieu（加利福尼亚州民主党）和 Nathaniel Moran（德克萨斯州共和党）预计将介绍"
 tags = []
-list_page = 164
+list_page = 165
 +++
 
 <!-- AUTO-GENERATED: news page -->

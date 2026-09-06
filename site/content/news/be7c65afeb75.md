@@ -20,7 +20,7 @@ ai_summary = "OpenAI 预览了在准备发布其最新的网络关键法学硕�
 summary = "OpenAI previewed the precautions it is taking as it prepares to release Astra, its newest, cyber-critical LLM."
 summary_zh = "OpenAI 预览了在准备发布其最新的网络关键法学硕士 Astra 时所采取的预防措施"
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

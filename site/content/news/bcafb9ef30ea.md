@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "1.9万字全文实录"
 summary_zh = ""
 tags = []
-list_page = 70
+list_page = 71
 +++
 
 <!-- AUTO-GENERATED: news page -->
