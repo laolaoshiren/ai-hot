@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，Business Insider Meta pauses an AI training program that tracks employees' keystrokes after an."
 summary_zh = ""
 tags = []
-list_page = 340
+list_page = 341
 +++
 
 <!-- AUTO-GENERATED: news page -->

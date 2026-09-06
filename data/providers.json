@@ -291,13 +291,13 @@
       "GLM 5.3 Flash (batch)",
       "GLM 5.3"
     ],
-    "model_count": 16,
+    "model_count": 15,
     "last_updated": "2026-08-26",
     "modalities": [
       "视频",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 16 个该作者/厂商相关模型，最近更新为 GLM 5.3 Flash",
+    "live_summary": "OpenRouter 已收录 15 个该作者/厂商相关模型，最近更新为 GLM 5.3 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=z.ai&sz=64"
   },
