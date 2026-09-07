@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-07T11:12:55.586850",
+  "updated_at": "2026-09-07T16:59:19.040388",
   "total": 10,
   "hot_list": [
     {
@@ -18,6 +18,24 @@
       "category": "资讯",
       "news_id": "f33b1fcaa623",
       "internal_url": "https://aihot.bt199.com/news/f33b1fcaa623/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "name": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "title_zh": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-07",
+      "time": "2026-09-07",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "category": "资讯",
+      "news_id": "31c68cc130b0",
+      "internal_url": "https://aihot.bt199.com/news/31c68cc130b0/",
       "type_label": "📰 新闻"
     },
     {
@@ -72,24 +90,6 @@
       "category": "资讯",
       "news_id": "c540530472dc",
       "internal_url": "https://aihot.bt199.com/news/c540530472dc/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "下载：出售战场无人机数据和AI重塑语言",
-      "name": "下载：出售战场无人机数据和AI重塑语言",
-      "title_zh": "下载：出售战场无人机数据和AI重塑语言",
-      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-04",
-      "time": "2026-09-04",
-      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "category": "资讯",
-      "news_id": "53901d2f49d0",
-      "internal_url": "https://aihot.bt199.com/news/53901d2f49d0/",
       "type_label": "📰 新闻"
     },
     {
@@ -203,6 +203,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "name": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "title_zh": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-07",
+      "time": "2026-09-07",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "category": "资讯",
+      "news_id": "31c68cc130b0",
+      "internal_url": "https://aihot.bt199.com/news/31c68cc130b0/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
       "name": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
       "title_zh": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
@@ -254,24 +272,6 @@
       "category": "资讯",
       "news_id": "c540530472dc",
       "internal_url": "https://aihot.bt199.com/news/c540530472dc/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "下载：出售战场无人机数据和AI重塑语言",
-      "name": "下载：出售战场无人机数据和AI重塑语言",
-      "title_zh": "下载：出售战场无人机数据和AI重塑语言",
-      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-04",
-      "time": "2026-09-04",
-      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "category": "资讯",
-      "news_id": "53901d2f49d0",
-      "internal_url": "https://aihot.bt199.com/news/53901d2f49d0/",
       "type_label": "📰 新闻"
     },
     {
@@ -391,6 +391,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "name": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "title_zh": "下载：寻找地下氢气和更多流氓 OpenAI 代理",
+      "url": "https://www.technologyreview.com/2026/09/07/1143592/the-download-underground-hydrogen-search-rogue-openai-agents/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-07",
+      "time": "2026-09-07",
+      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…",
+      "category": "资讯",
+      "news_id": "31c68cc130b0",
+      "internal_url": "https://aihot.bt199.com/news/31c68cc130b0/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
       "name": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
       "title_zh": "西雅图时报和新闻日报起诉 OpenAI 和微软侵权",
@@ -442,24 +460,6 @@
       "category": "资讯",
       "news_id": "c540530472dc",
       "internal_url": "https://aihot.bt199.com/news/c540530472dc/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "下载：出售战场无人机数据和AI重塑语言",
-      "name": "下载：出售战场无人机数据和AI重塑语言",
-      "title_zh": "下载：出售战场无人机数据和AI重塑语言",
-      "url": "https://www.technologyreview.com/2026/09/04/1143457/the-download-ukraine-selling-drone-data-ai-reshaping-language/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-04",
-      "time": "2026-09-04",
-      "description": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "subtitle": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "ai_summary": "这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…",
-      "category": "资讯",
-      "news_id": "53901d2f49d0",
-      "internal_url": "https://aihot.bt199.com/news/53901d2f49d0/",
       "type_label": "📰 新闻"
     },
     {
