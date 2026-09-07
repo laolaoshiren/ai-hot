@@ -11311,180 +11311,6 @@
       }
     },
     {
-      "id": "minimax/minimax-m3:free",
-      "canonical_slug": "minimax/minimax-m3-20260531",
-      "hugging_face_id": "MiniMaxAI/Minimax-M3",
-      "name": "MiniMax: MiniMax M3 (free)",
-      "created": 1780245374,
-      "description": "MiniMax-M3 is a multimodal foundation model from MiniMax. It supports text, image, and video inputs with text output, a 1M-token context window, and is suited for long-horizon agentic work, coding,...",
-      "context_length": 1048576,
-      "architecture": {
-        "modality": "text+image+video->text",
-        "input_modalities": [
-          "text",
-          "image",
-          "video"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "temperature",
-        "tool_choice",
-        "tools",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/minimax/minimax-m3-20260531/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "agents",
-            "category": "agenticgamedev",
-            "elo": 1158,
-            "win_rate": 44.5,
-            "rank": 19
-          },
-          {
-            "arena": "agents",
-            "category": "androidnative",
-            "elo": 1171,
-            "win_rate": 43.7,
-            "rank": 23
-          },
-          {
-            "arena": "agents",
-            "category": "fullstack",
-            "elo": 1208,
-            "win_rate": 49.3,
-            "rank": 14
-          },
-          {
-            "arena": "agents",
-            "category": "htmlslides",
-            "elo": 1186,
-            "win_rate": 46.3,
-            "rank": 10
-          },
-          {
-            "arena": "agents",
-            "category": "mobileapps",
-            "elo": 1197,
-            "win_rate": 46.1,
-            "rank": 19
-          },
-          {
-            "arena": "agents",
-            "category": "python-pptxslides",
-            "elo": 1227,
-            "win_rate": 49.1,
-            "rank": 10
-          },
-          {
-            "arena": "agents",
-            "category": "webapps",
-            "elo": 1227,
-            "win_rate": 48.8,
-            "rank": 17
-          },
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1243,
-            "win_rate": 52.1,
-            "rank": 32
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1186,
-            "win_rate": 47.6,
-            "rank": 28
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1268,
-            "win_rate": 52.4,
-            "rank": 28
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1251,
-            "win_rate": 51.6,
-            "rank": 31
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1239,
-            "win_rate": 47.7,
-            "rank": 35
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1194,
-            "win_rate": 48.4,
-            "rank": 30
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1266,
-            "win_rate": 51.9,
-            "rank": 29
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1274,
-            "win_rate": 52.8,
-            "rank": 26
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": 35.7,
-          "coding_index": 58.6,
-          "agentic_index": 31
-        }
-      },
-      "reasoning": {
-        "mandatory": false
-      }
-    },
-    {
       "id": "stepfun/step-3.7-flash",
       "canonical_slug": "stepfun/step-3.7-flash-20260528",
       "hugging_face_id": "stepfun-ai/Step-3.7-Flash",
@@ -14058,9 +13884,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000255",
-        "completion": "0.00001275",
-        "input_cache_read": "0.00000025599999"
+        "prompt": "0.0000025",
+        "completion": "0.000014",
+        "input_cache_read": "0.00000029"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -18157,129 +17983,6 @@
         "tools",
         "top_k",
         "top_logprobs",
-        "top_p"
-      ],
-      "default_parameters": {
-        "temperature": 1,
-        "top_p": 0.95,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
-      "supported_voices": null,
-      "knowledge_cutoff": null,
-      "expiration_date": null,
-      "links": {
-        "details": "/api/v1/models/minimax/minimax-m2.7-20260318/endpoints"
-      },
-      "benchmarks": {
-        "design_arena": [
-          {
-            "arena": "models",
-            "category": "3d",
-            "elo": 1225,
-            "win_rate": 50.5,
-            "rank": 38
-          },
-          {
-            "arena": "models",
-            "category": "asciiart",
-            "elo": 1164,
-            "win_rate": 47.5,
-            "rank": 37
-          },
-          {
-            "arena": "models",
-            "category": "codecategories",
-            "elo": 1252,
-            "win_rate": 51.9,
-            "rank": 35
-          },
-          {
-            "arena": "models",
-            "category": "dataviz",
-            "elo": 1251,
-            "win_rate": 52.8,
-            "rank": 30
-          },
-          {
-            "arena": "models",
-            "category": "gamedev",
-            "elo": 1234,
-            "win_rate": 51.4,
-            "rank": 37
-          },
-          {
-            "arena": "models",
-            "category": "svg",
-            "elo": 1162,
-            "win_rate": 48.9,
-            "rank": 44
-          },
-          {
-            "arena": "models",
-            "category": "uicomponent",
-            "elo": 1232,
-            "win_rate": 49.4,
-            "rank": 41
-          },
-          {
-            "arena": "models",
-            "category": "website",
-            "elo": 1260,
-            "win_rate": 52.4,
-            "rank": 33
-          }
-        ],
-        "artificial_analysis": {
-          "intelligence_index": null,
-          "coding_index": 52.6,
-          "agentic_index": null
-        }
-      },
-      "reasoning": {
-        "mandatory": true
-      }
-    },
-    {
-      "id": "minimax/minimax-m2.7:free",
-      "canonical_slug": "minimax/minimax-m2.7-20260318",
-      "hugging_face_id": "MiniMaxAI/MiniMax-M2.7",
-      "name": "MiniMax: MiniMax M2.7 (free)",
-      "created": 1773836697,
-      "description": "MiniMax-M2.7 is a next-generation large language model designed for autonomous, real-world productivity and continuous improvement. Built to actively participate in its own evolution, M2.7 integrates advanced agentic capabilities through multi-agent...",
-      "context_length": 196608,
-      "architecture": {
-        "modality": "text->text",
-        "input_modalities": [
-          "text"
-        ],
-        "output_modalities": [
-          "text"
-        ],
-        "tokenizer": "Other",
-        "instruct_type": null
-      },
-      "pricing": {
-        "prompt": "0",
-        "completion": "0"
-      },
-      "top_provider": {
-        "context_length": 196608,
-        "max_completion_tokens": 176947,
-        "is_moderated": false
-      },
-      "per_request_limits": null,
-      "supported_parameters": [
-        "include_reasoning",
-        "max_tokens",
-        "reasoning",
-        "response_format",
-        "seed",
-        "temperature",
-        "tool_choice",
-        "tools",
         "top_p"
       ],
       "default_parameters": {
@@ -35866,8 +35569,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000025",
-        "completion": "0.000001"
+        "prompt": "0.00000029",
+        "completion": "0.00000114",
+        "input_cache_read": "0.00000011"
       },
       "top_provider": {
         "context_length": 163840,
@@ -40272,5 +39976,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-07T16:58:36.621839+00:00"
+  "updated_at": "2026-09-07T20:59:35.209578+00:00"
 }
