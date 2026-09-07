@@ -6099,6 +6099,35 @@
     "collected_at": "2026-05-25T19:19:15.147093"
   },
   {
+    "id": "github-1358679908",
+    "name": "Jaasssoooonnnnn/FirstLight_CR",
+    "display_name": "FirstLight_CR",
+    "url": "https://github.com/Jaasssoooonnnnn/FirstLight_CR",
+    "description": "Offline Clash Royale AI research: native simulation, imitation learning, PPO, and interactive evaluation. 离线对局模拟、模仿学习、强化学习与交互评测。",
+    "stars": 26,
+    "forks": 8,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "clash-royale",
+      "deep-learning",
+      "deep-reinforcement-learning",
+      "distributed-training",
+      "game-ai",
+      "imitation-learning",
+      "multi-agent",
+      "ppo",
+      "pytorch",
+      "reinforcement-learning",
+      "self-play"
+    ],
+    "created_at": "2026-09-06T01:07:06Z",
+    "updated_at": "2026-09-07T10:45:15Z",
+    "license": "Apache-2.0",
+    "source": "github-search",
+    "collected_at": "2026-09-07T11:11:08.917648"
+  },
+  {
     "id": "github-1191733857",
     "name": "lucidrains/RIM-pytorch",
     "display_name": "RIM-pytorch",
@@ -10451,6 +10480,32 @@
     "license": "MIT",
     "source": "github-search",
     "collected_at": "2026-09-07T02:06:47.804804"
+  },
+  {
+    "id": "github-1354763699",
+    "name": "Saganaki22/obs-dlss5-nr",
+    "display_name": "obs-dlss5-nr",
+    "url": "https://github.com/Saganaki22/obs-dlss5-nr",
+    "description": "Unofficial DLSS 5 Neural Rendering filter for OBS Studio.  runs NVIDIA DLSS 5 NR (NGX feature 18) on any video source (Game Capture, Media Source, Webcam, …) with a Default / Natural / Cinematic style selector",
+    "stars": 8,
+    "forks": 2,
+    "language": "C++",
+    "topics": [
+      "artificial-intelligence",
+      "dlss",
+      "dlss5",
+      "nvidia",
+      "nvidia-cuda",
+      "nvidia-gpu",
+      "obs-plugin",
+      "obs-studio",
+      "obs-studio-plugin"
+    ],
+    "created_at": "2026-09-02T12:53:46Z",
+    "updated_at": "2026-09-07T07:46:16Z",
+    "license": "GPL-2.0",
+    "source": "github-search",
+    "collected_at": "2026-09-07T11:11:08.917670"
   },
   {
     "id": "github-1201368235",
