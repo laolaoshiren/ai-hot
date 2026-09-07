@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-06T19:51:33.101109",
-  "date": "2026-09-06",
+  "updated_at": "2026-09-07T02:07:39.172018",
+  "date": "2026-09-07",
   "spotlight": {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "url": "https://chat.openai.com",
     "type": "tool",
-    "description": "OpenAI 视频生成模型，效果惊人",
-    "pricing": "ChatGPT Pro $200/月",
-    "category": "视频"
+    "description": "最流行的 AI 对话工具，OpenAI 出品",
+    "pricing": "免费 + Plus $20/月",
+    "category": "对话"
   },
   "alternates": [
     {
-      "name": "AgentGPT",
-      "url": "https://agentgpt.reworkd.ai",
+      "name": "SuperAGI",
+      "url": "https://github.com/TransformerOptimus/SuperAGI",
       "type": "agent",
-      "description": "浏览器内直接使用的AI Agent平台",
-      "pricing": "免费 + Pro",
+      "description": "开发者优先的开源自主AI Agent框架",
+      "pricing": "开源免费",
       "category": "自动化 Agent"
     },
     {
-      "name": "CAMEL",
-      "url": "https://github.com/camel-ai/camel",
+      "name": "MindSearch",
+      "url": "https://github.com/InternLM/MindSearch",
       "type": "agent",
-      "description": "首个多智能体框架，探索智能体的扩展定律，支持角色扮演和协作式AI任务",
+      "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "id": "stable-diffusion",
-      "name": "Stable Diffusion",
-      "url": "https://stability.ai",
+      "id": "flux",
+      "name": "FLUX",
+      "url": "https://blackforestlabs.ai",
       "type": "tool",
-      "description": "开源图像生成模型，本地部署无限制",
-      "pricing": "开源免费",
+      "description": "新一代开源图像生成模型，质量超越 SD",
+      "pricing": "开源 + 商业 API",
       "category": "绘画"
     }
   ]

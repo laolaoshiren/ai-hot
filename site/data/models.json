@@ -5393,6 +5393,34 @@
     "is_core": true
   },
   {
+    "id": "hf-DANNY621--H3-World",
+    "name": "DANNY621/H3-World",
+    "display_name": "H3-World",
+    "url": "https://huggingface.co/DANNY621/H3-World",
+    "author": "DANNY621",
+    "pipeline_tag": "image-to-video",
+    "likes": 71,
+    "downloads": 0,
+    "tags": [
+      "video",
+      "image-to-video",
+      "world-model",
+      "interactive-world-model",
+      "lora",
+      "diffusion",
+      "action-conditioning",
+      "game-world-model",
+      "arxiv:2609.01560",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-08-31T08:31:49.000Z",
+    "source": "hf-trending",
+    "collected_at": "2026-09-07T02:06:50.642673",
+    "display_priority": 146,
+    "is_core": true
+  },
+  {
     "id": "hf-NicoLab28--ClipProj-MiniMax-H3",
     "name": "NicoLab28/ClipProj-MiniMax-H3",
     "display_name": "ClipProj-MiniMax-H3",
@@ -5415,7 +5443,7 @@
     "created_at": "2026-08-09T09:41:21.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-11T01:06:48.457027",
-    "display_priority": 146,
+    "display_priority": 147,
     "is_core": true
   },
   {
@@ -5444,7 +5472,7 @@
     "created_at": "2026-07-18T11:47:54.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-20T19:29:47.924873",
-    "display_priority": 147,
+    "display_priority": 148,
     "is_core": true
   },
   {
@@ -5469,7 +5497,7 @@
     "created_at": "2026-05-08T13:09:29.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-11T02:28:58.864415",
-    "display_priority": 148,
+    "display_priority": 149,
     "is_core": true
   },
   {
@@ -5495,7 +5523,7 @@
     "created_at": "2026-08-17T08:38:34.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-25T12:33:11.624900",
-    "display_priority": 149,
+    "display_priority": 150,
     "is_core": true
   },
   {
@@ -5524,7 +5552,7 @@
     "created_at": "2026-06-09T04:03:30.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-17T11:23:27.131921",
-    "display_priority": 150,
+    "display_priority": 151,
     "is_core": true
   },
   {
@@ -5561,7 +5589,7 @@
     "created_at": "2026-05-13T16:23:12.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-20T08:57:46.993970",
-    "display_priority": 151,
+    "display_priority": 152,
     "is_core": true
   },
   {
@@ -5590,7 +5618,7 @@
     "created_at": "2026-07-31T14:09:23.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-05T08:23:38.326371",
-    "display_priority": 152,
+    "display_priority": 153,
     "is_core": true
   },
   {
@@ -5636,7 +5664,7 @@
     "created_at": "2026-07-27T11:48:45.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-29T01:52:33.710492",
-    "display_priority": 153,
+    "display_priority": 154,
     "is_core": true
   },
   {
@@ -5682,7 +5710,7 @@
     "created_at": "2026-07-27T12:18:40.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-29T13:51:31.073678",
-    "display_priority": 154,
+    "display_priority": 155,
     "is_core": true
   },
   {
@@ -5769,7 +5797,7 @@
     "created_at": "2026-04-20T15:16:51.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-02T09:54:05.323888",
-    "display_priority": 155,
+    "display_priority": 156,
     "is_core": true
   },
   {
@@ -5798,7 +5826,7 @@
     "created_at": "2026-07-10T08:41:49.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-14T13:15:50.410293",
-    "display_priority": 156,
+    "display_priority": 157,
     "is_core": true
   },
   {
@@ -5825,7 +5853,7 @@
     "created_at": "2026-07-19T12:55:10.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-22T19:01:50.559428",
-    "display_priority": 157,
+    "display_priority": 158,
     "is_core": true
   },
   {
@@ -5864,7 +5892,7 @@
     "created_at": "2026-04-01T22:06:52.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-15T08:42:52.438323",
-    "display_priority": 158,
+    "display_priority": 159,
     "is_core": true
   },
   {
@@ -5900,31 +5928,6 @@
     "created_at": "2026-05-19T08:19:23.000Z",
     "source": "hf-trending",
     "collected_at": "2026-07-09T14:37:44.644627",
-    "display_priority": 159,
-    "is_core": true
-  },
-  {
-    "id": "hf-robbyant--lingbot-world-v2-14b-causal-fast",
-    "name": "robbyant/lingbot-world-v2-14b-causal-fast",
-    "display_name": "lingbot-world-v2-14b-causal-fast",
-    "url": "https://huggingface.co/robbyant/lingbot-world-v2-14b-causal-fast",
-    "author": "robbyant",
-    "pipeline_tag": "image-to-video",
-    "likes": 55,
-    "downloads": 0,
-    "tags": [
-      "diffusers",
-      "safetensors",
-      "i2v",
-      "World Model",
-      "image-to-video",
-      "en",
-      "license:cc-by-nc-sa-4.0",
-      "region:us"
-    ],
-    "created_at": "2026-07-08T03:25:25.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-07-11T07:44:31.645469",
     "display_priority": 160,
     "is_core": true
   },

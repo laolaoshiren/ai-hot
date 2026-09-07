@@ -8630,6 +8630,36 @@
     "collected_at": "2026-08-24T12:32:38.893898"
   },
   {
+    "id": "github-1359059989",
+    "name": "Delinor-Hens/Vortex",
+    "display_name": "Vortex",
+    "url": "https://github.com/Delinor-Hens/Vortex",
+    "description": "ИИ под названием Vortex для любых задач. Сейчас уже доступна рабочая версия проекта, которая ежедневно улучшается",
+    "stars": 10,
+    "forks": 2,
+    "language": "C++",
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "core",
+      "cpp",
+      "cpp11",
+      "cpython",
+      "desktop-app",
+      "gui",
+      "llm",
+      "local-ai",
+      "local-first",
+      "localization",
+      "python"
+    ],
+    "created_at": "2026-09-06T11:05:41Z",
+    "updated_at": "2026-09-06T22:01:24Z",
+    "license": "GPL-3.0",
+    "source": "github-search",
+    "collected_at": "2026-09-07T02:06:47.804785"
+  },
+  {
     "id": "github-1205101736",
     "name": "antarr/mysql_genius",
     "display_name": "mysql_genius",
@@ -10401,6 +10431,26 @@
     "license": "",
     "source": "github-search",
     "collected_at": "2026-09-05T09:44:54.187889"
+  },
+  {
+    "id": "github-1359187566",
+    "name": "lucidrains/system2-attention",
+    "display_name": "system2-attention",
+    "url": "https://github.com/lucidrains/system2-attention",
+    "description": "Implementation of the procedure in Language Models Can Control Their Own Attention, from Namgyu Ho et al. of KAIST AI",
+    "stars": 8,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning"
+    ],
+    "created_at": "2026-09-06T13:52:58Z",
+    "updated_at": "2026-09-07T02:02:37Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-07T02:06:47.804804"
   },
   {
     "id": "github-1201368235",

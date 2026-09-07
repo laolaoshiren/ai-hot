@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-07 03:52:14
+🕐 **最近更新**：2026-09-07 10:08:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,9 +20,9 @@
    - 这位 Uber 创始人曾表示，Atoms 将让他完成“未竟的事业”
    - `TechCrunch AI · 2026-09-06`
 
-2. [《西雅图时报》和《新闻日报》是最新起诉 OpenAI 和微软的出版物](https://aihot.bt199.com/news/8a7e0f31a983/)
-   - 另外两家新闻机构正在起诉 OpenAI 和微软，指控其利用新闻报道来训练人工智能
-   - `TechCrunch AI · 2026-09-05`
+2. [西雅图时报和新闻日报起诉 OpenAI 和微软侵权](https://aihot.bt199.com/news/c6a48e7fbd07/)
+   - 《西雅图时报》和《新闻日报》是最新将 OpenAI 告上法庭的原告，指控其侵犯版权。这两家媒体表示，该公司未经许可使用他…
+   - `The Verge AI · 2026-09-06`
 
 3. [OpenAI 承认德国维基“事件”](https://aihot.bt199.com/news/b53a6cba2209/)
    - OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…
@@ -32,29 +32,29 @@
    - AI推理时代已经到来。想象一下，一个医疗保健系统可以实时分析数百万个数据点，以加速挽救生命的医学研究，或者一个智能助理可…
    - `MIT Tech Review · 2026-09-04`
 
-5. [Roland 正在通过 Melody Flip 进入生成人工智能音乐领域](https://aihot.bt199.com/news/9fcc97373950/)
-   - 这并不完全是 Suno 的“按下按钮；获取歌曲”，但 Roland 的新 Melody Flip 工具标志着该公司进军生…
-   - `The Verge AI · 2026-09-04`
-
-6. [下载：出售战场无人机数据和AI重塑语言](https://aihot.bt199.com/news/53901d2f49d0/)
+5. [下载：出售战场无人机数据和AI重塑语言](https://aihot.bt199.com/news/53901d2f49d0/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。来自乌克兰无人机的数据正在推动新的狂…
    - `MIT Tech Review · 2026-09-04`
 
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
+8. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
    - 总共有 3,700 名内部特工发布了 18,000 条讨论考试作弊的消息
    - `Ars Technica AI · 2026-09-04`
 
-10. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
+9. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
    - 一个曾经被忽视、人类不可见的 unicode 块正在得到越来越广泛的使用
    - `Ars Technica AI · 2026-09-04`
+
+10. [出版商和代理商对人择和解提出索赔，作者予以反击](https://aihot.bt199.com/news/3997b3420fb1/)
+   - 作者表示，出版商似乎要求支付超过其应得份额的和解金
+   - `TechCrunch AI · 2026-09-06`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
