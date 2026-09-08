@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-07T20:59:35.320460",
-  "date": "2026-09-07",
+  "updated_at": "2026-09-08T02:19:11.069957",
+  "date": "2026-09-08",
   "spotlight": {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
+    "id": "claude",
+    "name": "Claude",
+    "url": "https://claude.ai",
     "type": "tool",
-    "description": "最流行的 AI 对话工具，OpenAI 出品",
-    "pricing": "免费 + Plus $20/月",
+    "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
+    "pricing": "免费 + Pro $20/月",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "SuperAGI",
-      "url": "https://github.com/TransformerOptimus/SuperAGI",
+      "name": "CrewAI",
+      "url": "https://github.com/crewAIInc/crewAI",
       "type": "agent",
-      "description": "开发者优先的开源自主AI Agent框架",
-      "pricing": "开源免费",
-      "category": "自动化 Agent"
+      "description": "角色扮演式多Agent协作框架，Agent可分工合作",
+      "pricing": "开源 + Pro",
+      "category": "多 Agent"
     },
     {
-      "name": "MindSearch",
-      "url": "https://github.com/InternLM/MindSearch",
+      "name": "agentUniverse",
+      "url": "https://github.com/agentuniverse-ai/agentUniverse",
       "type": "agent",
-      "description": "基于LLM的多智能体搜索引擎框架，类似Perplexity Pro和SearchGPT的开源替代",
+      "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "id": "flux",
-      "name": "FLUX",
-      "url": "https://blackforestlabs.ai",
+      "id": "comfyui",
+      "name": "ComfyUI",
+      "url": "https://github.com/comfyanonymous/ComfyUI",
       "type": "tool",
-      "description": "新一代开源图像生成模型，质量超越 SD",
-      "pricing": "开源 + 商业 API",
+      "description": "节点式 AI 绘画工作流引擎，最强可控性",
+      "pricing": "开源免费",
       "category": "绘画"
     }
   ]
