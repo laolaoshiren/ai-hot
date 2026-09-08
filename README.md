@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-08 23:47:02
+🕐 **最近更新**：2026-09-09 04:35:24
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,28 +16,28 @@
 
 ## 🔥 今日热点
 
-1. [随着主权人工智能成为大生意，Mistral 筹集了 30 亿欧元](https://aihot.bt199.com/news/f37bc5517ee7/)
-   - 这家法国人工智能实验室在由三星、Scaleup Europe 和 PSG Equity 领投的 D 轮融资中筹集了 30…
+1. [Meta 首次推出 Muse AI 代理。消费者会信任它吗？](https://aihot.bt199.com/news/20d984cb02eb/)
+   - Meta 的新个人 AI 代理 Muse 希望访问用户的电子邮件、日历、支付、健康服务等，这是该公司最大的消费者 AI…
    - `TechCrunch AI · 2026-09-08`
 
-2. [不透明循环以及您可能应该知道的其他人工智能术语](https://aihot.bt199.com/news/a91b380c0f01/)
-   - 人工智能的兴起带来了大量新术语和俚语。这是一个词汇表，其中包含您可能遇到的一些最重要单词和短语的定义
-   - `TechCrunch AI · 2026-09-07`
+2. [纽约大学数学家表示，OpenAI 在影响职业生涯的数学问题上进行了肮脏的斗争](https://aihot.bt199.com/news/2372e1e4c414/)
+   - 第一个提供纳维-斯托克斯存在性和平滑性问题解决方案的人将获得 100 万美元的奖金
+   - `TechCrunch AI · 2026-09-08`
 
-3. [谷歌的人类基因组图谱可能为新疗法铺平道路](https://aihot.bt199.com/news/96b2ae8646c8/)
-   - 谷歌 DeepMind 推出了一款人工智能工具，科学家声称该工具可以帮助解开人类基因组之谜，改变我们对生物学的理解，加速…
+3. [ChatGPT Sketch 将你糟糕的绘图变成详细的 AI 图像](https://aihot.bt199.com/news/41a7f2063622/)
+   - OpenAI 于周二发布了 ChatGPT Images 2.5，并添加了一种新的方式来告诉 ChatGPT 你想要它制…
    - `The Verge AI · 2026-09-08`
 
-4. [Adobe 正试图使其 AI 生成器在 Premiere 中防白痴](https://aihot.bt199.com/news/926902b984e8/)
-   - Adobe 正在其 Premiere 专业视频编辑软件中彻底改革编辑人员与 AI 的交互方式。其新的生成媒体工具可以更轻…
+4. [Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上](https://aihot.bt199.com/news/f903c7006640/)
+   - Meta 正在通过 Muse 再次推动人工智能走向大众，Muse 是一款个人助理，据称可以将人工智能带到几乎任何人的手中…
    - `The Verge AI · 2026-09-08`
 
 5. [下载：今年 35 名 35 岁以下创新者](https://aihot.bt199.com/news/be434c4eb2bd/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍 2026 年 35 名 35…
    - `MIT Tech Review · 2026-09-08`
 
-6. [这位创始人正在教芯片如何回收（能量）](https://aihot.bt199.com/news/176099a4a9e6/)
-   - 纵观计算机芯片的历史，工程师们一直将废热视为计算中不可避免的成本。然而，汉娜·厄利 (Hannah Earley) 认为…
+6. [这位人工智能企业家正在开发能够提前计划意外情况的代理](https://aihot.bt199.com/news/f4a18652fbac/)
+   - 丹尼贾·哈夫纳 (Danijar Hafner) 位于旧金山 SoMa 区的办公室几乎空无一人。他的全新初创公司仍处于秘…
    - `MIT Tech Review · 2026-09-08`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
