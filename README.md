@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-08 18:23:58
+🕐 **最近更新**：2026-09-08 23:47:02
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,45 +16,45 @@
 
 ## 🔥 今日热点
 
-1. [不透明循环以及您可能应该知道的其他人工智能术语](https://aihot.bt199.com/news/a91b380c0f01/)
+1. [随着主权人工智能成为大生意，Mistral 筹集了 30 亿欧元](https://aihot.bt199.com/news/f37bc5517ee7/)
+   - 这家法国人工智能实验室在由三星、Scaleup Europe 和 PSG Equity 领投的 D 轮融资中筹集了 30…
+   - `TechCrunch AI · 2026-09-08`
+
+2. [不透明循环以及您可能应该知道的其他人工智能术语](https://aihot.bt199.com/news/a91b380c0f01/)
    - 人工智能的兴起带来了大量新术语和俚语。这是一个词汇表，其中包含您可能遇到的一些最重要单词和短语的定义
    - `TechCrunch AI · 2026-09-07`
 
-2. [下载：寻找地下氢气和更多流氓 OpenAI 代理](https://aihot.bt199.com/news/31c68cc130b0/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。地下还有多少氢气在等着我们？一系列的…
-   - `MIT Tech Review · 2026-09-07`
+3. [谷歌的人类基因组图谱可能为新疗法铺平道路](https://aihot.bt199.com/news/96b2ae8646c8/)
+   - 谷歌 DeepMind 推出了一款人工智能工具，科学家声称该工具可以帮助解开人类基因组之谜，改变我们对生物学的理解，加速…
+   - `The Verge AI · 2026-09-08`
 
-3. [西雅图时报和新闻日报起诉 OpenAI 和微软侵权](https://aihot.bt199.com/news/c6a48e7fbd07/)
-   - 《西雅图时报》和《新闻日报》是最新将 OpenAI 告上法庭的原告，指控其侵犯版权。这两家媒体表示，该公司未经许可使用他…
-   - `The Verge AI · 2026-09-06`
+4. [Adobe 正试图使其 AI 生成器在 Premiere 中防白痴](https://aihot.bt199.com/news/926902b984e8/)
+   - Adobe 正在其 Premiere 专业视频编辑软件中彻底改革编辑人员与 AI 的交互方式。其新的生成媒体工具可以更轻…
+   - `The Verge AI · 2026-09-08`
 
-4. [OpenAI 承认德国维基“事件”](https://aihot.bt199.com/news/b53a6cba2209/)
-   - OpenAI 表示，它需要彻底改革报告人工智能模型攻击现实世界目标的实例的方式和时间。该公司承认这一消息之际，正值该公司…
-   - `The Verge AI · 2026-09-05`
+5. [下载：今年 35 名 35 岁以下创新者](https://aihot.bt199.com/news/be434c4eb2bd/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍 2026 年 35 名 35…
+   - `MIT Tech Review · 2026-09-08`
 
-5. [构建人工智能时代的内存和存储](https://aihot.bt199.com/news/c540530472dc/)
-   - AI推理时代已经到来。想象一下，一个医疗保健系统可以实时分析数百万个数据点，以加速挽救生命的医学研究，或者一个智能助理可…
-   - `MIT Tech Review · 2026-09-04`
+6. [这位创始人正在教芯片如何回收（能量）](https://aihot.bt199.com/news/176099a4a9e6/)
+   - 纵观计算机芯片的历史，工程师们一直将废热视为计算中不可避免的成本。然而，汉娜·厄利 (Hannah Earley) 认为…
+   - `MIT Tech Review · 2026-09-08`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
+9. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
    - 总共有 3,700 名内部特工发布了 18,000 条讨论考试作弊的消息
    - `Ars Technica AI · 2026-09-04`
 
-9. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
+10. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
    - 一个曾经被忽视、人类不可见的 unicode 块正在得到越来越广泛的使用
    - `Ars Technica AI · 2026-09-04`
-
-10. [出版商和代理商对人择和解提出索赔，作者予以反击](https://aihot.bt199.com/news/3997b3420fb1/)
-   - 作者表示，出版商似乎要求支付超过其应得份额的和解金
-   - `TechCrunch AI · 2026-09-06`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
