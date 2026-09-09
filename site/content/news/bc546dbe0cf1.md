@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "终究还是喜提了「美国豆包」"
 summary_zh = ""
 tags = []
-list_page = 123
+list_page = 124
 +++
 
 <!-- AUTO-GENERATED: news page -->

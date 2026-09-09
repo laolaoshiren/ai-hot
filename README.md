@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-09 04:35:24
+🕐 **最近更新**：2026-09-09 10:23:33
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,45 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [Meta 首次推出 Muse AI 代理。消费者会信任它吗？](https://aihot.bt199.com/news/20d984cb02eb/)
-   - Meta 的新个人 AI 代理 Muse 希望访问用户的电子邮件、日历、支付、健康服务等，这是该公司最大的消费者 AI…
+1. [黑客正在从订阅者那里窃取克劳德代币](https://aihot.bt199.com/news/baf4c2ebabc9/)
+   - 上个月，一位 Claude 用户注意到他的帐户正在消耗代币，即使他没有工作。此后，Anthropic 向用户发出了关于黑…
    - `TechCrunch AI · 2026-09-08`
 
-2. [纽约大学数学家表示，OpenAI 在影响职业生涯的数学问题上进行了肮脏的斗争](https://aihot.bt199.com/news/2372e1e4c414/)
-   - 第一个提供纳维-斯托克斯存在性和平滑性问题解决方案的人将获得 100 万美元的奖金
-   - `TechCrunch AI · 2026-09-08`
+2. [戏剧围绕 OpenAI 的传奇数学里程碑展开](https://aihot.bt199.com/news/adeeaa461493/)
+   - 据《纽约时报》和《连线》早些时候报道，OpenAI 表示，它找到了一个大约 90 年来一直悬而未决的重大数学问题的解决方…
+   - `The Verge AI · 2026-09-08`
 
 3. [ChatGPT Sketch 将你糟糕的绘图变成详细的 AI 图像](https://aihot.bt199.com/news/41a7f2063622/)
    - OpenAI 于周二发布了 ChatGPT Images 2.5，并添加了一种新的方式来告诉 ChatGPT 你想要它制…
    - `The Verge AI · 2026-09-08`
 
-4. [Meta 押注 AI 代理 Muse 将在 AI 竞赛中迎头赶上](https://aihot.bt199.com/news/f903c7006640/)
-   - Meta 正在通过 Muse 再次推动人工智能走向大众，Muse 是一款个人助理，据称可以将人工智能带到几乎任何人的手中…
-   - `The Verge AI · 2026-09-08`
-
-5. [下载：今年 35 名 35 岁以下创新者](https://aihot.bt199.com/news/be434c4eb2bd/)
+4. [下载：今年 35 名 35 岁以下创新者](https://aihot.bt199.com/news/be434c4eb2bd/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。介绍 2026 年 35 名 35…
    - `MIT Tech Review · 2026-09-08`
 
-6. [这位人工智能企业家正在开发能够提前计划意外情况的代理](https://aihot.bt199.com/news/f4a18652fbac/)
-   - 丹尼贾·哈夫纳 (Danijar Hafner) 位于旧金山 SoMa 区的办公室几乎空无一人。他的全新初创公司仍处于秘…
+5. [这位创始人正在教芯片如何回收（能量）](https://aihot.bt199.com/news/176099a4a9e6/)
+   - 纵观计算机芯片的历史，工程师们一直将废热视为计算中不可避免的成本。然而，汉娜·厄利 (Hannah Earley) 认为…
    - `MIT Tech Review · 2026-09-08`
 
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
+8. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
    - 总共有 3,700 名内部特工发布了 18,000 条讨论考试作弊的消息
    - `Ars Technica AI · 2026-09-04`
 
-10. [曾经流行的攻击 AI 的 ASCII 走私现在受到垃圾邮件发送者的欢迎](https://aihot.bt199.com/news/2001b530f711/)
-   - 一个曾经被忽视、人类不可见的 unicode 块正在得到越来越广泛的使用
-   - `Ars Technica AI · 2026-09-04`
+9. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
+   - 在人工智能辅助攻击预计将到来之前，安全专家们正在发布补丁
+   - `Ars Technica AI · 2026-09-08`
 
 
 ## 🤖 AI 简报
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

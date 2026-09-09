@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-08T20:34:36.755189",
-  "date": "2026-09-08",
+  "updated_at": "2026-09-09T02:22:40.805208",
+  "date": "2026-09-09",
   "spotlight": {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
+    "id": "gemini",
+    "name": "Gemini",
+    "url": "https://gemini.google.com",
     "type": "tool",
-    "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
-    "pricing": "免费 + Pro $20/月",
+    "description": "Google 出品的 AI 对话工具，多模态能力强",
+    "pricing": "免费 + Advanced $20/月",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "CrewAI",
-      "url": "https://github.com/crewAIInc/crewAI",
+      "name": "MetaGPT",
+      "url": "https://github.com/geekan/MetaGPT",
       "type": "agent",
-      "description": "角色扮演式多Agent协作框架，Agent可分工合作",
-      "pricing": "开源 + Pro",
-      "category": "多 Agent"
-    },
-    {
-      "name": "agentUniverse",
-      "url": "https://github.com/agentuniverse-ai/agentUniverse",
-      "type": "agent",
-      "description": "蚂蚁集团开源的LLM多智能体框架，支持快速构建多Agent应用，集成丰富工具和知识库",
+      "description": "多Agent软件公司模拟，一个Agent扮演不同角色",
       "pricing": "开源免费",
       "category": "多 Agent"
     },
     {
-      "id": "comfyui",
-      "name": "ComfyUI",
-      "url": "https://github.com/comfyanonymous/ComfyUI",
+      "name": "Ralph",
+      "url": "https://github.com/snarktank/ralph",
+      "type": "agent",
+      "description": "自主循环式 AI Agent，会围绕产品需求反复执行任务，直到需求清单里的事项完成。",
+      "pricing": "开源免费",
+      "category": "自动化 Agent"
+    },
+    {
+      "id": "dalle3",
+      "name": "DALL-E 3",
+      "url": "https://openai.com/dall-e-3",
       "type": "tool",
-      "description": "节点式 AI 绘画工作流引擎，最强可控性",
-      "pricing": "开源免费",
+      "description": "OpenAI 官方图像生成，ChatGPT Plus 内置",
+      "pricing": "ChatGPT Plus 内含",
       "category": "绘画"
     }
   ]
