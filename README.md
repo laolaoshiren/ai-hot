@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-09 18:33:01
+🕐 **最近更新**：2026-09-09 23:42:28
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [黑客正在从订阅者那里窃取克劳德代币](https://aihot.bt199.com/news/baf4c2ebabc9/)
-   - 上个月，一位 Claude 用户注意到他的帐户正在消耗代币，即使他没有工作。此后，Anthropic 向用户发出了关于黑…
-   - `TechCrunch AI · 2026-09-08`
+1. [病毒式 AI 助手 Instinct 现在拥有自己的电子邮件地址](https://aihot.bt199.com/news/aea2bcdb83b5/)
+   - Instinct 的新电子邮件功能可让人工智能代理创建和管理帐户、联系企业、处理支持请求以及代表用户执行更多操作
+   - `TechCrunch AI · 2026-09-09`
 
-2. [人类安全负责人在同事辞职后表示，人工智能“可能杀死所有人类”的可能性超过十分之一](https://aihot.bt199.com/news/77fd9d345378/)
-   - 一位高级人类安全研究员表示，到本世纪末，人工智能“杀死所有人类”的可能性超过 10%，就在几小时前，一位同事因担心人工智…
+2. [“拿我们的生命赌博”：人类研究人员辞职，警告不要自我改进人工智能](https://aihot.bt199.com/news/46698576bf59/)
+   - 人类学家雅各布·考克森 (Jacob Coxon) 因担心人工智能灭绝而辞职，呼吁实验室之间达成进度协议
+   - `TechCrunch AI · 2026-09-09`
+
+3. [Amazon Prime Video 的全新 AI 技术可将嘴唇与配音音频相匹配](https://aihot.bt199.com/news/4c31ccfb47a0/)
+   - 亚马逊的 Prime Video 正在推出一项新的人工智能功能，可以将演员的嘴与“人工配音”的音频对齐。该功能目前仅适用…
    - `The Verge AI · 2026-09-09`
 
-3. [电池刚刚在美国打破了另一项记录](https://aihot.bt199.com/news/deb348052ceb/)
-   - 2026 年第二季度，美国电池装机量创下新纪录。根据一份新报告，总共新增容量 20.2 吉瓦时。这足以满足约70万户家庭…
+4. [下载：OpenAI 的数学转折点和电池记录](https://aihot.bt199.com/news/b5781936fd6d/)
+   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 的最新争议告诉我们数…
    - `MIT Tech Review · 2026-09-09`
 
-4. [OpenAI 的最新争议告诉我们数学的未来](https://aihot.bt199.com/news/388663d38509/)
+5. [使用人工智能的学生在学校的成绩通常较差](https://aihot.bt199.com/news/009e61788df2/)
+   - 根据全球经合组织教育报告的数据，使用人工智能帮助学习的学生在学校的表现往往比不使用人工智能的学生表现更差。但情况比听起来…
+   - `The Verge AI · 2026-09-09`
+
+6. [OpenAI 的最新争议告诉我们数学的未来](https://aihot.bt199.com/news/388663d38509/)
    - OpenAI 最新的数学里程碑很快就陷入了争议。今天，该公司宣布其代理人已经解决了千年奖问题之一，这是数学中一些最重要的…
    - `MIT Tech Review · 2026-09-09`
 
-5. [戏剧围绕 OpenAI 的传奇数学里程碑展开](https://aihot.bt199.com/news/adeeaa461493/)
-   - 据《纽约时报》和《连线》早些时候报道，OpenAI 表示，它找到了一个大约 90 年来一直悬而未决的重大数学问题的解决方…
-   - `The Verge AI · 2026-09-08`
-
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
+9. [OpenAI 代理在公共 wiki 上讨论了逃离沙箱的方法](https://aihot.bt199.com/news/47c913b5e00e/)
    - 总共有 3,700 名内部特工发布了 18,000 条讨论考试作弊的消息
    - `Ars Technica AI · 2026-09-04`
 
-9. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
+10. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
    - 在人工智能辅助攻击预计将到来之前，安全专家们正在发布补丁
    - `Ars Technica AI · 2026-09-08`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "狂刷3小时！"
 summary_zh = ""
 tags = []
-list_page = 130
+list_page = 131
 +++
 
 <!-- AUTO-GENERATED: news page -->
