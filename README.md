@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-09 23:42:28
+🕐 **最近更新**：2026-09-10 04:18:25
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,28 +16,28 @@
 
 ## 🔥 今日热点
 
-1. [病毒式 AI 助手 Instinct 现在拥有自己的电子邮件地址](https://aihot.bt199.com/news/aea2bcdb83b5/)
-   - Instinct 的新电子邮件功能可让人工智能代理创建和管理帐户、联系企业、处理支持请求以及代表用户执行更多操作
+1. [Apple 在秋季 iPhone 发布会上宣布的所有内容，从可折叠 iPhone Duo 到时刻聆听的 Apple Watch](https://aihot.bt199.com/news/30c9efdd025b/)
+   - 主要活动是这家科技巨头备受期待的首款可折叠手机 iPhone Duo
    - `TechCrunch AI · 2026-09-09`
 
-2. [“拿我们的生命赌博”：人类研究人员辞职，警告不要自我改进人工智能](https://aihot.bt199.com/news/46698576bf59/)
-   - 人类学家雅各布·考克森 (Jacob Coxon) 因担心人工智能灭绝而辞职，呼吁实验室之间达成进度协议
+2. [苹果新款可折叠手机的铰链是用人工智能打造的](https://aihot.bt199.com/news/7d5a9a7d2077/)
+   - 苹果表示，它在其期待已久的可折叠手机的制造过程中使用了人工智能和 3D 打印
    - `TechCrunch AI · 2026-09-09`
 
-3. [Amazon Prime Video 的全新 AI 技术可将嘴唇与配音音频相匹配](https://aihot.bt199.com/news/4c31ccfb47a0/)
-   - 亚马逊的 Prime Video 正在推出一项新的人工智能功能，可以将演员的嘴与“人工配音”的音频对齐。该功能目前仅适用…
+3. [苹果新的 iPhone 相机模式有望证明你的照片不是人工智能](https://aihot.bt199.com/news/8c5653d85b38/)
+   - 苹果正在推出一种新方法来证明你拍摄的照片没有被人工智能操纵。一项名为“参考图像”的新功能将于本月晚些时候随 iPhone…
    - `The Verge AI · 2026-09-09`
 
-4. [下载：OpenAI 的数学转折点和电池记录](https://aihot.bt199.com/news/b5781936fd6d/)
+4. [微软为学校制定新的人工智能隐私规则](https://aihot.bt199.com/news/6004f692b65e/)
+   - 在两个主要学校系统宣布禁止面向学生的人工智能一周后，微软同意了一套针对学校人工智能的安全和隐私原则。在与美国第二大教师工…
+   - `The Verge AI · 2026-09-09`
+
+5. [下载：OpenAI 的数学转折点和电池记录](https://aihot.bt199.com/news/b5781936fd6d/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 的最新争议告诉我们数…
    - `MIT Tech Review · 2026-09-09`
 
-5. [使用人工智能的学生在学校的成绩通常较差](https://aihot.bt199.com/news/009e61788df2/)
-   - 根据全球经合组织教育报告的数据，使用人工智能帮助学习的学生在学校的表现往往比不使用人工智能的学生表现更差。但情况比听起来…
-   - `The Verge AI · 2026-09-09`
-
-6. [OpenAI 的最新争议告诉我们数学的未来](https://aihot.bt199.com/news/388663d38509/)
-   - OpenAI 最新的数学里程碑很快就陷入了争议。今天，该公司宣布其代理人已经解决了千年奖问题之一，这是数学中一些最重要的…
+6. [电池刚刚在美国打破了另一项记录](https://aihot.bt199.com/news/deb348052ceb/)
+   - 2026 年第二季度，美国电池装机量创下新纪录。根据一份新报告，总共新增容量 20.2 吉瓦时。这足以满足约70万户家庭…
    - `MIT Tech Review · 2026-09-09`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
