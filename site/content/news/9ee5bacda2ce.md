@@ -20,7 +20,7 @@ ai_summary = "研究人员告诉 TechCrunch：“我们发现的绝大多数案�
 summary = "“The vast majority of cases we find are people who are entitled to claim for something, claiming for that thing,” the researcher told TechCrunch."
 summary_zh = "研究人员告诉 TechCrunch：“我们发现的绝大多数案例都是有权对某物提出索赔的人。”"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

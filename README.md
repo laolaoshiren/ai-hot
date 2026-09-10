@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-10 23:37:57
+🕐 **最近更新**：2026-09-11 04:19:46
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,21 +16,21 @@
 
 ## 🔥 今日热点
 
-1. [人工智能代理正在向公共服务提出新的要求](https://aihot.bt199.com/news/9ee5bacda2ce/)
-   - 研究人员告诉 TechCrunch：“我们发现的绝大多数案例都是有权对某物提出索赔的人。”
+1. [Meta 的 AI 代理 Muse 目前是美国排名第二的应用程序](https://aihot.bt199.com/news/4780951de096/)
+   - Meta 的最新应用程序 Muse 的启动速度比该公司的其他应用程序（例如 Meta AI 或 Threads）要慢
    - `TechCrunch AI · 2026-09-10`
 
-2. [Meta 的 Muse AI 很有效，让我毛骨悚然](https://aihot.bt199.com/news/bdd2b8a250a4/)
+2. [环球音乐与 ElevenLabs 合作推出人工智能音乐平台](https://aihot.bt199.com/news/f613fc1e895b/)
+   - 根据周四的公告，环球音乐集团正在推出一个新的人工智能平台，该平台将允许用户从其授权音乐目录中提取歌曲，以创建歌曲混音、混…
+   - `The Verge AI · 2026-09-10`
+
+3. [Meta 的 Muse AI 很有效，让我毛骨悚然](https://aihot.bt199.com/news/bdd2b8a250a4/)
    - Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以帮…
    - `The Verge AI · 2026-09-10`
 
-3. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
+4. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。上帝告诉他们要出售加密货币。他们的投…
    - `MIT Tech Review · 2026-09-10`
-
-4. [数学家想要证明 OpenAI 没有使用他们的工作成果](https://aihot.bt199.com/news/3aead6fbd813/)
-   - 另一位研究人员正在就数据驱动 OpenAI 不断取得令人印象深刻的数学发现向 OpenAI 发起挑战。就在围绕该公司的模…
-   - `The Verge AI · 2026-09-10`
 
 5. [为人工智能提供动力是一个架构问题](https://aihot.bt199.com/news/dcafb6d4ea46/)
    - 2026 年 7 月 22 日，弗吉尼亚州阿什本（全球最大数据中心集群的中心）发生输电线路故障，几秒钟内导致超过 3 吉…
@@ -48,7 +48,11 @@
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
 
-9. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
+9. [Anthropic 揭示了流氓人工智能代理讨厌验证码，就像你一样](https://aihot.bt199.com/news/9abc7cfd055a/)
+   - 走进机器人的内心世界，试图让互联网相信它是人类
+   - `TechCrunch AI · 2026-09-10`
+
+10. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
    - 在人工智能辅助攻击预计将到来之前，安全专家们正在发布补丁
    - `Ars Technica AI · 2026-09-08`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

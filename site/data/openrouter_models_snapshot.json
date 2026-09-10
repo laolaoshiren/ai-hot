@@ -1,6 +1,66 @@
 {
   "data": [
     {
+      "id": "inclusionai/ling-3.0-flash-vl:free",
+      "canonical_slug": "inclusionai/ling-3.0-flash-vl-20260910",
+      "hugging_face_id": "inclusionAI/Ling-3.0-flash-VL",
+      "name": "inclusionAI: Ling 3.0 Flash VL (free)",
+      "created": 1789056114,
+      "description": "Ling 3.0 Flash VL builds on Ling 3.0 Flash (124B total / 5.5B active MoE from InclusionAI), further strengthening its language capabilities while adding native visual perception and advanced visual...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image+video->text",
+        "input_modalities": [
+          "text",
+          "image",
+          "video"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Other",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0",
+        "completion": "0"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "repetition_penalty",
+        "seed",
+        "stop",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {},
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/inclusionai/ling-3.0-flash-vl-20260910/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true
+      }
+    },
+    {
       "id": "deepseek/deepseek-v4.1-flash",
       "canonical_slug": "deepseek/deepseek-v4.1-flash-20260910",
       "hugging_face_id": "deepseek-ai/DeepSeek-V4.1-Flash",
@@ -5014,7 +5074,6 @@
       "supported_parameters": [
         "frequency_penalty",
         "include_reasoning",
-        "logprobs",
         "max_tokens",
         "presence_penalty",
         "reasoning",
@@ -5023,7 +5082,6 @@
         "stop",
         "temperature",
         "tools",
-        "top_logprobs",
         "top_p"
       ],
       "default_parameters": {
@@ -8836,9 +8894,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -15638,9 +15696,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000095526",
-        "completion": "0.00000191052",
-        "input_cache_read": "0.000000079605"
+        "prompt": "0.00000087",
+        "completion": "0.00000174",
+        "input_cache_read": "0.0000000725"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -15796,9 +15854,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000008708",
-        "completion": "0.00000017416",
-        "input_cache_read": "0.000000017416"
+        "prompt": "0.000000084",
+        "completion": "0.000000168",
+        "input_cache_read": "0.0000000168"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -17076,12 +17134,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000007",
-        "completion": "0.00000034"
+        "prompt": "0.000000042",
+        "completion": "0.00000022"
       },
       "top_provider": {
-        "context_length": 262144,
-        "max_completion_tokens": 16384,
+        "context_length": 131072,
+        "max_completion_tokens": 32768,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -22170,13 +22228,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
-        "input_cache_read": "0.00000003"
+        "prompt": "0.00000027",
+        "completion": "0.00000108",
+        "input_cache_read": "0.000000027"
       },
       "top_provider": {
-        "context_length": 204800,
-        "max_completion_tokens": 131072,
+        "context_length": 200000,
+        "max_completion_tokens": 128000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -40894,5 +40952,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-10T15:36:56.218444+00:00"
+  "updated_at": "2026-09-10T20:18:56.272504+00:00"
 }
