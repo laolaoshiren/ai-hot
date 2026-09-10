@@ -125,17 +125,17 @@
     "api": true,
     "source": "openrouter",
     "latest_models": [
+      "DeepSeek V4.1 Flash",
       "DeepSeek V4 Flash Vision Exp",
-      "DeepSeek V4 Flash Vision Exp (batch)",
-      "DeepSeek V4 Pro 0813"
+      "DeepSeek V4 Flash Vision Exp (batch)"
     ],
-    "model_count": 17,
-    "last_updated": "2026-08-21",
+    "model_count": 18,
+    "last_updated": "2026-09-10",
     "modalities": [
       "多模态",
       "文本"
     ],
-    "live_summary": "OpenRouter 已收录 17 个该作者/厂商相关模型，最近更新为 DeepSeek V4 Flash Vision Exp",
+    "live_summary": "OpenRouter 已收录 18 个该作者/厂商相关模型，最近更新为 DeepSeek V4.1 Flash",
     "provider_kind": "model_author",
     "icon_url": "https://www.google.com/s2/favicons?domain=deepseek.com&sz=64"
   },

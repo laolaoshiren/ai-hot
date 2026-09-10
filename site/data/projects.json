@@ -8763,6 +8763,28 @@
     "collected_at": "2026-09-07T02:06:47.804785"
   },
   {
+    "id": "github-1360934358",
+    "name": "UMass-Embodied-AGI/SyncWorld",
+    "display_name": "SyncWorld",
+    "url": "https://github.com/UMass-Embodied-AGI/SyncWorld",
+    "description": "Source codes for the paper \"SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators\"",
+    "stars": 10,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "embodied-ai",
+      "robotics",
+      "video-generation",
+      "world-models"
+    ],
+    "created_at": "2026-09-08T04:50:12Z",
+    "updated_at": "2026-09-10T09:45:14Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-09-10T10:21:19.520438"
+  },
+  {
     "id": "github-1205101736",
     "name": "antarr/mysql_genius",
     "display_name": "mysql_genius",

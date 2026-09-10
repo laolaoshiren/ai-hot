@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-10 10:22:27
+🕐 **最近更新**：2026-09-10 18:23:13
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,20 +20,20 @@
    - Paul Christiano 是一位有影响力的人工智能研究员，专注于一致性，他将加入 OpenAI 基金会，成为其董事…
    - `TechCrunch AI · 2026-09-09`
 
-2. [Suno 发布首个在唱片业帮助下制作的 AI 音乐模型](https://aihot.bt199.com/news/65f77bd4eb92/)
+2. [医疗保健人工智能的下一个测试是集成](https://aihot.bt199.com/news/a464529f9917/)
+   - 主要人工智能公司进入医疗保健领域是一项有意义且受欢迎的发展，加速了该行业的技术基础。他们的模型越来越能够处理长临床记录、…
+   - `MIT Tech Review · 2026-09-10`
+
+3. [Suno 发布首个在唱片业帮助下制作的 AI 音乐模型](https://aihot.bt199.com/news/65f77bd4eb92/)
    - Suno的新v6人工智能音乐模型是其第一个在唱片行业的支持下制作的模型。 Suno 的 Jack Brody 告诉 Th…
    - `The Verge AI · 2026-09-09`
 
-3. [OpenAI 巧妙的数学突破让学术界不寒而栗](https://aihot.bt199.com/news/2ce844f1d2ca/)
+4. [OpenAI 巧妙的数学突破让学术界不寒而栗](https://aihot.bt199.com/news/2ce844f1d2ca/)
    - OpenAI 周二宣布它已经解决了数学界的传奇千禧奖问题之一，这本该是一个胜利的时刻。结果既是不可否认的成就，又惊人地展…
    - `The Verge AI · 2026-09-09`
 
-4. [下载：OpenAI 的数学转折点和电池记录](https://aihot.bt199.com/news/b5781936fd6d/)
+5. [下载：OpenAI 的数学转折点和电池记录](https://aihot.bt199.com/news/b5781936fd6d/)
    - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 的最新争议告诉我们数…
-   - `MIT Tech Review · 2026-09-09`
-
-5. [OpenAI 的最新争议告诉我们数学的未来](https://aihot.bt199.com/news/388663d38509/)
-   - OpenAI 最新的数学里程碑很快就陷入了争议。今天，该公司宣布其代理人已经解决了千年奖问题之一，这是数学中一些最重要的…
    - `MIT Tech Review · 2026-09-09`
 
 6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
