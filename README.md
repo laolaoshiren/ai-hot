@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-10 18:23:13
+🕐 **最近更新**：2026-09-10 23:37:57
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [OpenAI 董事会增加了一位杰出的 AI 毁灭者](https://aihot.bt199.com/news/a62cdeb365cc/)
-   - Paul Christiano 是一位有影响力的人工智能研究员，专注于一致性，他将加入 OpenAI 基金会，成为其董事…
-   - `TechCrunch AI · 2026-09-09`
+1. [人工智能代理正在向公共服务提出新的要求](https://aihot.bt199.com/news/9ee5bacda2ce/)
+   - 研究人员告诉 TechCrunch：“我们发现的绝大多数案例都是有权对某物提出索赔的人。”
+   - `TechCrunch AI · 2026-09-10`
 
-2. [医疗保健人工智能的下一个测试是集成](https://aihot.bt199.com/news/a464529f9917/)
-   - 主要人工智能公司进入医疗保健领域是一项有意义且受欢迎的发展，加速了该行业的技术基础。他们的模型越来越能够处理长临床记录、…
+2. [Meta 的 Muse AI 很有效，让我毛骨悚然](https://aihot.bt199.com/news/bdd2b8a250a4/)
+   - Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以帮…
+   - `The Verge AI · 2026-09-10`
+
+3. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。上帝告诉他们要出售加密货币。他们的投…
    - `MIT Tech Review · 2026-09-10`
 
-3. [Suno 发布首个在唱片业帮助下制作的 AI 音乐模型](https://aihot.bt199.com/news/65f77bd4eb92/)
-   - Suno的新v6人工智能音乐模型是其第一个在唱片行业的支持下制作的模型。 Suno 的 Jack Brody 告诉 Th…
-   - `The Verge AI · 2026-09-09`
+4. [数学家想要证明 OpenAI 没有使用他们的工作成果](https://aihot.bt199.com/news/3aead6fbd813/)
+   - 另一位研究人员正在就数据驱动 OpenAI 不断取得令人印象深刻的数学发现向 OpenAI 发起挑战。就在围绕该公司的模…
+   - `The Verge AI · 2026-09-10`
 
-4. [OpenAI 巧妙的数学突破让学术界不寒而栗](https://aihot.bt199.com/news/2ce844f1d2ca/)
-   - OpenAI 周二宣布它已经解决了数学界的传奇千禧奖问题之一，这本该是一个胜利的时刻。结果既是不可否认的成就，又惊人地展…
-   - `The Verge AI · 2026-09-09`
-
-5. [下载：OpenAI 的数学转折点和电池记录](https://aihot.bt199.com/news/b5781936fd6d/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。 OpenAI 的最新争议告诉我们数…
-   - `MIT Tech Review · 2026-09-09`
+5. [为人工智能提供动力是一个架构问题](https://aihot.bt199.com/news/dcafb6d4ea46/)
+   - 2026 年 7 月 22 日，弗吉尼亚州阿什本（全球最大数据中心集群的中心）发生输电线路故障，几秒钟内导致超过 3 吉…
+   - `MIT Tech Review · 2026-09-10`
 
 6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
