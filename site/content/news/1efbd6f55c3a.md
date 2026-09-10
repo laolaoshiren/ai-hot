@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "让科学家的时间回到科学创造"
 summary_zh = ""
 tags = []
-list_page = 60
+list_page = 62
 +++
 
 <!-- AUTO-GENERATED: news page -->
