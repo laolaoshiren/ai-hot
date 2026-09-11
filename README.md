@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-11 10:18:21
+🕐 **最近更新**：2026-09-11 18:22:17
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,12 +24,12 @@
    - 该公司表示，专业版订阅对其系统造成的压力最大，因此它暂停了注册，同时增加了容量
    - `TechCrunch AI · 2026-09-10`
 
-3. [Slack 现在可以在聊天中对交互式图表和报告进行振动编码](https://aihot.bt199.com/news/7b5505b6ed7b/)
-   - Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 S…
+3. [环球音乐与 ElevenLabs 合作推出人工智能音乐平台](https://aihot.bt199.com/news/f613fc1e895b/)
+   - 根据周四的公告，环球音乐集团正在推出一个新的人工智能平台，该平台将允许用户从其授权音乐目录中提取歌曲，以创建歌曲混音、混…
    - `The Verge AI · 2026-09-10`
 
-4. [学校正在学习大型科技公司的策略](https://aihot.bt199.com/news/0ffdf04c2c5c/)
-   - 这是科技领域最热门的新事物，也是所有工作岗位的所在地。不学会使用它的学生就会落后。为了帮助他们及时赶上，其创建者慷慨地提…
+4. [Meta 的 Muse AI 很有效，让我毛骨悚然](https://aihot.bt199.com/news/bdd2b8a250a4/)
+   - Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以帮…
    - `The Verge AI · 2026-09-10`
 
 5. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

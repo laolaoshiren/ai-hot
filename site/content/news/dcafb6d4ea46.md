@@ -20,7 +20,7 @@ ai_summary = "2026 年 7 月 22 日，弗吉尼亚州阿什本（全球最大数
 summary = "On July 22, 2026, a transmission line fault in Ashburn, Virginia—the heart of the world&#8217;s largest data center cluster—knocked more than 3 gigawatts of load off the grid in seconds."
 summary_zh = "2026 年 7 月 22 日，弗吉尼亚州阿什本（全球最大数据中心集群的中心）发生输电线路故障，几秒钟内导致超过 3 吉瓦的负载断电。这已经不是第一次了。两年前，一个故障的避雷器使大约 60 弗吉尼亚州坠落"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
