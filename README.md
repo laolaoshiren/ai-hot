@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-11 04:19:46
+🕐 **最近更新**：2026-09-11 10:18:21
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [Meta 的 AI 代理 Muse 目前是美国排名第二的应用程序](https://aihot.bt199.com/news/4780951de096/)
-   - Meta 的最新应用程序 Muse 的启动速度比该公司的其他应用程序（例如 Meta AI 或 Threads）要慢
+1. [黄仁勋解释为何 Nvidia 明年将实现惊人的 70% 增长](https://aihot.bt199.com/news/3f1b7e6d6a10/)
+   - 黄仁勋表示，英伟达涉足每一个领域，并预计未来又将迎来丰收的一年。但他坚称，其交易不是循环性的
    - `TechCrunch AI · 2026-09-10`
 
-2. [环球音乐与 ElevenLabs 合作推出人工智能音乐平台](https://aihot.bt199.com/news/f613fc1e895b/)
-   - 根据周四的公告，环球音乐集团正在推出一个新的人工智能平台，该平台将允许用户从其授权音乐目录中提取歌曲，以创建歌曲混音、混…
+2. [由于 Astra 需求，OpenAI 暂停 Pro 订阅](https://aihot.bt199.com/news/5a7a028d73b1/)
+   - 该公司表示，专业版订阅对其系统造成的压力最大，因此它暂停了注册，同时增加了容量
+   - `TechCrunch AI · 2026-09-10`
+
+3. [Slack 现在可以在聊天中对交互式图表和报告进行振动编码](https://aihot.bt199.com/news/7b5505b6ed7b/)
+   - Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 S…
    - `The Verge AI · 2026-09-10`
 
-3. [Meta 的 Muse AI 很有效，让我毛骨悚然](https://aihot.bt199.com/news/bdd2b8a250a4/)
-   - Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以帮…
+4. [学校正在学习大型科技公司的策略](https://aihot.bt199.com/news/0ffdf04c2c5c/)
+   - 这是科技领域最热门的新事物，也是所有工作岗位的所在地。不学会使用它的学生就会落后。为了帮助他们及时赶上，其创建者慷慨地提…
    - `The Verge AI · 2026-09-10`
 
-4. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
+5. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。上帝告诉他们要出售加密货币。他们的投…
    - `MIT Tech Review · 2026-09-10`
 
-5. [为人工智能提供动力是一个架构问题](https://aihot.bt199.com/news/dcafb6d4ea46/)
+6. [为人工智能提供动力是一个架构问题](https://aihot.bt199.com/news/dcafb6d4ea46/)
    - 2026 年 7 月 22 日，弗吉尼亚州阿什本（全球最大数据中心集群的中心）发生输电线路故障，几秒钟内导致超过 3 吉…
    - `MIT Tech Review · 2026-09-10`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
-
-9. [Anthropic 揭示了流氓人工智能代理讨厌验证码，就像你一样](https://aihot.bt199.com/news/9abc7cfd055a/)
-   - 走进机器人的内心世界，试图让互联网相信它是人类
-   - `TechCrunch AI · 2026-09-10`
 
 10. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
    - 在人工智能辅助攻击预计将到来之前，安全专家们正在发布补丁
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
