@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "Gemni 3.5 Pro到底啥时候来啊！！！"
 summary_zh = ""
 tags = []
-list_page = 295
+list_page = 297
 +++
 
 <!-- AUTO-GENERATED: news page -->

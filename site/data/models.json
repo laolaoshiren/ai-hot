@@ -12295,5 +12295,26 @@
     "collected_at": "2026-08-23T00:53:13.910113",
     "display_priority": 388,
     "is_core": true
+  },
+  {
+    "id": "hf-software-mansion--react-native-executorch-facemesh",
+    "name": "software-mansion/react-native-executorch-facemesh",
+    "display_name": "react-native-executorch-facemesh",
+    "url": "https://huggingface.co/software-mansion/react-native-executorch-facemesh",
+    "author": "software-mansion",
+    "pipeline_tag": "keypoint-detection",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "executorch",
+      "keypoint-detection",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-09-11T15:32:35.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-09-11T15:38:04.786656",
+    "display_priority": 389,
+    "is_core": true
   }
 ]

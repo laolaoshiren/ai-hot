@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-11 18:22:17
+🕐 **最近更新**：2026-09-11 23:39:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,20 +24,20 @@
    - 该公司表示，专业版订阅对其系统造成的压力最大，因此它暂停了注册，同时增加了容量
    - `TechCrunch AI · 2026-09-10`
 
-3. [环球音乐与 ElevenLabs 合作推出人工智能音乐平台](https://aihot.bt199.com/news/f613fc1e895b/)
-   - 根据周四的公告，环球音乐集团正在推出一个新的人工智能平台，该平台将允许用户从其授权音乐目录中提取歌曲，以创建歌曲混音、混…
+3. [Meta 表示，在提出侵入性个人问题后，它正在改变人工智能建议](https://aihot.bt199.com/news/e32e3658be55/)
+   - 据 Futurism 早些时候报道，Meta 表示，在一段病毒式传播的视频显示 Meta 正在挖掘有关一名女性年幼女儿的…
+   - `The Verge AI · 2026-09-11`
+
+4. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识塑造生物技术未来的 35 岁以下…
+   - `MIT Tech Review · 2026-09-11`
+
+5. [Slack 现在可以在聊天中对交互式图表和报告进行振动编码](https://aihot.bt199.com/news/7b5505b6ed7b/)
+   - Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 S…
    - `The Verge AI · 2026-09-10`
 
-4. [Meta 的 Muse AI 很有效，让我毛骨悚然](https://aihot.bt199.com/news/bdd2b8a250a4/)
-   - Meta 推出了新的 Muse 助手，标志着该公司首次真正涉足人工智能驱动的生产力工具。该公司表示，其人工智能代理可以帮…
-   - `The Verge AI · 2026-09-10`
-
-5. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
+6. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。上帝告诉他们要出售加密货币。他们的投…
-   - `MIT Tech Review · 2026-09-10`
-
-6. [为人工智能提供动力是一个架构问题](https://aihot.bt199.com/news/dcafb6d4ea46/)
-   - 2026 年 7 月 22 日，弗吉尼亚州阿什本（全球最大数据中心集群的中心）发生输电线路故障，几秒钟内导致超过 3 吉…
    - `MIT Tech Review · 2026-09-10`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

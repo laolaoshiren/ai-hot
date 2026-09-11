@@ -20,7 +20,7 @@ ai_summary = "Cognition 的估值倍数高于 Cursor 出售给 SpaceX 之前的�
 summary = "Cognition's valuation multiple is higher than Cursor's was before selling to SpaceX."
 summary_zh = "Cognition 的估值倍数高于 Cursor 出售给 SpaceX 之前的估值倍数"
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->

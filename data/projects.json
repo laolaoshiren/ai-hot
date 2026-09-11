@@ -8299,6 +8299,34 @@
     "collected_at": "2026-09-01T10:53:11.896846"
   },
   {
+    "id": "github-1335191231",
+    "name": "AceOnyx8/Hacker",
+    "display_name": "Hacker",
+    "url": "https://github.com/AceOnyx8/Hacker",
+    "description": "This repository is maintained by Hex Core and includes thousands of resources related to ethical hacking, bug bounties, digital forensics and incident response (DFIR), AI security, vulnerability research, exploit development, reverse engineering, and more. 🔥 Also check: https://hackertraining.org",
+    "stars": 11,
+    "forks": 1,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "ai",
+      "ai-safety",
+      "artificial-intelligence",
+      "awesome",
+      "awesome-list",
+      "cybersecurity",
+      "ethical-hacking",
+      "exploit",
+      "hacker",
+      "hacking-series",
+      "traning"
+    ],
+    "created_at": "2026-08-15T15:18:58Z",
+    "updated_at": "2026-09-11T15:37:27Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-11T15:38:01.712752"
+  },
+  {
     "id": "github-1201371509",
     "name": "Zeyad-Azima/AgentsBear",
     "display_name": "AgentsBear",

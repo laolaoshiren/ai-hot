@@ -20,7 +20,7 @@ ai_summary = "Paul Christiano 是一位有影响力的人工智能研究员，�
 summary = "Paul Christiano, an influential AI researcher focused on alignment, is joining the OpenAI Foundation as a member of its board."
 summary_zh = "Paul Christiano 是一位有影响力的人工智能研究员，专注于一致性，他将加入 OpenAI 基金会，成为其董事会成员"
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->
