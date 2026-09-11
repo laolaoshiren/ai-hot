@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-11 23:39:47
+🕐 **最近更新**：2026-09-12 04:18:59
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,25 +16,25 @@
 
 ## 🔥 今日热点
 
-1. [黄仁勋解释为何 Nvidia 明年将实现惊人的 70% 增长](https://aihot.bt199.com/news/3f1b7e6d6a10/)
-   - 黄仁勋表示，英伟达涉足每一个领域，并预计未来又将迎来丰收的一年。但他坚称，其交易不是循环性的
-   - `TechCrunch AI · 2026-09-10`
+1. [Kimi 制造商 Moonshot AI 的年收入目标是 20 亿美元](https://aihot.bt199.com/news/b3b5bc18a7be/)
+   - 虽然近几个月 K3 的使用量略有下降，但 OpenRouter 数据目前显示系统上的 K3 模型每天生成多达 3000…
+   - `TechCrunch AI · 2026-09-11`
 
-2. [由于 Astra 需求，OpenAI 暂停 Pro 订阅](https://aihot.bt199.com/news/5a7a028d73b1/)
-   - 该公司表示，专业版订阅对其系统造成的压力最大，因此它暂停了注册，同时增加了容量
-   - `TechCrunch AI · 2026-09-10`
+2. [人类研究人员的世界末日警告是在一个非常有趣的时刻发出的](https://aihot.bt199.com/news/1b44943176b0/)
+   - 一位 Anthropic 研究员本周辞职，他在 X 上的一篇帖子中警告称，该公司正在“直接与自我完善的超级智能赛跑，并用…
+   - `TechCrunch AI · 2026-09-11`
 
-3. [Meta 表示，在提出侵入性个人问题后，它正在改变人工智能建议](https://aihot.bt199.com/news/e32e3658be55/)
+3. [Anthropic 本周因网络安全陷入困境](https://aihot.bt199.com/news/3409c3c31dfa/)
+   - 在今年早些时候承认其人工智能模型多次入侵其他公司的系统后，Anthropic 于周三发布了一份新报告，详细介绍了这些攻击…
+   - `The Verge AI · 2026-09-11`
+
+4. [Meta 表示，在提出侵入性个人问题后，它正在改变人工智能建议](https://aihot.bt199.com/news/e32e3658be55/)
    - 据 Futurism 早些时候报道，Meta 表示，在一段病毒式传播的视频显示 Meta 正在挖掘有关一名女性年幼女儿的…
    - `The Verge AI · 2026-09-11`
 
-4. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
+5. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识塑造生物技术未来的 35 岁以下…
    - `MIT Tech Review · 2026-09-11`
-
-5. [Slack 现在可以在聊天中对交互式图表和报告进行振动编码](https://aihot.bt199.com/news/7b5505b6ed7b/)
-   - Slack 推出的一项新功能将允许您直接在聊天中构建交互式报告、民意调查、仪表板、演示文稿、微型网站和其他工具。借助 S…
-   - `The Verge AI · 2026-09-10`
 
 6. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。上帝告诉他们要出售加密货币。他们的投…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

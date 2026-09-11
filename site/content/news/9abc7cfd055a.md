@@ -20,7 +20,7 @@ ai_summary = "走进机器人的内心世界，试图让互联网相信它是人
 summary = "Come inside the mind of a bot trying to convince the internet it's human."
 summary_zh = "走进机器人的内心世界，试图让互联网相信它是人类"
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->
