@@ -2724,9 +2724,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000075",
-        "completion": "0.00000025",
-        "input_cache_read": "0.000000015"
+        "prompt": "0.00000015",
+        "completion": "0.0000005",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -2762,7 +2762,7 @@
       },
       "supported_voices": null,
       "knowledge_cutoff": null,
-      "expiration_date": null,
+      "expiration_date": "2098-12-31",
       "links": {
         "details": "/api/v1/models/z-ai/glm-5.3-flash-20260826/endpoints"
       },
@@ -7837,9 +7837,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000230272875",
-        "completion": "0.000011550195",
-        "input_cache_read": "0.000000263169"
+        "prompt": "0.000002648138063",
+        "completion": "0.00001328272425",
+        "input_cache_read": "0.00000030264435"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -9877,9 +9877,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -15385,9 +15385,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000002125",
-        "completion": "0.0000119",
-        "input_cache_read": "0.0000002465"
+        "prompt": "0.000002375",
+        "completion": "0.0000133",
+        "input_cache_read": "0.0000002755"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -16592,13 +16592,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000075864",
-        "completion": "0.00000151728",
-        "input_cache_read": "0.00000006322"
+        "prompt": "0.0000016",
+        "completion": "0.0000032",
+        "input_cache_read": "0.000000135"
       },
       "top_provider": {
-        "context_length": 1024000,
-        "max_completion_tokens": 384000,
+        "context_length": 1048576,
+        "max_completion_tokens": 393216,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -16750,9 +16750,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006636",
-        "completion": "0.00000013272",
-        "input_cache_read": "0.000000013272"
+        "prompt": "0.00000006566",
+        "completion": "0.00000013132",
+        "input_cache_read": "0.000000013132"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -40215,13 +40215,13 @@
         "instruct_type": "llama3"
       },
       "pricing": {
-        "prompt": "0.00000072",
-        "completion": "0.00000072"
+        "prompt": "0.0000004",
+        "completion": "0.0000004"
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 8192,
-        "is_moderated": true
+        "max_completion_tokens": 16384,
+        "is_moderated": false
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -41850,5 +41850,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-12T14:45:11.158833+00:00"
+  "updated_at": "2026-09-12T19:58:33.100545+00:00"
 }

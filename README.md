@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-12 22:45:53
+🕐 **最近更新**：2026-09-13 03:59:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,13 +20,13 @@
    - 这家成立两年的初创公司的本轮融资是在 Mecka 宣布 A 轮融资几个月后进行的
    - `TechCrunch AI · 2026-09-11`
 
-2. [Y Combinator 的 Garry Tan 希望美国开放式人工智能实验室也能“提炼”前沿模型](https://aihot.bt199.com/news/e2480aa4c979/)
-   - 谭希望规模较小的美国开放权重人工智能实验室能够使用与美国前沿人工智能实验室相同的训练技术，为美国提供一套比中国更强大的开…
-   - `TechCrunch AI · 2026-09-11`
+2. [Anthropic首席执行官表示，是时候给人工智能踩刹车了](https://aihot.bt199.com/news/423571cd7c5d/)
+   - Anthropic 首席执行官 Dario Amodei 表示，现在是放慢人工智能开发速度的时候了，并将允许 METR…
+   - `The Verge AI · 2026-09-12`
 
-3. [律师因谋杀案中人工智能幻觉证人被罚款 5000 美元](https://aihot.bt199.com/news/c71016307bb8/)
-   - 据路透社报道，新墨西哥州最高法院正在惩罚一名律师，因为他在对其委托人谋杀定罪的上诉中使用了人工智能伪造的证人和虚假的警方…
-   - `The Verge AI · 2026-09-11`
+3. [特朗普给数据中心污染通行证](https://aihot.bt199.com/news/bcfea4b7b186/)
+   - 一群前环保局官员本周在一份简报和新报告中表示，唐纳德·特朗普总统以加快人工智能数据中心建设的名义削弱了环境法规，这增加了…
+   - `The Verge AI · 2026-09-12`
 
 4. [圆桌会议：人工智能的末日危机](https://aihot.bt199.com/news/12de205131c9/)
    - 世界领先人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者这更像是危言耸听和炒作？加入《麻省…
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

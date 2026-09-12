@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "霸榜OpenR ou"
 summary_zh = ""
 tags = []
-list_page = 292
+list_page = 293
 +++
 
 <!-- AUTO-GENERATED: news page -->

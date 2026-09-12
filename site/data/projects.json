@@ -11690,6 +11690,33 @@
     "collected_at": "2026-09-11T10:20:31.315786"
   },
   {
+    "id": "github-1352444090",
+    "name": "tinyhumansai/tinyhivemind",
+    "display_name": "tinyhivemind",
+    "url": "https://github.com/tinyhumansai/tinyhivemind",
+    "description": "Hive mind mechanics for agents. A step closer towards AGI",
+    "stars": 7,
+    "forks": 4,
+    "language": "Rust",
+    "topics": [
+      "agent-framework",
+      "ai-agents",
+      "artificial-intelligence",
+      "automation",
+      "developer-tools",
+      "llm",
+      "multi-agent",
+      "open-source",
+      "rust",
+      "workflow-automation"
+    ],
+    "created_at": "2026-08-31T13:27:01Z",
+    "updated_at": "2026-09-12T06:50:11Z",
+    "license": "GPL-3.0",
+    "source": "github-search",
+    "collected_at": "2026-09-12T19:57:35.334798"
+  },
+  {
     "id": "github-1213064866",
     "name": "abbosaliboev/free-ai-bible",
     "display_name": "free-ai-bible",

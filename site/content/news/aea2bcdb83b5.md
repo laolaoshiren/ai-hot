@@ -20,7 +20,7 @@ ai_summary = "Instinct 的新电子邮件功能可让人工智能代理创建和
 summary = "Instinct’s new email feature lets the AI agent create and manage accounts, contact businesses, handle support requests, and do more on users' behalf."
 summary_zh = "Instinct 的新电子邮件功能可让人工智能代理创建和管理帐户、联系企业、处理支持请求以及代表用户执行更多操作"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->
