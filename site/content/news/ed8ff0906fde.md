@@ -20,12 +20,21 @@ ai_summary = "文章网址： 评论网址： 积分：136 # 评论：56"
 summary = "Article URL: https://www.unslop.news/ Comments URL: https://news.ycombinator.com/item?id=49660783 Points: 136 # Comments: 56"
 summary_zh = "文章网址： 评论网址： 积分：136 # 评论：56"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->
 
-文章网址： 评论网址： 积分：136 # 评论：56
+1.
+我在 Google 应用广告上花费了 220 美元，60% 的安装是机器人
+（
+dayzlegame.com
+）
+308 点
+通过
+尼卡贝
+7 小时前
+|
 
 ## 🔗 原始来源
 

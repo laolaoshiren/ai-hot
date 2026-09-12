@@ -20,7 +20,7 @@ ai_summary = "OpenAI 的第二号执行官还领导 Instacart 在 2023 年完成
 summary = "The No. 2 exec at OpenAI also led Instacart through its IPO in 2023."
 summary_zh = "OpenAI 的第二号执行官还领导 Instacart 在 2023 年完成了 IPO"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

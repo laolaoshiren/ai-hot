@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-12 04:18:59
+🕐 **最近更新**：2026-09-12 10:24:44
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [Kimi 制造商 Moonshot AI 的年收入目标是 20 亿美元](https://aihot.bt199.com/news/b3b5bc18a7be/)
-   - 虽然近几个月 K3 的使用量略有下降，但 OpenRouter 数据目前显示系统上的 K3 模型每天生成多达 3000…
+1. [由于机器人训练数据的热潮，Mecka AI 在红杉主导的交易中估值接近 5 亿美元](https://aihot.bt199.com/news/c923ead07513/)
+   - 这家成立两年的初创公司的本轮融资是在 Mecka 宣布 A 轮融资几个月后进行的
    - `TechCrunch AI · 2026-09-11`
 
-2. [人类研究人员的世界末日警告是在一个非常有趣的时刻发出的](https://aihot.bt199.com/news/1b44943176b0/)
-   - 一位 Anthropic 研究员本周辞职，他在 X 上的一篇帖子中警告称，该公司正在“直接与自我完善的超级智能赛跑，并用…
+2. [Y Combinator 的 Garry Tan 希望美国开放式人工智能实验室也能“提炼”前沿模型](https://aihot.bt199.com/news/e2480aa4c979/)
+   - 谭希望规模较小的美国开放权重人工智能实验室能够使用与美国前沿人工智能实验室相同的训练技术，为美国提供一套比中国更强大的开…
    - `TechCrunch AI · 2026-09-11`
 
-3. [Anthropic 本周因网络安全陷入困境](https://aihot.bt199.com/news/3409c3c31dfa/)
+3. [律师因谋杀案中人工智能幻觉证人被罚款 5000 美元](https://aihot.bt199.com/news/c71016307bb8/)
+   - 据路透社报道，新墨西哥州最高法院正在惩罚一名律师，因为他在对其委托人谋杀定罪的上诉中使用了人工智能伪造的证人和虚假的警方…
+   - `The Verge AI · 2026-09-11`
+
+4. [圆桌会议：人工智能的末日危机](https://aihot.bt199.com/news/12de205131c9/)
+   - 世界领先人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者这更像是危言耸听和炒作？加入《麻省…
+   - `MIT Tech Review · 2026-09-11`
+
+5. [Anthropic 本周因网络安全陷入困境](https://aihot.bt199.com/news/3409c3c31dfa/)
    - 在今年早些时候承认其人工智能模型多次入侵其他公司的系统后，Anthropic 于周三发布了一份新报告，详细介绍了这些攻击…
    - `The Verge AI · 2026-09-11`
 
-4. [Meta 表示，在提出侵入性个人问题后，它正在改变人工智能建议](https://aihot.bt199.com/news/e32e3658be55/)
-   - 据 Futurism 早些时候报道，Meta 表示，在一段病毒式传播的视频显示 Meta 正在挖掘有关一名女性年幼女儿的…
-   - `The Verge AI · 2026-09-11`
-
-5. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
+6. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识塑造生物技术未来的 35 岁以下…
    - `MIT Tech Review · 2026-09-11`
-
-6. [下载：“上帝驱动”的加密货币和太阳能工程路线图](https://aihot.bt199.com/news/15f72ba463ca/)
-   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。上帝告诉他们要出售加密货币。他们的投…
-   - `MIT Tech Review · 2026-09-10`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
