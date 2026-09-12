@@ -11709,6 +11709,27 @@
     "is_core": true
   },
   {
+    "id": "hf-Chinook416--3d-gen-1",
+    "name": "Chinook416/3d-gen-1",
+    "display_name": "3d-gen-1",
+    "url": "https://huggingface.co/Chinook416/3d-gen-1",
+    "author": "Chinook416",
+    "pipeline_tag": "text-to-3d",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "text-to-3d",
+      "arxiv:2311.15475",
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-09-12T14:44:26.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-09-12T14:44:27.626266",
+    "display_priority": 367,
+    "is_core": true
+  },
+  {
     "id": "hf-maveryn--trace-qwen25vl3b-rlvr-ann-additive-0p50-sectioned-step500",
     "name": "maveryn/trace-qwen25vl3b-rlvr-ann-additive-0p50-sectioned-step500",
     "display_name": "trace-qwen25vl3b-rlvr-ann-additive-0p50-sectioned-step500",
@@ -11737,7 +11758,7 @@
     "created_at": "2026-07-13T19:10:29.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-13T19:16:55.912359",
-    "display_priority": 367,
+    "display_priority": 368,
     "is_core": true
   },
   {
@@ -11765,7 +11786,7 @@
     "created_at": "2026-08-21T18:21:20.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-21T18:26:21.834896",
-    "display_priority": 368,
+    "display_priority": 369,
     "is_core": true
   },
   {
@@ -11789,7 +11810,7 @@
     "created_at": "2026-08-23T12:11:33.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T12:24:16.901228",
-    "display_priority": 369,
+    "display_priority": 370,
     "is_core": true
   },
   {
@@ -11819,7 +11840,7 @@
     "created_at": "2026-09-09T02:18:50.000Z",
     "source": "hf-newest",
     "collected_at": "2026-09-09T02:21:58.222664",
-    "display_priority": 370,
+    "display_priority": 371,
     "is_core": true
   },
   {
@@ -11844,7 +11865,7 @@
     "created_at": "2026-07-15T13:02:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-15T13:19:13.746450",
-    "display_priority": 371,
+    "display_priority": 372,
     "is_core": true
   },
   {
@@ -11869,7 +11890,7 @@
     "created_at": "2026-07-15T13:02:11.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-15T13:19:13.746456",
-    "display_priority": 372,
+    "display_priority": 373,
     "is_core": true
   },
   {
@@ -11894,7 +11915,7 @@
     "created_at": "2026-07-16T18:42:56.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-16T19:00:30.938096",
-    "display_priority": 373,
+    "display_priority": 374,
     "is_core": true
   },
   {
@@ -11919,7 +11940,7 @@
     "created_at": "2026-07-31T18:48:02.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-31T19:12:46.726264",
-    "display_priority": 374,
+    "display_priority": 375,
     "is_core": true
   },
   {
@@ -11944,7 +11965,7 @@
     "created_at": "2026-08-04T19:22:55.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-04T19:42:13.032294",
-    "display_priority": 375,
+    "display_priority": 376,
     "is_core": true
   },
   {
@@ -11969,7 +11990,7 @@
     "created_at": "2026-08-07T12:22:05.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-07T12:44:42.769702",
-    "display_priority": 376,
+    "display_priority": 377,
     "is_core": true
   },
   {
@@ -11997,7 +12018,7 @@
     "created_at": "2026-08-18T18:20:51.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-18T18:26:40.080129",
-    "display_priority": 377,
+    "display_priority": 378,
     "is_core": true
   },
   {
@@ -12022,7 +12043,7 @@
     "created_at": "2026-09-12T09:43:12.000Z",
     "source": "hf-newest",
     "collected_at": "2026-09-12T09:53:13.357457",
-    "display_priority": 378,
+    "display_priority": 379,
     "is_core": true
   },
   {
@@ -12047,7 +12068,7 @@
     "created_at": "2026-07-19T01:43:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-19T01:55:51.911309",
-    "display_priority": 379,
+    "display_priority": 380,
     "is_core": true
   },
   {
@@ -12071,7 +12092,7 @@
     "created_at": "2026-07-26T07:59:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T08:13:06.394750",
-    "display_priority": 380,
+    "display_priority": 381,
     "is_core": true
   },
   {
@@ -12095,7 +12116,7 @@
     "created_at": "2026-07-26T18:42:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T19:01:06.925009",
-    "display_priority": 381,
+    "display_priority": 382,
     "is_core": true
   },
   {
@@ -12119,7 +12140,7 @@
     "created_at": "2026-08-04T08:24:48.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-04T08:26:15.728720",
-    "display_priority": 382,
+    "display_priority": 383,
     "is_core": true
   },
   {
@@ -12143,7 +12164,7 @@
     "created_at": "2026-08-10T07:01:31.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-10T07:16:37.044076",
-    "display_priority": 383,
+    "display_priority": 384,
     "is_core": true
   },
   {
@@ -12176,7 +12197,7 @@
     "created_at": "2026-08-16T17:57:11.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-16T18:18:49.170161",
-    "display_priority": 384,
+    "display_priority": 385,
     "is_core": true
   },
   {
@@ -12203,7 +12224,7 @@
     "created_at": "2026-08-18T00:45:57.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-18T00:46:24.715728",
-    "display_priority": 385,
+    "display_priority": 386,
     "is_core": true
   },
   {
@@ -12226,7 +12247,7 @@
     "created_at": "2026-08-31T22:00:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-31T22:15:39.011181",
-    "display_priority": 386,
+    "display_priority": 387,
     "is_core": true
   },
   {
@@ -12257,7 +12278,7 @@
     "created_at": "2026-08-23T00:35:02.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910079",
-    "display_priority": 387,
+    "display_priority": 388,
     "is_core": true
   },
   {
@@ -12288,7 +12309,7 @@
     "created_at": "2026-08-23T00:34:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910088",
-    "display_priority": 388,
+    "display_priority": 389,
     "is_core": true
   },
   {
@@ -12319,7 +12340,7 @@
     "created_at": "2026-08-23T00:34:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910090",
-    "display_priority": 389,
+    "display_priority": 390,
     "is_core": true
   },
   {
@@ -12350,7 +12371,7 @@
     "created_at": "2026-08-23T00:33:42.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910113",
-    "display_priority": 390,
+    "display_priority": 391,
     "is_core": true
   },
   {
@@ -12371,7 +12392,7 @@
     "created_at": "2026-09-11T15:32:35.000Z",
     "source": "hf-newest",
     "collected_at": "2026-09-11T15:38:04.786656",
-    "display_priority": 391,
+    "display_priority": 392,
     "is_core": true
   }
 ]

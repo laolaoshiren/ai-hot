@@ -20,7 +20,7 @@ ai_summary = "这是科技领域最热门的新事物，也是所有工作岗位
 summary = "It's the hot new thing in tech, and it's where all the jobs are."
 summary_zh = "这是科技领域最热门的新事物，也是所有工作岗位的所在地。不学会使用它的学生就会落后。为了帮助他们及时赶上，其创建者慷慨地提供学习资源和课程，通常是无偿的。这就是人工智能公司正在宣传的叙事"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

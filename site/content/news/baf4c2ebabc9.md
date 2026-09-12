@@ -20,7 +20,7 @@ ai_summary = "上个月，一位 Claude 用户注意到他的帐户正在消耗�
 summary = "Last month, a Claude user noticed his account was consuming tokens even though he wasn't working. Anthropic has since warned users about hackers."
 summary_zh = "上个月，一位 Claude 用户注意到他的帐户正在消耗代币，即使他没有工作。此后，Anthropic 向用户发出了关于黑客的警告"
 tags = []
-list_page = 16
+list_page = 17
 +++
 
 <!-- AUTO-GENERATED: news page -->
