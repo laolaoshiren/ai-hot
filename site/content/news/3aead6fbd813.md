@@ -20,7 +20,7 @@ ai_summary = "另一位研究人员正在就数据驱动 OpenAI 不断取得令�
 summary = "Another researcher is challenging OpenAI about the data driving its increasingly impressive array of mathematical discoveries."
 summary_zh = "另一位研究人员正在就数据驱动 OpenAI 不断取得令人印象深刻的数学发现向 OpenAI 发起挑战。就在围绕该公司的模型是否受益于未发表的工作而引发激烈争吵几天后，第二位数学家站出来指责这家人工智能巨头的 unet"
 tags = []
-list_page = 7
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

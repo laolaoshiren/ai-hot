@@ -12001,6 +12001,31 @@
     "is_core": true
   },
   {
+    "id": "hf-Peter-Lysakovski--sd-class-butterflies-32",
+    "name": "Peter-Lysakovski/sd-class-butterflies-32",
+    "display_name": "sd-class-butterflies-32",
+    "url": "https://huggingface.co/Peter-Lysakovski/sd-class-butterflies-32",
+    "author": "Peter-Lysakovski",
+    "pipeline_tag": "unconditional-image-generation",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "diffusers",
+      "safetensors",
+      "pytorch",
+      "unconditional-image-generation",
+      "diffusion-models-class",
+      "license:mit",
+      "diffusers:DDPMPipeline",
+      "region:us"
+    ],
+    "created_at": "2026-09-12T09:43:12.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-09-12T09:53:13.357457",
+    "display_priority": 378,
+    "is_core": true
+  },
+  {
     "id": "hf-Azaz666--stage2-gnn-pypi-malware",
     "name": "Azaz666/stage2-gnn-pypi-malware",
     "display_name": "stage2-gnn-pypi-malware",
@@ -12022,7 +12047,7 @@
     "created_at": "2026-07-19T01:43:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-19T01:55:51.911309",
-    "display_priority": 378,
+    "display_priority": 379,
     "is_core": true
   },
   {
@@ -12046,7 +12071,7 @@
     "created_at": "2026-07-26T07:59:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T08:13:06.394750",
-    "display_priority": 379,
+    "display_priority": 380,
     "is_core": true
   },
   {
@@ -12070,7 +12095,7 @@
     "created_at": "2026-07-26T18:42:44.000Z",
     "source": "hf-newest",
     "collected_at": "2026-07-26T19:01:06.925009",
-    "display_priority": 380,
+    "display_priority": 381,
     "is_core": true
   },
   {
@@ -12094,7 +12119,7 @@
     "created_at": "2026-08-04T08:24:48.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-04T08:26:15.728720",
-    "display_priority": 381,
+    "display_priority": 382,
     "is_core": true
   },
   {
@@ -12118,7 +12143,7 @@
     "created_at": "2026-08-10T07:01:31.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-10T07:16:37.044076",
-    "display_priority": 382,
+    "display_priority": 383,
     "is_core": true
   },
   {
@@ -12151,7 +12176,7 @@
     "created_at": "2026-08-16T17:57:11.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-16T18:18:49.170161",
-    "display_priority": 383,
+    "display_priority": 384,
     "is_core": true
   },
   {
@@ -12178,7 +12203,7 @@
     "created_at": "2026-08-18T00:45:57.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-18T00:46:24.715728",
-    "display_priority": 384,
+    "display_priority": 385,
     "is_core": true
   },
   {
@@ -12201,7 +12226,7 @@
     "created_at": "2026-08-31T22:00:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-31T22:15:39.011181",
-    "display_priority": 385,
+    "display_priority": 386,
     "is_core": true
   },
   {
@@ -12232,7 +12257,7 @@
     "created_at": "2026-08-23T00:35:02.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910079",
-    "display_priority": 386,
+    "display_priority": 387,
     "is_core": true
   },
   {
@@ -12263,7 +12288,7 @@
     "created_at": "2026-08-23T00:34:24.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910088",
-    "display_priority": 387,
+    "display_priority": 388,
     "is_core": true
   },
   {
@@ -12294,7 +12319,7 @@
     "created_at": "2026-08-23T00:34:00.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910090",
-    "display_priority": 388,
+    "display_priority": 389,
     "is_core": true
   },
   {
@@ -12325,7 +12350,7 @@
     "created_at": "2026-08-23T00:33:42.000Z",
     "source": "hf-newest",
     "collected_at": "2026-08-23T00:53:13.910113",
-    "display_priority": 389,
+    "display_priority": 390,
     "is_core": true
   },
   {
@@ -12346,7 +12371,7 @@
     "created_at": "2026-09-11T15:32:35.000Z",
     "source": "hf-newest",
     "collected_at": "2026-09-11T15:38:04.786656",
-    "display_priority": 390,
+    "display_priority": 391,
     "is_core": true
   }
 ]
