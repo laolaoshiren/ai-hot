@@ -1281,7 +1281,7 @@
       "top_provider": {
         "context_length": 1050000,
         "max_completion_tokens": 128000,
-        "is_moderated": false
+        "is_moderated": true
       },
       "per_request_limits": null,
       "supported_parameters": [
@@ -3315,13 +3315,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000008727",
-        "completion": "0.00000336",
-        "input_cache_read": "0.0000001639"
+        "prompt": "0.000000936",
+        "completion": "0.000003168",
+        "input_cache_read": "0.0000001872"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -4866,8 +4866,7 @@
         "tool_choice",
         "tools",
         "top_k",
-        "top_logprobs",
-        "top_p"
+        "top_logprobs"
       ],
       "default_parameters": {
         "temperature": 0.1,
@@ -5539,13 +5538,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000003",
-        "completion": "0.00000007",
-        "input_cache_read": "0.000000005"
+        "prompt": "0.0000000352",
+        "completion": "0.0000001056",
+        "input_cache_read": "0.00000000112"
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -15399,9 +15398,8 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000002375",
-        "completion": "0.0000133",
-        "input_cache_read": "0.0000002755"
+        "prompt": "0.0000021",
+        "completion": "0.00001095"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -16764,9 +16762,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000006566",
-        "completion": "0.00000013132",
-        "input_cache_read": "0.000000013132"
+        "prompt": "0.000000049",
+        "completion": "0.000000098",
+        "input_cache_read": "0.0000000098"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -28054,7 +28052,7 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 100352,
+        "max_completion_tokens": 98304,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -30524,9 +30522,6 @@
       "expiration_date": null,
       "links": {
         "details": "/api/v1/models/qwen/qwen3-coder-plus/endpoints"
-      },
-      "reasoning": {
-        "mandatory": false
       }
     },
     {
@@ -30944,7 +30939,7 @@
       },
       "top_provider": {
         "context_length": 262144,
-        "max_completion_tokens": 100352,
+        "max_completion_tokens": 98304,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -34067,7 +34062,7 @@
       },
       "top_provider": {
         "context_length": 131072,
-        "max_completion_tokens": 100352,
+        "max_completion_tokens": 98304,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -38732,7 +38727,6 @@
         "response_format",
         "seed",
         "stop",
-        "structured_outputs",
         "temperature",
         "tool_choice",
         "tools",
@@ -41866,5 +41860,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-13T02:22:01.698403+00:00"
+  "updated_at": "2026-09-13T10:54:15.758308+00:00"
 }

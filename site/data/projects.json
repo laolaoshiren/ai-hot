@@ -10632,6 +10632,35 @@
     "collected_at": "2026-09-07T11:11:08.917670"
   },
   {
+    "id": "github-1360344248",
+    "name": "AhmadJeddi/LLM-VLM-Guide",
+    "display_name": "LLM-VLM-Guide",
+    "url": "https://github.com/AhmadJeddi/LLM-VLM-Guide",
+    "description": "A beginner-first guide to how language and multimodal models work — from language models and Transformers to LLMs, VLMs, audio, video, and modern model families.",
+    "stars": 8,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "artificial-intelligence",
+      "attention",
+      "deep-learning",
+      "generative-ai",
+      "guide",
+      "large-language-models",
+      "llm",
+      "machine-learning",
+      "multimodal-ai",
+      "natural-language-processing",
+      "vision-language-models",
+      "vlm"
+    ],
+    "created_at": "2026-09-07T14:44:38Z",
+    "updated_at": "2026-09-13T08:08:15Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-13T10:53:24.711560"
+  },
+  {
     "id": "github-1201368235",
     "name": "fs0ci5ty/Artificial-Intelligence-Learning-Resources-Collection",
     "display_name": "Artificial-Intelligence-Learning-Resources-Collection",

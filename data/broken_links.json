@@ -1,54 +1,5 @@
 [
   {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "windsurf",
-    "name": "Windsurf",
-    "url": "https://codeium.com/windsurf",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
     "id": "deepseek",
     "name": "DeepSeek",
     "url": "https://chat.deepseek.com",
@@ -1232,6 +1183,160 @@
     "file": "tools.json"
   },
   {
+    "id": "github-45717250",
+    "name": "tensorflow/tensorflow",
+    "url": "https://github.com/tensorflow/tensorflow",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-614765452",
+    "name": "Significant-Gravitas/AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-658928958",
+    "name": "ollama/ollama",
+    "url": "https://github.com/ollama/ollama",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-1136590548",
+    "name": "affaan-m/everything-claude-code",
+    "url": "https://github.com/affaan-m/everything-claude-code",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-574523116",
+    "name": "f/prompts.chat",
+    "url": "https://github.com/f/prompts.chat",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-155220641",
+    "name": "huggingface/transformers",
+    "url": "https://github.com/huggingface/transformers",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-599320067",
+    "name": "langflow-ai/langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-stable-diffusion-webui",
+    "name": "AUTOMATIC1111/stable-diffusion-webui",
+    "url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-626805178",
+    "name": "langgenius/dify",
+    "url": "https://github.com/langgenius/dify",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-552661142",
+    "name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-701547123",
+    "name": "open-webui/open-webui",
+    "url": "https://github.com/open-webui/open-webui",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-787076358",
+    "name": "firecrawl/firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-1024554267",
+    "name": "NousResearch/hermes-agent",
+    "url": "https://github.com/NousResearch/hermes-agent",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-65600975",
+    "name": "pytorch/pytorch",
+    "url": "https://github.com/pytorch/pytorch",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-770153867",
+    "name": "harry0703/MoneyPrinterTurbo",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-1200597263",
+    "name": "Graphify-Labs/graphify",
+    "url": "https://github.com/Graphify-Labs/graphify",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-langchain",
+    "name": "langchain-ai/langchain",
+    "url": "https://github.com/langchain-ai/langchain",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-669879380",
+    "name": "rasbt/LLMs-from-scratch",
+    "url": "https://github.com/rasbt/LLMs-from-scratch",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-881458615",
+    "name": "browser-use/browser-use",
+    "url": "https://github.com/browser-use/browser-use",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-343965132",
+    "name": "microsoft/ML-For-Beginners",
+    "url": "https://github.com/microsoft/ML-For-Beginners",
+    "status": 429,
+    "file": "projects.json"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
+    "id": "codex-cli",
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
+    "status": 429,
+    "file": "tools.json"
+  },
+  {
     "id": "codeium",
     "name": "Codeium",
     "url": "https://codeium.com",
@@ -1253,115 +1358,10 @@
     "file": "tools.json"
   },
   {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "deepseek",
-    "name": "DeepSeek",
-    "url": "https://chat.deepseek.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
+    "id": "comfyui",
+    "name": "ComfyUI",
+    "url": "https://github.com/comfyanonymous/ComfyUI",
     "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "windsurf",
-    "name": "Windsurf",
-    "url": "https://codeium.com/windsurf",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "dalle3",
-    "name": "DALL-E 3",
-    "url": "https://openai.com/dall-e-3",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "sora",
-    "name": "Sora",
-    "url": "https://sora.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "chatgpt",
-    "name": "ChatGPT",
-    "url": "https://chat.openai.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "claude",
-    "name": "Claude",
-    "url": "https://claude.ai",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "deepseek",
-    "name": "DeepSeek",
-    "url": "https://chat.deepseek.com",
-    "status": 403,
-    "file": "tools.json"
-  },
-  {
-    "id": "codeium",
-    "name": "Codeium",
-    "url": "https://codeium.com",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "windsurf",
-    "name": "Windsurf",
-    "url": "https://codeium.com/windsurf",
-    "status": 429,
-    "file": "tools.json"
-  },
-  {
-    "id": "midjourney",
-    "name": "Midjourney",
-    "url": "https://midjourney.com",
-    "status": 403,
     "file": "tools.json"
   },
   {
