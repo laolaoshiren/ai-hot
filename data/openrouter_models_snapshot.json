@@ -21,7 +21,8 @@
       },
       "pricing": {
         "prompt": "0.00000003",
-        "completion": "0.00000015"
+        "completion": "0.00000015",
+        "input_cache_read": "0.00000003"
       },
       "top_provider": {
         "context_length": 128000,
@@ -72,7 +73,8 @@
       },
       "pricing": {
         "prompt": "0.00000005",
-        "completion": "0.00000023"
+        "completion": "0.00000023",
+        "input_cache_read": "0.00000005"
       },
       "top_provider": {
         "context_length": 128000,
@@ -2616,7 +2618,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -2758,7 +2760,7 @@
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "max_completion_tokens": 943718,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -9904,9 +9906,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -15413,7 +15415,8 @@
       },
       "pricing": {
         "prompt": "0.0000021",
-        "completion": "0.00001095"
+        "completion": "0.00001095",
+        "input_cache_read": "0.00000023"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -16776,9 +16779,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000004844",
-        "completion": "0.00000009688",
-        "input_cache_read": "0.000000009688"
+        "prompt": "0.00000004704",
+        "completion": "0.00000009408",
+        "input_cache_read": "0.000000009408"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -41874,5 +41877,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-13T15:25:00.178961+00:00"
+  "updated_at": "2026-09-13T20:05:27.952192+00:00"
 }

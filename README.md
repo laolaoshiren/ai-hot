@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-13 23:25:40
+🕐 **最近更新**：2026-09-14 04:06:05
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [OpenAI 的 Sam Altman 表示，在 2026 年上市是“不明智的”](https://aihot.bt199.com/news/22280ff70f06/)
-   - 首席执行官 Sam Altman 表示，虽然 OpenAI 已秘密申请 IPO，但该公司今年不会上市
-   - `TechCrunch AI · 2026-09-12`
+1. [人工智能行业最新的厄运警告背后的原因是什么？](https://aihot.bt199.com/news/423bcba40c75/)
+   - 在公平方面，我们讨论了人工智能行业关于它是否对人类构成生存威胁的最新争论
+   - `TechCrunch AI · 2026-09-13`
 
-2. [OpenAI 的流氓人工智能在 5 月份试图攻击另一家公司](https://aihot.bt199.com/news/552eadb73497/)
+2. [奥巴马敦促民主党制定人工智能保障措施的“明确计划”](https://aihot.bt199.com/news/6b54256d4afb/)
+   - 奥巴马最近表示，民主党需要将人工智能作为他们的“核心议程”之一，并“制定一个非常明确的计划”来解决对该技术的经济影响和安…
+   - `TechCrunch AI · 2026-09-13`
+
+3. [特朗普和迈克·约翰逊认为人工智能行业反应过度](https://aihot.bt199.com/news/1d273e458a46/)
+   - 昨天，Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 发表了一封冗长的公开信，表示是时候“开…
+   - `The Verge AI · 2026-09-13`
+
+4. [OpenAI 的流氓人工智能在 5 月份试图攻击另一家公司](https://aihot.bt199.com/news/552eadb73497/)
    - 5 月份，数百个恶意和垃圾邮件包被上传到 RubyGems，对主机造成严重破坏。现在，独立研究人员表示，一群 OpenA…
    - `The Verge AI · 2026-09-12`
 
-3. [Sam Altman 表示 OpenAI 在 2026 年上市将是“不明智的”](https://aihot.bt199.com/news/9276271a0e3f/)
-   - OpenAI首席执行官Sam Altman在接受《财富》采访时证实，2026年OpenAI不会进行IPO。在 45 分钟…
-   - `The Verge AI · 2026-09-12`
-
-4. [圆桌会议：人工智能的末日危机](https://aihot.bt199.com/news/12de205131c9/)
+5. [圆桌会议：人工智能的末日危机](https://aihot.bt199.com/news/12de205131c9/)
    - 世界领先人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者这更像是危言耸听和炒作？加入《麻省…
    - `MIT Tech Review · 2026-09-11`
 
-5. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
+6. [下载：生物技术的未来和更便宜、更清洁的钢铁](https://aihot.bt199.com/news/ac3ad0fbe5ad/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识塑造生物技术未来的 35 岁以下…
    - `MIT Tech Review · 2026-09-11`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
 
-9. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
+10. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
    - 在人工智能辅助攻击预计将到来之前，安全专家们正在发布补丁
    - `Ars Technica AI · 2026-09-08`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
