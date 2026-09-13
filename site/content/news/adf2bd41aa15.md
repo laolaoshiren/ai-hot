@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "模型可以开源，部署经验不能"
 summary_zh = ""
 tags = []
-list_page = 11
+list_page = 12
 +++
 
 <!-- AUTO-GENERATED: news page -->

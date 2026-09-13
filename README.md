@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-13 03:59:19
+🕐 **最近更新**：2026-09-13 10:22:44
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,16 +16,16 @@
 
 ## 🔥 今日热点
 
-1. [由于机器人训练数据的热潮，Mecka AI 在红杉主导的交易中估值接近 5 亿美元](https://aihot.bt199.com/news/c923ead07513/)
-   - 这家成立两年的初创公司的本轮融资是在 Mecka 宣布 A 轮融资几个月后进行的
-   - `TechCrunch AI · 2026-09-11`
+1. [OpenAI 的 Sam Altman 表示，在 2026 年上市是“不明智的”](https://aihot.bt199.com/news/22280ff70f06/)
+   - 首席执行官 Sam Altman 表示，虽然 OpenAI 已秘密申请 IPO，但该公司今年不会上市
+   - `TechCrunch AI · 2026-09-12`
 
-2. [Anthropic首席执行官表示，是时候给人工智能踩刹车了](https://aihot.bt199.com/news/423571cd7c5d/)
-   - Anthropic 首席执行官 Dario Amodei 表示，现在是放慢人工智能开发速度的时候了，并将允许 METR…
+2. [OpenAI 的流氓人工智能在 5 月份试图攻击另一家公司](https://aihot.bt199.com/news/552eadb73497/)
+   - 5 月份，数百个恶意和垃圾邮件包被上传到 RubyGems，对主机造成严重破坏。现在，独立研究人员表示，一群 OpenA…
    - `The Verge AI · 2026-09-12`
 
-3. [特朗普给数据中心污染通行证](https://aihot.bt199.com/news/bcfea4b7b186/)
-   - 一群前环保局官员本周在一份简报和新报告中表示，唐纳德·特朗普总统以加快人工智能数据中心建设的名义削弱了环境法规，这增加了…
+3. [Sam Altman 表示 OpenAI 在 2026 年上市将是“不明智的”](https://aihot.bt199.com/news/9276271a0e3f/)
+   - OpenAI首席执行官Sam Altman在接受《财富》采访时证实，2026年OpenAI不会进行IPO。在 45 分钟…
    - `The Verge AI · 2026-09-12`
 
 4. [圆桌会议：人工智能的末日危机](https://aihot.bt199.com/news/12de205131c9/)
@@ -135,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 

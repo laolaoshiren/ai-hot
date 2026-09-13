@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：178 # 评论：73"
 summary = "Article URL: https://gist.github.com/wsxiaoys/e0286dc6bb624ff5fdf49e7f4c528ba3 Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：178 # 评论：73"
 tags = []
-list_page = 13
+list_page = 14
 +++
 
 <!-- AUTO-GENERATED: news page -->

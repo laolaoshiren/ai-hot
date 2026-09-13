@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：112 # 评论：74"
 summary = "Article URL: https://github.com/TauricResearch/TradingAgents Comments URL: https://news.ycombinator.com/item?id=49605822 Points: 112 # Comments: 74"
 summary_zh = "文章网址： 评论网址： 积分：112 # 评论：74"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->

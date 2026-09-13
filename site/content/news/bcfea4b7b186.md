@@ -20,7 +20,7 @@ ai_summary = "一群前环保局官员本周在一份简报和新报告中表示
 summary = "President Donald Trump is weakening environmental regulations in the name of speeding up the construction of AI data centers, raising health risks for Americans, a cadre of former EPA officials said this week in a briefing and new report."
 summary_zh = "一群前环保局官员本周在一份简报和新报告中表示，唐纳德·特朗普总统以加快人工智能数据中心建设的名义削弱了环境法规，这增加了美国人的健康风险。他们敦促——也许是徒劳的——总统通过一项"
 tags = []
-list_page = 1
+list_page = 2
 +++
 
 <!-- AUTO-GENERATED: news page -->

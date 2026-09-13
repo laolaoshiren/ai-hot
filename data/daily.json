@@ -1,40 +1,40 @@
 {
-  "updated_at": "2026-09-12T19:58:33.307720",
-  "date": "2026-09-12",
+  "updated_at": "2026-09-13T02:22:01.815384",
+  "date": "2026-09-13",
   "spotlight": {
-    "id": "豆包",
-    "name": "豆包",
-    "url": "https://www.doubao.com",
+    "id": "通义千问",
+    "name": "通义千问",
+    "url": "https://tongyi.aliyun.com",
     "type": "tool",
-    "description": "字节跳动出品的 AI 助手，功能全面",
-    "pricing": "免费",
+    "description": "阿里巴巴出品的 AI 助手",
+    "pricing": "免费 + API 按量",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "LangGraph",
-      "url": "https://github.com/langchain-ai/langgraph",
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
       "type": "agent",
-      "description": "LangChain出品的有状态Agent编排框架",
+      "description": "让AI控制浏览器的Agent框架，Python实现",
       "pricing": "开源免费",
-      "category": "多 Agent"
+      "category": "浏览器 Agent"
     },
     {
-      "name": "Cmux",
-      "url": "https://github.com/manaflow-ai/cmux",
+      "name": "Figma Context Mcp",
+      "url": "https://github.com/GLips/Figma-Context-MCP",
       "type": "agent",
-      "description": "面向 AI 编程工作流的 macOS 终端工具，支持纵向标签页和任务通知，方便同时管理多个 Agent。",
+      "description": "把 Figma 设计稿上下文提供给 Cursor 等 AI 编程 Agent 的 MCP 服务，方便按设计还原页面。",
       "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "id": "sora",
-      "name": "Sora",
-      "url": "https://sora.com",
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "url": "https://chat.openai.com",
       "type": "tool",
-      "description": "OpenAI 视频生成模型，效果惊人",
-      "pricing": "ChatGPT Pro $200/月",
-      "category": "视频"
+      "description": "最流行的 AI 对话工具，OpenAI 出品",
+      "pricing": "免费 + Plus $20/月",
+      "category": "对话"
     }
   ]
 }

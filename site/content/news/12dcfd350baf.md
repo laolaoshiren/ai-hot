@@ -20,7 +20,7 @@ ai_summary = "Cymphony 在由红杉资本和 SMBC Fin Atlas Beyond Fund 共同�
 summary = "Cymphony was valued at more than $100 million in a $25 million Series A co-led by Sequoia and SMBC Fin Atlas Beyond Fund."
 summary_zh = "Cymphony 在由红杉资本和 SMBC Fin Atlas Beyond Fund 共同领投的 2500 万美元 A 轮融资中估值超过 1 亿美元"
 tags = []
-list_page = 14
+list_page = 15
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "虽然近几个月 K3 的使用量略有下降，但 OpenRouter �
 summary = "While K3's usage figures have declined slightly in recent months, OpenRouter data currently shows as many as 300 billion tokens being generated each day by K3 models on the system."
 summary_zh = "虽然近几个月 K3 的使用量略有下降，但 OpenRouter 数据目前显示系统上的 K3 模型每天生成多达 3000 亿个代币"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
