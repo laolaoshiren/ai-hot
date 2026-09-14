@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "据了解，预计Anthropic继尖端AI“Claude Mythos”之后，近期将恢复提供同等性能的“Fable”。"
 summary_zh = ""
 tags = []
-list_page = 321
+list_page = 323
 +++
 
 <!-- AUTO-GENERATED: news page -->
