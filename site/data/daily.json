@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-13T20:05:28.073219",
-  "date": "2026-09-13",
+  "updated_at": "2026-09-14T02:38:49.668530",
+  "date": "2026-09-14",
   "spotlight": {
-    "id": "通义千问",
-    "name": "通义千问",
-    "url": "https://tongyi.aliyun.com",
+    "id": "文心一言",
+    "name": "文心一言",
+    "url": "https://yiyan.baidu.com",
     "type": "tool",
-    "description": "阿里巴巴出品的 AI 助手",
+    "description": "百度出品的 AI 助手",
     "pricing": "免费 + API 按量",
     "category": "对话"
   },
   "alternates": [
     {
-      "name": "Browser Use",
-      "url": "https://github.com/browser-use/browser-use",
+      "name": "WebVoyager",
+      "url": "https://github.com/MinorJerry/WebVoyager",
       "type": "agent",
-      "description": "让AI控制浏览器的Agent框架，Python实现",
+      "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
       "pricing": "开源免费",
       "category": "浏览器 Agent"
     },
     {
-      "name": "Figma Context Mcp",
-      "url": "https://github.com/GLips/Figma-Context-MCP",
+      "name": "Ai Website Cloner Template",
+      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
       "type": "agent",
-      "description": "把 Figma 设计稿上下文提供给 Cursor 等 AI 编程 Agent 的 MCP 服务，方便按设计还原页面。",
+      "description": "用 AI 编程 Agent 一条命令克隆网页的模板项目，适合快速复刻页面结构和样式。",
       "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "id": "chatgpt",
-      "name": "ChatGPT",
-      "url": "https://chat.openai.com",
+      "id": "claude",
+      "name": "Claude",
+      "url": "https://claude.ai",
       "type": "tool",
-      "description": "最流行的 AI 对话工具，OpenAI 出品",
-      "pricing": "免费 + Plus $20/月",
+      "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
+      "pricing": "免费 + Pro $20/月",
       "category": "对话"
     }
   ]

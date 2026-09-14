@@ -7117,6 +7117,33 @@
     "collected_at": "2026-08-05T08:23:35.216423"
   },
   {
+    "id": "github-1368214794",
+    "name": "everclear077/awesome-ai-x-accounts",
+    "display_name": "awesome-ai-x-accounts",
+    "url": "https://github.com/everclear077/awesome-ai-x-accounts",
+    "description": "A categorized directory of X accounts covering AI, LLMs, agents, and technology, with original profile bios and follower counts. Available in 7 languages.",
+    "stars": 14,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "ai-agents",
+      "ai-coding",
+      "artificial-intelligence",
+      "awesome",
+      "awesome-list",
+      "llm",
+      "multilingual",
+      "technology",
+      "twitter",
+      "x-accounts"
+    ],
+    "created_at": "2026-09-13T08:57:52Z",
+    "updated_at": "2026-09-14T02:27:00Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-14T02:38:05.967512"
+  },
+  {
     "id": "github-1226271186",
     "name": "Kyros-494/kyros-ai",
     "display_name": "kyros-ai",
@@ -10037,6 +10064,28 @@
     "license": "MIT",
     "source": "github-search",
     "collected_at": "2026-09-02T15:43:55.255043"
+  },
+  {
+    "id": "github-1368988490",
+    "name": "lucidrains/RLT",
+    "display_name": "RLT",
+    "url": "https://github.com/lucidrains/RLT",
+    "description": "Implementation of the recurrent looped transformer proposed by Yifan Zhang of Princeton ",
+    "stars": 9,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "recurrence",
+      "transformers",
+      "yoco"
+    ],
+    "created_at": "2026-09-13T23:00:33Z",
+    "updated_at": "2026-09-14T02:37:40Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-14T02:38:05.967530"
   },
   {
     "id": "github-1188906847",
