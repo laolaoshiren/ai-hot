@@ -1408,18 +1408,15 @@
     "pricing": "按量计费",
     "api": true,
     "provider_kind": "manual",
-    "source": "openrouter",
+    "source": "manual",
     "latest_models": [
       "DeepSeek Pro Latest",
       "DeepSeek Flash Latest",
       "DeepSeek V4 Flash Latest"
     ],
-    "model_count": 3,
-    "last_updated": "2026-09-14",
-    "modalities": [
-      "文本",
-      "多模态"
-    ],
-    "live_summary": "OpenRouter 已收录 3 个该作者/厂商相关模型，最近更新为 DeepSeek Pro Latest"
+    "model_count": 0,
+    "last_updated": "",
+    "modalities": [],
+    "live_summary": "站内手工维护，待补充实时模型索引"
   }
 ]

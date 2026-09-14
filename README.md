@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-15 01:22:36
+🕐 **最近更新**：2026-09-15 05:17:50
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [在 iOS 27 中，我实际上再次使用 Siri](https://aihot.bt199.com/news/6b89f6f497d7/)
+1. [报告称 OpenAI 以 3 亿美元收购智能手机摄像头制造商 Glass Imaging](https://aihot.bt199.com/news/4dd932ed2d93/)
+   - Glass Imaging 由两位前苹果工程师创立，他们曾领导开发苹果肖像模式的团队
+   - `TechCrunch AI · 2026-09-14`
+
+2. [在 iOS 27 中，我实际上再次使用 Siri](https://aihot.bt199.com/news/6b89f6f497d7/)
    - 苹果拖延已久的 Siri 改革终于在 iOS 27 中到来，它改变了助手日常使用的感觉
    - `TechCrunch AI · 2026-09-14`
 
-2. [微软新的人工智能“行为准则”告诉模型不要侵入系统或欺骗人类](https://aihot.bt199.com/news/c2be321fdeec/)
-   - 该行为准则列出了微软人工智能模型应遵循的一般原则——例如支持人类而不是取代人类，以及加速人类繁荣——以及旨在实施这些原则…
-   - `TechCrunch AI · 2026-09-14`
+3. [黄仁勋让特朗普在台上开免提，宣布机器人不会统治世界](https://aihot.bt199.com/news/1002fff4f0e0/)
+   - 周一，英伟达首席执行官黄仁勋在 All-In Podcast 的 All-In 峰会上接听了特朗普总统的电话。这并不是黄…
+   - `The Verge AI · 2026-09-14`
 
-3. [人工智能特工揭发了作弊的同事](https://aihot.bt199.com/news/4ca5a8ed3801/)
+4. [人工智能行业已经发生了悲惨的转变。现在怎么办？](https://aihot.bt199.com/news/f4964ed02dfb/)
+   - 这个故事出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。本周末，Anthro…
+   - `MIT Tech Review · 2026-09-14`
+
+5. [人工智能特工揭发了作弊的同事](https://aihot.bt199.com/news/4ca5a8ed3801/)
    - 一群人工智能特工要求解决一系列数学问题，他们分成敌对派别——当一些人作弊时，其他人试图阻止他们。这种举报行为在谷歌 De…
    - `MIT Tech Review · 2026-09-14`
 
-4. [出于安全考虑，微软表示“人比人工智能更重要”](https://aihot.bt199.com/news/3a588dc9c7bf/)
+6. [出于安全考虑，微软表示“人比人工智能更重要”](https://aihot.bt199.com/news/3a588dc9c7bf/)
    - 鉴于人们对人工智能模型进展的安全担忧日益增加，微软今天发布了一份长达 37 页的“人文主义人工智能行为准则”。在研究人员…
    - `The Verge AI · 2026-09-14`
-
-5. [下载：人工智能真正的灭绝威胁和眼睛年龄逆转技术](https://aihot.bt199.com/news/77e5d5723a5e/)
-   - 这是今天版本的《下载》，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。圆桌会议：人工智能真的会杀死我们所有…
-   - `MIT Tech Review · 2026-09-14`
-
-6. [特朗普和迈克·约翰逊认为人工智能行业反应过度](https://aihot.bt199.com/news/1d273e458a46/)
-   - 昨天，Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 发表了一封冗长的公开信，表示是时候“开…
-   - `The Verge AI · 2026-09-13`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
