@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：239 # 评论：208"
 summary = "Article URL: https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：239 # 评论：208"
 tags = []
-list_page = 33
+list_page = 35
 +++
 
 <!-- AUTO-GENERATED: news page -->

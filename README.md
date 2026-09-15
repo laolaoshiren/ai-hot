@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-15 18:48:24
+🕐 **最近更新**：2026-09-16 00:01:44
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [英伟达首席执行官黄仁勋告诉特朗普“我们不会让[人工智能放缓]发生”](https://aihot.bt199.com/news/71b2c4f295f2/)
-   - 尽管埃隆·马斯克和萨姆·奥尔特曼支持达里奥·阿莫迪减缓人工智能发展步伐的呼吁，但黄仁勋似乎有不同的看法
-   - `TechCrunch AI · 2026-09-14`
+1. [OpenAI、Anthropic、谷歌已经就人工智能安全问题进行了数周的谈判](https://aihot.bt199.com/news/7ca41db25b66/)
+   - OpenAI 确认与 Anthropic 和 Google DeepMind 进行了数周的人工智能安全会谈，特朗普团队消…
+   - `TechCrunch AI · 2026-09-15`
 
-2. [报告称 OpenAI 以 3 亿美元收购智能手机摄像头制造商 Glass Imaging](https://aihot.bt199.com/news/4dd932ed2d93/)
-   - Glass Imaging 由两位前苹果工程师创立，他们曾领导开发苹果肖像模式的团队
-   - `TechCrunch AI · 2026-09-14`
+2. [AEO 初创公司 Profound 达到独角兽估值，在上一轮融资 7 个月后筹集 1.8 亿美元 D 轮融资](https://aihot.bt199.com/news/a99284cc094f/)
+   - Profound 以 18 亿美元的估值筹集了 1.8 亿美元的 D 轮融资，距离筹集 9600 万美元的 C 轮融资不…
+   - `TechCrunch AI · 2026-09-15`
 
-3. [人工智能的万亿美元赌博必须发生什么才能获得回报](https://aihot.bt199.com/news/03f235e72691/)
-   - 当宾夕法尼亚大学沃顿商学院金融学教授 Jessica Wachter 想要评估人工智能在未来几年对经济的影响时，她面临着…
+3. [Meta 的新 One 订阅为社交媒体和人工智能定价](https://aihot.bt199.com/news/a16a9d44f2c9/)
+   - 在推出新的万能人工智能助手 Muse 后不久，Meta 就推出了订阅捆绑包，将其独立应用程序订阅与额外的人工智能使用相结…
+   - `The Verge AI · 2026-09-15`
+
+4. [这款门铃摄像头可让人类保安监视您的前门](https://aihot.bt199.com/news/81cef9ef2f5c/)
+   - DIY 家庭安全公司 SimpliSafe 正在将其人工智能驱动的主动安全功能引入前门。新的 SimpliSafe 视频…
+   - `The Verge AI · 2026-09-15`
+
+5. [下载：人工智能厄运、告密者和去衰老肝脏](https://aihot.bt199.com/news/4b8958bcf8ff/)
+   - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能行业已经发生了悲惨的转变。现…
    - `MIT Tech Review · 2026-09-15`
 
-4. [大型科技公司的人工智能放缓是安全协议还是卡特尔？](https://aihot.bt199.com/news/c9c7e7aae937/)
-   - 当 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman)、Anthropic 首席执行官达里奥·阿莫迪 (D…
-   - `The Verge AI · 2026-09-14`
-
-5. [高管和政治家对减缓人工智能发展有何看法](https://aihot.bt199.com/news/de5d887a67d7/)
-   - 过去几天，达里奥·阿莫迪 (Dario Amodei) 发表了一篇题为“我们必须走在前沿”的长文，详细阐述了为什么人工智…
-   - `The Verge AI · 2026-09-14`
-
-6. [人工智能行业已经发生了悲惨的转变。现在怎么办？](https://aihot.bt199.com/news/f4964ed02dfb/)
-   - 这个故事出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。本周末，Anthro…
-   - `MIT Tech Review · 2026-09-14`
+6. [AI 模型需要更多有关生物学的数据，OpenAI 正在付费创建它](https://aihot.bt199.com/news/f3c2d25299c7/)
+   - 去年，专注于临床试验的政策分析师 Ruxandra Teslo 提出了一个增强医疗人工智能系统的想法：使用失败的生物技术…
+   - `MIT Tech Review · 2026-09-15`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
