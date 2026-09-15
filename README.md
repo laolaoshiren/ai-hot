@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-15 10:43:14
+🕐 **最近更新**：2026-09-15 18:48:24
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -24,20 +24,20 @@
    - Glass Imaging 由两位前苹果工程师创立，他们曾领导开发苹果肖像模式的团队
    - `TechCrunch AI · 2026-09-14`
 
-3. [大型科技公司的人工智能放缓是安全协议还是卡特尔？](https://aihot.bt199.com/news/c9c7e7aae937/)
+3. [人工智能的万亿美元赌博必须发生什么才能获得回报](https://aihot.bt199.com/news/03f235e72691/)
+   - 当宾夕法尼亚大学沃顿商学院金融学教授 Jessica Wachter 想要评估人工智能在未来几年对经济的影响时，她面临着…
+   - `MIT Tech Review · 2026-09-15`
+
+4. [大型科技公司的人工智能放缓是安全协议还是卡特尔？](https://aihot.bt199.com/news/c9c7e7aae937/)
    - 当 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman)、Anthropic 首席执行官达里奥·阿莫迪 (D…
    - `The Verge AI · 2026-09-14`
 
-4. [高管和政治家对减缓人工智能发展有何看法](https://aihot.bt199.com/news/de5d887a67d7/)
+5. [高管和政治家对减缓人工智能发展有何看法](https://aihot.bt199.com/news/de5d887a67d7/)
    - 过去几天，达里奥·阿莫迪 (Dario Amodei) 发表了一篇题为“我们必须走在前沿”的长文，详细阐述了为什么人工智…
    - `The Verge AI · 2026-09-14`
 
-5. [人工智能行业已经发生了悲惨的转变。现在怎么办？](https://aihot.bt199.com/news/f4964ed02dfb/)
+6. [人工智能行业已经发生了悲惨的转变。现在怎么办？](https://aihot.bt199.com/news/f4964ed02dfb/)
    - 这个故事出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。本周末，Anthro…
-   - `MIT Tech Review · 2026-09-14`
-
-6. [人工智能特工揭发了作弊的同事](https://aihot.bt199.com/news/4ca5a8ed3801/)
-   - 一群人工智能特工要求解决一系列数学问题，他们分成敌对派别——当一些人作弊时，其他人试图阻止他们。这种举报行为在谷歌 De…
    - `MIT Tech Review · 2026-09-14`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

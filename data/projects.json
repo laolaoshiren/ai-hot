@@ -5476,6 +5476,36 @@
     "collected_at": "2026-04-28T10:16:45.050886"
   },
   {
+    "id": "github-1350742000",
+    "name": "abnste/mewu_ai",
+    "display_name": "mewu_ai",
+    "url": "https://github.com/abnste/mewu_ai",
+    "description": "MewuAI 喵呜AI | Windows 开源 AI 截图标注软件：AI 圈选重点、截图问答、离线 OCR、原位翻译、录屏与视频标注。 Open-source AI screenshot annotation tool for Windows.",
+    "stars": 68,
+    "forks": 4,
+    "language": "C#",
+    "topics": [
+      "ai-screenshot",
+      "annotation",
+      "artificial-intelligence",
+      "image-annotation",
+      "ocr",
+      "open-source",
+      "screen-capture",
+      "screen-recorder",
+      "screenshot",
+      "screenshot-tool",
+      "translation",
+      "video-annotation",
+      "windows"
+    ],
+    "created_at": "2026-08-29T16:32:28Z",
+    "updated_at": "2026-09-15T07:13:24Z",
+    "license": "MPL-2.0",
+    "source": "github-search",
+    "collected_at": "2026-09-15T10:46:26.409431"
+  },
+  {
     "id": "github-1260475954",
     "name": "paxlabs-inc/matrix-core",
     "display_name": "matrix-core",

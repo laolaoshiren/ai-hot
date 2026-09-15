@@ -24,13 +24,94 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000096",
-        "completion": "0.00000288",
-        "input_cache_read": "0.000000088"
+        "prompt": "0.00000066",
+        "completion": "0.00000198",
+        "input_cache_read": "0.000000022",
+        "overrides": [
+          {
+            "utc_days": [
+              "saturday",
+              "sunday"
+            ],
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 0,
+            "utc_end": 100,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 100,
+            "utc_end": 400,
+            "prompt": "0.00000132",
+            "completion": "0.00000396",
+            "input_cache_read": "0.000000044"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 400,
+            "utc_end": 600,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 600,
+            "utc_end": 1000,
+            "prompt": "0.00000132",
+            "completion": "0.00000396",
+            "input_cache_read": "0.000000044"
+          },
+          {
+            "utc_days": [
+              "monday",
+              "tuesday",
+              "wednesday",
+              "thursday",
+              "friday"
+            ],
+            "utc_start": 1000,
+            "utc_end": 0,
+            "prompt": "0.00000066",
+            "completion": "0.00000198",
+            "input_cache_read": "0.000000022"
+          }
+        ]
       },
       "top_provider": {
         "context_length": 1048576,
-        "max_completion_tokens": 943718,
+        "max_completion_tokens": 384000,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -897,9 +978,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000003",
-        "completion": "0.0000012",
-        "input_cache_read": "0.000000006",
+        "prompt": "0.00000015",
+        "completion": "0.0000006",
+        "input_cache_read": "0.000000003",
         "overrides": [
           {
             "utc_days": [
@@ -3481,13 +3562,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000009",
-        "completion": "0.000003",
-        "input_cache_read": "0.00000015"
+        "prompt": "0.0000008775",
+        "completion": "0.00000297",
+        "input_cache_read": "0.0000001755"
       },
       "top_provider": {
-        "context_length": 1048576,
-        "max_completion_tokens": 131072,
+        "context_length": 262144,
+        "max_completion_tokens": 235929,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -41890,5 +41971,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-15T02:42:31.107008+00:00"
+  "updated_at": "2026-09-15T10:47:21.613778+00:00"
 }
