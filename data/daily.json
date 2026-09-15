@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-14T21:17:07.995860",
-  "date": "2026-09-14",
+  "updated_at": "2026-09-15T02:42:31.274567",
+  "date": "2026-09-15",
   "spotlight": {
-    "id": "文心一言",
-    "name": "文心一言",
-    "url": "https://yiyan.baidu.com",
+    "id": "perplexity",
+    "name": "Perplexity",
+    "url": "https://perplexity.ai",
     "type": "tool",
-    "description": "百度出品的 AI 助手",
-    "pricing": "免费 + API 按量",
-    "category": "对话"
+    "description": "AI 搜索引擎，实时联网回答问题",
+    "pricing": "免费 + Pro $20/月",
+    "category": "搜索"
   },
   "alternates": [
     {
-      "name": "WebVoyager",
-      "url": "https://github.com/MinorJerry/WebVoyager",
+      "name": "Fabric",
+      "url": "https://github.com/danielmiessler/fabric",
       "type": "agent",
-      "description": "基于GPT-4V的网页浏览Agent，视觉理解网页内容",
+      "description": "AI增强人类能力的框架，内置海量Prompt模板",
       "pricing": "开源免费",
-      "category": "浏览器 Agent"
+      "category": "效率 Agent"
     },
     {
-      "name": "Ai Website Cloner Template",
-      "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "name": "Botsharp",
+      "url": "https://github.com/SciSharp/BotSharp",
       "type": "agent",
-      "description": "用 AI 编程 Agent 一条命令克隆网页的模板项目，适合快速复刻页面结构和样式。",
+      "description": "基于 .NET 的多 Agent 框架，适合构建企业级对话机器人和自动化业务流程。",
       "pricing": "开源免费",
-      "category": "编程 Agent"
+      "category": "多Agent Agent"
     },
     {
-      "id": "claude",
-      "name": "Claude",
-      "url": "https://claude.ai",
+      "id": "gemini",
+      "name": "Gemini",
+      "url": "https://gemini.google.com",
       "type": "tool",
-      "description": "Anthropic 出品的 AI 对话工具，长文本能力强",
-      "pricing": "免费 + Pro $20/月",
+      "description": "Google 出品的 AI 对话工具，多模态能力强",
+      "pricing": "免费 + Advanced $20/月",
       "category": "对话"
     }
   ]

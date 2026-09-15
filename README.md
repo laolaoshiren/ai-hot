@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-15 05:17:50
+🕐 **最近更新**：2026-09-15 10:43:14
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,29 +16,29 @@
 
 ## 🔥 今日热点
 
-1. [报告称 OpenAI 以 3 亿美元收购智能手机摄像头制造商 Glass Imaging](https://aihot.bt199.com/news/4dd932ed2d93/)
+1. [英伟达首席执行官黄仁勋告诉特朗普“我们不会让[人工智能放缓]发生”](https://aihot.bt199.com/news/71b2c4f295f2/)
+   - 尽管埃隆·马斯克和萨姆·奥尔特曼支持达里奥·阿莫迪减缓人工智能发展步伐的呼吁，但黄仁勋似乎有不同的看法
+   - `TechCrunch AI · 2026-09-14`
+
+2. [报告称 OpenAI 以 3 亿美元收购智能手机摄像头制造商 Glass Imaging](https://aihot.bt199.com/news/4dd932ed2d93/)
    - Glass Imaging 由两位前苹果工程师创立，他们曾领导开发苹果肖像模式的团队
    - `TechCrunch AI · 2026-09-14`
 
-2. [在 iOS 27 中，我实际上再次使用 Siri](https://aihot.bt199.com/news/6b89f6f497d7/)
-   - 苹果拖延已久的 Siri 改革终于在 iOS 27 中到来，它改变了助手日常使用的感觉
-   - `TechCrunch AI · 2026-09-14`
-
-3. [黄仁勋让特朗普在台上开免提，宣布机器人不会统治世界](https://aihot.bt199.com/news/1002fff4f0e0/)
-   - 周一，英伟达首席执行官黄仁勋在 All-In Podcast 的 All-In 峰会上接听了特朗普总统的电话。这并不是黄…
+3. [大型科技公司的人工智能放缓是安全协议还是卡特尔？](https://aihot.bt199.com/news/c9c7e7aae937/)
+   - 当 OpenAI 首席执行官萨姆·奥尔特曼 (Sam Altman)、Anthropic 首席执行官达里奥·阿莫迪 (D…
    - `The Verge AI · 2026-09-14`
 
-4. [人工智能行业已经发生了悲惨的转变。现在怎么办？](https://aihot.bt199.com/news/f4964ed02dfb/)
+4. [高管和政治家对减缓人工智能发展有何看法](https://aihot.bt199.com/news/de5d887a67d7/)
+   - 过去几天，达里奥·阿莫迪 (Dario Amodei) 发表了一篇题为“我们必须走在前沿”的长文，详细阐述了为什么人工智…
+   - `The Verge AI · 2026-09-14`
+
+5. [人工智能行业已经发生了悲惨的转变。现在怎么办？](https://aihot.bt199.com/news/f4964ed02dfb/)
    - 这个故事出现在我们关于人工智能的每周通讯《算法》中。要首先在您的收件箱中收到此类故事，请在此处注册。本周末，Anthro…
    - `MIT Tech Review · 2026-09-14`
 
-5. [人工智能特工揭发了作弊的同事](https://aihot.bt199.com/news/4ca5a8ed3801/)
+6. [人工智能特工揭发了作弊的同事](https://aihot.bt199.com/news/4ca5a8ed3801/)
    - 一群人工智能特工要求解决一系列数学问题，他们分成敌对派别——当一些人作弊时，其他人试图阻止他们。这种举报行为在谷歌 De…
    - `MIT Tech Review · 2026-09-14`
-
-6. [出于安全考虑，微软表示“人比人工智能更重要”](https://aihot.bt199.com/news/3a588dc9c7bf/)
-   - 鉴于人们对人工智能模型进展的安全担忧日益增加，微软今天发布了一份长达 37 页的“人文主义人工智能行为准则”。在研究人员…
-   - `The Verge AI · 2026-09-14`
 
 7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -48,13 +48,13 @@
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+   - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
+   - `Ars Technica AI · 2026-09-14`
+
+10. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
-
-10. [为什么本月的微软补丁发布很精彩](https://aihot.bt199.com/news/5e00d64b97a6/)
-   - 在人工智能辅助攻击预计将到来之前，安全专家们正在发布补丁
-   - `Ars Technica AI · 2026-09-08`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
