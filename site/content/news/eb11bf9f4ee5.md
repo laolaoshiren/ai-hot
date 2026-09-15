@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "经典RSI剧本开始动摇"
 summary_zh = ""
 tags = []
-list_page = 86
+list_page = 87
 +++
 
 <!-- AUTO-GENERATED: news page -->

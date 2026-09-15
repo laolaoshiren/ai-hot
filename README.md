@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-16 00:01:44
+🕐 **最近更新**：2026-09-16 04:45:18
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [OpenAI、Anthropic、谷歌已经就人工智能安全问题进行了数周的谈判](https://aihot.bt199.com/news/7ca41db25b66/)
-   - OpenAI 确认与 Anthropic 和 Google DeepMind 进行了数周的人工智能安全会谈，特朗普团队消…
+1. [人工智能墓地：未成功的项目和初创公司的清单](https://aihot.bt199.com/news/7eb39231f1ba/)
+   - 从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”发布，以下是关闭或未达到预期的 AI 项目
    - `TechCrunch AI · 2026-09-15`
 
-2. [AEO 初创公司 Profound 达到独角兽估值，在上一轮融资 7 个月后筹集 1.8 亿美元 D 轮融资](https://aihot.bt199.com/news/a99284cc094f/)
-   - Profound 以 18 亿美元的估值筹集了 1.8 亿美元的 D 轮融资，距离筹集 9600 万美元的 C 轮融资不…
-   - `TechCrunch AI · 2026-09-15`
+2. [圆桌会议：人工智能真的会杀死我们所有人吗？](https://aihot.bt199.com/news/c733aaf01135/)
+   - 收听会议或观看下面的内容世界领先人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者这更多的是…
+   - `MIT Tech Review · 2026-09-15`
 
 3. [Meta 的新 One 订阅为社交媒体和人工智能定价](https://aihot.bt199.com/news/a16a9d44f2c9/)
    - 在推出新的万能人工智能助手 Muse 后不久，Meta 就推出了订阅捆绑包，将其独立应用程序订阅与额外的人工智能使用相结…
@@ -36,23 +36,19 @@
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能行业已经发生了悲惨的转变。现…
    - `MIT Tech Review · 2026-09-15`
 
-6. [AI 模型需要更多有关生物学的数据，OpenAI 正在付费创建它](https://aihot.bt199.com/news/f3c2d25299c7/)
-   - 去年，专注于临床试验的政策分析师 Ruxandra Teslo 提出了一个增强医疗人工智能系统的想法：使用失败的生物技术…
-   - `MIT Tech Review · 2026-09-15`
-
-7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
 
-10. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
 
@@ -139,6 +135,8 @@
 ---
 
 MIT License
+
+
 
 
 
