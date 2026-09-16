@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "人形机器人正式迈入“GPT时代”"
 summary_zh = ""
 tags = []
-list_page = 396
+list_page = 397
 +++
 
 <!-- AUTO-GENERATED: news page -->

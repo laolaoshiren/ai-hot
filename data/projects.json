@@ -7455,6 +7455,33 @@
     "collected_at": "2026-09-04T10:16:18.792028"
   },
   {
+    "id": "github-1370498337",
+    "name": "sadia-sigma-lab/BLINDSPOT",
+    "display_name": "BLINDSPOT",
+    "url": "https://github.com/sadia-sigma-lab/BLINDSPOT",
+    "description": "Live Benchmark for long Horizon tool using Agentic Systems",
+    "stars": 13,
+    "forks": 0,
+    "language": "Python",
+    "topics": [
+      "agent-framework",
+      "agentic-ai",
+      "artificial-intelligence",
+      "benchmark",
+      "dataset",
+      "large-language-models",
+      "multi-agent",
+      "over-refusal",
+      "refusal-calibration",
+      "safety"
+    ],
+    "created_at": "2026-09-14T20:03:08Z",
+    "updated_at": "2026-09-16T20:30:44Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-16T20:43:31.702489"
+  },
+  {
     "id": "github-1201246330",
     "name": "ihabkhaled/ClawAI",
     "display_name": "ClawAI",

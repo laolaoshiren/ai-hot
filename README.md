@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-16 23:54:23
+🕐 **最近更新**：2026-09-17 04:45:04
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [Infosys 前首席执行官的人工智能初创公司又获得 5300 万美元](https://aihot.bt199.com/news/766bd696566c/)
-   - 这家帕洛阿尔托初创公司表示，在推出后的几个月内，它已经获得了多份价值七位数的企业合同
+1. [在被指控出售“变态眼镜”后，Meta 准备出售一副不带摄像头的眼镜](https://aihot.bt199.com/news/303e2dc324c9/)
+   - Meta 能否通过一款无摄像头的新产品来躲避“变态眼镜”的指责？
    - `TechCrunch AI · 2026-09-16`
 
-2. [认识一只大脑皮层由人类细胞组成的老鼠](https://aihot.bt199.com/news/bb25cc83b84b/)
+2. [人工智能实验室需要内部审计员——但也许他们应该先关上前门](https://aihot.bt199.com/news/f60a2a4ca838/)
+   - 对于隐藏在众目睽睽之下的流氓特工来说，可能有一种更简单、更有效的解决办法
+   - `TechCrunch AI · 2026-09-16`
+
+3. [人工智能数据中心的电子垃圾问题非常严重，而且还在变得越来越严重](https://aihot.bt199.com/news/418dbc769c8c/)
+   - 一份新报告警告说，人工智能热潮产生的电子垃圾被大大低估了。到 2050 年，这些垃圾可能足以装满 2300 万个集装箱—…
+   - `The Verge AI · 2026-09-16`
+
+4. [苹果可能会再次制造服务器以从人工智能热潮中获利](https://aihot.bt199.com/news/bdc341c04479/)
+   - 据 The Information 报道，苹果正计划重返服务器领域，并可能与 Nvidia 合作来实现这一目标。 App…
+   - `The Verge AI · 2026-09-16`
+
+5. [认识一只大脑皮层由人类细胞组成的老鼠](https://aihot.bt199.com/news/bb25cc83b84b/)
    - 当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…
    - `MIT Tech Review · 2026-09-16`
 
-3. [性感的人工智能约会应用程序骗局就在这里](https://aihot.bt199.com/news/45890a1118c8/)
-   - 安全研究员 Matthew“Zigula”Gore-Kormanik 正在分析一款名为 Dora 的欺诈性约会应用程序时…
-   - `The Verge AI · 2026-09-16`
-
-4. [为人工智能奠定材料基础](https://aihot.bt199.com/news/c81fa26a50d6/)
+6. [为人工智能奠定材料基础](https://aihot.bt199.com/news/c81fa26a50d6/)
    - 人工智能的繁荣正在成为材料方面的挑战。随着人工智能将计算推向新领域，基础设施背后的材料变得与其上运行的算法一样重要。半导…
    - `MIT Tech Review · 2026-09-16`
 
-5. [人工智能高管呼吁监管简史](https://aihot.bt199.com/news/0c77d4bbe647/)
-   - 过去几天，很多想从人工智能赚大钱的人都公开同意，在我们失去控制之前，是时候让每个人放慢脚步了——包括 OpenAI 首席…
-   - `The Verge AI · 2026-09-16`
-
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
 
-9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+10. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
