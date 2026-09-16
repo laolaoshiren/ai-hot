@@ -20,7 +20,7 @@ ai_summary = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608
 summary = "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news."
 summary_zh = "文章网址：https://twitter.com/kimi_moonshot/status/2078855608565207130 评论网址：https://news."
 tags = []
-list_page = 222
+list_page = 223
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-16 10:38:00
+🕐 **最近更新**：2026-09-16 18:37:14
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们](https://aihot.bt199.com/news/6a5d552d9722/)
-   - 黄仁勋表示，人工智能并不是某种新形式的“外星人思维”。它只是硬件和软件，因此每个人工智能产品制造商都可以设计安全性
+1. [亚马逊在印度推出 Alexa+，支持印地语](https://aihot.bt199.com/news/5960227fd9e8/)
+   - 亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…
    - `TechCrunch AI · 2026-09-16`
 
-2. [人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞](https://aihot.bt199.com/news/f5e80ecad197/)
-   - 全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设
-   - `TechCrunch AI · 2026-09-15`
+2. [Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们](https://aihot.bt199.com/news/6a5d552d9722/)
+   - 黄仁勋表示，人工智能并不是某种新形式的“外星人思维”。它只是硬件和软件，因此每个人工智能产品制造商都可以设计安全性
+   - `TechCrunch AI · 2026-09-16`
 
 3. [人工智能和数据中心在每次民意调查中都非常不受欢迎](https://aihot.bt199.com/news/066a2ef82197/)
    - 《纽约时报》和锡耶纳大学周二发布的民意调查数据证实了我们已经看到的情况以及政客们的反应——人工智能和数据中心非常不受欢迎…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

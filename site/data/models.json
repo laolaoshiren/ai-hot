@@ -3097,6 +3097,25 @@
     "is_core": true
   },
   {
+    "id": "hf-BAAI--Brainmu-Spike",
+    "name": "BAAI/Brainmu-Spike",
+    "display_name": "Brainmu-Spike",
+    "url": "https://huggingface.co/BAAI/Brainmu-Spike",
+    "author": "BAAI",
+    "pipeline_tag": "",
+    "likes": 0,
+    "downloads": 0,
+    "tags": [
+      "license:apache-2.0",
+      "region:us"
+    ],
+    "created_at": "2026-09-16T10:18:58.000Z",
+    "source": "hf-newest",
+    "collected_at": "2026-09-16T10:35:17.169885",
+    "display_priority": 99,
+    "is_core": true
+  },
+  {
     "id": "hf-Qwen--Qwen3-ForcedAligner-0.6B-hf",
     "name": "Qwen/Qwen3-ForcedAligner-0.6B-hf",
     "display_name": "Qwen3-ForcedAligner-0.6B-hf",
@@ -3129,7 +3148,7 @@
     "created_at": "2026-06-26T08:42:01.000Z",
     "source": "hf-newest",
     "collected_at": "2026-06-26T08:55:31.927662",
-    "display_priority": 99,
+    "display_priority": 100,
     "is_core": true
   },
   {
@@ -3160,7 +3179,7 @@
     "created_at": "2022-08-20T13:26:13.000Z",
     "source": "hf-text-to-image",
     "collected_at": "2026-05-02T10:22:45.432065",
-    "display_priority": 100,
+    "display_priority": 101,
     "is_core": true
   },
   {
@@ -3186,7 +3205,7 @@
     "created_at": "2024-12-26T00:20:08.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-18T20:15:23.806270",
-    "display_priority": 101,
+    "display_priority": 102,
     "is_core": true
   },
   {
@@ -3214,7 +3233,7 @@
     "created_at": "2025-11-25T15:09:48.000Z",
     "source": "hf-text-to-image",
     "collected_at": "2026-04-21T13:07:48.062853",
-    "display_priority": 102,
+    "display_priority": 103,
     "is_core": true
   },
   {
@@ -3243,7 +3262,7 @@
     "created_at": "2025-11-07T05:17:48.000Z",
     "source": "hf-trending",
     "collected_at": "2026-06-18T10:10:25.679474",
-    "display_priority": 103,
+    "display_priority": 104,
     "is_core": true
   },
   {
@@ -3277,7 +3296,7 @@
     "created_at": "2023-11-16T08:19:01.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-24T19:07:31.962378",
-    "display_priority": 104,
+    "display_priority": 105,
     "is_core": true
   },
   {
@@ -3300,7 +3319,7 @@
     "created_at": "2024-02-20T20:03:33.000Z",
     "source": "hf-text-to-image",
     "collected_at": "2026-05-02T09:54:07.444875",
-    "display_priority": 105,
+    "display_priority": 106,
     "is_core": true
   },
   {
@@ -3323,7 +3342,7 @@
     "created_at": "2023-12-20T03:15:30.000Z",
     "source": "hf-text-to-image",
     "collected_at": "2026-05-28T09:51:23.608588",
-    "display_priority": 106,
+    "display_priority": 107,
     "is_core": true
   },
   {
@@ -3358,7 +3377,7 @@
     "created_at": "2025-04-15T21:31:35.000Z",
     "source": "hf-trending",
     "collected_at": "2026-09-04T20:07:21.565554",
-    "display_priority": 107,
+    "display_priority": 108,
     "is_core": true
   },
   {
@@ -3389,7 +3408,7 @@
     "created_at": "2024-08-30T09:48:48.000Z",
     "source": "hf-text-to-image",
     "collected_at": "2026-04-21T13:07:48.062850",
-    "display_priority": 108,
+    "display_priority": 109,
     "is_core": true
   },
   {
@@ -3435,7 +3454,7 @@
     "created_at": "2026-03-04T22:28:28.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733935",
-    "display_priority": 109,
+    "display_priority": 110,
     "is_core": true
   },
   {
@@ -3470,7 +3489,7 @@
     "created_at": "2022-03-02T23:29:04.000Z",
     "source": "hf-trending",
     "collected_at": "2026-09-01T02:51:02.657412",
-    "display_priority": 110,
+    "display_priority": 111,
     "is_core": true
   },
   {
@@ -3578,7 +3597,7 @@
     "created_at": "2026-03-09T05:48:58.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-02T02:00:10.826987",
-    "display_priority": 111,
+    "display_priority": 112,
     "is_core": true
   },
   {
@@ -3599,7 +3618,7 @@
     "created_at": "2026-01-29T21:17:57.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733929",
-    "display_priority": 112,
+    "display_priority": 113,
     "is_core": true
   },
   {
@@ -3658,7 +3677,7 @@
     "created_at": "2026-04-03T05:25:50.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733871",
-    "display_priority": 113,
+    "display_priority": 114,
     "is_core": true
   },
   {
@@ -4333,7 +4352,7 @@
     "created_at": "2026-03-30T13:43:33.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733900",
-    "display_priority": 114,
+    "display_priority": 115,
     "is_core": true
   },
   {
@@ -4360,7 +4379,7 @@
     "created_at": "2026-03-30T19:45:54.000Z",
     "source": "hf-trending",
     "collected_at": "2026-04-21T13:07:47.733916",
-    "display_priority": 115,
+    "display_priority": 116,
     "is_core": true
   },
   {
@@ -4381,7 +4400,7 @@
     "created_at": "2026-03-05T15:20:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-08T13:15:04.246373",
-    "display_priority": 116,
+    "display_priority": 117,
     "is_core": true
   },
   {
@@ -4415,7 +4434,7 @@
     "created_at": "2026-07-28T10:45:18.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-03T09:29:16.601292",
-    "display_priority": 117,
+    "display_priority": 118,
     "is_core": true
   },
   {
@@ -4437,7 +4456,7 @@
     "created_at": "2026-07-30T22:36:12.000Z",
     "source": "hf-trending",
     "collected_at": "2026-08-05T13:48:53.784995",
-    "display_priority": 118,
+    "display_priority": 119,
     "is_core": true
   },
   {
@@ -4456,31 +4475,6 @@
     "created_at": "2026-03-24T10:54:10.000Z",
     "source": "hf-trending",
     "collected_at": "2026-05-06T19:28:23.277960",
-    "display_priority": 119,
-    "is_core": true
-  },
-  {
-    "id": "hf-Zyphra--ZAYA1-8B",
-    "name": "Zyphra/ZAYA1-8B",
-    "display_name": "ZAYA1-8B",
-    "url": "https://huggingface.co/Zyphra/ZAYA1-8B",
-    "author": "Zyphra",
-    "pipeline_tag": "",
-    "likes": 541,
-    "downloads": 146770,
-    "tags": [
-      "safetensors",
-      "zaya",
-      "arxiv:2605.05365",
-      "base_model:Zyphra/ZAYA1-reasoning-base",
-      "base_model:finetune:Zyphra/ZAYA1-reasoning-base",
-      "license:apache-2.0",
-      "eval-results",
-      "region:us"
-    ],
-    "created_at": "2026-05-04T19:45:38.000Z",
-    "source": "hf-trending",
-    "collected_at": "2026-05-20T20:06:23.430988",
     "display_priority": 120,
     "is_core": true
   },

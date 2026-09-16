@@ -1,7 +1,25 @@
 {
-  "updated_at": "2026-09-16T02:37:58.861326",
+  "updated_at": "2026-09-16T10:37:13.568116",
   "total": 10,
   "hot_list": [
+    {
+      "title": "亚马逊在印度推出 Alexa+，支持印地语",
+      "name": "亚马逊在印度推出 Alexa+，支持印地语",
+      "title_zh": "亚马逊在印度推出 Alexa+，支持印地语",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-16",
+      "time": "2026-09-16",
+      "description": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "subtitle": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "ai_summary": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "category": "资讯",
+      "news_id": "5960227fd9e8",
+      "internal_url": "https://aihot.bt199.com/news/5960227fd9e8/",
+      "type_label": "📰 新闻"
+    },
     {
       "title": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
       "name": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
@@ -18,24 +36,6 @@
       "category": "资讯",
       "news_id": "6a5d552d9722",
       "internal_url": "https://aihot.bt199.com/news/6a5d552d9722/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "name": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "title_zh": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-15",
-      "time": "2026-09-15",
-      "description": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "subtitle": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "ai_summary": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "category": "资讯",
-      "news_id": "f5e80ecad197",
-      "internal_url": "https://aihot.bt199.com/news/f5e80ecad197/",
       "type_label": "📰 新闻"
     },
     {
@@ -185,6 +185,24 @@
   ],
   "top_20": [
     {
+      "title": "亚马逊在印度推出 Alexa+，支持印地语",
+      "name": "亚马逊在印度推出 Alexa+，支持印地语",
+      "title_zh": "亚马逊在印度推出 Alexa+，支持印地语",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-16",
+      "time": "2026-09-16",
+      "description": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "subtitle": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "ai_summary": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "category": "资讯",
+      "news_id": "5960227fd9e8",
+      "internal_url": "https://aihot.bt199.com/news/5960227fd9e8/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
       "name": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
       "title_zh": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
@@ -200,24 +218,6 @@
       "category": "资讯",
       "news_id": "6a5d552d9722",
       "internal_url": "https://aihot.bt199.com/news/6a5d552d9722/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "name": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "title_zh": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-15",
-      "time": "2026-09-15",
-      "description": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "subtitle": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "ai_summary": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "category": "资讯",
-      "news_id": "f5e80ecad197",
-      "internal_url": "https://aihot.bt199.com/news/f5e80ecad197/",
       "type_label": "📰 新闻"
     },
     {
@@ -373,6 +373,24 @@
   },
   "items": [
     {
+      "title": "亚马逊在印度推出 Alexa+，支持印地语",
+      "name": "亚马逊在印度推出 Alexa+，支持印地语",
+      "title_zh": "亚马逊在印度推出 Alexa+，支持印地语",
+      "url": "https://techcrunch.com/2026/09/16/amazon-launches-alexa-in-india-with-hindi-support/",
+      "type": "news",
+      "source": "TechCrunch AI",
+      "score": 15,
+      "detail": "2026-09-16",
+      "time": "2026-09-16",
+      "description": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "subtitle": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "ai_summary": "亚马逊今天宣布其 Alexa+ 对话助手在印度推出，并支持印地语。新助手可以进行更长时间的对话，并在对话时保持上下文。该…",
+      "category": "资讯",
+      "news_id": "5960227fd9e8",
+      "internal_url": "https://aihot.bt199.com/news/5960227fd9e8/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
       "name": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
       "title_zh": "Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们",
@@ -388,24 +406,6 @@
       "category": "资讯",
       "news_id": "6a5d552d9722",
       "internal_url": "https://aihot.bt199.com/news/6a5d552d9722/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "name": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "title_zh": "人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞",
-      "url": "https://techcrunch.com/2026/09/15/the-ai-data-center-boom-is-colliding-with-cities-scarred-by-big-industry/",
-      "type": "news",
-      "source": "TechCrunch AI",
-      "score": 15,
-      "detail": "2026-09-15",
-      "time": "2026-09-15",
-      "description": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "subtitle": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "ai_summary": "全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设",
-      "category": "资讯",
-      "news_id": "f5e80ecad197",
-      "internal_url": "https://aihot.bt199.com/news/f5e80ecad197/",
       "type_label": "📰 新闻"
     },
     {
