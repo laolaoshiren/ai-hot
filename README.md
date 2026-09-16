@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-16 04:45:18
+🕐 **最近更新**：2026-09-16 10:38:00
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [人工智能墓地：未成功的项目和初创公司的清单](https://aihot.bt199.com/news/7eb39231f1ba/)
-   - 从苹果一再推迟 Siri AI 到 OpenAI 混乱的“超级应用”发布，以下是关闭或未达到预期的 AI 项目
+1. [Nvidia 的 Jensen Huang 表示，我们不需要人工智能监管——把安全留给我们](https://aihot.bt199.com/news/6a5d552d9722/)
+   - 黄仁勋表示，人工智能并不是某种新形式的“外星人思维”。它只是硬件和软件，因此每个人工智能产品制造商都可以设计安全性
+   - `TechCrunch AI · 2026-09-16`
+
+2. [人工智能数据中心的繁荣与因大工业而伤痕累累的城市发生碰撞](https://aihot.bt199.com/news/f5e80ecad197/)
+   - 全国范围内反对数据中心建设的强烈抗议已经蔓延到费城，那里的官员建议可能在一个已经受到现已废弃的炼油厂影响的社区进行建设
    - `TechCrunch AI · 2026-09-15`
 
-2. [圆桌会议：人工智能真的会杀死我们所有人吗？](https://aihot.bt199.com/news/c733aaf01135/)
+3. [人工智能和数据中心在每次民意调查中都非常不受欢迎](https://aihot.bt199.com/news/066a2ef82197/)
+   - 《纽约时报》和锡耶纳大学周二发布的民意调查数据证实了我们已经看到的情况以及政客们的反应——人工智能和数据中心非常不受欢迎…
+   - `The Verge AI · 2026-09-15`
+
+4. [圆桌会议：人工智能真的会杀死我们所有人吗？](https://aihot.bt199.com/news/c733aaf01135/)
    - 收听会议或观看下面的内容世界领先人工智能实验室的员工表示，先进的人工智能确实有可能毁灭人类。他们是对的吗？或者这更多的是…
    - `MIT Tech Review · 2026-09-15`
 
-3. [Meta 的新 One 订阅为社交媒体和人工智能定价](https://aihot.bt199.com/news/a16a9d44f2c9/)
+5. [Meta 的新 One 订阅为社交媒体和人工智能定价](https://aihot.bt199.com/news/a16a9d44f2c9/)
    - 在推出新的万能人工智能助手 Muse 后不久，Meta 就推出了订阅捆绑包，将其独立应用程序订阅与额外的人工智能使用相结…
    - `The Verge AI · 2026-09-15`
 
-4. [这款门铃摄像头可让人类保安监视您的前门](https://aihot.bt199.com/news/81cef9ef2f5c/)
-   - DIY 家庭安全公司 SimpliSafe 正在将其人工智能驱动的主动安全功能引入前门。新的 SimpliSafe 视频…
-   - `The Verge AI · 2026-09-15`
-
-5. [下载：人工智能厄运、告密者和去衰老肝脏](https://aihot.bt199.com/news/4b8958bcf8ff/)
+6. [下载：人工智能厄运、告密者和去衰老肝脏](https://aihot.bt199.com/news/4b8958bcf8ff/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能行业已经发生了悲惨的转变。现…
    - `MIT Tech Review · 2026-09-15`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
 
-9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+10. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
