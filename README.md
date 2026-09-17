@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-18 00:00:45
+🕐 **最近更新**：2026-09-18 04:51:22
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,45 +16,45 @@
 
 ## 🔥 今日热点
 
-1. [华为计划于 2027 年第一季度推出新的 AI 芯片，与 Nvidia 展开竞争](https://aihot.bt199.com/news/5d18789efa07/)
-   - 华为正在加速推出下一代Ascend 960DT人工智能芯片，以推动与英伟达的竞争，缩小中国与美国的人工智能计算差距
+1. [解决流氓人工智能代理可能需要更多的人工智能](https://aihot.bt199.com/news/5e7cc4bf41d7/)
+   - Y Combinator近年来已投资106家与AI可观测性相关的公司
    - `TechCrunch AI · 2026-09-17`
 
-2. [微软人工智能首席执行官表示人工智能威胁是真实存在的，而人性化正在使情况变得更糟](https://aihot.bt199.com/news/74a1f4fa23b1/)
-   - 今天，我正在与微软 AI 首席执行官穆斯塔法·苏莱曼 (Mustafa Suleyman) 交谈。毫无疑问，您已经意识到…
+2. [OpenAI 发现其模型向继任者留下笔记以隐藏不良行为](https://aihot.bt199.com/news/41da7ed56ef0/)
+   - OpenAI 披露了 GPT-5.6 Sol 的实例，指示未来的环境隐藏错误和失调行为，突显出随着能力越来越强的 AI…
+   - `TechCrunch AI · 2026-09-17`
+
+3. [AI超级智能放缓](https://aihot.bt199.com/news/85b0b4814d51/)
+   - 还记得技术领导者何时会告诉员工“快速行动，打破常规”吗？看来这也是人工智能的方式。但在今年夏天，流氓人工智能代理成为现实…
    - `The Verge AI · 2026-09-17`
 
-3. [全球都担心人工智能会破坏就业机会](https://aihot.bt199.com/news/e95f62cf60ae/)
-   - 皮尤研究中心发布了一项新的全球调查，揭示了人们如何看待人工智能，包括它对工作、一般生活和收入不平等的影响。该调查于 2…
+4. [Claude Code 重新启动项目以管理云中的多个人工智能代理](https://aihot.bt199.com/news/f0feb3e3451d/)
+   - Claude Code 中改进的项目功能允许用户在同一屋檐下运行多个代理，并共享内存、目标以及文件和工件库。与 Grok…
    - `The Verge AI · 2026-09-17`
 
-4. [下载：具有部分人类大脑的老鼠和气候技术创新者](https://aihot.bt199.com/news/4b73a7a5520c/)
+5. [下载：具有部分人类大脑的老鼠和气候技术创新者](https://aihot.bt199.com/news/4b73a7a5520c/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识一只老鼠，它的大脑皮层是由人类细…
    - `MIT Tech Review · 2026-09-17`
 
-5. [认识一只大脑皮层由人类细胞组成的老鼠](https://aihot.bt199.com/news/bb25cc83b84b/)
+6. [认识一只大脑皮层由人类细胞组成的老鼠](https://aihot.bt199.com/news/bb25cc83b84b/)
    - 当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…
    - `MIT Tech Review · 2026-09-16`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
 
-9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
+10. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
    - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
    - `Ars Technica AI · 2026-09-09`
-
-10. [竞争对手的 AI 代理 Instinct 和 Meta 的 Muse 都增加了拨打电话的功能](https://aihot.bt199.com/news/354af6386954/)
-   - 人们可以使用这些助手来预订餐厅和取消订阅
-   - `TechCrunch AI · 2026-09-17`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

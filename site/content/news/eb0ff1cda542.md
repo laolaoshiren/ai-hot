@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：202 # 评论：534"
 summary = "Article URL: https://mustafa-suleyman.ai/a-warning-about-model-welfare Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：202 # 评论：534"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->
