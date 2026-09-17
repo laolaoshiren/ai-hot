@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-17 04:45:04
+🕐 **最近更新**：2026-09-17 10:41:52
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [在被指控出售“变态眼镜”后，Meta 准备出售一副不带摄像头的眼镜](https://aihot.bt199.com/news/303e2dc324c9/)
-   - Meta 能否通过一款无摄像头的新产品来躲避“变态眼镜”的指责？
+1. [戈尔表示，真正的人工智能风险不是数据中心，而是行业领导者所警告的](https://aihot.bt199.com/news/546ee7cd8ec8/)
+   - 在接受 TechCrunch 采访时，阿尔·戈尔表示，他并没有因为人工智能数据中心的排放而失眠——他更担心的是人工智能行…
    - `TechCrunch AI · 2026-09-16`
 
-2. [人工智能实验室需要内部审计员——但也许他们应该先关上前门](https://aihot.bt199.com/news/f60a2a4ca838/)
-   - 对于隐藏在众目睽睽之下的流氓特工来说，可能有一种更简单、更有效的解决办法
+2. [Anthropic 和 OpenAI 希望嵌入安全评估器。他们真的会独立吗？](https://aihot.bt199.com/news/a4f0cae5cc3a/)
+   - Anthropic 和 OpenAI 希望在他们的人工智能实验室中嵌入独立的安全评估人员。研究人员对前所未有的访问表示欢…
    - `TechCrunch AI · 2026-09-16`
 
-3. [人工智能数据中心的电子垃圾问题非常严重，而且还在变得越来越严重](https://aihot.bt199.com/news/418dbc769c8c/)
-   - 一份新报告警告说，人工智能热潮产生的电子垃圾被大大低估了。到 2050 年，这些垃圾可能足以装满 2300 万个集装箱—…
+3. [Snap 推出新的 Specs AI 工具，并将登陆 iOS 和 Mac](https://aihot.bt199.com/news/ab2a2f0bede5/)
+   - Snap 推出了“Specs Intelligence”，这是一款新的人工智能助手，可以连接其他数字帐户，帮助您完成工作…
    - `The Verge AI · 2026-09-16`
 
-4. [苹果可能会再次制造服务器以从人工智能热潮中获利](https://aihot.bt199.com/news/bdc341c04479/)
-   - 据 The Information 报道，苹果正计划重返服务器领域，并可能与 Nvidia 合作来实现这一目标。 App…
+4. [AI 生成的 2.5 小时奥德赛电影太长了 2.5 小时](https://aihot.bt199.com/news/c623aea4a21f/)
+   - 克里斯托弗·诺兰对《奥德赛》的引人入胜的演绎在票房上占据了主导地位，并激发了电影观众对古典文学的新兴趣。但完全用人工智能…
    - `The Verge AI · 2026-09-16`
 
 5. [认识一只大脑皮层由人类细胞组成的老鼠](https://aihot.bt199.com/news/bb25cc83b84b/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

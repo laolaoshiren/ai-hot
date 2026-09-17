@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-16T20:44:23.528110",
-  "date": "2026-09-16",
+  "updated_at": "2026-09-17T02:41:05.776559",
+  "date": "2026-09-17",
   "spotlight": {
-    "id": "秘塔搜索",
-    "name": "秘塔 AI 搜索",
-    "url": "https://metaso.cn",
+    "id": "gamma",
+    "name": "Gamma",
+    "url": "https://gamma.app",
     "type": "tool",
-    "description": "国产 AI 搜索引擎，中文体验优秀",
-    "pricing": "免费",
-    "category": "搜索"
+    "description": "AI 一键生成 PPT/演示文稿",
+    "pricing": "免费 + Plus $10/月",
+    "category": "办公"
   },
   "alternates": [
     {
-      "name": "Aider",
-      "url": "https://github.com/Aider-AI/aider",
+      "name": "OpenCode",
+      "url": "https://github.com/opencode-ai/opencode",
       "type": "agent",
-      "description": "终端AI结对编程工具，支持多模型",
+      "description": "终端AI编码助手，支持多模型多Provider",
       "pricing": "开源免费",
       "category": "编程 Agent"
     },
     {
-      "name": "Llmstack",
-      "url": "https://github.com/trypromptly/LLMStack",
+      "name": "Memora",
+      "url": "https://github.com/ELZAI/memora",
       "type": "agent",
-      "description": "无代码多 Agent 应用构建平台，可基于自有数据搭建 LLM 工作流、Agent 和应用。",
+      "description": "面向 AI 助手和 Agent 的记忆系统，目标是让智能体具备类似人的长期记忆能力。",
       "pricing": "开源免费",
-      "category": "编程 Agent"
+      "category": "助手 Agent"
     },
     {
-      "id": "deepseek",
-      "name": "DeepSeek",
-      "url": "https://chat.deepseek.com",
+      "id": "kimi",
+      "name": "Kimi",
+      "url": "https://kimi.moonshot.cn",
       "type": "tool",
-      "description": "深度求索出品，国产最强开源大模型对话工具",
-      "pricing": "免费 + API 按量",
+      "description": "月之暗面出品，超长上下文 AI 助手",
+      "pricing": "免费 + 会员",
       "category": "对话"
     }
   ]
