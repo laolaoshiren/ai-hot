@@ -8934,6 +8934,37 @@
     "collected_at": "2026-09-10T10:21:19.520438"
   },
   {
+    "id": "github-1360150242",
+    "name": "bshivambharadwaj/Reinforcement-Learning-Course",
+    "display_name": "Reinforcement-Learning-Course",
+    "url": "https://github.com/bshivambharadwaj/Reinforcement-Learning-Course",
+    "description": "A comprehensive reinforcement learning course covering core concepts, classical algorithms, deep RL, PPO, RLHF, DPO, GRPO, and modern AI agents through intuitive explanations, equations, analogies, and visual diagrams.",
+    "stars": 10,
+    "forks": 0,
+    "language": "Jupyter Notebook",
+    "topics": [
+      "artificial-intelligence",
+      "deep-reinforcement-learning",
+      "dqn",
+      "grpo",
+      "inference-time-reasoning",
+      "machine-learning",
+      "policy-gradient",
+      "ppo",
+      "q-learning",
+      "reinforcement-learning",
+      "reinforcement-learning-course",
+      "rl",
+      "rl-agents",
+      "rl-for-llms"
+    ],
+    "created_at": "2026-09-07T11:34:43Z",
+    "updated_at": "2026-09-17T09:22:52Z",
+    "license": "NOASSERTION",
+    "source": "github-search",
+    "collected_at": "2026-09-17T10:44:55.891523"
+  },
+  {
     "id": "github-1205101736",
     "name": "antarr/mysql_genius",
     "display_name": "mysql_genius",

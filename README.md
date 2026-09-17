@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-17 10:41:52
+🕐 **最近更新**：2026-09-17 18:46:42
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,13 +16,13 @@
 
 ## 🔥 今日热点
 
-1. [戈尔表示，真正的人工智能风险不是数据中心，而是行业领导者所警告的](https://aihot.bt199.com/news/546ee7cd8ec8/)
-   - 在接受 TechCrunch 采访时，阿尔·戈尔表示，他并没有因为人工智能数据中心的排放而失眠——他更担心的是人工智能行…
-   - `TechCrunch AI · 2026-09-16`
+1. [总部位于冰岛的 Treble 为其语音模拟平台融​​资 1800 万美元](https://aihot.bt199.com/news/4f879da66298/)
+   - Treble 的语音模拟平台被语音 AI 模型开发商、AI 可穿戴设备和机器人公司使用
+   - `TechCrunch AI · 2026-09-17`
 
-2. [Anthropic 和 OpenAI 希望嵌入安全评估器。他们真的会独立吗？](https://aihot.bt199.com/news/a4f0cae5cc3a/)
-   - Anthropic 和 OpenAI 希望在他们的人工智能实验室中嵌入独立的安全评估人员。研究人员对前所未有的访问表示欢…
-   - `TechCrunch AI · 2026-09-16`
+2. [您初创公司的下一个队友可能是 AI 代理：Gusto、Insight Partners 和 Leland 在 TechCrunch Disrupt 2026 上解释了这一变化](https://aihot.bt199.com/news/b7c7d891caa0/)
+   - 本次会议将探讨早期公司如何建立人类和人工智能代理相互协作的团队，以及创始人如何在不牺牲速度、责任或文化的情况下做到这一点…
+   - `TechCrunch AI · 2026-09-17`
 
 3. [Snap 推出新的 Specs AI 工具，并将登陆 iOS 和 Mac](https://aihot.bt199.com/news/ab2a2f0bede5/)
    - Snap 推出了“Specs Intelligence”，这是一款新的人工智能助手，可以连接其他数字帐户，帮助您完成工作…
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

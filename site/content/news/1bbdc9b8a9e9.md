@@ -20,7 +20,7 @@ ai_summary = "安全建议遗漏了关键细节。达什莱恩保持着完全的
 summary = "Security advisory leaves out key details. Dashlane maintains complete silence."
 summary_zh = "安全建议遗漏了关键细节。达什莱恩保持着完全的沉默"
 tags = []
-list_page = 420
+list_page = 422
 +++
 
 <!-- AUTO-GENERATED: news page -->
