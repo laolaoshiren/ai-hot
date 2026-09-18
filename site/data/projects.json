@@ -10903,6 +10903,27 @@
     "collected_at": "2026-09-18T10:20:19.711352"
   },
   {
+    "id": "github-1374797297",
+    "name": "lucidrains/stack-attention",
+    "display_name": "stack-attention",
+    "url": "https://github.com/lucidrains/stack-attention",
+    "description": "For following a line of research that augments attention with a differentiable stack, beginning with DuSell et al. at ETH Zurich",
+    "stars": 8,
+    "forks": 0,
+    "language": null,
+    "topics": [
+      "artificial-intelligence",
+      "attention-mechanism",
+      "deep-learning",
+      "differentiable-stack"
+    ],
+    "created_at": "2026-09-17T17:21:32Z",
+    "updated_at": "2026-09-18T12:46:44Z",
+    "license": "MIT",
+    "source": "github-search",
+    "collected_at": "2026-09-18T15:33:19.212485"
+  },
+  {
     "id": "github-1201368235",
     "name": "fs0ci5ty/Artificial-Intelligence-Learning-Resources-Collection",
     "display_name": "Artificial-Intelligence-Learning-Resources-Collection",

@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：212 # 评论：151"
 summary = "Article URL: https://www.macrumors.com/2026/09/14/siri-can-be-swapped-out-for-chatgpt-claude/ Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：212 # 评论：151"
 tags = []
-list_page = 20
+list_page = 21
 +++
 
 <!-- AUTO-GENERATED: news page -->
