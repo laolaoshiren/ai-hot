@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-18 10:29:23
+🕐 **最近更新**：2026-09-18 18:22:14
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -20,21 +20,21 @@
    - 新研究所旨在揭示谷歌、谷歌 DeepMind 以及更广泛的全球 AGI 研究社区之间的不同观点。 “他们不会总是同意，而…
    - `TechCrunch AI · 2026-09-17`
 
-2. [AI超级智能放缓](https://aihot.bt199.com/news/85b0b4814d51/)
+2. [人工智能生物武器的幽灵给生物技术敲响了警钟](https://aihot.bt199.com/news/7ebbd7dd21c0/)
+   - 最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…
+   - `MIT Tech Review · 2026-09-18`
+
+3. [AI超级智能放缓](https://aihot.bt199.com/news/85b0b4814d51/)
    - 还记得技术领导者何时会告诉员工“快速行动，打破常规”吗？看来这也是人工智能的方式。但在今年夏天，流氓人工智能代理成为现实…
    - `The Verge AI · 2026-09-17`
 
-3. [Claude Code 重新启动项目以管理云中的多个人工智能代理](https://aihot.bt199.com/news/f0feb3e3451d/)
+4. [Claude Code 重新启动项目以管理云中的多个人工智能代理](https://aihot.bt199.com/news/f0feb3e3451d/)
    - Claude Code 中改进的项目功能允许用户在同一屋檐下运行多个代理，并共享内存、目标以及文件和工件库。与 Grok…
    - `The Verge AI · 2026-09-17`
 
-4. [下载：具有部分人类大脑的老鼠和气候技术创新者](https://aihot.bt199.com/news/4b73a7a5520c/)
+5. [下载：具有部分人类大脑的老鼠和气候技术创新者](https://aihot.bt199.com/news/4b73a7a5520c/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。认识一只老鼠，它的大脑皮层是由人类细…
    - `MIT Tech Review · 2026-09-17`
-
-5. [认识一只大脑皮层由人类细胞组成的老鼠](https://aihot.bt199.com/news/bb25cc83b84b/)
-   - 当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…
-   - `MIT Tech Review · 2026-09-16`
 
 6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
@@ -48,13 +48,13 @@
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
 
-9. [4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包](https://aihot.bt199.com/news/ef341c697e51/)
-   - 补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因
-   - `Ars Technica AI · 2026-09-09`
-
-10. [Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”](https://aihot.bt199.com/news/e3285a711c8c/)
+9. [Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”](https://aihot.bt199.com/news/e3285a711c8c/)
    - 此轮融资对这家数据中心巨头的估值为 309 亿美元
    - `TechCrunch AI · 2026-09-17`
+
+10. [使用人工智能水印时，法学硕士对有害提示的反应不同](https://aihot.bt199.com/news/35cb1838bc98/)
+   - SynthID 可能会导致模型遵循原本会拒绝的有害指令
+   - `Ars Technica AI · 2026-09-17`
 
 
 ## 🤖 AI 简报
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

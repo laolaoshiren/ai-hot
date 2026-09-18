@@ -20,7 +20,7 @@ ai_summary = "Anthropic 和 OpenAI 希望在他们的人工智能实验室中嵌
 summary = "Anthropic and OpenAI want to embed independent safety evaluators inside their AI labs."
 summary_zh = "Anthropic 和 OpenAI 希望在他们的人工智能实验室中嵌入独立的安全评估人员。研究人员对前所未有的访问表示欢迎，但警告说，有意义的监督需要透明度、独立性，并最终需要监管"
 tags = []
-list_page = 6
+list_page = 8
 +++
 
 <!-- AUTO-GENERATED: news page -->

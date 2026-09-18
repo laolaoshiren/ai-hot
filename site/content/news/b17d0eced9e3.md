@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：125 # 评论：65"
 summary = "Article URL: https://withspecific.com/benchmarks/real-swe Comments URL: https://news.ycombinator.com/item?id=49676820 Points: 125 # Comments: 65"
 summary_zh = "文章网址： 评论网址： 积分：125 # 评论：65"
 tags = []
-list_page = 22
+list_page = 23
 +++
 
 <!-- AUTO-GENERATED: news page -->

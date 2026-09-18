@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-18T02:29:21.012374",
+  "updated_at": "2026-09-18T10:22:12.164528",
   "total": 10,
   "hot_list": [
     {
@@ -18,6 +18,24 @@
       "category": "资讯",
       "news_id": "456afd7f4d6d",
       "internal_url": "https://aihot.bt199.com/news/456afd7f4d6d/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "name": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "title_zh": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-18",
+      "time": "2026-09-18",
+      "description": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "subtitle": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "ai_summary": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "category": "资讯",
+      "news_id": "7ebbd7dd21c0",
+      "internal_url": "https://aihot.bt199.com/news/7ebbd7dd21c0/",
       "type_label": "📰 新闻"
     },
     {
@@ -75,24 +93,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "name": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "title_zh": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-16",
-      "time": "2026-09-16",
-      "description": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "subtitle": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "ai_summary": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "category": "资讯",
-      "news_id": "bb25cc83b84b",
-      "internal_url": "https://aihot.bt199.com/news/bb25cc83b84b/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。",
       "name": "企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。",
       "title_zh": "企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。",
@@ -147,24 +147,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "name": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "title_zh": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "type": "news",
-      "source": "Ars Technica AI",
-      "score": 11,
-      "detail": "2026-09-09",
-      "time": "2026-09-09",
-      "description": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "subtitle": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "ai_summary": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "category": "资讯",
-      "news_id": "ef341c697e51",
-      "internal_url": "https://aihot.bt199.com/news/ef341c697e51/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
       "name": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
       "title_zh": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
@@ -180,6 +162,24 @@
       "category": "资讯",
       "news_id": "e3285a711c8c",
       "internal_url": "https://aihot.bt199.com/news/e3285a711c8c/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "name": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "title_zh": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+      "type": "news",
+      "source": "Ars Technica AI",
+      "score": 6,
+      "detail": "2026-09-17",
+      "time": "2026-09-17",
+      "description": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "subtitle": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "ai_summary": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "category": "资讯",
+      "news_id": "35cb1838bc98",
+      "internal_url": "https://aihot.bt199.com/news/35cb1838bc98/",
       "type_label": "📰 新闻"
     }
   ],
@@ -203,6 +203,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "name": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "title_zh": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-18",
+      "time": "2026-09-18",
+      "description": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "subtitle": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "ai_summary": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "category": "资讯",
+      "news_id": "7ebbd7dd21c0",
+      "internal_url": "https://aihot.bt199.com/news/7ebbd7dd21c0/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "AI超级智能放缓",
       "name": "AI超级智能放缓",
       "title_zh": "AI超级智能放缓",
@@ -254,24 +272,6 @@
       "category": "资讯",
       "news_id": "4b73a7a5520c",
       "internal_url": "https://aihot.bt199.com/news/4b73a7a5520c/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "name": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "title_zh": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-16",
-      "time": "2026-09-16",
-      "description": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "subtitle": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "ai_summary": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "category": "资讯",
-      "news_id": "bb25cc83b84b",
-      "internal_url": "https://aihot.bt199.com/news/bb25cc83b84b/",
       "type_label": "📰 新闻"
     },
     {
@@ -329,24 +329,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "name": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "title_zh": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "type": "news",
-      "source": "Ars Technica AI",
-      "score": 11,
-      "detail": "2026-09-09",
-      "time": "2026-09-09",
-      "description": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "subtitle": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "ai_summary": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "category": "资讯",
-      "news_id": "ef341c697e51",
-      "internal_url": "https://aihot.bt199.com/news/ef341c697e51/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
       "name": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
       "title_zh": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
@@ -362,6 +344,24 @@
       "category": "资讯",
       "news_id": "e3285a711c8c",
       "internal_url": "https://aihot.bt199.com/news/e3285a711c8c/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "name": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "title_zh": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+      "type": "news",
+      "source": "Ars Technica AI",
+      "score": 6,
+      "detail": "2026-09-17",
+      "time": "2026-09-17",
+      "description": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "subtitle": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "ai_summary": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "category": "资讯",
+      "news_id": "35cb1838bc98",
+      "internal_url": "https://aihot.bt199.com/news/35cb1838bc98/",
       "type_label": "📰 新闻"
     }
   ],
@@ -391,6 +391,24 @@
       "type_label": "📰 新闻"
     },
     {
+      "title": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "name": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "title_zh": "人工智能生物武器的幽灵给生物技术敲响了警钟",
+      "url": "https://www.technologyreview.com/2026/09/18/1144329/the-specter-of-ai-enabled-bioweapons-is-a-wake-up-call-for-biotech/",
+      "type": "news",
+      "source": "MIT Tech Review",
+      "score": 13,
+      "detail": "2026-09-18",
+      "time": "2026-09-18",
+      "description": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "subtitle": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "ai_summary": "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥…",
+      "category": "资讯",
+      "news_id": "7ebbd7dd21c0",
+      "internal_url": "https://aihot.bt199.com/news/7ebbd7dd21c0/",
+      "type_label": "📰 新闻"
+    },
+    {
       "title": "AI超级智能放缓",
       "name": "AI超级智能放缓",
       "title_zh": "AI超级智能放缓",
@@ -442,24 +460,6 @@
       "category": "资讯",
       "news_id": "4b73a7a5520c",
       "internal_url": "https://aihot.bt199.com/news/4b73a7a5520c/",
-      "type_label": "📰 新闻"
-    },
-    {
-      "title": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "name": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "title_zh": "认识一只大脑皮层由人类细胞组成的老鼠",
-      "url": "https://www.technologyreview.com/2026/09/16/1144210/meet-a-mouse-whose-brain-cortex-is-made-up-of-human-cells/",
-      "type": "news",
-      "source": "MIT Tech Review",
-      "score": 13,
-      "detail": "2026-09-16",
-      "time": "2026-09-16",
-      "description": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "subtitle": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "ai_summary": "当一只老鼠在一个小场地里徘徊时，多个摄像机对其进行跟踪。计算机记录了它的位置和速度，并在监视器上留下了类似乒乓球的痕迹…",
-      "category": "资讯",
-      "news_id": "bb25cc83b84b",
-      "internal_url": "https://aihot.bt199.com/news/bb25cc83b84b/",
       "type_label": "📰 新闻"
     },
     {
@@ -517,24 +517,6 @@
       "type_label": "📰 新闻"
     },
     {
-      "title": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "name": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "title_zh": "4 个团体被发现使用相同的 Chrome 和 Windows 漏洞利用工具包",
-      "url": "https://arstechnica.com/information-technology/2026/09/4-groups-caught-using-the-same-chrome-and-windows-exploit-kit/",
-      "type": "news",
-      "source": "Ars Technica AI",
-      "score": 11,
-      "detail": "2026-09-09",
-      "time": "2026-09-09",
-      "description": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "subtitle": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "ai_summary": "补丁差距和基于人工智能的漏洞发现速度加快可能是造成这种情况的原因",
-      "category": "资讯",
-      "news_id": "ef341c697e51",
-      "internal_url": "https://aihot.bt199.com/news/ef341c697e51/",
-      "type_label": "📰 新闻"
-    },
-    {
       "title": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
       "name": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
       "title_zh": "Crusoe 筹集了 3.9B 美元用于建设大型数据中心和小型模块化“人工智能工厂”",
@@ -550,6 +532,24 @@
       "category": "资讯",
       "news_id": "e3285a711c8c",
       "internal_url": "https://aihot.bt199.com/news/e3285a711c8c/",
+      "type_label": "📰 新闻"
+    },
+    {
+      "title": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "name": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "title_zh": "使用人工智能水印时，法学硕士对有害提示的反应不同",
+      "url": "https://arstechnica.com/security/2026/09/ai-text-watermarking-can-make-models-more-vulnerable-to-adversarial-prompts/",
+      "type": "news",
+      "source": "Ars Technica AI",
+      "score": 6,
+      "detail": "2026-09-17",
+      "time": "2026-09-17",
+      "description": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "subtitle": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "ai_summary": "SynthID 可能会导致模型遵循原本会拒绝的有害指令",
+      "category": "资讯",
+      "news_id": "35cb1838bc98",
+      "internal_url": "https://aihot.bt199.com/news/35cb1838bc98/",
       "type_label": "📰 新闻"
     }
   ]
