@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "GLM已经开始参与构建GLM了"
 summary_zh = ""
 tags = []
-list_page = 4
+list_page = 5
 +++
 
 <!-- AUTO-GENERATED: news page -->

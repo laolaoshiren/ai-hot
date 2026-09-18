@@ -1,39 +1,39 @@
 {
-  "updated_at": "2026-09-17T20:50:20.691867",
-  "date": "2026-09-17",
+  "updated_at": "2026-09-18T02:28:30.942824",
+  "date": "2026-09-18",
   "spotlight": {
-    "id": "gamma",
-    "name": "Gamma",
-    "url": "https://gamma.app",
+    "id": "notebooklm",
+    "name": "NotebookLM",
+    "url": "https://notebooklm.google.com",
     "type": "tool",
-    "description": "AI 一键生成 PPT/演示文稿",
-    "pricing": "免费 + Plus $10/月",
+    "description": "Google 出品的 AI 笔记/知识管理工具",
+    "pricing": "免费",
     "category": "办公"
   },
   "alternates": [
     {
-      "name": "OpenCode",
-      "url": "https://github.com/opencode-ai/opencode",
+      "name": "Dify",
+      "url": "https://github.com/langgenius/dify",
       "type": "agent",
-      "description": "终端AI编码助手，支持多模型多Provider",
-      "pricing": "开源免费",
-      "category": "编程 Agent"
+      "description": "开源LLM应用开发平台，可视化构建AI Agent",
+      "pricing": "开源 + Cloud",
+      "category": "平台 Agent"
     },
     {
-      "name": "Memora",
-      "url": "https://github.com/ELZAI/memora",
+      "name": "Awesome Claw",
+      "url": "https://github.com/sameeerkashyap/awesome-claw",
       "type": "agent",
-      "description": "面向 AI 助手和 Agent 的记忆系统，目标是让智能体具备类似人的长期记忆能力。",
+      "description": "OpenClaw 风格 AI 助手和 Agent 项目合集，收录高效、开源的个人助手方案。",
       "pricing": "开源免费",
       "category": "助手 Agent"
     },
     {
-      "id": "kimi",
-      "name": "Kimi",
-      "url": "https://kimi.moonshot.cn",
+      "id": "豆包",
+      "name": "豆包",
+      "url": "https://www.doubao.com",
       "type": "tool",
-      "description": "月之暗面出品，超长上下文 AI 助手",
-      "pricing": "免费 + 会员",
+      "description": "字节跳动出品的 AI 助手，功能全面",
+      "pricing": "免费",
       "category": "对话"
     }
   ]

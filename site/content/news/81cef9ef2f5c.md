@@ -20,7 +20,7 @@ ai_summary = "DIY 家庭安全公司 SimpliSafe 正在将其人工智能驱动�
 summary = "DIY home security company SimpliSafe is bringing its AI-powered proactive security feature to the front door."
 summary_zh = "DIY 家庭安全公司 SimpliSafe 正在将其人工智能驱动的主动安全功能引入前门。新的 SimpliSafe 视频门铃系列 2 今天推出，售价为 199.99 美元，可与该公司的 Active Guard Outdoor Protec…"
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->
