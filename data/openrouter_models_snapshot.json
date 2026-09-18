@@ -1,6 +1,77 @@
 {
   "data": [
     {
+      "id": "prism-ml/ternary-bonsai-2-27b",
+      "canonical_slug": "prism-ml/ternary-bonsai-2-27b-20260918",
+      "hugging_face_id": "prism-ml/Ternary-Bonsai-2-27B-gguf",
+      "name": "PrismML: Ternary Bonsai 2 27B",
+      "created": 1789754046,
+      "description": "Bonsai 2 27B is a 27B-parameter reasoning model from PrismML derived from Qwen3.8-27B. It supports coding, mathematics, tool calling, and image understanding with a 262K-token context window. Ternary compression shrinks...",
+      "context_length": 262144,
+      "architecture": {
+        "modality": "text+image->text",
+        "input_modalities": [
+          "text",
+          "image"
+        ],
+        "output_modalities": [
+          "text"
+        ],
+        "tokenizer": "Qwen",
+        "instruct_type": null
+      },
+      "pricing": {
+        "prompt": "0.000000075",
+        "completion": "0.0000005"
+      },
+      "top_provider": {
+        "context_length": 262144,
+        "max_completion_tokens": 32768,
+        "is_moderated": false
+      },
+      "per_request_limits": null,
+      "supported_parameters": [
+        "frequency_penalty",
+        "include_reasoning",
+        "logprobs",
+        "max_tokens",
+        "presence_penalty",
+        "reasoning",
+        "reasoning_effort",
+        "repetition_penalty",
+        "response_format",
+        "seed",
+        "stop",
+        "structured_outputs",
+        "temperature",
+        "tool_choice",
+        "tools",
+        "top_k",
+        "top_logprobs",
+        "top_p"
+      ],
+      "default_parameters": {
+        "temperature": 1,
+        "top_p": 0.95,
+        "top_k": 20
+      },
+      "supported_voices": null,
+      "knowledge_cutoff": null,
+      "expiration_date": null,
+      "links": {
+        "details": "/api/v1/models/prism-ml/ternary-bonsai-2-27b-20260918/endpoints"
+      },
+      "reasoning": {
+        "mandatory": false,
+        "default_enabled": true,
+        "supported_efforts": [
+          "xhigh",
+          "medium"
+        ],
+        "default_effort": "xhigh"
+      }
+    },
+    {
       "id": "unbiased/pareto",
       "canonical_slug": "unbiased/pareto-20260917",
       "hugging_face_id": null,
@@ -147,29 +218,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000015",
-        "completion": "0.0000006",
-        "input_cache_read": "0.000000015",
-        "overrides": [
-          {
-            "utc_start": 0,
-            "utc_end": 1400,
-            "prompt": "0.0000003",
-            "completion": "0.0000012",
-            "input_cache_read": "0.00000003"
-          },
-          {
-            "utc_start": 1400,
-            "utc_end": 0,
-            "prompt": "0.00000015",
-            "completion": "0.0000006",
-            "input_cache_read": "0.000000015"
-          }
-        ]
+        "prompt": "0.00000014",
+        "completion": "0.00000042",
+        "input_cache_read": "0.0000000042"
       },
       "top_provider": {
-        "context_length": 1000000,
-        "max_completion_tokens": 393216,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -3577,12 +3632,12 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000009",
-        "completion": "0.000003",
-        "input_cache_read": "0.00000015"
+        "prompt": "0.0000008918",
+        "completion": "0.0000028028",
+        "input_cache_read": "0.00000016562"
       },
       "top_provider": {
-        "context_length": 1000000,
+        "context_length": 1048576,
         "max_completion_tokens": 131072,
         "is_moderated": false
       },
@@ -3696,13 +3751,13 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000014",
-        "completion": "0.0000044",
-        "input_cache_read": "0.00000026"
+        "prompt": "0.00000091",
+        "completion": "0.00000286",
+        "input_cache_read": "0.000000169"
       },
       "top_provider": {
-        "context_length": 1048575,
-        "max_completion_tokens": 943717,
+        "context_length": 1048576,
+        "max_completion_tokens": 131072,
         "is_moderated": false
       },
       "per_request_limits": null,
@@ -5459,6 +5514,7 @@
         "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "structured_outputs",
         "temperature",
@@ -5532,7 +5588,18 @@
         }
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "default_enabled": false,
+        "supported_efforts": [
+          "max",
+          "xhigh",
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "medium"
       }
     },
     {
@@ -8156,7 +8223,7 @@
       "hugging_face_id": null,
       "name": "Auto Router (Beta)",
       "created": 1784311165,
-      "description": "Auto Router (Beta) is a task-aware router from OpenRouter. It classifies each request, then routes it the [most popular model](/rankings#task-spend) for that task based on aggregate spend, filtered by your...",
+      "description": "The experimental version of our Auto Router where we test new improvements. Use it to get the latest and greatest version of our general purpose auto router, but expect beta...",
       "context_length": 2000000,
       "architecture": {
         "modality": "text+image+file+audio+video->text+image",
@@ -8209,14 +8276,7 @@
         "top_p",
         "web_search_options"
       ],
-      "default_parameters": {
-        "temperature": null,
-        "top_p": null,
-        "top_k": null,
-        "frequency_penalty": null,
-        "presence_penalty": null,
-        "repetition_penalty": null
-      },
+      "default_parameters": {},
       "supported_voices": null,
       "knowledge_cutoff": null,
       "expiration_date": null,
@@ -8246,9 +8306,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001095",
-        "input_cache_read": "0.00000023"
+        "prompt": "0.00000195",
+        "completion": "0.00001092",
+        "input_cache_read": "0.0000002262"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -10286,9 +10346,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.000000132",
-        "completion": "0.000000528",
-        "input_cache_read": "0.000000033",
+        "prompt": "0.0000000825",
+        "completion": "0.00000033",
+        "input_cache_read": "0.000000020625",
         "overrides": [
           {
             "utc_start": 0,
@@ -15982,9 +16042,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.0000021",
-        "completion": "0.00001095",
-        "input_cache_read": "0.00000023"
+        "prompt": "0.00000195",
+        "completion": "0.00001092",
+        "input_cache_read": "0.0000002262"
       },
       "top_provider": {
         "context_length": 1048576,
@@ -17347,9 +17407,9 @@
         "instruct_type": null
       },
       "pricing": {
-        "prompt": "0.00000004984",
-        "completion": "0.00000009968",
-        "input_cache_read": "0.000000009968"
+        "prompt": "0.00000004872",
+        "completion": "0.00000009744",
+        "input_cache_read": "0.000000009744"
       },
       "top_provider": {
         "context_length": 1024000,
@@ -24712,6 +24772,7 @@
         "parallel_tool_calls",
         "presence_penalty",
         "reasoning",
+        "reasoning_effort",
         "response_format",
         "structured_outputs",
         "temperature",
@@ -24742,7 +24803,16 @@
         }
       },
       "reasoning": {
-        "mandatory": false
+        "mandatory": false,
+        "default_enabled": false,
+        "supported_efforts": [
+          "high",
+          "medium",
+          "low",
+          "minimal",
+          "none"
+        ],
+        "default_effort": "medium"
       }
     },
     {
@@ -42019,5 +42089,5 @@
       }
     }
   ],
-  "updated_at": "2026-09-18T15:34:07.677728+00:00"
+  "updated_at": "2026-09-18T20:14:48.736005+00:00"
 }

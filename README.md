@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-18 23:34:56
+🕐 **最近更新**：2026-09-19 04:15:47
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,39 +16,43 @@
 
 ## 🔥 今日热点
 
-1. [Meta 的 Muse 登陆 Mac，让人工智能在你的电脑上采取行动](https://aihot.bt199.com/news/02e22737315f/)
-   - Muse 现已在 Mac 上推出，它可以处理您的文件和应用程序，代表您采取操作
+1. [ChatGPT 发明者的一种新型 AI 模型令开发人员兴奋不已](https://aihot.bt199.com/news/c787e87aad1d/)
+   - Jev 是一种新型人工智能模型，它向开发人员展示了一条更便宜、更快速的软件智能之路
    - `TechCrunch AI · 2026-09-18`
 
-2. [安全研究人员利用 Claude 帮助他们侵入 OpenAI](https://aihot.bt199.com/news/4a86105ca636/)
-   - 据《华尔街日报》报道，Hacktron 的三名独立安全研究人员组成的团队表示，他们使用 Anthropic 的 Clau…
+2. [迪士尼首任首席技术官领导一家人工智能初创公司，该公司曾被指控抄袭其角色](https://aihot.bt199.com/news/f5578060dc95/)
+   - 迪士尼此前曾向 Character.AI 发出停止函，该公司的前首席执行官将担任该公司的首位首席技术官
+   - `TechCrunch AI · 2026-09-18`
+
+3. [弗吉尼亚州州长成立人工智能工作组并采取行动限制数据中心](https://aihot.bt199.com/news/115cada6134f/)
+   - 弗吉尼亚州州长阿比盖尔·斯潘伯格命令州政府采取措施，赋予当地社区在数据中心开发方面拥有更大发言权，并放慢该州的审批速度…
    - `The Verge AI · 2026-09-18`
 
-3. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
+4. [加文·纽瑟姆 (Gavin Newsom) 正在推动人工智能终止开关](https://aihot.bt199.com/news/a773bfa98d72/)
+   - 加利福尼亚州州长加文·纽瑟姆（民主党）周五发布了一项新的行政命令，该州将在人工智能监管方面发挥带头作用，包括有可能为前沿…
+   - `The Verge AI · 2026-09-18`
+
+5. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能真的会杀死我们所有人吗？您的…
    - `MIT Tech Review · 2026-09-18`
 
-4. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
+6. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
    - 周三，《麻省理工科技评论》为订阅者举办了一场现场圆桌会议，提出了每个人现在都在问的问题：人工智能真的会杀死我们所有人吗？…
    - `MIT Tech Review · 2026-09-18`
 
-5. [山洪暴发可能会毫无预警地发生——这项新技术可能会改变这一现状](https://aihot.bt199.com/news/cc9d12fe9e37/)
-   - 6 月 9 日早上，劳拉·林 (Laura Lin) 正在位于印第安纳州南部乡村小镇兰斯维尔 (Lanesville)…
-   - `The Verge AI · 2026-09-18`
-
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
 
-9. [使用人工智能水印时，法学硕士对有害提示的反应不同](https://aihot.bt199.com/news/35cb1838bc98/)
+10. [使用人工智能水印时，法学硕士对有害提示的反应不同](https://aihot.bt199.com/news/35cb1838bc98/)
    - SynthID 可能会导致模型遵循原本会拒绝的有害指令
    - `Ars Technica AI · 2026-09-17`
 
@@ -135,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
