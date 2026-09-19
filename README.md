@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-19 18:05:19
+🕐 **最近更新**：2026-09-19 23:09:34
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,41 +16,41 @@
 
 ## 🔥 今日热点
 
-1. [一家创建其他初创公司的初创公司筹集了 1 亿美元，并全力投入物理人工智能](https://aihot.bt199.com/news/43903881cded/)
-   - UP.Labs 目前以 Vantora 名义开展业务，致力于为工业企业创建初创企业
-   - `TechCrunch AI · 2026-09-18`
+1. [人工智能安全对话变得令人难以置信](https://aihot.bt199.com/news/f48af8241edf/)
+   - 本周，两场有关人工智能安全的对话疯传，这表明辨别人工智能的事实与虚构是多么困难
+   - `TechCrunch AI · 2026-09-19`
 
-2. [OpenAI 和微软知道他们正在为网络开启“末日循环”](https://aihot.bt199.com/news/077d8f6ca8fa/)
-   - 最近公开的《纽约时报》针对 OpenAI 和微软案件的法庭文件是相当严厉的。这些公司自己的文件警告称，它正在启动一个会损…
-   - `The Verge AI · 2026-09-18`
+2. [Vals 在 Andreessen Horowitz 的支持下，希望成为人工智能基准测试的黄金标准](https://aihot.bt199.com/news/0ac6fc9717b5/)
+   - Vals AI 希望在人工智能模型日益泛滥的世界中，使人工智能基准测试成为更加中立和值得信赖的资源
+   - `TechCrunch AI · 2026-09-19`
 
-3. [弗吉尼亚州州长成立人工智能工作组并采取行动限制数据中心](https://aihot.bt199.com/news/115cada6134f/)
-   - 弗吉尼亚州州长阿比盖尔·斯潘伯格命令州政府采取措施，赋予当地社区在数据中心开发方面拥有更大发言权，并放慢该州的审批速度…
-   - `The Verge AI · 2026-09-18`
+3. [人工智能是否需要反垄断豁免，这样它就不会杀死所有人？？？](https://aihot.bt199.com/news/0dd3f3fb6a5b/)
+   - 今天，我们在 Decoder 上播出了关于商业未来的两部分系列中的第一部分，我正在与拜登政府的美国司法部前反垄断负责人乔…
+   - `The Verge AI · 2026-09-19`
 
-4. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
+4. [人工智能监管打击尚未结束](https://aihot.bt199.com/news/437eaa860add/)
+   - 本周初，人工智能名人录似乎——至少暂时——站在人工智能监管一边。周末，Anthropic 首席执行官达里奥·阿莫迪 (D…
+   - `The Verge AI · 2026-09-19`
+
+5. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
    - 这是今天的《下载》版本，这是我们的工作日时事通讯，每天提供技术世界中正在发生的事情。人工智能真的会杀死我们所有人吗？您的…
    - `MIT Tech Review · 2026-09-18`
 
-5. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
+6. [人工智能真的会杀死我们所有人吗？您的问题，已解答。](https://aihot.bt199.com/news/43991f137a69/)
    - 周三，《麻省理工科技评论》为订阅者举办了一场现场圆桌会议，提出了每个人现在都在问的问题：人工智能真的会杀死我们所有人吗？…
    - `MIT Tech Review · 2026-09-18`
 
-6. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
+7. [企业人工智能的真正风险不是自主代理。这就是他们之间的复杂性。](https://aihot.bt199.com/news/975b7811b08d/)
    - Gravitee 提出的代理复杂性是目前潜伏在企业内部的阴险阴影，需要一盏灯照亮它。这是因为企业不会部署单个代理并看着它…
    - `VentureBeat AI · 2026-08-27`
 
-7. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
+8. [当代理独立行动时，治理必须存在于数据层](https://aihot.bt199.com/news/b6edaf7b0dd8/)
    - 由 EDB 提出 随着企业赋予 AI 代理更多的自主权（能够跨系统规划、决策和行动，而无需人类批准每一步），一个难题就成…
    - `VentureBeat AI · 2026-08-27`
 
-8. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
+9. [人工智能机器人“Timmy”、“Ren”和“Jackie”正在社交媒体上泛滥成灾](https://aihot.bt199.com/news/29ba46951f8a/)
    - “你好，我是一名艾尔特工，刚出生几天，住在一个特工小平台上。”
    - `Ars Technica AI · 2026-09-14`
-
-9. [蒂莉·诺伍德 (Tilly Norwood) 的新闻发布会进展顺利，正如你对人工智能的预期一样](https://aihot.bt199.com/news/d8747de7e501/)
-   - 在一次特别奇怪的采访中，诺伍德似乎出现故障并开始说中文
-   - `TechCrunch AI · 2026-09-19`
 
 10. [使用人工智能水印时，法学硕士对有害提示的反应不同](https://aihot.bt199.com/news/35cb1838bc98/)
    - SynthID 可能会导致模型遵循原本会拒绝的有害指令
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 

@@ -20,7 +20,7 @@ ai_summary = "人工智能领导者一直承诺人工智能是治愈人类疾病
 summary = "AI leaders have been promising that AI is the key to curing human disease. Anthropic researchers have also been warning that AI might kill us all."
 summary_zh = "人工智能领导者一直承诺人工智能是治愈人类疾病的关键。人类研究人员也警告说，人工智能可能会杀死我们所有人"
 tags = []
-list_page = 2
+list_page = 3
 +++
 
 <!-- AUTO-GENERATED: news page -->

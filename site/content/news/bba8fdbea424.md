@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "业界首个5A算电协同认证"
 summary_zh = ""
 tags = []
-list_page = 24
+list_page = 25
 +++
 
 <!-- AUTO-GENERATED: news page -->

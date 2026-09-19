@@ -20,7 +20,7 @@ ai_summary = "Snap 推出了“Specs Intelligence”，这是一款新的人工�
 summary = "Snap is introducing \"Specs Intelligence,\" a new AI assistant that can connect other digital accounts to help you with things like work tasks and keeping track of travel information."
 summary_zh = "Snap 推出了“Specs Intelligence”，这是一款新的人工智能助手，可以连接其他数字帐户，帮助您完成工作任务和跟踪旅行信息等事情。它看起来类似于 Meta 的 Muse 和 Gemini 的 Spark 等人工智能助手，尽管…"
 tags = []
-list_page = 12
+list_page = 13
 +++
 
 <!-- AUTO-GENERATED: news page -->
