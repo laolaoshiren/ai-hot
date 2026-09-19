@@ -20,7 +20,7 @@ ai_summary = "最近几周，一些最大的人工智能公司的领导人警告
 summary = "In recent weeks, leaders of some of the biggest AI companies have warned that the very tech they are developing is dangerous."
 summary_zh = "最近几周，一些最大的人工智能公司的领导人警告说，他们正在开发的技术非常危险。上周末，Anthropic 首席执行官达里奥·阿莫迪 (Dario Amodei) 表示，人工智能存在严重风险，进展应该放慢。 OpenAI 首席执行官 Sam A…"
 tags = []
-list_page = 6
+list_page = 7
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "该行为准则列出了微软人工智能模型应遵循的一般
 summary = "The code of conduct lays out general principles that Microsoft AI models should uphold — supporting humans rather than replacing them, for instance, and accelerating human flourishing — as well as specific safety constraints meant to implement those principles."
 summary_zh = "该行为准则列出了微软人工智能模型应遵循的一般原则——例如支持人类而不是取代人类，以及加速人类繁荣——以及旨在实施这些原则的具体安全限制"
 tags = []
-list_page = 23
+list_page = 24
 +++
 
 <!-- AUTO-GENERATED: news page -->

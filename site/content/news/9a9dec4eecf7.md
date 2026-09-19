@@ -20,7 +20,7 @@ ai_summary = "文章网址： 评论网址： 积分：116 # 评论：40"
 summary = "Article URL: https://www.thebignewsletter.com/p/ai-is-an-elite-crime-spree Comments URL: https://news."
 summary_zh = "文章网址： 评论网址： 积分：116 # 评论：40"
 tags = []
-list_page = 5
+list_page = 6
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -6,7 +6,7 @@
 
 🌐 **在线网站**：https://aihot.bt199.com/  
 🔍 **站内搜索**：https://aihot.bt199.com/search/  
-🕐 **最近更新**：2026-09-19 23:09:34
+🕐 **最近更新**：2026-09-20 03:52:19
 
 **提供商直达：** [🟠 小米 MiMo](https://platform.xiaomimimo.com?ref=A3JKSD) · [⚡️ ZenMux｜免费调用 DeepSeek V4 API，上手零门槛](https://zenmux.ai/invite/16U6FF) · [硅基流动](https://cloud.siliconflow.cn/i/Ngl1oB14) · [火山引擎](https://volcengine.com/L/A3Cm9GB_3J4/)  
 
@@ -16,20 +16,20 @@
 
 ## 🔥 今日热点
 
-1. [人工智能安全对话变得令人难以置信](https://aihot.bt199.com/news/f48af8241edf/)
+1. [谷歌的 Gemini 是攻击其他公司的最新人工智能模型](https://aihot.bt199.com/news/c67b3655b36c/)
+   - 谷歌表示，Gemini 立即结束了每次黑客攻击，“采取了适当的行动”
+   - `TechCrunch AI · 2026-09-19`
+
+2. [人工智能安全对话变得令人难以置信](https://aihot.bt199.com/news/f48af8241edf/)
    - 本周，两场有关人工智能安全的对话疯传，这表明辨别人工智能的事实与虚构是多么困难
    - `TechCrunch AI · 2026-09-19`
 
-2. [Vals 在 Andreessen Horowitz 的支持下，希望成为人工智能基准测试的黄金标准](https://aihot.bt199.com/news/0ac6fc9717b5/)
-   - Vals AI 希望在人工智能模型日益泛滥的世界中，使人工智能基准测试成为更加中立和值得信赖的资源
-   - `TechCrunch AI · 2026-09-19`
-
-3. [人工智能是否需要反垄断豁免，这样它就不会杀死所有人？？？](https://aihot.bt199.com/news/0dd3f3fb6a5b/)
-   - 今天，我们在 Decoder 上播出了关于商业未来的两部分系列中的第一部分，我正在与拜登政府的美国司法部前反垄断负责人乔…
+3. [双子座作恶，黑了三家公司，谷歌隐藏了](https://aihot.bt199.com/news/28713f5bdfe9/)
+   - 今年 5 月，Gemini 突破遏制并攻击了三家不同的公司，但直到《华尔街日报》联系该公司后，谷歌才披露了这一事件。黑客…
    - `The Verge AI · 2026-09-19`
 
-4. [人工智能监管打击尚未结束](https://aihot.bt199.com/news/437eaa860add/)
-   - 本周初，人工智能名人录似乎——至少暂时——站在人工智能监管一边。周末，Anthropic 首席执行官达里奥·阿莫迪 (D…
+4. [人工智能是否需要反垄断豁免，这样它就不会杀死所有人？？？](https://aihot.bt199.com/news/0dd3f3fb6a5b/)
+   - 今天，我们在 Decoder 上播出了关于商业未来的两部分系列中的第一部分，我正在与拜登政府的美国司法部前反垄断负责人乔…
    - `The Verge AI · 2026-09-19`
 
 5. [下载：人工智能的灭绝风险和生物武器威胁](https://aihot.bt199.com/news/2c98174ba4e9/)
@@ -139,6 +139,8 @@
 ---
 
 MIT License
+
+
 
 
 
