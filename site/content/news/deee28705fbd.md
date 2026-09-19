@@ -20,7 +20,7 @@ ai_summary = ""
 summary = "多多支持像王兴兴这样优秀的具身机器人创业者"
 summary_zh = ""
 tags = []
-list_page = 92
+list_page = 93
 +++
 
 <!-- AUTO-GENERATED: news page -->

@@ -20,7 +20,7 @@ ai_summary = "Manus 今年早些时候不得不终止与 Meta 的合并，目前
 summary = "Manus, which earlier this year had to break off a merger with Meta, is in discussions to raise $500M at a $4B valuation."
 summary_zh = "Manus 今年早些时候不得不终止与 Meta 的合并，目前正在讨论以 40 亿美元的估值筹集 5 亿美元"
 tags = []
-list_page = 3
+list_page = 4
 +++
 
 <!-- AUTO-GENERATED: news page -->
