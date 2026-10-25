@@ -3775,5 +3775,38 @@
     ],
     "score": 70,
     "icon_url": "https://www.google.com/s2/favicons?domain=ideahunter.today&sz=64"
+  },
+  {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "url": "https://www.vostride.com",
+    "description": "用自然语言测试 Web、Android 和 iOS，具备持久记忆与经验证的自我改进能力，提供 CLI、MCP 和 Skills。",
+    "category": "编程",
+    "pricing": "本地软件包免费；模型提供方可能另行收费",
+    "difficulty": 2,
+    "tags": [
+      "#testing",
+      "#agent",
+      "#mcp",
+      "#memory"
+    ],
+    "featured": false,
+    "trending": false,
+    "use_cases": "端到端回归测试、失败证据分析、测试知识复用",
+    "pros": [
+      "持久记忆可复用测试经验",
+      "经验通过验证后保留，持续改进后续测试",
+      "支持 Web、Android 和 iOS 以及 MCP 接入"
+    ],
+    "cons": [
+      "需 Node.js 24+ 与模型访问配置",
+      "移动端测试需配置相应设备或模拟器"
+    ],
+    "best_for": [
+      "开发者",
+      "测试工程师",
+      "AI 编程工具使用者"
+    ],
+    "icon_url": "https://www.google.com/s2/favicons?domain=vostride.com&sz=64"
   }
 ]
