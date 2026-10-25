@@ -3329,6 +3329,40 @@
     "icon_url": "https://www.google.com/s2/favicons?domain=resume.io&sz=64"
   },
   {
+    "id": "jobemerge",
+    "name": "JobEmerge",
+    "url": "https://www.jobemerge.work",
+    "description": "AI 求职助手，提供职位匹配分析、19 种语言简历翻译和 Markdown 简历编辑",
+    "category": "简历",
+    "pricing": "免费 + 一次性付费",
+    "free_quota": "职位匹配检查和翻译预览免费",
+    "difficulty": 1,
+    "tags": [
+      "#resume",
+      "#career",
+      "#translation"
+    ],
+    "use_cases": "职位匹配分析、多语言简历翻译、简历编辑、求职申请跟踪",
+    "pros": [
+      "支持 19 种预设语言和自定义语言",
+      "支持 PDF、Word、PNG 和 Markdown 导出"
+    ],
+    "cons": [
+      "完整职位匹配报告和完整正文翻译需要 Pro"
+    ],
+    "best_for": [
+      "求职者",
+      "跨语言求职者"
+    ],
+    "alternatives": [
+      "teal",
+      "rezi",
+      "jobscan"
+    ],
+    "score": 70,
+    "icon_url": "https://www.google.com/s2/favicons?domain=jobemerge.work&sz=64"
+  },
+  {
     "name": "Kickresume",
     "url": "https://kickresume.com",
     "description": "AI简历和求职信生成，个性化建议",
