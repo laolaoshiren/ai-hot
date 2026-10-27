@@ -3775,5 +3775,45 @@
     ],
     "score": 70,
     "icon_url": "https://www.google.com/s2/favicons?domain=ideahunter.today&sz=64"
+  },
+  {
+    "id": "respawnstack",
+    "name": "RespawnStack",
+    "url": "https://respawnstack.com",
+    "description": "面向游戏开发者的 AI 工具导航站，按美术、代码、音频、叙事与制作流程整理可落地的 AI 产品与定价信息",
+    "category": "效率",
+    "pricing": "免费浏览 + 精选订阅",
+    "free_quota": "目录浏览免费",
+    "difficulty": 1,
+    "tags": [
+      "#gamedev",
+      "#directory",
+      "#ai-tools",
+      "#productivity"
+    ],
+    "stars": null,
+    "trending": false,
+    "featured": false,
+    "use_cases": "查找游戏开发 AI 工具、对比定价与许可、按美术/代码/音频/叙事筛选方案",
+    "pros": [
+      "聚焦游戏开发垂直场景",
+      "按品类与定价整理，便于选型",
+      "覆盖美术、代码、音频与制作流程"
+    ],
+    "cons": [
+      "偏英文产品与社区语境",
+      "收录以公开信息为主，需自行验证"
+    ],
+    "best_for": [
+      "独立游戏开发者",
+      "游戏工作室",
+      "技术美术"
+    ],
+    "alternatives": [
+      "perplexity",
+      "ideahunter"
+    ],
+    "score": 72,
+    "icon_url": "https://www.google.com/s2/favicons?domain=respawnstack.com&sz=64"
   }
 ]
